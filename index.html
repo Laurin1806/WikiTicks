@@ -200,8 +200,8 @@ svg.watch { display: block; width: 100%; height: 100%; }
 .gallery .watchfig { margin: 0; padding: 14px 10px 12px; }
 .gallery .watchfig svg.watch { height: 230px; }
 .gallery .watchfig.main { border-color: var(--accent); }
-.gallery figcaption { display: grid; gap: 2px; font-size: 12px; color: var(--muted); }
-.gallery figcaption b { color: var(--fg); font-weight: 600; font-size: 12.5px; }
+.lexfig .watchfig figcaption, .gallery figcaption { display: grid; gap: 2px; font-size: 12px; color: var(--muted); }
+.lexfig .watchfig figcaption b, .gallery figcaption b { color: var(--fg); font-weight: 600; font-size: 12.5px; }
 .lexfig { margin: 6px 0 24px; display: grid; gap: 12px; }
 .diagram { margin: 0; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; gap: 8px; }
 .diagram-svg { width: 100%; max-height: 260px; }
@@ -222,6 +222,7 @@ a.watchfig:hover { border-color: var(--accent); }
 .art-list { margin: 0 0 14px; padding-left: 20px; display: grid; gap: 6px; }
 .art-list li::marker { color: var(--accent); }
 article .curbox { margin-top: 10px; }
+.gallery-inline { margin: 18px 0 8px; grid-template-columns: repeat(auto-fit, minmax(170px, 240px)); }
 .gallery-note { font-size: 12px; color: var(--muted); margin: 0 0 22px !important; }
 
 /* Marken, A–Z */
@@ -989,12 +990,18 @@ const shortName = e => e.brand ? e.t.replace(e.brand + " ", "") : e.t;
 const withVariant = (base, over) => { const o = { ...base }; Object.entries(over || {}).forEach(([k, val]) => { if (val === null) delete o[k]; else o[k] = val; }); return o; };
 // Bilder zu Lexikonartikeln: Schemazeichnung und/oder Beispielmodelle
 const NIGHT = { dial: "#060908", ink: "#2a3a2e", lume: "#86ffa4", hc: "#86ffa4", sec: "#86ffa4", case: "black", bezelColor: "#0b0d0c", strap: "rubber", strapColor: "#0d0f0e", top: [], bottom: [], brandText: "", origin: "" };
-function lexFigure(e) {
-  const fg = e.fig, ms = (fg.m || []).filter(id => byId[id]);
-  return `<div class="lexfig">
-    ${fg.d && DG[fg.d] ? `<figure class="diagram">${DG[fg.d]()}<figcaption>${esc(fg.dc || "Schemazeichnung, vereinfacht")}</figcaption></figure>` : ""}
-    ${ms.length ? `<div class="gallery">${ms.map((id, i) => `<a class="watchfig ${fg.night ? "night" : ""}" href="#${id}">${drawWatch(fg.night ? withVariant(byId[id].v, NIGHT) : byId[id].v, byId[id])}<figcaption><b>${esc(byId[id].t)}</b>${esc((fg.mc || [])[i] || "Beispielmodell")}</figcaption></a>`).join("")}</div>` : ""}
-  </div>`;
+// Lexikon-Bilder: höchstens drei pro Beitrag. Oben eins (Schemazeichnung oder erstes Beispielmodell), der Rest weiter unten.
+function lexFigures(e) {
+  const fg = e.fig || {}, ms = (fg.m || []).map((id, i) => [id, (fg.mc || [])[i]]).filter(([id]) => byId[id]);
+  const modelFig = ([id, cap]) => `<a class="watchfig ${fg.night ? "night" : ""}" href="#${id}">${drawWatch(fg.night ? withVariant(byId[id].v, NIGHT) : byId[id].v, byId[id])}<figcaption><b>${esc(byId[id].t)}</b>${esc(cap || "Beispielmodell")}</figcaption></a>`;
+  let top = "", rest = ms;
+  if (fg.d && DG[fg.d]) top = `<figure class="diagram">${DG[fg.d]()}<figcaption>${esc(fg.dc || "Schemazeichnung, vereinfacht")}</figcaption></figure>`;
+  else if (ms.length) { top = modelFig(ms[0]); rest = ms.slice(1); }
+  rest = rest.slice(0, 2);
+  return {
+    top: top ? `<div class="lexfig">${top}</div>` : "",
+    rest: rest.length ? `<div class="gallery gallery-inline">${rest.map(modelFig).join("")}</div>` : ""
+  };
 }
 const thumb = e => e.brand ? `<div class="thumb">${drawWatch(e.v, e)}</div>` : "";
 const card = (e, label) => `
@@ -1127,16 +1134,17 @@ function viewEntry(e) {
   const meta = e.brand ? `<p class="meta"><span>Hersteller <a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a></span><span>Erstvorstellung <b>${esc(e.since || "–")}</b></span>${e.designer ? `<span>Design <b>${esc(e.designer)}</b></span>` : ""}</p>` : "";
   if (e.brand) used.add("marke-" + slug(e.brand));
   const related = e.r.filter(id => byId[id] && id !== e.id);
+  const LF = e.brand ? null : lexFigures(e);
+  // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
+  const vars = e.brand ? (e.var || []).slice(0, 2) : [];
+  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, x.v), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
   return crumbs(trail) + `
     <article>
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
-      ${!e.brand && e.fig ? lexFigure(e) : ""}
-      ${e.brand ? (e.var && e.var.length ? `<div class="gallery">
-        <figure class="watchfig main">${drawWatch(e.v, e)}<figcaption><b>Aktuelle Ausführung</b>${esc(e.cur || "")}</figcaption></figure>
-        ${e.var.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, x.v), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}
-      </div><p class="gallery-note">Illustrationen, vereinfacht und nicht maßstabsgetreu</p>` : `<figure class="watchfig">${drawWatch(e.v, e)}<figcaption>Illustration der aktuellen Ausführung, vereinfacht und nicht maßstabsgetreu</figcaption></figure>`) : ""}
+      ${!e.brand ? LF.top : ""}
+      ${e.brand ? `<figure class="watchfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b> ${esc(e.cur)} · ` : ""}Illustration, vereinfacht und nicht maßstabsgetreu</figcaption></figure>` : ""}
       <p class="lead">${esc(e.s)}</p>
       ${(() => {
         const H = (key, title) => `<h3 class="art-h" id="sec-${key}">${title}</h3>`;
@@ -1150,7 +1158,7 @@ function viewEntry(e) {
           const timeline = tl.length >= 3 ? `<ol class="timeline">${tl.map(([y, t]) => `<li><span class="ty">${y}</span><span class="tt">${linkify(esc(t), e.id, used)}</span></li>`).join("")}</ol>` : "";
           const parts = [["geschichte", "Geschichte"], ...(timeline ? [["zeitleiste", "Zeitleiste"]] : []), ...(e.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ["technik", "Technik der aktuellen Ausführung"], ...(e.tipp ? [["sammler", "Wissenswert für Sammler und Käufer"]] : []), ...(e.refs ? [["referenzen", "Alle Referenzen"]] : [])];
           return `<nav class="toc" aria-label="Inhalt">${parts.map(([k, t]) => `<button type="button" data-sec="${k}">${t}</button>`).join("")}</nav>`
-            + H("geschichte", "Geschichte") + P(e.b)
+            + H("geschichte", "Geschichte") + P(e.b) + varGallery
             + (timeline ? H("zeitleiste", "Zeitleiste") + timeline : "")
             + (e.m ? H("merkmale", "Erkennungsmerkmale") + UL(e.m) : "")
             + H("technik", "Technik der aktuellen Ausführung") + facts
@@ -1161,6 +1169,7 @@ function viewEntry(e) {
         return H("grundlagen", person ? "Herkunft" : "Grundlagen") + P(e.b.slice(0, 1))
           + (e.g ? H("geschichte", "Geschichte") + P(e.g) : "")
           + (e.b.length > 1 ? H("detail", person ? "Leben und Werk" : "Im Detail") + P(e.b.slice(1)) : "")
+          + LF.rest
           + H("eckdaten", "Auf einen Blick") + facts;
       })()}
       ${related.length ? `<div class="label">Siehe auch</div><div class="rel">${related.map(id => `<a href="#${id}">${esc(byId[id].t)}</a>`).join("")}</div>` : ""}
