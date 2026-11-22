@@ -544,7 +544,7 @@ function drawWatch(v = {}, e = null) {
         const a = dir > 0 ? y : Math.max(to, y - H), b = dir > 0 ? Math.min(to, y + H) : y, w = hw((a + b) / 2) * 2, x0 = cx - w / 2;
         const seg = (fx, fw, fill, rr = 1.6, iy = .7, dy = 0) => `<rect x="${f1(x0 + w * fx + .6)}" y="${f1(a + iy + dy)}" width="${f1(w * fw - 1.2)}" height="${f1(Math.max(1, b - a - 2 * iy))}" rx="${rr}" fill="${fill}"/>`;
         if (st === "santos") { S.push(seg(0, .34, bru, 1.5), seg(.34, .32, pol, 1.5), seg(.66, .34, bru, 1.5)); [.17, .83].forEach(fx => S.push(`<circle cx="${f1(x0 + w * fx)}" cy="${f1((a + b) / 2)}" r="1.4" fill="${M[0]}" stroke="${M[2]}" stroke-width=".5"/><path d="M${f1(x0 + w * fx - .9)} ${f1((a + b) / 2)}h1.8" stroke="${M[2]}" stroke-width=".5"/>`)); }
-        else if (st === "oyster") S.push(seg(0, .35, bru), seg(.35, .3, v.polishedCenter ? pol : bru2), seg(.65, .35, bru));
+        else if (st === "oyster") S.push(seg(0, .28, bru), seg(.28, .44, v.polishedCenter ? pol : bru2), seg(.72, .28, bru)); // Oyster: äußere Glieder schmaler als das Mittelglied
         else if (st === "jubilee") S.push(seg(0, .3, bru), seg(.7, .3, bru), seg(.3, .13, pol, 2), seg(.57, .13, pol, 2), seg(.43, .14, pol, 2, .7, (k % 2 ? 1 : -1) * H / 2 * dir));
         else if (st === "president") S.push(seg(0, .34, pol, 5), seg(.34, .32, pol, 5), seg(.66, .34, pol, 5));
         else if (st === "integrated") S.push(seg(0, .4, bru, 1), seg(.6, .4, bru, 1), seg(.4, .2, pol, 1, 2.6), `<path d="M${f1(x0 + 1)} ${f1(a + 1)}h${f1(w * .4 - 2)}M${f1(x0 + w * .6 + 1)} ${f1(a + 1)}h${f1(w * .4 - 2)}" stroke="#fff" stroke-opacity=".55" stroke-width=".8"/>`);
