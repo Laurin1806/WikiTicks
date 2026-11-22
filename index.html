@@ -533,7 +533,7 @@ function drawWatch(v = {}, e = null) {
   const J = integ ? 44 : 86;
   // Royal-Oak-Band: Seiten fließen vom Endstück aus in einer weichen Kurve nach innen
   const hw = st === "ro"
-    ? y => { const t = Math.min(1, Math.max(0, (y < 130 ? 38 - y : y - 222) / 30)); return (80 - 26 * Math.pow(t, 1.4)) / 2; }
+    ? y => { const t = Math.min(1, Math.max(0, (y < 130 ? 54 - y : y - 206) / 36)); return (80 - 26 * Math.pow(t, 1.4)) / 2; }
     : y => (y < 130 ? sw - taper * Math.max(0, 1 - y / J) : sw - taper * Math.max(0, (y - (260 - J)) / J)) / 2;
   const trap = (y0, y1) => {
     if (st !== "ro") return `M${f1(cx - hw(y0))} ${y0}L${f1(cx + hw(y0))} ${y0}L${f1(cx + hw(y1))} ${y1}L${f1(cx - hw(y1))} ${y1}Z`;
@@ -608,7 +608,7 @@ function drawWatch(v = {}, e = null) {
         else if (st === "mesh") { S.push(`<path d="${trap(Math.min(from, to), Math.max(from, to))}" fill="${bru}"/>`); let d = ""; for (let yy = Math.min(from, to); yy < Math.max(from, to); yy += 2.2) d += `M${f1(cx - hw(yy))} ${f1(yy)}L${f1(cx + hw(yy))} ${f1(yy)}`; S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".6" opacity=".7"/>`); }
       }
     };
-    piece(86, 0); piece(174, 260);
+    if (st === "ro") { piece(84, 0); piece(176, 260); } else { piece(86, 0); piece(174, 260); } // Royal Oak: Gliederraster beginnt an der Gehäusekante
   } else {
     S.push(`<path d="${strapD}" fill="${strapC}"/>`);
     if (st === "leather") {
@@ -649,11 +649,7 @@ function drawWatch(v = {}, e = null) {
     else if (v.ro) {
       // Royal Oak nach Fotovorlage: kurze gerade Oberkante am Band, polierte Flanken schräg bis an die Lünette
       S.push(`<path d="M60 54 L140 54 L172 100 L172 160 L140 206 L60 206 L28 160 L28 100Z" fill="url(#${id}mu)"/><path d="M61 55.5 L28.8 101.5 M139 55.5 L171.2 101.5 M61 204.5 L28.8 158.5 M139 204.5 L171.2 158.5" stroke="#fff" stroke-opacity=".6" stroke-width="1.6"/>`);
-      // Endstück des Bands: volle Gehäusebreite, gebürstet, mit zwei Aussparungen für die polierten Zwischenglieder
-      const endp = (y0, y1, d) => { const a = Math.min(y0, y1), b = Math.max(y0, y1), x0 = 60, w = 80, sy = d < 0 ? a : b - 7;
-        return `<rect x="${x0}" y="${a}" width="${w}" height="${b - a}" fill="url(#${id}mu)"/>`
-          + [.3, .59].map(fx => `<rect x="${f1(x0 + w * fx)}" y="${sy}" width="${f1(w * .11)}" height="7" rx="1.2" fill="${mix(M[2], -.45)}"/>`).join(""); };
-      S.push(endp(38, 62, -1) + endp(198, 222, 1)); // Bandanstoß reicht bis kurz unter die Lünette
+      // kein separates Endstück: die Glieder schließen direkt an die Gehäusekante an
     }
     else S.push(`<path d="M58 42 Q100 34 142 42 L158 92 Q164 130 158 168 L142 218 Q100 226 58 218 L42 168 Q36 130 42 92Z" fill="${metal}"/><path d="M58 42 Q100 34 142 42" fill="none" stroke="#fff" stroke-opacity=".5"/>`);
     const [ox, oy, ix, iy, jx, jy, sx, sy] = v.ro ? [0, 0, 76, 72, 73, 69, 66, 62.5] : [80, 74, 71, 65, 67, 61, 72, 66];
