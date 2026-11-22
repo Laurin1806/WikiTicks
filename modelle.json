@@ -471,7 +471,8 @@
       "bezelTicks": "line",
       "hc": "#e9ecef",
       "handLume": "#e9dcb8",
-      "frame": null
+      "frame": null,
+      "brandDy": 6
      }
     },
     {

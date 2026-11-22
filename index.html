@@ -931,9 +931,11 @@ function drawWatch(v = {}, e = null) {
       else if (mk === "roman4" && i % 3 === 0) S.push(txt(a, rx - 9, ROMAN[i], 13, lume, 700));
       else if (mk === "roman") S.push(txt(a, rx - (shape === "rect" ? 4 : shape === "square" ? 12 : 9), ROMAN[i], shape === "rect" ? (i % 3 === 0 ? 8.5 : 7) : shape === "square" ? (i % 3 === 0 ? 11 : 9.5) : (i % 3 === 0 ? 11 : 9), ink, 500));
       else if (mk === "freccione") {
-        const c = i === 0 ? null : i % 3 === 0 ? [4.6, 13] : [3.4, 9];
-        if (i === 0) S.push(`<polygon points="${f1(x - 8)},${f1(y - 5)} ${f1(x + 8)},${f1(y - 5)} ${f1(x)},${f1(y + 15)}" fill="${lume}"/>`);
-        else S.push(`<rect x="${f1(x - c[0] / 2)}" y="${f1(y - c[1] / 2)}" width="${c[0]}" height="${c[1]}" rx=".6" fill="${lume}" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`);
+        // Stundenindizes nach innen versetzt (reichen nicht bis zum Rand); dazwischen kurze Leuchtbalken nur am Rand, bis dort, wo die Stundenindizes beginnen
+        const c = i === 0 ? null : i % 3 === 0 ? [4.6, 13] : [3.4, 9], [hx, hy] = at(a, c ? 4.5 + c[1] / 2 : 0);
+        if (i === 0) { const [tx, ty] = at(a, 4.5); S.push(`<polygon points="${f1(tx - 7)},${f1(ty)} ${f1(tx + 7)},${f1(ty)} ${f1(tx)},${f1(ty + 15)}" fill="${lume}"/>`); }
+        else S.push(`<rect x="${f1(hx - c[0] / 2)}" y="${f1(hy - c[1] / 2)}" width="${c[0]}" height="${c[1]}" rx=".6" fill="${lume}" transform="rotate(${a} ${f1(hx)} ${f1(hy)})"/>`);
+        const [px, py] = at(a + 15, 0.5); S.push(`<rect x="${f1(px - 1.3)}" y="${f1(py - 4)}" width="2.6" height="8" rx=".5" fill="${lume}" transform="rotate(${a + 15} ${f1(px)} ${f1(py)})"/>`);
       }
       else if (mk === "dots" || mk === "explorer") {
         // optional kleinere und weiter innen liegende Indizes (mScale, mInset)
