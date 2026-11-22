@@ -512,6 +512,7 @@ function drawWatch(v = {}, e = null) {
     <radialGradient id="${id}g" cx=".3" cy=".18" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></radialGradient>
     <linearGradient id="${id}k" x1="0" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <linearGradient id="${id}rv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${M[2]}"/><stop offset=".45" stop-color="${mix(M[0], .3)}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
+    <linearGradient id="${id}mu" gradientUnits="userSpaceOnUse" x1="28" y1="20" x2="172" y2="240"><stop offset="0" stop-color="${M[0]}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
     <linearGradient id="${id}sat" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], -.22)}"/><stop offset=".18" stop-color="${mix(M[1], .1)}"/><stop offset=".55" stop-color="${mix(M[1], .18)}"/><stop offset=".85" stop-color="${M[1]}"/><stop offset="1" stop-color="${mix(M[1], -.28)}"/></linearGradient>
     <radialGradient id="${id}az"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></radialGradient>
     <filter id="${id}s" x="-20%" y="-10%" width="140%" height="125%"><feDropShadow dx="0" dy="4" stdDeviation="4.5" flood-opacity=".28"/></filter>
@@ -592,7 +593,7 @@ function drawWatch(v = {}, e = null) {
         }
         else if (st === "ro") {
           // Royal-Oak-Band nach Fotovorlage: breite gebürstete Querglieder, dazwischen kleine polierte Zwischenglieder (um eine halbe Reihe versetzt)
-          const sat = `url(#${id}sat)`, half = -dir * H / 2;
+          const sat = `url(#${id}mu)`, half = -dir * H / 2; // Band in derselben Farbe wie das Gehäuse
           S.push(seg(0, .29, sat, 1), seg(.29, .13, mix(M[2], -.35), .6), seg(.42, .16, sat, 1), seg(.58, .13, mix(M[2], -.35), .6), seg(.71, .29, sat, 1));
           S.push(seg(.30, .11, pol, 1.4, 2, half), seg(.59, .11, pol, 1.4, 2, half));
           S.push(`<path d="M${f1(x0 + 1)} ${f1(a + 1)}h${f1(w - 2)}" stroke="#fff" stroke-opacity=".35" stroke-width=".6"/>`);
@@ -647,10 +648,10 @@ function drawWatch(v = {}, e = null) {
     if (v.roundBase) S.push(`<path d="M${cx - 44} ${cy - 62} L${cx + 44} ${cy - 62} L${cx + 40} ${cy - 86} L${cx - 40} ${cy - 86}Z M${cx - 44} ${cy + 62} L${cx + 44} ${cy + 62} L${cx + 40} ${cy + 86} L${cx - 40} ${cy + 86}Z" fill="${M[1]}" stroke="${M[2]}" stroke-width=".7"/><circle cx="${cx}" cy="${cy}" r="78" fill="${metal}" stroke="${M[2]}" stroke-width=".8"/>`);
     else if (v.ro) {
       // Royal Oak nach Fotovorlage: kurze gerade Oberkante am Band, polierte Flanken schräg bis an die Lünette
-      S.push(`<path d="M60 54 L140 54 L172 100 L172 160 L140 206 L60 206 L28 160 L28 100Z" fill="${metal}"/><path d="M61 55.5 L28.8 101.5 M139 55.5 L171.2 101.5 M61 204.5 L28.8 158.5 M139 204.5 L171.2 158.5" stroke="#fff" stroke-opacity=".6" stroke-width="1.6"/>`);
+      S.push(`<path d="M60 54 L140 54 L172 100 L172 160 L140 206 L60 206 L28 160 L28 100Z" fill="url(#${id}mu)"/><path d="M61 55.5 L28.8 101.5 M139 55.5 L171.2 101.5 M61 204.5 L28.8 158.5 M139 204.5 L171.2 158.5" stroke="#fff" stroke-opacity=".6" stroke-width="1.6"/>`);
       // Endstück des Bands: volle Gehäusebreite, gebürstet, mit zwei Aussparungen für die polierten Zwischenglieder
       const endp = (y0, y1, d) => { const a = Math.min(y0, y1), b = Math.max(y0, y1), x0 = 60, w = 80, sy = d < 0 ? a : b - 7;
-        return `<rect x="${x0}" y="${a}" width="${w}" height="${b - a}" fill="url(#${id}sat)" stroke="${M[2]}" stroke-width=".6"/><path d="M${x0} ${d < 0 ? b - .5 : a + .5}h${w}" stroke="#fff" stroke-opacity=".5"/>`
+        return `<rect x="${x0}" y="${a}" width="${w}" height="${b - a}" fill="url(#${id}mu)"/>`
           + [.3, .59].map(fx => `<rect x="${f1(x0 + w * fx)}" y="${sy}" width="${f1(w * .11)}" height="7" rx="1.2" fill="${mix(M[2], -.45)}"/>`).join(""); };
       S.push(endp(38, 62, -1) + endp(198, 222, 1)); // Bandanstoß reicht bis kurz unter die Lünette
     }
