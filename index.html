@@ -685,14 +685,14 @@ function drawWatch(v = {}, e = null) {
     // Rolex-Krone: verschraubte Krone mit Tubus und Riffelung; neue Modelle groß (Triplock), ältere klein (Twinlock)
     const bigc = v.crown === "big", ex = edgeX(crownY), cw = vint ? 9 : bigc ? 14 : 12, ch = vint ? 14 : bigc ? 21 : 19, tw = vint ? 4 : 5, th = vint ? 7 : 9;
     S.push(`<rect x="${f1(ex - 2)}" y="${crownY - th / 2}" width="${tw + 2}" height="${th}" fill="${M[2]}"/>`);
-    const x0 = ex + tw - .5;
+    const x0 = ex + (vint ? .5 : 1); // Krone sitzt nah am Gehäuse, nur ein kurzes Stück Tubus sichtbar
     S.push(`<rect x="${f1(x0)}" y="${crownY - ch / 2}" width="${cw}" height="${ch}" rx="${vint ? 2 : 2.6}" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
     let d = ""; for (let k = 1.6; k < ch - 1; k += vint ? 1.8 : 1.6) d += `M${f1(x0 + 1.4)} ${f1(crownY - ch / 2 + k)}h${cw - 2.8}`;
     S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".55" opacity=".85"/><rect x="${f1(x0 + cw - 2.2)}" y="${crownY - ch / 2 + 1.5}" width="1.6" height="${ch - 3}" rx=".8" fill="#fff" fill-opacity=".45"/>`);
     if (v.guards) {
       // Kronenschutz oberhalb und unterhalb der Krone; neu: breite, runde Schultern, alt: kleine, spitze Form
       // Kronenschutz: runde Schultern ober- und unterhalb der Krone; neue Modelle weit nach oben und unten gezogen, ältere kleiner
-      const H = vint ? 18 : 30, I = ch / 2 + .1, W = vint ? 8 : 12;
+      const H = vint ? 16 : 27, I = ch / 2 + .1, W = (x0 - ex) + cw * .6; // Schutz deckt gut die Hälfte der Krone ab
       const lobe = k => `M${f1(edgeX(crownY + k * H) - 1)} ${crownY + k * H}Q${f1(ex + W + 1)} ${crownY + k * (H - 5)} ${f1(ex + W)} ${f1(crownY + k * (I + 1.4))}Q${f1(ex + W - .5)} ${f1(crownY + k * I)} ${f1(ex + W - 3)} ${f1(crownY + k * I)}L${f1(ex - 1)} ${f1(crownY + k * I)}Z`;
       S.push(`<path d="${lobe(-1)}${lobe(1)}" fill="${metal}" stroke="${M[2]}" stroke-width=".5"/>`);
       S.push(`<path d="M${f1(ex + 2)} ${crownY - H + 3}Q${f1(ex + W - 1)} ${crownY - H + 7} ${f1(ex + W - 1.5)} ${f1(crownY - I - 2)}" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="${vint ? .7 : .9}"/>`);
