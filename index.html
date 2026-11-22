@@ -523,7 +523,7 @@ function drawWatch(v = {}, e = null) {
   let st = v.strap || (["Rolex", "Tudor"].includes(brand) ? "oyster" : "link3"); if (st === "bracelet") st = "oyster"; // Oyster nur bei Rolex/Tudor als Standard
   const metalBand = ["santos", "oyster", "link3", "omega", "jubilee", "president", "integrated", "rouleaux", "panther", "mesh"].includes(st);
   const integ = (st === "integrated" || shape === "porthole") && ["porthole", "octagon", "tonneau"].includes(shape);
-  const sw = shape === "rect" ? 72 : shape === "triangle" ? 56 : integ ? { porthole: 90, octagon: 84, tonneau: 84 }[shape] : 64;
+  const sw = shape === "rect" ? 76 : shape === "triangle" ? 60 : integ ? { porthole: 90, octagon: 84, tonneau: 84 }[shape] : 76;
   const taper = shape === "porthole" ? 6 : integ ? 22 : 10;
   const strapC = v.strapColor || (st === "leather" ? "#4a2f20" : st === "nato" ? "#4f5236" : "#1c1d20");
   // integrierte Bänder behalten bis zum Gehäuse die volle Breite und verjüngen sich erst danach
