@@ -289,6 +289,17 @@ article .curbox { margin-top: 10px; }
 .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 24px; }
 .letters button { font: inherit; font-family: var(--font-mono); font-size: 13px; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); cursor: pointer; }
 .letters button:hover { border-color: var(--accent); color: var(--accent); }
+.vtoggle { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin: 4px 0 14px; background: var(--surface); }
+.vtoggle button { font: inherit; font-size: 13px; font-weight: 600; padding: 7px 14px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.vtoggle button + button { border-left: 1px solid var(--line); }
+.vtoggle button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.vhead { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; }
+.mlist { list-style: none; margin: 0 0 24px; padding: 0; }
+.mlist li { padding: 12px 0; border-top: 1px solid var(--line); }
+.mlist li a { font-weight: 600; text-decoration: none; }
+.mlist li a:hover { text-decoration: underline; }
+.mlist li span { color: var(--muted); font-size: 14px; }
+.mlist li small { color: var(--gold); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; font-weight: 600; margin-left: 8px; }
 .azgroup { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
 .azgroup > h3 { font-family: var(--font-display); font-weight: 400; font-size: 2.2rem; line-height: 1; margin: 0; color: var(--accent); }
 .azgroup ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
@@ -1258,12 +1269,16 @@ function viewHome() {
     </section>`;
 }
 
+let listMode = false;
+try { listMode = localStorage.getItem("wikiticks-view") === "list"; } catch (e) {}
+const vtoggle = () => `<div class="vtoggle" role="group" aria-label="Ansicht"><button type="button" data-v="cards" aria-pressed="${!listMode}">Karten</button><button type="button" data-v="list" aria-pressed="${listMode}">Liste</button></div>`;
+
 function viewModels() {
   return crumbs([["Startseite", ""], ["Uhrenmodelle"]]) +
     (MODELS.length ? dailyCard(ofTheDay(MODELS, 11), "Uhr des Tages") : "") + `
-    <h2 class="section-title">Marken</h2>
-    <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(MODELS.length, "Modell", "Modelle")}</p>
-    <div class="grid">${BRANDS.map(b => {
+    <div class="vhead"><div><h2 class="section-title">Marken</h2>
+    <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(MODELS.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
+    ${listMode ? brandList() : `<div class="grid">${BRANDS.map(b => {
       const ms = MODELS.filter(e => e.brand === b), info = BRAND_INFO[b];
       return `
       <a class="card" href="#marke-${slug(b)}">
@@ -1271,7 +1286,18 @@ function viewModels() {
         <h3>${esc(b)}</h3>
         <p>${esc(ms.map(shortName).sort((x, y) => x.localeCompare(y, "de")).join(", "))}</p>
       </a>`;
-    }).join("")}</div>`;
+    }).join("")}</div>`}`;
+}
+
+function brandList() {
+  const groups = {};
+  BRANDS.slice().sort((a, b) => a.localeCompare(b, "de")).forEach(b => { const l = b[0].toUpperCase().normalize("NFD")[0]; (groups[l] = groups[l] || []).push(b); });
+  const letters = Object.keys(groups);
+  return `<div class="letters">${letters.map(l => `<button type="button" data-l="${l}">${l}</button>`).join("")}</div>` + letters.map(l => `
+    <div class="azgroup" id="az-${l}"><h3>${l}</h3><ul>
+      ${groups[l].map(b => { const ms = MODELS.filter(e => e.brand === b), info = BRAND_INFO[b];
+        return `<li><a href="#marke-${slug(b)}">${esc(b)}</a><small>${info ? "gegründet " + esc(info.gegruendet) + " · " : ""}${plural(ms.length, "Modell", "Modelle")}</small><br><span>${esc(ms.map(shortName).sort((x, y) => x.localeCompare(y, "de")).join(", "))}</span></li>`; }).join("")}
+    </ul></div>`).join("");
 }
 
 function viewBrand(b) {
@@ -1287,15 +1313,17 @@ function viewBrand(b) {
       ${(info.abschnitte || []).map(([h, ps]) => `<h3 class="art-h">${esc(h)}</h3>${ps.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}`).join("")}
       ${info.zeit ? `<h3 class="art-h">Zeitleiste</h3><ol class="timeline">${info.zeit.map(([y, t]) => `<li><span class="ty">${esc(y)}</span><span class="tt">${linkify(esc(t), "marke-" + slug(b), used)}</span></li>`).join("")}</ol>` : ""}
     </article>` : ""}` : ""}
-    <h3 class="section-title">Modelle</h3>
-    <p class="count">${plural(ms.length, "Modell", "Modelle")}</p>
-    <div class="grid">${ms.map(e => `
+    <div class="vhead"><div><h3 class="section-title">Modelle</h3>
+    <p class="count">${plural(ms.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
+    ${listMode
+      ? `<ul class="mlist">${ms.map(e => `<li><a href="#${e.id}">${esc(shortName(e))}</a><small>${esc(e.since ? "seit " + e.since : "Modell")}</small><br><span>${esc(e.s)}</span></li>`).join("")}</ul>`
+      : `<div class="grid">${ms.map(e => `
       <a class="card" href="#${e.id}">
         ${thumb(e)}
         <span class="cat">${esc(e.since ? "seit " + e.since : "Modell")}</span>
         <h3>${esc(shortName(e))}</h3>
         <p>${esc(e.s)}</p>
-      </a>`).join("")}</div>`;
+      </a>`).join("")}</div>`}`;
 }
 
 function viewCategory(c) {
@@ -1474,6 +1502,8 @@ $("#q").addEventListener("input", ev => { q = ev.target.value; route(); });
 $("#view").addEventListener("click", ev => {
   const t = ev.target.closest(".toc button");
   if (t) document.getElementById("sec-" + t.dataset.sec)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  const vt = ev.target.closest(".vtoggle button");
+  if (vt) { listMode = vt.dataset.v === "list"; try { localStorage.setItem("wikiticks-view", listMode ? "list" : "cards"); } catch (e) {} const y = scrollY; route(); scrollTo({ top: y }); return; }
   const b = ev.target.closest(".letters button");
   if (b) document.getElementById("az-" + b.dataset.l)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
 });
