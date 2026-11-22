@@ -538,7 +538,7 @@ function drawWatch(v = {}, e = null) {
     const big = metalBand, lyre = v.lugs === "lyre" || v.lugs === "taper"; // taper: schlanke, gerade Flanken (Day-Date, Datejust)
     // Rolex-Sportmodelle nach Fotovorlage (Submariner): Anstöße stehen deutlich über, Flanke fast senkrecht und lang, kantige Spitze
     const rx = brand === "Rolex" && big && !lyre;
-    const lw = sw + (lyre ? 20 : vint ? 14 : rx ? 22 : big ? 26 : 16), lx = cx - lw / 2, y0 = vint ? 48 : rx ? 46 : big || lyre ? 43 : 48, out = lyre ? -6 : vint ? 12 : rx ? 20 : big ? 14 : 5, r = lyre ? 9 : vint ? 1.5 : rx ? 2.5 : big ? 6 : 4;
+    const lw = sw + (lyre ? 20 : vint ? 18 : rx ? 22 : big ? 26 : 16), lx = cx - lw / 2, y0 = vint ? 47 : rx ? 46 : big || lyre ? 43 : 48, out = lyre ? -6 : vint ? 16 : rx ? 20 : big ? 14 : 5, r = lyre ? 9 : vint ? 1.5 : rx ? 2.5 : big ? 6 : 4;
     // Außenkante: bei Lyra-Anstößen (Speedmaster) als weicher runder Bogen, sonst geschwungen zum Gehäuse hin (wie bei der Submariner)
     const edge = (x0, t, e, k) => { const d = e > t ? 1 : -1;
       return lyre ? `C${x0 + k * 7} ${t + d * 14} ${x0 + k * 6} ${e - d * 30} ${x0 + k * out} ${e}` : rx ? `L${x0 + k * out} ${e}` : `Q${x0 + k * 1} ${t + d * 26} ${x0 + k * out} ${e}`; }; // Rolex-Sport: gerade Schräge nach außen
@@ -680,9 +680,10 @@ function drawWatch(v = {}, e = null) {
   if (v.asym) right = 180;
   const cr = v.crown === "onion" ? [18, 24] : v.crown === "big" ? [16, 20] : [9, 15];
   const cxr = v.crownLeft ? edgeX(crownY, true) - cr[0] + 2 : edgeX(crownY) - 2;
-  if (brand === "Rolex" && !v.crown && shape === "round" && !v.crownLeft) {
+  const rcrown = (brand === "Rolex" || brand === "Tudor") && (!v.crown || v.crown === "big") && shape === "round" && !v.crownLeft;
+  if (rcrown) {
     // Rolex-Krone: verschraubte Krone mit Tubus und Riffelung; neue Modelle groß (Triplock), ältere klein (Twinlock)
-    const ex = edgeX(crownY), cw = vint ? 9 : 12, ch = vint ? 14 : 19, tw = vint ? 4 : 5, th = vint ? 7 : 9;
+    const bigc = v.crown === "big", ex = edgeX(crownY), cw = vint ? 9 : bigc ? 14 : 12, ch = vint ? 14 : bigc ? 21 : 19, tw = vint ? 4 : 5, th = vint ? 7 : 9;
     S.push(`<rect x="${f1(ex - 2)}" y="${crownY - th / 2}" width="${tw + 2}" height="${th}" fill="${M[2]}"/>`);
     const x0 = ex + tw - .5;
     S.push(`<rect x="${f1(x0)}" y="${crownY - ch / 2}" width="${cw}" height="${ch}" rx="${vint ? 2 : 2.6}" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
@@ -703,7 +704,7 @@ function drawWatch(v = {}, e = null) {
   if (v.crown2) S.push(`<rect x="${f1(edgeX(crownY - 40) - 3)}" y="${crownY - 47}" width="10" height="14" rx="3" fill="${metal}"/>`);
   if (v.lever) S.push(`<path d="M${right - 6} ${crownY - 22} Q${right + 22} ${crownY - 10} ${right + 20} ${crownY + 12} L${right - 4} ${crownY + 22}" fill="${metal}" stroke="${M[2]}" stroke-width=".8"/>`);
   if (v.guards && shape === "square") S.push(`<path d="M${right - 2} ${crownY - 14} q10 4 10 14 q0 10 -10 14z" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
-  else if (v.guards && !(brand === "Rolex" && !v.crown && shape === "round" && !v.crownLeft)) { const gx = edgeX(crownY) - 4; S.push(`<path d="M${f1(gx)} ${crownY - 16} l12 6 v20 l-12 6z" fill="${metal}"/>`); }
+  else if (v.guards && !rcrown) { const gx = edgeX(crownY) - 4; S.push(`<path d="M${f1(gx)} ${crownY - 16} l12 6 v20 l-12 6z" fill="${metal}"/>`); }
   if (v.crown === "onion") { const ox = cxr + cr[0] / 2; S.push(`<path d="M${cxr} ${crownY - 12} Q${ox + 12} ${crownY - 14} ${cxr + cr[0]} ${crownY} Q${ox + 12} ${crownY + 14} ${cxr} ${crownY + 12}Z" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`); }
   if (v.pushers) [-34, 34].forEach(dy => {
     const y = crownY + dy, ex = edgeX(y, v.crownLeft);

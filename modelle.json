@@ -3533,7 +3533,8 @@
     "bottom": [
      "PELAGOS",
      "500 m – 1640 ft"
-    ]
+    ],
+    "guards": true
    },
    "m": [
     "Gehäuse und Band aus Titan",
