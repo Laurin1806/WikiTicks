@@ -652,7 +652,7 @@ function drawWatch(v = {}, e = null) {
       const endp = (y0, y1, d) => { const a = Math.min(y0, y1), b = Math.max(y0, y1), x0 = 60, w = 80, sy = d < 0 ? a : b - 7;
         return `<rect x="${x0}" y="${a}" width="${w}" height="${b - a}" fill="url(#${id}sat)" stroke="${M[2]}" stroke-width=".6"/><path d="M${x0} ${d < 0 ? b - .5 : a + .5}h${w}" stroke="#fff" stroke-opacity=".5"/>`
           + [.3, .59].map(fx => `<rect x="${f1(x0 + w * fx)}" y="${sy}" width="${f1(w * .11)}" height="7" rx="1.2" fill="${mix(M[2], -.45)}"/>`).join(""); };
-      S.push(endp(38, 54, -1) + endp(206, 222, 1));
+      S.push(endp(38, 62, -1) + endp(198, 222, 1)); // Bandanstoß reicht bis kurz unter die Lünette
     }
     else S.push(`<path d="M58 42 Q100 34 142 42 L158 92 Q164 130 158 168 L142 218 Q100 226 58 218 L42 168 Q36 130 42 92Z" fill="${metal}"/><path d="M58 42 Q100 34 142 42" fill="none" stroke="#fff" stroke-opacity=".5"/>`);
     const [ox, oy, ix, iy, jx, jy, sx, sy] = v.ro ? [0, 0, 76, 72, 73, 69, 66, 62.5] : [80, 74, 71, 65, 67, 61, 72, 66];
