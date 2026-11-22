@@ -123,7 +123,17 @@ nav a.more { color: var(--accent); font-weight: 500; }
 .empty { padding: 30px 0; color: var(--muted); }
 
 /* Artikel */
-article { max-width: 70ch; }
+article { max-width: calc(70ch + 360px); }
+article > :not(.topfig) { max-width: 70ch; }
+/* Erstes Bild oben rechts, Text fließt links daneben */
+article .topfig { float: right; width: 320px; margin: 4px 0 20px 36px; }
+article .topfig.watchfig svg.watch { height: 280px; }
+article .topfig .watchfig { margin: 0; }
+article .lexfig.topfig { width: 380px; }
+article .topfig figcaption b { display: block; }
+article .gallery-inline, article .refs-wrap, article .curbox, article .timeline { clear: right; }
+@media (max-width: 1100px) { article .topfig { width: 260px; margin-left: 24px; } article .topfig.watchfig svg.watch { height: 230px; } }
+@media (max-width: 760px) { article .topfig { float: none; width: auto; margin: 6px 0 20px; } }
 article .cat { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--gold); font-weight: 600; }
 article h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3rem); line-height: 1.05; margin: 6px 0 12px; text-wrap: balance; }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0 0 16px; font-size: 13px; color: var(--muted); }
@@ -204,7 +214,7 @@ svg.watch { display: block; width: 100%; height: 100%; }
 .lexfig .watchfig figcaption b, .gallery figcaption b { color: var(--fg); font-weight: 600; font-size: 12.5px; }
 .lexfig { margin: 6px 0 24px; display: grid; gap: 12px; }
 .diagram { margin: 0; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; gap: 8px; }
-.diagram-svg { width: 100%; max-height: 260px; }
+.diagram-svg { width: 100%; max-height: 260px; overflow: visible; }
 .diagram figcaption { font-size: 12px; color: var(--muted); text-align: center; }
 a.watchfig { text-decoration: none; color: inherit; }
 a.watchfig:hover { border-color: var(--accent); }
@@ -999,7 +1009,7 @@ function lexFigures(e) {
   else if (ms.length) { top = modelFig(ms[0]); rest = ms.slice(1); }
   rest = rest.slice(0, 2);
   return {
-    top: top ? `<div class="lexfig">${top}</div>` : "",
+    top: top ? `<div class="lexfig topfig">${top}</div>` : "",
     rest: rest.length ? `<div class="gallery gallery-inline">${rest.map(modelFig).join("")}</div>` : ""
   };
 }
@@ -1140,11 +1150,10 @@ function viewEntry(e) {
   const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, x.v), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
   return crumbs(trail) + `
     <article>
+      ${e.brand ? `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}Illustration, vereinfacht</figcaption></figure>` : LF.top}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
-      ${!e.brand ? LF.top : ""}
-      ${e.brand ? `<figure class="watchfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b> ${esc(e.cur)} · ` : ""}Illustration, vereinfacht und nicht maßstabsgetreu</figcaption></figure>` : ""}
       <p class="lead">${esc(e.s)}</p>
       ${(() => {
         const H = (key, title) => `<h3 class="art-h" id="sec-${key}">${title}</h3>`;
