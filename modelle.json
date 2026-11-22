@@ -431,7 +431,7 @@
     "hands": "mercedes",
     "lollipop": true,
     "guards": true,
-    "dial": "#f3f2ee",
+    "dial": "#fdfdfc",
     "bezel": "fixed24",
     "date": "cyclops",
     "gmt": "#e8601c",
@@ -442,7 +442,8 @@
      "EXPLORER II",
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
-    ]
+    ],
+    "handLume": "#f8f8f5"
    },
    "var": [
     {
@@ -519,7 +520,7 @@
     "n": "Ref. 16570 »Polar«",
     "y": "1989–2011",
     "v": {
-     "dial": "#f6f6f3",
+     "dial": "#fdfdfc",
      "lume": "#f8f8f5",
      "frame": "#1d2128",
      "ink": "#1d2128",

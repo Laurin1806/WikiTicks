@@ -553,7 +553,7 @@ function drawWatch(v = {}, e = null) {
 
   S.push(`<defs>
     <linearGradient id="${id}m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${M[0]}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
-    <radialGradient id="${id}d" cx=".38" cy=".32" r=".85"><stop offset="0" stop-color="${mix(dc, dark ? .2 : .12)}"/><stop offset="1" stop-color="${mix(dc, -.14)}"/></radialGradient>
+    <radialGradient id="${id}d" cx=".38" cy=".32" r=".85"><stop offset="0" stop-color="${mix(dc, dark ? .2 : .12)}"/><stop offset="1" stop-color="${mix(dc, lum(dc) > .9 ? -.05 : -.14)}"/></radialGradient>
     <linearGradient id="${id}cy" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"/><stop offset=".24" stop-color="#000" stop-opacity="0"/><stop offset=".7" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#000" stop-opacity=".4"/></linearGradient>
     <linearGradient id="${id}p" x1="0" x2="1"><stop offset="0" stop-color="${M[2]}"/><stop offset=".45" stop-color="${mix(M[0], .3)}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
     <radialGradient id="${id}g" cx=".3" cy=".18" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></radialGradient>
@@ -822,8 +822,13 @@ function drawWatch(v = {}, e = null) {
       else S.push(ticks(B + 1, B - 1, 6, bInk, .6));
     } else if (b === "fixed24" || b === "yacht") {
       S.push(ring(70, B, b === "yacht" ? (v.bezelColor || M[0]) : M[1]));
-      S.push(ticks(69, 66, 15, b === "yacht" ? "#2a2d33" : M[2], 1.2));
-      [60, 120, 180, 240, 300].forEach((a, i) => S.push(rtxt(a, (70 + B) / 2, b === "yacht" ? String((i + 1) * 10) : String((i + 1) * 4), 7.5, b === "yacht" ? "#2a2d33" : M[2], 700)));
+      if (b === "yacht") S.push(ticks(69, 66, 15, "#2a2d33", 1.2));
+      if (b === "fixed24") {
+        for (let k = 0; k < 24; k++) { const a = k * 15, r = (70 + B) / 2;
+          if (k % 2 === 0) S.push(rtxt(a, r, String(k === 0 ? 24 : k), 10.5, "#1d2128", 800));
+          else { const [x, y] = P(a, r); S.push(`<polygon points="${f1(x - 1.6)},${f1(y - 1.2)} ${f1(x + 1.6)},${f1(y - 1.2)} ${f1(x)},${f1(y + 1.6)}" fill="#1d2128" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`); }
+        }
+      } else [60, 120, 180, 240, 300].forEach((a, i) => S.push(rtxt(a, (70 + B) / 2, b === "yacht" ? String((i + 1) * 10) : String((i + 1) * 4), 7.5, b === "yacht" ? "#2a2d33" : M[2], 700)));
     } else if (b === "roman") {
       S.push(ring(70, B, M[0]));
       [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].forEach((a, i) => S.push(rtxt(a, (70 + B) / 2, ROMAN[i], 6, M[2], 700)));
@@ -1013,6 +1018,7 @@ function drawWatch(v = {}, e = null) {
     if (isHour && style === "mercedes") s += `<circle cx="${x}" cy="${y - L * .7}" r="${w * 1.25}" fill="${col}"/><circle cx="${x}" cy="${y - L * .7}" r="${w * .7}" fill="${dc}"/>`;
     if (isHour && style === "snowflake") s += `<rect x="${x - w}" y="${y - L * .78 - w}" width="${w * 2}" height="${w * 2}" fill="${col}" transform="rotate(45 ${x} ${y - L * .78})"/>`;
     if (isHour && style === "arrow") s += `<polygon points="${x - w * 1.6},${y - L + 10} ${x + w * 1.6},${y - L + 10} ${x},${y - L - 4}" fill="${col}"/>`;
+    if (v.handLume && style === "baton") s += `<rect x="${f1(x - w * .22)}" y="${f1(y - L + 3)}" width="${f1(w * .44)}" height="${f1(L * (isHour ? .58 : .78))}" rx="${f1(w * .2)}" fill="${v.handLume}"/>`; // Leuchtstreifen mittig im Zeiger
     return `<g transform="rotate(${a} ${x} ${y})">${s}</g>`;
   };
   const hs = v.hands || "baton";
