@@ -414,6 +414,8 @@ function shuffled(seed, list) {
   return a;
 }
 // Jeder Eintrag kommt einmal dran, bevor sich einer wiederholt
+// Artikel des Tages von Hand festlegen (ID eines Eintrags); leer lassen ("") für die automatische tägliche Auswahl
+const ARTIKEL_DES_TAGES = "gmt-master-2";
 function ofTheDay(list, salt) {
   const period = Math.floor(today() / MAIN_DAYS), round = Math.floor(period / list.length);
   return shuffled(round * 40503 + salt, list)[period % list.length];
@@ -1190,7 +1192,7 @@ function dailyCard(M, kicker) {
 
 // ---------- Ansichten ----------
 function viewHome() {
-  const M = ofTheDay(E, 7), F = featured(M.id);
+  const M = (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || ofTheDay(E, 7), F = featured(M.id);
   return dailyCard(M, "Artikel des Tages") + `
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
