@@ -133,7 +133,13 @@ article .lexfig.topfig { width: 380px; }
 article .topfig figcaption b { display: block; }
 article .gallery-inline, article .refs-wrap, article .curbox, article .timeline { clear: right; }
 @media (max-width: 1100px) { article .topfig { width: 260px; margin-left: 24px; } article .topfig.watchfig svg.watch { height: 230px; } }
-@media (max-width: 760px) { article .topfig { float: none; width: auto; margin: 6px 0 20px; } }
+@media (max-width: 760px) {
+  article .topfig { float: none; width: auto; margin: 6px 0 20px; }
+  /* Handy: Bild unter Überschrift und Kurzbeschreibung */
+  article { display: flex; flex-direction: column; }
+  article > * { order: 6; min-width: 0; max-width: 100%; }
+  article > .cat { order: 1; } article > h2 { order: 2; } article > .meta { order: 3; } article > .lead { order: 4; } article > .topfig { order: 5; }
+}
 article .cat { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--gold); font-weight: 600; }
 article h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3rem); line-height: 1.05; margin: 6px 0 12px; text-wrap: balance; }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0 0 16px; font-size: 13px; color: var(--muted); }
