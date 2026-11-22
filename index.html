@@ -262,6 +262,7 @@ article .curbox { margin-top: 10px; }
 .pc-unit { font-family: var(--font-mono); font-size: 11px; color: var(--muted); text-align: right; }
 .pc-table { margin-top: 10px; font-size: 13px; }
 .pc-table summary { cursor: pointer; color: var(--accent); }
+.pc-orig { color: var(--muted); }
 .pc-table .refs { min-width: 0; margin-top: 8px; }
 .price-note { font-size: 12px; color: var(--muted); margin: 12px 0 0 !important; }
 .pl-box { margin: 14px 0 26px; padding: 14px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
@@ -1302,46 +1303,54 @@ function viewAZ() {
       </ul></div>`).join("")}`;
 }
 
-// Preisvergleich Neupreis -> Gebrauchtpreis je Referenz (Hantel-Diagramm auf gemeinsamer Skala).
-// Fehlt ein Wert (null), wird nur der vorhandene Punkt gezeigt. Ohne Zeilen, aber mit "liste": schlichte Listenpreis-Angabe.
+// Wechselkurse für die Umrechnung in Euro (Stand Anfang November 2026)
+const FX = { EUR: 1, USD: 0.894, GBP: 1.20 }, FX_NOTE = "Alle Werte in Euro umgerechnet (1 USD ≈ 0,89 EUR, 1 GBP ≈ 1,20 EUR, Kurs Anfang November 2026); Originalwerte in der Tabelle.";
+const toEUR = (v, cur) => { const e = v * (FX[cur] || 1); return e >= 10000 ? Math.round(e / 50) * 50 : Math.round(e / 10) * 10; };
+const curSym = c => ({ USD: "USD", EUR: "EUR", GBP: "GBP" }[c] || c);
+
+// Preisvergleich Neupreis -> Gebrauchtpreis je Referenz (Hantel-Diagramm auf gemeinsamer Skala), alles in Euro.
+// Zeile: [Referenz, Label Neu, Neupreis, Label Gebraucht, Gebrauchtpreis, Währung(en)]; Währung als "USD" oder ["USD", "EUR"] (neu, gebraucht).
 function priceChart(pr) {
   if (!pr) return "";
   const fmt = n => n.toLocaleString("de-DE");
   if (!pr.rows || !pr.rows.length) {
     if (!pr.liste) return "";
-    const [v, d] = pr.liste;
-    return `<div class="pl-box"><span class="label">Listenpreis</span><b>${fmt(v)} ${esc(pr.u)}</b><span class="pl-d">${esc(d)}</span>${pr.n ? `<p class="price-note">${esc(pr.n)}</p>` : ""}</div>`;
+    const [v, d] = pr.liste, e = toEUR(v, pr.u);
+    return `<div class="pl-box"><span class="label">Listenpreis</span><b>${fmt(e)} EUR</b><span class="pl-d">${esc(d)}${pr.u !== "EUR" ? ` · Original ${fmt(v)} ${curSym(pr.u)}` : ""}</span>${pr.n ? `<p class="price-note">${esc(pr.n)}${pr.u !== "EUR" ? " " + FX_NOTE.replace("; Originalwerte in der Tabelle", "") : ""}</p>` : ""}</div>`;
   }
-  const vals = pr.rows.flatMap(r => [r[2], r[4]]).filter(v => v != null);
+  const rows = pr.rows.map(r => { const c = r[5] || pr.u, [cn, cu] = Array.isArray(c) ? c : [c, c]; return { ref: r[0], nl: r[1], ul: r[3], no: r[2], uo: r[4], cn, cu, nv: r[2] != null ? toEUR(r[2], cn) : null, uv: r[4] != null ? toEUR(r[4], cu) : null }; });
+  const conv = rows.some(r => r.cn !== "EUR" || r.cu !== "EUR");
+  const vals = rows.flatMap(r => [r.nv, r.uv]).filter(v => v != null);
   const span = Math.max(...vals) - Math.min(...vals) || Math.max(...vals) * .3;
   const raw = span / 4, mag = Math.pow(10, Math.floor(Math.log10(raw))), step = [1, 2, 2.5, 5, 10].map(k => k * mag).find(k => k >= raw);
-  const lo = pr.min ?? Math.max(0, Math.floor((Math.min(...vals) - span * .15) / step) * step), hi = pr.max ?? Math.ceil((Math.max(...vals) + span * .15) / step) * step;
+  const lo = Math.max(0, Math.floor((Math.min(...vals) - span * .15) / step) * step), hi = Math.ceil((Math.max(...vals) + span * .15) / step) * step;
   const X = v => ((v - lo) / (hi - lo) * 100).toFixed(2);
   const ticks = []; for (let t = Math.ceil(lo / step) * step; t <= hi + 1e-9; t += step) ticks.push(t);
   const tl = t => t >= 1000 ? fmt(Math.round(t / 100) / 10) + "k" : fmt(t);
-  const row = ([ref, nl, nv, ul, uv]) => {
-    const both = nv != null && uv != null, d = both ? Math.round((uv / nv - 1) * 100) : null;
+  const row = r => {
+    const both = r.nv != null && r.uv != null, d = both ? Math.round((r.uv / r.nv - 1) * 100) : null;
     const dTxt = d == null ? "" : (d > 0 ? "+" : d < 0 ? "−" : "±") + Math.abs(d) + " %";
-    const tip = [nv != null ? `Neu ${fmt(nv)}` : "", uv != null ? `Gebraucht ${fmt(uv)}` : ""].filter(Boolean).join(" · ") + " " + pr.u;
-    return `<div class="pc-row" tabindex="0" title="${esc(`${ref}: ${tip}`)}">
-      <div class="pc-ref"><b>${esc(ref)}</b><span>${esc(nl)}${nl && ul ? " → " : ""}${esc(ul)}</span></div>
+    const tip = [r.nv != null ? `Neu ${fmt(r.nv)}` : "", r.uv != null ? `Gebraucht ${fmt(r.uv)}` : ""].filter(Boolean).join(" · ") + " EUR";
+    return `<div class="pc-row" tabindex="0" title="${esc(`${r.ref}: ${tip}`)}">
+      <div class="pc-ref"><b>${esc(r.ref)}</b><span>${esc(r.nl)}${r.nl && r.ul ? " → " : ""}${esc(r.ul)}</span></div>
       <div class="pc-track">${ticks.map(t => `<i class="pc-grid" style="left:${X(t)}%"></i>`).join("")}
-        ${both ? `<i class="pc-bar" style="left:${X(Math.min(nv, uv))}%;width:${(X(Math.max(nv, uv)) - X(Math.min(nv, uv))).toFixed(2)}%"></i>` : ""}
-        ${uv != null ? `<i class="pc-dot pc-used" style="left:${X(uv)}%"></i>` : ""}${nv != null ? `<i class="pc-dot pc-new" style="left:${X(nv)}%"></i>` : ""}
+        ${both ? `<i class="pc-bar" style="left:${X(Math.min(r.nv, r.uv))}%;width:${(X(Math.max(r.nv, r.uv)) - X(Math.min(r.nv, r.uv))).toFixed(2)}%"></i>` : ""}
+        ${r.uv != null ? `<i class="pc-dot pc-used" style="left:${X(r.uv)}%"></i>` : ""}${r.nv != null ? `<i class="pc-dot pc-new" style="left:${X(r.nv)}%"></i>` : ""}
         <span class="pc-tip">${esc(tip)}</span>
       </div>
-      <div class="pc-val"><span>${nv != null ? fmt(nv) : "–"} → <b>${uv != null ? fmt(uv) : "–"}</b></span>${dTxt ? `<em class="${d > 0 ? "up" : d < 0 ? "down" : ""}">${dTxt}</em>` : ""}</div>
+      <div class="pc-val"><span>${r.nv != null ? fmt(r.nv) : "–"} → <b>${r.uv != null ? fmt(r.uv) : "–"}</b></span>${dTxt ? `<em class="${d > 0 ? "up" : d < 0 ? "down" : ""}">${dTxt}</em>` : ""}</div>
     </div>`;
   };
+  const orig = (v, c, l) => v == null ? "–" : `${fmt(toEUR(v, c))} EUR${c !== "EUR" ? ` <span class="pc-orig">(${fmt(v)} ${curSym(c)})</span>` : ""}${l ? ` · ${esc(l)}` : ""}`;
   return `<figure class="pc">
     <figcaption><span class="label">${esc(pr.t || "Neupreis und Gebrauchtpreis im Vergleich")}</span>
       <span class="pc-legend"><span><i class="pc-dot pc-new"></i>Neupreis (Liste)</span><span><i class="pc-dot pc-used"></i>Gebrauchtpreis heute</span></span></figcaption>
-    ${pr.rows.map(row).join("")}
-    <div class="pc-row pc-axis" aria-hidden="true"><div></div><div class="pc-track">${ticks.map(t => `<span style="left:${X(t)}%">${tl(t)}</span>`).join("")}</div><div class="pc-unit">${esc(pr.u)}</div></div>
-    ${pr.n ? `<p class="price-note">${esc(pr.n)}</p>` : ""}
-    <details class="pc-table"><summary>Als Tabelle anzeigen</summary><table class="refs"><thead><tr><th>Referenz</th><th>Neupreis</th><th>Gebrauchtpreis</th><th>Veränderung</th></tr></thead><tbody>
-      ${pr.rows.map(([ref, nl, nv, ul, uv]) => `<tr><td class="m">${esc(ref)}</td><td class="m">${nv != null ? `${fmt(nv)} ${esc(pr.u)} (${esc(nl)})` : "–"}</td><td class="m">${uv != null ? `${fmt(uv)} ${esc(pr.u)} (${esc(ul)})` : "–"}</td><td class="m">${nv != null && uv != null ? Math.round((uv / nv - 1) * 100) + " %" : "–"}</td></tr>`).join("")}
-    </tbody></table></details>
+    ${rows.map(row).join("")}
+    <div class="pc-row pc-axis" aria-hidden="true"><div></div><div class="pc-track">${ticks.map(t => `<span style="left:${X(t)}%">${tl(t)}</span>`).join("")}</div><div class="pc-unit">EUR</div></div>
+    ${pr.n || conv ? `<p class="price-note">${esc(pr.n || "")}${conv ? " " + FX_NOTE : ""}</p>` : ""}
+    <details class="pc-table"><summary>Als Tabelle anzeigen</summary><div class="refs-wrap"><table class="refs"><thead><tr><th>Referenz</th><th>Neupreis</th><th>Gebrauchtpreis</th><th>Veränderung</th></tr></thead><tbody>
+      ${rows.map(r => `<tr><td class="m">${esc(r.ref)}</td><td class="m">${orig(r.no, r.cn, r.nl)}</td><td class="m">${orig(r.uo, r.cu, r.ul)}</td><td class="m">${r.nv != null && r.uv != null ? Math.round((r.uv / r.nv - 1) * 100) + " %" : "–"}</td></tr>`).join("")}
+    </tbody></table></div></details>
   </figure>`;
 }
 

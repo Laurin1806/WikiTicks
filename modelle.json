@@ -780,6 +780,13 @@
     "u": "USD",
     "rows": [
      [
+      "116610LN",
+      "letzte Liste 2021",
+      8950,
+      "heute",
+      11127
+     ],
+     [
       "126610LN",
       "Liste 2026",
       11350,
@@ -975,6 +982,13 @@
    "preis": {
     "u": "USD",
     "rows": [
+     [
+      "116500LN",
+      "letzte Liste 2023",
+      14800,
+      "heute",
+      29983
+     ],
      [
       "126500LN",
       "Liste 2026",
@@ -1190,6 +1204,14 @@
     "u": "USD",
     "rows": [
      [
+      "116710LN",
+      "",
+      null,
+      "heute",
+      10370,
+      "GBP"
+     ],
+     [
       "126710BLRO",
       "Liste 2026",
       11800,
@@ -1197,7 +1219,7 @@
       22053
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, in Pfund)."
    }
   },
   {
@@ -1370,6 +1392,13 @@
       11650,
       "heute",
       14151
+     ],
+     [
+      "126300",
+      "Liste 2026",
+      8950,
+      "heute",
+      9854
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
@@ -2037,6 +2066,13 @@
     "u": "USD",
     "rows": [
      [
+      "5711/1A",
+      "letzte Liste 2021",
+      34890,
+      "heute",
+      114897
+     ],
+     [
       "5811/1G",
       "",
       null,
@@ -2696,6 +2732,13 @@
       31900,
       "heute",
       47181
+     ],
+     [
+      "16202ST »Jumbo«",
+      "Liste 2026",
+      40100,
+      "heute",
+      80386
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
@@ -3227,6 +3270,13 @@
     "u": "USD",
     "rows": [
      [
+      "311.30.42.30.01.005",
+      "",
+      null,
+      "heute",
+      5330
+     ],
+     [
       "310.30.42.50.01.001",
       "Liste 2026",
       7800,
@@ -3234,7 +3284,7 @@
       6000
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenz 311.30.42.30.01.005 (bis 2021): Händlerangebot von SwissWatchExpo."
    }
   },
   {
@@ -7905,7 +7955,15 @@
     "Die »5« stand für fünf Eigenschaften: Automatik, Tag-Datum, wasserdicht, Krone bei 4 Uhr und ein robustes Gehäuse.",
     "Seiko 5 gehört zu den meistverkauften mechanischen Uhren überhaupt.",
     "Die Seiko 5 Sports von 2019 ersetzt optisch die eingestellte SKX007."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "liste": [
+     350,
+     "Seiko 5 Sports SRPD55, USA (Seiko)"
+    ],
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+   }
   },
   {
    "id": "presage-cocktail",
@@ -7990,7 +8048,15 @@
     "Die Zifferblätter sind von Cocktails inspiriert, die der Barkeeper Shinobu Ishigaki in Tokio kreiert hat.",
     "Die Presage-Linie steht für japanisches Handwerk, darunter auch Emaille- und Urushi-Lack-Zifferblätter.",
     "Das Zifferblatt hat eine geprägte Sonnenstrahl-Struktur mit Farbverlauf."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "liste": [
+     450,
+     "Presage Cocktail Time SRPB43, USA (Seiko)"
+    ],
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+   }
   },
   {
    "id": "astron",
@@ -9269,7 +9335,20 @@
     "Hamilton lieferte im Zweiten Weltkrieg über eine Million Uhren an die US-Streitkräfte.",
     "Die Khaki Field greift das Design dieser Militäruhren mit 24-Stunden-Skala auf.",
     "Das Kaliber H-50 bietet mit 80 Stunden Gangreserve deutlich mehr als viele vergleichbare Handaufzugswerke."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "H69439931",
+      "Liste",
+      675,
+      "heute",
+      595
+     ]
+    ],
+    "n": "Listenpreis laut US-Händlern, Gebrauchtpreis: Angebot von Precision Watches. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "ventura",
@@ -9419,7 +9498,15 @@
     "Die 556 gilt als einer der günstigsten Einstiege in die Marke Sinn.",
     "Sinn bietet viele Modelle mit Tegiment-Technologie an, einer gehärteten Oberfläche gegen Kratzer.",
     "Das Zifferblatt ist bewusst schlicht und gut ablesbar gestaltet."
-   ]
+   ],
+   "preis": {
+    "u": "EUR",
+    "liste": [
+     1500,
+     "556 I mit Stahlband, Deutschland (Sinn)"
+    ],
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+   }
   },
   {
    "id": "sinn-u1",
@@ -10075,7 +10162,20 @@
     "Die MoonSwatch ist eine Zusammenarbeit von Omega und Swatch und greift das Design der Speedmaster auf.",
     "Sie besteht aus Biokeramik, einem Material aus Keramik und Rizinusöl.",
     "Bei der Vorstellung 2022 bildeten sich weltweit lange Schlangen vor den Geschäften."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "SO33M100 »Mission to the Moon«",
+      "Liste 2022",
+      260,
+      "heute",
+      253
+     ]
+    ],
+    "n": "Listenpreis zur Einführung 2022, Gebrauchtpreis: Marktschätzung von WatchCharts (November 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "prx",
@@ -10455,7 +10555,24 @@
     "Die BR 03 ist von Cockpit-Instrumenten inspiriert: ein runder Kreis in einem Quadrat.",
     "Bell & Ross wurde 1992 von Bruno Belamich und Carlos Rosillo gegründet.",
     "Die Uhr wird oft von Piloten und Militärs getragen."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "BR03A-BL-ST/SRB",
+      "Liste",
+      3800,
+      "neu, ungetragen",
+      2705,
+      [
+       "USD",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "Listenpreis laut Bell & Ross USA, rechter Wert: Angebot eines europäischen Händlers für ein ungetragenes Exemplar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "alpine-eagle",
@@ -11191,7 +11308,15 @@
     "Die Turtle 6309 war bei Tauchern in den 1970er- und 1980er-Jahren weit verbreitet, weil sie günstig und robust war.",
     "Die Neuauflage hat ein Kaliber mit Handaufzug und Sekundenstopp, anders als frühere Seiko-Taucheruhren.",
     "Das kissenförmige Gehäuse schützt die Krone ohne separaten Kronenschutz."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "liste": [
+     595,
+     "Prospex SRP777, USA (Seiko-Katalog 2020)"
+    ],
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+   }
   },
   {
    "id": "alpinist",
@@ -11300,7 +11425,15 @@
     "Die SARB017 hatte das Kaliber 6R15 mit rund 50 Stunden Gangreserve, damals viel für diese Preisklasse.",
     "Die Alpinist war ursprünglich nur in Japan erhältlich und wurde über Importe weltweit bekannt.",
     "Das grüne Zifferblatt mit goldenen Ziffern wurde zum Markenzeichen."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "liste": [
+     720,
+     "Prospex Alpinist SPB121 (Seiko, Nahost-Seite)"
+    ],
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+   }
   },
   {
    "id": "gs-sbgw231",
@@ -11582,7 +11715,24 @@
     "Das Powermatic 80 erreicht seine Gangreserve durch eine längere Zugfeder und eine niedrigere Frequenz.",
     "Eine Version hat eine Silizium-Spirale, die unempfindlich gegen Magnetfelder ist.",
     "Die Gentleman ist eine der vielseitigsten Uhren im Tissot-Sortiment."
-   ]
+   ],
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "T127.407.11.351.00",
+      "Liste",
+      930,
+      "heute",
+      505,
+      [
+       "EUR",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "Listenpreis laut europäischem Händler, Gebrauchtpreis: Marktschätzung von WatchCharts (November 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "murph",
@@ -11681,7 +11831,15 @@
     "Im Film übermittelt der zuckende Sekundenzeiger von Murphs Uhr eine Nachricht im Morsecode. Daher die versteckte Botschaft auf dem Sekundenzeiger der Sonderedition.",
     "Auf dem Sekundenzeiger einer Sonderedition ist »Eureka« im Morsecode versteckt.",
     "Das Kaliber H-10 bietet 80 Stunden Gangreserve."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "liste": [
+     1095,
+     "Khaki Field Murph 42 mm, H70605731, USA (Händler)"
+    ],
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+   }
   },
   {
    "id": "orion",
@@ -12191,7 +12349,15 @@
     "Der drehbare Anker auf dem Zifferblatt ist ein Markenzeichen von Rado.",
     "Rado ist bekannt für Keramik und Hartmetall.",
     "Rado arbeitet mit Hightech-Keramik aus Zirkoniumoxid, die sehr kratzfest, leicht und hautfreundlich ist."
-   ]
+   ],
+   "preis": {
+    "u": "EUR",
+    "liste": [
+     2650,
+     "Captain Cook Automatic 42 mm, R32137153, Europa (Händler)"
+    ],
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+   }
   },
   {
    "id": "promaster-diver",
