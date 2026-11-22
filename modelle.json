@@ -2315,7 +2315,7 @@
     "dial": "#1b3560",
     "tex": "tap",
     "date": "3",
-    "strap": "integrated",
+    "strap": "ro",
     "origin": "",
     "ro": true,
     "crown": "hex",
@@ -2547,7 +2547,7 @@
     "sub": "chrono3",
     "pushers": true,
     "label": "ROYAL OAK",
-    "strap": "integrated",
+    "strap": "ro",
     "origin": "",
     "ro": true,
     "crown": "hex"
