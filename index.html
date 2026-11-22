@@ -633,7 +633,7 @@ function drawWatch(v = {}, e = null) {
     if (v.roundBase) S.push(`<path d="M${cx - 44} ${cy - 62} L${cx + 44} ${cy - 62} L${cx + 40} ${cy - 86} L${cx - 40} ${cy - 86}Z M${cx - 44} ${cy + 62} L${cx + 44} ${cy + 62} L${cx + 40} ${cy + 86} L${cx - 40} ${cy + 86}Z" fill="${M[1]}" stroke="${M[2]}" stroke-width=".7"/><circle cx="${cx}" cy="${cy}" r="78" fill="${metal}" stroke="${M[2]}" stroke-width=".8"/>`);
     else if (v.ro) {
       // Royal Oak nach Fotovorlage: kurze gerade Oberkante am Band, polierte Flanken schräg bis an die Lünette
-      S.push(`<path d="M60 56 L140 56 L172 100 L172 160 L140 204 L60 204 L28 160 L28 100Z" fill="${metal}"/><path d="M61 57.5 L28.8 101.5 M139 57.5 L171.2 101.5 M61 202.5 L28.8 158.5 M139 202.5 L171.2 158.5" stroke="#fff" stroke-opacity=".6" stroke-width="1.6"/><path d="M60 56.8H140" stroke="#fff" stroke-opacity=".45"/>`);
+      S.push(`<path d="M60 47 L140 47 L172 98 L172 162 L140 213 L60 213 L28 162 L28 98Z" fill="${metal}"/><path d="M61 48.5 L28.8 99.5 M139 48.5 L171.2 99.5 M61 211.5 L28.8 160.5 M139 211.5 L171.2 160.5" stroke="#fff" stroke-opacity=".6" stroke-width="1.6"/><path d="M60 47.8H140" stroke="#fff" stroke-opacity=".45"/>`);
     }
     else S.push(`<path d="M58 42 Q100 34 142 42 L158 92 Q164 130 158 168 L142 218 Q100 226 58 218 L42 168 Q36 130 42 92Z" fill="${metal}"/><path d="M58 42 Q100 34 142 42" fill="none" stroke="#fff" stroke-opacity=".5"/>`);
     const [ox, oy, ix, iy, jx, jy, sx, sy] = v.ro ? [0, 0, 76, 72, 73, 69, 66, 62.5] : [80, 74, 71, 65, 67, 61, 72, 66];
