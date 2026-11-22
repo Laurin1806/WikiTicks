@@ -315,6 +315,7 @@ footer .wrap { padding-block: 20px 28px; }
   .daily h2 { margin: 0; }
   .daily .daily-fig, .daily aside { order: 1; }
   .daily .daily-body, .daily .go { order: 2; margin: 0; }
+  .daily .daily-more { display: none; }
   .daily .daily-fig { min-height: 0; }
   .daily aside { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 14px; }
   .facts { grid-template-columns: minmax(0, 1fr); }
@@ -1221,7 +1222,7 @@ function dailyCard(M, kicker, varName = "") {
         <div class="kicker">${esc(kicker)}<span>${new Date().toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long" })}</span></div>
         <h2 id="dh">${esc(M.t)}</h2>
         <p class="lead">${esc(M.s)}</p>
-        ${M.b.slice(0, 2).map(p => `<p class="daily-body">${esc(p)}</p>`).join("")}
+        ${M.b.slice(0, 2).map((p, i) => `<p class="daily-body${i ? " daily-more" : ""}">${esc(p)}</p>`).join("")}
         <a class="go" href="#${M.id}">Ganzen Artikel lesen →</a>
       </div>
       ${M.brand
