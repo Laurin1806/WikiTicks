@@ -1028,6 +1028,7 @@ function drawWatch(v = {}, e = null) {
     if (isHour && style === "mercedes") s += `<circle cx="${x}" cy="${y - L * .7}" r="${w * 1.25}" fill="${col}"/><circle cx="${x}" cy="${y - L * .7}" r="${w * .7}" fill="${dc}"/>`;
     if (isHour && style === "snowflake") s += `<rect x="${x - w}" y="${y - L * .78 - w}" width="${w * 2}" height="${w * 2}" fill="${col}" transform="rotate(45 ${x} ${y - L * .78})"/>`;
     if (isHour && style === "arrow") s += `<polygon points="${x - w * 1.6},${y - L + 10} ${x + w * 1.6},${y - L + 10} ${x},${y - L - 4}" fill="${col}"/>`;
+    if (v.handLume && isHour && style === "mercedes") s += `<rect x="${f1(x - w * .22)}" y="${f1(y - L * .7 + w * 1.25)}" width="${f1(w * .44)}" height="${f1(L * .7 - w * 1.25 - 4)}" rx="${f1(w * .2)}" fill="${v.handLume}"/>`; // Leuchtstreifen bis zum Mercedes-Kreis
     if (v.handLume && style === "baton") s += `<rect x="${f1(x - w * .22)}" y="${f1(y - L + 3)}" width="${f1(w * .44)}" height="${f1(L * (isHour ? .58 : .78))}" rx="${f1(w * .2)}" fill="${v.handLume}"/>`; // Leuchtstreifen mittig im Zeiger
     return `<g transform="rotate(${a} ${x} ${y})">${s}</g>`;
   };
@@ -1036,7 +1037,7 @@ function drawWatch(v = {}, e = null) {
   else if (v.gmt) S.push(`<g transform="rotate(125 ${hcx} ${hcy})"><path d="M${hcx} ${hcy}L${hcx} ${hcy - hr * .86}" stroke="${v.gmt}" stroke-width="1.6"/><polygon points="${hcx - 5},${hcy - hr * .78} ${hcx + 5},${hcy - hr * .78} ${hcx},${hcy - hr * .92}" fill="${v.gmt}"/></g>`);
   S.push(`<g filter="url(#${id}h)">`);
   S.push(hand(hs, 304, hr * .55, (hs === "dauphine" ? 6 : 4.4) * (v.handW || 1), hc, true)); // handW: Zeigerbreite
-  S.push(hand(hs === "mercedes" || hs === "snowflake" || hs === "arrow" ? "baton" : hs, 48, hr * .84, (hs === "dauphine" ? 5 : 3.4) * (v.handW || 1), hc, false));
+  S.push(hand(hs === "mercedes" || hs === "snowflake" || hs === "arrow" ? "baton" : hs, 48, hr * .84, (hs === "dauphine" ? 5 : 3.4) * (v.handW || 1) * (v.minW || 1), hc, false)); // minW: nur Minutenzeiger
   if (v.sub !== "small6" && v.sub !== "small9" && !v.layout && v.seconds !== false) {
     if (v.bolt) S.push(`<g transform="rotate(210 ${hcx} ${hcy})"><path d="M${hcx} ${hcy + 12}L${hcx} ${hcy - hr * .45}L${hcx + 4} ${hcy - hr * .52}L${hcx - 3} ${hcy - hr * .62}L${hcx} ${hcy - hr * .9}" fill="none" stroke="${sc}" stroke-width="1.4"/></g>`);
     else S.push(`<g transform="rotate(210 ${hcx} ${hcy})"><path d="M${hcx} ${hcy + 14}L${hcx} ${hcy - hr * .9}" stroke="${sc}" stroke-width="1.1"/>${v.lollipop ? `<circle cx="${hcx}" cy="${hcy - hr * .62}" r="2.6" fill="${sc}"/>` : ""}</g>`);

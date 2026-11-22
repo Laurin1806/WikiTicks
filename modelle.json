@@ -439,13 +439,17 @@
     "lume": "#f8f8f5",
     "strap": "oyster",
     "bottom": [
-     "EXPLORER II",
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
     ],
     "handLume": "#f8f8f5",
     "frame": "#1d2128",
-    "handW": 1.3
+    "handW": 1.3,
+    "top": [
+     "OYSTER PERPETUAL DATE",
+     "EXPLORER II"
+    ],
+    "minW": 1.25
    },
    "var": [
     {
@@ -474,7 +478,8 @@
       "handLume": "#e9dcb8",
       "frame": null,
       "brandDy": 3,
-      "handW": null
+      "handW": null,
+      "minW": null
      }
     },
     {
@@ -550,7 +555,9 @@
      "sec": "#1d2128",
      "mScale": 0.82,
      "mInset": 4,
-     "handW": null
+     "handW": null,
+     "handLume": "#f8f8f5",
+     "minW": null
     }
    }
   },
