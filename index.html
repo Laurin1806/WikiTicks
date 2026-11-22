@@ -481,6 +481,8 @@ function drawWatch(v = {}, e = null) {
   const shape = v.shape || "round";
   // Ältere Rolex (vor 2005): kleineres Gehäuse, schmaleres Band, schlanke Anstöße, kleine Krone und spitzer Kronenschutz
   const vint = brand === "Rolex" && v.era === "vintage";
+  // Rolex 2005–2020 (»Super Case«, z. B. Submariner 116610): breite, kräftige Anstöße mit fast parallelen Flanken
+  const maxi = brand === "Rolex" && v.era === "maxi";
   const M = v.caseColor ? [mix(v.caseColor, .35), v.caseColor, mix(v.caseColor, -.45)] : (METAL[v.case] || METAL.steel);
   const dc = v.dial || "#1b1e24", dark = lum(dc) < .5;
   const ink = v.ink || (dark ? "#eef0f2" : "#1d2128"), lume = v.lume || ink, hc = v.hc || ink, sc = v.sec || hc;
@@ -538,7 +540,7 @@ function drawWatch(v = {}, e = null) {
     const big = metalBand, lyre = v.lugs === "lyre" || v.lugs === "taper"; // taper: schlanke, gerade Flanken (Day-Date, Datejust)
     // Rolex-Sportmodelle nach Fotovorlage (Submariner): Anstöße stehen deutlich über, Flanke fast senkrecht und lang, kantige Spitze
     const rx = brand === "Rolex" && big && !lyre;
-    const lw = sw + (lyre ? 20 : vint ? 18 : rx ? 22 : big ? 26 : 16), lx = cx - lw / 2, y0 = vint ? 47 : rx ? 46 : big || lyre ? 43 : 48, out = lyre ? -6 : vint ? 16 : rx ? 20 : big ? 14 : 5, r = lyre ? 9 : vint ? 1.5 : rx ? 2.5 : big ? 6 : 4;
+    const lw = sw + (lyre ? 20 : vint ? 18 : maxi ? 30 : rx ? 20 : big ? 26 : 16), lx = cx - lw / 2, y0 = vint ? 47 : maxi ? 45 : rx ? 46 : big || lyre ? 43 : 48, out = lyre ? -6 : vint ? 16 : maxi ? 7 : rx ? 22 : big ? 14 : 5, r = lyre ? 9 : vint ? 1.5 : rx ? 2.5 : big ? 6 : 4;
     // Außenkante: bei Lyra-Anstößen (Speedmaster) als weicher runder Bogen, sonst geschwungen zum Gehäuse hin (wie bei der Submariner)
     const edge = (x0, t, e, k) => { const d = e > t ? 1 : -1;
       return lyre ? `C${x0 + k * 7} ${t + d * 14} ${x0 + k * 6} ${e - d * 30} ${x0 + k * out} ${e}` : rx ? `L${x0 + k * out} ${e}` : `Q${x0 + k * 1} ${t + d * 26} ${x0 + k * out} ${e}`; }; // Rolex-Sport: gerade Schräge nach außen
@@ -1206,7 +1208,7 @@ function viewEntry(e) {
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
   const vars = e.brand ? (e.var || []).slice(0, 2) : [];
-  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...(+((x.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
+  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0], ended = /\d{4}\s*[–-]\s*\d{4}/.test(y); return a < 2005 ? { era: "vintage" } : ended && a < 2020 ? { era: "maxi" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
   return crumbs(trail) + `
     <article>
       ${e.brand ? `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}Illustration, vereinfacht</figcaption></figure>` : LF.top}
