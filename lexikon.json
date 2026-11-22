@@ -50,6 +50,11 @@
   "g": [
    "Die Zugfeder als Antrieb tragbarer Uhren kam im 15. Jahrhundert auf. Zu den frühen Uhrmachern, die federgetriebene Taschenuhren bauten, zählt Peter Henlein aus Nürnberg zu Beginn des 16. Jahrhunderts.",
    "Bis ins 19. Jahrhundert wurden Taschenuhren mit einem kleinen Schlüssel aufgezogen und gestellt. Adrien Philippe stellte 1844 einen Aufzug über die Krone vor, der ohne Schlüssel auskam, und ließ ihn 1845 patentieren. Er wurde später Partner von Antoni Patek."
+  ],
+  "x": [
+   "Ein Handaufzugswerk sollte am besten täglich zur gleichen Zeit aufgezogen werden, weil die Zugfeder im oberen Spannungsbereich gleichmäßiger Kraft abgibt.",
+   "Bei Handaufzugswerken ohne Rutschkupplung spürt man einen klaren Widerstand, wenn die Feder voll ist. Weiterdrehen kann die Feder beschädigen.",
+   "Viele Hochfrequenz- und Chronographenwerke mit Handaufzug sind flacher und lassen eine aufwendigere Finissage sichtbar werden."
   ]
  },
  {
@@ -97,6 +102,11 @@
   "g": [
    "Abraham-Louis Perrelet baute um 1770 eine Taschenuhr, die sich durch die Schritte ihres Trägers aufzog. Auch Abraham-Louis Breguet fertigte solche »Perpétuelles«. In der Westentasche funktionierte das Prinzip aber nur mäßig.",
    "Für die Armbanduhr ließ John Harwood 1923 einen Pendelaufzug patentieren, bei dem eine Schwungmasse zwischen zwei Puffern hin und her schlug. 1931 brachte Rolex den Perpetual-Rotor, der sich frei um 360 Grad drehte. Eterna lagerte den Rotor 1948 erstmals auf winzigen Kugellagern. Aus der Werkeabteilung von Eterna ging später der Hersteller ETA hervor."
+  ],
+  "x": [
+   "Ein Automatikwerk hat eine Rutschkupplung (Schleppfeder), damit die Zugfeder nicht überspannt wird.",
+   "Typische Aufzugssysteme sind der Wechselrad-Aufzug, die Klinkenrad-Lösung (Magic Lever bei Seiko) und der Pellaton-Aufzug (IWC).",
+   "Wer die Uhr wenig trägt, profitiert von einem Uhrenbeweger; dauerhaftes Bewegen erhöht jedoch den Verschleiß leicht."
   ]
  },
  {
@@ -149,6 +159,11 @@
   "g": [
    "Die erste Quarzuhr bauten Warren Marrison und J. W. Horton 1927 in den Bell Laboratories in den USA. Sie füllte einen ganzen Schrank und diente als Zeitnormal in Laboren und Sternwarten.",
    "Nach Jahrzehnten der Miniaturisierung kam 1969 mit der Seiko Astron die erste Quarz-Armbanduhr auf den Markt. 1970 folgte aus der Schweiz das Gemeinschaftswerk Beta 21. In den 1970er-Jahren wurden Quarzuhren dann so billig, dass sie die mechanische Uhr fast verdrängten."
+  ],
+  "x": [
+   "Der Quarz in einer Armbanduhr schwingt mit 32.768 Hz. Diese Zahl ist 2 hoch 15 und lässt sich elektronisch leicht auf ein Signal pro Sekunde herunterteilen.",
+   "Thermokompensierte Quarzwerke (HAQ) gleichen Temperaturschwankungen aus und erreichen wenige Sekunden pro Jahr.",
+   "Die Batterie eines Quarzwerks hält meist zwei bis fünf Jahre; eine leere Batterie sollte schnell getauscht werden, weil auslaufende Batterien das Werk beschädigen."
   ]
  },
  {
@@ -191,6 +206,11 @@
   "g": [
    "Die ältesten mechanischen Uhren des 14. Jahrhunderts arbeiteten mit der Spindelhemmung. Für Pendeluhren kam um 1670 in England die Ankerhemmung auf. George Graham entwickelte um 1726 die Zylinderhemmung, die flachere Taschenuhren ermöglichte.",
    "Thomas Mudge erfand um 1755 die freie Ankerhemmung, bei der die Unruh die meiste Zeit frei schwingen kann. Im 19. Jahrhundert wurde sie in der Schweiz zur heute üblichen Form weiterentwickelt und verdrängte nach und nach alle anderen Hemmungen in Taschen- und Armbanduhren."
+  ],
+  "x": [
+   "Die Schweizer Ankerhemmung ist mit Abstand die verbreitetste Bauform. Ihr Wirkungsgrad liegt bei nur etwa 30 bis 40 Prozent.",
+   "Alternative Hemmungen sind die Co-Axial-Hemmung von George Daniels (Omega), die Chronergy (Rolex) oder Dynapulse (Rolex).",
+   "Silizium-Anker und -Ankerräder brauchen kein Öl und sind antimagnetisch."
   ]
  },
  {
@@ -237,6 +257,11 @@
   "g": [
    "Frühe Uhren hatten statt einer Unruh einen waagerechten Balken mit Gewichten, die sogenannte Waag. 1675 stellte Christiaan Huygens die Spiralfeder vor, auch Robert Hooke beanspruchte die Idee für sich. Erst damit wurde die Unruh zu einem genauen Taktgeber.",
    "1795 erfand Breguet die nach ihm benannte Spirale mit hochgezogener Endkurve, die gleichmäßiger atmet. Der Physiker Charles-Édouard Guillaume entwickelte die Legierungen Invar und Elinvar, die sich bei Wärme kaum verändern, und erhielt dafür 1920 den Nobelpreis für Physik. In den 1930er-Jahren entstand daraus die bis heute verbreitete Nivarox-Legierung."
+  ],
+  "x": [
+   "Die Unruh wird über ihr Trägheitsmoment und die Spirale reguliert. Moderne Unruhen mit Schrauben am Rand (Gyromax, Microstella) erlauben eine Feinregulierung ohne Rückerzeiger.",
+   "Eine Breguet-Spirale hat eine angehobene Endkurve, die die Spirale gleichmäßiger atmen lässt.",
+   "Die Unruhamplitude, der Ausschlag der Schwingung, ist ein wichtiger Messwert bei der Wartung: Bei voll aufgezogener Feder sollte sie über 270 Grad liegen."
   ]
  },
  {
@@ -283,6 +308,11 @@
   "g": [
    "Frühe Taschenuhren liefen meist etwa 30 Stunden und mussten jeden Tag aufgezogen werden. Anfang des 20. Jahrhunderts kamen Taschenuhren mit acht Tagen Laufzeit auf, die mit einer besonders langen Zugfeder arbeiteten.",
    "Heute sind 70 bis 80 Stunden in vielen Serienwerken üblich. Einige Hersteller zeigen, was technisch möglich ist: A. Lange & Söhne stellte 2007 die Lange 31 vor, die 31 Tage mit einer Federhausfüllung läuft."
+  ],
+  "x": [
+   "Die Gangreserve hängt von der Länge und Stärke der Zugfeder, der Frequenz und dem Wirkungsgrad des Werks ab.",
+   "Lange Gangreserven werden oft mit mehreren Federhäusern in Reihe erreicht.",
+   "Die Genauigkeit lässt gegen Ende der Gangreserve oft nach, weil die Feder weniger Kraft abgibt."
   ]
  },
  {
@@ -336,6 +366,11 @@
   "g": [
    "Taschenuhren schwangen lange mit 18.000 Halbschwingungen pro Stunde. In den 1960er-Jahren begann ein Wettlauf um höhere Frequenzen, weil schnellere Unruhen bei den Präzisionswettbewerben der Sternwarten besser abschnitten.",
    "Girard-Perregaux brachte 1966 mit dem Gyromatic HF eine der ersten Armbanduhren mit 36.000 A/h. 1969 folgte das El Primero von Zenith. Seiko baute ab 1968 Uhren mit zehn Halbschwingungen pro Sekunde. Danach setzte sich 28.800 A/h als guter Kompromiss zwischen Genauigkeit und Verschleiß durch."
+  ],
+  "x": [
+   "Eine höhere Frequenz verbessert die Genauigkeit gegenüber Lageeinflüssen und Erschütterungen, erhöht aber Energiebedarf und Verschleiß.",
+   "Gängige Frequenzen sind 18.000, 21.600, 25.200, 28.800 und 36.000 A/h (2,5 bis 5 Hz).",
+   "Ein Werk mit 28.800 A/h macht acht Schritte pro Sekunde, was den Sekundenzeiger scheinbar flüssig gleiten lässt."
   ]
  },
  {
@@ -377,6 +412,11 @@
   "g": [
    "1704 erhielten Nicolas Fatio de Duillier und die Brüder Debaufre in London ein Patent für Lager aus durchbohrten Edelsteinen. Echte Rubine und Saphire waren teuer und schwer zu bohren, deshalb waren Steinlager lange Luxus.",
    "1902 entwickelte der französische Chemiker Auguste Verneuil ein Verfahren, um künstliche Rubine in großen Mengen herzustellen. Damit wurden Lagersteine billig, und auch einfache Uhren konnten mit 15 oder 17 Steinen ausgestattet werden."
+  ],
+  "x": [
+   "Lagersteine bestehen heute aus synthetischem Rubin (Korund) und senken die Reibung in den Lagerstellen.",
+   "Die Steinzahl sagt wenig über die Qualität aus; ein einfaches Automatikwerk braucht etwa 21 bis 25 Steine.",
+   "Stoßsicherungen wie Incabloc oder KIF schützen die empfindlichen Unruhzapfen bei Stößen."
   ]
  },
  {
@@ -428,6 +468,11 @@
    "Lange galt Nicolas Rieussec als Erfinder des Chronographen. Er baute 1821 für Pferderennen ein Gerät, das die Zeit mit Tinte auf ein drehendes Zifferblatt schrieb. Daher kommt der Name: »Chronograph« bedeutet »Zeitschreiber«. 2013 tauchte jedoch ein Instrument von Louis Moinet aus dem Jahr 1816 auf, das schon Sechzigstelsekunden messen konnte.",
    "1862 ließ Adolphe Nicole die Herzkurve patentieren, mit der der Stoppzeiger auf Knopfdruck auf null springt. Um 1913 entstanden die ersten Armbandchronographen. Breitling führte 1915 einen eigenen Drücker für Start und Stopp ein und 1934 den zweiten Drücker für die Nullstellung, die bis heute übliche Bedienung.",
    "1969 lieferten sich mehrere Hersteller ein Wettrennen um den ersten automatischen Chronographen: Zenith mit dem El Primero, eine Gruppe aus Heuer, Breitling, Hamilton-Büren und Dubois-Dépraz mit dem Kaliber 11 und Seiko mit dem Kaliber 6139. Wer genau der Erste war, ist bis heute umstritten."
+  ],
+  "x": [
+   "Man unterscheidet Schaltrad- und Kulissensteuerung. Das Schaltrad gilt als feiner und angenehmer im Druckgefühl.",
+   "Bei der horizontalen Kupplung greifen Zahnräder seitlich ineinander, bei der vertikalen Kupplung werden Scheiben aufeinandergepresst – der Sekundenzeiger springt dann beim Start nicht.",
+   "Ein Rattrapante (Schleppzeiger) kann zwei Zeiten gleichzeitig messen, etwa Zwischenzeiten."
   ]
  },
  {
@@ -476,6 +521,11 @@
   "g": [
    "Der englische Uhrmacher Thomas Mudge baute 1762 eine der ersten Taschenuhren mit ewigem Kalender. Bei Patek Philippe entstand 1925 die erste bekannte Armbanduhr mit ewigem Kalender, ein umgebautes Damenuhrwerk.",
    "Ab 1941 baute Patek Philippe mit der Referenz 1518 erstmals in Serie einen ewigen Kalender mit Chronograph. 1985 stellte IWC die Da Vinci vor, deren ewiger Kalender sich ganz über die Krone stellen ließ und eine vierstellige Jahreszahl anzeigte. Entwickelt hatte ihn der Uhrmacher Kurt Klaus."
+  ],
+  "x": [
+   "Ein ewiger Kalender berücksichtigt Monatslängen und Schaltjahre und muss erst im Jahr 2100 korrigiert werden, das kein Schaltjahr ist.",
+   "Das Herzstück ist meist ein Programmrad, das sich einmal in vier Jahren dreht.",
+   "Viele ewige Kalender dürfen nicht zwischen etwa 21 und 3 Uhr verstellt werden, weil dann die Schaltmechanik aktiv ist."
   ]
  },
  {
@@ -523,6 +573,11 @@
   "g": [
    "Mondphasen gehören zu den ältesten Anzeigen überhaupt. Schon der Mechanismus von Antikythera, ein griechisches Zahnradgerät aus dem 2. oder 1. Jahrhundert vor Christus, zeigte den Mondzyklus an. Auch die großen astronomischen Uhren der Kathedralen hatten Mondanzeigen.",
    "Bei Taschen- und Armbanduhren war die Mondphase vor allem in den 1940er- und 1950er-Jahren in Verbindung mit einem Vollkalender beliebt. Nach der Quarzkrise erlebte sie als Zeichen klassischer Uhrmacherkunst ein Comeback."
+  ],
+  "x": [
+   "Eine einfache Mondphasenanzeige mit 59-zähniger Scheibe weicht etwa alle zweieinhalb Jahre um einen Tag ab.",
+   "Präzisere Mondphasen mit aufwendiger Übersetzung weichen erst nach über 100 Jahren um einen Tag ab.",
+   "Die synodische Mondperiode beträgt 29 Tage, 12 Stunden und 44 Minuten."
   ]
  },
  {
@@ -574,6 +629,11 @@
   "g": [
    "Die Abkürzung GMT steht für Greenwich Mean Time. 1884 legte eine internationale Konferenz in Washington den Nullmeridian durch Greenwich fest. Daraus entstand das System der 24 Zeitzonen.",
    "Mit dem Aufkommen des Linienflugs in den 1950er-Jahren brauchten Piloten Uhren für mehrere Zeitzonen. Die Glycine Airman von 1953 zeigte die Zeit auf einem 24-Stunden-Zifferblatt, die Rolex GMT-Master von 1955 hatte einen zusätzlichen 24-Stunden-Zeiger."
+  ],
+  "x": [
+   "GMT steht für Greenwich Mean Time und bezeichnet eine Anzeige einer zweiten Zeitzone über einen 24-Stunden-Zeiger.",
+   "Man unterscheidet »Reise-GMT« mit springendem Stundenzeiger und »Office-GMT« mit einzeln verstellbarem 24-Stunden-Zeiger.",
+   "Eine drehbare 24-Stunden-Lünette erlaubt die Anzeige einer dritten Zeitzone."
   ]
  },
  {
@@ -613,6 +673,11 @@
   "g": [
    "Abraham-Louis Breguet erhielt 1801 das Patent für das Tourbillon. Zu seinen Lebzeiten baute er nur wenige Dutzend Uhren damit. 1892 entwickelte der dänische Uhrmacher Bahne Bonniksen mit dem Karussell eine einfachere, verwandte Konstruktion.",
    "1920 erfand Alfred Helwig in Glashütte das fliegende Tourbillon, das nur von unten gelagert ist und deshalb frei sichtbar dreht. 1986 brachte Audemars Piguet die erste in Serie gebaute Automatik-Armbanduhr mit Tourbillon heraus. Heute ist das Tourbillon ein Statussymbol der Haute Horlogerie."
+  ],
+  "x": [
+   "Abraham-Louis Breguet ließ das Tourbillon 1801 patentieren. Es sollte die Lagefehler von Taschenuhren ausgleichen.",
+   "In Armbanduhren hat das Tourbillon vor allem ästhetischen Wert, weil die Uhr ohnehin ständig ihre Lage ändert.",
+   "Ein fliegendes Tourbillon wird nur von einer Seite gehalten und wirkt dadurch besonders leicht."
   ]
  },
  {
@@ -648,6 +713,11 @@
   "g": [
    "Schlagwerke, die auf Knopfdruck die Zeit schlagen, entstanden im späten 17. Jahrhundert in England. Daniel Quare und Edward Barlow stritten um die Erfindung. Zunächst schlugen die Uhren nur Stunden und Viertelstunden auf kleine Glocken.",
    "Im 18. Jahrhundert kam die Minutenrepetition hinzu. Breguet ersetzte die Glocken um 1780 durch gebogene Stahldrähte, die Tonfedern, die viel weniger Platz brauchten. Die komplizierteste Armbanduhr von Patek Philippe, die Grandmaster Chime von 2014, hat gleich mehrere Schlagwerke."
+  ],
+  "x": [
+   "Eine Minutenrepetition schlägt auf Knopfdruck Stunden, Viertelstunden und Minuten mit zwei Tonfedern.",
+   "Der Klang hängt stark vom Gehäusematerial ab; Gold klingt wärmer, Platin dumpfer, Stahl und Titan heller.",
+   "Ein Windfang regelt die Geschwindigkeit des Schlagwerks."
   ]
  },
  {
@@ -689,6 +759,11 @@
   "g": [
    "Taschenuhren wurden bis Mitte des 19. Jahrhunderts mit einem Schlüssel aufgezogen. Der Kronenaufzug von Adrien Philippe aus dem Jahr 1845 machte den Schlüssel überflüssig.",
    "Für wasserdichte Uhren war die Krone die größte Schwachstelle. Rolex löste das 1926 mit der verschraubten Krone der Oyster. Später folgten die Twinlock-Krone mit zwei Dichtungszonen (1953) und die Triplock-Krone mit drei (1970)."
+  ],
+  "x": [
+   "Eine verschraubte Krone wird mit einem Gewinde auf das Gehäuse gedreht und dichtet zusätzlich ab.",
+   "Rolex nutzt Twinlock (zwei Dichtungen) und Triplock (drei Dichtungen).",
+   "Die Krone sollte nur über der Hand und nicht am Handgelenk aufgezogen werden, um die Aufzugswelle nicht zu belasten."
   ]
  },
  {
@@ -737,6 +812,11 @@
   "g": [
    "Lange war die Lünette nur ein Ring, der das Glas hielt. 1953 kamen mit der Rolex Submariner und der Blancpain Fifty Fathoms Taucheruhren mit drehbarer Lünette auf, an der man die Tauchzeit ablesen konnte.",
    "1955 folgte mit der GMT-Master die zweifarbige 24-Stunden-Lünette, 1957 mit der Omega Speedmaster eine der ersten Tachymeterskalen auf der Lünette. Später setzten sich einseitig drehende Taucherlünetten durch, weil sie die Tauchzeit nicht versehentlich verkürzen können."
+  ],
+  "x": [
+   "Taucherlünetten drehen nur gegen den Uhrzeigersinn, damit ein versehentliches Verstellen die Tauchzeit nur verlängert.",
+   "Lünetten mit Keramikeinlage sind kratzfest und ausbleichsicher, Aluminium wird mit der Zeit matt und verblasst.",
+   "Eine Tachymeterlünette erlaubt die Berechnung von Geschwindigkeiten über eine bekannte Strecke."
   ]
  },
  {
@@ -783,6 +863,11 @@
   "g": [
    "Die ersten Taschenuhren hatten Gläser aus mundgeblasenem Glas. Im 20. Jahrhundert setzten sich Mineralglas und das unzerbrechliche Acrylglas durch, das ab den 1930er-Jahren verfügbar war.",
    "Künstlicher Saphir war seit dem Verneuil-Verfahren von 1902 bekannt, aber schwer zu bearbeiten. Erst ab den 1970er-Jahren verbreitete sich Saphirglas bei hochwertigen Uhren. Heute ist es dort Standard."
+  ],
+  "x": [
+   "Saphirglas besteht aus synthetischem Korund mit der Härte 9 auf der Mohs-Skala; nur Diamant ist härter.",
+   "Eine Entspiegelung auf der Innenseite verbessert die Ablesbarkeit, auf der Außenseite kann sie sich mit der Zeit abnutzen.",
+   "Saphir ist kratzfest, aber spröder als Mineralglas oder Hesalit und kann bei starken Stößen brechen."
   ]
  },
  {
@@ -830,6 +915,11 @@
   "g": [
    "Die frühesten Taschenuhren hatten Zifferblätter aus Metall, später aus Emaille, die bis heute als besonders edel gelten. Im 18. Jahrhundert machte Breguet Zifferblätter mit maschinell graviertem Guilloché-Muster populär, das auf einer sogenannten Rosenmaschine entsteht.",
    "Mit der Armbanduhr kamen im Ersten Weltkrieg Leuchtziffern auf. Ab der Mitte des 20. Jahrhunderts wurden Zifferblätter galvanisch beschichtet und lackiert, was die heutige Farbvielfalt ermöglicht."
+  ],
+  "x": [
+   "Typische Veredelungen sind Sonnenschliff, Guilloché, Emaille, Lack und Strukturen wie Tapisserie.",
+   "»Tropical«-Zifferblätter haben sich durch UV-Licht von Schwarz zu Braun verfärbt und sind bei Sammlern gefragt.",
+   "Zifferblätter aus Grand-Feu-Emaille werden bei über 800 Grad gebrannt und verfärben sich nie."
   ]
  },
  {
@@ -879,6 +969,11 @@
   "g": [
    "Den rostfreien Stahl entdeckte Harry Brearley 1913 in Sheffield. In den 1920er- und 1930er-Jahren setzte er sich als Gehäusematerial für robuste Armbanduhren durch.",
    "Lange galt Stahl als Material für günstige Uhren. Erst die Luxus-Sportuhren der 1970er-Jahre wie Royal Oak und Nautilus machten Stahl salonfähig. 1985 stellte Rolex als erster großer Hersteller auf den besonders korrosionsbeständigen Stahl 904L um."
+  ],
+  "x": [
+   "Uhrengehäuse bestehen meist aus 316L-Edelstahl; Rolex nutzt 904L (Oystersteel), der noch korrosionsbeständiger ist.",
+   "Edelstahl lässt sich polieren und satinieren, was den Kontrast auf vielen Gehäusen erzeugt.",
+   "Edelstahl ist leicht magnetisch; Weicheisen-Innengehäuse schützen deshalb zusätzlich vor Magnetfeldern."
   ]
  },
  {
@@ -924,6 +1019,11 @@
   "g": [
    "Die erste Armbanduhr mit Titangehäuse brachte Citizen 1970 heraus. Titan war schwer zu bearbeiten und deshalb lange etwas Besonderes.",
    "1980 stellte IWC zusammen mit Porsche Design einen Chronographen aus Titan vor, der den Werkstoff auch in der Schweiz bekannt machte. Heute ist Titan bei Sport- und Taucheruhren weit verbreitet."
+  ],
+  "x": [
+   "Titan ist etwa 40 Prozent leichter als Stahl und hautfreundlich.",
+   "Reintitan (Grade 2) ist weicher und kratzt leichter, Grade 5 ist eine härtere Legierung mit Aluminium und Vanadium.",
+   "Titan lässt sich schwerer polieren als Stahl und wirkt meist etwas grauer."
   ]
  },
  {
@@ -971,6 +1071,11 @@
   "g": [
    "1962 brachte Rado mit der DiaStar eine Uhr aus sehr hartem Hartmetall auf den Markt, die als kratzfest beworben wurde. 1986 folgte die Rado Integral mit einem Band aus Hightech-Keramik. Im selben Jahr stellte IWC eine Da Vinci mit Keramikgehäuse vor.",
    "Mit der Chanel J12 aus schwarzer Keramik wurde der Werkstoff 2000 auch in der Mode populär. Heute verwenden viele Marken Keramik für Lünetten, weil sie kratzfest ist und nicht ausbleicht."
+  ],
+  "x": [
+   "Uhrenkeramik besteht meist aus Zirkoniumoxid, das bei sehr hohen Temperaturen gesintert wird.",
+   "Keramik ist kratzfest und farbecht, kann aber bei einem harten Stoß brechen.",
+   "Farbige Keramik, etwa Rot oder Weiß, ist technisch schwieriger herzustellen als Schwarz."
   ]
  },
  {
@@ -1021,6 +1126,11 @@
   "g": [
    "Radioaktive Leuchtfarbe auf Radiumbasis kam um 1910 auf und wurde im Ersten Weltkrieg massenhaft verwendet. In amerikanischen Fabriken spitzten Arbeiterinnen die Pinsel mit den Lippen an und erkrankten schwer. Die »Radium Girls« klagten in den 1920er-Jahren und erreichten bessere Schutzvorschriften.",
    "Ab den 1960er-Jahren ersetzte das schwächer strahlende Tritium das Radium. 1993 entwickelte die japanische Firma Nemoto mit LumiNova eine nicht radioaktive Leuchtfarbe, die heute als Super-LumiNova in fast allen Uhren steckt."
+  ],
+  "x": [
+   "Frühe Uhren nutzten Radium, später Tritium; heute dominiert das nicht radioaktive Super-LumiNova.",
+   "Tritium zerfällt mit einer Halbwertszeit von etwa 12 Jahren, deshalb leuchten alte Tritium-Zifferblätter kaum noch.",
+   "Manche Marken verwenden kleine Tritiumröhrchen (GTLS), die ohne Aufladung jahrelang leuchten."
   ]
  },
  {
@@ -1066,6 +1176,11 @@
   "g": [
    "1970 beschäftigte die Schweizer Uhrenindustrie rund 90.000 Menschen. Nach dem Aufkommen der billigen Quarzuhren waren es Mitte der 1980er-Jahre nur noch etwa 30.000. Viele traditionsreiche Marken verschwanden oder wurden verkauft.",
    "Die Wende kam mit der Fusion der großen Uhrenkonzerne zur späteren Swatch Group unter Nicolas G. Hayek und mit dem Erfolg der Swatch ab 1983. Gleichzeitig entdeckten Kunden die mechanische Uhr als Luxus- und Liebhaberstück neu."
+  ],
+  "x": [
+   "Die Quarzkrise begann 1969 mit der Seiko Astron und erreichte ihren Höhepunkt in den späten 1970er-Jahren.",
+   "Die Zahl der Beschäftigten in der Schweizer Uhrenindustrie sank von rund 90.000 auf unter 30.000.",
+   "Die Fusion von ASUAG und SSIH zur späteren Swatch Group und die Swatch selbst gelten als Wende."
   ]
  },
  {
@@ -1112,6 +1227,11 @@
   "g": [
    "Als eine der ersten Armbanduhren gilt die Uhr, die Breguet ab 1810 für Caroline Murat, die Königin von Neapel, baute. 1868 fertigte Patek Philippe eine Armbanduhr für die ungarische Gräfin Koscowicz, die erste Schweizer Armbanduhr.",
    "Im Ersten Weltkrieg trugen Soldaten Taschenuhren mit angelöteten Bandbügeln am Handgelenk, sogenannte »Trench Watches«. Nach dem Krieg verbreitete sich die Armbanduhr auch im zivilen Leben schnell."
+  ],
+  "x": [
+   "Bis zum Ersten Weltkrieg galten Armbanduhren als Damenschmuck; die Soldaten im Krieg machten sie für Männer populär.",
+   "Frühe Armbanduhren wurden oft aus Taschenuhren umgebaut, indem man Bandanstöße an das Gehäuse lötete.",
+   "Die Santos von Cartier (1904) gilt als eine der ersten eigens entworfenen Armbanduhren für Männer."
   ]
  },
  {
@@ -1158,6 +1278,11 @@
   "g": [
    "Rolex stellte 1926 mit der Oyster eine der ersten wirklich wasserdichten Armbanduhren vor. 1927 trug die Schwimmerin Mercedes Gleitze eine Oyster, als sie den Ärmelkanal durchschwamm. 1932 brachte Omega mit der Marine eine frühe Taucheruhr heraus.",
    "In den 1950er-Jahren entstanden die modernen Taucheruhren. Seit den 1980er-Jahren legt die Norm ISO 6425 fest, welche Prüfungen eine Uhr bestehen muss, um als Taucheruhr zu gelten."
+  ],
+  "x": [
+   "Die Angabe in Metern beschreibt einen Prüfdruck, keine Tauchtiefe. Eine Uhr mit »30 m« ist nur spritzwassergeschützt.",
+   "Echte Taucheruhren nach ISO 6425 werden einzeln geprüft, etwa auf 125 Prozent des angegebenen Drucks.",
+   "Dichtungen altern; die Wasserdichtigkeit sollte etwa alle zwei Jahre geprüft werden."
   ]
  },
  {
@@ -1197,6 +1322,11 @@
   "g": [
    "Genaue Uhren waren früher eine Frage von Leben und Tod auf See, denn nur mit der genauen Zeit ließ sich der Längengrad bestimmen. John Harrisons Seeuhr H4 wich 1761 auf einer Reise nach Jamaika nach 81 Tagen nur um wenige Sekunden ab.",
    "Im 19. und 20. Jahrhundert prüften Sternwarten wie Neuenburg, Genf und Kew Uhren in strengen Wettbewerben. Die Hersteller wetteiferten um Rekorde, bis die Quarzuhr diese Wettbewerbe überflüssig machte."
+  ],
+  "x": [
+   "Die Gangabweichung wird meist in Sekunden pro Tag angegeben und auf einer Zeitwaage gemessen.",
+   "Die Lage der Uhr beeinflusst den Gang; Uhrmacher regulieren deshalb in mehreren Lagen.",
+   "Wer seine Uhr über Nacht in einer bestimmten Lage ablegt, kann eine leichte Abweichung teilweise ausgleichen."
   ]
  },
  {
@@ -1233,6 +1363,11 @@
   "g": [
    "Früher wurden Uhren mit natürlichen Ölen geschmiert, unter anderem mit Öl aus dem Kopf des Pottwals. Diese Öle verharzten mit der Zeit, weshalb Uhren alle paar Jahre gereinigt werden mussten.",
    "Moderne synthetische Öle und neue Werkstoffe wie Silizium haben die Serviceintervalle deutlich verlängert. Viele Hersteller geben heute fünf bis zehn Jahre an."
+  ],
+  "x": [
+   "Ein Revisionsservice umfasst Zerlegen, Reinigen, Ölen, Regulieren und Prüfen der Wasserdichtigkeit.",
+   "Hersteller empfehlen heute oft Intervalle von fünf bis zehn Jahren, dank moderner Öle und Materialien.",
+   "Bei Vintage-Uhren sollte der Service möglichst originalgetreu erfolgen; ein Tausch von Zifferblatt oder Zeigern senkt den Sammlerwert."
   ]
  },
  {
@@ -1286,6 +1421,11 @@
   "g": [
    "George Daniels baute seine erste Taschenuhr mit Co-Axial-Hemmung Mitte der 1970er-Jahre. Er versuchte jahrelang, die Schweizer Industrie dafür zu gewinnen, doch die Konstruktion galt als zu aufwendig.",
    "Erst Omega wagte den Schritt und stellte 1999 die De Ville Co-Axial vor. Daniels arbeitete bis zu seinem Tod 2011 eng mit Omega zusammen."
+  ],
+  "x": [
+   "George Daniels entwickelte die Co-Axial-Hemmung in den 1970er-Jahren; Omega brachte sie 1999 in Serie.",
+   "Die Hemmung überträgt den Impuls tangential statt gleitend, wodurch sie weniger Schmierung braucht.",
+   "Seit 2015 kombiniert Omega die Co-Axial-Hemmung mit der Master-Chronometer-Zertifizierung."
   ]
  },
  {
@@ -1335,6 +1475,11 @@
   "g": [
    "Schalträder werden in Chronographen seit dem 19. Jahrhundert verwendet. Sie sind aufwendig zu fertigen und galten lange als Standard für hochwertige Chronographen.",
    "1974 entwickelte Edmond Capt das Valjoux 7750 mit einer günstigeren Kulissensteuerung. Es wurde mitten in der Quarzkrise vorgestellt, fast eingestellt und dann zu einem der meistgebauten Chronographenwerke der Welt."
+  ],
+  "x": [
+   "Das Schaltrad ist ein kleines Säulenrad, das die Funktionen Start, Stopp und Nullstellung steuert.",
+   "Bei vielen hochwertigen Chronographen ist das Schaltrad durch den Glasboden sichtbar und oft poliert oder gebläut.",
+   "Die Alternative, die Kulissensteuerung, ist günstiger in der Fertigung und robust."
   ]
  },
  {
@@ -1382,6 +1527,11 @@
   "g": [
    "1954 ließ sich die Firma Büren ein Automatikwerk mit Mikrorotor patentieren, das »Super Slender«. Ein Jahr später kam Universal Genève mit dem Polerouter, dessen Gehäuse Gérald Genta entworfen hatte.",
    "In den 1970er-Jahren nutzte Patek Philippe den Mikrorotor für besonders flache Automatikwerke wie das Kaliber 240, das bis heute gebaut wird."
+  ],
+  "x": [
+   "Ein Mikrorotor ist in das Werk eingelassen und macht es deutlich flacher als ein Werk mit Zentralrotor.",
+   "Mikrorotoren bestehen oft aus Gold oder Platin, weil die geringe Größe ein hohes Gewicht erfordert.",
+   "Patek Philippe, Bulgari und Chopard nutzen Mikrorotoren in einigen ihrer flachsten Werke."
   ]
  },
  {
@@ -1422,6 +1572,11 @@
   "g": [
    "Silizium ist seit den 1950er-Jahren der Grundstoff der Halbleiterindustrie. Ende der 1990er-Jahre erkannten Uhrmacher, dass sich mit den Ätzverfahren der Chipherstellung auch winzige Uhrenteile fertigen lassen.",
    "Nach der Ulysse Nardin Freak von 2001 forschten Patek Philippe, Rolex und die Swatch Group gemeinsam an Silizium-Bauteilen. Heute ist die Silizium-Spirale bei vielen Herstellern Standard."
+  ],
+  "x": [
+   "Silizium ist leicht, antimagnetisch und braucht kein Öl.",
+   "Silizium-Spiralen werden mit Verfahren aus der Halbleiterindustrie hergestellt.",
+   "Ulysse Nardin, Patek Philippe und Swatch Group gehörten zu den Pionieren dieser Technik."
   ]
  },
  {
@@ -1487,6 +1642,11 @@
   "g": [
    "1930 brachte Tissot eine der ersten antimagnetischen Armbanduhren auf den Markt, mit Bauteilen aus nicht magnetischen Legierungen. Mit der Ausbreitung von Elektrizität, Radar und Röntgengeräten nach dem Zweiten Weltkrieg wurde Magnetismus zu einem echten Problem.",
    "Mitte der 1950er-Jahre entstanden die Klassiker IWC Ingenieur (1955), Rolex Milgauss (1956) und Omega Railmaster (1957) mit Weicheisen-Innengehäuse. 2013 erreichte Omega ohne Innengehäuse 15.000 Gauß."
+  ],
+  "x": [
+   "Magnetfelder im Alltag stammen von Lautsprechern, Handys, Laptops und Taschenverschlüssen.",
+   "Eine magnetisierte Uhr geht meist stark vor; ein Uhrmacher kann sie in wenigen Sekunden entmagnetisieren.",
+   "Normen sehen etwa 4.800 A/m (60 Gauß) vor; Master Chronometer müssen 15.000 Gauß überstehen."
   ]
  },
  {
@@ -1529,6 +1689,11 @@
   "g": [
    "Die Schweizer Uhrenindustrie war lange arbeitsteilig organisiert. Spezialisierte Firmen fertigten Rohwerke, die sogenannten Ébauches, die Uhrenmarken dann fertigstellten und in ihre Gehäuse setzten.",
    "Viele dieser Werkehersteller gingen später in der ETA auf. Ihr Automatikwerk 2824 von 1971 wurde zum meistverwendeten Werk der Schweiz. Als die Swatch Group Anfang der 2000er-Jahre die Lieferungen einschränkte, bauten viele Marken eigene Manufakturwerke auf."
+  ],
+  "x": [
+   "Der Begriff Kaliber bezeichnet das Werk einer Uhr und stammt ursprünglich von der Größe der Werkplatine.",
+   "Viele Marken nutzen Basiskaliber von ETA oder Sellita und veredeln sie.",
+   "Manufakturkaliber werden vom Hersteller selbst entwickelt und gefertigt."
   ]
  },
  {
@@ -1577,6 +1742,11 @@
   "g": [
    "Der Seiko-Ingenieur Yoshikazu Akahane hatte 1977 die Idee, eine Zugfeder mit der Genauigkeit eines Quarzes zu verbinden. Die Umsetzung scheiterte jahrelang am Stromverbrauch der Elektronik.",
    "Mehr als 600 Prototypen sollen entstanden sein, bevor 1999 die ersten Spring-Drive-Uhren erschienen. Akahane erlebte die Markteinführung nicht mehr, er starb 1998."
+  ],
+  "x": [
+   "Spring Drive nutzt eine mechanische Zugfeder und einen elektronischen Regler, der eine Gleitradbremse steuert.",
+   "Die Genauigkeit liegt bei etwa ±1 Sekunde pro Tag.",
+   "Seiko entwickelte Spring Drive über 20 Jahre, bevor es 1999 in Serie ging."
   ]
  },
  {
@@ -1629,6 +1799,11 @@
   "g": [
    "Longines ließ 1936 eine der ersten Flyback-Funktionen für Chronographen patentieren. Sie war für Piloten gedacht, die beim Navigieren schnell aufeinanderfolgende Zeitabschnitte messen mussten.",
    "Nach dem Zweiten Weltkrieg verlangte die französische Luftwaffe für ihre Fliegerchronographen ausdrücklich eine Flyback-Funktion. Daraus entstanden die Typ-20-Chronographen von Breguet, Dodane und anderen."
+  ],
+  "x": [
+   "Ein Flyback-Chronograph kann während der Messung mit einem einzigen Druck zurückgesetzt und neu gestartet werden.",
+   "Er war ursprünglich für Piloten gedacht, die schnell aufeinanderfolgende Zeitabschnitte messen mussten.",
+   "Viele hochwertige Chronographen wie die Type XX oder die Royal Oak Chronograph haben eine Flyback-Funktion."
   ]
  },
  {
@@ -1678,6 +1853,11 @@
   "g": [
    "Tachymeterskalen gab es schon auf Taschenuhren-Chronographen des frühen 20. Jahrhunderts, meist am Rand des Zifferblatts.",
    "Mit dem Aufschwung des Motorsports in den 1950er- und 1960er-Jahren wanderte die Skala auf die Lünette, etwa bei der Omega Speedmaster von 1957 und der Rolex Daytona von 1963. So blieb das Zifferblatt übersichtlich."
+  ],
+  "x": [
+   "Mit einer Tachymeterskala lässt sich die Geschwindigkeit über eine bekannte Strecke, meist einen Kilometer, ablesen.",
+   "Die Skala basiert auf der Formel 3600 geteilt durch die gemessene Zeit in Sekunden.",
+   "Für langsamere Geschwindigkeiten unter 60 km/h reicht die Skala nicht aus."
   ]
  },
  {
@@ -1725,6 +1905,11 @@
   "g": [
    "Mit dem Aufkommen der Sättigungstaucherei in den 1960er-Jahren platzten bei Berufstauchern immer wieder Uhrgläser beim Auftauchen aus der Druckkammer.",
    "Rolex und das französische Taucherunternehmen COMEX entwickelten Ende der 1960er-Jahre ein Ventil, das sich bei Überdruck selbst öffnet. Fast gleichzeitig stattete auch Doxa seine Taucheruhren mit einem Heliumventil aus."
+  ],
+  "x": [
+   "Ein Heliumventil ist nur für Sättigungstaucher wichtig, die in Druckkammern mit Heliumgemischen leben.",
+   "Automatische Ventile öffnen sich bei Überdruck selbst, manuelle müssen aufgeschraubt werden.",
+   "Für Freizeittaucher hat das Ventil keine praktische Bedeutung."
   ]
  },
  {
@@ -1772,6 +1957,11 @@
   "g": [
    "Seiko übernahm in den 1960er-Jahren Poliermaschinen der Firma Sallaz und entwickelte daraus eine eigene Technik.",
    "1967 legte Seiko mit dem Modell 44GS die »Grammar of Design« fest, die Gestaltungsregeln für Grand Seiko. Die Zaratsu-Politur für verzerrungsfreie Spiegelflächen ist ein zentraler Bestandteil davon."
+  ],
+  "x": [
+   "Zaratsu ist eine Poliertechnik von Grand Seiko, bei der Metall gegen eine rotierende Zinnscheibe gehalten wird.",
+   "Sie erzeugt verzerrungsfreie Spiegelflächen mit scharfen Kanten.",
+   "Nur wenige Handwerker beherrschen diese Technik."
   ]
  },
  {
@@ -1815,6 +2005,11 @@
   "g": [
    "Das Wort Chronometer verwendete der Engländer Jeremy Thacker schon 1714 für eine genaue Seeuhr. Im 18. Jahrhundert machten John Harrison, John Arnold und Thomas Earnshaw die Seeuhr zu einem verlässlichen Navigationsinstrument.",
    "Später vergaben Sternwarten offizielle Gangzeugnisse. In der Schweiz übernahmen ab dem frühen 20. Jahrhundert regionale Prüfstellen diese Aufgabe, die 1973 in der COSC zusammengeführt wurden."
+  ],
+  "x": [
+   "Ein Chronometer ist eine Uhr, die von einer offiziellen Prüfstelle wie der COSC getestet wurde.",
+   "Die COSC testet das Werk 15 Tage lang in fünf Lagen und drei Temperaturen; erlaubt sind −4 bis +6 Sekunden pro Tag.",
+   "Viele Marken haben strengere eigene Normen, etwa Rolex mit −2 bis +2 Sekunden."
   ]
  },
  {
@@ -1873,6 +2068,11 @@
   "g": [
    "Die Idee entstand, weil eine COSC-Prüfung nur das ausgebaute Werk testet, nicht die fertige Uhr. Omega wollte zeigen, dass seine Uhren auch im Alltag mit Magnetfeldern genau laufen.",
    "Nach der Aqua Terra mit 15.000 Gauß von 2013 entwickelte Omega mit dem Eidgenössischen Institut für Metrologie die neue Prüfung. Die Globemaster war 2015 die erste zertifizierte Uhr."
+  ],
+  "x": [
+   "Der Master Chronometer wird von der METAS geprüft, dem Eidgenössischen Institut für Metrologie.",
+   "Getestet wird die fertige Uhr, nicht nur das Werk, unter anderem bei 15.000 Gauß.",
+   "Die erlaubte Abweichung liegt bei 0 bis +5 Sekunden pro Tag."
   ]
  },
  {
@@ -1912,6 +2112,11 @@
   "g": [
    "Frühe Uhren hatten keine Referenznummern, sondern nur Seriennummern. Mit der Serienfertigung im 20. Jahrhundert begannen die Hersteller, Modelle durch Nummern zu unterscheiden.",
    "Bei Rolex waren die Referenzen zunächst vierstellig, ab den späten 1970er-Jahren fünfstellig und ab den 2000er-Jahren sechsstellig. Sammler unterscheiden Generationen deshalb oft schon an der Zahl der Ziffern."
+  ],
+  "x": [
+   "Die Referenznummer identifiziert ein Modell und oft auch Material und Ausführung.",
+   "Bei Rolex verrät die letzte Ziffer meist das Material, etwa 0 für Stahl oder 8 für Gelbgold.",
+   "Sammler unterscheiden zusätzlich nach Seriennummern und Zifferblattvarianten."
   ]
  },
  {
@@ -1946,6 +2151,11 @@
   "g": [
    "Die Bezeichnung »Swiss Made« wurde 1971 in einer Verordnung des Schweizer Bundesrats erstmals genau geregelt. Damals reichte es, wenn das Werk zu 50 Prozent schweizerisch war.",
    "Weil immer mehr Bauteile günstig im Ausland gefertigt wurden, beschloss die Schweiz strengere »Swissness«-Regeln, die seit 2017 gelten."
+  ],
+  "x": [
+   "Seit 2017 muss eine Swiss-Made-Uhr mindestens 60 Prozent ihrer Herstellungskosten in der Schweiz haben.",
+   "Das Werk muss in der Schweiz montiert, eingeschalt und kontrolliert werden.",
+   "»Swiss Movement« auf einer Uhr bedeutet nur, dass das Werk schweizerisch ist, nicht die ganze Uhr."
   ]
  },
  {
@@ -1992,7 +2202,12 @@
     "Entwurf von 1976",
     "Ingenieur SL, 1976"
    ]
-  }
+  },
+  "x": [
+   "Gérald Genta entwarf die Royal Oak, die Nautilus, die Ingenieur SL und die Pasha.",
+   "Er arbeitete für sehr viele Marken und soll im Laufe seines Lebens Tausende Uhren entworfen haben.",
+   "Seine eigene Marke wurde 2000 von Bulgari übernommen."
+  ]
  },
  {
   "id": "breguet",
@@ -2038,7 +2253,12 @@
     "Breguet-Zeiger und Guilloché",
     "Fliegerchronograph"
    ]
-  }
+  },
+  "x": [
+   "Abraham-Louis Breguet erfand unter anderem das Tourbillon, die Breguet-Spirale und den Pare-chute-Stoßschutz.",
+   "Er gilt als einer der wichtigsten Uhrmacher der Geschichte.",
+   "Napoleon und Marie-Antoinette gehörten zu seinen Kunden."
+  ]
  },
  {
   "id": "wilsdorf",
@@ -2086,7 +2306,12 @@
     "Oyster und Perpetual: seine Erfindungen",
     "Werkzeuguhr aus seiner Ära"
    ]
-  }
+  },
+  "x": [
+   "Hans Wilsdorf gründete Rolex 1905 in London und zog 1919 nach Genf.",
+   "Er ließ 1926 den Namen Tudor eintragen, um eine günstigere Linie mit Rolex-Gehäusen anzubieten.",
+   "Nach seinem Tod ging Rolex in eine Stiftung über, die bis heute Eigentümerin ist."
+  ]
  },
  {
   "id": "daniels",
@@ -2129,6 +2354,11 @@
    "mc": [
     "Mit seiner Co-Axial-Hemmung"
    ]
-  }
+  },
+  "x": [
+   "George Daniels fertigte Uhren komplett von Hand, inklusive aller Teile.",
+   "Er entwickelte die Co-Axial-Hemmung, die Omega in Serie brachte.",
+   "Seine Uhren erzielen heute auf Auktionen Millionenbeträge."
+  ]
  }
 ]
