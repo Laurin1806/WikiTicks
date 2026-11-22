@@ -2756,7 +2756,8 @@
      "PROFESSIONAL"
     ],
     "track": "rail",
-    "hands": "alpha"
+    "hands": "alpha",
+    "strap": "omega"
    },
    "var": [
     {
@@ -2904,7 +2905,8 @@
      "Co-Axial Master Chronometer",
      "SEAMASTER",
      "DIVER 300M"
-    ]
+    ],
+    "strap": "omega"
    },
    "m": [
     "Zifferblatt mit Wellenmuster",
@@ -3020,7 +3022,9 @@
      "SEAMASTER",
      "PLANET OCEAN",
      "600M / 2000FT"
-    ]
+    ],
+    "strap": "link3",
+    "polishedCenter": true
    },
    "m": [
     "Orangefarbene Akzente",
@@ -3118,7 +3122,8 @@
     "top": [
      "Seamaster",
      "AQUA TERRA 150M"
-    ]
+    ],
+    "strap": "omega"
    },
    "m": [
     "Zifferblatt mit Teakmuster",
@@ -10032,7 +10037,7 @@
     "hands": "sword",
     "date": "3",
     "lume": "#f2f2f2",
-    "strap": "oyster",
+    "strap": "link3",
     "label": "SPIRIT",
     "top": [
      "SPIRIT"
@@ -10116,7 +10121,7 @@
     "markers": "baton",
     "hands": "baton",
     "date": "3",
-    "strap": "oyster",
+    "strap": "link3",
     "top": [
      "POWERMATIC 80"
     ]
