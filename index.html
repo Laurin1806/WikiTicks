@@ -444,9 +444,9 @@ function shuffled(seed, list) {
 }
 // Jeder Eintrag kommt einmal dran, bevor sich einer wiederholt
 // Artikel des Tages von Hand festlegen (ID eines Eintrags); leer lassen ("") für die automatische tägliche Auswahl
-const ARTIKEL_DES_TAGES = "gmt-master-2";
+const ARTIKEL_DES_TAGES = "";
 // Optional: Bild einer Variante zeigen (Teil des Variantennamens, z. B. "1675"); leer lassen für die aktuelle Ausführung
-const ARTIKEL_DES_TAGES_VARIANTE = "1675";
+const ARTIKEL_DES_TAGES_VARIANTE = "";
 function ofTheDay(list, salt) {
   const period = Math.floor(today() / MAIN_DAYS), round = Math.floor(period / list.length);
   return shuffled(round * 40503 + salt, list)[period % list.length];
@@ -1234,7 +1234,7 @@ function dailyCard(M, kicker, varName = "", hid = "dh") {
         <h2 id="${hid}">${esc(M.t)}</h2>
         <p class="lead">${esc(M.s)}</p>
         <p class="daily-body">${esc(firstSentences(M.b[0]))}</p>
-        ${M.w ? `<p class="daily-body daily-w"><b>Wirkung:</b> ${esc(M.w)}</p>` : ""}
+        ${M.w ? `<p class="daily-body daily-w">${esc(M.w)}</p>` : ""}
         <a class="go" href="#${M.id}">Ganzen Artikel lesen →</a>
       </div>
       ${M.brand
