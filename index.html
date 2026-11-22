@@ -277,6 +277,8 @@ article .curbox { margin-top: 10px; }
 .pl-d { color: var(--muted); font-size: 13px; }
 .pl-box .price-note { flex-basis: 100%; margin-top: 6px !important; }
 @media (max-width: 640px) { .pc-row { grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; } .pc-track { grid-column: 1 / -1; grid-row: 2; } .pc-axis { grid-template-columns: minmax(0, 1fr); } .pc-axis > div:first-child, .pc-unit { display: none; } .pc-axis .pc-track { grid-row: auto; } }
+.brandart { max-width: 78ch; margin: 4px 0 34px; }
+.brandart h3.art-h:first-child { margin-top: 8px; }
 .daily-cap { display: block; text-align: center; font-size: 12px; color: var(--muted); margin-top: 6px; }
 .gallery-note { font-size: 12px; color: var(--muted); margin: 0 0 22px !important; }
 
@@ -1272,8 +1274,12 @@ function viewBrand(b) {
     <h2 class="page-title">${esc(b)}</h2>
     ${info ? `<div class="brandinfo">
       <div>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
-      ${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ["Modelle bei WikiTicks", String(ms.length)]])}
-    </div>` : ""}
+      ${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ...(info.fakten || []), ["Modelle bei WikiTicks", String(ms.length)]])}
+    </div>
+    ${(info.abschnitte || info.zeit) ? `<article class="brandart">
+      ${(info.abschnitte || []).map(([h, ps]) => `<h3 class="art-h">${esc(h)}</h3>${ps.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}`).join("")}
+      ${info.zeit ? `<h3 class="art-h">Zeitleiste</h3><ol class="timeline">${info.zeit.map(([y, t]) => `<li><span class="ty">${esc(y)}</span><span class="tt">${linkify(esc(t), "marke-" + slug(b), used)}</span></li>`).join("")}</ol>` : ""}
+    </article>` : ""}` : ""}
     <h3 class="section-title">Modelle</h3>
     <p class="count">${plural(ms.length, "Modell", "Modelle")}</p>
     <div class="grid">${ms.map(e => `
