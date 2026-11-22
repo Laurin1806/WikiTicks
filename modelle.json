@@ -9282,6 +9282,1215 @@
     "Es gibt sie auch als Skelettversion.",
     "Gebraucht oft günstiger als die bekannten Vorbilder."
    ]
+  },
+  {
+   "id": "ranger",
+   "t": "Tudor Ranger",
+   "brand": "Tudor",
+   "since": "2022",
+   "s": "Schlichte Feld- und Expeditionsuhr mit den Ziffern 3, 6 und 9, die an die britische Grönland-Expedition der 1950er-Jahre erinnert.",
+   "b": [
+    "Den Namen Ranger trug bei Tudor schon Ende der 1960er-Jahre eine robuste Oyster-Uhr mit großen arabischen Ziffern bei 3, 6 und 9. Die Uhr galt als günstigere Schwester der Rolex Explorer und war für Menschen gedacht, die eine einfache, gut ablesbare Werkzeuguhr suchten.",
+    "2014 brachte Tudor die Heritage Ranger mit 41-Millimeter-Gehäuse und zugekauftem Automatikwerk zurück. 2022 folgte die heutige Ranger: kleiner, mit 39 Millimetern, und mit dem hauseigenen Manufakturkaliber MT5402. Tudor stellt sie bewusst in die Tradition der British North Greenland Expedition von 1952 bis 1954, deren Teilnehmer Tudor Oyster Prince am Handgelenk trugen.",
+    "Typisch sind das matte schwarze Zifferblatt, die Ziffern 3, 6 und 9 mit Leuchtmasse in Beige, der pfeilförmige Stundenzeiger und der Sekundenzeiger mit roter Spitze. Die Ranger gehört zu den günstigsten Tudor-Modellen mit Manufakturwerk und Chronometer-Zertifikat."
+   ],
+   "cur": "Ref. M79950 · seit 2022",
+   "f": [
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "MT5402, Automatik, 28.800 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 70 Stunden"
+    ],
+    [
+     "Genauigkeit",
+     "COSC-zertifizierter Chronometer"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Zifferblatt",
+     "Schwarz, matt"
+    ],
+    [
+     "Band",
+     "Edelstahl, Textil oder Kautschuk"
+    ]
+   ],
+   "refs": [
+    [
+     "79910",
+     "2014–2022",
+     "41 mm",
+     "2824 (zugekauft)",
+     "Heritage Ranger, Vintage-Optik"
+    ],
+    [
+     "M79950",
+     "seit 2022",
+     "39 mm",
+     "MT5402",
+     "Manufakturwerk, COSC, ≈ 70 h Gangreserve"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "chronometer",
+    "edelstahl",
+    "leuchtmasse",
+    "explorer",
+    "black-bay"
+   ],
+   "k": "Die Ranger von 2022 erinnert an eine Grönland-Expedition, bei der Tudor-Uhren zwei Jahre lang im Eis getestet wurden.",
+   "a": [],
+   "v": {
+    "dial": "#1a1c20",
+    "markers": "explorer",
+    "hands": "arrow",
+    "sec": "#c8202a",
+    "lume": "#e9dcb8",
+    "strap": "oyster",
+    "guards": false,
+    "label": "RANGER"
+   },
+   "m": [
+    "Arabische Ziffern bei 3, 6 und 9",
+    "Pfeilförmiger Stundenzeiger",
+    "Sekundenzeiger mit roter Spitze",
+    "Glatte Stahllünette, kein Datum"
+   ],
+   "tipp": [
+    "Die Ranger nutzt dasselbe Werk wie die Black Bay 54 und viele Black-Bay-Modelle, kostet aber deutlich weniger.",
+    "Mit nur rund 12 Millimetern Höhe passt sie gut unter Hemdmanschetten."
+   ]
+  },
+  {
+   "id": "black-bay-gmt",
+   "t": "Tudor Black Bay GMT",
+   "brand": "Tudor",
+   "since": "2018",
+   "s": "Reiseuhr mit zweiter Zeitzone und zweifarbiger Lünette in Burgunder und Blau.",
+   "b": [
+    "Tudor stellte die Black Bay GMT 2018 vor. Sie verbindet das Gehäuse und die Schneeflocken-Zeiger der Black Bay mit einem 24-Stunden-Zeiger und einer drehbaren Lünette mit 24-Stunden-Skala. Die Lünette ist zur Hälfte burgunderrot für den Tag und blau für die Nacht und erinnert damit an die »Pepsi«-Farben der Rolex GMT-Master.",
+    "Im Inneren arbeitet das Manufakturkaliber MT5652. Bei ihm lässt sich der Stundenzeiger einzeln in Stundenschritten verstellen, ohne dass die Uhr anhält. So bleibt der 24-Stunden-Zeiger auf der Heimatzeit, während der normale Stundenzeiger auf die Ortszeit gesprungen ist. Auch das Datum folgt dem Stundenzeiger.",
+    "Die matte, eher gedeckte Farbgebung der Lünette unterscheidet sie deutlich von glänzenden Keramiklünetten. Neben dem Stahlband mit Nietoptik gibt es Leder- und Textilbänder."
+   ],
+   "cur": "Ref. M79830RB · seit 2018",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "MT5652, Automatik, 28.800 A/h, GMT"
+    ],
+    [
+     "Gangreserve",
+     "≈ 70 Stunden"
+    ],
+    [
+     "Genauigkeit",
+     "COSC-zertifizierter Chronometer"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Lünette",
+     "Beidseitig drehbar, 24-Stunden-Skala, Burgunder/Blau"
+    ],
+    [
+     "Band",
+     "Edelstahl mit Nietoptik, Leder oder Textil"
+    ]
+   ],
+   "refs": [
+    [
+     "M79830RB",
+     "seit 2018",
+     "41 mm",
+     "MT5652",
+     "Burgunder-blaue Lünette, Stundenzeiger einzeln stellbar"
+    ]
+   ],
+   "r": [
+    "gmt",
+    "automatik",
+    "chronometer",
+    "luenette",
+    "black-bay",
+    "gmt-master-2"
+   ],
+   "k": "Der einzeln stellbare Stundenzeiger macht die Black Bay GMT zu einer echten Reiseuhr: Nach der Landung wird nur der Stundenzeiger verstellt.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "bezel": "gmt2",
+    "bezelColors": [
+     "#7a1f2b",
+     "#1e3f8a"
+    ],
+    "markers": "dots",
+    "hands": "snowflake",
+    "gmt": "#c8202a",
+    "date": "3",
+    "crown": "big",
+    "sec": "#e8e3d6"
+   },
+   "m": [
+    "Lünette in mattem Burgunder und Blau",
+    "Schneeflocken-Stundenzeiger",
+    "Roter 24-Stunden-Zeiger",
+    "Datum bei 3 Uhr ohne Lupe"
+   ],
+   "tipp": [
+    "Anders als bei der Rolex GMT-Master II ist die Lünette aus eloxiertem Aluminium, nicht aus Keramik.",
+    "Das Stahlband mit Nietoptik erinnert an Tudor-Bänder der 1950er- und 1960er-Jahre."
+   ]
+  },
+  {
+   "id": "perpetual-1908",
+   "t": "Rolex Perpetual 1908",
+   "brand": "Rolex",
+   "since": "2023",
+   "ns": true,
+   "s": "Klassische Dresswatch aus Gold mit kleiner Sekunde, benannt nach dem Jahr, in dem Hans Wilsdorf den Namen Rolex eintragen ließ.",
+   "b": [
+    "Rolex stellte die Perpetual 1908 im Jahr 2023 vor. Sie löste die eingestellte Cellini-Familie ab und ist seitdem die elegante, klassische Linie der Marke. Ihr Name verweist auf 1908, das Jahr, in dem Hans Wilsdorf den Markennamen Rolex registrieren ließ.",
+    "Das 39-Millimeter-Gehäuse ist nur rund 9,5 Millimeter hoch und hat eine teilweise geriffelte Lünette. Ungewöhnlich für Rolex ist der Glasboden, durch den das Kaliber 7140 mit Chronergy-Hemmung und rund 66 Stunden Gangreserve sichtbar ist. Das Zifferblatt zeigt arabische Ziffern bei 3, 9 und 12 und eine kleine Sekunde bei 6 Uhr.",
+    "Die 1908 gibt es in Gelb- und Weißgold, seit 2024 auch in Platin mit eisblauem Zifferblatt. Sie wird an einem Lederband mit Faltschließe getragen und ist nur bis 50 Meter wasserdicht, also keine Sportuhr."
+   ],
+   "cur": "Ref. 52508 / 52509 · seit 2023",
+   "f": [
+    [
+     "Gehäuse",
+     "39 mm, Gelb- oder Weißgold, ≈ 9,5 mm hoch"
+    ],
+    [
+     "Kaliber",
+     "7140, Automatik, 28.800 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 66 Stunden"
+    ],
+    [
+     "Genauigkeit",
+     "−2 bis +2 s/Tag (Rolex-Norm)"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Gehäuseboden",
+     "Saphirglas"
+    ],
+    [
+     "Band",
+     "Alligatorleder, Faltschließe"
+    ]
+   ],
+   "refs": [
+    [
+     "52508",
+     "seit 2023",
+     "39 mm",
+     "7140",
+     "Gelbgold"
+    ],
+    [
+     "52509",
+     "seit 2023",
+     "39 mm",
+     "7140",
+     "Weißgold"
+    ],
+    [
+     "52506",
+     "seit 2024",
+     "39 mm",
+     "7140",
+     "Platin, eisblaues Zifferblatt"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "gangreserve",
+    "zifferblatt",
+    "wilsdorf",
+    "datejust",
+    "day-date"
+   ],
+   "k": "Die 1908 ist eine der wenigen aktuellen Rolex mit Glasboden.",
+   "a": [
+    "1908"
+   ],
+   "v": {
+    "case": "gold",
+    "dial": "#f3f0e8",
+    "markers": "arabic",
+    "hands": "alpha",
+    "sub": "small6",
+    "bezel": "fluted",
+    "strap": "leather",
+    "strapColor": "#2a201a",
+    "thin": true,
+    "top": [
+     "PERPETUAL",
+     "1908"
+    ],
+    "bottom": []
+   },
+   "m": [
+    "Arabische Ziffern bei 3, 9 und 12",
+    "Kleine Sekunde bei 6 Uhr",
+    "Teilweise geriffelte Lünette",
+    "Glasboden"
+   ],
+   "tipp": [
+    "Die 1908 ersetzt die Cellini; wer eine klassische Rolex ohne Sportcharakter sucht, landet heute bei ihr oder der Datejust.",
+    "Es gibt sie nur in Edelmetall, nicht in Stahl."
+   ]
+  },
+  {
+   "id": "land-dweller",
+   "t": "Rolex Land-Dweller",
+   "brand": "Rolex",
+   "since": "2025",
+   "s": "Sportlich-elegante Uhr mit integriertem Band und dem neuen Hochfrequenzkaliber 7135 mit 5 Hertz.",
+   "b": [
+    "Rolex stellte die Land-Dweller 2025 als erste neue Modellfamilie seit vielen Jahren vor. Mit flachem Gehäuse, geriffelter Lünette und einem fast nahtlos anschließenden Flat-Jubilee-Band greift sie den Stil der Oysterquartz aus den 1970er-Jahren auf und tritt gegen Uhren mit integriertem Band wie die Royal Oak oder die Nautilus an.",
+    "Technisch ist sie ein großer Schritt: Das Kaliber 7135 schwingt mit 5 Hertz, also 36.000 Halbschwingungen pro Stunde, und nutzt die neu entwickelte Dynapulse-Hemmung, bei der Teile aus Silizium die Energie verlustarm übertragen. Trotz der hohen Frequenz erreicht es rund 66 Stunden Gangreserve. Durch einen Glasboden ist das Werk zu sehen.",
+    "Das Zifferblatt trägt ein lasergraviertes Wabenmuster. Die Land-Dweller gibt es mit 36 und 40 Millimetern Durchmesser, in Stahl mit Weißgoldlünette, in Everose-Gold und in Platin."
+   ],
+   "cur": "Ref. 127334 / 127234 · seit 2025",
+   "f": [
+    [
+     "Gehäuse",
+     "40 oder 36 mm, Oystersteel mit Weißgoldlünette"
+    ],
+    [
+     "Kaliber",
+     "7135, Automatik, 36.000 A/h (5 Hz)"
+    ],
+    [
+     "Hemmung",
+     "Dynapulse, mit Silizium-Bauteilen"
+    ],
+    [
+     "Gangreserve",
+     "≈ 66 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Zifferblatt",
+     "Wabenmuster, lasergraviert"
+    ],
+    [
+     "Band",
+     "Flat Jubilee, integriert"
+    ]
+   ],
+   "refs": [
+    [
+     "127334",
+     "seit 2025",
+     "40 mm",
+     "7135",
+     "Oystersteel und Weißgold"
+    ],
+    [
+     "127234",
+     "seit 2025",
+     "36 mm",
+     "7135",
+     "Oystersteel und Weißgold"
+    ]
+   ],
+   "r": [
+    "schlagzahl",
+    "hemmung",
+    "silizium",
+    "automatik",
+    "royal-oak",
+    "nautilus",
+    "datejust"
+   ],
+   "k": "Die Land-Dweller ist die erste Rolex mit 5 Hertz und einer völlig neu konstruierten Hemmung.",
+   "a": [
+    "Land Dweller"
+   ],
+   "v": {
+    "dial": "#f1f1ee",
+    "tex": "grid",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "fluted",
+    "strap": "jubilee",
+    "polishedCenter": true,
+    "top": [
+     "OYSTER PERPETUAL",
+     "LAND-DWELLER"
+    ],
+    "bottom": []
+   },
+   "m": [
+    "Geriffelte Lünette auf flachem Gehäuse",
+    "Integriertes Flat-Jubilee-Band",
+    "Wabenmuster auf dem Zifferblatt",
+    "Glasboden"
+   ],
+   "tipp": [
+    "Die Land-Dweller ist bei Händlern sehr gefragt; mit langen Wartezeiten ist zu rechnen.",
+    "Die höhere Frequenz lässt den Sekundenzeiger sichtbar flüssiger laufen als bei anderen Rolex."
+   ]
+  },
+  {
+   "id": "turtle",
+   "t": "Seiko Prospex Turtle",
+   "brand": "Seiko",
+   "since": "1976",
+   "s": "Taucheruhr mit kissenförmigem Gehäuse, dessen Form ihr den Spitznamen »Turtle« eingebracht hat.",
+   "b": [
+    "Seiko brachte 1976 die Taucheruhr 6309 auf den Markt. Ihr breites, kissenförmiges Gehäuse erinnerte Sammler an einen Schildkrötenpanzer, daher der Spitzname »Turtle«. Die Uhr war preiswert, robust und bis 150 Meter wasserdicht und wurde bis in die späten 1980er-Jahre gebaut.",
+    "2016 legte Seiko die Form in der Prospex-Linie neu auf. Die Neuauflage hat rund 45 Millimeter Durchmesser, ist bis 200 Meter wasserdicht und arbeitet mit dem Automatikkaliber 4R36, das sich auch von Hand aufziehen lässt und einen Sekundenstopp besitzt. Wochentag und Datum stehen bei 3 Uhr.",
+    "Die Turtle gilt als eine der besten Taucheruhren im unteren Preisbereich und ist in vielen Farben und Sondereditionen erschienen."
+   ],
+   "cur": "Prospex SRP777 · seit 2016",
+   "f": [
+    [
+     "Gehäuse",
+     "≈ 45 mm, Edelstahl, Kissenform"
+    ],
+    [
+     "Kaliber",
+     "4R36, Automatik, 21.600 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 41 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "200 m (ISO 6425)"
+    ],
+    [
+     "Lünette",
+     "Einseitig drehbar, 60 Minuten"
+    ],
+    [
+     "Anzeige",
+     "Wochentag und Datum"
+    ],
+    [
+     "Band",
+     "Silikon oder Edelstahl"
+    ]
+   ],
+   "refs": [
+    [
+     "6309-7040",
+     "1976–1988",
+     "≈ 44 mm",
+     "6309",
+     "Erste »Turtle«, 150 m wasserdicht"
+    ],
+    [
+     "SRP777",
+     "seit 2016",
+     "≈ 45 mm",
+     "4R36",
+     "Neuauflage in der Prospex-Linie, 200 m"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "wasserdichtigkeit",
+    "luenette",
+    "leuchtmasse",
+    "skx007",
+    "seiko-5"
+   ],
+   "k": "Den Spitznamen »Turtle« hat nicht Seiko vergeben, sondern die Sammlergemeinde.",
+   "a": [
+    "Turtle",
+    "6309"
+   ],
+   "v": {
+    "shape": "cushion",
+    "dial": "#17191d",
+    "bezel": "dive",
+    "markers": "dots",
+    "hands": "baton",
+    "date": "daydate",
+    "strap": "rubber",
+    "label": "",
+    "top": [
+     "AUTOMATIC"
+    ],
+    "bottom": [
+     "DIVER'S 200m"
+    ]
+   },
+   "m": [
+    "Breites Kissengehäuse",
+    "Krone bei 3 Uhr",
+    "Wochentag und Datum bei 3 Uhr",
+    "Einseitig drehbare Taucherlünette"
+   ],
+   "tipp": [
+    "Originale 6309 aus den 1970er- und 1980er-Jahren sind oft mit Ersatzteilen restauriert; ein Blick auf Zifferblatt und Zeiger lohnt sich.",
+    "Das Gehäuse trägt groß, wirkt durch die kurzen Bandanstöße aber kleiner als der Durchmesser vermuten lässt."
+   ]
+  },
+  {
+   "id": "alpinist",
+   "t": "Seiko Alpinist",
+   "brand": "Seiko",
+   "since": "1959",
+   "s": "Bergsteigeruhr mit grünem Zifferblatt, goldenen Zeigern und innenliegendem Kompassring.",
+   "b": [
+    "Seiko stellte 1959 die Laurel Alpinist vor, eine robuste Uhr für die japanischen »Yama-otoko«, die Männer der Berge. Sie sollte Stößen, Staub und Feuchtigkeit standhalten und gut ablesbar sein.",
+    "Bekannt wurde der Name vor allem durch die SARB017 von 2006: grünes Zifferblatt, goldene arabische Ziffern, kathedralenförmige Zeiger und ein innenliegender Drehring mit Himmelsrichtungen, der über eine zweite Krone bei 4 Uhr verstellt wird. Mit dem Sonnenstand und dem Stundenzeiger lässt sich so grob die Nordrichtung bestimmen.",
+    "Nach dem Ende der SARB017 im Jahr 2019 erschien 2020 die Prospex Alpinist SPB121 mit dem Kaliber 6R35 und rund 70 Stunden Gangreserve. Optisch blieb sie ihrer Vorgängerin sehr nah."
+   ],
+   "cur": "Prospex SPB121 · seit 2020",
+   "f": [
+    [
+     "Gehäuse",
+     "39,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "6R35, Automatik, 21.600 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 70 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Besonderheit",
+     "Innenliegender Kompassring, zweite Krone"
+    ],
+    [
+     "Zifferblatt",
+     "Grün, Sonnenschliff"
+    ],
+    [
+     "Band",
+     "Leder oder Edelstahl"
+    ]
+   ],
+   "refs": [
+    [
+     "Laurel Alpinist",
+     "1959",
+     "≈ 35 mm",
+     "Handaufzug",
+     "Erste Alpinist für Bergsteiger"
+    ],
+    [
+     "SARB017",
+     "2006–2019",
+     "39 mm",
+     "6R15",
+     "Grünes Zifferblatt, Kompassring"
+    ],
+    [
+     "SPB121",
+     "seit 2020",
+     "39,5 mm",
+     "6R35",
+     "Prospex-Neuauflage, ≈ 70 h Gangreserve"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "krone",
+    "zifferblatt",
+    "gangreserve",
+    "seiko-5",
+    "presage-cocktail"
+   ],
+   "k": "Die SARB017 war ursprünglich nur für den japanischen Markt gedacht und wurde trotzdem weltweit zum Sammlerliebling.",
+   "a": [
+    "SARB017"
+   ],
+   "v": {
+    "dial": "#1f4a35",
+    "tex": "sunburst",
+    "markers": "arabicAll",
+    "hands": "sword",
+    "hc": "#d4b56a",
+    "lume": "#d4b56a",
+    "innerRing": true,
+    "crown2": true,
+    "date": "3",
+    "strap": "leather",
+    "strapColor": "#5a3a22",
+    "top": [
+     "AUTOMATIC"
+    ]
+   },
+   "m": [
+    "Grünes Zifferblatt mit goldenen Ziffern",
+    "Innenliegender Kompassring",
+    "Zweite Krone bei 4 Uhr",
+    "Datum bei 3 Uhr"
+   ],
+   "tipp": [
+    "Gut erhaltene SARB017 mit Box und Papieren erzielen inzwischen mehr als ihren damaligen Neupreis.",
+    "Wer die Kompassfunktion nicht braucht, findet in der Seiko Presage eine ähnlich elegante Alternative."
+   ]
+  },
+  {
+   "id": "gs-sbgw231",
+   "t": "Grand Seiko SBGW231",
+   "brand": "Grand Seiko",
+   "since": "2017",
+   "ns": true,
+   "s": "Schlichte Handaufzugsuhr, die die erste Grand Seiko von 1960 neu interpretiert.",
+   "b": [
+    "Die erste Grand Seiko erschien 1960. Seiko wollte damit zeigen, dass eine japanische Uhr in Präzision und Verarbeitung mit den besten Schweizer Uhren mithalten kann. Sie hatte ein Handaufzugswerk und erfüllte strenge Genauigkeitsvorgaben.",
+    "Die SBGW231 aus der Elegance-Kollektion nimmt dieses Erbe auf: ein zurückhaltendes 37,3-Millimeter-Gehäuse, ein elfenbeinfarbenes Zifferblatt, polierte Stabindizes und Dauphine-Zeiger mit dem für Grand Seiko typischen Zaratsu-Spiegelschliff. Auf Datum und Leuchtmasse wird verzichtet.",
+    "Im Inneren arbeitet das Handaufzugskaliber 9S64 mit rund 72 Stunden Gangreserve. Durch den Glasboden lässt es sich beobachten. Für viele gilt die SBGW231 als eine der reinsten klassischen Dresswatches ihrer Preisklasse."
+   ],
+   "cur": "SBGW231 · seit 2017",
+   "f": [
+    [
+     "Gehäuse",
+     "37,3 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "9S64, Handaufzug, 28.800 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 72 Stunden"
+    ],
+    [
+     "Genauigkeit",
+     "+5 bis −3 s/Tag (Grand-Seiko-Norm)"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Zifferblatt",
+     "Elfenbein, ohne Datum"
+    ],
+    [
+     "Band",
+     "Krokodilleder"
+    ]
+   ],
+   "refs": [
+    [
+     "3180",
+     "1960–1963",
+     "35 mm",
+     "3180",
+     "Erste Grand Seiko"
+    ],
+    [
+     "SBGW231",
+     "seit 2017",
+     "37,3 mm",
+     "9S64",
+     "Elegance-Kollektion, Glasboden"
+    ]
+   ],
+   "r": [
+    "handaufzug",
+    "zaratsu",
+    "zifferblatt",
+    "gangreserve",
+    "snowflake",
+    "white-birch"
+   ],
+   "k": "Grand Seiko war bis 2017 Teil der Marke Seiko; erst seitdem steht der Seiko-Schriftzug nicht mehr auf dem Zifferblatt.",
+   "a": [
+    "SBGW231"
+   ],
+   "v": {
+    "dial": "#efe9dc",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#2a201a",
+    "thin": true
+   },
+   "m": [
+    "Elfenbeinfarbenes Zifferblatt",
+    "Dauphine-Zeiger mit Spiegelschliff",
+    "Kein Datum, keine Leuchtmasse",
+    "Schlankes 37-mm-Gehäuse"
+   ],
+   "tipp": [
+    "Weil das Werk nur von Hand aufgezogen wird, eignet sich die Uhr für Menschen, die das tägliche Aufziehen als Ritual mögen.",
+    "Mit 72 Stunden Gangreserve übersteht sie problemlos ein Wochenende ohne Aufziehen."
+   ]
+  },
+  {
+   "id": "spirit",
+   "t": "Longines Spirit",
+   "brand": "Longines",
+   "since": "2020",
+   "s": "Fliegeruhr mit Chronometerwerk, die an die Luftfahrtpioniere erinnert, die Longines-Uhren trugen.",
+   "b": [
+    "Longines war in den 1920er- und 1930er-Jahren eng mit der Luftfahrt verbunden. Die Marke stattete Rekordflüge aus und entwickelte mit Charles Lindbergh eine Navigationsuhr für Stundenwinkel. Auch Amelia Earhart trug eine Longines.",
+    "Mit der Spirit-Kollektion knüpfte Longines 2020 an dieses Erbe an. Das Zifferblatt mit großen arabischen Ziffern und schwertförmigen Zeigern ist auf Ablesbarkeit ausgelegt. Alle Modelle haben ein von der COSC zertifiziertes Chronometerwerk mit Silizium-Spirale.",
+    "2022 kam die Spirit Zulu Time mit zusätzlicher Zeitzone hinzu. Die Spirit gilt als solide Fliegeruhr mit sehr gutem Preis-Leistungs-Verhältnis."
+   ],
+   "cur": "Ref. L3.810.4 · seit 2020",
+   "f": [
+    [
+     "Gehäuse",
+     "40 oder 42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "L888.4, Automatik, 25.200 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 72 Stunden"
+    ],
+    [
+     "Genauigkeit",
+     "COSC-zertifizierter Chronometer"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Spirale",
+     "Silizium"
+    ],
+    [
+     "Band",
+     "Edelstahl, Leder oder Textil"
+    ]
+   ],
+   "refs": [
+    [
+     "L3.810.4",
+     "seit 2020",
+     "40 mm",
+     "L888.4",
+     "Schwarz, Blau oder Silber"
+    ],
+    [
+     "L3.811.4",
+     "seit 2020",
+     "42 mm",
+     "L888.4",
+     "Größere Ausführung"
+    ]
+   ],
+   "r": [
+    "chronometer",
+    "silizium",
+    "automatik",
+    "gangreserve",
+    "legend-diver",
+    "master-collection"
+   ],
+   "k": "Longines arbeitete mit Charles Lindbergh an einer Uhr, die beim Navigieren über dem Atlantik helfen sollte.",
+   "a": [
+    "Spirit Zulu Time"
+   ],
+   "v": {
+    "dial": "#1c3f6e",
+    "tex": "sunburst",
+    "markers": "arabicAll",
+    "hands": "sword",
+    "date": "3",
+    "lume": "#f2f2f2",
+    "strap": "oyster",
+    "label": "SPIRIT",
+    "top": [
+     "SPIRIT"
+    ],
+    "bottom": []
+   },
+   "m": [
+    "Große arabische Ziffern",
+    "Schwertförmige Zeiger",
+    "Datum bei 3 Uhr",
+    "Geriffelte Krone"
+   ],
+   "tipp": [
+    "Die Spirit bietet Chronometer-Zertifikat und Silizium-Spirale zu einem Preis, für den andere Marken nur Standardwerke verbauen.",
+    "Die 40-mm-Version passt auch an schmalere Handgelenke."
+   ]
+  },
+  {
+   "id": "gentleman",
+   "t": "Tissot Gentleman",
+   "brand": "Tissot",
+   "since": "2019",
+   "s": "Vielseitige Alltagsuhr mit Powermatic-80-Werk und 80 Stunden Gangreserve.",
+   "b": [
+    "Tissot stellte die Gentleman 2019 als Uhr für jeden Tag vor: elegant genug fürs Büro, robust genug für die Freizeit. Das 40-Millimeter-Gehäuse ist bis 100 Meter wasserdicht, das Zifferblatt schlicht mit Stabindizes und Datum.",
+    "Angetrieben wird sie vom Powermatic 80, einem Automatikwerk mit rund 80 Stunden Gangreserve. Erreicht wird diese lange Laufzeit unter anderem durch eine geringere Frequenz und eine optimierte Hemmung. Eine Variante hat eine Silizium-Spirale, die das Werk gegen Magnetfelder unempfindlicher macht.",
+    "Die Gentleman gibt es mit Stahlband oder Lederband und in mehreren Zifferblattfarben, außerdem als Bicolor-Version mit Gold."
+   ],
+   "cur": "Ref. T127.407 · seit 2019",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Powermatic 80, Automatik, 21.600 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Glas",
+     "Saphirglas"
+    ],
+    [
+     "Zifferblatt",
+     "Silber, Blau, Schwarz oder Grün"
+    ],
+    [
+     "Band",
+     "Edelstahl oder Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "T127.407",
+     "seit 2019",
+     "40 mm",
+     "Powermatic 80",
+     "Wahlweise mit Silizium-Spirale"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "gangreserve",
+    "silizium",
+    "antimagnetisch",
+    "prx"
+   ],
+   "k": "80 Stunden Gangreserve bedeuten: Am Freitagabend abgelegt, läuft die Uhr am Montagmorgen noch.",
+   "a": [],
+   "v": {
+    "dial": "#1d3561",
+    "tex": "sunburst",
+    "markers": "baton",
+    "hands": "baton",
+    "date": "3",
+    "strap": "oyster",
+    "top": [
+     "POWERMATIC 80"
+    ]
+   },
+   "m": [
+    "Schlichte Stabindizes",
+    "Datum bei 3 Uhr",
+    "Glatte, polierte Lünette",
+    "40-mm-Gehäuse"
+   ],
+   "tipp": [
+    "Für den Preis ist die Gentleman eine der vielseitigsten mechanischen Uhren am Markt.",
+    "Die Variante mit Silizium-Spirale kostet etwas mehr, ist aber unempfindlicher gegen Magnetfelder."
+   ]
+  },
+  {
+   "id": "murph",
+   "t": "Hamilton Khaki Field Murph",
+   "brand": "Hamilton",
+   "since": "2019",
+   "s": "Felduhr aus dem Film »Interstellar«, die nach der Tochter der Hauptfigur benannt ist.",
+   "b": [
+    "Für den Science-Fiction-Film »Interstellar« von 2014 entwickelte Hamilton zusammen mit Regisseur Christopher Nolan eine eigene Uhr. Im Film schenkt der Astronaut Cooper seiner Tochter Murph eine Uhr, und genau diese Uhr spielt später eine Schlüsselrolle in der Handlung.",
+    "Nach großer Nachfrage von Fans brachte Hamilton 2019 die Khaki Field Murph mit 42 Millimetern in den Handel, 2020 folgte eine 38-Millimeter-Version. Das schwarze Zifferblatt mit großen arabischen Ziffern und beigefarbener Leuchtmasse ist an klassische Militäruhren angelehnt.",
+    "Im Inneren arbeitet das Automatikkaliber H-10 mit rund 80 Stunden Gangreserve. Auf dem Sekundenzeiger mancher Versionen ist das Wort »Eureka« in Morsezeichen versteckt, eine Anspielung auf den Film."
+   ],
+   "cur": "Ref. H70605731 · seit 2019",
+   "f": [
+    [
+     "Gehäuse",
+     "42 oder 38 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "H-10, Automatik, 21.600 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Zifferblatt",
+     "Schwarz, arabische Ziffern"
+    ],
+    [
+     "Leuchtmasse",
+     "Beige"
+    ],
+    [
+     "Band",
+     "Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "H70605731",
+     "seit 2019",
+     "42 mm",
+     "H-10",
+     "Erste Serienversion"
+    ],
+    [
+     "H70405730",
+     "seit 2020",
+     "38 mm",
+     "H-10",
+     "Kleinere Ausführung"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "leuchtmasse",
+    "gangreserve",
+    "khaki-field",
+    "ventura"
+   ],
+   "k": "Hamilton hat die Murph eigens für den Film »Interstellar« entworfen; erst Jahre später kam sie in die Läden.",
+   "a": [
+    "Murph",
+    "Interstellar"
+   ],
+   "v": {
+    "dial": "#17191d",
+    "markers": "arabicAll",
+    "hands": "sword",
+    "lume": "#e9dcb8",
+    "strap": "leather",
+    "strapColor": "#5a3a22",
+    "label": "KHAKI",
+    "top": [
+     "KHAKI"
+    ],
+    "track": "rail"
+   },
+   "m": [
+    "Große arabische Ziffern",
+    "Beige Leuchtmasse",
+    "Schlichtes Feldgehäuse",
+    "Braunes Lederband"
+   ],
+   "tipp": [
+    "Die Versionen mit Morse-Sekundenzeiger sind bei Fans des Films besonders beliebt.",
+    "Die 38-mm-Version wirkt näher an klassischen Felduhren als die 42-mm-Variante."
+   ]
+  },
+  {
+   "id": "orion",
+   "t": "Nomos Orion",
+   "brand": "Nomos Glashütte",
+   "since": "1992",
+   "s": "Zurückhaltende Dresswatch mit goldenen Stabindizes, eines der ersten vier Nomos-Modelle.",
+   "b": [
+    "Nomos wurde kurz nach der Wiedervereinigung in Glashütte gegründet und brachte 1992 seine ersten vier Modelle heraus: Tangente, Orion, Ludwig und Tetra. Die Orion war darunter die eleganteste, mit schlanken goldfarbenen Stabindizes und spitzen Zeigern auf einem hellen Zifferblatt.",
+    "Ihr Gehäuse hat eine leicht gewölbte Lünette und lange, gebogene Bandanstöße. Wie die Tangente besitzt sie eine kleine Sekunde bei 6 Uhr und kein Datum. Angetrieben wird die klassische Orion vom Handaufzugskaliber Alpha, das Nomos selbst baut.",
+    "Inzwischen gibt es die Orion in vielen Größen und Ausführungen, auch mit Automatikwerk und Datum. Die Grundform ist seit über 30 Jahren nahezu unverändert."
+   ],
+   "cur": "Orion 35 · seit 1992",
+   "f": [
+    [
+     "Gehäuse",
+     "35 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Alpha, Handaufzug, 21.600 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 43 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Zifferblatt",
+     "Weiß versilbert, goldfarbene Indizes"
+    ],
+    [
+     "Anzeige",
+     "Kleine Sekunde bei 6 Uhr"
+    ],
+    [
+     "Band",
+     "Pferdeleder"
+    ]
+   ],
+   "refs": [
+    [
+     "Orion 35",
+     "seit 1992",
+     "35 mm",
+     "Alpha",
+     "Original-Ausführung"
+    ],
+    [
+     "Orion 38",
+     "seit 2008",
+     "38 mm",
+     "Alpha",
+     "Größere Variante"
+    ]
+   ],
+   "r": [
+    "handaufzug",
+    "zifferblatt",
+    "tangente",
+    "glashuette-pano",
+    "lange-1"
+   ],
+   "k": "Tangente, Orion, Ludwig und Tetra erschienen 1992 gleichzeitig als erste Nomos-Uhren.",
+   "a": [],
+   "v": {
+    "dial": "#f3f1ec",
+    "markers": "baton",
+    "hands": "dauphine",
+    "hc": "#9c7a22",
+    "sub": "small6",
+    "thin": true,
+    "strap": "leather",
+    "strapColor": "#6a4a32"
+   },
+   "m": [
+    "Goldfarbene Stabindizes",
+    "Kleine Sekunde bei 6 Uhr",
+    "Gewölbte Lünette",
+    "Kein Datum"
+   ],
+   "tipp": [
+    "Die Orion ist die klassischere Alternative zur bekannteren Tangente.",
+    "Wer nicht täglich aufziehen möchte, wählt eine Orion mit Automatikwerk."
+   ]
+  },
+  {
+   "id": "pasha",
+   "t": "Cartier Pasha",
+   "brand": "Cartier",
+   "since": "1985",
+   "s": "Runde Uhr mit quadratischer Minuterie und verschraubter Kronenkappe an einer Kette, entworfen von Gérald Genta.",
+   "b": [
+    "Cartier stellte die Pasha 1985 vor. Entworfen wurde sie von Gérald Genta, dem Schöpfer der Royal Oak und der Nautilus. Der Name geht auf eine Legende zurück: Der Pascha von Marrakesch soll in den 1930er-Jahren bei Cartier eine wasserdichte Uhr bestellt haben, die er beim Schwimmen tragen konnte.",
+    "Typisch sind das runde Gehäuse mit vier großen arabischen Ziffern, die quadratische Minuterie auf dem Zifferblatt und die Kronenkappe mit blauem Cabochon, die mit einer kleinen Kette am Gehäuse befestigt ist.",
+    "2020 überarbeitete Cartier die Pasha grundlegend. Die neue Ausführung hat ein Automatikwerk, einen Glasboden, Bänder mit dem Schnellwechselsystem QuickSwitch und die Möglichkeit, Initialen unter der Kronenkappe gravieren zu lassen."
+   ],
+   "cur": "Pasha 41 mm · seit 2020",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "1847 MC, Automatik, 28.800 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 40 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Krone",
+     "Verschraubte Kappe mit blauem Cabochon"
+    ],
+    [
+     "Band",
+     "QuickSwitch-System, Stahl oder Leder"
+    ],
+    [
+     "Gehäuseboden",
+     "Saphirglas"
+    ]
+   ],
+   "refs": [
+    [
+     "Pasha de Cartier",
+     "1985–2019",
+     "38 mm u. a.",
+     "verschiedene",
+     "Originalentwurf von Gérald Genta"
+    ],
+    [
+     "WSPA0009",
+     "seit 2020",
+     "41 mm",
+     "1847 MC",
+     "Neuauflage mit Glasboden und QuickSwitch"
+    ]
+   ],
+   "r": [
+    "genta",
+    "krone",
+    "wasserdichtigkeit",
+    "santos",
+    "tank",
+    "ballon-bleu"
+   ],
+   "k": "Unter der Kronenkappe der neuen Pasha kann Cartier auf Wunsch Initialen eingravieren.",
+   "a": [],
+   "v": {
+    "dial": "#f3f2ee",
+    "markers": "arabic",
+    "hands": "sword",
+    "hc": "#2b4aa8",
+    "cabochon": true,
+    "track": "rail",
+    "strap": "leather",
+    "strapColor": "#1d2433",
+    "label": ""
+   },
+   "m": [
+    "Vier große arabische Ziffern",
+    "Quadratische Minuterie",
+    "Kronenkappe an einer Kette",
+    "Blaue Schwertzeiger"
+   ],
+   "tipp": [
+    "Ältere Pasha-Modelle aus den 1980er- und 1990er-Jahren sind gebraucht oft günstiger als die Neuauflage.",
+    "Dank QuickSwitch lässt sich das Band ohne Werkzeug wechseln."
+   ]
+  },
+  {
+   "id": "historiques-222",
+   "t": "Vacheron Constantin Historiques 222",
+   "brand": "Vacheron Constantin",
+   "since": "1977",
+   "s": "Sportuhr mit integriertem Band aus den 1970er-Jahren, Vorläuferin der Overseas.",
+   "b": [
+    "Vacheron Constantin stellte die 222 im Jahr 1977 vor, zum 222-jährigen Bestehen der Manufaktur, die 1755 gegründet wurde. Entworfen hat sie der junge Designer Jörg Hysek. Sie gehört wie die Royal Oak und die Nautilus zu den Sportuhren mit integriertem Band, die in den 1970er-Jahren das Luxussegment veränderten.",
+    "Typisch sind die gekerbte Lünette, das kissenförmig auslaufende Gehäuse mit integriertem Gliederband und das kleine Malteserkreuz, das Wappen der Marke, das seitlich unten in das Gehäuse eingesetzt ist. Die 222 wurde in Stahl, Gold und Bicolor gebaut und Mitte der 1980er-Jahre eingestellt. Ihre Nachfolgerin ist die Overseas.",
+    "2022 legte Vacheron Constantin die 222 in der Historiques-Reihe in Gelbgold mit 37 Millimetern neu auf. Später folgten weitere Ausführungen."
+   ],
+   "cur": "Ref. 4200H/222J · seit 2022",
+   "f": [
+    [
+     "Gehäuse",
+     "37 mm, Gelbgold"
+    ],
+    [
+     "Kaliber",
+     "2455/2, Automatik, 28.800 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 40 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Zifferblatt",
+     "Goldfarben, Stabindizes"
+    ],
+    [
+     "Gehäuseboden",
+     "Saphirglas"
+    ],
+    [
+     "Band",
+     "Integriertes Gliederband aus Gold"
+    ]
+   ],
+   "refs": [
+    [
+     "44018",
+     "1977–1985",
+     "37 mm",
+     "1121",
+     "Originale »Jumbo« 222"
+    ],
+    [
+     "4200H/222J",
+     "seit 2022",
+     "37 mm",
+     "2455/2",
+     "Neuauflage in Gelbgold"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "edelstahl",
+    "overseas",
+    "royal-oak",
+    "nautilus",
+    "genta"
+   ],
+   "k": "Die Zahl 222 steht für das Jubiläum: 1977 bestand Vacheron Constantin seit 222 Jahren.",
+   "a": [
+    "222"
+   ],
+   "v": {
+    "case": "gold",
+    "dial": "#c9a54a",
+    "tex": "sunburst",
+    "markers": "baton",
+    "hands": "baton",
+    "date": "3",
+    "strap": "integrated",
+    "horns": true,
+    "origin": ""
+   },
+   "m": [
+    "Gekerbte Lünette",
+    "Integriertes Gliederband",
+    "Kleines Malteserkreuz unten am Gehäuse",
+    "Datum bei 3 Uhr"
+   ],
+   "tipp": [
+    "Originale 222 aus den 1970er-Jahren sind gesucht und deutlich seltener als frühe Royal Oak oder Nautilus.",
+    "Wer die Optik in Stahl sucht, findet in der Overseas die moderne Weiterentwicklung."
+   ]
   }
  ]
 }
