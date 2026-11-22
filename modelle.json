@@ -2550,7 +2550,8 @@
     "strap": "ro",
     "origin": "",
     "ro": true,
-    "crown": "hex"
+    "crown": "hex",
+    "brandDy": 6
    },
    "m": [
     "Drei Hilfszifferblätter",

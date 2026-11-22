@@ -663,7 +663,7 @@ function drawWatch(v = {}, e = null) {
     if (v.ro) S.push(`<path d="${roct(ix, iy, 7)}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".8"/><path d="${roct(jx, jy, 7)}" fill="${M[1]}"/><path d="${roct(ix - 1, iy - 1, 6.5)}" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1"/>`);
     else S.push(`<polygon points="${oct(ox, oy)}" fill="${metal}" stroke="${M[2]}" stroke-width="1"/><polygon points="${oct(ix, iy)}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".8"/><polygon points="${oct(jx, jy)}" fill="${M[1]}"/>`);
     if (v.screws !== 0) for (let i = 0; i < 8; i++) { const [x, y] = P(22.5 + i * 45, sx, sy); S.push(`<polygon points="${Array.from({ length: 6 }, (_, k) => [f1(x + 3.6 * Math.cos(k * Math.PI / 3 + .3)), f1(y + 3.6 * Math.sin(k * Math.PI / 3 + .3))].join(",")).join(" ")}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".7"/><path d="M${f1(x - 2)} ${f1(y)}h4" stroke="${M[2]}" stroke-width=".8" transform="rotate(${22.5 + i * 45} ${f1(x)} ${f1(y)})"/>`); } // Schlitze laufen im Kreis herum (tangential)
-    dial = { r: v.ro ? 58 : 52 }; mr = v.ro ? 51 : 45; right = 174; left = 26;
+    dial = { r: v.ro ? 53 : 52 }; mr = v.ro ? 46.5 : 45; right = 174; left = 26;
   } else if (shape === "porthole") {
     // Nautilus/Aquanaut nach Fotovorlage: fast quadratische, abgerundet-achteckige Lünette mit breitem flachem Ring,
     // flache Seitenteile (»Ohren«) mit gerader Außenkante, trapezförmiger Übergang ins integrierte Band
@@ -874,7 +874,7 @@ function drawWatch(v = {}, e = null) {
   if (!v.layout) {
     if (v.minutes !== false && mk !== "none" && v.track !== "rail") { let d = ""; for (let a = 0; a < 360; a += 6) { if (a % 30 === 0) continue; const [x1, y1] = at(a, -6), [x2, y2] = at(a, -3); d += `M${f1(x1)} ${f1(y1)}L${f1(x2)} ${f1(y2)}`; } S.push(`<path d="${d}" stroke="${ink}" stroke-width=".7" opacity=".7"/>`); }
     for (let i = 0; i < 12; i++) {
-      const a = i * 30, [x, y] = at(a), skip = (hasDate3 && i === 3) || (v.date === "6" && i === 6) || (v.date === "day" && i === 0) || (v.sub === "small6" && i === 6) || (v.sub === "small9" && i === 9) || (v.moon && i === 6);
+      const a = i * 30, [x, y] = at(a), [x0m, y0m] = [x, y], skip = (hasDate3 && i === 3) || (v.date === "6" && i === 6) || (v.date === "day" && i === 0) || (v.sub === "small6" && i === 6) || (v.sub === "small9" && i === 9) || (v.moon && i === 6);
       if (skip) continue;
       const num = (mk === "arabic" && i % 3 === 0) || mk === "arabicAll" || mk === "field" || (mk === "pilot" && i !== 0) || (mk === "explorer" && i % 3 === 0 && i !== 0);
       if (num) S.push(txt(a, rx - 8, String(i === 0 ? 12 : i), mk === "arabic" || mk === "explorer" ? 15 : 11, lume, 700));
@@ -885,8 +885,8 @@ function drawWatch(v = {}, e = null) {
         else if (i % 3 === 0) S.push(`<rect x="${f1(x - 2.6)}" y="${f1(y - 7)}" width="5.2" height="14" rx="1" fill="${lume}" stroke="${frame}" stroke-width="1" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`);
         else S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="4.2" fill="${lume}" stroke="${frame}" stroke-width="1"/>`);
       } else if (mk === "pilot" && i === 0) S.push(`<polygon points="${f1(x - 7)},${f1(y - 5)} ${f1(x + 7)},${f1(y - 5)} ${f1(x)},${f1(y + 7)}" fill="${lume}"/><circle cx="${f1(x - 9)}" cy="${f1(y - 2)}" r="1.6" fill="${lume}"/><circle cx="${f1(x + 9)}" cy="${f1(y - 2)}" r="1.6" fill="${lume}"/>`);
-      else if (v.ro && i === 0 && mk === "baton") [-2.7, 2.7].forEach(o => S.push(`<rect x="${f1(x + o - 1.9)}" y="${f1(y - 7)}" width="3.8" height="14" rx="1" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6"/>`)); // Royal Oak: Doppelindex bei 12
-      else if (mk !== "none") { const len = i % 3 === 0 ? 12 : 9, w = mk === "thin" ? 1.6 : i % 3 === 0 ? 4.2 : 3.2; S.push(`<rect x="${f1(x - w / 2)}" y="${f1(y - len / 2)}" width="${w}" height="${len}" rx="${w / 3}" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`); }
+      else if (v.ro && i === 0 && mk === "baton") [-2.7, 2.7].forEach(o => S.push(`<rect x="${f1(x + o - 1.9)}" y="${f1(y - 6.5)}" width="3.8" height="18" rx="1" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6"/>`)); // Royal Oak: Doppelindex bei 12
+      else if (mk !== "none") { const len = v.ro ? 15 : i % 3 === 0 ? 12 : 9, w = mk === "thin" ? 1.6 : v.ro ? 3.8 : i % 3 === 0 ? 4.2 : 3.2; const [x, y] = v.ro ? at(a, 3) : [x0m, y0m]; S.push(`<rect x="${f1(x - w / 2)}" y="${f1(y - len / 2)}" width="${w}" height="${len}" rx="${w / 3}" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`); }
     }
     if (mk === "field") for (let i = 0; i < 12; i++) S.push(txt(i * 30, rx - 22, String(i === 0 ? 24 : i + 12), 6, ink, 500));
   }
