@@ -481,8 +481,6 @@ function drawWatch(v = {}, e = null) {
   const shape = v.shape || "round";
   // Ältere Rolex (vor 2005): kleineres Gehäuse, schmaleres Band, schlanke Anstöße, kleine Krone und spitzer Kronenschutz
   const vint = brand === "Rolex" && v.era === "vintage";
-  // Rolex 2005–2020 (»Super Case«, z. B. Submariner 116610): breite, kräftige Anstöße mit fast parallelen Flanken
-  const maxi = brand === "Rolex" && v.era === "maxi";
   const M = v.caseColor ? [mix(v.caseColor, .35), v.caseColor, mix(v.caseColor, -.45)] : (METAL[v.case] || METAL.steel);
   const dc = v.dial || "#1b1e24", dark = lum(dc) < .5;
   const ink = v.ink || (dark ? "#eef0f2" : "#1d2128"), lume = v.lume || ink, hc = v.hc || ink, sc = v.sec || hc;
@@ -540,7 +538,7 @@ function drawWatch(v = {}, e = null) {
     const big = metalBand, lyre = v.lugs === "lyre" || v.lugs === "taper"; // taper: schlanke, gerade Flanken (Day-Date, Datejust)
     // Rolex-Sportmodelle nach Fotovorlage (Submariner): Anstöße stehen deutlich über, Flanke fast senkrecht und lang, kantige Spitze
     const rx = brand === "Rolex" && big && !lyre;
-    const lw = sw + (lyre ? 20 : vint ? 18 : maxi ? 30 : rx ? 20 : big ? 26 : 16), lx = cx - lw / 2, y0 = vint ? 47 : maxi ? 45 : rx ? 46 : big || lyre ? 43 : 48, out = lyre ? -6 : vint ? 16 : maxi ? 7 : rx ? 22 : big ? 14 : 5, r = lyre ? 9 : vint ? 1.5 : rx ? 2.5 : big ? 6 : 4;
+    const lw = sw + (lyre ? 20 : vint ? 18 : rx ? 20 : big ? 26 : 16), lx = cx - lw / 2, y0 = vint ? 47 : rx ? 46 : big || lyre ? 43 : 48, out = lyre ? -6 : vint ? 16 : rx ? 22 : big ? 14 : 5, r = lyre ? 9 : vint ? 1.5 : rx ? 2.5 : big ? 6 : 4;
     // Außenkante: bei Lyra-Anstößen (Speedmaster) als weicher runder Bogen, sonst geschwungen zum Gehäuse hin (wie bei der Submariner)
     const edge = (x0, t, e, k) => { const d = e > t ? 1 : -1;
       return lyre ? `C${x0 + k * 7} ${t + d * 14} ${x0 + k * 6} ${e - d * 30} ${x0 + k * out} ${e}` : rx ? `L${x0 + k * out} ${e}` : `Q${x0 + k * 1} ${t + d * 26} ${x0 + k * out} ${e}`; }; // Rolex-Sport: gerade Schräge nach außen
@@ -693,11 +691,11 @@ function drawWatch(v = {}, e = null) {
     S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".55" opacity=".85"/><rect x="${f1(x0 + cw - 2.2)}" y="${crownY - ch / 2 + 1.5}" width="1.6" height="${ch - 3}" rx=".8" fill="#fff" fill-opacity=".45"/>`);
     if (v.guards) {
       // Kronenschutz oberhalb und unterhalb der Krone; neu: breite, runde Schultern, alt: kleine, spitze Form
-      const lobe = k => vint
-        ? `M${f1(edgeX(crownY + k * 17) - 1)} ${crownY + k * 17}L${f1(ex + 8)} ${crownY + k * 8}L${f1(ex - 1)} ${crownY + k * 7}Z`
-        : `M${f1(edgeX(crownY + k * 24) - 1)} ${crownY + k * 24}Q${f1(ex + 13)} ${crownY + k * 19} ${f1(ex + 12)} ${crownY + k * 11}Q${f1(ex + 11.5)} ${crownY + k * 9.6} ${f1(ex + 9)} ${crownY + k * 9.6}L${f1(ex - 1)} ${crownY + k * 9.6}Z`;
+      // Kronenschutz: runde Schultern ober- und unterhalb der Krone; neue Modelle weit nach oben und unten gezogen, ältere kleiner
+      const H = vint ? 18 : 30, I = ch / 2 + .1, W = vint ? 8 : 12;
+      const lobe = k => `M${f1(edgeX(crownY + k * H) - 1)} ${crownY + k * H}Q${f1(ex + W + 1)} ${crownY + k * (H - 5)} ${f1(ex + W)} ${f1(crownY + k * (I + 1.4))}Q${f1(ex + W - .5)} ${f1(crownY + k * I)} ${f1(ex + W - 3)} ${f1(crownY + k * I)}L${f1(ex - 1)} ${f1(crownY + k * I)}Z`;
       S.push(`<path d="${lobe(-1)}${lobe(1)}" fill="${metal}" stroke="${M[2]}" stroke-width=".5"/>`);
-      if (!vint) S.push(`<path d="M${f1(ex + 2)} ${crownY - 21}Q${f1(ex + 11)} ${crownY - 17} ${f1(ex + 10.5)} ${crownY - 11.5}" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width=".9"/>`);
+      S.push(`<path d="M${f1(ex + 2)} ${crownY - H + 3}Q${f1(ex + W - 1)} ${crownY - H + 7} ${f1(ex + W - 1.5)} ${f1(crownY - I - 2)}" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="${vint ? .7 : .9}"/>`);
     }
   } else {
     if (!v.ballon) { S.push(`<rect x="${cxr}" y="${crownY - cr[1] / 2}" width="${cr[0]}" height="${cr[1]}" rx="3" fill="${metal}"/>`); let d = ""; for (let k = 2; k < cr[1] - 1; k += 2) d += `M${cxr + (v.crownLeft ? 1 : 3)} ${crownY - cr[1] / 2 + k}h${cr[0] - 4}`; S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".6"/>`); }
@@ -1208,7 +1206,7 @@ function viewEntry(e) {
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
   const vars = e.brand ? (e.var || []).slice(0, 2) : [];
-  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0], ended = /\d{4}\s*[–-]\s*\d{4}/.test(y); return a < 2005 ? { era: "vintage" } : ended && a < 2020 ? { era: "maxi" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
+  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
   return crumbs(trail) + `
     <article>
       ${e.brand ? `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}Illustration, vereinfacht</figcaption></figure>` : LF.top}
