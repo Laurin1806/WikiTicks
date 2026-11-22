@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:watchcharts.com)",
+      "Bash(curl -s -m 30 -o * https://watchcharts.com/*)"
+    ]
+  }
+}
