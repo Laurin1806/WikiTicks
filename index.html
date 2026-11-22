@@ -421,7 +421,7 @@ function linkify(html, selfId, used) {
 }
 
 // ---------- Tägliche Auswahl (für alle Besucher gleich) ----------
-const MAIN_DAYS = 1, ROTATE_DAYS = 3, FEATURED = 3;
+const MAIN_DAYS = 1, ROTATE_DAYS = 1, FEATURED = 3;
 const today = () => Math.floor((Date.now() - new Date().getTimezoneOffset() * 60000) / 864e5);
 function shuffled(seed, list) {
   let s = seed >>> 0;
@@ -1238,7 +1238,7 @@ function viewHome() {
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
         <h2 class="section-title" id="fh">Wissenswertes</h2>
-        <p>${fmt(F.start)} bis ${fmt(F.end)} · neue Auswahl ${F.left === 1 ? "morgen" : `in ${F.left} Tagen`}</p>
+        <p>${ROTATE_DAYS === 1 ? `Heute, ${fmt(F.start)}` : `${fmt(F.start)} bis ${fmt(F.end)}`} · neue Auswahl ${F.left === 1 ? "morgen" : `in ${F.left} Tagen`}</p>
       </div>
       <div class="fgrid">${F.items.map(e => `
         <a class="fcard" href="#${e.id}">
