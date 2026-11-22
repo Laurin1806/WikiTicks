@@ -631,9 +631,15 @@ function drawWatch(v = {}, e = null) {
     // Tonneau-förmiges Gehäuse, darauf die gestreckte Achtecklünette mit acht Sechskantschrauben
     const oct = (rx, ry) => Array.from({ length: 8 }, (_, i) => P(22.5 + i * 45, rx, ry).map(f1).join(",")).join(" ");
     if (v.roundBase) S.push(`<path d="M${cx - 44} ${cy - 62} L${cx + 44} ${cy - 62} L${cx + 40} ${cy - 86} L${cx - 40} ${cy - 86}Z M${cx - 44} ${cy + 62} L${cx + 44} ${cy + 62} L${cx + 40} ${cy + 86} L${cx - 40} ${cy + 86}Z" fill="${M[1]}" stroke="${M[2]}" stroke-width=".7"/><circle cx="${cx}" cy="${cy}" r="78" fill="${metal}" stroke="${M[2]}" stroke-width=".8"/>`);
+    else if (v.ro) {
+      // Royal Oak nach Fotovorlage: kurze gerade Oberkante am Band, polierte Flanken schräg bis an die Lünette
+      S.push(`<path d="M60 56 L140 56 L172 100 L172 160 L140 204 L60 204 L28 160 L28 100Z" fill="${metal}"/><path d="M61 57.5 L28.8 101.5 M139 57.5 L171.2 101.5 M61 202.5 L28.8 158.5 M139 202.5 L171.2 158.5" stroke="#fff" stroke-opacity=".6" stroke-width="1.6"/><path d="M60 56.8H140" stroke="#fff" stroke-opacity=".45"/>`);
+    }
     else S.push(`<path d="M58 42 Q100 34 142 42 L158 92 Q164 130 158 168 L142 218 Q100 226 58 218 L42 168 Q36 130 42 92Z" fill="${metal}"/><path d="M58 42 Q100 34 142 42" fill="none" stroke="#fff" stroke-opacity=".5"/>`);
-    S.push(`<polygon points="${oct(80, 74)}" fill="${metal}" stroke="${M[2]}" stroke-width="1"/><polygon points="${oct(71, 65)}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".8"/><polygon points="${oct(67, 61)}" fill="${M[1]}"/>`);
-    if (v.screws !== 0) for (let i = 0; i < 8; i++) { const [x, y] = P(22.5 + i * 45, 72, 66); S.push(`<polygon points="${Array.from({ length: 6 }, (_, k) => [f1(x + 3.6 * Math.cos(k * Math.PI / 3 + .3)), f1(y + 3.6 * Math.sin(k * Math.PI / 3 + .3))].join(",")).join(" ")}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".7"/><path d="M${f1(x - 2)} ${f1(y)}h4" stroke="${M[2]}" stroke-width=".8"/>`); }
+    const [ox, oy, ix, iy, jx, jy, sx, sy] = v.ro ? [77, 73, 68, 64, 65, 61, 71.5, 67.5] : [80, 74, 71, 65, 67, 61, 72, 66];
+    S.push(`<polygon points="${oct(ox, oy)}" fill="${metal}" stroke="${M[2]}" stroke-width="1"/><polygon points="${oct(ix, iy)}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".8"/><polygon points="${oct(jx, jy)}" fill="${M[1]}"/>`);
+    if (v.ro) S.push(`<polygon points="${oct(ox - 1.2, oy - 1.2)}" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="1"/>`);
+    if (v.screws !== 0) for (let i = 0; i < 8; i++) { const [x, y] = P(22.5 + i * 45, sx, sy); S.push(`<polygon points="${Array.from({ length: 6 }, (_, k) => [f1(x + 3.6 * Math.cos(k * Math.PI / 3 + .3)), f1(y + 3.6 * Math.sin(k * Math.PI / 3 + .3))].join(",")).join(" ")}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".7"/><path d="M${f1(x - 2)} ${f1(y)}h4" stroke="${M[2]}" stroke-width=".8"/>`); }
     dial = { r: 52 }; mr = 45; right = 174; left = 26;
   } else if (shape === "porthole") {
     // Nautilus/Aquanaut nach Fotovorlage: fast quadratische, abgerundet-achteckige Lünette mit breitem flachem Ring,
@@ -698,8 +704,13 @@ function drawWatch(v = {}, e = null) {
       S.push(`<path d="${lobe(-1)}${lobe(1)}" fill="${metal}" stroke="${M[2]}" stroke-width=".5"/>`);
       S.push(`<path d="M${f1(ex + 2)} ${crownY - H + 3}Q${f1(ex + W - 1)} ${crownY - H + 7} ${f1(ex + W - 1.5)} ${f1(crownY - I - 2)}" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="${vint ? .7 : .9}"/>`);
     }
-  } else {
+  } else if (v.crown !== "hex") {
     if (!v.ballon) { S.push(`<rect x="${cxr}" y="${crownY - cr[1] / 2}" width="${cr[0]}" height="${cr[1]}" rx="3" fill="${metal}"/>`); let d = ""; for (let k = 2; k < cr[1] - 1; k += 2) d += `M${cxr + (v.crownLeft ? 1 : 3)} ${crownY - cr[1] / 2 + k}h${cr[0] - 4}`; S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".6"/>`); }
+  }
+  if (v.crown === "hex") {
+    // Achteckige Krone wie bei der Royal Oak
+    const ex = edgeX(crownY), w = 11, h = 16, x0 = ex - 2.5, c = 3.5;
+    S.push(`<polygon points="${[[x0, crownY - h / 2 + c], [x0 + c, crownY - h / 2], [x0 + w - c, crownY - h / 2], [x0 + w, crownY - h / 2 + c], [x0 + w, crownY + h / 2 - c], [x0 + w - c, crownY + h / 2], [x0 + c, crownY + h / 2], [x0, crownY + h / 2 - c]].map(q => q.map(f1).join(",")).join(" ")}" fill="${metal}" stroke="${M[2]}" stroke-width=".7"/><path d="M${f1(x0 + 2)} ${f1(crownY - 3)}h${w - 4}M${f1(x0 + 2)} ${f1(crownY + 3)}h${w - 4}" stroke="${M[2]}" stroke-width=".5" opacity=".7"/>`);
   }
   if (v.cabochon && !v.ballon) S.push(`<circle cx="${cxr + cr[0] - 1}" cy="${crownY}" r="4" fill="#2a4fa8"/>`);
   if (v.crown2) S.push(`<rect x="${f1(edgeX(crownY - 40) - 3)}" y="${crownY - 47}" width="10" height="14" rx="3" fill="${metal}"/>`);
@@ -815,6 +826,7 @@ function drawWatch(v = {}, e = null) {
     const fit = (t, size, ls, maxW) => { const w = t.length * (size * .62 + ls); return w > maxW ? `textLength="${f1(maxW)}" lengthAdjust="spacingAndGlyphs"` : ""; };
     const T = (y, t, size, wgt, col = ink, extra = "") => `<text x="${cx}" y="${f1(y)}" text-anchor="middle" ${font} font-size="${size}" font-weight="${wgt}" letter-spacing=".5" fill="${col}" ${extra.includes("x=") ? "" : fit(t, size, .5, TR * 1.25)} ${extra}>${esc(t)}</text>`;
     S.push(`<text x="${cx}" y="${f1(by)}" text-anchor="middle" font-family="${BSt.f || "Inter, system-ui, sans-serif"}" font-size="${bs}" font-weight="${BSt.w || 700}" ${BSt.i ? 'font-style="italic"' : ""} letter-spacing="${BSt.ls ?? 1.1}" ${fit(bt, bs, BSt.ls ?? 1.1, TR * (v.layout ? 1.3 : 1.05))} fill="${v.brandColor || ink}">${esc(bt)}</text>`);
+    if (v.logoText) S.push(`<text x="${cx}" y="${f1(by - 6)}" text-anchor="middle" font-family="${BSt.f || "Georgia, serif"}" font-size="10" font-weight="500" fill="${v.brandColor || ink}">${esc(v.logoText)}</text>`);
     if (!v.layout) {
       const lbl = v.label ?? (model.length <= 18 ? model.toUpperCase() : "");
       let top = v.top, bottom = v.bottom;
@@ -850,6 +862,7 @@ function drawWatch(v = {}, e = null) {
         else if (i % 3 === 0) S.push(`<rect x="${f1(x - 2.6)}" y="${f1(y - 7)}" width="5.2" height="14" rx="1" fill="${lume}" stroke="${frame}" stroke-width="1" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`);
         else S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="4.2" fill="${lume}" stroke="${frame}" stroke-width="1"/>`);
       } else if (mk === "pilot" && i === 0) S.push(`<polygon points="${f1(x - 7)},${f1(y - 5)} ${f1(x + 7)},${f1(y - 5)} ${f1(x)},${f1(y + 7)}" fill="${lume}"/><circle cx="${f1(x - 9)}" cy="${f1(y - 2)}" r="1.6" fill="${lume}"/><circle cx="${f1(x + 9)}" cy="${f1(y - 2)}" r="1.6" fill="${lume}"/>`);
+      else if (v.ro && i === 0 && mk === "baton") [-2.7, 2.7].forEach(o => S.push(`<rect x="${f1(x + o - 1.9)}" y="${f1(y - 7)}" width="3.8" height="14" rx="1" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6"/>`)); // Royal Oak: Doppelindex bei 12
       else if (mk !== "none") { const len = i % 3 === 0 ? 12 : 9, w = mk === "thin" ? 1.6 : i % 3 === 0 ? 4.2 : 3.2; S.push(`<rect x="${f1(x - w / 2)}" y="${f1(y - len / 2)}" width="${w}" height="${len}" rx="${w / 3}" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`); }
     }
     if (mk === "field") for (let i = 0; i < 12; i++) S.push(txt(i * 30, rx - 22, String(i === 0 ? 24 : i + 12), 6, ink, 500));

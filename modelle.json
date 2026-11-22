@@ -2316,7 +2316,11 @@
     "tex": "tap",
     "date": "3",
     "strap": "integrated",
-    "origin": ""
+    "origin": "",
+    "ro": true,
+    "crown": "hex",
+    "logoText": "AP",
+    "brandDy": 5
    },
    "var": [
     {
@@ -2544,7 +2548,9 @@
     "pushers": true,
     "label": "ROYAL OAK",
     "strap": "integrated",
-    "origin": ""
+    "origin": "",
+    "ro": true,
+    "crown": "hex"
    },
    "m": [
     "Drei Hilfszifferblätter",
