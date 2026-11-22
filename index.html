@@ -576,7 +576,7 @@ function drawWatch(v = {}, e = null) {
   }
   if (metalBand) {
     const pol = `url(#${id}p)`, bru = M[1], bru2 = mix(M[1], .12);
-    S.push(`<path d="${strapD}" fill="${st === "oyster" ? mix(M[2], -.35) : M[2]}"/>`);
+    S.push(`<path d="${strapD}" fill="${st === "oyster" ? mix(M[2], -.35) : st === "ro" ? `url(#${id}mu)` : M[2]}"/>`);
     const H = { santos: 13, jubilee: 8, president: 11, integrated: shape === "porthole" ? 16 : 12, rouleaux: 7, panther: 6, mesh: 86, oyster: 25, link3: 14, omega: 11, ro: 10 }[st];
     const piece = (from, to) => {
       const dir = to > from ? 1 : -1;
@@ -594,7 +594,7 @@ function drawWatch(v = {}, e = null) {
         else if (st === "ro") {
           // Royal-Oak-Band nach Fotovorlage: breite gebürstete Querglieder, dazwischen kleine polierte Zwischenglieder (um eine halbe Reihe versetzt)
           const sat = `url(#${id}mu)`, half = -dir * H / 2; // Band in derselben Farbe wie das Gehäuse
-          S.push(seg(0, .29, sat, 1), seg(.29, .13, mix(M[2], -.35), .6), seg(.42, .16, sat, 1), seg(.58, .13, mix(M[2], -.35), .6), seg(.71, .29, sat, 1));
+          S.push(seg(0, .29, sat, 1), seg(.29, .13, mix(M[1], -.2), .6), seg(.42, .16, sat, 1), seg(.58, .13, mix(M[1], -.2), .6), seg(.71, .29, sat, 1));
           S.push(seg(.30, .11, pol, 1.4, 2, half), seg(.59, .11, pol, 1.4, 2, half));
           S.push(`<path d="M${f1(x0 + 1)} ${f1(a + 1)}h${f1(w - 2)}" stroke="#fff" stroke-opacity=".35" stroke-width=".6"/>`);
         }
@@ -622,7 +622,7 @@ function drawWatch(v = {}, e = null) {
       S.push(`<path d="M${cx - 7} 0v86M${cx + 7} 0v86M${cx - 7} 174v86M${cx + 7} 174v86" stroke="${mix(strapC, -.3)}" stroke-width="3"/><rect x="${f1(cx - hw(230) - 1)}" y="226" width="${f1(hw(230) * 2 + 2)}" height="10" rx="2" fill="${M[1]}"/>`);
     }
   }
-  S.push(`<path d="${strapD}" fill="url(#${id}cy)"/>`);
+  if (st !== "ro") S.push(`<path d="${strapD}" fill="url(#${id}cy)"/>`); // Royal Oak: keine zusätzliche Schattierung, damit das Band wie das Gehäuse wirkt
 
   // Gehäuse und Zifferblattform
   let dial, right = 172, left = 28, mr, mry, B = 56;
