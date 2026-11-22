@@ -233,19 +233,38 @@ a.watchfig:hover { border-color: var(--accent); }
 .art-list li::marker { color: var(--accent); }
 article .curbox { margin-top: 10px; }
 .gallery-inline { margin: 18px 0 8px; grid-template-columns: repeat(auto-fit, minmax(170px, 240px)); }
-.price { margin: 14px 0 26px; padding: 18px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
-.price .label { margin: 0 0 12px; }
-.price-rows { display: grid; gap: 8px; }
-.price-row { display: grid; grid-template-columns: 48px minmax(110px, 230px) minmax(0, 1fr); gap: 12px; align-items: center; font-size: 13.5px; }
-.price-row:hover .pb i { opacity: 1; }
-.py { font-family: var(--font-mono); color: var(--muted); }
-.pl { color: var(--fg); }
-.pb { display: flex; align-items: center; gap: 8px; min-width: 0; }
-.pt { flex: 1; min-width: 0; }
-.pb i { display: block; height: 14px; background: var(--accent); border-radius: 0 4px 4px 0; opacity: .85; }
-.pb b { font-family: var(--font-mono); font-weight: 500; font-size: 12.5px; white-space: nowrap; width: 84px; text-align: right; flex: none; }
+.pc { margin: 14px 0 26px; padding: 18px 20px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+.pc figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; margin-bottom: 14px; }
+.pc figcaption .label { margin: 0; }
+.pc-legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); }
+.pc-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.pc-legend .pc-dot { position: static; transform: none; }
+.pc-row { display: grid; grid-template-columns: minmax(120px, 170px) minmax(0, 1fr) 150px; gap: 16px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); outline: none; }
+.pc-row:first-of-type { border-top: 0; }
+.pc-ref b { display: block; font-family: var(--font-mono); font-weight: 500; font-size: 13.5px; }
+.pc-ref span { font-size: 12px; color: var(--muted); }
+.pc-track { position: relative; height: 26px; }
+.pc-grid { position: absolute; top: 2px; bottom: 2px; width: 1px; background: var(--line); }
+.pc-bar { position: absolute; top: 50%; height: 2px; margin-top: -1px; background: var(--accent); opacity: .45; }
+.pc-dot { position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 0 0 2px var(--surface); display: inline-block; }
+.pc-new { background: transparent; border: 2px solid var(--muted); box-sizing: border-box; width: 16px; height: 16px; box-shadow: none; }
+.pc-legend .pc-new { width: 12px; height: 12px; }
+.pc-used { background: var(--accent); }
+.pc-tip { position: absolute; left: 50%; bottom: calc(100% + 4px); transform: translateX(-50%); white-space: nowrap; font-size: 12px; padding: 4px 8px; border-radius: 6px; background: var(--fg); color: var(--bg); opacity: 0; pointer-events: none; transition: opacity .15s; }
+.pc-row:hover .pc-tip, .pc-row:focus .pc-tip { opacity: 1; }
+.pc-row:hover .pc-bar, .pc-row:focus .pc-bar { opacity: .8; }
+.pc-val { display: grid; justify-items: end; gap: 2px; font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); }
+.pc-val b { color: var(--fg); font-weight: 500; }
+.pc-val em { font-style: normal; font-size: 12px; padding: 1px 7px; border-radius: 999px; background: var(--accent-soft); color: var(--fg); }
+.pc-axis { padding: 4px 0 0; border-top: 0; }
+.pc-axis .pc-track { height: 16px; }
+.pc-axis span { position: absolute; transform: translateX(-50%); font-family: var(--font-mono); font-size: 11px; color: var(--muted); }
+.pc-unit { font-family: var(--font-mono); font-size: 11px; color: var(--muted); text-align: right; }
+.pc-table { margin-top: 10px; font-size: 13px; }
+.pc-table summary { cursor: pointer; color: var(--accent); }
+.pc-table .refs { min-width: 0; margin-top: 8px; }
 .price-note { font-size: 12px; color: var(--muted); margin: 12px 0 0 !important; }
-@media (max-width: 560px) { .price-row { grid-template-columns: 40px minmax(0, 1fr); } .pb { grid-column: 1 / -1; } }
+@media (max-width: 640px) { .pc-row { grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; } .pc-track { grid-column: 1 / -1; grid-row: 2; } .pc-axis { grid-template-columns: minmax(0, 1fr); } .pc-axis > div:first-child, .pc-unit { display: none; } .pc-axis .pc-track { grid-row: auto; } }
 .gallery-note { font-size: 12px; color: var(--muted); margin: 0 0 22px !important; }
 
 /* Marken, A–Z */
@@ -1251,19 +1270,33 @@ function viewAZ() {
       </ul></div>`).join("")}`;
 }
 
-// Preisentwicklung als schlichtes Balkendiagramm (eine Reihe, Werte direkt beschriftet)
+// Preisvergleich Neupreis -> Gebrauchtpreis je Referenz (Hantel-Diagramm auf gemeinsamer Skala)
 function priceChart(pr) {
-  if (!pr || !pr.p || !pr.p.length) return "";
-  const max = Math.max(...pr.p.map(x => x[2])), fmt = n => n.toLocaleString("de-DE");
-  return `<figure class="price">
-    <figcaption class="label">${esc(pr.t)}</figcaption>
-    <div class="price-rows" role="table" aria-label="${esc(pr.t)}">
-      ${pr.p.map(([y, l, v]) => `<div class="price-row" role="row" title="${esc(y + " · " + l + ": " + fmt(v) + " " + pr.u)}">
-        <span class="py" role="cell">${esc(y)}</span><span class="pl" role="cell">${esc(l)}</span>
-        <span class="pb" role="cell"><span class="pt"><i style="width:${(v / max * 100).toFixed(1)}%"></i></span><b>${fmt(v)} ${esc(pr.u)}</b></span>
-      </div>`).join("")}
-    </div>
+  if (!pr || !pr.rows || !pr.rows.length) return "";
+  const fmt = n => n.toLocaleString("de-DE"), lo = pr.min, hi = pr.max, X = v => ((v - lo) / (hi - lo) * 100).toFixed(2);
+  const ticks = []; for (let t = Math.ceil(lo / 2000) * 2000; t <= hi; t += 2000) ticks.push(t);
+  const row = ([ref, nl, nv, ul, uv]) => {
+    const d = Math.round((uv / nv - 1) * 100), dTxt = (d > 0 ? "+" : d < 0 ? "−" : "±") + Math.abs(d) + " %";
+    const a = Math.min(nv, uv), b = Math.max(nv, uv);
+    return `<div class="pc-row" tabindex="0" title="${esc(`${ref}: Neupreis ${fmt(nv)} ${pr.u} (${nl}), Gebrauchtpreis ${fmt(uv)} ${pr.u} (${ul})`)}">
+      <div class="pc-ref"><b>${esc(ref)}</b><span>${esc(nl)} → ${esc(ul)}</span></div>
+      <div class="pc-track">${ticks.map(t => `<i class="pc-grid" style="left:${X(t)}%"></i>`).join("")}
+        <i class="pc-bar" style="left:${X(a)}%;width:${(X(b) - X(a)).toFixed(2)}%"></i>
+        <i class="pc-dot pc-used" style="left:${X(uv)}%"></i><i class="pc-dot pc-new" style="left:${X(nv)}%"></i>
+        <span class="pc-tip">Neu ${fmt(nv)} · Gebraucht ${fmt(uv)} ${esc(pr.u)}</span>
+      </div>
+      <div class="pc-val"><span>${fmt(nv)} → <b>${fmt(uv)}</b></span><em class="${d > 0 ? "up" : d < 0 ? "down" : ""}">${dTxt}</em></div>
+    </div>`;
+  };
+  return `<figure class="pc">
+    <figcaption><span class="label">${esc(pr.t)}</span>
+      <span class="pc-legend"><span><i class="pc-dot pc-new"></i>Neupreis (Liste)</span><span><i class="pc-dot pc-used"></i>Gebrauchtpreis heute</span></span></figcaption>
+    ${pr.rows.map(row).join("")}
+    <div class="pc-row pc-axis" aria-hidden="true"><div></div><div class="pc-track">${ticks.map(t => `<span style="left:${X(t)}%">${fmt(t / 1000)}k</span>`).join("")}</div><div class="pc-unit">${esc(pr.u)}</div></div>
     ${pr.n ? `<p class="price-note">${esc(pr.n)}</p>` : ""}
+    <details class="pc-table"><summary>Als Tabelle anzeigen</summary><table class="refs"><thead><tr><th>Referenz</th><th>Neupreis</th><th>Gebrauchtpreis</th><th>Veränderung</th></tr></thead><tbody>
+      ${pr.rows.map(([ref, nl, nv, ul, uv]) => `<tr><td class="m">${esc(ref)}</td><td class="m">${fmt(nv)} ${esc(pr.u)} (${esc(nl)})</td><td class="m">${fmt(uv)} ${esc(pr.u)} (${esc(ul)})</td><td class="m">${Math.round((uv / nv - 1) * 100)} %</td></tr>`).join("")}
+    </tbody></table></details>
   </figure>`;
 }
 
