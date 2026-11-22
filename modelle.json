@@ -2444,7 +2444,10 @@
     "pushers": true,
     "case": "black",
     "label": "OFFSHORE",
-    "origin": ""
+    "origin": "",
+    "ro": true,
+    "crown": "hex",
+    "brandDy": 6
    },
    "m": [
     "Großes Gehäuse mit sichtbaren Dichtungen",
