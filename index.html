@@ -197,7 +197,7 @@ a.xl:hover { text-decoration-color: var(--accent); }
 
 /* Illustrationen */
 svg.watch { display: block; width: 100%; height: 100%; }
-.daily-fig { display: flex; align-items: center; justify-content: center; align-self: stretch; background: var(--bg); border-radius: 12px; padding: 18px; min-height: 260px; }
+.daily-fig { display: flex; flex-direction: column; align-items: center; justify-content: center; align-self: stretch; background: var(--bg); border-radius: 12px; padding: 18px; min-height: 260px; }
 .daily-fig svg.watch { max-height: 320px; width: auto; }
 .watchfig { margin: 6px 0 24px; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; justify-items: center; gap: 10px; }
 .watchfig svg.watch { height: 300px; width: auto; max-width: 100%; }
@@ -270,6 +270,7 @@ article .curbox { margin-top: 10px; }
 .pl-d { color: var(--muted); font-size: 13px; }
 .pl-box .price-note { flex-basis: 100%; margin-top: 6px !important; }
 @media (max-width: 640px) { .pc-row { grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; } .pc-track { grid-column: 1 / -1; grid-row: 2; } .pc-axis { grid-template-columns: minmax(0, 1fr); } .pc-axis > div:first-child, .pc-unit { display: none; } .pc-axis .pc-track { grid-row: auto; } }
+.daily-cap { display: block; text-align: center; font-size: 12px; color: var(--muted); margin-top: 6px; }
 .gallery-note { font-size: 12px; color: var(--muted); margin: 0 0 22px !important; }
 
 /* Marken, A–Z */
@@ -416,6 +417,8 @@ function shuffled(seed, list) {
 // Jeder Eintrag kommt einmal dran, bevor sich einer wiederholt
 // Artikel des Tages von Hand festlegen (ID eines Eintrags); leer lassen ("") für die automatische tägliche Auswahl
 const ARTIKEL_DES_TAGES = "gmt-master-2";
+// Optional: Bild einer Variante zeigen (Teil des Variantennamens, z. B. "1675"); leer lassen für die aktuelle Ausführung
+const ARTIKEL_DES_TAGES_VARIANTE = "1675";
 function ofTheDay(list, salt) {
   const period = Math.floor(today() / MAIN_DAYS), round = Math.floor(period / list.length);
   return shuffled(round * 40503 + salt, list)[period % list.length];
@@ -1174,7 +1177,9 @@ const card = (e, label) => `
     <p>${esc(e.s)}</p>
   </a>`;
 
-function dailyCard(M, kicker) {
+function dailyCard(M, kicker, varName = "") {
+  const vx = varName && (M.var || []).find(x => x.n.includes(varName));
+  const vv = vx ? withVariant(M.v, { ...vx.v, ...(+((vx.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : M.v;
   return `
     <section class="daily" aria-labelledby="dh">
       <div>
@@ -1185,7 +1190,7 @@ function dailyCard(M, kicker) {
         <a class="go" href="#${M.id}">Ganzen Artikel lesen →</a>
       </div>
       ${M.brand
-        ? `<a class="daily-fig" href="#${M.id}" aria-label="${esc(M.t)} öffnen">${drawWatch(M.v, M)}</a>`
+        ? `<a class="daily-fig" href="#${M.id}" aria-label="${esc(M.t)} öffnen">${drawWatch(vv, M)}${vx ? `<span class="daily-cap">${esc(vx.n)} · ${esc(vx.y || "")}</span>` : ""}</a>`
         : `<aside><div class="label">${esc(M.c)}</div>${factList(M.f.slice(0, 4))}</aside>`}
     </section>`;
 }
@@ -1193,7 +1198,7 @@ function dailyCard(M, kicker) {
 // ---------- Ansichten ----------
 function viewHome() {
   const M = (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || ofTheDay(E, 7), F = featured(M.id);
-  return dailyCard(M, "Artikel des Tages") + `
+  return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES ? ARTIKEL_DES_TAGES_VARIANTE : "") + `
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
         <h2 class="section-title" id="fh">Wissenswertes</h2>
