@@ -534,16 +534,32 @@ function drawWatch(v = {}, e = null) {
   if (!["rect", "square", "triangle", "porthole", "tonneau", "octagon"].includes(shape) && !v.wire && st !== "integrated") {
     // Bandanstöße: bei Metallbändern (Sportuhren) kräftig und lang wie bei der Submariner, sonst schlanker
     const big = metalBand, lyre = v.lugs === "lyre";
-    const lw = sw + (lyre ? 20 : big ? 26 : 16), lx = cx - lw / 2, y0 = big || lyre ? 43 : 48, out = lyre ? 18 : big ? 14 : 5, r = lyre ? 9 : big ? 6 : 4;
+    const lw = sw + (lyre ? 20 : big ? 26 : 16), lx = cx - lw / 2, y0 = big || lyre ? 43 : 48, out = lyre ? -6 : big ? 14 : 5, r = lyre ? 9 : big ? 6 : 4;
     // Außenkante: bei Lyra-Anstößen (Speedmaster) als weicher runder Bogen, sonst geschwungen zum Gehäuse hin (wie bei der Submariner)
     const edge = (x0, t, e, k) => { const d = e > t ? 1 : -1;
-      return lyre ? `C${x0 + k * 1} ${t + d * 18} ${x0 + k * out} ${e - d * 34} ${x0 + k * out} ${e}` : `Q${x0 + k * 1} ${t + d * 26} ${x0 + k * out} ${e}`; };
+      return lyre ? `C${x0 + k * 7} ${t + d * 14} ${x0 + k * 6} ${e - d * 30} ${x0 + k * out} ${e}` : `Q${x0 + k * 1} ${t + d * 26} ${x0 + k * out} ${e}`; };
     const lug = (t, e) => { const d = e > t ? 1 : -1;
-      return `M${lx + r} ${t}H${lx + lw - r}Q${lx + lw} ${t} ${lx + lw} ${t + d * r}${edge(lx + lw, t + d * r, e, 1)}H${lx - out}${lyre ? `C${lx - out} ${e - d * 34} ${lx - 1} ${t + d * r + d * 18} ${lx} ${t + d * r}` : `Q${lx - 1} ${t + d * 26} ${lx} ${t + d * r}`}Q${lx} ${t} ${lx + r} ${t}Z`; };
+      return `M${lx + r} ${t}H${lx + lw - r}Q${lx + lw} ${t} ${lx + lw} ${t + d * r}${edge(lx + lw, t + d * r, e, 1)}H${lx - out}${lyre ? `C${lx - 6} ${e - d * 30} ${lx - 7} ${t + d * r + d * 14} ${lx} ${t + d * r}` : `Q${lx - 1} ${t + d * 26} ${lx} ${t + d * r}`}Q${lx} ${t} ${lx + r} ${t}Z`; };
+    if (lyre) {
+      // Speedmaster nach Fotovorlage: Spitze kaum breiter als das Band, Flanke als gerade Schräge tangential an die Lünette, mit polierter Fase
+      const tw = sw + 6, tl = cx - tw / 2, R = 72, rr = 4;
+      const tan = (px, py, side) => { const dx = px - cx, dy = py - cy, D = Math.hypot(dx, dy), base = Math.atan2(dy, dx), al = Math.acos(R / D) * side; return [cx + R * Math.cos(base + al), cy + R * Math.sin(base + al)]; };
+      const one = (ty, d) => {
+        const L = [tl, ty], Rt = [tl + tw, ty];
+        const TL = tan(L[0], L[1], d > 0 ? -1 : 1), TR = tan(Rt[0], Rt[1], d > 0 ? 1 : -1);
+        const body = `M${f1(tl + rr)} ${ty}H${f1(tl + tw - rr)}Q${f1(tl + tw)} ${ty} ${f1(tl + tw + .6)} ${ty + d * rr}L${f1(TR[0])} ${f1(TR[1])}L${cx} ${cy}L${f1(TL[0])} ${f1(TL[1])}L${f1(tl - .6)} ${ty + d * rr}Q${tl} ${ty} ${f1(tl + rr)} ${ty}Z`;
+        // Fase: schmaler heller Streifen entlang der Schräge
+        const fase = (P0, P1, k) => `M${f1(P0[0])} ${f1(P0[1])}L${f1(P1[0])} ${f1(P1[1])}L${f1(P1[0] + k * 7)} ${f1(P1[1] + d * 2)}L${f1(P0[0] + k * 3)} ${f1(P0[1] + d * 2)}Z`;
+        return { body, fase: fase([tl - .6, ty + d * rr], TL, 1) + fase([tl + tw + .6, ty + d * rr], TR, -1) };
+      };
+      const A = one(y0, 1), Bm = one(260 - y0, -1);
+      S.push(`<path d="${A.body}${Bm.body}" fill="${metal}"/><path d="${A.fase}${Bm.fase}" fill="#fff" fill-opacity=".38"/><path d="M${f1(tl + rr)} ${y0 + 1.2}H${f1(tl + tw - rr)}" stroke="#fff" stroke-opacity=".6"/><path d="M${f1(tl + rr)} ${258.8 - y0}H${f1(tl + tw - rr)}" stroke="#000" stroke-opacity=".25"/>`);
+    } else {
     S.push(`<path d="${lug(y0, 100)}${lug(260 - y0, 160)}" fill="${metal}"/>`);
     // polierte Flanke außen und Lichtkante an der Stirnseite
     const fl = (t, e, k) => { const d = e > t ? 1 : -1, x = (k < 0 ? lx : lx + lw) - k * 1.4; return `M${x} ${t + d * r}${edge(x, t + d * r, e, k)}`; };
     S.push(`<path d="${fl(y0, 100, -1)}${fl(y0, 100, 1)}${fl(260 - y0, 160, -1)}${fl(260 - y0, 160, 1)}" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.3"/><path d="M${lx + r} ${y0 + 1.2}H${lx + lw - r}" stroke="#fff" stroke-opacity=".6"/><path d="M${lx + r} ${258.8 - y0}H${lx + lw - r}" stroke="#000" stroke-opacity=".25"/>`);
+    }
   }
   if (metalBand) {
     const pol = `url(#${id}p)`, bru = M[1], bru2 = mix(M[1], .12);
