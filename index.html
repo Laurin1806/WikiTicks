@@ -530,8 +530,15 @@ function drawWatch(v = {}, e = null) {
   const strapC = v.strapColor || (st === "leather" ? "#4a2f20" : st === "nato" ? "#4f5236" : "#1c1d20");
   // integrierte Bänder behalten bis zum Gehäuse die volle Breite und verjüngen sich erst danach
   const J = integ ? 44 : 86;
-  const hw = y => (y < 130 ? sw - taper * Math.max(0, 1 - y / J) : sw - taper * Math.max(0, (y - (260 - J)) / J)) / 2;
-  const trap = (y0, y1) => `M${f1(cx - hw(y0))} ${y0}L${f1(cx + hw(y0))} ${y0}L${f1(cx + hw(y1))} ${y1}L${f1(cx - hw(y1))} ${y1}Z`;
+  // Royal-Oak-Band: Seiten fließen vom Endstück aus in einer weichen Kurve nach innen
+  const hw = st === "ro"
+    ? y => { const t = Math.min(1, Math.max(0, (y < 130 ? 38 - y : y - 222) / 30)); return (80 - 26 * Math.pow(t, 1.4)) / 2; }
+    : y => (y < 130 ? sw - taper * Math.max(0, 1 - y / J) : sw - taper * Math.max(0, (y - (260 - J)) / J)) / 2;
+  const trap = (y0, y1) => {
+    if (st !== "ro") return `M${f1(cx - hw(y0))} ${y0}L${f1(cx + hw(y0))} ${y0}L${f1(cx + hw(y1))} ${y1}L${f1(cx - hw(y1))} ${y1}Z`;
+    const n = 16, ys = Array.from({ length: n + 1 }, (_, k) => y0 + (y1 - y0) * k / n);
+    return `M${ys.map(y => `${f1(cx + hw(y))} ${f1(y)}`).join("L")}L${ys.reverse().map(y => `${f1(cx - hw(y))} ${f1(y)}`).join("L")}Z`;
+  };
   const strapD = trap(0, 86) + trap(174, 260);
   if (!["rect", "square", "triangle", "porthole", "tonneau", "octagon"].includes(shape) && !v.wire && st !== "integrated") {
     // Bandanstöße: bei Metallbändern (Sportuhren) kräftig und lang wie bei der Submariner, sonst schlanker
