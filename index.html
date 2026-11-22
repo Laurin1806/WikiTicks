@@ -290,7 +290,7 @@ article .curbox { margin-top: 10px; }
 .letters button { font: inherit; font-family: var(--font-mono); font-size: 13px; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); cursor: pointer; }
 .letters button:hover { border-color: var(--accent); color: var(--accent); }
 .vtoggle { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin: 4px 0 14px; background: var(--surface); }
-.vtoggle button { font: inherit; font-size: 13px; font-weight: 600; padding: 7px 14px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.vtoggle button { display: grid; place-items: center; width: 40px; height: 34px; padding: 0; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
 .vtoggle button + button { border-left: 1px solid var(--line); }
 .vtoggle button[aria-pressed="true"] { background: var(--accent); color: #fff; }
 .vhead { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; }
@@ -467,10 +467,9 @@ function navKey(h) {
   return h;
 }
 // In der Navigation nur die Marken mit den meisten Modellen zeigen, die gerade geöffnete Marke immer dazu
-const NAV_BRANDS = 4;
+const NAV_FIXED = ["Rolex", "Omega", "Patek Philippe", "A. Lange & Söhne"], NAV_BRANDS = NAV_FIXED.length;
 function navBrands(key) {
-  const n = b => MODELS.filter(e => e.brand === b).length;
-  const top = BRANDS.slice().sort((a, b) => n(b) - n(a) || a.localeCompare(b, "de")).slice(0, NAV_BRANDS);
+  const top = NAV_FIXED.filter(b => BRANDS.includes(b));
   const cur = BRANDS.find(b => key === "marke-" + slug(b));
   if (cur && !top.includes(cur)) top.push(cur);
   return top;
@@ -1273,7 +1272,9 @@ function viewHome() {
 
 let listMode = false;
 try { listMode = localStorage.getItem("wikiticks-view") === "list"; } catch (e) {}
-const vtoggle = () => `<div class="vtoggle" role="group" aria-label="Ansicht"><button type="button" data-v="cards" aria-pressed="${!listMode}">Karten</button><button type="button" data-v="list" aria-pressed="${listMode}">Liste</button></div>`;
+const ICON_CARDS = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="5.5" y="7.5" width="5.5" height="9" rx="1" fill="currentColor"/><rect x="13" y="7.5" width="5.5" height="9" rx="1" fill="currentColor"/></svg>`;
+const ICON_LIST = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 8.5h12M6 11.2h12M6 13.9h12M6 16.6h12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>`;
+const vtoggle = () => `<div class="vtoggle" role="group" aria-label="Ansicht"><button type="button" data-v="cards" aria-pressed="${!listMode}" aria-label="Kartenansicht" title="Kartenansicht">${ICON_CARDS}</button><button type="button" data-v="list" aria-pressed="${listMode}" aria-label="Listenansicht" title="Listenansicht">${ICON_LIST}</button></div>`;
 
 function viewModels() {
   return crumbs([["Startseite", ""], ["Uhrenmodelle"]]) +
