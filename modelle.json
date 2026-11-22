@@ -488,7 +488,34 @@
     "Die Ref. 1655 nutzte das Kaliber 1575 GMT, dessen 24-Stunden-Zeiger fest an den Stundenzeiger gekoppelt war. Erst die 16550 mit Kaliber 3085 erlaubte das unabhängige Verstellen des Stundenzeigers.",
     "Frühe 16550 mit cremefarbenem statt weißem Zifferblatt (»Cream Dial«) entstanden durch eine instabile Lackierung und sind heute gesucht.",
     "Das Kaliber 3285 der aktuellen Ref. 226570 hat die Chronergy-Hemmung mit Nickel-Phosphor-Bauteilen und eine Parachrom-Spirale aus einer paramagnetischen Niob-Zirkonium-Legierung."
-   ]
+   ],
+   "preis": {
+    "t": "Preisentwicklung (Listenpreis USA, neu beim Konzessionär)",
+    "u": "USD",
+    "p": [
+     [
+      "2011",
+      "Ref. 16570, letzter Listenpreis",
+      6300
+     ],
+     [
+      "2021",
+      "Ref. 216570, letzter Listenpreis",
+      8350
+     ],
+     [
+      "2021",
+      "Ref. 226570, Einführungspreis",
+      9650
+     ],
+     [
+      "2026",
+      "Ref. 226570, nach Preiserhöhung",
+      10600
+     ]
+    ],
+    "n": "Ungefähre Werte nach Händler- und Preisportal-Angaben (u. a. Bob's Watches, WatchCharts), nicht von Rolex bestätigt. Gebrauchtpreise am Markt können deutlich abweichen."
+   }
   },
   {
    "id": "submariner",
