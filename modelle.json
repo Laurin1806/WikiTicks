@@ -534,7 +534,9 @@
       "SUPERLATIVE CHRONOMETER",
       "OFFICIALLY CERTIFIED"
      ],
-     "sec": "#1d2128"
+     "sec": "#1d2128",
+     "mScale": 0.82,
+     "mInset": 4
     }
    }
   },

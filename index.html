@@ -930,9 +930,11 @@ function drawWatch(v = {}, e = null) {
       else if (mk === "roman4" && i % 3 === 0) S.push(txt(a, rx - 9, ROMAN[i], 13, lume, 700));
       else if (mk === "roman") S.push(txt(a, rx - (shape === "rect" ? 4 : shape === "square" ? 12 : 9), ROMAN[i], shape === "rect" ? (i % 3 === 0 ? 8.5 : 7) : shape === "square" ? (i % 3 === 0 ? 11 : 9.5) : (i % 3 === 0 ? 11 : 9), ink, 500));
       else if (mk === "dots" || mk === "explorer") {
-        if (i === 0) S.push(`<polygon points="${f1(x - 6)},${f1(y - 4)} ${f1(x + 6)},${f1(y - 4)} ${f1(x)},${f1(y + 7)}" fill="${lume}" stroke="${frame}" stroke-width="1"/>`);
-        else if (i % 3 === 0) S.push(`<rect x="${f1(x - 2.6)}" y="${f1(y - 7)}" width="5.2" height="14" rx="1" fill="${lume}" stroke="${frame}" stroke-width="1" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`);
-        else S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="4.2" fill="${lume}" stroke="${frame}" stroke-width="1"/>`);
+        // optional kleinere und weiter innen liegende Indizes (mScale, mInset)
+        const k = v.mScale || 1, [x, y] = v.mInset ? at(a, v.mInset) : [x0m, y0m];
+        if (i === 0) S.push(`<polygon points="${f1(x - 6 * k)},${f1(y - 4 * k)} ${f1(x + 6 * k)},${f1(y - 4 * k)} ${f1(x)},${f1(y + 7 * k)}" fill="${lume}" stroke="${frame}" stroke-width="1"/>`);
+        else if (i % 3 === 0) S.push(`<rect x="${f1(x - 2.6 * k)}" y="${f1(y - 7 * k)}" width="${f1(5.2 * k)}" height="${f1(14 * k)}" rx="1" fill="${lume}" stroke="${frame}" stroke-width="1" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`);
+        else S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="${f1(4.2 * k)}" fill="${lume}" stroke="${frame}" stroke-width="1"/>`);
       } else if (mk === "pilot" && i === 0) S.push(`<polygon points="${f1(x - 7)},${f1(y - 5)} ${f1(x + 7)},${f1(y - 5)} ${f1(x)},${f1(y + 7)}" fill="${lume}"/><circle cx="${f1(x - 9)}" cy="${f1(y - 2)}" r="1.6" fill="${lume}"/><circle cx="${f1(x + 9)}" cy="${f1(y - 2)}" r="1.6" fill="${lume}"/>`);
       else if (v.ro && i === 0 && mk === "baton") [-2.7, 2.7].forEach(o => S.push(`<rect x="${f1(x + o - 1.9)}" y="${f1(y - 6.5)}" width="3.8" height="18" rx="1" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6"/>`)); // Royal Oak: Doppelindex bei 12
       else if (mk !== "none") { const len = v.ro ? 15 : i % 3 === 0 ? 12 : 9, w = mk === "thin" ? 1.6 : v.ro ? 3.8 : i % 3 === 0 ? 4.2 : 3.2; const [x, y] = v.ro ? at(a, 3) : [x0m, y0m]; S.push(`<rect x="${f1(x - w / 2)}" y="${f1(y - len / 2)}" width="${w}" height="${len}" rx="${w / 3}" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`); }
