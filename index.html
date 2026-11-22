@@ -1223,6 +1223,11 @@ const card = (e, label) => `
     <p>${esc(e.s)}</p>
   </a>`;
 
+// Uhren, deren erster Absatz schon wie eine Zusammenfassung wirkt (ab ca. 35 Wörtern), zeigen ihn ganz; knappere bleiben bei Anfang plus Kurzsatz
+const summary = M => {
+  if (M.brand && M.b[0].split(/\s+/).length >= 35) return `<p class="daily-body">${esc(M.b[0])}</p>`;
+  return `<p class="daily-body">${esc(firstSentences(M.b[0]))}</p>${M.w ? `<p class="daily-body daily-w">${esc(M.w)}</p>` : ""}`;
+};
 const firstSentences = (t, n = 2) => { const p = t.split(/(?<=[.!?])\s+(?=[A-ZÄÖÜ»])/); return p.slice(0, n).join(" "); };
 function dailyCard(M, kicker, varName = "", hid = "dh") {
   const vx = varName && (M.var || []).find(x => x.n.includes(varName));
@@ -1233,8 +1238,7 @@ function dailyCard(M, kicker, varName = "", hid = "dh") {
         <div class="kicker">${esc(kicker)}<span>${new Date().toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long" })}</span></div>
         <h2 id="${hid}">${esc(M.t)}</h2>
         <p class="lead">${esc(M.s)}</p>
-        <p class="daily-body">${esc(firstSentences(M.b[0]))}</p>
-        ${M.w ? `<p class="daily-body daily-w">${esc(M.w)}</p>` : ""}
+        ${summary(M)}
         <a class="go" href="#${M.id}">Ganzen Artikel lesen →</a>
       </div>
       ${M.brand
