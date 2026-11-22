@@ -5413,6 +5413,17 @@
     "u": "USD",
     "rows": [
      [
+      "5402ST (Jumbo)",
+      "Liste 1972 (3.750 CHF)",
+      3750,
+      "heute",
+      110000,
+      [
+       "CHF",
+       "USD"
+      ]
+     ],
+     [
       "14790ST",
       "ursprüngliche Liste (ca.)",
       8300,
@@ -5438,7 +5449,7 @@
       80386
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14790: laut Chronext inzwischen nahe 40.000 Euro (Richtwert). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14790: laut Chronext inzwischen nahe 40.000 Euro (Richtwert). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Neupreis 5402: Listenpreis zum Verkaufsstart laut Quelle; Gebrauchtpreis: Händlerangebote zwischen etwa 60.000 und 145.000 USD, hier ein grober Mittelwert."
    }
   },
   {
@@ -6027,6 +6038,27 @@
     "u": "USD",
     "rows": [
      [
+      "105.012",
+      "Liste (ca. 1960er)",
+      179,
+      "heute",
+      10600
+     ],
+     [
+      "105.003 »Ed White«",
+      "",
+      null,
+      "heute",
+      8634
+     ],
+     [
+      "145.012",
+      "",
+      null,
+      "heute",
+      11500
+     ],
+     [
       "3590.50 / 145.022",
       "",
       null,
@@ -6055,7 +6087,7 @@
       6000
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenz 311.30.42.30.01.005 (bis 2021): Händlerangebot von SwissWatchExpo. Ältere Referenzen: 3570.50: WatchCharts (Oktober 2026); 3590.50: Händlerangebot eines Exemplars von 1991."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenz 311.30.42.30.01.005 (bis 2021): Händlerangebot von SwissWatchExpo. Ältere Referenzen: 3570.50: WatchCharts (Oktober 2026); 3590.50: Händlerangebot eines Exemplars von 1991. Vintage-Referenzen: 105.012: Listenpreis laut einer einzelnen Quelle (ca. 179 USD), Gebrauchtpreis aus Händlerangeboten von rund 9.600 bis 11.700 USD; 105.003: WatchCharts (Oktober 2026); 145.012: Mitte einer Händlerspanne von rund 8.000 bis 15.000 USD. Grobe Richtwerte, stark zustandsabhängig."
    }
   },
   {
@@ -7879,8 +7911,15 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Navitimer B01 Chronograph 43, AB0138, USA. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte.",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Navitimer B01 Chronograph 43, AB0138, USA. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Händlerangebote von rund 6.000 bis 7.900 USD; Auktionsschätzungen lagen teils deutlich darunter.",
     "rows": [
+     [
+      "806",
+      "",
+      null,
+      "heute",
+      6500
+     ],
      [
       "A23322",
       "ursprüngliche Liste (ca.)",
@@ -8374,8 +8413,16 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Monaco CBL2111, USA 2026. Ältere Referenzen: Händlerangebot (Precision Watches) für ein Exemplar in sehr gutem Zustand.",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Monaco CBL2111, USA 2026. Ältere Referenzen: Händlerangebot (Precision Watches) für ein Exemplar in sehr gutem Zustand. Vintage-Referenzen: Verkaufspreis eines Exemplars mit mattblauem Zifferblatt; die berühmte McQueen-Uhr erzielte 2020 rund 2,2 Millionen USD.",
     "rows": [
+     [
+      "1133B (1970er)",
+      "",
+      null,
+      "heute",
+      7200,
+      "CHF"
+     ],
      [
       "CAW2111",
       "",
@@ -8491,8 +8538,16 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Carrera Chronograph Glassbox CBS2210, USA. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026).",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Carrera Chronograph Glassbox CBS2210, USA. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Vintage-Referenzen: Zuschlagspreis eines Exemplars bei Antiquorum (Dezember 2025).",
     "rows": [
+     [
+      "2447 (1960er)",
+      "",
+      null,
+      "heute",
+      3936,
+      "EUR"
+     ],
      [
       "CV2010",
       "letzte Liste 2022",
@@ -9613,6 +9668,13 @@
     "u": "USD",
     "rows": [
      [
+      "165.024",
+      "",
+      null,
+      "heute",
+      9900
+     ],
+     [
       "234.30.41.21.03.001",
       "Liste",
       8000,
@@ -9620,7 +9682,7 @@
       4940
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Vintage-Referenzen: Händlerangebote von rund 6.500 bis 15.000 USD, hier die Mitte; Zustand und Originalität bestimmen den Preis."
    },
    "ev": [
     [
@@ -10129,6 +10191,13 @@
     "u": "USD",
     "rows": [
      [
+      "Mark 11 (RAF)",
+      "",
+      null,
+      "heute",
+      8200
+     ],
+     [
       "IW328201",
       "Liste 2026",
       5800,
@@ -10136,7 +10205,7 @@
       4950
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Vintage-Referenzen: Händlerangebot für ein Exemplar; Exemplare mit militärischer Provenienz liegen deutlich höher."
    },
    "ev": [
     [
@@ -15309,8 +15378,16 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Prospex SRP777, USA (Seiko-Katalog 2020). Gebrauchtpreis: WatchCharts (Oktober 2026).",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Prospex SRP777, USA (Seiko-Katalog 2020). Gebrauchtpreis: WatchCharts (Oktober 2026). Vintage-Referenzen: Zuschlagspreise bei Catawiki von rund 100 bis 230 Euro, hier die Mitte.",
     "rows": [
+     [
+      "6309 (Original)",
+      "",
+      null,
+      "heute",
+      170,
+      "EUR"
+     ],
      [
       "SRP777",
       "Katalog 2020",
