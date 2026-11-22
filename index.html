@@ -533,7 +533,7 @@ function drawWatch(v = {}, e = null) {
   const strapD = trap(0, 86) + trap(174, 260);
   if (!["rect", "square", "triangle", "porthole", "tonneau", "octagon"].includes(shape) && !v.wire && st !== "integrated") {
     // Bandanstöße: bei Metallbändern (Sportuhren) kräftig und lang wie bei der Submariner, sonst schlanker
-    const big = metalBand, lyre = v.lugs === "lyre";
+    const big = metalBand, lyre = v.lugs === "lyre" || v.lugs === "taper"; // taper: schlanke, gerade Flanken (Day-Date, Datejust)
     const lw = sw + (lyre ? 20 : big ? 26 : 16), lx = cx - lw / 2, y0 = big || lyre ? 43 : 48, out = lyre ? -6 : big ? 14 : 5, r = lyre ? 9 : brand === "Rolex" ? 1.5 : big ? 6 : 4; // Rolex: kantige Enden der Bandanstöße
     // Außenkante: bei Lyra-Anstößen (Speedmaster) als weicher runder Bogen, sonst geschwungen zum Gehäuse hin (wie bei der Submariner)
     const edge = (x0, t, e, k) => { const d = e > t ? 1 : -1;
@@ -542,7 +542,7 @@ function drawWatch(v = {}, e = null) {
       return `M${lx + r} ${t}H${lx + lw - r}Q${lx + lw} ${t} ${lx + lw} ${t + d * r}${edge(lx + lw, t + d * r, e, 1)}H${lx - out}${lyre ? `C${lx - 6} ${e - d * 30} ${lx - 7} ${t + d * r + d * 14} ${lx} ${t + d * r}` : `Q${lx - 1} ${t + d * 26} ${lx} ${t + d * r}`}Q${lx} ${t} ${lx + r} ${t}Z`; };
     if (lyre) {
       // Speedmaster nach Fotovorlage: Spitze kaum breiter als das Band, Flanke als gerade Schräge tangential an die Lünette, mit polierter Fase
-      const tw = sw + 6, tl = cx - tw / 2, R = 72, rr = 4;
+      const tw = sw + (v.lugs === "taper" ? 4 : 6), tl = cx - tw / 2, R = 72, rr = v.lugs === "taper" ? 1.5 : 4;
       const tan = (px, py, side) => { const dx = px - cx, dy = py - cy, D = Math.hypot(dx, dy), base = Math.atan2(dy, dx), al = Math.acos(R / D) * side; return [cx + R * Math.cos(base + al), cy + R * Math.sin(base + al)]; };
       const one = (ty, d) => {
         const L = [tl, ty], Rt = [tl + tw, ty];
