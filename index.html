@@ -634,6 +634,10 @@ function drawWatch(v = {}, e = null) {
     else if (v.ro) {
       // Royal Oak nach Fotovorlage: kurze gerade Oberkante am Band, polierte Flanken schräg bis an die Lünette
       S.push(`<path d="M60 47 L140 47 L172 98 L172 162 L140 213 L60 213 L28 162 L28 98Z" fill="${metal}"/><path d="M61 48.5 L28.8 99.5 M139 48.5 L171.2 99.5 M61 211.5 L28.8 160.5 M139 211.5 L171.2 160.5" stroke="#fff" stroke-opacity=".6" stroke-width="1.6"/><path d="M60 47.8H140" stroke="#fff" stroke-opacity=".45"/>`);
+      // Band beginnt früher: erstes Bandglied liegt auf dem Gehäuse bis an die Lünette
+      const link = (y0, y1) => { const a = Math.min(y0, y1), b = Math.max(y0, y1), w = hw((a + b) / 2) * 2, x0 = cx - w / 2;
+        return `<rect x="${f1(x0)}" y="${a}" width="${f1(w * .4 - .6)}" height="${b - a}" rx="1" fill="${M[1]}"/><rect x="${f1(x0 + w * .6 + .6)}" y="${a}" width="${f1(w * .4 - .6)}" height="${b - a}" rx="1" fill="${M[1]}"/><rect x="${f1(x0 + w * .4 + .6)}" y="${a + 2}" width="${f1(w * .2 - 1.2)}" height="${b - a - 4}" rx="1" fill="url(#${id}p)"/>`; };
+      S.push(`<path d="M${f1(cx - hw(47) - .8)} 47H${f1(cx + hw(47) + .8)}V70H${f1(cx - hw(47) - .8)}ZM${f1(cx - hw(213) - .8)} 190H${f1(cx + hw(213) + .8)}V213H${f1(cx - hw(213) - .8)}Z" fill="${M[2]}"/>${link(47.6, 70)}${link(190, 212.4)}`);
     }
     else S.push(`<path d="M58 42 Q100 34 142 42 L158 92 Q164 130 158 168 L142 218 Q100 226 58 218 L42 168 Q36 130 42 92Z" fill="${metal}"/><path d="M58 42 Q100 34 142 42" fill="none" stroke="#fff" stroke-opacity=".5"/>`);
     const [ox, oy, ix, iy, jx, jy, sx, sy] = v.ro ? [0, 0, 76, 72, 73, 69, 66, 62.5] : [80, 74, 71, 65, 67, 61, 72, 66];
