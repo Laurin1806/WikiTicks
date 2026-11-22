@@ -679,7 +679,8 @@ function drawWatch(v = {}, e = null) {
   };
   if (v.asym) right = 180;
   const cr = v.crown === "onion" ? [18, 24] : v.crown === "big" ? [16, 20] : [9, 15];
-  const cxr = v.crownLeft ? edgeX(crownY, true) - cr[0] + 2 : edgeX(crownY) - 2;
+  const cin = v.crown === "onion" || v.crown === "big" ? 5 : 3.5; // Krone sitzt im Gehäuse, Tubus kaum sichtbar
+  const cxr = v.crownLeft ? edgeX(crownY, true) - cr[0] + cin : edgeX(crownY) - cin;
   const rcrown = (brand === "Rolex" || brand === "Tudor") && (!v.crown || v.crown === "big") && shape === "round" && !v.crownLeft;
   if (rcrown) {
     // Rolex-Krone: verschraubte Krone mit Tubus und Riffelung; neue Modelle groß (Triplock), ältere klein (Twinlock)
@@ -716,6 +717,8 @@ function drawWatch(v = {}, e = null) {
   const bc = v.bezelColor || "#17191d", bInk = lum(bc) < .5 ? "#e6e8eb" : "#1d2128";
   const ring = (r1, r2, fill, extra = "") => `<path d="M${cx - r1} ${cy}a${r1} ${r1} 0 1 0 ${2 * r1} 0a${r1} ${r1} 0 1 0 ${-2 * r1} 0ZM${cx - r2} ${cy}a${r2} ${r2} 0 1 1 ${2 * r2} 0a${r2} ${r2} 0 1 1 ${-2 * r2} 0Z" fill="${fill}" fill-rule="evenodd" ${extra}/>`;
   const ticks = (r1, r2, step, color, w, skipEvery) => { let d = ""; for (let a = 0; a < 360; a += step) { if (skipEvery && Math.round(a) % skipEvery === 0) continue; const [x1, y1] = P(a, r1), [x2, y2] = P(a, r2); d += `M${f1(x1)} ${f1(y1)}L${f1(x2)} ${f1(y2)}`; } return `<path d="${d}" stroke="${color}" stroke-width="${w}"/>`; };
+  // Lünettenzahlen laufen im Kreis mit: oben Fuß zur Mitte, unten Kopf zur Mitte (wie bei Rolex, Omega usw.)
+  const rtxt = (a, r, s, size, color, weight = 600) => { const [x, y] = P(a, r), aa = ((a % 360) + 360) % 360, rot = aa > 90 && aa < 270 ? aa - 180 : aa; return `<text x="${f1(x)}" y="${f1(y + size * .36)}" text-anchor="middle" ${font} font-size="${size}" font-weight="${weight}" fill="${color}" transform="rotate(${f1(rot)} ${f1(x)} ${f1(y)})">${s}</text>`; };
   const txt = (a, r, s, size, color, weight = 600) => { const [x, y] = P(a, r); return `<text x="${f1(x)}" y="${f1(y + size * .36)}" text-anchor="middle" ${font} font-size="${size}" font-weight="${weight}" fill="${color}">${s}</text>`; };
   if (shape === "round") {
     const b = v.bezel;
@@ -723,7 +726,7 @@ function drawWatch(v = {}, e = null) {
       S.push(ring(70, B, bc));
       if (v.bezelAccent) S.push(`<path d="M${cx} ${cy - 70}A70 70 0 0 1 ${f1(P(90, 70)[0])} ${f1(P(90, 70)[1])}L${f1(P(90, B)[0])} ${f1(P(90, B)[1])}A${B} ${B} 0 0 0 ${cx} ${cy - B}Z" fill="${v.bezelAccent}"/>`);
       S.push(ticks(69, 65, 6, bInk, 1, 30));
-      [60, 120, 180, 240, 300].forEach(a => S.push(txt(a, (70 + B) / 2, String(a / 6), 8, bInk)));
+      [60, 120, 180, 240, 300].forEach(a => S.push(rtxt(a, (70 + B) / 2, String(a / 6), 8, bInk)));
       S.push(`<polygon points="${cx - 6},${cy - 69} ${cx + 6},${cy - 69} ${cx},${cy - 59}" fill="${bInk}"/>`);
       if (v.pip !== false) S.push(`<circle cx="${cx}" cy="${cy - 65.5}" r="2" fill="${v.pipColor || "#eef0e6"}" stroke="${M[2]}" stroke-width=".5"/>`);
       if (b === "riders") [0, 90, 180, 270].forEach(a => { const [x, y] = P(a, 72); S.push(`<rect x="${f1(x - 6)}" y="${f1(y - 4)}" width="12" height="8" rx="2" fill="${M[0]}" stroke="${M[2]}" stroke-width=".6" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`); });
@@ -731,20 +734,20 @@ function drawWatch(v = {}, e = null) {
       const [c1, c2] = v.bezelColors || ["#b3202a", "#1e3f8a"];
       S.push(`<path d="M${cx - 70} ${cy}A70 70 0 0 1 ${cx + 70} ${cy}L${cx + B} ${cy}A${B} ${B} 0 0 0 ${cx - B} ${cy}Z" fill="${c1}"/><path d="M${cx + 70} ${cy}A70 70 0 0 1 ${cx - 70} ${cy}L${cx - B} ${cy}A${B} ${B} 0 0 0 ${cx + B} ${cy}Z" fill="${c2}"/>`);
       S.push(ticks(69, 65, 15, "#eef0f2", 1, 45));
-      [45, 90, 135, 180, 225, 270, 315].forEach(a => S.push(txt(a, (70 + B) / 2, String(a / 15), 7, "#eef0f2")));
+      [45, 90, 135, 180, 225, 270, 315].forEach(a => S.push(rtxt(a, (70 + B) / 2, String(a / 15), 7, "#eef0f2")));
       S.push(`<polygon points="${cx - 5},${cy - 68} ${cx + 5},${cy - 68} ${cx},${cy - 60}" fill="#eef0f2"/>`);
     } else if (b === "tachy" || b === "slide") {
       S.push(ring(70, B, bc));
       S.push(ticks(69, b === "slide" ? B + 3 : 66, b === "slide" ? 3 : 6, bInk, .8));
-      if (b === "tachy") [[40, "400"], [90, "200"], [150, "120"], [210, "90"], [270, "70"], [330, "60"]].forEach(([a, s]) => S.push(txt(a, (70 + B) / 2, s, 6, bInk)));
+      if (b === "tachy") [[40, "400"], [90, "200"], [150, "120"], [210, "90"], [270, "70"], [330, "60"]].forEach(([a, s]) => S.push(rtxt(a, (70 + B) / 2, s, 6, bInk)));
       else S.push(ticks(B + 1, B - 1, 6, bInk, .6));
     } else if (b === "fixed24" || b === "yacht") {
       S.push(ring(70, B, b === "yacht" ? (v.bezelColor || M[0]) : M[1]));
       S.push(ticks(69, 66, 15, b === "yacht" ? "#2a2d33" : M[2], 1.2));
-      [60, 120, 180, 240, 300].forEach((a, i) => S.push(txt(a, (70 + B) / 2, b === "yacht" ? String((i + 1) * 10) : String((i + 1) * 4), 7.5, b === "yacht" ? "#2a2d33" : M[2], 700)));
+      [60, 120, 180, 240, 300].forEach((a, i) => S.push(rtxt(a, (70 + B) / 2, b === "yacht" ? String((i + 1) * 10) : String((i + 1) * 4), 7.5, b === "yacht" ? "#2a2d33" : M[2], 700)));
     } else if (b === "roman") {
       S.push(ring(70, B, M[0]));
-      [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].forEach((a, i) => S.push(txt(a, (70 + B) / 2, ROMAN[i], 6, M[2], 700)));
+      [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].forEach((a, i) => S.push(rtxt(a, (70 + B) / 2, ROMAN[i], 6, M[2], 700)));
     } else if (b === "cities") {
       S.push(ring(70, B, M[1]));
       S.push(ring(62, B, mix(dc, .25)));
