@@ -55,6 +55,15 @@
    ]
   },
   {
+   "name": "Bulgari",
+   "gegruendet": "1884",
+   "sitz": "Rom (Uhren: Neuchâtel)",
+   "text": [
+    "Der griechische Silberschmied Sotirio Bulgari eröffnete 1884 in Rom sein erstes Geschäft. Bekannt wurde Bulgari zunächst als Juwelier, eigene Uhren baut das Haus seit den 1970er-Jahren.",
+    "Die Uhrenproduktion sitzt heute in der Schweiz. Mit der Octo Finissimo hat Bulgari seit 2014 mehrere Rekorde für besonders flache Uhren aufgestellt. Seit 2011 gehört die Marke zum Luxuskonzern LVMH."
+   ]
+  },
+  {
    "name": "Cartier",
    "gegruendet": "1847",
    "sitz": "Paris",
@@ -79,6 +88,24 @@
    "text": [
     "Louis-Ulysse Chopard gründete 1860 im Juradorf Sonvilier eine Werkstatt für Taschenuhren. 1937 zog das Unternehmen nach Genf. 1963 übernahm der Pforzheimer Goldschmied Karl Scheufele die Marke. Seitdem ist Chopard im Besitz der Familie Scheufele.",
     "Chopard ist für Schmuckuhren wie die »Happy Diamonds« von 1976 bekannt, bei denen lose Diamanten zwischen zwei Gläsern über das Zifferblatt rollen. Seit 1996 baut Chopard in Fleurier eigene Werke für die Linie L.U.C. Die Marke setzt stark auf ethisch gewonnenes Gold und recycelten Stahl."
+   ]
+  },
+  {
+   "name": "Citizen",
+   "gegruendet": "1918",
+   "sitz": "Tokio",
+   "text": [
+    "Citizen entstand 1918 in Tokio als Shokosha Watch Research Institute. Der Name Citizen wurde 1924 für eine Taschenuhr gewählt und später zum Firmennamen.",
+    "Bekannt ist Citizen vor allem für Eco-Drive: Uhren, die ihre Energie aus Licht gewinnen und keinen Batteriewechsel brauchen. Citizen gehört zu den größten Uhrenherstellern der Welt."
+   ]
+  },
+  {
+   "name": "Doxa",
+   "gegruendet": "1889",
+   "sitz": "Biel",
+   "text": [
+    "Georges Ducommun gründete Doxa 1889 in Le Locle. Lange baute die Marke vor allem klassische Uhren und Taschenuhren.",
+    "Berühmt wurde Doxa 1967 mit der SUB 300, einer der ersten Taucheruhren für Sporttaucher, mit orangem Zifferblatt und Dekompressionstabelle auf der Lünette."
    ]
   },
   {
@@ -154,6 +181,15 @@
    ]
   },
   {
+   "name": "Laco",
+   "gegruendet": "1925",
+   "sitz": "Pforzheim",
+   "text": [
+    "Frieda Lacher und Ludwig Hummel gründeten Laco 1925 in Pforzheim. In den 1940er-Jahren gehörte Laco zu den fünf Herstellern der großen Beobachtungsuhren für Piloten, der sogenannten B-Uhren.",
+    "Heute baut Laco vor allem Fliegeruhren im Stil dieser historischen Vorbilder, dazu Marine- und Sportuhren."
+   ]
+  },
+  {
    "name": "Longines",
    "gegruendet": "1832",
    "sitz": "Saint-Imier",
@@ -205,6 +241,15 @@
    "text": [
     "Der polnische Emigrant Antoni Patek gründete 1839 in Genf zusammen mit François Czapek eine Uhrenmanufaktur. 1845 stieß der französische Uhrmacher Adrien Philippe dazu, der den Kronenaufzug ohne Schlüssel erfunden hatte. Seit 1851 heißt das Unternehmen Patek Philippe. Seit 1932 gehört es der Familie Stern.",
     "Patek Philippe gilt als eine der renommiertesten Uhrenmarken überhaupt und hält mehrere Rekorde bei Auktionen. Seit 2009 tragen alle Uhren das hauseigene Patek-Philippe-Siegel, das strengere Anforderungen an Genauigkeit und Verarbeitung stellt als das frühere Genfer Siegel."
+   ]
+  },
+  {
+   "name": "Rado",
+   "gegruendet": "1917",
+   "sitz": "Lengnau",
+   "text": [
+    "Rado geht auf die Uhrwerkfabrik Schlup & Co. zurück, die 1917 in Lengnau bei Biel gegründet wurde. Unter dem Namen Rado erscheinen Uhren seit den 1950er-Jahren.",
+    "Rado ist für den frühen und konsequenten Einsatz von Hartmetall und Keramik bekannt, etwa mit der DiaStar von 1962. Die Marke gehört zur Swatch Group."
    ]
   },
   {
@@ -10510,6 +10555,699 @@
    "tipp": [
     "Originale 222 aus den 1970er-Jahren sind gesucht und deutlich seltener als frühe Royal Oak oder Nautilus.",
     "Wer die Optik in Stahl sucht, findet in der Overseas die moderne Weiterentwicklung."
+   ]
+  },
+  {
+   "id": "octo-finissimo",
+   "t": "Bulgari Octo Finissimo",
+   "brand": "Bulgari",
+   "since": "2014",
+   "s": "Extrem flache Uhr mit achteckigem Gehäuse und integriertem Band, Rekordhalterin für flache Uhrwerke.",
+   "b": [
+    "Bulgari stellte 2012 die Octo vor, eine Uhr mit einem Gehäuse aus vielen Facetten, das ein Achteck mit einem runden Zifferblatt verbindet. 2014 folgte die Octo Finissimo, die in den Folgejahren immer neue Rekorde für flache Uhren aufstellte, zuerst mit einem Tourbillon, später mit Minutenrepetition, Automatikwerk und Chronograph.",
+    "Die Octo Finissimo Automatic von 2017 war bei ihrer Vorstellung die flachste Uhr mit Automatikaufzug. Ihr Kaliber BVL 138 ist nur gut 2 Millimeter hoch und wird von einem Mikrorotor aus Platin aufgezogen.",
+    "Typisch sind das matte, sandgestrahlte Titangehäuse, das nahtlos ins Gliederband übergeht, und das Zifferblatt in der Farbe des Gehäuses."
+   ],
+   "cur": "Octo Finissimo Automatic · Titan",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Titan, sandgestrahlt"
+    ],
+    [
+     "Kaliber",
+     "BVL 138, Automatik mit Mikrorotor"
+    ],
+    [
+     "Werkhöhe",
+     "≈ 2,2 mm"
+    ],
+    [
+     "Gangreserve",
+     "≈ 60 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Band",
+     "Integriertes Titanband"
+    ]
+   ],
+   "refs": [
+    [
+     "Octo Finissimo Tourbillon",
+     "seit 2014",
+     "40 mm",
+     "BVL 268",
+     "Erste Octo Finissimo, Handaufzug mit Tourbillon"
+    ],
+    [
+     "Octo Finissimo Automatic",
+     "seit 2017",
+     "40 mm",
+     "BVL 138",
+     "Automatik mit Mikrorotor aus Platin"
+    ]
+   ],
+   "r": [
+    "mikrorotor",
+    "titan",
+    "automatik",
+    "tourbillon",
+    "royal-oak"
+   ],
+   "k": "Die Octo Finissimo hat Bulgari mehrere Weltrekorde für die flachste Uhr ihrer Art eingebracht.",
+   "a": [
+    "Octo"
+   ],
+   "v": {
+    "shape": "octagon",
+    "screws": 0,
+    "case": "titanium",
+    "dial": "#8c9096",
+    "tex": "sunburst",
+    "markers": "baton",
+    "hands": "baton",
+    "sub": "small6",
+    "strap": "integrated",
+    "thin": true,
+    "origin": ""
+   },
+   "m": [
+    "Vielflächiges Achteckgehäuse",
+    "Zifferblatt in Gehäusefarbe",
+    "Kleine Sekunde in der unteren Zifferblatthälfte",
+    "Integriertes Titanband"
+   ],
+   "tipp": [
+    "Trotz der geringen Höhe ist die Uhr bis 100 m wasserdicht.",
+    "Die matte Titanoberfläche zeigt Kratzer weniger als polierter Stahl."
+   ]
+  },
+  {
+   "id": "captain-cook",
+   "t": "Rado Captain Cook",
+   "brand": "Rado",
+   "since": "1962",
+   "s": "Taucheruhr aus den 1960er-Jahren mit Keramiklünette, nach dem Seefahrer James Cook benannt.",
+   "b": [
+    "Rado stellte die Captain Cook 1962 als Taucheruhr vor. Sie hatte eine drehbare Lünette, ein nach innen geneigtes Zifferblatt und den beweglichen Anker als Markenzeichen.",
+    "2017 legte Rado das Modell zunächst in 37 Millimetern neu auf, später folgte eine ganze Kollektion. Die heutigen Modelle haben eine Lünetteneinlage aus kratzfester Keramik, die zu den Kernkompetenzen von Rado gehört, und ein Automatikwerk mit rund 80 Stunden Gangreserve."
+   ],
+   "cur": "Captain Cook Automatic · seit 2021",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "R763, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Lünette",
+     "Einseitig drehbar, Keramikeinlage"
+    ],
+    [
+     "Band",
+     "Edelstahl, Kautschuk oder Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "Captain Cook",
+     "1962",
+     "≈ 36 mm",
+     "Automatik",
+     "Originale Taucheruhr"
+    ],
+    [
+     "Captain Cook Automatic",
+     "seit 2021",
+     "42 mm",
+     "R763",
+     "Keramiklünette, 80 h Gangreserve"
+    ]
+   ],
+   "r": [
+    "keramik",
+    "luenette",
+    "automatik",
+    "wasserdichtigkeit",
+    "fifty-fathoms"
+   ],
+   "k": "Der kleine Anker auf dem Zifferblatt ist drehbar gelagert und bewegt sich mit.",
+   "a": [],
+   "v": {
+    "dial": "#1f4a35",
+    "tex": "sunburst",
+    "bezel": "dive",
+    "bezelColor": "#1a1c1f",
+    "markers": "baton",
+    "hands": "sword",
+    "date": "3",
+    "sec": "#c8202a",
+    "top": [
+     "CAPTAIN COOK",
+     "AUTOMATIC"
+    ]
+   },
+   "m": [
+    "Drehbarer Anker auf dem Zifferblatt",
+    "Keramiklünette",
+    "Schwertzeiger",
+    "Datum bei 3 Uhr"
+   ],
+   "tipp": [
+    "Die 37-mm-Version ist näher am Original von 1962.",
+    "Viele Ausführungen haben ein Schnellwechselsystem für das Band."
+   ]
+  },
+  {
+   "id": "promaster-diver",
+   "t": "Citizen Promaster Diver",
+   "brand": "Citizen",
+   "since": "1983",
+   "s": "Robuste Taucheruhr mit Solarantrieb, die nie eine Batterie braucht.",
+   "b": [
+    "Citizen baut unter dem Namen Promaster seit den 1980er-Jahren Uhren für Taucher, Piloten und Bergsteiger. Die Taucheruhren erfüllen die Norm ISO 6425 und sind für den echten Einsatz unter Wasser gedacht.",
+    "Angetrieben werden die meisten heutigen Modelle von Eco-Drive: Eine Solarzelle unter dem Zifferblatt lädt einen Akku, der die Uhr voll geladen viele Monate lang im Dunkeln laufen lässt. Ein Batteriewechsel entfällt."
+   ],
+   "cur": "BN0150 · Eco-Drive",
+   "f": [
+    [
+     "Gehäuse",
+     "44 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Eco-Drive E168, Solar-Quarz"
+    ],
+    [
+     "Gangreserve",
+     "≈ 6 Monate (voll geladen)"
+    ],
+    [
+     "Wasserdicht",
+     "200 m (ISO 6425)"
+    ],
+    [
+     "Lünette",
+     "Einseitig drehbar"
+    ],
+    [
+     "Band",
+     "Kautschuk"
+    ]
+   ],
+   "refs": [
+    [
+     "BN0150",
+     "seit 2009",
+     "44 mm",
+     "E168",
+     "Eco-Drive, sehr beliebte Einsteiger-Taucheruhr"
+    ]
+   ],
+   "r": [
+    "quarzwerk",
+    "wasserdichtigkeit",
+    "luenette",
+    "leuchtmasse",
+    "skx007"
+   ],
+   "k": "Eco-Drive-Uhren laden sich auch bei Kunstlicht auf.",
+   "a": [
+    "Eco-Drive",
+    "BN0150"
+   ],
+   "v": {
+    "dial": "#17191d",
+    "bezel": "dive",
+    "markers": "dots",
+    "hands": "sword",
+    "date": "3",
+    "strap": "rubber",
+    "label": "",
+    "top": [
+     "Eco-Drive"
+    ],
+    "bottom": [
+     "WR 200"
+    ]
+   },
+   "m": [
+    "Große runde Leuchtindizes",
+    "Einseitig drehbare Lünette",
+    "Datum bei 3 Uhr",
+    "Kautschukband"
+   ],
+   "tipp": [
+    "Eine der günstigsten Taucheruhren nach ISO-Norm.",
+    "Gelegentlich ins Licht legen, dann läuft sie jahrelang ohne Wartung."
+   ]
+  },
+  {
+   "id": "sub-300",
+   "t": "Doxa SUB 300",
+   "brand": "Doxa",
+   "since": "1967",
+   "s": "Taucheruhr mit orangem Zifferblatt und Dekompressionstabelle auf der Lünette.",
+   "b": [
+    "Doxa stellte die SUB 300 1967 vor, entwickelt zusammen mit erfahrenen Tauchern. Das orange Zifferblatt war unter Wasser besonders gut ablesbar, und auf der Lünette stand neben der Minutenskala eine Tabelle für Tauchzeiten ohne Dekompressionspause.",
+    "Bekannt wurde die Uhr auch durch die Romanfigur Dirk Pitt des Autors Clive Cussler, der eine Doxa trägt. Seit einigen Jahren legt Doxa die SUB 300 in mehreren Farben neu auf, das Orange heißt dort »Professional«."
+   ],
+   "cur": "SUB 300 · Neuauflage",
+   "f": [
+    [
+     "Gehäuse",
+     "42,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Lünette",
+     "Einseitig drehbar, Dekompressionstabelle"
+    ],
+    [
+     "Zifferblatt",
+     "Orange (»Professional«) u. a."
+    ],
+    [
+     "Band",
+     "Edelstahl im Beads-of-Rice-Stil oder Kautschuk"
+    ]
+   ],
+   "refs": [
+    [
+     "SUB 300",
+     "1967–1970er",
+     "42 mm",
+     "Automatik",
+     "Original mit orangem Zifferblatt"
+    ],
+    [
+     "SUB 300 (Neuauflage)",
+     "seit 2020",
+     "42,5 mm",
+     "Automatik",
+     "Mehrere Zifferblattfarben"
+    ]
+   ],
+   "r": [
+    "luenette",
+    "wasserdichtigkeit",
+    "leuchtmasse",
+    "fifty-fathoms",
+    "submariner"
+   ],
+   "k": "Die Romanfigur Dirk Pitt von Clive Cussler trägt in vielen Büchern eine Doxa.",
+   "a": [
+    "Doxa Sub"
+   ],
+   "v": {
+    "dial": "#ee6a1f",
+    "bezel": "dive",
+    "markers": "baton",
+    "hands": "sword",
+    "ink": "#1d2128",
+    "lume": "#1d2128",
+    "strap": "rubber",
+    "label": "",
+    "top": [
+     "SUB 300",
+     "PROFESSIONAL"
+    ]
+   },
+   "m": [
+    "Oranges Zifferblatt",
+    "Kantiges, breites Gehäuse",
+    "Dekompressionstabelle auf der Lünette",
+    "Großer Minutenzeiger"
+   ],
+   "tipp": [
+    "Orange gilt als die klassische und gefragteste Farbe.",
+    "Originale aus den 1960er-Jahren sind selten und oft stark getragen."
+   ]
+  },
+  {
+   "id": "laco-aachen",
+   "t": "Laco Flieger Aachen",
+   "brand": "Laco",
+   "since": "1940",
+   "s": "Fliegeruhr im Stil der historischen B-Uhren mit Dreieck bei 12 und großen Ziffern.",
+   "b": [
+    "In den 1940er-Jahren bauten fünf Hersteller, darunter Laco, große Beobachtungsuhren für Navigatoren der Luftwaffe. Diese B-Uhren hatten ein schwarzes Zifferblatt, große Ziffern, ein Dreieck mit zwei Punkten bei 12 Uhr und eine übergroße Zwiebelkrone für die Bedienung mit Handschuhen.",
+    "Heute baut Laco Fliegeruhren in diesem Stil in vielen Größen. Die Aachen gehört zur Basic-Linie mit Automatikwerk und hat die klassische Zifferblattgestaltung »Muster A« mit Stundenziffern."
+   ],
+   "cur": "Aachen 39 · Automatik",
+   "f": [
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Laco 21, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 42 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Zifferblatt",
+     "Schwarz, Muster A"
+    ],
+    [
+     "Band",
+     "Leder mit Nieten"
+    ]
+   ],
+   "refs": [
+    [
+     "B-Uhr",
+     "1940er",
+     "55 mm",
+     "Taschenuhrwerk",
+     "Historische Beobachtungsuhr"
+    ],
+    [
+     "Aachen 39",
+     "seit 2014",
+     "39 mm",
+     "Laco 21",
+     "Basic-Linie mit Automatik"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "krone",
+    "leuchtmasse",
+    "big-pilot",
+    "mark-xx"
+   ],
+   "k": "Die historischen B-Uhren hatten 55 Millimeter Durchmesser und wurden über der Fliegerjacke getragen.",
+   "a": [
+    "B-Uhr"
+   ],
+   "v": {
+    "dial": "#17191d",
+    "markers": "pilot",
+    "hands": "sword",
+    "crown": "onion",
+    "strap": "leather",
+    "strapColor": "#4a3020",
+    "lume": "#f2f2f2",
+    "brandText": "",
+    "origin": ""
+   },
+   "m": [
+    "Dreieck mit zwei Punkten bei 12",
+    "Große arabische Ziffern",
+    "Zwiebelkrone",
+    "Lederband mit Nieten"
+   ],
+   "tipp": [
+    "Die 39-mm-Version passt auch an schmale Handgelenke.",
+    "Laco gehört zu den wenigen Marken mit echter B-Uhr-Herkunft."
+   ]
+  },
+  {
+   "id": "black-bay-54",
+   "t": "Tudor Black Bay 54",
+   "brand": "Tudor",
+   "since": "2023",
+   "s": "Kompakte Taucheruhr mit 37 Millimetern, angelehnt an die erste Tudor-Taucheruhr von 1954.",
+   "b": [
+    "Tudor stellte die Black Bay 54 im Jahr 2023 vor. Ihr Name erinnert an die Oyster Prince Submariner Ref. 7922 von 1954, die erste Taucheruhr der Marke. Mit 37 Millimetern ist sie die kleinste Black Bay.",
+    "Anders als bei den anderen Black-Bay-Modellen hat die Lünette eine durchgehende Minutenskala ohne Ziffernring, und die Krone ist schlanker. Im Inneren arbeitet das Manufakturkaliber MT5400 mit rund 70 Stunden Gangreserve."
+   ],
+   "cur": "Ref. M79000N · seit 2023",
+   "f": [
+    [
+     "Gehäuse",
+     "37 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "MT5400, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 70 Stunden"
+    ],
+    [
+     "Genauigkeit",
+     "COSC-zertifizierter Chronometer"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Band",
+     "Edelstahl oder Kautschuk"
+    ]
+   ],
+   "refs": [
+    [
+     "7922",
+     "1954",
+     "37 mm",
+     "390",
+     "Erste Tudor-Taucheruhr"
+    ],
+    [
+     "M79000N",
+     "seit 2023",
+     "37 mm",
+     "MT5400",
+     "Black Bay 54"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "chronometer",
+    "luenette",
+    "black-bay",
+    "black-bay-58",
+    "submariner"
+   ],
+   "k": "Die Black Bay 54 ist so groß wie die erste Tudor-Taucheruhr von 1954.",
+   "a": [
+    "BB54"
+   ],
+   "v": {
+    "dial": "#17191d",
+    "bezel": "dive",
+    "markers": "dots",
+    "hands": "snowflake",
+    "lume": "#e9dcb8",
+    "sec": "#e9dcb8",
+    "bottom": [
+     "200 m – 660 ft"
+    ]
+   },
+   "m": [
+    "37-mm-Gehäuse",
+    "Schneeflocken-Zeiger",
+    "Lünette mit durchgehender Minutenskala",
+    "Kein Datum"
+   ],
+   "tipp": [
+    "Ideal für schmale Handgelenke.",
+    "Das Band hat eine schnell verstellbare Faltschließe."
+   ]
+  },
+  {
+   "id": "santos-dumont",
+   "t": "Cartier Santos-Dumont",
+   "brand": "Cartier",
+   "since": "1904",
+   "s": "Flache Dresswatch mit quadratischem Gehäuse, benannt nach dem Flugpionier Alberto Santos-Dumont.",
+   "b": [
+    "Louis Cartier entwarf 1904 für seinen Freund, den brasilianischen Flugpionier Alberto Santos-Dumont, eine Uhr, die man am Handgelenk tragen konnte, ohne beim Fliegen die Hände vom Steuer zu nehmen. Sie gilt als eine der ersten Armbanduhren für Männer.",
+    "Die Santos-Dumont ist die schlanke, elegante Schwester der sportlicheren Santos. Statt Schrauben auf der Lünette hat sie ein glattes, flaches Gehäuse und wird an einem Lederband getragen. Die große Ausführung hat ein Handaufzugswerk."
+   ],
+   "cur": "Santos-Dumont Large · Handaufzug",
+   "f": [
+    [
+     "Gehäuse",
+     "43,5 × 31,4 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "430 MC, Handaufzug"
+    ],
+    [
+     "Gangreserve",
+     "≈ 38 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Krone",
+     "Mit blauem Cabochon"
+    ],
+    [
+     "Band",
+     "Alligatorleder"
+    ]
+   ],
+   "refs": [
+    [
+     "Santos-Dumont",
+     "1904",
+     "–",
+     "Handaufzug",
+     "Einzelstück für Alberto Santos-Dumont"
+    ],
+    [
+     "Santos-Dumont Large",
+     "seit 2019",
+     "43,5 mm",
+     "430 MC",
+     "Flaches Handaufzugswerk"
+    ]
+   ],
+   "r": [
+    "handaufzug",
+    "armbanduhr",
+    "santos",
+    "tank"
+   ],
+   "k": "Die Santos-Dumont gilt als eine der ersten Armbanduhren für Männer.",
+   "a": [],
+   "v": {
+    "shape": "square",
+    "screws": 0,
+    "dial": "#f3f2ee",
+    "markers": "roman",
+    "hands": "sword",
+    "hc": "#2b4aa8",
+    "cabochon": true,
+    "round": 20,
+    "label": "",
+    "track": "rail",
+    "strap": "leather",
+    "strapColor": "#2a201a",
+    "thin": true
+   },
+   "m": [
+    "Quadratisches, flaches Gehäuse",
+    "Römische Ziffern und Minutenschiene",
+    "Blaue Schwertzeiger",
+    "Glatte Lünette ohne Schrauben"
+   ],
+   "tipp": [
+    "Die Santos-Dumont ist deutlich flacher als die Santos.",
+    "Auch als Quarzversion in kleineren Größen erhältlich."
+   ]
+  },
+  {
+   "id": "portofino",
+   "t": "IWC Portofino",
+   "brand": "IWC",
+   "since": "1984",
+   "s": "Klassische, schlichte Dresswatch, benannt nach dem italienischen Hafenort.",
+   "b": [
+    "IWC stellte die Portofino 1984 vor, zunächst mit einem Taschenuhrwerk und Mondphase. Ihr Name verweist auf den Hafenort an der italienischen Riviera und auf ein entspanntes, elegantes Lebensgefühl.",
+    "Die heutige Portofino Automatic ist bewusst schlicht: rundes, poliertes Gehäuse, schmale Lünette, Stabindizes und ein Datum bei 3 Uhr. Sie gilt als einer der zugänglichsten Einstiege in die Marke IWC."
+   ],
+   "cur": "Portofino Automatic · 40 mm",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "35111, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 42 Stunden"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Zifferblatt",
+     "Silber, Blau oder Schwarz"
+    ],
+    [
+     "Band",
+     "Alligatorleder oder Milanaise"
+    ]
+   ],
+   "refs": [
+    [
+     "Portofino",
+     "1984",
+     "46 mm",
+     "Taschenuhrwerk",
+     "Mit Mondphase"
+    ],
+    [
+     "Portofino Automatic",
+     "seit 2011",
+     "40 mm",
+     "35111",
+     "Schlichte Dreizeiger-Uhr"
+    ]
+   ],
+   "r": [
+    "automatik",
+    "zifferblatt",
+    "portugieser",
+    "calatrava"
+   ],
+   "k": "Die erste Portofino hatte ein Taschenuhrwerk.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e6",
+    "markers": "baton",
+    "hands": "baton",
+    "date": "3",
+    "strap": "leather",
+    "strapColor": "#2a201a",
+    "thin": true,
+    "top": [
+     "AUTOMATIC"
+    ]
+   },
+   "m": [
+    "Schlanke, polierte Lünette",
+    "Stabindizes",
+    "Datum bei 3 Uhr",
+    "Lederband"
+   ],
+   "tipp": [
+    "Eine der günstigsten mechanischen IWC.",
+    "Auch mit Mondphase oder Chronograph erhältlich."
    ]
   }
  ]
