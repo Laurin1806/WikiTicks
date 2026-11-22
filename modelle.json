@@ -455,14 +455,23 @@
       "ink": null,
       "lume": "#e9dcb8",
       "date": "cyclops",
-      "gmt": "#e8601c",
+      "gmt": "#f0962a",
       "top": [
-       "OYSTER PERPETUAL",
-       "DATE"
+       "OYSTER PERPETUAL DATE",
+       "EXPLORER II"
       ],
       "bottom": [
-       "EXPLORER II"
-      ]
+       "SUPERLATIVE CHRONOMETER",
+       "OFFICIALLY CERTIFIED"
+      ],
+      "markers": "freccione",
+      "hands": "baton",
+      "lollipop": false,
+      "gmtArrow": "big",
+      "bezelTicks": "line",
+      "hc": "#e9ecef",
+      "handLume": "#e9dcb8",
+      "frame": null
      }
     },
     {
