@@ -1166,7 +1166,7 @@ const NIGHT = { dial: "#060908", ink: "#2a3a2e", lume: "#86ffa4", hc: "#86ffa4",
 // Lexikon-Bilder: höchstens drei pro Beitrag. Oben eins (Schemazeichnung oder erstes Beispielmodell), der Rest weiter unten.
 function lexFigures(e) {
   const fg = e.fig || {}, ms = (fg.m || []).map((id, i) => [id, (fg.mc || [])[i]]).filter(([id]) => byId[id]);
-  const modelFig = ([id, cap]) => `<a class="watchfig ${fg.night ? "night" : ""}" href="#${id}">${drawWatch(fg.night ? withVariant(byId[id].v, NIGHT) : byId[id].v, byId[id])}<figcaption><b>${esc(byId[id].t)}</b>${esc(cap || "Beispielmodell")}</figcaption></a>`;
+  const modelFig = ([id, cap]) => `<a class="watchfig ${fg.night ? "night" : ""}" href="#${id}">${drawWatch(fg.night ? withVariant(mainV(byId[id]), NIGHT) : mainV(byId[id]), byId[id])}<figcaption><b>${esc(byId[id].t)}</b>${esc(cap || "Beispielmodell")}</figcaption></a>`;
   let top = "", rest = ms;
   if (fg.d && DG[fg.d]) top = `<figure class="diagram">${DG[fg.d]()}<figcaption>${esc(fg.dc || "Schemazeichnung, vereinfacht")}</figcaption></figure>`;
   else if (ms.length) { top = modelFig(ms[0]); rest = ms.slice(1); }
@@ -1176,7 +1176,9 @@ function lexFigures(e) {
     rest: rest.length ? `<div class="gallery gallery-inline">${rest.map(modelFig).join("")}</div>` : ""
   };
 }
-const thumb = e => e.brand ? `<div class="thumb">${drawWatch(e.v, e)}</div>` : "";
+// Bild für Übersichten: das Hauptbild des Eintrags (bei e.topv die dort gewählte Variante)
+const mainV = e => e.topv ? withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : e.v;
+const thumb = e => e.brand ? `<div class="thumb">${drawWatch(mainV(e), e)}</div>` : "";
 const card = (e, label) => `
   <a class="card" href="#${e.id}">
     ${thumb(e)}
@@ -1187,7 +1189,7 @@ const card = (e, label) => `
 
 function dailyCard(M, kicker, varName = "") {
   const vx = varName && (M.var || []).find(x => x.n.includes(varName));
-  const vv = vx ? withVariant(M.v, { ...vx.v, ...(+((vx.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : M.v;
+  const vv = vx ? withVariant(M.v, { ...vx.v, ...(+((vx.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : mainV(M);
   return `
     <section class="daily" aria-labelledby="dh">
       <div>
