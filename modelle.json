@@ -5218,21 +5218,17 @@
    "k": "Die Rolex Sky-Dweller zeigt den Monat über zwölf kleine Fenster am Rand des Zifferblatts.",
    "a": [],
    "v": {
-    "dial": "#1e3a66",
+    "dial": "#17191d",
     "tex": "sunburst",
     "bezel": "fluted",
     "disk24": true,
     "date": "cyclops",
-    "strap": "oyster",
+    "strap": "jubilee",
     "polishedCenter": true,
-    "top": [
-     "OYSTER PERPETUAL",
-     "SKY-DWELLER"
-    ],
-    "bottom": [
-     "SUPERLATIVE CHRONOMETER",
-     "OFFICIALLY CERTIFIED"
-    ]
+    "bottom": [],
+    "brandDy": -2,
+    "top": [],
+    "lugs": "taper"
    },
    "m": [
     "Außermittige 24-Stunden-Scheibe für die Heimatzeit",

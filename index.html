@@ -903,7 +903,19 @@ function drawWatch(v = {}, e = null) {
   if (v.date === "day") { const [x, y] = P(0, (dial.r || 50) * .66); S.push(win(x, y, 34, 11, "SUNDAY", 7)); if (!v.cyclops0) S.push(win(...P(90, (dial.r || 50) * .72), 13, 11, "22")); }
   if (v.moon) { const [x, y] = P(180, (dial.r || 50) * .5); S.push(`<path d="M${f1(x - 13)} ${f1(y + 5)}A13 13 0 0 1 ${f1(x + 13)} ${f1(y + 5)}Z" fill="#1d3463"/><circle cx="${f1(x + 3)}" cy="${f1(y - 1)}" r="4.5" fill="#e8c766"/>`); }
   if (v.windows) { [-1, 1].forEach((k, i) => { const [x, y] = P(k * 32, (dial.r || 50) * .55); S.push(win(x, y, 18, 10, i ? "NOV" : "SUN", 6.5)); }); }
-  if (v.disk24) { S.push(`<circle cx="${cx}" cy="${cy - 22}" r="16" fill="${mix(dc, .15)}" stroke="${mix(dc, .35)}"/><polygon points="${cx - 3},${cy - 40} ${cx + 3},${cy - 40} ${cx},${cy - 35}" fill="#c8102e"/>`); }
+  if (v.disk24) {
+    // Sky-Dweller nach Fotovorlage: exzentrischer 24-Stunden-Ring um die Mitte, rotes Dreieck unter dem Markennamen, rotes Monatsfeld
+    const rx0 = cx - 1.5, ry0 = cy + 3, R1 = 25, R2 = 18, rc = mix(dc, dark ? .12 : -.08);
+    S.push(`<path d="M${rx0 - R1} ${ry0}a${R1} ${R1} 0 1 0 ${2 * R1} 0a${R1} ${R1} 0 1 0 ${-2 * R1} 0ZM${rx0 - R2} ${ry0}a${R2} ${R2} 0 1 1 ${2 * R2} 0a${R2} ${R2} 0 1 1 ${-2 * R2} 0Z" fill="${rc}" fill-rule="evenodd" stroke="${mix(dc, dark ? .3 : -.2)}" stroke-width=".6"/>`);
+    for (let k = 0; k < 24; k++) {
+      const a = k * 15, rr = (R1 + R2) / 2, x = rx0 + rr * Math.sin(a * Math.PI / 180), y = ry0 - rr * Math.cos(a * Math.PI / 180);
+      if (k % 2 === 0) { const rot = a > 90 && a < 270 ? a - 180 : a; S.push(`<text x="${f1(x)}" y="${f1(y + 1.6)}" text-anchor="middle" ${font} font-size="4.4" font-weight="600" fill="${ink}" transform="rotate(${f1(rot)} ${f1(x)} ${f1(y)})">${k === 0 ? 24 : k}</text>`); }
+      else S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r=".7" fill="${ink}"/>`);
+    }
+    [["SKY-DWELLER", 4, 600], ["OYSTER PERPETUAL", 2.6, 500], ["SUPERLATIVE CHRONOMETER", 2.3, 500]].forEach(([t, z, w], i) => S.push(`<text x="${rx0}" y="${f1(ry0 + 6 + i * 3.4)}" text-anchor="middle" ${font} font-size="${z}" font-weight="${w}" fill="${ink}">${t}</text>`));
+    S.push(`<polygon points="${cx - 2.6},${f1(cy - TR * .5 + 2.5)} ${cx + 2.6},${f1(cy - TR * .5 + 2.5)} ${cx},${f1(cy - TR * .5 + 6.5)}" fill="#c8102e"/>`);
+    const [mx, my] = P(240, mr - 3); S.push(`<rect x="${f1(mx - 2)}" y="${f1(my - 1.8)}" width="4" height="3.6" fill="#c8102e" transform="rotate(240 ${f1(mx)} ${f1(my)})"/>`);
+  }
 
   // Sonderlayouts
   let hcx = cx, hcy = cy, hr = dial.r || 50;
