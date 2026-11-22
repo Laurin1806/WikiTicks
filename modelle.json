@@ -436,14 +436,15 @@
     "date": "cyclops",
     "gmt": "#e8601c",
     "ink": "#1d2128",
-    "lume": "#1d2128",
+    "lume": "#f8f8f5",
     "strap": "oyster",
     "bottom": [
      "EXPLORER II",
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
     ],
-    "handLume": "#f8f8f5"
+    "handLume": "#f8f8f5",
+    "frame": "#1d2128"
    },
    "var": [
     {
