@@ -534,7 +534,7 @@ function drawWatch(v = {}, e = null) {
   if (!["rect", "square", "triangle", "porthole", "tonneau", "octagon"].includes(shape) && !v.wire && st !== "integrated") {
     // Bandanstöße: bei Metallbändern (Sportuhren) kräftig und lang wie bei der Submariner, sonst schlanker
     const big = metalBand, lyre = v.lugs === "lyre";
-    const lw = sw + (lyre ? 20 : big ? 26 : 16), lx = cx - lw / 2, y0 = big || lyre ? 43 : 48, out = lyre ? -6 : big ? 14 : 5, r = lyre ? 9 : big ? 6 : 4;
+    const lw = sw + (lyre ? 20 : big ? 26 : 16), lx = cx - lw / 2, y0 = big || lyre ? 43 : 48, out = lyre ? -6 : big ? 14 : 5, r = lyre ? 9 : brand === "Rolex" ? 1.5 : big ? 6 : 4; // Rolex: kantige Enden der Bandanstöße
     // Außenkante: bei Lyra-Anstößen (Speedmaster) als weicher runder Bogen, sonst geschwungen zum Gehäuse hin (wie bei der Submariner)
     const edge = (x0, t, e, k) => { const d = e > t ? 1 : -1;
       return lyre ? `C${x0 + k * 7} ${t + d * 14} ${x0 + k * 6} ${e - d * 30} ${x0 + k * out} ${e}` : `Q${x0 + k * 1} ${t + d * 26} ${x0 + k * out} ${e}`; };
