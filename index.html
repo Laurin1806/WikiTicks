@@ -387,15 +387,17 @@ const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;",
 const slug = s => s.toLowerCase().replace(/ß/g, "ss").replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 
-const CAT_ORDER = ["Uhrwerk & Technik", "Komplikationen", "Gehäuse & Bauteile", "Materialien & Veredelung", "Geschichte", "Persönlichkeiten", "Praxis & Wissen"];
+const CAT_ORDER = ["Werk & Antrieb", "Gangregelung & Präzision", "Komplikationen", "Gehäuse & Bauteile", "Materialien & Veredelung", "Geschichte", "Herkunft & Institutionen", "Praxis & Wissen", "Persönlichkeiten"];
 const CAT_INTRO = {
-  "Uhrwerk & Technik": "Wie eine Uhr funktioniert: Antrieb, Taktgeber, Hemmung und die wichtigsten Werkarten.",
-  "Komplikationen": "Alles, was eine Uhr über Stunden, Minuten und Sekunden hinaus kann.",
-  "Gehäuse & Bauteile": "Die sichtbaren Teile einer Uhr, von der Krone bis zum Uhrglas.",
-  "Materialien & Veredelung": "Woraus Uhren bestehen und wie ihre Oberflächen bearbeitet werden.",
-  "Geschichte": "Wendepunkte in der Geschichte der Zeitmessung.",
-  "Persönlichkeiten": "Uhrmacher, Gründer und Designer, die die Uhrenwelt geprägt haben.",
-  "Praxis & Wissen": "Genauigkeit, Wasserdichtigkeit, Pflege und alles, was man beim Kauf wissen sollte."
+  "Werk & Antrieb": "Wie die Energie in die Uhr kommt: Aufzug, Federhaus und die wichtigsten Werkarten.",
+  "Gangregelung & Präzision": "Alles, was eine Uhr genau macht: Hemmung, Unruh, Frequenz, Prüfverfahren und Gütesiegel für die Gangleistung.",
+  "Komplikationen": "Alles, was eine Uhr über Stunden, Minuten und Sekunden hinaus kann: Chronograph, Kalender, Zeitzonen und Schlagwerke.",
+  "Gehäuse & Bauteile": "Die sichtbaren Teile einer Uhr, von der Krone bis zum Gehäuseboden und zum Armband.",
+  "Materialien & Veredelung": "Woraus Uhren bestehen und wie ihre Oberflächen und Werke bearbeitet werden.",
+  "Geschichte": "Wendepunkte und Gattungen: von der ersten Armbanduhr über die Quarzkrise bis zur Mondlandung.",
+  "Herkunft & Institutionen": "Orte, Siegel und Konzerne: wer Uhren herstellt und woran man ihre Herkunft erkennt.",
+  "Praxis & Wissen": "Wasserdichtigkeit, Pflege, Referenznummern und alles, was man beim Kauf wissen sollte.",
+  "Persönlichkeiten": "Uhrmacher, Gründer, Manager und Designer, die die Uhrenwelt geprägt haben."
 };
 
 let E = [], byId = {}, MODELS = [], LEX = [], BRANDS = [], BRAND_INFO = {}, TERM_RE = null, TERMS = {};
