@@ -1035,8 +1035,8 @@ function drawWatch(v = {}, e = null) {
   if (v.gmt && v.gmtArrow === "big") S.push(`<g transform="rotate(150 ${hcx} ${hcy})"><path d="M${hcx} ${hcy}L${hcx} ${hcy - hr * .62}" stroke="${v.gmt}" stroke-width="2"/><polygon points="${hcx - 9},${f1(hcy - hr * .6)} ${hcx + 9},${f1(hcy - hr * .6)} ${hcx},${f1(hcy - hr * .95)}" fill="${v.gmt}"/><polygon points="${hcx - 5},${f1(hcy - hr * .64)} ${hcx + 5},${f1(hcy - hr * .64)} ${hcx},${f1(hcy - hr * .85)}" fill="${lume}"/></g>`); // Ref. 1655: großer orangefarbener Pfeil
   else if (v.gmt) S.push(`<g transform="rotate(125 ${hcx} ${hcy})"><path d="M${hcx} ${hcy}L${hcx} ${hcy - hr * .86}" stroke="${v.gmt}" stroke-width="1.6"/><polygon points="${hcx - 5},${hcy - hr * .78} ${hcx + 5},${hcy - hr * .78} ${hcx},${hcy - hr * .92}" fill="${v.gmt}"/></g>`);
   S.push(`<g filter="url(#${id}h)">`);
-  S.push(hand(hs, 304, hr * .55, hs === "dauphine" ? 6 : 4.4, hc, true));
-  S.push(hand(hs === "mercedes" || hs === "snowflake" || hs === "arrow" ? "baton" : hs, 48, hr * .84, hs === "dauphine" ? 5 : 3.4, hc, false));
+  S.push(hand(hs, 304, hr * .55, (hs === "dauphine" ? 6 : 4.4) * (v.handW || 1), hc, true)); // handW: Zeigerbreite
+  S.push(hand(hs === "mercedes" || hs === "snowflake" || hs === "arrow" ? "baton" : hs, 48, hr * .84, (hs === "dauphine" ? 5 : 3.4) * (v.handW || 1), hc, false));
   if (v.sub !== "small6" && v.sub !== "small9" && !v.layout && v.seconds !== false) {
     if (v.bolt) S.push(`<g transform="rotate(210 ${hcx} ${hcy})"><path d="M${hcx} ${hcy + 12}L${hcx} ${hcy - hr * .45}L${hcx + 4} ${hcy - hr * .52}L${hcx - 3} ${hcy - hr * .62}L${hcx} ${hcy - hr * .9}" fill="none" stroke="${sc}" stroke-width="1.4"/></g>`);
     else S.push(`<g transform="rotate(210 ${hcx} ${hcy})"><path d="M${hcx} ${hcy + 14}L${hcx} ${hcy - hr * .9}" stroke="${sc}" stroke-width="1.1"/>${v.lollipop ? `<circle cx="${hcx}" cy="${hcy - hr * .62}" r="2.6" fill="${sc}"/>` : ""}</g>`);

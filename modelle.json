@@ -444,7 +444,8 @@
      "OFFICIALLY CERTIFIED"
     ],
     "handLume": "#f8f8f5",
-    "frame": "#1d2128"
+    "frame": "#1d2128",
+    "handW": 1.3
    },
    "var": [
     {
@@ -472,7 +473,8 @@
       "hc": "#e9ecef",
       "handLume": "#e9dcb8",
       "frame": null,
-      "brandDy": 6
+      "brandDy": 6,
+      "handW": null
      }
     },
     {
@@ -547,7 +549,8 @@
      ],
      "sec": "#1d2128",
      "mScale": 0.82,
-     "mInset": 4
+     "mInset": 4,
+     "handW": null
     }
    }
   },
