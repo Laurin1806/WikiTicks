@@ -1,0 +1,1258 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WikiTicks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Unbounded:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: Kopfzeile mit laufendem Zifferblatt; links gegliederte Navigation (Uhrenmodelle / Lexikon), rechts die Ansicht */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --fg: #16202c;
+  --muted: #5b6676;
+  --line: #dde2ea;
+  --accent: #1f4fa0;      /* gebläuter Stahl */
+  --accent-soft: #e6edf8;
+  --gold: #9a6f22;
+  --font-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-logo: "Unbounded", "Arial Black", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e131a; --surface: #151c26; --fg: #e6ebf2; --muted: #95a1b2;
+    --line: #263142; --accent: #7da6ec; --accent-soft: #1b2a42; --gold: #d4a856;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e131a; --surface: #151c26; --fg: #e6ebf2; --muted: #95a1b2;
+  --line: #263142; --accent: #7da6ec; --accent-soft: #1b2a42; --gold: #d4a856;
+  color-scheme: dark;
+}
+/* Akzentfarbe Dunkelgrün (per Umschalter) */
+:root[data-accent="green"] { --accent: #1d5c42; --accent-soft: #e1eee6; }
+@media (prefers-color-scheme: dark) {
+  :root[data-accent="green"]:not([data-theme="light"]) { --accent: #6cc39a; --accent-soft: #16302a; }
+}
+:root[data-theme="dark"][data-accent="green"] { --accent: #6cc39a; --accent-soft: #16302a; }
+/* Bordeaux */
+:root[data-accent="bordeaux"] { --accent: #7a1f33; --accent-soft: #f4e4e8; }
+@media (prefers-color-scheme: dark) {
+  :root[data-accent="bordeaux"]:not([data-theme="light"]) { --accent: #e58fa1; --accent-soft: #3a1c24; }
+}
+:root[data-theme="dark"][data-accent="bordeaux"] { --accent: #e58fa1; --accent-soft: #3a1c24; }
+/* Anthrazit */
+:root[data-accent="anthrazit"] { --accent: #3a4048; --accent-soft: #e7e9ec; }
+@media (prefers-color-scheme: dark) {
+  :root[data-accent="anthrazit"]:not([data-theme="light"]) { --accent: #bcc4ce; --accent-soft: #252c35; }
+}
+:root[data-theme="dark"][data-accent="anthrazit"] { --accent: #bcc4ce; --accent-soft: #252c35; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.6; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap {
+  max-width: 1140px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+/* Kopf */
+header { border-bottom: 1px solid var(--line); }
+.head { display: flex; align-items: center; gap: 28px; padding-block: 32px 26px; }
+.dial { flex: none; width: 108px; height: 108px; }
+.head h1 { font-family: var(--font-logo); font-weight: 800; font-size: clamp(2.1rem, 5vw, 3.1rem); line-height: 1; margin: 0; letter-spacing: -.03em; }
+.head h1 a { color: inherit; text-decoration: none; }
+.head h1 em { color: var(--accent); font-style: normal; font-weight: 700; }
+.head p { margin: 8px 0 0; color: var(--muted); max-width: 56ch; }
+.beat { font-family: var(--font-mono); font-size: 12px; color: var(--muted); margin-top: 6px; }
+.accent-box { margin-top: 28px; padding: 18px 0 0 10px; border-top: 1px solid var(--line); }
+.accent-box .label { margin-bottom: 8px; }
+.accent-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); max-width: 260px; }
+.accent-switch button { display: flex; align-items: center; gap: 7px; font: inherit; font-size: 13px; color: var(--muted); background: none; border: 0; border-radius: 999px; padding: 5px 12px 5px 8px; cursor: pointer; }
+.accent-switch button[aria-pressed="true"] { background: var(--accent-soft); color: var(--fg); font-weight: 600; }
+.accent-switch i { width: 14px; height: 14px; border-radius: 50%; display: block; }
+.accent-switch .sw-blue { background: #1f4fa0; }
+.accent-switch .sw-green { background: #1d5c42; }
+.accent-switch .sw-bordeaux { background: #7a1f33; }
+.accent-switch .sw-anthrazit { background: #3a4048; }
+@media (max-width: 760px) { .accent-box { display: none; margin-top: 0; padding: 14px 4px 4px; } nav.open + .accent-box { display: block; } }
+.search { position: relative; margin-top: 16px; max-width: 480px; }
+.search input { width: 100%; font: inherit; padding: 11px 14px 11px 40px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--fg); }
+.search input:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+.search svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+
+/* Navigation */
+main { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 44px; padding-block: 30px 56px; }
+.menu-toggle { display: none; }
+nav { display: grid; gap: 22px; align-content: start; }
+.navgroup h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; margin: 0 0 6px; padding-left: 10px; }
+nav ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
+nav a { display: block; color: var(--fg); text-decoration: none; padding: 6px 10px; border-radius: 6px; font-size: 14.5px; }
+nav a:hover { background: var(--accent-soft); }
+nav a[aria-current="true"] { background: var(--accent); color: var(--surface); }
+nav a.sub { padding-left: 22px; color: var(--muted); font-size: 14px; }
+nav a.sub[aria-current="true"] { color: var(--surface); }
+nav a.home { font-weight: 600; }
+nav a.more { color: var(--accent); font-weight: 500; }
+
+/* Allgemeine Bausteine */
+.label { font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; margin: 0 0 10px; }
+.crumbs { font-size: 13px; color: var(--muted); margin-bottom: 18px; display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.crumbs a { color: var(--accent); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+.crumbs span[aria-hidden] { opacity: .6; }
+.page-title { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3rem); line-height: 1.05; margin: 0 0 10px; text-wrap: balance; }
+.intro { color: var(--muted); max-width: 64ch; margin: 0 0 22px; }
+.count { color: var(--muted); margin: 0 0 16px; font-size: 13px; }
+.section-title { font-family: var(--font-logo); font-weight: 500; font-size: 1.55rem; line-height: 1.15; letter-spacing: -.02em; margin: 0 0 8px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.grid + .label { margin-top: 26px; }
+.card { display: flex; flex-direction: column; gap: 6px; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; color: inherit; text-decoration: none; transition: border-color .15s, transform .15s; }
+.card:hover { border-color: var(--accent); transform: translateY(-1px); }
+.card .cat { font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--gold); font-weight: 600; }
+.card h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.55rem; line-height: 1.15; margin: 0; }
+.card p { margin: 0; color: var(--muted); font-size: 14px; }
+.empty { padding: 30px 0; color: var(--muted); }
+
+/* Artikel */
+article { max-width: 70ch; }
+article .cat { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--gold); font-weight: 600; }
+article h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3rem); line-height: 1.05; margin: 6px 0 12px; text-wrap: balance; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0 0 16px; font-size: 13px; color: var(--muted); }
+.meta b, .meta a { color: var(--fg); font-weight: 600; }
+article .lead { font-size: 1.15rem; margin: 0 0 22px; }
+article p { margin: 0 0 14px; }
+a.xl { color: var(--accent); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent); text-underline-offset: 3px; }
+a.xl:hover { text-decoration-color: var(--accent); }
+.facts { margin: 24px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: max-content minmax(0, 1fr); }
+.facts dt, .facts dd { padding: 10px 0; border-bottom: 1px solid var(--line); margin: 0; }
+.facts dt { color: var(--muted); font-size: 13px; padding-right: 24px; }
+.facts dd { font-family: var(--font-mono); font-size: 13.5px; font-variant-numeric: tabular-nums; }
+.curbox { margin: 28px 0; padding: 20px 22px 8px; background: var(--accent-soft); border-radius: 12px; }
+.curbox .label { color: var(--accent); margin-bottom: 2px; }
+.curref { font-family: var(--font-mono); font-size: 14px; font-weight: 500; margin-bottom: 12px; }
+.curbox .facts { margin: 0; border-top-color: color-mix(in srgb, var(--accent) 25%, transparent); }
+.curbox .facts dt, .curbox .facts dd { border-bottom-color: color-mix(in srgb, var(--accent) 25%, transparent); }
+.curnote { font-size: 12.5px; color: var(--muted); margin: 10px 0 12px !important; }
+.refs-wrap { overflow-x: auto; margin: 4px 0 28px; }
+.refs { border-collapse: collapse; width: 100%; min-width: 600px; font-size: 13.5px; }
+.refs th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 600; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); }
+.refs td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.refs td.m { font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.refs td.n { color: var(--muted); min-width: 200px; }
+.refs tr.now td { background: var(--accent-soft); }
+.refs tr.now td:first-child { padding-left: 8px; }
+.chip { display: inline-block; font-family: var(--font-body); font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--surface); background: var(--accent); padding: 1px 6px; border-radius: 4px; margin-left: 6px; vertical-align: 1px; }
+.rel { display: flex; flex-wrap: wrap; gap: 8px; }
+.rel a { font-size: 13px; color: var(--accent); background: var(--accent-soft); padding: 5px 11px; border-radius: 999px; text-decoration: none; }
+.rel a:hover { text-decoration: underline; }
+
+/* Startseite */
+.daily { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 32px; padding: 30px; margin-bottom: 40px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+.daily .kicker { font-family: var(--font-logo); font-size: 15px; letter-spacing: -.01em; color: var(--accent); font-weight: 500; }
+.daily .kicker span { font-family: var(--font-mono); font-size: 12px; }
+.daily .kicker span { color: var(--muted); font-weight: 500; font-family: var(--font-mono); letter-spacing: .02em; text-transform: none; margin-left: 8px; }
+.daily h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3.2rem); line-height: 1.05; margin: 8px 0 12px; text-wrap: balance; }
+.daily .lead { font-size: 1.1rem; margin: 0 0 14px; }
+.daily p { margin: 0 0 12px; max-width: 62ch; }
+.daily .go { display: inline-block; margin-top: 6px; font-weight: 600; text-decoration: none; }
+.daily .go:hover { text-decoration: underline; }
+.daily aside { border-left: 1px solid var(--line); padding-left: 28px; align-self: start; }
+.daily aside .facts { margin: 0; grid-template-columns: minmax(0, 1fr); border-top: 0; }
+.daily aside .facts dt { border-bottom: 0; padding-bottom: 0; }
+.daily .curref { font-size: 13px; margin-bottom: 4px; }
+.feature { margin-bottom: 40px; }
+.feature-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 14px; }
+.feature-head p { margin: 0; font-size: 13px; color: var(--muted); font-family: var(--font-mono); }
+.fgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.fcard { display: flex; flex-direction: column; gap: 10px; padding: 22px; background: var(--accent-soft); border-radius: 12px; color: inherit; text-decoration: none; transition: transform .15s; }
+.fcard:hover { transform: translateY(-2px); }
+.fcard .kicker { font-family: var(--font-logo); font-size: 13px; letter-spacing: -.01em; color: var(--accent); font-weight: 500; }
+.fcard blockquote { margin: 0; font-family: var(--font-display); font-size: 1.4rem; line-height: 1.25; text-wrap: pretty; flex: 1; }
+.fcard .more { font-size: 13px; color: var(--muted); }
+.fcard .more b { color: var(--fg); font-weight: 600; }
+.browse { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.browse a { display: block; padding: 18px; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; color: inherit; background: var(--surface); }
+.browse a:hover { border-color: var(--accent); }
+.browse b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; line-height: 1.2; }
+.browse span { color: var(--muted); font-size: 13.5px; }
+
+/* Illustrationen */
+svg.watch { display: block; width: 100%; height: 100%; }
+.daily-fig { display: flex; align-items: center; justify-content: center; align-self: stretch; background: var(--bg); border-radius: 12px; padding: 18px; min-height: 260px; }
+.daily-fig svg.watch { max-height: 320px; width: auto; }
+.watchfig { margin: 6px 0 24px; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; justify-items: center; gap: 10px; }
+.watchfig svg.watch { height: 300px; width: auto; max-width: 100%; }
+.watchfig figcaption { font-size: 12px; color: var(--muted); text-align: center; }
+.thumb { height: 150px; margin: -6px -6px 6px; padding: 10px; background: var(--bg); border-radius: 8px; display: flex; justify-content: center; }
+.thumb svg.watch { width: auto; }
+@media (max-width: 760px) { .daily-fig { min-height: 220px; } .daily-fig svg.watch { max-height: 240px; } .watchfig svg.watch { height: 240px; } }
+
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 6px 0 8px; }
+.gallery .watchfig { margin: 0; padding: 14px 10px 12px; }
+.gallery .watchfig svg.watch { height: 230px; }
+.gallery .watchfig.main { border-color: var(--accent); }
+.gallery figcaption { display: grid; gap: 2px; font-size: 12px; color: var(--muted); }
+.gallery figcaption b { color: var(--fg); font-weight: 600; font-size: 12.5px; }
+.lexfig { margin: 6px 0 24px; display: grid; gap: 12px; }
+.diagram { margin: 0; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; gap: 8px; }
+.diagram-svg { width: 100%; max-height: 260px; }
+.diagram figcaption { font-size: 12px; color: var(--muted); text-align: center; }
+a.watchfig { text-decoration: none; color: inherit; }
+a.watchfig:hover { border-color: var(--accent); }
+.watchfig.night { background: #0b0e0c; border-color: #0b0e0c; }
+.watchfig.night figcaption, .watchfig.night figcaption b { color: #cfe9d6; }
+.art-h { font-family: var(--font-logo); font-weight: 500; font-size: 1.15rem; letter-spacing: -.01em; margin: 30px 0 10px; scroll-margin-top: 16px; }
+.toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 6px; }
+.toc button { font: inherit; font-size: 12.5px; color: var(--accent); background: var(--accent-soft); border: 0; border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.toc button:hover { text-decoration: underline; }
+.timeline { list-style: none; margin: 4px 0 18px; padding: 0 0 0 4px; border-left: 2px solid var(--accent-soft); display: grid; gap: 10px; }
+.timeline li { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 10px; position: relative; padding-left: 14px; }
+.timeline li::before { content: ""; position: absolute; left: -8px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
+.timeline .ty { font-family: var(--font-mono); font-size: 13px; font-weight: 500; color: var(--accent); font-variant-numeric: tabular-nums; }
+.timeline .tt { font-size: 14.5px; }
+.art-list { margin: 0 0 14px; padding-left: 20px; display: grid; gap: 6px; }
+.art-list li::marker { color: var(--accent); }
+article .curbox { margin-top: 10px; }
+.gallery-note { font-size: 12px; color: var(--muted); margin: 0 0 22px !important; }
+
+/* Marken, A–Z */
+.brandinfo { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 28px; margin: 6px 0 30px; }
+.brandinfo p { margin: 0 0 12px; max-width: 64ch; }
+.brandinfo .facts { margin: 0; align-self: start; }
+.letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 24px; }
+.letters button { font: inherit; font-family: var(--font-mono); font-size: 13px; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); cursor: pointer; }
+.letters button:hover { border-color: var(--accent); color: var(--accent); }
+.azgroup { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+.azgroup > h3 { font-family: var(--font-display); font-weight: 400; font-size: 2.2rem; line-height: 1; margin: 0; color: var(--accent); }
+.azgroup ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.azgroup li a { font-weight: 600; text-decoration: none; }
+.azgroup li a:hover { text-decoration: underline; }
+.azgroup li span { color: var(--muted); font-size: 14px; }
+.azgroup li small { color: var(--gold); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; font-weight: 600; margin-left: 8px; }
+
+footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+footer .wrap { padding-block: 20px 28px; }
+
+@media (max-width: 760px) {
+  .head { flex-direction: column; align-items: flex-start; gap: 14px; padding-block: 22px 18px; }
+  .dial { width: 80px; height: 80px; }
+  main { grid-template-columns: minmax(0, 1fr); gap: 18px; padding-block: 16px 44px; }
+  .menu-toggle { display: flex; justify-content: space-between; align-items: center; width: 100%; font: inherit; font-weight: 600; padding: 11px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--fg); cursor: pointer; }
+  .menu-toggle span { color: var(--muted); font-weight: 400; }
+  nav { display: none; padding: 14px 4px 4px; border-bottom: 1px solid var(--line); }
+  nav.open { display: grid; }
+  .daily, .brandinfo { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .daily { padding: 22px; }
+  .daily aside { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 14px; }
+  .facts { grid-template-columns: minmax(0, 1fr); }
+  .facts dt { border-bottom: 0; padding-bottom: 0; }
+  .azgroup { grid-template-columns: 40px minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { .card, .fcard { transition: none; } }
+</style>
+</head>
+<body>
+
+
+<header>
+  <div class="wrap head">
+    <svg class="dial" viewBox="0 0 120 120" aria-hidden="true">
+      <circle cx="60" cy="60" r="57" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/>
+      <g id="ticks"></g>
+      <line id="hh" x1="60" y1="60" x2="60" y2="32" stroke="var(--fg)" stroke-width="4" stroke-linecap="round"/>
+      <line id="mh" x1="60" y1="60" x2="60" y2="18" stroke="var(--fg)" stroke-width="2.5" stroke-linecap="round"/>
+      <line id="sh" x1="60" y1="70" x2="60" y2="14" stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round"/>
+      <circle cx="60" cy="60" r="3" fill="var(--accent)"/>
+    </svg>
+    <div>
+      <h1><a href="#">Wiki<em>Ticks</em></a></h1>
+      <p>Das Uhrenlexikon: Uhrwerke, Komplikationen, Marken und Modelle, Geschichte und Praxiswissen.</p>
+      <div class="beat">Sekundenzeiger oben: 28.800 A/h · 4 Hz · 8 Schritte pro Sekunde</div>
+      <div class="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input id="q" type="search" placeholder="Suchen, z. B. Tourbillon oder Submariner" aria-label="WikiTicks durchsuchen">
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <main>
+    <div>
+      <button type="button" class="menu-toggle" id="menu" aria-expanded="false" aria-controls="nav">Menü <span id="menu-cur">Startseite</span></button>
+      <nav id="nav" aria-label="Navigation"></nav>
+      <div class="accent-box">
+        <div class="label">Farbe</div>
+        <div class="accent-switch" role="group" aria-label="Farbe der Seite">
+          <button type="button" data-accent="blue" aria-pressed="true"><i class="sw-blue"></i>Blau</button>
+          <button type="button" data-accent="green" aria-pressed="false"><i class="sw-green"></i>Grün</button>
+          <button type="button" data-accent="bordeaux" aria-pressed="false"><i class="sw-bordeaux"></i>Bordeaux</button>
+          <button type="button" data-accent="anthrazit" aria-pressed="false"><i class="sw-anthrazit"></i>Anthrazit</button>
+        </div>
+      </div>
+    </div>
+    <section id="view" aria-live="polite"><p class="count">Lädt …</p></section>
+  </main>
+</div>
+<footer><div class="wrap">WikiTicks · Alle Angaben nach bestem Wissen und ohne Gewähr.</div></footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
+const slug = s => s.toLowerCase().replace(/ß/g, "ss").replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+
+const CAT_ORDER = ["Uhrwerk & Technik", "Komplikationen", "Gehäuse & Bauteile", "Materialien & Veredelung", "Geschichte", "Persönlichkeiten", "Praxis & Wissen"];
+const CAT_INTRO = {
+  "Uhrwerk & Technik": "Wie eine Uhr funktioniert: Antrieb, Taktgeber, Hemmung und die wichtigsten Werkarten.",
+  "Komplikationen": "Alles, was eine Uhr über Stunden, Minuten und Sekunden hinaus kann.",
+  "Gehäuse & Bauteile": "Die sichtbaren Teile einer Uhr, von der Krone bis zum Uhrglas.",
+  "Materialien & Veredelung": "Woraus Uhren bestehen und wie ihre Oberflächen bearbeitet werden.",
+  "Geschichte": "Wendepunkte in der Geschichte der Zeitmessung.",
+  "Persönlichkeiten": "Uhrmacher, Gründer und Designer, die die Uhrenwelt geprägt haben.",
+  "Praxis & Wissen": "Genauigkeit, Wasserdichtigkeit, Pflege und alles, was man beim Kauf wissen sollte."
+};
+
+let E = [], byId = {}, MODELS = [], LEX = [], BRANDS = [], BRAND_INFO = {}, TERM_RE = null, TERMS = {};
+let q = "";
+
+function rebuild() {
+  byId = Object.fromEntries(E.map(e => [e.id, e]));
+  MODELS = E.filter(e => e.brand);
+  LEX = E.filter(e => !e.brand);
+  BRANDS = [...new Set(MODELS.map(e => e.brand))].sort((a, b) => a.localeCompare(b, "de"));
+  // Begriffe für die automatische Verlinkung im Fließtext
+  TERMS = {};
+  // Begriffe werden escapt gespeichert, weil im bereits escapten Text gesucht wird (z. B. »A. Lange &amp; Söhne«)
+  const add = (term, target) => { if (term && term.length > 2) { term = esc(term); if (!(term in TERMS)) TERMS[term] = target; } };
+  add("Swatch Group", null); // Konzern, nicht die Marke Swatch: nicht verlinken
+  E.forEach(e => {
+    add(e.t, e.id);
+    if (e.brand && !e.ns) add(e.t.replace(e.brand + " ", ""), e.id);
+    (e.a || []).forEach(a => add(a, e.id));
+  });
+  BRANDS.forEach(b => add(b, "marke-" + slug(b)));
+  const alts = Object.keys(TERMS).sort((a, b) => b.length - a.length).map(t => t.replace(/[.*+?^${}()|[\]\\\/]/g, "\\$&"));
+  TERM_RE = new RegExp(`(?<![\\p{L}\\d])(${alts.join("|")})(\\p{L}{0,3})(?![\\p{L}\\d])`, "gu");
+}
+
+// Verlinkt im (bereits escapten) Text jeden Begriff einmal pro Seite
+function linkify(html, selfId, used) {
+  return html.replace(TERM_RE, (m, term) => {
+    const target = TERMS[term];
+    if (!target || target === selfId || used.has(target)) return m;
+    used.add(target);
+    return `<a class="xl" href="#${target}">${m}</a>`;
+  });
+}
+
+// ---------- Tägliche Auswahl (für alle Besucher gleich) ----------
+const MAIN_DAYS = 1, ROTATE_DAYS = 3, FEATURED = 3;
+const today = () => Math.floor((Date.now() - new Date().getTimezoneOffset() * 60000) / 864e5);
+function shuffled(seed, list) {
+  let s = seed >>> 0;
+  const rnd = () => { s = (s + 0x6D2B79F5) >>> 0; let t = s; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+  const a = list.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+// Jeder Eintrag kommt einmal dran, bevor sich einer wiederholt
+function ofTheDay(list, salt) {
+  const period = Math.floor(today() / MAIN_DAYS), round = Math.floor(period / list.length);
+  return shuffled(round * 40503 + salt, list)[period % list.length];
+}
+function featured(exclude) {
+  const day = today(), period = Math.floor(day / ROTATE_DAYS);
+  const pool = shuffled(period * 2654435761, E.filter(e => e.k && e.id !== exclude));
+  return { items: pool.slice(0, FEATURED), start: new Date(period * ROTATE_DAYS * 864e5), end: new Date((period + 1) * ROTATE_DAYS * 864e5 - 1), left: (period + 1) * ROTATE_DAYS - day };
+}
+const fmt = d => d.toLocaleDateString("de-DE", { day: "numeric", month: "long", timeZone: "UTC" });
+
+// ---------- Navigation ----------
+function navKey(h) {
+  if (!h) return "home";
+  const e = byId[h];
+  if (e) return e.brand ? "marke-" + slug(e.brand) : "rubrik-" + slug(e.c);
+  return h;
+}
+// In der Navigation nur die Marken mit den meisten Modellen zeigen, die gerade geöffnete Marke immer dazu
+const NAV_BRANDS = 4;
+function navBrands(key) {
+  const n = b => MODELS.filter(e => e.brand === b).length;
+  const top = BRANDS.slice().sort((a, b) => n(b) - n(a) || a.localeCompare(b, "de")).slice(0, NAV_BRANDS);
+  const cur = BRANDS.find(b => key === "marke-" + slug(b));
+  if (cur && !top.includes(cur)) top.push(cur);
+  return top;
+}
+function renderNav(h) {
+  const key = navKey(h);
+  const link = (href, text, cls = "") => `<li><a href="#${href}" class="${cls}" aria-current="${key === (href || "home")}">${esc(text)}</a></li>`;
+  $("#nav").innerHTML = `
+    <ul>${link("", "Startseite", "home")}</ul>
+    <div class="navgroup"><h2>Uhrenmodelle</h2><ul>
+      ${link("uhrenmodelle", "Uhr des Tages")}
+      ${navBrands(key).map(b => link("marke-" + slug(b), b, "sub")).join("")}
+      ${BRANDS.length > NAV_BRANDS ? `<li><a href="#uhrenmodelle" class="sub more">Alle ${BRANDS.length} Marken anzeigen →</a></li>` : ""}
+    </ul></div>
+    <div class="navgroup"><h2>Lexikon</h2><ul>
+      ${link("a-z", "Alle Begriffe A–Z")}
+      ${CAT_ORDER.filter(c => LEX.some(e => e.c === c)).map(c => link("rubrik-" + slug(c), c, "sub")).join("")}
+    </ul></div>`;
+  const cur = $("#nav a[aria-current='true']");
+  $("#menu-cur").textContent = cur ? cur.textContent : "";
+}
+$("#menu").addEventListener("click", () => {
+  const open = $("#nav").classList.toggle("open");
+  $("#menu").setAttribute("aria-expanded", open);
+});
+
+// ---------- Uhren-Illustrationen (SVG, aus der Beschreibung »v« im Modell erzeugt) ----------
+let SVGID = 0;
+const METAL = {
+  steel: ["#f1f3f6", "#bcc3cb", "#848c97"], gold: ["#f7e6a8", "#d2ad3c", "#9c7a22"], rose: ["#f6d6c6", "#d69c84", "#a46a55"],
+  black: ["#5a5f67", "#2c2f35", "#141619"], titanium: ["#dcdfe2", "#a3a8ad", "#73797f"], bronze: ["#dfae74", "#a87943", "#6e4c28"]
+};
+const mix = (hex, t) => {
+  const n = parseInt(hex.slice(1), 16), f = c => Math.max(0, Math.min(255, Math.round(t > 0 ? c + (255 - c) * t : c * (1 + t))));
+  return "#" + [n >> 16, (n >> 8) & 255, n & 255].map(c => f(c).toString(16).padStart(2, "0")).join("");
+};
+const lum = hex => { const n = parseInt(hex.slice(1), 16); return (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255; };
+const ROMAN = ["XII", "I", "II", "III", "IIII", "V", "VI", "VII", "VIII", "IX", "X", "XI"];
+
+// Schriftbild der Marken auf dem Zifferblatt (nur Text, keine Logos)
+const SERIF = "Georgia, 'Times New Roman', serif";
+const BRAND_STYLE = {
+  "Rolex": { f: SERIF, s: 8.6, w: 700, ls: 1.4, rolex: true },
+  "Patek Philippe": { f: SERIF, s: 5.6, w: 600, ls: 1, top: ["GENEVE"] },
+  "Audemars Piguet": { f: SERIF, s: 4.8, w: 600, ls: 1, top: [] },
+  "Vacheron Constantin": { f: SERIF, s: 4.4, w: 600, ls: .8, top: ["GENÈVE"] },
+  "Breguet": { f: SERIF, s: 7.4, w: 400, ls: 1, text: "Breguet", i: true, top: [] },
+  "Cartier": { f: SERIF, s: 8.4, w: 400, ls: 0, text: "Cartier", i: true, top: [] },
+  "A. Lange & Söhne": { f: SERIF, s: 4.6, w: 600, ls: .8, o: "MADE IN GERMANY" },
+  "Glashütte Original": { f: SERIF, s: 5.2, w: 500, ls: .3, text: "Glashütte Original", o: "MADE IN GERMANY" },
+  "Nomos Glashütte": { s: 6.4, w: 700, ls: 1.2, text: "NOMOS", o: "GLASHÜTTE", top: [] },
+  "Jaeger-LeCoultre": { f: SERIF, s: 4.4, w: 600, ls: .8 },
+  "Omega": { s: 7.4, w: 700, ls: 1.6 },
+  "Grand Seiko": { f: SERIF, s: 6.6, w: 400, ls: .3, text: "Grand Seiko", o: "", top: [] },
+  "Seiko": { s: 7.2, w: 800, ls: 1.4, o: "" },
+  "Junghans": { s: 5.4, w: 600, ls: 1.4, o: "", top: [] },
+  "Sinn": { s: 6.8, w: 700, ls: 1.6, text: "SINN", o: "", top: [] },
+  "Swatch": { s: 7.4, w: 800, ls: 0, text: "swatch", o: "SWISS", top: [] },
+  "IWC": { s: 7.6, w: 800, ls: 1.8, top: ["SCHAFFHAUSEN"] },
+  "TAG Heuer": { s: 6, w: 800, ls: .8, text: "TAG HEUER" },
+  "Tudor": { s: 6.8, w: 700, ls: 1.8 },
+  "Hublot": { s: 6.2, w: 800, ls: 1.6, top: [] },
+  "Bell & Ross": { s: 5.4, w: 700, ls: 1.2, top: [] },
+  "Hamilton": { s: 6.2, w: 700, ls: 1.4, top: [] },
+  "Panerai": { s: 6.4, w: 700, ls: 1.4, top: [] },
+  "Zenith": { s: 6.4, w: 700, ls: 1.8 },
+  "Breitling": { s: 6.2, w: 700, ls: 1.4 },
+  "Oris": { s: 6.6, w: 700, ls: 1.4 },
+  "Tissot": { s: 6.2, w: 700, ls: 1.4 },
+  "Longines": { f: SERIF, s: 6, w: 500, ls: 1.2 },
+  "Blancpain": { f: SERIF, s: 6.2, w: 500, ls: 1.2 },
+  "Chopard": { f: SERIF, s: 6.2, w: 500, ls: 1.4, top: [] },
+  "Girard-Perregaux": { s: 4.6, w: 600, ls: 1, top: [] }
+};
+
+function drawWatch(v = {}, e = null) {
+  const brand = e ? e.brand : "", model = e ? shortName(e) : "";
+  const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
+  const shape = v.shape || "round";
+  const M = v.caseColor ? [mix(v.caseColor, .35), v.caseColor, mix(v.caseColor, -.45)] : (METAL[v.case] || METAL.steel);
+  const dc = v.dial || "#1b1e24", dark = lum(dc) < .5;
+  const ink = v.ink || (dark ? "#eef0f2" : "#1d2128"), lume = v.lume || ink, hc = v.hc || ink, sc = v.sec || hc;
+  const P = (a, r, ry) => [cx + r * Math.sin(a * Math.PI / 180), cy - (ry ?? r) * Math.cos(a * Math.PI / 180)];
+  const f1 = n => Math.round(n * 10) / 10;
+  const font = 'font-family="Inter, system-ui, sans-serif"';
+
+  // Spezialfall Digitaluhr
+  if (shape === "gshock") {
+    const c = v.caseColor || "#1c1d20";
+    return `<svg viewBox="4 18 192 224" class="watch" role="img" aria-hidden="true">
+      <rect x="62" y="0" width="76" height="260" fill="${mix(c, -.15)}"/>
+      ${[16, 32, 228, 244].map(y => `<rect x="70" y="${y}" width="60" height="6" rx="3" fill="${mix(c, .12)}"/>`).join("")}
+      <rect x="24" y="50" width="152" height="160" rx="30" fill="${c}"/>
+      ${[[18, 78], [18, 168], [172, 78], [172, 168]].map(([x, y]) => `<rect x="${x}" y="${y}" width="10" height="16" rx="3" fill="${mix(c, .25)}"/>`).join("")}
+      <rect x="42" y="70" width="116" height="120" rx="14" fill="${mix(c, .12)}"/>
+      <text x="100" y="90" text-anchor="middle" ${font} font-size="9" font-weight="700" fill="#e8e8e8" letter-spacing="1">G-SHOCK</text>
+      <rect x="54" y="100" width="92" height="62" rx="6" fill="#b8c2a2"/>
+      <text x="100" y="142" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="27" font-weight="500" fill="#20251c">10:08</text>
+      <text x="100" y="178" text-anchor="middle" ${font} font-size="6.5" fill="#cfcfcf" letter-spacing="1">SHOCK RESIST</text>
+    </svg>`;
+  }
+
+  S.push(`<defs>
+    <linearGradient id="${id}m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${M[0]}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
+    <radialGradient id="${id}d" cx=".38" cy=".32" r=".85"><stop offset="0" stop-color="${mix(dc, dark ? .2 : .12)}"/><stop offset="1" stop-color="${mix(dc, -.14)}"/></radialGradient>
+    <linearGradient id="${id}cy" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"/><stop offset=".24" stop-color="#000" stop-opacity="0"/><stop offset=".7" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#000" stop-opacity=".4"/></linearGradient>
+    <linearGradient id="${id}p" x1="0" x2="1"><stop offset="0" stop-color="${M[2]}"/><stop offset=".45" stop-color="${mix(M[0], .3)}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
+    <radialGradient id="${id}g" cx=".3" cy=".18" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="${id}k" x1="0" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="${id}rv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${M[2]}"/><stop offset=".45" stop-color="${mix(M[0], .3)}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
+    <radialGradient id="${id}az"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></radialGradient>
+    <filter id="${id}s" x="-20%" y="-10%" width="140%" height="125%"><feDropShadow dx="0" dy="4" stdDeviation="4.5" flood-opacity=".28"/></filter>
+    <filter id="${id}h" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx=".8" dy="1.6" stdDeviation=".9" flood-opacity=".5"/></filter>
+  </defs><g filter="url(#${id}s)">`);
+  const metal = `url(#${id}m)`;
+  const frame = ["gold", "rose", "bronze"].includes(v.case) ? M[1] : "#d9dee4";
+  const done = () => `<svg viewBox="4 18 192 224" class="watch" role="img" aria-hidden="true">${S.join("")}</g></svg>`;
+
+  // Band und Bandanstöße
+  let st = v.strap || "oyster"; if (st === "bracelet") st = "oyster";
+  const metalBand = ["santos", "oyster", "jubilee", "president", "integrated", "rouleaux", "panther", "mesh"].includes(st);
+  const integ = (st === "integrated" || shape === "porthole") && ["porthole", "octagon", "tonneau"].includes(shape);
+  const sw = shape === "rect" ? 72 : shape === "triangle" ? 56 : integ ? { porthole: 90, octagon: 84, tonneau: 84 }[shape] : 64;
+  const taper = shape === "porthole" ? 6 : integ ? 22 : 10;
+  const strapC = v.strapColor || (st === "leather" ? "#4a2f20" : st === "nato" ? "#4f5236" : "#1c1d20");
+  // integrierte Bänder behalten bis zum Gehäuse die volle Breite und verjüngen sich erst danach
+  const J = integ ? 44 : 86;
+  const hw = y => (y < 130 ? sw - taper * Math.max(0, 1 - y / J) : sw - taper * Math.max(0, (y - (260 - J)) / J)) / 2;
+  const trap = (y0, y1) => `M${f1(cx - hw(y0))} ${y0}L${f1(cx + hw(y0))} ${y0}L${f1(cx + hw(y1))} ${y1}L${f1(cx - hw(y1))} ${y1}Z`;
+  const strapD = trap(0, 86) + trap(174, 260);
+  if (!["rect", "square", "triangle", "porthole", "tonneau", "octagon"].includes(shape) && !v.wire && st !== "integrated") {
+    const lw = sw + 20, lx = cx - lw / 2;
+    S.push(`<path d="M${lx + 4} 46h${lw - 8}q4 0 4 4v42h${-lw}v-42q0-4 4-4ZM${lx} 168h${lw}v42q0 4-4 4h${-lw + 8}q-4 0-4-4Z" fill="${metal}"/><path d="M${lx + 4} 48h${lw - 8}" stroke="#fff" stroke-opacity=".5"/><path d="M${lx + 4} 212h${lw - 8}" stroke="#000" stroke-opacity=".25"/>`);
+  }
+  if (metalBand) {
+    const pol = `url(#${id}p)`, bru = M[1], bru2 = mix(M[1], .12);
+    S.push(`<path d="${strapD}" fill="${M[2]}"/>`);
+    const H = { santos: 13, jubilee: 8, president: 11, integrated: shape === "porthole" ? 16 : 12, rouleaux: 7, panther: 6, mesh: 86, oyster: 12 }[st];
+    const piece = (from, to) => {
+      const dir = to > from ? 1 : -1;
+      for (let y = from, k = 0; dir > 0 ? y < to : y > to; y += dir * H, k++) {
+        const a = dir > 0 ? y : Math.max(to, y - H), b = dir > 0 ? Math.min(to, y + H) : y, w = hw((a + b) / 2) * 2, x0 = cx - w / 2;
+        const seg = (fx, fw, fill, rr = 1.6, iy = .7, dy = 0) => `<rect x="${f1(x0 + w * fx + .6)}" y="${f1(a + iy + dy)}" width="${f1(w * fw - 1.2)}" height="${f1(Math.max(1, b - a - 2 * iy))}" rx="${rr}" fill="${fill}"/>`;
+        if (st === "santos") { S.push(seg(0, .34, bru, 1.5), seg(.34, .32, pol, 1.5), seg(.66, .34, bru, 1.5)); [.17, .83].forEach(fx => S.push(`<circle cx="${f1(x0 + w * fx)}" cy="${f1((a + b) / 2)}" r="1.4" fill="${M[0]}" stroke="${M[2]}" stroke-width=".5"/><path d="M${f1(x0 + w * fx - .9)} ${f1((a + b) / 2)}h1.8" stroke="${M[2]}" stroke-width=".5"/>`)); }
+        else if (st === "oyster") S.push(seg(0, .35, bru), seg(.35, .3, v.polishedCenter ? pol : bru2), seg(.65, .35, bru));
+        else if (st === "jubilee") S.push(seg(0, .3, bru), seg(.7, .3, bru), seg(.3, .13, pol, 2), seg(.57, .13, pol, 2), seg(.43, .14, pol, 2, .7, (k % 2 ? 1 : -1) * H / 2 * dir));
+        else if (st === "president") S.push(seg(0, .34, pol, 5), seg(.34, .32, pol, 5), seg(.66, .34, pol, 5));
+        else if (st === "integrated") S.push(seg(0, .4, bru, 1), seg(.6, .4, bru, 1), seg(.4, .2, pol, 1, 2.6), `<path d="M${f1(x0 + 1)} ${f1(a + 1)}h${f1(w * .4 - 2)}M${f1(x0 + w * .6 + 1)} ${f1(a + 1)}h${f1(w * .4 - 2)}" stroke="#fff" stroke-opacity=".55" stroke-width=".8"/>`);
+        else if (st === "rouleaux") S.push(seg(0, .3, `url(#${id}rv)`, 3), seg(.3, .4, `url(#${id}rv)`, 3, .7, 0), seg(.7, .3, `url(#${id}rv)`, 3));
+        else if (st === "panther") { const o = k % 2 ? .125 : 0; for (let fx = -o; fx < 1; fx += .25) { const s0 = Math.max(0, fx), s1 = Math.min(1, fx + .25); if (s1 - s0 > .05) S.push(seg(s0, s1 - s0, k % 2 ? bru : bru2, 1)); } }
+        else if (st === "mesh") { S.push(`<path d="${trap(Math.min(from, to), Math.max(from, to))}" fill="${bru}"/>`); let d = ""; for (let yy = Math.min(from, to); yy < Math.max(from, to); yy += 2.2) d += `M${f1(cx - hw(yy))} ${f1(yy)}L${f1(cx + hw(yy))} ${f1(yy)}`; S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".6" opacity=".7"/>`); }
+      }
+    };
+    piece(86, 0); piece(174, 260);
+  } else {
+    S.push(`<path d="${strapD}" fill="${strapC}"/>`);
+    if (st === "leather") {
+      S.push(`<path d="${trap(0, 86)}" fill="${mix(strapC, .1)}" transform="translate(${cx} 0) scale(.82 1) translate(${-cx} 0)"/><path d="${trap(174, 260)}" fill="${mix(strapC, .1)}" transform="translate(${cx} 0) scale(.82 1) translate(${-cx} 0)"/>`);
+      S.push(`<path d="M${f1(cx - hw(0) + 4)} 0L${f1(cx - hw(86) + 4)} 86M${f1(cx + hw(0) - 4)} 0L${f1(cx + hw(86) - 4)} 86M${f1(cx - hw(174) + 4)} 174L${f1(cx - hw(260) + 4)} 260M${f1(cx + hw(174) - 4)} 174L${f1(cx + hw(260) - 4)} 260" stroke="${mix(strapC, .45)}" stroke-width="1" stroke-dasharray="3 2.4"/>`);
+      S.push(`<rect x="${f1(cx - hw(240) - 2)}" y="234" width="${f1(hw(240) * 2 + 4)}" height="11" rx="3" fill="${mix(strapC, -.2)}"/>`);
+    } else if (st === "rubber") {
+      let d = ""; for (let y = 8; y < 86; y += 8) d += `M${f1(cx - hw(y) + 8)} ${y}H${f1(cx + hw(y) - 8)}M${f1(cx - hw(y + 174) + 8)} ${y + 174}H${f1(cx + hw(y + 174) - 8)}`;
+      S.push(`<path d="${d}" stroke="${mix(strapC, .14)}" stroke-width="2.2" stroke-linecap="round"/>`);
+    } else if (st === "nato") {
+      S.push(`<path d="M${cx - 7} 0v86M${cx + 7} 0v86M${cx - 7} 174v86M${cx + 7} 174v86" stroke="${mix(strapC, -.3)}" stroke-width="3"/><rect x="${f1(cx - hw(230) - 1)}" y="226" width="${f1(hw(230) * 2 + 2)}" height="10" rx="2" fill="${M[1]}"/>`);
+    }
+  }
+  S.push(`<path d="${strapD}" fill="url(#${id}cy)"/>`);
+
+  // Gehäuse und Zifferblattform
+  let dial, right = 172, left = 28, mr, mry, B = 56;
+  const crownY = v.crown4 ? cy + 27 : cy;
+  if ((shape === "square" || shape === "round") && v.horns) S.push(`<path d="M${cx - 52} ${cy - 58} L${cx + 52} ${cy - 58} L${cx + hw(70) + 1} ${cy - 84} L${cx - hw(70) - 1} ${cy - 84}Z M${cx - 52} ${cy + 58} L${cx + 52} ${cy + 58} L${cx + hw(190) + 1} ${cy + 84} L${cx - hw(190) - 1} ${cy + 84}Z" fill="${M[1]}" stroke="${M[2]}" stroke-width=".7"/>`);
+  if (shape === "square") {
+    S.push(`<rect x="32" y="62" width="136" height="136" rx="${v.round ?? 16}" fill="${metal}"/>`);
+    dial = { rect: [46, 76, 108, 108, v.dialRx ?? 8] }; mr = 46; right = 168; left = 32;
+    if (v.screws === 8) [[42, 72], [100, 69], [158, 72], [163, 130], [158, 188], [100, 191], [42, 188], [37, 130]].forEach(([x, y]) => S.push(`<circle cx="${x}" cy="${y}" r="3.2" fill="${M[0]}" stroke="${M[2]}" stroke-width=".7"/><path d="M${x - 2} ${y}h4" stroke="${M[2]}" stroke-width=".7"/>`));
+    if (v.screws === 4) [[42, 72], [158, 72], [42, 188], [158, 188]].forEach(([x, y]) => S.push(`<circle cx="${x}" cy="${y}" r="3.5" fill="${M[2]}"/>`));
+  } else if (shape === "rect") {
+    S.push(`<rect x="52" y="50" width="96" height="160" rx="10" fill="${metal}"/>`);
+    if (v.brancards) S.push(`<rect x="52" y="44" width="14" height="172" rx="5" fill="${metal}"/><rect x="134" y="44" width="14" height="172" rx="5" fill="${metal}"/>`);
+    if (v.gadroons) S.push(`<path d="M58 56h84M58 60h84M58 64h84M58 196h84M58 200h84M58 204h84" stroke="${M[2]}" stroke-width="1"/>`);
+    dial = { rect: [64, 70, 72, 120, 4] }; mr = 30; mry = 52; right = 148; left = 52;
+  } else if (shape === "cushion") {
+    S.push(`<rect x="26" y="56" width="148" height="148" rx="46" fill="${metal}"/>`);
+    if (v.wire) S.push(`<path d="M80 56V40h40v16M80 204v16h40v-16" fill="none" stroke="${M[1]}" stroke-width="4"/>`);
+    dial = { r: 58 }; mr = 50; right = 174; left = 26;
+  } else if (shape === "octagon") {
+    // Tonneau-förmiges Gehäuse, darauf die gestreckte Achtecklünette mit acht Sechskantschrauben
+    const oct = (rx, ry) => Array.from({ length: 8 }, (_, i) => P(22.5 + i * 45, rx, ry).map(f1).join(",")).join(" ");
+    if (v.roundBase) S.push(`<path d="M${cx - 44} ${cy - 62} L${cx + 44} ${cy - 62} L${cx + 40} ${cy - 86} L${cx - 40} ${cy - 86}Z M${cx - 44} ${cy + 62} L${cx + 44} ${cy + 62} L${cx + 40} ${cy + 86} L${cx - 40} ${cy + 86}Z" fill="${M[1]}" stroke="${M[2]}" stroke-width=".7"/><circle cx="${cx}" cy="${cy}" r="78" fill="${metal}" stroke="${M[2]}" stroke-width=".8"/>`);
+    else S.push(`<path d="M58 42 Q100 34 142 42 L158 92 Q164 130 158 168 L142 218 Q100 226 58 218 L42 168 Q36 130 42 92Z" fill="${metal}"/><path d="M58 42 Q100 34 142 42" fill="none" stroke="#fff" stroke-opacity=".5"/>`);
+    S.push(`<polygon points="${oct(80, 74)}" fill="${metal}" stroke="${M[2]}" stroke-width="1"/><polygon points="${oct(71, 65)}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".8"/><polygon points="${oct(67, 61)}" fill="${M[1]}"/>`);
+    if (v.screws !== 0) for (let i = 0; i < 8; i++) { const [x, y] = P(22.5 + i * 45, 72, 66); S.push(`<polygon points="${Array.from({ length: 6 }, (_, k) => [f1(x + 3.6 * Math.cos(k * Math.PI / 3 + .3)), f1(y + 3.6 * Math.sin(k * Math.PI / 3 + .3))].join(",")).join(" ")}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".7"/><path d="M${f1(x - 2)} ${f1(y)}h4" stroke="${M[2]}" stroke-width=".8"/>`); }
+    dial = { r: 52 }; mr = 45; right = 174; left = 26;
+  } else if (shape === "porthole") {
+    // Nautilus/Aquanaut nach Fotovorlage: fast quadratische, abgerundet-achteckige Lünette mit breitem flachem Ring,
+    // flache Seitenteile (»Ohren«) mit gerader Außenkante, trapezförmiger Übergang ins integrierte Band
+    const rpoly = (pts, r) => { let d = ""; const n = pts.length; for (let i = 0; i < n; i++) { const p0 = pts[(i + n - 1) % n], p1 = pts[i], p2 = pts[(i + 1) % n], l1 = Math.hypot(p0[0] - p1[0], p0[1] - p1[1]), l2 = Math.hypot(p2[0] - p1[0], p2[1] - p1[1]); const a = [p1[0] + (p0[0] - p1[0]) / l1 * r, p1[1] + (p0[1] - p1[1]) / l1 * r], b = [p1[0] + (p2[0] - p1[0]) / l2 * r, p1[1] + (p2[1] - p1[1]) / l2 * r]; d += `${i ? "L" : "M"}${f1(a[0])} ${f1(a[1])}Q${f1(p1[0])} ${f1(p1[1])} ${f1(b[0])} ${f1(b[1])}`; } return d + "Z"; };
+    const shp = (hx, hy, tx, sy, r) => rpoly([[cx - tx, cy - hy], [cx + tx, cy - hy], [cx + hx, cy - sy], [cx + hx, cy + sy], [cx + tx, cy + hy], [cx - tx, cy + hy], [cx - hx, cy + sy], [cx - hx, cy - sy]], r);
+    const small = v.ears === "small", ew = small ? 76 : 80, eh = small ? 30 : 36;
+    // Übergang ins Band oben und unten
+    S.push(`<path d="M${cx - 56} ${cy - 60} L${cx + 56} ${cy - 60} L${cx + 45} ${cy - 82} L${cx - 45} ${cy - 82}Z M${cx - 56} ${cy + 60} L${cx + 56} ${cy + 60} L${cx + 45} ${cy + 82} L${cx - 45} ${cy + 82}Z" fill="${M[1]}" stroke="${M[2]}" stroke-width=".7"/>`);
+    // Seitenteile
+    if (v.ears !== false) [-1, 1].forEach(k => S.push(`<path d="M${cx + k * 58} ${cy - eh - 14} L${cx + k * ew} ${cy - eh + 2} Q${cx + k * (ew + 1)} ${cy - eh + 4} ${cx + k * (ew + 1)} ${cy - eh + 8} L${cx + k * (ew + 1)} ${cy + eh - 8} Q${cx + k * (ew + 1)} ${cy + eh - 4} ${cx + k * ew} ${cy + eh - 2} L${cx + k * 58} ${cy + eh + 14}Z" fill="${metal}" stroke="${M[2]}" stroke-width=".7"/>`));
+    // Lünette: breiter, flacher Ring mit polierter Außen- und Innenkante
+    S.push(`<path d="${shp(70, 70, 42, 42, 26)}" fill="${M[1]}" stroke="${M[2]}" stroke-width="1"/>`);
+    S.push(`<path d="${shp(69, 69, 41.5, 41.5, 25.5)}" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.2"/>`);
+    S.push(`<path d="${shp(55, 55, 33, 33, 19)}" fill="${M[0]}" stroke="${M[2]}" stroke-width=".8"/>`);
+    dial = { r: 50, path: shp(52, 52, 31, 31, 17) }; mr = 43; right = v.ears === false ? 170 : cx + ew + 1; left = 20;
+  } else if (shape === "tonneau") {
+    S.push(`<path d="M44 62 Q100 50 156 62 Q170 130 156 198 Q100 210 44 198 Q30 130 44 62Z" fill="${metal}"/>`);
+    dial = { r: 54 }; mr = 47; right = 166; left = 34;
+  } else if (shape === "triangle") {
+    S.push(`<path d="M46 56 L160 70 Q172 74 168 88 L128 196 Q122 210 108 206 L54 186 Q40 180 40 166 L36 70 Q36 56 46 56Z" fill="${metal}"/>`);
+    dial = { path: "M56 70 L150 82 Q158 84 155 94 L120 186 Q116 194 108 192 L62 176 Q52 172 52 162 L50 80 Q50 70 56 70Z" }; mr = 40; right = 154; left = 36;
+  } else {
+    // rund
+    if (v.coin) { let d = ""; for (let a = 0; a < 360; a += 4) { const [x1, y1] = P(a, 72), [x2, y2] = P(a, 75); d += `M${f1(x1)} ${f1(y1)}L${f1(x2)} ${f1(y2)}`; } S.push(`<path d="${d}" stroke="${M[2]}" stroke-width="1.2"/>`); }
+    if (v.asym) S.push(`<path d="M${cx + 30} ${cy - 66} C${cx + 96} ${cy - 52} ${cx + 96} ${cy + 52} ${cx + 30} ${cy + 66}Z" fill="${metal}"/>`);
+    S.push(`<circle cx="${cx}" cy="${cy}" r="72" fill="${metal}"/><circle cx="${cx}" cy="${cy}" r="71.4" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="1"/><circle cx="${cx}" cy="${cy}" r="72.5" fill="none" stroke="${M[2]}" stroke-width="1"/>`);
+    if (v.ballon) S.push(`<path d="M164 112 Q186 130 164 148" fill="none" stroke="${metal}" stroke-width="7"/><circle cx="179" cy="130" r="5.5" fill="#2a4fa8"/>`);
+    if (v.claws) S.push(`<rect x="164" y="122" width="12" height="16" rx="3" fill="${M[1]}"/><rect x="24" y="122" width="12" height="16" rx="3" fill="${M[1]}"/>`);
+    const BI = { maltese: 59, dive: 57, riders: 57, gmt2: 57, tachy: 61, slide: 59, fixed24: 59, yacht: 59, roman: 60, dodeca: 59, cities: 56 };
+    if (v.bezel in BI) B = v.bezelInner ?? BI[v.bezel];
+    dial = { r: v.bezel in BI ? B - 2 : v.thin ? 64 : 60 }; mr = dial.r - 8;
+  }
+  // Krone, Drücker, Schutz: am tatsächlichen Gehäuserand der jeweiligen Höhe ansetzen
+  const edgeX = (y, isLeft = false) => {
+    const dy = Math.abs(y - cy); let x;
+    if (shape === "round") x = v.asym && !isLeft ? cx + 79.5 * Math.sqrt(Math.max(0, 1 - (dy / 70) ** 2)) : cx + Math.sqrt(Math.max(0, 72 * 72 - dy * dy));
+    else if (shape === "octagon") x = dy <= 28.3 ? cx + 73.9 : cx + 73.9 - (dy - 28.3) * 1.08;
+    else if (shape === "cushion") x = dy <= 28 ? 174 : 128 + Math.sqrt(Math.max(0, 46 * 46 - (dy - 28) ** 2));
+    else if (shape === "porthole") x = dy <= (v.ears === "small" ? 22 : 28) ? right : cx + 68;
+    else x = right;
+    return isLeft ? 2 * cx - x : x;
+  };
+  if (v.asym) right = 180;
+  const cr = v.crown === "onion" ? [18, 24] : v.crown === "big" ? [16, 20] : [9, 15];
+  const cxr = v.crownLeft ? edgeX(crownY, true) - cr[0] + 2 : edgeX(crownY) - 2;
+  if (!v.ballon) { S.push(`<rect x="${cxr}" y="${crownY - cr[1] / 2}" width="${cr[0]}" height="${cr[1]}" rx="3" fill="${metal}"/>`); let d = ""; for (let k = 2; k < cr[1] - 1; k += 2) d += `M${cxr + (v.crownLeft ? 1 : 3)} ${crownY - cr[1] / 2 + k}h${cr[0] - 4}`; S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".6"/>`); }
+  if (v.cabochon && !v.ballon) S.push(`<circle cx="${cxr + cr[0] - 1}" cy="${crownY}" r="4" fill="#2a4fa8"/>`);
+  if (v.crown2) S.push(`<rect x="${f1(edgeX(crownY - 40) - 3)}" y="${crownY - 47}" width="10" height="14" rx="3" fill="${metal}"/>`);
+  if (v.lever) S.push(`<path d="M${right - 6} ${crownY - 22} Q${right + 22} ${crownY - 10} ${right + 20} ${crownY + 12} L${right - 4} ${crownY + 22}" fill="${metal}" stroke="${M[2]}" stroke-width=".8"/>`);
+  if (v.guards && shape === "square") S.push(`<path d="M${right - 2} ${crownY - 14} q10 4 10 14 q0 10 -10 14z" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
+  else if (v.guards) { const gx = edgeX(crownY) - 4; S.push(`<path d="M${f1(gx)} ${crownY - 16} l12 6 v20 l-12 6z" fill="${metal}"/>`); }
+  if (v.crown === "onion") { const ox = cxr + cr[0] / 2; S.push(`<path d="M${cxr} ${crownY - 12} Q${ox + 12} ${crownY - 14} ${cxr + cr[0]} ${crownY} Q${ox + 12} ${crownY + 14} ${cxr} ${crownY + 12}Z" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`); }
+  if (v.pushers) [-34, 34].forEach(dy => {
+    const y = crownY + dy, ex = edgeX(y, v.crownLeft);
+    if (v.crownLeft) S.push(`<rect x="${f1(ex - 4)}" y="${y - 2.5}" width="6" height="5" fill="${M[2]}"/><rect x="${f1(ex - 12)}" y="${y - 6}" width="9" height="12" rx="3" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
+    else S.push(`<rect x="${f1(ex - 2)}" y="${y - 2.5}" width="6" height="5" fill="${M[2]}"/><rect x="${f1(ex + 3)}" y="${y - 6}" width="9" height="12" rx="3" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
+  });
+
+  // Lünette (runde Gehäuse)
+  const bc = v.bezelColor || "#17191d", bInk = lum(bc) < .5 ? "#e6e8eb" : "#1d2128";
+  const ring = (r1, r2, fill, extra = "") => `<path d="M${cx - r1} ${cy}a${r1} ${r1} 0 1 0 ${2 * r1} 0a${r1} ${r1} 0 1 0 ${-2 * r1} 0ZM${cx - r2} ${cy}a${r2} ${r2} 0 1 1 ${2 * r2} 0a${r2} ${r2} 0 1 1 ${-2 * r2} 0Z" fill="${fill}" fill-rule="evenodd" ${extra}/>`;
+  const ticks = (r1, r2, step, color, w, skipEvery) => { let d = ""; for (let a = 0; a < 360; a += step) { if (skipEvery && Math.round(a) % skipEvery === 0) continue; const [x1, y1] = P(a, r1), [x2, y2] = P(a, r2); d += `M${f1(x1)} ${f1(y1)}L${f1(x2)} ${f1(y2)}`; } return `<path d="${d}" stroke="${color}" stroke-width="${w}"/>`; };
+  const txt = (a, r, s, size, color, weight = 600) => { const [x, y] = P(a, r); return `<text x="${f1(x)}" y="${f1(y + size * .36)}" text-anchor="middle" ${font} font-size="${size}" font-weight="${weight}" fill="${color}">${s}</text>`; };
+  if (shape === "round") {
+    const b = v.bezel;
+    if (b === "dive" || b === "riders") {
+      S.push(ring(70, B, bc));
+      if (v.bezelAccent) S.push(`<path d="M${cx} ${cy - 70}A70 70 0 0 1 ${f1(P(90, 70)[0])} ${f1(P(90, 70)[1])}L${f1(P(90, B)[0])} ${f1(P(90, B)[1])}A${B} ${B} 0 0 0 ${cx} ${cy - B}Z" fill="${v.bezelAccent}"/>`);
+      S.push(ticks(69, 65, 6, bInk, 1, 30));
+      [60, 120, 180, 240, 300].forEach(a => S.push(txt(a, (70 + B) / 2, String(a / 6), 8, bInk)));
+      S.push(`<polygon points="${cx - 6},${cy - 69} ${cx + 6},${cy - 69} ${cx},${cy - 59}" fill="${bInk}"/>`);
+      if (v.pip !== false) S.push(`<circle cx="${cx}" cy="${cy - 65.5}" r="2" fill="${v.pipColor || "#eef0e6"}" stroke="${M[2]}" stroke-width=".5"/>`);
+      if (b === "riders") [0, 90, 180, 270].forEach(a => { const [x, y] = P(a, 72); S.push(`<rect x="${f1(x - 6)}" y="${f1(y - 4)}" width="12" height="8" rx="2" fill="${M[0]}" stroke="${M[2]}" stroke-width=".6" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`); });
+    } else if (b === "gmt2") {
+      const [c1, c2] = v.bezelColors || ["#b3202a", "#1e3f8a"];
+      S.push(`<path d="M${cx - 70} ${cy}A70 70 0 0 1 ${cx + 70} ${cy}L${cx + B} ${cy}A${B} ${B} 0 0 0 ${cx - B} ${cy}Z" fill="${c1}"/><path d="M${cx + 70} ${cy}A70 70 0 0 1 ${cx - 70} ${cy}L${cx - B} ${cy}A${B} ${B} 0 0 0 ${cx + B} ${cy}Z" fill="${c2}"/>`);
+      S.push(ticks(69, 65, 15, "#eef0f2", 1, 45));
+      [45, 90, 135, 180, 225, 270, 315].forEach(a => S.push(txt(a, (70 + B) / 2, String(a / 15), 7, "#eef0f2")));
+      S.push(`<polygon points="${cx - 5},${cy - 68} ${cx + 5},${cy - 68} ${cx},${cy - 60}" fill="#eef0f2"/>`);
+    } else if (b === "tachy" || b === "slide") {
+      S.push(ring(70, B, bc));
+      S.push(ticks(69, b === "slide" ? B + 3 : 66, b === "slide" ? 3 : 6, bInk, .8));
+      if (b === "tachy") [[40, "400"], [90, "200"], [150, "120"], [210, "90"], [270, "70"], [330, "60"]].forEach(([a, s]) => S.push(txt(a, (70 + B) / 2, s, 6, bInk)));
+      else S.push(ticks(B + 1, B - 1, 6, bInk, .6));
+    } else if (b === "fixed24" || b === "yacht") {
+      S.push(ring(70, B, b === "yacht" ? (v.bezelColor || M[0]) : M[1]));
+      S.push(ticks(69, 66, 15, b === "yacht" ? "#2a2d33" : M[2], 1.2));
+      [60, 120, 180, 240, 300].forEach((a, i) => S.push(txt(a, (70 + B) / 2, b === "yacht" ? String((i + 1) * 10) : String((i + 1) * 4), 7.5, b === "yacht" ? "#2a2d33" : M[2], 700)));
+    } else if (b === "roman") {
+      S.push(ring(70, B, M[0]));
+      [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].forEach((a, i) => S.push(txt(a, (70 + B) / 2, ROMAN[i], 6, M[2], 700)));
+    } else if (b === "cities") {
+      S.push(ring(70, B, M[1]));
+      S.push(ring(62, B, mix(dc, .25)));
+      for (let a = 0; a < 360; a += 15) { const [x, y] = P(a + 4, 66); S.push(`<rect x="${f1(x - 4)}" y="${f1(y - 1)}" width="8" height="2" rx="1" fill="${M[2]}" transform="rotate(${a + 4 + 90} ${f1(x)} ${f1(y)})"/>`); }
+      for (let a = 0; a < 360; a += 15) S.push(txt(a, 59, "", 1, "#000"));
+    } else if (b === "dodeca") {
+      const pts = Array.from({ length: 12 }, (_, i) => P(15 + i * 30, 71).map(f1).join(",")).join(" ");
+      S.push(`<polygon points="${pts}" fill="${bc}"/>`); S.push(ticks(66, 63, 6, bInk, 1, 30));
+      S.push(`<polygon points="${cx - 5},${cy - 67} ${cx + 5},${cy - 67} ${cx},${cy - 59}" fill="${bInk}"/>`);
+    } else if (b === "fluted") {
+      S.push(ring(70, 60, v.bezelColor ? v.bezelColor : metal)); S.push(ticks(70, 61, 6, M[2], 1.4));
+    } else if (b === "clous") {
+      S.push(ring(70, 62, metal)); for (let a = 0; a < 360; a += 7.5) { const [x, y] = P(a, 66); S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="1.4" fill="${M[2]}"/>`); }
+    } else if (b === "maltese") {
+      S.push(ring(71, 57, metal), `<circle cx="${cx}" cy="${cy}" r="57" fill="none" stroke="${M[2]}" stroke-width=".8"/>`);
+      for (let i = 0; i < 6; i++) { const a0 = i * 60 + 30; S.push(`<g transform="rotate(${a0} ${cx} ${cy})"><path d="M${cx - 9} ${cy - 71.5} Q${cx} ${cy - 62} ${cx + 9} ${cy - 71.5}" fill="${M[2]}" opacity=".55"/><path d="M${cx - 9} ${cy - 71.5} Q${cx} ${cy - 63.5} ${cx + 9} ${cy - 71.5}" fill="${M[0]}"/></g>`); }
+    } else if (b === "pairs") {
+      S.push(ring(70, 60, metal), `<circle cx="${cx}" cy="${cy}" r="60" fill="none" stroke="${M[2]}" stroke-width=".7"/>`);
+      [0, 90, 180, 270].forEach(a0 => [-9, 9].forEach(o => { const [x, y] = P(a0 + o, 65); S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="2.3" fill="${M[0]}" stroke="${M[2]}" stroke-width=".6"/><path d="M${f1(x - 1.4)} ${f1(y)}h2.8" stroke="${M[2]}" stroke-width=".6"/>`); }));
+    } else if (b === "holes" || b === "screws6") {
+      S.push(ring(70, 62, metal));
+      const n = b === "holes" ? 5 : 6;
+      for (let i = 0; i < n; i++) { const [x, y] = P(i * 360 / n + (b === "holes" ? 0 : 30), 66); S.push(b === "maltese" ? `<circle cx="${f1(x)}" cy="${f1(y)}" r="4" fill="${M[2]}" opacity=".7"/>` : `<circle cx="${f1(x)}" cy="${f1(y)}" r="2.6" fill="${M[2]}"/>`); }
+    } else {
+      S.push(ring(72, 62, metal, `opacity=".9"`));
+    }
+  }
+
+  if (shape === "round" && ["dive", "riders", "gmt2", "tachy", "slide"].includes(v.bezel)) S.push(ring(70, B, `url(#${id}g)`), `<circle cx="${cx}" cy="${cy}" r="${B}" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>`);
+  // Zifferblatt
+  const clip = dial.rect ? `<rect x="${dial.rect[0]}" y="${dial.rect[1]}" width="${dial.rect[2]}" height="${dial.rect[3]}" rx="${dial.rect[4]}"/>` : dial.path ? `<path d="${dial.path}"/>` : dial.poly ? `<polygon points="${dial.poly}" stroke-linejoin="round"/>` : `<circle cx="${cx}" cy="${cy}" r="${dial.r}"/>`;
+  S.push(`<clipPath id="${id}c">${clip}</clipPath>`);
+  S.push(clip.replace("/>", ` fill="url(#${id}d)"/>`));
+  if (v.innerRing) S.push(ring(dial.r, dial.r - 9, mix(dc, dark ? .12 : -.08)), ticks(dial.r - 1, dial.r - 4, 6, ink, .8));
+  const tex = v.tex, tc = mix(dc, dark ? .14 : -.1);
+  if (tex) {
+    let g = "";
+    if (tex === "stripes") for (let y = 60; y < 200; y += 4) g += `<path d="M20 ${y}H180" stroke="${tc}" stroke-width="1.6"/>`;
+    if (tex === "vstripes") for (let x = 40; x < 170; x += 3 + (x * 7 % 5)) g += `<path d="M${x} 60V200" stroke="${tc}" stroke-width="${1 + (x % 3) * .4}"/>`;
+    if (tex === "grid") for (let k = 40; k < 220; k += 6) g += `<path d="M${k} 50V210M20 ${k}H180" stroke="${tc}" stroke-width="1.2"/>`;
+    if (tex === "tap") { for (let k = 40; k < 220; k += 3.6) g += `<path d="M${f1(k)} 50V210M20 ${f1(k)}H180" stroke="${mix(dc, -.25)}" stroke-width=".9"/>`; g += `<rect x="20" y="50" width="160" height="160" fill="${mix(dc, .12)}" opacity=".25"/>`; }
+    if (tex === "waves") for (let y = 64; y < 200; y += 8) g += `<path d="M20 ${y} q10 -5 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="${tc}" stroke-width="1.6"/>`;
+    if (tex === "snow") { let s = 7; for (let i = 0; i < 260; i++) { s = (s * 9301 + 49297) % 233280; const x = 40 + (s / 233280) * 120; s = (s * 9301 + 49297) % 233280; const y = 70 + (s / 233280) * 120; g += `<circle cx="${f1(x)}" cy="${f1(y)}" r="${f1(.6 + (i % 3) * .4)}" fill="${mix(dc, -.08)}"/>`; } }
+    if (tex === "sunburst") for (let a = 0; a < 360; a += 5) { const [x, y] = P(a, 90); g += `<path d="M${cx} ${cy}L${f1(x)} ${f1(y)}" stroke="${tc}" stroke-width=".8"/>`; }
+    if (tex === "guilloche") for (let r = 4; r < 70; r += 3) g += `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${tc}" stroke-width=".9"/>`;
+    S.push(`<g clip-path="url(#${id}c)">${g}</g>`);
+  }
+
+  // Minutenschiene (rund oder als »Chemin de fer« bei eckigen Zifferblättern)
+  if (v.track === "rail") {
+    if (dial.rect) { const [x, y, w, h] = dial.rect, k = 7; S.push(`<rect x="${x + k}" y="${y + k}" width="${w - 2 * k}" height="${h - 2 * k}" fill="none" stroke="${ink}" stroke-width=".5" opacity=".75"/><rect x="${x + k + 3.5}" y="${y + k + 3.5}" width="${w - 2 * k - 7}" height="${h - 2 * k - 7}" fill="none" stroke="${ink}" stroke-width=".5" opacity=".75"/><rect x="${x + k + 1.75}" y="${y + k + 1.75}" width="${w - 2 * k - 3.5}" height="${h - 2 * k - 3.5}" fill="none" stroke="${ink}" stroke-width="3.5" stroke-dasharray=".5 3" opacity=".7"/>`); }
+    else if (dial.r) { const r0 = mr + 4.5, c = 2 * Math.PI * r0 / 60; S.push(`<circle cx="${cx}" cy="${cy}" r="${r0 + 2}" fill="none" stroke="${ink}" stroke-width=".5" opacity=".7"/><circle cx="${cx}" cy="${cy}" r="${r0 - 2}" fill="none" stroke="${ink}" stroke-width=".5" opacity=".7"/><circle cx="${cx}" cy="${cy}" r="${r0}" fill="none" stroke="${ink}" stroke-width="4" stroke-dasharray="${f1(.6)} ${f1(c - .6)}" transform="rotate(-90.4 ${cx} ${cy})" opacity=".8"/>`); }
+  }
+  // Indizes
+  const rx = mr, ry = mry ?? mr, mk = v.markers || "baton";
+  const at = (a, r = 0) => P(a, rx - r, ry - r);
+  const hasDate3 = ["3", "cyclops", "daydate"].includes(v.date);
+  const appliedFill = !dark && !v.lume ? `url(#${id}p)` : lume;
+  const BSt = BRAND_STYLE[brand] || {}, TR = dial.r || (shape === "rect" ? 34 : 46);
+  if (brand && v.brandText !== "" && v.layout !== "lange1") {
+    const bt = v.brandText ?? BSt.text ?? brand.toUpperCase();
+    const by = v.layout ? cy + TR * .8 : cy - TR * (v.date === "day" ? .34 : ["arabic", "arabicAll", "field", "roman"].includes(v.markers) ? .36 : ["chrono3", "chrono2"].includes(v.sub) ? .6 : .5) + (v.brandDy || 0);
+    const bs = (BSt.s || 6.6) * (v.layout ? .8 : 1);
+    const fit = (t, size, ls, maxW) => { const w = t.length * (size * .62 + ls); return w > maxW ? `textLength="${f1(maxW)}" lengthAdjust="spacingAndGlyphs"` : ""; };
+    const T = (y, t, size, wgt, col = ink, extra = "") => `<text x="${cx}" y="${f1(y)}" text-anchor="middle" ${font} font-size="${size}" font-weight="${wgt}" letter-spacing=".5" fill="${col}" ${extra.includes("x=") ? "" : fit(t, size, .5, TR * 1.25)} ${extra}>${esc(t)}</text>`;
+    S.push(`<text x="${cx}" y="${f1(by)}" text-anchor="middle" font-family="${BSt.f || "Inter, system-ui, sans-serif"}" font-size="${bs}" font-weight="${BSt.w || 700}" ${BSt.i ? 'font-style="italic"' : ""} letter-spacing="${BSt.ls ?? 1.1}" ${fit(bt, bs, BSt.ls ?? 1.1, TR * (v.layout ? 1.3 : 1.05))} fill="${v.brandColor || ink}">${esc(bt)}</text>`);
+    if (!v.layout) {
+      const lbl = v.label ?? (model.length <= 18 ? model.toUpperCase() : "");
+      let top = v.top, bottom = v.bottom;
+      if (BSt.rolex) { top = top ?? ["OYSTER PERPETUAL", ...(["cyclops", "3"].includes(v.date) ? ["DATE"] : [])]; bottom = bottom ?? [lbl, "SUPERLATIVE CHRONOMETER", "OFFICIALLY CERTIFIED"]; }
+      top = top ?? BSt.top ?? (lbl ? [lbl] : []);
+      top.forEach((t, i) => S.push(T(by + 6.4 + i * 4.6, t, i === 0 && t === lbl ? 4.6 : 3.6, 600, v.topColor && i === top.length - 1 ? v.topColor : ink)));
+      const freeBottom = !["chrono3", "small6"].includes(v.sub) && v.date !== "6" && !v.moon;
+      if (freeBottom) (bottom || []).forEach((t, i) => S.push(T(cy + TR * .3 + i * 4.6, t, i === 0 && t === lbl ? 4.6 : 3.5, 600, i === 0 && v.bottomColor ? v.bottomColor : ink)));
+    }
+    const origin = v.origin ?? BSt.o ?? "SWISS MADE";
+    if (origin && dial.r && !v.layout) {
+      // Bogen unten von ca. 7:30 bis 4:30 Uhr; Schrift läuft geschwungen am Rand entlang
+      const R = dial.path ? mr + 9.5 : dial.r - 1, th = 45 * Math.PI / 180, arcLen = R * 2 * th;
+      S.push(`<path id="${id}o" d="M${f1(cx - R * Math.sin(th))} ${f1(cy + R * Math.cos(th))} A${R} ${R} 0 0 0 ${f1(cx + R * Math.sin(th))} ${f1(cy + R * Math.cos(th))}" fill="none"/>`);
+      const tp = (t, off) => `<text ${font} font-size="2.9" font-weight="500" letter-spacing=".4" fill="${ink}" text-anchor="middle"><textPath href="#${id}o" startOffset="${f1(off)}%">${esc(t)}</textPath></text>`;
+      const w2 = origin.split(" "), gap = 11 / arcLen * 100;
+      if (w2.length === 2 && v.markers !== "none") S.push(tp(w2[0], 50 - gap), tp(w2[1], 50 + gap));
+      else S.push(tp(origin, 50));
+    }
+  }
+  S.push(`<g filter="url(#${id}h)">`);
+  if (!v.layout) {
+    if (v.minutes !== false && mk !== "none" && v.track !== "rail") { let d = ""; for (let a = 0; a < 360; a += 6) { if (a % 30 === 0) continue; const [x1, y1] = at(a, -6), [x2, y2] = at(a, -3); d += `M${f1(x1)} ${f1(y1)}L${f1(x2)} ${f1(y2)}`; } S.push(`<path d="${d}" stroke="${ink}" stroke-width=".7" opacity=".7"/>`); }
+    for (let i = 0; i < 12; i++) {
+      const a = i * 30, [x, y] = at(a), skip = (hasDate3 && i === 3) || (v.date === "6" && i === 6) || (v.date === "day" && i === 0) || (v.sub === "small6" && i === 6) || (v.sub === "small9" && i === 9) || (v.moon && i === 6);
+      if (skip) continue;
+      const num = (mk === "arabic" && i % 3 === 0) || mk === "arabicAll" || mk === "field" || (mk === "pilot" && i !== 0) || (mk === "explorer" && i % 3 === 0 && i !== 0);
+      if (num) S.push(txt(a, rx - 8, String(i === 0 ? 12 : i), mk === "arabic" || mk === "explorer" ? 15 : 11, lume, 700));
+      else if (mk === "roman4" && i % 3 === 0) S.push(txt(a, rx - 9, ROMAN[i], 13, lume, 700));
+      else if (mk === "roman") S.push(txt(a, rx - (shape === "rect" ? 4 : shape === "square" ? 12 : 9), ROMAN[i], shape === "rect" ? (i % 3 === 0 ? 8.5 : 7) : shape === "square" ? (i % 3 === 0 ? 11 : 9.5) : (i % 3 === 0 ? 11 : 9), ink, 500));
+      else if (mk === "dots" || mk === "explorer") {
+        if (i === 0) S.push(`<polygon points="${f1(x - 6)},${f1(y - 4)} ${f1(x + 6)},${f1(y - 4)} ${f1(x)},${f1(y + 7)}" fill="${lume}" stroke="${frame}" stroke-width="1"/>`);
+        else if (i % 3 === 0) S.push(`<rect x="${f1(x - 2.6)}" y="${f1(y - 7)}" width="5.2" height="14" rx="1" fill="${lume}" stroke="${frame}" stroke-width="1" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`);
+        else S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="4.2" fill="${lume}" stroke="${frame}" stroke-width="1"/>`);
+      } else if (mk === "pilot" && i === 0) S.push(`<polygon points="${f1(x - 7)},${f1(y - 5)} ${f1(x + 7)},${f1(y - 5)} ${f1(x)},${f1(y + 7)}" fill="${lume}"/><circle cx="${f1(x - 9)}" cy="${f1(y - 2)}" r="1.6" fill="${lume}"/><circle cx="${f1(x + 9)}" cy="${f1(y - 2)}" r="1.6" fill="${lume}"/>`);
+      else if (mk !== "none") { const len = i % 3 === 0 ? 12 : 9, w = mk === "thin" ? 1.6 : i % 3 === 0 ? 4.2 : 3.2; S.push(`<rect x="${f1(x - w / 2)}" y="${f1(y - len / 2)}" width="${w}" height="${len}" rx="${w / 3}" fill="${appliedFill}" stroke="${dark ? frame : M[2]}" stroke-width=".6" transform="rotate(${a} ${f1(x)} ${f1(y)})"/>`); }
+    }
+    if (mk === "field") for (let i = 0; i < 12; i++) S.push(txt(i * 30, rx - 22, String(i === 0 ? 24 : i + 12), 6, ink, 500));
+  }
+  S.push(`</g>`);
+
+  // Hilfszifferblätter, Datum, Mondphase
+  const subCol = v.subColor || mix(dc, dark ? .1 : -.06);
+  const subDial = (x, y, r, col = subCol) => `<circle cx="${f1(x)}" cy="${f1(y)}" r="${r}" fill="${col}" stroke="${mix(col, lum(col) < .5 ? .3 : -.25)}" stroke-width="1.1"/>${Array.from({ length: Math.floor(r / 1.6) }, (_, k) => `<circle cx="${f1(x)}" cy="${f1(y)}" r="${f1(1.6 * (k + 1))}" fill="none" stroke="${mix(col, lum(col) < .5 ? .1 : -.07)}" stroke-width=".5"/>`).join("")}<circle cx="${f1(x)}" cy="${f1(y)}" r="${r}" fill="url(#${id}az)"/>${(() => { let d = ""; for (let a = 0; a < 360; a += 30) { const x1 = x + (r - 1) * Math.sin(a * Math.PI / 180), y1 = y - (r - 1) * Math.cos(a * Math.PI / 180), x2 = x + (r - 4) * Math.sin(a * Math.PI / 180), y2 = y - (r - 4) * Math.cos(a * Math.PI / 180); d += `M${f1(x1)} ${f1(y1)}L${f1(x2)} ${f1(y2)}`; } return `<path d="${d}" stroke="${lum(col) < .5 ? "#e9ecef" : "#222"}" stroke-width=".7"/>`; })()}<path d="M${f1(x)} ${f1(y)}L${f1(x + (r - 3) * Math.sin(1.2))} ${f1(y - (r - 3) * Math.cos(1.2))}" stroke="${lum(col) < .5 ? "#f2f2f2" : "#222"}" stroke-width="1.2"/>`;
+  const sr = dial.r ? Math.round(dial.r * .24) : 12, so = dial.r ? Math.round(dial.r * .48) : 26;
+  const subs = { chrono3: [90, 180, 270], chrono2: [90, 270], small6: [180], small9: [270], small3: [90] }[v.sub] || [];
+  subs.forEach((a, i) => { const [x, y] = P(a, so); S.push(subDial(x, y, sr, v.subColors ? v.subColors[i] : subCol)); if (v.subRing) S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="${sr + .8}" fill="none" stroke="${v.subRing}" stroke-width="1.6"/>`); });
+  // (d) Gangreserveanzeige
+  if (v.pr != null && dial.r) { const [x, y] = P(v.pr, so); let d = ""; for (let k = -50; k <= 50; k += 20) { const a = (k - 90 + (v.pr > 180 ? 180 : 0)) * Math.PI / 180; d += `M${f1(x + 9 * Math.cos(a))} ${f1(y + 9 * Math.sin(a))}L${f1(x + 12 * Math.cos(a))} ${f1(y + 12 * Math.sin(a))}`; } S.push(`<path d="${d}" stroke="${ink}" stroke-width=".8"/><path d="M${f1(x)} ${f1(y)}l${v.pr > 180 ? -10 : 10} -4" stroke="${v.sec || ink}" stroke-width="1.1"/><circle cx="${f1(x)}" cy="${f1(y)}" r="1.4" fill="${ink}"/>`); }
+  const win = (x, y, w, h, s, size = 8) => `<rect x="${f1(x - w / 2)}" y="${f1(y - h / 2)}" width="${w}" height="${h}" rx="1.5" fill="#f7f7f5" stroke="${mix(dc, -.3)}" stroke-width=".6"/><text x="${f1(x)}" y="${f1(y + size * .36)}" text-anchor="middle" ${font} font-size="${size}" font-weight="600" fill="#1d2128">${s}</text>`;
+  if (hasDate3 && !v.layout) { const [x, y] = P(90, (dial.r || 50) * .72); S.push(v.date === "daydate" ? win(x - 6, y, 26, 11, "MO 22", 7) : win(x, y, 13, 11, "22")); if (v.date === "cyclops") S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="10" fill="#ffffff" opacity=".18" stroke="#ffffff" stroke-opacity=".5"/>`); }
+  if (v.date === "6") { const [x, y] = P(180, (dial.r || 50) * .7); S.push(win(x, y, 13, 11, "22")); }
+  if (v.date === "day") { const [x, y] = P(0, (dial.r || 50) * .66); S.push(win(x, y, 34, 11, "SUNDAY", 7)); if (!v.cyclops0) S.push(win(...P(90, (dial.r || 50) * .72), 13, 11, "22")); }
+  if (v.moon) { const [x, y] = P(180, (dial.r || 50) * .5); S.push(`<path d="M${f1(x - 13)} ${f1(y + 5)}A13 13 0 0 1 ${f1(x + 13)} ${f1(y + 5)}Z" fill="#1d3463"/><circle cx="${f1(x + 3)}" cy="${f1(y - 1)}" r="4.5" fill="#e8c766"/>`); }
+  if (v.windows) { [-1, 1].forEach((k, i) => { const [x, y] = P(k * 32, (dial.r || 50) * .55); S.push(win(x, y, 18, 10, i ? "NOV" : "SUN", 6.5)); }); }
+  if (v.disk24) { S.push(`<circle cx="${cx}" cy="${cy - 22}" r="16" fill="${mix(dc, .15)}" stroke="${mix(dc, .35)}"/><polygon points="${cx - 3},${cy - 40} ${cx + 3},${cy - 40} ${cx},${cy - 35}" fill="#c8102e"/>`); }
+
+  // Sonderlayouts
+  let hcx = cx, hcy = cy, hr = dial.r || 50;
+  if (v.layout === "lange1") {
+    // großes Hauptzifferblatt links mit römischen Ziffern, Großdatum oben rechts, Gangreserve rechts, kleine Sekunde unten rechts
+    hcx = cx - 13; hcy = cy + 3; hr = 37;
+    S.push(`<circle cx="${hcx}" cy="${hcy}" r="${hr}" fill="none" stroke="${mix(dc, -.3)}" stroke-width=".8"/><circle cx="${hcx}" cy="${hcy}" r="${hr - 4}" fill="none" stroke="${mix(dc, -.2)}" stroke-width=".5"/>`);
+    let d = ""; for (let a2 = 0; a2 < 360; a2 += 6) { const r1 = hr - (a2 % 30 ? 2.5 : 4), A = a2 * Math.PI / 180; d += `M${f1(hcx + hr * Math.sin(A))} ${f1(hcy - hr * Math.cos(A))}L${f1(hcx + r1 * Math.sin(A))} ${f1(hcy - r1 * Math.cos(A))}`; }
+    S.push(`<path d="${d}" stroke="${ink}" stroke-width=".5"/>`);
+    for (let i = 0; i < 12; i++) { const A = i * 30 * Math.PI / 180, r1 = hr - 10; S.push(`<text x="${f1(hcx + r1 * Math.sin(A))}" y="${f1(hcy - r1 * Math.cos(A) + 2.6)}" text-anchor="middle" font-family="${SERIF}" font-size="${i % 3 === 0 ? 6.6 : 5.4}" fill="${ink}">${ROMAN[i].replace("IIII", "IV")}</text>`); }
+    S.push(`<path id="${id}la" d="M${hcx - 14} ${hcy - 2} A14 14 0 0 1 ${hcx + 14} ${hcy - 2}" fill="none"/><text font-family="${SERIF}" font-size="3.6" letter-spacing=".5" fill="${ink}" text-anchor="middle"><textPath href="#${id}la" startOffset="50%">A. LANGE &amp; SÖHNE</textPath></text>`);
+    const dx = cx + 21, dy = cy - 30;
+    S.push(`<rect x="${dx - 17}" y="${dy - 11}" width="34" height="22" fill="none" stroke="${ink}" stroke-width=".9"/><rect x="${dx - 15}" y="${dy - 9}" width="14" height="18" fill="#fbfaf6" stroke="${ink}" stroke-width=".7"/><rect x="${dx + 1}" y="${dy - 9}" width="14" height="18" fill="#fbfaf6" stroke="${ink}" stroke-width=".7"/>`);
+    S.push(`<text x="${dx - 8}" y="${dy + 5}" text-anchor="middle" font-family="${SERIF}" font-size="13" fill="#1d2128">2</text><text x="${dx + 8}" y="${dy + 5}" text-anchor="middle" font-family="${SERIF}" font-size="13" fill="#1d2128">2</text>`);
+    S.push(`<path d="M${cx + 38} ${cy - 16} A24 24 0 0 1 ${cx + 38} ${cy + 12}" fill="none" stroke="${ink}" stroke-width=".8"/>`);
+    let pr = ""; for (let k = -3; k <= 3; k++) { const A = (k * 9) * Math.PI / 180; pr += `M${f1(cx + 14 + 24 * Math.cos(A))} ${f1(cy - 2 + 24 * Math.sin(A))}L${f1(cx + 14 + 27 * Math.cos(A))} ${f1(cy - 2 + 27 * Math.sin(A))}`; }
+    S.push(`<path d="${pr}" stroke="${ink}" stroke-width=".6"/><text x="${cx + 44}" y="${cy - 16}" ${font} font-size="2.8" fill="${ink}">AUF</text><text x="${cx + 44}" y="${cy + 15}" ${font} font-size="2.8" fill="${ink}">AB</text><path d="M${cx + 14} ${cy - 2}l25 -6" stroke="${hc}" stroke-width="1"/>`);
+    S.push(subDial(cx + 22, cy + 34, 13, mix(dc, -.04)));
+  }
+  if (v.layout === "pano") {
+    hcx = cx - 12; hcy = cy - 2; hr = 32;
+    S.push(`<circle cx="${hcx}" cy="${hcy}" r="${hr}" fill="none" stroke="${mix(dc, -.25)}" stroke-width="1"/>`);
+    for (let i = 0; i < 12; i++) { const a2 = i * 30 * Math.PI / 180; S.push(`<circle cx="${f1(hcx + (hr - 5) * Math.sin(a2))}" cy="${f1(hcy - (hr - 5) * Math.cos(a2))}" r="1.4" fill="${ink}"/>`); }
+    const dx = cx + 30, dy = cy + 14;
+    S.push(`<rect x="${dx - 15}" y="${dy - 9}" width="14" height="18" fill="#f7f7f5" stroke="${ink}" stroke-width="1"/><rect x="${dx + 1}" y="${dy - 9}" width="14" height="18" fill="#f7f7f5" stroke="${ink}" stroke-width="1"/>`);
+    S.push(`<text x="${dx - 8}" y="${dy + 5}" text-anchor="middle" ${font} font-size="13" font-weight="600" fill="#1d2128">2</text><text x="${dx + 8}" y="${dy + 5}" text-anchor="middle" ${font} font-size="13" font-weight="600" fill="#1d2128">2</text>`);
+    S.push(subDial(cx + 10, cy + 36, 12, mix(dc, -.05)));
+    S.push(`<circle cx="${cx + 22}" cy="${cy - 30}" r="11" fill="#1d3463"/><circle cx="${cx + 25}" cy="${cy - 31}" r="4" fill="#e8c766"/>`);
+  }
+  if (v.layout === "zeitwerk") {
+    S.push(`<path d="M${cx - 60} ${cy + 4} Q${cx} ${cy - 30} ${cx + 60} ${cy + 4} L${cx + 60} ${cy + 22} Q${cx} ${cy - 12} ${cx - 60} ${cy + 22}Z" fill="${M[0]}" clip-path="url(#${id}c)"/>`);
+    S.push(win(cx - 26, cy - 2, 26, 20, "10", 15), win(cx + 26, cy - 2, 26, 20, "08", 15));
+    S.push(subDial(cx, cy - 34, 12, mix(dc, .1)));
+    S.push(`<path d="M${cx - 18} ${cy + 36} A22 22 0 0 0 ${cx + 18} ${cy + 36}" fill="none" stroke="${M[0]}" stroke-width="2"/>`);
+    S.push(`<circle cx="${cx}" cy="${cy}" r="${dial.r}" fill="url(#${id}k)"/>`);
+    return done();
+  }
+
+  // Zeiger (10:08:35)
+  const hand = (style, a, L, w, col, isHour) => {
+    const x = hcx, y = hcy; let s = "";
+    const fr = `stroke="${dark ? frame : mix(col, -.2)}" stroke-width=".7" stroke-linejoin="round"`;
+    if (style === "alpha") s = `<polygon points="${x - w * .35},${y + 6} ${x + w * .35},${y + 6} ${x + w * .7},${y - L * .3} ${x},${y - L} ${x - w * .7},${y - L * .3}" fill="${col}" ${fr}/>`;
+    else if (style === "sword") s = `<polygon points="${x - w / 2},${y + 6} ${x + w / 2},${y + 6} ${x + w * .4},${y - L + 9} ${x},${y - L} ${x - w * .4},${y - L + 9}" fill="${col}" ${fr}/>`;
+    else if (style === "dauphine") s = `<polygon points="${x},${y + 6} ${x + w * .6},${y - L * .22} ${x},${y - L} ${x - w * .6},${y - L * .22}" fill="${col}"/><path d="M${x} ${y + 6}L${x} ${y - L}" stroke="${mix(col, -.35)}" stroke-width=".6"/>`;
+    else if (style === "breguet") s = `<path d="M${x} ${y + 6}L${x} ${y - L}" stroke="${col}" stroke-width="1.6"/><circle cx="${x}" cy="${y - L * .74}" r="${isHour ? 4 : 3}" fill="none" stroke="${col}" stroke-width="1.6"/>`;
+    else s = `<rect x="${x - w / 2}" y="${y - L}" width="${w}" height="${L + 7}" rx="${w / 2.5}" fill="${col}" ${fr}/>`;
+    if (isHour && style === "mercedes") s += `<circle cx="${x}" cy="${y - L * .7}" r="${w * 1.25}" fill="${col}"/><circle cx="${x}" cy="${y - L * .7}" r="${w * .7}" fill="${dc}"/>`;
+    if (isHour && style === "snowflake") s += `<rect x="${x - w}" y="${y - L * .78 - w}" width="${w * 2}" height="${w * 2}" fill="${col}" transform="rotate(45 ${x} ${y - L * .78})"/>`;
+    if (isHour && style === "arrow") s += `<polygon points="${x - w * 1.6},${y - L + 10} ${x + w * 1.6},${y - L + 10} ${x},${y - L - 4}" fill="${col}"/>`;
+    return `<g transform="rotate(${a} ${x} ${y})">${s}</g>`;
+  };
+  const hs = v.hands || "baton";
+  if (v.gmt) S.push(`<g transform="rotate(125 ${hcx} ${hcy})"><path d="M${hcx} ${hcy}L${hcx} ${hcy - hr * .86}" stroke="${v.gmt}" stroke-width="1.6"/><polygon points="${hcx - 5},${hcy - hr * .78} ${hcx + 5},${hcy - hr * .78} ${hcx},${hcy - hr * .92}" fill="${v.gmt}"/></g>`);
+  S.push(`<g filter="url(#${id}h)">`);
+  S.push(hand(hs, 304, hr * .55, hs === "dauphine" ? 6 : 4.4, hc, true));
+  S.push(hand(hs === "mercedes" || hs === "snowflake" || hs === "arrow" ? "baton" : hs, 48, hr * .84, hs === "dauphine" ? 5 : 3.4, hc, false));
+  if (v.sub !== "small6" && v.sub !== "small9" && !v.layout && v.seconds !== false) {
+    if (v.bolt) S.push(`<g transform="rotate(210 ${hcx} ${hcy})"><path d="M${hcx} ${hcy + 12}L${hcx} ${hcy - hr * .45}L${hcx + 4} ${hcy - hr * .52}L${hcx - 3} ${hcy - hr * .62}L${hcx} ${hcy - hr * .9}" fill="none" stroke="${sc}" stroke-width="1.4"/></g>`);
+    else S.push(`<g transform="rotate(210 ${hcx} ${hcy})"><path d="M${hcx} ${hcy + 14}L${hcx} ${hcy - hr * .9}" stroke="${sc}" stroke-width="1.1"/>${v.lollipop ? `<circle cx="${hcx}" cy="${hcy - hr * .62}" r="2.6" fill="${sc}"/>` : ""}</g>`);
+  }
+  S.push(`<circle cx="${hcx}" cy="${hcy}" r="3.2" fill="${sc}" stroke="${frame}" stroke-width=".6"/></g>`);
+  // Rehaut-Schatten und Glasreflex
+  if (dial.path && dial.r) S.push(`<path d="${dial.path}" fill="none" stroke="#000" stroke-opacity=".3" stroke-width="2.5"/>`);
+  if (dial.r) S.push(`${dial.path ? "" : `<circle cx="${cx}" cy="${cy}" r="${dial.r - 1}" fill="none" stroke="#000" stroke-opacity=".3" stroke-width="2.5"/>`}<path d="M${cx - dial.r} ${cy} A${dial.r} ${dial.r} 0 0 1 ${cx + dial.r * .2} ${cy - dial.r * .98} Q${cx - dial.r * .25} ${cy - dial.r * .35} ${cx - dial.r} ${cy}Z" fill="url(#${id}k)"/>`);
+  else S.push(`<g clip-path="url(#${id}c)"><path d="M0 0H200L0 200Z" fill="url(#${id}k)"/></g>`);
+  return done();
+}
+
+// ---------- Schemazeichnungen für Lexikonbegriffe (themenfähig über CSS-Variablen) ----------
+const DG = (() => {
+  const fg = "var(--fg)", mu = "var(--muted)", ac = "var(--accent)", so = "var(--accent-soft)", sf = "var(--surface)", ruby = "#b3263a";
+  const F = 'font-family="Inter, system-ui, sans-serif"';
+  const svg = (w, h, body) => `<svg viewBox="0 0 ${w} ${h}" class="diagram-svg" role="img" aria-hidden="true">${body}</svg>`;
+  const lab = (x, y, t, a = "start", px, py) => (px != null ? `<path d="M${px} ${py}L${x + (a === "start" ? -4 : a === "end" ? 4 : 0)} ${y - 4}" stroke="${mu}" stroke-width=".8"/><circle cx="${px}" cy="${py}" r="1.8" fill="${mu}"/>` : "") + `<text x="${x}" y="${y}" text-anchor="${a}" ${F} font-size="11" fill="${fg}">${t}</text>`;
+  const P = (cx, cy, a, r) => [cx + r * Math.sin(a * Math.PI / 180), cy - r * Math.cos(a * Math.PI / 180)];
+  const f = n => Math.round(n * 10) / 10;
+  const arrowHead = (x, y, ang, c = mu) => { const a = ang * Math.PI / 180; return `<path d="M${f(x)} ${f(y)}l${f(-7 * Math.cos(a - .45))} ${f(-7 * Math.sin(a - .45))}M${f(x)} ${f(y)}l${f(-7 * Math.cos(a + .45))} ${f(-7 * Math.sin(a + .45))}" stroke="${c}" stroke-width="1.4" fill="none"/>`; };
+  const gear = (cx, cy, r, n, depth = 4, fill = so) => { let d = ""; for (let i = 0; i < n; i++) { const a0 = i * 360 / n, w = 360 / n; [[a0, r - depth], [a0 + w * .2, r], [a0 + w * .5, r], [a0 + w * .7, r - depth]].forEach(([a, rr], k) => { const [x, y] = P(cx, cy, a, rr); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); } return `<path d="${d}Z" fill="${fill}" stroke="${fg}" stroke-width="1.1"/>`; };
+  const spiral = (cx, cy, r0, r1, turns, c = ac) => { let d = ""; const n = 220; for (let i = 0; i <= n; i++) { const t = i / n, a = t * turns * 360, r = r0 + (r1 - r0) * t, [x, y] = P(cx, cy, a, r); d += `${i ? "L" : "M"}${f(x)} ${f(y)}`; } return `<path d="${d}" fill="none" stroke="${c}" stroke-width="1.3"/>`; };
+  return {
+    unruh: () => svg(400, 220, `
+      <path d="M${f(P(120, 110, -42, 88)[0])} ${f(P(120, 110, -42, 88)[1])} A88 88 0 0 1 ${f(P(120, 110, 42, 88)[0])} ${f(P(120, 110, 42, 88)[1])}" fill="none" stroke="${mu}" stroke-width="1.4"/>
+      ${arrowHead(...P(120, 110, 42, 88), 20)}${arrowHead(...P(120, 110, -42, 88), 160)}
+      <circle cx="120" cy="110" r="70" fill="none" stroke="${fg}" stroke-width="7"/>
+      ${[0, 120, 240].map(a => { const [x, y] = P(120, 110, a, 67); return `<path d="M120 110L${f(x)} ${f(y)}" stroke="${fg}" stroke-width="4"/>`; }).join("")}
+      ${Array.from({ length: 12 }, (_, i) => { const [x, y] = P(120, 110, i * 30 + 15, 70); return `<circle cx="${f(x)}" cy="${f(y)}" r="2.6" fill="${sf}" stroke="${fg}"/>`; }).join("")}
+      ${spiral(120, 110, 6, 34, 6.5)}<rect x="${f(P(120, 110, 6.5 * 360, 34)[0] - 3)}" y="${f(P(120, 110, 6.5 * 360, 34)[1] - 3)}" width="6" height="6" fill="${fg}"/>
+      <circle cx="120" cy="110" r="5" fill="${fg}"/>
+      ${lab(232, 60, "Unruhreif mit Schrauben", "start", 186, 84)}
+      ${lab(232, 110, "Spiralfeder", "start", 150, 104)}
+      ${lab(232, 160, "Unruhwelle", "start", 124, 114)}
+      ${lab(120, 14, "schwingt hin und her", "middle")}`),
+    hemmung: () => svg(360, 210, `
+      ${(() => { let d = ""; for (let i = 0; i < 15; i++) { const a0 = i * 24; [[a0, 42], [a0 + 6, 56], [a0 + 13, 54], [a0 + 15, 42]].forEach(([a, r], k) => { const [x, y] = P(80, 112, a, r); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); } return `<path d="${d}Z" fill="${so}" stroke="${fg}" stroke-width="1.1"/>`; })()}
+      ${[0, 90, 180, 270].map(a => { const [x, y] = P(80, 112, a + 45, 40); return `<path d="M80 112L${f(x)} ${f(y)}" stroke="${fg}" stroke-width="3"/>`; }).join("")}<circle cx="80" cy="112" r="5" fill="${fg}"/>
+      <path d="M118 66 L176 78 L132 124" fill="none" stroke="${fg}" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M176 78 L246 100" stroke="${fg}" stroke-width="5"/><path d="M246 92 l12 2 M246 108 l12 -2" stroke="${fg}" stroke-width="4"/>
+      <rect x="111" y="60" width="9" height="14" fill="${ruby}" transform="rotate(25 115 67)"/><rect x="128" y="118" width="9" height="14" fill="${ruby}" transform="rotate(-35 132 125)"/>
+      <circle cx="176" cy="78" r="5" fill="${fg}"/>
+      <circle cx="290" cy="104" r="20" fill="${sf}" stroke="${fg}" stroke-width="1.5"/><circle cx="272" cy="102" r="3.2" fill="${ruby}"/><circle cx="290" cy="104" r="44" fill="none" stroke="${mu}" stroke-dasharray="4 4"/><circle cx="290" cy="104" r="4" fill="${fg}"/>
+      ${lab(80, 196, "Ankerrad", "middle")}
+      ${lab(150, 30, "Anker", "middle", 170, 74)}
+      ${lab(20, 30, "Paletten (Rubine)", "start", 114, 64)}
+      ${lab(290, 196, "Unruh mit Hebelstein", "middle", 272, 106)}`),
+    automatik: () => svg(400, 222, `
+      <circle cx="120" cy="112" r="80" fill="${so}" stroke="${fg}" stroke-width="1.5"/>
+      ${gear(150, 78, 20, 24, 3, sf)}<circle cx="150" cy="78" r="9" fill="none" stroke="${mu}" stroke-dasharray="3 3"/>
+      ${gear(92, 76, 11, 14, 2.4, sf)}
+      <path d="M120 112 L${f(P(120, 112, 200, 74)[0])} ${f(P(120, 112, 200, 74)[1])} A74 74 0 0 1 ${f(P(120, 112, 20, 74)[0])} ${f(P(120, 112, 20, 74)[1])} Z" fill="${mu}" opacity=".55" stroke="${fg}" stroke-width="1.2"/>
+      <circle cx="120" cy="112" r="7" fill="${fg}"/>
+      <path d="M${f(P(120, 112, 210, 92)[0])} ${f(P(120, 112, 210, 92)[1])} A92 92 0 0 1 ${f(P(120, 112, 150, 92)[0])} ${f(P(120, 112, 150, 92)[1])}" fill="none" stroke="${ac}" stroke-width="1.6"/>
+      ${arrowHead(...P(120, 112, 150, 92), 70, ac)}${arrowHead(...P(120, 112, 210, 92), 110 + 180, ac)}
+      ${lab(232, 150, "Rotor (Schwungmasse)", "start", 110, 150)}
+      ${lab(232, 112, "Rotorlager", "start", 126, 112)}
+      ${lab(232, 74, "Federhaus mit Zugfeder", "start", 168, 74)}
+      ${lab(232, 36, "Wechselgetriebe", "start", 98, 70)}
+      ${lab(120, 214, "dreht in beide Richtungen und spannt die Feder", "middle")}`),
+    quarzwerk: () => svg(380, 170, `
+      <rect x="14" y="60" width="44" height="44" rx="6" fill="${so}" stroke="${fg}"/><text x="36" y="88" text-anchor="middle" ${F} font-size="16" fill="${fg}">+</text>
+      <rect x="86" y="58" width="40" height="48" rx="20" fill="${sf}" stroke="${fg}"/><path d="M98 98V70h16v28M106 70v-6" fill="none" stroke="${ac}" stroke-width="3"/>
+      <rect x="154" y="62" width="48" height="40" rx="3" fill="${fg}"/>${[0, 1, 2, 3].map(i => `<path d="M${160 + i * 12} 58v4M${160 + i * 12} 102v4" stroke="${fg}" stroke-width="2"/>`).join("")}
+      <rect x="230" y="66" width="40" height="32" rx="4" fill="${sf}" stroke="${fg}"/>${[0, 1, 2, 3, 4, 5].map(i => `<path d="M${236 + i * 6} 66v32" stroke="${ac}" stroke-width="1.6"/>`).join("")}
+      <circle cx="306" cy="82" r="18" fill="${sf}" stroke="${fg}"/><path d="M306 64v36" stroke="${fg}"/><text x="298" y="86" ${F} font-size="10" fill="${ruby}">N</text><text x="309" y="86" ${F} font-size="10" fill="${ac}">S</text>
+      ${gear(352, 82, 14, 14, 3, so)}
+      ${[[58, 86], [126, 154], [202, 230], [270, 288], [324, 338]].map(([a, b]) => `<path d="M${a + 3} 82H${b - 4}" stroke="${mu}" stroke-width="1.4"/>${arrowHead(b - 3, 82, 0)}`).join("")}
+      ${lab(36, 130, "Batterie", "middle")}${lab(106, 130, "Quarz", "middle")}${lab(106, 145, "32.768 Hz", "middle")}
+      ${lab(178, 130, "Schaltkreis", "middle")}${lab(178, 145, "teilt auf 1 Hz", "middle")}
+      ${lab(250, 130, "Spule", "middle")}${lab(306, 130, "Schrittmotor", "middle")}${lab(354, 152, "Zeiger", "middle")}
+      ${lab(190, 24, "jede Sekunde ein Impuls für den Schrittmotor", "middle")}`),
+    schaltrad: () => svg(340, 210, `
+      ${(() => { let d = ""; for (let i = 0; i < 18; i++) { const a0 = i * 20; [[a0, 42], [a0 + 14, 52], [a0 + 20, 42]].forEach(([a, r], k) => { const [x, y] = P(110, 106, a, r); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); } return `<path d="${d}Z" fill="${so}" stroke="${fg}" stroke-width="1.1"/>`; })()}
+      ${Array.from({ length: 6 }, (_, i) => { const [x, y] = P(110, 106, i * 60, 28); return `<circle cx="${f(x)}" cy="${f(y)}" r="9" fill="${mu}" stroke="${fg}"/>`; }).join("")}
+      <circle cx="110" cy="106" r="9" fill="${fg}"/>
+      <path d="M300 54 L170 84 L148 88" fill="none" stroke="${fg}" stroke-width="4" stroke-linecap="round"/><path d="M300 160 L168 126 L146 120" fill="none" stroke="${fg}" stroke-width="4" stroke-linecap="round"/>
+      <rect x="300" y="44" width="22" height="20" rx="4" fill="${sf}" stroke="${fg}"/>${arrowHead(298, 54, 180, ac)}
+      ${lab(110, 202, "Sperrrad", "middle", 110, 152)}
+      ${lab(30, 24, "Säulen", "start", 92, 92)}
+      ${lab(230, 196, "Steuerhebel", "middle", 220, 140)}
+      ${lab(312, 30, "Drücker", "middle")}`),
+    tourbillon: () => svg(430, 220, `
+      <circle cx="130" cy="112" r="84" fill="none" stroke="${mu}" stroke-dasharray="5 5"/>
+      <path d="M${f(P(130, 112, 20, 94)[0])} ${f(P(130, 112, 20, 94)[1])} A94 94 0 0 1 ${f(P(130, 112, 80, 94)[0])} ${f(P(130, 112, 80, 94)[1])}" fill="none" stroke="${ac}" stroke-width="1.8"/>${arrowHead(...P(130, 112, 80, 94), 160, ac)}
+      <circle cx="130" cy="112" r="66" fill="none" stroke="${fg}" stroke-width="4"/>
+      ${[0, 120, 240].map(a => { const [x, y] = P(130, 112, a, 64); return `<path d="M130 112L${f(x)} ${f(y)}" stroke="${fg}" stroke-width="5" stroke-linecap="round"/>`; }).join("")}
+      <circle cx="130" cy="112" r="34" fill="none" stroke="${ac}" stroke-width="4"/>${spiral(130, 112, 4, 18, 4.5)}
+      ${gear(130, 164, 11, 15, 2.6, so)}
+      <circle cx="130" cy="112" r="5" fill="${fg}"/>
+      ${lab(240, 40, "Käfig: 1 Umdrehung pro Minute", "start", 190, 58)}
+      ${lab(240, 112, "Unruh mit Spirale", "start", 164, 112)}
+      ${lab(240, 176, "Hemmung im Käfig", "start", 140, 166)}`),
+    krone: () => svg(430, 170, `
+      <rect x="30" y="40" width="170" height="90" rx="30" fill="${so}" stroke="${fg}" stroke-width="1.4"/>
+      <path d="M200 85H${248}" stroke="${fg}" stroke-width="3"/>
+      ${[[206, 1], [222, .45], [238, .45]].map(([x, o], i) => `<rect x="${x}" y="72" width="14" height="26" rx="4" fill="${i ? "none" : sf}" stroke="${fg}" stroke-width="1.4" opacity="${o}" ${i ? 'stroke-dasharray="3 2"' : ""}/>`).join("")}
+      ${lab(213, 150, "0", "middle", 213, 100)}${lab(229, 150, "1", "middle", 229, 100)}${lab(245, 150, "2", "middle", 245, 100)}
+      ${lab(270, 50, "0 · eingedrückt: aufziehen")}${lab(270, 70, "1 · Datum schnell stellen")}${lab(270, 90, "2 · Zeiger stellen")}
+      ${lab(115, 90, "Gehäuse (Seitenansicht)", "middle")}`),
+    mondphase: () => svg(460, 200, `
+      <circle cx="140" cy="128" r="62" fill="#1d3463" stroke="${fg}" stroke-dasharray="4 3" opacity=".9"/>
+      <circle cx="${f(P(140, 128, -40, 40)[0])}" cy="${f(P(140, 128, -40, 40)[1])}" r="14" fill="#e8c766"/><circle cx="${f(P(140, 128, 140, 40)[0])}" cy="${f(P(140, 128, 140, 40)[1])}" r="14" fill="#e8c766"/>
+      <path d="M60 128 H220 V200 H60Z" fill="${sf}"/>
+      <path d="M90 128 A50 50 0 0 1 190 128 A16 16 0 0 0 158 128 A18 18 0 0 0 122 128 A16 16 0 0 0 90 128Z" fill="none" stroke="${fg}" stroke-width="1.6"/>
+      <path d="M60 128H220" stroke="${fg}" stroke-width="1.2"/>
+      ${lab(240, 60, "Mondscheibe mit zwei Monden", "start", 196, 90)}
+      ${lab(240, 80, "59 Zähne: eine Umdrehung in 59 Tagen", "start")}
+      ${lab(240, 128, "Fenster mit zwei Wölbungen", "start", 186, 124)}
+      ${lab(240, 148, "verdecken den Mond nach und nach", "start")}`),
+    wasserdichtigkeit: () => svg(430, 240, `
+      <defs><linearGradient id="dgw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fb5e6"/><stop offset="1" stop-color="#0f2f5c"/></linearGradient></defs>
+      <rect x="40" y="20" width="44" height="210" rx="6" fill="url(#dgw)"/>
+      ${[[3, 30, "Spritzwasser, Händewaschen"], [5, 50, "Duschen, kurzes Schwimmen"], [10, 100, "Schwimmen, Schnorcheln"], [20, 200, "Sporttauchen"], [30, 300, "Tauchen, Taucheruhr nach ISO 6425"]].map(([bar, m, t], i) => { const y = 34 + i * 42; return `<path d="M84 ${y}H104" stroke="${fg}"/><text x="110" y="${y + 4}" ${F} font-size="11" font-weight="600" fill="${fg}">${bar} bar · ${m} m</text><text x="200" y="${y + 4}" ${F} font-size="11" fill="${mu}">${t}</text>`; }).join("")}`),
+    lagersteine: () => svg(400, 190, `
+      <rect x="40" y="96" width="200" height="34" fill="${so}" stroke="${fg}"/>${Array.from({ length: 12 }, (_, i) => `<path d="M${44 + i * 16} 130l12 -34" stroke="${mu}" stroke-width=".6"/>`).join("")}
+      <path d="M118 100h44v26h-44z" fill="${sf}"/><path d="M118 100 h18 v8 q4 8 0 18 h-18zM162 100 h-18 v8 q-4 8 0 18 h18z" fill="${ruby}"/>
+      <rect x="120" y="86" width="40" height="10" rx="3" fill="${ruby}" opacity=".85"/>
+      <path d="M140 190 V136 Q140 130 140 120 L140 110" stroke="${fg}" stroke-width="6"/><path d="M140 112 l0 -6" stroke="${fg}" stroke-width="3" stroke-linecap="round"/>
+      ${lab(260, 92, "Deckstein", "start", 160, 90)}
+      ${lab(260, 114, "Lochstein (Rubin)", "start", 162, 112)}
+      ${lab(260, 140, "Platine", "start", 236, 126)}
+      ${lab(260, 170, "Welle mit Zapfen", "start", 143, 160)}`)
+  };
+})();
+
+// ---------- Bausteine ----------
+const crumbs = items => `<div class="crumbs">${items.map((it, i) => (i ? '<span aria-hidden="true">›</span>' : "") + (it[1] != null ? `<a href="#${it[1]}">${esc(it[0])}</a>` : `<span>${esc(it[0])}</span>`)).join("")}</div>`;
+const factList = f => `<dl class="facts">${f.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>`;
+const shortName = e => e.brand ? e.t.replace(e.brand + " ", "") : e.t;
+// Variante: Werte überschreiben, null entfernt eine Eigenschaft
+const withVariant = (base, over) => { const o = { ...base }; Object.entries(over || {}).forEach(([k, val]) => { if (val === null) delete o[k]; else o[k] = val; }); return o; };
+// Bilder zu Lexikonartikeln: Schemazeichnung und/oder Beispielmodelle
+const NIGHT = { dial: "#060908", ink: "#2a3a2e", lume: "#86ffa4", hc: "#86ffa4", sec: "#86ffa4", case: "black", bezelColor: "#0b0d0c", strap: "rubber", strapColor: "#0d0f0e", top: [], bottom: [], brandText: "", origin: "" };
+function lexFigure(e) {
+  const fg = e.fig, ms = (fg.m || []).filter(id => byId[id]);
+  return `<div class="lexfig">
+    ${fg.d && DG[fg.d] ? `<figure class="diagram">${DG[fg.d]()}<figcaption>${esc(fg.dc || "Schemazeichnung, vereinfacht")}</figcaption></figure>` : ""}
+    ${ms.length ? `<div class="gallery">${ms.map((id, i) => `<a class="watchfig ${fg.night ? "night" : ""}" href="#${id}">${drawWatch(fg.night ? withVariant(byId[id].v, NIGHT) : byId[id].v, byId[id])}<figcaption><b>${esc(byId[id].t)}</b>${esc((fg.mc || [])[i] || "Beispielmodell")}</figcaption></a>`).join("")}</div>` : ""}
+  </div>`;
+}
+const thumb = e => e.brand ? `<div class="thumb">${drawWatch(e.v, e)}</div>` : "";
+const card = (e, label) => `
+  <a class="card" href="#${e.id}">
+    ${thumb(e)}
+    <span class="cat">${esc(label ?? (e.brand ? e.brand : e.c))}</span>
+    <h3>${esc(e.t)}</h3>
+    <p>${esc(e.s)}</p>
+  </a>`;
+
+function dailyCard(M, kicker) {
+  return `
+    <section class="daily" aria-labelledby="dh">
+      <div>
+        <div class="kicker">${esc(kicker)}<span>${new Date().toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long" })}</span></div>
+        <h2 id="dh">${esc(M.t)}</h2>
+        <p class="lead">${esc(M.s)}</p>
+        ${M.b.slice(0, 2).map(p => `<p>${esc(p)}</p>`).join("")}
+        <a class="go" href="#${M.id}">Ganzen Artikel lesen →</a>
+      </div>
+      ${M.brand
+        ? `<a class="daily-fig" href="#${M.id}" aria-label="${esc(M.t)} öffnen">${drawWatch(M.v, M)}</a>`
+        : `<aside><div class="label">${esc(M.c)}</div>${factList(M.f.slice(0, 4))}</aside>`}
+    </section>`;
+}
+
+// ---------- Ansichten ----------
+function viewHome() {
+  const M = ofTheDay(E, 7), F = featured(M.id);
+  return dailyCard(M, "Artikel des Tages") + `
+    <section class="feature" aria-labelledby="fh">
+      <div class="feature-head">
+        <h2 class="section-title" id="fh">Wissenswertes</h2>
+        <p>${fmt(F.start)} bis ${fmt(F.end)} · neue Auswahl ${F.left === 1 ? "morgen" : `in ${F.left} Tagen`}</p>
+      </div>
+      <div class="fgrid">${F.items.map(e => `
+        <a class="fcard" href="#${e.id}">
+          <span class="kicker">Wusstest du?</span>
+          <blockquote>${esc(e.k)}</blockquote>
+          <span class="more">Weiterlesen: <b>${esc(e.t)}</b> →</span>
+        </a>`).join("")}</div>
+    </section>
+    <section aria-labelledby="bh">
+      <h2 class="section-title" id="bh">Stöbern</h2>
+      <p class="count">${plural(MODELS.length, "Modell", "Modelle")} von ${plural(BRANDS.length, "Marke", "Marken")} · ${plural(LEX.length, "Lexikonbegriff", "Lexikonbegriffe")}</p>
+      <div class="browse">
+        <a href="#uhrenmodelle"><b>Uhrenmodelle</b><span>Uhr des Tages und alle Marken von ${esc(BRANDS[0] || "")} bis ${esc(BRANDS[BRANDS.length - 1] || "")}</span></a>
+        <a href="#a-z"><b>Lexikon A–Z</b><span>Alle Begriffe alphabetisch, von der Ankerhemmung bis zur Zaratsu-Politur</span></a>
+        <a href="#rubrik-persoenlichkeiten"><b>Persönlichkeiten</b><span>Breguet, Wilsdorf, Genta, Daniels und andere</span></a>
+      </div>
+    </section>`;
+}
+
+function viewModels() {
+  return crumbs([["Startseite", ""], ["Uhrenmodelle"]]) +
+    (MODELS.length ? dailyCard(ofTheDay(MODELS, 11), "Uhr des Tages") : "") + `
+    <h2 class="section-title">Marken</h2>
+    <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(MODELS.length, "Modell", "Modelle")}</p>
+    <div class="grid">${BRANDS.map(b => {
+      const ms = MODELS.filter(e => e.brand === b), info = BRAND_INFO[b];
+      return `
+      <a class="card" href="#marke-${slug(b)}">
+        <span class="cat">${info ? "gegründet " + esc(info.gegruendet) + " · " : ""}${plural(ms.length, "Modell", "Modelle")}</span>
+        <h3>${esc(b)}</h3>
+        <p>${esc(ms.map(shortName).sort((x, y) => x.localeCompare(y, "de")).join(", "))}</p>
+      </a>`;
+    }).join("")}</div>`;
+}
+
+function viewBrand(b) {
+  const ms = MODELS.filter(e => e.brand === b).sort((x, y) => x.t.localeCompare(y.t, "de"));
+  const info = BRAND_INFO[b], used = new Set();
+  return crumbs([["Uhrenmodelle", "uhrenmodelle"], [b]]) + `
+    <h2 class="page-title">${esc(b)}</h2>
+    ${info ? `<div class="brandinfo">
+      <div>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
+      ${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ["Modelle bei WikiTicks", String(ms.length)]])}
+    </div>` : ""}
+    <h3 class="section-title">Modelle</h3>
+    <p class="count">${plural(ms.length, "Modell", "Modelle")}</p>
+    <div class="grid">${ms.map(e => `
+      <a class="card" href="#${e.id}">
+        ${thumb(e)}
+        <span class="cat">${esc(e.since ? "seit " + e.since : "Modell")}</span>
+        <h3>${esc(shortName(e))}</h3>
+        <p>${esc(e.s)}</p>
+      </a>`).join("")}</div>`;
+}
+
+function viewCategory(c) {
+  const list = LEX.filter(e => e.c === c).sort((a, b) => a.t.localeCompare(b.t, "de"));
+  return crumbs([["Lexikon", "a-z"], [c]]) + `
+    <h2 class="page-title">${esc(c)}</h2>
+    <p class="intro">${esc(CAT_INTRO[c] || "")}</p>
+    <p class="count">${plural(list.length, "Begriff", "Begriffe")}</p>
+    <div class="grid">${list.map(e => card(e, c)).join("")}</div>`;
+}
+
+function viewAZ() {
+  const list = LEX.slice().sort((a, b) => a.t.localeCompare(b.t, "de"));
+  const groups = {};
+  list.forEach(e => { const l = e.t[0].toUpperCase().normalize("NFD")[0]; (groups[l] = groups[l] || []).push(e); });
+  const letters = Object.keys(groups).sort((a, b) => a.localeCompare(b, "de"));
+  return crumbs([["Startseite", ""], ["Lexikon A–Z"]]) + `
+    <h2 class="page-title">Lexikon A–Z</h2>
+    <p class="intro">Alle ${list.length} Begriffe des Lexikons alphabetisch. Die Uhrenmodelle findest du unter den Marken.</p>
+    <div class="letters">${letters.map(l => `<button type="button" data-l="${l}">${l}</button>`).join("")}</div>
+    ${letters.map(l => `
+      <div class="azgroup" id="az-${l}"><h3>${l}</h3><ul>
+        ${groups[l].map(e => `<li><a href="#${e.id}">${esc(e.t)}</a><small>${esc(e.c)}</small><br><span>${esc(e.s)}</span></li>`).join("")}
+      </ul></div>`).join("")}`;
+}
+
+function viewEntry(e) {
+  const used = new Set();
+  const trail = e.brand
+    ? [["Uhrenmodelle", "uhrenmodelle"], [e.brand, "marke-" + slug(e.brand)], [shortName(e)]]
+    : [["Lexikon", "a-z"], [e.c, "rubrik-" + slug(e.c)], [e.t]];
+  const facts = e.cur
+    ? `<div class="curbox">
+        <div class="label">Aktuelle Ausführung</div>
+        <div class="curref">${esc(e.cur)}</div>
+        ${factList(e.f)}
+        <p class="curnote">Frühere Ausführungen unterscheiden sich in Größe, Werk und Details. Siehe alle Referenzen unten.</p>
+      </div>`
+    : factList(e.f);
+  const refs = e.refs ? `<div class="label">Alle Referenzen</div>
+    <div class="refs-wrap"><table class="refs"><thead><tr><th>Ref.</th><th>Bauzeit</th><th>Größe</th><th>Kaliber</th><th>Merkmale</th></tr></thead>
+    <tbody>${e.refs.map(x => { const now = /^seit/.test(x[1]); return `<tr${now ? ' class="now"' : ""}><td class="m">${esc(x[0])}${now ? ' <span class="chip">aktuell</span>' : ""}</td><td class="m">${esc(x[1])}</td><td class="m">${esc(x[2])}</td><td class="m">${esc(x[3])}</td><td class="n">${esc(x[4])}</td></tr>`; }).join("")}</tbody></table></div>` : "";
+  const meta = e.brand ? `<p class="meta"><span>Hersteller <a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a></span><span>Erstvorstellung <b>${esc(e.since || "–")}</b></span>${e.designer ? `<span>Design <b>${esc(e.designer)}</b></span>` : ""}</p>` : "";
+  if (e.brand) used.add("marke-" + slug(e.brand));
+  const related = e.r.filter(id => byId[id] && id !== e.id);
+  return crumbs(trail) + `
+    <article>
+      <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}</div>
+      <h2>${esc(e.t)}</h2>
+      ${meta}
+      ${!e.brand && e.fig ? lexFigure(e) : ""}
+      ${e.brand ? (e.var && e.var.length ? `<div class="gallery">
+        <figure class="watchfig main">${drawWatch(e.v, e)}<figcaption><b>Aktuelle Ausführung</b>${esc(e.cur || "")}</figcaption></figure>
+        ${e.var.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, x.v), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}
+      </div><p class="gallery-note">Illustrationen, vereinfacht und nicht maßstabsgetreu</p>` : `<figure class="watchfig">${drawWatch(e.v, e)}<figcaption>Illustration der aktuellen Ausführung, vereinfacht und nicht maßstabsgetreu</figcaption></figure>`) : ""}
+      <p class="lead">${esc(e.s)}</p>
+      ${(() => {
+        const H = (key, title) => `<h3 class="art-h" id="sec-${key}">${title}</h3>`;
+        const P = arr => arr.map(p => `<p>${linkify(esc(p), e.id, used)}</p>`).join("");
+        const UL = arr => `<ul class="art-list">${arr.map(t => `<li>${linkify(esc(t), e.id, used)}</li>`).join("")}</ul>`;
+        if (e.brand) {
+          // Zeitleiste aus Referenzen und besonderen Ereignissen
+          const yr = t => { const m = String(t).match(/\d{4}/); return m ? +m[0] : null; };
+          const tl = [...(e.refs || []).filter(x => yr(x[1])).map(x => [yr(x[1]), `Ref. ${x[0]}${x[4] ? ": " + x[4] : ""}`]), ...(e.ev || []).map(x => [yr(x[0]), x[1]])]
+            .filter(x => x[0]).sort((a, b) => a[0] - b[0]);
+          const timeline = tl.length >= 3 ? `<ol class="timeline">${tl.map(([y, t]) => `<li><span class="ty">${y}</span><span class="tt">${linkify(esc(t), e.id, used)}</span></li>`).join("")}</ol>` : "";
+          const parts = [["geschichte", "Geschichte"], ...(timeline ? [["zeitleiste", "Zeitleiste"]] : []), ...(e.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ["technik", "Technik der aktuellen Ausführung"], ...(e.tipp ? [["sammler", "Wissenswert für Sammler und Käufer"]] : []), ...(e.refs ? [["referenzen", "Alle Referenzen"]] : [])];
+          return `<nav class="toc" aria-label="Inhalt">${parts.map(([k, t]) => `<button type="button" data-sec="${k}">${t}</button>`).join("")}</nav>`
+            + H("geschichte", "Geschichte") + P(e.b)
+            + (timeline ? H("zeitleiste", "Zeitleiste") + timeline : "")
+            + (e.m ? H("merkmale", "Erkennungsmerkmale") + UL(e.m) : "")
+            + H("technik", "Technik der aktuellen Ausführung") + facts
+            + (e.tipp ? H("sammler", "Wissenswert für Sammler und Käufer") + UL(e.tipp) : "")
+            + (e.refs ? H("referenzen", "Alle Referenzen") + refs.replace('<div class="label">Alle Referenzen</div>', "") : "");
+        }
+        const person = e.c === "Persönlichkeiten";
+        return H("grundlagen", person ? "Herkunft" : "Grundlagen") + P(e.b.slice(0, 1))
+          + (e.g ? H("geschichte", "Geschichte") + P(e.g) : "")
+          + (e.b.length > 1 ? H("detail", person ? "Leben und Werk" : "Im Detail") + P(e.b.slice(1)) : "")
+          + H("eckdaten", "Auf einen Blick") + facts;
+      })()}
+      ${related.length ? `<div class="label">Siehe auch</div><div class="rel">${related.map(id => `<a href="#${id}">${esc(byId[id].t)}</a>`).join("")}</div>` : ""}
+    </article>`;
+}
+
+function viewSearch(term) {
+  const t = term.toLowerCase();
+  const hit = e => [e.t, e.brand, e.s, ...(e.a || []), ...e.b, ...(e.refs || []).map(x => x[0])].join(" ").toLowerCase().includes(t);
+  const lex = LEX.filter(hit).sort((a, b) => a.t.localeCompare(b.t, "de"));
+  const mod = MODELS.filter(hit).sort((a, b) => a.t.localeCompare(b.t, "de"));
+  const brands = BRANDS.filter(b => b.toLowerCase().includes(t));
+  const n = lex.length + mod.length + brands.length;
+  return `
+    <h2 class="page-title">Suche</h2>
+    <p class="count">${plural(n, "Treffer", "Treffer")} für »${esc(term)}«</p>
+    ${n ? "" : `<p class="empty">Nichts gefunden. Versuche einen anderen Begriff oder stöbere im <a href="#a-z">Lexikon A–Z</a>.</p>`}
+    ${brands.length ? `<div class="label">Marken</div><div class="grid">${brands.map(b => `<a class="card" href="#marke-${slug(b)}"><span class="cat">Marke</span><h3>${esc(b)}</h3><p>${plural(MODELS.filter(e => e.brand === b).length, "Modell", "Modelle")}</p></a>`).join("")}</div>` : ""}
+    ${mod.length ? `<div class="label">Uhrenmodelle</div><div class="grid">${mod.map(e => card(e)).join("")}</div>` : ""}
+    ${lex.length ? `<div class="label">Lexikon</div><div class="grid">${lex.map(e => card(e)).join("")}</div>` : ""}`;
+}
+
+// ---------- Routing ----------
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  renderNav(h);
+  $("#nav").classList.remove("open"); $("#menu").setAttribute("aria-expanded", "false");
+  const brand = h.startsWith("marke-") && BRANDS.find(b => slug(b) === h.slice(6));
+  const cat = h.startsWith("rubrik-") && CAT_ORDER.find(c => slug(c) === h.slice(7));
+  let html;
+  if (q.trim()) html = viewSearch(q.trim());
+  else if (h === "uhrenmodelle") html = viewModels();
+  else if (h === "a-z") html = viewAZ();
+  else if (brand) html = viewBrand(brand);
+  else if (cat) html = viewCategory(cat);
+  else if (byId[h]) html = viewEntry(byId[h]);
+  else html = viewHome();
+  $("#view").innerHTML = html;
+}
+
+window.addEventListener("hashchange", () => { q = ""; $("#q").value = ""; route(); window.scrollTo({ top: 0 }); });
+$("#q").addEventListener("input", ev => { q = ev.target.value; route(); });
+$("#view").addEventListener("click", ev => {
+  const t = ev.target.closest(".toc button");
+  if (t) document.getElementById("sec-" + t.dataset.sec)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  const b = ev.target.closest(".letters button");
+  if (b) document.getElementById("az-" + b.dataset.l)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+});
+
+// ---------- Farbumschalter (Auswahl wird im Browser gemerkt) ----------
+const ACCENTS = ["blue", "green", "bordeaux", "anthrazit"];
+function setAccent(a) {
+  if (!ACCENTS.includes(a)) a = "blue";
+  if (a === "blue") document.documentElement.removeAttribute("data-accent");
+  else document.documentElement.setAttribute("data-accent", a);
+  document.querySelectorAll(".accent-switch button").forEach(b => b.setAttribute("aria-pressed", b.dataset.accent === a));
+}
+try { setAccent(localStorage.getItem("wikiticks-accent")); } catch (e) {}
+document.querySelector(".accent-switch").addEventListener("click", ev => {
+  const b = ev.target.closest("button"); if (!b) return;
+  setAccent(b.dataset.accent);
+  try { localStorage.setItem("wikiticks-accent", b.dataset.accent); } catch (e) {}
+});
+
+// ---------- Zifferblatt ----------
+(function dial() {
+  let h = "";
+  for (let i = 0; i < 60; i++) {
+    const a = i * 6 * Math.PI / 180, big = i % 5 === 0, r1 = big ? 46 : 50, r2 = 53;
+    h += `<line x1="${60 + r1 * Math.sin(a)}" y1="${60 - r1 * Math.cos(a)}" x2="${60 + r2 * Math.sin(a)}" y2="${60 - r2 * Math.cos(a)}" stroke="${big ? "var(--fg)" : "var(--muted)"}" stroke-width="${big ? 2 : .8}"/>`;
+  }
+  $("#ticks").innerHTML = h;
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const set = (id, deg) => $(id).setAttribute("transform", `rotate(${deg} 60 60)`);
+  function tick() {
+    const d = new Date(), steps = reduce ? 1 : 8; // 4 Hz = 8 Halbschwingungen pro Sekunde
+    const sec = d.getSeconds() + Math.floor(d.getMilliseconds() / (1000 / steps)) / steps;
+    set("#sh", sec * 6); set("#mh", (d.getMinutes() + sec / 60) * 6); set("#hh", ((d.getHours() % 12) + d.getMinutes() / 60) * 30);
+  }
+  tick(); setInterval(tick, reduce ? 1000 : 125);
+})();
+
+// ---------- Daten laden ----------
+const load = f => fetch(f).then(r => r.ok ? r.json() : null).catch(() => null);
+// Eingebettete Daten (Offline-Version) haben Vorrang, sonst werden die JSON-Dateien geladen
+const DATA = window.WIKITICKS_DATA;
+(DATA ? Promise.resolve([DATA.lexikon, DATA.modelle]) : Promise.all([load("lexikon.json"), load("modelle.json")])).then(([lex, mod]) => {
+  if (!lex && !mod) { $("#view").innerHTML = '<p class="empty">Die Inhalte konnten nicht geladen werden. Bitte lade die Seite neu.</p>'; return; }
+  E = [...(lex || []), ...((mod && mod.modelle) || []).map(m => ({ ...m, c: "Uhrenmodelle" }))];
+  ((mod && mod.marken) || []).forEach(m => { BRAND_INFO[m.name] = m; });
+  rebuild(); route();
+});
+</script>
+
+</body>
+</html>
