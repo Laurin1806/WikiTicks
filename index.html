@@ -566,7 +566,7 @@ function drawWatch(v = {}, e = null) {
     <filter id="${id}h" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx=".8" dy="1.6" stdDeviation=".9" flood-opacity=".5"/></filter>
   </defs><g filter="url(#${id}s)">`);
   const metal = `url(#${id}m)`;
-  const frame = ["gold", "rose", "bronze"].includes(v.case) ? M[1] : "#d9dee4";
+  const frame = v.frame || (["gold", "rose", "bronze"].includes(v.case) ? M[1] : "#d9dee4");
   const done = () => `<svg viewBox="4 18 192 224" class="watch" role="img" aria-hidden="true">${vint ? `<g transform="translate(${cx} ${cy}) scale(.93) translate(${-cx} ${-cy})">` : ""}${S.join("")}</g>${vint ? "</g>" : ""}</svg>`;
 
   // Band und Bandanstöße
@@ -1350,7 +1350,7 @@ function viewEntry(e) {
   const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
   return crumbs(trail) + `
     <article>
-      ${e.brand ? `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}Illustration, vereinfacht</figcaption></figure>` : LF.top}
+      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}<br>Illustration, vereinfacht</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}Illustration, vereinfacht</figcaption></figure>`) : LF.top}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}

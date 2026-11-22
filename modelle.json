@@ -464,13 +464,9 @@
      }
     },
     {
-     "n": "Ref. 226570 schwarz",
+     "n": "Ref. 226570 »Polar«",
      "y": "seit 2021",
-     "v": {
-      "dial": "#17191d",
-      "ink": null,
-      "lume": null
-     }
+     "v": {}
     }
    ],
    "m": [
@@ -518,6 +514,27 @@
      ]
     ],
     "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, in Pfund)."
+   },
+   "topv": {
+    "n": "Ref. 16570 »Polar«",
+    "y": "1989–2011",
+    "v": {
+     "dial": "#f6f6f3",
+     "lume": "#f8f8f5",
+     "frame": "#1d2128",
+     "ink": "#1d2128",
+     "hc": "#1d2128",
+     "gmt": "#d0342c",
+     "top": [
+      "OYSTER PERPETUAL DATE",
+      "EXPLORER II"
+     ],
+     "bottom": [
+      "SUPERLATIVE CHRONOMETER",
+      "OFFICIALLY CERTIFIED"
+     ],
+     "sec": "#1d2128"
+    }
    }
   },
   {
