@@ -708,9 +708,10 @@ function drawWatch(v = {}, e = null) {
   else if (v.guards && !rcrown) { const gx = edgeX(crownY) - 4; S.push(`<path d="M${f1(gx)} ${crownY - 16} l12 6 v20 l-12 6z" fill="${metal}"/>`); }
   if (v.crown === "onion") { const ox = cxr + cr[0] / 2; S.push(`<path d="M${cxr} ${crownY - 12} Q${ox + 12} ${crownY - 14} ${cxr + cr[0]} ${crownY} Q${ox + 12} ${crownY + 14} ${cxr} ${crownY + 12}Z" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`); }
   if (v.pushers) [-34, 34].forEach(dy => {
-    const y = crownY + dy, ex = edgeX(y, v.crownLeft);
-    if (v.crownLeft) S.push(`<rect x="${f1(ex - 1)}" y="${y - 2.5}" width="4" height="5" fill="${M[2]}"/><rect x="${f1(ex - 9.5)}" y="${y - 6}" width="9" height="12" rx="3" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
-    else S.push(`<rect x="${f1(ex - 3)}" y="${y - 2.5}" width="4" height="5" fill="${M[2]}"/><rect x="${f1(ex + .5)}" y="${y - 6}" width="9" height="12" rx="3" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`); // Drücker sitzen nah am Gehäuse
+    // Drücker stehen radial: zur Uhrenmitte hin geneigt
+    const y = crownY + dy, ex = edgeX(y, v.crownLeft), deg = shape === "round" ? Math.atan2(y - cy, ex - cx) * 180 / Math.PI : v.crownLeft ? 180 : 0; // eckige Gehäuse: gerade Drücker
+    const g = `<g transform="rotate(${f1(deg)} ${f1(ex)} ${y})"><rect x="${f1(ex - 3)}" y="${y - 2.5}" width="4" height="5" fill="${M[2]}"/><rect x="${f1(ex + .5)}" y="${y - 6}" width="9" height="12" rx="3" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/></g>`;
+    S.push(g);
   });
 
   // Lünette (runde Gehäuse)
