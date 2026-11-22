@@ -310,6 +310,12 @@ footer .wrap { padding-block: 20px 28px; }
   nav.open { display: grid; }
   .daily, .brandinfo { grid-template-columns: minmax(0, 1fr); gap: 18px; }
   .daily { padding: 22px; }
+  .daily-txt { display: contents; }
+  .daily .kicker, .daily h2, .daily .lead { order: 0; margin-bottom: 0; }
+  .daily h2 { margin: 0; }
+  .daily .daily-fig, .daily aside { order: 1; }
+  .daily .daily-body, .daily .go { order: 2; margin: 0; }
+  .daily .daily-fig { min-height: 0; }
   .daily aside { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 14px; }
   .facts { grid-template-columns: minmax(0, 1fr); }
   .facts dt { border-bottom: 0; padding-bottom: 0; }
@@ -1211,11 +1217,11 @@ function dailyCard(M, kicker, varName = "") {
   const vv = vx ? withVariant(M.v, { ...vx.v, ...(+((vx.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : mainV(M);
   return `
     <section class="daily" aria-labelledby="dh">
-      <div>
+      <div class="daily-txt">
         <div class="kicker">${esc(kicker)}<span>${new Date().toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long" })}</span></div>
         <h2 id="dh">${esc(M.t)}</h2>
         <p class="lead">${esc(M.s)}</p>
-        ${M.b.slice(0, 2).map(p => `<p>${esc(p)}</p>`).join("")}
+        ${M.b.slice(0, 2).map(p => `<p class="daily-body">${esc(p)}</p>`).join("")}
         <a class="go" href="#${M.id}">Ganzen Artikel lesen →</a>
       </div>
       ${M.brand
