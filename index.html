@@ -1246,8 +1246,9 @@ function dailyCard(M, kicker, varName = "", hid = "dh") {
 // ---------- Ansichten ----------
 function viewHome() {
   const M = (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || ofTheDay(E, 7), F = featured(M.id);
-  let W = MODELS.length ? ofTheDay(MODELS, 11) : null;
-  if (W && W.id === M.id) W = MODELS[(MODELS.indexOf(W) + 1) % MODELS.length];
+  // Uhr des Tages: nie dasselbe Modell und nie dieselbe Marke wie der Artikel des Tages
+  const pool = MODELS.filter(e => e.id !== M.id && (!M.brand || e.brand !== M.brand));
+  const W = pool.length ? ofTheDay(pool, 11) : null;
   return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES ? ARTIKEL_DES_TAGES_VARIANTE : "") + (W ? dailyCard(W, "Uhr des Tages", "", "dh2") : "") + `
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
