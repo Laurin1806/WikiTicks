@@ -326,7 +326,6 @@ footer .wrap { padding-block: 20px 28px; }
   .daily h2 { margin: 0; }
   .daily .daily-fig, .daily aside { order: 1; }
   .daily .daily-body, .daily .go { order: 2; margin: 0; }
-  .daily .daily-more { display: none; }
   .daily .daily-fig { min-height: 0; }
   .daily aside { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 14px; }
   .facts { grid-template-columns: minmax(0, 1fr); }
@@ -1224,16 +1223,18 @@ const card = (e, label) => `
     <p>${esc(e.s)}</p>
   </a>`;
 
-function dailyCard(M, kicker, varName = "") {
+const firstSentences = (t, n = 2) => { const p = t.split(/(?<=[.!?])\s+(?=[A-ZÄÖÜ»])/); return p.slice(0, n).join(" "); };
+function dailyCard(M, kicker, varName = "", hid = "dh") {
   const vx = varName && (M.var || []).find(x => x.n.includes(varName));
   const vv = vx ? withVariant(M.v, { ...vx.v, ...(+((vx.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : mainV(M);
   return `
-    <section class="daily" aria-labelledby="dh">
+    <section class="daily" aria-labelledby="${hid}">
       <div class="daily-txt">
         <div class="kicker">${esc(kicker)}<span>${new Date().toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long" })}</span></div>
-        <h2 id="dh">${esc(M.t)}</h2>
+        <h2 id="${hid}">${esc(M.t)}</h2>
         <p class="lead">${esc(M.s)}</p>
-        ${M.b.slice(0, 2).map((p, i) => `<p class="daily-body${i ? " daily-more" : ""}">${esc(p)}</p>`).join("")}
+        <p class="daily-body">${esc(firstSentences(M.b[0]))}</p>
+        ${M.w ? `<p class="daily-body daily-w"><b>Wirkung:</b> ${esc(M.w)}</p>` : ""}
         <a class="go" href="#${M.id}">Ganzen Artikel lesen →</a>
       </div>
       ${M.brand
@@ -1245,7 +1246,9 @@ function dailyCard(M, kicker, varName = "") {
 // ---------- Ansichten ----------
 function viewHome() {
   const M = (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || ofTheDay(E, 7), F = featured(M.id);
-  return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES ? ARTIKEL_DES_TAGES_VARIANTE : "") + `
+  let W = MODELS.length ? ofTheDay(MODELS, 11) : null;
+  if (W && W.id === M.id) W = MODELS[(MODELS.indexOf(W) + 1) % MODELS.length];
+  return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES ? ARTIKEL_DES_TAGES_VARIANTE : "") + (W ? dailyCard(W, "Uhr des Tages", "", "dh2") : "") + `
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
         <h2 class="section-title" id="fh">Wissenswertes</h2>
@@ -1277,7 +1280,7 @@ const vtoggle = () => `<div class="vtoggle" role="group" aria-label="Ansicht"><b
 
 function viewModels() {
   return crumbs([["Startseite", ""], ["Uhrenmodelle"]]) +
-    (MODELS.length ? dailyCard(ofTheDay(MODELS, 11), "Uhr des Tages") : "") + `
+    `
     <div class="vhead"><div><h2 class="section-title">Marken</h2>
     <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(MODELS.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
     ${listMode ? brandList() : `<div class="grid">${BRANDS.map(b => {
