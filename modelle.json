@@ -579,7 +579,8 @@
      "OYSTER PERPETUAL",
      "DATE"
     ],
-    "pipColor": "#eef0e6"
+    "pipColor": "#eef0e6",
+    "coin": true
    },
    "var": [
     {
@@ -957,7 +958,8 @@
      "GMT-MASTER II",
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
-    ]
+    ],
+    "coin": true
    },
    "var": [
     {
@@ -1587,7 +1589,8 @@
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
     ],
-    "bottomColor": "#d0342c"
+    "bottomColor": "#d0342c",
+    "coin": true
    },
    "var": [
     {
@@ -5323,7 +5326,8 @@
      "SEA-DWELLER",
      "DEEPSEA",
      "12 800ft = 3900m"
-    ]
+    ],
+    "coin": true
    },
    "var": [
     {

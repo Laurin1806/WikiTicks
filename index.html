@@ -510,6 +510,7 @@ function drawWatch(v = {}, e = null) {
     <radialGradient id="${id}g" cx=".3" cy=".18" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></radialGradient>
     <linearGradient id="${id}k" x1="0" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
     <linearGradient id="${id}rv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${M[2]}"/><stop offset=".45" stop-color="${mix(M[0], .3)}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
+    <linearGradient id="${id}sat" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], -.22)}"/><stop offset=".18" stop-color="${mix(M[1], .1)}"/><stop offset=".55" stop-color="${mix(M[1], .18)}"/><stop offset=".85" stop-color="${M[1]}"/><stop offset="1" stop-color="${mix(M[1], -.28)}"/></linearGradient>
     <radialGradient id="${id}az"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></radialGradient>
     <filter id="${id}s" x="-20%" y="-10%" width="140%" height="125%"><feDropShadow dx="0" dy="4" stdDeviation="4.5" flood-opacity=".28"/></filter>
     <filter id="${id}h" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx=".8" dy="1.6" stdDeviation=".9" flood-opacity=".5"/></filter>
@@ -531,20 +532,28 @@ function drawWatch(v = {}, e = null) {
   const trap = (y0, y1) => `M${f1(cx - hw(y0))} ${y0}L${f1(cx + hw(y0))} ${y0}L${f1(cx + hw(y1))} ${y1}L${f1(cx - hw(y1))} ${y1}Z`;
   const strapD = trap(0, 86) + trap(174, 260);
   if (!["rect", "square", "triangle", "porthole", "tonneau", "octagon"].includes(shape) && !v.wire && st !== "integrated") {
-    const lw = sw + 20, lx = cx - lw / 2;
-    S.push(`<path d="M${lx + 4} 46h${lw - 8}q4 0 4 4v42h${-lw}v-42q0-4 4-4ZM${lx} 168h${lw}v42q0 4-4 4h${-lw + 8}q-4 0-4-4Z" fill="${metal}"/><path d="M${lx + 4} 48h${lw - 8}" stroke="#fff" stroke-opacity=".5"/><path d="M${lx + 4} 212h${lw - 8}" stroke="#000" stroke-opacity=".25"/>`);
+    const lw = sw + 12, lx = cx - lw / 2;
+    // Bandanstöße: zum Gehäuse hin leicht ausgestellt, außen gerundet
+    const lug = (y0, y1) => { const d = y1 > y0 ? 1 : -1; return `M${lx + 3} ${y0}H${lx + lw - 3}Q${lx + lw + 1} ${y0} ${lx + lw + 1} ${y0 + d * 5}L${lx + lw + 6} ${y1}H${lx - 6}L${lx - 1} ${y0 + d * 5}Q${lx - 1} ${y0} ${lx + 3} ${y0}Z`; };
+    S.push(`<path d="${lug(50, 94)}${lug(210, 166)}" fill="${metal}"/><path d="M${lx + 3} 51.5H${lx + lw - 3}" stroke="#fff" stroke-opacity=".6"/><path d="M${lx + 3} 208.5H${lx + lw - 3}" stroke="#000" stroke-opacity=".25"/>`);
   }
   if (metalBand) {
     const pol = `url(#${id}p)`, bru = M[1], bru2 = mix(M[1], .12);
-    S.push(`<path d="${strapD}" fill="${M[2]}"/>`);
-    const H = { santos: 13, jubilee: 8, president: 11, integrated: shape === "porthole" ? 16 : 12, rouleaux: 7, panther: 6, mesh: 86, oyster: 12 }[st];
+    S.push(`<path d="${strapD}" fill="${st === "oyster" ? mix(M[2], -.35) : M[2]}"/>`);
+    const H = { santos: 13, jubilee: 8, president: 11, integrated: shape === "porthole" ? 16 : 12, rouleaux: 7, panther: 6, mesh: 86, oyster: 25 }[st];
     const piece = (from, to) => {
       const dir = to > from ? 1 : -1;
       for (let y = from, k = 0; dir > 0 ? y < to : y > to; y += dir * H, k++) {
         const a = dir > 0 ? y : Math.max(to, y - H), b = dir > 0 ? Math.min(to, y + H) : y, w = hw((a + b) / 2) * 2, x0 = cx - w / 2;
         const seg = (fx, fw, fill, rr = 1.6, iy = .7, dy = 0) => `<rect x="${f1(x0 + w * fx + .6)}" y="${f1(a + iy + dy)}" width="${f1(w * fw - 1.2)}" height="${f1(Math.max(1, b - a - 2 * iy))}" rx="${rr}" fill="${fill}"/>`;
         if (st === "santos") { S.push(seg(0, .34, bru, 1.5), seg(.34, .32, pol, 1.5), seg(.66, .34, bru, 1.5)); [.17, .83].forEach(fx => S.push(`<circle cx="${f1(x0 + w * fx)}" cy="${f1((a + b) / 2)}" r="1.4" fill="${M[0]}" stroke="${M[2]}" stroke-width=".5"/><path d="M${f1(x0 + w * fx - .9)} ${f1((a + b) / 2)}h1.8" stroke="${M[2]}" stroke-width=".5"/>`)); }
-        else if (st === "oyster") S.push(seg(0, .28, bru), seg(.28, .44, v.polishedCenter ? pol : bru2), seg(.72, .28, bru)); // Oyster: äußere Glieder schmaler als das Mittelglied
+        else if (st === "oyster") {
+          // Oyster nach Fotovorlage: schmale Außenglieder, breites Mittelglied, Mittelglieder um eine halbe Gliedlänge versetzt, satiniert
+          const sat = `url(#${id}sat)`, half = -dir * H / 2;
+          S.push(seg(0, .27, sat, 2.4, .6), seg(.73, .27, sat, 2.4, .6), seg(.27, .46, v.polishedCenter ? pol : sat, 2.4, .6, half));
+          const hl = (fx, fw, yy) => `<path d="M${f1(x0 + w * fx + 2)} ${f1(yy)}h${f1(w * fw - 4)}" stroke="#fff" stroke-opacity=".45" stroke-width=".7"/>`;
+          S.push(hl(0, .27, a + 1.3), hl(.73, .27, a + 1.3), hl(.27, .46, a + 1.3 + half));
+        }
         else if (st === "jubilee") S.push(seg(0, .3, bru), seg(.7, .3, bru), seg(.3, .13, pol, 2), seg(.57, .13, pol, 2), seg(.43, .14, pol, 2, .7, (k % 2 ? 1 : -1) * H / 2 * dir));
         else if (st === "president") S.push(seg(0, .34, pol, 5), seg(.34, .32, pol, 5), seg(.66, .34, pol, 5));
         else if (st === "integrated") S.push(seg(0, .4, bru, 1), seg(.6, .4, bru, 1), seg(.4, .2, pol, 1, 2.6), `<path d="M${f1(x0 + 1)} ${f1(a + 1)}h${f1(w * .4 - 2)}M${f1(x0 + w * .6 + 1)} ${f1(a + 1)}h${f1(w * .4 - 2)}" stroke="#fff" stroke-opacity=".55" stroke-width=".8"/>`);
