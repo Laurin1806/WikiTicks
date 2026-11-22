@@ -479,6 +479,8 @@ function drawWatch(v = {}, e = null) {
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
   const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
   const shape = v.shape || "round";
+  // Ältere Rolex (vor 2005): kleineres Gehäuse, schmaleres Band, schlanke Anstöße, kleine Krone und spitzer Kronenschutz
+  const vint = brand === "Rolex" && v.era === "vintage";
   const M = v.caseColor ? [mix(v.caseColor, .35), v.caseColor, mix(v.caseColor, -.45)] : (METAL[v.case] || METAL.steel);
   const dc = v.dial || "#1b1e24", dark = lum(dc) < .5;
   const ink = v.ink || (dark ? "#eef0f2" : "#1d2128"), lume = v.lume || ink, hc = v.hc || ink, sc = v.sec || hc;
@@ -517,13 +519,13 @@ function drawWatch(v = {}, e = null) {
   </defs><g filter="url(#${id}s)">`);
   const metal = `url(#${id}m)`;
   const frame = ["gold", "rose", "bronze"].includes(v.case) ? M[1] : "#d9dee4";
-  const done = () => `<svg viewBox="4 18 192 224" class="watch" role="img" aria-hidden="true">${S.join("")}</g></svg>`;
+  const done = () => `<svg viewBox="4 18 192 224" class="watch" role="img" aria-hidden="true">${vint ? `<g transform="translate(${cx} ${cy}) scale(.93) translate(${-cx} ${-cy})">` : ""}${S.join("")}</g>${vint ? "</g>" : ""}</svg>`;
 
   // Band und Bandanstöße
   let st = v.strap || (["Rolex", "Tudor"].includes(brand) ? "oyster" : "link3"); if (st === "bracelet") st = "oyster"; // Oyster nur bei Rolex/Tudor als Standard
   const metalBand = ["santos", "oyster", "link3", "omega", "jubilee", "president", "integrated", "rouleaux", "panther", "mesh"].includes(st);
   const integ = (st === "integrated" || shape === "porthole") && ["porthole", "octagon", "tonneau"].includes(shape);
-  const sw = shape === "rect" ? 76 : shape === "triangle" ? 60 : integ ? { porthole: 90, octagon: 84, tonneau: 84 }[shape] : 76;
+  const sw = shape === "rect" ? 76 : shape === "triangle" ? 60 : integ ? { porthole: 90, octagon: 84, tonneau: 84 }[shape] : vint ? 70 : 76;
   const taper = shape === "porthole" ? 6 : integ ? 22 : 10;
   const strapC = v.strapColor || (st === "leather" ? "#4a2f20" : st === "nato" ? "#4f5236" : "#1c1d20");
   // integrierte Bänder behalten bis zum Gehäuse die volle Breite und verjüngen sich erst danach
@@ -536,7 +538,7 @@ function drawWatch(v = {}, e = null) {
     const big = metalBand, lyre = v.lugs === "lyre" || v.lugs === "taper"; // taper: schlanke, gerade Flanken (Day-Date, Datejust)
     // Rolex-Sportmodelle nach Fotovorlage (Submariner): Anstöße stehen deutlich über, Flanke fast senkrecht und lang, kantige Spitze
     const rx = brand === "Rolex" && big && !lyre;
-    const lw = sw + (lyre ? 20 : rx ? 22 : big ? 26 : 16), lx = cx - lw / 2, y0 = rx ? 46 : big || lyre ? 43 : 48, out = lyre ? -6 : rx ? 20 : big ? 14 : 5, r = lyre ? 9 : rx ? 2.5 : big ? 6 : 4;
+    const lw = sw + (lyre ? 20 : vint ? 14 : rx ? 22 : big ? 26 : 16), lx = cx - lw / 2, y0 = vint ? 48 : rx ? 46 : big || lyre ? 43 : 48, out = lyre ? -6 : vint ? 12 : rx ? 20 : big ? 14 : 5, r = lyre ? 9 : vint ? 1.5 : rx ? 2.5 : big ? 6 : 4;
     // Außenkante: bei Lyra-Anstößen (Speedmaster) als weicher runder Bogen, sonst geschwungen zum Gehäuse hin (wie bei der Submariner)
     const edge = (x0, t, e, k) => { const d = e > t ? 1 : -1;
       return lyre ? `C${x0 + k * 7} ${t + d * 14} ${x0 + k * 6} ${e - d * 30} ${x0 + k * out} ${e}` : rx ? `L${x0 + k * out} ${e}` : `Q${x0 + k * 1} ${t + d * 26} ${x0 + k * out} ${e}`; }; // Rolex-Sport: gerade Schräge nach außen
@@ -678,12 +680,30 @@ function drawWatch(v = {}, e = null) {
   if (v.asym) right = 180;
   const cr = v.crown === "onion" ? [18, 24] : v.crown === "big" ? [16, 20] : [9, 15];
   const cxr = v.crownLeft ? edgeX(crownY, true) - cr[0] + 2 : edgeX(crownY) - 2;
-  if (!v.ballon) { S.push(`<rect x="${cxr}" y="${crownY - cr[1] / 2}" width="${cr[0]}" height="${cr[1]}" rx="3" fill="${metal}"/>`); let d = ""; for (let k = 2; k < cr[1] - 1; k += 2) d += `M${cxr + (v.crownLeft ? 1 : 3)} ${crownY - cr[1] / 2 + k}h${cr[0] - 4}`; S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".6"/>`); }
+  if (brand === "Rolex" && !v.crown && shape === "round" && !v.crownLeft) {
+    // Rolex-Krone: verschraubte Krone mit Tubus und Riffelung; neue Modelle groß (Triplock), ältere klein (Twinlock)
+    const ex = edgeX(crownY), cw = vint ? 9 : 12, ch = vint ? 14 : 19, tw = vint ? 4 : 5, th = vint ? 7 : 9;
+    S.push(`<rect x="${f1(ex - 2)}" y="${crownY - th / 2}" width="${tw + 2}" height="${th}" fill="${M[2]}"/>`);
+    const x0 = ex + tw - .5;
+    S.push(`<rect x="${f1(x0)}" y="${crownY - ch / 2}" width="${cw}" height="${ch}" rx="${vint ? 2 : 2.6}" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
+    let d = ""; for (let k = 1.6; k < ch - 1; k += vint ? 1.8 : 1.6) d += `M${f1(x0 + 1.4)} ${f1(crownY - ch / 2 + k)}h${cw - 2.8}`;
+    S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".55" opacity=".85"/><rect x="${f1(x0 + cw - 2.2)}" y="${crownY - ch / 2 + 1.5}" width="1.6" height="${ch - 3}" rx=".8" fill="#fff" fill-opacity=".45"/>`);
+    if (v.guards) {
+      // Kronenschutz oberhalb und unterhalb der Krone; neu: breite, runde Schultern, alt: kleine, spitze Form
+      const lobe = k => vint
+        ? `M${f1(edgeX(crownY + k * 17) - 1)} ${crownY + k * 17}L${f1(ex + 8)} ${crownY + k * 8}L${f1(ex - 1)} ${crownY + k * 7}Z`
+        : `M${f1(edgeX(crownY + k * 24) - 1)} ${crownY + k * 24}Q${f1(ex + 13)} ${crownY + k * 19} ${f1(ex + 12)} ${crownY + k * 11}Q${f1(ex + 11.5)} ${crownY + k * 9.6} ${f1(ex + 9)} ${crownY + k * 9.6}L${f1(ex - 1)} ${crownY + k * 9.6}Z`;
+      S.push(`<path d="${lobe(-1)}${lobe(1)}" fill="${metal}" stroke="${M[2]}" stroke-width=".5"/>`);
+      if (!vint) S.push(`<path d="M${f1(ex + 2)} ${crownY - 21}Q${f1(ex + 11)} ${crownY - 17} ${f1(ex + 10.5)} ${crownY - 11.5}" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width=".9"/>`);
+    }
+  } else {
+    if (!v.ballon) { S.push(`<rect x="${cxr}" y="${crownY - cr[1] / 2}" width="${cr[0]}" height="${cr[1]}" rx="3" fill="${metal}"/>`); let d = ""; for (let k = 2; k < cr[1] - 1; k += 2) d += `M${cxr + (v.crownLeft ? 1 : 3)} ${crownY - cr[1] / 2 + k}h${cr[0] - 4}`; S.push(`<path d="${d}" stroke="${M[2]}" stroke-width=".6"/>`); }
+  }
   if (v.cabochon && !v.ballon) S.push(`<circle cx="${cxr + cr[0] - 1}" cy="${crownY}" r="4" fill="#2a4fa8"/>`);
   if (v.crown2) S.push(`<rect x="${f1(edgeX(crownY - 40) - 3)}" y="${crownY - 47}" width="10" height="14" rx="3" fill="${metal}"/>`);
   if (v.lever) S.push(`<path d="M${right - 6} ${crownY - 22} Q${right + 22} ${crownY - 10} ${right + 20} ${crownY + 12} L${right - 4} ${crownY + 22}" fill="${metal}" stroke="${M[2]}" stroke-width=".8"/>`);
   if (v.guards && shape === "square") S.push(`<path d="M${right - 2} ${crownY - 14} q10 4 10 14 q0 10 -10 14z" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`);
-  else if (v.guards) { const gx = edgeX(crownY) - 4; S.push(`<path d="M${f1(gx)} ${crownY - 16} l12 6 v20 l-12 6z" fill="${metal}"/>`); }
+  else if (v.guards && !(brand === "Rolex" && !v.crown && shape === "round" && !v.crownLeft)) { const gx = edgeX(crownY) - 4; S.push(`<path d="M${f1(gx)} ${crownY - 16} l12 6 v20 l-12 6z" fill="${metal}"/>`); }
   if (v.crown === "onion") { const ox = cxr + cr[0] / 2; S.push(`<path d="M${cxr} ${crownY - 12} Q${ox + 12} ${crownY - 14} ${cxr + cr[0]} ${crownY} Q${ox + 12} ${crownY + 14} ${cxr} ${crownY + 12}Z" fill="${metal}" stroke="${M[2]}" stroke-width=".6"/>`); }
   if (v.pushers) [-34, 34].forEach(dy => {
     const y = crownY + dy, ex = edgeX(y, v.crownLeft);
@@ -1185,7 +1205,7 @@ function viewEntry(e) {
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
   const vars = e.brand ? (e.var || []).slice(0, 2) : [];
-  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, x.v), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
+  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...(+((x.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
   return crumbs(trail) + `
     <article>
       ${e.brand ? `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}Illustration, vereinfacht</figcaption></figure>` : LF.top}
