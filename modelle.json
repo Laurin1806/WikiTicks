@@ -2757,7 +2757,8 @@
     ],
     "track": "rail",
     "hands": "alpha",
-    "strap": "omega"
+    "strap": "omega",
+    "lugs": "lyre"
    },
    "var": [
     {
