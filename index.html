@@ -621,7 +621,7 @@ function drawWatch(v = {}, e = null) {
     return `M${ys.map(y => `${f1(cx + hw(y))} ${f1(y)}`).join("L")}L${ys.reverse().map(y => `${f1(cx - hw(y))} ${f1(y)}`).join("L")}Z`;
   };
   const strapD = trap(0, 86) + trap(174, 260);
-  if (!["rect", "square", "triangle", "porthole", "tonneau", "octagon"].includes(shape) && !v.wire && st !== "integrated") {
+  if (!["rect", "square", "triangle", "porthole", "tonneau", "octagon"].includes(shape) && !v.wire && (st !== "integrated" || v.sportLugs)) {
     // Bandanstöße: bei Metallbändern (Sportuhren) kräftig und lang wie bei der Submariner, sonst schlanker
     const big = metalBand, lyre = v.lugs === "lyre" || v.lugs === "taper"; // taper: schlanke, gerade Flanken (Day-Date, Datejust)
     // Rolex-Sportmodelle nach Fotovorlage (Submariner): Anstöße stehen deutlich über, Flanke fast senkrecht und lang, kantige Spitze

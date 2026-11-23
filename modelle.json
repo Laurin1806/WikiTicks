@@ -6243,7 +6243,8 @@
      "SEAMASTER",
      "DIVER 300M"
     ],
-    "strap": "omega"
+    "strap": "omega",
+    "sportLugs": true
    },
    "m": [
     "Zifferblatt mit Wellenmuster",
@@ -7078,7 +7079,8 @@
      "PELAGOS",
      "500 m – 1640 ft"
     ],
-    "guards": true
+    "guards": true,
+    "sportLugs": true
    },
    "m": [
     "Gehäuse und Band aus Titan",
@@ -23366,7 +23368,7 @@
     "hands": "sword",
     "bezel": "dive",
     "bezelColor": "#1f3a5f",
-    "strap": "link3",
+    "strap": "oyster",
     "case": "steel",
     "date": "3",
     "sportLugs": true
