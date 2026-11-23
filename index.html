@@ -632,7 +632,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112459"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112460"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1856,7 +1856,7 @@ function setNight(on, save = true, anim = false) {
     root.classList.add("theme-fade"); clearTimeout(fadeT); fadeT = setTimeout(() => root.classList.remove("theme-fade"), 1300);
     // Mond wandert beim Umschalten einmal herum: verschwindet zur Seite und kommt von der anderen Seite zurück
     const mg = document.querySelector("#nightbtn .mp-moons");
-    if (mg && mg.animate) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 1500, easing: "cubic-bezier(.55,.05,.35,1)" });
+    if (mg && mg.animate) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 1100, easing: "ease-in-out" });
   }
   root.classList.toggle("night", on);
   const b = document.getElementById("nightbtn");
