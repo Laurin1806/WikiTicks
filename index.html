@@ -562,8 +562,9 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
+const IMGV = "20261123c"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
-  if (v.img) return `<img class="watch wimg" src="${v.img}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
+  if (v.img) return `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
   const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
   const shape = v.shape || "round";
