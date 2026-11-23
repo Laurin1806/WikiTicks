@@ -1380,7 +1380,7 @@ const curSym = c => ({ USD: "USD", EUR: "EUR", GBP: "GBP", CHF: "CHF" }[c] || c)
 
 // Preisvergleich Neupreis -> Gebrauchtpreis je Referenz (Hantel-Diagramm auf gemeinsamer Skala), alles in Euro.
 // Zeile: [Referenz, Label Neu, Neupreis, Label Gebraucht, Gebrauchtpreis, Währung(en)]; Währung als "USD" oder ["USD", "EUR"] (neu, gebraucht).
-function priceChart(pr) {
+function priceChart(pr, refs) {
   if (!pr) return "";
   const fmt = n => n.toLocaleString("de-DE");
   if (!pr.rows || !pr.rows.length) {
@@ -1388,7 +1388,9 @@ function priceChart(pr) {
     const [v, d] = pr.liste, e = toEUR(v, pr.u);
     return `<div class="pl-box"><span class="label">Listenpreis</span><b>${fmt(e)} EUR</b><span class="pl-d">${esc(d)}</span>${pr.n ? `<p class="price-note">${esc(pr.n)}${pr.u !== "EUR" ? " " + FX_NOTE : ""}</p>` : ""}</div>`;
   }
-  const rows = pr.rows.map(r => { const c = r[5] || pr.u, [cn, cu] = Array.isArray(c) ? c : [c, c]; return { ref: r[0], nl: r[1], ul: r[3], no: r[2], uo: r[4], cn, cu, nv: r[2] != null ? toEUR(r[2], cn) : null, uv: r[4] != null ? toEUR(r[4], cu) : null }; });
+  // Baujahr aus der Referenztabelle, wenn kein Listenpreis vorliegt
+  const yearOf = ref => { const n = x => String(x).toLowerCase().replace(/[^a-z0-9.]/g, ""), q = n(ref); if (q.length < 3) return ""; const hit = (refs || []).find(x => String(x[0]).split(/[\/,]/).some(t => { const k = n(t); return k.length >= 3 && (k === q || (k.length >= 4 && q.length >= 4 && (k.startsWith(q) || q.startsWith(k))) || (k.length >= 6 && q.length >= 6 && (k.includes(q) || q.includes(k)))); })); return hit && /\d{4}/.test(hit[1]) ? String(hit[1]).replace(/\s*\(.*\)/, "") : ""; };
+  const rows = pr.rows.map(r => { const c = r[5] || pr.u, [cn, cu] = Array.isArray(c) ? c : [c, c]; return { yr: r[2] == null ? yearOf(r[0]) : "", ref: r[0], nl: r[1], ul: r[3], no: r[2], uo: r[4], cn, cu, nv: r[2] != null ? toEUR(r[2], cn) : null, uv: r[4] != null ? toEUR(r[4], cu) : null }; });
   const conv = rows.some(r => r.cn !== "EUR" || r.cu !== "EUR");
   const vals = rows.flatMap(r => [r.nv, r.uv]).filter(v => v != null);
   const span = Math.max(...vals) - Math.min(...vals) || Math.max(...vals) * .3;
@@ -1402,7 +1404,7 @@ function priceChart(pr) {
     const dTxt = d == null ? "" : (d > 0 ? "+" : d < 0 ? "−" : "±") + Math.abs(d) + " %";
     const tip = [r.nv != null ? `Neu ${fmt(r.nv)}` : "", r.uv != null ? `Gebraucht ${fmt(r.uv)}` : ""].filter(Boolean).join(" · ") + " EUR";
     return `<div class="pc-row" tabindex="0" title="${esc(`${r.ref}: ${tip}`)}">
-      <div class="pc-ref"><b>${esc(r.ref)}</b><span>${esc(r.nl)}${r.nl && r.ul ? " → " : ""}${esc(r.ul)}</span></div>
+      <div class="pc-ref"><b>${esc(r.ref)}</b><span>${r.yr && !r.nl ? `Baujahr ${esc(r.yr)} → ` : ""}${esc(r.nl)}${r.nl && r.ul ? " → " : ""}${esc(r.ul)}</span></div>
       <div class="pc-track">${ticks.map(t => `<i class="pc-grid" style="left:${X(t)}%"></i>`).join("")}
         ${both ? `<i class="pc-bar" style="left:${X(Math.min(r.nv, r.uv))}%;width:${(X(Math.max(r.nv, r.uv)) - X(Math.min(r.nv, r.uv))).toFixed(2)}%"></i>` : ""}
         ${r.uv != null ? `<i class="pc-dot pc-used" style="left:${X(r.uv)}%"></i>` : ""}${r.nv != null ? `<i class="pc-dot pc-new" style="left:${X(r.nv)}%"></i>` : ""}
@@ -1419,7 +1421,7 @@ function priceChart(pr) {
     <div class="pc-row pc-axis" aria-hidden="true"><div></div><div class="pc-track">${ticks.map(t => `<span style="left:${X(t)}%">${tl(t)}</span>`).join("")}</div><div class="pc-unit">EUR</div></div>
     ${pr.n || conv ? `<p class="price-note">${esc(pr.n || "")}${conv ? " " + FX_NOTE : ""}</p>` : ""}
     <details class="pc-table"><summary>Als Tabelle anzeigen</summary><div class="refs-wrap"><table class="refs"><thead><tr><th>Referenz</th><th>Neupreis</th><th>Gebrauchtpreis</th><th>Veränderung</th></tr></thead><tbody>
-      ${rows.map(r => `<tr><td class="m">${esc(r.ref)}</td><td class="m">${orig(r.no, r.cn, r.nl)}</td><td class="m">${orig(r.uo, r.cu, r.ul)}</td><td class="m">${r.nv != null && r.uv != null ? Math.round((r.uv / r.nv - 1) * 100) + " %" : "–"}</td></tr>`).join("")}
+      ${rows.map(r => `<tr><td class="m">${esc(r.ref)}</td><td class="m">${r.no == null && r.yr ? `– · Baujahr ${esc(r.yr)}` : orig(r.no, r.cn, r.nl)}</td><td class="m">${orig(r.uo, r.cu, r.ul)}</td><td class="m">${r.nv != null && r.uv != null ? Math.round((r.uv / r.nv - 1) * 100) + " %" : "–"}</td></tr>`).join("")}
     </tbody></table></div></details>
   </figure>`;
 }
@@ -1474,7 +1476,7 @@ function viewEntry(e) {
             + (timeline ? H("zeitleiste", "Zeitleiste") + timeline : "")
             + (e.m ? H("merkmale", "Erkennungsmerkmale") + UL(e.m) : "")
             + (e.x && e.x.length ? H("experte", "Expertenwissen") + UL(e.x) : "")
-            + ((e.tipp && e.tipp.length) || e.preis ? H("sammler", "Wissenswert für Sammler und Käufer") + ((e.tipp && e.tipp.length) ? UL(e.tipp) : "") + priceChart(e.preis) : "")
+            + ((e.tipp && e.tipp.length) || e.preis ? H("sammler", "Wissenswert für Sammler und Käufer") + ((e.tipp && e.tipp.length) ? UL(e.tipp) : "") + priceChart(e.preis, e.refs) : "")
             + (e.refs ? H("referenzen", "Alle Referenzen") + refs.replace('<div class="label">Alle Referenzen</div>', "") : "")
             + H("technik", "Technik der aktuellen Ausführung") + facts;
         }
