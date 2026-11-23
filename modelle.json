@@ -7331,7 +7331,7 @@
      "v": {
       "bezelColor": "#1e3f7a",
       "dial": "#1b2a44",
-      "img": null
+      "img": "assets/watches/tudor-black-bay-blue.jpg"
      }
     }
    ],
@@ -7631,7 +7631,7 @@
       "tex": "sunburst",
       "ink": "#e9ecef",
       "hc": "#e9ecef",
-      "img": null
+      "img": "assets/watches/cartier-santos-blue.jpg"
      }
     },
     {
@@ -8373,7 +8373,7 @@
      "y": "seit 2022",
      "v": {
       "dial": "#1f5a3e",
-      "img": null
+      "img": "assets/watches/breitling-navitimer-green.jpg"
      }
     },
     {
@@ -14755,7 +14755,7 @@
      "v": {
       "caseColor": "#b9433a",
       "strapColor": "#b9433a",
-      "img": null
+      "img": "assets/watches/swatch-moonswatch-mission-to-mars.jpg"
      }
     },
     {
@@ -14765,7 +14765,7 @@
       "caseColor": "#2f4d8f",
       "strapColor": "#2f4d8f",
       "dial": "#1c2d55",
-      "img": null
+      "img": "assets/watches/swatch-moonswatch-mission-to-neptune.jpg"
      }
     }
    ],
@@ -14883,7 +14883,7 @@
      "y": "seit 2021",
      "v": {
       "dial": "#22533a",
-      "img": null
+      "img": "assets/watches/tissot-prx-green.jpg"
      }
     }
    ],
