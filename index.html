@@ -289,6 +289,9 @@ article .curbox { margin-top: 10px; }
 .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 24px; }
 .letters button { font: inherit; font-family: var(--font-mono); font-size: 13px; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); cursor: pointer; }
 .letters button:hover { border-color: var(--accent); color: var(--accent); }
+.tomodels { font: inherit; font-size: 14px; display: inline-flex; align-items: center; gap: 6px; margin: 2px 0 16px; padding: 8px 14px; border: 1px solid var(--accent); border-radius: 8px; background: var(--accent-soft); color: var(--accent); cursor: pointer; }
+.tomodels:hover { background: var(--accent); color: var(--bg); }
+#brand-models { scroll-margin-top: 16px; }
 .vtoggle { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin: 4px 0 14px; background: var(--surface); }
 .vtoggle button { display: grid; place-items: center; width: 40px; height: 34px; padding: 0; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
 .vtoggle button + button { border-left: 1px solid var(--line); }
@@ -1320,6 +1323,7 @@ function viewBrand(b) {
   const info = BRAND_INFO[b], used = new Set();
   return crumbs([["Uhrenmodelle", "uhrenmodelle"], [b]]) + `
     <h2 class="page-title">${esc(b)}</h2>
+    <button type="button" class="tomodels" data-to="brand-models">Zu den Modellen <span aria-hidden="true">↓</span></button>
     ${info ? `<div class="brandinfo">
       <div>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
       ${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ...(info.fakten || []), ["Modelle bei WikiTicks", String(ms.length)]])}
@@ -1328,7 +1332,7 @@ function viewBrand(b) {
       ${(info.abschnitte || []).map(([h, ps]) => `<h3 class="art-h">${esc(h)}</h3>${ps.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}`).join("")}
       ${info.zeit ? `<h3 class="art-h">Zeitleiste</h3><ol class="timeline">${info.zeit.map(([y, t]) => `<li><span class="ty">${esc(y)}</span><span class="tt">${linkify(esc(t), "marke-" + slug(b), used)}</span></li>`).join("")}</ol>` : ""}
     </article>` : ""}` : ""}
-    <div class="vhead"><div><h3 class="section-title">Modelle</h3>
+    <div class="vhead" id="brand-models"><div><h3 class="section-title">Modelle</h3>
     <p class="count">${plural(ms.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
     ${listMode
       ? `<ul class="mlist">${ms.map(e => `<li><a href="#${e.id}">${esc(shortName(e))}</a><small>${esc(e.since ? "seit " + e.since : "Modell")}</small><br><span>${esc(e.s)}</span></li>`).join("")}</ul>`
@@ -1521,6 +1525,8 @@ $("#q").addEventListener("input", ev => { q = ev.target.value; route(); });
 $("#view").addEventListener("click", ev => {
   const t = ev.target.closest(".toc button");
   if (t) document.getElementById("sec-" + t.dataset.sec)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+  const tm = ev.target.closest(".tomodels");
+  if (tm) document.getElementById(tm.dataset.to)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
   const vt = ev.target.closest(".vtoggle button");
   if (vt) { listMode = vt.dataset.v === "list"; try { localStorage.setItem("wikiticks-view", listMode ? "list" : "cards"); } catch (e) {} const y = scrollY; route(); scrollTo({ top: y }); return; }
   const b = ev.target.closest(".letters button");
