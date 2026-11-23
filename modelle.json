@@ -21838,6 +21838,2127 @@
     ]
    ],
    "w": "Chronograph mit Spring Drive: Stoppen ohne Ticken."
+  },
+  {
+   "id": "mp-05-laferrari",
+   "t": "Hublot MP-05 LaFerrari",
+   "brand": "Hublot",
+   "since": "2013",
+   "s": "Die Uhr mit 50 Tagen Gangreserve, entstanden aus der Zusammenarbeit mit Ferrari.",
+   "b": [
+    "Die MP-05 LaFerrari erschien 2013 als Sondermodell zur Zusammenarbeit mit Ferrari. Ihr Handaufzugswerk hat elf hintereinander angeordnete Federhäuser und läuft 50 Tage mit einem Aufzug. Das Werk ist vertikal gebaut und im Saphirgehäuse sichtbar.",
+    "Die Uhr war eine technische Machtdemonstration der Manufaktur. Sie kostete ein Vielfaches einer normalen Big Bang und wurde in kleiner Auflage gebaut."
+   ],
+   "cur": "MP-05 LaFerrari (Saphir)",
+   "f": [
+    [
+     "Gehäuse",
+     "45 mm, Saphir oder Titan"
+    ],
+    [
+     "Kaliber",
+     "HUB9005 (Handaufzug)"
+    ],
+    [
+     "Gangreserve",
+     "50 Tage"
+    ],
+    [
+     "Seit",
+     "2013"
+    ]
+   ],
+   "refs": [
+    [
+     "MP-05 LaFerrari",
+     "2013–heute",
+     "45 mm",
+     "HUB9005",
+     "Titan / Saphir"
+    ]
+   ],
+   "r": [
+    "big-bang",
+    "classic-fusion",
+    "gangreserve"
+   ],
+   "k": "Die MP-05 läuft 50 Tage, weil elf Federhäuser in Reihe arbeiten.",
+   "a": [],
+   "v": {
+    "shape": "tonneau",
+    "case": "titanium",
+    "dial": "#2a2c30",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "rubber",
+    "strapColor": "#2a2c30"
+   },
+   "m": [
+    "50 Tage Gangreserve",
+    "Vertikales Werk",
+    "Saphirgehäuse"
+   ],
+   "tipp": [
+    "Eine Rarität für Sammler."
+   ],
+   "x": [
+    "Das Werk ist als Röhre aufgebaut.",
+    "Elf Federhäuser speichern die Energie.",
+    "Die Uhr entstand mit Ferrari."
+   ],
+   "ev": [
+    [
+     "2013",
+     "Vorstellung der MP-05"
+    ]
+   ],
+   "w": "Fünfzig Tage Gangreserve in einem Saphirgehäuse: Hublots technische Show."
+  },
+  {
+   "id": "spirit-of-big-bang",
+   "t": "Hublot Spirit of Big Bang",
+   "brand": "Hublot",
+   "since": "2010",
+   "s": "Die Big Bang im Tonneaugehäuse, erstmals 2010 vorgestellt.",
+   "b": [
+    "Die Spirit of Big Bang erschien 2010 als Neuinterpretation der Big Bang im Tonneaugehäuse. Das Gehäuse besteht aus vielen Schichten, die Lünette trägt die typischen sechs H-Schrauben. Gedacht war sie als sportlichere und anspruchsvollere Version der Big Bang.",
+    "Sie wird mit Chronographenwerk, Tourbillon und in Gold, Titan und Keramik angeboten. Sie zeigt Hublots Spiel mit Formen und Materialien."
+   ],
+   "cur": "Spirit of Big Bang (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "39–42 mm, Titan oder Gold"
+    ],
+    [
+     "Kaliber",
+     "Unico oder Chronographenwerk"
+    ],
+    [
+     "Form",
+     "Tonneau"
+    ],
+    [
+     "Seit",
+     "2010"
+    ]
+   ],
+   "refs": [
+    [
+     "Spirit of Big Bang",
+     "seit 2010",
+     "42 mm",
+     "Unico",
+     "Erste Serie"
+    ]
+   ],
+   "r": [
+    "big-bang",
+    "classic-fusion",
+    "mp-05-laferrari"
+   ],
+   "k": "Die Spirit of Big Bang ist die Tonneau-Variante der Big Bang.",
+   "a": [],
+   "v": {
+    "shape": "tonneau",
+    "dial": "#17191d",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "screws6",
+    "sub": "chrono2",
+    "pushers": true,
+    "strap": "rubber",
+    "strapColor": "#17191d",
+    "case": "black"
+   },
+   "m": [
+    "Tonneaugehäuse",
+    "Sechs H-Schrauben",
+    "Mehrschichtiges Gehäuse"
+   ],
+   "tipp": [
+    "Eine auffällige, sehr eigenständige Hublot."
+   ],
+   "x": [
+    "Das Gehäuse ist tonneauförmig.",
+    "Die Lünette trägt sechs Schrauben.",
+    "Es gibt viele Varianten."
+   ],
+   "ev": [
+    [
+     "2010",
+     "Spirit of Big Bang"
+    ]
+   ],
+   "w": "Die Big Bang im Tonneaugehäuse: markant, schwer und typisch Hublot."
+  },
+  {
+   "id": "pilot-type-20",
+   "t": "Zenith Pilot Type 20",
+   "brand": "Zenith",
+   "since": "2010er",
+   "s": "Die große Fliegeruhr von Zenith im Stil der französischen Militär-Fliegeruhren der 1950er.",
+   "b": [
+    "Die Pilot Type 20 greift die Fliegeruhren auf, die Zenith in den 1950er-Jahren für die französische Luftwaffe baute. Der Name geht auf die Militärspezifikation »Type 20« zurück. Typisch sind das schwarze Zifferblatt mit großen Ziffern, die Zwiebelkrone und das große Gehäuse.",
+    "Moderne Versionen tragen ein Automatikwerk. Die Uhr gehört zu den auffälligsten Pilotenuhren der Branche und ist bei Fans von Vintage-Optik beliebt."
+   ],
+   "cur": "Pilot Type 20 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "45 mm, Edelstahl oder Bronze"
+    ],
+    [
+     "Kaliber",
+     "Automatik (Elite)"
+    ],
+    [
+     "Krone",
+     "Zwiebelkrone"
+    ],
+    [
+     "Zifferblatt",
+     "schwarz, große Ziffern"
+    ]
+   ],
+   "refs": [
+    [
+     "Type 20 (Vintage)",
+     "1950er",
+     "versch.",
+     "Handaufzug",
+     "Militäruhr"
+    ],
+    [
+     "Pilot Type 20",
+     "2010er–heute",
+     "45 mm",
+     "Automatik",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "big-pilot",
+    "mark-xx",
+    "laco-aachen"
+   ],
+   "k": "Der Name Type 20 geht auf eine Militärspezifikation zurück.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "crown": "onion",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel"
+   },
+   "m": [
+    "Zwiebelkrone",
+    "Große Ziffern",
+    "Fliegerstil"
+   ],
+   "tipp": [
+    "Eine große, auffällige Fliegeruhr."
+   ],
+   "x": [
+    "Es gibt auch Bronzemodelle.",
+    "Die Uhr ist sehr groß.",
+    "Sie erinnert an Militär-Fliegeruhren."
+   ],
+   "ev": [
+    [
+     "1950er",
+     "Type 20"
+    ],
+    [
+     "2010er",
+     "Pilot Type 20"
+    ]
+   ],
+   "w": "Eine große Fliegeruhr im Stil der 1950er: Zwiebelkrone, schwarze Ziffern."
+  },
+  {
+   "id": "zenith-elite",
+   "t": "Zenith Elite",
+   "brand": "Zenith",
+   "since": "1994",
+   "s": "Die flache Dresswatch von Zenith, 1994 mit dem Elite-Werk eingeführt.",
+   "b": [
+    "Die Elite erschien 1994 mit einem extra flachen Automatikwerk, das dem Gehäuse schlanke Proportionen gab. Das Zifferblatt ist schlicht, die Zeiger schlank, das Gehäuse rund.",
+    "Die Elite wird in Edelstahl und Gold angeboten, auch mit Mondphase oder Gangreserve. Sie ist der ruhige Gegenentwurf zum sportlichen El Primero."
+   ],
+   "cur": "Elite (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "Elite (Automatik)"
+    ],
+    [
+     "Besonderheit",
+     "extra flach"
+    ],
+    [
+     "Seit",
+     "1994"
+    ]
+   ],
+   "refs": [
+    [
+     "Elite",
+     "seit 1994",
+     "versch.",
+     "Elite",
+     "Original"
+    ]
+   ],
+   "r": [
+    "chronomaster",
+    "defy",
+    "patrimony"
+   ],
+   "k": "Die Elite ist Zeniths flache Dresswatch.",
+   "a": [],
+   "v": {
+    "dial": "#e8ecf2",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel"
+   },
+   "m": [
+    "Flaches Gehäuse",
+    "Schlichtes Zifferblatt",
+    "Elite-Werk"
+   ],
+   "tipp": [
+    "Eine ruhige Alternative zum El Primero."
+   ],
+   "x": [
+    "Das Werk ist extra flach.",
+    "Die Uhr ist schlicht.",
+    "Es gibt sie in mehreren Größen."
+   ],
+   "ev": [
+    [
+     "1994",
+     "Zenith Elite"
+    ]
+   ],
+   "w": "Die ruhige Zenith: flach, schlicht und klassisch."
+  },
+  {
+   "id": "fiftysix",
+   "t": "Vacheron Constantin Fiftysix",
+   "brand": "Vacheron Constantin",
+   "since": "2018",
+   "s": "Die Vintage-inspirierte Uhr von Vacheron Constantin mit Bezug auf das Jahr 1956.",
+   "b": [
+    "Die Fiftysix erschien 2018 als Alltagsuhr mit Rückgriff auf die Referenz 6073 von 1956. Sie hat ein rundes Gehäuse, Bandanstöße im Stil der 1950er-Jahre und ein Zifferblatt mit arabischen Ziffern und Stabindizes.",
+    "Das Werk ist ein Automatikkaliber, das durch den Glasboden zu sehen ist. Die Linie bietet Datum, Vollkalender und Mondphase und gilt als Einstieg in die Marke."
+   ],
+   "cur": "Fiftysix (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "1326 (Automatik)"
+    ],
+    [
+     "Vorbild",
+     "Referenz 6073 (1956)"
+    ],
+    [
+     "Seit",
+     "2018"
+    ]
+   ],
+   "refs": [
+    [
+     "Fiftysix",
+     "seit 2018",
+     "40 mm",
+     "1326",
+     "Dreizeiger mit Datum"
+    ]
+   ],
+   "r": [
+    "patrimony",
+    "overseas",
+    "historiques-222"
+   ],
+   "k": "Die Fiftysix erinnert an ein Vacheron-Modell von 1956.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "6"
+   },
+   "m": [
+    "Arabische Ziffern",
+    "Anstöße im Stil der 1950er",
+    "Automatikwerk"
+   ],
+   "tipp": [
+    "Ein Einstieg in die Marke."
+   ],
+   "x": [
+    "Das Vorbild stammt von 1956.",
+    "Das Gehäuse erinnert an die 1950er-Jahre.",
+    "Das Werk ist durch den Boden sichtbar."
+   ],
+   "ev": [
+    [
+     "1956",
+     "Referenz 6073"
+    ],
+    [
+     "2018",
+     "Fiftysix"
+    ]
+   ],
+   "w": "Eine Vacheron für jeden Tag: Vintage-Bezug, arabische Ziffern, Automatik."
+  },
+  {
+   "id": "traditionnelle",
+   "t": "Vacheron Constantin Traditionnelle",
+   "brand": "Vacheron Constantin",
+   "since": "2000er",
+   "s": "Die klassische Handaufzugsuhr von Vacheron Constantin im traditionellen Stil.",
+   "b": [
+    "Die Traditionnelle ist die klassische Uhrenfamilie von Vacheron Constantin. Sie hat ein rundes, flaches Gehäuse, eine feine Zifferblattgestaltung mit Guilloché und ein Handaufzugswerk. Das Werk trägt das Genfer Siegel.",
+    "Es gibt sie als Dreizeiger, mit Mondphase, ewigem Kalender, Tourbillon und weiteren Komplikationen. Sie zeigt die ganze Bandbreite des Hauses."
+   ],
+   "cur": "Traditionnelle (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38–41 mm, Gold oder Platin"
+    ],
+    [
+     "Kaliber",
+     "Handaufzug, Genfer Siegel"
+    ],
+    [
+     "Zifferblatt",
+     "Guilloché"
+    ],
+    [
+     "Seit",
+     "2000er"
+    ]
+   ],
+   "refs": [
+    [
+     "Traditionnelle",
+     "seit 2000er",
+     "versch.",
+     "Handaufzug",
+     "Klassische Linie"
+    ]
+   ],
+   "r": [
+    "patrimony",
+    "overseas",
+    "fiftysix"
+   ],
+   "k": "Die Traditionnelle ist die Basis der klassischen Komplikationen von Vacheron.",
+   "a": [],
+   "v": {
+    "case": "rose",
+    "dial": "#f3efe4",
+    "sub": "small6",
+    "markers": "roman",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Handaufzug",
+    "Genfer Siegel",
+    "Guilloché-Zifferblatt"
+   ],
+   "tipp": [
+    "Für Menschen, die klassische Uhrmacherei suchen."
+   ],
+   "x": [
+    "Das Werk trägt das Genfer Siegel.",
+    "Das Gehäuse ist flach.",
+    "Es gibt viele Komplikationen."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Traditionnelle"
+    ]
+   ],
+   "w": "Klassische Genfer Uhrmacherei: Handaufzug, Guilloché und Genfer Siegel."
+  },
+  {
+   "id": "ludwig",
+   "t": "Nomos Ludwig",
+   "brand": "Nomos Glashütte",
+   "since": "1992",
+   "s": "Die schlichte Handaufzugsuhr, eines der ersten vier Nomos-Modelle.",
+   "b": [
+    "Die Ludwig erschien 1992 als eines der ersten vier Modelle von Nomos. Sie hat ein rundes Gehäuse mit schlankem Rand, ein Zifferblatt mit arabischen Ziffern im Bauhaus-Stil und eine kleine Sekunde bei 6 Uhr.",
+    "Wie die Tangente zeigt sie die Reduktion der frühen Nomos-Jahre. Heute läuft sie mit dem Manufakturwerk Alpha und ist ein Einstiegsmodell der Marke."
+   ],
+   "cur": "Ludwig (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "35–38 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Alpha (Handaufzug)"
+    ],
+    [
+     "Zifferblatt",
+     "arabische Ziffern"
+    ],
+    [
+     "Seit",
+     "1992"
+    ]
+   ],
+   "refs": [
+    [
+     "Ludwig",
+     "seit 1992",
+     "versch.",
+     "Handaufzug",
+     "Original"
+    ],
+    [
+     "Ludwig neomatik",
+     "2010er",
+     "versch.",
+     "DUW 3001",
+     "Automatik"
+    ]
+   ],
+   "r": [
+    "tangente",
+    "orion",
+    "glashuette"
+   ],
+   "k": "Die Ludwig gehört zu den ersten vier Nomos-Modellen von 1992.",
+   "a": [],
+   "v": {
+    "dial": "#f3efe4",
+    "sub": "small6",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel"
+   },
+   "m": [
+    "Arabische Ziffern",
+    "Kleine Sekunde",
+    "Handaufzug"
+   ],
+   "tipp": [
+    "Ein günstiger Einstieg in die Uhren aus Glashütte."
+   ],
+   "x": [
+    "Die Ludwig hat ein klassisches Zifferblatt mit arabischen Ziffern.",
+    "Die Uhr ist schlicht.",
+    "Das Werk wird von Nomos selbst gebaut."
+   ],
+   "ev": [
+    [
+     "1992",
+     "Ludwig"
+    ]
+   ],
+   "w": "Schlicht und klar: eine der ersten Nomos-Uhren, mit arabischen Ziffern und Handaufzug."
+  },
+  {
+   "id": "tetra",
+   "t": "Nomos Tetra",
+   "brand": "Nomos Glashütte",
+   "since": "1992",
+   "s": "Die quadratische Uhr von Nomos, 1992 neben der Tangente vorgestellt.",
+   "b": [
+    "Die Tetra erschien 1992 als quadratische Variante der ersten Nomos-Kollektion. Sie hat ein viereckiges Gehäuse, ein schlichtes Zifferblatt und eine kleine Sekunde. Der Name erinnert an die vier Seiten.",
+    "Wie die Tangente und die Ludwig bleibt sie dem Bauhaus-Prinzip »Form folgt Funktion« treu. Sie ist die Uhr für alle, die lieber eckig als rund tragen."
+   ],
+   "cur": "Tetra (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "quadratisch, 29,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Alpha (Handaufzug)"
+    ],
+    [
+     "Zifferblatt",
+     "schlicht"
+    ],
+    [
+     "Seit",
+     "1992"
+    ]
+   ],
+   "refs": [
+    [
+     "Tetra",
+     "seit 1992",
+     "29,5 mm",
+     "Alpha",
+     "Quadratische Variante"
+    ]
+   ],
+   "r": [
+    "tangente",
+    "ludwig",
+    "orion"
+   ],
+   "k": "Die Tetra ist die quadratische Nomos.",
+   "a": [],
+   "v": {
+    "shape": "square",
+    "dial": "#f3efe4",
+    "sub": "small6",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel"
+   },
+   "m": [
+    "Quadratisches Gehäuse",
+    "Kleine Sekunde",
+    "Handaufzug"
+   ],
+   "tipp": [
+    "Eine kleine, feine Uhr."
+   ],
+   "x": [
+    "Das Gehäuse hat vier gleiche Seiten.",
+    "Das Zifferblatt ist klar.",
+    "Das Werk ist von Nomos."
+   ],
+   "ev": [
+    [
+     "1992",
+     "Tetra"
+    ]
+   ],
+   "w": "Die quadratische Nomos: schlicht, klein und Bauhaus-streng."
+  },
+  {
+   "id": "conquest",
+   "t": "Longines Conquest",
+   "brand": "Longines",
+   "since": "1954",
+   "s": "Die sportliche Longines-Linie, die 1954 eingeführt wurde.",
+   "b": [
+    "Die Conquest erschien 1954 als erste sportliche Linie von Longines. Sie wurde als robuste Alltagsuhr mit Automatikwerk und Datum gebaut und gehörte in den 1950er- und 60er-Jahren zu den wichtigen Modellen der Marke.",
+    "Heute gibt es die Conquest als Dreizeiger und Chronograph in vielen Größen. Sie ist eine günstige, sportlich-elegante Alternative zu Rolex oder Omega."
+   ],
+   "cur": "Conquest (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "34–43 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Seit",
+     "1954"
+    ],
+    [
+     "Band",
+     "Stahl oder Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "Conquest",
+     "1954–1970er",
+     "versch.",
+     "Automatik",
+     "Original"
+    ],
+    [
+     "Conquest",
+     "seit 2000er",
+     "41 mm",
+     "Automatik",
+     "Neue Generation"
+    ]
+   ],
+   "r": [
+    "hydroconquest",
+    "legend-diver",
+    "master-collection"
+   ],
+   "k": "Die Conquest war 1954 Longines' erste sportliche Linie.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "link3",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Sportlich-elegant",
+    "Automatik",
+    "Preiswert"
+   ],
+   "tipp": [
+    "Ein guter Einstieg in Longines."
+   ],
+   "x": [
+    "Sie gehörte zu den wichtigen Modellen der 1950er.",
+    "Es gibt sie mit Chronograph.",
+    "Die Uhr ist robust."
+   ],
+   "ev": [
+    [
+     "1954",
+     "Conquest"
+    ]
+   ],
+   "w": "Die sportliche Longines: Automatik, Datum und ein fairer Preis."
+  },
+  {
+   "id": "hydroconquest",
+   "t": "Longines HydroConquest",
+   "brand": "Longines",
+   "since": "2007",
+   "s": "Die Taucheruhr von Longines, 2007 als Teil der Conquest-Familie eingeführt.",
+   "b": [
+    "Die HydroConquest erschien 2007 als Taucheruhr der Conquest-Familie. Sie ist bis 300 Meter wasserdicht, hat eine einseitig drehbare Keramiklünette und ein Zifferblatt mit großen Indizes.",
+    "Es gibt sie mit Quarz- und Automatikwerk in vielen Größen. Sie ist eine preiswerte Taucheruhr aus Schweizer Fertigung."
+   ],
+   "cur": "HydroConquest (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "39–44 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik / Quarz"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Lünette",
+     "Keramik"
+    ]
+   ],
+   "refs": [
+    [
+     "HydroConquest",
+     "seit 2007",
+     "41 mm",
+     "Automatik",
+     "Erste Serie"
+    ],
+    [
+     "HydroConquest",
+     "seit 2020er",
+     "41–43 mm",
+     "Automatik",
+     "Neue Generation"
+    ]
+   ],
+   "r": [
+    "conquest",
+    "legend-diver",
+    "aquaracer"
+   ],
+   "k": "Die HydroConquest ist die moderne Taucheruhr von Longines.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "markers": "dots",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#1f3a5f",
+    "strap": "link3",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Keramiklünette",
+    "300 Meter",
+    "Große Indizes"
+   ],
+   "tipp": [
+    "Eine alltagstaugliche Taucheruhr."
+   ],
+   "x": [
+    "Es gibt viele Größen.",
+    "Sie ist bis 300 Meter wasserdicht.",
+    "Die Lünette ist aus Keramik."
+   ],
+   "ev": [
+    [
+     "2007",
+     "HydroConquest"
+    ]
+   ],
+   "w": "Eine moderne Taucheruhr zu fairem Preis: Keramiklünette und 300 Meter."
+  },
+  {
+   "id": "flagship-heritage",
+   "t": "Longines Flagship Heritage",
+   "brand": "Longines",
+   "since": "1957",
+   "s": "Die klassische Dresswatch von Longines, im Stil der Flagship von 1957.",
+   "b": [
+    "Die Flagship erschien 1957 als Dresswatch mit Automatikwerk. Die Heritage-Version greift die Optik mit schlankem Gehäuse, Stabindizes und kleiner Sekunde auf.",
+    "Sie ist eine ruhige Alternative zur Conquest und gehört zu den Longines-Modellen, die an die Blütezeit der Marke erinnern."
+   ],
+   "cur": "Flagship Heritage (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Zifferblatt",
+     "Stabindizes"
+    ],
+    [
+     "Vorbild",
+     "Flagship (1957)"
+    ]
+   ],
+   "refs": [
+    [
+     "Flagship",
+     "1957–1970er",
+     "versch.",
+     "Automatik",
+     "Original"
+    ],
+    [
+     "Flagship Heritage",
+     "2000er–heute",
+     "38,5 mm",
+     "Automatik",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "conquest",
+    "master-collection",
+    "legend-diver"
+   ],
+   "k": "Die Flagship war Longines' Dresswatch der 1950er.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "sub": "small6"
+   },
+   "m": [
+    "Schlichtes Zifferblatt",
+    "Stabindizes",
+    "Automatik"
+   ],
+   "tipp": [
+    "Eine klassische Longines."
+   ],
+   "x": [
+    "Sie ist schlicht gestaltet.",
+    "Das Gehäuse ist schlank.",
+    "Es gibt sie in mehreren Größen."
+   ],
+   "ev": [
+    [
+     "1957",
+     "Flagship"
+    ]
+   ],
+   "w": "Die ruhige Longines: klassisch, schlank und ohne Sportanspruch."
+  },
+  {
+   "id": "jazzmaster",
+   "t": "Hamilton Jazzmaster",
+   "brand": "Hamilton",
+   "since": "2000er",
+   "s": "Die klassische Dresswatch von Hamilton mit Automatik und Datum.",
+   "b": [
+    "Die Jazzmaster erschien in den 2000er-Jahren als Dresswatch von Hamilton. Sie hat ein rundes Gehäuse mit schlankem Rand, ein Zifferblatt mit Stabindizes und ein Automatikwerk. Gedacht ist sie als Uhr für den Alltag und den Anzug.",
+    "Sie wird in mehreren Größen mit und ohne Mondphase und Chronograph angeboten. Die Jazzmaster ist günstiger als vergleichbare Schweizer Dresswatches."
+   ],
+   "cur": "Jazzmaster (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "H-10 (Automatik)"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Seit",
+     "2000er"
+    ]
+   ],
+   "refs": [
+    [
+     "Jazzmaster",
+     "seit 2000er",
+     "versch.",
+     "Automatik",
+     "Dresswatch"
+    ]
+   ],
+   "r": [
+    "khaki-field",
+    "ventura",
+    "gentleman"
+   ],
+   "k": "Die Jazzmaster ist Hamiltons Dresswatch-Linie.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Stabindizes",
+    "Automatik",
+    "Günstiger Preis"
+   ],
+   "tipp": [
+    "Eine solide Alltagsuhr."
+   ],
+   "x": [
+    "Das Werk H-10 hat 80 Stunden Gangreserve.",
+    "Die Uhr ist schlicht.",
+    "Es gibt viele Varianten."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Jazzmaster"
+    ]
+   ],
+   "w": "Die elegante Hamilton: Dresswatch mit Automatik und fairem Preis."
+  },
+  {
+   "id": "pan-europ",
+   "t": "Hamilton Pan Europ",
+   "brand": "Hamilton",
+   "since": "1971",
+   "s": "Der Chronograph von 1971 mit Chronomatic-Werk, 2017 als Neuauflage zurückgekehrt.",
+   "b": [
+    "Die Pan Europ erschien 1971 als Chronograph mit dem Automatikwerk Chronomatic Kaliber 11, das Hamilton gemeinsam mit anderen Herstellern entwickelt hatte. Sie hat ein Kissengehäuse mit Lünette und Zifferblatt in kräftigen Farben.",
+    "In den 2010er-Jahren erschien die Neuauflage Pan Europ Auto Chrono mit dem Kaliber H-31. Die Uhr ist ein Beispiel für die Retro-Welle der Marke und erinnert an die Chronographen der 1970er."
+   ],
+   "cur": "Pan Europ Auto Chrono (Neuauflage)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "H-31 (Automatik)"
+    ],
+    [
+     "Funktion",
+     "Chronograph"
+    ],
+    [
+     "Seit",
+     "1971"
+    ]
+   ],
+   "refs": [
+    [
+     "Pan Europ",
+     "1971–1970er",
+     "versch.",
+     "Kaliber 11",
+     "Original"
+    ],
+    [
+     "Pan Europ Auto Chrono",
+     "seit 2010er",
+     "42 mm",
+     "H-31",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "monaco",
+    "chronomaster",
+    "khaki-field"
+   ],
+   "k": "Die Pan Europ hatte 1971 das Chronomatic-Kaliber 11.",
+   "a": [],
+   "v": {
+    "dial": "#1f4a8a",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "baton",
+    "pushers": true,
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel",
+    "shape": "cushion"
+   },
+   "m": [
+    "Chronograph",
+    "Kissengehäuse",
+    "Farbiges Zifferblatt"
+   ],
+   "tipp": [
+    "Original-Pan-Europ sind selten."
+   ],
+   "x": [
+    "Die Uhr hatte das Chronomatic-Kaliber 11.",
+    "Sie wirkt wie ein 1970er-Chronograph.",
+    "Die Neuauflage hat H-31."
+   ],
+   "ev": [
+    [
+     "1971",
+     "Pan Europ"
+    ],
+    [
+     "2010er",
+     "Neuauflage"
+    ]
+   ],
+   "w": "Ein Chronograph im Stil der 1970er: Kissengehäuse und kräftiges Zifferblatt."
+  },
+  {
+   "id": "sinn-104",
+   "t": "Sinn 104",
+   "brand": "Sinn",
+   "since": "2000er",
+   "s": "Die klassische Fliegeruhr von Sinn mit schlichtem Zifferblatt und Automatikwerk.",
+   "b": [
+    "Die 104 ist die klassische Fliegeruhr von Sinn. Sie hat ein 41-Millimeter-Gehäuse, ein schwarzes Zifferblatt mit großen Ziffern und ein Automatikwerk. Gedacht ist sie als robuste Alltagsuhr mit Fliegerschlagwort.",
+    "Die Uhr ist antimagnetisch und mit Trockenhaltetechnik ausgestattet. Sie ist in Deutschland sehr beliebt und gilt als solide Alternative zu teureren Fliegeruhren."
+   ],
+   "cur": "104 St Sa (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Sellita SW200"
+    ],
+    [
+     "Technik",
+     "Trockenhaltetechnik"
+    ],
+    [
+     "Besonderheit",
+     "Fliegerzifferblatt"
+    ]
+   ],
+   "refs": [
+    [
+     "104",
+     "seit 2000er",
+     "41 mm",
+     "Sellita",
+     "Dreizeiger"
+    ]
+   ],
+   "r": [
+    "sinn-556",
+    "sinn-u1",
+    "big-pilot"
+   ],
+   "k": "Die 104 ist Sinns klassische Fliegeruhr.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Fliegerzifferblatt",
+    "Antimagnetisch",
+    "Trockenhaltetechnik"
+   ],
+   "tipp": [
+    "Ein günstiger Einstieg in Sinn."
+   ],
+   "x": [
+    "Die Uhr ist mit Argon befüllt.",
+    "Sie hat ein klares Zifferblatt.",
+    "Sie wird in Frankfurt montiert."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Sinn 104"
+    ]
+   ],
+   "w": "Die klassische Fliegeruhr aus Frankfurt: klar, robust und antimagnetisch."
+  },
+  {
+   "id": "sinn-ezm-3",
+   "t": "Sinn EZM 3",
+   "brand": "Sinn",
+   "since": "2000er",
+   "s": "Die Einsatzzeitmesser-Uhr von Sinn für Spezialkräfte, mit Trockenhaltetechnik.",
+   "b": [
+    "Die EZM 3 gehört zur Reihe der Einsatzzeitmesser von Sinn, die für Spezialkräfte und Einsatzteams entwickelt wurden. Sie hat ein robustes Gehäuse, ein gut lesbares Zifferblatt und eine einseitig drehbare Lünette.",
+    "Die Uhr nutzt die Ar-Trockenhaltetechnik, bei der das Gehäuse mit Argon gefüllt wird, damit das Glas nicht beschlägt. Sie ist wasserdicht und für Einsätze unter schwierigen Bedingungen gebaut."
+   ],
+   "cur": "EZM 3 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Technik",
+     "Ar-Trockenhaltetechnik"
+    ],
+    [
+     "Lünette",
+     "einseitig drehbar"
+    ],
+    [
+     "Seit",
+     "2000er"
+    ]
+   ],
+   "refs": [
+    [
+     "EZM 3",
+     "seit 2000er",
+     "41 mm",
+     "Automatik",
+     "Einsatzzeitmesser"
+    ]
+   ],
+   "r": [
+    "sinn-556",
+    "sinn-u1",
+    "sinn-104"
+   ],
+   "k": "EZM steht für Einsatzzeitmesser.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "dive",
+    "bezelColor": "#17191d",
+    "strap": "rubber",
+    "strapColor": "#17191d",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Trockenhaltetechnik",
+    "Drehbare Lünette",
+    "Robustes Gehäuse"
+   ],
+   "tipp": [
+    "Eine technische Uhr für den Einsatz."
+   ],
+   "x": [
+    "Das Gehäuse ist mit Argon gefüllt.",
+    "Die Uhr ist für Spezialkräfte gedacht.",
+    "Sie ist sehr robust."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "EZM 3"
+    ]
+   ],
+   "w": "Eine Uhr für den Einsatz: Argonfüllung, drehbare Lünette und robustes Gehäuse."
+  },
+  {
+   "id": "sinn-356",
+   "t": "Sinn 356 Flieger",
+   "brand": "Sinn",
+   "since": "1990er",
+   "s": "Der Chronograph von Sinn im Fliegerstil mit Valjoux-Werk.",
+   "b": [
+    "Die 356 Flieger ist ein Chronograph im klassischen Fliegerstil. Sie hat ein Gehäuse mit Lünette, ein Zifferblatt mit Hilfszifferblättern und Leuchtziffern. Als Werk dient das Valjoux 7750.",
+    "Die Uhr wird in Frankfurt montiert und mit Zifferblattvarianten angeboten. Sie ist ein Dauerbrenner der Marke."
+   ],
+   "cur": "356 Flieger (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Valjoux 7750 / Sellita SW500"
+    ],
+    [
+     "Funktion",
+     "Chronograph"
+    ],
+    [
+     "Seit",
+     "1990er"
+    ]
+   ],
+   "refs": [
+    [
+     "356 Flieger",
+     "seit 1990er",
+     "38,5 mm",
+     "Valjoux 7750",
+     "Chronograph"
+    ]
+   ],
+   "r": [
+    "sinn-104",
+    "sinn-ezm-3",
+    "pilots-chronograph"
+   ],
+   "k": "Die 356 ist ein Fliegerchronograph aus Frankfurt.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "sub": "chrono3",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "pushers": true,
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel"
+   },
+   "m": [
+    "Chronograph",
+    "Leuchtziffern",
+    "Sellita-Werk"
+   ],
+   "tipp": [
+    "Ein günstiger Chronograph."
+   ],
+   "x": [
+    "Das Werk 7750 ist robust.",
+    "Die Uhr ist klein genug für den Alltag.",
+    "Sie wird in Frankfurt montiert."
+   ],
+   "ev": [
+    [
+     "1990er",
+     "Sinn 356"
+    ]
+   ],
+   "w": "Der Sinn-Chronograph im Fliegerstil: klar, robust und alltagstauglich."
+  },
+  {
+   "id": "junghans-meister",
+   "t": "Junghans Meister",
+   "brand": "Junghans",
+   "since": "2000er",
+   "s": "Die Bauhaus-inspirierte Dresswatch von Junghans mit Handaufzug oder Automatik.",
+   "b": [
+    "Die Meister ist die klassische Uhrenfamilie von Junghans. Sie hat ein rundes, schlichtes Gehäuse, ein gewölbtes Zifferblatt und feine Stabindizes. Es gibt sie mit Handaufzug, Automatik, Chronograph und Kalender.",
+    "Die Meister verbindet das Bauhaus-Erbe mit einer klassischen Optik. Sie ist günstiger als die Linie max bill und spricht Menschen an, die ein klassisches Design mögen."
+   ],
+   "cur": "Meister (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38–40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Handaufzug / Automatik"
+    ],
+    [
+     "Zifferblatt",
+     "gewölbt"
+    ],
+    [
+     "Seit",
+     "2000er"
+    ]
+   ],
+   "refs": [
+    [
+     "Meister",
+     "seit 2000er",
+     "38–40 mm",
+     "Automatik",
+     "Klassische Linie"
+    ]
+   ],
+   "r": [
+    "max-bill",
+    "tangente",
+    "khaki-field"
+   ],
+   "k": "Die Meister ist die klassische Linie von Junghans.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Gewölbtes Zifferblatt",
+    "Handaufzug oder Automatik",
+    "Stabindizes"
+   ],
+   "tipp": [
+    "Eine schöne Alternative zur max bill."
+   ],
+   "x": [
+    "Das Zifferblatt ist leicht gewölbt.",
+    "Es gibt viele Varianten.",
+    "Die Uhr ist preiswert."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Meister"
+    ]
+   ],
+   "w": "Die klassische Junghans: Bauhaus-Erbe, gewölbtes Zifferblatt und Handaufzug oder Automatik."
+  },
+  {
+   "id": "junghans-mega",
+   "t": "Junghans Mega",
+   "brand": "Junghans",
+   "since": "1990",
+   "s": "Die erste Funkarmbanduhr der Welt, 1990 von Junghans vorgestellt.",
+   "b": [
+    "Die Mega erschien 1990 als erste Funkarmbanduhr der Welt. Sie empfängt das Zeitsignal des Senders DCF77 in Mainflingen und stellt sich automatisch auf die Atomzeit. Damit war sie genauer als jede mechanische Uhr.",
+    "Später folgten Solarversionen, die ohne Batterie auskommen. Die Mega machte Junghans in den 1990ern zum Pionier der Funktechnik und bleibt ein Sammlerstück."
+   ],
+   "cur": "Mega (Solar)",
+   "f": [
+    [
+     "Gehäuse",
+     "Edelstahl oder Keramik"
+    ],
+    [
+     "Technik",
+     "Funkuhr, Solar"
+    ],
+    [
+     "Seit",
+     "1990"
+    ],
+    [
+     "Signal",
+     "DCF77"
+    ]
+   ],
+   "refs": [
+    [
+     "Mega 1",
+     "1990",
+     "versch.",
+     "Funk",
+     "Erste Funkarmbanduhr"
+    ],
+    [
+     "Mega Solar",
+     "1993–heute",
+     "versch.",
+     "Funk/Solar",
+     "Ohne Batterie"
+    ]
+   ],
+   "r": [
+    "quarzkrise",
+    "astron",
+    "max-bill"
+   ],
+   "k": "Die Mega bekam ihre Zeit vom Sender DCF77 in Mainflingen.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "link3",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Funksteuerung",
+    "Solarantrieb",
+    "Keramikgehäuse"
+   ],
+   "tipp": [
+    "Die erste Funkarmbanduhr ist ein Sammlerstück."
+   ],
+   "x": [
+    "Das Signal kommt aus Mainflingen.",
+    "Die Uhr stellt sich selbst.",
+    "Die Mega war ein Pionier."
+   ],
+   "ev": [
+    [
+     "1990",
+     "Mega 1"
+    ],
+    [
+     "1993",
+     "Mega Solar"
+    ]
+   ],
+   "w": "Die Armbanduhr, die sich vom Funksender stellen lässt: Pionier von 1990."
+  },
+  {
+   "id": "f-91w",
+   "t": "Casio F-91W",
+   "brand": "Casio",
+   "since": "1989",
+   "s": "Die schlichte Digitaluhr, die seit 1989 gebaut wird und zu den meistverkauften Uhren der Welt gehört.",
+   "b": [
+    "Die F-91W erschien 1989 und ist bis heute im Programm. Sie hat ein Kunststoffgehäuse, ein Flüssigkristalldisplay mit Datum, Wecker und Stoppfunktion sowie ein schlichtes Harzband. Die Batterie hält etwa sieben Jahre.",
+    "Die Uhr ist extrem günstig und wird jährlich in Millionenstückzahl verkauft. Sie wurde zur Designikone und taucht in Film, Mode und Kultur auf."
+   ],
+   "cur": "F-91W (aktuell)",
+   "f": [
+    [
+     "Gehäuse",
+     "Kunststoff, 35 mm"
+    ],
+    [
+     "Display",
+     "LCD mit Datum"
+    ],
+    [
+     "Batterie",
+     "≈ 7 Jahre"
+    ],
+    [
+     "Seit",
+     "1989"
+    ]
+   ],
+   "refs": [
+    [
+     "F-91W",
+     "1989–heute",
+     "35 mm",
+     "Quarz",
+     "Original"
+    ]
+   ],
+   "r": [
+    "g-shock",
+    "quarzkrise",
+    "swatch-original"
+   ],
+   "k": "Die F-91W ist eine der meistverkauften Armbanduhren der Welt.",
+   "a": [],
+   "v": {
+    "shape": "gshock",
+    "caseColor": "#2a2c30"
+   },
+   "m": [
+    "Digitaluhr",
+    "Stoppfunktion",
+    "Kunststoffband"
+   ],
+   "tipp": [
+    "Eine der günstigsten Uhren überhaupt."
+   ],
+   "x": [
+    "Die Batterie hält etwa sieben Jahre.",
+    "Die Uhr hat Wecker und Stoppuhr.",
+    "Sie wiegt kaum etwas."
+   ],
+   "ev": [
+    [
+     "1989",
+     "F-91W"
+    ]
+   ],
+   "w": "Die schlichte Digitaluhr, die seit über dreißig Jahren fast unverändert gebaut wird."
+  },
+  {
+   "id": "ga-2100",
+   "t": "Casio G-Shock GA-2100",
+   "brand": "Casio",
+   "since": "2019",
+   "s": "Die achteckige G-Shock im Stil der Royal Oak, wegen ihres Gehäuses auch »CasiOak« genannt.",
+   "b": [
+    "Die GA-2100 erschien 2019 als dünnere G-Shock mit Karbonfaser-Gehäuse. Ihr achteckiges Gehäuse mit analog-digitaler Anzeige erinnert an die Royal Oak, daher der Spitzname »CasiOak«. Sie ist deutlich schlanker als die klassischen G-Shocks.",
+    "Die Uhr wurde ein Hit und kam in vielen Farben und Kooperationen. Sie zeigt, wie Casio mit Streetwear und Luxusdesign spielt, ohne die Stoßfestigkeit aufzugeben."
+   ],
+   "cur": "GA-2100 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "45 mm, Karbon-Kunststoff"
+    ],
+    [
+     "Anzeige",
+     "analog-digital"
+    ],
+    [
+     "Stoßfest",
+     "ja"
+    ],
+    [
+     "Seit",
+     "2019"
+    ]
+   ],
+   "refs": [
+    [
+     "GA-2100",
+     "seit 2019",
+     "45 mm",
+     "Quarz",
+     "Original"
+    ]
+   ],
+   "r": [
+    "g-shock",
+    "royal-oak",
+    "f-91w"
+   ],
+   "k": "Die GA-2100 bekam wegen ihrer Form den Spitznamen CasiOak.",
+   "a": [],
+   "v": {
+    "shape": "octagon",
+    "case": "black",
+    "dial": "#2a2c30",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "rubber",
+    "strapColor": "#2a2c30"
+   },
+   "m": [
+    "Achteckiges Gehäuse",
+    "Analog-digital",
+    "Karbonfaser"
+   ],
+   "tipp": [
+    "Eine günstige Luxus-Optik."
+   ],
+   "x": [
+    "Das Gehäuse ist deutlich dünner.",
+    "Der Name CasiOak kommt aus der Szene.",
+    "Es gibt viele Sondermodelle."
+   ],
+   "ev": [
+    [
+     "2019",
+     "GA-2100"
+    ]
+   ],
+   "w": "Die schlanke G-Shock mit Royal-Oak-Optik zum kleinen Preis."
+  },
+  {
+   "id": "sistem51",
+   "t": "Swatch Sistem51",
+   "brand": "Swatch",
+   "since": "2013",
+   "s": "Die mechanische Swatch aus 51 Teilen, vollautomatisch gefertigt.",
+   "b": [
+    "Die Sistem51 erschien 2013 als mechanische Swatch aus nur 51 Teilen. Das Werk wird vollautomatisch montiert und ist mit einer einzigen Schraube zusammengehalten. Sie hat einen Automatikaufzug und läuft 90 Stunden.",
+    "Die Uhr zeigte, dass sich mechanische Werke industriell und günstig bauen lassen. Das Werk ist durch das transparente Gehäuse sichtbar und kann nicht repariert, sondern nur getauscht werden."
+   ],
+   "cur": "Sistem51 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Kunststoff"
+    ],
+    [
+     "Kaliber",
+     "Sistem51 (Automatik)"
+    ],
+    [
+     "Gangreserve",
+     "90 Stunden"
+    ],
+    [
+     "Teile",
+     "51"
+    ]
+   ],
+   "refs": [
+    [
+     "Sistem51",
+     "seit 2013",
+     "42 mm",
+     "Sistem51",
+     "Mechanische Swatch"
+    ]
+   ],
+   "r": [
+    "swatch-original",
+    "moonswatch",
+    "automatik"
+   ],
+   "k": "Die Sistem51 hat 51 Teile und wird vollautomatisch gefertigt.",
+   "a": [],
+   "v": {
+    "dial": "#e8ecf2",
+    "markers": "baton",
+    "hands": "sword",
+    "strap": "rubber",
+    "strapColor": "#e0372a",
+    "case": "steel"
+   },
+   "m": [
+    "51 Teile",
+    "Automatik",
+    "Transparentes Gehäuse"
+   ],
+   "tipp": [
+    "Die günstigste Automatik mit eigenem Werk."
+   ],
+   "x": [
+    "Das Werk wird mit einer Schraube gehalten.",
+    "Es hat 90 Stunden Gangreserve.",
+    "Reparatur heißt Austausch."
+   ],
+   "ev": [
+    [
+     "2013",
+     "Sistem51"
+    ]
+   ],
+   "w": "Die mechanische Swatch: 51 Teile, vollautomatisch gebaut und 90 Stunden Gangreserve."
+  },
+  {
+   "id": "swatch-skin",
+   "t": "Swatch Skin",
+   "brand": "Swatch",
+   "since": "1997",
+   "s": "Die extra flache Swatch, 1997 als dünnste Plastikuhr der Welt vorgestellt.",
+   "b": [
+    "Die Swatch Skin erschien 1997 und war mit rund 3,9 Millimetern Höhe die dünnste Plastikuhr ihrer Zeit. Das Gehäuse ist so flach, dass das Werk fast zwischen Glas und Boden liegt. Das Band ist weich und in Farben erhältlich.",
+    "Die Skin wurde mehrfach neu aufgelegt, zuletzt als Skin Irony und mit Edelstahlgehäuse. Sie steht für das Prinzip der Swatch: eine Uhr als Kleidungsstück."
+   ],
+   "cur": "Skin (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "Kunststoff oder Stahl, flach"
+    ],
+    [
+     "Höhe",
+     "≈ 3,9 mm"
+    ],
+    [
+     "Seit",
+     "1997"
+    ],
+    [
+     "Werk",
+     "Quarz"
+    ]
+   ],
+   "refs": [
+    [
+     "Skin",
+     "1997–2000er",
+     "versch.",
+     "Quarz",
+     "Original"
+    ],
+    [
+     "Skin Irony",
+     "2000er–heute",
+     "versch.",
+     "Quarz",
+     "Edelstahl"
+    ]
+   ],
+   "r": [
+    "swatch-original",
+    "sistem51",
+    "moonswatch"
+   ],
+   "k": "Die Swatch Skin war 1997 die dünnste Plastikuhr der Welt.",
+   "a": [],
+   "v": {
+    "dial": "#f3f3f3",
+    "markers": "baton",
+    "hands": "sword",
+    "strap": "rubber",
+    "strapColor": "#2a2c30",
+    "case": "steel"
+   },
+   "m": [
+    "Extra flach",
+    "Kunststoff oder Stahl",
+    "Quarzwerk"
+   ],
+   "tipp": [
+    "Eine sehr leichte Uhr."
+   ],
+   "x": [
+    "Sie ist nur etwa 4 Millimeter hoch.",
+    "Das Band ist weich.",
+    "Es gibt viele Farben."
+   ],
+   "ev": [
+    [
+     "1997",
+     "Swatch Skin"
+    ]
+   ],
+   "w": "Die flachste Swatch: eine Uhr, die man kaum spürt."
+  },
+  {
+   "id": "tissot-seastar",
+   "t": "Tissot Seastar 1000",
+   "brand": "Tissot",
+   "since": "1953",
+   "s": "Die Taucheruhr von Tissot, seit 1953 in vielen Formen im Programm.",
+   "b": [
+    "Die Seastar erschien 1953 als wasserdichte Sportuhr von Tissot. Ihr Name verweist auf den Seestern, der als Logo über Jahrzehnte zu sehen war. In den 1960ern wurde sie als Taucheruhr bekannt.",
+    "Die Seastar 1000 ist die moderne Taucheruhr der Familie. Sie hat eine einseitig drehbare Keramik- oder Aluminiumlünette, 300 Meter Wasserdichtigkeit und ein Automatik- oder Quarzwerk."
+   ],
+   "cur": "Seastar 1000 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40–43 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Powermatic 80 / Quarz"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Seit",
+     "1953"
+    ]
+   ],
+   "refs": [
+    [
+     "Seastar",
+     "1953–1970er",
+     "versch.",
+     "Handaufzug / Automatik",
+     "Original"
+    ],
+    [
+     "Seastar 1000",
+     "seit 2010er",
+     "40–43 mm",
+     "Powermatic 80",
+     "Taucheruhr"
+    ]
+   ],
+   "r": [
+    "prx",
+    "gentleman",
+    "aquaracer"
+   ],
+   "k": "Das Seastar-Logo zeigt einen Seestern.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "markers": "dots",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#1f3a5f",
+    "strap": "link3",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Drehbare Lünette",
+    "300 Meter",
+    "Powermatic 80"
+   ],
+   "tipp": [
+    "Eine preiswerte Taucheruhr."
+   ],
+   "x": [
+    "Die Seastar wurde in den 1960ern zur Taucheruhr.",
+    "Das Werk hat 80 Stunden Gangreserve.",
+    "Es gibt sie in vielen Farben."
+   ],
+   "ev": [
+    [
+     "1953",
+     "Seastar"
+    ]
+   ],
+   "w": "Die Taucheruhr von Tissot: 300 Meter, Powermatic 80 und ein fairer Preis."
+  },
+  {
+   "id": "le-locle",
+   "t": "Tissot Le Locle",
+   "brand": "Tissot",
+   "since": "2000er",
+   "s": "Die klassische Dresswatch von Tissot, benannt nach dem Gründungsort der Marke.",
+   "b": [
+    "Die Le Locle ist die klassische Dresswatch von Tissot und trägt den Namen des Ortes, an dem die Marke 1853 gegründet wurde. Sie hat ein schlankes Gehäuse, ein Zifferblatt mit römischen Ziffern oder Stabindizes und ein Automatikwerk.",
+    "Die Uhr nutzt das Kaliber Powermatic 80 mit 80 Stunden Gangreserve. Sie ist eine günstige Alternative zu Schweizer Dresswatches."
+   ],
+   "cur": "Le Locle Powermatic 80 (T006.407)",
+   "f": [
+    [
+     "Gehäuse",
+     "39,3 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Powermatic 80"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Zifferblatt",
+     "römische Ziffern"
+    ]
+   ],
+   "refs": [
+    [
+     "Le Locle",
+     "seit 2000er",
+     "39 mm",
+     "Powermatic 80",
+     "Automatik"
+    ]
+   ],
+   "r": [
+    "gentleman",
+    "prx",
+    "tissot-seastar"
+   ],
+   "k": "Die Le Locle trägt den Namen von Tissots Gründungsort.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "markers": "roman",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "6"
+   },
+   "m": [
+    "Römische Ziffern",
+    "Powermatic 80",
+    "Schlankes Gehäuse"
+   ],
+   "tipp": [
+    "Eine solide Dresswatch."
+   ],
+   "x": [
+    "Le Locle ist der Gründungsort der Marke.",
+    "Das Werk hat 80 Stunden Gangreserve.",
+    "Die Uhr ist preiswert."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Le Locle"
+    ]
+   ],
+   "w": "Tissots klassische Dresswatch: benannt nach dem Gründungsort Le Locle."
+  },
+  {
+   "id": "t-touch",
+   "t": "Tissot T-Touch",
+   "brand": "Tissot",
+   "since": "1999",
+   "s": "Die Uhr mit berührungsempfindlichem Saphirglas, 1999 vorgestellt.",
+   "b": [
+    "Die T-Touch erschien 1999 als erste Uhr mit berührungsempfindlichem Saphirglas. Das Glas erkennt Berührung und aktiviert Funktionen wie Kompass, Höhenmesser, Thermometer und Wetteranzeige.",
+    "Die Uhr war ein Vorläufer der Smartwatch. Sie wurde laufend weiterentwickelt, mit Quarz-, später mit Solarwerk und Konnektivität."
+   ],
+   "cur": "T-Touch (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "42–47 mm, Titan"
+    ],
+    [
+     "Technik",
+     "Berührungsempfindliches Saphirglas"
+    ],
+    [
+     "Funktionen",
+     "Kompass, Höhenmesser, Thermometer"
+    ],
+    [
+     "Seit",
+     "1999"
+    ]
+   ],
+   "refs": [
+    [
+     "T-Touch",
+     "1999",
+     "versch.",
+     "Quarz",
+     "Erste Serie"
+    ],
+    [
+     "T-Touch Connect",
+     "2010er–heute",
+     "versch.",
+     "Solar",
+     "Mit Konnektivität"
+    ]
+   ],
+   "r": [
+    "astron",
+    "g-shock",
+    "quarzkrise"
+   ],
+   "k": "Die T-Touch war 1999 die erste Uhr mit Touch-Saphirglas.",
+   "a": [],
+   "v": {
+    "shape": "gshock",
+    "caseColor": "#8a8f95"
+   },
+   "m": [
+    "Touch-Glas",
+    "Kompass",
+    "Titangehäuse"
+   ],
+   "tipp": [
+    "Ein Vorläufer der Smartwatch."
+   ],
+   "x": [
+    "Das Glas ist berührungsempfindlich.",
+    "Sie hat Kompass und Höhenmesser.",
+    "Das Gehäuse ist oft aus Titan."
+   ],
+   "ev": [
+    [
+     "1999",
+     "T-Touch"
+    ]
+   ],
+   "w": "Die Touch-Uhr von Tissot: Kompass und Höhenmesser per Fingertipp auf Saphirglas."
+  },
+  {
+   "id": "divers-sixty-five",
+   "t": "Oris Divers Sixty-Five",
+   "brand": "Oris",
+   "since": "2015",
+   "s": "Die Taucheruhr im Stil von 1965, mit schlichtem Zifferblatt und Bronze- oder Stahlgehäuse.",
+   "b": [
+    "Die Divers Sixty-Five erschien 2015 als Neuauflage einer Oris-Taucheruhr von 1965. Sie hat ein 40-Millimeter-Gehäuse, eine Aluminium- oder Edelstahllünette und ein schlichtes Zifferblatt mit Stabindizes und Dreieck bei 12 Uhr.",
+    "Es gibt sie in Edelstahl und Bronze, mit verschiedenen Farben. Die Uhr gilt als eine der gelungensten Retro-Taucheruhren im mittleren Preissegment."
+   ],
+   "cur": "Divers Sixty-Five (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38–40 mm, Edelstahl oder Bronze"
+    ],
+    [
+     "Kaliber",
+     "Sellita-basiert (Oris 733)"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Vorbild",
+     "Taucheruhr von 1965"
+    ]
+   ],
+   "refs": [
+    [
+     "Divers Sixty-Five",
+     "seit 2015",
+     "40 mm",
+     "Oris 733",
+     "Neuauflage"
+    ],
+    [
+     "Divers Sixty-Five Bronze",
+     "später",
+     "40 mm",
+     "Oris 733",
+     "Bronzegehäuse"
+    ]
+   ],
+   "r": [
+    "aquis",
+    "black-bay-58",
+    "seamaster-300"
+   ],
+   "k": "Die Divers Sixty-Five greift eine Oris-Taucheruhr von 1965 auf.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "markers": "dots",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#1f3a5f",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Retro-Stil",
+    "Bronzemodelle",
+    "40 mm"
+   ],
+   "tipp": [
+    "Ein schöner Retro-Taucher."
+   ],
+   "x": [
+    "Es gibt Modelle aus Bronze.",
+    "Die Uhr ist bis 100 Meter wasserdicht.",
+    "Sie ist ein Retro-Klassiker."
+   ],
+   "ev": [
+    [
+     "1965",
+     "Original-Taucheruhr"
+    ],
+    [
+     "2015",
+     "Divers Sixty-Five"
+    ]
+   ],
+   "w": "Die Retro-Taucheruhr von Oris: schlicht, 40 Millimeter und im Stil von 1965."
+  },
+  {
+   "id": "propilot",
+   "t": "Oris ProPilot",
+   "brand": "Oris",
+   "since": "2000er",
+   "s": "Die Fliegeruhr von Oris mit klarem Zifferblatt und Automatik, benannt nach den Pilotenuhren der Marke.",
+   "b": [
+    "Die ProPilot ist die Fliegeruhr von Oris. Sie hat ein robustes Gehäuse mit gerillter Lünette, ein Zifferblatt mit großen Ziffern und eine große Krone. Das Automatikwerk läuft mit mehreren Tagen Gangreserve.",
+    "Sie steht in der Tradition der Big Crown und ist ein Gegenstück zu den Taucheruhren der Marke. Es gibt sie in Edelstahl und Titan, mit Datum und Zeigerdatum."
+   ],
+   "cur": "ProPilot (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38–44 mm, Edelstahl oder Titan"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Krone",
+     "groß"
+    ],
+    [
+     "Seit",
+     "2000er"
+    ]
+   ],
+   "refs": [
+    [
+     "ProPilot",
+     "seit 2000er",
+     "versch.",
+     "Automatik",
+     "Fliegeruhr"
+    ]
+   ],
+   "r": [
+    "big-crown",
+    "aquis",
+    "big-pilot"
+   ],
+   "k": "Die ProPilot knüpft an die Big Crown von 1938 an.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "crown": "big",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Große Krone",
+    "Großes Zifferblatt",
+    "Titanmodelle"
+   ],
+   "tipp": [
+    "Eine unabhängige Alternative zu bekannten Fliegeruhren."
+   ],
+   "x": [
+    "Sie hat eine große Krone.",
+    "Es gibt Modelle in Titan.",
+    "Sie ist ein Gegenstück zur Aquis."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "ProPilot"
+    ]
+   ],
+   "w": "Die Fliegeruhr von Oris: große Krone, klares Zifferblatt und viel Platz für Ziffern."
   }
  ]
 }
