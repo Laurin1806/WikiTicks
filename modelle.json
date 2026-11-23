@@ -3171,6 +3171,13 @@
       "bezelColor": "#1c5a33",
       "img": "assets/watches/rolex-submariner-126610lv-cermit.jpg"
      }
+    },
+    {
+     "n": "Ref. 124060 (ohne Datum)",
+     "y": "seit 2020",
+     "v": {
+      "img": "assets/watches/rolex-submariner-124060.jpg"
+     }
     }
    ],
    "m": [
@@ -4025,7 +4032,7 @@
      "v": {
       "dial": "#d9c99c",
       "case": "steel",
-      "img": "assets/watches/rolex-datejust-126233-champagne.jpg"
+      "img": "assets/watches/rolex-datejust-126233-steel-gold-champagne.jpg"
      }
     }
    ],
@@ -4288,7 +4295,7 @@
       "dial": "#bfe0ee",
       "bezel": "fluted",
       "bezelColor": null,
-      "img": "assets/watches/rolex-day-date-platinum-iceblue.jpg"
+      "img": "assets/watches/rolex-day-date-platinum-ice-blue.jpg"
      }
     }
    ],
@@ -4720,7 +4727,8 @@
      "OFFICIALLY CERTIFIED"
     ],
     "bottomColor": "#d0342c",
-    "coin": true
+    "coin": true,
+    "img": "assets/watches/rolex-sea-dweller-126600.jpg"
    },
    "var": [
     {
@@ -7452,7 +7460,8 @@
      "500 m – 1640 ft"
     ],
     "guards": true,
-    "sportLugs": true
+    "sportLugs": true,
+    "img": "assets/watches/tudor-pelagos.jpg"
    },
    "m": [
     "Gehäuse und Band aus Titan",
@@ -7599,7 +7608,8 @@
     "track": "rail",
     "strap": "santos",
     "horns": true,
-    "guards": true
+    "guards": true,
+    "img": "assets/watches/cartier-santos.jpg"
    },
    "var": [
     {
@@ -7609,7 +7619,8 @@
       "dial": "#1d3561",
       "tex": "sunburst",
       "ink": "#e9ecef",
-      "hc": "#e9ecef"
+      "hc": "#e9ecef",
+      "img": null
      }
     }
    ],
@@ -7776,7 +7787,8 @@
     "seconds": false,
     "label": "",
     "track": "rail",
-    "brandDy": -1
+    "brandDy": -1,
+    "img": "assets/watches/cartier-tank.jpg"
    },
    "var": [
     {
@@ -7784,7 +7796,8 @@
      "y": "seit 1922",
      "v": {
       "case": "gold",
-      "strapColor": "#3a2618"
+      "strapColor": "#3a2618",
+      "img": "assets/watches/cartier-tank-louis-cartier.jpg"
      }
     }
    ],
@@ -7960,7 +7973,8 @@
     "strap": "leather",
     "strapColor": "#2a2420",
     "track": "rail",
-    "pr": 90
+    "pr": 90,
+    "img": "assets/watches/iwc-portugieser.jpg"
    },
    "m": [
     "Großes, klares Zifferblatt",
@@ -8024,7 +8038,16 @@
      ]
     ]
    },
-   "w": "Groß und klar, im Format einer Taschenuhr: So entstand sie 1939 für portugiesische Kaufleute."
+   "w": "Groß und klar, im Format einer Taschenuhr: So entstand sie 1939 für portugiesische Kaufleute.",
+   "var": [
+    {
+     "n": "Portugieser Chronograph (IW3716)",
+     "y": "",
+     "v": {
+      "img": "assets/watches/iwc-portugieser-chronograph-iw3716.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "big-pilot",
@@ -8121,7 +8144,8 @@
      "AUTOMATIC"
     ],
     "track": "rail",
-    "pr": 90
+    "pr": 90,
+    "img": "assets/watches/iwc-big-pilots-watch.jpg"
    },
    "m": [
     "Große Zwiebelkrone",
@@ -8280,14 +8304,16 @@
     "top": [
      "NAVITIMER"
     ],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/breitling-navitimer.jpg"
    },
    "var": [
     {
      "n": "Zifferblatt Grün",
      "y": "seit 2022",
      "v": {
-      "dial": "#1f5a3e"
+      "dial": "#1f5a3e",
+      "img": null
      }
     }
    ],
@@ -8456,7 +8482,8 @@
     "subColor": "#c9ccd1",
     "bezel": "riders",
     "pushers": true,
-    "strap": "rouleaux"
+    "strap": "rouleaux",
+    "img": "assets/watches/breitling-chronomat.jpg"
    },
    "m": [
     "Lünette mit vier Reitern",
@@ -8574,7 +8601,8 @@
     "bottom": [
      "SPRING DRIVE"
     ],
-    "pr": 240
+    "pr": 240,
+    "img": "assets/watches/grand-seiko-snowflake.jpg"
    },
    "m": [
     "Strukturiertes weißes Zifferblatt",
@@ -8677,7 +8705,8 @@
     "date": "3",
     "bottom": [
      "HI-BEAT 36000"
-    ]
+    ],
+    "img": "assets/watches/grand-seiko-white-birch.jpg"
    },
    "m": [
     "Tief geprägtes Muster einer Birkenrinde",
@@ -8795,7 +8824,8 @@
     "top": [
      "MONACO"
     ],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/tag-heuer-monaco.jpg"
    },
    "m": [
     "Quadratisches Gehäuse",
@@ -8938,7 +8968,8 @@
     "top": [
      "CARRERA"
     ],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/tag-heuer-carrera.jpg"
    },
    "m": [
     "Aufgeräumtes Zifferblatt",
@@ -9286,7 +9317,7 @@
     ],
     "brandColor": "#e3b23c",
     "track": "rail",
-    "img": "assets/watches/rolex-air-king-126900.jpg"
+    "img": "assets/watches/rolex-air-king-126900-black.jpg"
    },
    "m": [
     "Große Ziffern 3, 6 und 9",
@@ -9818,7 +9849,7 @@
     "brandDy": -6,
     "top": [],
     "lugs": "taper",
-    "img": "assets/watches/rolex-sky-dweller-336934-black.jpg"
+    "img": "assets/watches/rolex-sky-dweller-336934-blue.jpg"
    },
    "m": [
     "Außermittige 24-Stunden-Scheibe für die Heimatzeit",
@@ -10895,7 +10926,8 @@
     "bottom": [
      "CHRONOMETER",
      "200 m – 660 ft"
-    ]
+    ],
+    "img": "assets/watches/tudor-black-bay-58.jpg"
    },
    "m": [
     "39 Millimeter, flaches Gehäuse",
@@ -11124,7 +11156,8 @@
     "sub": "small6",
     "strap": "leather",
     "strapColor": "#2a201a",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/jaeger-lecoultre-reverso-classic.jpg"
    },
    "m": [
     "Wendbares Rechteckgehäuse",
@@ -11248,7 +11281,8 @@
     "markers": "arabic",
     "hands": "sword",
     "strap": "rubber",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/jaeger-lecoultre-polaris-date.jpg"
    },
    "m": [
     "Zwei Kronen",
@@ -11357,7 +11391,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "hands": "baton",
-    "hc": "#9c7a22"
+    "hc": "#9c7a22",
+    "img": "assets/watches/a-lange-soehne-lange-1.jpg"
    },
    "m": [
     "Asymmetrisches Zifferblatt",
@@ -11477,7 +11512,8 @@
     "dial": "#1d1f24",
     "layout": "zeitwerk",
     "strap": "leather",
-    "strapColor": "#1b1b1d"
+    "strapColor": "#1b1b1d",
+    "img": "assets/watches/a-lange-soehne-zeitwerk.jpg"
    },
    "m": [
     "Springende Stunden und Minuten in Ziffern",
@@ -11584,7 +11620,8 @@
     "pushers": true,
     "strap": "leather",
     "strapColor": "#1b1b1d",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/a-lange-soehne-datograph.jpg"
    },
    "m": [
     "Flyback-Chronograph",
@@ -11714,7 +11751,8 @@
     "strap": "leather",
     "strapColor": "#5a3a22",
     "lume": "#e9e2c8",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/panerai-luminor-marina.jpg"
    },
    "m": [
     "Kronenschutzbügel",
@@ -11848,7 +11886,8 @@
     "strap": "leather",
     "strapColor": "#5a3a22",
     "lume": "#e9d7a8",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/panerai-radiomir.jpg"
    },
    "m": [
     "Kissenförmiges Gehäuse",
@@ -11960,7 +11999,8 @@
     ],
     "bottom": [
      "DIVER'S 200m"
-    ]
+    ],
+    "img": "assets/watches/seiko-skx007.jpg"
    },
    "m": [
     "Krone bei 4 Uhr",
@@ -12192,7 +12232,8 @@
     "strap": "leather",
     "strapColor": "#2a201a",
     "label": "PRESAGE",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/seiko-presage-cocktail-time.jpg"
    },
    "m": [
     "Schimmernde, geprägte Zifferblätter",
@@ -12287,7 +12328,8 @@
     "markers": "baton",
     "date": "daydate",
     "sec": "#c8a04a",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/seiko-astron-gps-solar.jpg"
    },
    "m": [
     "GPS-Empfang",
@@ -12390,7 +12432,8 @@
     "bezel": "screws6",
     "sub": "chrono2",
     "pushers": true,
-    "strap": "rubber"
+    "strap": "rubber",
+    "img": "assets/watches/hublot-big-bang.jpg"
    },
    "m": [
     "Gehäuse aus vielen Schichten",
@@ -12497,7 +12540,8 @@
     "bezel": "screws6",
     "markers": "baton",
     "date": "3",
-    "strap": "rubber"
+    "strap": "rubber",
+    "img": "assets/watches/hublot-classic-fusion.jpg"
    },
    "m": [
     "Bullaugen-Gehäuse",
@@ -12621,7 +12665,8 @@
     ],
     "bezel": "tachy",
     "pushers": true,
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/zenith-chronomaster.jpg"
    },
    "m": [
     "Drei farbige Hilfszifferblätter",
@@ -12754,7 +12799,8 @@
     "dial": "#1d3b66",
     "tex": "snow",
     "sub": "small9",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/zenith-defy.jpg"
    },
    "m": [
     "Achteckiges Gehäuse",
@@ -12879,7 +12925,8 @@
     "bezel": "maltese",
     "date": "3",
     "strap": "integrated",
-    "horns": true
+    "horns": true,
+    "img": "assets/watches/vacheron-constantin-overseas.jpg"
    },
    "m": [
     "Lünette mit sechs Einkerbungen",
@@ -15588,7 +15635,8 @@
      "PERPETUAL",
      "1908"
     ],
-    "bottom": []
+    "bottom": [],
+    "img": "assets/watches/rolex-perpetual-1908-52508.jpg"
    },
    "m": [
     "Arabische Ziffern bei 3, 9 und 12",
@@ -15627,7 +15675,16 @@
      "Platinausführung mit eisblauem Zifferblatt"
     ]
    ],
-   "w": "Benannt nach dem Jahr 1908: eine klassische Dresswatch aus Gold mit kleiner Sekunde."
+   "w": "Benannt nach dem Jahr 1908: eine klassische Dresswatch aus Gold mit kleiner Sekunde.",
+   "var": [
+    {
+     "n": "Ref. 52509",
+     "y": "seit 2023",
+     "v": {
+      "img": "assets/watches/rolex-perpetual-1908-52509.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "land-dweller",
@@ -15712,7 +15769,8 @@
      "OYSTER PERPETUAL",
      "LAND-DWELLER"
     ],
-    "bottom": []
+    "bottom": [],
+    "img": "assets/watches/rolex-land-dweller-127334-white.jpg"
    },
    "m": [
     "Geriffelte Lünette auf flachem Gehäuse",
@@ -15747,7 +15805,16 @@
      "Vorstellung der Land-Dweller mit Kaliber 7135 (5 Hz)"
     ]
    ],
-   "w": "Integriertes Band und das neue Kaliber 7135 mit 5 Hz."
+   "w": "Integriertes Band und das neue Kaliber 7135 mit 5 Hz.",
+   "var": [
+    {
+     "n": "Ref. 127234",
+     "y": "seit 2025",
+     "v": {
+      "img": "assets/watches/rolex-land-dweller-127234-blue.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "turtle",
