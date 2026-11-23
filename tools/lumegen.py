@@ -51,6 +51,22 @@ def gen(img, spec):
             if (np.hypot(c[:,1]-hx,c[:,0]-hy)<hr).any(): handm[c[:,0],c[:,1]]=True
     else: handm=np.zeros((h,w),bool)
     from PIL import ImageDraw
+    lg=[]
+    if spec.get('autohands'):
+        import autohands
+        lg=[];shs,_=autohands.hand_shapes(L,spec['hub'],spec.get('R',r),thr=spec.get('hthr',150),inset=spec.get('inset',.28),log=lg)
+        spec=dict(spec);spec['shapes']=shs+spec.get('shapes',[]);print('Zeiger',lg)
+        # automatisch übernommene Flächen entlang der Zeigerachsen entfernen (Zeiger nur über die Leuchtformen)
+        hx,hy=spec['hub']
+        yy3,xx3=np.mgrid[0:h,0:w]
+        for a_,kind,mw,dm in lg:
+            t=math.radians(a_);ax_,ay_=math.sin(t),-math.cos(t)
+            if kind=='sec':  # Sekundenzeiger: alles entlang des Zeigers löschen, nur der Leuchtpunkt kommt als Form
+                dx3=xx3-hx;dy3=yy3-hy;al=dx3*ax_+dy3*ay_;pe=np.abs(-dx3*ay_+dy3*ax_)
+                keep[(al>0)&(al<min(dm+8,spec.get('R',r)*.78))&(pe<7)]=False;continue
+            for c in comps(keep.copy()):
+                dx=c[:,1]-hx;dy=c[:,0]-hy;along=dx*ax_+dy*ay_;perp=np.abs(-dx*ay_+dy*ax_)
+                if ((perp<max(mw,4)*.9)&(along>0)&(along<dm+6)).mean()>.5: keep[c[:,0],c[:,1]]=False
     shp=Image.new('L',(w*4,h*4),0);dr=ImageDraw.Draw(shp);S4=4
     shp2=Image.new('L',(w*4,h*4),0);dr2=ImageDraw.Draw(shp2)
     for f in spec.get('shapes',[]):
@@ -72,8 +88,49 @@ def gen(img, spec):
             cx_,cy_=f['c'];r1=f['r']
             if f.get('under'): dr2.ellipse([(cx_-r1)*S4,(cy_-r1)*S4,(cx_+r1)*S4,(cy_+r1)*S4],fill=255)
             else: dr.ellipse([(cx_-r1)*S4,(cy_-r1)*S4,(cx_+r1)*S4,(cy_+r1)*S4],fill=255)
+    # verdeckte Indizes unter Zeigern ergänzen: Raster aus vorhandenen Indizes, an verdeckten Stellen Index mit mittlerer Form zeichnen
+    if spec.get('autohands') and 'hub' in spec:
+        hx,hy=spec['hub'];ic=[]
+        for c in comps(keep.copy()):
+            cy_,cx_=c[:,0].mean(),c[:,1].mean();dd=math.hypot(cx_-hx,cy_-hy)
+            if dd>spec.get('R',r)*.55: 
+                dy_,dx_=c[:,0]-cy_,c[:,1]-cx_;cov=np.cov(np.vstack([dx_,dy_]));ev,evec=np.linalg.eigh(cov)
+                ic.append(dict(n=len(c),d=dd,a=(math.degrees(math.atan2(cx_-hx,-(cy_-hy)))+360)%360,l=math.sqrt(12*ev[1]),wd=math.sqrt(12*max(ev[0],.2))))
+        if len(ic)>=6:
+            Rr=float(np.median([i['d'] for i in ic]));sm=[i for i in ic if abs(i['d']-Rr)<Rr*.08]
+            nmed=np.median([i['n'] for i in sm]);typ=[i for i in sm if i['n']<nmed*1.6 and i['n']>nmed*.6] or sm
+            Lm=float(np.median([i['l'] for i in typ]));Wm=float(np.median([i['wd'] for i in typ]))
+            angs=[i['a'] for i in sm];off=float(np.median([((x+15)%30)-15 for x in angs]))
+            handangs=[x[0] for x in (lg if spec.get('autohands') else [])]
+            for k in range(12):
+                A=(off+30*k)%360
+                if any(abs(((A-x)+180)%360-180)<8 for x in angs): continue
+                if not any(abs(((A-x)+180)%360-180)<9 for x in handangs): continue
+                t=math.radians(A);cx_,cy_=hx+Rr*math.sin(t),hy-Rr*math.cos(t)
+                if Lm/Wm<1.5:
+                    rr=(Lm+Wm)/4;dr2.ellipse([(cx_-rr)*S4,(cy_-rr)*S4,(cx_+rr)*S4,(cy_+rr)*S4],fill=255)
+                else:
+                    ax_,ay_=math.sin(t),-math.cos(t);px_,py_=math.cos(t),math.sin(t);pts=[]
+                    for u,v in((-Lm/2,-Wm/2),(Lm/2,-Wm/2),(Lm/2,Wm/2),(-Lm/2,Wm/2)): pts.append(((cx_+u*ax_+v*px_)*S4,(cy_+u*ay_+v*py_)*S4))
+                    dr2.polygon(pts,fill=255)
+                print('Index ergänzt bei',round(A),'°')
+                for f in spec['shapes']:
+                    if f['t']=='sword' and abs(((A-f['ang'])+180)%360-180)<9:
+                        cut=Rr-max(Lm,Wm)*.62
+                        f['w']=[x for x in f['w'] if x[0]<cut];
+                        if f['w']: f['w'][-1]=[f['w'][-1][0],0]
+                        # neu zeichnen ist nötig: Formen wurden schon gezeichnet -> Bereich jenseits cut löschen
+                        t2=math.radians(f['ang']);ax2,ay2=math.sin(t2),-math.cos(t2);px2,py2=math.cos(t2),math.sin(t2)
+                        quad=[(hx+cut*ax2+30*px2,hy+cut*ay2+30*py2),(hx+(cut+80)*ax2+30*px2,hy+(cut+80)*ay2+30*py2),(hx+(cut+80)*ax2-30*px2,hy+(cut+80)*ay2-30*py2),(hx+cut*ax2-30*px2,hy+cut*ay2-30*py2)]
+                        dr.polygon([(x*S4,y*S4) for x,y in quad],fill=0)
     shp=np.array(shp.resize((w,h),Image.LANCZOS))>110
     und=np.array(shp2.resize((w,h),Image.LANCZOS))>110
+    if lg:
+        handm=np.zeros((h,w),bool);hx,hy=spec['hub'];yy2,xx2=np.mgrid[0:h,0:w];dx=xx2-hx;dy=yy2-hy
+        for a_,role,mw,dm in lg:
+            if role=='sec': mw=max(mw,3)
+            t=math.radians(a_);ax_,ay_=math.sin(t),-math.cos(t);along=dx*ax_+dy*ay_;perp=np.abs(-dx*ay_+dy*ax_)
+            handm|=(along>-4)&(along<dm+2)&(perp<mw/2+1.5)
     keep|=shp|(und&~np.array(Image.fromarray((handm*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)))>0)
     for x0,y0,x1,y1 in spec.get('add',[]): # zusätzlich zu übernehmende Bereiche (alles Helle darin)
         sub=(L>=spec.get('thr',175)-40)&(S<=spec.get('sat',70)+10);keep[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]|=sub[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]
@@ -89,7 +146,7 @@ if __name__=='__main__':
     for img,spec in specs.items():
         ov,keep=gen(img,spec)
         name=img.split('/')[-1].rsplit('.',1)[0]+'.png'
-        ov.save(ROOT+'assets/watches/lume/'+name,optimize=True)
+        ov.save((OUT if 'OUT' in globals() else ROOT+'assets/watches/lume/')+name,optimize=True)
         # Vorschau
         base=Image.open(ROOT+img).convert('RGB');pv=base.point(lambda v:int(v*.35)).convert('RGBA')
         pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save('/tmp/pv_'+name)
