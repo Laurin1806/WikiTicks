@@ -445,6 +445,10 @@ function shuffled(seed, list) {
 // Jeder Eintrag kommt einmal dran, bevor sich einer wiederholt
 // Artikel des Tages von Hand festlegen (ID eines Eintrags); leer lassen ("") für die automatische tägliche Auswahl
 const ARTIKEL_DES_TAGES = "";
+// Auswahl von Hand nur für einen bestimmten Tag (Datum im Format JJJJ-MM-TT); an allen anderen Tagen gilt die automatische Auswahl
+const TAGES_AUSWAHL = { datum: "2026-11-23", artikel: "nautilus", uhr: "submariner" };
+const heute = () => new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+const manuell = () => TAGES_AUSWAHL.datum === heute() ? TAGES_AUSWAHL : null;
 // Optional: Bild einer Variante zeigen (Teil des Variantennamens, z. B. "1675"); leer lassen für die aktuelle Ausführung
 const ARTIKEL_DES_TAGES_VARIANTE = "";
 function ofTheDay(list, salt) {
@@ -1249,10 +1253,11 @@ function dailyCard(M, kicker, varName = "", hid = "dh") {
 
 // ---------- Ansichten ----------
 function viewHome() {
-  const M = (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || ofTheDay(E, 7), F = featured(M.id);
+  const man = manuell();
+  const M = (man && byId[man.artikel]) || (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || ofTheDay(E, 7), F = featured(M.id);
   // Uhr des Tages: nie dasselbe Modell und nie dieselbe Marke wie der Artikel des Tages
   const pool = MODELS.filter(e => e.id !== M.id && (!M.brand || e.brand !== M.brand));
-  const W = pool.length ? ofTheDay(pool, 11) : null;
+  const W = (man && byId[man.uhr]) || (pool.length ? ofTheDay(pool, 11) : null);
   return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES ? ARTIKEL_DES_TAGES_VARIANTE : "") + (W ? dailyCard(W, "Uhr des Tages", "", "dh2") : "") + `
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
