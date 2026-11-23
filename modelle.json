@@ -10094,7 +10094,12 @@
      "12 800ft = 3900m"
     ],
     "coin": true,
-    "img": "assets/watches/rolex-deepsea-136660-d-blue.jpg"
+    "img": "assets/watches/rolex-deepsea-136660-d-blue.jpg",
+    "night": {
+     "img": "assets/watches/rolex-deepsea-136660-d-blue.jpg",
+     "cut": "assets/watches/rolex-deepsea-136660-d-blue.cut.webp",
+     "lume": "assets/watches/rolex-deepsea-136660-d-blue.lume.png"
+    }
    },
    "var": [
     {
