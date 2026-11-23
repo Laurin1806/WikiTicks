@@ -399,11 +399,6 @@ footer .wrap { padding-block: 20px 28px; }
     <svg class="dial" viewBox="0 0 120 120" aria-hidden="true">
       <circle cx="60" cy="60" r="57" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/>
       <g id="ticks"></g>
-      <g id="daydate"><path id="dd-arc" d="M39.38 33.6A33.5 33.5 0 0 1 80.62 33.6" fill="none"/>
-        <path d="M33.65 28.59A41 41 0 0 1 86.35 28.59L79.93 36.25A31 31 0 0 0 40.07 36.25Z" fill="var(--bg)" stroke="var(--line)" stroke-width="1" stroke-linejoin="round"/>
-        <text font-family="var(--font-mono)" font-size="7.2" font-weight="700" fill="var(--fg)" text-anchor="middle" letter-spacing=".5"><textPath href="#dd-arc" startOffset="50%" id="dd-day">MONTAG</textPath></text>
-        <rect x="79" y="53.5" width="20" height="13" rx="1.6" fill="var(--bg)" stroke="var(--line)" stroke-width="1"/>
-        <text id="dd-date" x="89" y="63.4" font-family="var(--font-mono)" font-size="9.5" font-weight="700" fill="var(--fg)" text-anchor="middle">1</text></g>
       <line id="hh" x1="60" y1="60" x2="60" y2="32" stroke="var(--fg)" stroke-width="4" stroke-linecap="round"/>
       <line id="mh" x1="60" y1="60" x2="60" y2="18" stroke="var(--fg)" stroke-width="2.5" stroke-linecap="round"/>
       <line id="sh" x1="60" y1="70" x2="60" y2="14" stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round"/>
@@ -428,7 +423,7 @@ footer .wrap { padding-block: 20px 28px; }
       <nav id="nav" aria-label="Navigation"></nav>
       <div class="accent-box night-box">
         <div class="label">Ansicht</div>
-        <button type="button" class="nightbtn" id="nightbtn" aria-pressed="false"><svg class="moon" viewBox="4 1 52 28" aria-hidden="true"></svg><span class="nt"><span class="nl">Nachtmodus</span><small class="mp"></small></span></button>
+        <button type="button" class="nightbtn" id="nightbtn" aria-pressed="false"><svg class="moon" viewBox="4 1 52 28" aria-hidden="true"></svg><span class="nl">Nachtmodus</span></button>
       </div>
       <div class="accent-box">
         <div class="label">Farbe</div>
@@ -633,7 +628,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112453"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112454"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1838,7 +1833,6 @@ function drawMoonBtn() {
   const b = document.getElementById("nightbtn"); if (!b) return;
   const m = moonPhase();
   b.querySelector(".moon").innerHTML = moonSVG(m.p);
-  b.querySelector(".mp").textContent = `${m.name} · ${Math.round(m.k * 100)} %`;
   b.title = `Heute: ${m.name}, ${Math.round(m.k * 100)} % beleuchtet`;
 }
 drawMoonBtn(); setInterval(drawMoonBtn, 30 * 60 * 1000);
@@ -1931,13 +1925,6 @@ document.querySelector(".accent-switch").addEventListener("click", ev => {
     const sec = d.getSeconds() + Math.floor(d.getMilliseconds() / (1000 / steps)) / steps;
     set("#sh", sec * 6); set("#mh", (d.getMinutes() + sec / 60) * 6); set("#hh", ((d.getHours() % 12) + d.getMinutes() / 60) * 30);
   }
-  // Wochentag und Datum (Fenster bei 12 und 3 Uhr), aktualisiert sich nach Mitternacht
-  let ddKey = "";
-  function dayDate() { const d = new Date(), k = d.toDateString(); if (k === ddKey) return; ddKey = k;
-    const dn = d.toLocaleDateString("de-DE", { weekday: "long" }).toUpperCase(), tp = $("#dd-day");
-    tp.textContent = dn; tp.setAttribute("textLength", dn.length > 7 ? 44 : dn.length * 5.6); tp.setAttribute("lengthAdjust", "spacingAndGlyphs");
-    $("#dd-date").textContent = d.getDate(); drawMoonBtn && drawMoonBtn(); }
-  dayDate(); setInterval(dayDate, 60000);
   tick(); setInterval(tick, reduce ? 1000 : 125);
 })();
 
