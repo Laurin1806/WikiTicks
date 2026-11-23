@@ -9184,7 +9184,7 @@
    "a": [],
    "v": {
     "dial": "#17191d",
-    "markers": "arabicAll",
+    "markers": "arabic",
     "sec": "#2c9a50",
     "guards": true,
     "strap": "oyster",
@@ -18107,7 +18107,12 @@
     "markers": "roman",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "label": "",
+    "top": [],
+    "bottom": [],
+    "origin": "",
+    "brandDy": -22
    },
    "m": [
     "Doppelzifferblatt",
