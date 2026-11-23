@@ -215,7 +215,7 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 .wimg-wrap { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
 .thumb .wimg-wrap, .daily-fig .wimg-wrap { height: 100%; }
 .daily-fig .wimg-wrap { height: auto; }
-canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); pointer-events: none; opacity: 0; transition: opacity 1.1s ease-in-out; will-change: opacity; }
+canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity 1.1s ease-in-out; will-change: opacity; }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { opacity: 0; }
 :root.night canvas.wcut { opacity: 1; }
 :root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 1.5px rgba(var(--lc1), 1)) drop-shadow(0 0 5px rgba(var(--lc2), .85)) drop-shadow(0 0 11px rgba(var(--lc3), .42)); animation: lumepulse 6s ease-in-out infinite; }
@@ -632,7 +632,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112457"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112458"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
