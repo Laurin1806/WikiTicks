@@ -1,0 +1,10 @@
+# Seite und Daten nicht zwischenspeichern, damit Änderungen sofort sichtbar sind.
+# Bilder werden über eine Versionsnummer (?v=…) neu geladen und dürfen gecacht werden.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|json)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(jpg|png|webp)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+</IfModule>

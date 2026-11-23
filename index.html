@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>WikiTicks</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -1941,14 +1942,16 @@ document.querySelector(".accent-switch").addEventListener("click", ev => {
 })();
 
 // ---------- Daten laden ----------
-const load = f => fetch(f).then(r => r.ok ? r.json() : null).catch(() => null);
+// Daten immer frisch laden (Versionsnummer + kein Browser-Cache), sonst passen alte JSON-Daten nicht zur neuen Seite
+const load = f => fetch(`${f}?v=${IMGV}`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
 // Eingebettete Daten (Offline-Version) haben Vorrang, sonst werden die JSON-Dateien geladen
 const DATA = window.WIKITICKS_DATA;
 (DATA ? Promise.resolve([DATA.lexikon, DATA.modelle]) : Promise.all([load("lexikon.json"), load("modelle.json")])).then(([lex, mod]) => {
   if (!lex && !mod) { $("#view").innerHTML = '<p class="empty">Die Inhalte konnten nicht geladen werden. Bitte lade die Seite neu.</p>'; return; }
   E = [...(lex || []), ...((mod && mod.modelle) || []).map(m => ({ ...m, c: "Uhrenmodelle" }))];
   ((mod && mod.marken) || []).forEach(m => { BRAND_INFO[m.name] = m; });
-  LUMEMASK = new Map(Object.entries((mod && mod.lumeMasks) || {}));
+  const lmRaw = (mod && mod.lumeMasks) || {};
+  LUMEMASK = new Map(Array.isArray(lmRaw) ? lmRaw.map(f => [f, "b"]) : Object.entries(lmRaw));
   rebuild(); route();
   if (POS[location.hash]) requestAnimationFrame(() => window.scrollTo({ top: POS[location.hash] }));
 });
