@@ -2650,6 +2650,42 @@
      "El Primero 21 (1/100 s)."
     ]
    ]
+  },
+  {
+   "name": "Piaget",
+   "gegruendet": "1874",
+   "sitz": "Plan-les-Ouates (Genf)",
+   "text": [
+    "Georges-Édouard Piaget gründete 1874 in La Côte-aux-Fées im Schweizer Jura eine Werkstatt für Uhrwerke. Das Familienunternehmen wurde zum Spezialisten für extraflache Werke: 1957 stellte Piaget das Handaufzugskaliber 9P vor, das nur zwei Millimeter hoch ist.",
+    "Seit 1988 gehört Piaget zur Richemont-Gruppe. Bekannt ist die Marke für die Altiplano, die Polo und für Schmuckuhren. Die Manufaktur sitzt in La Côte-aux-Fées, die Zentrale in Genf."
+   ]
+  },
+  {
+   "name": "Ulysse Nardin",
+   "gegruendet": "1846",
+   "sitz": "Le Locle",
+   "text": [
+    "Ulysse Nardin gründete 1846 in Le Locle sein Unternehmen. Die Marke wurde durch Marinechronometer bekannt, die auf Schiffen vieler Marinen im Einsatz waren. Bis heute trägt sie einen Anker im Logo.",
+    "2001 stellte die Marke mit der Freak eine Uhr ohne Zeiger und Krone vor, deren Werk sich selbst als Minutenzeiger dreht. Ulysse Nardin gilt als Pionier bei Silizium im Uhrwerk. Seit 2014 gehört die Marke zur Kering-Gruppe."
+   ]
+  },
+  {
+   "name": "Zodiac",
+   "gegruendet": "1882",
+   "sitz": "Le Locle",
+   "text": [
+    "Ariste Calame gründete Zodiac 1882 in Le Locle. Die Marke wurde zeitweise stark im amerikanischen Markt und baute in den 1950er-Jahren mit der Sea Wolf eine der ersten Taucheruhren.",
+    "Seit 2001 gehört Zodiac zur amerikanischen Fossil-Gruppe, die die Marke mit Retro-Taucheruhren wieder belebt hat."
+   ]
+  },
+  {
+   "name": "Frédérique Constant",
+   "gegruendet": "1988",
+   "sitz": "Plan-les-Ouates (Genf)",
+   "text": [
+    "Peter und Aletta Stas gründeten Frédérique Constant 1988 in Genf. Ihr Ziel war es, hochwertige Schweizer Uhren zu fairen Preisen anzubieten. Die Marke wurde mit der Slimline, einer klassischen Dresswatch, bekannt und baut eigene Manufakturwerke.",
+    "Seit 2016 gehört Frédérique Constant zur japanischen Citizen-Gruppe."
+   ]
   }
  ],
  "modelle": [
@@ -17764,7 +17800,8 @@
      "Brancard-Version"
     ]
    ],
-   "w": "Die rechteckige Art-déco-Rolex, bei der Stunden und Sekunde auf getrennten Zifferblättern stehen."
+   "w": "Die rechteckige Art-déco-Rolex, bei der Stunden und Sekunde auf getrennten Zifferblättern stehen.",
+   "ns": true
   },
   {
    "id": "daytona-paul-newman",
@@ -19119,7 +19156,8 @@
      "Vorstellung der Crash"
     ]
    ],
-   "w": "Die verbogene Uhr: Cartier als Experimentierhaus mit surrealem Gehäuse."
+   "w": "Die verbogene Uhr: Cartier als Experimentierhaus mit surrealem Gehäuse.",
+   "ns": true
   },
   {
    "id": "baignoire",
@@ -19471,7 +19509,8 @@
      "Einstellung"
     ]
    ],
-   "w": "Cartiers Sportuhr der 2000er: abgerundet, mit arabischen Ziffern und Rennsport-Anspruch."
+   "w": "Cartiers Sportuhr der 2000er: abgerundet, mit arabischen Ziffern und Rennsport-Anspruch.",
+   "ns": true
   },
   {
    "id": "aquatimer",
@@ -19908,7 +19947,8 @@
      "Neuauflage mit B01"
     ]
    ],
-   "w": "Die elegante Breitling: Chronograph im Stil der 1940er, ohne Rechenschieber."
+   "w": "Die elegante Breitling: Chronograph im Stil der 1940er, ohne Rechenschieber.",
+   "ns": true
   },
   {
    "id": "top-time",
@@ -20000,7 +20040,8 @@
      "Neuauflage"
     ]
    ],
-   "w": "Breitlings Bond-Chronograph: sportlich, farbig und kleiner als die Navitimer."
+   "w": "Breitlings Bond-Chronograph: sportlich, farbig und kleiner als die Navitimer.",
+   "ns": true
   },
   {
    "id": "avenger",
@@ -20083,7 +20124,8 @@
      "Avenger"
     ]
    ],
-   "w": "Eine kräftige Pilotenuhr mit großen Reitern: Breitlings robuste Seite."
+   "w": "Eine kräftige Pilotenuhr mit großen Reitern: Breitlings robuste Seite.",
+   "ns": true
   },
   {
    "id": "heritage-chrono",
@@ -20327,7 +20369,8 @@
      "Tudor 1926"
     ]
    ],
-   "w": "Die schlichte Tudor: Dresswatch mit Jahreszahl im Namen."
+   "w": "Die schlichte Tudor: Dresswatch mit Jahreszahl im Namen.",
+   "ns": true
   },
   {
    "id": "autavia",
@@ -20585,7 +20628,8 @@
      "Link"
     ]
    ],
-   "w": "Die TAG Heuer mit dem S-Band: Sportuhr mit eleganter Seite."
+   "w": "Die TAG Heuer mit dem S-Band: Sportuhr mit eleganter Seite.",
+   "ns": true
   },
   {
    "id": "master-control",
@@ -22150,7 +22194,8 @@
      "Zenith Elite"
     ]
    ],
-   "w": "Die ruhige Zenith: flach, schlicht und klassisch."
+   "w": "Die ruhige Zenith: flach, schlicht und klassisch.",
+   "ns": true
   },
   {
    "id": "fiftysix",
@@ -22386,7 +22431,8 @@
      "Ludwig"
     ]
    ],
-   "w": "Schlicht und klar: eine der ersten Nomos-Uhren, mit arabischen Ziffern und Handaufzug."
+   "w": "Schlicht und klar: eine der ersten Nomos-Uhren, mit arabischen Ziffern und Handaufzug.",
+   "ns": true
   },
   {
    "id": "tetra",
@@ -22462,7 +22508,8 @@
      "Tetra"
     ]
    ],
-   "w": "Die quadratische Nomos: schlicht, klein und Bauhaus-streng."
+   "w": "Die quadratische Nomos: schlicht, klein und Bauhaus-streng.",
+   "ns": true
   },
   {
    "id": "conquest",
@@ -23174,7 +23221,8 @@
      "Meister"
     ]
    ],
-   "w": "Die klassische Junghans: Bauhaus-Erbe, gewölbtes Zifferblatt und Handaufzug oder Automatik."
+   "w": "Die klassische Junghans: Bauhaus-Erbe, gewölbtes Zifferblatt und Handaufzug oder Automatik.",
+   "ns": true
   },
   {
    "id": "junghans-mega",
@@ -23259,7 +23307,8 @@
      "Mega Solar"
     ]
    ],
-   "w": "Die Armbanduhr, die sich vom Funksender stellen lässt: Pionier von 1990."
+   "w": "Die Armbanduhr, die sich vom Funksender stellen lässt: Pionier von 1990.",
+   "ns": true
   },
   {
    "id": "f-91w",
@@ -23559,7 +23608,8 @@
      "Swatch Skin"
     ]
    ],
-   "w": "Die flachste Swatch: eine Uhr, die man kaum spürt."
+   "w": "Die flachste Swatch: eine Uhr, die man kaum spürt.",
+   "ns": true
   },
   {
    "id": "tissot-seastar",
@@ -23717,7 +23767,8 @@
      "Le Locle"
     ]
    ],
-   "w": "Tissots klassische Dresswatch: benannt nach dem Gründungsort Le Locle."
+   "w": "Tissots klassische Dresswatch: benannt nach dem Gründungsort Le Locle.",
+   "ns": true
   },
   {
    "id": "t-touch",
@@ -23959,6 +24010,1948 @@
     ]
    ],
    "w": "Die Fliegeruhr von Oris: große Krone, klares Zifferblatt und viel Platz für Ziffern."
+  },
+  {
+   "id": "br-01",
+   "t": "Bell & Ross BR 01",
+   "brand": "Bell & Ross",
+   "since": "2005",
+   "s": "Die erste Bell-&-Ross-Uhr: ein Cockpitinstrument am Handgelenk mit quadratischem Gehäuse.",
+   "b": [
+    "Die BR 01 erschien 2005 als erste große Uhr der Marke. Ihr quadratisches Gehäuse mit vier Schrauben und rundem Zifferblatt erinnert an Instrumente im Cockpit eines Flugzeugs. Mit 46 Millimetern war sie bewusst groß.",
+    "Die Uhr wurde mit Zifferblättern in Schwarz, Weiß und Farben angeboten, später auch mit Chronograph und Tourbillon. Sie legte die Basis für das Design der Marke."
+   ],
+   "cur": "BR 01 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "46 mm, Edelstahl, quadratisch"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Zifferblatt",
+     "schwarz, große Ziffern"
+    ],
+    [
+     "Seit",
+     "2005"
+    ]
+   ],
+   "refs": [
+    [
+     "BR 01",
+     "seit 2005",
+     "46 mm",
+     "Automatik",
+     "Original"
+    ]
+   ],
+   "r": [
+    "br-03",
+    "sinn-ezm-3",
+    "big-pilot"
+   ],
+   "k": "Die BR 01 sieht aus wie ein Instrument aus dem Cockpit.",
+   "a": [],
+   "v": {
+    "shape": "square",
+    "dial": "#17191d",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "black",
+    "date": "3"
+   },
+   "m": [
+    "Quadratisches Gehäuse",
+    "Vier Schrauben",
+    "Große Ziffern"
+   ],
+   "tipp": [
+    "Eine auffällige Uhr."
+   ],
+   "x": [
+    "Das Gehäuse ist quadratisch.",
+    "Die Uhr ist 46 mm groß.",
+    "Sie sieht aus wie ein Bordinstrument."
+   ],
+   "ev": [
+    [
+     "2005",
+     "BR 01"
+    ]
+   ],
+   "w": "Das Cockpitinstrument am Handgelenk: quadratisch, groß und mit vier Schrauben."
+  },
+  {
+   "id": "happy-diamonds",
+   "t": "Chopard Happy Diamonds",
+   "brand": "Chopard",
+   "since": "1976",
+   "s": "Die Uhr mit frei beweglichen Diamanten zwischen zwei Saphirgläsern, seit 1976 ein Chopard-Klassiker.",
+   "b": [
+    "Happy Diamonds erschien 1976 als Uhr, bei der Diamanten frei zwischen zwei Saphirgläsern über das Zifferblatt rollen. Die Idee stammt von Karl Scheufele, der die Steine beweglich machen wollte. Das Prinzip wurde zum Markenzeichen der Marke.",
+    "Es gibt Happy Diamonds als Uhr und als Schmuckstück. Die Kollektion richtet sich vor allem an Frauen und zeigt die Schmuckseite von Chopard."
+   ],
+   "cur": "Happy Diamonds (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "Gold, Edelstahl"
+    ],
+    [
+     "Besonderheit",
+     "Bewegliche Diamanten"
+    ],
+    [
+     "Seit",
+     "1976"
+    ],
+    [
+     "Werk",
+     "Quarz / Automatik"
+    ]
+   ],
+   "refs": [
+    [
+     "Happy Diamonds",
+     "seit 1976",
+     "versch.",
+     "Quarz",
+     "Original"
+    ]
+   ],
+   "r": [
+    "alpine-eagle",
+    "mille-miglia",
+    "bulgari-bulgari"
+   ],
+   "k": "Die Diamanten bei Happy Diamonds sind frei beweglich.",
+   "a": [],
+   "v": {
+    "case": "gold",
+    "dial": "#f3efe4",
+    "markers": "none",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Bewegliche Diamanten",
+    "Saphirglas",
+    "Schmuckuhr"
+   ],
+   "tipp": [
+    "Eine echte Schmuckuhr."
+   ],
+   "x": [
+    "Die Steine bewegen sich frei.",
+    "Es gibt viele Varianten.",
+    "Die Idee stammt von Chopard."
+   ],
+   "ev": [
+    [
+     "1976",
+     "Happy Diamonds"
+    ]
+   ],
+   "w": "Diamanten, die über das Zifferblatt tanzen: Chopards Schmuckklassiker."
+  },
+  {
+   "id": "mille-miglia",
+   "t": "Chopard Mille Miglia",
+   "brand": "Chopard",
+   "since": "1988",
+   "s": "Der sportliche Chopard-Chronograph, benannt nach dem italienischen Straßenrennen.",
+   "b": [
+    "Die Mille Miglia erschien 1988, als Chopard Sponsor des historischen Autorennens wurde. Der Name erinnert an das legendäre italienische Straßenrennen. Die Uhr hat ein Gehäuse mit Tachymeterlünette, ein Zifferblatt mit Hilfszifferblättern und ein Armband, das einem Autoreifen-Profil nachempfunden ist.",
+    "Es gibt sie als Chronograph mit Automatikwerk in Edelstahl, Titan und Gold. Sie zählt zu den bekanntesten Sportuhren der Marke."
+   ],
+   "cur": "Mille Miglia (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40–44 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Chronograph (Automatik)"
+    ],
+    [
+     "Band",
+     "Reifenprofil"
+    ],
+    [
+     "Seit",
+     "1988"
+    ]
+   ],
+   "refs": [
+    [
+     "Mille Miglia",
+     "seit 1988",
+     "versch.",
+     "Automatik",
+     "Chronograph"
+    ]
+   ],
+   "r": [
+    "alpine-eagle",
+    "happy-diamonds",
+    "carrera"
+   ],
+   "k": "Der Name erinnert an das italienische Straßenrennen Mille Miglia.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel"
+   },
+   "m": [
+    "Chronograph",
+    "Tachymeterlünette",
+    "Reifenprofil-Band"
+   ],
+   "tipp": [
+    "Eine sportliche Alternative in der Marke."
+   ],
+   "x": [
+    "Das Band erinnert an Autoreifen.",
+    "Chopard ist seit 1988 Sponsor des Rennens.",
+    "Die Uhr ist sportlich gestaltet."
+   ],
+   "ev": [
+    [
+     "1988",
+     "Mille Miglia"
+    ]
+   ],
+   "w": "Die Rennsport-Uhr von Chopard: Chronograph, Tachymeter und Reifenprofil-Band."
+  },
+  {
+   "id": "gp-vintage-1945",
+   "t": "Girard-Perregaux Vintage 1945",
+   "brand": "Girard-Perregaux",
+   "since": "1995",
+   "s": "Die rechteckige Girard-Perregaux im Art-déco-Stil, erstmals 1995 vorgestellt.",
+   "b": [
+    "Die Vintage 1945 erschien 1995 und greift eine rechteckige Girard-Perregaux der 1940er-Jahre auf. Das Gehäuse hat gewölbte Seiten, das Zifferblatt trägt Stabindizes oder Ziffern. Sie ist eine klassische Formuhr im Art-déco-Stil.",
+    "Neben dem Dreizeiger gibt es sie mit Chronograph, Tourbillon und ewigem Kalender. Sie bildet das Gegenstück zur sportlichen Laureato."
+   ],
+   "cur": "Vintage 1945 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "rechteckig, Gold oder Stahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik / Handaufzug"
+    ],
+    [
+     "Seit",
+     "1995"
+    ],
+    [
+     "Stil",
+     "Art déco"
+    ]
+   ],
+   "refs": [
+    [
+     "Vintage 1945",
+     "seit 1995",
+     "rechteckig",
+     "Automatik",
+     "Original"
+    ]
+   ],
+   "r": [
+    "laureato",
+    "gp-three-bridges",
+    "tank"
+   ],
+   "k": "Die Vintage 1945 greift ein Girard-Perregaux-Modell der 1940er auf.",
+   "a": [],
+   "v": {
+    "shape": "rect",
+    "case": "steel",
+    "dial": "#e8e8e8",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Rechteckiges Gehäuse",
+    "Art-déco-Stil",
+    "Stabindizes"
+   ],
+   "tipp": [
+    "Eine Alternative zur Cartier Tank."
+   ],
+   "x": [
+    "Das Gehäuse ist gewölbt.",
+    "Es gibt viele Komplikationen.",
+    "Die Uhr ist ein Art-déco-Klassiker."
+   ],
+   "ev": [
+    [
+     "1995",
+     "Vintage 1945"
+    ]
+   ],
+   "w": "Die Art-déco-Girard-Perregaux: rechteckig, elegant und ein Gegenstück zur Laureato."
+  },
+  {
+   "id": "gp-three-bridges",
+   "t": "Girard-Perregaux Tourbillon mit drei goldenen Brücken",
+   "brand": "Girard-Perregaux",
+   "since": "1990er",
+   "s": "Das Tourbillon unter drei goldenen Brücken, das Constant Girard im 19. Jahrhundert baute.",
+   "b": [
+    "Das Tourbillon unter drei goldenen Brücken geht auf Constant Girard zurück, der es im 19. Jahrhundert baute und 1884 patentieren ließ. In den 1990er-Jahren stellte Girard-Perregaux eine Armbanduhr mit diesem Prinzip vor, bei der die Brücken in Pfeilform angeordnet sind.",
+    "Die Uhr hat ein Tourbillon, das von drei goldenen, pfeilförmigen Brücken gehalten wird. Sie ist die Leistungsschau der Marke und eines der bekanntesten Tourbillons der Haute Horlogerie."
+   ],
+   "cur": "Tourbillon mit drei goldenen Brücken (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "Gold oder Platin"
+    ],
+    [
+     "Werk",
+     "Handaufzug, Tourbillon"
+    ],
+    [
+     "Brücken",
+     "drei, pfeilförmig, golden"
+    ],
+    [
+     "Seit",
+     "1990er (Armbanduhr)"
+    ]
+   ],
+   "refs": [
+    [
+     "Tourbillon mit drei Brücken",
+     "seit 1990er",
+     "versch.",
+     "Handaufzug",
+     "Armbanduhr"
+    ]
+   ],
+   "r": [
+    "tourbillon",
+    "laureato",
+    "gp-vintage-1945"
+   ],
+   "k": "Das Tourbillon unter drei goldenen Brücken wurde 1884 patentiert.",
+   "a": [],
+   "v": {
+    "case": "gold",
+    "dial": "#17191d",
+    "markers": "none",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#2a1a10"
+   },
+   "m": [
+    "Tourbillon",
+    "Drei goldene Brücken",
+    "Handaufzug"
+   ],
+   "tipp": [
+    "Ein Klassiker der Haute Horlogerie."
+   ],
+   "x": [
+    "Die Brücken haben Pfeilform.",
+    "Das Werk ist sichtbar.",
+    "Constant Girard baute das Original im 19. Jahrhundert."
+   ],
+   "ev": [
+    [
+     "1884",
+     "Patent Constant Girard"
+    ],
+    [
+     "1990er",
+     "Armbanduhr"
+    ]
+   ],
+   "w": "Das Tourbillon unter den drei Pfeilbrücken: ein Stück Uhrmachergeschichte."
+  },
+  {
+   "id": "bulgari-bulgari",
+   "t": "Bulgari Bulgari",
+   "brand": "Bulgari",
+   "since": "1977",
+   "s": "Die Uhr mit dem doppelt eingravierten Namen auf der Lünette, seit 1977 das Markenzeichen von Bulgari.",
+   "b": [
+    "Die Bulgari Bulgari erschien 1977 mit dem Namen der Marke zweimal auf der Lünette. Das Gehäuse ist schlicht, das Zifferblatt trägt Stabindizes und die Lünette ist ein Ring aus Gold oder Stahl mit dem Schriftzug. Die Uhr war damals sehr auffällig, weil der Name auf dem Gehäuse stand.",
+    "Bis heute ist sie ein Klassiker der Marke. Es gibt sie mit Quarz oder Automatik in Edelstahl, Gold und Zweifarb-Versionen."
+   ],
+   "cur": "Bulgari Bulgari (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "36–41 mm, Gold oder Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik / Quarz"
+    ],
+    [
+     "Lünette",
+     "mit doppeltem Schriftzug"
+    ],
+    [
+     "Seit",
+     "1977"
+    ]
+   ],
+   "refs": [
+    [
+     "Bulgari Bulgari",
+     "seit 1977",
+     "versch.",
+     "Quarz / Automatik",
+     "Original"
+    ]
+   ],
+   "r": [
+    "octo-finissimo",
+    "serpenti",
+    "alpine-eagle"
+   ],
+   "k": "Der Schriftzug BVLGARI auf der Lünette war 1977 eine kühne Idee.",
+   "a": [],
+   "v": {
+    "case": "gold",
+    "dial": "#e8e8e8",
+    "markers": "baton",
+    "hands": "dauphine",
+    "bezel": "fluted",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Schriftzug auf der Lünette",
+    "Schlichtes Zifferblatt",
+    "Gold"
+   ],
+   "tipp": [
+    "Ein Klassiker der Marke."
+   ],
+   "x": [
+    "Der Name steht zweimal auf der Lünette.",
+    "Die Uhr ist ein Markenzeichen.",
+    "Sie wurde von Gérald Genta mitentworfen."
+   ],
+   "ev": [
+    [
+     "1977",
+     "Bulgari Bulgari"
+    ]
+   ],
+   "w": "Der Markenname als Lünette: Bulgaris Klassiker seit 1977.",
+   "ns": true
+  },
+  {
+   "id": "serpenti",
+   "t": "Bulgari Serpenti",
+   "brand": "Bulgari",
+   "since": "1948",
+   "s": "Die Schlangenuhr von Bulgari, seit den 1940er-Jahren ein Symbol der Marke.",
+   "b": [
+    "Die Serpenti erschien in den 1940er-Jahren als Uhr, deren Armband wie eine Schlange um das Handgelenk gewickelt ist. Das Zifferblatt versteckt sich im Schlangenkopf. Die Schlange ist seit der Antike Symbol für Wandel und Weisheit.",
+    "Die Serpenti wurde als Schmuckuhr in Gold, Edelstahl und mit Diamanten gebaut und gehört zu den bekanntesten Damenuhren der Welt. Neuere Versionen haben ein Schuppenband."
+   ],
+   "cur": "Serpenti (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "Gold, Edelstahl"
+    ],
+    [
+     "Band",
+     "Schlangenband"
+    ],
+    [
+     "Seit",
+     "1948"
+    ],
+    [
+     "Werk",
+     "Quarz / Automatik"
+    ]
+   ],
+   "refs": [
+    [
+     "Serpenti",
+     "1948–heute",
+     "versch.",
+     "Quarz",
+     "Original"
+    ]
+   ],
+   "r": [
+    "bulgari-bulgari",
+    "octo-finissimo",
+    "panthere"
+   ],
+   "k": "Das Zifferblatt der Serpenti sitzt im Schlangenkopf.",
+   "a": [],
+   "v": {
+    "shape": "round",
+    "case": "gold",
+    "dial": "#f3efe4",
+    "markers": "none",
+    "hands": "sword",
+    "strap": "integrated"
+   },
+   "m": [
+    "Schlangenband",
+    "Verstecktes Zifferblatt",
+    "Schmuckuhr"
+   ],
+   "tipp": [
+    "Eine Ikone unter den Damenuhren."
+   ],
+   "x": [
+    "Das Band ist wie eine Schlange geformt.",
+    "Die Uhr ist Schmuck und Zeitmesser.",
+    "Es gibt viele Varianten."
+   ],
+   "ev": [
+    [
+     "1948",
+     "Serpenti"
+    ]
+   ],
+   "w": "Die Schlangenuhr: Bulgaris Schmuckklassiker mit verstecktem Zifferblatt."
+  },
+  {
+   "id": "rado-diastar",
+   "t": "Rado DiaStar 1",
+   "brand": "Rado",
+   "since": "1962",
+   "s": "Die kratzfeste Uhr aus Hartmetall und Saphirglas, 1962 als erste ihrer Art vorgestellt.",
+   "b": [
+    "Die DiaStar 1 erschien 1962 als die erste kratzfeste Armbanduhr. Das Gehäuse bestand aus Hartmetall, das Glas aus Saphir. Gedacht war sie als Uhr, die ihr Aussehen lebenslang behält. Das Gehäuse hat eine abgerundete Form.",
+    "Heute gibt es die DiaStar mit Gehäusen aus Hightech-Keramik. Sie steht für den Ruf von Rado als Materialspezialist."
+   ],
+   "cur": "DiaStar Original (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "Hightech-Keramik oder Hartmetall"
+    ],
+    [
+     "Glas",
+     "Saphir"
+    ],
+    [
+     "Seit",
+     "1962"
+    ],
+    [
+     "Werk",
+     "Automatik"
+    ]
+   ],
+   "refs": [
+    [
+     "DiaStar 1",
+     "1962–1970er",
+     "versch.",
+     "Automatik",
+     "Erste kratzfeste Uhr"
+    ],
+    [
+     "DiaStar Original",
+     "seit 2010er",
+     "38 mm",
+     "Automatik",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "captain-cook",
+    "rado-true",
+    "keramik"
+   ],
+   "k": "Die DiaStar 1 war 1962 die erste kratzfeste Armbanduhr.",
+   "a": [],
+   "v": {
+    "case": "steel",
+    "dial": "#c9ccd0",
+    "markers": "baton",
+    "hands": "sword",
+    "strap": "integrated",
+    "shape": "round"
+   },
+   "m": [
+    "Kratzfestes Gehäuse",
+    "Saphirglas",
+    "Abgerundete Form"
+   ],
+   "tipp": [
+    "Eine Uhr, die kaum Kratzer zeigt."
+   ],
+   "x": [
+    "Das Gehäuse bestand aus Hartmetall.",
+    "Das Glas ist aus Saphir.",
+    "Die Uhr war ein Materialexperiment."
+   ],
+   "ev": [
+    [
+     "1962",
+     "DiaStar 1"
+    ]
+   ],
+   "w": "Die kratzfeste Uhr der 1960er: Hartmetall, Saphir und eine runde Form."
+  },
+  {
+   "id": "rado-true",
+   "t": "Rado True",
+   "brand": "Rado",
+   "since": "2002",
+   "s": "Die monochrome Keramikuhr von Rado, 2002 vorgestellt und seither in vielen Varianten.",
+   "b": [
+    "Die True erschien 2002 als Keramikuhr mit schlichtem Zifferblatt. Gehäuse und Band bestehen aus Hightech-Keramik in einer Farbe, meist Schwarz oder Weiß, die Oberfläche ist glatt und kratzfest. Das Design ist reduziert.",
+    "Es gibt sie als Quarz- und Automatikuhr in vielen Größen und Farben. Die True steht für die Designlinie von Rado seit den 2000er-Jahren."
+   ],
+   "cur": "True (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "Hightech-Keramik"
+    ],
+    [
+     "Band",
+     "Keramik"
+    ],
+    [
+     "Seit",
+     "2002"
+    ],
+    [
+     "Werk",
+     "Quarz / Automatik"
+    ]
+   ],
+   "refs": [
+    [
+     "True",
+     "seit 2002",
+     "versch.",
+     "Quarz / Automatik",
+     "Keramikuhr"
+    ]
+   ],
+   "r": [
+    "rado-diastar",
+    "captain-cook",
+    "keramik"
+   ],
+   "k": "Die Rado True ist eine Uhr aus durchgängig einheitlicher Keramik.",
+   "a": [],
+   "v": {
+    "case": "black",
+    "dial": "#2a2c30",
+    "markers": "baton",
+    "hands": "sword",
+    "strap": "integrated",
+    "shape": "round"
+   },
+   "m": [
+    "Monochrome Keramik",
+    "Schlichtes Zifferblatt",
+    "Kratzfest"
+   ],
+   "tipp": [
+    "Eine moderne Designuhr."
+   ],
+   "x": [
+    "Gehäuse und Band sind aus Keramik.",
+    "Die Uhr gibt es in vielen Farben.",
+    "Sie ist sehr kratzfest."
+   ],
+   "ev": [
+    [
+     "2002",
+     "Rado True"
+    ]
+   ],
+   "w": "Eine Uhr aus einem Guss: Gehäuse und Band aus Keramik in einer Farbe.",
+   "ns": true
+  },
+  {
+   "id": "satellite-wave",
+   "t": "Citizen Satellite Wave",
+   "brand": "Citizen",
+   "since": "2011",
+   "s": "Die Citizen mit GPS-Empfang und Solarantrieb, die sich weltweit auf die richtige Zeit stellt.",
+   "b": [
+    "Die Satellite Wave erschien 2011 als erste Uhr mit GPS-Signal und Solarantrieb. Sie empfängt die Zeit von Satelliten und stellt sich automatisch auf die jeweilige Zeitzone. Dadurch muss man sie auf Reisen nicht mehr einstellen.",
+    "Die Uhr arbeitet mit Eco-Drive und läuft ohne Batterie. Neuere Versionen sind kleiner und haben Titangehäuse."
+   ],
+   "cur": "Satellite Wave (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "Titan"
+    ],
+    [
+     "Technik",
+     "GPS, Eco-Drive"
+    ],
+    [
+     "Seit",
+     "2011"
+    ],
+    [
+     "Anzeige",
+     "Zeitzone automatisch"
+    ]
+   ],
+   "refs": [
+    [
+     "Satellite Wave GPS",
+     "seit 2011",
+     "versch.",
+     "GPS / Solar",
+     "Erste Version"
+    ]
+   ],
+   "r": [
+    "promaster-diver",
+    "astron",
+    "gmt"
+   ],
+   "k": "Die Satellite Wave stellt sich selbst auf jede Zeitzone der Welt.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "link3",
+    "case": "titanium",
+    "date": "3"
+   },
+   "m": [
+    "GPS-Empfang",
+    "Solarantrieb",
+    "Titangehäuse"
+   ],
+   "tipp": [
+    "Eine praktische Reiseuhr."
+   ],
+   "x": [
+    "Sie benötigt keine Batterie.",
+    "Sie empfängt GPS-Signale.",
+    "Das Gehäuse ist oft aus Titan."
+   ],
+   "ev": [
+    [
+     "2011",
+     "Satellite Wave"
+    ]
+   ],
+   "w": "Die Uhr, die sich auf Reisen von selbst stellt: GPS und Sonnenlicht."
+  },
+  {
+   "id": "citizen-x8",
+   "t": "Citizen X-8 Chronometer",
+   "brand": "Citizen",
+   "since": "1970",
+   "s": "Die erste Titan-Armbanduhr der Welt, 1970 von Citizen vorgestellt.",
+   "b": [
+    "Die X-8 Chronometer erschien 1970 als erste Armbanduhr mit Gehäuse aus Titan. Das Metall wurde damals für Uhren kaum verwendet, weil es schwer zu bearbeiten ist. Citizen entwickelte dafür ein eigenes Verfahren.",
+    "Die Uhr hatte ein Automatikwerk und wurde als Chronometer zertifiziert. Sie begründete den Ruf der Marke als Materialspezialist und ist heute ein gesuchtes Sammlerstück."
+   ],
+   "cur": "X-8 Chronometer (Vintage)",
+   "f": [
+    [
+     "Gehäuse",
+     "Titan"
+    ],
+    [
+     "Werk",
+     "Automatik"
+    ],
+    [
+     "Seit",
+     "1970"
+    ],
+    [
+     "Besonderheit",
+     "Erste Titanuhr"
+    ]
+   ],
+   "refs": [
+    [
+     "X-8 Chronometer",
+     "1970–1970er",
+     "versch.",
+     "Automatik",
+     "Erste Titan-Uhr"
+    ]
+   ],
+   "r": [
+    "titan",
+    "promaster-diver",
+    "satellite-wave"
+   ],
+   "k": "Die X-8 war die erste Armbanduhr mit Titangehäuse.",
+   "a": [],
+   "v": {
+    "dial": "#c9ccd0",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "link3",
+    "case": "titanium",
+    "date": "3"
+   },
+   "m": [
+    "Titangehäuse",
+    "Automatikwerk",
+    "Chronometer"
+   ],
+   "tipp": [
+    "Eine Pioniertat der Materialforschung."
+   ],
+   "x": [
+    "Titan ist schwer zu bearbeiten.",
+    "Die Uhr war ein Pionier.",
+    "Sie wurde als Chronometer zertifiziert."
+   ],
+   "ev": [
+    [
+     "1970",
+     "X-8 Chronometer"
+    ]
+   ],
+   "w": "Die erste Titanuhr der Welt: Citizens Materialpionier von 1970."
+  },
+  {
+   "id": "doxa-sharkhunter",
+   "t": "Doxa SUB 300T Sharkhunter",
+   "brand": "Doxa",
+   "since": "1969",
+   "s": "Die Doxa-Taucheruhr von 1969 mit Dekompressionstabelle und starken Kontrasten.",
+   "b": [
+    "Die Sharkhunter erschien 1969 als Taucheruhr in der Doxa-Familie. Sie hat ein großes Gehäuse mit gerippter Lünette, die einen Tauchtabellen-Ring trägt.",
+    "Die Sharkhunter ist ein Sammlerstück und gilt als eine der schönsten Taucheruhren der Zeit. Neuauflagen erscheinen seit den 2010er-Jahren."
+   ],
+   "cur": "Sharkhunter (Neuauflage)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Lünette",
+     "mit Tauchtabelle"
+    ],
+    [
+     "Seit",
+     "1969"
+    ]
+   ],
+   "refs": [
+    [
+     "SUB 300T Sharkhunter",
+     "1969–1970er",
+     "42 mm",
+     "Automatik",
+     "Original"
+    ],
+    [
+     "Sharkhunter",
+     "2010er–heute",
+     "42 mm",
+     "Automatik",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "sub-300",
+    "submariner",
+    "fifty-fathoms"
+   ],
+   "k": "Die Sharkhunter ist eine der gesuchtesten Doxa-Taucheruhren.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "baton",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#17191d",
+    "strap": "rubber",
+    "strapColor": "#17191d",
+    "case": "steel"
+   },
+   "m": [
+    "Tauchtabelle",
+    "Kontrastreiches Zifferblatt",
+    "Retro-Look"
+   ],
+   "tipp": [
+    "Original-Sharkhunter sind selten."
+   ],
+   "x": [
+    "Die Lünette trägt eine Dekompressionstabelle.",
+    "Die Uhr war für Taucher gedacht.",
+    "Sie ist bei Sammlern beliebt."
+   ],
+   "ev": [
+    [
+     "1969",
+     "SUB 300T Sharkhunter"
+    ]
+   ],
+   "w": "Die Sharkhunter von Doxa: Taucheruhr mit Tabelle und starkem Retro-Look."
+  },
+  {
+   "id": "villeret",
+   "t": "Blancpain Villeret",
+   "brand": "Blancpain",
+   "since": "2000er",
+   "s": "Die klassische Dresswatch von Blancpain, benannt nach dem Gründungsort Villeret.",
+   "b": [
+    "Die Villeret ist die klassische Kollektion von Blancpain und trägt den Namen des Orts, an dem das Haus 1735 gegründet wurde. Sie hat ein flaches, rundes Gehäuse, ein schlichtes Zifferblatt mit römischen Ziffern oder Stabindizes und ein Handaufzugs- oder Automatikwerk.",
+    "Es gibt sie als Dreizeiger, mit Mondphase, Kalender, Chronograph und Komplikationen bis zum ewigen Kalender. Die Villeret steht für die klassische Seite der Marke."
+   ],
+   "cur": "Villeret (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "33–40 mm, Gold oder Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Handaufzug / Automatik"
+    ],
+    [
+     "Seit",
+     "2000er"
+    ],
+    [
+     "Zifferblatt",
+     "klassisch"
+    ]
+   ],
+   "refs": [
+    [
+     "Villeret",
+     "seit 2000er",
+     "versch.",
+     "Automatik",
+     "Klassische Linie"
+    ]
+   ],
+   "r": [
+    "fifty-fathoms",
+    "leman",
+    "patrimony"
+   ],
+   "k": "Die Villeret trägt den Namen des Gründungsorts von Blancpain.",
+   "a": [],
+   "v": {
+    "dial": "#f3efe4",
+    "markers": "roman",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel"
+   },
+   "m": [
+    "Römische Ziffern",
+    "Flaches Gehäuse",
+    "Mondphase"
+   ],
+   "tipp": [
+    "Eine klassische Alternative zu Patek oder Vacheron."
+   ],
+   "x": [
+    "Villeret ist der Gründungsort.",
+    "Die Uhr ist schlicht.",
+    "Es gibt viele Komplikationen."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Villeret"
+    ]
+   ],
+   "w": "Die klassische Blancpain: schlicht, flach und benannt nach dem Gründungsort Villeret.",
+   "ns": true
+  },
+  {
+   "id": "leman",
+   "t": "Blancpain Léman",
+   "brand": "Blancpain",
+   "since": "2000er",
+   "s": "Die elegante Sportuhr von Blancpain mit Datum und Kalender, benannt nach dem Genfersee.",
+   "b": [
+    "Die Léman ist die alltagstaugliche Sportuhr von Blancpain und trägt den Namen des Genfersees. Sie hat ein rundes Gehäuse mit klarer Gestaltung, ein Zifferblatt mit Datum und ein Automatikwerk.",
+    "Es gibt sie auch als Chronograph, mit Mondphase und als Zeitzonenuhr. Sie ist die Alternative zur Fifty Fathoms für Menschen, die einen Hauch Sport wollen."
+   ],
+   "cur": "Léman (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38–40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Seit",
+     "2000er"
+    ],
+    [
+     "Zifferblatt",
+     "Datum"
+    ]
+   ],
+   "refs": [
+    [
+     "Léman",
+     "seit 2000er",
+     "versch.",
+     "Automatik",
+     "Sport-Linie"
+    ]
+   ],
+   "r": [
+    "villeret",
+    "fifty-fathoms",
+    "aqua-terra"
+   ],
+   "k": "Die Léman trägt den Namen des Genfersees.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "markers": "baton",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Datum",
+    "Alltagstauglich",
+    "Automatikwerk"
+   ],
+   "tipp": [
+    "Eine elegante Alltagsuhr."
+   ],
+   "x": [
+    "Der Name steht für den Genfersee.",
+    "Die Uhr gibt es mit Mondphase.",
+    "Sie ist sportlich-elegant."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Léman"
+    ]
+   ],
+   "w": "Die Alltagsuhr von Blancpain: Datum, Automatik und ein Hauch Sport.",
+   "ns": true
+  },
+  {
+   "id": "breguet-marine",
+   "t": "Breguet Marine",
+   "brand": "Breguet",
+   "since": "1990er",
+   "s": "Die Sportuhr von Breguet, benannt nach den Marinechronometern des Gründers.",
+   "b": [
+    "Die Marine ist die sportliche Linie von Breguet. Sie trägt den Namen der Marinechronometer, die Abraham-Louis Breguet baute. Das Gehäuse hat die typische geriffelte Flanke, das Zifferblatt ist guillochiert und mit Wellenmuster verziert.",
+    "Es gibt die Marine als Dreizeiger, Chronograph und mit Komplikationen. Sie verbindet maritime Optik mit der klassischen Breguet-Gestaltung."
+   ],
+   "cur": "Marine (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40–45 mm, Gold oder Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Zifferblatt",
+     "guillochiert, Wellenmuster"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ]
+   ],
+   "refs": [
+    [
+     "Marine",
+     "seit 1990er",
+     "versch.",
+     "Automatik",
+     "Sportliche Linie"
+    ]
+   ],
+   "r": [
+    "classique",
+    "type-xx",
+    "breguet-tradition"
+   ],
+   "k": "Die Marine erinnert an die Marinechronometer von Abraham-Louis Breguet.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "tex": "waves",
+    "markers": "arabicAll",
+    "hands": "breguet",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Guilloché mit Wellenmuster",
+    "Geriffelte Flanke",
+    "Hohe Wasserdichtigkeit"
+   ],
+   "tipp": [
+    "Die sportliche Seite von Breguet."
+   ],
+   "x": [
+    "Der Name erinnert an Marinechronometer.",
+    "Das Zifferblatt hat ein Wellenmuster.",
+    "Die Uhr ist bis 100 Meter wasserdicht."
+   ],
+   "ev": [
+    [
+     "1990er",
+     "Marine"
+    ]
+   ],
+   "w": "Die sportliche Breguet: Wellen-Guilloché und maritimer Auftritt.",
+   "ns": true
+  },
+  {
+   "id": "breguet-tradition",
+   "t": "Breguet Tradition",
+   "brand": "Breguet",
+   "since": "2005",
+   "s": "Die Uhr mit sichtbarem Werk, die Breguet 2005 vorstellte.",
+   "b": [
+    "Die Tradition erschien 2005 und zeigt das Werk auf der Zifferblattseite: Federhaus, Hemmung und Unruh sind sichtbar. Das Gehäuse ist rund, die Unruh sitzt außermittig, und die Brücken sind graviert.",
+    "Die Uhr greift Breguet-Taschenuhren des 18. Jahrhunderts auf. Es gibt sie mit Handaufzug, Automatik, Tourbillon und weiteren Komplikationen."
+   ],
+   "cur": "Tradition (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40–41 mm, Gold"
+    ],
+    [
+     "Werk",
+     "Handaufzug, sichtbar"
+    ],
+    [
+     "Seit",
+     "2005"
+    ],
+    [
+     "Zifferblatt",
+     "teils skelettiert"
+    ]
+   ],
+   "refs": [
+    [
+     "Tradition",
+     "seit 2005",
+     "40 mm",
+     "Handaufzug",
+     "Sichtbares Werk"
+    ]
+   ],
+   "r": [
+    "classique",
+    "breguet-marine",
+    "tourbillon"
+   ],
+   "k": "Die Tradition zeigt ihr Werk auf der Zifferblattseite.",
+   "a": [],
+   "v": {
+    "case": "rose",
+    "dial": "#d8d3c4",
+    "markers": "roman",
+    "hands": "breguet",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Sichtbares Werk",
+    "Gravierte Brücken",
+    "Handaufzug"
+   ],
+   "tipp": [
+    "Für Kenner der Uhrmacherkunst."
+   ],
+   "x": [
+    "Das Werk liegt auf der Vorderseite.",
+    "Die Unruh sitzt außermittig.",
+    "Die Uhr greift Taschenuhren des 18. Jahrhunderts auf."
+   ],
+   "ev": [
+    [
+     "2005",
+     "Breguet Tradition"
+    ]
+   ],
+   "w": "Das Werk auf dem Zifferblatt: Breguets Verbeugung vor den Taschenuhren des 18. Jahrhunderts.",
+   "ns": true
+  },
+  {
+   "id": "altiplano",
+   "t": "Piaget Altiplano",
+   "brand": "Piaget",
+   "since": "1957",
+   "s": "Die extraflache Uhr von Piaget, die auf das 2 mm flache Handaufzugskaliber 9P von 1957 zurückgeht.",
+   "b": [
+    "Die Altiplano geht auf das Kaliber 9P zurück, das Piaget 1957 als dünnstes Handaufzugswerk der Welt vorstellte. Das Werk ist nur etwa zwei Millimeter hoch. Der Name Altiplano wurde ab 1960 verwendet. Das Gehäuse ist rund, schlank und schmucklos.",
+    "2018 stellte Piaget mit der Altiplano Ultimate Concept eine Uhr vor, die nur zwei Millimeter dick ist und Werk und Gehäuse verschmilzt. Die Altiplano ist eine der flachsten Uhren der Welt und das Kernmodell der Marke."
+   ],
+   "cur": "Altiplano (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38–43 mm, Gold oder Weißgold"
+    ],
+    [
+     "Kaliber",
+     "430P / 1200P (extraflach)"
+    ],
+    [
+     "Höhe",
+     "ab ≈ 2 mm (Ultimate Concept)"
+    ],
+    [
+     "Seit",
+     "1957 (Werk)"
+    ]
+   ],
+   "refs": [
+    [
+     "Altiplano",
+     "seit 1960",
+     "versch.",
+     "9P",
+     "Erste Altiplano"
+    ],
+    [
+     "Altiplano Ultimate Concept",
+     "2018",
+     "41 mm",
+     "900P-UC",
+     "Nur 2 mm dick"
+    ]
+   ],
+   "r": [
+    "octo-finissimo",
+    "calatrava",
+    "patrimony"
+   ],
+   "k": "Das Werk 9P von 1957 war das dünnste Handaufzugskaliber seiner Zeit.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "gold"
+   },
+   "m": [
+    "Extra flach",
+    "Schlichtes Zifferblatt",
+    "Handaufzug"
+   ],
+   "tipp": [
+    "Eine der flachsten Uhren der Welt."
+   ],
+   "x": [
+    "Das Werk ist etwa 2 mm hoch.",
+    "Die Uhr wirkt sehr schlicht.",
+    "Piaget baut auch Werke für andere Marken."
+   ],
+   "ev": [
+    [
+     "1957",
+     "Kaliber 9P"
+    ],
+    [
+     "2018",
+     "Altiplano Ultimate Concept"
+    ]
+   ],
+   "w": "Die flachste Dresswatch: Piagets Altiplano mit extraflachem Werk.",
+   "ns": true
+  },
+  {
+   "id": "piaget-polo",
+   "t": "Piaget Polo",
+   "brand": "Piaget",
+   "since": "1979",
+   "s": "Die Luxus-Sportuhr von Piaget mit integriertem Band, 1979 von Yves Piaget entworfen.",
+   "b": [
+    "Die Polo erschien 1979 als Gold-Sportuhr mit integriertem Armband, entworfen von Yves Piaget. Sie gehörte zu den frühen Luxusuhren mit Gliederband und trug ein flaches, rechteckig-rundes Gehäuse. Die Polo wurde in den 1980ern zum Symbol des Jetsets.",
+    "2016 brachte Piaget mit der Polo S eine Stahlversion mit Automatikwerk und Wechselband. Sie knüpft an den Trend der Stahlsportuhr mit integriertem Band an."
+   ],
+   "cur": "Polo S (Ref. G0A41001)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "1110P (Automatik)"
+    ],
+    [
+     "Band",
+     "integriert, Wechselsystem"
+    ],
+    [
+     "Seit",
+     "1979"
+    ]
+   ],
+   "refs": [
+    [
+     "Polo",
+     "1979–2000er",
+     "versch.",
+     "Quarz",
+     "Original in Gold"
+    ],
+    [
+     "Polo S",
+     "seit 2016",
+     "42 mm",
+     "1110P",
+     "Stahl-Sportuhr"
+    ]
+   ],
+   "r": [
+    "nautilus",
+    "royal-oak",
+    "octo-finissimo"
+   ],
+   "k": "Die Polo war eine frühe Luxusuhr mit integriertem Gliederband.",
+   "a": [],
+   "v": {
+    "shape": "cushion",
+    "dial": "#1f3a5f",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "integrated",
+    "case": "steel"
+   },
+   "m": [
+    "Integriertes Band",
+    "Flaches Gehäuse",
+    "Automatikwerk"
+   ],
+   "tipp": [
+    "Eine Alternative zu bekannten Sportuhren."
+   ],
+   "x": [
+    "Das Band ist ins Gehäuse integriert.",
+    "Die Uhr erschien zuerst in Gold.",
+    "Die Polo S ist aus Stahl."
+   ],
+   "ev": [
+    [
+     "1979",
+     "Piaget Polo"
+    ],
+    [
+     "2016",
+     "Polo S"
+    ]
+   ],
+   "w": "Die Luxus-Sportuhr von Piaget: integriertes Band, flaches Gehäuse, Jetset-Charme.",
+   "ns": true
+  },
+  {
+   "id": "un-marine-chronometer",
+   "t": "Ulysse Nardin Marine Chronometer",
+   "brand": "Ulysse Nardin",
+   "since": "1846",
+   "s": "Die Chronometer-Linie von Ulysse Nardin, die an die Schiffschronometer des Hauses erinnert.",
+   "b": [
+    "Ulysse Nardin wurde im 19. Jahrhundert durch Marinechronometer bekannt, die auf Kriegs- und Handelsschiffen weltweit im Einsatz waren. Die Marine Chronometer ist die moderne Linie, die dieses Erbe aufnimmt. Sie hat ein rundes Gehäuse, ein klares Zifferblatt und eine Gangreserveanzeige.",
+    "Die Uhren tragen Chronometerzertifikate und das Anker-Logo der Marke. Sie sind eine klassische Alternative zu bekannten Marken."
+   ],
+   "cur": "Marine Chronometer (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "41–43 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "Automatik, Chronometer"
+    ],
+    [
+     "Anzeige",
+     "Gangreserve, Datum"
+    ],
+    [
+     "Seit",
+     "1846 (Marke)"
+    ]
+   ],
+   "refs": [
+    [
+     "Marine Chronometer",
+     "seit 2000er",
+     "43 mm",
+     "Automatik",
+     "Klassische Linie"
+    ]
+   ],
+   "r": [
+    "chronometer",
+    "breguet-marine",
+    "freak"
+   ],
+   "k": "Ulysse Nardin lieferte Marinechronometer an viele Marinen der Welt.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "markers": "roman",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "6"
+   },
+   "m": [
+    "Chronometerzertifikat",
+    "Gangreserveanzeige",
+    "Anker-Logo"
+   ],
+   "tipp": [
+    "Eine solide Chronometer-Uhr."
+   ],
+   "x": [
+    "Das Logo ist ein Anker.",
+    "Das Haus lieferte Marinechronometer.",
+    "Die Uhren sind zertifiziert."
+   ],
+   "ev": [
+    [
+     "1846",
+     "Gründung von Ulysse Nardin"
+    ]
+   ],
+   "w": "Das Erbe der Marinechronometer: Ulysse Nardin mit Anker und Chronometerzertifikat."
+  },
+  {
+   "id": "freak",
+   "t": "Ulysse Nardin Freak",
+   "brand": "Ulysse Nardin",
+   "since": "2001",
+   "s": "Die Uhr ohne Zeiger und Krone: Das ganze Werk dreht sich als Minutenzeiger.",
+   "b": [
+    "Die Freak erschien 2001 und war eine der ungewöhnlichsten Uhren ihrer Zeit. Sie hat keine Zeiger und keine Krone: Das Werk selbst dreht sich als Minutenzeiger. Die Zeit wird durch Drehen der Lünette gestellt.",
+    "Die Uhr nutzte als erste Armbanduhr ein Hemmungsrad aus Silizium. Seitdem gibt es die Freak in vielen Varianten: mit Tourbillon, in Titan und Keramik. Sie zeigt die Experimentierfreude der Marke."
+   ],
+   "cur": "Freak (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "45 mm, Titan oder Keramik"
+    ],
+    [
+     "Werk",
+     "Tourbillon, Silizium"
+    ],
+    [
+     "Anzeige",
+     "Werk als Minutenzeiger"
+    ],
+    [
+     "Seit",
+     "2001"
+    ]
+   ],
+   "refs": [
+    [
+     "Freak",
+     "seit 2001",
+     "45 mm",
+     "versch.",
+     "Erste Freak"
+    ],
+    [
+     "Freak X",
+     "2020er",
+     "43 mm",
+     "versch.",
+     "Aktuelle Generation"
+    ]
+   ],
+   "r": [
+    "tourbillon",
+    "silizium",
+    "dark-side-of-the-moon"
+   ],
+   "k": "Bei der Freak dreht sich das ganze Werk als Zeiger.",
+   "a": [],
+   "v": {
+    "case": "titanium",
+    "dial": "#2a2c30",
+    "markers": "none",
+    "hands": "baton",
+    "strap": "rubber",
+    "strapColor": "#2a2c30",
+    "shape": "round"
+   },
+   "m": [
+    "Keine Zeiger",
+    "Keine Krone",
+    "Silizium-Hemmung"
+   ],
+   "tipp": [
+    "Ein echtes Unikat unter den Uhren."
+   ],
+   "x": [
+    "Die Zeit wird mit der Lünette gestellt.",
+    "Die Hemmung ist aus Silizium.",
+    "Die Uhr hat keine Krone."
+   ],
+   "ev": [
+    [
+     "2001",
+     "Freak"
+    ]
+   ],
+   "w": "Eine Uhr ohne Zeiger und Krone: das Werk dreht sich selbst als Minutenzeiger."
+  },
+  {
+   "id": "sea-wolf",
+   "t": "Zodiac Sea Wolf",
+   "brand": "Zodiac",
+   "since": "1953",
+   "s": "Eine der ersten modernen Taucheruhren, 1953 von Zodiac vorgestellt.",
+   "b": [
+    "Die Sea Wolf erschien 1953 und gehört zu den ersten modernen Taucheruhren, die im selben Jahr wie die Submariner und die Fifty Fathoms auf den Markt kamen. Sie hat eine drehbare Lünette, ein Automatikwerk und ein schlichtes Zifferblatt.",
+    "Die Marke legte die Sea Wolf in den 2010er-Jahren als Super Sea Wolf neu auf. Heute ist sie eine der beliebtesten Retro-Taucheruhren im unteren Preisbereich."
+   ],
+   "cur": "Super Sea Wolf 53 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Seit",
+     "1953"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ]
+   ],
+   "refs": [
+    [
+     "Sea Wolf",
+     "1953–1970er",
+     "versch.",
+     "Automatik",
+     "Original"
+    ],
+    [
+     "Super Sea Wolf",
+     "2010er–heute",
+     "40 mm",
+     "Automatik",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "submariner",
+    "fifty-fathoms",
+    "sub-300"
+   ],
+   "k": "Die Sea Wolf erschien im selben Jahr wie die Submariner.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "dots",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#17191d",
+    "strap": "rubber",
+    "strapColor": "#17191d",
+    "case": "steel"
+   },
+   "m": [
+    "Drehbare Lünette",
+    "Retro-Look",
+    "Preiswert"
+   ],
+   "tipp": [
+    "Ein günstiger Retro-Taucher."
+   ],
+   "x": [
+    "Die Sea Wolf ist eine der ersten Taucheruhren.",
+    "Sie wurde in den 2010ern neu aufgelegt.",
+    "Die Uhr ist bis 200 Meter wasserdicht."
+   ],
+   "ev": [
+    [
+     "1953",
+     "Sea Wolf"
+    ]
+   ],
+   "w": "Die vergessene Taucheruhr von 1953: Zodiacs Sea Wolf als Retro-Klassiker."
+  },
+  {
+   "id": "fc-slimline",
+   "t": "Frédérique Constant Slimline",
+   "brand": "Frédérique Constant",
+   "since": "2000er",
+   "s": "Die klassische Dresswatch von Frédérique Constant, bekannt für günstige Manufakturwerke.",
+   "b": [
+    "Die Slimline ist die klassische Dresswatch von Frédérique Constant. Sie hat ein schlankes, rundes Gehäuse, ein Zifferblatt mit Stabindizes und oft ein Manufakturwerk. Berühmt wurde die Slimline Moonphase.",
+    "Die Marke wurde dafür bekannt, Komplikationen wie Mondphase oder Kalender zu fairen Preisen anzubieten. Die Slimline ist der Einstieg in diese Welt."
+   ],
+   "cur": "Slimline (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "39–40 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "Manufakturwerk / Automatik"
+    ],
+    [
+     "Seit",
+     "2000er"
+    ],
+    [
+     "Besonderheit",
+     "Faire Komplikationen"
+    ]
+   ],
+   "refs": [
+    [
+     "Slimline",
+     "seit 2000er",
+     "versch.",
+     "Automatik",
+     "Dresswatch"
+    ]
+   ],
+   "r": [
+    "tissot-seastar",
+    "jazzmaster",
+    "le-locle"
+   ],
+   "k": "Frédérique Constant wurde 1988 in Genf gegründet.",
+   "a": [],
+   "v": {
+    "dial": "#f3efe4",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "sub": "small6"
+   },
+   "m": [
+    "Schlankes Gehäuse",
+    "Manufakturwerk",
+    "Mondphase"
+   ],
+   "tipp": [
+    "Eine günstige Alternative zu Dresswatches der großen Marken."
+   ],
+   "x": [
+    "Das Gehäuse ist sehr schlank.",
+    "Es gibt viele Zifferblattvarianten.",
+    "Die Marke gehört zu Citizen."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Slimline"
+    ]
+   ],
+   "w": "Eine schlanke Dresswatch zu fairem Preis: Frédérique Constants Klassiker."
+  },
+  {
+   "id": "santos-100",
+   "t": "Cartier Santos 100",
+   "brand": "Cartier",
+   "since": "2004",
+   "s": "Die größere Santos von 2004, zum 100. Jubiläum der ersten Santos vorgestellt.",
+   "b": [
+    "Die Santos 100 erschien 2004 zum hundertjährigen Jubiläum der ersten Santos. Sie ist größer als die Santos de Cartier der 1980er und hat ein kantiges Gehäuse mit Schrauben auf der Lünette und ein Armband mit Schrauben.",
+    "Sie gab es in Edelstahl und Gold, in mehreren Größen mit Quarz- oder Automatikwerk. Mit der neuen Santos von 2018 verschwand sie aus dem Programm."
+   ],
+   "cur": "Santos 100 (bis 2018)",
+   "f": [
+    [
+     "Gehäuse",
+     "41–51 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik / Quarz"
+    ],
+    [
+     "Seit",
+     "2004"
+    ],
+    [
+     "Besonderheit",
+     "Größer als die frühere Santos"
+    ]
+   ],
+   "refs": [
+    [
+     "Santos 100",
+     "2004–2018",
+     "versch.",
+     "Automatik",
+     "Jubiläumsmodell"
+    ]
+   ],
+   "r": [
+    "santos",
+    "santos-dumont",
+    "tank"
+   ],
+   "k": "Die Santos 100 erschien zum hundertjährigen Jubiläum der ersten Santos.",
+   "a": [],
+   "v": {
+    "shape": "square",
+    "dial": "#e8e8e8",
+    "markers": "roman",
+    "hands": "sword",
+    "strap": "santos",
+    "case": "steel",
+    "date": "6"
+   },
+   "m": [
+    "Sichtbare Schrauben",
+    "Größeres Gehäuse",
+    "Stahlband"
+   ],
+   "tipp": [
+    "Gebraucht gibt es sie vergleichsweise günstig."
+   ],
+   "x": [
+    "Sie ist größer als die frühere Santos.",
+    "Die Schrauben sind sichtbar.",
+    "Die Linie lief bis 2018."
+   ],
+   "ev": [
+    [
+     "2004",
+     "Santos 100"
+    ],
+    [
+     "2018",
+     "Neue Santos"
+    ]
+   ],
+   "w": "Die große Santos zum 100. Geburtstag: kantig, mit Schrauben und viel Präsenz."
+  },
+  {
+   "id": "tissot-visodate",
+   "t": "Tissot Visodate",
+   "brand": "Tissot",
+   "since": "1953",
+   "s": "Die klassische Datumsuhr von Tissot, seit den 1950er-Jahren ein Dauerbrenner.",
+   "b": [
+    "Die Visodate erschien 1953 mit Datumsanzeige und wurde zu einer der bekanntesten Tissot-Uhren. Sie hat ein rundes Gehäuse, ein schlichtes Zifferblatt mit Stabindizes und ein Fenster für das Datum.",
+    "Die Heritage Visodate (ab 2010er) ist eine Neuauflage im Stil der 1950er mit Automatikwerk. Sie ist eine günstige Alternative für Menschen, die Vintage-Optik mögen."
+   ],
+   "cur": "Heritage Visodate (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Powermatic 80"
+    ],
+    [
+     "Seit",
+     "1953"
+    ],
+    [
+     "Funktion",
+     "Datum"
+    ]
+   ],
+   "refs": [
+    [
+     "Visodate",
+     "1953–1970er",
+     "versch.",
+     "Automatik",
+     "Original"
+    ],
+    [
+     "Heritage Visodate",
+     "2010er–heute",
+     "40 mm",
+     "Powermatic 80",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "le-locle",
+    "prx",
+    "gentleman"
+   ],
+   "k": "Die Visodate war eine der ersten Datumsuhren von Tissot.",
+   "a": [],
+   "v": {
+    "dial": "#d8d3c4",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Vintage-Optik",
+    "Datumsfenster",
+    "Powermatic 80"
+   ],
+   "tipp": [
+    "Ein günstiger Vintage-Stil."
+   ],
+   "x": [
+    "Der Name verweist auf das sichtbare Datum.",
+    "Die Neuauflage hat 80 Stunden Gangreserve.",
+    "Die Uhr ist preiswert."
+   ],
+   "ev": [
+    [
+     "1953",
+     "Visodate"
+    ],
+    [
+     "2010er",
+     "Heritage Visodate"
+    ]
+   ],
+   "w": "Die Vintage-Datumsuhr von Tissot: schlicht und mit Retro-Charme."
+  },
+  {
+   "id": "casio-ca53w",
+   "t": "Casio CA-53W",
+   "brand": "Casio",
+   "since": "1980er",
+   "s": "Die Rechner-Uhr von Casio mit Tastenfeld, ein Klassiker der 1980er-Jahre.",
+   "b": [
+    "Die CA-53W (Databank) erschien in den 1980er-Jahren als Digitaluhr mit eingebautem Taschenrechner. Das Tastenfeld auf dem Gehäuse erlaubte einfache Rechnungen am Handgelenk. Die Uhr wurde ein Symbol der Technikkultur der 1980er.",
+    "Sie wird bis heute gebaut und ist durch die Retro-Welle wieder sehr beliebt. Die Uhr hat Datum, Wecker, Stoppuhr und einen Rechner."
+   ],
+   "cur": "CA-53W (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "Kunststoff oder Edelstahl"
+    ],
+    [
+     "Funktion",
+     "Rechner, Datum, Wecker"
+    ],
+    [
+     "Seit",
+     "1980er"
+    ],
+    [
+     "Werk",
+     "Quarz"
+    ]
+   ],
+   "refs": [
+    [
+     "CA-53W",
+     "1980er–heute",
+     "versch.",
+     "Quarz",
+     "Rechner-Uhr"
+    ]
+   ],
+   "r": [
+    "f-91w",
+    "g-shock",
+    "astron"
+   ],
+   "k": "Die CA-53W ist eine Digitaluhr mit eingebautem Taschenrechner.",
+   "a": [],
+   "v": {
+    "shape": "gshock",
+    "caseColor": "#8a8f95"
+   },
+   "m": [
+    "Eingebauter Rechner",
+    "Digitalanzeige",
+    "Preiswert"
+   ],
+   "tipp": [
+    "Ein nostalgisches Kultobjekt."
+   ],
+   "x": [
+    "Das Tastenfeld ist Teil des Gehäuses.",
+    "Die Uhr wird noch gebaut.",
+    "Sie erlebte durch Retro-Mode ein Comeback."
+   ],
+   "ev": [
+    [
+     "1980er",
+     "CA-53W"
+    ]
+   ],
+   "w": "Die Uhr mit eingebautem Taschenrechner: ein Stück 1980er am Handgelenk."
   }
  ]
 }
