@@ -3036,11 +3036,18 @@
      "Datum, 904L-Stahl; bis 2010 gebaut"
     ],
     [
-     "14060 / 14060M",
-     "1990–2012",
+     "14060",
+     "1990–2001",
      "40 mm",
-     "3000 / 3130",
+     "3000",
      "Ohne Datum"
+    ],
+    [
+     "14060M",
+     "2001–2012",
+     "40 mm",
+     "3130",
+     "Ohne Datum, Werk 3130"
     ],
     [
      "116610LN",
@@ -3181,7 +3188,8 @@
     "Die Cerachrom-Lünette ist durch ein von Rolex entwickeltes Verfahren eingefärbt; die eingravierten Ziffern erhalten eine dünne Platinschicht, die Skala ist praktisch unverwüstlich. Die frühen Aluminiumeinlagen verblassen dagegen, was ältere Exemplare mit individuellem Ton (»Ghost Bezel«) für Sammler reizvoll macht.",
     "Der Glidelock-Verlängerungsmechanismus der Schließe erlaubt eine Verlängerung um rund 20 Millimeter in 2-Millimeter-Schritten, ohne Werkzeug, auch über einem Taucheranzug. Die Fliplock-Verlängerung der Sea-Dweller und Deepsea ist noch größer.",
     "Die Referenzen ohne Datum (14060, 124060) haben ein symmetrischeres Zifferblatt, weil die Lupe bei 3 Uhr fehlt. Unter Kennern gilt die Variante ohne Datum als »Reinform« der Taucheruhr.",
-    "Vintage-Exemplare werden nach Zifferblatt, Gehäuseflanken (»Pointed Crown Guards« gegenüber »Squared Crown Guards«), Lünette und Armband bewertet. Ein Zifferblatt- oder Zeigertausch bei einer Revision senkt den Sammlerwert drastisch, auch wenn die Uhr tadellos läuft."
+    "Vintage-Exemplare werden nach Zifferblatt, Gehäuseflanken (»Pointed Crown Guards« gegenüber »Squared Crown Guards«), Lünette und Armband bewertet. Ein Zifferblatt- oder Zeigertausch bei einer Revision senkt den Sammlerwert drastisch, auch wenn die Uhr tadellos läuft.",
+    "Einzelne 1680 tragen Seriennummern, die schon auf das Jahr 1966 oder 1967 deuten; als Einführung der Datums-Submariner wird meist 1969 genannt."
    ],
    "preis": {
     "u": "USD",
@@ -4381,7 +4389,7 @@
      "1967–1983",
      "40 mm",
      "1570 / 1575",
-     "Erste Sea-Dweller, 610 m, »Double Red«"
+     "Erste Sea-Dweller, 610 m, »Double Red« (bis 1977), danach »Great White«"
     ],
     [
      "16660",
@@ -4392,7 +4400,7 @@
     ],
     [
      "16600",
-     "1989–2008",
+     "1989–2009",
      "40 mm",
      "3135",
      "Letzte Sea-Dweller ohne Lupe, 904L-Stahl"
@@ -5945,7 +5953,7 @@
     ],
     [
      "ST105.003",
-     "1963–1969",
+     "1964–1967 (bis etwa 1969)",
      "42 mm",
      "321",
      "Asymmetrisches Gehäuse, »Ed White«"
@@ -5956,6 +5964,13 @@
      "42 mm",
      "321",
      "Apollo-Jahre, »Pre-Moon«"
+    ],
+    [
+     "ST145.012",
+     "1967–1968",
+     "42 mm",
+     "321",
+     "Nachfolger der 105.012, Apollo-Zeit"
     ],
     [
      "ST145.022",
