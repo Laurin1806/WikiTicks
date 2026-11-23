@@ -587,15 +587,15 @@ function drawWatch(v = {}, e = null) {
   S.push(`<defs>
     <linearGradient id="${id}m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${mix(M[1], .1)}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${mix(M[1], -.09)}"/></linearGradient>
     <radialGradient id="${id}d" cx=".38" cy=".32" r=".85"><stop offset="0" stop-color="${mix(dc, dark ? .2 : .12)}"/><stop offset="1" stop-color="${mix(dc, lum(dc) > .9 ? -.05 : -.14)}"/></radialGradient>
-    <linearGradient id="${id}cy" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"/><stop offset=".24" stop-color="#000" stop-opacity="0"/><stop offset=".7" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#000" stop-opacity=".4"/></linearGradient>
-    <linearGradient id="${id}p" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], -.04)}"/><stop offset=".5" stop-color="${mix(M[1], .14)}"/><stop offset="1" stop-color="${mix(M[1], -.04)}"/></linearGradient>
+    <linearGradient id="${id}cy" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".07"/><stop offset=".14" stop-color="#000" stop-opacity="0"/><stop offset=".86" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".07"/></linearGradient>
+    <linearGradient id="${id}p" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], .03)}"/><stop offset=".5" stop-color="${mix(M[1], .06)}"/><stop offset="1" stop-color="${mix(M[1], .03)}"/></linearGradient>
     <radialGradient id="${id}g" cx=".3" cy=".18" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></radialGradient>
     <linearGradient id="${id}k" x1="0" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="${id}rv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${mix(M[1], -.04)}"/><stop offset=".45" stop-color="${mix(M[1], .14)}"/><stop offset="1" stop-color="${mix(M[1], -.04)}"/></linearGradient>
+    <linearGradient id="${id}rv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${mix(M[1], .03)}"/><stop offset=".45" stop-color="${mix(M[1], .06)}"/><stop offset="1" stop-color="${mix(M[1], .03)}"/></linearGradient>
     <linearGradient id="${id}mu" gradientUnits="userSpaceOnUse" x1="28" y1="20" x2="172" y2="240"><stop offset="0" stop-color="${mix(M[1], .1)}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${mix(M[1], -.09)}"/></linearGradient>
-    <linearGradient id="${id}sat" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], -.03)}"/><stop offset=".1" stop-color="${mix(M[1], .06)}"/><stop offset=".55" stop-color="${mix(M[1], .09)}"/><stop offset=".9" stop-color="${mix(M[1], .04)}"/><stop offset="1" stop-color="${mix(M[1], -.04)}"/></linearGradient>
+    <linearGradient id="${id}sat" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], .01)}"/><stop offset=".12" stop-color="${mix(M[1], .05)}"/><stop offset=".55" stop-color="${mix(M[1], .06)}"/><stop offset=".88" stop-color="${mix(M[1], .04)}"/><stop offset="1" stop-color="${mix(M[1], .005)}"/></linearGradient>
     <radialGradient id="${id}az"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></radialGradient>
-    <filter id="${id}s" x="-20%" y="-10%" width="140%" height="125%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity=".2"/></filter>
+    <filter id="${id}s" x="-20%" y="-10%" width="140%" height="125%"><feDropShadow dx="0" dy="2" stdDeviation="3.5" flood-opacity=".13"/></filter>
     <filter id="${id}h" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx=".8" dy="1.6" stdDeviation=".9" flood-opacity=".5"/></filter>
   </defs><g filter="url(#${id}s)">`);
   const metal = `url(#${id}m)`;
@@ -656,7 +656,7 @@ function drawWatch(v = {}, e = null) {
   }
   if (metalBand) {
     const pol = `url(#${id}p)`, bru = M[1], bru2 = mix(M[1], .12);
-    S.push(`<path d="${strapD}" fill="${st === "ro" ? `url(#${id}mu)` : mix(M[1], -.1)}"/>`);
+    S.push(`<path d="${strapD}" fill="${st === "ro" ? `url(#${id}mu)` : mix(M[1], -.02)}"/>`);
     const H = { santos: 13, jubilee: 8, president: 11, integrated: shape === "porthole" ? 16 : 12, rouleaux: 7, panther: 6, mesh: 86, oyster: 25, link3: 14, omega: 11, ro: 10 }[st];
     const piece = (from, to) => {
       const dir = to > from ? 1 : -1;
