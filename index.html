@@ -217,10 +217,10 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); pointer-events: none; opacity: 0; transition: opacity .6s ease; }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { visibility: hidden; }
 :root.night canvas.wcut { opacity: 1; }
-:root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: drop-shadow(0 0 1.5px rgba(var(--lc1), .95)) drop-shadow(0 0 7px rgba(var(--lc2), .7)) drop-shadow(0 0 18px rgba(var(--lc3), .4)); animation: lumepulse 6s ease-in-out infinite; }
+:root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: brightness(1.25) drop-shadow(0 0 2px rgba(var(--lc1), 1)) drop-shadow(0 0 7px rgba(var(--lc2), .95)) drop-shadow(0 0 16px rgba(var(--lc3), .75)) drop-shadow(0 0 30px rgba(var(--lc3), .4)); animation: lumepulse 6s ease-in-out infinite; }
 .wimg-wrap { --lc1: 130,255,180; --lc2: 80,255,150; --lc3: 60,230,130; }
 .wimg-wrap[data-lc="b"] { --lc1: 150,215,255; --lc2: 80,170,255; --lc3: 50,130,255; }
-@keyframes lumepulse { 0%, 100% { opacity: 1; } 50% { opacity: .82; } }
+@keyframes lumepulse { 0%, 100% { opacity: 1; } 50% { opacity: .9; } }
 @media (prefers-reduced-motion: reduce) { :root.night canvas.wlume { animation: none; } }
 :root.night img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; filter: brightness(.6) contrast(1.05); }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { background: transparent; }
@@ -607,7 +607,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112416"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112417"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1600,7 +1600,7 @@ function nightPrep(img) {
     // Erkennung: sehr helle, farbarme Flächen, die rundherum von Dunkel umgeben sind; Zuordnung zu Zonen über Lage zum Zifferblattmittelpunkt.
     const lz = wrap.dataset.lz || "", sub = wrap.dataset.sub || "", blue = wrap.dataset.lc === "b";
     const lu = document.createElement("canvas"); lu.width = w; lu.height = h; const lx = lu.getContext("2d"), ld = lx.createImageData(w, h), lo = ld.data;
-    const col = blue ? [165, 220, 255] : [150, 255, 190], keep = new Uint8Array(N);
+    const col = blue ? [185, 232, 255] : [175, 255, 205], keep = new Uint8Array(N);
     if (lz) {
       let x0 = w, x1 = 0, y0 = h, y1 = 0;
       for (let k = 0; k < N; k++) if (!bg[k]) { const px = k % w, py = (k / w) | 0; if (px < x0) x0 = px; if (px > x1) x1 = px; if (py < y0) y0 = py; if (py > y1) y1 = py; }
