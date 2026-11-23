@@ -2968,7 +2968,11 @@
      "Ref. 226570 mit Kaliber 3285"
     ]
    ],
-   "w": "Mit ihrem zusätzlichen 24-Stunden-Zeiger, der Tag und Nacht unterscheidet, und der festen Lünette war die Explorer II 1971 als Uhr für Höhlenforscher gedacht."
+   "w": "Mit ihrem zusätzlichen 24-Stunden-Zeiger, der Tag und Nacht unterscheidet, und der festen Lünette war die Explorer II 1971 als Uhr für Höhlenforscher gedacht.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "submariner",
@@ -3332,7 +3336,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 16610 laut WatchCharts (Oktober 2026), 14060M ungefähr nach den niedrigsten abgeschlossenen Verkäufen bei Bob's Watches (September 2026). Die Neupreise der älteren Referenzen sind die frühesten gefundenen Listenpreise (laut Crown & Caliber, Jahr jeweils angegeben), nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreise: WatchCharts (November bzw. Oktober 2026). 16610: Zwischenpreise 1996 (3.350 USD laut Crown & Caliber), 2004 und 2008 (6.000 USD). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
-   "w": "Seit 1953 definiert die Submariner mit drehbarer Lünette, großen Leuchtindizes und verschraubter Krone, wie eine Taucheruhr aussieht."
+   "w": "Seit 1953 definiert die Submariner mit drehbarer Lünette, großen Leuchtindizes und verschraubter Krone, wie eine Taucheruhr aussieht.",
+   "lume": {
+    "z": "IHP",
+    "c": "b"
+   }
   },
   {
    "id": "daytona",
@@ -3591,7 +3599,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Schätzung des Händlers Luxury Bazaar für das schwarze Zifferblatt; das weiße »Panda«-Zifferblatt liegt eher bei rund 33.500 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Vintage-Referenzen: Gebrauchtpreis laut WatchCharts (Oktober 2026); ein Listenpreis aus der Bauzeit war nicht auffindbar. Exotische Zifferblätter (Paul Newman) liegen weit darüber. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
    },
-   "w": "Die Tachymeterskala auf der Lünette macht die Daytona zum Rennsport-Chronographen, der heute zu den begehrtesten Uhren von Rolex zählt."
+   "w": "Die Tachymeterskala auf der Lünette macht die Daytona zum Rennsport-Chronographen, der heute zu den begehrtesten Uhren von Rolex zählt.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "gmt-master-2",
@@ -3894,7 +3906,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, Originalwert, hier in Euro). Ältere Referenzen: Spanne gängiger Händlerangebote von rund 9.400 bis 12.250 EUR (Luxury Bazaar, BQ Watches); der Wert ist deren Mitte. Neupreis 16710: Liste 2004 laut Crown & Caliber, nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: WatchCharts (Oktober 2026). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
-   "w": "Die zweifarbige Lünette trennt Tag (Rot) und Nacht (Blau) und macht die GMT-Master II zusammen mit dem vierten Zeiger zur Reiseuhr für bis zu drei Zeitzonen."
+   "w": "Die zweifarbige Lünette trennt Tag (Rot) und Nacht (Blau) und macht die GMT-Master II zusammen mit dem vierten Zeiger zur Reiseuhr für bis zu drei Zeitzonen.",
+   "lume": {
+    "z": "IHP",
+    "c": "b"
+   }
   },
   {
    "id": "datejust",
@@ -4151,7 +4167,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16234: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: Mitte der Spanne von rund 3.150 bis 7.150 EUR für 1601/1603 der 1970er laut Händlerratgeber (grob). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
-   "w": "1945 schaltete sie als erste Armbanduhr das Datum selbstständig um, seit den 1950er-Jahren sitzt die Cyclops-Lupe auf dem Glas."
+   "w": "1945 schaltete sie als erste Armbanduhr das Datum selbstständig um, seit den 1950er-Jahren sitzt die Cyclops-Lupe auf dem Glas.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "day-date",
@@ -4378,7 +4398,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Oktober 2026); die ältere 18238 schwankt je nach Zifferblatt zu stark für einen Richtwert. Vintage-Referenzen: Händlerangebote und Verkäufe für typische Gelbgold-Exemplare liegen bei etwa 13.400 bis 17.900 EUR (hier die Mitte); ein Listenpreis aus der Bauzeit war nicht auffindbar. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
-   "w": "Als erste Armbanduhr mit ausgeschriebenem Wochentag erschien die Day-Date 1956, ausschließlich in Gold oder Platin und mit dem eigens entwickelten President-Band."
+   "w": "Als erste Armbanduhr mit ausgeschriebenem Wochentag erschien die Day-Date 1956, ausschließlich in Gold oder Platin und mit dem eigens entwickelten President-Band.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "explorer",
@@ -4614,7 +4638,11 @@
       "img": "assets/watches/rolex-explorer-214270.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "sea-dweller",
@@ -4828,7 +4856,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16600: Listenpreis in Stahl bis 2008 laut WatchCharts. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
    },
-   "w": "Mit dem Heliumventil, das sie 1967 einführte, wurde sie zur Uhr für Sättigungstaucher in großer Tiefe."
+   "w": "Mit dem Heliumventil, das sie 1967 einführte, wurde sie zur Uhr für Sättigungstaucher in großer Tiefe.",
+   "lume": {
+    "z": "IHP",
+    "c": "b"
+   }
   },
   {
    "id": "nautilus",
@@ -5037,7 +5069,11 @@
     ],
     "n": "Patek Philippe veröffentlicht keinen offiziellen Listenpreis. Gebrauchtpreis: typische Angebote laut WatchProSite rund 169.850 bis 181.500 EUR (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händler- und Ratgeberangaben aus 2025 (Luxury Bazaar, WatchProSite); Einzelstücke schwanken stark. Neupreis 3700: Listenpreis zum Verkaufsstart 1976 laut Händlerangabe (A Collected Man). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. 5711/1A: Startpreis 2006 laut einer Quelle rund 25.000 USD (Angaben schwanken bis 30.000)."
    },
-   "w": "1976 setzte die Nautilus mit Bullaugen-Gehäuse und integriertem Band einen frühen Maßstab für Luxus-Uhren aus Stahl."
+   "w": "1976 setzte die Nautilus mit Bullaugen-Gehäuse und integriertem Band einen frühen Maßstab für Luxus-Uhren aus Stahl.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "calatrava",
@@ -5202,7 +5238,11 @@
       "img": "assets/watches/patek-philippe-calatrava-yellow-gold.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "aquanaut",
@@ -5378,7 +5418,11 @@
      "»Jumbo« 5168G in Weißgold"
     ]
    ],
-   "w": "Das Kautschukband mit Würfelmuster macht die Aquanaut lässiger als die Nautilus."
+   "w": "Das Kautschukband mit Würfelmuster macht die Aquanaut lässiger als die Nautilus.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "world-time",
@@ -5499,7 +5543,11 @@
      "Aktuelle Referenz 5230"
     ]
    ],
-   "w": "Auf einen Blick zeigt die World Time die Uhrzeit in allen 24 Zeitzonen, ein System, das auf Louis Cottier zurückgeht."
+   "w": "Auf einen Blick zeigt die World Time die Uhrzeit in allen 24 Zeitzonen, ein System, das auf Louis Cottier zurückgeht.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "jahreskalender",
@@ -5635,7 +5683,11 @@
       "img": "assets/watches/patek-philippe-annual-calendar-5205.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "royal-oak",
@@ -5860,7 +5912,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14790: laut Chronext inzwischen nahe 40.000 Euro (Richtwert). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Neupreis 5402: Listenpreis zum Verkaufsstart 1972; Gebrauchtpreis: Händlerangebote zwischen etwa 60.000 und 129.650 EUR, hier ein grober Mittelwert."
    },
-   "w": "Achteckige Lünette, sichtbare Schrauben und ein integriertes Band: 1972 kostete die Stahluhr mehr als manche Golduhr."
+   "w": "Achteckige Lünette, sichtbare Schrauben und ein integriertes Band: 1972 kostete die Stahluhr mehr als manche Golduhr.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "royal-oak-offshore",
@@ -6015,7 +6071,11 @@
      "Neue Offshore mit Kaliber 4404"
     ]
    ],
-   "w": "Ihr massives Gehäuse sorgte 1993 für Aufsehen und trug ihr den Spitznamen »The Beast« ein."
+   "w": "Ihr massives Gehäuse sorgte 1993 für Aufsehen und trug ihr den Spitznamen »The Beast« ein.",
+   "lume": {
+    "z": "IHS",
+    "c": "g"
+   }
   },
   {
    "id": "royal-oak-chronograph",
@@ -6151,7 +6211,11 @@
      "Referenz 26240 mit Manufakturkaliber 4401"
     ]
    ],
-   "w": "Die Royal-Oak-Form mit Stoppfunktion: flacher und eleganter als die Offshore."
+   "w": "Die Royal-Oak-Form mit Stoppfunktion: flacher und eleganter als die Offshore.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "code-11-59",
@@ -6260,7 +6324,11 @@
      "Vorstellung der Code 11.59"
     ]
    ],
-   "w": "Nach Jahrzehnten ist sie die erste völlig neue Kollektion von Audemars Piguet."
+   "w": "Nach Jahrzehnten ist sie die erste völlig neue Kollektion von Audemars Piguet.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "speedmaster",
@@ -6516,7 +6584,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenz 311.30.42.30.01.005 (bis 2021): Händlerangebot von SwissWatchExpo. Ältere Referenzen: 3570.50: WatchCharts (Oktober 2026); 3590.50: Händlerangebot eines Exemplars von 1991. Vintage-Referenzen: 105.012: Listenpreis laut einer einzelnen Quelle (ca. 160 EUR), Gebrauchtpreis aus Händlerangeboten von rund 8.600 bis 10.450 EUR; 105.003: WatchCharts (Oktober 2026); 145.012: Mitte einer Händlerspanne von rund 7.150 bis 13.400 EUR. Grobe Richtwerte, stark zustandsabhängig. 3570.50: Listenpreis um 2009 von rund 2.500 USD bei autorisierten Händlern (Hesalit-Version, laut Preisgeschichte), 2023 lag er bei 4.500 USD."
    },
-   "w": "1969 war sie bei der ersten Mondlandung dabei und ist bis heute von der NASA für bemannte Missionen zugelassen."
+   "w": "1969 war sie bei der ersten Mondlandung dabei und ist bis heute von der NASA für bemannte Missionen zugelassen.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "seamaster-300m",
@@ -6684,7 +6756,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 2254.50: WatchCharts (Oktober 2026); 2531.80: Mitte typischer Angebote von rund 1.950 bis 3.200 EUR. Neupreis 2531.80: Mitte der Spanne von 980 bis 1.250 EUR zum Verkaufsstart 1993 laut The Watchology."
    },
-   "w": "Wellenzifferblatt und Heliumventil prägen die Taucheruhr, die seit 1995 am Handgelenk von James Bond sitzt."
+   "w": "Wellenzifferblatt und Heliumventil prägen die Taucheruhr, die seit 1995 am Handgelenk von James Bond sitzt.",
+   "lume": {
+    "z": "IHP",
+    "c": "b"
+   }
   },
   {
    "id": "planet-ocean",
@@ -6836,7 +6912,11 @@
      "Ultra Deep erreicht fast 11.000 m im Marianengraben"
     ]
    ],
-   "w": "Bis 600 Meter wasserdicht, ist sie Omegas robuste Profi-Taucheruhr."
+   "w": "Bis 600 Meter wasserdicht, ist sie Omegas robuste Profi-Taucheruhr.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "aqua-terra",
@@ -6971,7 +7051,11 @@
      "Waagerechtes Streifenzifferblatt, Kaliber 8900"
     ]
    ],
-   "w": "Ein Zifferblatt im Stil eines Teakholzdecks verleiht der Aqua Terra den Charakter einer eleganten Alltagsuhr mit Seamaster-Technik."
+   "w": "Ein Zifferblatt im Stil eines Teakholzdecks verleiht der Aqua Terra den Charakter einer eleganten Alltagsuhr mit Seamaster-Technik.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "constellation",
@@ -7102,7 +7186,11 @@
      "Neue Constellation mit Kaliber 8900"
     ]
    ],
-   "w": "»Krallen« an der Lünette und eine Sternwarte auf dem Gehäuseboden kennzeichnen die Chronometer-Linie von Omega."
+   "w": "»Krallen« an der Lünette und eine Sternwarte auf dem Gehäuseboden kennzeichnen die Chronometer-Linie von Omega.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "railmaster",
@@ -7232,7 +7320,11 @@
      "60. Jubiläum, »Trilogy« und neue Railmaster mit Kaliber 8806"
     ]
    ],
-   "w": "Gebaut für Eisenbahner und Techniker, schützt sie ihr Werk gegen Magnetfelder; 1957 bildete sie mit Speedmaster und Seamaster 300 die Omega-Trilogie."
+   "w": "Gebaut für Eisenbahner und Techniker, schützt sie ihr Werk gegen Magnetfelder; 1957 bildete sie mit Speedmaster und Seamaster 300 die Omega-Trilogie.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "black-bay",
@@ -7377,7 +7469,11 @@
     "Die frühen Black Bay tragen die Tudor-Rose auf dem Zifferblatt, spätere Modelle das Schild; Sammler unterscheiden daran die Generationen.",
     "Das gewölbte Glas und die große Krone ohne Kronenschutz sind direkte Zitate der Big-Crown-Taucheruhren der 1950er."
    ],
-   "w": "Nietenband, große Krone und Schneeflocken-Zeiger: Mit der Black Bay meldete sich Tudor 2012 im Stil der 1950er-Jahre zurück."
+   "w": "Nietenband, große Krone und Schneeflocken-Zeiger: Mit der Black Bay meldete sich Tudor 2012 im Stil der 1950er-Jahre zurück.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "pelagos",
@@ -7527,7 +7623,11 @@
       "img": "assets/watches/tudor-pelagos-blue.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "santos",
@@ -7712,7 +7812,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot (CollectorSquare, Modell von etwa 2000)."
    },
-   "w": "Eine der ersten Herren-Armbanduhren der Welt, mit sichtbaren Schrauben auf Lünette und Band."
+   "w": "Eine der ersten Herren-Armbanduhren der Welt, mit sichtbaren Schrauben auf Lünette und Band.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "tank",
@@ -7924,7 +8028,11 @@
      ]
     ]
    },
-   "w": "Mit ihrem rechteckigen Gehäuse und den seitlichen Holmen (Brancards) wurde die Tank zum Vorbild unzähliger Uhren."
+   "w": "Mit ihrem rechteckigen Gehäuse und den seitlichen Holmen (Brancards) wurde die Tank zum Vorbild unzähliger Uhren.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "portugieser",
@@ -8107,7 +8215,11 @@
       "img": "assets/watches/iwc-portugieser-hand-wound.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "big-pilot",
@@ -8258,7 +8370,11 @@
      ]
     ]
    },
-   "w": "Zwiebelkrone, Dreieck bei 12 Uhr und ein großes Gehäuse zitieren die Beobachtungsuhr von 1940."
+   "w": "Zwiebelkrone, Dreieck bei 12 Uhr und ein großes Gehäuse zitieren die Beobachtungsuhr von 1940.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "navitimer",
@@ -8468,7 +8584,11 @@
      ]
     ]
    },
-   "w": "Der Rechenschieber auf der Lünette erlaubt Piloten, Geschwindigkeit, Treibstoff und Steigrate selbst zu berechnen."
+   "w": "Der Rechenschieber auf der Lünette erlaubt Piloten, Geschwindigkeit, Treibstoff und Steigrate selbst zu berechnen.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "chronomat",
@@ -8593,7 +8713,11 @@
      "Neue Chronomat in mehreren Größen"
     ]
    ],
-   "w": "Lünettenreiter bei 15, 30, 45 und 60 Minuten und das Rouleaux-Band machen die Chronomat zum Sportchronographen der Marke."
+   "w": "Lünettenreiter bei 15, 30, 45 und 60 Minuten und das Rouleaux-Band machen die Chronomat zum Sportchronographen der Marke.",
+   "lume": {
+    "z": "IHS",
+    "c": "g"
+   }
   },
   {
    "id": "snowflake",
@@ -8709,7 +8833,11 @@
      "SBGA211 in Titan"
     ]
    ],
-   "w": "Das Zifferblatt erinnert an frischen Schnee, und dank Spring Drive gleitet der Sekundenzeiger ohne Stufen."
+   "w": "Das Zifferblatt erinnert an frischen Schnee, und dank Spring Drive gleitet der Sekundenzeiger ohne Stufen.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "white-birch",
@@ -8803,7 +8931,11 @@
      "SLGH005 mit Kaliber 9SA5"
     ]
    ],
-   "w": "Ein tief geprägtes Muster aus senkrechten Linien ahmt einen Birkenwald nach; das Werk 9SA5 läuft 80 Stunden."
+   "w": "Ein tief geprägtes Muster aus senkrechten Linien ahmt einen Birkenwald nach; das Werk 9SA5 läuft 80 Stunden.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "monaco",
@@ -8956,7 +9088,11 @@
      ]
     ]
    },
-   "w": "Quadratisches Gehäuse, Krone links und Steve McQueen im Film »Le Mans« machten die Monaco berühmt."
+   "w": "Quadratisches Gehäuse, Krone links und Steve McQueen im Film »Le Mans« machten die Monaco berühmt.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "carrera",
@@ -9116,7 +9252,11 @@
       "img": "assets/watches/tag-heuer-carrera-2447.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "yacht-master",
@@ -9292,7 +9432,11 @@
      "Yacht-Master 42 aus Titan"
     ]
    ],
-   "w": "Mit beidseitig drehbarer Lünette und erhabenen Ziffern ist sie die Segleruhr im Rolex-Programm."
+   "w": "Mit beidseitig drehbarer Lünette und erhabenen Ziffern ist sie die Segleruhr im Rolex-Programm.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "air-king",
@@ -9480,7 +9624,11 @@
      "Referenz 126900 mit Kronenschutz und Kaliber 3230"
     ]
    ],
-   "w": "Sie erinnert an die Piloten der Royal Air Force; die Air-King von 2016 bekam ein Fliegerzifferblatt."
+   "w": "Sie erinnert an die Piloten der Royal Air Force; die Air-King von 2016 bekam ein Fliegerzifferblatt.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "milgauss",
@@ -9644,7 +9792,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Milgauss wurde 2023 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
    },
-   "w": "Der blitzförmige Sekundenzeiger und der Schutz gegen Magnetfelder machen sie zur Uhr für Wissenschaftler."
+   "w": "Der blitzförmige Sekundenzeiger und der Schutz gegen Magnetfelder machen sie zur Uhr für Wissenschaftler.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "oyster-perpetual",
@@ -9849,7 +10001,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Nur Händlerangebote und einzelne Verkäufe (114300 etwa 7.150 bis 11.550 EUR, 116000 etwa 4.100 bis 6.250 EUR); grobe Richtwerte. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
    },
-   "w": "Ohne Datum und ohne Komplikation, dafür in vielen Zifferblattfarben: die schlichteste Rolex."
+   "w": "Ohne Datum und ohne Komplikation, dafür in vielen Zifferblattfarben: die schlichteste Rolex.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "sky-dweller",
@@ -9990,7 +10146,11 @@
      "Neue Referenz 336934 mit Kaliber 9002"
     ]
    ],
-   "w": "Über den Ringcommand-Drehring lassen sich Jahreskalender und zweite Zeitzone einstellen."
+   "w": "Über den Ringcommand-Drehring lassen sich Jahreskalender und zweite Zeitzone einstellen.",
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "deepsea",
@@ -10157,7 +10317,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 116660: WatchCharts (Oktober 2016); andere Quelle nennt 10.750 EUR."
    },
-   "w": "Bis 3.900 Meter wasserdicht, gehört sie zu den extremsten Taucheruhren von Rolex."
+   "w": "Bis 3.900 Meter wasserdicht, gehört sie zu den extremsten Taucheruhren von Rolex.",
+   "lume": {
+    "z": "IHP",
+    "c": "b"
+   }
   },
   {
    "id": "seamaster-300",
@@ -10297,7 +10461,11 @@
      "Master-Chronometer-Version mit Kaliber 8912"
     ]
    ],
-   "w": "Ein Teil der Omega-Trilogie von 1957, 2014 im Vintage-Stil neu aufgelegt."
+   "w": "Ein Teil der Omega-Trilogie von 1957, 2014 im Vintage-Stil neu aufgelegt.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "ballon-bleu",
@@ -10407,7 +10575,11 @@
      "Ballon Bleu mit Manufakturwerk"
     ]
    ],
-   "w": "Die Krone mit blauem Cabochon sitzt geschützt in einem Bogen am Gehäuse."
+   "w": "Die Krone mit blauem Cabochon sitzt geschützt in einem Bogen am Gehäuse.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "panthere",
@@ -10520,7 +10692,11 @@
      "Neuauflage"
     ]
    ],
-   "w": "Das Band aus vielen kleinen Gliedern fällt weich wie Stoff."
+   "w": "Das Band aus vielen kleinen Gliedern fällt weich wie Stoff.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "ingenieur",
@@ -10652,7 +10828,11 @@
      "Neuauflage Ingenieur Automatic 40"
     ]
    ],
-   "w": "1955 für Menschen in magnetischer Umgebung gebaut, machte Gérald Genta sie 1976 zur Sportuhr mit integriertem Band."
+   "w": "1955 für Menschen in magnetischer Umgebung gebaut, machte Gérald Genta sie 1976 zur Sportuhr mit integriertem Band.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "mark-xx",
@@ -10823,7 +11003,11 @@
      "Mark XX"
     ]
    ],
-   "w": "Das Dreieck mit zwei Punkten bei 12 Uhr und große Ziffern verbinden sie mit der Mark 11, die bei der Royal Air Force flog."
+   "w": "Das Dreieck mit zwei Punkten bei 12 Uhr und große Ziffern verbinden sie mit der Mark 11, die bei der Royal Air Force flog.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "superocean",
@@ -10932,7 +11116,11 @@
      "Neue Superocean"
     ]
    ],
-   "w": "Seit 2022 zeigt sie farbige Zifferblätter und eine Keramiklünette im Stil der 1960er-Jahre."
+   "w": "Seit 2022 zeigt sie farbige Zifferblätter und eine Keramiklünette im Stil der 1960er-Jahre.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "black-bay-58",
@@ -11054,7 +11242,11 @@
      "Bronze-Version"
     ]
    ],
-   "w": "Mit 39 Millimetern kleiner und flacher als die normale Black Bay, angelehnt an die Tudor-Taucheruhren von 1958."
+   "w": "Mit 39 Millimetern kleiner und flacher als die normale Black Bay, angelehnt an die Tudor-Taucheruhren von 1958.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "aquaracer",
@@ -11167,7 +11359,11 @@
      "Aquaracer Professional 300"
     ]
    ],
-   "w": "Die zwölfeckige Lünette lässt sich auch mit nassen Fingern greifen."
+   "w": "Die zwölfeckige Lünette lässt sich auch mit nassen Fingern greifen.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "reverso",
@@ -11303,7 +11499,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026)."
    },
-   "w": "Das umdrehbare Gehäuse schützte das Glas beim Polospiel; heute trägt die Rückseite oft eine Gravur."
+   "w": "Das umdrehbare Gehäuse schützte das Glas beim Polospiel; heute trägt die Rückseite oft eine Gravur.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "polaris",
@@ -11411,7 +11611,11 @@
      "Neue Polaris-Linie"
     ]
    ],
-   "w": "Ihr Vorbild, die Memovox Polaris von 1968, war eine Taucheruhr mit Wecker."
+   "w": "Ihr Vorbild, die Memovox Polaris von 1968, war eine Taucheruhr mit Wecker.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "lange-1",
@@ -11553,7 +11757,11 @@
       "img": "assets/watches/a-lange-soehne-lange-1-moonphase.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "zeitwerk",
@@ -11665,7 +11873,11 @@
       "img": "assets/watches/a-lange-soehne-zeitwerk-date.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "datograph",
@@ -11796,7 +12008,11 @@
       "img": "assets/watches/a-lange-soehne-datograph-rose-gold.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "luminor",
@@ -11934,7 +12150,11 @@
      "Kaliber P.2002 mit acht Tagen Gangreserve"
     ]
    ],
-   "w": "Der Hebelbügel über der Krone presst sie gegen die Dichtung und ist das Markenzeichen."
+   "w": "Der Hebelbügel über der Krone presst sie gegen die Dichtung und ist das Markenzeichen.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "radiomir",
@@ -12054,7 +12274,11 @@
      "Neuauflage für den Markt"
     ]
    ],
-   "w": "1936 für die Kampftaucher der italienischen Marine gebaut, benannt nach der Radium-Leuchtmasse."
+   "w": "1936 für die Kampftaucher der italienischen Marine gebaut, benannt nach der Radium-Leuchtmasse.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "skx007",
@@ -12170,7 +12394,11 @@
     ],
     "n": "Gebrauchtpreise nach Händler- und Klassifizierten-Angeboten (typisch etwa 220 bis 310 EUR für die SKX007, 210 bis 230 EUR für die SKX009); keine Listenpreise mehr, Modelle 2019 eingestellt. Ungefähre Werte ohne Gewähr."
    },
-   "w": "Eine echte Taucheruhr nach ISO 6425, die nur einen Bruchteil vergleichbarer Schweizer Uhren kostet."
+   "w": "Eine echte Taucheruhr nach ISO 6425, die nur einen Bruchteil vergleichbarer Schweizer Uhren kostet.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "seiko-5",
@@ -12288,7 +12516,11 @@
      "Neue Seiko 5 Sports"
     ]
    ],
-   "w": "Die Fünf steht für Automatik, Datum und Wochentag, Wasserdichtigkeit, versenkte Krone und robustes Gehäuse."
+   "w": "Die Fünf steht für Automatik, Datum und Wochentag, Wasserdichtigkeit, versenkte Krone und robustes Gehäuse.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "presage-cocktail",
@@ -12391,7 +12623,11 @@
      "Presage Cocktail Time mit 4R35 auch international"
     ]
    ],
-   "w": "Die schimmernden, geprägten Zifferblätter sind von Cocktails inspiriert."
+   "w": "Die schimmernden, geprägten Zifferblätter sind von Cocktails inspiriert.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "astron",
@@ -12488,7 +12724,11 @@
     ],
     "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
    },
-   "w": "1969 die erste Quarz-Armbanduhr, die die Quarzkrise auslöste."
+   "w": "1969 die erste Quarz-Armbanduhr, die die Quarzkrise auslöste.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "big-bang",
@@ -12616,7 +12856,11 @@
       "img": "assets/watches/hublot-big-bang-unico-titanium-skeleton.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "classic-fusion",
@@ -12714,7 +12958,11 @@
      "Classic Fusion"
     ]
    ],
-   "w": "Schlichter als die Big Bang, nah am Bullaugen-Design der ersten Hublot von 1980."
+   "w": "Schlichter als die Big Bang, nah am Bullaugen-Design der ersten Hublot von 1980.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "chronomaster",
@@ -12860,7 +13108,11 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026)."
    },
-   "w": "Das El-Primero-Werk misst Zehntelsekunden, wurde 1969 vorgestellt und ist bis heute in Produktion."
+   "w": "Das El-Primero-Werk misst Zehntelsekunden, wurde 1969 vorgestellt und ist bis heute in Produktion.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "defy",
@@ -12972,7 +13224,11 @@
      "Defy Skyline"
     ]
    ],
-   "w": "1969 mit achteckigem »Tresor«-Gehäuse gestartet, misst die Defy El Primero 21 heute Hundertstelsekunden."
+   "w": "1969 mit achteckigem »Tresor«-Gehäuse gestartet, misst die Defy El Primero 21 heute Hundertstelsekunden.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "overseas",
@@ -13130,7 +13386,11 @@
       "img": "assets/watches/vacheron-constantin-overseas-rose-gold.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "patrimony",
@@ -13237,7 +13497,11 @@
      "Patrimony"
     ]
    ],
-   "w": "Flaches Gehäuse und ein schlichtes, leicht gewölbtes Zifferblatt: die klassische Dresswatch des Hauses."
+   "w": "Flaches Gehäuse und ein schlichtes, leicht gewölbtes Zifferblatt: die klassische Dresswatch des Hauses.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "glashuette-pano",
@@ -13336,7 +13600,11 @@
      "Erste Pano-Modelle"
     ]
    ],
-   "w": "Außermittiges Zifferblatt, Panoramadatum und Mondphase machen sie unverwechselbar."
+   "w": "Außermittiges Zifferblatt, Panoramadatum und Mondphase machen sie unverwechselbar.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "tangente",
@@ -13443,7 +13711,11 @@
      "Tangente neomatik"
     ]
    ],
-   "w": "Schlankes Gehäuse, feine Ziffern und viel Weißraum: Bauhaus-Reduktion am Handgelenk."
+   "w": "Schlankes Gehäuse, feine Ziffern und viel Weißraum: Bauhaus-Reduktion am Handgelenk.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "legend-diver",
@@ -13545,7 +13817,11 @@
      "Neuauflage als Legend Diver"
     ]
    ],
-   "w": "Die Drehlünette sitzt innen unter dem Glas und wird über eine zweite Krone gedreht."
+   "w": "Die Drehlünette sitzt innen unter dem Glas und wird über eine zweite Krone gedreht.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "master-collection",
@@ -13649,7 +13925,11 @@
      "Überarbeitete Master Collection"
     ]
    ],
-   "w": "Mondphasen und Kalender zu vergleichsweise günstigen Preisen."
+   "w": "Mondphasen und Kalender zu vergleichsweise günstigen Preisen.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "fifty-fathoms",
@@ -13789,7 +14069,11 @@
      ]
     ]
    },
-   "w": "1953 eine der ersten modernen Taucheruhren, mit arretierbarer Lünette."
+   "w": "1953 eine der ersten modernen Taucheruhren, mit arretierbarer Lünette.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "khaki-field",
@@ -13891,7 +14175,11 @@
      "Khaki Field Mechanical"
     ]
    ],
-   "w": "Mattschwarzes Zifferblatt, große Ziffern und ein Handaufzug mit 80 Stunden Gangreserve."
+   "w": "Mattschwarzes Zifferblatt, große Ziffern und ein Handaufzug mit 80 Stunden Gangreserve.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "ventura",
@@ -13977,7 +14265,11 @@
      "Elvis Presley im Film »Blue Hawaii«"
     ]
    ],
-   "w": "1957 die erste elektrische Armbanduhr der Welt, in dreieckigem Gehäuse."
+   "w": "1957 die erste elektrische Armbanduhr der Welt, in dreieckigem Gehäuse.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "sinn-556",
@@ -14065,7 +14357,11 @@
      "Gründung von Sinn"
     ]
    ],
-   "w": "Gebürstetes Stahlgehäuse und schlichtes schwarzes Zifferblatt: die vernünftige Alltagsuhr."
+   "w": "Gebürstetes Stahlgehäuse und schlichtes schwarzes Zifferblatt: die vernünftige Alltagsuhr.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "sinn-u1",
@@ -14154,7 +14450,11 @@
      "U1 aus U-Boot-Stahl"
     ]
    ],
-   "w": "Das Gehäuse besteht aus U-Boot-Stahl, die Wasserdichtigkeit reicht bis 1.000 Meter."
+   "w": "Das Gehäuse besteht aus U-Boot-Stahl, die Wasserdichtigkeit reicht bis 1.000 Meter.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "max-bill",
@@ -14258,7 +14558,11 @@
      "Neuauflage der max-bill-Linie"
     ]
    ],
-   "w": "Gewölbtes Glas, feine Zeiger und viel freier Raum auf dem Zifferblatt: Bauhaus-Design von Max Bill."
+   "w": "Gewölbtes Glas, feine Zeiger und viel freier Raum auf dem Zifferblatt: Bauhaus-Design von Max Bill.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "g-shock",
@@ -14374,7 +14678,11 @@
     "Das Werk »schwebt« in einer Struktur, die Stöße absorbiert; die Uhr übersteht Stürze aus 10 m Höhe.",
     "Die DW-5600 gehört zu den bekanntesten G-Shock-Modellen und wurde auch in Filmen getragen."
    ],
-   "w": "Ihr Werk schwebt im Gehäuse, damit sie Stürze übersteht; Ziel waren zehn Meter Fallhöhe."
+   "w": "Ihr Werk schwebt im Gehäuse, damit sie Stürze übersteht; Ziel waren zehn Meter Fallhöhe.",
+   "lume": {
+    "z": "L",
+    "c": "g"
+   }
   },
   {
    "id": "classique",
@@ -14479,7 +14787,11 @@
      "Swatch Group übernimmt Breguet"
     ]
    ],
-   "w": "Guillochiertes Zifferblatt, Breguet-Zeiger und geriffeltes Gehäuse bewahren die Gestaltung von Abraham-Louis Breguet."
+   "w": "Guillochiertes Zifferblatt, Breguet-Zeiger und geriffeltes Gehäuse bewahren die Gestaltung von Abraham-Louis Breguet.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "type-xx",
@@ -14590,7 +14902,11 @@
      "Neue Type XX"
     ]
    ],
-   "w": "Ein Flyback-Chronograph, gebaut für die französische Luftwaffe."
+   "w": "Ein Flyback-Chronograph, gebaut für die französische Luftwaffe.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "swatch-original",
@@ -14688,7 +15004,11 @@
     "Die Swatch bestand aus nur 51 Teilen und wurde vollautomatisch gefertigt.",
     "Das Gehäuse war verschweißt und konnte nicht geöffnet werden."
    ],
-   "w": "Aus nur 51 Teilen vollautomatisch gefertigt, half sie 1983 der Schweizer Uhrenindustrie aus der Quarzkrise."
+   "w": "Aus nur 51 Teilen vollautomatisch gefertigt, half sie 1983 der Schweizer Uhrenindustrie aus der Quarzkrise.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "moonswatch",
@@ -14806,7 +15126,11 @@
      "Vorstellung der MoonSwatch"
     ]
    ],
-   "w": "Die Speedmaster aus Biokeramik zum Swatch-Preis löste 2022 lange Schlangen vor den Geschäften aus."
+   "w": "Die Speedmaster aus Biokeramik zum Swatch-Preis löste 2022 lange Schlangen vor den Geschäften aus.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "prx",
@@ -14919,7 +15243,11 @@
      "Neuauflage der PRX"
     ]
    ],
-   "w": "Im Stil der 1970er mit integriertem Band, seit 2021 ein Bestseller."
+   "w": "Im Stil der 1970er mit integriertem Band, seit 2021 ein Bestseller.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "aquis",
@@ -15023,7 +15351,11 @@
      "Kaliber 400"
     ]
    ],
-   "w": "Keramiklünette, 300 Meter Wasserdichtigkeit und auf Wunsch das Kaliber 400 mit fünf Tagen Gangreserve."
+   "w": "Keramiklünette, 300 Meter Wasserdichtigkeit und auf Wunsch das Kaliber 400 mit fünf Tagen Gangreserve.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "big-crown",
@@ -15123,7 +15455,11 @@
      "Big Crown Pointer Date"
     ]
    ],
-   "w": "Große Krone und ein Zeigerdatum mit kleiner Mondsichel an der Spitze."
+   "w": "Große Krone und ein Zeigerdatum mit kleiner Mondsichel an der Spitze.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "br-03",
@@ -15247,7 +15583,11 @@
      "Überarbeitete BR 03"
     ]
    ],
-   "w": "Ein quadratisches Gehäuse mit vier Schrauben, das wie ein Cockpitinstrument aussieht."
+   "w": "Ein quadratisches Gehäuse mit vier Schrauben, das wie ein Cockpitinstrument aussieht.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "alpine-eagle",
@@ -15365,7 +15705,11 @@
      "Alpine Eagle"
     ]
    ],
-   "w": "Acht Lünettenschrauben, integriertes Band und ein Zifferblatt mit radialer Struktur."
+   "w": "Acht Lünettenschrauben, integriertes Band und ein Zifferblatt mit radialer Struktur.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "laureato",
@@ -15484,7 +15828,11 @@
      "Laureato als eigene Kollektion"
     ]
    ],
-   "w": "Achteckige Lünette auf rundem Sockel, darüber ein Zifferblatt im Clous-de-Paris-Muster."
+   "w": "Achteckige Lünette auf rundem Sockel, darüber ein Zifferblatt im Clous-de-Paris-Muster.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "ranger",
@@ -15603,7 +15951,11 @@
      "Ranger mit MT5402"
     ]
    ],
-   "w": "Die Ziffern 3, 6 und 9 und der pfeilförmige Stundenzeiger erinnern an die britische Grönland-Expedition."
+   "w": "Die Ziffern 3, 6 und 9 und der pfeilförmige Stundenzeiger erinnern an die britische Grönland-Expedition.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "black-bay-gmt",
@@ -15710,7 +16062,11 @@
      "Black Bay GMT mit MT5652"
     ]
    ],
-   "w": "Burgunderrot-blaue Lünette und ein einzeln verstellbarer Stundenzeiger."
+   "w": "Burgunderrot-blaue Lünette und ein einzeln verstellbarer Stundenzeiger.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "perpetual-1908",
@@ -15853,7 +16209,11 @@
       "img": "assets/watches/rolex-perpetual-1908-52509.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "land-dweller",
@@ -15983,7 +16343,11 @@
       "img": "assets/watches/rolex-land-dweller-127234-blue.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "IH",
+    "c": "b"
+   }
   },
   {
    "id": "turtle",
@@ -16120,7 +16484,11 @@
      "Neuauflage in der Prospex-Linie"
     ]
    ],
-   "w": "Das kissenförmige Gehäuse brachte ihr den Spitznamen »Turtle« ein."
+   "w": "Das kissenförmige Gehäuse brachte ihr den Spitznamen »Turtle« ein.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "alpinist",
@@ -16253,7 +16621,11 @@
      "Prospex Alpinist SPB121"
     ]
    ],
-   "w": "Grünes Zifferblatt und ein innenliegender Kompassring, der über eine zweite Krone gedreht wird."
+   "w": "Grünes Zifferblatt und ein innenliegender Kompassring, der über eine zweite Krone gedreht wird.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "gs-sbgw231",
@@ -16359,7 +16731,11 @@
      "SBGW231 in der Elegance-Kollektion"
     ]
    ],
-   "w": "Sie deutet die erste Grand Seiko von 1960 neu: schlicht, ohne Datum und mit Handaufzug."
+   "w": "Sie deutet die erste Grand Seiko von 1960 neu: schlicht, ohne Datum und mit Handaufzug.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "spirit",
@@ -16470,7 +16846,11 @@
      "Spirit-Kollektion"
     ]
    ],
-   "w": "Alle Modelle tragen ein COSC-zertifiziertes Chronometerwerk und erinnern an die Luftfahrtpioniere."
+   "w": "Alle Modelle tragen ein COSC-zertifiziertes Chronometerwerk und erinnern an die Luftfahrtpioniere.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "gentleman",
@@ -16582,7 +16962,11 @@
      "Gentleman Powermatic 80"
     ]
    ],
-   "w": "Das Powermatic-80-Werk läuft rund 80 Stunden mit einem Aufzug."
+   "w": "Das Powermatic-80-Werk läuft rund 80 Stunden mit einem Aufzug.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "murph",
@@ -16701,7 +17085,11 @@
      "Khaki Field Murph"
     ]
    ],
-   "w": "Aus dem Film »Interstellar«, benannt nach der Tochter der Hauptfigur."
+   "w": "Aus dem Film »Interstellar«, benannt nach der Tochter der Hauptfigur.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "orion",
@@ -16801,7 +17189,11 @@
      "Orion, Tangente, Ludwig und Tetra"
     ]
    ],
-   "w": "Goldfarbene Stabindizes; eines der ersten vier Nomos-Modelle von 1992."
+   "w": "Goldfarbene Stabindizes; eines der ersten vier Nomos-Modelle von 1992.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "pasha",
@@ -16922,7 +17314,11 @@
      "Neuauflage mit 41 mm und Kaliber 1847 MC"
     ]
    ],
-   "w": "Kronenkappe an einer Kette und quadratische Minuterie, entworfen von Gérald Genta."
+   "w": "Kronenkappe an einer Kette und quadratische Minuterie, entworfen von Gérald Genta.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "historiques-222",
@@ -17042,7 +17438,11 @@
      "Historiques 222 als Neuauflage"
     ]
    ],
-   "w": "1977 eine der frühen Luxus-Stahlsportuhren mit integriertem Band, Vorläuferin der Overseas."
+   "w": "1977 eine der frühen Luxus-Stahlsportuhren mit integriertem Band, Vorläuferin der Overseas.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "octo-finissimo",
@@ -17173,7 +17573,11 @@
      "Octo Finissimo Ultra"
     ]
    ],
-   "w": "Rekordhalterin für flache Uhren, bis zur Octo Finissimo Ultra mit rund 1,8 Millimetern."
+   "w": "Rekordhalterin für flache Uhren, bis zur Octo Finissimo Ultra mit rund 1,8 Millimetern.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "captain-cook",
@@ -17284,7 +17688,11 @@
      "Neuauflage in 37 mm"
     ]
    ],
-   "w": "1962 als Taucheruhr erschienen, heute mit Keramiklünette neu aufgelegt."
+   "w": "1962 als Taucheruhr erschienen, heute mit Keramiklünette neu aufgelegt.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "promaster-diver",
@@ -17384,7 +17792,11 @@
      "Eco-Drive"
     ]
    ],
-   "w": "Der Solarantrieb Eco-Drive macht einen Batteriewechsel überflüssig."
+   "w": "Der Solarantrieb Eco-Drive macht einen Batteriewechsel überflüssig.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "sub-300",
@@ -17486,7 +17898,11 @@
      "SUB 300"
     ]
    ],
-   "w": "Das orange Zifferblatt ist unter Wasser gut ablesbar, die Lünette trägt eine Dekompressionstabelle."
+   "w": "Das orange Zifferblatt ist unter Wasser gut ablesbar, die Lünette trägt eine Dekompressionstabelle.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "laco-aachen",
@@ -17588,7 +18004,11 @@
      "B-Uhren für die Luftwaffe"
     ]
    ],
-   "w": "Dreieck bei 12 Uhr und große Ziffern folgen dem Vorbild der B-Uhr."
+   "w": "Dreieck bei 12 Uhr und große Ziffern folgen dem Vorbild der B-Uhr.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "black-bay-54",
@@ -17701,7 +18121,11 @@
      "Black Bay 54"
     ]
    ],
-   "w": "Mit 37 Millimetern die kleinste Black Bay; wie bei der ersten Tudor-Taucheruhr fehlt der Ziffernring auf der Lünette."
+   "w": "Mit 37 Millimetern die kleinste Black Bay; wie bei der ersten Tudor-Taucheruhr fehlt der Ziffernring auf der Lünette.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   }
   },
   {
    "id": "santos-dumont",
@@ -17805,7 +18229,11 @@
      "Neuauflage mit Kaliber 430 MC"
     ]
    ],
-   "w": "Die flache Dresswatch-Schwester der Santos, mit glatter Lünette."
+   "w": "Die flache Dresswatch-Schwester der Santos, mit glatter Lünette.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "portofino",
@@ -17906,7 +18334,11 @@
      "Portofino Automatic"
     ]
    ],
-   "w": "Rundes, poliertes Gehäuse und Stabindizes: eine schlichte, klassische Dresswatch."
+   "w": "Rundes, poliertes Gehäuse und Stabindizes: eine schlichte, klassische Dresswatch.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "cellini",
@@ -18019,6 +18451,10 @@
      ]
     ],
     "n": "Neupreis laut Händlerangabe; Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 10.700 und 16.750 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -18150,6 +18586,10 @@
      ]
     ],
     "n": "Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 5.350 und 8.050 EUR; ein Listenpreis aus der Bauzeit war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "b"
    }
   },
   {
@@ -18267,6 +18707,10 @@
      ]
     ],
     "n": "Gebrauchtwert: Marktangabe aus einem WatchCharts-Inserat; Händler fragen deutlich mehr (bis etwa 24.050 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "b"
    }
   },
   {
@@ -18396,6 +18840,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Händlerpreise liegen bei 7.950 bis 9.850 EUR; ein Exemplar von 2004 erzielte 2023 bei einer Auktion 8.400 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "b"
    }
   },
   {
@@ -18501,7 +18949,11 @@
     ]
    ],
    "w": "Die rechteckige Art-déco-Rolex, bei der Stunden und Sekunde auf getrennten Zifferblättern stehen.",
-   "ns": true
+   "ns": true,
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "ploprof",
@@ -18627,6 +19079,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -18739,6 +19195,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Händler verlangen 3.050 bis 5.800 EUR je nach Zustand und Modell (frühe oder späte Serie). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -18841,7 +19301,11 @@
      "Versionen in 41 Millimetern und mit Jahreskalender"
     ]
    ],
-   "w": "Die erste Master-Chronometer-Uhr: klassisch aussehend, technisch auf dem neuesten Stand."
+   "w": "Die erste Master-Chronometer-Uhr: klassisch aussehend, technisch auf dem neuesten Stand.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "de-ville-tresor",
@@ -18932,7 +19396,11 @@
      "Aktuelle Modelle in Stahl und Gold"
     ]
    ],
-   "w": "Die ruhige Dresswatch von Omega mit Handaufzug und flachem Gehäuse."
+   "w": "Die ruhige Dresswatch von Omega mit Handaufzug und flachem Gehäuse.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "dark-side-of-the-moon",
@@ -19051,6 +19519,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -19151,6 +19623,10 @@
      ]
     ],
     "n": "Gebrauchtwert als Mitte zwischen einem verkauften Exemplar (3.800 EUR) und einem Händlerpreis (4.550 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -19271,6 +19747,10 @@
      ]
     ],
     "n": "5738R: WatchCharts-Durchschnitt; 3738/1: Händlerangebot für ein Exemplar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -19371,6 +19851,10 @@
      ]
     ],
     "n": "WatchCharts-Durchschnitt für die Stahlversion. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -19494,7 +19978,11 @@
       "img": "assets/watches/patek-philippe-perpetual-calendar-chronograph-5270-rose-gold.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "pilot-travel-time",
@@ -19603,6 +20091,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Händler verlangen für die 5524G meist 37.550 bis 41.550 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -19693,7 +20185,11 @@
      "Royal Oak Concept"
     ]
    ],
-   "w": "Die Royal Oak als Experiment: skelettiert, mit Tourbillon und in neuen Materialien."
+   "w": "Die Royal Oak als Experiment: skelettiert, mit Tourbillon und in neuen Materialien.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "millenary",
@@ -19804,6 +20300,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -19912,6 +20412,10 @@
      ]
     ],
     "n": "Gebrauchtwert als Mitte der Händlerpreise zwischen 89.350 und 113.800 EUR, je nach Zifferblatt und Jahr; kein offizieller Listenpreis auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -20006,7 +20510,11 @@
     ]
    ],
    "w": "Die verbogene Uhr: Cartier als Experimentierhaus mit surrealem Gehäuse.",
-   "ns": true
+   "ns": true,
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "baignoire",
@@ -20108,6 +20616,10 @@
      ]
     ],
     "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 3.600 bis 20.550 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -20205,6 +20717,10 @@
      ]
     ],
     "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 3.600 bis 10.750 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -20313,6 +20829,10 @@
      ]
     ],
     "n": "WatchCharts-Durchschnitt für diese Referenz. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -20418,6 +20938,10 @@
      ]
     ],
     "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 1.800 bis 19.650 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -20536,6 +21060,10 @@
      ]
     ],
     "n": "Mitte einer von den Quellen unterschiedlich angegebenen Spanne von rund 3.400 bis 5.700 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -20648,6 +21176,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -20755,6 +21287,10 @@
      ]
     ],
     "n": "Gebrauchtwert als Mitte der Händler- und Privatangebote zwischen 3.200 und 4.450 EUR; Listenpreisangaben schwanken zwischen 4.900 und 5.200 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -20851,6 +21387,10 @@
      ]
     ],
     "n": "Händlerangebot für ein Exemplar mit geschätzter Liste. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -20956,6 +21496,10 @@
      ]
     ],
     "n": "Händlerangebote zwischen etwa 3.600 und 6.550 EUR, hier ein unterer Mittelwert. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -21064,6 +21608,10 @@
      ]
     ],
     "n": "Neupreis laut Händler; Gebrauchtwert als Mitte zweier Händlerangebote (4.850 und 5.050 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -21170,6 +21718,10 @@
      ]
     ],
     "n": "Händler bieten die Uhr teils für rund 3.950 EUR an; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -21261,7 +21813,11 @@
      "Black Bay in der Heritage-Linie"
     ]
    ],
-   "w": "Der Auftakt zur Tudor-Retrowelle: Chronograph im Stil der 1970er-Jahre."
+   "w": "Der Auftakt zur Tudor-Retrowelle: Chronograph im Stil der 1970er-Jahre.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "black-bay-chrono",
@@ -21371,6 +21927,10 @@
      ]
     ],
     "n": "Listenpreis laut britischem Händler; Gebrauchtpreis: ein Händlerangebot. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -21470,6 +22030,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -21581,6 +22145,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -21686,6 +22254,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -21791,6 +22363,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -21890,6 +22466,10 @@
      ]
     ],
     "n": "Gebrauchtwert als Mitte der Händlerangebote zwischen 5.700 und 6.550 EUR für Exemplare der letzten Jahre; Neuware wird bei einem Händler mit 9.200 EUR geführt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -21974,7 +22554,11 @@
      "Weitere Komplikationen"
     ]
    ],
-   "w": "Zwei Federhäuser für Zeit und Komplikation: Jaeger-LeCoultres technisches Statement."
+   "w": "Zwei Federhäuser für Zeit und Komplikation: Jaeger-LeCoultres technisches Statement.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "geophysic",
@@ -22060,7 +22644,11 @@
      "Neuauflage als True Second und Universal Time"
     ]
    ],
-   "w": "Die Forscheruhr von Jaeger-LeCoultre: antimagnetisch und ein Begleiter von Polarexpeditionen."
+   "w": "Die Forscheruhr von Jaeger-LeCoultre: antimagnetisch und ein Begleiter von Polarexpeditionen.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "saxonia",
@@ -22172,7 +22760,11 @@
       "img": "assets/watches/a-lange-soehne-saxonia-thin-rose-gold.jpg"
      }
     }
-   ]
+   ],
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "odysseus",
@@ -22272,6 +22864,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -22378,6 +22974,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -22467,6 +23067,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -22569,6 +23173,10 @@
      ]
     ],
     "n": "Händlerangabe, undatiert. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -22670,6 +23278,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -22770,6 +23382,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -22870,6 +23486,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Händler verlangen für 6139-Modelle teils 800 bis über 2.300 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -22978,6 +23598,10 @@
      ]
     ],
     "n": "Listenpreis in Euro laut Seiko Frankreich; Gebrauchtwert als WatchCharts-Schätzung (Nov. 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -23077,6 +23701,10 @@
      ]
     ],
     "n": "Gebrauchtpreis: Mitte der Angebote zwischen etwa 4.850 und 6.250 EUR; ein Listenpreis war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -23179,6 +23807,10 @@
      ]
     ],
     "n": "Gebrauchtpreis: Angebote von rund 1.850 bis 3.000 EUR, hier ein Angebot mit vollständigem Set. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -23266,7 +23898,11 @@
      "Spring-Drive-Chronograph mit Kaliber 9R86"
     ]
    ],
-   "w": "Chronograph mit Spring Drive: Stoppen ohne Ticken."
+   "w": "Chronograph mit Spring Drive: Stoppen ohne Ticken.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "mp-05-laferrari",
@@ -23353,6 +23989,10 @@
      ]
     ],
     "n": "Listenpreis 2013 in Frankreich, auf 50 Stück limitiert; Gebrauchtpreise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -23444,6 +24084,10 @@
      ]
     ],
     "n": "Durchschnitt laut WatchCharts mit großer Spanne von etwa 8.050 bis 44.700 EUR je nach Ausführung. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -23533,7 +24177,11 @@
      "Pilot Type 20 Extra Special in Stahl"
     ]
    ],
-   "w": "Eine große Fliegeruhr mit Geschichte: Zwiebelkrone, schwarze Ziffern."
+   "w": "Eine große Fliegeruhr mit Geschichte: Zwiebelkrone, schwarze Ziffern.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "zenith-elite",
@@ -23611,7 +24259,11 @@
     ]
    ],
    "w": "Die ruhige Zenith: flach, schlicht und klassisch.",
-   "ns": true
+   "ns": true,
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "fiftysix",
@@ -23720,6 +24372,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -23799,7 +24455,11 @@
      "Traditionnelle als klassische Linie"
     ]
    ],
-   "w": "Klassische Genfer Uhrmacherei: Handaufzug, Guilloché und Genfer Siegel."
+   "w": "Klassische Genfer Uhrmacherei: Handaufzug, Guilloché und Genfer Siegel.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "ludwig",
@@ -23901,6 +24561,10 @@
      ]
     ],
     "n": "Ein einzelnes Gebrauchtangebot auf eBay; ein aktueller Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -23993,6 +24657,10 @@
      ]
     ],
     "n": "Neupreis laut Händler (Spanne 1.660 bis 2.300 EUR); der Gebrauchtpreis ist ein einzelner eBay-Verkauf einer älteren Tetra. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -24095,6 +24763,10 @@
      ]
     ],
     "n": "Preisangabe von der Longines-Website (Singapur); je nach Referenz unterschiedlich. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -24200,6 +24872,10 @@
      ]
     ],
     "n": "Listenpreis laut Händlerangabe; je nach Referenz bis rund 3.000 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -24286,7 +24962,11 @@
      "Flagship Heritage"
     ]
    ],
-   "w": "Die ruhige Longines: klassisch, schlank und ohne Sportanspruch."
+   "w": "Die ruhige Longines: klassisch, schlank und ohne Sportanspruch.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "jazzmaster",
@@ -24376,6 +25056,10 @@
      ]
     ],
     "n": "Listenpreis laut Hamilton USA (je nach Ausführung bis 1.050 EUR); gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -24466,7 +25150,11 @@
      "Neuauflage mit H-31, limitiert auf 1.971 Stück"
     ]
    ],
-   "w": "Ein Chronograph im Stil der 1970er: Kissengehäuse und kräftiges Zifferblatt."
+   "w": "Ein Chronograph im Stil der 1970er: Kissengehäuse und kräftiges Zifferblatt.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "sinn-104",
@@ -24568,6 +25256,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -24673,6 +25365,10 @@
      ]
     ],
     "n": "Listenpreise laut Sinn; Gebrauchtwert der 603.010 als WatchCharts-Schätzung, der EZM 3 S als Händlerpreis inklusive MwSt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -24765,6 +25461,10 @@
      ]
     ],
     "n": "Gebrauchtangebote bei etwa 1.350 bis 1.950 EUR für die Sa; für die 356.072 liegt die Spanne bei 1.800 bis 2.350 EUR, hier die Mitte. Ein Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHS",
+    "c": "g"
    }
   },
   {
@@ -24858,6 +25558,10 @@
      ]
     ],
     "n": "Händlerpreis in Deutschland; je nach Referenz gibt es Preise von rund 1.100 bis 1.500 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -24960,6 +25664,10 @@
      ]
     ],
     "n": "Unverbindliche Preisempfehlung laut Junghans-Preisliste. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -25041,6 +25749,10 @@
      ]
     ],
     "n": "Neupreis im US-Handel, meist 18 bis 22 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "L",
+    "c": "g"
    }
   },
   {
@@ -25131,6 +25843,10 @@
      ]
     ],
     "n": "Gebrauchtwert als Mitte der Handelsspanne von 96 bis 150 EUR der letzten zwölf Monate. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -25211,7 +25927,11 @@
      "Irony-Version in Edelstahl"
     ]
    ],
-   "w": "Die mechanische Swatch: 51 Teile, vollautomatisch gebaut und 90 Stunden Gangreserve."
+   "w": "Die mechanische Swatch: 51 Teile, vollautomatisch gebaut und 90 Stunden Gangreserve.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "swatch-skin",
@@ -25310,6 +26030,10 @@
      ]
     ],
     "n": "Preise zwischen rund 190 und 215 EUR laut Swatch und Händlern; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -25412,6 +26136,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -25505,6 +26233,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -25608,6 +26340,10 @@
      ]
     ],
     "n": "Preise beziehungsweise Euro laut Händlern; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -25720,6 +26456,10 @@
      ]
     ],
     "n": "Preisangaben von Händlern; Gebrauchtwerte für Automatikmodelle liegen etwa bei 1.350 bis 2.250 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -25813,6 +26553,10 @@
      ]
     ],
     "n": "Listenpreis laut Oris; Gebrauchtwert als Mitte der Angebote zwischen 2.200 und 3.300 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -25918,6 +26662,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Die Limitierung „Instrument de Marine“ (500 Stück) wird gebraucht mit rund 6.100 EUR angeboten. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -25996,7 +26744,11 @@
      "Happy Diamonds"
     ]
    ],
-   "w": "Diamanten, die über das Zifferblatt tanzen: Chopards Schmuckklassiker."
+   "w": "Diamanten, die über das Zifferblatt tanzen: Chopards Schmuckklassiker.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "mille-miglia",
@@ -26092,6 +26844,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -26176,7 +26932,11 @@
      "Vintage 1945"
     ]
    ],
-   "w": "Die Art-déco-Girard-Perregaux: rechteckig, elegant und ein Gegenstück zur Laureato."
+   "w": "Die Art-déco-Girard-Perregaux: rechteckig, elegant und ein Gegenstück zur Laureato.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "gp-three-bridges",
@@ -26273,6 +27033,10 @@
      ]
     ],
     "n": "Einzelnes Händlerangebot im Vergleich zu dessen Listenpreisangabe; bei Auktionen lagen Gebote in Gold-Ausführung deutlich niedriger. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -26369,6 +27133,10 @@
      ]
     ],
     "n": "Gebrauchtpreise laut europäischen Händlern; alte Modelle mit großer Spanne je nach Zustand. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -26467,6 +27235,10 @@
      ]
     ],
     "n": "Listenpreis des Hauses inklusive Steuern; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -26567,6 +27339,10 @@
      ]
     ],
     "n": "Händlerpreis in den USA; je nach Referenz in Europa etwa 1.600 bis 2.500 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -26651,6 +27427,10 @@
      ]
     ],
     "n": "Händlerpreis laut Bucherer; Spanne etwa 1.900 bis 2.700 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -26729,7 +27509,11 @@
      "Satellite Wave"
     ]
    ],
-   "w": "Die Uhr, die sich auf Reisen von selbst stellt: GPS und Sonnenlicht."
+   "w": "Die Uhr, die sich auf Reisen von selbst stellt: GPS und Sonnenlicht.",
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "citizen-x8",
@@ -26802,7 +27586,11 @@
      "Duratect"
     ]
    ],
-   "w": "Die erste Titanuhr der Welt: Citizens Materialpionier von 1970."
+   "w": "Die erste Titanuhr der Welt: Citizens Materialpionier von 1970.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "doxa-sharkhunter",
@@ -26909,6 +27697,10 @@
      ]
     ],
     "n": "Händlerpreis in den USA; die Variante 300T liegt bei etwa 1.900 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -26990,7 +27782,11 @@
     ]
    ],
    "w": "Die klassische Blancpain: schlicht, flach und benannt nach dem Gründungsort Villeret.",
-   "ns": true
+   "ns": true,
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "leman",
@@ -27066,7 +27862,11 @@
     ]
    ],
    "w": "Die Alltagsuhr von Blancpain: Datum, Automatik und ein Hauch Sport.",
-   "ns": true
+   "ns": true,
+   "lume": {
+    "z": "IH",
+    "c": "g"
+   }
   },
   {
    "id": "breguet-marine",
@@ -27167,6 +27967,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -27258,6 +28062,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -27361,6 +28169,10 @@
      ]
     ],
     "n": "Händlerangabe (Collectorsquare), Angaben in Euro. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -27460,6 +28272,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IH",
+    "c": "g"
    }
   },
   {
@@ -27551,6 +28367,10 @@
      ]
     ],
     "n": "Händlerangebote zwischen etwa 4.850 und 6.900 EUR, hier das Angebot eines Privatverkäufers; ein verkauftes Exemplar erzielte 6.790 EUR. Ein Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -27657,6 +28477,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Die klassische Freak-Reihe ist mit bis zu 75.900 EUR für die Freak ONE deutlich teurer. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -27757,6 +28581,10 @@
      ]
     ],
     "n": "Medianwert gebrauchter Angebote (Spanne 536 bis 760 EUR); vintage Sea Wolf werden mit rund 563 bis 1.650 EUR gehandelt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "IHP",
+    "c": "g"
    }
   },
   {
@@ -27838,7 +28666,11 @@
      "Citizen übernimmt"
     ]
    ],
-   "w": "Eine schlanke Dresswatch zu fairem Preis: Frédérique Constants Klassiker."
+   "w": "Eine schlanke Dresswatch zu fairem Preis: Frédérique Constants Klassiker.",
+   "lume": {
+    "z": "",
+    "c": "g"
+   }
   },
   {
    "id": "santos-100",
@@ -27930,6 +28762,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -28025,6 +28861,10 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "",
+    "c": "g"
    }
   },
   {
@@ -28112,6 +28952,10 @@
      ]
     ],
     "n": "Neupreis bei einem US-Händler; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   },
+   "lume": {
+    "z": "L",
+    "c": "g"
    }
   }
  ]

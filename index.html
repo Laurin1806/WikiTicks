@@ -217,7 +217,9 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); pointer-events: none; opacity: 0; transition: opacity .6s ease; }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { visibility: hidden; }
 :root.night canvas.wcut { opacity: 1; }
-:root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: drop-shadow(0 0 1.5px rgba(130,255,180,.95)) drop-shadow(0 0 7px rgba(80,255,150,.7)) drop-shadow(0 0 18px rgba(60,230,130,.4)); animation: lumepulse 6s ease-in-out infinite; }
+:root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: drop-shadow(0 0 1.5px rgba(var(--lc1), .95)) drop-shadow(0 0 7px rgba(var(--lc2), .7)) drop-shadow(0 0 18px rgba(var(--lc3), .4)); animation: lumepulse 6s ease-in-out infinite; }
+.wimg-wrap { --lc1: 130,255,180; --lc2: 80,255,150; --lc3: 60,230,130; }
+.wimg-wrap[data-lc="b"] { --lc1: 150,215,255; --lc2: 80,170,255; --lc3: 50,130,255; }
 @keyframes lumepulse { 0%, 100% { opacity: 1; } 50% { opacity: .82; } }
 @media (prefers-reduced-motion: reduce) { :root.night canvas.wlume { animation: none; } }
 :root.night img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; filter: brightness(.6) contrast(1.05); }
@@ -605,11 +607,12 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112409"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112413"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
-    return `<span class="wimg-wrap">${base}</span>`;
+    const lm = e && e.lume ? ` data-lz="${e.lume.z}" data-lc="${e.lume.c}" data-sub="${v.sub || ""}"` : "";
+    return `<span class="wimg-wrap"${lm}>${base}</span>`;
   }
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
   const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
@@ -1593,32 +1596,74 @@ function nightPrep(img) {
       o[i * 4] = d[i * 4] * .5; o[i * 4 + 1] = d[i * 4 + 1] * .52; o[i * 4 + 2] = d[i * 4 + 2] * .56; o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
     }
     cx.putImageData(od, 0, 0);
-    // Leuchtmasse: sehr helle, farbarme Flächen, die rundherum von Dunkel umgeben sind (Indizes/Zeiger auf dunklem Zifferblatt).
-    // Stahl (Band, Gehäuse) ist ringsum hell und fällt heraus; Uhren mit hellem Zifferblatt bekommen keine Leuchtmasse.
-    let x0 = w, x1 = 0, y0 = h, y1 = 0;
-    for (let k = 0; k < N; k++) if (!bg[k]) { const px = k % w, py = (k / w) | 0; if (px < x0) x0 = px; if (px > x1) x1 = px; if (py < y0) y0 = py; if (py > y1) y1 = py; }
-    const ccx = (x0 + x1) >> 1, ccy = (y0 + y1) >> 1, cr = Math.round(Math.min(x1 - x0, y1 - y0) * .16);
-    let dsum = 0, dn = 0;
-    for (let j = ccy - cr; j <= ccy + cr; j++) for (let i = ccx - cr; i <= ccx + cr; i++) { if (i < 0 || j < 0 || i >= w || j >= h) continue; const k = j * w + i; if (L[k] < 200) { dsum += L[k]; dn++; } }
-    const darkDial = dn > cr * cr && dsum / dn < 150;
-    const cand = new Uint8Array(N);
-    for (let k = 0; k < N; k++) if (!bg[k] && L[k] >= 205 && S[k] <= 60) cand[k] = 1;
-    const minA = Math.max(40, Math.round(h * h * .0002)), keep = new Uint8Array(N), seen = new Uint8Array(N), q = new Int32Array(N), RING = Math.max(4, Math.round(h * .009));
-    if (darkDial) for (let k0 = 0; k0 < N; k0++) {
-      if (!cand[k0] || seen[k0]) continue;
-      let qh = 0, qt = 0; q[qt++] = k0; seen[k0] = 1; let bx0 = w, bx1 = 0, by0 = h, by1 = 0;
-      while (qh < qt) { const i = q[qh++], px = i % w, py = (i / w) | 0; if (px < bx0) bx0 = px; if (px > bx1) bx1 = px; if (py < by0) by0 = py; if (py > by1) by1 = py;
-        for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && cand[n] && !seen[n]) { seen[n] = 1; q[qt++] = n; } }
-      if (qt < minA || qt > N * .06) continue;
-      // Ring um die Fläche: Mittelwert der Helligkeit (Hintergrund zählt als hell)
-      const ox = Math.max(0, bx0 - RING), oy = Math.max(0, by0 - RING), ow = Math.min(w, bx1 + RING + 1) - ox, oh = Math.min(h, by1 + RING + 1) - oy;
-      let m = new Uint8Array(ow * oh); for (let t = 0; t < qt; t++) { const i = q[t]; m[(((i / w) | 0) - oy) * ow + (i % w - ox)] = 1; }
-      let dil = m; for (let r = 0; r < RING; r++) { const nx = dil.slice(); for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i]) { for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const jj = j + dj, ii = i + di; if (jj >= 0 && ii >= 0 && jj < oh && ii < ow) nx[jj * ow + ii] = 1; } } dil = nx; }
-      let rs = 0, rn = 0; for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i] && !m[j * ow + i]) { rs += L[(oy + j) * w + ox + i]; rn++; }
-      if (rn && rs / rn < 105) for (let t = 0; t < qt; t++) keep[q[t]] = 1;
-    }
+    // Leuchtmasse nach den Angaben im Modell (data-lz: I Indizes, H Zeiger, P Lünettenpunkt, B Lünettenmarkierungen, S Hilfszifferblätter, L LCD).
+    // Erkennung: sehr helle, farbarme Flächen, die rundherum von Dunkel umgeben sind; Zuordnung zu Zonen über Lage zum Zifferblattmittelpunkt.
+    const lz = wrap.dataset.lz || "", sub = wrap.dataset.sub || "", blue = wrap.dataset.lc === "b";
     const lu = document.createElement("canvas"); lu.width = w; lu.height = h; const lx = lu.getContext("2d"), ld = lx.createImageData(w, h), lo = ld.data;
-    for (let i = 0; i < N; i++) if (keep[i]) { lo[i * 4] = 150; lo[i * 4 + 1] = 255; lo[i * 4 + 2] = 190; lo[i * 4 + 3] = 255; }
+    const col = blue ? [165, 220, 255] : [150, 255, 190], keep = new Uint8Array(N);
+    if (lz) {
+      let x0 = w, x1 = 0, y0 = h, y1 = 0;
+      for (let k = 0; k < N; k++) if (!bg[k]) { const px = k % w, py = (k / w) | 0; if (px < x0) x0 = px; if (px > x1) x1 = px; if (py < y0) y0 = py; if (py > y1) y1 = py; }
+      const ccx = (x0 + x1) >> 1, ccy = (y0 + y1) >> 1, cr = Math.round(Math.min(x1 - x0, y1 - y0) * .16);
+      if (lz === "L") { // beleuchtetes LCD: große helle Fläche im dunklen Gehäuse
+        const cn = new Uint8Array(N), seen = new Uint8Array(N), q = new Int32Array(N); let best = null;
+        for (let k = 0; k < N; k++) if (!bg[k] && L[k] >= 150 && S[k] <= 55) cn[k] = 1;
+        for (let k0 = 0; k0 < N; k0++) { if (!cn[k0] || seen[k0]) continue; let qh = 0, qt = 0; q[qt++] = k0; seen[k0] = 1;
+          while (qh < qt) { const i = q[qh++], px = i % w; for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && cn[n] && !seen[n]) { seen[n] = 1; q[qt++] = n; } }
+          if (qt > N * .02 && qt < N * .35 && (!best || qt > best.n)) best = { n: qt, p: q.slice(0, qt) }; }
+        if (best) for (let t = 0; t < best.n; t++) keep[best.p[t]] = 1;
+      } else {
+        let dsum = 0, dn = 0;
+        for (let j = ccy - cr; j <= ccy + cr; j++) for (let i = ccx - cr; i <= ccx + cr; i++) { if (i < 0 || j < 0 || i >= w || j >= h) continue; const k = j * w + i; if (L[k] < 200) { dsum += L[k]; dn++; } }
+        const darkDial = dn > cr * cr && dsum / dn < 150;
+        const cand = new Uint8Array(N);
+        const minA = Math.max(40, Math.round(h * h * .0002)), seen = new Uint8Array(N), q = new Int32Array(N), RING = Math.max(4, Math.round(h * .009)), comps = [];
+        const scan = thr => {
+        comps.length = 0; cand.fill(0); seen.fill(0);
+        for (let k = 0; k < N; k++) if (!bg[k] && L[k] >= thr && S[k] <= 60) cand[k] = 1;
+        for (let k0 = 0; k0 < N; k0++) {
+          if (!cand[k0] || seen[k0]) continue;
+          let qh = 0, qt = 0; q[qt++] = k0; seen[k0] = 1; let bx0 = w, bx1 = 0, by0 = h, by1 = 0, sx = 0, sy = 0;
+          while (qh < qt) { const i = q[qh++], px = i % w, py = (i / w) | 0; sx += px; sy += py; if (px < bx0) bx0 = px; if (px > bx1) bx1 = px; if (py < by0) by0 = py; if (py > by1) by1 = py;
+            for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && cand[n] && !seen[n]) { seen[n] = 1; q[qt++] = n; } }
+          if (qt < minA) continue;
+          const ox = Math.max(0, bx0 - RING), oy = Math.max(0, by0 - RING), ow = Math.min(w, bx1 + RING + 1) - ox, oh = Math.min(h, by1 + RING + 1) - oy;
+          const m = new Uint8Array(ow * oh); for (let t = 0; t < qt; t++) { const i = q[t]; m[(((i / w) | 0) - oy) * ow + (i % w - ox)] = 1; }
+          let dil = m; for (let r = 0; r < RING; r++) { const nx = dil.slice(); for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i]) { for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const jj = j + dj, ii = i + di; if (jj >= 0 && ii >= 0 && jj < oh && ii < ow) nx[jj * ow + ii] = 1; } } dil = nx; }
+          let rs = 0, rn = 0; for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i] && !m[j * ow + i]) { rs += L[(oy + j) * w + ox + i]; rn++; }
+          if (rn && rs / rn < 105) comps.push({ pts: q.slice(0, qt), n: qt, cx: sx / qt, cy: sy / qt, bw: bx1 - bx0 + 1, bh: by1 - by0 + 1 });
+        }
+        };
+        // große helle Scheiben (Hilfszifferblätter, Datumsfenster) sind keine Leuchtmasse – Zeiger (am Mittelpunkt) bleiben erlaubt
+        const dropDiscs = () => {
+          const lim = N * .0032; let tx = 0, ty = 0, tt = 0; for (const c of comps) if (c.n <= lim) { tx += c.cx * c.n; ty += c.cy * c.n; tt += c.n; }
+          const gx = tt ? tx / tt : w / 2, gy = tt ? ty / tt : h / 2;
+          for (let ci = comps.length - 1; ci >= 0; ci--) { const c = comps[ci]; if (c.n > lim) { let nearC = false; for (let t = 0; t < c.n && !nearC; t++) { const i = c.pts[t]; if (Math.hypot(i % w - gx, ((i / w) | 0) - gy) < h * .03) nearC = true; } if (!nearC || c.n > N * .02) comps.splice(ci, 1); } }
+        };
+        if (darkDial) for (const thr of [205, 185, 165, 145, 125]) { scan(thr); dropDiscs(); if (comps.length >= 8) break; }
+        if (comps.length) {
+          // Mittelpunkt = Schwerpunkt aller gefundenen Flächen; Gehäuseradius = Abstand zur linken Gehäusekante (rechts sitzt die Krone)
+          let mx = 0, my = 0, tn = 0; for (const c of comps) { mx += c.cx * c.n; my += c.cy * c.n; tn += c.n; } mx /= tn; my /= tn;
+          let left = w; for (let j = Math.round(my - h * .03); j <= Math.round(my + h * .03); j++) for (let i = 0; i < w; i++) if (!bg[j * w + i]) { if (i < left) left = i; break; }
+          const Rl = Math.max(10, mx - left), sr = Rl * .78, subC = { chrono3: [90, 180, 270], chrono2: [90, 270], small6: [180], small9: [270], small3: [90] }[sub] || [];
+          const inSub = (px, py) => subC.some(a => { const ang = a * Math.PI / 180, sx = mx + Math.sin(ang) * sr * .48, sy = my - Math.cos(ang) * sr * .48; return Math.hypot(px - sx, py - sy) < sr * .27; });
+          for (const c of comps) {
+            const r = Math.hypot(c.cx - mx, c.cy - my) / Rl; let touch = false;
+            for (let t = 0; t < c.n && !touch; t++) { const i = c.pts[t]; if (Math.hypot(i % w - mx, ((i / w) | 0) - my) < Rl * .13) touch = true; }
+            let zone;
+            if (touch) zone = "H";
+            else if (r > .74) zone = (Math.abs(c.cx - mx) < Rl * .16 && c.cy < my && c.n < N * .004 ? "P" : "B");
+            else if (inSub(c.cx, c.cy)) zone = "S";
+            else zone = "I";
+            if (zone === "B" && /P/.test(lz) && !/B/.test(lz)) { // bei Tauchuhren zählt der Punkt, die übrigen Lünettenzeichen bleiben dunkel
+              zone = "-";
+            }
+            if (zone !== "-" && lz.indexOf(zone) >= 0) for (let t = 0; t < c.n; t++) keep[c.pts[t]] = 1;
+          }
+        }
+      }
+    }
+    for (let i = 0; i < N; i++) if (keep[i]) { lo[i * 4] = col[0]; lo[i * 4 + 1] = col[1]; lo[i * 4 + 2] = col[2]; lo[i * 4 + 3] = lz === "L" ? 215 : 255; }
     lx.putImageData(ld, 0, 0);
     cut.className = "wlayer wcut"; lu.className = "wlayer wlume"; cut.setAttribute("aria-hidden", "true"); lu.setAttribute("aria-hidden", "true");
     wrap.append(cut, lu); wrap.dataset.nt = "1";
