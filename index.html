@@ -607,7 +607,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112440"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112441"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1724,7 +1724,7 @@ function nightPrep(img) {
               const adiff = (a, b) => Math.abs(((a - b + 540) % 360) - 180);
               const inl = list.filter((c, i) => adiff(ths[i], Math.round((ths[i] - off) / 30) * 30 + off) < 6);
               const rOK = square ? rAx < Rl * 1.05 : rAx < Rl * .8; // Indexkreis muss im Gehäuse liegen, sonst keine Ergänzung
-              if (inl.length >= 8) { // Flecken weit außerhalb des berechneten Indexkreises (Armband, Gehäuse, Skalen) sind keine Indizes
+              if (inl.length >= 8 && !["arabicAll", "pilot", "field", "arabic", "explorer"].includes(mk)) { // Flecken weit außerhalb des berechneten Indexkreises (Armband, Gehäuse, Skalen) sind keine Indizes
                 for (const c of idxList) { const th = angOf(c.cx, c.cy, cxF, cyF), rd = radOf(c.cx, c.cy, cxF, cyF, th); if (Math.abs(rd - rAx) > rAx * .22 && c.n < N * .004) for (let t = 0; t < c.n; t++) keep[c.pts[t]] = 0; }
               }
               if (inl.length >= 5 && rOK) {
