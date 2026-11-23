@@ -19640,7 +19640,7 @@
     "Kalender über die Krone"
    ],
    "tipp": [
-    "Sammler achten auf die Referenzen 3750 und 3752."
+    "Sammler achten auf die Ref. 3750."
    ],
    "x": [
     "Der ewige Kalender reicht bis 2499.",
@@ -20009,7 +20009,7 @@
    "since": "1990er",
    "s": "Die große Pilotenuhr von Breitling mit Zahlen im Stil einer Instrumentenuhr.",
    "b": [
-    "Die Avenger erschien in den 1990er-Jahren als große, robuste Pilotenuhr. Sie hat ein massives Gehäuse mit Lünettenreitern und ein kontrastreiches Zifferblatt mit Leuchtzeigern. Der Name wurde bei Breitling mit dem Kampfflugzeug Grumman Avenger verbunden.",
+    "Die Avenger erschien in den 1990er-Jahren als große, robuste Pilotenuhr. Sie hat ein massives Gehäuse mit Lünettenreitern und ein kontrastreiches Zifferblatt mit Leuchtzeigern. Der Name erinnert an das Kampfflugzeug Grumman Avenger.",
     "Die Avenger wurde als Dreizeiger- und Chronographenmodell gebaut, später auch mit dem Manufakturwerk B01. Sie war eine der Uhren, mit denen Breitling die Kategorie der großen Fliegeruhren prägte."
    ],
    "cur": "Avenger (aktuelle Modelle)",
@@ -20052,7 +20052,7 @@
     "chronomat",
     "big-pilot"
    ],
-   "k": "Die Avenger wurde als Breitling-Pilotenuhr für Piloten und Einsatzkräfte vermarktet.",
+   "k": "Der Name erinnert an das Kampfflugzeug Grumman Avenger.",
    "a": [],
    "v": {
     "dial": "#17191d",
@@ -20074,7 +20074,7 @@
    ],
    "x": [
     "Das Gehäuse ist sehr groß.",
-    "Die Uhr war für Piloten gedacht.",
+    "Sie ist bis 300 Meter wasserdicht.",
     "Sie ist bis 300 m wasserdicht."
    ],
    "ev": [
@@ -20092,7 +20092,7 @@
    "since": "2010",
    "s": "Der Retro-Chronograph, mit dem Tudor 2010 die Heritage-Linie begann.",
    "b": [
-    "Die Heritage Chrono erschien 2010 und markierte den Neustart der Marke in Europa. Sie lehnt sich an den Oysterdate-Chronographen der 1970er-Jahre an, im Volksmund »Montecarlo« genannt. Typisch sind das Zifferblatt mit Hilfszifferblättern in Kontrastfarbe und die Lünette mit Tachymeterskala.",
+    "Die Heritage Chrono erschien 2010 und markierte den Auftakt der Heritage-Linie. Sie lehnt sich an den Oysterdate-Chronographen der 1970er-Jahre an, im Volksmund »Montecarlo« genannt. Typisch sind das Zifferblatt mit Hilfszifferblättern in Kontrastfarbe und die Lünette mit Tachymeterskala.",
     "Als Werk dient ein modifiziertes ETA-Chronographenwerk. Die Heritage Chrono machte Tudor bei Sammlern wieder bekannt und bereitete den Boden für die Black Bay."
    ],
    "cur": "Heritage Chrono (bis 2010er)",
@@ -20956,13 +20956,6 @@
      "40,5 mm",
      "L155.1",
      "Edelstahl"
-    ],
-    [
-     "363.038",
-     "2020er",
-     "40,5 mm",
-     "L155.1",
-     "Weißgold"
     ]
    ],
    "r": [
@@ -20987,7 +20980,7 @@
     "Stahlgehäuse"
    ],
    "tipp": [
-    "Sehr begehrt, lange Wartelisten."
+    "Sehr begehrt, kleine Stückzahlen."
    ],
    "x": [
     "Es ist eine der wenigen Lange-Uhren in Stahl.",
@@ -21010,7 +21003,7 @@
    "s": "Die Dreizeiger-Luminor mit kleiner Sekunde und Hebelbügel, 1993 erstmals für Sammler.",
    "b": [
     "Die Luminor Marina erschien 1993 mit den ersten Panerai, die außerhalb der Marine erhältlich waren. Sie hat ein 44-Millimeter-Kissengehäuse, den Hebelbügel über der Krone, ein Sandwich-Zifferblatt und eine kleine Sekunde bei 9 Uhr.",
-    "Das Werk war zunächst ein Handaufzugswerk, später mit Automatik. Die Luminor Marina ist die klassische, schlichte Version der Luminor und das meistverkaufte Panerai-Modell."
+    "Das Werk war zunächst ein Handaufzugswerk, später mit Automatik. Die Luminor Marina ist die klassische, schlichte Version der Luminor und das Basismodell der Familie."
    ],
    "cur": "Luminor Marina (aktuelle Modelle)",
    "f": [
@@ -21172,7 +21165,7 @@
    "s": "Der Chronograph, mit dem Panerai 1993 sein Debüt im freien Handel gab.",
    "b": [
     "Die Mare Nostrum erschien 1993 als Chronograph in kleiner Auflage. Sie war eine der drei Uhren, mit denen Panerai erstmals außerhalb des Militärs verkauft wurde. Der Name erinnert an das Mittelmeer. Das Gehäuse ist mit 52 Millimetern sehr groß.",
-    "Sie wurde mit dem Valjoux-Chronographenwerk gebaut und ist heute ein begehrtes Sammlerstück. Später erschienen Neuauflagen als Mare Nostrum Acciaio."
+    "Sie wurde mit einem Handaufzugs-Chronographenwerk gebaut und ist heute ein begehrtes Sammlerstück. Später erschienen Neuauflagen als Mare Nostrum Acciaio."
    ],
    "cur": "Mare Nostrum (Neuauflagen)",
    "f": [
@@ -21424,7 +21417,7 @@
    "since": "1969",
    "s": "Einer der ersten Automatik-Chronographen der Welt, benannt nach Astronaut William Pogue.",
    "b": [
-    "Die Seiko 6139 erschien 1969 als einer der ersten Chronographen mit Automatikaufzug. Der Name »Pogue« stammt von William Pogue, der 1973/74 bei der Skylab-4-Mission eine Seiko 6139 trug. Die Uhr hat ein gelbes Zifferblatt und die Zählerzeigerfarbe in Orange.",
+    "Die Seiko 6139 erschien 1969 als einer der ersten Chronographen mit Automatikaufzug. Der Name »Pogue« stammt von William Pogue, der 1973/74 bei der Skylab-4-Mission eine Seiko 6139 trug. Die bekannteste Version hat ein gelbes Zifferblatt.",
     "Die 6139 hat ein Schaltrad und vertikale Kupplung und wurde in mehreren Varianten gebaut. Sie ist ein beliebtes Sammlerstück und gilt als Gegenstück zur Speedmaster."
    ],
    "cur": "6139 (Vintage)",
@@ -21513,7 +21506,7 @@
    "s": "Die handgefertigte Konkurrenz zur Grand Seiko, 1961 von Suwa Seikosha gestartet.",
    "b": [
     "King Seiko erschien 1961 bei Suwa Seikosha als Konkurrent zur Grand Seiko von Daini Seikosha. Beide Marken standen im Wettbewerb um die beste Uhr des Konzerns. King Seiko-Uhren haben ein klares Design mit Facettierung und eine hohe Verarbeitungsqualität.",
-    "Die Linie lief bis in die 1970er-Jahre. 2020 belebte Seiko King Seiko neu, mit Gehäuse im Stil der 1960er und Automatikwerk. Heute gilt sie als Geheimtipp."
+    "Die Linie lief bis in die 1970er-Jahre. 2022 belebte Seiko King Seiko neu, mit Gehäuse im Stil der 1960er und Automatikwerk. Heute gilt sie als Geheimtipp."
    ],
    "cur": "King Seiko (Neuauflage)",
    "f": [
@@ -21544,7 +21537,7 @@
     ],
     [
      "King Seiko (Neuauflage)",
-     "seit 2020",
+     "seit 2022",
      "37–38 mm",
      "6R31",
      "Neuauflage"
@@ -21585,7 +21578,7 @@
      "King Seiko"
     ],
     [
-     "2020",
+     "2022",
      "Neuauflage"
     ]
    ],
@@ -21836,7 +21829,7 @@
    "x": [
     "Das Werk kombiniert Chronograph und Spring Drive.",
     "Der Sekundenzeiger gleitet.",
-    "Die Uhr ist antimagnetisch geschützt."
+    "Einige Modelle haben ein Titangehäuse."
    ],
    "ev": [
     [
