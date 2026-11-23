@@ -7615,6 +7615,13 @@
       "hc": "#e9ecef",
       "img": null
      }
+    },
+    {
+     "n": "Santos skelettiert (Rotgold)",
+     "y": "",
+     "v": {
+      "img": "assets/watches/cartier-santos-skeleton-rose-gold.jpg"
+     }
     }
    ],
    "m": [
@@ -7790,7 +7797,21 @@
      "v": {
       "case": "gold",
       "strapColor": "#3a2618",
-      "img": "assets/watches/cartier-tank-louis-cartier.jpg"
+      "img": "assets/watches/cartier-tank-louis-rose-gold.jpg"
+     }
+    },
+    {
+     "n": "Tank Américaine (Rotgold)",
+     "y": "",
+     "v": {
+      "img": "assets/watches/cartier-tank-americaine-rose-gold.jpg"
+     }
+    },
+    {
+     "n": "Tank Chinoise (Gelbgold)",
+     "y": "",
+     "v": {
+      "img": "assets/watches/cartier-tank-chinoise-yellow-gold.jpg"
      }
     }
    ],
@@ -10288,7 +10309,8 @@
     "hands": "sword",
     "hc": "#2b4aa8",
     "label": "",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/cartier-ballon-bleu-steel.jpg"
    },
    "m": [
     "Krone in einem Metallbogen",
@@ -10395,7 +10417,8 @@
     "cabochon": true,
     "label": "",
     "strap": "panther",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/cartier-panthere-steel.jpg"
    },
    "m": [
     "Quadratisches Gehäuse",
@@ -11448,7 +11471,16 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    },
-   "w": "Ein asymmetrisches Zifferblatt mit Großdatum, bei dem keine Anzeige eine andere überlappt."
+   "w": "Ein asymmetrisches Zifferblatt mit Großdatum, bei dem keine Anzeige eine andere überlappt.",
+   "var": [
+    {
+     "n": "Lange 1 in Rotgold",
+     "y": "",
+     "v": {
+      "img": "assets/watches/a-lange-soehne-lange-1-rose-gold.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "zeitwerk",
@@ -11673,7 +11705,16 @@
      "Datograph Auf/Ab"
     ]
    ],
-   "w": "Ein Flyback-Chronograph mit Großdatum, dessen Werk man durch den Glasboden bewundern kann."
+   "w": "Ein Flyback-Chronograph mit Großdatum, dessen Werk man durch den Glasboden bewundern kann.",
+   "var": [
+    {
+     "n": "Datograph in Rotgold",
+     "y": "",
+     "v": {
+      "img": "assets/watches/a-lange-soehne-datograph-rose-gold.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "luminor",
@@ -16706,7 +16747,8 @@
     "track": "rail",
     "strap": "leather",
     "strapColor": "#1d2433",
-    "label": ""
+    "label": "",
+    "img": "assets/watches/cartier-pasha-steel.jpg"
    },
    "m": [
     "Vier große arabische Ziffern",
@@ -17595,7 +17637,8 @@
     "strap": "leather",
     "strapColor": "#2a201a",
     "thin": true,
-    "brandDy": -3
+    "brandDy": -3,
+    "img": "assets/watches/cartier-santos-dumont-steel.jpg"
    },
    "m": [
     "Quadratisches, flaches Gehäuse",
@@ -19780,7 +19823,8 @@
     "markers": "roman",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#2a1a10"
+    "strapColor": "#2a1a10",
+    "img": "assets/watches/cartier-crash-yellow-gold.jpg"
    },
    "m": [
     "Verformtes Gehäuse",
@@ -19873,7 +19917,8 @@
     "markers": "roman",
     "hands": "sword",
     "strap": "leather",
-    "strapColor": "#2a1a10"
+    "strapColor": "#2a1a10",
+    "img": "assets/watches/cartier-baignoire-yellow-gold.jpg"
    },
    "m": [
     "Ovales Gehäuse",
@@ -19969,7 +20014,8 @@
     "strapColor": "#2a1a10",
     "case": "steel",
     "date": "6",
-    "cabochon": true
+    "cabochon": true,
+    "img": "assets/watches/cartier-drive-de-cartier-steel.jpg"
    },
    "m": [
     "Kissenförmiges Gehäuse",
@@ -20070,7 +20116,8 @@
     "hands": "sword",
     "strap": "integrated",
     "case": "steel",
-    "brandDy": -1
+    "brandDy": -1,
+    "img": "assets/watches/cartier-tank-francaise-steel.jpg"
    },
    "m": [
     "Integriertes Band",
@@ -20171,7 +20218,8 @@
     "strapColor": "#2a1a10",
     "case": "steel",
     "cabochon": true,
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/cartier-roadster-steel.jpg"
    },
    "m": [
     "Arabische Ziffern",
@@ -21900,7 +21948,8 @@
     "markers": "baton",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/a-lange-soehne-saxonia-rose-gold.jpg"
    },
    "m": [
     "Schlichtes Zifferblatt",
@@ -21940,7 +21989,16 @@
      ]
     ],
     "n": "Durchschnitt über alle Saxonia-Modelle laut WatchCharts (Spanne etwa 12.500 bis 76.000 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   }
+   },
+   "var": [
+    {
+     "n": "Saxonia Thin (Rotgold)",
+     "y": "",
+     "v": {
+      "img": "assets/watches/a-lange-soehne-saxonia-thin-rose-gold.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "odysseus",
@@ -21995,7 +22053,8 @@
     "hands": "baton",
     "strap": "integrated",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/a-lange-soehne-odysseus-blue.jpg"
    },
    "m": [
     "Integriertes Band",
