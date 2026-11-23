@@ -17421,7 +17421,20 @@
      "Ablösung durch die Perpetual 1908"
     ]
    ],
-   "w": "Eine goldene Rolex ohne Sportcharakter: schlicht, flach und für den Anzug gedacht."
+   "w": "Eine goldene Rolex ohne Sportcharakter: schlicht, flach und für den Anzug gedacht.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Cellini Time 50509 (Weißgold)",
+      "Liste (ca.)",
+      15200,
+      "heute",
+      14450
+     ]
+    ],
+    "n": "Neupreis laut Händlerangabe; Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 11.950 und 18.750 USD. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "oysterquartz",
@@ -17517,7 +17530,20 @@
      "Ende der Produktion"
     ]
    ],
-   "w": "Rolex' Antwort auf die Quarzkrise: kantig, schwer und mit einem selbst entwickelten Quarzwerk."
+   "w": "Rolex' Antwort auf die Quarzkrise: kantig, schwer und mit einem selbst entwickelten Quarzwerk.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "17000",
+      "",
+      null,
+      "heute",
+      7500
+     ]
+    ],
+    "n": "Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 6.000 und 9.000 USD; ein Listenpreis aus der Bauzeit war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "yacht-master-ii",
@@ -17994,7 +18020,27 @@
      "Neuauflage"
     ]
    ],
-   "w": "Eine Taucheruhr für Extreme: orangefarbener Entriegelungsknopf und Krone bei 9 Uhr."
+   "w": "Eine Taucheruhr für Extreme: orangefarbener Entriegelungsknopf und Krone bei 9 Uhr.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "227.90.55.21.04.001 (Titan)",
+      "",
+      null,
+      "heute",
+      8157
+     ],
+     [
+      "227.32.55.21.03.001 (Summer Blue)",
+      "Liste",
+      16100,
+      "heute",
+      10426
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "flightmaster",
@@ -18362,7 +18408,20 @@
      "Apollo-8-Edition"
     ]
    ],
-   "w": "Eine schwarze Speedmaster aus Keramik für alle, die die Moonwatch moderner mögen."
+   "w": "Eine schwarze Speedmaster aus Keramik für alle, die die Moonwatch moderner mögen.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "311.92.44.51.01.003",
+      "letzte Liste 2023",
+      12000,
+      "heute",
+      7329
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "speedmaster-57",
@@ -18537,7 +18596,27 @@
      "Neue Ausführungen"
     ]
    ],
-   "w": "Die ovale Patek: Gold, Goldener Schnitt und ein Zifferblatt, das ruhig und eigen wirkt."
+   "w": "Die ovale Patek: Gold, Goldener Schnitt und ein Zifferblatt, das ruhig und eigen wirkt.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "3738/1 (Gelbgold)",
+      "",
+      null,
+      "heute",
+      35100
+     ],
+     [
+      "5738R (Roségold)",
+      "",
+      null,
+      "heute",
+      33923
+     ]
+    ],
+    "n": "5738R: WatchCharts-Durchschnitt; 3738/1: Händlerangebot für ein Exemplar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "twenty4",
@@ -18622,7 +18701,20 @@
      "Automatik-Version"
     ]
    ],
-   "w": "Die Patek für jeden Tag: schlicht, mit Gliederband und für Frauen entworfen."
+   "w": "Die Patek für jeden Tag: schlicht, mit Gliederband und für Frauen entworfen.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "4910/10A (Stahl)",
+      "",
+      null,
+      "heute",
+      10948
+     ]
+    ],
+    "n": "WatchCharts-Durchschnitt für die Stahlversion. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "chrono-ewiger-kalender",
@@ -18721,7 +18813,20 @@
      "Ref. 5270"
     ]
    ],
-   "w": "Chronograph und ewiger Kalender in einer Uhr: seit 1941 Patek Philippes Meisterstück."
+   "w": "Chronograph und ewiger Kalender in einer Uhr: seit 1941 Patek Philippes Meisterstück.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "5270P (Platin)",
+      "Liste 2026",
+      248813,
+      "heute",
+      151397
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "pilot-travel-time",
@@ -18985,7 +19090,27 @@
      "Vorstellung der Millenary"
     ]
    ],
-   "w": "Eine ovale Audemars Piguet mit außermittigem Zifferblatt, bewusst anders als die Royal Oak."
+   "w": "Eine ovale Audemars Piguet mit außermittigem Zifferblatt, bewusst anders als die Royal Oak.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "15350ST (Stahl)",
+      "",
+      null,
+      "heute",
+      13286
+     ],
+     [
+      "15350OR (Roségold)",
+      "Liste 2022",
+      32800,
+      "heute",
+      18709
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "royal-oak-perpetual",
@@ -19250,7 +19375,20 @@
      "Baignoire Allongée"
     ]
    ],
-   "w": "Die Badewannen-Uhr von Cartier: oval, elegant und seit über hundert Jahren im Programm."
+   "w": "Die Badewannen-Uhr von Cartier: oval, elegant und seit über hundert Jahren im Programm.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Baignoire (Durchschnitt)",
+      "",
+      null,
+      "heute",
+      11000
+     ]
+    ],
+    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 4.000 bis 23.000 USD). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "drive-de-cartier",
@@ -19334,7 +19472,20 @@
      "Vorstellung der Drive de Cartier"
     ]
    ],
-   "w": "Eine kissenförmige Cartier mit Manufakturwerk: Gegenentwurf zu Santos und Tank."
+   "w": "Eine kissenförmige Cartier mit Manufakturwerk: Gegenentwurf zu Santos und Tank.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Drive de Cartier (Durchschnitt)",
+      "",
+      null,
+      "heute",
+      5000
+     ]
+    ],
+    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 4.000 bis 12.000 USD). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "tank-francaise",
@@ -19422,7 +19573,20 @@
      "Vorstellung der Tank Française"
     ]
    ],
-   "w": "Die Tank mit Gliederband: sportlicher und alltagstauglicher als das Original."
+   "w": "Die Tank mit Gliederband: sportlicher und alltagstauglicher als das Original.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Tank Française W51008Q3",
+      "",
+      null,
+      "heute",
+      2867
+     ]
+    ],
+    "n": "WatchCharts-Durchschnitt für diese Referenz. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "roadster",
@@ -19510,7 +19674,20 @@
     ]
    ],
    "w": "Cartiers Sportuhr der 2000er: abgerundet, mit arabischen Ziffern und Rennsport-Anspruch.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Roadster (Durchschnitt)",
+      "",
+      null,
+      "heute",
+      4000
+     ]
+    ],
+    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 2.000 bis 22.000 USD). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "aquatimer",
@@ -19602,7 +19779,20 @@
      "SafeDive-Lünette"
     ]
    ],
-   "w": "Die IWC-Taucheruhr mit Lünette, die sich über die Krone von innen drehen lässt."
+   "w": "Die IWC-Taucheruhr mit Lünette, die sich über die Krone von innen drehen lässt.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "IW329001",
+      "",
+      null,
+      "heute",
+      5000
+     ]
+    ],
+    "n": "Mitte einer von den Quellen unterschiedlich angegebenen Spanne von rund 3.800 bis 6.400 USD. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "da-vinci",
@@ -19860,7 +20050,20 @@
      "Portugieser Yacht Club"
     ]
    ],
-   "w": "Die sportliche Seite der Portugieser: maritim, klar und mit Kautschukband."
+   "w": "Die sportliche Seite der Portugieser: maritim, klar und mit Kautschukband.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Yacht Club Chronograph",
+      "Liste (geschätzt)",
+      15100,
+      "heute",
+      8950
+     ]
+    ],
+    "n": "Händlerangebot für ein Exemplar mit geschätzter Liste. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "premier",
@@ -19948,7 +20151,20 @@
     ]
    ],
    "w": "Die elegante Breitling: Chronograph im Stil der 1940er, ohne Rechenschieber.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "AB0118 (Premier B01)",
+      "Liste (ca.)",
+      8500,
+      "heute",
+      5000
+     ]
+    ],
+    "n": "Händlerangebote zwischen etwa 4.000 und 7.300 USD, hier ein unterer Mittelwert. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "top-time",
@@ -20458,7 +20674,20 @@
      "Autavia Isograph"
     ]
    ],
-   "w": "Der Heuer-Chronograph für Fahrer und Piloten: drehbare Lünette, klare Optik."
+   "w": "Der Heuer-Chronograph für Fahrer und Piloten: drehbare Lünette, klare Optik.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "CBE2110",
+      "Liste 2017",
+      4900,
+      "heute",
+      3076
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "formula-1",
@@ -20542,7 +20771,20 @@
      "Formula 1"
     ]
    ],
-   "w": "Die bunte Einstiegsuhr von TAG Heuer, die in den 1980ern die Marke jung machte."
+   "w": "Die bunte Einstiegsuhr von TAG Heuer, die in den 1980ern die Marke jung machte.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "WAZ1110.BA0875",
+      "Liste",
+      1850,
+      "heute",
+      719
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "link",
@@ -20629,7 +20871,20 @@
     ]
    ],
    "w": "Die TAG Heuer mit dem S-Band: Sportuhr mit eleganter Seite.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "WJ201A",
+      "Liste 2022",
+      3200,
+      "heute",
+      695
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "master-control",
@@ -20962,7 +21217,20 @@
      "Saxonia"
     ]
    ],
-   "w": "Die ruhige Lange: Handaufzug, kleine Sekunde und Dreiviertelplatine ohne Schnörkel."
+   "w": "Die ruhige Lange: Handaufzug, kleine Sekunde und Dreiviertelplatine ohne Schnörkel.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Saxonia (Durchschnitt)",
+      "",
+      null,
+      "heute",
+      26000
+     ]
+    ],
+    "n": "Durchschnitt über alle Saxonia-Modelle laut WatchCharts (Spanne etwa 14.000 bis 85.000 USD). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "odysseus",
@@ -21037,7 +21305,27 @@
      "Vorstellung der Odysseus"
     ]
    ],
-   "w": "Die erste Sportuhr aus Glashütte: Stahl, Großdatum und Wochentag."
+   "w": "Die erste Sportuhr aus Glashütte: Stahl, Großdatum und Wochentag.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "363.068",
+      "",
+      null,
+      "heute",
+      49700
+     ],
+     [
+      "363.179 (Edelstahl)",
+      "",
+      null,
+      "heute",
+      61500
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "luminor-marina",
@@ -21122,7 +21410,20 @@
      "Luminor Marina"
     ]
    ],
-   "w": "Die klassische Luminor: Hebelbügel, Sandwich-Zifferblatt und kleine Sekunde."
+   "w": "Die klassische Luminor: Hebelbügel, Sandwich-Zifferblatt und kleine Sekunde.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "PAM01312",
+      "",
+      null,
+      "heute",
+      4663
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "luminor-due",
@@ -21199,7 +21500,20 @@
      "Luminor Due"
     ]
    ],
-   "w": "Die schlanke Luminor: flacher, kleiner und doch unverkennbar Panerai."
+   "w": "Die schlanke Luminor: flacher, kleiner und doch unverkennbar Panerai.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "PAM00676",
+      "Liste 2019",
+      8700,
+      "heute",
+      4878
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "mare-nostrum",
@@ -21285,7 +21599,20 @@
      "Mare Nostrum"
     ]
    ],
-   "w": "Der große Panerai-Chronograph von 1993: selten, riesig und ein Stück Firmengeschichte."
+   "w": "Der große Panerai-Chronograph von 1993: selten, riesig und ein Stück Firmengeschichte.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "PAM00716",
+      "",
+      null,
+      "heute",
+      3808
+     ]
+    ],
+    "n": "Händlerangabe, undatiert. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "seiko-monster",
@@ -21369,7 +21696,20 @@
      "Seiko Monster"
     ]
    ],
-   "w": "Die Seiko mit den breiten Schultern: robust, bunt und ein Liebling der Modder-Szene."
+   "w": "Die Seiko mit den breiten Schultern: robust, bunt und ein Liebling der Modder-Szene.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "SRPD25",
+      "Liste 2023",
+      525,
+      "heute",
+      289
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "seiko-sumo",
@@ -21452,7 +21792,20 @@
      "Seiko Sumo"
     ]
    ],
-   "w": "Die Sumo: massiv, klar und eine der beliebtesten Seiko-Taucheruhren."
+   "w": "Die Sumo: massiv, klar und eine der beliebtesten Seiko-Taucheruhren.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "SPB103",
+      "Liste 2023",
+      850,
+      "heute",
+      423
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "seiko-6139",
@@ -22274,7 +22627,20 @@
      "Fiftysix"
     ]
    ],
-   "w": "Eine Vacheron für jeden Tag: Vintage-Bezug, arabische Ziffern, Automatik."
+   "w": "Eine Vacheron für jeden Tag: Vintage-Bezug, arabische Ziffern, Automatik.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "4600E (Stahl)",
+      "Liste 2026",
+      14300,
+      "heute",
+      10972
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "traditionnelle",
@@ -22993,7 +23359,27 @@
      "Sinn 104"
     ]
    ],
-   "w": "Die klassische Fliegeruhr aus Frankfurt: klar, robust und antimagnetisch."
+   "w": "Die klassische Fliegeruhr aus Frankfurt: klar, robust und antimagnetisch.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "104.011 (schwarz)",
+      "Liste 2017",
+      1600,
+      "heute",
+      1087
+     ],
+     [
+      "104.012 (weiß)",
+      "Liste 2017",
+      1400,
+      "heute",
+      1365
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "sinn-ezm-3",
@@ -23692,7 +24078,20 @@
      "Seastar"
     ]
    ],
-   "w": "Die Taucheruhr von Tissot: 300 Meter, Powermatic 80 und ein fairer Preis."
+   "w": "Die Taucheruhr von Tissot: 300 Meter, Powermatic 80 und ein fairer Preis.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "T120.407.11.051.00",
+      "Liste",
+      925,
+      "heute",
+      445
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "le-locle",
@@ -23768,7 +24167,20 @@
     ]
    ],
    "w": "Tissots klassische Dresswatch: benannt nach dem Gründungsort Le Locle.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "T006.407.16.053.00",
+      "Liste",
+      715,
+      "heute",
+      357
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "t-touch",
@@ -25315,7 +25727,20 @@
     ]
    ],
    "w": "Die flachste Dresswatch: Piagets Altiplano mit extraflachem Werk.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "P10245 (Weißgold, um 2010)",
+      "Liste",
+      21600,
+      "heute",
+      11800
+     ]
+    ],
+    "n": "Händlerangabe (Collectorsquare), Angaben in Euro. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "piaget-polo",
@@ -25881,7 +26306,20 @@
      "Heritage Visodate"
     ]
    ],
-   "w": "Die Vintage-Datumsuhr von Tissot: schlicht und mit Retro-Charme."
+   "w": "Die Vintage-Datumsuhr von Tissot: schlicht und mit Retro-Charme.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "T019.430.11.041.00",
+      "Liste 2019",
+      660,
+      "heute",
+      386
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "casio-ca53w",
