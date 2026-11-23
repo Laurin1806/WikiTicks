@@ -4720,8 +4720,7 @@
      "OFFICIALLY CERTIFIED"
     ],
     "bottomColor": "#d0342c",
-    "coin": true,
-    "img": "assets/watches/rolex-sea-dweller-126600.jpg"
+    "coin": true
    },
    "var": [
     {
@@ -9457,8 +9456,7 @@
      "MILGAUSS",
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
-    ],
-    "img": "assets/watches/rolex-milgauss-116400gv-black.jpg"
+    ]
    },
    "var": [
     {
