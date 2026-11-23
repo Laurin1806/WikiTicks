@@ -7321,7 +7321,8 @@
     "bottom": [
      "MASTER CHRONOMETER",
      "200 m – 660 ft"
-    ]
+    ],
+    "img": "assets/watches/tudor-black-bay.jpg"
    },
    "var": [
     {
@@ -7329,7 +7330,8 @@
      "y": "seit 2016",
      "v": {
       "bezelColor": "#1e3f7a",
-      "dial": "#1b2a44"
+      "dial": "#1b2a44",
+      "img": null
      }
     }
    ],
@@ -10607,7 +10609,8 @@
     "bezel": "screws6",
     "date": "3",
     "markers": "baton",
-    "strap": "integrated"
+    "strap": "integrated",
+    "img": "assets/watches/iwc-ingenieur.jpg"
    },
    "m": [
     "Lünette mit fünf Vertiefungen",
@@ -10763,7 +10766,8 @@
     "top": [
      "SCHAFFHAUSEN"
     ],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/iwc-mark-xx.jpg"
    },
    "m": [
     "Schlichtes Fliegerzifferblatt",
@@ -10895,7 +10899,8 @@
     "top": [
      "SUPEROCEAN"
     ],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/breitling-superocean.jpg"
    },
    "m": [
     "Farbenfrohe Zifferblätter",
@@ -11126,7 +11131,8 @@
     "top": [
      "AQUARACER",
      "PROFESSIONAL 300"
-    ]
+    ],
+    "img": "assets/watches/tag-heuer-aquaracer.jpg"
    },
    "m": [
     "Zwölfeckige Lünette",
@@ -12243,7 +12249,8 @@
     ],
     "bottom": [
      "AUTOMATIC"
-    ]
+    ],
+    "img": "assets/watches/seiko-5-sports.jpg"
    },
    "m": [
     "Krone bei 4 Uhr",
@@ -13288,7 +13295,8 @@
     "dial": "#ece9e2",
     "layout": "pano",
     "strap": "leather",
-    "strapColor": "#2a201a"
+    "strapColor": "#2a201a",
+    "img": "assets/watches/glashuette-pano.jpg"
    },
    "m": [
     "Außermittiges Zifferblatt",
@@ -13395,7 +13403,8 @@
     "hc": "#2b4aa8",
     "strap": "leather",
     "strapColor": "#6a4a32",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/nomos-tangente.jpg"
    },
    "m": [
     "Bauhaus-Zifferblatt",
@@ -13500,7 +13509,8 @@
     "markers": "arabic",
     "hands": "sword",
     "strap": "rubber",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/longines-legend-diver.jpg"
    },
    "m": [
     "Zwei Kronen",
@@ -14217,7 +14227,8 @@
     "minutes": true,
     "brandText": "JUNGHANS",
     "top": [],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/junghans-max-bill.jpg"
    },
    "m": [
     "Bauhaus-Design",
@@ -14318,7 +14329,8 @@
    "k": "Für die Tests der ersten G-Shock soll Kikuo Ibe Prototypen aus dem Fenster geworfen haben.",
    "v": {
     "shape": "gshock",
-    "caseColor": "#1c1d20"
+    "caseColor": "#1c1d20",
+    "img": "assets/watches/casio-g-shock-dw-5600.jpg"
    },
    "m": [
     "Quadratisches Kunststoffgehäuse",
@@ -14541,7 +14553,8 @@
     "pushers": true,
     "strap": "leather",
     "strapColor": "#4a3020",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/breguet-type-xx.jpg"
    },
    "m": [
     "Flyback-Chronograph",
@@ -14638,7 +14651,8 @@
     "dial": "#f7f7f5",
     "markers": "baton",
     "strap": "rubber",
-    "strapColor": "#d63a3a"
+    "strapColor": "#d63a3a",
+    "img": "assets/watches/swatch-original.jpg"
    },
    "m": [
     "Kunststoffgehäuse",
@@ -14731,7 +14745,8 @@
     "pushers": true,
     "strap": "rubber",
     "strapColor": "#2a2c30",
-    "hands": "alpha"
+    "hands": "alpha",
+    "img": "assets/watches/omega-swatch-moonswatch.jpg"
    },
    "var": [
     {
@@ -14739,7 +14754,8 @@
      "y": "seit 2022",
      "v": {
       "caseColor": "#b9433a",
-      "strapColor": "#b9433a"
+      "strapColor": "#b9433a",
+      "img": null
      }
     },
     {
@@ -14748,7 +14764,8 @@
      "v": {
       "caseColor": "#2f4d8f",
       "strapColor": "#2f4d8f",
-      "dial": "#1c2d55"
+      "dial": "#1c2d55",
+      "img": null
      }
     }
    ],
@@ -14971,7 +14988,8 @@
     "bezelColor": "#1b3d63",
     "date": "6",
     "hands": "sword",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/oris-aquis.jpg"
    },
    "m": [
     "Keramiklünette",
@@ -15073,7 +15091,8 @@
     "strapColor": "#5a3a22",
     "sec": "#c8202a",
     "label": "POINTER DATE",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/oris-big-crown-pointer-date.jpg"
    },
    "m": [
     "Große Krone",
@@ -20784,7 +20803,8 @@
     "strap": "rubber",
     "strapColor": "#1f3a5f",
     "case": "steel",
-    "pushers": true
+    "pushers": true,
+    "img": "assets/watches/iwc-portugieser-yacht-club.jpg"
    },
    "m": [
     "Sportliches Zifferblatt",
@@ -21099,7 +21119,8 @@
     "strap": "rubber",
     "strapColor": "#17191d",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/breitling-avenger.jpg"
    },
    "m": [
     "Große Lünettenreiter",
@@ -21204,7 +21225,8 @@
     "hands": "baton",
     "bezel": "tachy",
     "pushers": true,
-    "strap": "oyster"
+    "strap": "oyster",
+    "img": "assets/watches/tudor-heritage-chrono.jpg"
    },
    "m": [
     "Retro-Zifferblatt",
@@ -21294,7 +21316,8 @@
     "bezel": "tachy",
     "pushers": true,
     "strap": "oyster",
-    "crown": "big"
+    "crown": "big",
+    "img": "assets/watches/tudor-black-bay-chrono.jpg"
    },
    "m": [
     "Chronograph",
@@ -21503,7 +21526,8 @@
     "pushers": true,
     "strap": "leather",
     "strapColor": "#2a1a10",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/tag-heuer-autavia.jpg"
    },
    "m": [
     "Drehbare Lünette",
@@ -21613,7 +21637,8 @@
     "strap": "rubber",
     "strapColor": "#1b1e24",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/tag-heuer-formula-1.jpg"
    },
    "m": [
     "Bunte Zifferblätter",
@@ -21715,7 +21740,8 @@
     "bezel": "fluted",
     "strap": "integrated",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/tag-heuer-link.jpg"
    },
    "m": [
     "S-förmiges Band",
@@ -22002,7 +22028,8 @@
     "strapColor": "#3a2618",
     "case": "steel",
     "track": "rail",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/jaeger-lecoultre-geophysic.jpg"
    },
    "m": [
     "Antimagnetisch",
