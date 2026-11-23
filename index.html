@@ -256,6 +256,9 @@ article .curbox { margin-top: 10px; }
 .pc-new { background: transparent; border: 2px solid var(--muted); box-sizing: border-box; width: 16px; height: 16px; box-shadow: none; }
 .pc-legend .pc-new { width: 12px; height: 12px; }
 .pc-used { background: var(--accent); }
+.pc-ex { width: 8px; height: 8px; background: var(--surface); border: 1.5px solid var(--muted); box-shadow: none; box-sizing: border-box; opacity: 0; transition: opacity .15s; }
+.pc-ex b { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); margin-top: 3px; font: 500 10px/1.2 var(--font-mono); color: var(--muted); white-space: nowrap; }
+.pc-row:hover .pc-ex, .pc-row:focus .pc-ex { opacity: 1; }
 .pc-tip { position: absolute; left: 50%; bottom: calc(100% + 4px); transform: translateX(-50%); white-space: nowrap; font-size: 12px; padding: 4px 8px; border-radius: 6px; background: var(--fg); color: var(--bg); opacity: 0; pointer-events: none; transition: opacity .15s; }
 .pc-row:hover .pc-tip, .pc-row:focus .pc-tip { opacity: 1; }
 .pc-row:hover .pc-bar, .pc-row:focus .pc-bar { opacity: .8; }
@@ -1390,9 +1393,9 @@ function priceChart(pr, refs) {
   }
   // Baujahr aus der Referenztabelle, wenn kein Listenpreis vorliegt
   const yearOf = ref => { const n = x => String(x).toLowerCase().replace(/[^a-z0-9.]/g, ""), q = n(ref); if (q.length < 3) return ""; const hit = (refs || []).find(x => String(x[0]).split(/[\/,]/).some(t => { const k = n(t); return k.length >= 3 && (k === q || (k.length >= 4 && q.length >= 4 && (k.startsWith(q) || q.startsWith(k))) || (k.length >= 6 && q.length >= 6 && (k.includes(q) || q.includes(k)))); })); return hit && /\d{4}/.test(hit[1]) ? String(hit[1]).replace(/\s*\(.*\)/, "") : ""; };
-  const rows = pr.rows.map(r => { const c = r[5] || pr.u, [cn, cu] = Array.isArray(c) ? c : [c, c]; return { yr: r[2] == null ? yearOf(r[0]) : "", ref: r[0], nl: r[1], ul: r[3], no: r[2], uo: r[4], cn, cu, nv: r[2] != null ? toEUR(r[2], cn) : null, uv: r[4] != null ? toEUR(r[4], cu) : null }; });
+  const rows = pr.rows.map(r => { const c = r[5] || pr.u, [cn, cu] = Array.isArray(c) ? c : [c, c]; return { yr: r[2] == null ? yearOf(r[0]) : "", ex: (r[6] || []).map(([l, v]) => ({ l, v: toEUR(v, cn) })), ref: r[0], nl: r[1], ul: r[3], no: r[2], uo: r[4], cn, cu, nv: r[2] != null ? toEUR(r[2], cn) : null, uv: r[4] != null ? toEUR(r[4], cu) : null }; });
   const conv = rows.some(r => r.cn !== "EUR" || r.cu !== "EUR");
-  const vals = rows.flatMap(r => [r.nv, r.uv]).filter(v => v != null);
+  const vals = rows.flatMap(r => [r.nv, r.uv, ...r.ex.map(e => e.v)]).filter(v => v != null);
   const span = Math.max(...vals) - Math.min(...vals) || Math.max(...vals) * .3;
   const raw = span / 4, mag = Math.pow(10, Math.floor(Math.log10(raw))), step = [1, 2, 2.5, 5, 10].map(k => k * mag).find(k => k >= raw);
   const lo = Math.max(0, Math.floor((Math.min(...vals) - span * .15) / step) * step), hi = Math.ceil((Math.max(...vals) + span * .15) / step) * step;
@@ -1408,6 +1411,7 @@ function priceChart(pr, refs) {
       <div class="pc-track">${ticks.map(t => `<i class="pc-grid" style="left:${X(t)}%"></i>`).join("")}
         ${both ? `<i class="pc-bar" style="left:${X(Math.min(r.nv, r.uv))}%;width:${(X(Math.max(r.nv, r.uv)) - X(Math.min(r.nv, r.uv))).toFixed(2)}%"></i>` : ""}
         ${r.uv != null ? `<i class="pc-dot pc-used" style="left:${X(r.uv)}%"></i>` : ""}${r.nv != null ? `<i class="pc-dot pc-new" style="left:${X(r.nv)}%"></i>` : ""}
+        ${r.ex.map(e => `<i class="pc-dot pc-ex" style="left:${X(e.v)}%" title="${esc(e.l)}: ${fmt(e.v)} EUR"><b>${esc(e.l)}: ${fmt(e.v)}</b></i>`).join("")}
         <span class="pc-tip">${esc(tip)}</span>
       </div>
       <div class="pc-val"><span>${r.nv != null ? fmt(r.nv) : "–"} → <b>${r.uv != null ? fmt(r.uv) : "–"}</b></span>${dTxt ? `<em class="${d > 0 ? "up" : d < 0 ? "down" : ""}">${dTxt}</em>` : ""}</div>
@@ -1421,7 +1425,7 @@ function priceChart(pr, refs) {
     <div class="pc-row pc-axis" aria-hidden="true"><div></div><div class="pc-track">${ticks.map(t => `<span style="left:${X(t)}%">${tl(t)}</span>`).join("")}</div><div class="pc-unit">EUR</div></div>
     ${pr.n || conv ? `<p class="price-note">${esc(pr.n || "")}${conv ? " " + FX_NOTE : ""}</p>` : ""}
     <details class="pc-table"><summary>Als Tabelle anzeigen</summary><div class="refs-wrap"><table class="refs"><thead><tr><th>Referenz</th><th>Neupreis</th><th>Gebrauchtpreis</th><th>Veränderung</th></tr></thead><tbody>
-      ${rows.map(r => `<tr><td class="m">${esc(r.ref)}</td><td class="m">${r.no == null && r.yr ? `– · Baujahr ${esc(r.yr)}` : orig(r.no, r.cn, r.nl)}</td><td class="m">${orig(r.uo, r.cu, r.ul)}</td><td class="m">${r.nv != null && r.uv != null ? Math.round((r.uv / r.nv - 1) * 100) + " %" : "–"}</td></tr>`).join("")}
+      ${rows.map(r => `<tr><td class="m">${esc(r.ref)}</td><td class="m">${r.no == null && r.yr ? `– · Baujahr ${esc(r.yr)}` : orig(r.no, r.cn, r.nl)}${r.ex.length ? `<br><small>${r.ex.map(e => `${esc(e.l)}: ${fmt(e.v)} EUR`).join(" · ")}</small>` : ""}</td><td class="m">${orig(r.uo, r.cu, r.ul)}</td><td class="m">${r.nv != null && r.uv != null ? Math.round((r.uv / r.nv - 1) * 100) + " %" : "–"}</td></tr>`).join("")}
     </tbody></table></div></details>
   </figure>`;
 }

@@ -3220,7 +3220,14 @@
       "Liste 1996",
       3350,
       "heute",
-      9254
+      9254,
+      null,
+      [
+       [
+        "2008",
+        6000
+       ]
+      ]
      ],
      [
       "116610LN",
@@ -4701,7 +4708,14 @@
       "letzte Liste 2021",
       34890,
       "heute",
-      114897
+      114897,
+      null,
+      [
+       [
+        "2006 (ca.)",
+        25000
+       ]
+      ]
      ],
      [
       "5811/1G",
@@ -4711,7 +4725,7 @@
       195000
      ]
     ],
-    "n": "Patek Philippe veröffentlicht keinen offiziellen Listenpreis. Gebrauchtpreis: typische Angebote laut WatchProSite rund 169.850 bis 181.500 EUR (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händler- und Ratgeberangaben aus 2025 (Luxury Bazaar, WatchProSite); Einzelstücke schwanken stark. Neupreis 3700: Listenpreis zum Verkaufsstart 1976 laut Händlerangabe (A Collected Man). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte."
+    "n": "Patek Philippe veröffentlicht keinen offiziellen Listenpreis. Gebrauchtpreis: typische Angebote laut WatchProSite rund 169.850 bis 181.500 EUR (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händler- und Ratgeberangaben aus 2025 (Luxury Bazaar, WatchProSite); Einzelstücke schwanken stark. Neupreis 3700: Listenpreis zum Verkaufsstart 1976 laut Händlerangabe (A Collected Man). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. 5711/1A: Startpreis 2006 laut einer Quelle rund 25.000 USD (Angaben schwanken bis 30.000)."
    },
    "w": "1976 setzte die Nautilus mit Bullaugen-Gehäuse und integriertem Band einen frühen Maßstab für Luxus-Uhren aus Stahl."
   },
@@ -6122,7 +6136,14 @@
       "Liste 2009 (ca.)",
       2500,
       "heute",
-      4542
+      4542,
+      null,
+      [
+       [
+        "2023",
+        4500
+       ]
+      ]
      ],
      [
       "311.30.42.30.01.005",
