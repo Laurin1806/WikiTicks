@@ -1406,13 +1406,12 @@ function priceChart(pr, refs) {
     const both = r.nv != null && r.uv != null, d = both ? Math.round((r.uv / r.nv - 1) * 100) : null;
     const dTxt = d == null ? "" : (d > 0 ? "+" : d < 0 ? "−" : "±") + Math.abs(d) + " %";
     const tip = [r.nv != null ? `Neu ${fmt(r.nv)}` : "", r.uv != null ? `Gebraucht ${fmt(r.uv)}` : ""].filter(Boolean).join(" · ") + " EUR";
-    return `<div class="pc-row" tabindex="0" title="${esc(`${r.ref}: ${tip}`)}">
+    return `<div class="pc-row"${r.ex.length ? ` tabindex="0"` : ""}>
       <div class="pc-ref"><b>${esc(r.ref)}</b><span>${r.yr && !r.nl ? `Baujahr ${esc(r.yr)} → ` : ""}${esc(r.nl)}${r.nl && r.ul ? " → " : ""}${esc(r.ul)}</span></div>
       <div class="pc-track">${ticks.map(t => `<i class="pc-grid" style="left:${X(t)}%"></i>`).join("")}
         ${both ? `<i class="pc-bar" style="left:${X(Math.min(r.nv, r.uv))}%;width:${(X(Math.max(r.nv, r.uv)) - X(Math.min(r.nv, r.uv))).toFixed(2)}%"></i>` : ""}
         ${r.uv != null ? `<i class="pc-dot pc-used" style="left:${X(r.uv)}%"></i>` : ""}${r.nv != null ? `<i class="pc-dot pc-new" style="left:${X(r.nv)}%"></i>` : ""}
         ${r.ex.map(e => `<i class="pc-dot pc-ex" style="left:${X(e.v)}%" title="${esc(e.l)}: ${fmt(e.v)} EUR"><b>${esc(e.l)}: ${fmt(e.v)}</b></i>`).join("")}
-        <span class="pc-tip">${esc(tip)}</span>
       </div>
       <div class="pc-val"><span>${r.nv != null ? fmt(r.nv) : "–"} → <b>${r.uv != null ? fmt(r.uv) : "–"}</b></span>${dTxt ? `<em class="${d > 0 ? "up" : d < 0 ? "down" : ""}">${dTxt}</em>` : ""}</div>
     </div>`;
