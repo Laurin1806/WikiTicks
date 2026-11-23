@@ -19472,6 +19472,2379 @@
     ]
    ],
    "w": "Cartiers Sportuhr der 2000er: abgerundet, mit arabischen Ziffern und Rennsport-Anspruch."
+  },
+  {
+   "id": "aquatimer",
+   "t": "IWC Aquatimer",
+   "brand": "IWC",
+   "since": "1967",
+   "s": "Die Taucheruhr von IWC mit innen und außen drehbarer Lünette.",
+   "b": [
+    "IWC baute 1967 mit der Ocean 2000 seine erste Taucheruhr. Den Namen Aquatimer trägt die Linie seit 1998. Typisch ist das SafeDive-System (2009), bei dem sich die Lünette über eine Krone auch von innen drehen lässt, damit sie sich nicht versehentlich verstellt.",
+    "Die Aquatimer gibt es als Dreizeigeruhr, Chronograph und mit Zusatzfunktionen. Sie ist bis 300 Meter und mehr wasserdicht und richtet sich an Taucher, die Wert auf eine robuste Uhr mit Schweizer Komplikationen legen."
+   ],
+   "cur": "Aquatimer Automatic (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "IWC-Automatikwerk (30000er-Familie)"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Besonderheit",
+     "Innen und außen drehbare Lünette"
+    ]
+   ],
+   "refs": [
+    [
+     "Ocean 2000",
+     "1967–1970er",
+     "versch.",
+     "Automatik",
+     "Erste IWC-Taucheruhr"
+    ],
+    [
+     "Aquatimer",
+     "seit 1998",
+     "versch.",
+     "Automatik",
+     "Neue Linie"
+    ]
+   ],
+   "r": [
+    "submariner",
+    "seamaster-300m",
+    "luenette"
+   ],
+   "k": "Die erste IWC-Taucheruhr hieß Ocean 2000 und kam 1967 auf den Markt.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "baton",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#17191d",
+    "strap": "rubber",
+    "strapColor": "#17191d",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Zwei Lünettensysteme",
+    "Taucherband",
+    "Schlichtes Zifferblatt"
+   ],
+   "tipp": [
+    "Eine seltene Taucheruhr mit Chronographenfunktion."
+   ],
+   "x": [
+    "Das SafeDive-System dreht die Lünette von innen.",
+    "Es gibt Aquatimer-Chronographen.",
+    "Die Uhr ist ein sportlicher Vertreter der Marke."
+   ],
+   "ev": [
+    [
+     "1967",
+     "Ocean 2000"
+    ],
+    [
+     "1998",
+     "Aquatimer"
+    ],
+    [
+     "2009",
+     "SafeDive-Lünette"
+    ]
+   ],
+   "w": "Die IWC-Taucheruhr mit Lünette, die sich über die Krone von innen drehen lässt."
+  },
+  {
+   "id": "da-vinci",
+   "t": "IWC Da Vinci",
+   "brand": "IWC",
+   "since": "1969",
+   "s": "Die IWC-Linie, die als Quarzuhr begann und mit dem ewigen Kalender von Kurt Klaus berühmt wurde.",
+   "b": [
+    "Die Da Vinci erschien 1969 als IWC-Quarzuhr mit dem Beta-21-Werk. Das Gehäuse hatte eine ungewöhnliche Form mit seitlichen Anstößen. 1985 wurde der Name für die Perpetual Calendar Chronograph von Kurt Klaus wiederverwendet, deren Kalender sich ganz über die Krone stellen lässt.",
+    "2017 legte IWC die Da Vinci neu auf, zunächst mit rundem Gehäuse und später mit Chronograph und ewigem Kalender. Sie steht für IWCs Komplikationskompetenz abseits der Pilotenuhren."
+   ],
+   "cur": "Da Vinci (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "36–43 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Funktionen",
+     "Ewiger Kalender, Chronograph, Mondphase"
+    ],
+    [
+     "Seit",
+     "1969"
+    ],
+    [
+     "Besonderheit",
+     "Ewiger Kalender von Kurt Klaus"
+    ]
+   ],
+   "refs": [
+    [
+     "Da Vinci 3503",
+     "1969–1970er",
+     "versch.",
+     "Beta 21 (Quarz)",
+     "Quarzuhr"
+    ],
+    [
+     "Da Vinci Perpetual Calendar Chronograph (3750)",
+     "1985–1990er",
+     "39 mm",
+     "Automatik",
+     "Ewiger Kalender"
+    ],
+    [
+     "Da Vinci",
+     "seit 2017",
+     "36–43 mm",
+     "Automatik",
+     "Neue Generation"
+    ]
+   ],
+   "r": [
+    "portugieser",
+    "chronograph",
+    "ewiger-kalender"
+   ],
+   "k": "Die erste Da Vinci war eine Quarzuhr mit dem Beta-21-Werk.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel",
+    "moon": true
+   },
+   "m": [
+    "Ewiger Kalender",
+    "Mondphase",
+    "Kalender über die Krone"
+   ],
+   "tipp": [
+    "Sammler achten auf die Referenzen 3750 und 3752."
+   ],
+   "x": [
+    "Der ewige Kalender reicht bis 2499.",
+    "Kurt Klaus entwickelte den Kalender.",
+    "Die ersten Da Vinci hatten ein Quarzwerk."
+   ],
+   "ev": [
+    [
+     "1969",
+     "Erste Da Vinci"
+    ],
+    [
+     "1985",
+     "Perpetual Calendar Chronograph"
+    ],
+    [
+     "2017",
+     "Neue Linie"
+    ]
+   ],
+   "w": "Von der Quarzuhr zur Komplikationsuhr: Die Da Vinci steht für IWCs ewigen Kalender."
+  },
+  {
+   "id": "pilots-chronograph",
+   "t": "IWC Pilot’s Watch Chronograph",
+   "brand": "IWC",
+   "since": "1994",
+   "s": "Der Fliegerchronograph von IWC mit Weicheisen-Innengehäuse und Pilotenzifferblatt.",
+   "b": [
+    "Der Pilot’s Watch Chronograph erschien in den 1990er-Jahren als sportliche Erweiterung der Fliegeruhr-Linie. Er verbindet das klare Zifferblatt mit Dreieck und Zwiebelkrone mit einem Chronographenwerk. Das Gehäuse hat ein Weicheisen-Innengehäuse gegen Magnetfelder.",
+    "Aus ihm entwickelten sich Varianten wie die Spitfire-Serie und die Top-Gun-Modelle. Die Uhr gehört zu den meistverkauften Chronographen der Marke."
+   ],
+   "cur": "Pilot’s Watch Chronograph (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "41–43 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "IWC-Chronographenwerk"
+    ],
+    [
+     "Besonderheit",
+     "Weicheisen-Innengehäuse"
+    ],
+    [
+     "Zifferblatt",
+     "Fliegerstil"
+    ]
+   ],
+   "refs": [
+    [
+     "Pilot’s Watch Chronograph",
+     "seit 1994",
+     "versch.",
+     "Chronograph",
+     "Erste Serie"
+    ],
+    [
+     "Spitfire",
+     "später",
+     "versch.",
+     "Chronograph",
+     "Spitfire-Serie"
+    ]
+   ],
+   "r": [
+    "big-pilot",
+    "mark-xx",
+    "chronograph"
+   ],
+   "k": "Der Pilot’s Watch Chronograph führte die Fliegeruhr von IWC in die Chronographenwelt.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "sub": "chrono3",
+    "markers": "pilot",
+    "hands": "baton",
+    "crown": "onion",
+    "pushers": true,
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel"
+   },
+   "m": [
+    "Dreieck bei 12 Uhr",
+    "Zwiebelkrone",
+    "Weicheisen-Innengehäuse"
+   ],
+   "tipp": [
+    "Gut lesbar und alltagstauglich."
+   ],
+   "x": [
+    "Das Weicheisen-Innengehäuse schützt gegen Magnetfelder.",
+    "Die Uhr ist ein Dauerbrenner im Programm.",
+    "Sie hat ein klares Zifferblatt."
+   ],
+   "ev": [
+    [
+     "1994",
+     "Pilot’s Watch Chronograph"
+    ]
+   ],
+   "w": "Eine Fliegeruhr mit Stoppfunktion: das Dreieck bei 12 Uhr, die Zwiebelkrone, der Chronograph."
+  },
+  {
+   "id": "portugieser-yacht-club",
+   "t": "IWC Portugieser Yacht Club",
+   "brand": "IWC",
+   "since": "1990er",
+   "s": "Die sportliche Portugieser mit Taucher-Optik und Chronograph.",
+   "b": [
+    "Die Portugieser Yacht Club entstand in den 1990er-Jahren als sportliche Interpretation der Portugieser. Sie trägt ein Zifferblatt mit Stabindizes, Ziffern in Schwarz und ein Gehäuse mit Lünette. Auch wurde sie als Chronograph angeboten.",
+    "Sie richtet sich an Menschen, die die klare Optik der Portugieser mögen, aber eine sportlichere Uhr suchen. Wasserdichtigkeit und Robustheit sind höher als bei der klassischen Portugieser."
+   ],
+   "cur": "Portugieser Yacht Club (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "43 mm, Edelstahl"
+    ],
+    [
+     "Besonderheit",
+     "Sportliche Portugieser"
+    ],
+    [
+     "Wasserdicht",
+     "60 m"
+    ],
+    [
+     "Band",
+     "Kautschuk oder Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "Portugieser Yacht Club",
+     "seit 1990er",
+     "43 mm",
+     "Automatik",
+     "Sportliche Linie"
+    ]
+   ],
+   "r": [
+    "portugieser",
+    "aquatimer",
+    "big-pilot"
+   ],
+   "k": "Die Yacht Club ist die sportlichste Portugieser.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "sub": "chrono2",
+    "markers": "baton",
+    "hands": "sword",
+    "strap": "rubber",
+    "strapColor": "#1f3a5f",
+    "case": "steel",
+    "pushers": true
+   },
+   "m": [
+    "Sportliches Zifferblatt",
+    "Chronograph",
+    "Kautschukband"
+   ],
+   "tipp": [
+    "Eine sportliche Alternative zur klassischen Portugieser."
+   ],
+   "x": [
+    "Es gibt sie auch als Chronograph.",
+    "Der Name verweist auf den Segelsport.",
+    "Die Uhr ist robuster als die klassische Portugieser."
+   ],
+   "ev": [
+    [
+     "1990er",
+     "Portugieser Yacht Club"
+    ]
+   ],
+   "w": "Die sportliche Seite der Portugieser: maritim, klar und mit Kautschukband."
+  },
+  {
+   "id": "premier",
+   "t": "Breitling Premier",
+   "brand": "Breitling",
+   "since": "1940er",
+   "s": "Die elegante Chronographen-Linie von Breitling, die in den 1940er-Jahren begann.",
+   "b": [
+    "Die Premier ist die Dress-Linie von Breitling. Sie erschien in den 1940er-Jahren und bot Chronographen und Kalenderuhren in eleganten Gehäusen. 2018 belebte die Marke sie neu, mit dem Manufakturwerk B01 und einem schlanken Gehäuse im Retro-Stil.",
+    "Die Premier B01 Chronograph 42 orientiert sich an der Premier der 1940er und gehört zu den klassischen Chronographen im Breitling-Programm. Die Uhr ist ein Gegenpol zur sportlichen Navitimer."
+   ],
+   "cur": "Premier B01 Chronograph 42",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "B01 (Manufaktur-Chronograph)"
+    ],
+    [
+     "Besonderheit",
+     "Retro-Stil der 1940er"
+    ],
+    [
+     "Band",
+     "Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "Premier (Vintage)",
+     "1940er–1950er",
+     "versch.",
+     "Handaufzug",
+     "Original"
+    ],
+    [
+     "Premier B01",
+     "seit 2018",
+     "42 mm",
+     "B01",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "navitimer",
+    "chronomat",
+    "chronograph"
+   ],
+   "k": "Die Premier ist Breitlings Antwort auf die klassische Chronographen-Optik.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel",
+    "pushers": true
+   },
+   "m": [
+    "Retro-Zifferblatt",
+    "Chronograph",
+    "Manufakturwerk B01"
+   ],
+   "tipp": [
+    "Eine elegante Alternative zur Navitimer."
+   ],
+   "x": [
+    "Das Werk B01 hat 70 Stunden Gangreserve.",
+    "Die Premier ist eine Dresswatch.",
+    "Sie ist leichter als die Navitimer."
+   ],
+   "ev": [
+    [
+     "1940er",
+     "Premier"
+    ],
+    [
+     "2018",
+     "Neuauflage mit B01"
+    ]
+   ],
+   "w": "Die elegante Breitling: Chronograph im Stil der 1940er, ohne Rechenschieber."
+  },
+  {
+   "id": "top-time",
+   "t": "Breitling Top Time",
+   "brand": "Breitling",
+   "since": "1964",
+   "s": "Der Sportchronograph aus den 1960ern, den James Bond in »Thunderball« trug.",
+   "b": [
+    "Die Top Time erschien 1964 als sportlicher Breitling-Chronograph mit kleinerem Gehäuse und abwechslungsreichem Zifferblatt. Im Film »Thunderball« (1965) trug James Bond eine Top Time, was die Uhr bekannt machte.",
+    "2020 belebte Breitling die Top Time neu, mit einem 41-Millimeter-Gehäuse und verschiedenen Zifferblattfarben. Sie gilt als Gegenstück zur größeren Navitimer."
+   ],
+   "cur": "Top Time (Neuauflage)",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Zifferblatt",
+     "farbig"
+    ],
+    [
+     "Seit",
+     "1964"
+    ]
+   ],
+   "refs": [
+    [
+     "Top Time",
+     "1964–1970er",
+     "versch.",
+     "Handaufzug",
+     "Original"
+    ],
+    [
+     "Top Time (Neuauflage)",
+     "seit 2020",
+     "41 mm",
+     "Automatik",
+     "Neue Linie"
+    ]
+   ],
+   "r": [
+    "navitimer",
+    "chronomat",
+    "premier"
+   ],
+   "k": "James Bond trug in »Thunderball« eine Breitling Top Time.",
+   "a": [],
+   "v": {
+    "dial": "#1f4a8a",
+    "sub": "chrono2",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "pushers": true,
+    "bezel": "tachy"
+   },
+   "m": [
+    "Sportliches Zifferblatt",
+    "Chronograph",
+    "Kleineres Gehäuse"
+   ],
+   "tipp": [
+    "Der Bond-Bezug macht sie bei Sammlern beliebt."
+   ],
+   "x": [
+    "Die Top Time ist kleiner als die Navitimer.",
+    "Sie erschien in vielen Farben.",
+    "Der Film machte sie bekannt."
+   ],
+   "ev": [
+    [
+     "1964",
+     "Erste Top Time"
+    ],
+    [
+     "1965",
+     "Thunderball"
+    ],
+    [
+     "2020",
+     "Neuauflage"
+    ]
+   ],
+   "w": "Breitlings Bond-Chronograph: sportlich, farbig und kleiner als die Navitimer."
+  },
+  {
+   "id": "avenger",
+   "t": "Breitling Avenger",
+   "brand": "Breitling",
+   "since": "1990er",
+   "s": "Die große Pilotenuhr von Breitling mit Zahlen im Stil einer Instrumentenuhr.",
+   "b": [
+    "Die Avenger erschien in den 1990er-Jahren als große, robuste Pilotenuhr. Sie hat ein massives Gehäuse mit Lünettenreitern und ein kontrastreiches Zifferblatt mit Leuchtzeigern. Der Name wurde bei Breitling mit dem Kampfflugzeug Grumman Avenger verbunden.",
+    "Die Avenger wurde als Dreizeiger- und Chronographenmodell gebaut, später auch mit dem Manufakturwerk B01. Sie war eine der Uhren, mit denen Breitling die Kategorie der großen Fliegeruhren prägte."
+   ],
+   "cur": "Avenger (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "42–48 mm, Edelstahl oder Titan"
+    ],
+    [
+     "Funktion",
+     "Dreizeiger, Chronograph"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Besonderheit",
+     "Große Lünettenreiter"
+    ]
+   ],
+   "refs": [
+    [
+     "Avenger",
+     "seit 1990er",
+     "versch.",
+     "Automatik",
+     "Pilotenuhr"
+    ],
+    [
+     "Avenger Chronograph",
+     "2010er",
+     "45 mm",
+     "Automatik",
+     "Chronograph"
+    ]
+   ],
+   "r": [
+    "navitimer",
+    "chronomat",
+    "big-pilot"
+   ],
+   "k": "Die Avenger wurde als Breitling-Pilotenuhr für Piloten und Einsatzkräfte vermarktet.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "bezel": "riders",
+    "strap": "rubber",
+    "strapColor": "#17191d",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Große Lünettenreiter",
+    "Leuchtstarkes Zifferblatt",
+    "Hohe Wasserdichtigkeit"
+   ],
+   "tipp": [
+    "Eine auffällige, sehr robuste Uhr."
+   ],
+   "x": [
+    "Das Gehäuse ist sehr groß.",
+    "Die Uhr war für Piloten gedacht.",
+    "Sie ist bis 300 m wasserdicht."
+   ],
+   "ev": [
+    [
+     "1990er",
+     "Avenger"
+    ]
+   ],
+   "w": "Eine kräftige Pilotenuhr mit großen Reitern: Breitlings robuste Seite."
+  },
+  {
+   "id": "heritage-chrono",
+   "t": "Tudor Heritage Chrono",
+   "brand": "Tudor",
+   "since": "2010",
+   "s": "Der Retro-Chronograph, mit dem Tudor 2010 die Heritage-Linie begann.",
+   "b": [
+    "Die Heritage Chrono erschien 2010 und markierte den Neustart der Marke in Europa. Sie lehnt sich an den Oysterdate-Chronographen der 1970er-Jahre an, im Volksmund »Montecarlo« genannt. Typisch sind das Zifferblatt mit Hilfszifferblättern in Kontrastfarbe und die Lünette mit Tachymeterskala.",
+    "Als Werk dient ein modifiziertes ETA-Chronographenwerk. Die Heritage Chrono machte Tudor bei Sammlern wieder bekannt und bereitete den Boden für die Black Bay."
+   ],
+   "cur": "Heritage Chrono (bis 2010er)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "ETA 2892 mit Chronographenmodul"
+    ],
+    [
+     "Lünette",
+     "Tachymeter"
+    ],
+    [
+     "Band",
+     "Stahl oder Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "Oysterdate Chronograph 7031",
+     "1970",
+     "versch.",
+     "Valjoux 234",
+     "Vorbild (»Montecarlo«)"
+    ],
+    [
+     "Heritage Chrono",
+     "2010–2010er",
+     "42 mm",
+     "ETA 2892",
+     "Retro-Chronograph"
+    ]
+   ],
+   "r": [
+    "black-bay",
+    "navitimer",
+    "chronograph"
+   ],
+   "k": "Die Heritage Chrono war der Anfang der Tudor-Retro-Welle.",
+   "a": [],
+   "v": {
+    "dial": "#1b1e24",
+    "sub": "chrono3",
+    "subColor": "#e08a30",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "oyster"
+   },
+   "m": [
+    "Retro-Zifferblatt",
+    "Chronograph",
+    "Tachymeterlünette"
+   ],
+   "tipp": [
+    "Ein schönes Beispiel für Vintage-Neuauflagen."
+   ],
+   "x": [
+    "Das Vorbild war der Montecarlo.",
+    "Sie ist der Auftakt der Heritage-Linie.",
+    "Die Uhr ist nicht mehr im Programm."
+   ],
+   "ev": [
+    [
+     "2010",
+     "Heritage Chrono"
+    ]
+   ],
+   "w": "Der Auftakt zur Tudor-Retrowelle: Chronograph im Stil der 1970er-Jahre."
+  },
+  {
+   "id": "black-bay-chrono",
+   "t": "Tudor Black Bay Chrono",
+   "brand": "Tudor",
+   "since": "2017",
+   "s": "Der Chronograph der Black-Bay-Familie mit Manufakturwerk auf Basis des Breitling-Kalibers B01.",
+   "b": [
+    "Die Black Bay Chrono erschien 2017 als erster Chronograph der Black-Bay-Familie. Sie hat ein 41-Millimeter-Gehäuse, das Nietenband und eine Lünette mit Tachymeterskala.",
+    "Als Werk dient das Tudor-Kaliber MT5813, das auf dem Breitling-Chronographenkaliber B01 beruht. Die Uhr verbindet den Retro-Look der Black Bay mit einer modernen Chronographenfunktion."
+   ],
+   "cur": "Black Bay Chrono (Ref. 79360)",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "MT5813 (Chronograph)"
+    ],
+    [
+     "Gangreserve",
+     "≈ 70 Stunden"
+    ],
+    [
+     "Band",
+     "Stahl oder Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "79350",
+     "2017–heute",
+     "41 mm",
+     "MT5813",
+     "Erste Version"
+    ],
+    [
+     "79360",
+     "2020er",
+     "41 mm",
+     "MT5813",
+     "Schwarze Ausführung"
+    ]
+   ],
+   "r": [
+    "black-bay",
+    "heritage-chrono",
+    "chronograph"
+   ],
+   "k": "Das Tudor-Kaliber MT5813 beruht auf dem Breitling B01.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "sub": "chrono2",
+    "markers": "dots",
+    "hands": "snowflake",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "oyster",
+    "crown": "big"
+   },
+   "m": [
+    "Chronograph",
+    "Nietenband",
+    "Manufakturwerk"
+   ],
+   "tipp": [
+    "Ein erschwinglicher Chronograph mit Manufakturwerk."
+   ],
+   "x": [
+    "Das Werk MT5813 stammt aus einer Kooperation mit Breitling.",
+    "Die Uhr hat Chronographendrücker.",
+    "Sie ist bis 200 Meter wasserdicht."
+   ],
+   "ev": [
+    [
+     "2017",
+     "Vorstellung der Black Bay Chrono"
+    ]
+   ],
+   "w": "Die Black Bay mit Stoppfunktion: Retro-Look und Chronographenwerk aus der Breitling-Kooperation."
+  },
+  {
+   "id": "tudor-1926",
+   "t": "Tudor 1926",
+   "brand": "Tudor",
+   "since": "2019",
+   "s": "Die klassische Dresswatch von Tudor, benannt nach dem Gründungsjahr der Marke.",
+   "b": [
+    "Die Tudor 1926 erschien 2019 als klassische Dresswatch. Sie hat ein rundes, schlichtes Gehäuse, Stabindizes oder römische Ziffern und gibt es in mehreren Größen. Ihr Name erinnert an das Jahr, in dem Hans Wilsdorf den Namen Tudor eintragen ließ.",
+    "Die Uhr ist eine bewusste Alternative zu den Sportmodellen der Marke und spricht Menschen an, die eine schlichte Automatik mit Tudor-Qualität wollen."
+   ],
+   "cur": "Tudor 1926 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "28–41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Besonderheit",
+     "Dresswatch"
+    ],
+    [
+     "Seit",
+     "2019"
+    ]
+   ],
+   "refs": [
+    [
+     "Tudor 1926",
+     "seit 2019",
+     "28–41 mm",
+     "Automatik",
+     "Dresswatch"
+    ]
+   ],
+   "r": [
+    "black-bay",
+    "black-bay-58",
+    "ranger"
+   ],
+   "k": "Tudor 1926 erinnert an das Jahr der Namenseintragung.",
+   "a": [],
+   "v": {
+    "dial": "#e8ecf2",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel"
+   },
+   "m": [
+    "Schlichtes Zifferblatt",
+    "Gewölbte Lünette",
+    "Mehrere Größen"
+   ],
+   "tipp": [
+    "Eine ruhige Tudor für den Anzug."
+   ],
+   "x": [
+    "Es gibt sie in vielen Größen.",
+    "Das Zifferblatt ist schlicht.",
+    "Sie ist nicht für den Sport gebaut."
+   ],
+   "ev": [
+    [
+     "1926",
+     "Tudor wird eingetragen"
+    ],
+    [
+     "2019",
+     "Tudor 1926"
+    ]
+   ],
+   "w": "Die schlichte Tudor: Dresswatch mit Jahreszahl im Namen."
+  },
+  {
+   "id": "autavia",
+   "t": "TAG Heuer Autavia",
+   "brand": "TAG Heuer",
+   "since": "1962",
+   "s": "Der Chronograph für Auto- und Flugzeugfahrer, benannt nach Auto und Aviation.",
+   "b": [
+    "Die Autavia erschien 1962 als Chronograph für Rennfahrer und Piloten. Der Name verbindet »Auto« und »Aviation«. Das drehbare Lünetteninnere erlaubte, Zeiten ohne zusätzliche Stoppuhr mitzulesen.",
+    "In den 1960ern wurde sie von Rennfahrern wie Jo Siffert getragen und zu einem der bekanntesten Heuer-Modelle. 2017 brachte TAG Heuer die Autavia Isograph zurück, 2020 mit dem Manufakturwerk Heuer 02."
+   ],
+   "cur": "Autavia (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Heuer 02"
+    ],
+    [
+     "Lünette",
+     "drehbar"
+    ],
+    [
+     "Seit",
+     "1962"
+    ]
+   ],
+   "refs": [
+    [
+     "2446",
+     "1960er",
+     "versch.",
+     "Valjoux 72 / 11",
+     "Original"
+    ],
+    [
+     "Autavia Isograph",
+     "seit 2017",
+     "42 mm",
+     "Automatik",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "carrera",
+    "monaco",
+    "chronograph"
+   ],
+   "k": "Der Name Autavia steht für Auto und Aviation.",
+   "a": [],
+   "v": {
+    "dial": "#2a2c30",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel"
+   },
+   "m": [
+    "Drehbare Lünette",
+    "Chronograph",
+    "Retro-Look"
+   ],
+   "tipp": [
+    "Original-Autavia sind seit einigen Jahren stark gestiegen."
+   ],
+   "x": [
+    "Jo Siffert trug sie in den 1960ern.",
+    "Die Lünette ist drehbar.",
+    "Die Linie wurde 2017 wiederbelebt."
+   ],
+   "ev": [
+    [
+     "1962",
+     "Erste Autavia"
+    ],
+    [
+     "2017",
+     "Autavia Isograph"
+    ]
+   ],
+   "w": "Der Heuer-Chronograph für Fahrer und Piloten: drehbare Lünette, klare Optik."
+  },
+  {
+   "id": "formula-1",
+   "t": "TAG Heuer Formula 1",
+   "brand": "TAG Heuer",
+   "since": "1986",
+   "s": "Die günstige, bunte Sportuhr von TAG Heuer, die 1986 den Einstieg in die Marke ermöglichte.",
+   "b": [
+    "Die Formula 1 erschien 1986 als preiswerte Sportuhr mit Quarzwerk und Kunststoffgehäuse. Sie war farbenfroh, robust und bis 200 Meter wasserdicht und sollte junge Käufer an die Marke binden.",
+    "Mit den Jahren wurde sie wieder größer und hochwertiger. Heute gibt es die Formula 1 mit Quarz- oder Automatikwerk und in Stahl. Sie bleibt der günstigste Einstieg in die Marke."
+   ],
+   "cur": "Formula 1 (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "41–43 mm, Stahl"
+    ],
+    [
+     "Kaliber",
+     "Quarz oder Automatik"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Seit",
+     "1986"
+    ]
+   ],
+   "refs": [
+    [
+     "Formula 1",
+     "seit 1986",
+     "versch.",
+     "Quarz",
+     "Erste Serie"
+    ],
+    [
+     "Formula 1 Automatik",
+     "2020er",
+     "41 mm",
+     "Automatik",
+     "Aktuell"
+    ]
+   ],
+   "r": [
+    "aquaracer",
+    "carrera",
+    "monaco"
+   ],
+   "k": "Die Formula 1 war 1986 die erste günstige TAG Heuer.",
+   "a": [],
+   "v": {
+    "dial": "#e0372a",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "bezel": "dive",
+    "bezelColor": "#1b1e24",
+    "strap": "rubber",
+    "strapColor": "#1b1e24",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Bunte Zifferblätter",
+    "Hohe Wasserdichtigkeit",
+    "Quarz oder Automatik"
+   ],
+   "tipp": [
+    "Der günstigste Weg in die Marke."
+   ],
+   "x": [
+    "Die Uhr wurde mit McLaren und Ayrton Senna verbunden.",
+    "Sie war zuerst aus Kunststoff.",
+    "Sie ist bis 200 Meter wasserdicht."
+   ],
+   "ev": [
+    [
+     "1986",
+     "Formula 1"
+    ]
+   ],
+   "w": "Die bunte Einstiegsuhr von TAG Heuer, die in den 1980ern die Marke jung machte."
+  },
+  {
+   "id": "link",
+   "t": "TAG Heuer Link",
+   "brand": "TAG Heuer",
+   "since": "1987",
+   "s": "Die Sportuhr mit S-förmigem Gliederband, erstmals 1987 als S/el vorgestellt.",
+   "b": [
+    "Die Link erschien 1987 als S/el (»Sport Elegance«) und trägt ihr unverwechselbares Merkmal im Namen: Die Glieder des Bandes laufen in einer S-Form. Das Gehäuse ist schlank, die Lünette zweifarbig.",
+    "Sie wurde in Edelstahl und Gold gebaut und gilt als Alltagsuhr mit einem Hauch Sport. Ab 2000er blieb sie in der Kollektion, seit 2010 mit neuem Gehäuse."
+   ],
+   "cur": "Link (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "32–43 mm, Edelstahl"
+    ],
+    [
+     "Band",
+     "S-förmiges Gliederband"
+    ],
+    [
+     "Kaliber",
+     "Quarz oder Automatik"
+    ],
+    [
+     "Seit",
+     "1987"
+    ]
+   ],
+   "refs": [
+    [
+     "S/el",
+     "1987–1990er",
+     "versch.",
+     "Quarz",
+     "Erste Serie"
+    ],
+    [
+     "Link",
+     "2000er–heute",
+     "versch.",
+     "Quarz / Automatik",
+     "Neue Generation"
+    ]
+   ],
+   "r": [
+    "aquaracer",
+    "carrera",
+    "formula-1"
+   ],
+   "k": "Die S-förmigen Bandglieder sind das Erkennungszeichen der Link.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "markers": "baton",
+    "hands": "sword",
+    "bezel": "fluted",
+    "strap": "integrated",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "S-förmiges Band",
+    "Zweifarbige Lünette",
+    "Schlankes Gehäuse"
+   ],
+   "tipp": [
+    "Eine alltagstaugliche Stahlsportuhr."
+   ],
+   "x": [
+    "Der Name S/el steht für Sport Elegance.",
+    "Das Band ist besonders flexibel.",
+    "Die Uhr gibt es in Edelstahl und Gold."
+   ],
+   "ev": [
+    [
+     "1987",
+     "S/el"
+    ],
+    [
+     "2000er",
+     "Link"
+    ]
+   ],
+   "w": "Die TAG Heuer mit dem S-Band: Sportuhr mit eleganter Seite."
+  },
+  {
+   "id": "master-control",
+   "t": "Jaeger-LeCoultre Master Control",
+   "brand": "Jaeger-LeCoultre",
+   "since": "1992",
+   "s": "Die klassische Linie von Jaeger-LeCoultre, deren Uhren 1.000 Stunden getestet werden.",
+   "b": [
+    "Die Master Control erschien 1992 als Kernlinie klassischer Herrenuhren. Der Name steht für den Test »1000 Hours Control«: Jede Uhr wird 1.000 Stunden in verschiedenen Lagen und Temperaturen geprüft. Das Zifferblatt ist schlicht, das Gehäuse rund und flach.",
+    "Neben der Dreizeigeruhr gibt es die Master Control mit Datum, Mondphase, Kalender und Gangreserveanzeige. Die Linie steht für die Qualitätssicherung des Hauses."
+   ],
+   "cur": "Master Control (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "37–40 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Test",
+     "1000 Hours Control"
+    ],
+    [
+     "Seit",
+     "1992"
+    ]
+   ],
+   "refs": [
+    [
+     "Master Control",
+     "seit 1992",
+     "versch.",
+     "Automatik",
+     "Erste Serie"
+    ],
+    [
+     "Master Control Calendar",
+     "2000er–heute",
+     "versch.",
+     "Automatik",
+     "Mit Kalender"
+    ]
+   ],
+   "r": [
+    "reverso",
+    "polaris",
+    "calatrava"
+   ],
+   "k": "Jede Master Control wird 1.000 Stunden getestet.",
+   "a": [],
+   "v": {
+    "dial": "#e8e8e8",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Schlichtes Zifferblatt",
+    "Dünnes Gehäuse",
+    "Qualitätstest"
+   ],
+   "tipp": [
+    "Eine klassische Dresswatch mit Manufakturwerk."
+   ],
+   "x": [
+    "Der Test dauert 1.000 Stunden.",
+    "Die Uhr gibt es mit Mondphase.",
+    "Sie steht für das Prüfverfahren der Marke."
+   ],
+   "ev": [
+    [
+     "1992",
+     "Master Control"
+    ]
+   ],
+   "w": "Die klassische Jaeger-LeCoultre: schlicht, flach und 1.000 Stunden getestet."
+  },
+  {
+   "id": "duometre",
+   "t": "Jaeger-LeCoultre Duomètre",
+   "brand": "Jaeger-LeCoultre",
+   "since": "2007",
+   "s": "Die Uhr mit zwei Federhäusern, eines für die Zeit, eines für die Komplikation.",
+   "b": [
+    "Die Duomètre erschien 2007 als Konzept mit Dual-Wing-Technik: Zwei getrennte Federhäuser versorgen das Werk, eines für die Uhrzeit und eines für die Komplikation. So beeinflusst eine Komplikation wie ein Chronograph den Gang der Uhr nicht.",
+    "Die Linie umfasst Chronographen, Mondphasen, Tourbillons und Sphärotourbillons. Sie zeigt die Kompetenz der Manufaktur im Vallée de Joux."
+   ],
+   "cur": "Duomètre (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40–42 mm, Gold"
+    ],
+    [
+     "Prinzip",
+     "Dual-Wing, zwei Federhäuser"
+    ],
+    [
+     "Funktionen",
+     "Chronograph, Mondphase, Tourbillon"
+    ],
+    [
+     "Seit",
+     "2007"
+    ]
+   ],
+   "refs": [
+    [
+     "Duomètre",
+     "seit 2007",
+     "versch.",
+     "Handaufzug",
+     "Erste Serie"
+    ],
+    [
+     "Duomètre Chronograph",
+     "2007–heute",
+     "42 mm",
+     "Handaufzug",
+     "Mit Chronograph"
+    ]
+   ],
+   "r": [
+    "reverso",
+    "master-control",
+    "tourbillon"
+   ],
+   "k": "Das Duomètre-Prinzip trennt Uhrzeit und Komplikation mit zwei Federhäusern.",
+   "a": [],
+   "v": {
+    "case": "rose",
+    "dial": "#f3efe4",
+    "sub": "small6",
+    "markers": "roman",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Zwei Federhäuser",
+    "Handaufzug",
+    "Komplikationen"
+   ],
+   "tipp": [
+    "Eine Uhr für Kenner."
+   ],
+   "x": [
+    "Das Prinzip heißt Dual-Wing.",
+    "Die Uhr ist technisch aufwendig.",
+    "Sie gehört zu den Kernmodellen der Haute Horlogerie des Hauses."
+   ],
+   "ev": [
+    [
+     "2007",
+     "Duomètre"
+    ]
+   ],
+   "w": "Zwei Federhäuser für Zeit und Komplikation: Jaeger-LeCoultres technisches Statement."
+  },
+  {
+   "id": "geophysic",
+   "t": "Jaeger-LeCoultre Geophysic",
+   "brand": "Jaeger-LeCoultre",
+   "since": "1958",
+   "s": "Die antimagnetische Forscheruhr, 1958 für das Internationale Geophysikalische Jahr gebaut.",
+   "b": [
+    "Die Geophysic erschien 1958, im Jahr des Internationalen Geophysikalischen Jahrs. Sie wurde für Wissenschaftler und Expeditionen gebaut: antimagnetisch, wasserdicht und sehr genau. Eine Geophysic begleitete 1958 die Fahrt des Atom-U-Boots USS Nautilus unter dem Nordpol.",
+    "2014 legte Jaeger-LeCoultre die Geophysic als True Second und Universal Time neu auf. Sie ist heute ein Gegenstück zur Sportuhr der Marke."
+   ],
+   "cur": "Geophysic (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "39–41,6 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik / Handaufzug"
+    ],
+    [
+     "Besonderheit",
+     "Antimagnetisch"
+    ],
+    [
+     "Seit",
+     "1958"
+    ]
+   ],
+   "refs": [
+    [
+     "Geophysic",
+     "1958–1960er",
+     "versch.",
+     "Automatik",
+     "Original"
+    ],
+    [
+     "Geophysic 1958",
+     "seit 2014",
+     "38,5 mm",
+     "Automatik",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "railmaster",
+    "milgauss",
+    "polaris"
+   ],
+   "k": "Eine Geophysic war bei der Fahrt der USS Nautilus unter dem Nordpol dabei.",
+   "a": [],
+   "v": {
+    "dial": "#d8dadd",
+    "markers": "arabic",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "track": "rail",
+    "date": "3"
+   },
+   "m": [
+    "Antimagnetisch",
+    "Schlichtes Zifferblatt",
+    "Forscheruhr"
+   ],
+   "tipp": [
+    "Original-Geophysic sind selten."
+   ],
+   "x": [
+    "Sie wurde für Wissenschaftler gebaut.",
+    "Die Neuauflage ist originalgetreu.",
+    "Das Gehäuse ist antimagnetisch."
+   ],
+   "ev": [
+    [
+     "1958",
+     "Geophysic"
+    ],
+    [
+     "2014",
+     "Neuauflage"
+    ]
+   ],
+   "w": "Die Forscheruhr von Jaeger-LeCoultre: antimagnetisch und ein Begleiter von Polarexpeditionen."
+  },
+  {
+   "id": "saxonia",
+   "t": "A. Lange & Söhne Saxonia",
+   "brand": "A. Lange & Söhne",
+   "since": "1994",
+   "s": "Die schlichte Dresswatch von A. Lange & Söhne, 1994 gemeinsam mit der Lange 1 vorgestellt.",
+   "b": [
+    "Die Saxonia erschien 1994 als einfache Dresswatch der wiedergegründeten Manufaktur. Sie hat ein rundes Gehäuse, ein schlichtes Zifferblatt mit kleiner Sekunde und ein Handaufzugswerk mit Dreiviertelplatine aus Neusilber.",
+    "Es gibt die Saxonia mit Datum, als flaches Modell und mit Zusatzfunktionen. Sie ist der zurückhaltende Gegenpol zur Lange 1 und gilt unter Kennern als Einstieg in die Marke."
+   ],
+   "cur": "Saxonia (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "35–40 mm, Gold oder Platin"
+    ],
+    [
+     "Kaliber",
+     "Handaufzug, Dreiviertelplatine"
+    ],
+    [
+     "Zifferblatt",
+     "Silber"
+    ],
+    [
+     "Seit",
+     "1994"
+    ]
+   ],
+   "refs": [
+    [
+     "Saxonia",
+     "seit 1994",
+     "versch.",
+     "Handaufzug",
+     "Erste Serie"
+    ],
+    [
+     "Saxonia Thin",
+     "2010er–heute",
+     "40 mm",
+     "Handaufzug",
+     "Flaches Modell"
+    ]
+   ],
+   "r": [
+    "lange-1",
+    "zeitwerk",
+    "datograph"
+   ],
+   "k": "Die Saxonia wurde 1994 gemeinsam mit der Lange 1 vorgestellt.",
+   "a": [],
+   "v": {
+    "case": "rose",
+    "dial": "#f3efe4",
+    "sub": "small6",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Schlichtes Zifferblatt",
+    "Handaufzug",
+    "Dreiviertelplatine"
+   ],
+   "tipp": [
+    "Die zurückhaltendste Lange."
+   ],
+   "x": [
+    "Das Werk hat eine Dreiviertelplatine.",
+    "Das Gehäuse ist flach.",
+    "Die Uhr ist ein Klassiker."
+   ],
+   "ev": [
+    [
+     "1994",
+     "Saxonia"
+    ]
+   ],
+   "w": "Die ruhige Lange: Handaufzug, kleine Sekunde und Dreiviertelplatine ohne Schnörkel."
+  },
+  {
+   "id": "odysseus",
+   "t": "A. Lange & Söhne Odysseus",
+   "brand": "A. Lange & Söhne",
+   "since": "2019",
+   "s": "Die erste Sportuhr von Lange: aus Edelstahl, mit Großdatum und Wochentag.",
+   "b": [
+    "Die Odysseus erschien 2019 als erste Stahl-Sportuhr der Manufaktur. Sie hat ein 40,5-Millimeter-Gehäuse, ein integriertes Armband und ein Zifferblatt mit Großdatum und Wochentagsanzeige. Das Werk ist das Kaliber L155.1 mit Automatikaufzug.",
+    "Die Uhr war ein Bruch mit der Tradition: Lange baute sie als Alltagsuhr, die sich von den klassischen Gold-Modellen absetzt. Die Nachfrage ist hoch, die Stückzahlen sind klein."
+   ],
+   "cur": "Odysseus (Ref. 363.179)",
+   "f": [
+    [
+     "Gehäuse",
+     "40,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "L155.1 (Automatik)"
+    ],
+    [
+     "Funktionen",
+     "Großdatum, Wochentag"
+    ],
+    [
+     "Band",
+     "integriert"
+    ]
+   ],
+   "refs": [
+    [
+     "363.179",
+     "2019–heute",
+     "40,5 mm",
+     "L155.1",
+     "Edelstahl"
+    ],
+    [
+     "363.038",
+     "2020er",
+     "40,5 mm",
+     "L155.1",
+     "Weißgold"
+    ]
+   ],
+   "r": [
+    "lange-1",
+    "nautilus",
+    "royal-oak"
+   ],
+   "k": "Die Odysseus ist die erste Stahl-Sportuhr von A. Lange & Söhne.",
+   "a": [],
+   "v": {
+    "shape": "cushion",
+    "dial": "#1f3a5f",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "integrated",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Integriertes Band",
+    "Großdatum",
+    "Stahlgehäuse"
+   ],
+   "tipp": [
+    "Sehr begehrt, lange Wartelisten."
+   ],
+   "x": [
+    "Es ist eine der wenigen Lange-Uhren in Stahl.",
+    "Das Werk ist automatisch.",
+    "Sie ist 120 Meter wasserdicht."
+   ],
+   "ev": [
+    [
+     "2019",
+     "Vorstellung der Odysseus"
+    ]
+   ],
+   "w": "Die erste Sportuhr aus Glashütte: Stahl, Großdatum und Wochentag."
+  },
+  {
+   "id": "luminor-marina",
+   "t": "Panerai Luminor Marina",
+   "brand": "Panerai",
+   "since": "1993",
+   "s": "Die Dreizeiger-Luminor mit kleiner Sekunde und Hebelbügel, 1993 erstmals für Sammler.",
+   "b": [
+    "Die Luminor Marina erschien 1993 mit den ersten Panerai, die außerhalb der Marine erhältlich waren. Sie hat ein 44-Millimeter-Kissengehäuse, den Hebelbügel über der Krone, ein Sandwich-Zifferblatt und eine kleine Sekunde bei 9 Uhr.",
+    "Das Werk war zunächst ein Handaufzugswerk, später mit Automatik. Die Luminor Marina ist die klassische, schlichte Version der Luminor und das meistverkaufte Panerai-Modell."
+   ],
+   "cur": "Luminor Marina (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "44 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Zifferblatt",
+     "Sandwich"
+    ],
+    [
+     "Besonderheit",
+     "Hebelbügel"
+    ]
+   ],
+   "refs": [
+    [
+     "Luminor Marina (PAM 111)",
+     "1990er–2010er",
+     "44 mm",
+     "Handaufzug",
+     "Klassiker"
+    ],
+    [
+     "Luminor Marina Automatik",
+     "2000er–heute",
+     "44 mm",
+     "Automatik",
+     "Aktuell"
+    ]
+   ],
+   "r": [
+    "luminor",
+    "radiomir",
+    "mare-nostrum"
+   ],
+   "k": "Die Luminor Marina war 1993 eine der ersten Panerai für den freien Markt.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "arabic",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#3a2a1a",
+    "case": "steel",
+    "sub": "small9",
+    "guards": true,
+    "crown": "big",
+    "shape": "cushion"
+   },
+   "m": [
+    "Hebelbügel",
+    "Sandwich-Zifferblatt",
+    "Kissengehäuse"
+   ],
+   "tipp": [
+    "Das Basismodell der Luminor-Familie."
+   ],
+   "x": [
+    "Die kleine Sekunde sitzt bei 9 Uhr.",
+    "Das Zifferblatt hat zwei Ebenen.",
+    "Sie ist ein Klassiker der Marke."
+   ],
+   "ev": [
+    [
+     "1993",
+     "Luminor Marina"
+    ]
+   ],
+   "w": "Die klassische Luminor: Hebelbügel, Sandwich-Zifferblatt und kleine Sekunde."
+  },
+  {
+   "id": "luminor-due",
+   "t": "Panerai Luminor Due",
+   "brand": "Panerai",
+   "since": "2013",
+   "s": "Die schlankere Luminor mit flachem Gehäuse und 42 Millimetern.",
+   "b": [
+    "Die Luminor Due erschien 2013 als flachere Luminor. Das Gehäuse ist dünner, die Lünette schmaler, und mit 42 Millimetern ist die Uhr kleiner. Der Hebelbügel blieb, das Zifferblatt ist ein Sandwich-Zifferblatt mit großen Ziffern.",
+    "Die Luminor Due richtet sich an Menschen, die die Luminor-Optik wollen, aber eine alltagstauglichere Größe bevorzugen. Sie hat 30 Meter bis 100 Meter Wasserdichtigkeit, je nach Modell."
+   ],
+   "cur": "Luminor Due (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "38–45 mm, Edelstahl oder Titan"
+    ],
+    [
+     "Kaliber",
+     "P.900 (Automatik)"
+    ],
+    [
+     "Besonderheit",
+     "Flaches Gehäuse"
+    ],
+    [
+     "Seit",
+     "2013"
+    ]
+   ],
+   "refs": [
+    [
+     "Luminor Due",
+     "seit 2013",
+     "38–45 mm",
+     "P.900",
+     "Flache Luminor"
+    ]
+   ],
+   "r": [
+    "luminor",
+    "luminor-marina",
+    "radiomir"
+   ],
+   "k": "Die Luminor Due ist die flachere Version der Luminor.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "arabic",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#2a2a2a",
+    "case": "steel",
+    "guards": true,
+    "crown": "big",
+    "shape": "cushion"
+   },
+   "m": [
+    "Flaches Gehäuse",
+    "Hebelbügel",
+    "Schmale Lünette"
+   ],
+   "tipp": [
+    "Eine tragbare Luminor."
+   ],
+   "x": [
+    "Das Gehäuse ist deutlich flacher.",
+    "Es gibt sie in mehreren Größen.",
+    "Sie gehört zu den tragbareren Panerai."
+   ],
+   "ev": [
+    [
+     "2013",
+     "Luminor Due"
+    ]
+   ],
+   "w": "Die schlanke Luminor: flacher, kleiner und doch unverkennbar Panerai."
+  },
+  {
+   "id": "mare-nostrum",
+   "t": "Panerai Mare Nostrum",
+   "brand": "Panerai",
+   "since": "1993",
+   "s": "Der Chronograph, mit dem Panerai 1993 sein Debüt im freien Handel gab.",
+   "b": [
+    "Die Mare Nostrum erschien 1993 als Chronograph in kleiner Auflage. Sie war eine der drei Uhren, mit denen Panerai erstmals außerhalb des Militärs verkauft wurde. Der Name erinnert an das Mittelmeer. Das Gehäuse ist mit 52 Millimetern sehr groß.",
+    "Sie wurde mit dem Valjoux-Chronographenwerk gebaut und ist heute ein begehrtes Sammlerstück. Später erschienen Neuauflagen als Mare Nostrum Acciaio."
+   ],
+   "cur": "Mare Nostrum (Neuauflagen)",
+   "f": [
+    [
+     "Gehäuse",
+     "52 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Funktion",
+     "Chronograph"
+    ],
+    [
+     "Seit",
+     "1993"
+    ],
+    [
+     "Besonderheit",
+     "Sehr groß"
+    ]
+   ],
+   "refs": [
+    [
+     "Mare Nostrum (Original)",
+     "1993",
+     "52 mm",
+     "Chronograph",
+     "Limitiert"
+    ],
+    [
+     "Mare Nostrum",
+     "später",
+     "52 mm",
+     "Chronograph",
+     "Neuauflagen"
+    ]
+   ],
+   "r": [
+    "luminor-marina",
+    "luminor",
+    "radiomir"
+   ],
+   "k": "Die Mare Nostrum war ein Chronograph in einer der ersten Serien von Panerai für den freien Verkauf.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "arabic",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#3a2a1a",
+    "case": "steel",
+    "sub": "chrono2",
+    "pushers": true,
+    "guards": true,
+    "crown": "big",
+    "shape": "cushion"
+   },
+   "m": [
+    "Chronograph",
+    "Sehr großes Gehäuse",
+    "Limitierte Serie"
+   ],
+   "tipp": [
+    "Original-Mare-Nostrum sind sehr selten."
+   ],
+   "x": [
+    "Die Uhr hat 52 mm Durchmesser.",
+    "Sie war streng limitiert.",
+    "Der Name bedeutet »unser Meer«."
+   ],
+   "ev": [
+    [
+     "1993",
+     "Mare Nostrum"
+    ]
+   ],
+   "w": "Der große Panerai-Chronograph von 1993: selten, riesig und ein Stück Firmengeschichte."
+  },
+  {
+   "id": "seiko-monster",
+   "t": "Seiko Monster",
+   "brand": "Seiko",
+   "since": "2000",
+   "s": "Die robuste Seiko-Taucheruhr mit auffälligem Zifferblatt, bekannt aus der Taucheruhren-Szene.",
+   "b": [
+    "Die Monster erschien um 2000 als Taucheruhr in der SKX-Familie. Sie hat ein Gehäuse mit breiten Schultern, ein auffälliges Zifferblatt mit großen Indizes und einen Aufzug mit 7S26. Ihren Spitznamen »Monster« erhielt sie von der Sammlergemeinde.",
+    "Es gibt viele Zifferblattfarben. Die Monster gilt als eine der besten Einsteiger-Taucheruhren und wurde durch eine große Mod-Szene bekannt."
+   ],
+   "cur": "Monster (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "4R36 (Automatik)"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Besonderheit",
+     "Kräftiges Zifferblatt"
+    ]
+   ],
+   "refs": [
+    [
+     "SKX779",
+     "2000er",
+     "42 mm",
+     "7S26",
+     "Original"
+    ],
+    [
+     "SRPD / SRP Monster",
+     "2010er–heute",
+     "42 mm",
+     "4R36",
+     "Neuere Generation"
+    ]
+   ],
+   "r": [
+    "skx007",
+    "turtle",
+    "seiko-5"
+   ],
+   "k": "Der Spitzname Monster stammt aus der Sammlerszene.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "dots",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#17191d",
+    "strap": "rubber",
+    "strapColor": "#17191d",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Breite Schultern",
+    "Große Leuchtindizes",
+    "Taucherlünette"
+   ],
+   "tipp": [
+    "Eine beliebte Einsteiger-Taucheruhr."
+   ],
+   "x": [
+    "Das Werk 7S26 ist robust.",
+    "Die Uhr ist bis 200 Meter wasserdicht.",
+    "Sie ist in vielen Farben erhältlich."
+   ],
+   "ev": [
+    [
+     "2000",
+     "Seiko Monster"
+    ]
+   ],
+   "w": "Die Seiko mit den breiten Schultern: robust, bunt und ein Liebling der Modder-Szene."
+  },
+  {
+   "id": "seiko-sumo",
+   "t": "Seiko Sumo",
+   "brand": "Seiko",
+   "since": "2006",
+   "s": "Die 200-Meter-Taucheruhr von Seiko mit massivem Gehäuse, bekannt als »Sumo«.",
+   "b": [
+    "Die Sumo (Ref. SBDC001) erschien 2006 als Taucheruhr für den japanischen Markt. Sie hat ein 45-Millimeter-Gehäuse mit breiter Lünette, ein klares Zifferblatt und das Automatikwerk 6R15. Der Spitzname stammt von der kräftigen Form.",
+    "Die Sumo zählt zu den beliebten Alternativen zur Submariner-Optik. Es gibt sie in Schwarz, Blau und Grün, später als Prospex Sumo mit erweiterten Funktionen."
+   ],
+   "cur": "Prospex Sumo (Ref. SPB101)",
+   "f": [
+    [
+     "Gehäuse",
+     "45 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "6R15 / 6R35"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Besonderheit",
+     "Breite Lünette"
+    ]
+   ],
+   "refs": [
+    [
+     "SBDC001",
+     "2006–2010er",
+     "45 mm",
+     "6R15",
+     "Original"
+    ],
+    [
+     "SPB101",
+     "2020er",
+     "45 mm",
+     "6R35",
+     "Prospex Sumo"
+    ]
+   ],
+   "r": [
+    "skx007",
+    "turtle",
+    "submariner"
+   ],
+   "k": "Die Sumo ist eine der beliebtesten günstigen Taucheruhren.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "dots",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#17191d",
+    "strap": "oyster",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Breite Lünette",
+    "Großes Zifferblatt",
+    "200 Meter"
+   ],
+   "tipp": [
+    "Ein guter Einstieg in die Seiko-Taucheruhren."
+   ],
+   "x": [
+    "Das Werk 6R15 hat 50 Stunden Gangreserve.",
+    "Die Uhr hat 45 mm.",
+    "Sie ist in mehreren Farben erhältlich."
+   ],
+   "ev": [
+    [
+     "2006",
+     "Seiko Sumo"
+    ]
+   ],
+   "w": "Die Sumo: massiv, klar und eine der beliebtesten Seiko-Taucheruhren."
+  },
+  {
+   "id": "seiko-6139",
+   "t": "Seiko 6139 »Pogue«",
+   "brand": "Seiko",
+   "since": "1969",
+   "s": "Einer der ersten Automatik-Chronographen der Welt, benannt nach Astronaut William Pogue.",
+   "b": [
+    "Die Seiko 6139 erschien 1969 als einer der ersten Chronographen mit Automatikaufzug. Der Name »Pogue« stammt von William Pogue, der 1973/74 bei der Skylab-4-Mission eine Seiko 6139 trug. Die Uhr hat ein gelbes Zifferblatt und die Zählerzeigerfarbe in Orange.",
+    "Die 6139 hat ein Schaltrad und vertikale Kupplung und wurde in mehreren Varianten gebaut. Sie ist ein beliebtes Sammlerstück und gilt als Gegenstück zur Speedmaster."
+   ],
+   "cur": "6139 (Vintage)",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "6139 (Automatik, Chronograph)"
+    ],
+    [
+     "Besonderheit",
+     "Schaltrad, vertikale Kupplung"
+    ],
+    [
+     "Seit",
+     "1969"
+    ]
+   ],
+   "refs": [
+    [
+     "6139-6002 »Pogue«",
+     "1970er",
+     "41 mm",
+     "6139",
+     "Gelbes Zifferblatt"
+    ],
+    [
+     "6139-6005",
+     "1973",
+     "41 mm",
+     "6139",
+     "Weitere Variante"
+    ]
+   ],
+   "r": [
+    "astron",
+    "speedmaster",
+    "chronograph"
+   ],
+   "k": "Seiko 6139 war eine der ersten Armbanduhren mit automatischem Chronographenwerk.",
+   "a": [],
+   "v": {
+    "dial": "#e0b830",
+    "sub": "chrono2",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "oyster",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Gelbes Zifferblatt",
+    "Automatikchronograph",
+    "Schaltrad"
+   ],
+   "tipp": [
+    "Vintage-Seiko sind meist günstig."
+   ],
+   "x": [
+    "Der Spitzname stammt von Astronaut William Pogue.",
+    "Die Uhr war einer der ersten Automatikchronographen.",
+    "Sie hat Schaltrad und vertikale Kupplung."
+   ],
+   "ev": [
+    [
+     "1969",
+     "Seiko 6139"
+    ],
+    [
+     "1973",
+     "Skylab 4"
+    ]
+   ],
+   "w": "Die gelbe Chronograph-Seiko: früh, automatisch und von einem Astronauten getragen."
+  },
+  {
+   "id": "king-seiko",
+   "t": "King Seiko",
+   "brand": "Seiko",
+   "since": "1961",
+   "s": "Die handgefertigte Konkurrenz zur Grand Seiko, 1961 von Suwa Seikosha gestartet.",
+   "b": [
+    "King Seiko erschien 1961 bei Suwa Seikosha als Konkurrent zur Grand Seiko von Daini Seikosha. Beide Marken standen im Wettbewerb um die beste Uhr des Konzerns. King Seiko-Uhren haben ein klares Design mit Facettierung und eine hohe Verarbeitungsqualität.",
+    "Die Linie lief bis in die 1970er-Jahre. 2020 belebte Seiko King Seiko neu, mit Gehäuse im Stil der 1960er und Automatikwerk. Heute gilt sie als Geheimtipp."
+   ],
+   "cur": "King Seiko (Neuauflage)",
+   "f": [
+    [
+     "Gehäuse",
+     "37–38 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "6R31 / 6R55"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Seit",
+     "1961"
+    ]
+   ],
+   "refs": [
+    [
+     "King Seiko KS",
+     "1961–1970er",
+     "versch.",
+     "Handaufzug / Automatik",
+     "Original"
+    ],
+    [
+     "King Seiko (Neuauflage)",
+     "seit 2020",
+     "37–38 mm",
+     "6R31",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "gs-sbgw231",
+    "snowflake",
+    "seiko-5"
+   ],
+   "k": "King Seiko und Grand Seiko entstanden bei zwei konkurrierenden Seiko-Werken.",
+   "a": [],
+   "v": {
+    "dial": "#1f3a5f",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Facettiertes Gehäuse",
+    "Klares Zifferblatt",
+    "Automatikwerk"
+   ],
+   "tipp": [
+    "Preislich unter der Grand Seiko."
+   ],
+   "x": [
+    "Die Linie stammt von Suwa Seikosha.",
+    "Sie war ein Gegenspieler der Grand Seiko.",
+    "Sie läuft heute wieder."
+   ],
+   "ev": [
+    [
+     "1961",
+     "King Seiko"
+    ],
+    [
+     "2020",
+     "Neuauflage"
+    ]
+   ],
+   "w": "Die Konkurrenz im eigenen Haus: King Seiko, schlicht, facettiert und mit Vintage-Charme."
+  },
+  {
+   "id": "gs-44gs",
+   "t": "Grand Seiko 44GS",
+   "brand": "Grand Seiko",
+   "since": "1967",
+   "s": "Das Modell, das 1967 den Grand-Seiko-Stil mit flachen Flächen und scharfen Kanten festlegte.",
+   "b": [
+    "Die 44GS erschien 1967 mit einem Handaufzugswerk und einem Gehäuse, dessen Flächen eben und scharf poliert waren. Der Designer Taro Tanaka nannte das die »Grammatik des Designs«. Jede Fläche spiegelt ohne Verzerrung, Kanten sind scharf.",
+    "Das Modell bildete die Grundlage für den Grand-Seiko-Stil bis heute. 2020er-Neuauflagen wie die SBGW231 greifen es auf. Die Original-44GS ist unter Sammlern sehr gefragt."
+   ],
+   "cur": "44GS (Neuauflage)",
+   "f": [
+    [
+     "Gehäuse",
+     "36–37 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "44A (Handaufzug)"
+    ],
+    [
+     "Design",
+     "Zaratsu-Politur"
+    ],
+    [
+     "Seit",
+     "1967"
+    ]
+   ],
+   "refs": [
+    [
+     "44GS",
+     "1967–1970er",
+     "36 mm",
+     "44A",
+     "Original"
+    ],
+    [
+     "SBGW231",
+     "seit 2017",
+     "37,3 mm",
+     "9S64",
+     "Neuauflage"
+    ]
+   ],
+   "r": [
+    "gs-sbgw231",
+    "zaratsu",
+    "snowflake"
+   ],
+   "k": "Die 44GS legte den Grand-Seiko-Stil fest.",
+   "a": [],
+   "v": {
+    "dial": "#f3efe4",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel"
+   },
+   "m": [
+    "Zaratsu-Politur",
+    "Flache Flächen",
+    "Handaufzug"
+   ],
+   "tipp": [
+    "Original-44GS sind selten."
+   ],
+   "x": [
+    "Taro Tanaka entwarf das Gehäuse.",
+    "Das Design ist bis heute gültig.",
+    "Die Original-Uhr hat Handaufzug."
+   ],
+   "ev": [
+    [
+     "1967",
+     "44GS"
+    ],
+    [
+     "2017",
+     "SBGW231"
+    ]
+   ],
+   "w": "Die Uhr, die den Grand-Seiko-Stil festlegte: ebene Flächen und scharfe Kanten."
+  },
+  {
+   "id": "gs-hi-beat",
+   "t": "Grand Seiko Hi-Beat 36000",
+   "brand": "Grand Seiko",
+   "since": "2009",
+   "s": "Die Grand Seiko mit hochfrequentem Werk, 36.000 Halbschwingungen pro Stunde.",
+   "b": [
+    "Die Hi-Beat 36000 trägt ein mechanisches Werk mit 5 Hz und 55 Stunden Gangreserve (Kaliber 9S85, ab 2009). Die hohe Frequenz macht den Gang stabiler. Die Uhr gehört zur Heritage-Kollektion und erinnert an die Hi-Beat-Modelle der 1960er-Jahre.",
+    "Moderne Versionen laufen mit dem Kaliber 9SA5 und bis zu 80 Stunden Gangreserve. Die Hi-Beat zeigt, dass Grand Seiko auch bei mechanischen Werken mit den Schweizern konkurriert."
+   ],
+   "cur": "Hi-Beat 36000 (SBGH-Serie)",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "9S85 / 9SA5"
+    ],
+    [
+     "Frequenz",
+     "36.000 A/h"
+    ],
+    [
+     "Seit",
+     "2009 (modern)"
+    ]
+   ],
+   "refs": [
+    [
+     "SBGH001",
+     "2009–2010er",
+     "40 mm",
+     "9S85",
+     "Erste Hi-Beat der 9S-Serie"
+    ],
+    [
+     "SLGH005",
+     "seit 2020",
+     "40 mm",
+     "9SA5",
+     "Neue Generation"
+    ]
+   ],
+   "r": [
+    "white-birch",
+    "snowflake",
+    "schlagzahl"
+   ],
+   "k": "Die Hi-Beat hat 5 Hz und damit eine der höchsten Frequenzen unter Seiko-Uhren.",
+   "a": [],
+   "v": {
+    "dial": "#e0e4e8",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "case": "steel",
+    "tex": "vstripes",
+    "date": "3"
+   },
+   "m": [
+    "5 Hz",
+    "80 Stunden Gangreserve",
+    "Zaratsu-Politur"
+   ],
+   "tipp": [
+    "Ein Meisterstück der mechanischen Seite von Grand Seiko."
+   ],
+   "x": [
+    "36.000 A/h entsprechen 5 Hz.",
+    "Die Uhr ist handfinissiert.",
+    "Das 9SA5 kam 2020."
+   ],
+   "ev": [
+    [
+     "2009",
+     "9S85"
+    ],
+    [
+     "2020",
+     "9SA5"
+    ]
+   ],
+   "w": "Hohe Frequenz, ruhige Optik: die mechanische Grand Seiko für Kenner."
+  },
+  {
+   "id": "gs-spring-drive-chrono",
+   "t": "Grand Seiko Spring Drive Chronograph",
+   "brand": "Grand Seiko",
+   "since": "2007",
+   "s": "Die Grand Seiko mit Spring-Drive-Chronograph, bei dem der Zeiger ohne Sprünge gleitet.",
+   "b": [
+    "Der Spring-Drive-Chronograph von Grand Seiko erschien 2007 mit dem Kaliber 9R86. Er verbindet die Gleitsekunde des Spring Drive mit einem Chronographen. Die Zeiger laufen ohne Ticken, Start und Stopp erfolgen über ein elektronisch gesteuertes Schaltsystem.",
+    "Das Werk hat 72 Stunden Gangreserve, der Chronograph läuft in 1/5-Sekunden-Schritten. Die Uhr gilt als technische Sonderleistung der Marke."
+   ],
+   "cur": "Spring Drive Chronograph (SBGC-Serie)",
+   "f": [
+    [
+     "Gehäuse",
+     "43 mm, Edelstahl oder Titan"
+    ],
+    [
+     "Kaliber",
+     "9R86 (Spring Drive)"
+    ],
+    [
+     "Funktion",
+     "Chronograph, GMT"
+    ],
+    [
+     "Seit",
+     "2007"
+    ]
+   ],
+   "refs": [
+    [
+     "SBGC001",
+     "2007–2010er",
+     "43 mm",
+     "9R86",
+     "Erste Serie"
+    ],
+    [
+     "SBGC201",
+     "2010er",
+     "43,2 mm",
+     "9R86",
+     "Titan"
+    ]
+   ],
+   "r": [
+    "snowflake",
+    "spring-drive",
+    "chronograph"
+   ],
+   "k": "Der Spring-Drive-Chronograph läuft mit einer Gleitsekunde statt eines tickenden Zeigers.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "sword",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "oyster",
+    "case": "steel"
+   },
+   "m": [
+    "Gleitende Zeiger",
+    "Spring-Drive-Werk",
+    "Chronograph"
+   ],
+   "tipp": [
+    "Technisch einzigartig."
+   ],
+   "x": [
+    "Das Werk kombiniert Chronograph und Spring Drive.",
+    "Der Sekundenzeiger gleitet.",
+    "Die Uhr ist antimagnetisch geschützt."
+   ],
+   "ev": [
+    [
+     "2007",
+     "9R86"
+    ]
+   ],
+   "w": "Chronograph mit Spring Drive: Stoppen ohne Ticken."
   }
  ]
 }
