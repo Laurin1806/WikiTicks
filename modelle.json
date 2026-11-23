@@ -2878,15 +2878,20 @@
      ],
      [
       "16570",
-      "Liste 2004",
-      3820,
+      "Liste 1990",
+      2150,
       "heute",
       8270,
       [
-       "EUR",
+       "USD",
        "USD"
       ],
       [
+       [
+        "2004",
+        3820,
+        "EUR"
+       ],
        [
         "2011",
         6300,
@@ -2909,7 +2914,7 @@
       10640
      ]
     ],
-    "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, Originalwert, hier in Euro). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, Originalwert, hier in Euro). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
    "topv": {
     "n": "Ref. 16570 »Polar«",
@@ -3242,16 +3247,21 @@
       ]
      ],
      [
-      "14060M",
-      "Liste 2004",
-      3260,
+      "14060 / 14060M",
+      "Liste 1990",
+      1650,
       "heute",
       9900,
       [
-       "EUR",
+       "USD",
        "USD"
       ],
       [
+       [
+        "2004",
+        3260,
+        "EUR"
+       ],
        [
         "2008",
         5450,
@@ -3260,21 +3270,40 @@
       ]
      ],
      [
-      "16610",
-      "Liste 1996",
-      3350,
-      "heute",
-      9254,
+      "16613",
+      "Liste 1990",
+      4250,
+      "",
       null,
       [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "16610",
+      "Liste 1990",
+      2250,
+      "heute",
+      9254,
+      [
+       "USD",
+       "USD"
+      ],
+      [
        [
-        "2008",
-        6000
+        "1996",
+        3350,
+        "USD"
        ],
        [
         "2004 (Belgien, inkl. MwSt.)",
         3890,
         "EUR"
+       ],
+       [
+        "2008",
+        6000
        ]
       ]
      ],
@@ -3293,7 +3322,7 @@
       13655
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 16610 laut WatchCharts (Oktober 2026), 14060M ungefähr nach den niedrigsten abgeschlossenen Verkäufen bei Bob's Watches (September 2026). Die Neupreise der älteren Referenzen sind die frühesten gefundenen Listenpreise (laut Crown & Caliber, Jahr jeweils angegeben), nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreise: WatchCharts (November bzw. Oktober 2026). 16610: frühester gefundener Listenpreis von 1996 (3.350 USD laut Crown & Caliber); 2008 lag die Liste bei 6.000 USD. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 16610 laut WatchCharts (Oktober 2026), 14060M ungefähr nach den niedrigsten abgeschlossenen Verkäufen bei Bob's Watches (September 2026). Die Neupreise der älteren Referenzen sind die frühesten gefundenen Listenpreise (laut Crown & Caliber, Jahr jeweils angegeben), nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreise: WatchCharts (November bzw. Oktober 2026). 16610: Zwischenpreise 1996 (3.350 USD laut Crown & Caliber), 2004 und 2008 (6.000 USD). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
    "w": "Seit 1953 definiert die Submariner mit drehbarer Lünette, großen Leuchtindizes und verschraubter Krone, wie eine Taucheruhr aussieht."
   },
@@ -3789,13 +3818,43 @@
       ]
      ],
      [
-      "16710",
-      "Liste 2004",
-      4250,
-      "heute",
-      12100,
+      "16700",
+      "Liste 1990",
+      2225,
+      "",
       null,
       [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "16713",
+      "Liste 1990",
+      4100,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "16710",
+      "Liste 1990",
+      2250,
+      "heute",
+      12100,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2004",
+        4250,
+        "USD"
+       ],
        [
         "2004 (Belgien, inkl. MwSt.)",
         3890,
@@ -3819,7 +3878,7 @@
       22053
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, Originalwert, hier in Euro). Ältere Referenzen: Spanne gängiger Händlerangebote von rund 9.400 bis 12.250 EUR (Luxury Bazaar, BQ Watches); der Wert ist deren Mitte. Neupreis 16710: Liste 2004 laut Crown & Caliber, nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: WatchCharts (Oktober 2026). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, Originalwert, hier in Euro). Ältere Referenzen: Spanne gängiger Händlerangebote von rund 9.400 bis 12.250 EUR (Luxury Bazaar, BQ Watches); der Wert ist deren Mitte. Neupreis 16710: Liste 2004 laut Crown & Caliber, nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: WatchCharts (Oktober 2026). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
    "w": "Die zweifarbige Lünette trennt Tag (Rot) und Nacht (Blau) und macht die GMT-Master II zusammen mit dem vierten Zeiger zur Reiseuhr für bis zu drei Zeitzonen."
   },
@@ -4005,6 +4064,28 @@
       5750
      ],
      [
+      "16200",
+      "Liste 1990",
+      2350,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "16233",
+      "Liste 1990",
+      3650,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "16014",
       "Liste 1985",
       2170,
@@ -4052,7 +4133,7 @@
       9854
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16234: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: Mitte der Spanne von rund 3.150 bis 7.150 EUR für 1601/1603 der 1970er laut Händlerratgeber (grob). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16234: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: Mitte der Spanne von rund 3.150 bis 7.150 EUR für 1601/1603 der 1970er laut Händlerratgeber (grob). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
    "w": "1945 schaltete sie als erste Armbanduhr das Datum selbstständig um, seit den 1950er-Jahren sitzt die Cyclops-Lupe auf dem Glas."
   },
@@ -4247,16 +4328,21 @@
       ]
      ],
      [
-      "118238",
-      "Liste 2004",
-      17650,
+      "18238 / 118238",
+      "Liste 1990",
+      12250,
       "heute",
       26444,
       [
-       "EUR",
+       "USD",
        "USD"
       ],
       [
+       [
+        "2004",
+        17650,
+        "EUR"
+       ],
        [
         "2020",
         34800,
@@ -4272,7 +4358,7 @@
       49753
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Oktober 2026); die ältere 18238 schwankt je nach Zifferblatt zu stark für einen Richtwert. Vintage-Referenzen: Händlerangebote und Verkäufe für typische Gelbgold-Exemplare liegen bei etwa 13.400 bis 17.900 EUR (hier die Mitte); ein Listenpreis aus der Bauzeit war nicht auffindbar. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Oktober 2026); die ältere 18238 schwankt je nach Zifferblatt zu stark für einen Richtwert. Vintage-Referenzen: Händlerangebote und Verkäufe für typische Gelbgold-Exemplare liegen bei etwa 13.400 bis 17.900 EUR (hier die Mitte); ein Listenpreis aus der Bauzeit war nicht auffindbar. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
    "w": "Als erste Armbanduhr mit ausgeschriebenem Wochentag erschien die Day-Date 1956, ausschließlich in Gold oder Platin und mit dem eigens entwickelten President-Band."
   },
@@ -4456,10 +4542,21 @@
      ],
      [
       "14270",
-      "letzte Liste",
-      3700,
+      "Liste 1990",
+      1350,
       "heute",
-      6403
+      6403,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "später",
+        3700,
+        "USD"
+       ]
+      ]
      ],
      [
       "114270",
@@ -4487,7 +4584,7 @@
       8634
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise: 114270 laut WatchCharts (September 2021); 14270 der letzte von WatchCharts geführte Listenpreis der Referenz (Jahr nicht angegeben). Bei bereits eingestellten Referenzen führt WatchCharts teils spätere oder rechnerische Listenpreise; sie sind daher nur als grober Anhaltspunkt zu verstehen. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Für ein Gebrauchtpreis-Äquivalent der 1016 fand sich kein belastbarer Wert. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise: 114270 laut WatchCharts (September 2021); 14270 der letzte von WatchCharts geführte Listenpreis der Referenz (Jahr nicht angegeben). Bei bereits eingestellten Referenzen führt WatchCharts teils spätere oder rechnerische Listenpreise; sie sind daher nur als grober Anhaltspunkt zu verstehen. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Für ein Gebrauchtpreis-Äquivalent der 1016 fand sich kein belastbarer Wert. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
    "w": "Die Ziffern 3, 6 und 9 und eine bewusst schlichte Form entstanden 1953, im Jahr der Erstbesteigung des Mount Everest."
   },
