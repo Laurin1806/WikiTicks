@@ -13603,7 +13603,8 @@
     "moon": true,
     "strap": "leather",
     "strapColor": "#3a2618",
-    "label": "MASTER"
+    "label": "MASTER",
+    "img": "assets/watches/longines-master-collection.jpg"
    },
    "m": [
     "Gerstenkornmuster auf dem Zifferblatt",
@@ -14111,7 +14112,8 @@
     "hands": "sword",
     "date": "3",
     "strap": "rubber",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/sinn-u1.jpg"
    },
    "m": [
     "Gehäuse aus U-Boot-Stahl",
@@ -17316,7 +17318,8 @@
     ],
     "bottom": [
      "WR 200"
-    ]
+    ],
+    "img": "assets/watches/citizen-promaster-diver.jpg"
    },
    "m": [
     "Große runde Leuchtindizes",
@@ -17421,7 +17424,8 @@
     "top": [
      "SUB 300",
      "PROFESSIONAL"
-    ]
+    ],
+    "img": "assets/watches/doxa-sub-300t-orange.jpg"
    },
    "m": [
     "Oranges Zifferblatt",
@@ -21377,7 +21381,8 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/tudor-1926.jpg"
    },
    "m": [
     "Schlichtes Zifferblatt",
@@ -22577,7 +22582,8 @@
     "strap": "rubber",
     "strapColor": "#17191d",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/seiko-monster.jpg"
    },
    "m": [
     "Breite Schultern",
@@ -24934,7 +24940,8 @@
    "a": [],
    "v": {
     "shape": "gshock",
-    "caseColor": "#2a2c30"
+    "caseColor": "#2a2c30",
+    "img": "assets/watches/casio-f-91w.jpg"
    },
    "m": [
     "Digitaluhr",
@@ -25589,7 +25596,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/oris-divers-sixty-five.jpg"
    },
    "m": [
     "Retro-Stil",
