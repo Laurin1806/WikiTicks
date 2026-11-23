@@ -7516,7 +7516,16 @@
      "Pelagos 39"
     ]
    ],
-   "w": "Eine selbstverstellende Faltschließe passt das Band dem Neoprenanzug an, Gehäuse und Band bestehen aus Titan."
+   "w": "Eine selbstverstellende Faltschließe passt das Band dem Neoprenanzug an, Gehäuse und Band bestehen aus Titan.",
+   "var": [
+    {
+     "n": "Pelagos in Blau",
+     "y": "",
+     "v": {
+      "img": "assets/watches/tudor-pelagos-blue.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "santos",
@@ -17588,7 +17597,8 @@
     "sec": "#e9dcb8",
     "bottom": [
      "200 m – 660 ft"
-    ]
+    ],
+    "img": "assets/watches/tudor-black-bay-54-m79000n.jpg"
    },
    "m": [
     "37-mm-Gehäuse",
@@ -17802,7 +17812,8 @@
     "thin": true,
     "top": [
      "AUTOMATIC"
-    ]
+    ],
+    "img": "assets/watches/iwc-portofino-automatic.jpg"
    },
    "m": [
     "Schlanke, polierte Lünette",
@@ -18930,7 +18941,8 @@
     "top": [
      "Speedmaster",
      "DARK SIDE OF THE MOON"
-    ]
+    ],
+    "img": "assets/watches/omega-speedmaster-dark-side-of-the-moon.jpg"
    },
    "m": [
     "Schwarze Keramik",
@@ -20834,7 +20846,8 @@
     "strap": "leather",
     "strapColor": "#2a1a10",
     "case": "steel",
-    "pushers": true
+    "pushers": true,
+    "img": "assets/watches/breitling-premier-b01.jpg"
    },
    "m": [
     "Retro-Zifferblatt",
@@ -20939,7 +20952,8 @@
     "strapColor": "#3a2618",
     "case": "steel",
     "pushers": true,
-    "bezel": "tachy"
+    "bezel": "tachy",
+    "img": "assets/watches/breitling-top-time-vintage.jpg"
    },
    "m": [
     "Sportliches Zifferblatt",
@@ -23143,7 +23157,8 @@
     "bezel": "tachy",
     "pushers": true,
     "strap": "oyster",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/grand-seiko-spring-drive-chronograph.jpg"
    },
    "m": [
     "Gleitende Zeiger",
