@@ -463,7 +463,7 @@ const CAT_INTRO = {
   "Persönlichkeiten": "Uhrmacher, Gründer, Manager und Designer, die die Uhrenwelt geprägt haben."
 };
 
-let LUMEMASK = new Set();
+let LUMEMASK = new Map(); // Bilddatei -> Leuchtfarbe der fertigen Leuchtebene ("g" grün, "b" blau)
 let E = [], byId = {}, MODELS = [], LEX = [], BRANDS = [], BRAND_INFO = {}, TERM_RE = null, TERMS = {};
 let q = "";
 
@@ -632,12 +632,12 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112451"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112452"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
-    const lm = e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${e.lume.c}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "";
-    const bn = v.img.split("/").pop(), lmk = LUMEMASK.has(bn);
+    const bn = v.img.split("/").pop(), lmk = LUMEMASK.has(bn), lc = lmk ? LUMEMASK.get(bn) : e && e.lume ? e.lume.c : "g";
+    const lm = e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "";
     const ovl = lmk ? `<img class="wlume-img" src="assets/watches/lume/${bn.replace(/\.[a-z]+$/i, ".png")}?v=${IMGV}" alt="" aria-hidden="true" loading="lazy">` : "";
     return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}>${base}${ovl}</span>`;
   }
@@ -1948,7 +1948,7 @@ const DATA = window.WIKITICKS_DATA;
   if (!lex && !mod) { $("#view").innerHTML = '<p class="empty">Die Inhalte konnten nicht geladen werden. Bitte lade die Seite neu.</p>'; return; }
   E = [...(lex || []), ...((mod && mod.modelle) || []).map(m => ({ ...m, c: "Uhrenmodelle" }))];
   ((mod && mod.marken) || []).forEach(m => { BRAND_INFO[m.name] = m; });
-  LUMEMASK = new Set((mod && mod.lumeMasks) || []);
+  LUMEMASK = new Map(Object.entries((mod && mod.lumeMasks) || {}));
   rebuild(); route();
   if (POS[location.hash]) requestAnimationFrame(() => window.scrollTo({ top: POS[location.hash] }));
 });

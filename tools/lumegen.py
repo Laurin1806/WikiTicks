@@ -73,7 +73,16 @@ def gen(img, spec):
             t=math.radians(a_);ax_,ay_=math.sin(t),-math.cos(t)
             if kind=='sec':  # Sekundenzeiger: alles entlang des Zeigers löschen, nur der Leuchtpunkt kommt als Form
                 dx3=xx3-hx;dy3=yy3-hy;al=dx3*ax_+dy3*ay_;pe=np.abs(-dx3*ay_+dy3*ax_)
-                keep[(al>0)&(al<min(dm+8,spec.get('R',r)*.78))&(pe<7)]=False;continue
+                keep[(al>0)&(al<dm+8)&(pe<spec.get('secw',3.5))]=False
+                ds=[math.hypot(c[:,1].mean()-hx,c[:,0].mean()-hy) for c in comps(keep.copy()) if len(c)>20]
+                ds=[x for x in ds if x>spec.get('R',r)*.55]
+                if ds:
+                    Rr=float(np.median(ds))
+                    for c in comps(keep.copy()):
+                        dx4=c[:,1]-hx;dy4=c[:,0]-hy;al4=dx4*ax_+dy4*ay_;pe4=np.abs(-dx4*ay_+dy4*ax_)
+                        if (pe4<4).any() and (al4.max()-al4.min())>1.6*(pe4.max()-pe4.min()+1) and abs(al4.mean()-Rr)<Rr*.25:
+                            wd=pe4.max()+1;drop=al4<Rr-wd*1.15;keep[c[drop,0],c[drop,1]]=False
+                continue
             for c in comps(keep.copy()):
                 dx=c[:,1]-hx;dy=c[:,0]-hy;along=dx*ax_+dy*ay_;perp=np.abs(-dx*ay_+dy*ax_)
                 if ((perp<max(mw,4)*.9)&(along>0)&(along<dm+6)).mean()>.5: keep[c[:,0],c[:,1]]=False
@@ -150,6 +159,20 @@ def gen(img, spec):
     keep|=shp|(und&~np.array(Image.fromarray((handm*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)))>0)
     for x0,y0,x1,y1 in spec.get('add',[]): # zusätzlich zu übernehmende Bereiche (alles Helle darin)
         sub=(L>=spec.get('thr',175)-40)&(S<=spec.get('sat',70)+10);keep[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]|=sub[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]
+    # Indizes an bestimmten Winkeln neu setzen (z. B. wenn ein Zeiger darüber liegt): Kreis mit mittlerer Punktgröße auf dem Indexkreis
+    if spec.get('idxfix') and 'hub' in spec:
+        hx,hy=spec['hub'];cs=[c for c in comps(keep.copy()) if len(c)>30]
+        info=[(math.hypot(c[:,1].mean()-hx,c[:,0].mean()-hy),c) for c in cs]
+        ring=[(d,c) for d,c in info if d>spec.get('R',r)*.55]
+        if ring:
+            Rr=float(np.median([d for d,_ in ring]))
+            dots=[c for d,c in ring if abs(d-Rr)<Rr*.06 and (c.max(0)-c.min(0)).max()<1.35*((c.max(0)-c.min(0)).min()+1)]
+            rad=float(np.median([math.sqrt(len(c)/math.pi) for c in dots])) if dots else 12
+            yy5,xx5=np.mgrid[0:h,0:w]
+            for A in spec['idxfix']:
+                t=math.radians(A);px5,py5=hx+Rr*math.sin(t),hy-Rr*math.cos(t)
+                keep[np.hypot(xx5-px5,yy5-py5)<rad*1.9]=False
+                keep[np.hypot(xx5-px5,yy5-py5)<=rad]=True
     # Balkenindizes: Leuchtmasse nur als Mittelstreifen (Rand nach innen versetzt)
     if spec.get('idxinset'):
         ins=spec['idxinset'];hub0=spec.get('hub');new=np.zeros_like(keep);from PIL import ImageDraw as _ID
@@ -157,12 +180,28 @@ def gen(img, spec):
         for c in comps(keep.copy()):
             cy_,cx_=c[:,0].mean(),c[:,1].mean()
             if hub0 and math.hypot(cx_-hub0[0],cy_-hub0[1])<spec.get('R',r)*.5: new[c[:,0],c[:,1]]=True;continue
+            # dünne Anhängsel (Zeigerstriche über dem Index) abtrennen: Öffnen und größtes Stück behalten
+            if len(c)>40:
+                y0o,x0o=c.min(0);so=np.zeros((c[:,0].max()-y0o+5,c[:,1].max()-x0o+5),np.uint8);so[c[:,0]-y0o+2,c[:,1]-x0o+2]=255
+                op=np.array(Image.fromarray(so).filter(ImageFilter.MinFilter(5)).filter(ImageFilter.MaxFilter(5)))>127
+                pcs=comps(op)
+                if pcs:
+                    big=max(pcs,key=len)
+                    if len(big)>len(c)*.35: c=np.c_[big[:,0]+y0o-2,big[:,1]+x0o-2];cy_,cx_=c[:,0].mean(),c[:,1].mean()
             dy_,dx_=c[:,0]-cy_,c[:,1]-cx_
             if len(c)<6: continue
             ev,evec=np.linalg.eigh(np.cov(np.vstack([dx_,dy_])));v=evec[:,1];u=np.array([-v[1],v[0]])
             pa=dx_*v[0]+dy_*v[1];pb=dx_*u[0]+dy_*u[1]
             L_=pa.max()-pa.min();W_=pb.max()-pb.min()
-            if L_<W_*1.6: new[c[:,0],c[:,1]]=True;continue   # runde Indizes/Ziffern unverändert
+            if L_<W_*1.6 or len(c)/max(1,L_*W_)<.72:   # Punkte, Dreiecke, Ziffern: Leuchtmasse nur innerhalb der Einfassung (nach innen schrumpfen)
+                fillr=len(c)/max(1,(c[:,0].max()-c[:,0].min()+1)*(c[:,1].max()-c[:,1].min()+1))
+                e=max(1,int(round(min(L_,W_)*spec.get('dotshrink',.17))))
+                y0,x0=c.min(0);sub=np.zeros((c[:,0].max()-y0+3,c[:,1].max()-x0+3),np.uint8);sub[c[:,0]-y0+1,c[:,1]-x0+1]=255
+                while True:   # nicht zu stark schrumpfen: mindestens ~40 % der Fläche behalten (Ziffern mit dünnen Strichen)
+                    er=np.array(Image.fromarray(sub).filter(ImageFilter.MinFilter(2*e+1)))>127
+                    if er.sum()>=len(c)*.4 or e<=1: break
+                    e-=1
+                ys2,xs2=np.nonzero(er);new[ys2+y0-1,xs2+x0-1]=True;continue
             ca=(pa.max()+pa.min())/2;cb=(pb.max()+pb.min())/2;l2=L_*(1-ins)/2;w2=W_*(1-2*ins)/2
             pts=[(cx_+(ca+sa*l2)*v[0]+(cb+sb*w2)*u[0],cy_+(ca+sa*l2)*v[1]+(cb+sb*w2)*u[1]) for sa,sb in((-1,-1),(1,-1),(1,1),(-1,1))]
             d2.polygon([(x*4,y*4) for x,y in pts],fill=255)
