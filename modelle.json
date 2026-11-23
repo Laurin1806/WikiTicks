@@ -13100,7 +13100,8 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/vacheron-constantin-patrimony-81180.jpg"
    },
    "m": [
     "Schlichtes, flaches Gehäuse",
@@ -18430,7 +18431,8 @@
     "strap": "rubber",
     "strapColor": "#17191d",
     "case": "steel",
-    "crownLeft": true
+    "crownLeft": true,
+    "img": "assets/watches/omega-seamaster-ploprof-1200m.jpg"
    },
    "m": [
     "Orangefarbener Entriegelungsknopf",
@@ -18553,7 +18555,8 @@
     "pushers": true,
     "strap": "leather",
     "strapColor": "#2a2a2a",
-    "era": "vintage"
+    "era": "vintage",
+    "img": "assets/watches/omega-flightmaster-vintage.jpg"
    },
    "m": [
     "Zwei Zeitzonen",
@@ -18666,7 +18669,8 @@
     "strap": "leather",
     "strapColor": "#4a2f20",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/omega-constellation-globemaster.jpg"
    },
    "m": [
     "Geriffelte Lünette",
@@ -18756,7 +18760,8 @@
     "markers": "baton",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/omega-de-ville-tresor-white.jpg"
    },
    "m": [
     "Handaufzug",
@@ -18961,7 +18966,8 @@
     "bezel": "tachy",
     "pushers": true,
     "strap": "omega",
-    "lugs": "lyre"
+    "lugs": "lyre",
+    "img": "assets/watches/omega-speedmaster-57-black.jpg"
    },
    "m": [
     "Broad-Arrow-Zeiger",
@@ -19336,7 +19342,16 @@
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   }
+   },
+   "var": [
+    {
+     "n": "Ref. 5270 in Rotgold",
+     "y": "",
+     "v": {
+      "img": "assets/watches/patek-philippe-perpetual-calendar-chronograph-5270-rose-gold.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "pilot-travel-time",
@@ -20331,7 +20346,8 @@
     "strap": "rubber",
     "strapColor": "#17191d",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/iwc-aquatimer-black.jpg"
    },
    "m": [
     "Zwei Lünettensysteme",
@@ -20447,7 +20463,8 @@
     "strap": "leather",
     "strapColor": "#2a1a10",
     "case": "steel",
-    "moon": true
+    "moon": true,
+    "img": "assets/watches/iwc-da-vinci-chronograph-white.jpg"
    },
    "m": [
     "Ewiger Kalender",
@@ -20552,7 +20569,8 @@
     "pushers": true,
     "strap": "leather",
     "strapColor": "#2a1a10",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/iwc-pilots-watch-chronograph-black.jpg"
    },
    "m": [
     "Dreieck bei 12 Uhr",
@@ -21682,7 +21700,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/jaeger-lecoultre-master-control-calendar.jpg"
    },
    "m": [
     "Schlichtes Zifferblatt",
