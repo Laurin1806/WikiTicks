@@ -22329,7 +22329,8 @@
     "sub": "small9",
     "guards": true,
     "crown": "big",
-    "shape": "cushion"
+    "shape": "cushion",
+    "img": "assets/watches/panerai-luminor-marina-2.jpg"
    },
    "m": [
     "Hebelbügel",
@@ -22426,7 +22427,8 @@
     "case": "steel",
     "guards": true,
     "crown": "big",
-    "shape": "cushion"
+    "shape": "cushion",
+    "img": "assets/watches/panerai-luminor-due.jpg"
    },
    "m": [
     "Flaches Gehäuse",
@@ -22523,7 +22525,8 @@
     "pushers": true,
     "guards": true,
     "crown": "big",
-    "shape": "cushion"
+    "shape": "cushion",
+    "img": "assets/watches/panerai-mare-nostrum.jpg"
    },
    "m": [
     "Chronograph",
@@ -23129,7 +23132,8 @@
     "strapColor": "#3a2618",
     "case": "steel",
     "tex": "vstripes",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/grand-seiko-hi-beat-36000.jpg"
    },
    "m": [
     "5 Hz",
@@ -23309,7 +23313,8 @@
     "markers": "baton",
     "hands": "baton",
     "strap": "rubber",
-    "strapColor": "#2a2c30"
+    "strapColor": "#2a2c30",
+    "img": "assets/watches/hublot-mp-05-laferrari.jpg"
    },
    "m": [
     "50 Tage Gangreserve",
@@ -23398,7 +23403,8 @@
     "pushers": true,
     "strap": "rubber",
     "strapColor": "#17191d",
-    "case": "black"
+    "case": "black",
+    "img": "assets/watches/hublot-spirit-of-big-bang.jpg"
    },
    "m": [
     "Tonneaugehäuse",
@@ -23573,7 +23579,8 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/zenith-elite.jpg"
    },
    "m": [
     "Flaches Gehäuse",
@@ -24326,7 +24333,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/hamilton-jazzmaster.jpg"
    },
    "m": [
     "Stabindizes",
@@ -24424,7 +24432,8 @@
     "strap": "leather",
     "strapColor": "#2a1a10",
     "case": "steel",
-    "shape": "cushion"
+    "shape": "cushion",
+    "img": "assets/watches/hamilton-pan-europ.jpg"
    },
    "m": [
     "Chronograph",
@@ -24504,7 +24513,8 @@
     "strap": "leather",
     "strapColor": "#2a1a10",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/sinn-104.jpg"
    },
    "m": [
     "Fliegerzifferblatt",
@@ -24607,7 +24617,8 @@
     "strap": "rubber",
     "strapColor": "#17191d",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/sinn-ezm-3.jpg"
    },
    "m": [
     "Trockenhaltetechnik",
@@ -24710,7 +24721,8 @@
     "pushers": true,
     "strap": "leather",
     "strapColor": "#2a1a10",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/sinn-356-flieger.jpg"
    },
    "m": [
     "Chronograph",
@@ -24800,7 +24812,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/junghans-meister.jpg"
    },
    "m": [
     "Gewölbtes Zifferblatt",
@@ -24898,7 +24911,8 @@
     "hands": "baton",
     "strap": "link3",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/junghans-mega.jpg"
    },
    "m": [
     "Funksteuerung",
@@ -25074,7 +25088,8 @@
     "markers": "baton",
     "hands": "baton",
     "strap": "rubber",
-    "strapColor": "#2a2c30"
+    "strapColor": "#2a2c30",
+    "img": "assets/watches/casio-g-shock-ga-2100.jpg"
    },
    "m": [
     "Achteckiges Gehäuse",
@@ -25162,7 +25177,8 @@
     "hands": "sword",
     "strap": "rubber",
     "strapColor": "#e0372a",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/swatch-sistem51.jpg"
    },
    "m": [
     "51 Teile",
