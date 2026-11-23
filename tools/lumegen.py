@@ -22,6 +22,13 @@ def gen(img, spec):
     cx,cy,r=spec['c'][0]*w,spec['c'][1]*h,spec['r']*w
     yy,xx=np.mgrid[0:h,0:w];inside=np.hypot(xx-cx,yy-cy)<=r
     m=inside&(L>=spec.get('thr',175))&(S<=spec.get('sat',70))
+    if spec.get('mode')=='light':  # helles Zifferblatt: nur von dunklen Rändern umschlossene helle Flächen (nicht die Zifferblattfläche)
+        lm=(L>=spec.get('thr',175))&(S<=spec.get('sat',70))&~np.array([[False]])
+        keepL=np.zeros((h,w),bool);mn=spec.get('min',.0002)*w*w;mx=spec.get('max',.004)*w*w
+        for c in comps(lm&inside):
+            if mn<=len(c)<=mx and not ((c[:,0]<=0)|(c[:,1]<=0)).any(): keepL[c[:,0],c[:,1]]=True
+        for x0,y0,x1,y1 in spec.get('ex',[]): keepL[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]=False
+        m=keepL
     for x0,y0,x1,y1 in spec.get('ex',[]): m[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]=False
     if 'exr' in spec:
         hx0,hy0=spec['hub'];rd=np.hypot(xx-hx0,yy-hy0);m&=~((rd>=spec['exr'][0])&(rd<=spec['exr'][1]))
@@ -57,6 +64,7 @@ def gen(img, spec):
     if spec.get('autohands'):
         import autohands
         lg=[];shs,_=autohands.hand_shapes(L,spec['hub'],spec.get('R',r),thr=spec.get('hthr',150),inset=spec.get('inset',.28),second=spec.get('sec',True),force=spec.get('force'),mercedes=spec.get('merc',True),nounder=spec.get('nounder',False),log=lg)
+        shs=[f for f in shs if not (f['t']=='sword' and any(abs(((f['ang']-x)+180)%360-180)<5 for x in spec.get('skip',[])))]
         spec=dict(spec);spec['shapes']=shs+spec.get('shapes',[]);print('Zeiger',lg)
         # automatisch übernommene Flächen entlang der Zeigerachsen entfernen (Zeiger nur über die Leuchtformen)
         hx,hy=spec['hub']
@@ -86,6 +94,12 @@ def gen(img, spec):
                 t=math.radians(sp);ax,ay=math.sin(t),-math.cos(t);px,py=math.cos(t),math.sin(t);sw=f.get('sw',2)
                 pts=[(cx_+sw*px,cy_+sw*py),(cx_+sw*px+(r1+2)*ax,cy_+sw*py+(r1+2)*ay),(cx_-sw*px+(r1+2)*ax,cy_-sw*py+(r1+2)*ay),(cx_-sw*px,cy_-sw*py)]
                 dr.polygon([(x*S4,y*S4) for x,y in pts],fill=0)
+        elif f['t']=='idx':  # Balkenindizes an festen Winkeln (Mitte im Abstand r vom Zeigerzentrum)
+            hx_,hy_=f.get('hub',spec.get('hub'))
+            for A in f['angs']:
+                t=math.radians(A);ax,ay=math.sin(t),-math.cos(t);px,py=math.cos(t),math.sin(t);cx_,cy_=hx_+f['r']*ax,hy_+f['r']*ay;Lh,Wh=f['L']/2,f['W']/2
+                pts=[(cx_+u*ax+v*px,cy_+u*ay+v*py) for u,v in((-Lh,-Wh),(Lh,-Wh),(Lh,Wh),(-Lh,Wh))]
+                dr.polygon([(x*S4,y*S4) for x,y in pts],fill=255)
         elif f['t']=='circle':
             cx_,cy_=f['c'];r1=f['r']
             if f.get('under'): dr2.ellipse([(cx_-r1)*S4,(cy_-r1)*S4,(cx_+r1)*S4,(cy_+r1)*S4],fill=255)

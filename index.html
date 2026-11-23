@@ -611,7 +611,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112447"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112449"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1781,7 +1781,7 @@ function nightPrep(img) {
       }
     }
     // alles Helle, das nicht leuchtet (Lünettenzahlen, Aufdruck, Reflexe), im Dunkeln stärker zurücknehmen
-    if (dimBright) { for (let i = 0; i < N; i++) if (!bg[i] && !keep[i] && L[i] > 120 && S[i] < 70) { const t = Math.min(1, (L[i] - 120) / 90), f = 1 - .62 * t * t * (3 - 2 * t); o[i * 4] *= f; o[i * 4 + 1] *= f; o[i * 4 + 2] *= f; } cx.putImageData(od, 0, 0); }
+    if (dimBright) { const anyS = !!wrap.dataset.lmk; for (let i = 0; i < N; i++) if (!bg[i] && !keep[i] && L[i] > 120 && (anyS || S[i] < 70)) { const t = Math.min(1, (L[i] - 120) / 90), f = 1 - .62 * t * t * (3 - 2 * t); o[i * 4] *= f; o[i * 4 + 1] *= f; o[i * 4 + 2] *= f; } cx.putImageData(od, 0, 0); }
     if (window.__dbgZone) { const pal = [[0,0,0],[255,60,60],[60,255,60],[255,255,0],[0,255,255],[255,0,255],[120,120,120]]; for (let i = 0; i < N; i++) if (zc[i]) { const p = pal[zc[i]]; lo[i * 4] = p[0]; lo[i * 4 + 1] = p[1]; lo[i * 4 + 2] = p[2]; lo[i * 4 + 3] = 255; } lx.putImageData(ld, 0, 0); } else
     // Leuchtflächen an den Rändern vervollständigen: angrenzende, etwas weniger helle Pixel (Verlauf, Randzonen) dazunehmen
     if (lz && lz !== "L") { const gthr = Math.max(105, (dimBright ? 0 : 0) + 120); for (let it = 0; it < 3; it++) { const add = []; for (let k = 0; k < N; k++) { if (keep[k] || bg[k] || L[k] < gthr || S[k] > 75) continue; const px = k % w; if ((px > 0 && keep[k - 1]) || (px < w - 1 && keep[k + 1]) || (k >= w && keep[k - w]) || (k < N - w && keep[k + w])) add.push(k); } for (const k of add) keep[k] = 1; } }
