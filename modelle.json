@@ -2842,14 +2842,14 @@
      "n": "Ref. 16570 »Polar«",
      "y": "1989–2011",
      "v": {
-      "img": "assets/watches/rolex-explorer-2-16570-polar-white.jpg"
+      "img": "assets/watches/rolex-explorer-ii-16570-polar.jpg"
      }
     },
     {
      "n": "Ref. 226570 »Polar«",
      "y": "seit 2021",
      "v": {
-      "img": "assets/watches/rolex-explorer-2-226570-polar.jpg"
+      "img": "assets/watches/rolex-explorer-ii-226570-polar.jpg"
      }
     }
    ],
@@ -2950,7 +2950,7 @@
      "handW": null,
      "handLume": "#f8f8f5",
      "minW": null,
-     "img": "assets/watches/rolex-explorer-2-16570-black.jpg"
+     "img": "assets/watches/rolex-explorer-ii-16570-black.jpg"
     }
    },
    "ev": [
@@ -4501,7 +4501,7 @@
      "EXPLORER"
     ],
     "lugs": "taper",
-    "img": "assets/watches/rolex-explorer-124270-black.jpg"
+    "img": "assets/watches/rolex-explorer-124270.jpg"
    },
    "m": [
     "Schwarzes Zifferblatt mit den Ziffern 3, 6 und 9",
@@ -4612,7 +4612,16 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise: 114270 laut WatchCharts (September 2021); 14270 der letzte von WatchCharts geführte Listenpreis der Referenz (Jahr nicht angegeben). Bei bereits eingestellten Referenzen führt WatchCharts teils spätere oder rechnerische Listenpreise; sie sind daher nur als grober Anhaltspunkt zu verstehen. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Für ein Gebrauchtpreis-Äquivalent der 1016 fand sich kein belastbarer Wert. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
-   "w": "Die Ziffern 3, 6 und 9 und eine bewusst schlichte Form entstanden 1953, im Jahr der Erstbesteigung des Mount Everest."
+   "w": "Die Ziffern 3, 6 und 9 und eine bewusst schlichte Form entstanden 1953, im Jahr der Erstbesteigung des Mount Everest.",
+   "var": [
+    {
+     "n": "Ref. 214270 (39 mm)",
+     "y": "2010–2021",
+     "v": {
+      "img": "assets/watches/rolex-explorer-214270.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "sea-dweller",
@@ -5424,7 +5433,8 @@
     "bezel": "cities",
     "markers": "none",
     "hands": "dauphine",
-    "strap": "leather"
+    "strap": "leather",
+    "img": "assets/watches/patek-philippe-world-time-5230.jpg"
    },
    "m": [
     "Städtering mit 24 Städten",
@@ -5546,7 +5556,8 @@
     "date": "3",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "hands": "dauphine"
+    "hands": "dauphine",
+    "img": "assets/watches/patek-philippe-annual-calendar-5205.jpg"
    },
    "m": [
     "Wochentag, Datum und Monat",
@@ -6171,7 +6182,8 @@
     "strap": "leather",
     "strapColor": "#1d2433",
     "date": "3",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/audemars-piguet-code-11-59.jpg"
    },
    "m": [
     "Rundes Gehäuse mit achteckigem Mittelteil",
@@ -18905,7 +18917,8 @@
     "markers": "baton",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#2a1a10"
+    "strapColor": "#2a1a10",
+    "img": "assets/watches/patek-philippe-golden-ellipse.jpg"
    },
    "m": [
     "Ovales Gehäuse",
@@ -19016,7 +19029,8 @@
     "hands": "sword",
     "strap": "integrated",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/patek-philippe-twenty4.jpg"
    },
    "m": [
     "Gliederband mit integrierten Anstößen",
@@ -19124,7 +19138,8 @@
     "hands": "dauphine",
     "pushers": true,
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/patek-philippe-perpetual-calendar-chronograph.jpg"
    },
    "m": [
     "Chronograph und ewiger Kalender",
@@ -19230,7 +19245,8 @@
     "strap": "leather",
     "strapColor": "#2a1a10",
     "crown": "onion",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/patek-philippe-pilot-travel-time.jpg"
    },
    "m": [
     "Fliegerzifferblatt",
@@ -19338,7 +19354,8 @@
     "strap": "rubber",
     "strapColor": "#2a2c30",
     "ro": true,
-    "crown": "hex"
+    "crown": "hex",
+    "img": "assets/watches/audemars-piguet-royal-oak-concept.jpg"
    },
    "m": [
     "Skelettiertes Zifferblatt",
