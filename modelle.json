@@ -27581,7 +27581,8 @@
     "hands": "baton",
     "strap": "rubber",
     "strapColor": "#2a2c30",
-    "shape": "round"
+    "shape": "round",
+    "img": "assets/watches/ulysse-nardin-freak.jpg"
    },
    "m": [
     "Keine Zeiger",
@@ -27687,7 +27688,8 @@
     "bezelColor": "#17191d",
     "strap": "rubber",
     "strapColor": "#17191d",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/zodiac-sea-wolf.jpg"
    },
    "m": [
     "Drehbare Lünette",
@@ -27778,7 +27780,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "sub": "small6"
+    "sub": "small6",
+    "img": "assets/watches/frederique-constant-slimline.jpg"
    },
    "m": [
     "Schlankes Gehäuse",
@@ -27858,7 +27861,8 @@
     "strap": "santos",
     "case": "steel",
     "date": "6",
-    "brandDy": -3
+    "brandDy": -3,
+    "img": "assets/watches/cartier-santos-100.jpg"
    },
    "m": [
     "Sichtbare Schrauben",
@@ -27956,7 +27960,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/tissot-visodate.jpg"
    },
    "m": [
     "Vintage-Optik",
@@ -28038,7 +28043,8 @@
    "a": [],
    "v": {
     "shape": "gshock",
-    "caseColor": "#8a8f95"
+    "caseColor": "#8a8f95",
+    "img": "assets/watches/casio-ca53w.jpg"
    },
    "m": [
     "Eingebauter Rechner",
