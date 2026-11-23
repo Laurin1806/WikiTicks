@@ -18596,7 +18596,7 @@
     "n": "Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 5.350 und 8.050 EUR; ein Listenpreis aus der Bauzeit war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
    },
    "lume": {
-    "z": "IH",
+    "z": "",
     "c": "b"
    }
   },
@@ -28974,11 +28974,16 @@
   }
  ],
  "lumeMasks": [
+  "rolex-air-king-126900-black.jpg",
+  "rolex-datejust-126234-blue.jpg",
   "rolex-deepsea-136660-d-blue.jpg",
   "rolex-explorer-124270.jpg",
   "rolex-gmt-master-2-126710-pepsi.jpg",
+  "rolex-milgauss-116400gv-black.jpg",
   "rolex-sea-dweller-126600.jpg",
+  "rolex-sky-dweller-336934-blue.jpg",
   "rolex-submariner-126610ln.jpg",
+  "rolex-turn-o-graph-116264-black.jpg",
   "rolex-yacht-master-126622-slate.jpg"
  ]
 }

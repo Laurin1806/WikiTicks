@@ -52,7 +52,8 @@ def analyse(L,hub,a,R,thr):
         if d-last>4 and d>R*.25: break
         seq.append((d,p));last=d
     widths=np.array([p[1]-p[0]+1 for d,p in seq]);return seq,float(np.median(widths)),seq[-1][0]
-def hand_shapes(L,hub,R,thr=150,inset=.28,minw=6,mercedes=True,second=True,log=None,hour_style=None):
+def hand_shapes(L,hub,R,thr=150,inset=.28,minw=6,mercedes=True,second=True,log=None,hour_style=None,force=None,nounder=False):
+    pass
     dirs=find_dirs(L,hub,R,thr);cand=[]
     for a,s in dirs:
         a=refine(L,hub,a,R,thr);r=analyse(L,hub,a,R,thr)
@@ -61,6 +62,13 @@ def hand_shapes(L,hub,R,thr=150,inset=.28,minw=6,mercedes=True,second=True,log=N
         if any(abs(((a-c[0])+180)%360-180)<5 for c in cand): continue
         cand.append((a,seq,med,dmax))
     mains=sorted([c for c in cand if c[2]>=minw and c[3]>R*.45],key=lambda c:-c[3])
+    if force:
+        for role,fa in force.items():
+            fa=refine(L,hub,fa,R,thr);r_=analyse(L,hub,fa,R,thr)
+            if not r_: continue
+            mains=[c for c in mains if abs(((c[0]-fa)+180)%360-180)>6]
+            if role=='min': mains.insert(0,(fa,)+r_)
+            else: mains.insert(min(1,len(mains)),(fa,)+r_)
     secs=sorted([c for c in cand if c[2]<minw],key=lambda c:-c[3])
     shapes=[];info=[];hands=[]
     if mains: hands.append(('min',mains[0]))
@@ -77,7 +85,7 @@ def hand_shapes(L,hub,R,thr=150,inset=.28,minw=6,mercedes=True,second=True,log=N
         circ=[(d,p) for d,p in seq if p[1]-p[0]+1>med*1.7 and d>R*.25]
         if role=='min':
             # Verbreiterung am Ende = darunterliegender Index
-            if circ and circ[0][0]>dmax*.8:
+            if circ and circ[0][0]>dmax*.8 and not nounder:
                 cd=(circ[0][0]+circ[-1][0])/2;cr=max(p[1]-p[0]+1 for _,p in circ)/2
                 shapes.append({'t':'circle','c':[hub[0]+cd*math.sin(t),hub[1]-cd*math.cos(t)],'r':cr*.95,'under':True})
                 endd=circ[0][0]-2
@@ -105,11 +113,9 @@ def hand_shapes(L,hub,R,thr=150,inset=.28,minw=6,mercedes=True,second=True,log=N
         else:
             body=[(d,p) for d,p in seq if d>dmax*.22]
         if len(body)<5: continue
-        ww=[];offs=[]
-        for d,p in body:
-            wd=p[1]-p[0]+1;ww.append([d,max(0,wd*(1-2*inset))]);offs.append((p[0]+p[1])/2)
-        ww[0][1]*=.6;ww[-1][1]=0
-        if len(ww)>3: ww[-2][1]*=.5
-        shapes.append({'t':'sword','ang':a,'off':float(np.median(offs)),'w':ww[::max(1,len(ww)//10)]+[ww[-1]]})
+        wds=np.array([p[1]-p[0]+1 for d,p in body],float);offs=[(p[0]+p[1])/2 for d,p in body]
+        wm=float(np.median(wds))*(1-2*inset);d0=body[0][0];d1=body[-1][0];span=d1-d0
+        ww=[[d0,wm*.55],[d0+span*.08,wm],[d0+span*.8,wm],[d0+span*.93,wm*.55],[d1,0]]
+        shapes.append({'t':'sword','ang':a,'off':float(np.median(offs)),'w':ww})
     if log is not None: log.extend(info)
     return shapes,dirs

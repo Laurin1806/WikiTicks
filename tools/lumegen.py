@@ -23,6 +23,8 @@ def gen(img, spec):
     yy,xx=np.mgrid[0:h,0:w];inside=np.hypot(xx-cx,yy-cy)<=r
     m=inside&(L>=spec.get('thr',175))&(S<=spec.get('sat',70))
     for x0,y0,x1,y1 in spec.get('ex',[]): m[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]=False
+    if 'exr' in spec:
+        hx0,hy0=spec['hub'];rd=np.hypot(xx-hx0,yy-hy0);m&=~((rd>=spec['exr'][0])&(rd<=spec['exr'][1]))
     k=spec.get('open',0)
     if k: m=np.array(Image.fromarray((m*255).astype(np.uint8)).filter(ImageFilter.MinFilter(k)).filter(ImageFilter.MaxFilter(k)))>127
     keep=np.zeros((h,w),bool);minA=spec.get('min',.0004)*w*w
@@ -54,7 +56,7 @@ def gen(img, spec):
     lg=[]
     if spec.get('autohands'):
         import autohands
-        lg=[];shs,_=autohands.hand_shapes(L,spec['hub'],spec.get('R',r),thr=spec.get('hthr',150),inset=spec.get('inset',.28),log=lg)
+        lg=[];shs,_=autohands.hand_shapes(L,spec['hub'],spec.get('R',r),thr=spec.get('hthr',150),inset=spec.get('inset',.28),second=spec.get('sec',True),force=spec.get('force'),mercedes=spec.get('merc',True),nounder=spec.get('nounder',False),log=lg)
         spec=dict(spec);spec['shapes']=shs+spec.get('shapes',[]);print('Zeiger',lg)
         # automatisch übernommene Flächen entlang der Zeigerachsen entfernen (Zeiger nur über die Leuchtformen)
         hx,hy=spec['hub']
@@ -134,6 +136,23 @@ def gen(img, spec):
     keep|=shp|(und&~np.array(Image.fromarray((handm*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)))>0)
     for x0,y0,x1,y1 in spec.get('add',[]): # zusätzlich zu übernehmende Bereiche (alles Helle darin)
         sub=(L>=spec.get('thr',175)-40)&(S<=spec.get('sat',70)+10);keep[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]|=sub[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]
+    # Balkenindizes: Leuchtmasse nur als Mittelstreifen (Rand nach innen versetzt)
+    if spec.get('idxinset'):
+        ins=spec['idxinset'];hub0=spec.get('hub');new=np.zeros_like(keep);from PIL import ImageDraw as _ID
+        im2=Image.new('L',(w*4,h*4),0);d2=_ID.Draw(im2)
+        for c in comps(keep.copy()):
+            cy_,cx_=c[:,0].mean(),c[:,1].mean()
+            if hub0 and math.hypot(cx_-hub0[0],cy_-hub0[1])<spec.get('R',r)*.5: new[c[:,0],c[:,1]]=True;continue
+            dy_,dx_=c[:,0]-cy_,c[:,1]-cx_
+            if len(c)<6: continue
+            ev,evec=np.linalg.eigh(np.cov(np.vstack([dx_,dy_])));v=evec[:,1];u=np.array([-v[1],v[0]])
+            pa=dx_*v[0]+dy_*v[1];pb=dx_*u[0]+dy_*u[1]
+            L_=pa.max()-pa.min();W_=pb.max()-pb.min()
+            if L_<W_*1.6: new[c[:,0],c[:,1]]=True;continue   # runde Indizes/Ziffern unverändert
+            ca=(pa.max()+pa.min())/2;cb=(pb.max()+pb.min())/2;l2=L_*(1-ins)/2;w2=W_*(1-2*ins)/2
+            pts=[(cx_+(ca+sa*l2)*v[0]+(cb+sb*w2)*u[0],cy_+(ca+sa*l2)*v[1]+(cb+sb*w2)*u[1]) for sa,sb in((-1,-1),(1,-1),(1,1),(-1,1))]
+            d2.polygon([(x*4,y*4) for x,y in pts],fill=255)
+        keep=new|(np.array(im2.resize((w,h),Image.LANCZOS))>110)
     # Kanten glätten
     mk=Image.fromarray((keep*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(.7))
     col=(185,232,255) if spec.get('col','g')=='b' else (175,255,205)
