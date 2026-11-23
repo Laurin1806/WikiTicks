@@ -607,7 +607,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112413"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112416"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1613,42 +1613,53 @@ function nightPrep(img) {
           if (qt > N * .02 && qt < N * .35 && (!best || qt > best.n)) best = { n: qt, p: q.slice(0, qt) }; }
         if (best) for (let t = 0; t < best.n; t++) keep[best.p[t]] = 1;
       } else {
-        let dsum = 0, dn = 0;
-        for (let j = ccy - cr; j <= ccy + cr; j++) for (let i = ccx - cr; i <= ccx + cr; i++) { if (i < 0 || j < 0 || i >= w || j >= h) continue; const k = j * w + i; if (L[k] < 200) { dsum += L[k]; dn++; } }
-        const darkDial = dn > cr * cr && dsum / dn < 150;
-        const cand = new Uint8Array(N);
-        const minA = Math.max(40, Math.round(h * h * .0002)), seen = new Uint8Array(N), q = new Int32Array(N), RING = Math.max(4, Math.round(h * .009)), comps = [];
-        const scan = thr => {
-        comps.length = 0; cand.fill(0); seen.fill(0);
-        for (let k = 0; k < N; k++) if (!bg[k] && L[k] >= thr && S[k] <= 60) cand[k] = 1;
-        for (let k0 = 0; k0 < N; k0++) {
-          if (!cand[k0] || seen[k0]) continue;
-          let qh = 0, qt = 0; q[qt++] = k0; seen[k0] = 1; let bx0 = w, bx1 = 0, by0 = h, by1 = 0, sx = 0, sy = 0;
-          while (qh < qt) { const i = q[qh++], px = i % w, py = (i / w) | 0; sx += px; sy += py; if (px < bx0) bx0 = px; if (px > bx1) bx1 = px; if (py < by0) by0 = py; if (py > by1) by1 = py;
-            for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && cand[n] && !seen[n]) { seen[n] = 1; q[qt++] = n; } }
-          if (qt < minA) continue;
-          const ox = Math.max(0, bx0 - RING), oy = Math.max(0, by0 - RING), ow = Math.min(w, bx1 + RING + 1) - ox, oh = Math.min(h, by1 + RING + 1) - oy;
-          const m = new Uint8Array(ow * oh); for (let t = 0; t < qt; t++) { const i = q[t]; m[(((i / w) | 0) - oy) * ow + (i % w - ox)] = 1; }
-          let dil = m; for (let r = 0; r < RING; r++) { const nx = dil.slice(); for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i]) { for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const jj = j + dj, ii = i + di; if (jj >= 0 && ii >= 0 && jj < oh && ii < ow) nx[jj * ow + ii] = 1; } } dil = nx; }
-          let rs = 0, rn = 0; for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i] && !m[j * ow + i]) { rs += L[(oy + j) * w + ox + i]; rn++; }
-          if (rn && rs / rn < 105) comps.push({ pts: q.slice(0, qt), n: qt, cx: sx / qt, cy: sy / qt, bw: bx1 - bx0 + 1, bh: by1 - by0 + 1 });
-        }
+        let dsum = 0, dn = 0, asum = 0, an = 0;
+        for (let j = ccy - cr; j <= ccy + cr; j++) for (let i = ccx - cr; i <= ccx + cr; i++) { if (i < 0 || j < 0 || i >= w || j >= h) continue; const k = j * w + i; asum += L[k]; an++; if (L[k] < 200) { dsum += L[k]; dn++; } }
+        const dialMean = an ? asum / an : 128, darkDial = dialMean < 135;
+        const cand = new Uint8Array(N), seen = new Uint8Array(N), q = new Int32Array(N), RING = Math.max(4, Math.round(h * .009)), minA = Math.max(40, Math.round(h * h * .0002));
+        let comps = [];
+        // eine Helligkeitsschwelle abtasten; bei dunklem Zifferblatt: Fläche muss rundum von Dunkel umgeben sein, bei hellem: deutlich heller als die Umgebung
+        const scan = (thr, light) => {
+          const found = []; cand.fill(0); seen.fill(0);
+          for (let k = 0; k < N; k++) if (!bg[k] && L[k] >= thr && S[k] <= (light ? 38 : 60)) cand[k] = 1;
+          for (let k0 = 0; k0 < N; k0++) {
+            if (!cand[k0] || seen[k0]) continue;
+            let qh = 0, qt = 0; q[qt++] = k0; seen[k0] = 1; let bx0 = w, bx1 = 0, by0 = h, by1 = 0, sx = 0, sy = 0, ls = 0;
+            while (qh < qt) { const i = q[qh++], px = i % w, py = (i / w) | 0; sx += px; sy += py; ls += L[i]; if (px < bx0) bx0 = px; if (px > bx1) bx1 = px; if (py < by0) by0 = py; if (py > by1) by1 = py;
+              for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && cand[n] && !seen[n]) { seen[n] = 1; q[qt++] = n; } }
+            if (qt < minA) continue;
+            const ox = Math.max(0, bx0 - RING), oy = Math.max(0, by0 - RING), ow = Math.min(w, bx1 + RING + 1) - ox, oh = Math.min(h, by1 + RING + 1) - oy;
+            const m = new Uint8Array(ow * oh); for (let t = 0; t < qt; t++) { const i = q[t]; m[(((i / w) | 0) - oy) * ow + (i % w - ox)] = 1; }
+            let dil = m; for (let r = 0; r < RING; r++) { const nx = dil.slice(); for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i]) { for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const jj = j + dj, ii = i + di; if (jj >= 0 && ii >= 0 && jj < oh && ii < ow) nx[jj * ow + ii] = 1; } } dil = nx; }
+            let rs = 0, rn = 0; for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i] && !m[j * ow + i]) { rs += L[(oy + j) * w + ox + i]; rn++; }
+            const ringM = rn ? rs / rn : 255, selfM = ls / qt;
+            if (light ? ringM < selfM - 22 : ringM < 105) found.push({ pts: q.slice(0, qt), n: qt, cx: sx / qt, cy: sy / qt, bw: bx1 - bx0 + 1, bh: by1 - by0 + 1 });
+          }
+          return found;
         };
-        // große helle Scheiben (Hilfszifferblätter, Datumsfenster) sind keine Leuchtmasse – Zeiger (am Mittelpunkt) bleiben erlaubt
-        const dropDiscs = () => {
+        // mehrere Schwellen vereinigen, damit auch schwächer helle Indizes und Zeiger vollständig erfasst werden
+        const seenPx = new Uint8Array(N);
+        const addAll = list => { for (const c of list) { let fresh = 0; for (let t = 0; t < c.n; t++) if (!seenPx[c.pts[t]]) fresh++; if (fresh > c.n * .5) { comps.push(c); for (let t = 0; t < c.n; t++) seenPx[c.pts[t]] = 1; } } };
+        if (darkDial) for (const thr of [205, 185, 165, 145, 125]) addAll(scan(thr, false));
+        else for (const thr of [Math.max(222, dialMean + 18), Math.max(236, dialMean + 30)]) addAll(scan(thr, true));
+        // große Scheiben (Hilfszifferblätter, Datumsfenster, Zifferblattflächen) sind keine Leuchtmasse – Zeiger (am Mittelpunkt) bleiben erlaubt
+        {
           const lim = N * .0032; let tx = 0, ty = 0, tt = 0; for (const c of comps) if (c.n <= lim) { tx += c.cx * c.n; ty += c.cy * c.n; tt += c.n; }
           const gx = tt ? tx / tt : w / 2, gy = tt ? ty / tt : h / 2;
-          for (let ci = comps.length - 1; ci >= 0; ci--) { const c = comps[ci]; if (c.n > lim) { let nearC = false; for (let t = 0; t < c.n && !nearC; t++) { const i = c.pts[t]; if (Math.hypot(i % w - gx, ((i / w) | 0) - gy) < h * .03) nearC = true; } if (!nearC || c.n > N * .02) comps.splice(ci, 1); } }
-        };
-        if (darkDial) for (const thr of [205, 185, 165, 145, 125]) { scan(thr); dropDiscs(); if (comps.length >= 8) break; }
+          comps = comps.filter(c => { if (c.n <= lim) return true; if (c.n > N * .02) return false; for (let t = 0; t < c.n; t++) { const i = c.pts[t]; if (Math.hypot(i % w - gx, ((i / w) | 0) - gy) < h * .03) return true; } return false; });
+        }
+        const lightMode = !darkDial;
         if (comps.length) {
           // Mittelpunkt = Schwerpunkt aller gefundenen Flächen; Gehäuseradius = Abstand zur linken Gehäusekante (rechts sitzt die Krone)
           let mx = 0, my = 0, tn = 0; for (const c of comps) { mx += c.cx * c.n; my += c.cy * c.n; tn += c.n; } mx /= tn; my /= tn;
           let left = w; for (let j = Math.round(my - h * .03); j <= Math.round(my + h * .03); j++) for (let i = 0; i < w; i++) if (!bg[j * w + i]) { if (i < left) left = i; break; }
-          const Rl = Math.max(10, mx - left), sr = Rl * .78, subC = { chrono3: [90, 180, 270], chrono2: [90, 270], small6: [180], small9: [270], small3: [90] }[sub] || [];
+          if (lightMode) { mx = ccx; my = ccy; left = x0; } // helle Zifferblätter: Mittelpunkt aus der Bildform (Treffer wären unzuverlässig)
+          const Rl = Math.max(10, lightMode ? (x1 - x0) * .44 : mx - left), sr = Rl * .78, subC = { chrono3: [90, 180, 270], chrono2: [90, 270], small6: [180], small9: [270], small3: [90] }[sub] || [];
           const inSub = (px, py) => subC.some(a => { const ang = a * Math.PI / 180, sx = mx + Math.sin(ang) * sr * .48, sy = my - Math.cos(ang) * sr * .48; return Math.hypot(px - sx, py - sy) < sr * .27; });
           for (const c of comps) {
             const r = Math.hypot(c.cx - mx, c.cy - my) / Rl; let touch = false;
+            if (r > 1.25 || (lightMode && r > .74)) continue; // Armband, Krone, Reflexe
+            if (lightMode) { const fill = c.n / (c.bw * c.bh); if ((c.bw > Rl * .2 && c.bh > Rl * .2 && fill > .55) || c.n > Rl * Rl * .02) continue; }
             for (let t = 0; t < c.n && !touch; t++) { const i = c.pts[t]; if (Math.hypot(i % w - mx, ((i / w) | 0) - my) < Rl * .13) touch = true; }
             let zone;
             if (touch) zone = "H";
