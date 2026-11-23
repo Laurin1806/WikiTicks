@@ -215,11 +215,11 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 .wimg-wrap { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
 .thumb .wimg-wrap, .daily-fig .wimg-wrap { height: 100%; }
 .daily-fig .wimg-wrap { height: auto; }
-canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); pointer-events: none; opacity: 0; transition: opacity .6s ease; }
+canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); pointer-events: none; opacity: 0; transition: opacity 1.6s ease; }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { visibility: hidden; }
 :root.night canvas.wcut { opacity: 1; }
 :root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 1.5px rgba(var(--lc1), 1)) drop-shadow(0 0 5px rgba(var(--lc2), .85)) drop-shadow(0 0 11px rgba(var(--lc3), .42)); animation: lumepulse 6s ease-in-out infinite; }
-img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity .6s ease; }
+img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity 1.8s ease .3s; }
 :root.night img.wlume-img { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 1.5px rgba(var(--lc1), 1)) drop-shadow(0 0 5px rgba(var(--lc2), .85)) drop-shadow(0 0 11px rgba(var(--lc3), .42)); animation: lumepulse 6s ease-in-out infinite; }
 @media (prefers-reduced-motion: reduce) { :root.night img.wlume-img { animation: none; } }
 .wimg-wrap { --lc1: 130,255,180; --lc2: 80,255,150; --lc3: 60,230,130; }
@@ -234,6 +234,10 @@ img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; wid
 :root.night .card:hover, :root.night a.watchfig:hover, :root.night .daily-fig:hover, :root.night .fcard:hover, :root.night .browse a:hover { border-color: var(--accent); box-shadow: 0 0 0 1px var(--glow), 0 0 18px var(--glow), 0 0 42px color-mix(in srgb, var(--accent) 22%, transparent); }
 :root.night nav a[aria-current="true"] { box-shadow: 0 0 12px var(--glow), 0 0 28px color-mix(in srgb, var(--accent) 25%, transparent); }
 :root.night nav a:hover { box-shadow: 0 0 10px color-mix(in srgb, var(--accent) 35%, transparent); }
+/* Sanfter Wechsel zwischen Tag- und Nachtmodus (nur während des Umschaltens aktiv) */
+:root.theme-fade, :root.theme-fade *, :root.theme-fade *::before, :root.theme-fade *::after { transition: background-color 1.4s ease, color 1.4s ease, border-color 1.4s ease, box-shadow 1.4s ease, fill 1.4s ease, stroke 1.4s ease, filter 1.4s ease, opacity 1.4s ease !important; }
+@media (prefers-reduced-motion: reduce) { :root.theme-fade, :root.theme-fade * { transition: none !important; } }
+.moon .mp-moons { transform-box: view-box; transform-origin: 30px 27px; }
 .night-box + .accent-box { margin-top: 16px; }
 .nightbtn { display: inline-flex; align-items: center; gap: 11px; font: 600 13px/1.15 var(--font-body); padding: 7px 16px 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-align: left; transition: border-color .2s, box-shadow .3s, background .3s; }
 .nightbtn:hover { border-color: var(--accent); }
@@ -628,7 +632,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112454"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112455"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1836,14 +1840,22 @@ function drawMoonBtn() {
   b.title = `Heute: ${m.name}, ${Math.round(m.k * 100)} % beleuchtet`;
 }
 drawMoonBtn(); setInterval(drawMoonBtn, 30 * 60 * 1000);
-function setNight(on, save = true) {
-  document.documentElement.classList.toggle("night", on);
+let fadeT = 0;
+function setNight(on, save = true, anim = false) {
+  const root = document.documentElement, reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (anim && !reduce) {
+    root.classList.add("theme-fade"); clearTimeout(fadeT); fadeT = setTimeout(() => root.classList.remove("theme-fade"), 1700);
+    // Mond wandert beim Umschalten einmal herum: verschwindet zur Seite und kommt von der anderen Seite zurück
+    const mg = document.querySelector("#nightbtn .mp-moons");
+    if (mg && mg.animate) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 1500, easing: "cubic-bezier(.55,.05,.35,1)" });
+  }
+  root.classList.toggle("night", on);
   const b = document.getElementById("nightbtn");
   if (b) { b.setAttribute("aria-pressed", on); b.querySelector(".nl").textContent = on ? "Tagmodus" : "Nachtmodus"; }
   if (save) try { localStorage.setItem("wikiticks-night", on ? "1" : "0"); } catch (e) {}
   nightApply();
 }
-document.getElementById("nightbtn").addEventListener("click", () => setNight(!document.documentElement.classList.contains("night")));
+document.getElementById("nightbtn").addEventListener("click", () => setNight(!document.documentElement.classList.contains("night"), true, true));
 document.addEventListener("load", ev => { if (ev.target && ev.target.matches && ev.target.matches("img.wimg") && document.documentElement.classList.contains("night")) nightPrep(ev.target); }, true);
 try { if (localStorage.getItem("wikiticks-night") === "1") setNight(true, false); } catch (e) {}
 
