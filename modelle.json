@@ -17288,6 +17288,2190 @@
     ]
    ],
    "w": "Rundes, poliertes Gehäuse und Stabindizes: eine schlichte, klassische Dresswatch."
+  },
+  {
+   "id": "cellini",
+   "t": "Rolex Cellini",
+   "brand": "Rolex",
+   "since": "1970er",
+   "s": "Die elegante Dresswatch von Rolex in Gold, benannt nach dem italienischen Goldschmied Benvenuto Cellini.",
+   "b": [
+    "Die Cellini war die klassische Dresswatch von Rolex. Sie erschien in den 1970er-Jahren und trägt den Namen des Florentiner Goldschmieds Benvenuto Cellini. Anders als die Sportmodelle der Marke gab es sie fast nur in Gold oder Weißgold, mit Lederband und schlichtem, flachem Gehäuse.",
+    "Die Linie bestand aus mehreren Gehäuseformen und Komplikationen, bis hin zu Mondphase (2014) und Zweitzeitzone. Mit der Perpetual 1908 löste Rolex die Cellini 2023 ab. Gebrauchte Cellini sind bei Sammlern beliebt, weil sie eine ruhigere Seite der Marke zeigen."
+   ],
+   "cur": "Cellini Time, Date und Moonphase (bis 2023)",
+   "f": [
+    [
+     "Gehäuse",
+     "32–39 mm, Gold"
+    ],
+    [
+     "Kaliber",
+     "3132, 3165, 3195 (Automatik, je nach Modell)"
+    ],
+    [
+     "Band",
+     "Leder"
+    ],
+    [
+     "Besonderheit",
+     "Mondphase (2014), Zweitzeitzone"
+    ]
+   ],
+   "refs": [
+    [
+     "Cellini (frühe Serien)",
+     "1970er–2000er",
+     "versch.",
+     "Handaufzug / Quarz",
+     "Dresswatch in Gold"
+    ],
+    [
+     "Cellini Time / Date",
+     "2014–2023",
+     "39 mm",
+     "3132 / 3165",
+     "Neue Generation"
+    ],
+    [
+     "Cellini Moonphase",
+     "2014–2023",
+     "39 mm",
+     "3195",
+     "Mit Mondphase"
+    ]
+   ],
+   "r": [
+    "perpetual-1908",
+    "calatrava",
+    "day-date"
+   ],
+   "k": "Die Cellini wurde in den 1970ern als Gegenstück zu den Sportuhren der Marke entwickelt und 2023 durch die Perpetual 1908 ersetzt.",
+   "a": [],
+   "v": {
+    "case": "gold",
+    "dial": "#f3efe4",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "date": "3"
+   },
+   "m": [
+    "Fast immer in Gold",
+    "Lederband",
+    "Schlichtes, flaches Zifferblatt"
+   ],
+   "tipp": [
+    "Gebrauchte Cellini sind oft günstiger als vergleichbare Patek- oder Vacheron-Dresswatches.",
+    "Rolex-typischer Wiederverkaufswert ist bei Gold geringer als bei Stahlsportmodellen."
+   ],
+   "x": [
+    "Der Name erinnert an den Goldschmied Benvenuto Cellini aus dem 16. Jahrhundert.",
+    "Die Cellini war nie eine Sportuhr, sondern bewusst das elegante Gegenstück.",
+    "Mit dem Ende der Cellini 2023 wurde die Dresswatch-Linie der Marke neu aufgestellt."
+   ],
+   "ev": [
+    [
+     "1970er",
+     "Erste Cellini"
+    ],
+    [
+     "2014",
+     "Neue Generation mit Mondphase"
+    ],
+    [
+     "2023",
+     "Ablösung durch die Perpetual 1908"
+    ]
+   ],
+   "w": "Eine goldene Rolex ohne Sportcharakter: schlicht, flach und für den Anzug gedacht."
+  },
+  {
+   "id": "oysterquartz",
+   "t": "Rolex Oysterquartz",
+   "brand": "Rolex",
+   "since": "1977",
+   "s": "Die Quarz-Rolex mit kantigem Gehäuse und integriertem Band, gebaut von 1977 bis 2001.",
+   "b": [
+    "Als die Quarzuhr Ende der 1970er-Jahre die Schweizer Uhrenindustrie bedrängte, antwortete Rolex mit der Oysterquartz. Sie erschien 1977 mit einem eigens entwickelten Quarzwerk (Kaliber 5035 mit Datum, 5055 mit Wochentag) und blieb bis 2001 im Programm.",
+    "Charakteristisch sind das kantige Gehäuse mit Lünette im Stil der 1970er und das fest integrierte Gliederband. Die Uhr wurde als Datejust (Ref. 17000) und als Day-Date (Ref. 19018) angeboten. Heute ist die Oysterquartz bei Sammlern gefragt, weil sie die Quarzära aus Sicht eines Luxushauses zeigt."
+   ],
+   "cur": "Oysterquartz Datejust (Ref. 17000)",
+   "f": [
+    [
+     "Gehäuse",
+     "36 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "5035 / 5055 (Quarz)"
+    ],
+    [
+     "Genauigkeit",
+     "Chronometer-zertifiziert"
+    ],
+    [
+     "Band",
+     "Integriertes Gliederband"
+    ]
+   ],
+   "refs": [
+    [
+     "17000",
+     "1977–2001",
+     "36 mm",
+     "5035",
+     "Datejust, Edelstahl"
+    ],
+    [
+     "19018",
+     "1978–2001",
+     "36 mm",
+     "5055",
+     "Day-Date, Gelbgold"
+    ],
+    [
+     "17013",
+     "1980er",
+     "36 mm",
+     "5035",
+     "Edelstahl-Gold"
+    ]
+   ],
+   "r": [
+    "datejust",
+    "day-date",
+    "quarzkrise"
+   ],
+   "k": "Rolex gehörte zu den Schweizer Herstellern, die am Quarzprojekt des Forschungsinstituts CEH (Beta 21) beteiligt waren.",
+   "a": [],
+   "v": {
+    "dial": "#1b1e24",
+    "markers": "baton",
+    "hands": "baton",
+    "date": "cyclops",
+    "strap": "integrated"
+   },
+   "m": [
+    "Kantiges Gehäuse",
+    "Integriertes Band",
+    "Quarzwerk mit Chronometer-Zertifikat"
+   ],
+   "tipp": [
+    "Der Service ist teuer und Teile sind knapp.",
+    "Zustand von Gehäuse und Band bestimmen den Wert."
+   ],
+   "x": [
+    "Das Quarzwerk 5035 ist ein Chronometerwerk mit Zertifikat.",
+    "Die Oysterquartz war eine der letzten Rolex-Uhren mit Quarzwerk.",
+    "Sie war bei Erscheinen sehr teuer."
+   ],
+   "ev": [
+    [
+     "1977",
+     "Vorstellung der Oysterquartz"
+    ],
+    [
+     "1978",
+     "Day-Date Oysterquartz"
+    ],
+    [
+     "2001",
+     "Ende der Produktion"
+    ]
+   ],
+   "w": "Rolex' Antwort auf die Quarzkrise: kantig, schwer und mit einem selbst entwickelten Quarzwerk."
+  },
+  {
+   "id": "yacht-master-ii",
+   "t": "Rolex Yacht-Master II",
+   "brand": "Rolex",
+   "since": "2007",
+   "s": "Die Regattauhr von Rolex mit programmierbarem Countdown und Ringcommand-Lünette.",
+   "b": [
+    "Die Yacht-Master II erschien 2007 als Regattauhr für Segler. Ihr Herzstück ist ein programmierbarer Countdown-Chronograph, bei dem sich die Startzeit zwischen einer und zehn Minuten wählen lässt. Der Countdown wird über die Ringcommand-Lünette eingestellt.",
+    "Das Gehäuse ist mit 44 Millimetern groß, die Lünette mit blauer Keramik und gelben Akzenten. Gedacht ist die Uhr für Segler, die die Startsequenz einer Regatta exakt messen müssen. Das Werk ist eine Rolex-Eigenentwicklung mit einem mechanischen Speicher."
+   ],
+   "cur": "Yacht-Master II (Ref. 116680)",
+   "f": [
+    [
+     "Gehäuse",
+     "44 mm, Edelstahl, Gold oder Platin"
+    ],
+    [
+     "Funktion",
+     "Regatta-Countdown, Flyback-Chronograph"
+    ],
+    [
+     "Kaliber",
+     "4161 (Automatik)"
+    ],
+    [
+     "Lünette",
+     "Ringcommand, Keramik"
+    ]
+   ],
+   "refs": [
+    [
+     "116680",
+     "2007–heute",
+     "44 mm",
+     "4161",
+     "Stahl, blaue Keramiklünette"
+    ],
+    [
+     "116681",
+     "2007–heute",
+     "44 mm",
+     "4161",
+     "Stahl-Everose"
+    ],
+    [
+     "116688",
+     "2007–heute",
+     "44 mm",
+     "4161",
+     "Gelbgold"
+    ]
+   ],
+   "r": [
+    "yacht-master",
+    "sky-dweller",
+    "chronograph"
+   ],
+   "k": "Die Yacht-Master II hat einen mechanischen Speicher für den Countdown, den Rolex patentieren ließ.",
+   "a": [],
+   "v": {
+    "dial": "#f1f3f6",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "dive",
+    "bezelColor": "#1f4a8a",
+    "sub": "chrono3",
+    "pushers": true,
+    "strap": "oyster"
+   },
+   "m": [
+    "Programmierbarer Countdown",
+    "Ringcommand-Lünette",
+    "Blaue Keramiklünette"
+   ],
+   "tipp": [
+    "Eine komplexe Uhr, deren Handhabung geübt werden will.",
+    "Für Nicht-Segler eher ein Sammlerstück."
+   ],
+   "x": [
+    "Der Countdown lässt sich zwischen eins und zehn Minuten programmieren.",
+    "Die Uhr nutzt Flyback und Countdown.",
+    "Sie war 2007 eine der technisch aufwendigsten Rolex-Sportuhren."
+   ],
+   "ev": [
+    [
+     "2007",
+     "Vorstellung der Yacht-Master II"
+    ]
+   ],
+   "w": "Eine Rolex für Regatten: mit mechanisch programmierbarem Countdown für die Startsequenz."
+  },
+  {
+   "id": "turn-o-graph",
+   "t": "Rolex Turn-O-Graph",
+   "brand": "Rolex",
+   "since": "1953",
+   "s": "Eine der ersten Rolex mit drehbarer Lünette, später als Datejust Turn-O-Graph und »Thunderbird« bekannt.",
+   "b": [
+    "Die Turn-O-Graph erschien 1953 und war etwa zeitgleich mit der Submariner eine der ersten Rolex-Uhren mit drehbarer Lünette. Mit ihr ließ sich die Zeit stoppen, indem man die Lünette auf den Minutenzeiger drehte. Die Uhr wurde mit den Thunderbirds, der Kunstflugstaffel der US Air Force, in Verbindung gebracht und bekam später den Beinamen »Thunderbird«.",
+    "In den folgenden Jahrzehnten erschien sie als Datejust Turn-O-Graph mit Datum und gerillter Drehlünette in Stahl und Gold. Die Linie lief bis in die 2010er-Jahre. Sie bleibt ein Beispiel dafür, wie vielseitig die Datejust-Familie sein kann."
+   ],
+   "cur": "Datejust Turn-O-Graph (bis in die 2010er)",
+   "f": [
+    [
+     "Gehäuse",
+     "36 mm, Edelstahl oder Stahl-Gold"
+    ],
+    [
+     "Lünette",
+     "drehbar, 60 Minuten"
+    ],
+    [
+     "Kaliber",
+     "3135"
+    ],
+    [
+     "Besonderheit",
+     "Beiname »Thunderbird«"
+    ]
+   ],
+   "refs": [
+    [
+     "6202",
+     "1953–1950er",
+     "36 mm",
+     "1030",
+     "Erste Turn-O-Graph"
+    ],
+    [
+     "Datejust Turn-O-Graph",
+     "1980er–2000er",
+     "36 mm",
+     "3135",
+     "Mit Datum"
+    ],
+    [
+     "116264",
+     "2004–2010er",
+     "36 mm",
+     "3135",
+     "Letzte Generation"
+    ]
+   ],
+   "r": [
+    "datejust",
+    "submariner",
+    "luenette"
+   ],
+   "k": "Die Turn-O-Graph bekam ihren Beinamen nach den Thunderbirds, der Kunstflugstaffel der US Air Force.",
+   "a": [],
+   "v": {
+    "dial": "#1f4a8a",
+    "tex": "sunburst",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "fluted",
+    "date": "cyclops",
+    "strap": "jubilee",
+    "case": "steel"
+   },
+   "m": [
+    "Drehbare Lünette",
+    "Cyclops-Lupe bei späteren Modellen",
+    "Kombination aus Stahl und Gold"
+   ],
+   "tipp": [
+    "Gebrauchte Turn-O-Graph sind günstiger als Submariner oder Daytona."
+   ],
+   "x": [
+    "Die Lünette war ursprünglich als Zeitmesser gedacht.",
+    "Die Thunderbirds trugen die Uhr in den 1950ern.",
+    "Die letzte Version hatte das Kaliber 3135."
+   ],
+   "ev": [
+    [
+     "1953",
+     "Erste Turn-O-Graph"
+    ],
+    [
+     "1958",
+     "Beiname Thunderbird"
+    ],
+    [
+     "2010er",
+     "Einstellung der Linie"
+    ]
+   ],
+   "w": "Rolex mit drehbarer Lünette vor der Submariner, später als Datejust Turn-O-Graph bekannt."
+  },
+  {
+   "id": "rolex-prince",
+   "t": "Rolex Prince",
+   "brand": "Rolex",
+   "since": "1928",
+   "s": "Die rechteckige Rolex mit zwei Zifferblättern, die in den 1930er-Jahren als Prince bekannt wurde.",
+   "b": [
+    "Die Prince erschien 1928 als rechteckige Rolex mit Doppelzifferblatt: Oben saß ein größeres Blatt mit Stunden und Minuten, unten eine kleine Sekunde. Sie wurde zunächst in einem Gehäuse mit Anstößen gebaut und später in einer Version mit gewölbtem Gehäuse.",
+    "In den 1930er- und 40er-Jahren galt sie als eine der elegantesten Rolex-Uhren. Die Brancard-Version mit Bandanstößen und die Art-déco-Ästhetik machten sie zum Sammlerstück. Rolex fertigte sie bis in die 1950er-Jahre."
+   ],
+   "cur": "Prince (Vintage)",
+   "f": [
+    [
+     "Gehäuse",
+     "rechteckig, 18 Karat Gold oder Stahl"
+    ],
+    [
+     "Werk",
+     "Handaufzug, Präzisionswerk"
+    ],
+    [
+     "Zifferblatt",
+     "Doppelzifferblatt mit kleiner Sekunde"
+    ],
+    [
+     "Produktion",
+     "bis in die 1950er-Jahre"
+    ]
+   ],
+   "refs": [
+    [
+     "Prince (frühe Serien)",
+     "1928–1930er",
+     "rechteckig",
+     "Handaufzug",
+     "Doppelzifferblatt"
+    ],
+    [
+     "Prince Brancard",
+     "1930er–1940er",
+     "rechteckig",
+     "Handaufzug",
+     "Mit Bandanstößen"
+    ],
+    [
+     "Prince Railway",
+     "1930er",
+     "rechteckig",
+     "Handaufzug",
+     "Schienen-Minuterie"
+    ]
+   ],
+   "r": [
+    "tank",
+    "reverso",
+    "santos"
+   ],
+   "k": "Die Prince war in den 1930ern eine der teuersten Rolex-Uhren.",
+   "a": [],
+   "v": {
+    "shape": "rect",
+    "case": "gold",
+    "dial": "#f3efe4",
+    "markers": "roman",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Doppelzifferblatt",
+    "Rechteckiges Gehäuse",
+    "Art-déco-Design"
+   ],
+   "tipp": [
+    "Originalzustand und Zifferblatt sind entscheidend.",
+    "Vintage-Prince sind heute selten."
+   ],
+   "x": [
+    "Die Prince gehört zu den frühen Formuhren von Rolex.",
+    "Das Zifferblatt hat zwei Ebenen.",
+    "Die Uhr ist nicht wasserdicht."
+   ],
+   "ev": [
+    [
+     "1928",
+     "Vorstellung der Prince"
+    ],
+    [
+     "1930er",
+     "Brancard-Version"
+    ]
+   ],
+   "w": "Die rechteckige Art-déco-Rolex, bei der Stunden und Sekunde auf getrennten Zifferblättern stehen."
+  },
+  {
+   "id": "daytona-paul-newman",
+   "t": "Rolex Daytona »Paul Newman«",
+   "brand": "Rolex",
+   "since": "1963",
+   "s": "Die Daytona mit Art-déco-Zifferblatt, die durch Schauspieler Paul Newman zur gefragtesten Vintage-Rolex wurde.",
+   "b": [
+    "Als »Paul Newman« bezeichnen Sammler die frühen Cosmograph-Daytona-Modelle mit dem »Exotic Dial«. Dieses Zifferblatt hat Hilfszifferblätter in Kontrastfarbe und Ziffern im Art-déco-Stil. Die Uhren erschienen ab 1963 (Ref. 6239) und wurden damals schlecht verkauft.",
+    "Ihren Beinamen bekamen sie vom Schauspieler Paul Newman, der eine solche Uhr getragen hatte. Seine eigene Ref. 6239 wurde 2017 bei Phillips für rund 17,8 Millionen US-Dollar versteigert und gilt als eine der teuersten Armbanduhren der Welt."
+   ],
+   "cur": "Daytona Paul Newman (Ref. 6239, 6241, 6262, 6264)",
+   "f": [
+    [
+     "Zifferblatt",
+     "Exotic Dial mit Art-déco-Ziffern"
+    ],
+    [
+     "Kaliber",
+     "Valjoux 72 (Handaufzug)"
+    ],
+    [
+     "Gehäuse",
+     "37 mm"
+    ],
+    [
+     "Auktionsrekord",
+     "2017, rund 17,8 Mio. USD"
+    ]
+   ],
+   "refs": [
+    [
+     "6239",
+     "1963–1969",
+     "37 mm",
+     "Valjoux 72",
+     "Erste Daytona"
+    ],
+    [
+     "6241",
+     "1965–1969",
+     "37 mm",
+     "Valjoux 72",
+     "Schwarze Lünette"
+    ],
+    [
+     "6263/6265",
+     "1971–1988",
+     "37 mm",
+     "Valjoux 727",
+     "Mit verschraubten Drückern"
+    ]
+   ],
+   "r": [
+    "daytona",
+    "chronograph",
+    "tachymeter"
+   ],
+   "k": "Die Uhr von Paul Newman wurde 2017 für etwa 17,8 Millionen Dollar versteigert.",
+   "a": [],
+   "v": {
+    "dial": "#f1efe9",
+    "sub": "chrono3",
+    "subColor": "#b9462f",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "leather",
+    "strapColor": "#3a2618",
+    "era": "vintage"
+   },
+   "m": [
+    "Exotic Dial",
+    "Art-déco-Ziffern",
+    "Kontrastfarbene Hilfszifferblätter"
+   ],
+   "tipp": [
+    "Echtheit prüfen: Es gibt viele Fälschungen und Nachlackierungen.",
+    "Preise hängen stark vom Zifferblatt ab."
+   ],
+   "x": [
+    "Der Beiname geht auf Paul Newmans Uhr zurück.",
+    "Die Exotic-Zifferblätter wurden zunächst kaum gekauft.",
+    "Sie gehört zu den teuersten Armbanduhren der Welt."
+   ],
+   "ev": [
+    [
+     "1963",
+     "Vorstellung der Daytona 6239"
+    ],
+    [
+     "2017",
+     "Paul Newmans Uhr erzielt 17,8 Mio. USD"
+    ]
+   ],
+   "w": "Die Daytona mit Art-déco-Zifferblatt, die erst durch Paul Newman berühmt wurde."
+  },
+  {
+   "id": "ploprof",
+   "t": "Omega Seamaster 600 Ploprof",
+   "brand": "Omega",
+   "since": "1970",
+   "s": "Die extreme Omega-Taucheruhr mit markantem Gehäuse, orangefarbenem Entriegelungsknopf und 600 Metern Wasserdichtigkeit.",
+   "b": [
+    "Die Ploprof (»Plongeur Professionnel«) erschien 1970 als Omegas Profi-Taucheruhr. Sie wurde mit der französischen Taucherfirma COMEX entwickelt und war bis 600 Meter wasserdicht. Ungewöhnlich ist das monolithische Gehäuse.",
+    "Der orangefarbene Knopf bei 9 Uhr entriegelt die Drehlünette, die sich nur nach Druck verstellen lässt. Die Krone liegt bei 9 Uhr und ist durch einen Bügel geschützt. 2009 legte Omega die Ploprof neu auf, später mit Master-Chronometer-Werk und 1.200 Metern Wasserdichtigkeit."
+   ],
+   "cur": "Seamaster Planet Ocean Ploprof 1200 M",
+   "f": [
+    [
+     "Wasserdichtigkeit",
+     "600 m (1970), 1.200 m (heute)"
+    ],
+    [
+     "Gehäuse",
+     "55 mm, Edelstahl"
+    ],
+    [
+     "Krone",
+     "bei 9 Uhr, mit Schutz"
+    ],
+    [
+     "Lünette",
+     "mit orangefarbenem Entriegelungsknopf"
+    ]
+   ],
+   "refs": [
+    [
+     "166.077",
+     "1970er",
+     "55 mm",
+     "Cal. 613",
+     "Original"
+    ],
+    [
+     "Ploprof 1200 M",
+     "seit 2009",
+     "55 mm",
+     "Cal. 8500",
+     "Neuauflage"
+    ],
+    [
+     "Ploprof 1200 M Master Chronometer",
+     "seit 2016",
+     "55 mm",
+     "Cal. 8912",
+     "Master Chronometer"
+    ]
+   ],
+   "r": [
+    "seamaster-300m",
+    "planet-ocean",
+    "heliumventil"
+   ],
+   "k": "Die Ploprof wurde zusammen mit der Taucherfirma COMEX entwickelt.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "markers": "baton",
+    "hands": "sword",
+    "bezel": "dive",
+    "bezelColor": "#17191d",
+    "strap": "rubber",
+    "strapColor": "#17191d",
+    "case": "steel",
+    "crownLeft": true
+   },
+   "m": [
+    "Orangefarbener Entriegelungsknopf",
+    "Krone bei 9 Uhr mit Schutz",
+    "Monolithisches Gehäuse"
+   ],
+   "tipp": [
+    "Das Gehäuse ist sehr groß und schwer.",
+    "Die Vintage-Ploprof ist bei Sammlern sehr gefragt."
+   ],
+   "x": [
+    "Ploprof steht für »Plongeur Professionnel«.",
+    "Die Lünette lässt sich nur mit gedrücktem Knopf drehen.",
+    "COMEX war der Partner bei der Entwicklung."
+   ],
+   "ev": [
+    [
+     "1970",
+     "Seamaster 600 Ploprof"
+    ],
+    [
+     "2009",
+     "Neuauflage"
+    ]
+   ],
+   "w": "Eine Taucheruhr für Extreme: orangefarbener Entriegelungsknopf und Krone bei 9 Uhr."
+  },
+  {
+   "id": "flightmaster",
+   "t": "Omega Flightmaster",
+   "brand": "Omega",
+   "since": "1969",
+   "s": "Der Omega-Fliegerchronograph von 1969 mit zweiter Zeitzone und drehbarer Lünette.",
+   "b": [
+    "Die Flightmaster erschien 1969 als Pilotenuhr von Omega. Sie war Teil einer Reihe, die auch die Speedmaster Professional umfasste. Als Chronograph mit Handaufzugskaliber 910 bot sie Stoppfunktion, 24-Stunden-Anzeige und eine drehbare Lünette für eine zweite Zeitzone.",
+    "Die Uhr wurde mit einem großen Gehäuse und einem charakteristischen Zifferblatt in Schwarz gebaut. Sie ist eine der selteneren Omega-Chronographen und war in Pilotenkreisen beliebt. Heute ist die Flightmaster ein Sammlerstück."
+   ],
+   "cur": "Flightmaster (Vintage)",
+   "f": [
+    [
+     "Gehäuse",
+     "43,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "910 / 911"
+    ],
+    [
+     "Funktion",
+     "Chronograph, zweite Zeitzone"
+    ],
+    [
+     "Lünette",
+     "drehbar"
+    ]
+   ],
+   "refs": [
+    [
+     "145.026",
+     "1969–1970er",
+     "43 mm",
+     "910",
+     "Original"
+    ],
+    [
+     "145.026",
+     "1970er",
+     "43 mm",
+     "911",
+     "Variante"
+    ]
+   ],
+   "r": [
+    "speedmaster",
+    "gmt",
+    "fliegeruhr"
+   ],
+   "k": "Die Flightmaster war ein Pilotenmodell der Speedmaster-Familie.",
+   "a": [],
+   "v": {
+    "dial": "#1b1e24",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "baton",
+    "bezel": "gmt2",
+    "pushers": true,
+    "strap": "leather",
+    "strapColor": "#2a2a2a",
+    "era": "vintage"
+   },
+   "m": [
+    "Zwei Zeitzonen",
+    "Handaufzugschronograph",
+    "Großes Gehäuse"
+   ],
+   "tipp": [
+    "Seltener als die Speedmaster.",
+    "Zifferblatt- und Werkzustand entscheiden über den Wert."
+   ],
+   "x": [
+    "Das Kaliber 910 geht auf das Lemania-Chronographenwerk zurück.",
+    "Sie war für Piloten gedacht.",
+    "Die Uhr ist heute selten."
+   ],
+   "ev": [
+    [
+     "1969",
+     "Vorstellung der Flightmaster"
+    ],
+    [
+     "1970er",
+     "Weitere Referenzen"
+    ]
+   ],
+   "w": "Die Pilotenuhr aus dem Haus der Speedmaster: Chronograph mit zweiter Zeitzone."
+  },
+  {
+   "id": "globemaster",
+   "t": "Omega Constellation Globemaster",
+   "brand": "Omega",
+   "since": "2015",
+   "s": "Die erste Uhr mit Master-Chronometer-Zertifikat, erkennbar an der geriffelten Lünette und dem Pie-Pan-Zifferblatt.",
+   "b": [
+    "Die Globemaster erschien 2015 als erste Uhr mit der neuen Master-Chronometer-Zertifizierung. Ihr Design knüpft an die Constellation von 1952 an: ein Pie-Pan-Zifferblatt, eine geriffelte Lünette und einfache Stabindizes.",
+    "Das Werk ist das Kaliber 8900 mit Co-Axial-Hemmung, Silizium-Spirale und 60 Stunden Gangreserve. Die Uhr ist gegen Magnetfelder bis 15.000 Gauß geschützt. Die Globemaster wurde zum Sinnbild des neuen Omega-Qualitätsanspruchs."
+   ],
+   "cur": "Globemaster (Co-Axial Master Chronometer)",
+   "f": [
+    [
+     "Gehäuse",
+     "39 mm, 41 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "8900 / 8901"
+    ],
+    [
+     "Zertifikat",
+     "Master Chronometer (METAS)"
+    ],
+    [
+     "Lünette",
+     "geriffelt"
+    ]
+   ],
+   "refs": [
+    [
+     "Globemaster 39",
+     "seit 2015",
+     "39 mm",
+     "8900",
+     "Pie-Pan-Zifferblatt"
+    ],
+    [
+     "Globemaster 41",
+     "seit 2016",
+     "41 mm",
+     "8900",
+     "Größere Ausführung"
+    ],
+    [
+     "Globemaster Annual Calendar",
+     "seit 2016",
+     "41 mm",
+     "8922",
+     "Jahreskalender"
+    ]
+   ],
+   "r": [
+    "constellation",
+    "master-chronometer",
+    "co-axial"
+   ],
+   "k": "Die Globemaster war 2015 die erste Uhr mit Master-Chronometer-Zertifikat.",
+   "a": [],
+   "v": {
+    "dial": "#d8dadd",
+    "tex": "sunburst",
+    "markers": "baton",
+    "hands": "sword",
+    "bezel": "fluted",
+    "strap": "leather",
+    "strapColor": "#4a2f20",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Geriffelte Lünette",
+    "Pie-Pan-Zifferblatt",
+    "Master Chronometer"
+   ],
+   "tipp": [
+    "Eine gute Wahl für alle, die Antimagnetik und klassisches Design wollen."
+   ],
+   "x": [
+    "Das Zifferblatt ist wie bei der Constellation 1952 abgeschrägt.",
+    "Das Werk 8900 hat 60 Stunden Gangreserve.",
+    "Sie war die erste Uhr mit METAS-Zertifikat."
+   ],
+   "ev": [
+    [
+     "1952",
+     "Constellation (Vorbild)"
+    ],
+    [
+     "2015",
+     "Vorstellung der Globemaster"
+    ]
+   ],
+   "w": "Die erste Master-Chronometer-Uhr: klassisch aussehend, technisch auf dem neuesten Stand."
+  },
+  {
+   "id": "de-ville-tresor",
+   "t": "Omega De Ville Trésor",
+   "brand": "Omega",
+   "since": "2000er",
+   "s": "Die schlichte Handaufzug-Dresswatch von Omega mit gewölbtem Zifferblatt.",
+   "b": [
+    "Die Trésor ist die klassische Dresswatch im Hause Omega. Sie wird von Hand aufgezogen und hat ein flaches Gehäuse, ein leicht gewölbtes Zifferblatt und feine Stabindizes. Gedacht ist sie als Uhr für den Anzug.",
+    "Die Uhr trägt ein Master-Chronometer-Werk und gibt es in Edelstahl und Gold. Sie steht in der Tradition von Omegas Dresswatches der 1950er-Jahre und ist damit eine ruhige Ergänzung zur Speedmaster und Seamaster."
+   ],
+   "cur": "De Ville Trésor (Handaufzug)",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "8926 / 8910 (Handaufzug)"
+    ],
+    [
+     "Gangreserve",
+     "≈ 72 Stunden"
+    ],
+    [
+     "Band",
+     "Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "De Ville Trésor",
+     "2000er–2010er",
+     "40 mm",
+     "versch.",
+     "Erste Generation"
+    ],
+    [
+     "Trésor Master Chronometer",
+     "seit 2017",
+     "40 mm",
+     "8926",
+     "Master Chronometer"
+    ]
+   ],
+   "r": [
+    "aqua-terra",
+    "speedmaster",
+    "calatrava"
+   ],
+   "k": "Die Trésor ist das ruhigste Modell im Omega-Programm.",
+   "a": [],
+   "v": {
+    "dial": "#f1efe9",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Handaufzug",
+    "Gewölbtes Zifferblatt",
+    "Dünnes Gehäuse"
+   ],
+   "tipp": [
+    "Eine elegante Alternative zu Patek oder Vacheron."
+   ],
+   "x": [
+    "Das Werk wird von Hand aufgezogen.",
+    "Die Uhr ist antimagnetisch.",
+    "Sie ist eine Dresswatch im klassischen Format."
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Einführung der Trésor-Linie"
+    ],
+    [
+     "2017",
+     "Master-Chronometer-Version"
+    ]
+   ],
+   "w": "Die ruhige Dresswatch von Omega mit Handaufzug und flachem Gehäuse."
+  },
+  {
+   "id": "dark-side-of-the-moon",
+   "t": "Omega Speedmaster Dark Side of the Moon",
+   "brand": "Omega",
+   "since": "2013",
+   "s": "Die schwarze Speedmaster aus Keramik, benannt nach der Rückseite des Mondes.",
+   "b": [
+    "Die Dark Side of the Moon erschien 2013 und gilt als die erste Uhr mit Gehäuse und Zifferblatt aus schwarzer Keramik. Ihr Name verweist auf die Mondrückseite, die die Menschen erst durch Raumfahrt zu Gesicht bekamen.",
+    "Im Inneren arbeitet das Co-Axial-Kaliber 9300. Das Gehäuse hat 44,25 Millimeter, die Drücker und Krone bestehen aus Keramik und Titan. Die Uhr wurde als Gegenstück zur klassischen Moonwatch gedacht und polarisierte: Manche Sammler lehnten die Optik ab, andere feierten die Technik."
+   ],
+   "cur": "Speedmaster Dark Side of the Moon (Ref. 311.92.44.51.01.003)",
+   "f": [
+    [
+     "Gehäuse",
+     "44,25 mm, schwarze Keramik"
+    ],
+    [
+     "Kaliber",
+     "9300 (Co-Axial Chronograph)"
+    ],
+    [
+     "Zifferblatt",
+     "schwarze Keramik"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ]
+   ],
+   "refs": [
+    [
+     "311.92.44.51.01.003",
+     "2013",
+     "44,25 mm",
+     "9300",
+     "Original"
+    ],
+    [
+     "Grey Side of the Moon",
+     "2013",
+     "44,25 mm",
+     "9300",
+     "Graues Zifferblatt"
+    ],
+    [
+     "Apollo 8",
+     "2017",
+     "44,25 mm",
+     "9300",
+     "Mit Mondmotiv"
+    ]
+   ],
+   "r": [
+    "speedmaster",
+    "keramik",
+    "mondlandung"
+   ],
+   "k": "Die Dark Side of the Moon war die erste Speedmaster aus Keramik.",
+   "a": [],
+   "v": {
+    "case": "black",
+    "dial": "#101214",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "alpha",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "rubber",
+    "strapColor": "#141619",
+    "top": [
+     "Speedmaster",
+     "DARK SIDE OF THE MOON"
+    ]
+   },
+   "m": [
+    "Schwarze Keramik",
+    "Co-Axial Kaliber 9300",
+    "44-mm-Gehäuse"
+   ],
+   "tipp": [
+    "Eine moderne Interpretation der Moonwatch.",
+    "Die Keramik ist sehr kratzfest."
+   ],
+   "x": [
+    "Gehäuse und Zifferblatt sind aus schwarzer Zirkonoxid-Keramik.",
+    "Der Name erinnert an die Rückseite des Mondes.",
+    "Das Werk ist ein Co-Axial-Chronographenwerk."
+   ],
+   "ev": [
+    [
+     "2013",
+     "Vorstellung der Dark Side of the Moon"
+    ],
+    [
+     "2017",
+     "Apollo-8-Edition"
+    ]
+   ],
+   "w": "Eine schwarze Speedmaster aus Keramik für alle, die die Moonwatch moderner mögen."
+  },
+  {
+   "id": "speedmaster-57",
+   "t": "Omega Speedmaster ’57",
+   "brand": "Omega",
+   "since": "2012",
+   "s": "Die Speedmaster im Stil der ersten Speedmaster von 1957 mit breiten Pfeilzeigern und Tachymeterlünette.",
+   "b": [
+    "Die Speedmaster ’57 erschien 2012 und greift die Gestaltung der ersten Speedmaster von 1957 auf: breite Pfeilzeiger (»Broad Arrow«), ein schlankes Gehäuse und die Tachymeterskala auf dem Lünetteneinsatz. Anders als die Moonwatch hat sie ein Automatikwerk.",
+    "Das Werk ist das Co-Axial-Kaliber 9300. Die Uhr hat 41,5 Millimeter und ist damit etwas größer als die Moonwatch. Sie gilt als Alternative für alle, die die Speedmaster-Optik der Anfänge mögen."
+   ],
+   "cur": "Speedmaster ’57 Co-Axial Chronograph",
+   "f": [
+    [
+     "Gehäuse",
+     "41,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "9300 (Co-Axial)"
+    ],
+    [
+     "Zeiger",
+     "Broad Arrow"
+    ],
+    [
+     "Lünette",
+     "Tachymeter"
+    ]
+   ],
+   "refs": [
+    [
+     "Speedmaster ’57",
+     "2012–2020",
+     "41,5 mm",
+     "9300",
+     "Co-Axial Chronograph"
+    ]
+   ],
+   "r": [
+    "speedmaster",
+    "dark-side-of-the-moon",
+    "chronograph"
+   ],
+   "k": "Die erste Speedmaster von 1957 trug Pfeilzeiger und eine Tachymeterlünette aus Stahl.",
+   "a": [],
+   "v": {
+    "dial": "#17191d",
+    "sub": "chrono3",
+    "subColor": "#1f2126",
+    "markers": "baton",
+    "hands": "arrow",
+    "bezel": "tachy",
+    "pushers": true,
+    "strap": "omega",
+    "lugs": "lyre"
+   },
+   "m": [
+    "Broad-Arrow-Zeiger",
+    "Automatikwerk",
+    "41,5 mm"
+   ],
+   "tipp": [
+    "Eine Alternative zur Moonwatch."
+   ],
+   "x": [
+    "Der Name verweist auf das Debütjahr der Speedmaster.",
+    "Die Pfeilzeiger gaben dem Modell den Beinamen »Broad Arrow«.",
+    "Das Werk ist automatisch."
+   ],
+   "ev": [
+    [
+     "1957",
+     "Erste Speedmaster"
+    ],
+    [
+     "2012",
+     "Speedmaster ’57"
+    ]
+   ],
+   "w": "Die Speedmaster der Anfangszeit als Automatik: Pfeilzeiger, Tachymeter, 41,5 mm."
+  },
+  {
+   "id": "golden-ellipse",
+   "t": "Patek Philippe Golden Ellipse",
+   "brand": "Patek Philippe",
+   "since": "1968",
+   "s": "Die ovale Dresswatch von Patek Philippe, deren Proportionen dem Goldenen Schnitt folgen.",
+   "b": [
+    "Die Golden Ellipse erschien 1968 als ovale Herrenuhr. Ihre Maße folgen dem Goldenen Schnitt, daher der Name. Das Gehäuse besteht aus Gold, das Zifferblatt ist meist in einem warmen Blauton oder Gold gehalten und trägt schlichte Stabindizes.",
+    "Die Uhr wurde in den Folgejahren mit Quarz- und Automatikwerken gebaut und gilt als eines der unverwechselbaren Patek-Designs abseits der Calatrava. Neuauflagen mit ultraflachem Werk 240 und Platingehäuse erschienen später."
+   ],
+   "cur": "Golden Ellipse (Ref. 5738)",
+   "f": [
+    [
+     "Gehäuse",
+     "oval, Gold oder Platin"
+    ],
+    [
+     "Kaliber",
+     "240 (Automatik, Mikrorotor)"
+    ],
+    [
+     "Besonderheit",
+     "Goldener Schnitt"
+    ],
+    [
+     "Band",
+     "Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "3548",
+     "1968–1970er",
+     "oval",
+     "Handaufzug",
+     "Erste Golden Ellipse"
+    ],
+    [
+     "3738",
+     "1980er–2000er",
+     "oval",
+     "Quarz / Automatik",
+     "Weitere Referenzen"
+    ],
+    [
+     "5738",
+     "2000er–2010er",
+     "oval",
+     "240",
+     "Neuauflage mit Mikrorotor"
+    ]
+   ],
+   "r": [
+    "calatrava",
+    "nautilus",
+    "mikrorotor"
+   ],
+   "k": "Die Maße der Golden Ellipse folgen dem Goldenen Schnitt.",
+   "a": [],
+   "v": {
+    "shape": "tonneau",
+    "case": "gold",
+    "dial": "#1f3a5f",
+    "markers": "baton",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#2a1a10"
+   },
+   "m": [
+    "Ovales Gehäuse",
+    "Goldener Schnitt",
+    "Schlichtes Zifferblatt"
+   ],
+   "tipp": [
+    "Eine seltene Alternative zur Calatrava.",
+    "Die Ellipse ist ungewöhnlich, aber sehr hochwertig."
+   ],
+   "x": [
+    "Das Zifferblatt ist meist in Blau oder Gold.",
+    "Das Werk 240 ist ultraflach.",
+    "Die Ellipse ist eine der wenigen ovalen Patek-Uhren."
+   ],
+   "ev": [
+    [
+     "1968",
+     "Vorstellung der Golden Ellipse"
+    ],
+    [
+     "2000er",
+     "Neue Ausführungen"
+    ]
+   ],
+   "w": "Die ovale Patek: Gold, Goldener Schnitt und ein Zifferblatt, das ruhig und eigen wirkt."
+  },
+  {
+   "id": "twenty4",
+   "t": "Patek Philippe Twenty~4",
+   "brand": "Patek Philippe",
+   "since": "1999",
+   "s": "Die Damenuhr von Patek Philippe, die 1999 als »Uhr für die Frau von heute« erschien.",
+   "b": [
+    "Die Twenty~4 erschien 1999 mit dem Anspruch, eine Uhr für den ganzen Tag zu sein: Der Name steht für 24 Stunden. Das erste Modell (4910) hat ein rechteckiges Gehäuse mit gewölbten Seiten und Gliederband und bildet einen Gegenpol zu den Gold-Dresswatches der Marke.",
+    "Zunächst mit Quarzwerk gebaut, erschien 2018 mit der runden Twenty~4 Automatic eine Automatik-Version. Es gibt sie mit Diamanten und in Edelstahl, Gold und Roségold. Die Uhr ist ein Beispiel dafür, wie Patek Damenmodelle als eigene Linie ernst nimmt."
+   ],
+   "cur": "Twenty~4 Automatic (Ref. 7300)",
+   "f": [
+    [
+     "Gehäuse",
+     "rechteckig (4910) oder rund, 36 mm (7300)"
+    ],
+    [
+     "Kaliber",
+     "Quarz / 324 S C (Automatik, seit 2018)"
+    ],
+    [
+     "Band",
+     "Gliederband"
+    ],
+    [
+     "Besonderheit",
+     "Ein Name für 24 Stunden"
+    ]
+   ],
+   "refs": [
+    [
+     "4910",
+     "1999–2018",
+     "rechteckig",
+     "Quarz",
+     "Original"
+    ],
+    [
+     "7300",
+     "seit 2018",
+     "36 mm, rund",
+     "324 S C",
+     "Automatik"
+    ]
+   ],
+   "r": [
+    "calatrava",
+    "nautilus",
+    "aquanaut"
+   ],
+   "k": "Die Twenty~4 war als Alltagsuhr für Frauen gedacht, die man 24 Stunden trägt.",
+   "a": [],
+   "v": {
+    "dial": "#e8ecf2",
+    "markers": "arabicAll",
+    "hands": "sword",
+    "strap": "integrated",
+    "case": "steel",
+    "date": "3"
+   },
+   "m": [
+    "Gliederband mit integrierten Anstößen",
+    "Gliederband",
+    "Quarz oder Automatik"
+   ],
+   "tipp": [
+    "Die Twenty~4 ist ein Einstieg in die Marke Patek Philippe."
+   ],
+   "x": [
+    "Der Name steht für 24 Stunden.",
+    "Die Uhr hat ein integriertes Band.",
+    "Die Automatik-Version kam erst 2018."
+   ],
+   "ev": [
+    [
+     "1999",
+     "Vorstellung der Twenty~4"
+    ],
+    [
+     "2018",
+     "Automatik-Version"
+    ]
+   ],
+   "w": "Die Patek für jeden Tag: schlicht, mit Gliederband und für Frauen entworfen."
+  },
+  {
+   "id": "chrono-ewiger-kalender",
+   "t": "Patek Philippe Ewiger Kalender Chronograph",
+   "brand": "Patek Philippe",
+   "since": "1941",
+   "s": "Die Komplikation mit Chronograph und ewigem Kalender, seit der Ref. 1518 von 1941 ein Maßstab der Haute Horlogerie.",
+   "b": [
+    "Die Kombination aus Chronograph und ewigem Kalender gilt als eine der anspruchsvollsten Komplikationen in einer Armbanduhr. Patek Philippe baute sie 1941 mit der Ref. 1518 erstmals in Serie. Das Original ist heute eine der teuersten Uhren der Welt.",
+    "Neuere Modelle wie die Ref. 5970 (2004) und die Ref. 5270 (2011) führen die Idee fort. Das Handaufzugswerk CH 29-535 PS Q der 5270 zeigt Chronograph, ewigen Kalender, Mondphase und Schaltjahr auf einem Zifferblatt."
+   ],
+   "cur": "Ewiger Kalender Chronograph (Ref. 5270)",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Gold oder Platin"
+    ],
+    [
+     "Kaliber",
+     "CH 29-535 PS Q (Handaufzug)"
+    ],
+    [
+     "Funktionen",
+     "Chronograph, ewiger Kalender, Mondphase"
+    ],
+    [
+     "Seit",
+     "1941 (Ref. 1518)"
+    ]
+   ],
+   "refs": [
+    [
+     "1518",
+     "1941–1954",
+     "35 mm",
+     "13-130 Q",
+     "Erster Serienchronograph mit ewigem Kalender"
+    ],
+    [
+     "5970",
+     "2004–2011",
+     "40 mm",
+     "CH 27-70 Q",
+     "Automatik"
+    ],
+    [
+     "5270",
+     "seit 2011",
+     "41 mm",
+     "CH 29-535 PS Q",
+     "Handaufzug"
+    ]
+   ],
+   "r": [
+    "ewiger-kalender",
+    "chronograph",
+    "nautilus"
+   ],
+   "k": "Die Ref. 1518 war 1941 der erste Serien-Chronograph mit ewigem Kalender.",
+   "a": [],
+   "v": {
+    "case": "rose",
+    "dial": "#f3efe4",
+    "sub": "chrono3",
+    "markers": "baton",
+    "hands": "dauphine",
+    "pushers": true,
+    "strap": "leather",
+    "strapColor": "#3a2618"
+   },
+   "m": [
+    "Chronograph und ewiger Kalender",
+    "Mondphase",
+    "Handaufzugswerk"
+   ],
+   "tipp": [
+    "Die Ref. 1518 ist eine der teuersten Uhren der Welt.",
+    "Moderne Modelle gehören zu den begehrtesten Komplikationen."
+   ],
+   "x": [
+    "Die 5270 hat einen Handaufzug.",
+    "Sie wird in Gold, Platin und Roségold gebaut.",
+    "Die Ref. 1518 wurde als Auktionsstück sehr teuer."
+   ],
+   "ev": [
+    [
+     "1941",
+     "Ref. 1518"
+    ],
+    [
+     "2004",
+     "Ref. 5970"
+    ],
+    [
+     "2011",
+     "Ref. 5270"
+    ]
+   ],
+   "w": "Chronograph und ewiger Kalender in einer Uhr: seit 1941 Patek Philippes Meisterstück."
+  },
+  {
+   "id": "pilot-travel-time",
+   "t": "Patek Philippe Calatrava Pilot Travel Time",
+   "brand": "Patek Philippe",
+   "since": "2015",
+   "s": "Die Calatrava mit Fliegerzifferblatt, zweiter Zeitzone und Datum.",
+   "b": [
+    "Die Calatrava Pilot Travel Time erschien 2015 und war eine Neuinterpretation der Fliegeruhren, die Patek in den 1930er-Jahren gebaut hatte. Sie zeigt zwei Zeitzonen mit Tag-und-Nacht-Anzeige und ein Datum. Typisch sind die Arabisch-Ziffern, die breiten Zeiger und die Krone, die auch mit Handschuhen bedienbar ist.",
+    "Das Werk ist das Automatikkaliber 324 S C FUS. Die Uhr gilt als sportlicher Vertreter der Calatrava-Familie und wurde gerade wegen ihres Understatements geschätzt."
+   ],
+   "cur": "Calatrava Pilot Travel Time (Ref. 5524)",
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Weißgold oder Roségold"
+    ],
+    [
+     "Kaliber",
+     "324 S C FUS (Automatik)"
+    ],
+    [
+     "Funktion",
+     "Zweite Zeitzone, Datum"
+    ],
+    [
+     "Band",
+     "Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "5524G",
+     "2015–heute",
+     "42 mm",
+     "324 S C FUS",
+     "Weißgold"
+    ],
+    [
+     "5524R",
+     "2015–heute",
+     "42 mm",
+     "324 S C FUS",
+     "Roségold"
+    ]
+   ],
+   "r": [
+    "calatrava",
+    "world-time",
+    "gmt"
+   ],
+   "k": "Die Pilot Travel Time greift Patek-Fliegeruhren der 1930er auf.",
+   "a": [],
+   "v": {
+    "case": "rose",
+    "dial": "#2a2c30",
+    "markers": "arabicAll",
+    "hands": "baton",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "crown": "onion",
+    "date": "3"
+   },
+   "m": [
+    "Fliegerzifferblatt",
+    "Zweite Zeitzone",
+    "Große Krone"
+   ],
+   "tipp": [
+    "Eine vielseitige Alltagsuhr in Gold."
+   ],
+   "x": [
+    "Die Uhr hat zwei Zeitzonen.",
+    "Die Zeiger sind breit und gut lesbar.",
+    "Sie ist eine sportliche Calatrava."
+   ],
+   "ev": [
+    [
+     "1930er",
+     "Pilotenuhren von Patek"
+    ],
+    [
+     "2015",
+     "Calatrava Pilot Travel Time"
+    ]
+   ],
+   "w": "Eine Calatrava im Fliegerstil: arabische Ziffern, Zweitzeitzone und Datum."
+  },
+  {
+   "id": "royal-oak-concept",
+   "t": "Audemars Piguet Royal Oak Concept",
+   "brand": "Audemars Piguet",
+   "since": "2002",
+   "s": "Das Konzeptmodell von Audemars Piguet: eine Royal Oak in neuen Materialien und mit kühner Form.",
+   "b": [
+    "Die Royal Oak Concept erschien 2002 als Konzeptuhr, die die Royal Oak neu dachte. Sie hat ein skelettiertes Zifferblatt, ein Titan-Gehäuse und ein Tourbillon mit GMT-Anzeige. Die Uhr zeigte, wie viel Experimentierfreude in der Marke steckte.",
+    "Spätere Versionen nutzen Materialien wie Keramik, Carbon und Titan sowie Tourbillon und andere Komplikationen. Die Concept ist in der Royal-Oak-Familie das Labor für neue Formen und Werkstoffe."
+   ],
+   "cur": "Royal Oak Concept (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "44 mm, Titan, Keramik oder Carbon"
+    ],
+    [
+     "Funktionen",
+     "Tourbillon, GMT"
+    ],
+    [
+     "Werk",
+     "skelettiert"
+    ],
+    [
+     "Seit",
+     "2002"
+    ]
+   ],
+   "refs": [
+    [
+     "Royal Oak Concept",
+     "2002",
+     "44 mm",
+     "versch.",
+     "Erste Concept"
+    ],
+    [
+     "Royal Oak Concept Flying Tourbillon",
+     "2010er",
+     "44 mm",
+     "versch.",
+     "Fliegendes Tourbillon"
+    ]
+   ],
+   "r": [
+    "royal-oak",
+    "royal-oak-offshore",
+    "tourbillon"
+   ],
+   "k": "Die Concept war 2002 ein Konzeptmodell, das zur Serie wurde.",
+   "a": [],
+   "v": {
+    "shape": "octagon",
+    "case": "titanium",
+    "dial": "#2a2c30",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "rubber",
+    "strapColor": "#2a2c30",
+    "ro": true,
+    "crown": "hex"
+   },
+   "m": [
+    "Skelettiertes Zifferblatt",
+    "Tourbillon",
+    "Moderne Materialien"
+   ],
+   "tipp": [
+    "Eine seltene und teure Royal Oak."
+   ],
+   "x": [
+    "Die Concept zeigt neue Formen für die Royal Oak.",
+    "Ihr Tourbillon ist sichtbar.",
+    "Sie ist ein Labor für Werkstoffe."
+   ],
+   "ev": [
+    [
+     "2002",
+     "Vorstellung der Royal Oak Concept"
+    ],
+    [
+     "2010er",
+     "Neue Materialien"
+    ]
+   ],
+   "w": "Die Royal Oak als Experiment: skelettiert, mit Tourbillon und in neuen Materialien."
+  },
+  {
+   "id": "millenary",
+   "t": "Audemars Piguet Millenary",
+   "brand": "Audemars Piguet",
+   "since": "1995",
+   "s": "Die ovale Uhr von Audemars Piguet mit außermittigem Zifferblatt.",
+   "b": [
+    "Die Millenary erschien 1995 als ovale Uhr, deren Zifferblatt aus der Mitte verschoben ist. Der Name erinnert an das nahende Jahr 2000. Das Gehäuse hat zwei Rundungen, die Anzeige liegt asymmetrisch und lässt das Werk durch ein Fenster sehen.",
+    "Die Millenary wurde über die Jahre in Gold, Platin und Stahl und mit verschiedenen Komplikationen gebaut. Sie stand lange im Schatten der Royal Oak, hat aber einen eigenen Charakter und bei Sammlern eine feste Anhängerschaft."
+   ],
+   "cur": "Millenary (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "oval, Gold oder Stahl"
+    ],
+    [
+     "Zifferblatt",
+     "außermittig"
+    ],
+    [
+     "Seit",
+     "1995"
+    ],
+    [
+     "Band",
+     "Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "Millenary (erste Serie)",
+     "1995–2000er",
+     "oval",
+     "Handaufzug",
+     "Original"
+    ],
+    [
+     "Millenary Automatik",
+     "2000er",
+     "oval",
+     "Automatik",
+     "Mit Datum"
+    ],
+    [
+     "Millenary Tourbillon",
+     "2000er",
+     "oval",
+     "Handaufzug",
+     "Komplikation"
+    ]
+   ],
+   "r": [
+    "royal-oak",
+    "golden-ellipse",
+    "tourbillon"
+   ],
+   "k": "Die Millenary hat ein Zifferblatt, das aus der Mitte rückt.",
+   "a": [],
+   "v": {
+    "shape": "tonneau",
+    "case": "gold",
+    "dial": "#f3efe4",
+    "markers": "roman",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#2a1a10"
+   },
+   "m": [
+    "Ovales Gehäuse",
+    "Außermittiges Zifferblatt",
+    "Römische Ziffern"
+   ],
+   "tipp": [
+    "Eine Alternative zur Royal Oak."
+   ],
+   "x": [
+    "Das Zifferblatt ist asymmetrisch.",
+    "Die Uhr ist oval.",
+    "Sie war ein Gegenentwurf zur Royal Oak."
+   ],
+   "ev": [
+    [
+     "1995",
+     "Vorstellung der Millenary"
+    ]
+   ],
+   "w": "Eine ovale Audemars Piguet mit außermittigem Zifferblatt, bewusst anders als die Royal Oak."
+  },
+  {
+   "id": "royal-oak-perpetual",
+   "t": "Audemars Piguet Royal Oak Ewiger Kalender",
+   "brand": "Audemars Piguet",
+   "since": "1981",
+   "s": "Die Royal Oak mit ewigem Kalender, die 1981 eine Komplikation in die Luxus-Sportuhr brachte.",
+   "b": [
+    "1981 stellte Audemars Piguet die Royal Oak mit ewigem Kalender vor. Es war eine der ersten Luxus-Sportuhren mit dieser Komplikation. Das Werk basiert auf dem extraflachen Automatikkaliber 2120, ergänzt um ein Kalendermodul.",
+    "Die Uhr behielt das Royal-Oak-Gehäuse mit Achteck-Lünette und Tapisserie-Zifferblatt. Heute ist der ewige Kalender ein fester Bestandteil der Royal-Oak-Familie in Stahl, Gold und Platin."
+   ],
+   "cur": "Royal Oak Ewiger Kalender (Ref. 26574)",
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Stahl, Gold oder Platin"
+    ],
+    [
+     "Kaliber",
+     "5134 (Automatik)"
+    ],
+    [
+     "Funktionen",
+     "Ewiger Kalender, Mondphase"
+    ],
+    [
+     "Seit",
+     "1981"
+    ]
+   ],
+   "refs": [
+    [
+     "5554",
+     "1981–1990er",
+     "39 mm",
+     "2120/2800",
+     "Erste Royal Oak mit ewigem Kalender"
+    ],
+    [
+     "26574",
+     "seit 2015",
+     "41 mm",
+     "5134",
+     "Aktuelle Ausführung"
+    ]
+   ],
+   "r": [
+    "royal-oak",
+    "ewiger-kalender",
+    "royal-oak-chronograph"
+   ],
+   "k": "Die Royal Oak mit ewigem Kalender war 1981 neu in einer Sportuhr.",
+   "a": [],
+   "v": {
+    "shape": "octagon",
+    "dial": "#1b3560",
+    "tex": "tap",
+    "markers": "baton",
+    "hands": "baton",
+    "strap": "ro",
+    "ro": true,
+    "crown": "hex",
+    "moon": true,
+    "date": "3"
+   },
+   "m": [
+    "Ewiger Kalender",
+    "Mondphase",
+    "Achteckige Lünette"
+   ],
+   "tipp": [
+    "Eine Komplikation in Stahl ist selten."
+   ],
+   "x": [
+    "Das Werk basiert auf dem Kaliber 2120.",
+    "Die Uhr ist ein Meilenstein der Sportuhr mit Komplikation.",
+    "Die Anzeigen sind übersichtlich."
+   ],
+   "ev": [
+    [
+     "1981",
+     "Royal Oak Ewiger Kalender"
+    ],
+    [
+     "2015",
+     "Neue Generation mit Kaliber 5134"
+    ]
+   ],
+   "w": "Eine Sportuhr mit ewigem Kalender: Royal Oak, Mondphase und Kalender in einer Uhr."
+  },
+  {
+   "id": "crash",
+   "t": "Cartier Crash",
+   "brand": "Cartier",
+   "since": "1967",
+   "s": "Die verschmolzene Uhr aus London, die Cartier 1967 als Experiment baute.",
+   "b": [
+    "Die Crash erschien 1967 in London und wirkt wie eine Uhr, die in einen Unfall geraten ist: Das Gehäuse ist verbogen, das Zifferblatt asymmetrisch und die Ziffern verlaufen schräg. Berichten zufolge entstand sie nach einem Verkehrsunfall, bei dem eine Uhr verformt wurde.",
+    "Cartier London baute nur wenige Exemplare, die Uhr wurde später zum Sammlerstück. Später erschienen Neuauflagen in kleinen, streng limitierten Serien. Die Crash steht für Cartier als Experimentierhaus."
+   ],
+   "cur": "Crash (Neuauflage)",
+   "f": [
+    [
+     "Gehäuse",
+     "verformt, Gold"
+    ],
+    [
+     "Zifferblatt",
+     "asymmetrisch"
+    ],
+    [
+     "Herkunft",
+     "Cartier London"
+    ],
+    [
+     "Seit",
+     "1967"
+    ]
+   ],
+   "refs": [
+    [
+     "Crash (Original)",
+     "1967–1970er",
+     "verformt",
+     "Handaufzug",
+     "Cartier London"
+    ],
+    [
+     "Crash Neuauflagen",
+     "später",
+     "verformt",
+     "Handaufzug",
+     "Streng limitiert"
+    ]
+   ],
+   "r": [
+    "tank",
+    "baignoire",
+    "ballon-bleu"
+   ],
+   "k": "Die Crash entstand 1967 bei Cartier London, nachdem eine Uhr bei einem Unfall verformt wurde.",
+   "a": [],
+   "v": {
+    "shape": "tonneau",
+    "case": "gold",
+    "dial": "#f3efe4",
+    "markers": "roman",
+    "hands": "dauphine",
+    "strap": "leather",
+    "strapColor": "#2a1a10"
+   },
+   "m": [
+    "Verformtes Gehäuse",
+    "Asymmetrisches Zifferblatt",
+    "Handaufzug"
+   ],
+   "tipp": [
+    "Original-Crash sind extrem selten und teuer."
+   ],
+   "x": [
+    "Das Gehäuse erinnert an Salvador Dalís zerfließende Uhren.",
+    "Cartier London baute sie.",
+    "Die Neuauflagen sind streng limitiert."
+   ],
+   "ev": [
+    [
+     "1967",
+     "Vorstellung der Crash"
+    ]
+   ],
+   "w": "Die verbogene Uhr: Cartier als Experimentierhaus mit surrealem Gehäuse."
+  },
+  {
+   "id": "baignoire",
+   "t": "Cartier Baignoire",
+   "brand": "Cartier",
+   "since": "1912",
+   "s": "Die ovale Cartier, deren Form an eine Badewanne erinnert.",
+   "b": [
+    "Die Baignoire erschien 1912 und trägt ihren Namen nach der Wanne: Das ovale Gehäuse hat eine leicht abgeflachte Form. Das Zifferblatt trägt römische Ziffern und eine Chemin-de-fer-Minuterie.",
+    "Die Uhr wurde immer wieder neu aufgelegt, als klassische Damenuhr und als Herrenmodell. Zu den bekannten Varianten zählen die Baignoire Allongée mit länglichem Gehäuse und die Baignoire Inversée mit versetzter Anzeige."
+   ],
+   "cur": "Baignoire (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "oval, Gold oder Stahl"
+    ],
+    [
+     "Zifferblatt",
+     "römische Ziffern"
+    ],
+    [
+     "Seit",
+     "1912"
+    ],
+    [
+     "Band",
+     "Leder"
+    ]
+   ],
+   "refs": [
+    [
+     "Baignoire (frühe Serien)",
+     "1912–1950er",
+     "oval",
+     "Handaufzug",
+     "Original"
+    ],
+    [
+     "Baignoire Allongée",
+     "1990er",
+     "oval",
+     "Quarz / Handaufzug",
+     "Längliches Gehäuse"
+    ],
+    [
+     "Baignoire",
+     "seit 2020er",
+     "oval",
+     "Quarz / Handaufzug",
+     "Aktuell"
+    ]
+   ],
+   "r": [
+    "tank",
+    "crash",
+    "santos"
+   ],
+   "k": "Der Name Baignoire bedeutet auf Französisch Badewanne.",
+   "a": [],
+   "v": {
+    "shape": "tonneau",
+    "case": "gold",
+    "dial": "#f3efe4",
+    "markers": "roman",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#2a1a10"
+   },
+   "m": [
+    "Ovales Gehäuse",
+    "Römische Ziffern",
+    "Chemin-de-fer-Minuterie"
+   ],
+   "tipp": [
+    "Eine ungewöhnliche, zeitlose Form."
+   ],
+   "x": [
+    "Die Form erinnert an eine Wanne.",
+    "Es gibt viele Varianten.",
+    "Die Uhr ist ein Klassiker für Damen."
+   ],
+   "ev": [
+    [
+     "1912",
+     "Baignoire"
+    ],
+    [
+     "1990er",
+     "Baignoire Allongée"
+    ]
+   ],
+   "w": "Die Badewannen-Uhr von Cartier: oval, elegant und seit über hundert Jahren im Programm."
+  },
+  {
+   "id": "drive-de-cartier",
+   "t": "Cartier Drive de Cartier",
+   "brand": "Cartier",
+   "since": "2016",
+   "s": "Die Herrenuhr mit kissenförmigem Gehäuse und Manufakturwerk, die Cartier 2016 vorstellte.",
+   "b": [
+    "Die Drive de Cartier erschien 2016 als Herrenuhr mit kissenförmigem Gehäuse. Sie hat römische Ziffern, eine geschwungene Lünette und eine Krone mit Saphir-Cabochon. Gedacht war sie als Alternative zu Santos und Tank für Männer, die eine runde Linie bevorzugen.",
+    "Das Werk ist das Manufakturkaliber 1904-PS (später 1904-MC). Es gibt die Drive in Edelstahl und Gold, mit Datum, Mondphase und weiteren Komplikationen."
+   ],
+   "cur": "Drive de Cartier (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "1904-PS / 1904-MC"
+    ],
+    [
+     "Krone",
+     "mit Saphir-Cabochon"
+    ],
+    [
+     "Zifferblatt",
+     "römische Ziffern"
+    ]
+   ],
+   "refs": [
+    [
+     "Drive de Cartier",
+     "2016–heute",
+     "40 mm",
+     "1904-PS",
+     "Datum"
+    ],
+    [
+     "Drive de Cartier Mondphase",
+     "2016–2020er",
+     "40 mm",
+     "1904-LU MC",
+     "Mit Mondphase"
+    ]
+   ],
+   "r": [
+    "santos",
+    "tank",
+    "ballon-bleu"
+   ],
+   "k": "Die Drive de Cartier erschien 2016 und sollte neue Käufer ansprechen.",
+   "a": [],
+   "v": {
+    "shape": "cushion",
+    "dial": "#e8e8e8",
+    "markers": "roman",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel",
+    "date": "6",
+    "cabochon": true
+   },
+   "m": [
+    "Kissenförmiges Gehäuse",
+    "Römische Ziffern",
+    "Manufakturkaliber"
+   ],
+   "tipp": [
+    "Eine elegante Alltagsuhr."
+   ],
+   "x": [
+    "Das Gehäuse ist kissenförmig.",
+    "Die Krone trägt einen Saphir.",
+    "Das Werk stammt von Cartier."
+   ],
+   "ev": [
+    [
+     "2016",
+     "Vorstellung der Drive de Cartier"
+    ]
+   ],
+   "w": "Eine kissenförmige Cartier mit Manufakturwerk: Gegenentwurf zu Santos und Tank."
+  },
+  {
+   "id": "tank-francaise",
+   "t": "Cartier Tank Française",
+   "brand": "Cartier",
+   "since": "1996",
+   "s": "Die Tank mit Gliederband und abgerundetem Gehäuse, 1996 für ein jüngeres Publikum entworfen.",
+   "b": [
+    "Die Tank Française erschien 1996 als Neuinterpretation der Tank. Statt Bandanstöße hat sie ein integriertes Gliederband, das nahtlos ins Gehäuse übergeht. Das Gehäuse ist leicht gewölbt, das Zifferblatt trägt römische Ziffern und eine Chemin-de-fer-Minuterie.",
+    "Die Française war als Alltagsuhr gedacht und gehört zu den meistverkauften Cartier-Modellen. Es gibt sie in verschiedenen Größen mit Quarz- und Automatikwerk, in Stahl und Gold."
+   ],
+   "cur": "Tank Française (aktuelle Modelle)",
+   "f": [
+    [
+     "Gehäuse",
+     "32–41 mm, Stahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "Quarz / Automatik"
+    ],
+    [
+     "Band",
+     "integriert, Gliederband"
+    ],
+    [
+     "Seit",
+     "1996"
+    ]
+   ],
+   "refs": [
+    [
+     "Tank Française",
+     "1996–heute",
+     "versch.",
+     "Quarz / Automatik",
+     "Original"
+    ],
+    [
+     "Tank Française Chronograph",
+     "2000er",
+     "versch.",
+     "Automatik",
+     "Mit Chronograph"
+    ],
+    [
+     "Tank Française Großes Modell",
+     "seit 2020er",
+     "versch.",
+     "Automatik",
+     "Aktuell"
+    ]
+   ],
+   "r": [
+    "tank",
+    "santos",
+    "panthere"
+   ],
+   "k": "Die Tank Française war 1996 die erste Tank mit Gliederband.",
+   "a": [],
+   "v": {
+    "shape": "rect",
+    "dial": "#f1f3f6",
+    "markers": "roman",
+    "hands": "sword",
+    "strap": "integrated",
+    "case": "steel"
+   },
+   "m": [
+    "Integriertes Band",
+    "Römische Ziffern",
+    "Abgerundetes Gehäuse"
+   ],
+   "tipp": [
+    "Eine alltagstaugliche Tank."
+   ],
+   "x": [
+    "Das Band ist ins Gehäuse integriert.",
+    "Es gibt sie in vielen Größen.",
+    "Sie ist eine Alltagsuhr."
+   ],
+   "ev": [
+    [
+     "1996",
+     "Vorstellung der Tank Française"
+    ]
+   ],
+   "w": "Die Tank mit Gliederband: sportlicher und alltagstauglicher als das Original."
+  },
+  {
+   "id": "roadster",
+   "t": "Cartier Roadster",
+   "brand": "Cartier",
+   "since": "2001",
+   "s": "Die sportliche Cartier im Stil eines Rennwagens, entstanden 2001.",
+   "b": [
+    "Die Roadster erschien 2001 als sportliche Cartier. Das Gehäuse wirkt wie ein Rennwagen-Cockpit: Die Lünette ist abgerundet, die Ziffern sind arabisch, die Krone trägt einen Saphir. Gedacht war sie als moderne Alternative zur Santos.",
+    "Die Roadster wurde in Edelstahl und Gold gebaut und mit Automatik und Chronograph angeboten. Die Linie lief bis in die 2010er-Jahre. Später übernahm die Drive de Cartier einen Teil ihrer Rolle."
+   ],
+   "cur": "Roadster (bis 2010er)",
+   "f": [
+    [
+     "Gehäuse",
+     "36–43 mm, Stahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Zifferblatt",
+     "arabische Ziffern"
+    ],
+    [
+     "Seit",
+     "2001"
+    ]
+   ],
+   "refs": [
+    [
+     "Roadster",
+     "2001–2010er",
+     "versch.",
+     "Automatik",
+     "Original"
+    ],
+    [
+     "Roadster Chronograph",
+     "2000er",
+     "43 mm",
+     "Automatik",
+     "Chronograph"
+    ]
+   ],
+   "r": [
+    "santos",
+    "drive-de-cartier",
+    "ballon-bleu"
+   ],
+   "k": "Die Roadster war Cartiers Sportuhr der 2000er-Jahre.",
+   "a": [],
+   "v": {
+    "dial": "#1b1e24",
+    "markers": "arabicAll",
+    "hands": "sword",
+    "strap": "leather",
+    "strapColor": "#2a1a10",
+    "case": "steel",
+    "cabochon": true,
+    "date": "3"
+   },
+   "m": [
+    "Arabische Ziffern",
+    "Abgerundete Lünette",
+    "Saphir-Krone"
+   ],
+   "tipp": [
+    "Gebrauchte Roadster sind vergleichsweise günstig."
+   ],
+   "x": [
+    "Die Krone trägt einen Saphir.",
+    "Sie wurde in mehreren Größen gebaut.",
+    "Die Linie lief bis in die 2010er-Jahre."
+   ],
+   "ev": [
+    [
+     "2001",
+     "Vorstellung der Roadster"
+    ],
+    [
+     "2010er",
+     "Einstellung"
+    ]
+   ],
+   "w": "Cartiers Sportuhr der 2000er: abgerundet, mit arabischen Ziffern und Rennsport-Anspruch."
   }
  ]
 }
