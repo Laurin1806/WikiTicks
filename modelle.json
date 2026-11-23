@@ -2839,6 +2839,13 @@
      }
     },
     {
+     "n": "Ref. 16570 (schwarz)",
+     "y": "1989–2011",
+     "v": {
+      "img": "assets/watches/rolex-explorer-2-16570-black.jpg"
+     }
+    },
+    {
      "n": "Ref. 226570 »Polar«",
      "y": "seit 2021",
      "v": {
@@ -2942,7 +2949,8 @@
      "mInset": 4,
      "handW": null,
      "handLume": "#f8f8f5",
-     "minW": null
+     "minW": null,
+     "img": "assets/watches/rolex-explorer-2-16570-polar-white.jpg"
     }
    },
    "ev": [
@@ -9041,7 +9049,8 @@
      "YACHT-MASTER",
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
-    ]
+    ],
+    "img": "assets/watches/rolex-yacht-master-126622-slate.jpg"
    },
    "m": [
     "Beidseitig drehbare Lünette mit erhabenen Ziffern",
@@ -9216,7 +9225,8 @@
      "Air-King"
     ],
     "brandColor": "#e3b23c",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/rolex-air-king-126900.jpg"
    },
    "m": [
     "Große Ziffern 3, 6 und 9",
@@ -9386,7 +9396,8 @@
      "MILGAUSS",
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
-    ]
+    ],
+    "img": "assets/watches/rolex-milgauss-116400gv-black.jpg"
    },
    "var": [
     {
@@ -9394,7 +9405,8 @@
      "y": "2014–2023",
      "v": {
       "dial": "#2a5ea8",
-      "tex": "sunburst"
+      "tex": "sunburst",
+      "img": "assets/watches/rolex-milgauss-116400gv-z-blue.jpg"
      }
     }
    ],
@@ -9549,21 +9561,24 @@
     "bottom": [
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
-    ]
+    ],
+    "img": "assets/watches/rolex-oyster-perpetual-124300-turquoise.jpg"
    },
    "var": [
     {
      "n": "Zifferblatt Korallenrot",
      "y": "seit 2020",
      "v": {
-      "dial": "#e2584e"
+      "dial": "#e2584e",
+      "img": "assets/watches/rolex-oyster-perpetual-124300-coral-red.jpg"
      }
     },
     {
      "n": "Zifferblatt Gelb",
      "y": "seit 2020",
      "v": {
-      "dial": "#f2cf3b"
+      "dial": "#f2cf3b",
+      "img": "assets/watches/rolex-oyster-perpetual-124300-yellow.jpg"
      }
     },
     {
@@ -9573,7 +9588,8 @@
       "dial": "#2f8a52",
       "ink": null,
       "lume": null,
-      "hc": null
+      "hc": null,
+      "img": null
      }
     }
    ],
@@ -9741,7 +9757,8 @@
     "bottom": [],
     "brandDy": -6,
     "top": [],
-    "lugs": "taper"
+    "lugs": "taper",
+    "img": "assets/watches/rolex-sky-dweller-336934-black.jpg"
    },
    "m": [
     "Außermittige 24-Stunden-Scheibe für die Heimatzeit",
@@ -9902,14 +9919,16 @@
      "DEEPSEA",
      "12 800ft = 3900m"
     ],
-    "coin": true
+    "coin": true,
+    "img": "assets/watches/rolex-deepsea-136660-d-blue.jpg"
    },
    "var": [
     {
      "n": "Zifferblatt »D-Blue«",
      "y": "seit 2014",
      "v": {
-      "dial": "#1b4c8f"
+      "dial": "#1b4c8f",
+      "img": "assets/watches/rolex-deepsea-136660-d-blue.jpg"
      }
     }
    ],
@@ -17886,7 +17905,8 @@
     "bezelColor": "#1f4a8a",
     "sub": "chrono3",
     "pushers": true,
-    "strap": "oyster"
+    "strap": "oyster",
+    "img": "assets/watches/rolex-yacht-master-ii-116680.jpg"
    },
    "m": [
     "Programmierbarer Countdown",
