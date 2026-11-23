@@ -1453,9 +1453,13 @@ function viewEntry(e) {
         if (e.brand) {
           // Zeitleiste aus Referenzen und besonderen Ereignissen
           const yr = t => { const m = String(t).match(/\d{4}/); return m ? +m[0] : null; };
-          const tl = [...(e.refs || []).filter(x => yr(x[1])).map(x => [yr(x[1]), `Ref. ${x[0]}${x[4] ? ": " + x[4] : ""}`]), ...(e.ev || []).map(x => [yr(x[0]), x[1]])]
+          const tk = t => new Set((String(t).toLowerCase().match(/[a-zäöüß0-9]{3,}/g) || []).filter(w => w !== "ref"));
+          const evs = (e.ev || []).map(x => [yr(x[0]), x[1]]).filter(x => x[0]);
+          // Referenzeinträge entfallen, wenn dasselbe Ereignis schon als Eintrag der Zeitleiste vorkommt
+          const dupOfEv = (y, t) => { const a = tk(t); return evs.some(([ey, et]) => { const n = [...tk(et)].filter(w => a.has(w)).length; return (ey === y && n >= 1) || (Math.abs(ey - y) <= 1 && n >= 2); }); };
+          const tl = [...(e.refs || []).filter(x => yr(x[1])).map(x => [yr(x[1]), `Ref. ${x[0]}${x[4] ? ": " + x[4] : ""}`]).filter(x => !dupOfEv(x[0], x[1])), ...evs]
             .filter(x => x[0]).sort((a, b) => a[0] - b[0]);
-          const timeline = tl.length >= 3 ? `<ol class="timeline">${tl.map(([y, t]) => `<li><span class="ty">${y}</span><span class="tt">${linkify(esc(t), e.id, used)}</span></li>`).join("")}</ol>` : "";
+          const timeline = tl.length >= 2 ? `<ol class="timeline">${tl.map(([y, t]) => `<li><span class="ty">${y}</span><span class="tt">${linkify(esc(t), e.id, used)}</span></li>`).join("")}</ol>` : "";
           const parts = [["geschichte", "Geschichte"], ...(timeline ? [["zeitleiste", "Zeitleiste"]] : []), ...(e.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ...(e.x && e.x.length ? [["experte", "Expertenwissen"]] : []), ...((e.tipp && e.tipp.length) || e.preis ? [["sammler", "Wissenswert für Sammler und Käufer"]] : []), ...(e.refs ? [["referenzen", "Alle Referenzen"]] : []), ["technik", "Technik der aktuellen Ausführung"]];
           return `<nav class="toc" aria-label="Inhalt">${parts.map(([k, t]) => `<button type="button" data-sec="${k}">${t}</button>`).join("")}</nav>`
             + H("geschichte", "Geschichte") + P(e.b) + varGallery

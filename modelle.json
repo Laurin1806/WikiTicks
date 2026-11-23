@@ -6944,8 +6944,8 @@
    ],
    "ev": [
     [
-     "1958",
-     "Vorbild Ref. 7922"
+     "1954/1958",
+     "Vorbilder: Ref. 7922 (Gehäuse, Zifferblatt) und Big Crown 7924 (Krone)"
     ],
     [
      "2012",
@@ -11679,13 +11679,13 @@
    "id": "presage-cocktail",
    "t": "Seiko Presage Cocktail Time",
    "brand": "Seiko",
-   "since": "2011",
+   "since": 2010,
    "a": [
     "Cocktail Time"
    ],
    "s": "Elegante Automatikuhren, deren schimmernde Zifferblätter von Cocktails inspiriert sind.",
    "b": [
-    "Die erste Cocktail Time kam 2011 in Japan heraus. Inspiriert wurde sie vom Barkeeper Shinobu Ishigaki aus Tokio, dessen Cocktails die Gestaltung der Zifferblätter prägten.",
+    "Die erste Cocktail Time (SARB065 mit dem Werk 6R15) kam 2010 nur in Japan heraus; die international erhältliche Presage-Version mit dem Werk 4R35 folgte 2016 oder 2017. Inspiriert wurde sie vom Barkeeper Shinobu Ishigaki aus Tokio, dessen Cocktails die Gestaltung der Zifferblätter prägten.",
     "Die Zifferblätter haben geprägte Muster, die das Licht wie Eis oder Glas brechen, in Farben wie Bernstein, Eisblau oder Grün. Jedes Modell ist nach einem Cocktail benannt.",
     "Die Uhren gehören zur Linie Presage, mit der Seiko japanisches Handwerk wie Emaille, Lack und Porzellan zu erschwinglichen Preisen anbietet."
    ],
@@ -11715,7 +11715,7 @@
    "refs": [
     [
      "SARB065",
-     "2011",
+     "2010",
      "40 mm",
      "6R15",
      "Erste Cocktail Time, nur in Japan"
@@ -11767,8 +11767,12 @@
    },
    "ev": [
     [
-     "2011",
-     "Erste Cocktail Time"
+     "2010",
+     "Erste Cocktail Time (SARB065, nur Japan)"
+    ],
+    [
+     "2016",
+     "Presage Cocktail Time mit 4R35 auch international"
     ]
    ],
    "w": "Die schimmernden, geprägten Zifferblätter sind von Cocktails inspiriert."
@@ -14012,8 +14016,12 @@
      "Erste Swatch kommt auf den Markt"
     ],
     [
-     "1985",
-     "Gründung der späteren Swatch Group"
+     "1983",
+     "ASUAG und SSIH schließen sich zusammen, 1985 übernimmt Nicolas Hayek mit Investoren die Mehrheit"
+    ],
+    [
+     "1998",
+     "Die Gruppe heißt nun Swatch Group"
     ],
     [
      "2022",
@@ -19577,7 +19585,7 @@
     ],
     [
      "Roadster Chronograph",
-     "2000er",
+     "2001–2012",
      "43 mm",
      "Automatik",
      "Chronograph"
