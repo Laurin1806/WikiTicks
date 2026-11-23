@@ -18931,7 +18931,7 @@
    "since": "1995",
    "s": "Die ovale Uhr von Audemars Piguet mit außermittigem Zifferblatt.",
    "b": [
-    "Die Millenary erschien 1995 als ovale Uhr, deren Zifferblatt aus der Mitte verschoben ist; der Name erinnert an das nahende Jahr 2000. Das Gehäuse hat zwei Rundungen, die Anzeige liegt asymmetrisch und lässt das Werk durch ein Fenster sehen. Gebaut wurde sie in Gold, Platin und Stahl und mit verschiedenen Komplikationen.",
+    "Die Millenary erschien 1995 als ovale Uhr, deren Zifferblatt aus der Mitte verschoben ist; der Name erinnert an das nahende Jahr 2000. Das Design geht nach Angaben von AP auf ein ovales Vorbild von 1951 zurück. Gebaut wurde sie in Gold, Platin und Stahl und mit verschiedenen Komplikationen.",
     "Die Millenary entstand, als Audemars Piguet ein Gegenstück zur kantigen Royal Oak suchte. Das ovale Gehäuse mit außermittiger Anzeige sollte klassische Armbanduhren zitieren; es gibt auch Modelle mit Handaufzug und kleiner Sekunde.",
     "Auf dem Zweitmarkt ist die Millenary günstiger als die Royal Oak, was sie zu einer Alternative macht; ihr Design polarisiert."
    ],
@@ -18999,7 +18999,9 @@
     "Römische Ziffern"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die Millenary 4101 (2011) baut das Kaliber 4101 verkehrt herum ein, sodass Unruh und Hemmung auf der Zifferblattseite sichtbar sind; die Gangreserve beträgt rund 60 Stunden."
+   ],
    "ev": [
     [
      "1995",
@@ -19036,11 +19038,11 @@
    "id": "royal-oak-perpetual",
    "t": "Audemars Piguet Royal Oak Ewiger Kalender",
    "brand": "Audemars Piguet",
-   "since": "1981",
-   "s": "Die Royal Oak mit ewigem Kalender, die 1981 eine Komplikation in die Luxus-Sportuhr brachte.",
+   "since": 1984,
+   "s": "Die Royal Oak mit ewigem Kalender, die 1984 eine Komplikation in die Luxus-Sportuhr brachte.",
    "b": [
-    "1981 stellte Audemars Piguet die Royal Oak mit ewigem Kalender vor, eine der ersten Luxus-Sportuhren mit dieser Komplikation. Das Werk basiert auf dem extraflachen Automatikkaliber 2120, ergänzt um ein Kalendermodul; die heutige Version (26574) trägt das Kaliber 5134. Die Uhr behielt das Achteck-Gehäuse mit Tapisserie-Zifferblatt, in Stahl, Gold und Platin.",
-    "Das Kaliber 2120 zählt zu den dünnsten Automatikwerken der Welt; es entstand in den 1960ern bei Jaeger-LeCoultre und wurde exklusiv für AP, Patek und Vacheron verwendet. Das Kalendermodul sitzt darauf und hält die Uhr schlank.",
+    "1984 stellte Audemars Piguet auf der Basler Messe die erste Royal Oak mit ewigem Kalender vor (Ref. 5554, bald 25554); die Idee war 1981 wiederbelebt worden, die technische Abteilung nahm das Projekt 1983 auf. Das Werk basiert auf dem Kaliber 2120/2800, ergänzt um ein Kalendermodul; die heutige Version (26574) trägt das Kaliber 5134. Die Uhr behielt das Achteck-Gehäuse mit Tapisserie-Zifferblatt, in Stahl, Gold und Platin.",
+    "Das Kaliber 2120/2800 war schon 1978 in der Ref. 5548 als damals dünnstes selbstaufziehendes Perpetual-Werk der Welt (3,95 mm) vorgestellt worden; die Royal Oak 25554 misst insgesamt 7,5 Millimeter. Es wurde exklusiv für AP, Patek und Vacheron verwendet.",
     "Die Uhr zeigt Datum, Wochentag, Monat, Schaltjahr und Mondphase; der Kalender muss laut Hersteller erst 2100 korrigiert werden. Gesucht sind besonders frühe Referenzen; gebraucht liegt die aktuelle Version im sechsstelligen Bereich."
    ],
    "cur": "Royal Oak Ewiger Kalender (Ref. 26574)",
@@ -19059,13 +19061,13 @@
     ],
     [
      "Seit",
-     "1981"
+     "1984"
     ]
    ],
    "refs": [
     [
-     "5554",
-     "1981–1990er",
+     "5554 (später 25554)",
+     "1984–1990er",
      "39 mm",
      "2120/2800",
      "Erste Royal Oak mit ewigem Kalender"
@@ -19083,7 +19085,7 @@
     "ewiger-kalender",
     "royal-oak-chronograph"
    ],
-   "k": "Die Royal Oak mit ewigem Kalender war 1981 neu in einer Sportuhr.",
+   "k": "Die Royal Oak mit ewigem Kalender war 1984 neu in einer Sportuhr.",
    "a": [],
    "v": {
     "shape": "octagon",
@@ -19103,15 +19105,21 @@
     "Achteckige Lünette"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die 5554 gilt als erste Sport-Armbanduhr mit ewigem Kalender; die Mondphase sitzt bei 6 Uhr."
+   ],
    "ev": [
     [
      "1972",
      "Royal Oak"
     ],
     [
-     "1981",
-     "Royal Oak mit ewigem Kalender"
+     "1978",
+     "Kaliber 2120/2800 in der Ref. 5548"
+    ],
+    [
+     "1984",
+     "Royal Oak 5554 mit ewigem Kalender"
     ],
     [
      "2015",
@@ -19497,7 +19505,9 @@
     "Abgerundetes Gehäuse"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die Tank Française erschien 1996 zunächst in Gelbgold und Zweifarbig, ein Jahr später in Stahl; 2023 überarbeitete Cartier sie."
+   ],
    "ev": [
     [
      "1917",
@@ -20538,7 +20548,10 @@
     "Das Nietenband ist ein Markenzeichen der Black Bay.",
     "Prüfe, ob alle Chronographen-Drücker sauber arbeiten."
    ],
-   "x": [],
+   "x": [
+    "Das Kaliber MT5813 hat 41 Steine (das Breitling B01 47), eine Silizium-Spirale und ein COSC-Zertifikat.",
+    "2017 gewann die Black Bay Chrono den »Petite Aiguille«-Preis des Grand Prix d’Horlogerie de Genève."
+   ],
    "ev": [
     [
      "2012",
@@ -21419,7 +21432,10 @@
    "tipp": [
     "Das integrierte Band lässt sich nicht einfach tauschen."
    ],
-   "x": [],
+   "x": [
+    "Die Odysseus ist die erste Lange mit wasserdichtem Gehäuse und Schraubkrone, geprüft mit 12 bar (120 m).",
+    "Das Kaliber L155.1 hat 312 Teile und 50 Stunden Gangreserve; das Datomatic-Modul sitzt auf dem Basiswerk."
+   ],
    "ev": [
     [
      "2019",
@@ -22015,7 +22031,10 @@
     "Schaltrad"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Das Werk vereint Automatikaufzug, Schaltrad, vertikale Kupplung und Tag-Datum-Anzeige; es kam im Frühjahr 1969 zunächst nur in Japan in den Handel.",
+    "William Pogue kaufte seine Uhr für rund 71 Dollar im Laden der Ellington Air Force Base und trug sie auf Skylab 4 (Start 16. November 1973) neben seiner Speedmaster; ob es die 6139-6002 oder die 6139-6005 war, ist umstritten."
+   ],
    "ev": [
     [
      "1969",
@@ -22111,7 +22130,10 @@
    "tipp": [
     "Die Zifferblattfarbe Blau ist besonders gefragt."
    ],
-   "x": [],
+   "x": [
+    "Die Neuauflage 2022 kam mit fünf Modellen und orientiert sich an der King Seiko KSK von 1965.",
+    "Das Werk 6R31 schwingt mit 21.600 Halbschwingungen pro Stunde und läuft rund 70 Stunden; das Gehäuse misst 37 mm bei 12,1 mm Höhe und ist bis 100 m wasserdicht."
+   ],
    "ev": [
     [
      "1961",
@@ -22152,7 +22174,7 @@
    "since": "1967",
    "s": "Das Modell, das 1967 den Grand-Seiko-Stil mit flachen Flächen und scharfen Kanten festlegte.",
    "b": [
-    "Die 44GS erschien 1967 und definierte mit der »Grammar of Design« von Taro Tanaka den Grand-Seiko-Stil: ebene polierte Flächen, scharfe Kanten und Facettenzeiger. Das Handaufzugskaliber 44A stand für hohe Präzision. Moderne Reissues wie die SBGW231 mit dem Kaliber 9S64 halten sich eng an das Original.",
+    "Die 44GS erschien 1967 und begründete den Stil von Grand Seiko, den die Marke in neun Gestaltungselementen festhält (»Grammar of Design«): ebene polierte Flächen, scharfe Kanten, Facettenzeiger und ein flaches Zifferblatt. Als Gestalter wird je nach Quelle Taro Tanaka oder Nobuhiro Kosugi genannt. Das Handaufzugskaliber 44A stand für hohe Präzision; moderne Reissues wie die SBGW231 mit dem Kaliber 9S64 halten sich eng an das Original.",
     "Die Politur im »Zaratsu«-Stil wird von Hand an einer rotierenden Scheibe ausgeführt und lässt Flächen ohne Verzerrung spiegeln – aufwendiger als maschinelle Politur und prägend für den Look der Marke.",
     "Die Reissues sind in kleiner Stückzahl gebaut und schwer zu bekommen; auf dem Zweitmarkt wurden sie oft über dem Listenpreis gehandelt."
    ],
@@ -22214,7 +22236,10 @@
    "tipp": [
     "Die Uhr wirkt am Handgelenk kleiner als ihre Maße."
    ],
-   "x": [],
+   "x": [
+    "2013 erschien die erste Neuauflage als limitierte SBGW047; zum 55. Jubiläum folgte eine Edition mit 1.200 Stück (SBGW289).",
+    "Das Kaliber 9S64 der Reissues wird von Hand aufgezogen und läuft rund 72 Stunden."
+   ],
    "ev": [
     [
      "1967",
@@ -22434,15 +22459,15 @@
    "since": "2013",
    "s": "Die Uhr mit 50 Tagen Gangreserve, entstanden aus der Zusammenarbeit mit Ferrari.",
    "b": [
-    "Die MP-05 LaFerrari erschien 2013 und war auf 50 Stück limitiert. Das Kaliber HUB9005 hat elf in Reihe geschaltete Federhäuser und 50 Tage Gangreserve; es besteht aus über 600 Teilen und ist vertikal im Gehäuse angeordnet. Das Gehäuse war aus Saphirglas oder Titan, der Listenpreis lag 2013 bei rund 265.800 Euro; der Name geht auf die Zusammenarbeit mit Ferrari zurück.",
-    "Das Werk wird bei einem Gehäuse aus Saphirglas oder Titan sichtbar; Hublot verfolgt mit solchen Projekten den Ehrgeiz, Uhren als Technikprojekte zu bauen.",
+    "Die MP-05 LaFerrari erschien 2013 und wurde in 50 nummerierten Exemplaren gebaut. Das Kaliber HUB9005 hat 637 Teile, elf nebeneinander angeordnete Federhäuser und ein senkrecht aufgehängtes Tourbillon; es wird von Hand aufgezogen und läuft 50 Tage, nach Hublot ein Rekord für eine handaufgezogene Armbanduhr mit Tourbillon. Das Gehäuse war aus schwarz PVD-beschichtetem Titan, der Listenpreis lag 2013 bei rund 265.800 Euro; der Name geht auf die Zusammenarbeit mit Ferrari zurück.",
+    "Eingestellt wird die Uhr über den Gehäuseboden. Hublot verfolgt mit solchen Projekten den Ehrgeiz, Uhren als Technikprojekte zu bauen.",
     "Die MP-05 ist keine Alltagsuhr, sondern ein Sammlerstück; für Interessenten bleibt der Zweitmarkt der einzige Zugang."
    ],
-   "cur": "MP-05 LaFerrari (Saphir)",
+   "cur": "MP-05 LaFerrari",
    "f": [
     [
      "Gehäuse",
-     "45 mm, Saphir oder Titan"
+     "45 mm, Titan"
     ],
     [
      "Kaliber",
@@ -22460,10 +22485,10 @@
    "refs": [
     [
      "MP-05 LaFerrari",
-     "2013–heute",
+     "2013",
      "45 mm",
      "HUB9005",
-     "Titan / Saphir"
+     "Titan, 50 Stück"
     ]
    ],
    "r": [
@@ -22485,17 +22510,20 @@
    "m": [
     "50 Tage Gangreserve",
     "Vertikales Werk",
-    "Saphirgehäuse"
+    "Titangehäuse"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die elf Federhäuser geben ihre Kraft gleichzeitig ab, nicht nacheinander.",
+    "Das Werk schwingt mit 21.600 Halbschwingungen pro Stunde."
+   ],
    "ev": [
     [
      "2013",
      "MP-05 LaFerrari mit 50 Tagen Gangreserve"
     ]
    ],
-   "w": "Fünfzig Tage Gangreserve in einem Saphirgehäuse: Hublots technische Show.",
+   "w": "Fünfzig Tage Gangreserve in einem vertikalen Werk: Hublots technische Show.",
    "preis": {
     "u": "EUR",
     "rows": [
@@ -22605,9 +22633,9 @@
    "t": "Zenith Pilot Type 20",
    "brand": "Zenith",
    "since": "2010er",
-   "s": "Die große Fliegeruhr von Zenith im Stil der französischen Militär-Fliegeruhren der 1950er.",
+   "s": "Die große Fliegeruhr von Zenith, die auf eine Bordzeituhr von 1939 zurückgeht.",
    "b": [
-    "Zenith gründete Georges Favre-Jacot 1865 in Le Locle; die Marke baute früh Bordinstrumente und belieferte Piloten, darunter Louis Blériot bei der Kanalüberquerung 1909. Die Pilot Type 20 greift die Fliegeruhren auf, die Zenith in den 1950er-Jahren für die französische Luftwaffe baute; der Name geht auf die Militärspezifikation »Type 20« zurück. Typisch sind das schwarze Zifferblatt mit großen Ziffern, die Zwiebelkrone und das große Gehäuse in Stahl oder Bronze.",
+    "Zenith gründete Georges Favre-Jacot 1865 in Le Locle; die Marke baute früh Bordinstrumente und belieferte Piloten, darunter Louis Blériot bei der Kanalüberquerung 1909. Die Pilot Type 20 geht auf eine Bordzeituhr von 1939 zurück (»Type 20, montre d’aéronef«). Typisch sind das schwarze Zifferblatt mit großen Ziffern, die Zwiebelkrone und das große Gehäuse in Stahl oder Bronze.",
     "Die Zwiebelkrone ließ sich mit Handschuhen bedienen, die Ziffern sind groß und leuchtend; das Bronzegehäuse bekommt mit der Zeit eine eigene Patina.",
     "Die Type 20 ist eine Uhr, die man entweder liebt oder nicht trägt: Gehäuse groß, Optik martialisch. Wer eine Fliegeruhr mit Geschichte sucht, findet hier eine Alternative zu IWC und Breitling."
    ],
@@ -22632,11 +22660,11 @@
    ],
    "refs": [
     [
-     "Type 20 (Vintage)",
-     "1950er",
-     "versch.",
+     "Type 20 (Bordzeituhr)",
+     "1939",
+     "–",
      "Handaufzug",
-     "Militäruhr"
+     "Vorbild"
     ],
     [
      "Pilot Type 20",
@@ -22651,7 +22679,7 @@
     "mark-xx",
     "laco-aachen"
    ],
-   "k": "Der Name Type 20 geht auf eine Militärspezifikation zurück.",
+   "k": "Der Name Type 20 geht auf eine Bordzeituhr von Zenith aus dem Jahr 1939 zurück.",
    "a": [],
    "v": {
     "dial": "#17191d",
@@ -22668,22 +22696,25 @@
     "Fliegerstil"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die Extra Special erschien 2014 in Stahl; die Bronzeversion misst 45 Millimeter bei 14,25 Millimetern Höhe und ist bis 10 bar wasserdicht.",
+    "Als Werk dient das Zenith-Kaliber Elite 679."
+   ],
    "ev": [
     [
      "1865",
      "Zenith wird gegründet"
     ],
     [
-     "1950er",
-     "Type-20-Fliegeruhren für das französische Militär"
+     "1939",
+     "Type-20-Bordzeituhr"
     ],
     [
-     "2010er",
-     "Neuauflage als Pilot Type 20"
+     "2014",
+     "Pilot Type 20 Extra Special in Stahl"
     ]
    ],
-   "w": "Eine große Fliegeruhr im Stil der 1950er: Zwiebelkrone, schwarze Ziffern."
+   "w": "Eine große Fliegeruhr mit Geschichte: Zwiebelkrone, schwarze Ziffern."
   },
   {
    "id": "zenith-elite",
@@ -22770,8 +22801,8 @@
    "s": "Die Vintage-inspirierte Uhr von Vacheron Constantin mit Bezug auf das Jahr 1956.",
    "b": [
     "Die Fiftysix erschien 2018 als Alltagsuhr von Vacheron Constantin mit Rückgriff auf eine Referenz von 1956. Sie hat ein rundes 40-Millimeter-Gehäuse, geschwungene Bandanstöße im Stil der 1950er-Jahre und ein Zifferblatt mit arabischen Ziffern und Stabindizes. Das Automatikkaliber 1326 ist durch den Glasboden zu sehen.",
-    "Vacheron Constantin ist die älteste durchgehend produzierende Manufaktur der Welt, 1755 in Genf gegründet. Mit der Fiftysix richtet sich das Haus erstmals bewusst an ein jüngeres Publikum, das eine Alltagsuhr in Stahl sucht. Das Kaliber 1326 bietet rund 40 Stunden Gangreserve.",
-    "Neben der Dreizeigerversion gibt es Day-Date und Vollkalender mit Mondphase, Zifferblätter in Silber, Blau oder Grau. Im Vacheron-Programm ist die Fiftysix der preislich günstigste Einstieg."
+    "Vacheron Constantin ist die älteste durchgehend produzierende Manufaktur der Welt, 1755 in Genf gegründet. Mit der Fiftysix richtet sich das Haus erstmals bewusst an ein jüngeres Publikum, das eine Alltagsuhr in Stahl sucht. Das Kaliber 1326 bietet 48 Stunden Gangreserve.",
+    "Neben der Dreizeigerversion gibt es Day-Date mit Gangreserveanzeige (Kaliber 2475 SC/2) und Vollkalender mit Mondphase (Kaliber 2460 QCL/1), Zifferblätter in Silber, Blau oder Grau. Im Vacheron-Programm ist die Fiftysix der preislich günstigste Einstieg."
    ],
    "cur": "Fiftysix (aktuelle Modelle)",
    "f": [
@@ -22794,11 +22825,25 @@
    ],
    "refs": [
     [
-     "Fiftysix",
+     "Fiftysix Self-Winding",
      "seit 2018",
      "40 mm",
      "1326",
-     "Dreizeiger mit Datum"
+     "Dreizeiger mit Datum, 48 h"
+    ],
+    [
+     "Fiftysix Day-Date",
+     "seit 2018",
+     "40 mm",
+     "2475 SC/2",
+     "Mit Gangreserveanzeige"
+    ],
+    [
+     "Fiftysix Vollkalender",
+     "seit 2018",
+     "40 mm",
+     "2460 QCL/1",
+     "Mit Mondphase"
     ]
    ],
    "r": [
@@ -22823,7 +22868,10 @@
     "Automatikwerk"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Day-Date und Vollkalender laufen mit rund 40 Stunden Gangreserve, das Dreizeigerwerk 1326 mit 48 Stunden.",
+    "Im November 2026 überarbeitete Vacheron Dreizeiger und Vollkalender mit neuen grauen Zifferblättern und Nubuk-Bändern."
+   ],
    "ev": [
     [
      "1755",
@@ -23000,7 +23048,7 @@
    ],
    "tipp": [],
    "x": [
-    "Die Ludwig neomatik hat ein besonders flaches Automatikwerk (DUW 3001)."
+    "Die erste Kollektion von 1992 bestand aus Tangente, Orion, Ludwig und Tetra; Nomos wurde im Januar 1990 gegründet, zwei Monate nach dem Mauerfall."
    ],
    "ev": [
     [
@@ -23094,7 +23142,9 @@
     "Handaufzug"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die frühe Tetra gab es mit 27,5 und 29,5 Millimetern; das hauseigene Handaufzugskaliber Alpha stellte Nomos erst 2005 vor, die Modelle von 1992 hatten ein ETA-Werk."
+   ],
    "ev": [
     [
      "1992",
@@ -23332,7 +23382,7 @@
    "since": "1957",
    "s": "Die klassische Dresswatch von Longines, im Stil der Flagship von 1957.",
    "b": [
-    "Die Flagship erschien 1957 als eine der ersten Automatikuhren von Longines; sie war eine schlichte Dresswatch mit schlankem Gehäuse und Stabindizes. Die Heritage-Version greift das mit 38,5 Millimetern auf und ist als Dreizeiger mit Datum und als Mondphasenmodell erhältlich.",
+    "Die Flagship erschien 1957 als eine der ersten benannten Kollektionen von Longines; der Name erinnert an die Flagge des Flottenkommandanten. Sie war eine schlichte Dresswatch mit schlankem Gehäuse und Stabindizes. Die Heritage-Version greift das mit 38,5 Millimetern auf und ist als Dreizeiger mit Datum und als Mondphasenmodell erhältlich.",
     "Der Name Flagship steht für den Anspruch, das Schiff an der Spitze der Flotte zu sein. Das Werk der Heritage ist ein Automatikwerk, das durch den Glasboden sichtbar ist.",
     "Im Programm von Longines steht die Heritage-Linie für die Rückschau auf die Blütezeit der Marke; sie eignet sich für Träger, die Vintage-Optik mit moderner Technik verbinden wollen."
    ],
@@ -23395,7 +23445,9 @@
    "tipp": [
     "Bei Vintage-Flagship entscheidet der Zustand von Zifferblatt und Gehäusekanten über den Wert."
    ],
-   "x": [],
+   "x": [
+    "Die Flagship Heritage 60th Anniversary (2017) nutzt das Kaliber L609 auf Basis des ETA 2895-2 mit 42 Stunden Gangreserve; die Stahlversion war auf 1.957 Stück limitiert, der Gehäuseboden zeigt eine Karavelle wie das Original."
+   ],
    "ev": [
     [
      "1957",
@@ -23502,17 +23554,17 @@
    "t": "Hamilton Pan Europ",
    "brand": "Hamilton",
    "since": "1971",
-   "s": "Der Chronograph von 1971 mit Chronomatic-Werk, 2017 als Neuauflage zurückgekehrt.",
+   "s": "Der Chronograph von 1971 mit Chrono-Matic-Werk, 2011 als Neuauflage zurückgekehrt.",
    "b": [
-    "Die Pan Europ erschien 1971 als Chronograph mit dem Automatikwerk Chrono-Matic Kaliber 11, das Hamilton gemeinsam mit anderen Herstellern entwickelt hatte. Sie hat ein Kissengehäuse mit Tachymeterlünette und Zifferblatt in kräftigen Farben. 2017/18 erschien die Neuauflage Pan Europ Auto Chrono mit dem Kaliber H-31.",
+    "Die Pan Europ erschien 1971 als Chronograph mit dem Automatikwerk Chrono-Matic Kaliber 11, das Hamilton gemeinsam mit Breitling und Heuer auf Basis eines Büren-Werks entwickelt hatte. Sie hat ein Kissengehäuse und Zifferblätter in kräftigen Farben. 2011 erschien eine Neuauflage, limitiert auf 1.971 Stück, mit dem Kaliber H-31; die heutige Pan Europ Auto Chrono misst 45 Millimeter.",
     "Das Chrono-Matic-Kaliber 11 entstand 1969 in einer Kooperation mehrerer Hersteller und war eines der ersten Automatik-Chronographenwerke. Die Pan Europ war ein typisches Kind der 1970er mit eckigen Formen und farbigen Akzenten und verschwand danach aus dem Programm.",
-    "Die Neuauflage hat 42 Millimeter und ist eine günstige Alternative zu Schweizer Retro-Chronographen; Sammler suchen Originale aus den 1970ern mit unrestauriertem Zifferblatt."
+    "Die Neuauflage mit 45 Millimetern und 100 m Wasserdichtigkeit ist eine günstige Alternative zu Schweizer Retro-Chronographen; Sammler suchen Originale aus den 1970ern mit unrestauriertem Zifferblatt."
    ],
    "cur": "Pan Europ Auto Chrono (Neuauflage)",
    "f": [
     [
      "Gehäuse",
-     "42 mm, Edelstahl"
+     "45 mm, Edelstahl"
     ],
     [
      "Kaliber",
@@ -23537,8 +23589,8 @@
     ],
     [
      "Pan Europ Auto Chrono",
-     "seit 2010er",
-     "42 mm",
+     "2011–heute",
+     "45 mm",
      "H-31",
      "Neuauflage"
     ]
@@ -23567,19 +23619,21 @@
     "Farbiges Zifferblatt"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Das Kaliber H-31 hat 60 Stunden Gangreserve; die spätere Pan Europ ohne Chronograph (H-30) kommt auf 80 Stunden."
+   ],
    "ev": [
     [
      "1969",
-     "Chronomatic-Kaliber 11"
+     "Chrono-Matic-Kaliber 11"
     ],
     [
      "1971",
      "Pan Europ"
     ],
     [
-     "2018",
-     "Neuauflage mit H-31"
+     "2011",
+     "Neuauflage mit H-31, limitiert auf 1.971 Stück"
     ]
    ],
    "w": "Ein Chronograph im Stil der 1970er: Kissengehäuse und kräftiges Zifferblatt."
@@ -23645,7 +23699,10 @@
     "Trockenhaltetechnik"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die Tegiment-Härtung erreicht nach Händlerangaben mindestens 1.200 Vickers.",
+    "Die 104 St Sa ist bis 20 bar (200 m) wasserdicht und hat ein Saphirglas und einen Saphirglasboden."
+   ],
    "ev": [
     [
      "1961",
@@ -24036,7 +24093,10 @@
     "Keramikgehäuse"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die Mega 1 war 1990 digital und hat die Antenne im Armband; die analoge Mega folgte 1991, die Solarversion 1993.",
+    "Als Gestalter der Mega 1 werden Hartmut Esslinger und Frog Design genannt; die Angabe ist nicht überall bestätigt."
+   ],
    "ev": [
     [
      "1990",
@@ -24482,7 +24542,9 @@
     "Powermatic 80"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die Seastar 1000 Powermatic 80 gibt es in 43 und 40 Millimetern, mit Gehäuse aus 316L, Keramiklünette, 30 bar (300 m) und bis zu 80 Stunden Gangreserve."
+   ],
    "ev": [
     [
      "1853",
@@ -24713,7 +24775,7 @@
    "since": "2015",
    "s": "Die Taucheruhr im Stil von 1965, mit schlichtem Zifferblatt und Bronze- oder Stahlgehäuse.",
    "b": [
-    "Die Divers Sixty-Five erschien 2015 als Neuauflage der ersten Oris-Taucheruhr von 1965. Sie hat ein 40-Millimeter-Gehäuse, eine Aluminium- oder Edelstahllünette und ein schlichtes Zifferblatt mit Stabindizes und Dreieck bei 12 Uhr; das Werk ist das Oris-Kaliber 733 auf Sellita-Basis. Es gibt sie in Stahl und Bronze in mehreren Farben.",
+    "Die Divers Sixty-Five erschien 2015 zum 50. Jubiläum der ersten Oris-Taucheruhr von 1965. Sie hat ein 40-Millimeter-Gehäuse, eine Aluminium- oder Edelstahllünette und ein schlichtes Zifferblatt mit Stabindizes und Dreieck bei 12 Uhr; das Werk ist das Oris-Kaliber 733 auf Sellita-Basis. Es gibt sie in Stahl und Bronze in mehreren Farben.",
     "Oris wurde 1904 in Hölstein im Kanton Basel-Landschaft gegründet und ist eine der wenigen unabhängigen Schweizer Marken. Seit 1965 baut Oris Taucheruhren; die Sixty-Five zeigt die Gestaltung der 1960er-Jahre.",
     "Mit rund 3.000 Euro Neupreis liegt sie unter vielen Konkurrenten und ist eine der beliebtesten Retro-Taucheruhren im mittleren Preissegment."
    ],
@@ -24776,7 +24838,9 @@
     "40 mm"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Bis 2020 wuchs die Linie auf mehr als 50 Referenzen; 2025 folgte eine 60th Anniversary Edition."
+   ],
    "ev": [
     [
      "1904",
@@ -25188,9 +25252,9 @@
    "t": "Girard-Perregaux Vintage 1945",
    "brand": "Girard-Perregaux",
    "since": "1995",
-   "s": "Die rechteckige Girard-Perregaux im Art-déco-Stil, erstmals 1995 vorgestellt.",
+   "s": "Die rechteckige Girard-Perregaux im Art-déco-Stil, Mitte der 1990er-Jahre vorgestellt.",
    "b": [
-    "Die Vintage 1945 erschien 1995 und greift eine rechteckige Girard-Perregaux der 1940er-Jahre auf. Das Gehäuse im Art-déco-Stil hat gewölbte Seiten, das Zifferblatt Stabindizes oder Ziffern. Neben dem Dreizeiger gibt es sie mit Chronograph, Tourbillon und ewigem Kalender; sie ist das klassische Gegenstück zur Laureato.",
+    "Die Vintage 1945 erschien Mitte der 1990er-Jahre (Quellen nennen 1994 oder 1995) und greift eine rechteckige Girard-Perregaux der 1940er-Jahre auf. Das Gehäuse im Art-déco-Stil hat gewölbte Seiten, das Zifferblatt Stabindizes oder Ziffern. Neben dem Dreizeiger gibt es sie mit Chronograph, Tourbillon und ewigem Kalender; sie ist das klassische Gegenstück zur Laureato.",
     "Girard-Perregaux nennt 1791 als Gründungsjahr, als der Genfer Uhrmacher Jean-François Bautte seine Werkstatt eröffnete; 1856 entstand mit Constant Girard und Marie Perregaux der heutige Name. Das Haus gehört zum Konzern Kering. Das Werk gibt es als Handaufzug und Automatik.",
     "Neben der sportlichen Laureato bildet die Vintage 1945 den klassischen Gegenpol; auf dem Zweitmarkt ist sie günstig."
    ],
@@ -25246,7 +25310,10 @@
    "tipp": [
     "Das rechteckige Gehäuse braucht passende Bänder; Originalbänder mit Faltschließe sind begehrt."
    ],
-   "x": [],
+   "x": [
+    "Die Brücke des ersten Werks (GP91) zeigt drei Pfeile als Anspielung auf die Tourbillon-Brücken, ist tatsächlich aber nur eine einzelne Brücke.",
+    "Zum 70. Jubiläum erschien 2015 ein Tourbillon in Weißgold mit Diamanten, limitiert auf 50 Stück."
+   ],
    "ev": [
     [
      "1791",
@@ -25323,7 +25390,9 @@
     "Handaufzug"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Nach Angaben von Girard-Perregaux präsentierte Constant Girard das Tourbillon mit drei Brücken 1867; das US-Patent von 1884 und die Goldmedaille von 1889 sind besser belegt als die früheren Daten."
+   ],
    "ev": [
     [
      "1860er",
@@ -25459,8 +25528,8 @@
    "since": "1948",
    "s": "Die Schlangenuhr von Bulgari, seit den 1940er-Jahren ein Symbol der Marke.",
    "b": [
-    "Die Serpenti erschien in den 1940er-Jahren als Uhr, deren Armband sich wie eine Schlange um das Handgelenk windet; das Zifferblatt versteckt sich im Schlangenkopf. Die Serpenti wurde als Schmuckuhr in Gold, Edelstahl und mit Diamanten gebaut. Neuere Versionen haben ein Schuppenband.",
-    "Das Armband entsteht in der Tubogas-Technik, bei der ein Metallband spiralförmig gewickelt wird; die Technik erinnert an Gasrohre und gab dem Armband den Namen. Die Schlange gilt in der Antike als Symbol für Wandel und Klugheit; Bulgari nutzt das Motiv in Gold, Edelstahl, Emaille und mit Diamanten.",
+    "Die Serpenti entstand 1948 als Armbanduhr, deren Band in der Tubogas-Technik gefertigt ist und sich spiralförmig um das Handgelenk windet; die erste Uhr hatte einen quadratischen Zifferblattkopf. Erst 2010 verband die Serpenti Tubogas den Tubogas-Körper mit einem Schlangenkopf, hinter dem sich das Zifferblatt versteckt. Sie wurde als Schmuckuhr in Gold, Edelstahl und mit Diamanten gebaut, neuere Versionen haben ein Schuppenband.",
+    "Das Armband entsteht in der Tubogas-Technik, bei der Goldstreifen um einen Kern gewickelt werden, ohne gelötet zu werden. Die Schlange gilt in der Antike als Symbol für Wandel und Klugheit; Bulgari nutzt das Motiv in Gold, Edelstahl, Emaille und mit Diamanten.",
     "Seit 2011 gehört Bulgari zu LVMH. Preise reichen von mittleren vierstelligen Beträgen bis zu sechsstelligen Summen."
    ],
    "cur": "Serpenti (aktuelle Modelle)",
@@ -25512,11 +25581,21 @@
     "Schmuckuhr"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "In den 1970er-Jahren erschienen zweifarbige Serpenti-Uhren aus Stahl und Gold."
+   ],
    "ev": [
     [
-     "1940er",
-     "Erste Serpenti"
+     "1948",
+     "Erste Serpenti mit Tubogas-Band"
+    ],
+    [
+     "1970er",
+     "Zweifarbige Serpenti aus Stahl und Gold"
+    ],
+    [
+     "2010",
+     "Serpenti Tubogas mit Schlangenkopf"
     ],
     [
      "2011",
@@ -25606,7 +25685,9 @@
     "Abgerundete Form"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Rado nannte die DiaStar 1962 die erste kratzfeste Uhr der Welt; das Gehäuse bestand aus Wolframcarbid, nicht aus Zirkonoxid-Keramik wie bei heutigen Keramikuhren."
+   ],
    "ev": [
     [
      "1917",
@@ -25640,10 +25721,10 @@
    "id": "rado-true",
    "t": "Rado True",
    "brand": "Rado",
-   "since": "2002",
-   "s": "Die monochrome Keramikuhr von Rado, 2002 vorgestellt und seither in vielen Varianten.",
+   "since": 2011,
+   "s": "Die monochrome Keramikuhr von Rado, 2011 vorgestellt und seither in vielen Varianten.",
    "b": [
-    "Die True erschien 2002 als Keramikuhr mit schlichtem Zifferblatt. Gehäuse und Band bestehen aus Hightech-Keramik in einer Farbe, meist Schwarz oder Weiß, mit glatter, kratzfester Oberfläche. Es gibt sie als Quarz- und Automatikuhr in vielen Größen; die Thinline hat ein besonders flaches Gehäuse.",
+    "Die True erschien 2011 als Keramikuhr mit schlichtem Zifferblatt. Gehäuse und Band bestehen aus Hightech-Keramik in einer Farbe, meist Schwarz oder Weiß, mit glatter, kratzfester Oberfläche. Es gibt sie als Quarz- und Automatikuhr in vielen Größen; die Thinline hat ein besonders flaches Gehäuse.",
     "Das Material wird bei hohen Temperaturen gesintert und danach extrem hart; das Design der True ist reduziert und kommt ohne Zierrat aus. Rado gehört seit 1983 zur Swatch Group.",
     "Für Träger, die eine kratzfeste Alltagsuhr suchen, ist die True eine ruhige Wahl."
    ],
@@ -25659,7 +25740,7 @@
     ],
     [
      "Seit",
-     "2002"
+     "2011"
     ],
     [
      "Werk",
@@ -25669,7 +25750,7 @@
    "refs": [
     [
      "True",
-     "seit 2002",
+     "seit 2011",
      "versch.",
      "Quarz / Automatik",
      "Keramikuhr"
@@ -25699,7 +25780,7 @@
    "x": [],
    "ev": [
     [
-     "2002",
+     "2011",
      "Rado True"
     ]
    ],
@@ -26034,7 +26115,9 @@
     "Mondphase"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Die Villeret gilt seit den 1980er-Jahren als Flaggschiff-Linie von Blancpain."
+   ],
    "ev": [
     [
      "1735",
@@ -26115,7 +26198,9 @@
    "tipp": [
     "Frage nach dem Modelljahr: Die Léman wurde in mehreren Generationen gebaut."
    ],
-   "x": [],
+   "x": [
+    "Léman ist der französische Name des Genfersees; die Linie umfasst auch einen Flyback-Chronographen."
+   ],
    "ev": [
     [
      "2000er",
@@ -26576,7 +26661,10 @@
     "Anker-Logo"
    ],
    "tipp": [],
-   "x": [],
+   "x": [
+    "Seit den 1870er-Jahren waren nach Firmenangaben über fünfzig Marinen und Reedereien mit Ulysse-Nardin-Chronometern ausgestattet.",
+    "Die Armbanduhr 1183-122 erschien laut einem Händlerinserat 2013 mit dem Werk UN-118."
+   ],
    "ev": [
     [
      "1846",
