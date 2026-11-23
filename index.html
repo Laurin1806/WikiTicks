@@ -226,7 +226,7 @@ img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; wid
 .wimg-wrap[data-lc="b"] { --lc1: 150,215,255; --lc2: 80,170,255; --lc3: 50,130,255; }
 @keyframes lumepulse { 0%, 100% { opacity: 1; } 50% { opacity: .9; } }
 @media (prefers-reduced-motion: reduce) { :root.night canvas.wlume { animation: none; } }
-:root.night img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; filter: brightness(.6) contrast(1.05); }
+:root.night img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; filter: brightness(.74) contrast(1.05); }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { background: transparent; mix-blend-mode: multiply; filter: none; } /* blendet ohne weißen Kasten aus */
 /* Nachtmodus: Kacheln unter dem Mauszeiger und der aktive Eintrag der linken Spalte leuchten leicht */
 :root.night { --glow: color-mix(in srgb, var(--accent) 60%, transparent); }
@@ -632,7 +632,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112461"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112462"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1620,7 +1620,7 @@ function nightPrep(img) {
     for (let i = 0; i < N; i++) {
       const px = i % w; let edge = false;
       if (!bg[i]) edge = (px > 0 && bg[i - 1]) || (px < w - 1 && bg[i + 1]) || (i >= w && bg[i - w]) || (i < N - w && bg[i + w]);
-      o[i * 4] = d[i * 4] * .5; o[i * 4 + 1] = d[i * 4 + 1] * .52; o[i * 4 + 2] = d[i * 4 + 2] * .56; o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
+      o[i * 4] = d[i * 4] * .64; o[i * 4 + 1] = d[i * 4 + 1] * .66; o[i * 4 + 2] = d[i * 4 + 2] * .7; o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
     }
     cx.putImageData(od, 0, 0);
     // Leuchtmasse nach den Angaben im Modell (data-lz: I Indizes, H Zeiger, P Lünettenpunkt, B Lünettenmarkierungen, S Hilfszifferblätter, L LCD).
@@ -1802,7 +1802,7 @@ function nightPrep(img) {
       }
     }
     // alles Helle, das nicht leuchtet (Lünettenzahlen, Aufdruck, Reflexe), im Dunkeln stärker zurücknehmen
-    if (dimBright) { const anyS = !!wrap.dataset.lmk; for (let i = 0; i < N; i++) if (!bg[i] && !keep[i] && L[i] > 120 && (anyS || S[i] < 70)) { const t = Math.min(1, (L[i] - 120) / 90), f = 1 - .62 * t * t * (3 - 2 * t); o[i * 4] *= f; o[i * 4 + 1] *= f; o[i * 4 + 2] *= f; } cx.putImageData(od, 0, 0); }
+    if (dimBright) { const anyS = !!wrap.dataset.lmk; for (let i = 0; i < N; i++) if (!bg[i] && !keep[i] && L[i] > 120 && (anyS || S[i] < 70)) { const t = Math.min(1, (L[i] - 120) / 90), f = 1 - .5 * t * t * (3 - 2 * t); o[i * 4] *= f; o[i * 4 + 1] *= f; o[i * 4 + 2] *= f; } cx.putImageData(od, 0, 0); }
     if (window.__dbgZone) { const pal = [[0,0,0],[255,60,60],[60,255,60],[255,255,0],[0,255,255],[255,0,255],[120,120,120]]; for (let i = 0; i < N; i++) if (zc[i]) { const p = pal[zc[i]]; lo[i * 4] = p[0]; lo[i * 4 + 1] = p[1]; lo[i * 4 + 2] = p[2]; lo[i * 4 + 3] = 255; } lx.putImageData(ld, 0, 0); } else
     // Leuchtflächen an den Rändern vervollständigen: angrenzende, etwas weniger helle Pixel (Verlauf, Randzonen) dazunehmen
     if (lz && lz !== "L") { const gthr = Math.max(105, (dimBright ? 0 : 0) + 120); for (let it = 0; it < 3; it++) { const add = []; for (let k = 0; k < N; k++) { if (keep[k] || bg[k] || L[k] < gthr || S[k] > 75) continue; const px = k % w; if ((px > 0 && keep[k - 1]) || (px < w - 1 && keep[k + 1]) || (k >= w && keep[k - w]) || (k < N - w && keep[k + w])) add.push(k); } for (const k of add) keep[k] = 1; } }
