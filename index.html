@@ -607,11 +607,11 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112435"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112437"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
-    const lm = e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${e.lume.c}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}"` : "";
+    const lm = e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${e.lume.c}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "";
     return `<span class="wimg-wrap"${lm}>${base}</span>`;
   }
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
@@ -1667,6 +1667,7 @@ function nightPrep(img) {
           const inSub = (px, py) => subC.some(a => { const ang = a * Math.PI / 180, sx = mx + Math.sin(ang) * Rl * .4, sy = my - Math.cos(ang) * Rl * .4; return Math.hypot(px - sx, py - sy) < Rl * .25; });
           // Indexring dieser Uhr: mittlerer Abstand der erkannten Balken; alles deutlich außerhalb (Lünettenskala, Rehaut) gehört nicht dazu
           let Ri = 0; { const rs = comps.filter(c => c.n >= minA * 1.5 && c.elong > 2.2 && c.n < N * .004).map(c => Math.hypot(c.cx - mx, c.cy - my) / Rl).filter(v => v > .3).sort((a, b) => a - b); if (rs.length >= 4) Ri = rs[Math.floor(rs.length * .6)]; }
+          const idxList = [];
           for (const c of comps) {
             const r = Math.hypot(c.cx - mx, c.cy - my) / Rl; let touch = false;
             if (r > 1.25 || (lightMode && r > .74)) continue; // Armband, Krone, Reflexe
@@ -1689,7 +1690,81 @@ function nightPrep(img) {
             }
             if (window.__dbgZone) for (let t = 0; t < c.n; t++) zc[c.pts[t]] = "HIPSB-".indexOf(zone) + 1;
             if (zone === "S" && (c.elong < 2.5 || c.n > Rl * Rl * .012)) zone = "-";
-            if (zone !== "-" && lz.indexOf(zone) >= 0) for (let t = 0; t < c.n; t++) keep[c.pts[t]] = 1;
+            if (zone !== "-" && lz.indexOf(zone) >= 0) { for (let t = 0; t < c.n; t++) keep[c.pts[t]] = 1; if (zone === "I") idxList.push(c); }
+          }
+          // ---- Indizes vervollständigen: aus den erkannten Indizes Mittelpunkt, Radius, Winkelraster und Größe berechnen und fehlende ergänzen ----
+          if (lz.indexOf("I") >= 0 && idxList.length >= 4) {
+            const dm = wrap.dataset.date || "", mk = wrap.dataset.mk || "baton", sh = wrap.dataset.sh || "round", square = sh === "square" || sh === "rect";
+            const med = a => { const b = a.slice().sort((x, y) => x - y); return b.length ? b[b.length >> 1] : 0; };
+            const D2R = Math.PI / 180, angOf = (x, y, cx0, cy0) => ((Math.atan2(x - cx0, -(y - cy0)) / D2R) + 360) % 360;
+            const axisFac = th => Math.max(Math.abs(Math.sin(th * D2R)), Math.abs(Math.cos(th * D2R)));
+            const radOf = (x, y, cx0, cy0, th) => Math.hypot(x - cx0, y - cy0) * (square ? axisFac(th) : 1);
+            let list = idxList.filter(c => c.n >= minA * 1.2 && c.n < N * .004), cxF = mx, cyF = my;
+            const fit = () => {
+              if (square) { const xs = list.map(c => c.cx), ys = list.map(c => c.cy); cxF = (Math.min(...xs) + Math.max(...xs)) / 2; cyF = (Math.min(...ys) + Math.max(...ys)) / 2; return; }
+              if (list.length < 5) return;
+              let sx = 0, sy = 0, sxx = 0, syy = 0, sxy = 0, sz = 0, sxz = 0, syz = 0; const n = list.length;
+              for (const c of list) { const x = c.cx, y = c.cy, z = x * x + y * y; sx += x; sy += y; sxx += x * x; syy += y * y; sxy += x * y; sz += z; sxz += x * z; syz += y * z; }
+              const A = [[sxx, sxy, sx], [sxy, syy, sy], [sx, sy, n]], B = [sxz, syz, sz];
+              const det3 = M => M[0][0] * (M[1][1] * M[2][2] - M[1][2] * M[2][1]) - M[0][1] * (M[1][0] * M[2][2] - M[1][2] * M[2][0]) + M[0][2] * (M[1][0] * M[2][1] - M[1][1] * M[2][0]);
+              const Dt = det3(A); if (Math.abs(Dt) < 1e-6) return;
+              const rep = col => A.map((r, i) => r.map((v, j) => j === col ? B[i] : v));
+              const fx = det3(rep(0)) / Dt / 2, fy = det3(rep(1)) / Dt / 2; if (Math.hypot(fx - mx, fy - my) < Rl * .2) { cxF = fx; cyF = fy; }
+            };
+            fit();
+            for (let pass = 0; pass < 2; pass++) {
+              const rs = list.map(c => radOf(c.cx, c.cy, cxF, cyF, angOf(c.cx, c.cy, cxF, cyF))), rM = med(rs), nM = med(list.map(c => c.n));
+              list = list.filter((c, i) => Math.abs(rs[i] - rM) < rM * .12 && c.n >= nM * .45 && c.n <= nM * 2.6); fit();
+            }
+            if (list.length >= 5) {
+              const ths = list.map(c => angOf(c.cx, c.cy, cxF, cyF)), rAx = med(list.map((c, i) => radOf(c.cx, c.cy, cxF, cyF, ths[i])));
+              // Winkelraster (30°) mit Versatz bestimmen
+              let sa = 0, ca = 0; for (const t of ths) { const p = (t % 30) * 12 * D2R; sa += Math.sin(p); ca += Math.cos(p); }
+              let off = (Math.atan2(sa, ca) / D2R) / 12; if (off < -15) off += 30; if (off >= 15) off -= 30;
+              const adiff = (a, b) => Math.abs(((a - b + 540) % 360) - 180);
+              const inl = list.filter((c, i) => adiff(ths[i], Math.round((ths[i] - off) / 30) * 30 + off) < 6);
+              if (inl.length >= 5) {
+                const nT = med(inl.map(c => c.n)), Lx = med(inl.map(c => Math.sqrt(c.n * c.elong))), Wx = med(inl.map(c => Math.sqrt(c.n / c.elong)));
+                // Vorlage: erkannter Index mit mittlerer Größe, möglichst schlank und nicht bei 12 Uhr
+                let tmpl = null, tth = 0;
+                { const cand = inl.map(c => ({ c, th: angOf(c.cx, c.cy, cxF, cyF) })).filter(e => adiff(e.th, 0) > 8 && e.c.elong > 1.6).sort((a, b) => Math.abs(a.c.n - nT) - Math.abs(b.c.n - nT)); if (cand.length) { tmpl = cand[0].c; tth = cand[0].th; } }
+                const subC = { chrono3: [90, 180, 270], chrono2: [90, 270], small6: [180], small9: [270], small3: [90] }[sub] || [];
+                const dateAt = (dm === "3" || dm === "cyclops" || dm === "daydate" || dm === "day") ? [90] : dm === "6" ? [180] : [];
+                if (dm === "day") dateAt.push(0);
+                const blocked = a => subC.concat(dateAt).some(b => adiff(a, b) < 12);
+                const Rat = th => rAx / (square ? axisFac(th) : 1);
+                // vorhandene Positionen merken
+                const have = new Set(ths.map(t => ((Math.round((t - off) / 30) % 12) + 12) % 12));
+                const tpl = new Set(); let tcx = 0, tcy = 0;
+                if (tmpl) { const a = -tth * D2R, ca2 = Math.cos(a), sa2 = Math.sin(a); for (let t = 0; t < tmpl.n; t++) { const i = tmpl.pts[t], vx = i % w - cxF, vy = ((i / w) | 0) - cyF; const rx = vx * ca2 - vy * sa2, ry = vx * sa2 + vy * ca2 + (square ? (Rat(tth) - Rat(0)) : 0); tpl.add(Math.round(rx) * 8192 + Math.round(ry)); } }
+                const synthOK = tmpl && !["arabicAll", "pilot", "field"].includes(mk);
+                let added = 0;
+                for (let k = 0; k < 12; k++) {
+                  const ang = (off + 30 * k + 360) % 360; if (blocked(ang)) continue;
+                  const R = Rat(ang), dx = Math.sin(ang * D2R), dy = -Math.cos(ang * D2R), px0 = cxF + dx * R, py0 = cyF + dy * R;
+                  // 1) gezielte, lockerere Suche in einem Fenster an der berechneten Stelle
+                  let got = 0; const loc = [];
+                  if (!lightMode) {
+                    const hl = Math.max(Lx * .85, 7), hw = Math.max(Wx * 1.7, 5), x0w = Math.floor(px0 - hl - hw), x1w = Math.ceil(px0 + hl + hw), y0w = Math.floor(py0 - hl - hw), y1w = Math.ceil(py0 + hl + hw), vals = [];
+                    for (let y = Math.max(0, y0w); y <= Math.min(h - 1, y1w); y++) for (let x = Math.max(0, x0w); x <= Math.min(w - 1, x1w); x++) { const u = (x - px0) * dx + (y - py0) * dy, v = -(x - px0) * dy + (y - py0) * dx; if (Math.abs(u) <= hl && Math.abs(v) <= hw) { const i = y * w + x; if (!bg[i]) vals.push(L[i]); } }
+                    if (vals.length) { const base = med(vals), thr = Math.max(base + 38, 120);
+                      for (let y = Math.max(0, y0w); y <= Math.min(h - 1, y1w); y++) for (let x = Math.max(0, x0w); x <= Math.min(w - 1, x1w); x++) { const u = (x - px0) * dx + (y - py0) * dy, v = -(x - px0) * dy + (y - py0) * dx; if (Math.abs(u) <= hl && Math.abs(v) <= hw) { const i = y * w + x; if (!bg[i] && L[i] >= thr && S[i] <= 75) loc.push(i); } }
+                      got = loc.length; }
+                    if (got >= nT * .3 && got <= nT * 3.2) { for (const i of loc) if (!keep[i]) { keep[i] = 1; added++; } continue; }
+                  }
+                  // 2) keine brauchbare Fläche gefunden: gedrehte Kopie eines erkannten Index (nicht bei 12 Uhr, nicht bei Ziffern)
+                  if (have.has(k) || !synthOK || adiff(ang, 0) < 8) continue;
+                  if ((mk === "arabic" || mk === "explorer") && k % 3 === 0) continue;
+                  const Dl = ang * D2R, cD = Math.cos(-Dl), sD = Math.sin(-Dl), ext = Math.ceil(Math.max(Lx, Wx) * 1.6) + 3, adj = square ? (Rat(ang) - Rat(0)) : 0;
+                  for (let y = Math.max(0, Math.floor(py0 - ext)); y <= Math.min(h - 1, Math.ceil(py0 + ext)); y++) for (let x = Math.max(0, Math.floor(px0 - ext)); x <= Math.min(w - 1, Math.ceil(px0 + ext)); x++) {
+                    const i = y * w + x; if (bg[i]) continue;
+                    const vx = x - cxF, vy = y - cyF, rx = vx * cD - vy * sD, ry = vx * sD + vy * cD + adj;
+                    if (tpl.has(Math.round(rx) * 8192 + Math.round(ry))) { if (!keep[i]) { keep[i] = 1; added++; } }
+                  }
+                }
+                if (window.__dbgZone) window.__dbgComp = { id: wrap.dataset.id, inl: inl.length, off: +off.toFixed(1), rAx: Math.round(rAx), added, tmpl: !!tmpl };
+              }
+            }
           }
         }
       }
