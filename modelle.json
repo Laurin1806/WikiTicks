@@ -23368,7 +23368,8 @@
     "bezelColor": "#1f3a5f",
     "strap": "link3",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "sportLugs": true
    },
    "m": [
     "Keramiklünette",
