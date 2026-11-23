@@ -7687,7 +7687,8 @@
     "cabochon": true,
     "seconds": false,
     "label": "",
-    "track": "rail"
+    "track": "rail",
+    "brandDy": -1
    },
    "var": [
     {
@@ -17426,7 +17427,8 @@
     "track": "rail",
     "strap": "leather",
     "strapColor": "#2a201a",
-    "thin": true
+    "thin": true,
+    "brandDy": -3
    },
    "m": [
     "Quadratisches, flaches Gehäuse",
@@ -18112,7 +18114,8 @@
     "top": [],
     "bottom": [],
     "origin": "",
-    "brandDy": -22
+    "brandDy": -22,
+    "sub": "small6"
    },
    "m": [
     "Doppelzifferblatt",
@@ -19887,7 +19890,8 @@
     "markers": "roman",
     "hands": "sword",
     "strap": "integrated",
-    "case": "steel"
+    "case": "steel",
+    "brandDy": -1
    },
    "m": [
     "Integriertes Band",
@@ -27417,7 +27421,8 @@
     "hands": "sword",
     "strap": "santos",
     "case": "steel",
-    "date": "6"
+    "date": "6",
+    "brandDy": -3
    },
    "m": [
     "Sichtbare Schrauben",
