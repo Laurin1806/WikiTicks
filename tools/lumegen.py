@@ -166,13 +166,25 @@ def gen(img, spec):
         ring=[(d,c) for d,c in info if d>spec.get('R',r)*.55]
         if ring:
             Rr=float(np.median([d for d,_ in ring]))
-            dots=[c for d,c in ring if abs(d-Rr)<Rr*.06 and (c.max(0)-c.min(0)).max()<1.35*((c.max(0)-c.min(0)).min()+1)]
-            rad=float(np.median([math.sqrt(len(c)/math.pi) for c in dots])) if dots else 12
+            isdot=lambda c:(c.max(0)-c.min(0)).max()<1.35*((c.max(0)-c.min(0)).min()+1)
+            dots=[c for d,c in ring if abs(d-Rr)<Rr*.06 and isdot(c)]
+            bars=[c for d,c in ring if abs(d-Rr)<Rr*.1 and not isdot(c)]
             yy5,xx5=np.mgrid[0:h,0:w]
             for A in spec['idxfix']:
                 t=math.radians(A);px5,py5=hx+Rr*math.sin(t),hy-Rr*math.cos(t)
-                keep[np.hypot(xx5-px5,yy5-py5)<rad*1.9]=False
-                keep[np.hypot(xx5-px5,yy5-py5)<=rad]=True
+                if dots and len(dots)>=len(bars) and not spec.get('idxbar'):
+                    rad=float(np.median([math.sqrt(len(c)/math.pi) for c in dots]))
+                    keep[np.hypot(xx5-px5,yy5-py5)<rad*1.9]=False;keep[np.hypot(xx5-px5,yy5-py5)<=rad]=True
+                elif bars:   # Balken: Vorlage eines vorhandenen Balkens drehen
+                    tb=bars[0];tcy,tcx=tb[:,0].mean(),tb[:,1].mean();ta=math.atan2(tcx-hx,-(tcy-hy));da=t-ta
+                    keep[np.hypot(xx5-px5,yy5-py5)<math.sqrt(len(tb))*1.3]=False
+                    ca,sa=math.cos(da),math.sin(da)
+                    for yb,xb in tb:
+                        vx,vy=xb-hx,yb-hy;nx=hx+vx*ca-vy*sa;ny=hy+vx*sa+vy*ca
+                        for oy in (0,1):
+                            for ox in (0,1):
+                                X,Y=int(nx)+ox,int(ny)+oy
+                                if 0<=X<w and 0<=Y<h: keep[Y,X]=True
     # Balkenindizes: Leuchtmasse nur als Mittelstreifen (Rand nach innen versetzt)
     if spec.get('idxinset'):
         ins=spec['idxinset'];hub0=spec.get('hub');new=np.zeros_like(keep);from PIL import ImageDraw as _ID
