@@ -7836,6 +7836,13 @@
      "v": {
       "img": "assets/watches/cartier-tank-chinoise-yellow-gold.jpg"
      }
+    },
+    {
+     "n": "Tank Normale",
+     "y": "",
+     "v": {
+      "img": "assets/watches/cartier-tank-normale.jpg"
+     }
     }
    ],
    "m": [
@@ -8365,6 +8372,13 @@
      "v": {
       "dial": "#1f5a3e",
       "img": null
+     }
+    },
+    {
+     "n": "Navitimer im Stil der Ref. 806",
+     "y": "",
+     "v": {
+      "img": "assets/watches/breitling-navitimer-806.jpg"
      }
     }
    ],
@@ -9091,7 +9105,16 @@
      "Carrera Glassbox"
     ]
    ],
-   "w": "Ein aufgeräumtes Zifferblatt mit der Tachymeterskala am Rand hält die Carrera auch bei Rennen gut lesbar."
+   "w": "Ein aufgeräumtes Zifferblatt mit der Tachymeterskala am Rand hält die Carrera auch bei Rennen gut lesbar.",
+   "var": [
+    {
+     "n": "Carrera mit weißem Zifferblatt",
+     "y": "",
+     "v": {
+      "img": "assets/watches/tag-heuer-carrera-2447.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "yacht-master",
