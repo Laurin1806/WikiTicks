@@ -206,22 +206,26 @@ a.xl:hover { text-decoration-color: var(--accent); }
 img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multiply; padding: 4px 0; box-sizing: border-box; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; } }
 :root[data-theme="dark"] img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; }
-/* Nachtmodus (Schalter auf Seiten mit Leuchtmasse-Maske, z. B. Deepsea): Seite schwarz, Uhr abgedunkelt, Leuchtmasse leuchtet */
+/* Nachtmodus (ganze Seite): schwarze Seite, Uhren abgedunkelt, Leuchtmasse leuchtet. Freisteller und Leuchtmaske erzeugt der Browser je Bild (Canvas) */
 :root.night { --bg: #04070b; --surface: #0a0f15; --fg: #d6dce6; --muted: #8592a3; --line: #18212d; --accent: #7da6ec; --accent-soft: #101c30; --gold: #d4a856; color-scheme: dark; }
 :root.night[data-accent="green"] { --accent: #6cc39a; --accent-soft: #10241f; }
 :root.night[data-accent="bordeaux"] { --accent: #e58fa1; --accent-soft: #2b161c; }
 :root.night[data-accent="anthrazit"] { --accent: #bcc4ce; --accent-soft: #1c222a; }
 .wimg-wrap { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
-.wlayer { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; padding: 4px 0; box-sizing: border-box; pointer-events: none; opacity: 0; transition: opacity .6s ease, filter .6s ease; }
-:root.night .wimg-wrap > img.wimg { visibility: hidden; }
-:root.night .wlayer.wcut { opacity: 1; filter: brightness(.5) saturate(.85) contrast(1.08); }
-:root.night .wlayer.wlume { opacity: 1; mix-blend-mode: screen; filter: drop-shadow(0 0 2px rgba(130,255,180,.95)) drop-shadow(0 0 9px rgba(80,255,150,.7)) drop-shadow(0 0 22px rgba(60,230,130,.45)); animation: lumepulse 6s ease-in-out infinite; }
+.thumb .wimg-wrap, .daily-fig .wimg-wrap { height: 100%; }
+.daily-fig .wimg-wrap { height: auto; }
+canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); pointer-events: none; opacity: 0; transition: opacity .6s ease; }
+:root.night .wimg-wrap[data-nt="1"] > img.wimg { visibility: hidden; }
+:root.night canvas.wcut { opacity: 1; }
+:root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: drop-shadow(0 0 1.5px rgba(130,255,180,.95)) drop-shadow(0 0 7px rgba(80,255,150,.7)) drop-shadow(0 0 18px rgba(60,230,130,.4)); animation: lumepulse 6s ease-in-out infinite; }
 @keyframes lumepulse { 0%, 100% { opacity: 1; } 50% { opacity: .82; } }
-@media (prefers-reduced-motion: reduce) { :root.night .wlayer.wlume { animation: none; } }
+@media (prefers-reduced-motion: reduce) { :root.night canvas.wlume { animation: none; } }
 :root.night img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; filter: brightness(.6) contrast(1.05); }
-:root.night .wimg-wrap > img.wimg { background: transparent; }
-.nightbtn { justify-self: center; display: inline-flex; align-items: center; gap: 8px; font: 600 13px/1 var(--font-body); padding: 9px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--accent-soft); color: var(--accent); cursor: pointer; }
+:root.night .wimg-wrap[data-nt="1"] > img.wimg { background: transparent; }
+.night-box + .accent-box { margin-top: 16px; }
+.nightbtn { display: inline-flex; align-items: center; gap: 9px; font: 600 13px/1 var(--font-body); padding: 10px 16px 10px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
 .nightbtn:hover { border-color: var(--accent); }
+.nightbtn .moon { font-size: 15px; line-height: 1; }
 .nightbtn[aria-pressed="true"] { background: #0c1a14; color: #9dffc4; border-color: #2c6b4a; box-shadow: 0 0 14px rgba(80,255,150,.25); }
 .daily-fig { display: flex; flex-direction: column; align-items: center; justify-content: center; align-self: stretch; background: var(--bg); border-radius: 12px; padding: 18px; min-height: 260px; }
 .daily-fig .watch { max-height: 320px; width: auto; }
@@ -395,6 +399,10 @@ footer .wrap { padding-block: 20px 28px; }
     <div>
       <button type="button" class="menu-toggle" id="menu" aria-expanded="false" aria-controls="nav">Menü <span id="menu-cur">Startseite</span></button>
       <nav id="nav" aria-label="Navigation"></nav>
+      <div class="accent-box night-box">
+        <div class="label">Ansicht</div>
+        <button type="button" class="nightbtn" id="nightbtn" aria-pressed="false"><span class="moon" aria-hidden="true">☾</span><span class="nl">Nachtmodus</span></button>
+      </div>
       <div class="accent-box">
         <div class="label">Farbe</div>
         <div class="accent-switch" role="group" aria-label="Farbe der Seite">
@@ -597,12 +605,11 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112407"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112409"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
-    const nt = v.night && v.night.img === v.img ? v.night : null; // Freisteller + Leuchtmasse für den Nachtmodus
-    return nt ? `<span class="wimg-wrap">${base}<img class="wlayer wcut" src="${nt.cut}?v=${IMGV}" alt="" aria-hidden="true"><img class="wlayer wlume" src="${nt.lume}?v=${IMGV}" alt="" aria-hidden="true"></span>` : base;
+    return `<span class="wimg-wrap">${base}</span>`;
   }
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
   const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
@@ -1502,7 +1509,7 @@ function viewEntry(e) {
   const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
-      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption>${e.v.night ? nightBtn() : ""}</figure>`) : LF.top}
+      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption></figure>`) : LF.top}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
@@ -1559,9 +1566,75 @@ function viewSearch(term) {
     ${lex.length ? `<div class="label">Lexikon</div><div class="grid">${lex.map(e => card(e)).join("")}</div>` : ""}`;
 }
 
-// ---------- Nachtmodus (nur auf Seiten mit Leuchtmasse-Bild) ----------
-const nightBtn = () => { const on = document.documentElement.classList.contains("night"); return `<button type="button" class="nightbtn" aria-pressed="${on}"><span aria-hidden="true">${on ? "☀" : "☾"}</span><span>${on ? "Tagmodus" : "Nachtmodus"}</span></button>`; };
-const setNight = on => { document.documentElement.classList.toggle("night", on); const b = document.querySelector(".nightbtn"); if (b) b.outerHTML = nightBtn(); };
+// ---------- Nachtmodus (ganze Seite) ----------
+// Uhrenbilder: Weiß vom Rand aus entfernen (Freisteller), abdunkeln und Leuchtmasse (helle Flächen auf dunklem Grund) grün leuchten lassen
+function nightPrep(img) {
+  const wrap = img.parentElement;
+  if (!wrap || !wrap.classList.contains("wimg-wrap") || wrap.dataset.nt) return;
+  if (!img.complete || !img.naturalWidth) { img.addEventListener("load", () => nightPrep(img), { once: true }); return; }
+  wrap.dataset.nt = "0";
+  try {
+    const nh = img.naturalHeight, nw = img.naturalWidth, sc = Math.min(1, 640 / nh), w = Math.max(2, Math.round(nw * sc)), h = Math.max(2, Math.round(nh * sc));
+    const c = document.createElement("canvas"); c.width = w; c.height = h;
+    const x = c.getContext("2d", { willReadFrequently: true }); x.drawImage(img, 0, 0, w, h);
+    const id = x.getImageData(0, 0, w, h), d = id.data, N = w * h;
+    const L = new Uint8Array(N), S = new Uint8Array(N), white = new Uint8Array(N);
+    for (let i = 0; i < N; i++) { const r = d[i * 4], g = d[i * 4 + 1], b = d[i * 4 + 2], mx = Math.max(r, g, b), mn = Math.min(r, g, b); L[i] = (r + g + b) / 3; S[i] = mx - mn; white[i] = mn >= 238 ? 1 : 0; }
+    // Hintergrund = zusammenhängendes Weiß, das den Bildrand berührt
+    const bg = new Uint8Array(N), st = new Int32Array(N); let sp = 0;
+    const push = i => { if (white[i] && !bg[i]) { bg[i] = 1; st[sp++] = i; } };
+    for (let i = 0; i < w; i++) { push(i); push((h - 1) * w + i); } for (let j = 0; j < h; j++) { push(j * w); push(j * w + w - 1); }
+    while (sp) { const i = st[--sp], px = i % w; if (px > 0) push(i - 1); if (px < w - 1) push(i + 1); if (i >= w) push(i - w); if (i < N - w) push(i + w); }
+    // Freisteller: abgedunkelt, Kanten leicht weich
+    const cut = document.createElement("canvas"); cut.width = w; cut.height = h; const cx = cut.getContext("2d"), od = cx.createImageData(w, h), o = od.data;
+    for (let i = 0; i < N; i++) {
+      const px = i % w; let edge = false;
+      if (!bg[i]) edge = (px > 0 && bg[i - 1]) || (px < w - 1 && bg[i + 1]) || (i >= w && bg[i - w]) || (i < N - w && bg[i + w]);
+      o[i * 4] = d[i * 4] * .5; o[i * 4 + 1] = d[i * 4 + 1] * .52; o[i * 4 + 2] = d[i * 4 + 2] * .56; o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
+    }
+    cx.putImageData(od, 0, 0);
+    // Leuchtmasse: sehr helle, farbarme Flächen, die rundherum von Dunkel umgeben sind (Indizes/Zeiger auf dunklem Zifferblatt).
+    // Stahl (Band, Gehäuse) ist ringsum hell und fällt heraus; Uhren mit hellem Zifferblatt bekommen keine Leuchtmasse.
+    let x0 = w, x1 = 0, y0 = h, y1 = 0;
+    for (let k = 0; k < N; k++) if (!bg[k]) { const px = k % w, py = (k / w) | 0; if (px < x0) x0 = px; if (px > x1) x1 = px; if (py < y0) y0 = py; if (py > y1) y1 = py; }
+    const ccx = (x0 + x1) >> 1, ccy = (y0 + y1) >> 1, cr = Math.round(Math.min(x1 - x0, y1 - y0) * .16);
+    let dsum = 0, dn = 0;
+    for (let j = ccy - cr; j <= ccy + cr; j++) for (let i = ccx - cr; i <= ccx + cr; i++) { if (i < 0 || j < 0 || i >= w || j >= h) continue; const k = j * w + i; if (L[k] < 200) { dsum += L[k]; dn++; } }
+    const darkDial = dn > cr * cr && dsum / dn < 150;
+    const cand = new Uint8Array(N);
+    for (let k = 0; k < N; k++) if (!bg[k] && L[k] >= 205 && S[k] <= 60) cand[k] = 1;
+    const minA = Math.max(40, Math.round(h * h * .0002)), keep = new Uint8Array(N), seen = new Uint8Array(N), q = new Int32Array(N), RING = Math.max(4, Math.round(h * .009));
+    if (darkDial) for (let k0 = 0; k0 < N; k0++) {
+      if (!cand[k0] || seen[k0]) continue;
+      let qh = 0, qt = 0; q[qt++] = k0; seen[k0] = 1; let bx0 = w, bx1 = 0, by0 = h, by1 = 0;
+      while (qh < qt) { const i = q[qh++], px = i % w, py = (i / w) | 0; if (px < bx0) bx0 = px; if (px > bx1) bx1 = px; if (py < by0) by0 = py; if (py > by1) by1 = py;
+        for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && cand[n] && !seen[n]) { seen[n] = 1; q[qt++] = n; } }
+      if (qt < minA || qt > N * .06) continue;
+      // Ring um die Fläche: Mittelwert der Helligkeit (Hintergrund zählt als hell)
+      const ox = Math.max(0, bx0 - RING), oy = Math.max(0, by0 - RING), ow = Math.min(w, bx1 + RING + 1) - ox, oh = Math.min(h, by1 + RING + 1) - oy;
+      let m = new Uint8Array(ow * oh); for (let t = 0; t < qt; t++) { const i = q[t]; m[(((i / w) | 0) - oy) * ow + (i % w - ox)] = 1; }
+      let dil = m; for (let r = 0; r < RING; r++) { const nx = dil.slice(); for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i]) { for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const jj = j + dj, ii = i + di; if (jj >= 0 && ii >= 0 && jj < oh && ii < ow) nx[jj * ow + ii] = 1; } } dil = nx; }
+      let rs = 0, rn = 0; for (let j = 0; j < oh; j++) for (let i = 0; i < ow; i++) if (dil[j * ow + i] && !m[j * ow + i]) { rs += L[(oy + j) * w + ox + i]; rn++; }
+      if (rn && rs / rn < 105) for (let t = 0; t < qt; t++) keep[q[t]] = 1;
+    }
+    const lu = document.createElement("canvas"); lu.width = w; lu.height = h; const lx = lu.getContext("2d"), ld = lx.createImageData(w, h), lo = ld.data;
+    for (let i = 0; i < N; i++) if (keep[i]) { lo[i * 4] = 150; lo[i * 4 + 1] = 255; lo[i * 4 + 2] = 190; lo[i * 4 + 3] = 255; }
+    lx.putImageData(ld, 0, 0);
+    cut.className = "wlayer wcut"; lu.className = "wlayer wlume"; cut.setAttribute("aria-hidden", "true"); lu.setAttribute("aria-hidden", "true");
+    wrap.append(cut, lu); wrap.dataset.nt = "1";
+  } catch (e) { wrap.dataset.nt = "x"; } // z. B. beim Öffnen als Datei: dann nur abdunkeln
+}
+function nightApply() { if (document.documentElement.classList.contains("night")) document.querySelectorAll(".wimg-wrap > img.wimg").forEach(nightPrep); }
+function setNight(on, save = true) {
+  document.documentElement.classList.toggle("night", on);
+  const b = document.getElementById("nightbtn");
+  if (b) { b.setAttribute("aria-pressed", on); b.querySelector(".moon").textContent = on ? "☀" : "☾"; b.querySelector(".nl").textContent = on ? "Tagmodus" : "Nachtmodus"; }
+  if (save) try { localStorage.setItem("wikiticks-night", on ? "1" : "0"); } catch (e) {}
+  nightApply();
+}
+document.getElementById("nightbtn").addEventListener("click", () => setNight(!document.documentElement.classList.contains("night")));
+document.addEventListener("load", ev => { if (ev.target && ev.target.matches && ev.target.matches("img.wimg") && document.documentElement.classList.contains("night")) nightPrep(ev.target); }, true);
+try { if (localStorage.getItem("wikiticks-night") === "1") setNight(true, false); } catch (e) {}
 
 // ---------- Routing ----------
 function route() {
@@ -1579,6 +1652,7 @@ function route() {
   else if (byId[h]) html = viewEntry(byId[h]);
   else html = viewHome();
   $("#view").innerHTML = html;
+  nightApply();
 }
 
 // Scroll-Position pro Seite merken: Zurück/Vor springt an die alte Stelle, neue Links starten oben
@@ -1590,7 +1664,6 @@ window.addEventListener("scroll", () => { if (!posTimer) posTimer = setTimeout((
 // Klick auf einen internen Link = neue Seite (oben beginnen); Zurück-/Vor-Knopf löst keinen Klick aus
 document.addEventListener("click", ev => { if (ev.target.closest && ev.target.closest('a[href^="#"]')) freshNav = true; }, true);
 window.addEventListener("hashchange", () => {
-  setNight(false); // Nachtmodus gilt nur für die Seite, auf der er eingeschaltet wurde
   if (posTimer) { clearTimeout(posTimer); posTimer = 0; }
   savePos();
   q = ""; $("#q").value = "";
@@ -1603,8 +1676,6 @@ $("#q").addEventListener("input", ev => { q = ev.target.value; route(); });
 $("#view").addEventListener("click", ev => {
   const t = ev.target.closest(".toc button");
   if (t) document.getElementById("sec-" + t.dataset.sec)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
-  const nb = ev.target.closest(".nightbtn");
-  if (nb) { setNight(!document.documentElement.classList.contains("night")); return; }
   const tm = ev.target.closest(".tomodels");
   if (tm) document.getElementById(tm.dataset.to)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
   const vt = ev.target.closest(".vtoggle button");
