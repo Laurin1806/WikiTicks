@@ -1,5 +1,5 @@
 """Leuchtebene je Uhr: helle Flächen (Indizes, Zeiger) innerhalb des Zifferblatts, Ausschlüsse je Uhr."""
-import json,sys,numpy as np
+import json,sys,math,numpy as np
 from PIL import Image,ImageFilter
 from collections import deque
 ROOT='/home/user/WikiTicks/'
@@ -39,6 +39,42 @@ def gen(img, spec):
                 if 0<=yy<H2 and 0<=xx<W2 and not sub[yy,xx] and not out[yy,xx]: out[yy,xx]=True;q.append((yy,xx))
         fill=~out
         ys2,xs2=np.nonzero(fill);keep[ys2+y0-1,xs2+x0-1]=True
+    # Zeiger: automatisch gefundene Flächen am Zeigerzentrum entfernen, Leuchtmasse stattdessen als Form zeichnen
+    if 'hub' in spec:
+        hx,hy=spec['hub'];hr=spec.get('hubr',14)
+        lab_keep=keep.copy();handm=np.zeros((h,w),bool)
+        for c in comps(lab_keep):
+            if (np.hypot(c[:,1]-hx,c[:,0]-hy)<hr).any(): keep[c[:,0],c[:,1]]=False
+        # Zeigerfläche selbst (helle Pixel der entfernten Flächen, ohne Füllung) als Abdeckung merken
+        hm=(L>=spec.get('thr',175))&(S<=spec.get('sat',70))
+        for c in comps(hm&inside):
+            if (np.hypot(c[:,1]-hx,c[:,0]-hy)<hr).any(): handm[c[:,0],c[:,1]]=True
+    else: handm=np.zeros((h,w),bool)
+    from PIL import ImageDraw
+    shp=Image.new('L',(w*4,h*4),0);dr=ImageDraw.Draw(shp);S4=4
+    shp2=Image.new('L',(w*4,h*4),0);dr2=ImageDraw.Draw(shp2)
+    for f in spec.get('shapes',[]):
+        if f['t']=='sword':  # Füllung entlang der Zeigerachse: Liste [Abstand, Breite]
+            hx,hy=f.get('hub',spec.get('hub'));t=math.radians(f['ang']);ax,ay=math.sin(t),-math.cos(t);px,py=math.cos(t),math.sin(t);off=f.get('off',0)
+            L1=[];L2=[]
+            for d,wd in f['w']:
+                cx_,cy_=hx+d*ax+off*px,hy+d*ay+off*py;L1.append(((cx_+wd/2*px)*S4,(cy_+wd/2*py)*S4));L2.append(((cx_-wd/2*px)*S4,(cy_-wd/2*py)*S4))
+            dr.polygon(L1+L2[::-1],fill=255)
+        elif f['t']=='merc':  # Mercedes-Kreis: Kreisfläche ohne Speichen
+            cx_,cy_=f['c'];r1=f['r1'];r0=f.get('r0',0)
+            dr.ellipse([(cx_-r1)*S4,(cy_-r1)*S4,(cx_+r1)*S4,(cy_+r1)*S4],fill=255)
+            if r0: dr.ellipse([(cx_-r0)*S4,(cy_-r0)*S4,(cx_+r0)*S4,(cy_+r0)*S4],fill=0)
+            for sp in f['sp']:
+                t=math.radians(sp);ax,ay=math.sin(t),-math.cos(t);px,py=math.cos(t),math.sin(t);sw=f.get('sw',2)
+                pts=[(cx_+sw*px,cy_+sw*py),(cx_+sw*px+(r1+2)*ax,cy_+sw*py+(r1+2)*ay),(cx_-sw*px+(r1+2)*ax,cy_-sw*py+(r1+2)*ay),(cx_-sw*px,cy_-sw*py)]
+                dr.polygon([(x*S4,y*S4) for x,y in pts],fill=0)
+        elif f['t']=='circle':
+            cx_,cy_=f['c'];r1=f['r']
+            if f.get('under'): dr2.ellipse([(cx_-r1)*S4,(cy_-r1)*S4,(cx_+r1)*S4,(cy_+r1)*S4],fill=255)
+            else: dr.ellipse([(cx_-r1)*S4,(cy_-r1)*S4,(cx_+r1)*S4,(cy_+r1)*S4],fill=255)
+    shp=np.array(shp.resize((w,h),Image.LANCZOS))>110
+    und=np.array(shp2.resize((w,h),Image.LANCZOS))>110
+    keep|=shp|(und&~np.array(Image.fromarray((handm*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)))>0)
     for x0,y0,x1,y1 in spec.get('add',[]): # zusätzlich zu übernehmende Bereiche (alles Helle darin)
         sub=(L>=spec.get('thr',175)-40)&(S<=spec.get('sat',70)+10);keep[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]|=sub[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]
     # Kanten glätten
