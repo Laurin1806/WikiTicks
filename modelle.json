@@ -3456,7 +3456,8 @@
     "topColor": "#c8202a",
     "subRing": "#c9ced6",
     "track": "rail",
-    "bezelInner": 56
+    "bezelInner": 56,
+    "img": "assets/watches/rolex-daytona-126500ln.jpg"
    },
    "var": [
     {
@@ -3474,7 +3475,8 @@
       "bottom": [],
       "topColor": null,
       "guards": false,
-      "bezelInner": 59
+      "bezelInner": 59,
+      "img": "assets/watches/rolex-daytona-6239-paul-newman.jpg"
      }
     },
     {
@@ -3485,7 +3487,8 @@
       "dial": "#1b1d22",
       "subColor": "#d8dadd",
       "subRing": null,
-      "bezelInner": 60
+      "bezelInner": 60,
+      "img": "assets/watches/rolex-daytona-116520.jpg"
      }
     }
    ],
@@ -4011,7 +4014,8 @@
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
     ],
-    "lugs": "taper"
+    "lugs": "taper",
+    "img": "assets/watches/rolex-datejust-126234-blue.jpg"
    },
    "var": [
     {
@@ -4019,7 +4023,8 @@
      "y": "seit 2018",
      "v": {
       "dial": "#d9c99c",
-      "case": "steel"
+      "case": "steel",
+      "img": "assets/watches/rolex-datejust-126233-champagne.jpg"
      }
     }
    ],
@@ -4270,7 +4275,8 @@
      "SUPERLATIVE CHRONOMETER",
      "OFFICIALLY CERTIFIED"
     ],
-    "lugs": "taper"
+    "lugs": "taper",
+    "img": "assets/watches/rolex-day-date-228238-champagne.jpg"
    },
    "var": [
     {
@@ -4280,7 +4286,8 @@
       "case": "steel",
       "dial": "#bfe0ee",
       "bezel": "fluted",
-      "bezelColor": null
+      "bezelColor": null,
+      "img": "assets/watches/rolex-day-date-platinum-iceblue.jpg"
      }
     }
    ],
@@ -4485,7 +4492,8 @@
     "bottom": [
      "EXPLORER"
     ],
-    "lugs": "taper"
+    "lugs": "taper",
+    "img": "assets/watches/rolex-explorer-124270-black.jpg"
    },
    "m": [
     "Schwarzes Zifferblatt mit den Ziffern 3, 6 und 9",
@@ -4702,7 +4710,8 @@
      "OFFICIALLY CERTIFIED"
     ],
     "bottomColor": "#d0342c",
-    "coin": true
+    "coin": true,
+    "img": "assets/watches/rolex-sea-dweller-126600.jpg"
    },
    "var": [
     {
@@ -4719,7 +4728,8 @@
        "SUBMARINER 2000",
        "500m = 1650ft"
       ],
-      "bottomColor": "#d0342c"
+      "bottomColor": "#d0342c",
+      "img": "assets/watches/rolex-sea-dweller-1665-double-red.jpg"
      }
     }
    ],
