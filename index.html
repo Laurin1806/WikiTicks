@@ -227,11 +227,23 @@ img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; wid
 @media (prefers-reduced-motion: reduce) { :root.night canvas.wlume { animation: none; } }
 :root.night img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; filter: brightness(.6) contrast(1.05); }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { background: transparent; }
+/* Nachtmodus: Kacheln unter dem Mauszeiger und der aktive Eintrag der linken Spalte leuchten leicht */
+:root.night { --glow: color-mix(in srgb, var(--accent) 60%, transparent); }
+:root.night .card, :root.night .watchfig, :root.night .letters button, :root.night .toc button { transition: box-shadow .25s ease, border-color .25s ease, transform .2s ease; }
+:root.night .card:hover, :root.night a.watchfig:hover, :root.night .daily-fig:hover { border-color: var(--accent); box-shadow: 0 0 0 1px var(--glow), 0 0 18px var(--glow), 0 0 42px color-mix(in srgb, var(--accent) 22%, transparent); }
+:root.night nav a[aria-current="true"] { box-shadow: 0 0 12px var(--glow), 0 0 28px color-mix(in srgb, var(--accent) 25%, transparent); }
+:root.night nav a:hover { box-shadow: 0 0 10px color-mix(in srgb, var(--accent) 35%, transparent); }
 .night-box + .accent-box { margin-top: 16px; }
-.nightbtn { display: inline-flex; align-items: center; gap: 9px; font: 600 13px/1 var(--font-body); padding: 10px 16px 10px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.nightbtn { display: inline-flex; align-items: center; gap: 11px; font: 600 13px/1.15 var(--font-body); padding: 7px 16px 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-align: left; transition: border-color .2s, box-shadow .3s, background .3s; }
 .nightbtn:hover { border-color: var(--accent); }
-.nightbtn .moon { font-size: 15px; line-height: 1; }
+.nightbtn .moon { width: 30px; height: 30px; flex: none; overflow: visible; }
+.nightbtn .nt { display: grid; gap: 2px; }
+.nightbtn .mp { font: 500 11px/1.2 var(--font-mono); color: var(--muted); letter-spacing: .01em; }
+.moon .m-dark { fill: #1c2433; } .moon .m-lit { fill: #e9edf2; } .moon .m-ring { fill: none; stroke: var(--line); stroke-width: 1; }
+:root.night .moon .m-lit { fill: #d9fbe6; filter: drop-shadow(0 0 3px rgba(120,255,175,.75)); }
+:root.night .moon .m-dark { fill: #0d1712; }
 .nightbtn[aria-pressed="true"] { background: #0c1a14; color: #9dffc4; border-color: #2c6b4a; box-shadow: 0 0 14px rgba(80,255,150,.25); }
+.nightbtn[aria-pressed="true"] .mp { color: #7fcf9f; }
 .daily-fig { display: flex; flex-direction: column; align-items: center; justify-content: center; align-self: stretch; background: var(--bg); border-radius: 12px; padding: 18px; min-height: 260px; }
 .daily-fig .watch { max-height: 320px; width: auto; }
 .watchfig { margin: 6px 0 24px; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; justify-items: center; gap: 10px; }
@@ -382,6 +394,11 @@ footer .wrap { padding-block: 20px 28px; }
     <svg class="dial" viewBox="0 0 120 120" aria-hidden="true">
       <circle cx="60" cy="60" r="57" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/>
       <g id="ticks"></g>
+      <g id="daydate"><path id="dd-arc" d="M39.38 33.6A33.5 33.5 0 0 1 80.62 33.6" fill="none"/>
+        <path d="M33.65 28.59A41 41 0 0 1 86.35 28.59L79.93 36.25A31 31 0 0 0 40.07 36.25Z" fill="var(--bg)" stroke="var(--line)" stroke-width="1" stroke-linejoin="round"/>
+        <text font-family="var(--font-mono)" font-size="7.2" font-weight="700" fill="var(--fg)" text-anchor="middle" letter-spacing=".5"><textPath href="#dd-arc" startOffset="50%" id="dd-day">MONTAG</textPath></text>
+        <rect x="79" y="53.5" width="20" height="13" rx="1.6" fill="var(--bg)" stroke="var(--line)" stroke-width="1"/>
+        <text id="dd-date" x="89" y="63.4" font-family="var(--font-mono)" font-size="9.5" font-weight="700" fill="var(--fg)" text-anchor="middle">1</text></g>
       <line id="hh" x1="60" y1="60" x2="60" y2="32" stroke="var(--fg)" stroke-width="4" stroke-linecap="round"/>
       <line id="mh" x1="60" y1="60" x2="60" y2="18" stroke="var(--fg)" stroke-width="2.5" stroke-linecap="round"/>
       <line id="sh" x1="60" y1="70" x2="60" y2="14" stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round"/>
@@ -406,7 +423,7 @@ footer .wrap { padding-block: 20px 28px; }
       <nav id="nav" aria-label="Navigation"></nav>
       <div class="accent-box night-box">
         <div class="label">Ansicht</div>
-        <button type="button" class="nightbtn" id="nightbtn" aria-pressed="false"><span class="moon" aria-hidden="true">☾</span><span class="nl">Nachtmodus</span></button>
+        <button type="button" class="nightbtn" id="nightbtn" aria-pressed="false"><svg class="moon" viewBox="0 0 32 32" aria-hidden="true"></svg><span class="nt"><span class="nl">Nachtmodus</span><small class="mp"></small></span></button>
       </div>
       <div class="accent-box">
         <div class="label">Farbe</div>
@@ -611,7 +628,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112449"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112450"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1792,10 +1809,31 @@ function nightPrep(img) {
   } catch (e) { wrap.dataset.nt = "x"; } // z. B. beim Öffnen als Datei: dann nur abdunkeln
 }
 function nightApply() { if (document.documentElement.classList.contains("night")) document.querySelectorAll(".wimg-wrap > img.wimg").forEach(nightPrep); }
+// Aktuelle Mondphase (mittlerer synodischer Monat, Bezugsneumond 6.1.2000 18:14 UTC); Darstellung für die Nordhalbkugel
+function moonPhase(d = new Date()) {
+  const syn = 29.530588853, p = (((d.getTime() - Date.UTC(2000, 0, 6, 18, 14)) / 864e5 / syn) % 1 + 1) % 1;
+  const k = (1 - Math.cos(2 * Math.PI * p)) / 2;
+  const names = ["Neumond", "Zunehmende Sichel", "Erstes Viertel", "Zunehmender Mond", "Vollmond", "Abnehmender Mond", "Letztes Viertel", "Abnehmende Sichel"];
+  return { p, k, name: names[Math.round(p * 8) % 8] };
+}
+function moonSVG(p, r = 13, c = 16) {
+  const t = 2 * Math.PI * p, rx = Math.abs(Math.cos(t)) * r, wax = p <= .5, cres = Math.cos(t) > 0;
+  const outer = wax ? 1 : 0, inner = wax ? (cres ? 0 : 1) : (cres ? 1 : 0);
+  const lit = p < .015 || p > .985 ? "" : `<path class="m-lit" d="M${c} ${c - r}A${r} ${r} 0 0 ${outer} ${c} ${c + r}A${rx.toFixed(2)} ${r} 0 0 ${inner} ${c} ${c - r}Z"/>`;
+  return `<circle class="m-dark" cx="${c}" cy="${c}" r="${r}"/>${Math.abs(p - .5) < .015 ? `<circle class="m-lit" cx="${c}" cy="${c}" r="${r}"/>` : lit}<circle class="m-ring" cx="${c}" cy="${c}" r="${r + .5}"/>`;
+}
+function drawMoonBtn() {
+  const b = document.getElementById("nightbtn"); if (!b) return;
+  const m = moonPhase();
+  b.querySelector(".moon").innerHTML = moonSVG(m.p);
+  b.querySelector(".mp").textContent = `${m.name} · ${Math.round(m.k * 100)} %`;
+  b.title = `Heute: ${m.name}, ${Math.round(m.k * 100)} % beleuchtet`;
+}
+drawMoonBtn(); setInterval(drawMoonBtn, 30 * 60 * 1000);
 function setNight(on, save = true) {
   document.documentElement.classList.toggle("night", on);
   const b = document.getElementById("nightbtn");
-  if (b) { b.setAttribute("aria-pressed", on); b.querySelector(".moon").textContent = on ? "☀" : "☾"; b.querySelector(".nl").textContent = on ? "Tagmodus" : "Nachtmodus"; }
+  if (b) { b.setAttribute("aria-pressed", on); b.querySelector(".nl").textContent = on ? "Tagmodus" : "Nachtmodus"; }
   if (save) try { localStorage.setItem("wikiticks-night", on ? "1" : "0"); } catch (e) {}
   nightApply();
 }
@@ -1881,6 +1919,13 @@ document.querySelector(".accent-switch").addEventListener("click", ev => {
     const sec = d.getSeconds() + Math.floor(d.getMilliseconds() / (1000 / steps)) / steps;
     set("#sh", sec * 6); set("#mh", (d.getMinutes() + sec / 60) * 6); set("#hh", ((d.getHours() % 12) + d.getMinutes() / 60) * 30);
   }
+  // Wochentag und Datum (Fenster bei 12 und 3 Uhr), aktualisiert sich nach Mitternacht
+  let ddKey = "";
+  function dayDate() { const d = new Date(), k = d.toDateString(); if (k === ddKey) return; ddKey = k;
+    const dn = d.toLocaleDateString("de-DE", { weekday: "long" }).toUpperCase(), tp = $("#dd-day");
+    tp.textContent = dn; tp.setAttribute("textLength", dn.length > 7 ? 44 : dn.length * 5.6); tp.setAttribute("lengthAdjust", "spacingAndGlyphs");
+    $("#dd-date").textContent = d.getDate(); drawMoonBtn && drawMoonBtn(); }
+  dayDate(); setInterval(dayDate, 60000);
   tick(); setInterval(tick, reduce ? 1000 : 125);
 })();
 

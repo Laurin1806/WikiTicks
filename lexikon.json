@@ -600,11 +600,11 @@
    "d": "mondphase",
    "dc": "Aufbau einer klassischen Mondphasenanzeige.",
    "m": [
-    "master-collection",
+    "royal-oak-perpetual",
     "jahreskalender"
    ],
    "mc": [
-    "Mondphase bei 6 Uhr",
+    "Ewiger Kalender mit Mondphase bei 6 Uhr",
     "Jahreskalender mit Mondphase"
    ]
   },
