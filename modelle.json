@@ -2839,6 +2839,13 @@
      }
     },
     {
+     "n": "Ref. 16570 »Polar«",
+     "y": "1989–2011",
+     "v": {
+      "img": "assets/watches/rolex-explorer-2-16570-polar-white.jpg"
+     }
+    },
+    {
      "n": "Ref. 226570 »Polar«",
      "y": "seit 2021",
      "v": {
@@ -4911,14 +4918,16 @@
     "tex": "stripes",
     "date": "3",
     "strap": "integrated",
-    "track": "dots"
+    "track": "dots",
+    "img": "assets/watches/patek-philippe-nautilus-5811-blue.jpg"
    },
    "var": [
     {
      "n": "Ref. 5711/1A-014 (Olivgrün)",
      "y": "2021",
      "v": {
-      "dial": "#3d4a2a"
+      "dial": "#3d4a2a",
+      "img": "assets/watches/patek-philippe-nautilus-5711-olive.jpg"
      }
     },
     {
@@ -4928,7 +4937,8 @@
       "dial": "#7fd1c7",
       "ink": "#1d2128",
       "lume": "#f2f2f2",
-      "hc": "#f2f2f2"
+      "hc": "#f2f2f2",
+      "img": null
      }
     }
    ],
@@ -5102,7 +5112,8 @@
     "strapColor": "#2b211b",
     "thin": true,
     "markers": "thin",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/patek-philippe-calatrava-6119-ivory.jpg"
    },
    "m": [
     "Rundes, schlichtes Gehäuse",
@@ -5254,7 +5265,8 @@
     "tex": "grid",
     "strap": "rubber",
     "date": "3",
-    "ears": "small"
+    "ears": "small",
+    "img": "assets/watches/patek-philippe-aquanaut-5167a-black.jpg"
    },
    "var": [
     {
@@ -5263,7 +5275,8 @@
      "v": {
       "dial": "#4b5a3a",
       "strapColor": "#4b5a3a",
-      "case": "steel"
+      "case": "steel",
+      "img": null
      }
     }
    ],
@@ -5704,7 +5717,8 @@
      "y": "1972",
      "v": {
       "dial": "#1d3058",
-      "seconds": false
+      "seconds": false,
+      "img": "assets/watches/audemars-piguet-royal-oak-5402-blue.jpg"
      }
     }
    ],
@@ -5886,7 +5900,8 @@
     "origin": "",
     "ro": true,
     "crown": "hex",
-    "brandDy": 6
+    "brandDy": 6,
+    "img": "assets/watches/audemars-piguet-royal-oak-offshore-26420-black.jpg"
    },
    "m": [
     "Großes Gehäuse mit sichtbaren Dichtungen",
