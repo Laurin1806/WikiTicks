@@ -261,11 +261,14 @@ article .curbox { margin-top: 10px; }
 .pc-used { background: var(--accent); }
 .pc-ex { width: 9px; height: 9px; background: var(--accent-soft); border: 2px solid var(--accent); box-shadow: none; box-sizing: border-box; opacity: 0; transition: opacity .15s; z-index: 2; }
 .pc-ex b { position: absolute; bottom: calc(100% + 7px); left: 50%; transform: translateX(-50%); font: 500 12.5px/1.2 var(--font-mono); white-space: nowrap; padding: 4px 10px; border: 1px solid var(--accent); border-radius: 6px; background: var(--accent-soft); color: var(--accent); box-shadow: 0 2px 8px rgba(0,0,0,.14); }
-.pc-row:hover .pc-ex, .pc-row:focus .pc-ex { opacity: 1; }
-.pc-row:hover, .pc-row:focus { position: relative; z-index: 3; }
+/* Zwischenpreise nur beim Überfahren der Preislinie (nicht schon beim Betreten der Zeile) */
+.pc-hit { position: absolute; top: 50%; height: 24px; margin-top: -12px; min-width: 24px; z-index: 1; cursor: default; outline: none; }
+.pc-track .pc-dot, .pc-track .pc-bar { pointer-events: none; }
+.pc-hit:hover ~ .pc-ex, .pc-hit:focus ~ .pc-ex { opacity: 1; }
+.pc-hit:hover ~ .pc-bar, .pc-hit:focus ~ .pc-bar { opacity: .8; }
+.pc-row:hover, .pc-row:focus-within { position: relative; z-index: 3; }
 .pc-tip { position: absolute; left: 50%; bottom: calc(100% + 4px); transform: translateX(-50%); white-space: nowrap; font-size: 12px; padding: 4px 8px; border-radius: 6px; background: var(--fg); color: var(--bg); opacity: 0; pointer-events: none; transition: opacity .15s; }
 .pc-row:hover .pc-tip, .pc-row:focus .pc-tip { opacity: 1; }
-.pc-row:hover .pc-bar, .pc-row:focus .pc-bar { opacity: .8; }
 .pc-val { display: grid; justify-items: end; gap: 2px; font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); }
 .pc-val b { color: var(--fg); font-weight: 500; }
 .pc-val em { font-style: normal; font-size: 12px; padding: 1px 7px; border-radius: 999px; background: var(--accent-soft); color: var(--fg); }
@@ -562,7 +565,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112404"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112405"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) return `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
@@ -1413,9 +1416,10 @@ function priceChart(pr, refs) {
     const both = r.nv != null && r.uv != null, d = both ? Math.round((r.uv / r.nv - 1) * 100) : null;
     const dTxt = d == null ? "" : (d > 0 ? "+" : d < 0 ? "−" : "±") + Math.abs(d) + " %";
     const tip = [r.nv != null ? `Neu ${fmt(r.nv)}` : "", r.uv != null ? `Gebraucht ${fmt(r.uv)}` : ""].filter(Boolean).join(" · ") + " EUR";
-    return `<div class="pc-row"${r.ex.length ? ` tabindex="0"` : ""}>
+    return `<div class="pc-row">
       <div class="pc-ref"><b>${esc(r.ref)}</b><span>${r.yr && !r.nl ? `Baujahr ${esc(r.yr)} → ` : ""}${esc(r.nl)}${r.nl && r.ul ? " → " : ""}${esc(r.ul)}</span></div>
       <div class="pc-track">${ticks.map(t => `<i class="pc-grid" style="left:${X(t)}%"></i>`).join("")}
+        ${r.ex.length ? (() => { const vs = [r.nv, r.uv, ...r.ex.map(e => e.v)].filter(v => v != null), lo = X(Math.min(...vs)), hi = X(Math.max(...vs)); return `<i class="pc-hit" tabindex="0" style="left:calc(${lo}% - 6px);width:calc(${(hi - lo).toFixed(2)}% + 12px)"></i>`; })() : ""}
         ${both ? `<i class="pc-bar" style="left:${X(Math.min(r.nv, r.uv))}%;width:${(X(Math.max(r.nv, r.uv)) - X(Math.min(r.nv, r.uv))).toFixed(2)}%"></i>` : ""}
         ${r.uv != null ? `<i class="pc-dot pc-used" style="left:${X(r.uv)}%"></i>` : ""}${r.nv != null ? `<i class="pc-dot pc-new" style="left:${X(r.nv)}%"></i>` : ""}
         ${r.ex.map((e, k) => { const x = +X(e.v), al = x < 22 ? "left:-6px;transform:none;" : x > 78 ? "left:auto;right:-6px;transform:none;" : ""; return `<i class="pc-dot pc-ex" style="left:${x}%"><b style="${al}bottom:calc(100% + ${7 + k * 30}px)">${esc(String(e.l).replace(/ \(.*\)/, ""))}: ${fmt(e.v)}</b></i>`; }).join("")}
