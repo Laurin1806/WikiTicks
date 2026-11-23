@@ -5194,6 +5194,13 @@
      "v": {
       "img": "assets/watches/patek-philippe-calatrava-96.jpg"
      }
+    },
+    {
+     "n": "Calatrava in Gelbgold",
+     "y": "",
+     "v": {
+      "img": "assets/watches/patek-philippe-calatrava-yellow-gold.jpg"
+     }
     }
    ]
   },
@@ -7622,6 +7629,13 @@
      "v": {
       "img": "assets/watches/cartier-santos-skeleton-rose-gold.jpg"
      }
+    },
+    {
+     "n": "Santos skelettiert (Stahl)",
+     "y": "",
+     "v": {
+      "img": "assets/watches/cartier-santos-skeleton-steel.jpg"
+     }
     }
    ],
    "m": [
@@ -8059,6 +8073,20 @@
      "y": "",
      "v": {
       "img": "assets/watches/iwc-portugieser-chronograph-iw3716.jpg"
+     }
+    },
+    {
+     "n": "Portugieser Ewiger Kalender",
+     "y": "",
+     "v": {
+      "img": "assets/watches/iwc-portugieser-perpetual-calendar.jpg"
+     }
+    },
+    {
+     "n": "Portugieser Handaufzug",
+     "y": "",
+     "v": {
+      "img": "assets/watches/iwc-portugieser-hand-wound.jpg"
      }
     }
    ]
@@ -11479,6 +11507,13 @@
      "v": {
       "img": "assets/watches/a-lange-soehne-lange-1-rose-gold.jpg"
      }
+    },
+    {
+     "n": "Lange 1 Mondphase",
+     "y": "",
+     "v": {
+      "img": "assets/watches/a-lange-soehne-lange-1-moonphase.jpg"
+     }
     }
    ]
   },
@@ -11583,7 +11618,16 @@
      "Zeitwerk Minutenrepetition"
     ]
    ],
-   "w": "Statt Zeigern zeigen springende Ziffern Stunden und Minuten an."
+   "w": "Statt Zeigern zeigen springende Ziffern Stunden und Minuten an.",
+   "var": [
+    {
+     "n": "Zeitwerk Date",
+     "y": "",
+     "v": {
+      "img": "assets/watches/a-lange-soehne-zeitwerk-date.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "datograph",
@@ -12524,7 +12568,16 @@
      "Magic Gold"
     ]
    ],
-   "w": "Unter dem Prinzip »Art of Fusion« verbindet sie Materialien wie Gold, Keramik und Kautschuk."
+   "w": "Unter dem Prinzip »Art of Fusion« verbindet sie Materialien wie Gold, Keramik und Kautschuk.",
+   "var": [
+    {
+     "n": "Big Bang Unico in Titan, skelettiert",
+     "y": "",
+     "v": {
+      "img": "assets/watches/hublot-big-bang-unico-titanium-skeleton.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "classic-fusion",
@@ -13029,7 +13082,16 @@
      "Dritte Generation"
     ]
    ],
-   "w": "Eine Lünette im Malteserkreuz-Muster und ein Bandwechselsystem ohne Werkzeug prägen die Luxus-Sportuhr."
+   "w": "Eine Lünette im Malteserkreuz-Muster und ein Bandwechselsystem ohne Werkzeug prägen die Luxus-Sportuhr.",
+   "var": [
+    {
+     "n": "Overseas in Roségold",
+     "y": "",
+     "v": {
+      "img": "assets/watches/vacheron-constantin-overseas-rose-gold.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "patrimony",
@@ -13620,7 +13682,8 @@
     "top": [
      "FIFTY FATHOMS"
     ],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/blancpain-fifty-fathoms-black.jpg"
    },
    "m": [
     "Gewölbte Lünette aus Saphir",
@@ -14330,7 +14393,8 @@
     "sub": "small6",
     "strap": "leather",
     "strapColor": "#2a201a",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/breguet-classique-guilloche.jpg"
    },
    "m": [
     "Guillochiertes Zifferblatt",
@@ -21799,7 +21863,8 @@
     "markers": "roman",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/jaeger-lecoultre-duometre-chronograph.jpg"
    },
    "m": [
     "Zwei Federhäuser",
@@ -23511,7 +23576,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "6"
+    "date": "6",
+    "img": "assets/watches/vacheron-constantin-fiftysix.jpg"
    },
    "m": [
     "Arabische Ziffern",
@@ -23605,7 +23671,8 @@
     "markers": "roman",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/vacheron-constantin-traditionnelle-chronograph.jpg"
    },
    "m": [
     "Handaufzug",
