@@ -459,7 +459,7 @@ function shuffled(seed, list) {
 // Artikel des Tages von Hand festlegen (ID eines Eintrags); leer lassen ("") für die automatische tägliche Auswahl
 const ARTIKEL_DES_TAGES = "";
 // Auswahl von Hand nur für einen bestimmten Tag (Datum im Format JJJJ-MM-TT); an allen anderen Tagen gilt die automatische Auswahl
-const TAGES_AUSWAHL = { datum: "2026-11-23", artikel: "nautilus", uhr: "submariner" };
+const TAGES_AUSWAHL = { datum: "2026-11-23", artikel: "gs-sbgw231", uhr: "mare-nostrum" };
 const heute = () => new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
 const manuell = () => TAGES_AUSWAHL.datum === heute() ? TAGES_AUSWAHL : null;
 // Optional: Bild einer Variante zeigen (Teil des Variantennamens, z. B. "1675"); leer lassen für die aktuelle Ausführung
