@@ -4859,7 +4859,8 @@
    "w": "Mit dem Heliumventil, das sie 1967 einführte, wurde sie zur Uhr für Sättigungstaucher in großer Tiefe.",
    "lume": {
     "z": "IHP",
-    "c": "b"
+    "c": "b",
+    "rmax": 0.6
    }
   },
   {
@@ -6587,7 +6588,8 @@
    "w": "1969 war sie bei der ersten Mondlandung dabei und ist bis heute von der NASA für bemannte Missionen zugelassen.",
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -6759,7 +6761,8 @@
    "w": "Wellenzifferblatt und Heliumventil prägen die Taucheruhr, die seit 1995 am Handgelenk von James Bond sitzt.",
    "lume": {
     "z": "IHP",
-    "c": "b"
+    "c": "b",
+    "rmax": 0.66
    }
   },
   {
@@ -8716,7 +8719,8 @@
    "w": "Lünettenreiter bei 15, 30, 45 und 60 Minuten und das Rouleaux-Band machen die Chronomat zum Sportchronographen der Marke.",
    "lume": {
     "z": "IHS",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -9091,7 +9095,8 @@
    "w": "Quadratisches Gehäuse, Krone links und Steve McQueen im Film »Le Mans« machten die Monaco berühmt.",
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -9255,7 +9260,8 @@
    ],
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -10320,7 +10326,8 @@
    "w": "Bis 3.900 Meter wasserdicht, gehört sie zu den extremsten Taucheruhren von Rolex.",
    "lume": {
     "z": "IHP",
-    "c": "b"
+    "c": "b",
+    "rmax": 0.56
    }
   },
   {
@@ -15129,7 +15136,8 @@
    "w": "Die Speedmaster aus Biokeramik zum Swatch-Preis löste 2022 lange Schlangen vor den Geschäften aus.",
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -19198,7 +19206,8 @@
    },
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -19522,7 +19531,8 @@
    },
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -19626,7 +19636,8 @@
    },
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -21816,7 +21827,8 @@
    "w": "Der Auftakt zur Tudor-Retrowelle: Chronograph im Stil der 1970er-Jahre.",
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -21930,7 +21942,8 @@
    },
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
@@ -22148,7 +22161,8 @@
    },
    "lume": {
     "z": "IH",
-    "c": "g"
+    "c": "g",
+    "rmax": 0.8
    }
   },
   {
