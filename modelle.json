@@ -17804,7 +17804,8 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/rolex-cellini-time-cream-dial.jpg"
    },
    "m": [
     "Fast immer in Gold",
@@ -18166,7 +18167,7 @@
     "date": "cyclops",
     "strap": "jubilee",
     "case": "steel",
-    "img": "assets/watches/rolex-turn-o-graph-116264.jpg"
+    "img": "assets/watches/rolex-turn-o-graph-116264-black.jpg"
    },
    "m": [
     "Drehbare Lünette",
@@ -18299,7 +18300,8 @@
     "bottom": [],
     "origin": "",
     "brandDy": -22,
-    "sub": "small6"
+    "sub": "small6",
+    "img": "assets/watches/rolex-prince-brancard-rose-gold.jpg"
    },
    "m": [
     "Doppelzifferblatt",
