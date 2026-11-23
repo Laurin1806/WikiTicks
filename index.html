@@ -562,7 +562,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112402"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112403"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) return `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
@@ -1536,7 +1536,23 @@ function route() {
   $("#view").innerHTML = html;
 }
 
-window.addEventListener("hashchange", () => { q = ""; $("#q").value = ""; route(); window.scrollTo({ top: 0 }); });
+// Scroll-Position pro Seite merken: Zurück/Vor springt an die alte Stelle, neue Links starten oben
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+const POS = (() => { try { return JSON.parse(sessionStorage.getItem("wikiticks-pos") || "{}"); } catch (e) { return {}; } })();
+let curKey = location.hash, freshNav = false, posTimer = 0;
+const savePos = () => { POS[curKey] = Math.round(scrollY); try { sessionStorage.setItem("wikiticks-pos", JSON.stringify(POS)); } catch (e) {} };
+window.addEventListener("scroll", () => { if (!posTimer) posTimer = setTimeout(() => { posTimer = 0; savePos(); }, 120); }, { passive: true });
+// Klick auf einen internen Link = neue Seite (oben beginnen); Zurück-/Vor-Knopf löst keinen Klick aus
+document.addEventListener("click", ev => { if (ev.target.closest && ev.target.closest('a[href^="#"]')) freshNav = true; }, true);
+window.addEventListener("hashchange", () => {
+  if (posTimer) { clearTimeout(posTimer); posTimer = 0; }
+  savePos();
+  q = ""; $("#q").value = "";
+  const back = !freshNav, y = back ? (POS[location.hash] || 0) : 0;
+  freshNav = false; curKey = location.hash;
+  route(); window.scrollTo({ top: y });
+});
+window.addEventListener("pagehide", savePos);
 $("#q").addEventListener("input", ev => { q = ev.target.value; route(); });
 $("#view").addEventListener("click", ev => {
   const t = ev.target.closest(".toc button");
@@ -1591,6 +1607,7 @@ const DATA = window.WIKITICKS_DATA;
   E = [...(lex || []), ...((mod && mod.modelle) || []).map(m => ({ ...m, c: "Uhrenmodelle" }))];
   ((mod && mod.marken) || []).forEach(m => { BRAND_INFO[m.name] = m; });
   rebuild(); route();
+  if (POS[location.hash]) requestAnimationFrame(() => window.scrollTo({ top: POS[location.hash] }));
 });
 </script>
 
