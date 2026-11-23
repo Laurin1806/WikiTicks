@@ -562,7 +562,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "20261123t"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "20261123u"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) return `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";

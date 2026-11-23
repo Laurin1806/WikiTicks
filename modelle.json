@@ -15431,7 +15431,8 @@
     "tex": "tap",
     "strap": "integrated",
     "date": "3",
-    "roundBase": true
+    "roundBase": true,
+    "img": "assets/watches/girard-perregaux-laureato.jpg"
    },
    "m": [
     "Achteckige Lünette",
@@ -15562,7 +15563,8 @@
     "lume": "#e9dcb8",
     "strap": "oyster",
     "guards": false,
-    "label": "RANGER"
+    "label": "RANGER",
+    "img": "assets/watches/tudor-ranger.jpg"
    },
    "m": [
     "Arabische Ziffern bei 3, 6 und 9",
@@ -15676,7 +15678,8 @@
     "gmt": "#c8202a",
     "date": "3",
     "crown": "big",
-    "sec": "#e8e3d6"
+    "sec": "#e8e3d6",
+    "img": "assets/watches/tudor-black-bay-gmt.jpg"
    },
    "m": [
     "Lünette in mattem Burgunder und Blau",
@@ -16067,7 +16070,8 @@
     ],
     "bottom": [
      "DIVER'S 200m"
-    ]
+    ],
+    "img": "assets/watches/seiko-prospex-turtle.jpg"
    },
    "m": [
     "Breites Kissengehäuse",
@@ -16328,7 +16332,8 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#2a201a",
-    "thin": true
+    "thin": true,
+    "img": "assets/watches/grand-seiko-sbgw231.jpg"
    },
    "m": [
     "Elfenbeinfarbenes Zifferblatt",
@@ -17554,7 +17559,8 @@
     "strapColor": "#4a3020",
     "lume": "#f2f2f2",
     "brandText": "",
-    "origin": ""
+    "origin": "",
+    "img": "assets/watches/laco-aachen.jpg"
    },
    "m": [
     "Dreieck mit zwei Punkten bei 12",
