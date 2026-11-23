@@ -218,6 +218,9 @@ canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; he
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { visibility: hidden; }
 :root.night canvas.wcut { opacity: 1; }
 :root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 1.5px rgba(var(--lc1), 1)) drop-shadow(0 0 5px rgba(var(--lc2), .85)) drop-shadow(0 0 11px rgba(var(--lc3), .42)); animation: lumepulse 6s ease-in-out infinite; }
+img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity .6s ease; }
+:root.night img.wlume-img { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 1.5px rgba(var(--lc1), 1)) drop-shadow(0 0 5px rgba(var(--lc2), .85)) drop-shadow(0 0 11px rgba(var(--lc3), .42)); animation: lumepulse 6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { :root.night img.wlume-img { animation: none; } }
 .wimg-wrap { --lc1: 130,255,180; --lc2: 80,255,150; --lc3: 60,230,130; }
 .wimg-wrap[data-lc="b"] { --lc1: 150,215,255; --lc2: 80,170,255; --lc3: 50,130,255; }
 @keyframes lumepulse { 0%, 100% { opacity: 1; } 50% { opacity: .9; } }
@@ -439,6 +442,7 @@ const CAT_INTRO = {
   "Persönlichkeiten": "Uhrmacher, Gründer, Manager und Designer, die die Uhrenwelt geprägt haben."
 };
 
+let LUMEMASK = new Set();
 let E = [], byId = {}, MODELS = [], LEX = [], BRANDS = [], BRAND_INFO = {}, TERM_RE = null, TERMS = {};
 let q = "";
 
@@ -607,12 +611,14 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112441"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112443"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
     const lm = e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${e.lume.c}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "";
-    return `<span class="wimg-wrap"${lm}>${base}</span>`;
+    const bn = v.img.split("/").pop(), lmk = LUMEMASK.has(bn);
+    const ovl = lmk ? `<img class="wlume-img" src="assets/watches/lume/${bn.replace(/\.[a-z]+$/i, ".png")}?v=${IMGV}" alt="" aria-hidden="true" loading="lazy">` : "";
+    return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}>${base}${ovl}</span>`;
   }
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
   const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
@@ -1598,10 +1604,10 @@ function nightPrep(img) {
     cx.putImageData(od, 0, 0);
     // Leuchtmasse nach den Angaben im Modell (data-lz: I Indizes, H Zeiger, P Lünettenpunkt, B Lünettenmarkierungen, S Hilfszifferblätter, L LCD).
     // Erkennung: sehr helle, farbarme Flächen, die rundherum von Dunkel umgeben sind; Zuordnung zu Zonen über Lage zum Zifferblattmittelpunkt.
-    const lz = wrap.dataset.lz || "", rmax = +wrap.dataset.rm || (/P/.test(lz) ? .7 : .9), sub = wrap.dataset.sub || "", blue = wrap.dataset.lc === "b";
+    const lz = wrap.dataset.lmk ? "" : (wrap.dataset.lz || ""), rmax = +wrap.dataset.rm || (/P/.test(lz) ? .7 : .9), sub = wrap.dataset.sub || "", blue = wrap.dataset.lc === "b";
     const lu = document.createElement("canvas"); lu.width = w; lu.height = h; const lx = lu.getContext("2d"), ld = lx.createImageData(w, h), lo = ld.data;
     const col = blue ? [185, 232, 255] : [175, 255, 205], keep = new Uint8Array(N), zc = new Uint8Array(N);
-    let dimBright = false;
+    let dimBright = !!wrap.dataset.lmk;
     if (lz) {
       let x0 = w, x1 = 0, y0 = h, y1 = 0;
       for (let k = 0; k < N; k++) if (!bg[k]) { const px = k % w, py = (k / w) | 0; if (px < x0) x0 = px; if (px > x1) x1 = px; if (py < y0) y0 = py; if (py > y1) y1 = py; }
@@ -1886,6 +1892,7 @@ const DATA = window.WIKITICKS_DATA;
   if (!lex && !mod) { $("#view").innerHTML = '<p class="empty">Die Inhalte konnten nicht geladen werden. Bitte lade die Seite neu.</p>'; return; }
   E = [...(lex || []), ...((mod && mod.modelle) || []).map(m => ({ ...m, c: "Uhrenmodelle" }))];
   ((mod && mod.marken) || []).forEach(m => { BRAND_INFO[m.name] = m; });
+  LUMEMASK = new Set((mod && mod.lumeMasks) || []);
   rebuild(); route();
   if (POS[location.hash]) requestAnimationFrame(() => window.scrollTo({ top: POS[location.hash] }));
 });
