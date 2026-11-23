@@ -2839,13 +2839,6 @@
      }
     },
     {
-     "n": "Ref. 16570 (schwarz)",
-     "y": "1989–2011",
-     "v": {
-      "img": "assets/watches/rolex-explorer-2-16570-black.jpg"
-     }
-    },
-    {
      "n": "Ref. 226570 »Polar«",
      "y": "seit 2021",
      "v": {
@@ -2927,7 +2920,7 @@
     "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, Originalwert, hier in Euro). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
    "topv": {
-    "n": "Ref. 16570 »Polar«",
+    "n": "Ref. 16570",
     "y": "1989–2011",
     "v": {
      "dial": "#fdfdfc",
@@ -2950,7 +2943,7 @@
      "handW": null,
      "handLume": "#f8f8f5",
      "minW": null,
-     "img": "assets/watches/rolex-explorer-2-16570-polar-white.jpg"
+     "img": "assets/watches/rolex-explorer-2-16570-black.jpg"
     }
    },
    "ev": [
