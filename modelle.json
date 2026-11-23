@@ -16443,7 +16443,8 @@
     "top": [
      "SPIRIT"
     ],
-    "bottom": []
+    "bottom": [],
+    "img": "assets/watches/longines-spirit.jpg"
    },
    "m": [
     "Große arabische Ziffern",
@@ -16540,7 +16541,8 @@
     "strap": "link3",
     "top": [
      "POWERMATIC 80"
-    ]
+    ],
+    "img": "assets/watches/tissot-gentleman.jpg"
    },
    "m": [
     "Schlichte Stabindizes",
@@ -25270,7 +25272,8 @@
     "hands": "sword",
     "strap": "rubber",
     "strapColor": "#2a2c30",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/swatch-skin.jpg"
    },
    "m": [
     "Extra flach",
@@ -25370,7 +25373,8 @@
     "bezelColor": "#1f3a5f",
     "strap": "link3",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/tissot-seastar.jpg"
    },
    "m": [
     "Drehbare Lünette",
@@ -25557,7 +25561,8 @@
    "a": [],
    "v": {
     "shape": "gshock",
-    "caseColor": "#8a8f95"
+    "caseColor": "#8a8f95",
+    "img": "assets/watches/tissot-t-touch.jpg"
    },
    "m": [
     "Touch-Glas",
@@ -25770,7 +25775,8 @@
     "strap": "leather",
     "strapColor": "#2a1a10",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/oris-propilot.jpg"
    },
    "m": [
     "Große Krone",
@@ -25862,7 +25868,8 @@
     "strap": "leather",
     "strapColor": "#2a1a10",
     "case": "black",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/bell-ross-br01.jpg"
    },
    "m": [
     "Quadratisches Gehäuse",
@@ -25964,7 +25971,8 @@
     "markers": "none",
     "hands": "sword",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/chopard-happy-diamonds.jpg"
    },
    "m": [
     "Bewegliche Diamanten",
@@ -26044,7 +26052,8 @@
     "pushers": true,
     "strap": "leather",
     "strapColor": "#2a1a10",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/chopard-mille-miglia.jpg"
    },
    "m": [
     "Chronograph",
@@ -26137,7 +26146,8 @@
     "markers": "baton",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/girard-perregaux-vintage-1945.jpg"
    },
    "m": [
     "Rechteckiges Gehäuse",
