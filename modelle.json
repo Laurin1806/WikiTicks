@@ -26872,7 +26872,8 @@
     "bezelColor": "#17191d",
     "strap": "rubber",
     "strapColor": "#17191d",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/doxa-sub-300t-sharkhunter-black.jpg"
    },
    "m": [
     "Tauchtabelle",
@@ -26962,7 +26963,8 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/blancpain-villeret.jpg"
    },
    "m": [
     "Römische Ziffern",
@@ -27043,7 +27045,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/blancpain-leman.jpg"
    },
    "m": [
     "Datum",
@@ -27119,7 +27122,8 @@
     "strap": "leather",
     "strapColor": "#2a1a10",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/breguet-marine.jpg"
    },
    "m": [
     "Guilloché mit Wellenmuster",
@@ -27217,7 +27221,8 @@
     "markers": "roman",
     "hands": "breguet",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/breguet-tradition.jpg"
    },
    "m": [
     "Sichtbares Werk",
@@ -27314,7 +27319,8 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "case": "gold"
+    "case": "gold",
+    "img": "assets/watches/piaget-altiplano.jpg"
    },
    "m": [
     "Extra flach",
@@ -27416,7 +27422,8 @@
     "markers": "baton",
     "hands": "baton",
     "strap": "integrated",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/piaget-polo.jpg"
    },
    "m": [
     "Integriertes Band",
@@ -27508,7 +27515,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "6"
+    "date": "6",
+    "img": "assets/watches/ulysse-nardin-marine-chronometer.jpg"
    },
    "m": [
     "Chronometerzertifikat",
