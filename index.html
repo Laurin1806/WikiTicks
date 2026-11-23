@@ -127,12 +127,12 @@ article { max-width: calc(70ch + 360px); }
 article > :not(.topfig) { max-width: 70ch; }
 /* Erstes Bild oben rechts, Text fließt links daneben */
 article .topfig { float: right; width: 320px; margin: 4px 0 20px 36px; }
-article .topfig.watchfig svg.watch { height: 280px; }
+article .topfig.watchfig .watch { height: 280px; }
 article .topfig .watchfig { margin: 0; }
 article .lexfig.topfig { width: 380px; }
 article .topfig figcaption b { display: block; }
 article .gallery-inline, article .refs-wrap, article .curbox, article .timeline { clear: right; }
-@media (max-width: 1100px) { article .topfig { width: 260px; margin-left: 24px; } article .topfig.watchfig svg.watch { height: 230px; } }
+@media (max-width: 1100px) { article .topfig { width: 260px; margin-left: 24px; } article .topfig.watchfig .watch { height: 230px; } }
 @media (max-width: 760px) {
   article .topfig { float: none; width: auto; margin: 6px 0 20px; }
   /* Handy: Bild unter Überschrift und Kurzbeschreibung */
@@ -202,19 +202,20 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .browse span { color: var(--muted); font-size: 13.5px; }
 
 /* Illustrationen */
-svg.watch { display: block; width: 100%; height: 100%; }
+.watch { display: block; width: 100%; height: 100%; }
+img.wimg { object-fit: contain; background: #fff; border-radius: 14px; }
 .daily-fig { display: flex; flex-direction: column; align-items: center; justify-content: center; align-self: stretch; background: var(--bg); border-radius: 12px; padding: 18px; min-height: 260px; }
-.daily-fig svg.watch { max-height: 320px; width: auto; }
+.daily-fig .watch { max-height: 320px; width: auto; }
 .watchfig { margin: 6px 0 24px; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; justify-items: center; gap: 10px; }
-.watchfig svg.watch { height: 300px; width: auto; max-width: 100%; }
+.watchfig .watch { height: 300px; width: auto; max-width: 100%; }
 .watchfig figcaption { font-size: 12px; color: var(--muted); text-align: center; }
 .thumb { height: 150px; margin: -6px -6px 6px; padding: 10px; background: var(--bg); border-radius: 8px; display: flex; justify-content: center; }
-.thumb svg.watch { width: auto; }
-@media (max-width: 760px) { .daily-fig { min-height: 220px; } .daily-fig svg.watch { max-height: 240px; } .watchfig svg.watch { height: 240px; } }
+.thumb .watch { width: auto; }
+@media (max-width: 760px) { .daily-fig { min-height: 220px; } .daily-fig .watch { max-height: 240px; } .watchfig .watch { height: 240px; } }
 
 .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 6px 0 8px; }
 .gallery .watchfig { margin: 0; padding: 14px 10px 12px; }
-.gallery .watchfig svg.watch { height: 230px; }
+.gallery .watchfig .watch { height: 230px; }
 .gallery .watchfig.main { border-color: var(--accent); }
 .lexfig .watchfig figcaption, .gallery figcaption { display: grid; gap: 2px; font-size: 12px; color: var(--muted); }
 .lexfig .watchfig figcaption b, .gallery figcaption b { color: var(--fg); font-weight: 600; font-size: 12.5px; }
@@ -560,6 +561,7 @@ const BRAND_STYLE = {
 };
 
 function drawWatch(v = {}, e = null) {
+  if (v.img) return `<img class="watch wimg" src="${v.img}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
   const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
   const shape = v.shape || "round";
@@ -1453,10 +1455,10 @@ function viewEntry(e) {
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
   const vars = e.brand ? (e.var || []).slice(0, 2) : [];
-  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen, vereinfacht dargestellt</p>` : "";
+  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen als Illustrationen</p>` : "";
   return crumbs(trail) + `
     <article>
-      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}<br>Illustration, vereinfacht</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}Illustration, vereinfacht</figcaption></figure>`) : LF.top}
+      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}<br>Illustration, vereinfacht</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}${e.v.img ? "KI-generierte Illustration" : "Illustration, vereinfacht"}</figcaption></figure>`) : LF.top}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
