@@ -25467,7 +25467,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "6"
+    "date": "6",
+    "img": "assets/watches/le-locle-classic.jpg"
    },
    "m": [
     "Römische Ziffern",
@@ -26229,7 +26230,8 @@
     "markers": "none",
     "hands": "baton",
     "strap": "leather",
-    "strapColor": "#2a1a10"
+    "strapColor": "#2a1a10",
+    "img": "assets/watches/girard-perregaux-three-bridges.jpg"
    },
    "m": [
     "Tourbillon",
@@ -26326,7 +26328,8 @@
     "hands": "dauphine",
     "bezel": "fluted",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/bulgari-bulgari.jpg"
    },
    "m": [
     "Schriftzug auf der Lünette",
@@ -26420,7 +26423,8 @@
     "dial": "#f3efe4",
     "markers": "none",
     "hands": "sword",
-    "strap": "integrated"
+    "strap": "integrated",
+    "img": "assets/watches/bulgari-serpenti.jpg"
    },
    "m": [
     "Schlangenband",
@@ -26524,7 +26528,8 @@
     "markers": "baton",
     "hands": "sword",
     "strap": "integrated",
-    "shape": "round"
+    "shape": "round",
+    "img": "assets/watches/rado-diastar.jpg"
    },
    "m": [
     "Kratzfestes Gehäuse",
@@ -26616,7 +26621,8 @@
     "markers": "baton",
     "hands": "sword",
     "strap": "integrated",
-    "shape": "round"
+    "shape": "round",
+    "img": "assets/watches/rado-true.jpg"
    },
    "m": [
     "Monochrome Keramik",
@@ -26699,7 +26705,8 @@
     "hands": "baton",
     "strap": "link3",
     "case": "titanium",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/citizen-satellite-wave.jpg"
    },
    "m": [
     "GPS-Empfang",
@@ -26775,7 +26782,8 @@
     "hands": "baton",
     "strap": "link3",
     "case": "titanium",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/citizen-the-citizen-x8.jpg"
    },
    "m": [
     "Titangehäuse",
