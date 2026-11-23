@@ -15178,7 +15178,8 @@
     "hands": "sword",
     "strap": "rubber",
     "round": 14,
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/bell-ross-br03.jpg"
    },
    "m": [
     "Quadratisches Gehäuse",
@@ -15299,7 +15300,8 @@
     "markers": "roman4",
     "strap": "integrated",
     "horns": true,
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/chopard-alpine-eagle.jpg"
    },
    "m": [
     "Runde Lünette mit acht Schrauben",
@@ -17093,7 +17095,8 @@
     "sub": "small6",
     "strap": "integrated",
     "thin": true,
-    "origin": ""
+    "origin": "",
+    "img": "assets/watches/bulgari-octo-finissimo.jpg"
    },
    "m": [
     "Vielflächiges Achteckgehäuse",
@@ -19952,7 +19955,7 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#2a1a10",
-    "img": "assets/watches/cartier-crash-yellow-gold.jpg"
+    "img": "assets/watches/cartier-crash-hires.jpg"
    },
    "m": [
     "Verformtes Gehäuse",
@@ -20046,7 +20049,7 @@
     "hands": "sword",
     "strap": "leather",
     "strapColor": "#2a1a10",
-    "img": "assets/watches/cartier-baignoire-yellow-gold.jpg"
+    "img": "assets/watches/cartier-baignoire-hires.jpg"
    },
    "m": [
     "Ovales Gehäuse",
