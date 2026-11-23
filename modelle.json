@@ -13841,7 +13841,8 @@
     "lume": "#e9e2c8",
     "case": "titanium",
     "label": "KHAKI",
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/hamilton-khaki-field-mechanical.jpg"
    },
    "m": [
     "Zifferblatt im Militärstil",
@@ -13941,7 +13942,8 @@
     "markers": "baton",
     "strap": "leather",
     "strapColor": "#1b1b1d",
-    "seconds": false
+    "seconds": false,
+    "img": "assets/watches/hamilton-ventura.jpg"
    },
    "m": [
     "Dreieckiges, asymmetrisches Gehäuse",
@@ -14854,14 +14856,16 @@
     "top": [
      "PRX",
      "POWERMATIC 80"
-    ]
+    ],
+    "img": "assets/watches/tissot-prx.jpg"
    },
    "var": [
     {
      "n": "Zifferblatt Grün",
      "y": "seit 2021",
      "v": {
-      "dial": "#22533a"
+      "dial": "#22533a",
+      "img": null
      }
     }
    ],
@@ -16183,7 +16187,8 @@
     "strapColor": "#5a3a22",
     "top": [
      "AUTOMATIC"
-    ]
+    ],
+    "img": "assets/watches/seiko-alpinist.jpg"
    },
    "m": [
     "Grünes Zifferblatt mit goldenen Ziffern",
@@ -16743,7 +16748,8 @@
     "sub": "small6",
     "thin": true,
     "strap": "leather",
-    "strapColor": "#6a4a32"
+    "strapColor": "#6a4a32",
+    "img": "assets/watches/nomos-orion.jpg"
    },
    "m": [
     "Goldfarbene Stabindizes",
@@ -17211,7 +17217,8 @@
     "top": [
      "CAPTAIN COOK",
      "AUTOMATIC"
-    ]
+    ],
+    "img": "assets/watches/rado-captain-cook.jpg"
    },
    "m": [
     "Drehbarer Anker auf dem Zifferblatt",
@@ -22682,7 +22689,8 @@
     "bezelColor": "#17191d",
     "strap": "oyster",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/seiko-sumo-blue.jpg"
    },
    "m": [
     "Breite Lünette",
@@ -22782,7 +22790,8 @@
     "pushers": true,
     "strap": "oyster",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/seiko-6139-pogue-yellow.jpg"
    },
    "m": [
     "Gelbes Zifferblatt",
@@ -22879,7 +22888,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/king-seiko-ks.jpg"
    },
    "m": [
     "Facettiertes Gehäuse",
@@ -22985,7 +22995,8 @@
     "hands": "dauphine",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/grand-seiko-44gs.jpg"
    },
    "m": [
     "Zaratsu-Politur",
@@ -23448,7 +23459,8 @@
     "crown": "onion",
     "strap": "leather",
     "strapColor": "#2a1a10",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/zenith-pilot-type-20.jpg"
    },
    "m": [
     "Zwiebelkrone",
@@ -23801,7 +23813,8 @@
     "hands": "baton",
     "strap": "leather",
     "strapColor": "#3a2618",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/nomos-ludwig.jpg"
    },
    "m": [
     "Arabische Ziffern",
@@ -24200,7 +24213,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "sub": "small6"
+    "sub": "small6",
+    "img": "assets/watches/longines-flagship-heritage.jpg"
    },
    "m": [
     "Schlichtes Zifferblatt",
