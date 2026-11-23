@@ -1454,7 +1454,7 @@ function viewEntry(e) {
   const related = e.r.filter(id => byId[id] && id !== e.id);
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
-  const imgVars = (e.var || []).filter(x => x.v && x.v.img), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 3) : (e.var || []).slice(0, 2)) : [];
+  const imgVars = (e.var || []).filter(x => x.v && x.v.img), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 4) : (e.var || []).slice(0, 2)) : [];
   const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div><p class="gallery-note">Weitere Ausführungen als Illustrationen</p>` : "";
   return crumbs(trail) + `
     <article>

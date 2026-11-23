@@ -2839,13 +2839,6 @@
      }
     },
     {
-     "n": "Ref. 16570 »Polar«",
-     "y": "1989–2011",
-     "v": {
-      "img": "assets/watches/rolex-explorer-ii-16570-polar.jpg"
-     }
-    },
-    {
      "n": "Ref. 226570 »Polar«",
      "y": "seit 2021",
      "v": {
@@ -2927,7 +2920,7 @@
     "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, Originalwert, hier in Euro). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
    "topv": {
-    "n": "Ref. 16570",
+    "n": "Ref. 16570 »Polar«",
     "y": "1989–2011",
     "v": {
      "dial": "#fdfdfc",
@@ -2950,7 +2943,7 @@
      "handW": null,
      "handLume": "#f8f8f5",
      "minW": null,
-     "img": "assets/watches/rolex-explorer-ii-16570-black.jpg"
+     "img": "assets/watches/rolex-explorer-ii-16570-polar.jpg"
     }
    },
    "ev": [
@@ -4932,6 +4925,20 @@
    },
    "var": [
     {
+     "n": "Ref. 3700/1A",
+     "y": "1976–1990",
+     "v": {
+      "img": "assets/watches/patek-philippe-nautilus-3700-1a-blue.jpg"
+     }
+    },
+    {
+     "n": "Ref. 3800/1A",
+     "y": "1981–2006",
+     "v": {
+      "img": "assets/watches/patek-philippe-nautilus-3800-1a-blue.jpg"
+     }
+    },
+    {
      "n": "Ref. 5711/1A-014 (Olivgrün)",
      "y": "2021",
      "v": {
@@ -4947,7 +4954,7 @@
       "ink": "#1d2128",
       "lume": "#f2f2f2",
       "hc": "#f2f2f2",
-      "img": null
+      "img": "assets/watches/patek-philippe-nautilus-5711-1a-tiffany-blue.jpg"
      }
     }
    ],
@@ -5122,7 +5129,7 @@
     "thin": true,
     "markers": "thin",
     "track": "rail",
-    "img": "assets/watches/patek-philippe-calatrava-6119-ivory.jpg"
+    "img": "assets/watches/patek-philippe-calatrava-6119g.jpg"
    },
    "m": [
     "Rundes, schlichtes Gehäuse",
@@ -5179,7 +5186,16 @@
      "Referenz 6119 mit 39 mm"
     ]
    ],
-   "w": "Flach, schlicht und seit 1932 kaum verändert gilt die Calatrava als Urform der runden Dresswatch. Ihr Kreuz ist das Wappen von Patek Philippe."
+   "w": "Flach, schlicht und seit 1932 kaum verändert gilt die Calatrava als Urform der runden Dresswatch. Ihr Kreuz ist das Wappen von Patek Philippe.",
+   "var": [
+    {
+     "n": "Ref. 96",
+     "y": "1932",
+     "v": {
+      "img": "assets/watches/patek-philippe-calatrava-96.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "aquanaut",
@@ -5285,7 +5301,14 @@
       "dial": "#4b5a3a",
       "strapColor": "#4b5a3a",
       "case": "steel",
-      "img": null
+      "img": "assets/watches/patek-philippe-aquanaut-5168g-khaki.jpg"
+     }
+    },
+    {
+     "n": "Ref. 5164A Travel Time",
+     "y": "seit 2011",
+     "v": {
+      "img": "assets/watches/patek-philippe-aquanaut-5164a-travel-time.jpg"
      }
     }
    ],
@@ -5434,7 +5457,7 @@
     "markers": "none",
     "hands": "dauphine",
     "strap": "leather",
-    "img": "assets/watches/patek-philippe-world-time-5230.jpg"
+    "img": "assets/watches/patek-philippe-world-time-5230g-blue.jpg"
    },
    "m": [
     "Städtering mit 24 Städten",
@@ -5557,7 +5580,7 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "hands": "dauphine",
-    "img": "assets/watches/patek-philippe-annual-calendar-5205.jpg"
+    "img": "assets/watches/patek-philippe-annual-calendar-5396-blue.jpg"
    },
    "m": [
     "Wochentag, Datum und Monat",
@@ -5596,7 +5619,16 @@
      "Nautilus Jahreskalender 5726A in Stahl"
     ]
    ],
-   "w": "Patek Philippe stellte den Annual Calendar 1996 vor; er muss nur einmal im Jahr, Ende Februar, korrigiert werden."
+   "w": "Patek Philippe stellte den Annual Calendar 1996 vor; er muss nur einmal im Jahr, Ende Februar, korrigiert werden.",
+   "var": [
+    {
+     "n": "Ref. 5205",
+     "y": "",
+     "v": {
+      "img": "assets/watches/patek-philippe-annual-calendar-5205.jpg"
+     }
+    }
+   ]
   },
   {
    "id": "royal-oak",
@@ -5720,7 +5752,8 @@
     "ro": true,
     "crown": "hex",
     "logoText": "AP",
-    "brandDy": 5
+    "brandDy": 5,
+    "img": "assets/watches/audemars-piguet-royal-oak-15510st-blue.jpg"
    },
    "var": [
     {
@@ -5912,7 +5945,7 @@
     "ro": true,
     "crown": "hex",
     "brandDy": 6,
-    "img": "assets/watches/audemars-piguet-royal-oak-offshore-26420-black.jpg"
+    "img": "assets/watches/audemars-piguet-royal-oak-offshore-26420-chronograph.jpg"
    },
    "m": [
     "Großes Gehäuse mit sichtbaren Dichtungen",
@@ -6070,7 +6103,8 @@
     "origin": "",
     "ro": true,
     "crown": "hex",
-    "brandDy": 6
+    "brandDy": 6,
+    "img": "assets/watches/audemars-piguet-royal-oak-chronograph-26240st-blue.jpg"
    },
    "m": [
     "Drei Hilfszifferblätter",
@@ -6183,7 +6217,7 @@
     "strapColor": "#1d2433",
     "date": "3",
     "track": "rail",
-    "img": "assets/watches/audemars-piguet-code-11-59.jpg"
+    "img": "assets/watches/audemars-piguet-code-11-59-15210.jpg"
    },
    "m": [
     "Rundes Gehäuse mit achteckigem Mittelteil",
@@ -6348,7 +6382,8 @@
     "track": "rail",
     "hands": "alpha",
     "strap": "omega",
-    "lugs": "lyre"
+    "lugs": "lyre",
+    "img": "assets/watches/omega-speedmaster-professional-310-30-42-50-01-001.jpg"
    },
    "var": [
     {
@@ -6360,7 +6395,8 @@
       "top": [
        "Speedmaster"
       ],
-      "lume": "#e9dcb8"
+      "lume": "#e9dcb8",
+      "img": "assets/watches/omega-speedmaster-ck2915-broad-arrow.jpg"
      }
     }
    ],
@@ -6576,7 +6612,8 @@
      "DIVER 300M"
     ],
     "strap": "omega",
-    "sportLugs": true
+    "sportLugs": true,
+    "img": "assets/watches/omega-seamaster-diver-300m-210-30-42-20.jpg"
    },
    "m": [
     "Zifferblatt mit Wellenmuster",
@@ -6729,7 +6766,8 @@
      "600M / 2000FT"
     ],
     "strap": "link3",
-    "polishedCenter": true
+    "polishedCenter": true,
+    "img": "assets/watches/omega-seamaster-planet-ocean-215-30-44-21.jpg"
    },
    "m": [
     "Orangefarbene Akzente",
@@ -6879,7 +6917,8 @@
      "Seamaster",
      "AQUA TERRA 150M"
     ],
-    "strap": "omega"
+    "strap": "omega",
+    "img": "assets/watches/omega-seamaster-aqua-terra-220-10-41-21.jpg"
    },
    "m": [
     "Zifferblatt mit Teakmuster",
@@ -7006,7 +7045,8 @@
     "top": [
      "Co-Axial Master Chronometer",
      "CONSTELLATION"
-    ]
+    ],
+    "img": "assets/watches/omega-constellation-pie-pan-vintage.jpg"
    },
    "m": [
     "»Krallen« bei 3 und 9 Uhr",
@@ -7139,7 +7179,8 @@
     "bottom": [
      "RAILMASTER"
     ],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/omega-railmaster-220-10-40-20.jpg"
    },
    "m": [
     "Gebürstetes Zifferblatt",
@@ -10085,7 +10126,8 @@
      "SEAMASTER",
      "300"
     ],
-    "track": "rail"
+    "track": "rail",
+    "img": "assets/watches/omega-seamaster-300-234-30-41-21.jpg"
    },
    "m": [
     "Breite Pfeilzeiger",
@@ -19139,7 +19181,7 @@
     "pushers": true,
     "strap": "leather",
     "strapColor": "#3a2618",
-    "img": "assets/watches/patek-philippe-perpetual-calendar-chronograph.jpg"
+    "img": "assets/watches/patek-philippe-perpetual-calendar-chronograph-5270.jpg"
    },
    "m": [
     "Chronograph und ewiger Kalender",
@@ -19449,7 +19491,8 @@
     "markers": "roman",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#2a1a10"
+    "strapColor": "#2a1a10",
+    "img": "assets/watches/audemars-piguet-millenary-tourbillon.jpg"
    },
    "m": [
     "Ovales Gehäuse",
@@ -19555,7 +19598,8 @@
     "ro": true,
     "crown": "hex",
     "moon": true,
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/audemars-piguet-royal-oak-perpetual-calendar-26574.jpg"
    },
    "m": [
     "Ewiger Kalender",
