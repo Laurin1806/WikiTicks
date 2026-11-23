@@ -662,7 +662,7 @@ function drawWatch(v = {}, e = null) {
       const dir = to > from ? 1 : -1;
       for (let y = from, k = 0; dir > 0 ? y < to : y > to; y += dir * H, k++) {
         const a = dir > 0 ? y : Math.max(to, y - H), b = dir > 0 ? Math.min(to, y + H) : y, w = hw((a + b) / 2) * 2, x0 = cx - w / 2;
-        const seg = (fx, fw, fill, rr = 1.6, iy = .7, dy = 0) => `<rect x="${f1(x0 + w * fx + .6)}" y="${f1(a + iy + dy)}" width="${f1(w * fw - 1.2)}" height="${f1(Math.max(1, b - a - 2 * iy))}" rx="${rr}" fill="${fill}"/>`;
+        const seg = (fx, fw, fill, rr = 1.6, iy = .7, dy = 0) => `<rect x="${f1(x0 + w * fx + .6)}" y="${f1(a + iy + dy)}" width="${f1(w * fw - 1.2)}" height="${f1(Math.max(1, b - a - 2 * iy))}" rx="${f1(rr * .35)}" fill="${fill}"/>`;
         if (st === "santos") { S.push(seg(0, .34, bru, 1.5), seg(.34, .32, pol, 1.5), seg(.66, .34, bru, 1.5)); [.17, .83].forEach(fx => S.push(`<circle cx="${f1(x0 + w * fx)}" cy="${f1((a + b) / 2)}" r="1.4" fill="${M[0]}" stroke="${M[2]}" stroke-width=".5"/><path d="M${f1(x0 + w * fx - .9)} ${f1((a + b) / 2)}h1.8" stroke="${M[2]}" stroke-width=".5"/>`)); }
         else if (st === "oyster") {
           // Oyster nach Fotovorlage: schmale Außenglieder, breites Mittelglied, Mittelglieder um eine halbe Gliedlänge versetzt, satiniert
