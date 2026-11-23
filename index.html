@@ -585,17 +585,17 @@ function drawWatch(v = {}, e = null) {
   }
 
   S.push(`<defs>
-    <linearGradient id="${id}m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${M[0]}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
+    <linearGradient id="${id}m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${mix(M[1], .1)}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${mix(M[1], -.09)}"/></linearGradient>
     <radialGradient id="${id}d" cx=".38" cy=".32" r=".85"><stop offset="0" stop-color="${mix(dc, dark ? .2 : .12)}"/><stop offset="1" stop-color="${mix(dc, lum(dc) > .9 ? -.05 : -.14)}"/></radialGradient>
     <linearGradient id="${id}cy" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"/><stop offset=".24" stop-color="#000" stop-opacity="0"/><stop offset=".7" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#000" stop-opacity=".4"/></linearGradient>
-    <linearGradient id="${id}p" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], -.1)}"/><stop offset=".5" stop-color="${mix(M[0], .3)}"/><stop offset="1" stop-color="${mix(M[1], -.1)}"/></linearGradient>
+    <linearGradient id="${id}p" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], -.04)}"/><stop offset=".5" stop-color="${mix(M[1], .14)}"/><stop offset="1" stop-color="${mix(M[1], -.04)}"/></linearGradient>
     <radialGradient id="${id}g" cx=".3" cy=".18" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></radialGradient>
     <linearGradient id="${id}k" x1="0" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="${id}rv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${mix(M[1], -.1)}"/><stop offset=".45" stop-color="${mix(M[0], .3)}"/><stop offset="1" stop-color="${mix(M[1], -.1)}"/></linearGradient>
-    <linearGradient id="${id}mu" gradientUnits="userSpaceOnUse" x1="28" y1="20" x2="172" y2="240"><stop offset="0" stop-color="${M[0]}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${M[2]}"/></linearGradient>
-    <linearGradient id="${id}sat" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], .02)}"/><stop offset=".08" stop-color="${mix(M[1], .22)}"/><stop offset=".55" stop-color="${mix(M[1], .3)}"/><stop offset=".92" stop-color="${mix(M[1], .16)}"/><stop offset="1" stop-color="${mix(M[1], -.04)}"/></linearGradient>
+    <linearGradient id="${id}rv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${mix(M[1], -.04)}"/><stop offset=".45" stop-color="${mix(M[1], .14)}"/><stop offset="1" stop-color="${mix(M[1], -.04)}"/></linearGradient>
+    <linearGradient id="${id}mu" gradientUnits="userSpaceOnUse" x1="28" y1="20" x2="172" y2="240"><stop offset="0" stop-color="${mix(M[1], .1)}"/><stop offset=".55" stop-color="${M[1]}"/><stop offset="1" stop-color="${mix(M[1], -.09)}"/></linearGradient>
+    <linearGradient id="${id}sat" x1="0" x2="1"><stop offset="0" stop-color="${mix(M[1], -.03)}"/><stop offset=".1" stop-color="${mix(M[1], .06)}"/><stop offset=".55" stop-color="${mix(M[1], .09)}"/><stop offset=".9" stop-color="${mix(M[1], .04)}"/><stop offset="1" stop-color="${mix(M[1], -.04)}"/></linearGradient>
     <radialGradient id="${id}az"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></radialGradient>
-    <filter id="${id}s" x="-20%" y="-10%" width="140%" height="125%"><feDropShadow dx="0" dy="4" stdDeviation="4.5" flood-opacity=".28"/></filter>
+    <filter id="${id}s" x="-20%" y="-10%" width="140%" height="125%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity=".2"/></filter>
     <filter id="${id}h" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx=".8" dy="1.6" stdDeviation=".9" flood-opacity=".5"/></filter>
   </defs><g filter="url(#${id}s)">`);
   const metal = `url(#${id}m)`;
@@ -645,7 +645,7 @@ function drawWatch(v = {}, e = null) {
         return { body, fase: fase([tl - .6, ty + d * rr], TL, 1) + fase([tl + tw + .6, ty + d * rr], TR, -1) };
       };
       const A = one(y0, 1), Bm = one(260 - y0, -1);
-      S.push(`<path d="${A.body}${Bm.body}" fill="${metal}"/><path d="${A.fase}${Bm.fase}" fill="#fff" fill-opacity=".38"/><path d="M${f1(tl + rr)} ${y0 + 1.2}H${f1(tl + tw - rr)}" stroke="#fff" stroke-opacity=".6"/><path d="M${f1(tl + rr)} ${258.8 - y0}H${f1(tl + tw - rr)}" stroke="#000" stroke-opacity=".25"/>`);
+      S.push(`<path d="${A.body}${Bm.body}" fill="${metal}"/><path d="${A.fase}${Bm.fase}" fill="#fff" fill-opacity=".18"/><path d="M${f1(tl + rr)} ${y0 + 1.2}H${f1(tl + tw - rr)}" stroke="#fff" stroke-opacity=".6"/><path d="M${f1(tl + rr)} ${258.8 - y0}H${f1(tl + tw - rr)}" stroke="#000" stroke-opacity=".25"/>`);
     } else {
     const ye = rx ? 112 : 100; // Rolex-Sport: Flanke läuft länger und weiter nach außen bis neben die Lünette
     S.push(`<path d="${lug(y0, ye)}${lug(260 - y0, 260 - ye)}" fill="${metal}"/>`);
@@ -656,7 +656,7 @@ function drawWatch(v = {}, e = null) {
   }
   if (metalBand) {
     const pol = `url(#${id}p)`, bru = M[1], bru2 = mix(M[1], .12);
-    S.push(`<path d="${strapD}" fill="${st === "oyster" ? mix(M[2], .22) : st === "ro" ? `url(#${id}mu)` : mix(M[2], .2)}"/>`);
+    S.push(`<path d="${strapD}" fill="${st === "ro" ? `url(#${id}mu)` : mix(M[1], -.1)}"/>`);
     const H = { santos: 13, jubilee: 8, president: 11, integrated: shape === "porthole" ? 16 : 12, rouleaux: 7, panther: 6, mesh: 86, oyster: 25, link3: 14, omega: 11, ro: 10 }[st];
     const piece = (from, to) => {
       const dir = to > from ? 1 : -1;
@@ -995,7 +995,11 @@ function drawWatch(v = {}, e = null) {
   const win = (x, y, w, h, s, size = 8) => `<rect x="${f1(x - w / 2)}" y="${f1(y - h / 2)}" width="${w}" height="${h}" rx="1.5" fill="#f7f7f5" stroke="${mix(dc, -.3)}" stroke-width=".6"/><text x="${f1(x)}" y="${f1(y + size * .36)}" text-anchor="middle" ${font} font-size="${size}" font-weight="600" fill="#1d2128">${s}</text>`;
   if (hasDate3 && !v.layout) { const [x, y] = P(90, (dial.r || 50) * .72); S.push(v.date === "daydate" ? win(x - 6, y, 26, 11, "MO 22", 7) : win(x, y, 13, 11, "22")); if (v.date === "cyclops") S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="10" fill="#ffffff" opacity=".18" stroke="#ffffff" stroke-opacity=".5"/>`); }
   if (v.date === "6") { const [x, y] = P(180, (dial.r || 50) * .7); S.push(win(x, y, 13, 11, "22")); }
-  if (v.date === "day") { const [x, y] = P(0, (dial.r || 50) * .66); S.push(win(x, y, 34, 11, "SUNDAY", 7)); if (!v.cyclops0) S.push(win(...P(90, (dial.r || 50) * .72), 13, 11, "22")); }
+  if (v.date === "day") {
+    // Wochentag im Original auf einem Kreisbogen bei 12 Uhr
+    const rad = (dial.r || 50) * .66, hh = 11, th = Math.min(34, 19 / rad * 180 / Math.PI), ro = rad + hh / 2, ri = rad - hh / 2, rt = rad - 7 * .36, pid = id + "dw";
+    const [ax, ay] = P(-th, ro), [bx, by2] = P(th, ro), [ex2, ey2] = P(th, ri), [fx2, fy2] = P(-th, ri), [tx, ty] = P(-th, rt), [ux, uy] = P(th, rt);
+    S.push(`<path d="M${f1(ax)} ${f1(ay)}A${f1(ro)} ${f1(ro)} 0 0 1 ${f1(bx)} ${f1(by2)}L${f1(ex2)} ${f1(ey2)}A${f1(ri)} ${f1(ri)} 0 0 0 ${f1(fx2)} ${f1(fy2)}Z" fill="#f7f7f5" stroke="${mix(dc, -.3)}" stroke-width=".6" stroke-linejoin="round"/><path id="${pid}" d="M${f1(tx)} ${f1(ty)}A${f1(rt)} ${f1(rt)} 0 0 1 ${f1(ux)} ${f1(uy)}" fill="none"/><text ${font} font-size="7" font-weight="600" fill="#1d2128" text-anchor="middle"><textPath href="#${pid}" startOffset="50%">SUNDAY</textPath></text>`); if (!v.cyclops0) S.push(win(...P(90, (dial.r || 50) * .72), 13, 11, "22")); }
   if (v.moon) { const [x, y] = P(180, (dial.r || 50) * .5); S.push(`<path d="M${f1(x - 13)} ${f1(y + 5)}A13 13 0 0 1 ${f1(x + 13)} ${f1(y + 5)}Z" fill="#1d3463"/><circle cx="${f1(x + 3)}" cy="${f1(y - 1)}" r="4.5" fill="#e8c766"/>`); }
   if (v.windows) { [-1, 1].forEach((k, i) => { const [x, y] = P(k * 32, (dial.r || 50) * .55); S.push(win(x, y, 18, 10, i ? "NOV" : "SUN", 6.5)); }); }
   if (v.disk24) {
