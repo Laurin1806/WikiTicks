@@ -3138,6 +3138,13 @@
    },
    "var": [
     {
+     "n": "Ref. 1680 (mit Datum)",
+     "y": "1969–1979",
+     "v": {
+      "img": "assets/watches/rolex-submariner-1680-date.jpg"
+     }
+    },
+    {
      "n": "Ref. 5513 (ohne Datum)",
      "y": "1962–1989",
      "v": {
@@ -9491,6 +9498,13 @@
     "img": "assets/watches/rolex-milgauss-116400gv-black.jpg"
    },
    "var": [
+    {
+     "n": "Ref. 1019",
+     "y": "1960–1988",
+     "v": {
+      "img": "assets/watches/rolex-milgauss-1019-black.jpg"
+     }
+    },
     {
      "n": "Ref. 116400GV »Z-Blue«",
      "y": "2014–2023",
@@ -17900,7 +17914,8 @@
     "markers": "baton",
     "hands": "baton",
     "date": "cyclops",
-    "strap": "integrated"
+    "strap": "integrated",
+    "img": "assets/watches/rolex-oysterquartz-datejust-17000.jpg"
    },
    "m": [
     "Kantiges Gehäuse",
@@ -18150,7 +18165,8 @@
     "bezel": "fluted",
     "date": "cyclops",
     "strap": "jubilee",
-    "case": "steel"
+    "case": "steel",
+    "img": "assets/watches/rolex-turn-o-graph-116264.jpg"
    },
    "m": [
     "Drehbare Lünette",
@@ -23799,7 +23815,8 @@
     "hands": "baton",
     "strap": "link3",
     "case": "steel",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/longines-conquest-blue.jpg"
    },
    "m": [
     "Sportlich-elegant",
@@ -23910,7 +23927,8 @@
     "strap": "oyster",
     "case": "steel",
     "date": "3",
-    "sportLugs": true
+    "sportLugs": true,
+    "img": "assets/watches/longines-hydroconquest-blue.jpg"
    },
    "m": [
     "Keramiklünette",
