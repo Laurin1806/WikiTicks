@@ -2888,7 +2888,7 @@
       10640
      ]
     ],
-    "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, Originalwert in Pfund, hier in Euro)."
+    "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, Originalwert, hier in Euro)."
    },
    "topv": {
     "n": "Ref. 16570 »Polar«",
@@ -3722,7 +3722,7 @@
       22053
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, Originalwert in Pfund, hier in Euro). Ältere Referenzen: Spanne gängiger Händlerangebote von rund 9.400 bis 12.250 EUR (Luxury Bazaar, BQ Watches); der Wert ist deren Mitte. Neupreis 16710: Liste 2004 laut Crown & Caliber, nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: WatchCharts (Oktober 2026)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, Originalwert, hier in Euro). Ältere Referenzen: Spanne gängiger Händlerangebote von rund 9.400 bis 12.250 EUR (Luxury Bazaar, BQ Watches); der Wert ist deren Mitte. Neupreis 16710: Liste 2004 laut Crown & Caliber, nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: WatchCharts (Oktober 2026)."
    },
    "w": "Die zweifarbige Lünette trennt Tag (Rot) und Nacht (Blau) und macht die GMT-Master II zusammen mit dem vierten Zeiger zur Reiseuhr für bis zu drei Zeitzonen."
   },
@@ -13196,7 +13196,7 @@
    ],
    "preis": {
     "u": "EUR",
-    "n": "Aktuelle Referenz: Fifty Fathoms Automatique 45 mm, 5015-1130-52A, Europa (Liste in Euro). Ältere Referenzen: Marktschätzungen von WatchCharts (Herbst 2026, in US-Dollar). Ungefähre Werte ohne Gewähr.",
+    "n": "Aktuelle Referenz: Fifty Fathoms Automatique 45 mm, 5015-1130-52A, Europa (Liste in Euro). Ältere Referenzen: Marktschätzungen von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr.",
     "rows": [
      [
       "5015-12B30-B52A",
@@ -17435,7 +17435,7 @@
       14450
      ]
     ],
-    "n": "Neupreis laut Händlerangabe; Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 11.950 und 18.750 USD. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Neupreis laut Händlerangabe; Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 10.700 und 16.750 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    }
   },
   {
@@ -17546,7 +17546,7 @@
       7500
      ]
     ],
-    "n": "Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 6.000 und 9.000 USD; ein Listenpreis aus der Bauzeit war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 5.350 und 8.050 EUR; ein Listenpreis aus der Bauzeit war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    }
   },
   {
@@ -17640,7 +17640,20 @@
      "Vorstellung der Yacht-Master II"
     ]
    ],
-   "w": "Eine Rolex für Regatten: mit mechanisch programmierbarem Countdown für die Startsequenz."
+   "w": "Eine Rolex für Regatten: mit mechanisch programmierbarem Countdown für die Startsequenz.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "116680",
+      "Liste (zuletzt)",
+      18700,
+      "heute",
+      16125
+     ]
+    ],
+    "n": "Gebrauchtwert: Marktangabe aus einem WatchCharts-Inserat; Händler fragen deutlich mehr (bis etwa 24.050 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "turn-o-graph",
@@ -17740,7 +17753,20 @@
      "Einstellung der Linie"
     ]
    ],
-   "w": "Rolex mit drehbarer Lünette vor der Submariner, später als Datejust Turn-O-Graph bekannt."
+   "w": "Rolex mit drehbarer Lünette vor der Submariner, später als Datejust Turn-O-Graph bekannt.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Datejust Turn-O-Graph 116264",
+      "Liste 2021",
+      7650,
+      "heute",
+      7973
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Händlerpreise liegen bei 7.950 bis 9.850 EUR; ein Exemplar von 2004 erzielte 2023 bei einer Auktion 8.400 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "rolex-prince",
@@ -17838,105 +17864,6 @@
    ],
    "w": "Die rechteckige Art-déco-Rolex, bei der Stunden und Sekunde auf getrennten Zifferblättern stehen.",
    "ns": true
-  },
-  {
-   "id": "daytona-paul-newman",
-   "t": "Rolex Daytona »Paul Newman«",
-   "brand": "Rolex",
-   "since": "1963",
-   "s": "Die Daytona mit Art-déco-Zifferblatt, die durch Schauspieler Paul Newman zur gefragtesten Vintage-Rolex wurde.",
-   "b": [
-    "Als »Paul Newman« bezeichnen Sammler die frühen Cosmograph-Daytona-Modelle mit dem »Exotic Dial«. Dieses Zifferblatt hat Hilfszifferblätter in Kontrastfarbe und Ziffern im Art-déco-Stil. Die Uhren erschienen ab 1963 (Ref. 6239) und wurden damals schlecht verkauft.",
-    "Ihren Beinamen bekamen sie vom Schauspieler Paul Newman, der eine solche Uhr getragen hatte. Seine eigene Ref. 6239 wurde 2017 bei Phillips für rund 17,8 Millionen US-Dollar versteigert und gilt als eine der teuersten Armbanduhren der Welt.",
-    "Der Name „Paul Newman“ ist ein Sammler-Etikett, das erst Jahrzehnte nach der Produktion entstand. Gemeint ist ein Zifferblatt mit Art-déco-Ziffern in den Totalisatoren, das bei Rolex ursprünglich schlicht als Exotic Dial galt und sich kaum verkaufte. Dass die Uhr ihren heutigen Status hat, liegt an der Verbindung zu dem Schauspieler und Rennfahrer, dem seine Frau Joanne Woodward eine Daytona schenkte.",
-    "Der Preissprung kam 2017, als Newmans eigene Daytona bei einer New Yorker Auktion für knapp 18 Millionen US-Dollar verkauft wurde – damals ein Rekord für eine Armbanduhr. Seitdem gilt die Paul Newman als Referenz unter den Sammler-Rolex. Wichtig: Nicht jedes Exemplar ist original; Zifferblätter wurden nachgebaut und Uhren aufgefälscht. Ohne Gutachten eines Experten ist beim Kauf größte Vorsicht geboten."
-   ],
-   "cur": "Daytona Paul Newman (Ref. 6239, 6241, 6262, 6264)",
-   "f": [
-    [
-     "Zifferblatt",
-     "Exotic Dial mit Art-déco-Ziffern"
-    ],
-    [
-     "Kaliber",
-     "Valjoux 72 (Handaufzug)"
-    ],
-    [
-     "Gehäuse",
-     "37 mm"
-    ],
-    [
-     "Auktionsrekord",
-     "2017, rund 17,8 Mio. USD"
-    ]
-   ],
-   "refs": [
-    [
-     "6239",
-     "1963–1969",
-     "37 mm",
-     "Valjoux 72",
-     "Erste Daytona"
-    ],
-    [
-     "6241",
-     "1965–1969",
-     "37 mm",
-     "Valjoux 72",
-     "Schwarze Lünette"
-    ],
-    [
-     "6263/6265",
-     "1971–1988",
-     "37 mm",
-     "Valjoux 727",
-     "Mit verschraubten Drückern"
-    ]
-   ],
-   "r": [
-    "daytona",
-    "chronograph",
-    "tachymeter"
-   ],
-   "k": "Die Uhr von Paul Newman wurde 2017 für etwa 17,8 Millionen Dollar versteigert.",
-   "a": [],
-   "v": {
-    "dial": "#f1efe9",
-    "sub": "chrono3",
-    "subColor": "#b9462f",
-    "markers": "baton",
-    "hands": "baton",
-    "bezel": "tachy",
-    "pushers": true,
-    "strap": "leather",
-    "strapColor": "#3a2618",
-    "era": "vintage"
-   },
-   "m": [
-    "Exotic Dial",
-    "Art-déco-Ziffern",
-    "Kontrastfarbene Hilfszifferblätter"
-   ],
-   "tipp": [
-    "Echtheit prüfen: Es gibt viele Fälschungen und Nachlackierungen.",
-    "Preise hängen stark vom Zifferblatt ab."
-   ],
-   "x": [
-    "Der Beiname geht auf Paul Newmans Uhr zurück.",
-    "Die Exotic-Zifferblätter wurden zunächst kaum gekauft.",
-    "Sie gehört zu den teuersten Armbanduhren der Welt."
-   ],
-   "ev": [
-    [
-     "1963",
-     "Vorstellung der Daytona 6239"
-    ],
-    [
-     "2017",
-     "Paul Newmans Uhr erzielt 17,8 Mio. USD"
-    ]
-   ],
-   "w": "Die Daytona mit Art-déco-Zifferblatt, die erst durch Paul Newman berühmt wurde."
   },
   {
    "id": "ploprof",
@@ -18145,7 +18072,20 @@
      "Weitere Referenzen"
     ]
    ],
-   "w": "Die Pilotenuhr aus dem Haus der Speedmaster: Chronograph mit zweiter Zeitzone."
+   "w": "Die Pilotenuhr aus dem Haus der Speedmaster: Chronograph mit zweiter Zeitzone.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "145.036",
+      "",
+      null,
+      "heute",
+      3447
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Händler verlangen 3.050 bis 5.800 EUR je nach Zustand und Modell (frühe oder späte Serie). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "globemaster",
@@ -18526,7 +18466,20 @@
      "Speedmaster ’57"
     ]
    ],
-   "w": "Die Speedmaster der Anfangszeit als Automatik: Pfeilzeiger, Tachymeter, 41,5 mm."
+   "w": "Die Speedmaster der Anfangszeit als Automatik: Pfeilzeiger, Tachymeter, 41,5 mm.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "331.10.42.51.01.001",
+      "Liste (zuletzt)",
+      9000,
+      "heute",
+      4668
+     ]
+    ],
+    "n": "Gebrauchtwert als Mitte zwischen einem verkauften Exemplar (3.800 EUR) und einem Händlerpreis (4.550 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "golden-ellipse",
@@ -18945,7 +18898,27 @@
      "Calatrava Pilot Travel Time"
     ]
    ],
-   "w": "Eine Calatrava im Fliegerstil: arabische Ziffern, Zweitzeitzone und Datum."
+   "w": "Eine Calatrava im Fliegerstil: arabische Ziffern, Zweitzeitzone und Datum.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "5524G (Weißgold)",
+      "Liste 2026",
+      67267,
+      "heute",
+      35949
+     ],
+     [
+      "5524R (Roségold)",
+      "",
+      null,
+      "heute",
+      37006
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Händler verlangen für die 5524G meist 37.550 bis 41.550 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "royal-oak-concept",
@@ -19237,7 +19210,20 @@
      "Neue Generation mit Kaliber 5134"
     ]
    ],
-   "w": "Eine Sportuhr mit ewigem Kalender: Royal Oak, Mondphase und Kalender in einer Uhr."
+   "w": "Eine Sportuhr mit ewigem Kalender: Royal Oak, Mondphase und Kalender in einer Uhr.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "26574ST (Stahl)",
+      "Liste (Händlerangabe)",
+      129900,
+      "heute",
+      113600
+     ]
+    ],
+    "n": "Gebrauchtwert als Mitte der Händlerpreise zwischen 89.350 und 113.800 EUR, je nach Zifferblatt und Jahr; kein offizieller Listenpreis auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "crash",
@@ -19429,7 +19415,7 @@
       11000
      ]
     ],
-    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 4.000 bis 23.000 USD). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 3.600 bis 20.550 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    }
   },
   {
@@ -19528,7 +19514,7 @@
       5000
      ]
     ],
-    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 4.000 bis 12.000 USD). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 3.600 bis 10.750 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    }
   },
   {
@@ -19734,7 +19720,7 @@
       4000
      ]
     ],
-    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 2.000 bis 22.000 USD). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Durchschnitt der Kollektion laut WatchCharts (Spanne etwa 1.800 bis 19.650 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    }
   },
   {
@@ -19841,7 +19827,7 @@
       5000
      ]
     ],
-    "n": "Mitte einer von den Quellen unterschiedlich angegebenen Spanne von rund 3.800 bis 6.400 USD. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Mitte einer von den Quellen unterschiedlich angegebenen Spanne von rund 3.400 bis 5.700 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    }
   },
   {
@@ -19942,7 +19928,20 @@
      "Neue Linie"
     ]
    ],
-   "w": "Von der Quarzuhr zur Komplikationsuhr: Die Da Vinci steht für IWCs ewigen Kalender."
+   "w": "Von der Quarzuhr zur Komplikationsuhr: Die Da Vinci steht für IWCs ewigen Kalender.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "IW393402 (Laureus)",
+      "Liste 2023",
+      13100,
+      "heute",
+      5352
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "pilots-chronograph",
@@ -20028,7 +20027,20 @@
      "Pilot’s Watch Chronograph"
     ]
    ],
-   "w": "Eine Fliegeruhr mit Stoppfunktion: das Dreieck bei 12 Uhr, die Zwiebelkrone, der Chronograph."
+   "w": "Eine Fliegeruhr mit Stoppfunktion: das Dreieck bei 12 Uhr, die Zwiebelkrone, der Chronograph.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "IW377709",
+      "Liste (ca.)",
+      5500,
+      "heute",
+      4300
+     ]
+    ],
+    "n": "Gebrauchtwert als Mitte der Händler- und Privatangebote zwischen 3.200 und 4.450 EUR; Listenpreisangaben schwanken zwischen 4.900 und 5.200 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "portugieser-yacht-club",
@@ -20221,7 +20233,7 @@
       5000
      ]
     ],
-    "n": "Händlerangebote zwischen etwa 4.000 und 7.300 USD, hier ein unterer Mittelwert. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Händlerangebote zwischen etwa 3.600 und 6.550 EUR, hier ein unterer Mittelwert. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    }
   },
   {
@@ -20317,7 +20329,20 @@
     ]
    ],
    "w": "Breitlings Bond-Chronograph: sportlich, farbig und kleiner als die Navitimer.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Top Time B01 Classic Cars",
+      "Händler ab",
+      7650,
+      "heute",
+      5550
+     ]
+    ],
+    "n": "Neupreis laut Händler; Gebrauchtwert als Mitte zweier Händlerangebote (4.850 und 5.050 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "avenger",
@@ -20403,7 +20428,20 @@
     ]
    ],
    "w": "Eine kräftige Pilotenuhr mit großen Reitern: Breitlings robuste Seite.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Avenger Chronograph 45 (A13317101C1A1)",
+      "Liste",
+      6750,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Händler bieten die Uhr teils für rund 3.950 EUR an; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "heritage-chrono",
@@ -20573,7 +20611,24 @@
      "Vorstellung der Black Bay Chrono"
     ]
    ],
-   "w": "Die Black Bay mit Stoppfunktion: Retro-Look und Chronographenwerk aus der Breitling-Kooperation."
+   "w": "Die Black Bay mit Stoppfunktion: Retro-Look und Chronographenwerk aus der Breitling-Kooperation.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "79360N",
+      "Liste UK",
+      4930,
+      "heute",
+      4100,
+      [
+       "GBP",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "Listenpreis laut britischem Händler; Gebrauchtpreis: ein Händlerangebot. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "tudor-1926",
@@ -20654,7 +20709,27 @@
     ]
    ],
    "w": "Die schlichte Tudor: Dresswatch mit Jahreszahl im Namen.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "1926 41 mm (91650)",
+      "Händler",
+      2650,
+      "heute",
+      null
+     ],
+     [
+      "1926 (91550)",
+      "",
+      null,
+      "heute",
+      1655
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "autavia",
@@ -21042,7 +21117,20 @@
      "Master Control"
     ]
    ],
-   "w": "Die klassische Jaeger-LeCoultre: schlicht, flach und 1.000 Stunden getestet."
+   "w": "Die klassische Jaeger-LeCoultre: schlicht, flach und 1.000 Stunden getestet.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Master Control Date Q4018420",
+      "Liste (ca.)",
+      8750,
+      "heute",
+      6900
+     ]
+    ],
+    "n": "Gebrauchtwert als Mitte der Händlerangebote zwischen 5.700 und 6.550 EUR für Exemplare der letzten Jahre; Neuware wird bei einem Händler mit 9.200 EUR geführt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "duometre",
@@ -21311,7 +21399,7 @@
       26000
      ]
     ],
-    "n": "Durchschnitt über alle Saxonia-Modelle laut WatchCharts (Spanne etwa 14.000 bis 85.000 USD). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Durchschnitt über alle Saxonia-Modelle laut WatchCharts (Spanne etwa 12.500 bis 76.000 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
    }
   },
   {
@@ -21909,7 +21997,9 @@
    "s": "Einer der ersten Automatik-Chronographen der Welt, benannt nach Astronaut William Pogue.",
    "b": [
     "Die Seiko 6139 erschien 1969 als einer der ersten Chronographen mit Automatikaufzug. Der Name »Pogue« stammt von William Pogue, der 1973/74 bei der Skylab-4-Mission eine Seiko 6139 trug. Die bekannteste Version hat ein gelbes Zifferblatt.",
-    "Die 6139 hat ein Schaltrad und vertikale Kupplung und wurde in mehreren Varianten gebaut. Sie ist ein beliebtes Sammlerstück und gilt als Gegenstück zur Speedmaster."
+    "Die 6139 hat ein Schaltrad und vertikale Kupplung und wurde in mehreren Varianten gebaut. Sie ist ein beliebtes Sammlerstück und gilt als Gegenstück zur Speedmaster.",
+    "Die 6139 gehört zu den ersten Automatik-Chronographen der Welt und erschien 1969, im selben Jahr wie der Zenith El Primero und die Heuer Chrono-Matic. Seiko gab das Werk als Serienprodukt in die Breite, mit Gehäusen in vielen Farben und Zifferblattvarianten. Der Beiname „Pogue“ stammt von William Pogue, der 1973 bei der Skylab-Mission eine 6139 am Handgelenk trug.",
+    "Die Schwesterreferenz 6138 hat die Drücker oben am Gehäuse und ihren Spitznamen „Bullhead“ von dieser Form. Für Sammler sind beide Einstiegsstücke in die Welt der Vintage-Chronographen: Die Preise liegen weit unter denen vergleichbarer Schweizer Modelle."
    ],
    "cur": "6139 (Vintage)",
    "f": [
@@ -21987,7 +22077,20 @@
      "Skylab 4"
     ]
    ],
-   "w": "Die gelbe Chronograph-Seiko: früh, automatisch und von einem Astronauten getragen."
+   "w": "Die gelbe Chronograph-Seiko: früh, automatisch und von einem Astronauten getragen.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "6139-6002 „Pogue“",
+      "",
+      null,
+      "heute",
+      655
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Händler verlangen für 6139-Modelle teils 800 bis über 2.300 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "king-seiko",
@@ -21997,7 +22100,9 @@
    "s": "Die handgefertigte Konkurrenz zur Grand Seiko, 1961 von Suwa Seikosha gestartet.",
    "b": [
     "King Seiko erschien 1961 bei Suwa Seikosha als Konkurrent zur Grand Seiko von Daini Seikosha. Beide Marken standen im Wettbewerb um die beste Uhr des Konzerns. King Seiko-Uhren haben ein klares Design mit Facettierung und eine hohe Verarbeitungsqualität.",
-    "Die Linie lief bis in die 1970er-Jahre. 2022 belebte Seiko King Seiko neu, mit Gehäuse im Stil der 1960er und Automatikwerk. Heute gilt sie als Geheimtipp."
+    "Die Linie lief bis in die 1970er-Jahre. 2022 belebte Seiko King Seiko neu, mit Gehäuse im Stil der 1960er und Automatikwerk. Heute gilt sie als Geheimtipp.",
+    "King Seiko war in den 1960er-Jahren die Marke der Fertigung in Suwa, während Grand Seiko aus der Daini-Seikosha-Werkstatt in Tokio kam. Beide Linien traten nebeneinander an und trieben sich gegenseitig zu Qualitätsverbesserungen. Die King-Modelle sind etwas dezenter im Auftritt als die Grand-Seiko-Linie.",
+    "Seit der Wiederbelebung 2022 gibt es die Linie als Mittelklassemodell mit Edelstahlgehäuse, Saphirglas und Automatikwerk. Wer die Formensprache der 1960er-Jahre mag, bekommt hier eine günstigere Alternative zu den Grand-Seiko-Heritage-Modellen."
    ],
    "cur": "King Seiko (Neuauflage)",
    "f": [
@@ -22073,7 +22178,24 @@
      "Neuauflage"
     ]
    ],
-   "w": "Die Konkurrenz im eigenen Haus: King Seiko, schlicht, facettiert und mit Vintage-Charme."
+   "w": "Die Konkurrenz im eigenen Haus: King Seiko, schlicht, facettiert und mit Vintage-Charme.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "SPB279",
+      "Liste (Frankreich)",
+      1800,
+      "heute",
+      1027,
+      [
+       "EUR",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "Listenpreis in Euro laut Seiko Frankreich; Gebrauchtwert als WatchCharts-Schätzung (Nov. 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "gs-44gs",
@@ -22083,7 +22205,9 @@
    "s": "Das Modell, das 1967 den Grand-Seiko-Stil mit flachen Flächen und scharfen Kanten festlegte.",
    "b": [
     "Die 44GS erschien 1967 mit einem Handaufzugswerk und einem Gehäuse, dessen Flächen eben und scharf poliert waren. Der Designer Taro Tanaka nannte das die »Grammatik des Designs«. Jede Fläche spiegelt ohne Verzerrung, Kanten sind scharf.",
-    "Das Modell bildete die Grundlage für den Grand-Seiko-Stil bis heute. 2020er-Neuauflagen wie die SBGW231 greifen es auf. Die Original-44GS ist unter Sammlern sehr gefragt."
+    "Das Modell bildete die Grundlage für den Grand-Seiko-Stil bis heute. 2020er-Neuauflagen wie die SBGW231 greifen es auf. Die Original-44GS ist unter Sammlern sehr gefragt.",
+    "Die 44GS gilt als Geburtsstunde des Grand-Seiko-Stils. Designer Taro Tanaka entwickelte 1967 die „Grammar of Design“: ebene Flächen am Gehäuse, scharfe Kanten und eine Politur, die Licht gezielt bricht. Diese Gestaltung prägt Grand Seiko bis heute.",
+    "Die Reissues halten sich eng an das Original und werden in kleiner Stückzahl gebaut. Dadurch sind sie schwer zu bekommen und wurden am Zweitmarkt oft über dem Neupreis gehandelt."
    ],
    "cur": "44GS (Neuauflage)",
    "f": [
@@ -22158,7 +22282,20 @@
      "SBGW231"
     ]
    ],
-   "w": "Die Uhr, die den Grand-Seiko-Stil festlegte: ebene Flächen und scharfe Kanten."
+   "w": "Die Uhr, die den Grand-Seiko-Stil festlegte: ebene Flächen und scharfe Kanten.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "SBGW047 (Tribute to 44GS)",
+      "",
+      null,
+      "heute",
+      6200
+     ]
+    ],
+    "n": "Gebrauchtpreis: Mitte der Angebote zwischen etwa 4.850 und 6.250 EUR; ein Listenpreis war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "gs-hi-beat",
@@ -22168,7 +22305,9 @@
    "s": "Die Grand Seiko mit hochfrequentem Werk, 36.000 Halbschwingungen pro Stunde.",
    "b": [
     "Die Hi-Beat 36000 trägt ein mechanisches Werk mit 5 Hz und 55 Stunden Gangreserve (Kaliber 9S85, ab 2009). Die hohe Frequenz macht den Gang stabiler. Die Uhr gehört zur Heritage-Kollektion und erinnert an die Hi-Beat-Modelle der 1960er-Jahre.",
-    "Moderne Versionen laufen mit dem Kaliber 9SA5 und bis zu 80 Stunden Gangreserve. Die Hi-Beat zeigt, dass Grand Seiko auch bei mechanischen Werken mit den Schweizern konkurriert."
+    "Moderne Versionen laufen mit dem Kaliber 9SA5 und bis zu 80 Stunden Gangreserve. Die Hi-Beat zeigt, dass Grand Seiko auch bei mechanischen Werken mit den Schweizern konkurriert.",
+    "Das Hi-Beat-Kaliber schlägt mit 36.000 Halbschwingungen pro Stunde statt der üblichen 28.800. Das gibt dem Gang mehr Stabilität gegen Stöße und Lageabweichungen, kostet aber mehr Energie und macht das Werk aufwendiger. Schon 1968 hatte Seiko mit der 61GS eine Hi-Beat-Uhr vorgestellt.",
+    "Die moderne Hi-Beat mit dem Kaliber 9S85 erschien 2009 und zeigt das Werk durch einen Glasboden. Sie ist für Träger gedacht, die mechanische Präzision in einer Alltagsuhr suchen."
    ],
    "cur": "Hi-Beat 36000 (SBGH-Serie)",
    "f": [
@@ -22245,7 +22384,20 @@
      "9SA5"
     ]
    ],
-   "w": "Hohe Frequenz, ruhige Optik: die mechanische Grand Seiko für Kenner."
+   "w": "Hohe Frequenz, ruhige Optik: die mechanische Grand Seiko für Kenner.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "SBGH001",
+      "",
+      null,
+      "heute",
+      2595
+     ]
+    ],
+    "n": "Gebrauchtpreis: Angebote von rund 1.850 bis 3.000 EUR, hier ein Angebot mit vollständigem Set. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "gs-spring-drive-chrono",
@@ -22255,7 +22407,9 @@
    "s": "Die Grand Seiko mit Spring-Drive-Chronograph, bei dem der Zeiger ohne Sprünge gleitet.",
    "b": [
     "Der Spring-Drive-Chronograph von Grand Seiko erschien 2007 mit dem Kaliber 9R86. Er verbindet die Gleitsekunde des Spring Drive mit einem Chronographen. Die Zeiger laufen ohne Ticken, Start und Stopp erfolgen über ein elektronisch gesteuertes Schaltsystem.",
-    "Das Werk hat 72 Stunden Gangreserve, der Chronograph läuft in 1/5-Sekunden-Schritten. Die Uhr gilt als technische Sonderleistung der Marke."
+    "Das Werk hat 72 Stunden Gangreserve, der Chronograph läuft in 1/5-Sekunden-Schritten. Die Uhr gilt als technische Sonderleistung der Marke.",
+    "Das Spring-Drive-Chronographen-Kaliber ist eine Eigenentwicklung, bei der die Zeit nicht durch eine Unruh, sondern durch einen Quarzoszillator und einen Federantrieb geregelt wird. Der Sekundenzeiger gleitet dadurch ohne Ticken über das Zifferblatt. Der Chronograph nutzt dieselbe Technik.",
+    "Die Entwicklung begann in den 1970er-Jahren und dauerte Jahrzehnte. Grand Seiko fertigt diese Uhren in kleinen Stückzahlen in Shinshu."
    ],
    "cur": "Spring Drive Chronograph (SBGC-Serie)",
    "f": [
@@ -22338,7 +22492,9 @@
    "s": "Die Uhr mit 50 Tagen Gangreserve, entstanden aus der Zusammenarbeit mit Ferrari.",
    "b": [
     "Die MP-05 LaFerrari erschien 2013 als Sondermodell zur Zusammenarbeit mit Ferrari. Ihr Handaufzugswerk hat elf hintereinander angeordnete Federhäuser und läuft 50 Tage mit einem Aufzug. Das Werk ist vertikal gebaut und im Saphirgehäuse sichtbar.",
-    "Die Uhr war eine technische Machtdemonstration der Manufaktur. Sie kostete ein Vielfaches einer normalen Big Bang und wurde in kleiner Auflage gebaut."
+    "Die Uhr war eine technische Machtdemonstration der Manufaktur. Sie kostete ein Vielfaches einer normalen Big Bang und wurde in kleiner Auflage gebaut.",
+    "Die MP-05 LaFerrari erschien 2013 und war auf 50 Stück limitiert. Das Werk hat elf in Reihe geschaltete Federhäuser und eine Gangreserve von 50 Tagen. Das Gehäuse besteht aus Saphirglas, sodass man das Innenleben sieht. Der Name verweist auf den Ferrari LaFerrari, mit dem Hublot damals zusammenarbeitete.",
+    "Die Uhr ist ein Beispiel für Hublots Strategie, mit extremen Projekten technische Kompetenz zu zeigen. Für den Alltag ist sie kaum gedacht."
    ],
    "cur": "MP-05 LaFerrari (Saphir)",
    "f": [
@@ -22403,17 +22559,32 @@
      "Vorstellung der MP-05"
     ]
    ],
-   "w": "Fünfzig Tage Gangreserve in einem Saphirgehäuse: Hublots technische Show."
+   "w": "Fünfzig Tage Gangreserve in einem Saphirgehäuse: Hublots technische Show.",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "MP-05 LaFerrari",
+      "Liste 2013",
+      265800,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Listenpreis 2013 in Frankreich, auf 50 Stück limitiert; Gebrauchtpreise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "spirit-of-big-bang",
    "t": "Hublot Spirit of Big Bang",
    "brand": "Hublot",
-   "since": "2010",
+   "since": 2014,
    "s": "Die Big Bang im Tonneaugehäuse, erstmals 2010 vorgestellt.",
    "b": [
     "Die Spirit of Big Bang erschien 2010 als Neuinterpretation der Big Bang im Tonneaugehäuse. Das Gehäuse besteht aus vielen Schichten, die Lünette trägt die typischen sechs H-Schrauben. Gedacht war sie als sportlichere und anspruchsvollere Version der Big Bang.",
-    "Sie wird mit Chronographenwerk, Tourbillon und in Gold, Titan und Keramik angeboten. Sie zeigt Hublots Spiel mit Formen und Materialien."
+    "Sie wird mit Chronographenwerk, Tourbillon und in Gold, Titan und Keramik angeboten. Sie zeigt Hublots Spiel mit Formen und Materialien.",
+    "Die Spirit of Big Bang erschien 2014 und hat ein tonneauförmiges Gehäuse, das sich deutlich von der runden Big Bang unterscheidet. Hublot bot sie in Keramik, Titan und Gold an, teils mit Skelettwerk.",
+    "Die Linie ist nicht so bekannt wie die Big Bang, aber optisch eigenständig. Auf dem Zweitmarkt liegen die Preise je nach Material stark auseinander."
    ],
    "cur": "Spirit of Big Bang (aktuelle Modelle)",
    "f": [
@@ -22481,7 +22652,20 @@
      "Spirit of Big Bang"
     ]
    ],
-   "w": "Die Big Bang im Tonneaugehäuse: markant, schwer und typisch Hublot."
+   "w": "Die Big Bang im Tonneaugehäuse: markant, schwer und typisch Hublot.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Spirit of Big Bang (Durchschnitt)",
+      "",
+      null,
+      "heute",
+      15000
+     ]
+    ],
+    "n": "Durchschnitt laut WatchCharts mit großer Spanne von etwa 8.050 bis 44.700 EUR je nach Ausführung. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "pilot-type-20",
@@ -22491,7 +22675,9 @@
    "s": "Die große Fliegeruhr von Zenith im Stil der französischen Militär-Fliegeruhren der 1950er.",
    "b": [
     "Die Pilot Type 20 greift die Fliegeruhren auf, die Zenith in den 1950er-Jahren für die französische Luftwaffe baute. Der Name geht auf die Militärspezifikation »Type 20« zurück. Typisch sind das schwarze Zifferblatt mit großen Ziffern, die Zwiebelkrone und das große Gehäuse.",
-    "Moderne Versionen tragen ein Automatikwerk. Die Uhr gehört zu den auffälligsten Pilotenuhren der Branche und ist bei Fans von Vintage-Optik beliebt."
+    "Moderne Versionen tragen ein Automatikwerk. Die Uhr gehört zu den auffälligsten Pilotenuhren der Branche und ist bei Fans von Vintage-Optik beliebt.",
+    "Die Pilot Type 20 greift die Fliegeruhren auf, die Zenith im frühen 20. Jahrhundert für Piloten lieferte. Typisch sind ein großes Zifferblatt mit Lupenkrone und gut ablesbare Zahlen. Zenith nutzt für die Neuauflagen Werke aus der eigenen Manufaktur.",
+    "Im Programm steht sie neben der Chronomaster und der Defy als Sondermodell mit historischem Bezug."
    ],
    "cur": "Pilot Type 20 (aktuelle Modelle)",
    "f": [
@@ -22577,7 +22763,9 @@
    "s": "Die flache Dresswatch von Zenith, 1994 mit dem Elite-Werk eingeführt.",
    "b": [
     "Die Elite erschien 1994 mit einem extra flachen Automatikwerk, das dem Gehäuse schlanke Proportionen gab. Das Zifferblatt ist schlicht, die Zeiger schlank, das Gehäuse rund.",
-    "Die Elite wird in Edelstahl und Gold angeboten, auch mit Mondphase oder Gangreserve. Sie ist der ruhige Gegenentwurf zum sportlichen El Primero."
+    "Die Elite wird in Edelstahl und Gold angeboten, auch mit Mondphase oder Gangreserve. Sie ist der ruhige Gegenentwurf zum sportlichen El Primero.",
+    "Die Elite ist Zeniths klassische Dresswatch und erschien erstmals 1994. Das Werk ist extra dünn gehalten, das Gehäuse bleibt schlicht. Damit steht die Linie im Kontrast zu den technischeren Familien Chronomaster und Defy.",
+    "Sie ist ein guter Einstieg in die Marke für Träger, die kein Chronograph-Werk brauchen."
    ],
    "cur": "Elite (aktuelle Modelle)",
    "f": [
@@ -22746,7 +22934,9 @@
    "s": "Die klassische Handaufzugsuhr von Vacheron Constantin im traditionellen Stil.",
    "b": [
     "Die Traditionnelle ist die klassische Uhrenfamilie von Vacheron Constantin. Sie hat ein rundes, flaches Gehäuse, eine feine Zifferblattgestaltung mit Guilloché und ein Handaufzugswerk. Das Werk trägt das Genfer Siegel.",
-    "Es gibt sie als Dreizeiger, mit Mondphase, ewigem Kalender, Tourbillon und weiteren Komplikationen. Sie zeigt die ganze Bandbreite des Hauses."
+    "Es gibt sie als Dreizeiger, mit Mondphase, ewigem Kalender, Tourbillon und weiteren Komplikationen. Sie zeigt die ganze Bandbreite des Hauses.",
+    "Die Traditionnelle ist eine Dresswatch-Linie von Vacheron Constantin, die an klassische Taschenuhren anknüpft. Das Gehäuse ist schlank, das Zifferblatt zurückhaltend, und es gibt Modelle mit Handaufzug, Mondphase oder Ewigem Kalender.",
+    "Gegenüber der Patrimony ist die Traditionnelle feiner im Detail und etwas teurer."
    ],
    "cur": "Traditionnelle (aktuelle Modelle)",
    "f": [
@@ -22821,7 +23011,9 @@
    "s": "Die schlichte Handaufzugsuhr, eines der ersten vier Nomos-Modelle.",
    "b": [
     "Die Ludwig erschien 1992 als eines der ersten vier Modelle von Nomos. Sie hat ein rundes Gehäuse mit schlankem Rand, ein Zifferblatt mit arabischen Ziffern im Bauhaus-Stil und eine kleine Sekunde bei 6 Uhr.",
-    "Wie die Tangente zeigt sie die Reduktion der frühen Nomos-Jahre. Heute läuft sie mit dem Manufakturwerk Alpha und ist ein Einstiegsmodell der Marke."
+    "Wie die Tangente zeigt sie die Reduktion der frühen Nomos-Jahre. Heute läuft sie mit dem Manufakturwerk Alpha und ist ein Einstiegsmodell der Marke.",
+    "Die Ludwig gehört zu den ersten Modellen von Nomos Glashütte nach der Gründung 1990. Das runde Gehäuse und das schlichte Zifferblatt mit römischen Ziffern folgen den Bauhaus-nahen Ideen der Marke. Nomos fertigt die Uhr mit Werken aus eigener Produktion.",
+    "Sie ist eine vergleichsweise günstige Einstiegsuhr aus Glashütte."
    ],
    "cur": "Ludwig (aktuelle Modelle)",
    "f": [
@@ -22894,7 +23086,20 @@
     ]
    ],
    "w": "Schlicht und klar: eine der ersten Nomos-Uhren, mit arabischen Ziffern und Handaufzug.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "Ludwig",
+      "",
+      null,
+      "heute",
+      1499
+     ]
+    ],
+    "n": "Ein einzelnes Gebrauchtangebot auf eBay; ein aktueller Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "tetra",
@@ -22904,7 +23109,9 @@
    "s": "Die quadratische Uhr von Nomos, 1992 neben der Tangente vorgestellt.",
    "b": [
     "Die Tetra erschien 1992 als quadratische Variante der ersten Nomos-Kollektion. Sie hat ein viereckiges Gehäuse, ein schlichtes Zifferblatt und eine kleine Sekunde. Der Name erinnert an die vier Seiten.",
-    "Wie die Tangente und die Ludwig bleibt sie dem Bauhaus-Prinzip »Form folgt Funktion« treu. Sie ist die Uhr für alle, die lieber eckig als rund tragen."
+    "Wie die Tangente und die Ludwig bleibt sie dem Bauhaus-Prinzip »Form folgt Funktion« treu. Sie ist die Uhr für alle, die lieber eckig als rund tragen.",
+    "Die Tetra trägt den Spitznamen „Quadrat“ und war eines der Modelle, mit denen Nomos Glashütte nach der Gründung ein eigenes Gesicht bekam. Das quadratische Gehäuse ist selten bei Uhren aus Glashütte und unterscheidet die Marke von den Traditionalisten.",
+    "Gebrauchtmodelle werden oft günstig gehandelt, was sie für Einsteiger interessant macht."
    ],
    "cur": "Tetra (aktuelle Modelle)",
    "f": [
@@ -22971,7 +23178,20 @@
     ]
    ],
    "w": "Die quadratische Nomos: schlicht, klein und Bauhaus-streng.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "Tetra (Ref. 440)",
+      "Händler",
+      1870,
+      "heute",
+      725
+     ]
+    ],
+    "n": "Neupreis laut Händler (Spanne 1.660 bis 2.300 EUR); der Gebrauchtpreis ist ein einzelner eBay-Verkauf einer älteren Tetra. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "conquest",
@@ -22981,7 +23201,9 @@
    "s": "Die sportliche Longines-Linie, die 1954 eingeführt wurde.",
    "b": [
     "Die Conquest erschien 1954 als erste sportliche Linie von Longines. Sie wurde als robuste Alltagsuhr mit Automatikwerk und Datum gebaut und gehörte in den 1950er- und 60er-Jahren zu den wichtigen Modellen der Marke.",
-    "Heute gibt es die Conquest als Dreizeiger und Chronograph in vielen Größen. Sie ist eine günstige, sportlich-elegante Alternative zu Rolex oder Omega."
+    "Heute gibt es die Conquest als Dreizeiger und Chronograph in vielen Größen. Sie ist eine günstige, sportlich-elegante Alternative zu Rolex oder Omega.",
+    "Die Conquest erschien 1954 und war lange Longines’ Sportuhrenlinie. Heute gibt es sie als Automatikuhr mit Datum und Chronographen.",
+    "Im Katalog bildet sie die Brücke zwischen der klassischen Linie und den Taucheruhren."
    ],
    "cur": "Conquest (aktuelle Modelle)",
    "f": [
@@ -23052,7 +23274,20 @@
      "Conquest"
     ]
    ],
-   "w": "Die sportliche Longines: Automatik, Datum und ein fairer Preis."
+   "w": "Die sportliche Longines: Automatik, Datum und ein fairer Preis.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Conquest",
+      "Händler",
+      3030,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Preisangabe von der Longines-Website (Singapur); je nach Referenz unterschiedlich. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "hydroconquest",
@@ -23062,7 +23297,9 @@
    "s": "Die Taucheruhr von Longines, 2007 als Teil der Conquest-Familie eingeführt.",
    "b": [
     "Die HydroConquest erschien 2007 als Taucheruhr der Conquest-Familie. Sie ist bis 300 Meter wasserdicht, hat eine einseitig drehbare Keramiklünette und ein Zifferblatt mit großen Indizes.",
-    "Es gibt sie mit Quarz- und Automatikwerk in vielen Größen. Sie ist eine preiswerte Taucheruhr aus Schweizer Fertigung."
+    "Es gibt sie mit Quarz- und Automatikwerk in vielen Größen. Sie ist eine preiswerte Taucheruhr aus Schweizer Fertigung.",
+    "Die HydroConquest ist die Taucheruhr der Conquest-Familie und erschien 2007. Sie ist bis 300 Meter wasserdicht und hat eine Keramiklünette.",
+    "Die Uhr bietet viel Taucheruhr für einen vergleichsweise niedrigen Preis."
    ],
    "cur": "HydroConquest (aktuelle Modelle)",
    "f": [
@@ -23135,7 +23372,21 @@
      "HydroConquest"
     ]
    ],
-   "w": "Eine moderne Taucheruhr zu fairem Preis: Keramiklünette und 300 Meter."
+   "w": "Eine moderne Taucheruhr zu fairem Preis: Keramiklünette und 300 Meter.",
+   "preis": {
+    "u": "CHF",
+    "rows": [
+     [
+      "HydroConquest L3.779.4.06.6",
+      "Liste 2026",
+      1850,
+      "heute",
+      null,
+      "CHF"
+     ]
+    ],
+    "n": "Listenpreis laut Händlerangabe; je nach Referenz bis rund 3.000 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "flagship-heritage",
@@ -23145,7 +23396,9 @@
    "s": "Die klassische Dresswatch von Longines, im Stil der Flagship von 1957.",
    "b": [
     "Die Flagship erschien 1957 als Dresswatch mit Automatikwerk. Die Heritage-Version greift die Optik mit schlankem Gehäuse, Stabindizes und kleiner Sekunde auf.",
-    "Sie ist eine ruhige Alternative zur Conquest und gehört zu den Longines-Modellen, die an die Blütezeit der Marke erinnern."
+    "Sie ist eine ruhige Alternative zur Conquest und gehört zu den Longines-Modellen, die an die Blütezeit der Marke erinnern.",
+    "Die Flagship erschien 1957 als erste Automatikuhr von Longines. Die Heritage-Linie greift diese Gestaltung auf, mit einem schlichten Zifferblatt und dezenter Gestaltung.",
+    "Die Neuauflagen sind bei Einsteigern in klassische Armbanduhren beliebt."
    ],
    "cur": "Flagship Heritage (aktuelle Modelle)",
    "f": [
@@ -23227,7 +23480,9 @@
    "s": "Die klassische Dresswatch von Hamilton mit Automatik und Datum.",
    "b": [
     "Die Jazzmaster erschien in den 2000er-Jahren als Dresswatch von Hamilton. Sie hat ein rundes Gehäuse mit schlankem Rand, ein Zifferblatt mit Stabindizes und ein Automatikwerk. Gedacht ist sie als Uhr für den Alltag und den Anzug.",
-    "Sie wird in mehreren Größen mit und ohne Mondphase und Chronograph angeboten. Die Jazzmaster ist günstiger als vergleichbare Schweizer Dresswatches."
+    "Sie wird in mehreren Größen mit und ohne Mondphase und Chronograph angeboten. Die Jazzmaster ist günstiger als vergleichbare Schweizer Dresswatches.",
+    "Die Jazzmaster ist Hamiltons Dresswatch-Linie. Sie gibt es mit Automatik, Handaufzug und Quarz, in verschiedenen Größen. Das Programm ist breit gefächert und auf ein vernünftiges Preis-Leistungs-Verhältnis ausgelegt.",
+    "Typisch sind schlichte Zifferblätter und klassische Proportionen."
    ],
    "cur": "Jazzmaster (aktuelle Modelle)",
    "f": [
@@ -23292,7 +23547,20 @@
      "Jazzmaster"
     ]
    ],
-   "w": "Die elegante Hamilton: Dresswatch mit Automatik und fairem Preis."
+   "w": "Die elegante Hamilton: Dresswatch mit Automatik und fairem Preis.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Jazzmaster Thinline Auto",
+      "Liste US",
+      1095,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Listenpreis laut Hamilton USA (je nach Ausführung bis 1.050 EUR); gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "pan-europ",
@@ -23302,7 +23570,9 @@
    "s": "Der Chronograph von 1971 mit Chronomatic-Werk, 2017 als Neuauflage zurückgekehrt.",
    "b": [
     "Die Pan Europ erschien 1971 als Chronograph mit dem Automatikwerk Chronomatic Kaliber 11, das Hamilton gemeinsam mit anderen Herstellern entwickelt hatte. Sie hat ein Kissengehäuse mit Lünette und Zifferblatt in kräftigen Farben.",
-    "In den 2010er-Jahren erschien die Neuauflage Pan Europ Auto Chrono mit dem Kaliber H-31. Die Uhr ist ein Beispiel für die Retro-Welle der Marke und erinnert an die Chronographen der 1970er."
+    "In den 2010er-Jahren erschien die Neuauflage Pan Europ Auto Chrono mit dem Kaliber H-31. Die Uhr ist ein Beispiel für die Retro-Welle der Marke und erinnert an die Chronographen der 1970er.",
+    "Die Pan Europ erschien 1971 als Hamilton-Chronograph mit auffälligem, kissenförmigem Gehäuse. Das Original war ein typisches Kind der 1970er-Jahre, mit kräftigen Farben und geometrischen Linien.",
+    "Die Neuauflage greift diese Formen auf und nutzt ein modernes Automatikwerk."
    ],
    "cur": "Pan Europ Auto Chrono (Neuauflage)",
    "f": [
@@ -23390,7 +23660,9 @@
    "s": "Die klassische Fliegeruhr von Sinn mit schlichtem Zifferblatt und Automatikwerk.",
    "b": [
     "Die 104 ist die klassische Fliegeruhr von Sinn. Sie hat ein 41-Millimeter-Gehäuse, ein schwarzes Zifferblatt mit großen Ziffern und ein Automatikwerk. Gedacht ist sie als robuste Alltagsuhr mit Fliegerschlagwort.",
-    "Die Uhr ist antimagnetisch und mit Trockenhaltetechnik ausgestattet. Sie ist in Deutschland sehr beliebt und gilt als solide Alternative zu teureren Fliegeruhren."
+    "Die Uhr ist antimagnetisch und mit Trockenhaltetechnik ausgestattet. Sie ist in Deutschland sehr beliebt und gilt als solide Alternative zu teureren Fliegeruhren.",
+    "Die Sinn 104 ist eine klassische Fliegeruhr mit Chronographenfunktion. Sinn fertigt in Frankfurt und ist bekannt für technische Lösungen wie Trockenhaltetechnik und Tegiment-Härtung. Dazu gehören Modelle mit gut ablesbaren Zifferblättern und robuster Bauweise.",
+    "Die Uhr bietet viel Technik zum fairen Preis."
    ],
    "cur": "104 St Sa (aktuelle Modelle)",
    "f": [
@@ -23485,7 +23757,9 @@
    "s": "Die Einsatzzeitmesser-Uhr von Sinn für Spezialkräfte, mit Trockenhaltetechnik.",
    "b": [
     "Die EZM 3 gehört zur Reihe der Einsatzzeitmesser von Sinn, die für Spezialkräfte und Einsatzteams entwickelt wurden. Sie hat ein robustes Gehäuse, ein gut lesbares Zifferblatt und eine einseitig drehbare Lünette.",
-    "Die Uhr nutzt die Ar-Trockenhaltetechnik, bei der das Gehäuse mit Argon gefüllt wird, damit das Glas nicht beschlägt. Sie ist wasserdicht und für Einsätze unter schwierigen Bedingungen gebaut."
+    "Die Uhr nutzt die Ar-Trockenhaltetechnik, bei der das Gehäuse mit Argon gefüllt wird, damit das Glas nicht beschlägt. Sie ist wasserdicht und für Einsätze unter schwierigen Bedingungen gebaut.",
+    "Die EZM 3 gehört zu den „Einsatzzeitmessern“ von Sinn, die für professionelle Einsätze wie Tauchen oder Einsatzkräfte entworfen wurden. Das Gehäuse ist druckfest, das Zifferblatt klar, und eine Lünette sichert die Tauchzeit.",
+    "Die Linie ist in der Uhrenszene für ihre robuste Bauweise bekannt."
    ],
    "cur": "EZM 3 (aktuelle Modelle)",
    "f": [
@@ -23552,7 +23826,35 @@
      "EZM 3"
     ]
    ],
-   "w": "Eine Uhr für den Einsatz: Argonfüllung, drehbare Lünette und robustes Gehäuse."
+   "w": "Eine Uhr für den Einsatz: Argonfüllung, drehbare Lünette und robustes Gehäuse.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "603.010 (Silikonband)",
+      "Liste",
+      1790,
+      "heute",
+      1890,
+      [
+       "EUR",
+       "USD"
+      ]
+     ],
+     [
+      "EZM 3 S 603.020",
+      "Liste",
+      2820,
+      "heute",
+      2479,
+      [
+       "EUR",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "Listenpreise laut Sinn; Gebrauchtwert der 603.010 als WatchCharts-Schätzung, der EZM 3 S als Händlerpreis inklusive MwSt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "sinn-356",
@@ -23562,7 +23864,9 @@
    "s": "Der Chronograph von Sinn im Fliegerstil mit Valjoux-Werk.",
    "b": [
     "Die 356 Flieger ist ein Chronograph im klassischen Fliegerstil. Sie hat ein Gehäuse mit Lünette, ein Zifferblatt mit Hilfszifferblättern und Leuchtziffern. Als Werk dient das Valjoux 7750.",
-    "Die Uhr wird in Frankfurt montiert und mit Zifferblattvarianten angeboten. Sie ist ein Dauerbrenner der Marke."
+    "Die Uhr wird in Frankfurt montiert und mit Zifferblattvarianten angeboten. Sie ist ein Dauerbrenner der Marke.",
+    "Die 356 ist ein Chronograph von Sinn mit Bezug zur Fliegeruhr. Gehäuse und Zifferblatt sind sachlich gestaltet, die Zeiger gut lesbar. Sinn fertigt in Frankfurt am Main und hat in den 1990er-Jahren mit solchen Uhren seinen Ruf aufgebaut.",
+    "Die 356 ist eine solide, unaufgeregte Wahl."
    ],
    "cur": "356 Flieger (aktuelle Modelle)",
    "f": [
@@ -23628,7 +23932,27 @@
      "Sinn 356"
     ]
    ],
-   "w": "Der Sinn-Chronograph im Fliegerstil: klar, robust und alltagstauglich."
+   "w": "Der Sinn-Chronograph im Fliegerstil: klar, robust und alltagstauglich.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "356 Flieger Sa",
+      "",
+      null,
+      "heute",
+      2200
+     ],
+     [
+      "356 Pilot II (356.072)",
+      "",
+      null,
+      "heute",
+      2326
+     ]
+    ],
+    "n": "Gebrauchtangebote bei etwa 1.350 bis 1.950 EUR für die Sa; für die 356.072 liegt die Spanne bei 1.800 bis 2.350 EUR, hier die Mitte. Ein Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "junghans-meister",
@@ -23638,7 +23962,9 @@
    "s": "Die Bauhaus-inspirierte Dresswatch von Junghans mit Handaufzug oder Automatik.",
    "b": [
     "Die Meister ist die klassische Uhrenfamilie von Junghans. Sie hat ein rundes, schlichtes Gehäuse, ein gewölbtes Zifferblatt und feine Stabindizes. Es gibt sie mit Handaufzug, Automatik, Chronograph und Kalender.",
-    "Die Meister verbindet das Bauhaus-Erbe mit einer klassischen Optik. Sie ist günstiger als die Linie max bill und spricht Menschen an, die ein klassisches Design mögen."
+    "Die Meister verbindet das Bauhaus-Erbe mit einer klassischen Optik. Sie ist günstiger als die Linie max bill und spricht Menschen an, die ein klassisches Design mögen.",
+    "Die Meister ist die klassische Linie von Junghans. Sie steht für Bauhaus-nahe Gestaltung und flache Gehäuse. Es gibt sie mit Handaufzug und Automatik.",
+    "Für Liebhaber deutscher Uhren ist sie ein Einstieg."
    ],
    "cur": "Meister (aktuelle Modelle)",
    "f": [
@@ -23704,7 +24030,20 @@
     ]
    ],
    "w": "Die klassische Junghans: Bauhaus-Erbe, gewölbtes Zifferblatt und Handaufzug oder Automatik.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "Meister Handaufzug 027/3200.02",
+      "Händler",
+      1250,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Händlerpreis in Deutschland; je nach Referenz gibt es Preise von rund 1.100 bis 1.500 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "junghans-mega",
@@ -23714,7 +24053,9 @@
    "s": "Die erste Funkarmbanduhr der Welt, 1990 von Junghans vorgestellt.",
    "b": [
     "Die Mega erschien 1990 als erste Funkarmbanduhr der Welt. Sie empfängt das Zeitsignal des Senders DCF77 in Mainflingen und stellt sich automatisch auf die Atomzeit. Damit war sie genauer als jede mechanische Uhr.",
-    "Später folgten Solarversionen, die ohne Batterie auskommen. Die Mega machte Junghans in den 1990ern zum Pionier der Funktechnik und bleibt ein Sammlerstück."
+    "Später folgten Solarversionen, die ohne Batterie auskommen. Die Mega machte Junghans in den 1990ern zum Pionier der Funktechnik und bleibt ein Sammlerstück.",
+    "Die Mega war 1990 die erste funkgesteuerte Armbanduhr der Welt. Sie synchronisiert sich über ein Funksignal mit einer Atomuhr, sodass die Anzeige auch ohne Nachstellen stimmt. Später kam Solarbetrieb dazu.",
+    "Die Technik war damals ein Meilenstein für die Armbanduhr."
    ],
    "cur": "Mega (Solar)",
    "f": [
@@ -23790,7 +24131,20 @@
     ]
    ],
    "w": "Die Armbanduhr, die sich vom Funksender stellen lässt: Pionier von 1990.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "max bill MEGA Solar 059/4325.02",
+      "UVP",
+      1075,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Unverbindliche Preisempfehlung laut Junghans-Preisliste. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "f-91w",
@@ -23800,7 +24154,9 @@
    "s": "Die schlichte Digitaluhr, die seit 1989 gebaut wird und zu den meistverkauften Uhren der Welt gehört.",
    "b": [
     "Die F-91W erschien 1989 und ist bis heute im Programm. Sie hat ein Kunststoffgehäuse, ein Flüssigkristalldisplay mit Datum, Wecker und Stoppfunktion sowie ein schlichtes Harzband. Die Batterie hält etwa sieben Jahre.",
-    "Die Uhr ist extrem günstig und wird jährlich in Millionenstückzahl verkauft. Sie wurde zur Designikone und taucht in Film, Mode und Kultur auf."
+    "Die Uhr ist extrem günstig und wird jährlich in Millionenstückzahl verkauft. Sie wurde zur Designikone und taucht in Film, Mode und Kultur auf.",
+    "Die F-91W kam 1989 auf den Markt und ist bis heute eine der meistverkauften Armbanduhren der Welt. Sie hat ein Digitaldisplay, eine Alarmfunktion und eine Batterie, die mehrere Jahre hält. Dank des günstigen Preises und der robusten Bauweise wurde sie zum Alltagsgegenstand und zum Designklassiker.",
+    "Seit einigen Jahren wird sie auch von Modekennern getragen, was ihr zusätzlichen Kultstatus gibt."
    ],
    "cur": "F-91W (aktuell)",
    "f": [
@@ -23860,7 +24216,20 @@
      "F-91W"
     ]
    ],
-   "w": "Die schlichte Digitaluhr, die seit über dreißig Jahren fast unverändert gebaut wird."
+   "w": "Die schlichte Digitaluhr, die seit über dreißig Jahren fast unverändert gebaut wird.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "F-91W-1",
+      "Händler",
+      23,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Neupreis im US-Handel, meist 18 bis 22 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "ga-2100",
@@ -23870,7 +24239,9 @@
    "s": "Die achteckige G-Shock im Stil der Royal Oak, wegen ihres Gehäuses auch »CasiOak« genannt.",
    "b": [
     "Die GA-2100 erschien 2019 als dünnere G-Shock mit Karbonfaser-Gehäuse. Ihr achteckiges Gehäuse mit analog-digitaler Anzeige erinnert an die Royal Oak, daher der Spitzname »CasiOak«. Sie ist deutlich schlanker als die klassischen G-Shocks.",
-    "Die Uhr wurde ein Hit und kam in vielen Farben und Kooperationen. Sie zeigt, wie Casio mit Streetwear und Luxusdesign spielt, ohne die Stoßfestigkeit aufzugeben."
+    "Die Uhr wurde ein Hit und kam in vielen Farben und Kooperationen. Sie zeigt, wie Casio mit Streetwear und Luxusdesign spielt, ohne die Stoßfestigkeit aufzugeben.",
+    "Die GA-2100 erschien 2019 und wird wegen ihres achteckigen Gehäuses oft als „CasiOak“ bezeichnet, in Anspielung auf die Royal Oak. Sie ist deutlich schlanker als frühere G-Shock-Modelle und trotzdem stoßfest bis 200 Meter wasserdicht.",
+    "Der Erfolg der Uhr zeigt, dass günstige Sportuhren mit Designanspruch eine breite Käuferschicht ansprechen."
    ],
    "cur": "GA-2100 (aktuelle Modelle)",
    "f": [
@@ -23935,7 +24306,20 @@
      "GA-2100"
     ]
    ],
-   "w": "Die schlanke G-Shock mit Royal-Oak-Optik zum kleinen Preis."
+   "w": "Die schlanke G-Shock mit Royal-Oak-Optik zum kleinen Preis.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "GA-2100-1A3",
+      "Liste",
+      130,
+      "heute",
+      137
+     ]
+    ],
+    "n": "Gebrauchtwert als Mitte der Handelsspanne von 96 bis 150 EUR der letzten zwölf Monate. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "sistem51",
@@ -23945,7 +24329,9 @@
    "s": "Die mechanische Swatch aus 51 Teilen, vollautomatisch gefertigt.",
    "b": [
     "Die Sistem51 erschien 2013 als mechanische Swatch aus nur 51 Teilen. Das Werk wird vollautomatisch montiert und ist mit einer einzigen Schraube zusammengehalten. Sie hat einen Automatikaufzug und läuft 90 Stunden.",
-    "Die Uhr zeigte, dass sich mechanische Werke industriell und günstig bauen lassen. Das Werk ist durch das transparente Gehäuse sichtbar und kann nicht repariert, sondern nur getauscht werden."
+    "Die Uhr zeigte, dass sich mechanische Werke industriell und günstig bauen lassen. Das Werk ist durch das transparente Gehäuse sichtbar und kann nicht repariert, sondern nur getauscht werden.",
+    "Die Sistem51 erschien 2013 und besteht aus nur 51 Teilen. Das Werk wird vollautomatisch montiert, und der Rotor wird mit einer einzigen Schraube befestigt. Swatch wollte damit zeigen, dass ein mechanisches Werk auch in großer Stückzahl wirtschaftlich gefertigt werden kann.",
+    "Gehäuse und Werk sind nicht dafür gedacht, zerlegt zu werden; eine Reparatur ist schwieriger als bei klassischen Werken."
    ],
    "cur": "Sistem51 (aktuelle Modelle)",
    "f": [
@@ -24019,7 +24405,9 @@
    "s": "Die extra flache Swatch, 1997 als dünnste Plastikuhr der Welt vorgestellt.",
    "b": [
     "Die Swatch Skin erschien 1997 und war mit rund 3,9 Millimetern Höhe die dünnste Plastikuhr ihrer Zeit. Das Gehäuse ist so flach, dass das Werk fast zwischen Glas und Boden liegt. Das Band ist weich und in Farben erhältlich.",
-    "Die Skin wurde mehrfach neu aufgelegt, zuletzt als Skin Irony und mit Edelstahlgehäuse. Sie steht für das Prinzip der Swatch: eine Uhr als Kleidungsstück."
+    "Die Skin wurde mehrfach neu aufgelegt, zuletzt als Skin Irony und mit Edelstahlgehäuse. Sie steht für das Prinzip der Swatch: eine Uhr als Kleidungsstück.",
+    "Die Swatch Skin erschien 1997 und war mit knapp vier Millimetern eine der flachsten Armbanduhren ihrer Zeit. Das Gehäuse war aus Kunststoff, das Werk extra dünn. Die Linie wurde später mit Metallgehäusen als Skin Irony fortgeführt.",
+    "Die Skin zeigt, wie Swatch Technik und günstigen Preis verbindet."
    ],
    "cur": "Skin (aktuelle Modelle)",
    "f": [
@@ -24091,7 +24479,20 @@
     ]
    ],
    "w": "Die flachste Swatch: eine Uhr, die man kaum spürt.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "SKIN Irony",
+      "Liste",
+      190,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Preise zwischen rund 190 und 215 EUR laut Swatch und Händlern; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "tissot-seastar",
@@ -24101,7 +24502,9 @@
    "s": "Die Taucheruhr von Tissot, seit 1953 in vielen Formen im Programm.",
    "b": [
     "Die Seastar erschien 1953 als wasserdichte Sportuhr von Tissot. Ihr Name verweist auf den Seestern, der als Logo über Jahrzehnte zu sehen war. In den 1960ern wurde sie als Taucheruhr bekannt.",
-    "Die Seastar 1000 ist die moderne Taucheruhr der Familie. Sie hat eine einseitig drehbare Keramik- oder Aluminiumlünette, 300 Meter Wasserdichtigkeit und ein Automatik- oder Quarzwerk."
+    "Die Seastar 1000 ist die moderne Taucheruhr der Familie. Sie hat eine einseitig drehbare Keramik- oder Aluminiumlünette, 300 Meter Wasserdichtigkeit und ein Automatik- oder Quarzwerk.",
+    "Die Seastar erschien 1953 und war eine der ersten wasserdichten Uhren von Tissot. Der Name steht für Seefahrt, und die Reihe wurde mit Taucheruhren fortgeführt. Heute gibt es sie als Taucheruhr mit Automatikwerk.",
+    "Sie ist eine preiswerte Alternative zu bekannteren Taucheruhren."
    ],
    "cur": "Seastar 1000 (aktuelle Modelle)",
    "f": [
@@ -24197,7 +24600,9 @@
    "s": "Die klassische Dresswatch von Tissot, benannt nach dem Gründungsort der Marke.",
    "b": [
     "Die Le Locle ist die klassische Dresswatch von Tissot und trägt den Namen des Ortes, an dem die Marke 1853 gegründet wurde. Sie hat ein schlankes Gehäuse, ein Zifferblatt mit römischen Ziffern oder Stabindizes und ein Automatikwerk.",
-    "Die Uhr nutzt das Kaliber Powermatic 80 mit 80 Stunden Gangreserve. Sie ist eine günstige Alternative zu Schweizer Dresswatches."
+    "Die Uhr nutzt das Kaliber Powermatic 80 mit 80 Stunden Gangreserve. Sie ist eine günstige Alternative zu Schweizer Dresswatches.",
+    "Die Le Locle trägt den Namen der Stadt, in der Tissot 1853 gegründet wurde. Die Uhr ist eine klassische Dresswatch mit Automatikwerk und schlichtem Zifferblatt.",
+    "Sie richtet sich an Einsteiger, die eine klassische Schweizer Automatikuhr mit Datum suchen."
    ],
    "cur": "Le Locle Powermatic 80 (T006.407)",
    "f": [
@@ -24286,7 +24691,9 @@
    "s": "Die Uhr mit berührungsempfindlichem Saphirglas, 1999 vorgestellt.",
    "b": [
     "Die T-Touch erschien 1999 als erste Uhr mit berührungsempfindlichem Saphirglas. Das Glas erkennt Berührung und aktiviert Funktionen wie Kompass, Höhenmesser, Thermometer und Wetteranzeige.",
-    "Die Uhr war ein Vorläufer der Smartwatch. Sie wurde laufend weiterentwickelt, mit Quarz-, später mit Solarwerk und Konnektivität."
+    "Die Uhr war ein Vorläufer der Smartwatch. Sie wurde laufend weiterentwickelt, mit Quarz-, später mit Solarwerk und Konnektivität.",
+    "Die T-Touch von Tissot erschien 1999 und war eine der ersten Armbanduhren mit Touchscreen-Funktion im Saphirglas. Über das Glas lassen sich Kompass, Höhenmesser, Wetter und Thermometer bedienen. Die Uhr war damals eine technische Neuheit.",
+    "Spätere Modelle erhielten Solarantrieb."
    ],
    "cur": "T-Touch (aktuelle Modelle)",
    "f": [
@@ -24353,7 +24760,29 @@
      "T-Touch"
     ]
    ],
-   "w": "Die Touch-Uhr von Tissot: Kompass und Höhenmesser per Fingertipp auf Saphirglas."
+   "w": "Die Touch-Uhr von Tissot: Kompass und Höhenmesser per Fingertipp auf Saphirglas.",
+   "preis": {
+    "u": "CHF",
+    "rows": [
+     [
+      "T091.420.46.051.01 (2014)",
+      "Liste 2014 (ohne MwSt.)",
+      995,
+      "heute",
+      null,
+      "CHF"
+     ],
+     [
+      "T-Touch Expert Solar (aktuell)",
+      "Händler",
+      1275,
+      "heute",
+      null,
+      "EUR"
+     ]
+    ],
+    "n": "Preise beziehungsweise Euro laut Händlern; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "divers-sixty-five",
@@ -24363,7 +24792,9 @@
    "s": "Die Taucheruhr im Stil von 1965, mit schlichtem Zifferblatt und Bronze- oder Stahlgehäuse.",
    "b": [
     "Die Divers Sixty-Five erschien 2015 als Neuauflage einer Oris-Taucheruhr von 1965. Sie hat ein 40-Millimeter-Gehäuse, eine Aluminium- oder Edelstahllünette und ein schlichtes Zifferblatt mit Stabindizes und Dreieck bei 12 Uhr.",
-    "Es gibt sie in Edelstahl und Bronze, mit verschiedenen Farben. Die Uhr gilt als eine der gelungensten Retro-Taucheruhren im mittleren Preissegment."
+    "Es gibt sie in Edelstahl und Bronze, mit verschiedenen Farben. Die Uhr gilt als eine der gelungensten Retro-Taucheruhren im mittleren Preissegment.",
+    "Die Divers Sixty-Five erinnert an die erste Taucheruhr von Oris aus dem Jahr 1965. Sie hat eine schlichte Optik mit Bronzelünette oder Stahlgehäuse und ist im Alltag gut zu tragen.",
+    "Die Uhr bietet viel Vintage-Charme für einen moderaten Preis."
    ],
    "cur": "Divers Sixty-Five (aktuelle Modelle)",
    "f": [
@@ -24441,7 +24872,29 @@
      "Divers Sixty-Five"
     ]
    ],
-   "w": "Die Retro-Taucheruhr von Oris: schlicht, 40 Millimeter und im Stil von 1965."
+   "w": "Die Retro-Taucheruhr von Oris: schlicht, 40 Millimeter und im Stil von 1965.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Divers Sixty-Five Chronograph",
+      "Liste",
+      3950,
+      "heute",
+      null,
+      "EUR"
+     ],
+     [
+      "Divers Sixty-Five (Automatik)",
+      "Liste US",
+      2800,
+      "heute",
+      2000,
+      "USD"
+     ]
+    ],
+    "n": "Preisangaben von Händlern; Gebrauchtwerte für Automatikmodelle liegen etwa bei 1.350 bis 2.250 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "propilot",
@@ -24451,7 +24904,9 @@
    "s": "Die Fliegeruhr von Oris mit klarem Zifferblatt und Automatik, benannt nach den Pilotenuhren der Marke.",
    "b": [
     "Die ProPilot ist die Fliegeruhr von Oris. Sie hat ein robustes Gehäuse mit gerillter Lünette, ein Zifferblatt mit großen Ziffern und eine große Krone. Das Automatikwerk läuft mit mehreren Tagen Gangreserve.",
-    "Sie steht in der Tradition der Big Crown und ist ein Gegenstück zu den Taucheruhren der Marke. Es gibt sie in Edelstahl und Titan, mit Datum und Zeigerdatum."
+    "Sie steht in der Tradition der Big Crown und ist ein Gegenstück zu den Taucheruhren der Marke. Es gibt sie in Edelstahl und Titan, mit Datum und Zeigerdatum.",
+    "Die ProPilot ist die Fliegeruhr von Oris. Sie hat große, gut lesbare Zifferblätter und robuste Gehäuse. Die Linie umfasst Dreizeiger, Chronographen und GMT-Modelle.",
+    "Sie ist eine sachliche, unprätentiöse Uhr für Pilotenfans."
    ],
    "cur": "ProPilot (aktuelle Modelle)",
    "f": [
@@ -24517,7 +24972,24 @@
      "ProPilot"
     ]
    ],
-   "w": "Die Fliegeruhr von Oris: große Krone, klares Zifferblatt und viel Platz für Ziffern."
+   "w": "Die Fliegeruhr von Oris: große Krone, klares Zifferblatt und viel Platz für Ziffern.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "ProPilot X Kaliber 400",
+      "Liste",
+      4300,
+      "heute",
+      3070,
+      [
+       "CHF",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "Listenpreis laut Oris; Gebrauchtwert als Mitte der Angebote zwischen 2.200 und 3.300 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "br-01",
@@ -24527,7 +24999,9 @@
    "s": "Die erste Bell-&-Ross-Uhr: ein Cockpitinstrument am Handgelenk mit quadratischem Gehäuse.",
    "b": [
     "Die BR 01 erschien 2005 als erste große Uhr der Marke. Ihr quadratisches Gehäuse mit vier Schrauben und rundem Zifferblatt erinnert an Instrumente im Cockpit eines Flugzeugs. Mit 46 Millimetern war sie bewusst groß.",
-    "Die Uhr wurde mit Zifferblättern in Schwarz, Weiß und Farben angeboten, später auch mit Chronograph und Tourbillon. Sie legte die Basis für das Design der Marke."
+    "Die Uhr wurde mit Zifferblättern in Schwarz, Weiß und Farben angeboten, später auch mit Chronograph und Tourbillon. Sie legte die Basis für das Design der Marke.",
+    "Die BR 01 erschien 2005 als erste Uhr von Bell & Ross und ist im Kern eine Nachbildung des Cockpit-Instruments, mit quadratischem Gehäuse und vier sichtbaren Schrauben an der Lünette. Das Design ist funktional und klar.",
+    "Die BR 01 wird in vielen Varianten gebaut, vom Stahl bis zum Carbon."
    ],
    "cur": "BR 01 (aktuelle Modelle)",
    "f": [
@@ -24593,7 +25067,34 @@
      "BR 01"
     ]
    ],
-   "w": "Das Cockpitinstrument am Handgelenk: quadratisch, groß und mit vier Schrauben."
+   "w": "Das Cockpitinstrument am Handgelenk: quadratisch, groß und mit vier Schrauben.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "BR 01-92 Stahl",
+      "Liste 2017",
+      3600,
+      "heute",
+      1761
+     ],
+     [
+      "BR 01-96 Altimeter",
+      "Liste 2017",
+      4300,
+      "heute",
+      2171
+     ],
+     [
+      "BR 01-92 Carbon",
+      "Liste 2017",
+      4200,
+      "heute",
+      1502
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Die Limitierung „Instrument de Marine“ (500 Stück) wird gebraucht mit rund 6.100 EUR angeboten. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "happy-diamonds",
@@ -24603,7 +25104,9 @@
    "s": "Die Uhr mit frei beweglichen Diamanten zwischen zwei Saphirgläsern, seit 1976 ein Chopard-Klassiker.",
    "b": [
     "Happy Diamonds erschien 1976 als Uhr, bei der Diamanten frei zwischen zwei Saphirgläsern über das Zifferblatt rollen. Die Idee stammt von Karl Scheufele, der die Steine beweglich machen wollte. Das Prinzip wurde zum Markenzeichen der Marke.",
-    "Es gibt Happy Diamonds als Uhr und als Schmuckstück. Die Kollektion richtet sich vor allem an Frauen und zeigt die Schmuckseite von Chopard."
+    "Es gibt Happy Diamonds als Uhr und als Schmuckstück. Die Kollektion richtet sich vor allem an Frauen und zeigt die Schmuckseite von Chopard.",
+    "Die Happy Diamonds entstand 1976 aus einer Idee von Karl Scheufele: Bewegliche Diamanten laufen frei zwischen zwei Saphirgläsern über das Zifferblatt. Das war damals ein Bruch mit der üblichen Gestaltung.",
+    "Heute gibt es die Linie in vielen Varianten. Sie gehört zu den bekanntesten Damenuhren von Chopard."
    ],
    "cur": "Happy Diamonds (aktuelle Modelle)",
    "f": [
@@ -24677,7 +25180,9 @@
    "s": "Der sportliche Chopard-Chronograph, benannt nach dem italienischen Straßenrennen.",
    "b": [
     "Die Mille Miglia erschien 1988, als Chopard Sponsor des historischen Autorennens wurde. Der Name erinnert an das legendäre italienische Straßenrennen. Die Uhr hat ein Gehäuse mit Tachymeterlünette, ein Zifferblatt mit Hilfszifferblättern und ein Armband, das einem Autoreifen-Profil nachempfunden ist.",
-    "Es gibt sie als Chronograph mit Automatikwerk in Edelstahl, Titan und Gold. Sie zählt zu den bekanntesten Sportuhren der Marke."
+    "Es gibt sie als Chronograph mit Automatikwerk in Edelstahl, Titan und Gold. Sie zählt zu den bekanntesten Sportuhren der Marke.",
+    "Die Mille Miglia ist eine Chopard-Linie für Autofans. Seit 1988 ist die Marke Sponsor des gleichnamigen Oldtimer-Rennens in Italien. Die Uhren haben Armbänder im Stil von Rennlenkrädern und Zifferblätter mit Tachometer-Ästhetik.",
+    "Sie sind eine günstige Alternative zu klassischen Rennsport-Chronographen."
    ],
    "cur": "Mille Miglia (aktuelle Modelle)",
    "f": [
@@ -24744,7 +25249,20 @@
      "Mille Miglia"
     ]
    ],
-   "w": "Die Rennsport-Uhr von Chopard: Chronograph, Tachymeter und Reifenprofil-Band."
+   "w": "Die Rennsport-Uhr von Chopard: Chronograph, Tachymeter und Reifenprofil-Band.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Classic Chronograph 168619-3001",
+      "Liste 2026",
+      10600,
+      "heute",
+      4964
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "gp-vintage-1945",
@@ -24754,7 +25272,9 @@
    "s": "Die rechteckige Girard-Perregaux im Art-déco-Stil, erstmals 1995 vorgestellt.",
    "b": [
     "Die Vintage 1945 erschien 1995 und greift eine rechteckige Girard-Perregaux der 1940er-Jahre auf. Das Gehäuse hat gewölbte Seiten, das Zifferblatt trägt Stabindizes oder Ziffern. Sie ist eine klassische Formuhr im Art-déco-Stil.",
-    "Neben dem Dreizeiger gibt es sie mit Chronograph, Tourbillon und ewigem Kalender. Sie bildet das Gegenstück zur sportlichen Laureato."
+    "Neben dem Dreizeiger gibt es sie mit Chronograph, Tourbillon und ewigem Kalender. Sie bildet das Gegenstück zur sportlichen Laureato.",
+    "Die Vintage 1945 folgt einem rechteckigen Modell von Girard-Perregaux aus dem Jahr 1945 und wurde 1995 neu aufgelegt. Das Gehäuse im Art-déco-Stil ist leicht gebogen.",
+    "Sie ist ein Klassiker im Programm der Marke und wird in vielen Varianten gebaut."
    ],
    "cur": "Vintage 1945 (aktuelle Modelle)",
    "f": [
@@ -24829,7 +25349,9 @@
    "s": "Das Tourbillon unter drei goldenen Brücken, das Constant Girard im 19. Jahrhundert baute.",
    "b": [
     "Das Tourbillon unter drei goldenen Brücken geht auf Constant Girard zurück, der es im 19. Jahrhundert baute und 1884 patentieren ließ. In den 1990er-Jahren stellte Girard-Perregaux eine Armbanduhr mit diesem Prinzip vor, bei der die Brücken in Pfeilform angeordnet sind.",
-    "Die Uhr hat ein Tourbillon, das von drei goldenen, pfeilförmigen Brücken gehalten wird. Sie ist die Leistungsschau der Marke und eines der bekanntesten Tourbillons der Haute Horlogerie."
+    "Die Uhr hat ein Tourbillon, das von drei goldenen, pfeilförmigen Brücken gehalten wird. Sie ist die Leistungsschau der Marke und eines der bekanntesten Tourbillons der Haute Horlogerie.",
+    "Der Tourbillon mit drei goldenen Brücken geht auf Constant Girard zurück, der das Konzept im 19. Jahrhundert entwickelte und 1884 patentieren ließ. Die drei Brücken tragen das Werk und sind mit Absicht sichtbar, statt hinter dem Zifferblatt versteckt zu sein.",
+    "Für die Marke ist das Modell das Symbol ihrer Uhrmacherkunst."
    ],
    "cur": "Tourbillon mit drei goldenen Brücken (aktuelle Modelle)",
    "f": [
@@ -24897,7 +25419,20 @@
      "Armbanduhr"
     ]
    ],
-   "w": "Das Tourbillon unter den drei Pfeilbrücken: ein Stück Uhrmachergeschichte."
+   "w": "Das Tourbillon unter den drei Pfeilbrücken: ein Stück Uhrmachergeschichte.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Tourbillon mit drei Brücken (Platin)",
+      "Liste (Händler)",
+      169000,
+      "heute",
+      79995
+     ]
+    ],
+    "n": "Einzelnes Händlerangebot im Vergleich zu dessen Listenpreisangabe; bei Auktionen lagen Gebote in Gold-Ausführung deutlich niedriger. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "bulgari-bulgari",
@@ -24907,7 +25442,9 @@
    "s": "Die Uhr mit dem doppelt eingravierten Namen auf der Lünette, seit 1977 das Markenzeichen von Bulgari.",
    "b": [
     "Die Bulgari Bulgari erschien 1977 mit dem Namen der Marke zweimal auf der Lünette. Das Gehäuse ist schlicht, das Zifferblatt trägt Stabindizes und die Lünette ist ein Ring aus Gold oder Stahl mit dem Schriftzug. Die Uhr war damals sehr auffällig, weil der Name auf dem Gehäuse stand.",
-    "Bis heute ist sie ein Klassiker der Marke. Es gibt sie mit Quarz oder Automatik in Edelstahl, Gold und Zweifarb-Versionen."
+    "Bis heute ist sie ein Klassiker der Marke. Es gibt sie mit Quarz oder Automatik in Edelstahl, Gold und Zweifarb-Versionen.",
+    "Die Bulgari Bulgari erschien 1977 und trägt den Namen der Marke doppelt auf der Lünette. Das war damals ein ungewöhnliches Design, das die Marke zur Wiedererkennung nutzte. Die Uhr hat ein rundes Gehäuse und ein schlichtes Zifferblatt.",
+    "Sie wurde zu einem Klassiker des Hauses."
    ],
    "cur": "Bulgari Bulgari (aktuelle Modelle)",
    "f": [
@@ -24973,7 +25510,27 @@
     ]
    ],
    "w": "Der Markenname als Lünette: Bulgaris Klassiker seit 1977.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "BB33SS (Stahl)",
+      "",
+      null,
+      "heute",
+      1295
+     ],
+     [
+      "BB33GL (Gelbgold)",
+      "",
+      null,
+      "heute",
+      3795
+     ]
+    ],
+    "n": "Gebrauchtpreise laut europäischen Händlern; alte Modelle mit großer Spanne je nach Zustand. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "serpenti",
@@ -24983,7 +25540,9 @@
    "s": "Die Schlangenuhr von Bulgari, seit den 1940er-Jahren ein Symbol der Marke.",
    "b": [
     "Die Serpenti erschien in den 1940er-Jahren als Uhr, deren Armband wie eine Schlange um das Handgelenk gewickelt ist. Das Zifferblatt versteckt sich im Schlangenkopf. Die Schlange ist seit der Antike Symbol für Wandel und Weisheit.",
-    "Die Serpenti wurde als Schmuckuhr in Gold, Edelstahl und mit Diamanten gebaut und gehört zu den bekanntesten Damenuhren der Welt. Neuere Versionen haben ein Schuppenband."
+    "Die Serpenti wurde als Schmuckuhr in Gold, Edelstahl und mit Diamanten gebaut und gehört zu den bekanntesten Damenuhren der Welt. Neuere Versionen haben ein Schuppenband.",
+    "Die Serpenti erschien in den 1940er-Jahren als Uhr in Schlangenform, bei der sich das Armband um das Handgelenk windet. Die Idee wurde seither mehrfach neu interpretiert und mit Edelsteinen und Emaille verziert.",
+    "Sie gehört zu den bekanntesten Damenuhren von Bulgari."
    ],
    "cur": "Serpenti (aktuelle Modelle)",
    "f": [
@@ -25047,7 +25606,21 @@
      "Serpenti"
     ]
    ],
-   "w": "Die Schlangenuhr: Bulgaris Schmuckklassiker mit verstecktem Zifferblatt."
+   "w": "Die Schlangenuhr: Bulgaris Schmuckklassiker mit verstecktem Zifferblatt.",
+   "preis": {
+    "u": "GBP",
+    "rows": [
+     [
+      "Serpenti Tubogas Infiniti (dreifarbiges Gold)",
+      "Liste UK",
+      93000,
+      "heute",
+      null,
+      "GBP"
+     ]
+    ],
+    "n": "Listenpreis des Hauses inklusive Steuern; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "rado-diastar",
@@ -25057,7 +25630,9 @@
    "s": "Die kratzfeste Uhr aus Hartmetall und Saphirglas, 1962 als erste ihrer Art vorgestellt.",
    "b": [
     "Die DiaStar 1 erschien 1962 als die erste kratzfeste Armbanduhr. Das Gehäuse bestand aus Hartmetall, das Glas aus Saphir. Gedacht war sie als Uhr, die ihr Aussehen lebenslang behält. Das Gehäuse hat eine abgerundete Form.",
-    "Heute gibt es die DiaStar mit Gehäusen aus Hightech-Keramik. Sie steht für den Ruf von Rado als Materialspezialist."
+    "Heute gibt es die DiaStar mit Gehäusen aus Hightech-Keramik. Sie steht für den Ruf von Rado als Materialspezialist.",
+    "Die DiaStar erschien 1962 und war eine der ersten Uhren mit kratzfestem Gehäuse aus Hartmetall. Das Material ist deutlich härter als Stahl und wurde als Werbeversprechen eingesetzt. Rado war damit einer der Vorreiter bei Materialinnovationen.",
+    "Das Design wurde seither mehrfach überarbeitet."
    ],
    "cur": "DiaStar Original (aktuelle Modelle)",
    "f": [
@@ -25128,7 +25703,20 @@
      "DiaStar 1"
     ]
    ],
-   "w": "Die kratzfeste Uhr der 1960er: Hartmetall, Saphir und eine runde Form."
+   "w": "Die kratzfeste Uhr der 1960er: Hartmetall, Saphir und eine runde Form.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "DiaStar R12160213",
+      "Händler",
+      1650,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Händlerpreis in den USA; je nach Referenz in Europa etwa 1.600 bis 2.500 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "rado-true",
@@ -25138,7 +25726,9 @@
    "s": "Die monochrome Keramikuhr von Rado, 2002 vorgestellt und seither in vielen Varianten.",
    "b": [
     "Die True erschien 2002 als Keramikuhr mit schlichtem Zifferblatt. Gehäuse und Band bestehen aus Hightech-Keramik in einer Farbe, meist Schwarz oder Weiß, die Oberfläche ist glatt und kratzfest. Das Design ist reduziert.",
-    "Es gibt sie als Quarz- und Automatikuhr in vielen Größen und Farben. Die True steht für die Designlinie von Rado seit den 2000er-Jahren."
+    "Es gibt sie als Quarz- und Automatikuhr in vielen Größen und Farben. Die True steht für die Designlinie von Rado seit den 2000er-Jahren.",
+    "Die True erschien 2002 und zeigt, wie Rado hochtechnologische Keramik in Uhrgehäusen einsetzt. Das Material ist kratzfest und das Gehäuse schlicht gestaltet.",
+    "Die Linie ist eine moderne Weiterentwicklung der Rado-Materialtradition."
    ],
    "cur": "True (aktuelle Modelle)",
    "f": [
@@ -25203,7 +25793,20 @@
     ]
    ],
    "w": "Eine Uhr aus einem Guss: Gehäuse und Band aus Keramik in einer Farbe.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "True Thinline",
+      "Händler",
+      2400,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Händlerpreis laut Bucherer; Spanne etwa 1.900 bis 2.700 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "satellite-wave",
@@ -25213,7 +25816,9 @@
    "s": "Die Citizen mit GPS-Empfang und Solarantrieb, die sich weltweit auf die richtige Zeit stellt.",
    "b": [
     "Die Satellite Wave erschien 2011 als erste Uhr mit GPS-Signal und Solarantrieb. Sie empfängt die Zeit von Satelliten und stellt sich automatisch auf die jeweilige Zeitzone. Dadurch muss man sie auf Reisen nicht mehr einstellen.",
-    "Die Uhr arbeitet mit Eco-Drive und läuft ohne Batterie. Neuere Versionen sind kleiner und haben Titangehäuse."
+    "Die Uhr arbeitet mit Eco-Drive und läuft ohne Batterie. Neuere Versionen sind kleiner und haben Titangehäuse.",
+    "Die Satellite Wave erschien 2011 und war die erste Armbanduhr mit Solarantrieb, die sich per GPS-Satellit auf die genaue Zeit einstellt. So stimmt die Zeit ohne manuelle Einstellung auch in anderen Zeitzonen.",
+    "Die Uhr war damals eine technische Neuheit von Citizen."
    ],
    "cur": "Satellite Wave (aktuelle Modelle)",
    "f": [
@@ -25287,7 +25892,9 @@
    "s": "Die erste Titan-Armbanduhr der Welt, 1970 von Citizen vorgestellt.",
    "b": [
     "Die X-8 Chronometer erschien 1970 als erste Armbanduhr mit Gehäuse aus Titan. Das Metall wurde damals für Uhren kaum verwendet, weil es schwer zu bearbeiten ist. Citizen entwickelte dafür ein eigenes Verfahren.",
-    "Die Uhr hatte ein Automatikwerk und wurde als Chronometer zertifiziert. Sie begründete den Ruf der Marke als Materialspezialist und ist heute ein gesuchtes Sammlerstück."
+    "Die Uhr hatte ein Automatikwerk und wurde als Chronometer zertifiziert. Sie begründete den Ruf der Marke als Materialspezialist und ist heute ein gesuchtes Sammlerstück.",
+    "Die X-8 war ein Chronometer von Citizen mit besonders genauem Quarzwerk. Das Werk gehörte zu den Uhren, mit denen Citizen in den 1970er-Jahren die Genauigkeit von Quarz demonstrierte.",
+    "Sie ist ein Beispiel für die technische Seite der Marke."
    ],
    "cur": "X-8 Chronometer (Vintage)",
    "f": [
@@ -25361,7 +25968,9 @@
    "s": "Die Doxa-Taucheruhr von 1969 mit Dekompressionstabelle und starken Kontrasten.",
    "b": [
     "Die Sharkhunter erschien 1969 als Taucheruhr in der Doxa-Familie. Sie hat ein großes Gehäuse mit gerippter Lünette, die einen Tauchtabellen-Ring trägt.",
-    "Die Sharkhunter ist ein Sammlerstück und gilt als eine der schönsten Taucheruhren der Zeit. Neuauflagen erscheinen seit den 2010er-Jahren."
+    "Die Sharkhunter ist ein Sammlerstück und gilt als eine der schönsten Taucheruhren der Zeit. Neuauflagen erscheinen seit den 2010er-Jahren.",
+    "Die Sub 300 erschien 1967, und das auffällige orange Zifferblatt war eine Idee, um die Uhr unter Wasser besser lesbar zu machen. Sie wurde mit dem Taucher Jacques Cousteau in Verbindung gebracht. Die Sharkhunter-Edition wurde danach zum Sammlerstück.",
+    "Heute baut Doxa die Uhr in mehreren Farben."
    ],
    "cur": "Sharkhunter (Neuauflage)",
    "f": [
@@ -25434,7 +26043,20 @@
      "SUB 300T Sharkhunter"
     ]
    ],
-   "w": "Die Sharkhunter von Doxa: Taucheruhr mit Tabelle und starkem Retro-Look."
+   "w": "Die Sharkhunter von Doxa: Taucheruhr mit Tabelle und starkem Retro-Look.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Sub 300 (821.10.101.10)",
+      "Händler",
+      2890,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Händlerpreis in den USA; die Variante 300T liegt bei etwa 1.900 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "villeret",
@@ -25444,7 +26066,9 @@
    "s": "Die klassische Dresswatch von Blancpain, benannt nach dem Gründungsort Villeret.",
    "b": [
     "Die Villeret ist die klassische Kollektion von Blancpain und trägt den Namen des Orts, an dem das Haus 1735 gegründet wurde. Sie hat ein flaches, rundes Gehäuse, ein schlichtes Zifferblatt mit römischen Ziffern oder Stabindizes und ein Handaufzugs- oder Automatikwerk.",
-    "Es gibt sie als Dreizeiger, mit Mondphase, Kalender, Chronograph und Komplikationen bis zum ewigen Kalender. Die Villeret steht für die klassische Seite der Marke."
+    "Es gibt sie als Dreizeiger, mit Mondphase, Kalender, Chronograph und Komplikationen bis zum ewigen Kalender. Die Villeret steht für die klassische Seite der Marke.",
+    "Die Villeret ist die klassische Dresswatch-Linie von Blancpain und trägt den Namen des Ortes, in dem die Marke 1735 gegründet wurde. Typisch sind schlichte Zifferblätter und ein Gehäuse mit Zwiebelkrone. Blancpain wirbt damit, nie Quarzuhren gebaut zu haben.",
+    "Die Linie zeigt die Rückbesinnung der Marke auf klassische Uhrmacherei."
    ],
    "cur": "Villeret (aktuelle Modelle)",
    "f": [
@@ -25519,7 +26143,9 @@
    "s": "Die elegante Sportuhr von Blancpain mit Datum und Kalender, benannt nach dem Genfersee.",
    "b": [
     "Die Léman ist die alltagstaugliche Sportuhr von Blancpain und trägt den Namen des Genfersees. Sie hat ein rundes Gehäuse mit klarer Gestaltung, ein Zifferblatt mit Datum und ein Automatikwerk.",
-    "Es gibt sie auch als Chronograph, mit Mondphase und als Zeitzonenuhr. Sie ist die Alternative zur Fifty Fathoms für Menschen, die einen Hauch Sport wollen."
+    "Es gibt sie auch als Chronograph, mit Mondphase und als Zeitzonenuhr. Sie ist die Alternative zur Fifty Fathoms für Menschen, die einen Hauch Sport wollen.",
+    "Die Léman ist eine Sportuhr von Blancpain, die an den Genfersee erinnert. Sie hat ein modernes Design und ist bis 100 Meter wasserdicht.",
+    "Im Programm steht sie neben der Fifty Fathoms als Alltagsuhr."
    ],
    "cur": "Léman (aktuelle Modelle)",
    "f": [
@@ -25595,7 +26221,9 @@
    "s": "Die Sportuhr von Breguet, benannt nach den Marinechronometern des Gründers.",
    "b": [
     "Die Marine ist die sportliche Linie von Breguet. Sie trägt den Namen der Marinechronometer, die Abraham-Louis Breguet baute. Das Gehäuse hat die typische geriffelte Flanke, das Zifferblatt ist guillochiert und mit Wellenmuster verziert.",
-    "Es gibt die Marine als Dreizeiger, Chronograph und mit Komplikationen. Sie verbindet maritime Optik mit der klassischen Breguet-Gestaltung."
+    "Es gibt die Marine als Dreizeiger, Chronograph und mit Komplikationen. Sie verbindet maritime Optik mit der klassischen Breguet-Gestaltung.",
+    "Die Marine ist die Sportlinie von Breguet. Sie verbindet Taucheruhren-Elemente mit der klassischen Breguet-Gestaltung, etwa dem guillochierten Zifferblatt und den gerillten Gehäuseflanken.",
+    "Damit ist sie eine der eleganteren Sportuhren."
    ],
    "cur": "Marine (aktuelle Modelle)",
    "f": [
@@ -25662,7 +26290,27 @@
     ]
    ],
    "w": "Die sportliche Breguet: Wellen-Guilloché und maritimer Auftritt.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "5517BR/12/5ZU (Roségold)",
+      "Liste 2021",
+      28600,
+      "heute",
+      18473
+     ],
+     [
+      "5517TI/G2/9ZU (Titan)",
+      "Liste 2021",
+      17300,
+      "heute",
+      10626
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "breguet-tradition",
@@ -25672,7 +26320,9 @@
    "s": "Die Uhr mit sichtbarem Werk, die Breguet 2005 vorstellte.",
    "b": [
     "Die Tradition erschien 2005 und zeigt das Werk auf der Zifferblattseite: Federhaus, Hemmung und Unruh sind sichtbar. Das Gehäuse ist rund, die Unruh sitzt außermittig, und die Brücken sind graviert.",
-    "Die Uhr greift Breguet-Taschenuhren des 18. Jahrhunderts auf. Es gibt sie mit Handaufzug, Automatik, Tourbillon und weiteren Komplikationen."
+    "Die Uhr greift Breguet-Taschenuhren des 18. Jahrhunderts auf. Es gibt sie mit Handaufzug, Automatik, Tourbillon und weiteren Komplikationen.",
+    "Die Tradition erschien 2005 und zeigt das Werk auf der Zifferblattseite. Die Federhäuser und das Räderwerk sind sichtbar, und die Uhr greift die Gestaltung von Taschenuhren Abraham-Louis Breguets auf.",
+    "Ein Gehäuse mit Zwiebelkrone und die Handaufzugswerke machen sie zu einer Uhr für Kenner."
    ],
    "cur": "Tradition (aktuelle Modelle)",
    "f": [
@@ -25737,7 +26387,27 @@
     ]
    ],
    "w": "Das Werk auf dem Zifferblatt: Breguets Verbeugung vor den Taschenuhren des 18. Jahrhunderts.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "7057BR/R9/9W6 (Roségold)",
+      "Liste 2021",
+      27600,
+      "heute",
+      18386
+     ],
+     [
+      "7057BB/G9/9W6 (Weißgold)",
+      "Liste 2021",
+      28400,
+      "heute",
+      17408
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "altiplano",
@@ -25747,7 +26417,9 @@
    "s": "Die extraflache Uhr von Piaget, die auf das 2 mm flache Handaufzugskaliber 9P von 1957 zurückgeht.",
    "b": [
     "Die Altiplano geht auf das Kaliber 9P zurück, das Piaget 1957 als dünnstes Handaufzugswerk der Welt vorstellte. Das Werk ist nur etwa zwei Millimeter hoch. Der Name Altiplano wurde ab 1960 verwendet. Das Gehäuse ist rund, schlank und schmucklos.",
-    "2018 stellte Piaget mit der Altiplano Ultimate Concept eine Uhr vor, die nur zwei Millimeter dick ist und Werk und Gehäuse verschmilzt. Die Altiplano ist eine der flachsten Uhren der Welt und das Kernmodell der Marke."
+    "2018 stellte Piaget mit der Altiplano Ultimate Concept eine Uhr vor, die nur zwei Millimeter dick ist und Werk und Gehäuse verschmilzt. Die Altiplano ist eine der flachsten Uhren der Welt und das Kernmodell der Marke.",
+    "Die Altiplano erschien 1957 und war eine der dünnsten mechanischen Uhren ihrer Zeit. Piaget entwickelte dazu eigene Ultraflachwerke. Die Linie machte die Marke zum Spezialisten für flache Uhren.",
+    "Seither haben die Altiplano-Modelle mehrere Rekorde für flache Uhren gebrochen."
    ],
    "cur": "Altiplano (aktuelle Modelle)",
    "f": [
@@ -25846,7 +26518,9 @@
    "s": "Die Luxus-Sportuhr von Piaget mit integriertem Band, 1979 von Yves Piaget entworfen.",
    "b": [
     "Die Polo erschien 1979 als Gold-Sportuhr mit integriertem Armband, entworfen von Yves Piaget. Sie gehörte zu den frühen Luxusuhren mit Gliederband und trug ein flaches, rechteckig-rundes Gehäuse. Die Polo wurde in den 1980ern zum Symbol des Jetsets.",
-    "2016 brachte Piaget mit der Polo S eine Stahlversion mit Automatikwerk und Wechselband. Sie knüpft an den Trend der Stahlsportuhr mit integriertem Band an."
+    "2016 brachte Piaget mit der Polo S eine Stahlversion mit Automatikwerk und Wechselband. Sie knüpft an den Trend der Stahlsportuhr mit integriertem Band an.",
+    "Die Polo erschien 1979 als Uhr mit goldenem, integriertem Armband. Sie war als Sportuhr gedacht und ist nach dem Polosport benannt. In den 1980er-Jahren war sie ein Statussymbol.",
+    "Die Neuauflage von 2016 führt die Linie in Stahl und Gold fort."
    ],
    "cur": "Polo S (Ref. G0A41001)",
    "f": [
@@ -25922,7 +26596,20 @@
     ]
    ],
    "w": "Die Luxus-Sportuhr von Piaget: integriertes Band, flaches Gehäuse, Jetset-Charme.",
-   "ns": true
+   "ns": true,
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Polo S G0A41002",
+      "Liste (Händler)",
+      15200,
+      "heute",
+      7320
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "un-marine-chronometer",
@@ -25932,7 +26619,9 @@
    "s": "Die Chronometer-Linie von Ulysse Nardin, die an die Schiffschronometer des Hauses erinnert.",
    "b": [
     "Ulysse Nardin wurde im 19. Jahrhundert durch Marinechronometer bekannt, die auf Kriegs- und Handelsschiffen weltweit im Einsatz waren. Die Marine Chronometer ist die moderne Linie, die dieses Erbe aufnimmt. Sie hat ein rundes Gehäuse, ein klares Zifferblatt und eine Gangreserveanzeige.",
-    "Die Uhren tragen Chronometerzertifikate und das Anker-Logo der Marke. Sie sind eine klassische Alternative zu bekannten Marken."
+    "Die Uhren tragen Chronometerzertifikate und das Anker-Logo der Marke. Sie sind eine klassische Alternative zu bekannten Marken.",
+    "Ulysse Nardin ist seit dem 19. Jahrhundert für Marinechronometer bekannt. Diese Präzisionsuhren halfen Schiffen bei der Navigation. Die Armbanduhr greift dieses Erbe auf.",
+    "Die Uhr richtet sich an Träger mit Interesse an der Seefahrt."
    ],
    "cur": "Marine Chronometer (aktuelle Modelle)",
    "f": [
@@ -25997,7 +26686,20 @@
      "Gründung von Ulysse Nardin"
     ]
    ],
-   "w": "Das Erbe der Marinechronometer: Ulysse Nardin mit Anker und Chronometerzertifikat."
+   "w": "Das Erbe der Marinechronometer: Ulysse Nardin mit Anker und Chronometerzertifikat.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "1183-122",
+      "",
+      null,
+      "heute",
+      6950
+     ]
+    ],
+    "n": "Händlerangebote zwischen etwa 4.850 und 6.900 EUR, hier das Angebot eines Privatverkäufers; ein verkauftes Exemplar erzielte 6.790 EUR. Ein Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "freak",
@@ -26007,7 +26709,9 @@
    "s": "Die Uhr ohne Zeiger und Krone: Das ganze Werk dreht sich als Minutenzeiger.",
    "b": [
     "Die Freak erschien 2001 und war eine der ungewöhnlichsten Uhren ihrer Zeit. Sie hat keine Zeiger und keine Krone: Das Werk selbst dreht sich als Minutenzeiger. Die Zeit wird durch Drehen der Lünette gestellt.",
-    "Die Uhr nutzte als erste Armbanduhr ein Hemmungsrad aus Silizium. Seitdem gibt es die Freak in vielen Varianten: mit Tourbillon, in Titan und Keramik. Sie zeigt die Experimentierfreude der Marke."
+    "Die Uhr nutzte als erste Armbanduhr ein Hemmungsrad aus Silizium. Seitdem gibt es die Freak in vielen Varianten: mit Tourbillon, in Titan und Keramik. Sie zeigt die Experimentierfreude der Marke.",
+    "Die Freak erschien 2001 und hat keine Krone und kein klassisches Zifferblatt. Das gesamte Werk dreht sich als Zeiger über das Gehäuse. Das Konzept stammt von Ludwig Oechslin und war für die Uhrenwelt eine Überraschung.",
+    "Die Aufzugs- und Einstelltechnik läuft über die Lünette und den Gehäuseboden."
    ],
    "cur": "Freak (aktuelle Modelle)",
    "f": [
@@ -26079,7 +26783,27 @@
      "Freak"
     ]
    ],
-   "w": "Eine Uhr ohne Zeiger und Krone: das Werk dreht sich selbst als Minutenzeiger."
+   "w": "Eine Uhr ohne Zeiger und Krone: das Werk dreht sich selbst als Minutenzeiger.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Freak X 2305-270-02",
+      "Liste 2026",
+      44500,
+      "heute",
+      25267
+     ],
+     [
+      "Freak X 2303-270-1 Black",
+      "Liste 2026",
+      32100,
+      "heute",
+      16029
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Die klassische Freak-Reihe ist mit bis zu 75.900 EUR für die Freak ONE deutlich teurer. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "sea-wolf",
@@ -26089,7 +26813,9 @@
    "s": "Eine der ersten modernen Taucheruhren, 1953 von Zodiac vorgestellt.",
    "b": [
     "Die Sea Wolf erschien 1953 und gehört zu den ersten modernen Taucheruhren, die im selben Jahr wie die Submariner und die Fifty Fathoms auf den Markt kamen. Sie hat eine drehbare Lünette, ein Automatikwerk und ein schlichtes Zifferblatt.",
-    "Die Marke legte die Sea Wolf in den 2010er-Jahren als Super Sea Wolf neu auf. Heute ist sie eine der beliebtesten Retro-Taucheruhren im unteren Preisbereich."
+    "Die Marke legte die Sea Wolf in den 2010er-Jahren als Super Sea Wolf neu auf. Heute ist sie eine der beliebtesten Retro-Taucheruhren im unteren Preisbereich.",
+    "Die Sea Wolf erschien 1953 und gilt als eine der ersten modernen Taucheruhren. Zodiac war damit älter als viele bekannte Konkurrenten. Die Uhr wurde in Neuauflagen mit buntem Zifferblatt wiederbelebt.",
+    "Heute ist sie eine beliebte Vintage-Taucheruhr."
    ],
    "cur": "Super Sea Wolf 53 (aktuelle Modelle)",
    "f": [
@@ -26162,7 +26888,20 @@
      "Sea Wolf"
     ]
    ],
-   "w": "Die vergessene Taucheruhr von 1953: Zodiacs Sea Wolf als Retro-Klassiker."
+   "w": "Die vergessene Taucheruhr von 1953: Zodiacs Sea Wolf als Retro-Klassiker.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "Super Sea Wolf (Neuauflage)",
+      "",
+      null,
+      "heute",
+      721
+     ]
+    ],
+    "n": "Medianwert gebrauchter Angebote (Spanne 536 bis 760 EUR); vintage Sea Wolf werden mit rund 563 bis 1.650 EUR gehandelt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "fc-slimline",
@@ -26172,7 +26911,9 @@
    "s": "Die klassische Dresswatch von Frédérique Constant, bekannt für günstige Manufakturwerke.",
    "b": [
     "Die Slimline ist die klassische Dresswatch von Frédérique Constant. Sie hat ein schlankes, rundes Gehäuse, ein Zifferblatt mit Stabindizes und oft ein Manufakturwerk. Berühmt wurde die Slimline Moonphase.",
-    "Die Marke wurde dafür bekannt, Komplikationen wie Mondphase oder Kalender zu fairen Preisen anzubieten. Die Slimline ist der Einstieg in diese Welt."
+    "Die Marke wurde dafür bekannt, Komplikationen wie Mondphase oder Kalender zu fairen Preisen anzubieten. Die Slimline ist der Einstieg in diese Welt.",
+    "Die Slimline ist die Dresswatch-Linie von Frédérique Constant. Das Gehäuse ist dünn, das Zifferblatt klassisch. Es gibt Modelle mit Manufakturwerk und Mondphase.",
+    "Die Marke wurde 1988 gegründet und bietet Uhren in der Mittelklasse."
    ],
    "cur": "Slimline (aktuelle Modelle)",
    "f": [
@@ -26247,7 +26988,9 @@
    "s": "Die größere Santos von 2004, zum 100. Jubiläum der ersten Santos vorgestellt.",
    "b": [
     "Die Santos 100 erschien 2004 zum hundertjährigen Jubiläum der ersten Santos. Sie ist größer als die Santos de Cartier der 1980er und hat ein kantiges Gehäuse mit Schrauben auf der Lünette und ein Armband mit Schrauben.",
-    "Sie gab es in Edelstahl und Gold, in mehreren Größen mit Quarz- oder Automatikwerk. Mit der neuen Santos von 2018 verschwand sie aus dem Programm."
+    "Sie gab es in Edelstahl und Gold, in mehreren Größen mit Quarz- oder Automatikwerk. Mit der neuen Santos von 2018 verschwand sie aus dem Programm.",
+    "Die Santos 100 erschien 2004 zum 100. Jahrestag der ersten Santos von 1904. Sie ist größer als das klassische Modell und hat eine robuste Bauweise.",
+    "Die Uhr war ein wichtiger Schritt auf dem Weg zur heutigen Santos de Cartier."
    ],
    "cur": "Santos 100 (bis 2018)",
    "f": [
@@ -26316,7 +27059,20 @@
      "Neue Santos"
     ]
    ],
-   "w": "Die große Santos zum 100. Geburtstag: kantig, mit Schrauben und viel Präsenz."
+   "w": "Die große Santos zum 100. Geburtstag: kantig, mit Schrauben und viel Präsenz.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "W20106X8 (Stahl)",
+      "Liste (ca.)",
+      6550,
+      "heute",
+      4319
+     ]
+    ],
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   },
   {
    "id": "tissot-visodate",
@@ -26326,7 +27082,9 @@
    "s": "Die klassische Datumsuhr von Tissot, seit den 1950er-Jahren ein Dauerbrenner.",
    "b": [
     "Die Visodate erschien 1953 mit Datumsanzeige und wurde zu einer der bekanntesten Tissot-Uhren. Sie hat ein rundes Gehäuse, ein schlichtes Zifferblatt mit Stabindizes und ein Fenster für das Datum.",
-    "Die Heritage Visodate (ab 2010er) ist eine Neuauflage im Stil der 1950er mit Automatikwerk. Sie ist eine günstige Alternative für Menschen, die Vintage-Optik mögen."
+    "Die Heritage Visodate (ab 2010er) ist eine Neuauflage im Stil der 1950er mit Automatikwerk. Sie ist eine günstige Alternative für Menschen, die Vintage-Optik mögen.",
+    "Die Visodate erschien 1953 und war eine Uhr mit Datumsanzeige. Sie war ein Verkaufserfolg und gehört zu den bekannten Tissot-Klassikern.",
+    "Die Neuauflage ist eine schlichte, bezahlbare Alltagsuhr."
    ],
    "cur": "Heritage Visodate (aktuelle Modelle)",
    "f": [
@@ -26425,7 +27183,9 @@
    "s": "Die Rechner-Uhr von Casio mit Tastenfeld, ein Klassiker der 1980er-Jahre.",
    "b": [
     "Die CA-53W (Databank) erschien in den 1980er-Jahren als Digitaluhr mit eingebautem Taschenrechner. Das Tastenfeld auf dem Gehäuse erlaubte einfache Rechnungen am Handgelenk. Die Uhr wurde ein Symbol der Technikkultur der 1980er.",
-    "Sie wird bis heute gebaut und ist durch die Retro-Welle wieder sehr beliebt. Die Uhr hat Datum, Wecker, Stoppuhr und einen Rechner."
+    "Sie wird bis heute gebaut und ist durch die Retro-Welle wieder sehr beliebt. Die Uhr hat Datum, Wecker, Stoppuhr und einen Rechner.",
+    "Die CA-53W ist die Taschenrechneruhr von Casio aus den 1980er-Jahren. Mit kleinen Tasten lassen sich einfache Rechenaufgaben lösen.",
+    "Heute ist sie ein beliebtes Sammlerstück."
    ],
    "cur": "CA-53W (aktuelle Modelle)",
    "f": [
@@ -26485,7 +27245,20 @@
      "CA-53W"
     ]
    ],
-   "w": "Die Uhr mit eingebautem Taschenrechner: ein Stück 1980er am Handgelenk."
+   "w": "Die Uhr mit eingebautem Taschenrechner: ein Stück 1980er am Handgelenk.",
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "CA-53WF-8B",
+      "Händler",
+      31.95,
+      "heute",
+      null
+     ]
+    ],
+    "n": "Neupreis bei einem US-Händler; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+   }
   }
  ]
 }
