@@ -6360,7 +6360,10 @@
    ],
    [
     "Seltenheit und Geschichte",
-    "Bei Sammleruhren kommen Seltenheit und Geschichte hinzu: kurze Produktionszeiten, besondere Zifferblätter, Fehldrucke, frühe Seriennummern oder ein berühmter Vorbesitzer. Eine nachweisbare Herkunft, etwa eine Uhr aus Militärbeständen oder mit dokumentierter Erstauslieferung, kann den Preis vervielfachen. Auf Auktionen erzielen solche Uhren mitunter Rekordsummen."
+    "Bei Sammleruhren kommen Seltenheit und Geschichte hinzu: kurze Produktionszeiten, besondere Zifferblätter, Fehldrucke, frühe Seriennummern oder ein berühmter Vorbesitzer. Eine nachweisbare Herkunft, etwa eine Uhr aus Militärbeständen oder mit dokumentierter Erstauslieferung, kann den Preis vervielfachen. Auf Auktionen erzielen solche Uhren mitunter Rekordsummen.",
+    [
+     "paul-newman-daytona"
+    ]
    ],
    [
     "Wo die Preise herkommen",
@@ -6410,9 +6413,19 @@
     "royal-oak"
    ],
    "mc": [
-    "Lange Wartelisten für die Stahl-Daytona",
-    "Nautilus 5711: gebraucht weit über Liste",
-    "Royal Oak aus Stahl"
+    "Ref. 126500LN aus Stahl, lange Wartelisten",
+    "Ref. 5711/1A-011: gebraucht weit über Liste",
+    "Ref. 15510ST aus Stahl"
+   ],
+   "img": [
+    null,
+    "assets/watches/patek-philippe-nautilus-5711-1a-white.jpg",
+    null
+   ],
+   "pr": [
+    "126500LN",
+    "5711/1A",
+    "15510ST"
    ]
   }
  }
