@@ -125,6 +125,14 @@ main { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 52px; pa
 #minibar .menu-toggle.mini span { color: var(--muted); font-weight: 400; }
 #minipanel { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; margin-top: 6px; max-height: 0; overflow: hidden; padding: 0 8px; opacity: 0; transform: translateY(-8px); transition: max-height .35s ease, padding .35s ease, opacity .25s ease, transform .35s ease; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, .16); }
 #minibar.open #minipanel { max-height: min(78vh, 640px); overflow-x: hidden; overflow-y: auto; touch-action: pan-y; overscroll-behavior: contain; padding: 14px 12px; opacity: 1; transform: none; }
+#minipanel .mshome { display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: 6px; }
+#minipanel .mslupe { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--muted); cursor: pointer; transition: color .2s, border-color .2s; }
+#minipanel .msopen .mslupe { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); }
+#minipanel .mslupe svg { filter: drop-shadow(0 0 3px color-mix(in srgb, var(--accent) calc(var(--gl) * 50%), transparent)); }
+#minipanel .mssearch { grid-column: 1 / -1; max-height: 0; overflow: hidden; opacity: 0; transition: max-height .3s ease, opacity .25s ease, margin .3s ease; }
+#minipanel .msopen .mssearch { max-height: 60px; opacity: 1; margin-top: 8px; }
+#minipanel .mssearch input { width: 100%; font: inherit; font-size: 16px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); }
+#minipanel .mssearch input:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
 #minipanel .mininight { border-top: 1px solid var(--line); padding: 14px 6px 2px; display: grid; gap: 12px; }
 @media (min-width: 761px) { #minibar { transform: translateY(-140%); } #minibar.on { transform: none; } }
 @media (max-width: 760px) { #minibar.open #minipanel { max-height: 50vh; } }
@@ -845,7 +853,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112546"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112548"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2550,6 +2558,7 @@ function bestMatch(term) {
     if (short.startsWith(t + " ") || full.startsWith(t + " ")) return 80 - short.length / 100;
     if (new RegExp(`(^|[^\\p{L}])${t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^\\p{L}]|$)`, "u").test(full)) return 60 - full.length / 100;
     if ((e.refs || []).some(x => String(x[0]).toLowerCase().split(/\s*\/\s*/).includes(t))) return 55;
+    if (t.length >= 3 && (short.startsWith(t) || full.startsWith(t))) return 52 - short.length / 100 - (e.brand ? 1 : 0); // Wortanfang, z. B. »tourb« → Tourbillon
     return 0;
   };
   let best = null, bs = 0;
@@ -2687,7 +2696,20 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
   addEventListener("scroll", check, { passive: true }); addEventListener("resize", check); addEventListener("hashchange", () => { close(); setTimeout(check, 50); });
   function open() { fill(); bar.classList.add("open"); btn.setAttribute("aria-expanded", "true"); }
   btn.addEventListener("click", () => { const o = !bar.classList.contains("open"); if (o) fill(); bar.classList.toggle("open", o); btn.setAttribute("aria-expanded", o); });
-  function fill() { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; }, 0); const mg = nb.querySelector(".mp-moons"); if (mg && mg.animate && !matchMedia("(prefers-reduced-motion: reduce)").matches) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 850, easing: "cubic-bezier(.7,0,.25,1)" }); }); panel.querySelector(".mininight").append(nb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); }
+  // Suche im Scrollmenü: kleine Lupe neben »Startseite«, ein Tipp öffnet das Suchfeld
+  const LUPE = `<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+  function addSearch() {
+    const g = panel.querySelector(".navgroup"); if (!g) return;
+    g.classList.add("mshome");
+    g.insertAdjacentHTML("beforeend", `<button type="button" class="mslupe" aria-label="Suchen" aria-expanded="false">${LUPE}</button><div class="mssearch"><input type="search" placeholder="Suchen, z. B. Tourbillon" aria-label="WikiTicks durchsuchen" enterkeyhint="search"></div>`);
+    const b = g.querySelector(".mslupe"), box = g.querySelector(".mssearch"), inp = box.querySelector("input");
+    inp.value = $("#q").value;
+    b.addEventListener("click", ev => { ev.stopPropagation(); const o = !g.classList.contains("msopen"); g.classList.toggle("msopen", o); b.setAttribute("aria-expanded", o); if (o) setTimeout(() => inp.focus(), 60); });
+    inp.addEventListener("input", () => { $("#q").value = inp.value; $("#q").dispatchEvent(new Event("input")); });
+    inp.addEventListener("keydown", ev => { if (ev.key !== "Enter") return; ev.preventDefault(); const id = bestMatch(inp.value); close(); if (id) { freshNav = true; location.hash = id; } else { const first = document.querySelector("#view .card"); if (first) { freshNav = true; location.href = first.getAttribute("href"); } } inp.blur(); });
+    if (inp.value) { g.classList.add("msopen"); b.setAttribute("aria-expanded", "true"); }
+  }
+  function fill() { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; addSearch(); const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; }, 0); const mg = nb.querySelector(".mp-moons"); if (mg && mg.animate && !matchMedia("(prefers-reduced-motion: reduce)").matches) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 850, easing: "cubic-bezier(.7,0,.25,1)" }); }); panel.querySelector(".mininight").append(nb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); }
   // Link im Menü: sofort öffnen (nicht erst nur das Menü schließen)
   panel.addEventListener("click", ev => { const a = ev.target.closest("a[href^='#']"); if (!a) return; ev.preventDefault(); close(); freshNav = true; location.hash = a.getAttribute("href").slice(1); });
   // Tipp neben das offene Menü: auf dem Smartphone nur Menü schließen, am PC zusätzlich den Klick ausführen
