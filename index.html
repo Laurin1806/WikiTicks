@@ -436,6 +436,7 @@ a.watchfig:hover { border-color: var(--accent); }
 .art-list li::marker { color: var(--accent); }
 article .curbox { margin-top: 10px; }
 .gallery-inline { margin: 18px 0 8px; grid-template-columns: repeat(auto-fit, minmax(170px, 240px)); }
+@media (max-width: 600px) { .gallery-inline { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } .gallery-inline .watchfig { padding: 10px 6px 10px; } .gallery-inline .watchfig .watch { height: 170px; } .gallery-inline { position: relative; } .gallery-inline .watchfig:has(.imgnote) { position: static; } } /* Smartphone: zwei Bilder nebeneinander */
 .pc { margin: 14px 0 26px; padding: 18px 20px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
 .pc figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; margin-bottom: 14px; }
 .pc figcaption .label { margin: 0; }
@@ -810,7 +811,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112526"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112527"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1741,7 +1742,7 @@ function viewEntry(e) {
   const related = e.r.filter(id => byId[id] && id !== e.id);
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
-  const imgVars = (e.var || []).filter(x => x.v && x.v.img), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 4) : (e.var || []).slice(0, 2)) : [];
+  const imgVars = (e.var || []).filter(x => x.v && x.v.img), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 5) : (e.var || []).slice(0, 2)) : [];
   const varFig = x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption>${imgNote(x.bd)}</figure>`;
   // Variantenbilder unter den Absatz setzen, der die Referenz nennt (oder per x.at unter eine Zwischenüberschrift) (z. B. »1680« → Absatz über die Red Sub); übrige in die Galerie
   const varAt = {}, varRest = [];
@@ -1751,6 +1752,9 @@ function viewEntry(e) {
     const k = x.at && e.bh && e.bh.includes(x.at) ? e.bh.indexOf(x.at) : toks.length ? (e.b || []).findIndex(p => toks.some(t => new RegExp(`(^|[^\\w])${t}([^\\w]|$)`, "i").test(p))) : -1;
     if (k >= 0) (varAt[k] = varAt[k] || []).push(x); else varRest.push(x);
   }
+  // Bilder unter dem letzten Absatz und die Galerie direkt danach zu einer Reihe zusammenfassen (nicht einzeln untereinander)
+  const lastK = (e.b || []).length - 1;
+  if (varAt[lastK] && varRest.length) varAt[lastK] = varAt[lastK].concat(varRest.splice(0));
   // keine Reihe aus zwei Bildern mit einem einzelnen darunter: bei 3 oder 5 Bildern das letzte weglassen
   const evenize = a => (a.length > 2 && a.length % 2) ? a.slice(0, -1) : a;
   for (const k in varAt) varAt[k] = evenize(varAt[k]);
