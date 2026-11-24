@@ -1980,7 +1980,7 @@ function moonPhase(d = new Date()) {
 }
 // Mondphasenanzeige wie auf dem Zifferblatt: Himmelsscheibe mit zwei Monden dreht sich hinter einem Halbkreis-Ausschnitt mit zwei »Bergen«
 function moonSVG(p, glow = false) {
-  const id = "mp" + (++SVGID), cx = 30, by = 27, wheelY = 27, wr = 15.5, mr = 7; // Wölbungen so bemessen, dass der sichtbare Teil des Mondes dem beleuchteten Anteil entspricht (Viertel: halb verdeckt)
+  const id = "mp" + (++SVGID), cx = 30, by = 27, wheelY = 27, wr = 16, mr = 7; // Wölbungen so bemessen, dass der sichtbare Teil des Mondes dem beleuchteten Anteil entspricht (Viertel: halb verdeckt)
   const ang = (p - .5) * 180; // Vollmond oben in der Mitte, Neumond hinter den Bergen
   const moon = a => { if (Math.cos(a * Math.PI / 180) < -.2) return ""; const t = a * Math.PI / 180, x = cx + wr * Math.sin(t), y = wheelY - wr * Math.cos(t); return `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="${mr}" fill="url(#${id}m)"/><circle cx="${(x - 2.4).toFixed(2)}" cy="${(y - 1.6).toFixed(2)}" r="1.3" fill="#000" opacity=".08"/><circle cx="${(x + 2.2).toFixed(2)}" cy="${(y + 2.3).toFixed(2)}" r="1.7" fill="#000" opacity=".07"/>`; };
   const stars = [[13, 15, .65], [19, 8.5, .5], [42, 9, .55], [47, 16, .65], [24, 5.5, .4], [37, 4.8, .45], [10, 22, .45], [51, 21, .5], [30, 22.5, .35]].map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}" fill="#fff" opacity=".85"/>`).join("");
@@ -1988,7 +1988,7 @@ function moonSVG(p, glow = false) {
     <linearGradient id="${id}s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--mp-sky1)"/><stop offset="1" stop-color="var(--mp-sky2)"/></linearGradient>
     <radialGradient id="${id}m" cx=".38" cy=".35" r=".75"><stop offset="0" stop-color="var(--mp-moon1)"/><stop offset="1" stop-color="var(--mp-moon2)"/></radialGradient>${glow ? `<filter id="${id}g" filterUnits="userSpaceOnUse" x="-10" y="-10" width="80" height="50"><feGaussianBlur in="SourceGraphic" stdDeviation=".6" result="a"/><feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="a"/><feMergeNode in="SourceGraphic"/></feMerge></filter>` : ""}</defs>
     <g clip-path="url(#${id}c)"><rect x="0" y="0" width="60" height="${by}" fill="url(#${id}s)"/><g${glow ? ` filter="url(#${id}g)"` : ""}>${stars}</g><g class="mp-moons"${glow ? ` filter="url(#${id}g)"` : ""}>${moon(ang)}${moon(ang + 180)}${moon(ang - 180)}</g></g>
-    <path class="mp-hill" d="M${cx - 22.5} ${by}A11.5 11.5 0 0 1 ${cx + .5} ${by}ZM${cx - .5} ${by}A11.5 11.5 0 0 1 ${cx + 22.5} ${by}Z"/><path class="mp-base" d="M${cx - 24} ${by}H${cx + 24}"/>
+    <path class="mp-hill" d="M${cx - 24} ${by}A12 12 0 0 1 ${cx} ${by}A12 12 0 0 1 ${cx + 24} ${by}Z"/><path class="mp-base" d="M${cx - 24} ${by}H${cx + 24}"/>
     <path class="mp-rim" d="M${cx - 24} ${by}A24 24 0 0 1 ${cx + 24} ${by}Z"/>`;
 }
 function drawMoonBtn() {
