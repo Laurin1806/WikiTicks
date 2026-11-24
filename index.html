@@ -913,7 +913,7 @@ function viewCompare(h) {
   const rows = !E.length ? "" : [
     row("Marke", E.map(e => `<a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a>`)),
     row("Gezeigte Ausführung", I.map(it => esc(it.name) + (it.y ? `<small>${esc(it.y)}</small>` : ""))),
-    row("Referenz im Bild", I.map(it => it.ref ? `<b>${esc(it.ref)}</b>${it.refs === "mittel" ? "<small>wahrscheinlich</small>" : ""}` : "–")),
+    row("Referenz im Bild", I.map(it => it.ref ? `<b>${esc(it.ref)}</b>` : "–")),
     row("Seit", E.map(e => esc(String(e.since || "–")))),
     row("Aktuelle Ausführung", E.map(e => esc(e.cur || "–"))),
     E.some(e => e.designer) ? row("Entwurf", E.map(e => esc(e.designer || "–"))) : "",
@@ -2113,7 +2113,7 @@ document.addEventListener("click", ev => { document.querySelectorAll(".imgnote[o
 const IMG_CREDIT = "Bildnachweis: KI-generierte Illustration, erstellt für WikiTicks. Keine Originalaufnahme des Herstellers.";
 // Referenz der abgebildeten Uhr unter dem Bild (nur wenn sie nicht schon in der Bildunterschrift steht)
 const refNorm = x => String(x || "").replace(/[\s.\-\/]/g, "").toLowerCase();
-const refLine = (t, cap) => t && t.iref && !refNorm(cap).includes(refNorm(t.iref.split(" ")[0]).slice(0, 6)) ? `<span class="figref">Abgebildet: Ref. ${esc(t.iref)}${t.irefs === "mittel" ? " (wahrscheinlich)" : ""}</span>` : "";
+const refLine = (t, cap) => t && t.iref && !refNorm(cap).includes(refNorm(t.iref.split(" ")[0]).slice(0, 6)) ? `<span class="figref">Abgebildet: Ref. ${esc(t.iref)}</span>` : "";
 const imgNote = bd => bd && bd.length ? `<details class="imgnote"><summary>Über dieses Bild</summary><div class="imgpop">${bd.map(p => `<p>${esc(p)}</p>`).join("")}<p class="credit">${esc(IMG_CREDIT)}</p></div></details>` : "";
 const BRAND_LOGOS = new Set(["rolex", "audemars-piguet", "patek-philippe", "omega", "a-lange-soehne", "tudor", "cartier", "breitling", "iwc", "jaeger-lecoultre", "vacheron-constantin", "blancpain"]);
 function viewBrand(b) {
