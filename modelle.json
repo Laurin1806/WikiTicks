@@ -2738,7 +2738,7 @@
      "100 m"
     ],
     [
-     "Zifferblätter",
+     "Zifferblatt",
      "Schwarz, Weiß (»Polar«)"
     ],
     [
@@ -2853,7 +2853,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Explorer II der ersten Referenz 1655, die wegen ihres großen orangefarbenen Pfeilzeigers unter Sammlern »Freccione« heißt. Gehäuse, feststehende Lünette und Oyster-Band sind aus Edelstahl, das Zifferblatt ist matt schwarz.",
       "Zu erkennen sind die eingravierte 24-Stunden-Skala auf der Stahllünette, der orangefarbene 24-Stunden-Zeiger mit großer Pfeilspitze und schlanke Stabzeiger für Stunden und Minuten. Die Leuchtindizes sind gealtert und cremefarben, bei 12 Uhr sitzt ein Dreieck. Bei 3 Uhr liegt das Datumsfenster, unter der Mitte steht die Chronometerangabe »Superlative Chronometer Officially Certified«. Das dreireihige Oyster-Band ist gebürstet."
-     ]
+     ],
+     "dial": "Schwarz"
     },
     {
      "n": "Ref. 226570 »Polar«",
@@ -2864,7 +2865,8 @@
      "bd": [
       "Die Abbildung zeigt die Rolex Explorer II Referenz 226570 mit weißem Zifferblatt, unter Sammlern »Polar« genannt. Gehäuse, feststehende Lünette und Oyster-Band sind aus Edelstahl; die Lünette trägt eine schwarz gravierte 24-Stunden-Skala mit Dreiecken zwischen den geraden Stundenzahlen.",
       "Zu erkennen sind die runden Indizes mit schwarzer Einfassung, die Balken bei 6 und 9 Uhr, das Dreieck bei 12 Uhr und die schwarz eingefassten Zeiger mit Mercedes-Stundenzeiger. Auffällig ist der orangefarbene 24-Stunden-Zeiger mit großer Pfeilspitze. Bei 3 Uhr sitzt das Datumsfenster mit Zykloplupe, dahinter die verschraubte Krone mit seitlichem Kronenschutz."
-     ]
+     ],
+     "dial": "Weiß"
     }
    ],
    "m": [
@@ -3007,7 +3009,8 @@
     "Tritium, »Swiss only« und Luminova",
     "Alternde Leuchtmassen und späte Details",
     "42 Millimeter und Kaliber 3285"
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "submariner",
@@ -3200,7 +3203,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Submariner Date Referenz 1680 aus den 1970er-Jahren in der frühen Ausführung mit rotem Schriftzug »SUBMARINER«, unter Sammlern »Red Sub« genannt. Gezeigt ist sie mit gealtertem Gehäuse und Band sowie verblasster schwarzer Aluminiumlünette.",
       "Die Leuchtmasse aus Tritium hat einen cremefarbenen Ton angenommen; das Zifferblatt trägt unten die Aufschrift »SWISS – T < 25«. Weitere Merkmale sind die Tiefenangabe »660ft = 200m«, das gewölbte Acrylglas mit Zykloplupe über dem Datum und der Mercedes-Stundenzeiger."
-     ]
+     ],
+     "dial": "Schwarz"
     },
     {
      "n": "Ref. 116610LV »Hulk«",
@@ -3214,7 +3218,8 @@
      "bd": [
       "Die Abbildung zeigt die Rolex Submariner Date Referenz 116610LV aus Edelstahl mit 40 Millimetern Durchmesser, gebaut von 2010 bis 2020 und wegen ihrer Farbe »Hulk« genannt. Zifferblatt mit Sonnenschliff und Cerachrom-Keramiklünette sind beide grün.",
       "Zu sehen sind die kräftigen Gehäuseflanken der damaligen Generation, die großen Leuchtindizes (»Maxi Dial«), das Datum mit Zykloplupe und das Oyster-Band mit Glidelock-Faltschließe."
-     ]
+     ],
+     "dial": "Grün, Sonnenschliff"
     },
     {
      "n": "Ref. 116619LB »Smurf«, 18 Karat Weißgold",
@@ -3229,7 +3234,8 @@
      "bd": [
       "Die Abbildung zeigt die Rolex Submariner Date Referenz 116619LB aus 18 Karat Weißgold, gebaut von 2008 bis 2020 und unter Sammlern »Smurf« genannt. Charakteristisch sind das tiefblaue Zifferblatt und die blaue Cerachrom-Keramiklünette mit Zahlen in Platinbeschichtung.",
       "Wie bei den Stahlmodellen hat sie das Datum mit Zykloplupe bei 3 Uhr, runde Leuchtindizes und den Mercedes-Stundenzeiger; das Oyster-Band ist ebenfalls aus Weißgold."
-     ]
+     ],
+     "dial": "Tiefblau"
     }
    ],
    "m": [
@@ -3427,7 +3433,8 @@
      "tiefsee-rekorde",
      "Rekordtiefe im Marianengraben"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "daytona",
@@ -3582,7 +3589,8 @@
       "Die Abbildung zeigt eine Rolex Cosmograph Daytona der Referenz 6239 mit dem als »Paul Newman« bekannten Zifferblatt. Gehäuse, Lünette und Band sind aus Edelstahl; die Stahllünette trägt die eingravierte Tachymeterskala mit der Aufschrift »UNITS PER HOUR«. Das cremeweiße Zifferblatt ist mit schwarzen Hilfszifferblättern und einer abgesetzten schwarz-roten Minuterie kombiniert.",
       "Zu erkennen sind die Art-déco-Ziffern in den drei Hilfszifferblättern für Sekunde, 30 Minuten und 12 Stunden, der rote Schriftzug »DAYTONA« über dem Totalisator bei 6 Uhr und die Aufschrift »ROLEX COSMOGRAPH« unter der Krone. Dazu kommen schlanke Stabzeiger, ein Chronographenzeiger mit Pfeilspitze, kleine Leuchtpunkte am Rand und zwei Drücker neben der Krone. Die Uhr sitzt an einem Oyster-Band."
      ],
-     "at": "»Paul Newman« und Rekord 2017"
+     "at": "»Paul Newman« und Rekord 2017",
+     "dial": "Creme"
     },
     {
      "n": "Ref. 116520",
@@ -3598,7 +3606,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Cosmograph Daytona der Referenz 116520, die von 2000 bis 2016 gebaut wurde und als erste Daytona das Rolex-eigene Chronographenwerk 4130 trägt. Gehäuse, Lünette und Oyster-Band sind aus Edelstahl, das Zifferblatt ist schwarz.",
       "Zu erkennen sind die Stahllünette mit eingravierter Tachymeterskala bis 400 und der Aufschrift »UNITS PER HOUR«, drei Hilfszifferblätter mit silbernen Ringen und der rote Schriftzug »DAYTONA« über dem Zähler bei 6 Uhr. Dazu kommen aufgesetzte Stabindizes mit Leuchtmasse, Stabzeiger und die verschraubten Drücker beiderseits der Krone."
-     ]
+     ],
+     "dial": "Schwarz"
     }
    ],
    "m": [
@@ -3718,7 +3727,8 @@
      "paul-newman-daytona",
      "»Paul Newman« und Rekord 2017"
     ]
-   ]
+   ],
+   "dial": "Weiß, »Panda«"
   },
   {
    "id": "gmt-master-2",
@@ -3873,7 +3883,8 @@
      "bd": [
       "Die Abbildung zeigt die Rolex GMT-Master II Referenz 126710BLNR, die wegen ihrer zweifarbigen Lünette »Batman« genannt wird. Gehäuse und Jubilé-Band sind aus Edelstahl, das Zifferblatt ist schwarz. Die drehbare Lünette mit 24-Stunden-Skala ist in der oberen Hälfte schwarz und in der unteren blau.",
       "Zu erkennen sind der Mercedes-Stundenzeiger, der schlanke blaue 24-Stunden-Zeiger mit dreieckiger Spitze sowie runde Leuchtindizes mit Balken bei 6 und 9 Uhr und einem Dreieck bei 12 Uhr. Bei 3 Uhr sitzt das Datumsfenster mit Zykloplupe, über der 6 stehen »GMT-Master II« und die Chronometerangabe. Das fünfreihige Jubilé-Band hat polierte Mittelglieder."
-     ]
+     ],
+     "dial": "Schwarz"
     },
     {
      "n": "Ref. 1675 »Pepsi«",
@@ -3898,7 +3909,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex GMT-Master Referenz 1675 mit der zweifarbigen Lünette in Blau und Rot, die ihr den Spitznamen »Pepsi« eingebracht hat. Gehäuse und Oyster-Band sind aus Edelstahl, das Zifferblatt ist schwarz; die Krone wird von einem Kronenschutz eingefasst.",
       "Zu erkennen sind die runden Leuchtindizes, die Balken bei 3, 6 und 9 Uhr und das Dreieck bei 12 Uhr, deren Leuchtmasse einen cremefarbenen Ton angenommen hat. Der rote 24-Stunden-Zeiger mit Dreiecksspitze, der Mercedes-Stundenzeiger und das Datumsfenster bei 3 Uhr prägen das Bild. Auf dem Zifferblatt stehen »GMT-MASTER« und »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«."
-     ]
+     ],
+     "dial": "Schwarz"
     }
    ],
    "m": [
@@ -4054,7 +4066,8 @@
      "gmt",
      "1954: Ref. 6542 für Pan Am"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "datejust",
@@ -4213,7 +4226,8 @@
       "Die Abbildung zeigt eine Rolex Datejust 36 in der Kombination aus Edelstahl und Gelbgold mit champagnerfarbenem Zifferblatt. Die geriffelte Lünette und die Krone sind aus Gelbgold, das Gehäuse aus Stahl; das Zifferblatt hat einen feinen Sonnenschliff.",
       "Zu erkennen sind schmale aufgesetzte Stabindizes, Stabzeiger mit Leuchtfüllung und die Rolex-Krone bei 12 Uhr. Unter dem Logo stehen »OYSTER PERPETUAL« und »DATEJUST«, unten die Chronometerangabe »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Das Datum erscheint bei 3 Uhr in einem Fenster mit Zykloplupe. Die Uhr trägt ein fünfreihiges Jubilé-Band, dessen Mittelglieder aus Gelbgold und dessen Außenglieder aus Stahl bestehen."
      ],
-     "at": "Datejust II, Datejust 41 und Variantenvielfalt"
+     "at": "Datejust II, Datejust 41 und Variantenvielfalt",
+     "dial": "Champagner"
     },
     {
      "n": "Ref. 1601, schwarzes Zifferblatt",
@@ -4228,7 +4242,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Datejust der Referenz 1601 mit schwarzem Zifferblatt, wie sie zwischen 1959 und 1977 gebaut wurde. Das Gehäuse ist aus Edelstahl, die geriffelte Lünette ist bei der Stahlausführung der 1601 aus Weißgold. Getragen wird die Uhr am fünfreihigen Jubilé-Band.",
       "Zu erkennen sind aufgesetzte Stabindizes und Stabzeiger, deren Leuchtmasse einen cremefarbenen Ton angenommen hat, das Datumsfenster bei 3 Uhr mit Zykloplupe auf dem gewölbten Glas sowie die Aufschriften »OYSTER PERPETUAL DATEJUST« und »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Gehäuse und Band zeigen deutliche Gebrauchsspuren, unten am Zifferblatt steht »T SWISS T«."
-     ]
+     ],
+     "dial": "Schwarz"
     },
     {
      "n": "Datejust Turn-O-Graph Ref. 116264",
@@ -4248,7 +4263,8 @@
       "Die Abbildung zeigt eine Rolex Datejust Turn-O-Graph in der Art der Referenz 116264 mit Gehäuse und Oyster-Band aus Edelstahl, schwarzem Zifferblatt und geriffelter, drehbarer Lünette mit 60-Minuten-Skala.",
       "Zu erkennen sind die schwarzen Ziffern 10 bis 50 auf der Lünette, das rote Dreieck bei 12 Uhr, der rote Sekundenzeiger und der rote Schriftzug »TURN-O-GRAPH«. Das Datumsfenster bei 3 Uhr mit Zykloplupe zeigt die Zahl in Rot. Aufgesetzte Stabindizes und Stabzeiger tragen helle Leuchtmasse, darüber stehen »OYSTER PERPETUAL DATEJUST«."
      ],
-     "at": "1953: Turn-O-Graph »Thunderbird«"
+     "at": "1953: Turn-O-Graph »Thunderbird«",
+     "dial": "Schwarz"
     }
    ],
    "m": [
@@ -4416,7 +4432,8 @@
    "bd": [
     "Die Abbildung zeigt eine aktuelle Rolex Datejust aus Edelstahl mit geriffelter Lünette aus Weißgold und blauem Zifferblatt mit Sonnenschliff, wie sie in den Referenzen 126234 (36 mm) und 126334 (41 mm) gebaut wird. Getragen wird sie am fünfreihigen Jubilé-Band.",
     "Zu erkennen sind aufgesetzte Stabindizes aus Weißgold, die Rolex-Krone bei 12 Uhr und schlanke Stabzeiger mit Leuchtmasse. Typisch ist das Datumsfenster bei 3 Uhr unter der Zykloplupe, die das Datum vergrößert. Auf dem Zifferblatt stehen oben »OYSTER PERPETUAL DATEJUST« und unten der Hinweis »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Die Krone sitzt rechts am polierten Gehäuse."
-   ]
+   ],
+   "dial": "Blau, Sonnenschliff"
   },
   {
    "id": "day-date",
@@ -4563,7 +4580,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Day-Date in Platin mit eisblauem Zifferblatt, das Rolex den Platinmodellen vorbehält. Gehäuse, geriffelte Lünette und das dreireihige President-Band mit halbrunden Gliedern sind aus Platin, das Zifferblatt hat einen feinen Sonnenschliff.",
       "Zu erkennen sind der ausgeschriebene Wochentag »MONDAY« im gebogenen Fenster bei 12 Uhr und das Datumsfenster mit Zykloplupe bei 3 Uhr. Als Indizes dienen rechteckige Steine im Baguetteschliff. Unter dem Krönchen stehen »Oyster Perpetual« und »Day-Date«, über der 6 die Chronometerangabe. Stunden- und Minutenzeiger sind schlanke Stabzeiger, dazu kommt ein feiner Zentralsekundenzeiger."
-     ]
+     ],
+     "dial": "Eisblau"
     },
     {
      "n": "Ref. 1803 in Gelbgold",
@@ -4574,7 +4592,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Day-Date Referenz 1803 aus Gelbgold, wie sie von 1960 bis 1978 gebaut wurde. Zu ihr gehören die geriffelte Lünette, das gewölbte Acrylglas und das dreireihige President-Band mit halbrunden Gliedern, hier ebenfalls in Gelbgold. Das Zifferblatt ist champagnerfarben.",
       "Zu erkennen sind der ausgeschriebene Wochentag »MONDAY« im gebogenen Fenster bei 12 Uhr, das Datumsfenster mit Zykloplupe bei 3 Uhr und die aufgesetzten Stabindizes mit schmalen Stabzeigern in Gold. Unter der Krone stehen »ROLEX OYSTER PERPETUAL DAY-DATE«, unten »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED« und am Rand »T SWISS T«. Gehäuse und Band zeigen feine Tragespuren."
-     ]
+     ],
+     "dial": "Champagner"
     }
    ],
    "m": [
@@ -4684,7 +4703,8 @@
      "praesidenten-uhren",
      "Das President-Band"
     ]
-   ]
+   ],
+   "dial": "Champagner"
   },
   {
    "id": "explorer",
@@ -4920,7 +4940,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Explorer der Referenz 1016 aus Edelstahl mit glatter Lünette und mattschwarzem Zifferblatt. Gehäuse und Oyster-Band weisen deutliche Gebrauchsspuren mit vielen feinen Kratzern auf, wie es bei einer jahrzehntelang getragenen Uhr typisch ist.",
       "Typisch sind die Leuchtziffern 3, 6 und 9, das Dreieck bei 12 Uhr und die Strichindizes, deren Leuchtmasse einen cremefarbenen Ton angenommen hat. Zu erkennen sind außerdem der Mercedes-Stundenzeiger, der schlanke Sekundenzeiger mit Leuchtpunkt und die Aufschriften »OYSTER PERPETUAL EXPLORER« und »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Am unteren Rand steht »SWISS – T < 25«, der Hinweis auf Tritium. Das Glas ist gewölbt, eine Datumsanzeige gibt es nicht."
-     ]
+     ],
+     "dial": "Mattschwarz"
     }
    ],
    "lume": {
@@ -4936,7 +4957,8 @@
    "bd": [
     "Die Abbildung zeigt eine aktuelle Rolex Explorer aus Edelstahl, wie sie als Referenz 124270 mit 36 Millimetern oder als 224270 mit 40 Millimetern gebaut wird. Gehäuse und glatte, polierte Lünette sind schlicht gehalten, das Zifferblatt ist schwarz.",
     "Typisch sind die großen arabischen Ziffern 3, 6 und 9 mit Leuchtfüllung, das Dreieck bei 12 Uhr und die Stabindizes für die übrigen Stunden. Der Stundenzeiger hat die Mercedes-Form, der Sekundenzeiger einen Leuchtpunkt. Auf dem Zifferblatt stehen Rolex-Krone, Markenname und der Chronometer-Hinweis. Die Uhr hat kein Datum; getragen wird sie am Oyster-Band mit satinierten Gliedern."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "sea-dweller",
@@ -5066,7 +5088,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Sea-Dweller Referenz 1665 in der frühen Ausführung »Double Red« aus Edelstahl. Den Spitznamen verdankt sie dem zweizeiligen roten Schriftzug »SEA-DWELLER« und »SUBMARINER 2000« auf dem matten schwarzen Zifferblatt. Die drehbare Lünette ist schwarz mit Minutenskala.",
       "Zu erkennen sind die cremefarben gealterte Leuchtmasse der runden Indizes und des Mercedes-Stundenzeigers, die Tiefenangabe »2000ft = 610m« und das Fehlen eines Datumsfensters samt Lupe, typisch für diese Berufstaucheruhr. Weitere Merkmale sind der Leuchtpunkt im Dreieck der Lünette, die gewölbte Glasabdeckung und das Oyster-Band mit gebürsteten Gliedern."
-     ]
+     ],
+     "dial": "Schwarz"
     }
    ],
    "m": [
@@ -5166,7 +5189,8 @@
    "bd": [
     "Die Abbildung zeigt die aktuelle Rolex Sea-Dweller der Referenz 126600 aus Edelstahl, die seit 2017 mit 43 Millimetern gebaut wird. Sie trägt eine schwarze Keramiklünette mit 60-Minuten-Skala, ein schwarzes Zifferblatt und ein Oyster-Band.",
     "Typisch ist der rote Schriftzug »SEA-DWELLER«, mit dem die Referenz an die frühe »Double Red« erinnert, darunter die Tiefenangabe »4000ft = 1220m«. Zu erkennen sind außerdem runde Leuchtindizes, Balken bei 3, 6 und 9 und ein Dreieck bei 12 Uhr, der Mercedes-Stundenzeiger und das Datumsfenster bei 3 Uhr mit Zykloplupe, die die 126600 als erste Sea-Dweller erhielt."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "nautilus",
@@ -5276,7 +5300,8 @@
       "Die Abbildung zeigt eine Patek Philippe Nautilus in der Ausführung der Referenz 3800/1A, der mittelgroßen Nautilus mit 37,5 Millimetern, die von 1981 bis 2006 gebaut wurde. Gehäuse mit den seitlichen »Ohren«, achteckig abgerundete Lünette und integriertes Gliederband sind aus Edelstahl, das Zifferblatt ist dunkelblau.",
       "Typisch ist das waagerecht gerillte Zifferblatt, das an Schiffsplanken erinnert. Zu erkennen sind aufgesetzte Stabindizes mit Leuchtmasse, Stabzeiger, der Schriftzug »PATEK PHILIPPE GENEVE« und ein weißes Datumsfenster bei 3 Uhr. Das Band ist im Wechsel satiniert und poliert, die Krone sitzt zwischen den seitlichen Gehäuseflanken."
      ],
-     "at": "3800, 5711 und die Abschiedseditionen"
+     "at": "3800, 5711 und die Abschiedseditionen",
+     "dial": "Dunkelblau"
     },
     {
      "n": "Ref. 5711/1A-011, weißes Zifferblatt",
@@ -5289,7 +5314,8 @@
       "Die Abbildung zeigt eine Patek Philippe Nautilus Referenz 5711/1A aus Edelstahl mit weißem Zifferblatt, eine Ausführung, die von 2006 bis 2021 gebaut wurde. Typisch ist das achteckige, an ein Bullauge erinnernde Gehäuse mit den seitlichen Ohren und der satinierten Lünette mit polierten Fasen.",
       "Zu erkennen sind das horizontal geprägte Zifferblatt, aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie das Datumsfenster bei 3 Uhr. Unter der Mitte stehen »PATEK PHILIPPE GENEVE«, bei 6 Uhr »SWISS«. Getragen wird sie am integrierten Gliederband mit satinierten Außen- und polierten Mittelgliedern."
      ],
-     "at": "3800, 5711 und die Abschiedseditionen"
+     "at": "3800, 5711 und die Abschiedseditionen",
+     "dial": "Weiß"
     },
     {
      "n": "Ref. 5711/1A-018 (Tiffany-Blau)",
@@ -5305,7 +5331,8 @@
       "Die Abbildung zeigt eine Patek Philippe Nautilus Ref. 5711/1A in Edelstahl mit türkisblauem Zifferblatt, wie es die 2021 vorgestellte Tiffany-Ausführung 5711/1A-018 trägt. Gehäuse mit den seitlichen Ohren, achteckige Lünette und integriertes Band sind aus Stahl und im Wechsel satiniert und poliert.",
       "Zu erkennen sind das waagerecht geprägte Zifferblatt, aufgesetzte Stabindizes und Stabzeiger mit Leuchtfüllung sowie das Datumsfenster bei 3 Uhr. Unter der Mitte steht die Signatur »PATEK PHILIPPE GENEVE«; ein Tiffany-Schriftzug ist auf dieser Abbildung nicht zu erkennen. Die Krone sitzt geschützt in der rechten Gehäuseflanke, das Gliederband läuft nahtlos aus dem Gehäuse."
      ],
-     "at": "5811/1G und die Komplikationen"
+     "at": "5811/1G und die Komplikationen",
+     "dial": "Türkis"
     },
     {
      "n": "Ref. 5740/1G Ewiger Kalender mit Mondphase",
@@ -5317,7 +5344,8 @@
       "Die Abbildung zeigt eine Patek Philippe Nautilus Referenz 5740/1G mit ewigem Kalender und Mondphase, die seit 2018 angeboten wird. Gehäuse und integriertes Gliederband sind aus Weißgold, das Zifferblatt ist blau mit waagerechter Rillenprägung.",
       "Zu erkennen sind das für die Nautilus typische Gehäuse mit den seitlichen »Ohren«, aufgesetzte Leuchtindizes und Stabzeiger. Das Hilfszifferblatt bei 9 Uhr zeigt Wochentag und 24-Stunden-Anzeige, das bei 3 Uhr Monat und Schaltjahr, das bei 6 Uhr Datum und Mondphase. Die Kalenderangaben sind französisch beschriftet, etwa »DIM«, »LUN« und »JANV.«."
      ],
-     "at": "5811/1G und die Komplikationen"
+     "at": "5811/1G und die Komplikationen",
+     "dial": "Blau"
     }
    ],
    "m": [
@@ -5428,7 +5456,8 @@
      "rekord-auktionen",
      "3800, 5711 und die Abschiedseditionen"
     ]
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "calatrava",
@@ -5629,7 +5658,8 @@
       "Die Abbildung zeigt eine moderne Patek Philippe Calatrava im Stil der ersten Referenz 96 von 1932: ein schlichtes rundes Gehäuse aus hellem Metall mit schmaler, glatter Lünette und ein cremefarbenes Zifferblatt.",
       "Zu erkennen sind aufgesetzte arabische Ziffern bei 12, 2, 4, 8 und 10, dazwischen dreieckige Indizes, beides in einem bräunlichen Goldton, sowie schlanke Zeiger im selben Farbton. Bei 6 Uhr liegt die kleine Sekunde in einem eigenen Hilfszifferblatt, am Rand verläuft eine Minuterie mit Punkten. Unter der 12 stehen »Patek Philippe« und »Genève«. Die Uhr sitzt an einem braunen Lederband mit heller Naht."
      ],
-     "at": "1932: Referenz 96 im Bauhaus-Geist"
+     "at": "1932: Referenz 96 im Bauhaus-Geist",
+     "dial": "Creme"
     },
     {
      "n": "Calatrava in Gelbgold mit kleiner Sekunde",
@@ -5641,7 +5671,8 @@
       "Die Abbildung zeigt eine Patek Philippe Calatrava mit Gehäuse und Krone aus Gelbgold. Das schlichte runde Gehäuse hat eine glatte Lünette und schlanke, geschwungene Bandanstöße; das Zifferblatt ist cremeweiß, das Lederband dunkelbraun mit Krokoprägung.",
       "Zu erkennen sind aufgesetzte goldene Stabindizes, schlanke Dauphine-Zeiger aus Gold und eine kleine Sekunde bei 6 Uhr mit Minuterie und eigenem Zeiger. Unter der 12 steht der Schriftzug »PATEK PHILIPPE GENEVE«, am unteren Rand »SWISS«. Ein Datum gibt es nicht; das Zifferblatt bleibt bewusst aufgeräumt, wie es dem Bauhaus-Gedanken der Calatrava entspricht."
      ],
-     "at": "Clous de Paris und Handaufzug"
+     "at": "Clous de Paris und Handaufzug",
+     "dial": "Creme"
     },
     {
      "n": "Calatrava Pilot Travel Time",
@@ -5661,7 +5692,8 @@
       "Die Abbildung zeigt die Patek Philippe Calatrava Pilot Travel Time mit 42 Millimetern in weißem Gehäusemetall, wie es der Weißgoldversion 5524G entspricht. Das Zifferblatt ist dunkelblau, das Lederband braun mit hellen Nähten.",
       "Typisch sind die großen arabischen Ziffern und die breiten Zeiger mit heller Leuchtmasse. Zu erkennen sind die Tag-und-Nacht-Anzeigen mit den Beschriftungen »LOCAL« und »HOME«, das Hilfszifferblatt bei 6 Uhr für das Datum und die beiden Drücker auf der linken Gehäuseseite, mit denen die Ortszeit stundenweise verstellt wird. Die Krone sitzt bei 3 Uhr."
      ],
-     "at": "2015: Pilot Travel Time"
+     "at": "2015: Pilot Travel Time",
+     "dial": "Dunkelblau"
     }
    ],
    "lume": {
@@ -5678,7 +5710,8 @@
    "bd": [
     "Die Abbildung zeigt die Patek Philippe Calatrava Referenz 6119 in der Ausführung mit hellem, weißgrauem Zifferblatt und silberfarbenem Gehäuse. Typisch ist die Lünette mit Clous-de-Paris-Muster, einem feinen Pyramidenmuster, das die Calatrava seit der Referenz 3919 kennzeichnet.",
     "Zu erkennen sind aufgesetzte Stabindizes mit einem doppelten Index bei 12 Uhr, schlanke dunkle Zeiger und die kleine Sekunde in einem Hilfszifferblatt bei 6 Uhr. Ein Datum fehlt, der Schriftzug »PATEK PHILIPPE GENEVE« steht unter der Mitte. Die Uhr ist an einem schwarzen Lederband mit Krokodilprägung montiert, rechts sitzt eine geriffelte Krone."
-   ]
+   ],
+   "dial": "Weißgrau"
   },
   {
    "id": "aquanaut",
@@ -5789,7 +5822,8 @@
      "bd": [
       "Die Abbildung zeigt eine Patek Philippe Aquanaut Ref. 5168G, die »Jumbo« genannte große Ausführung in Weißgold mit khakigrünem Zifferblatt. Das abgerundet achteckige Gehäuse und die Lünette sind satiniert und an den Kanten poliert.",
       "Typisch sind das geprägte Zifferblatt mit dem Gittermuster, das an das Profil des Bandes anknüpft, und die großen aufgesetzten arabischen Ziffern mit Leuchtmasse. Zu erkennen sind außerdem Stabzeiger mit Leuchtfüllung, ein schlanker Zentralsekundenzeiger, das Datumsfenster bei 3 Uhr und die Signatur »PATEK PHILIPPE GENEVE«. Die Uhr trägt ein khakigrünes Kautschukband mit dem passenden Gittermuster; die Krone sitzt in einem Schutz an der rechten Flanke."
-     ]
+     ],
+     "dial": "Khakigrün"
     },
     {
      "n": "Ref. 5164A Travel Time",
@@ -5800,7 +5834,8 @@
      "bd": [
       "Die Abbildung zeigt eine Patek Philippe Aquanaut Travel Time der Referenz 5164A, die seit 2011 gebaut wird und eine zweite Zeitzone anzeigt. Das Gehäuse ist aus Edelstahl, das Zifferblatt schwarz mit dem erhabenen Würfelmuster der Aquanaut, das Band aus schwarzem Verbundmaterial mit derselben Prägung.",
       "Zu erkennen sind große aufgesetzte arabische Ziffern mit Leuchtmasse, ein skelettierter Zeiger für die Heimatzeit und die beiden Tag-Nacht-Fenster mit den Aufschriften »LOCAL« und »HOME«. Bei 6 Uhr liegt ein Hilfszifferblatt für das Datum. An der linken Gehäuseflanke sitzen die Drücker zum Verstellen der Ortszeit."
-     ]
+     ],
+     "dial": "Schwarz"
     }
    ],
    "m": [
@@ -5872,7 +5907,8 @@
    "bd": [
     "Die Abbildung zeigt eine Patek Philippe Aquanaut Referenz 5167A aus Edelstahl mit 40 Millimetern und schwarzem Zifferblatt. Typisch ist das abgerundet achteckige Gehäuse mit satinierter Lünette und polierten Kanten, das an die Nautilus anknüpft.",
     "Zu erkennen sind das Zifferblatt mit erhabenem Würfelmuster, große aufgesetzte arabische Ziffern mit Leuchtfüllung und Stabzeiger mit Leuchtmasse. Das Datum erscheint in einem Fenster bei 3 Uhr, die Krone sitzt rechts zwischen Kronenschutz. Das schwarze Band aus Verbundmaterial wiederholt das Würfelmuster des Zifferblatts. Unter der Zwölf stehen »PATEK PHILIPPE« und »GENEVE«."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "world-time",
@@ -6012,7 +6048,8 @@
      "weltzeit",
      "Louis Cottier und Ref. 1415 HU"
     ]
-   ]
+   ],
+   "dial": "Blau, guillochiert"
   },
   {
    "id": "annual-calendar",
@@ -6152,7 +6189,8 @@
      "bd": [
       "Die Abbildung zeigt eine Ausführung eines Patek Philippe Jahreskalenders mit rundem Edelstahlgehäuse, polierter Lünette und Gliederband. Das Zifferblatt ist dunkelblau mit feiner Sonnenschliff-Struktur. Wochentag und Monat erscheinen in Fenstern, Datum und Mondphase sitzen über 6 Uhr.",
       "Zu erkennen sind die Fenster für Wochentag »SAT« und Monat »MAR« unter dem Schriftzug »PATEK PHILIPPE GENEVE«, eine Mondphasenanzeige mit Sternenhimmel oberhalb der 6 und ein Datumsfenster bei 6 Uhr. Dazu kommen aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie die Krone bei 3 Uhr."
-     ]
+     ],
+     "dial": "Dunkelblau, Sonnenschliff"
     }
    ],
    "lume": {
@@ -6173,7 +6211,8 @@
      "jahreskalender",
      "Zwischen Datum und ewigem Kalender"
     ]
-   ]
+   ],
+   "dial": "Dunkelblau, Sonnenschliff"
   },
   {
    "id": "royal-oak",
@@ -6356,7 +6395,8 @@
      "bd": [
       "Die Abbildung zeigt den Audemars Piguet Royal Oak Chronograph Referenz 26240 aus Edelstahl mit blauem Zifferblatt. Typisch sind die achteckige Lünette mit acht sichtbaren Sechskantschrauben, das integrierte Gliederband und das Zifferblatt mit Tapisserie-Muster.",
       "Zu erkennen sind drei silberfarbene Hilfszifferblätter bei 3, 6 und 9 Uhr, aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie ein kleines Datumsfenster zwischen 4 und 5 Uhr. Rechts am Gehäuse sitzen die verschraubte Krone und die beiden Chronographendrücker. Die Flächen von Gehäuse und Band sind überwiegend satiniert, die Kanten poliert."
-     ]
+     ],
+     "dial": "Blau"
     },
     {
      "n": "Ewiger Kalender Ref. 26574",
@@ -6370,7 +6410,8 @@
      "bd": [
       "Die Abbildung zeigt die aktuelle Audemars Piguet Royal Oak Ewiger Kalender der Referenz 26574, die seit 2015 mit 41 Millimetern und dem Kaliber 5134 gebaut wird. Gehäuse, achteckige Lünette mit sechseckigen Schrauben und integriertes Band sind aus Edelstahl, das Zifferblatt blau mit Tapisserie-Muster.",
       "Zu erkennen sind die Hilfszifferblätter für Wochentag bei 9 Uhr, Monat und Schaltjahr bei 12 Uhr und Datum bei 3 Uhr sowie die Mondphase bei 6 Uhr. Am Rand läuft eine Skala mit den Kalenderwochen. Aufgesetzte Stabindizes, Stabzeiger mit Leuchtmasse und der Schriftzug »AUDEMARS PIGUET« vervollständigen das Bild."
-     ]
+     ],
+     "dial": "Blau, Tapisserie"
     }
    ],
    "m": [
@@ -6529,7 +6570,8 @@
      "stahlsportuhr",
      "Eine Stahluhr teurer als Gold"
     ]
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "royal-oak-offshore",
@@ -6705,7 +6747,8 @@
      "kino-uhren",
      "Prominente und neue Materialien"
     ]
-   ]
+   ],
+   "dial": "Schwarz, Tapisserie"
   },
   {
    "id": "code-11-59",
@@ -6830,7 +6873,8 @@
    "bd": [
     "Die Abbildung zeigt eine Ausführung der Audemars Piguet Code 11.59 als Dreizeiger mit Datum in einem runden Gehäuse aus hellem Metall. Das dunkelblaue Zifferblatt hat einen feinen, kreisförmigen Schliff und wird von einem blauen Innenring mit Minutenzahlen eingefasst. Das achteckige Mittelteil des Gehäuses ist in dieser Frontansicht nicht zu sehen.",
     "Zu erkennen sind aufgesetzte Stabindizes, ein Doppelindex bei 12 Uhr, schlanke Stabzeiger, ein feiner Zentralsekundenzeiger und das Datumsfenster bei 3 Uhr. Der Schriftzug »Audemars Piguet« steht unter der 12, auf dem Innenring laufen die Fünf-Minuten-Zahlen bis 60. Die Uhr trägt ein dunkelblaues Lederband mit Krokodilprägung und heller Naht."
-   ]
+   ],
+   "dial": "Dunkelblau"
   },
   {
    "id": "speedmaster",
@@ -7009,7 +7053,8 @@
       "Die Abbildung zeigt eine Omega Speedmaster ’57 Co-Axial Chronograph aus Edelstahl mit schwarzem Zifferblatt am Gliederband. Die Gestaltung greift die erste Speedmaster von 1957 auf, mit Lünette aus Stahl und eingravierter Tachymeterskala »TACHYMETRE BASE 1000«.",
       "Typisch sind der breite Pfeil-Stundenzeiger (»Broad Arrow«) und die Leuchtmasse in cremefarbenem Vintage-Ton. Zu erkennen sind zwei Hilfszifferblätter bei 3 und 9 Uhr, Dreiecksindizes und der Schriftzug »Speedmaster ’57« in Orange unter dem Omega-Logo. Rechts sitzen die Krone und zwei runde Drücker an einem schlanken, symmetrischen Gehäuse."
      ],
-     "at": "2012: Speedmaster ’57"
+     "at": "2012: Speedmaster ’57",
+     "dial": "Schwarz"
     },
     {
      "n": "Dark Side of the Moon",
@@ -7034,7 +7079,8 @@
       "Die Abbildung zeigt die Omega Speedmaster Dark Side of the Moon, Referenz 311.92.44.51.01.003, mit Gehäuse und Zifferblatt aus schwarzer Zirkonoxid-Keramik und 44,25 Millimetern. Auch Lünette, Krone und Drücker sind schwarz; getragen wird sie an einem schwarzen Textilband mit hellen Nähten.",
       "Zu erkennen sind die Tachymeterskala auf der Lünette, die beiden Hilfszifferblätter bei 3 und 9 Uhr, die Stabindizes und Stabzeiger mit weißer Leuchtmasse sowie die Schriftzüge »Speedmaster«, »CO-AXIAL« und »MASTER CHRONOMETER«. Die matte Oberfläche des Zifferblatts unterscheidet sich vom polierten Keramikgehäuse."
      ],
-     "at": "2013: Dark Side of the Moon"
+     "at": "2013: Dark Side of the Moon",
+     "dial": "Schwarz"
     }
    ],
    "m": [
@@ -7199,7 +7245,8 @@
      "mondlandung",
      "Mondlandung und Apollo 13"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "seamaster-300m",
@@ -7392,7 +7439,8 @@
      "daniels",
      "2006: Co-Axial-Hemmung"
     ]
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "planet-ocean",
@@ -7568,7 +7616,8 @@
      "tiefsee-rekorde",
      "2019: Ultra Deep im Marianengraben"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "aqua-terra",
@@ -7715,7 +7764,8 @@
    "bd": [
     "Die Abbildung zeigt die Omega Seamaster Aqua Terra Referenz 220.10.41.21 aus Edelstahl mit blauem Zifferblatt. Typisch ist das Teakmuster, dessen Streifen seit 2017 waagerecht verlaufen und an die Planken eines Bootsdecks erinnern. Die Lünette ist glatt und poliert.",
     "Zu erkennen sind facettierte, aufgesetzte Indizes, breite Zeiger mit Leuchtmasse, ein Minutenring mit Ziffern in Fünferschritten und das Datumsfenster bei 6 Uhr. Das Zifferblatt trägt die Aufschriften »Seamaster«, »CO-AXIAL« und »MASTER CHRONOMETER«. Dazu kommt ein dreireihiges Stahlband mit satinierten Außen- und polierten Mittelgliedern."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "constellation",
@@ -7752,7 +7802,7 @@
      "Chronometer mit Gangzeugnis"
     ],
     [
-     "Boden",
+     "Gehäuseboden",
      "Sternwarten-Medaillon"
     ]
    ],
@@ -7863,7 +7913,8 @@
      "genta",
      "»C-Shape« und »Manhattan«-Krallen"
     ]
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "railmaster",
@@ -8006,7 +8057,8 @@
    "bd": [
     "Die Abbildung zeigt die Omega Railmaster Referenz 220.10.40.20, die 2017 erschienene Neuauflage mit 40 Millimetern und dem Master-Chronometer-Kaliber 8806. Gehäuse, polierte Lünette und Gliederband sind aus Edelstahl, das Zifferblatt ist schwarz mit feiner, senkrecht gebürsteter Struktur.",
     "Typisch ist das schlichte Zifferblatt in Anlehnung an die erste Railmaster: arabische Ziffern bei 3, 6, 9 und 12, Dreiecksindizes und eine Minuterie am Rand, alle mit cremefarbener Leuchtmasse. Zu erkennen sind außerdem die Stabzeiger mit Pfeilspitze am Minutenzeiger, der schlanke Sekundenzeiger und der Schriftzug »Railmaster« in Schreibschrift über der 6."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "black-bay",
@@ -8151,7 +8203,8 @@
       "Die Abbildung zeigt eine Tudor Black Bay in der blauen Ausführung aus Edelstahl. Typisch sind die blaue Aluminiumlünette mit Taucherskala in Silber und Dreieck bei 12 Uhr sowie das tiefblaue Zifferblatt.",
       "Zu erkennen sind die »Snowflake«-Zeiger mit dem eckigen Stundenzeiger, runde Leuchtindizes, Balken bei 3, 6 und 9 und ein großes Dreieck bei 12 Uhr. Unter der Signatur »TUDOR GENEVE« stehen die Tiefenangabe »200m · 660 ft« und »CHRONOMETER OFFICIALLY CERTIFIED«. Ein Datumsfenster gibt es nicht. Die Uhr trägt ein Stahlgliederband, die verschraubte Krone sitzt rechts. Ob es sich um die 41-Millimeter-Ausführung oder eine kleinere Variante handelt, ist auf dem Bild nicht sicher zu erkennen."
      ],
-     "at": "Ref. 79220, MT5602 und Master Chronometer"
+     "at": "Ref. 79220, MT5602 und Master Chronometer",
+     "dial": "Tiefblau"
     },
     {
      "n": "Black Bay Fifty-Eight",
@@ -8174,7 +8227,8 @@
       "Die Abbildung zeigt eine Tudor Black Bay 58 mit schwarzem Zifferblatt, Referenz M79030N, die seit 2018 mit 39 Millimetern gebaut wird. Gehäuse und Gliederband sind aus Edelstahl, die Drehlünette hat eine schwarze Aluminiumeinlage mit goldfarbener Skala.",
       "Zu erkennen sind der eckige »Snowflake«-Stundenzeiger, goldfarbene Zeiger und Indexrahmen, runde Leuchtindizes mit Balken bei 3, 6 und 9 und ein Dreieck bei 12 Uhr. Die Leuchtmasse ist leicht vergilbt eingefärbt. Auf der Lünette sitzt bei 12 Uhr ein rotes Dreieck. Ein Datum fehlt; die Krone ist ohne Kronenschutz."
      ],
-     "at": "2018: Black Bay Fifty-Eight"
+     "at": "2018: Black Bay Fifty-Eight",
+     "dial": "Schwarz, lackiert"
     },
     {
      "n": "Black Bay 54",
@@ -8195,7 +8249,8 @@
       "Die Abbildung zeigt die Tudor Black Bay 54 Referenz M79000N mit 37 Millimetern, die kleinste Black Bay. Gehäuse und Gliederband sind aus Edelstahl, die drehbare Lünette und das Zifferblatt sind schwarz.",
       "Typisch ist die Lünette mit durchgehender Minutenskala ohne Ziffernring und dem Leuchtpunkt im Dreieck bei 12 Uhr. Zu erkennen sind die runden Leuchtindizes, das Dreieck bei 12 Uhr und die Balken bei 3, 6 und 9, alle mit cremefarbener Leuchtmasse, dazu der Stundenzeiger in Schneeflockenform. Auf dem Zifferblatt stehen »BLACK BAY 54« und »200m / 660ft«."
      ],
-     "at": "2023: Black Bay 54"
+     "at": "2023: Black Bay 54",
+     "dial": "Schwarz"
     }
    ],
    "m": [
@@ -8287,7 +8342,8 @@
      ]
     ],
     "n": "Listenpreise USA 2026 laut Hersteller- bzw. Händlerangaben (Fifty-Eight und 54 jeweils am Stahlband). Ungefähre Werte ohne Gewähr."
-   }
+   },
+   "dial": "Schwarz"
   },
   {
    "id": "pelagos",
@@ -8437,7 +8493,8 @@
      "bd": [
       "Die Abbildung zeigt eine Ausführung der Tudor Pelagos in Blau. Gehäuse und Band sind aus mattgrauem Titan, die einseitig drehbare Lünette trägt eine blaue Einlage mit Minutenskala, deren erste 15 Minuten fein unterteilt sind. Das Zifferblatt ist ebenfalls blau.",
       "Zu erkennen sind der Stundenzeiger mit großer eckiger Leuchtfläche, rechteckige Leuchtindizes, ein Dreieck bei 12 Uhr, der Leuchtpunkt auf der Lünette und die Aufschriften »PELAGOS«, »CHRONOMETER OFFICIALLY CERTIFIED« und die Tiefenangabe »200m-660ft«. Ein Datum fehlt. Rechts sitzt die verschraubte Krone mit Kronenschutzflanken, das Titanband hat gebürstete Glieder."
-     ]
+     ],
+     "dial": "Blau"
     }
    ],
    "lume": {
@@ -8453,7 +8510,8 @@
    "bd": [
     "Die Abbildung zeigt die aktuelle Tudor Pelagos, die seit 2015 mit dem Manufakturkaliber MT5612 gebaut wird (Ref. 25600TB / TN). Gehäuse und Band sind aus mattem, grau wirkendem Titan, die Lünette aus schwarzer Keramik, das Zifferblatt ist schwarz.",
     "Zu erkennen sind die rechteckigen Leuchtindizes mit einem Dreieck bei 12 Uhr, der eckige »Snowflake«-Stundenzeiger und die Lünettenskala mit leuchtenden Ziffern und Strichen, deren erste 15 Minuten feiner unterteilt sind. Unter der Mitte steht der Schriftzug »PELAGOS« mit der Tiefenangabe. Ein Datum fehlt, die Krone sitzt rechts bei 3 Uhr."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "santos",
@@ -8489,7 +8547,7 @@
      "≈ 42 Stunden"
     ],
     [
-     "Merkmale",
+     "Besonderheit",
      "sichtbare Schrauben auf Lünette und Band"
     ],
     [
@@ -8582,7 +8640,8 @@
       "Die Abbildung zeigt eine Cartier Santos 100, die von 2004 bis 2018 zum hundertjährigen Jubiläum der ersten Santos gebaut wurde. Das kantige Gehäuse ist aus Edelstahl, das Zifferblatt weiß, das Band aus schwarzem Krokodilleder.",
       "Typisch sind die acht sichtbaren Schrauben auf der quadratischen Lünette, die großen schwarzen römischen Ziffern, der Minutenkreis im Eisenbahnstil und die gebläuten Schwertzeiger. Unter 12 Uhr steht »CARTIER«, über 6 Uhr »AUTOMATIC«. Die achteckige Krone mit blauem Cabochon wird seitlich von einem Kronenschutz eingefasst."
      ],
-     "at": "2004: Santos 100"
+     "at": "2004: Santos 100",
+     "dial": "Weiß"
     },
     {
      "n": "Santos-Dumont Large in Roségold",
@@ -8609,7 +8668,8 @@
       "Die Abbildung zeigt eine Cartier Santos-Dumont in großer Ausführung mit Gehäuse aus Roségold und dunkelbraunem Lederband. Das flache, quadratische Gehäuse mit abgerundeten Ecken trägt auf der Lünette acht kleine Schrauben.",
       "Zu erkennen sind das silberweiße Zifferblatt mit schwarzen römischen Ziffern, eine innere Minuterie im Chemin-de-fer-Stil und gebläute Schwertzeiger. In der Mitte steht »CARTIER«. Die Krone ist achteckig und trägt einen blauen Cabochon. Ein Sekundenzeiger oder Datum ist nicht vorhanden, das Lederband hat eine Krokodilprägung."
      ],
-     "at": "2019: Santos-Dumont"
+     "at": "2019: Santos-Dumont",
+     "dial": "Silber"
     },
     {
      "n": "Zifferblatt Blau",
@@ -8625,7 +8685,8 @@
       "Die Abbildung zeigt eine Cartier Santos de Cartier der Generation seit 2018 mit blauem Zifferblatt. Das quadratische Gehäuse, die Lünette und das Gliederband sind aus Edelstahl; auf Lünette und Band sitzen die sichtbaren Schrauben, die zum Erkennungsmerkmal der Santos gehören.",
       "Zu erkennen sind die großen römischen Ziffern, die Minuterie in Form eines Schienenkreises, die silberfarbenen Schwertzeiger und der Schriftzug »AUTOMATIC«. Bei 6 Uhr sitzt ein kleines Datumsfenster. Die facettierte Krone trägt einen blauen Cabochon, und die Bandanstöße gehen fließend in das Gliederband über."
      ],
-     "at": "2018: Neuauflage und QuickSwitch"
+     "at": "2018: Neuauflage und QuickSwitch",
+     "dial": "Blau"
     },
     {
      "n": "Santos skelettiert (Rotgold)",
@@ -8637,7 +8698,8 @@
       "Die Abbildung zeigt eine skelettierte Cartier Santos in Rotgold an einem dunkelbraunen Lederband. Das quadratische Gehäuse mit abgerundeten Ecken trägt die typische Lünette mit acht sichtbaren Schrauben.",
       "Typisch ist, dass die Brücken des Werks zugleich die römischen Ziffern bilden, sodass man durch das Zifferblatt auf Räder und rote Lagersteine blickt. Zu erkennen sind gebläute Schwertzeiger, der Schriftzug »CARTIER« in der Mitte und die Krone mit blauem Cabochon in einem Kronenschutz. Das Lederband hat eine Krokodilprägung und wird an den langgestreckten Bandanstößen befestigt."
      ],
-     "at": "Skelett-, Dual-Time- und Chronographenversionen"
+     "at": "Skelett-, Dual-Time- und Chronographenversionen",
+     "dial": "Skelettiert"
     },
     {
      "n": "Santos skelettiert (Stahl)",
@@ -8649,7 +8711,8 @@
       "Die Abbildung zeigt eine skelettierte Cartier Santos aus Edelstahl. Typisch sind das quadratische Gehäuse mit abgerundeten Ecken, die verschraubte Lünette mit acht sichtbaren Schrauben und das Gliederband, das ebenfalls Schrauben auf den Gliedern trägt.",
       "Statt eines geschlossenen Zifferblatts bilden die römischen Ziffern selbst die Brücken des Werks; zwischen ihnen sind Räder und rote Lagersteine zu erkennen. Die Stunden- und Minutenzeiger sind gebläut und schwertförmig, der Schriftzug »CARTIER« sitzt unter 12 Uhr. Die achteckige Krone trägt einen blauen Cabochon. Eine Sekunden- oder Datumsanzeige ist nicht vorhanden."
      ],
-     "at": "Skelett-, Dual-Time- und Chronographenversionen"
+     "at": "Skelett-, Dual-Time- und Chronographenversionen",
+     "dial": "Skelettiert"
     }
    ],
    "m": [
@@ -8749,7 +8812,8 @@
      "armbanduhr",
      "1911: Eine der ersten Herrenarmbanduhren"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "tank",
@@ -8777,7 +8841,7 @@
      "Goldmodelle in 18 Karat (750) Gelb-, Rosé- oder Weißgold"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz oder SolarBeat-Solarquarz"
     ],
     [
@@ -8885,7 +8949,8 @@
       "Die Abbildung zeigt eine Cartier Tank Française aus Edelstahl mit silberweißem Zifferblatt. Typisch ist das integrierte Gliederband, das ohne sichtbare Bandanstöße in das rechteckige Gehäuse mit seinen kräftigen Seitenstegen übergeht.",
       "Zu erkennen sind schwarze römische Ziffern, eine innere Minuterie im Chemin-de-fer-Stil und gebläute Schwertzeiger. In der Mitte steht »CARTIER«. Die Krone trägt einen blauen Cabochon in einer facettierten Fassung. Ein Datumsfenster ist auf dieser Ausführung nicht zu sehen; die Glieder des Bandes sind satiniert mit polierten Kanten."
      ],
-     "at": "1996: Tank Française"
+     "at": "1996: Tank Française",
+     "dial": "Silber"
     },
     {
      "n": "Tank Américaine (Rotgold)",
@@ -8897,7 +8962,8 @@
       "Die Abbildung zeigt eine Cartier Tank Américaine in Rotgold mit dem länglichen, rechteckigen und gewölbten Gehäuse, das diese Linie seit 1989 kennzeichnet. Das Zifferblatt ist silbrig-weiß, die seitlichen Brancards gehen fließend in die Bandanstöße über.",
       "Zu erkennen sind schwarze römische Ziffern, die der gestreckten Form folgen, ein innerer Minutenkreis im Stil des »Chemin de fer« und gebläute Schwertzeiger. Unter der 12 steht der Schriftzug »Cartier«. Die Krone aus Rotgold trägt einen blauen Cabochon, die Uhr sitzt an einem dunkelbraunen Lederband mit Krokodilprägung. Einen Sekundenzeiger hat das Zifferblatt nicht."
      ],
-     "at": "Nachkriegszeit, Américaine und Française"
+     "at": "Nachkriegszeit, Américaine und Française",
+     "dial": "Silber"
     },
     {
      "n": "Tank Chinoise (Gelbgold)",
@@ -8909,7 +8975,8 @@
       "Die Abbildung zeigt eine Cartier Tank Chinoise aus Gelbgold. Typisch ist das Gehäuse mit den über die seitlichen Stege hinausragenden Querbalken oben und unten, das an chinesische Torbögen erinnert. Das Zifferblatt ist cremeweiß, das Lederband schwarz mit Krokoprägung.",
       "Zu erkennen sind die schwarzen römischen Ziffern, die zur Mitte hin zusammenlaufen, die innere Minuterie und die gebläuten Schwertzeiger, die wie bei vielen Tank-Modellen zum klassischen Cartier-Zifferblatt gehören. Unter der 12 steht der Schriftzug »CARTIER«. Die goldene Krone bei 3 Uhr trägt einen blauen Cabochon."
      ],
-     "at": "Cintrée, Chinoise und weitere Varianten"
+     "at": "Cintrée, Chinoise und weitere Varianten",
+     "dial": "Creme"
     },
     {
      "n": "Tank Normale",
@@ -8921,7 +8988,8 @@
       "Die Abbildung zeigt eine Ausführung der Cartier Tank mit rechteckigem Gehäuse aus Edelstahl und schwarzem Lederband. Die geraden, kräftigen Seitenstege, die in die Bandanstöße übergehen, sind das Merkmal, das die Tank seit dem Original der Tank Normale prägt.",
       "Zu erkennen sind das silberweiße Zifferblatt mit großen schwarzen römischen Ziffern, eine innere Minuterie im Chemin-de-fer-Stil und gebläute Schwertzeiger. In der Mitte steht »CARTIER«, unten »SWISS MADE«. Die Krone trägt einen blauen Cabochon, das Band ist mit Krokodilprägung versehen. Ein Datum oder Sekundenzeiger ist nicht vorhanden."
      ],
-     "at": "1917: Inspiriert von Panzern"
+     "at": "1917: Inspiriert von Panzern",
+     "dial": "Silber"
     },
     {
      "n": "Tank Must, große Ausführung",
@@ -8933,7 +9001,8 @@
       "Die Abbildung zeigt eine Cartier Tank im rechteckigen Gehäuse aus hellem Metall mit den seitlichen Stegen, den Brancards. Das Zifferblatt ist cremeweiß, getragen wird die Uhr an einem schwarzen Lederband mit Krokodilprägung. Seit 2021 gibt es die Tank Must in dieser Form neu. Ob in ihr ein normales Quarzwerk, das SolarBeat-Werk oder ein Automatikwerk arbeitet, ist auf dem Bild nicht zu erkennen.",
       "Typisch sind die schwarzen römischen Ziffern, die zur Mitte hin ausgerichtet sind, der innen liegende Minutenkreis im Eisenbahnstil, der »Chemin de fer«, und die gebläuten Schwertzeiger. Unter 12 Uhr steht »CARTIER«. Die achteckige Krone trägt einen blauen Cabochon."
      ],
-     "at": "2021: Neuauflage der Tank Must"
+     "at": "2021: Neuauflage der Tank Must",
+     "dial": "Creme"
     }
    ],
    "m": [
@@ -9055,7 +9124,8 @@
      "praesidenten-uhren",
      "Berühmte Träger"
     ]
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "portugieser",
@@ -9256,7 +9326,8 @@
       "Die Abbildung zeigt einen IWC Portugieser Chronograph der Referenz 3716, die seit 2020 mit eigenem Werk gebaut wird. Das runde Gehäuse mit dünner Lünette ist aus Edelstahl, das Zifferblatt silberweiß, das Lederband dunkelblau.",
       "Zu erkennen sind die aufgesetzten blauen arabischen Ziffern, die blauen Blattzeiger und die Minuterie im Eisenbahnstil am Rand. Die beiden Hilfszifferblätter liegen senkrecht übereinander: oben der Minutenzähler, unten die kleine Sekunde. Links steht »CHRONOGRAPH«, rechts »IWC SCHAFFHAUSEN«. Rechts am Gehäuse sitzen Krone und zwei runde Drücker."
      ],
-     "at": "1993 Jubilee, 1998 Chronograph"
+     "at": "1993 Jubilee, 1998 Chronograph",
+     "dial": "Silber"
     },
     {
      "n": "Portugieser Ewiger Kalender",
@@ -9268,7 +9339,8 @@
       "Die Abbildung zeigt eine Ausführung des IWC Portugieser Ewiger Kalender mit silberfarbenem Gehäuse und dunkelblauem Zifferblatt. Der ewige Kalender nach Kurt Klaus gehört seit 2003 zur Portugieser-Familie.",
       "Zu erkennen sind aufgesetzte arabische Ziffern, schlanke Blattzeiger, eine Mondphasenanzeige bei 12 Uhr sowie drei Hilfszifferblätter für Wochentag, Datum und Monat. Zwischen 7 und 8 Uhr steht die vierstellige Jahresanzeige, hier »2026«. Der Schriftzug »IWC SCHAFFHAUSEN« sitzt unter der Mondphase. Die Uhr trägt ein dunkelblaues Lederband mit Krokodilprägung und heller Naht, rechts sitzt eine große geriffelte Krone."
      ],
-     "at": "Kalender und große Komplikationen"
+     "at": "Kalender und große Komplikationen",
+     "dial": "Dunkelblau"
     },
     {
      "n": "Portugieser Handaufzug",
@@ -9280,7 +9352,8 @@
       "Die Abbildung zeigt eine IWC Portugieser mit Handaufzug in einem polierten, runden Gehäuse aus hellem Metall mit schmaler Lünette. Das Zifferblatt ist weiß, Ziffern und Zeiger sind blau.",
       "Typisch sind die schlanken aufgesetzten arabischen Ziffern, die blauen Blattzeiger und die kleine Sekunde bei 6 Uhr mit eigener Skala von 10 bis 60. Unter der 12 stehen »IWC« und »Schaffhausen«, am Rand verläuft eine feine Minuterie. Ein Datum gibt es nicht. Die Uhr trägt ein dunkelblaues Lederband mit Krokodilprägung und heller Naht."
      ],
-     "at": "Konstantes Zifferblatt, erkennbare Generationen"
+     "at": "Konstantes Zifferblatt, erkennbare Generationen",
+     "dial": "Weiß"
     }
    ],
    "lume": {
@@ -9304,7 +9377,8 @@
      "klaus",
      "Kalender und große Komplikationen"
     ]
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "big-pilot",
@@ -9332,7 +9406,7 @@
      "≈ 60 Stunden"
     ],
     [
-     "Merkmale",
+     "Besonderheit",
      "Zwiebelkrone, Dreieck mit zwei Punkten"
     ],
     [
@@ -9471,7 +9545,8 @@
      "fliegeruhr",
      "1940: 55 Millimeter über der Fliegerjacke"
     ]
-   ]
+   ],
+   "dial": "Mattschwarz"
   },
   {
    "id": "navitimer",
@@ -9589,7 +9664,8 @@
       "Die Abbildung zeigt einen Breitling Navitimer B01 Chronograph 43 aus Edelstahl mit grünem Zifferblatt. Typisch sind die gerändelte Lünette, mit der sich der Rechenschieber drehen lässt, und der silberne Außenring mit den logarithmischen Skalen.",
       "Zu erkennen sind die drei silbernen Hilfszifferblätter für Sekunde, 30 Minuten und 12 Stunden, das Datumsfenster zwischen 4 und 5 Uhr und das goldene geflügelte »B« über der Signatur »BREITLING 1884«. Rote Markierungen am Rechenschieber kennzeichnen besondere Umrechnungswerte, die Zeiger sind Stabzeiger mit Leuchtfüllung. Rechts sitzen die Krone und zwei runde Drücker, die Uhr trägt ein mehrreihiges Stahlgliederband."
      ],
-     "at": "Beständiges Design und Jubiläum 2022"
+     "at": "Beständiges Design und Jubiläum 2022",
+     "dial": "Grün"
     },
     {
      "n": "Navitimer B01 Chronograph, schwarzes Zifferblatt",
@@ -9601,7 +9677,8 @@
       "Die Abbildung zeigt einen Breitling Navitimer B01 Chronograph mit schwarzem Zifferblatt aus der 2022 überarbeiteten Generation (Ref. AB0138). Gehäuse und Gliederband sind aus Edelstahl, die gerillte Drehlünette ist silbern.",
       "Zu erkennen sind der runde Rechenschieber aus Lünette und fester Skala, drei silberne Hilfszifferblätter auf dem schwarzen Grund, Stabindizes und Stabzeiger sowie der rot lackierte Chronographenzeiger. Unter 12 Uhr steht das Flügellogo mit »BREITLING 1884«, darüber die rote Markierung bei 12 Uhr der Skala. Krone und Pumpdrücker sitzen rechts."
      ],
-     "at": "Venus, Kaliber 11, Valjoux 7750 und B01"
+     "at": "Venus, Kaliber 11, Valjoux 7750 und B01",
+     "dial": "Schwarz"
     }
    ],
    "m": [
@@ -9709,7 +9786,8 @@
      "uhren-im-all",
      "AOPA und der Cosmonaute"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "chronomat",
@@ -9847,7 +9925,8 @@
    "bd": [
     "Die Abbildung zeigt den Breitling Chronomat B01 42 aus Edelstahl mit blauem Zifferblatt und schwarzen Hilfszifferblättern. Typisch sind die vier »Reiter« an der Lünette bei 15, 30 und 45 Minuten sowie bei 12 Uhr mit Leuchtpunkt, die das Glas schützen und sich gut greifen lassen.",
     "Zu erkennen sind drei Hilfszifferblätter bei 3, 6 und 9 Uhr, aufgesetzte Stabindizes, Stabzeiger mit Leuchtmasse und ein kleines Datumsfenster im unteren Hilfszifferblatt. Rechts sitzen die verschraubte Krone und zwei Chronographendrücker. Das Band ist das Rouleaux-Band mit gerundeten Gliedern, das Breitling 2020 aus den 1980er-Jahren zurückbrachte."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "snowflake",
@@ -9868,7 +9947,7 @@
      "41 mm, Titan"
     ],
     [
-     "Werk",
+     "Kaliber",
      "9R65 Spring Drive"
     ],
     [
@@ -9977,7 +10056,8 @@
      "spring-drive",
      "Gleitender Zeiger durch Spring Drive"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "white-birch",
@@ -10083,7 +10163,8 @@
    "bd": [
     "Die Abbildung zeigt die Grand Seiko White Birch, Referenz SLGH005, mit 40 Millimetern und dem Kaliber 9SA5. Gehäuse, Lünette und Gliederband sind aus Edelstahl mit polierten und satinierten Flächen, das Zifferblatt ist weiß.",
     "Typisch ist das tief geprägte Zifferblatt mit senkrechten Linien, das die Rinde weißer Birken nachbildet. Zu erkennen sind die breiten, facettierten Stabindizes, die doppelte Markierung bei 12 Uhr, die polierten Zeiger und das Datumsfenster bei 3 Uhr. Auf dem Zifferblatt stehen das Logo »GS Grand Seiko« sowie »HI-BEAT 36000 80 HOURS«."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "monaco",
@@ -10103,15 +10184,15 @@
      "39 mm, Edelstahl, quadratisch"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Automatik-Chronograph"
     ],
     [
-     "Anzeigen",
+     "Funktionen",
      "zwei Hilfszifferblätter, Datum bei 6 Uhr"
     ],
     [
-     "Merkmal",
+     "Besonderheit",
      "Krone und Drücker rechts"
     ]
    ],
@@ -10250,7 +10331,8 @@
      "wettlauf-1969",
      "1969: Quadratisch und automatisch"
     ]
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "carrera",
@@ -10271,7 +10353,7 @@
      "Edelstahl"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Automatik-Chronograph"
     ],
     [
@@ -10408,7 +10490,8 @@
      "bd": [
       "Die Abbildung zeigt einen TAG Heuer Carrera Chronograph mit weißem Zifferblatt und schwarzer Keramiklünette. Gehäuse und Gliederband sind aus Edelstahl; die Lünette trägt die Tachymeterskala mit der Aufschrift »TACHYMÈTRE«.",
       "Zu erkennen sind drei schwarze Hilfszifferblätter bei 3, 6 und 9 Uhr auf dem weißen Grund, aufgesetzte Stabindizes mit doppeltem Index bei 12 Uhr und Stabzeiger. Unter 12 Uhr stehen »CARRERA« und das TAG-Heuer-Logo, bei 6 Uhr liegt ein kleines Datumsfenster. Rechts sitzen die Krone und zwei Drücker."
-     ]
+     ],
+     "dial": "Weiß"
     }
    ],
    "lume": {
@@ -10431,7 +10514,8 @@
      "jack-heuer",
      "1963: Jack Heuers Fahrerchronograph"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "yacht-master",
@@ -10624,7 +10708,8 @@
    "bd": [
     "Die Abbildung zeigt die Rolex Yacht-Master Referenz 126622 in »Rolesium«, also aus Edelstahl mit Lünette aus Platin, hier mit schiefergrauem Zifferblatt. Die beidseitig drehbare Lünette trägt eine 60-Minuten-Skala mit erhabenen, polierten Ziffern auf mattem Grund.",
     "Zu erkennen sind runde Leuchtindizes, Balken bei 3, 6 und 9 Uhr, ein Dreieck bei 12 Uhr, der Mercedes-Stundenzeiger und der blaue Sekundenzeiger, passend zum blauen Schriftzug »YACHT-MASTER«. Bei 3 Uhr liegt das Datumsfenster mit Zykloplupe. Getragen wird die Uhr am dreireihigen Oyster-Band mit polierten Mittelgliedern."
-   ]
+   ],
+   "dial": "Schiefergrau"
   },
   {
    "id": "air-king",
@@ -10824,7 +10909,8 @@
    "bd": [
     "Die Abbildung zeigt eine Rolex Air-King der 40-Millimeter-Generation mit Gehäuse und Oyster-Band aus Edelstahl, glatter polierter Lünette und schwarzem Zifferblatt im Stil eines Cockpitinstruments.",
     "Zu erkennen sind die großen Ziffern 3, 6 und 9, die Minutenskala mit den Zahlen 05 bis 55 und ein Dreieck bei 12 Uhr. Der Rolex-Schriftzug und der Sekundenzeiger sind grün, das Krönchen ist gelb. Unter der Mitte steht »Air-King« in Schreibschrift, darunter die Chronometerangabe. Der Kronenschutz, den die aktuelle Referenz 126900 hat, ist auf dem Bild nicht deutlich zu erkennen."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "milgauss",
@@ -10920,7 +11006,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Milgauss im Stil der Referenz 1019, die von 1960 bis 1988 gebaut wurde. Gehäuse, glatte Lünette und Oyster-Band sind aus Edelstahl, das Zifferblatt ist schwarz.",
       "Zu erkennen sind der rote Schriftzug »MILGAUSS« unter »OYSTER PERPETUAL«, schlanke Stabindizes mit orangefarbenen Leuchtpunkten und silberne Stabzeiger. Typisch für die 1019 ist der gerade Sekundenzeiger anstelle des Blitzzeigers, der hier orangefarben gehalten ist. Unten steht der Chronometer-Hinweis. Die Uhr hat kein Datum; die verschraubte Krone sitzt rechts am Gehäuse."
-     ]
+     ],
+     "dial": "Schwarz"
     },
     {
      "n": "Ref. 116400GV »Z-Blue«",
@@ -10933,7 +11020,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Milgauss Ref. 116400GV mit dem blauen Zifferblatt, das als »Z-Blue« bekannt ist. Gehäuse, glatte Lünette und Oyster-Band sind aus Edelstahl, das Glas hat den grünen Schimmer, für den das »GV« steht.",
       "Typisch ist der orangefarbene Sekundenzeiger in Blitzform. Zu erkennen sind außerdem aufgesetzte Stabindizes, Stabzeiger mit Leuchtfüllung, orange gedruckte Minutenzahlen am Rand und der orange Schriftzug »MILGAUSS« unter »OYSTER PERPETUAL«. Unten steht die Chronometerangabe, ein Datum gibt es nicht. Das Oyster-Band hat polierte Mittelglieder."
-     ]
+     ],
+     "dial": "Blau"
     }
    ],
    "m": [
@@ -11008,7 +11096,8 @@
    "bd": [
     "Die Abbildung zeigt die Rolex Milgauss Referenz 116400GV, die letzte Milgauss vor der Einstellung im Jahr 2023. Gehäuse, glatte polierte Lünette und Oyster-Band sind aus Edelstahl, das Zifferblatt ist schwarz. Das Kürzel »GV« steht für das grün getönte Saphirglas, das als grüner Ring am Rand sichtbar ist.",
     "Zu erkennen sind der orangefarbene Sekundenzeiger in Form eines Blitzes, die orangefarbenen Minutenziffern in Fünferschritten am Rand und der orangefarbene Schriftzug »MILGAUSS«. Stabindizes und Stabzeiger tragen helle Leuchtmasse, die Krone mit dem Rolex-Wappen sitzt bei 3 Uhr ohne Kronenschutz."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "oyster-perpetual",
@@ -11113,7 +11202,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Oyster Perpetual aus Edelstahl mit korallenrotem Zifferblatt, einer der bunten Farben, die Rolex 2020 einführte. Die glatte, polierte Lünette und das fehlende Datum entsprechen der schlichten Grundform des Modells.",
       "Zu erkennen sind aufgesetzte, weiß gefüllte Stabindizes, Stabzeiger mit Leuchtmasse, ein Minutenkreis mit kleinen weißen Strichen und die Rolex-Krone unter 12 Uhr. Das Zifferblatt trägt die Aufschriften »OYSTER PERPETUAL« und »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Dazu kommen die verschraubte Krone und das Oyster-Band mit satinierten Gliedern und polierten Kanten."
-     ]
+     ],
+     "dial": "Korallenrot"
     },
     {
      "n": "Zifferblatt Gelb",
@@ -11125,7 +11215,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Oyster Perpetual mit gelbem Zifferblatt aus der 2020 eingeführten Generation, die es als Referenz 124300 mit 41 und als 126000 mit 36 Millimetern gibt. Gehäuse, gewölbte glatte Lünette und Oyster-Band sind aus Edelstahl.",
       "Zu erkennen sind aufgesetzte Stabindizes mit Leuchtfüllung, ein Doppelindex bei 12 Uhr, Stabzeiger und ein Zentralsekundenzeiger; ein Datum gibt es nicht. Am Rand liegt eine Minuterie mit schwarzen Fünf-Minuten-Punkten. Unter dem Krönchen stehen »Rolex« und »Oyster Perpetual«, über der 6 die Chronometerangabe. Das dreireihige Oyster-Band ist gebürstet."
-     ]
+     ],
+     "dial": "Gelb"
     },
     {
      "n": "Zifferblatt Grün",
@@ -11136,7 +11227,8 @@
       "lume": null,
       "hc": null,
       "img": null
-     }
+     },
+     "dial": "Grün"
     }
    ],
    "m": [
@@ -11237,7 +11329,8 @@
      "mercedes-gleitze",
      "Oyster-Gehäuse, Rotor und Mercedes Gleitze"
     ]
-   ]
+   ],
+   "dial": "Türkis"
   },
   {
    "id": "sky-dweller",
@@ -11394,7 +11487,8 @@
    "bd": [
     "Die Abbildung zeigt eine Rolex Sky-Dweller der aktuellen Generation 3369xx in Edelstahl mit geriffelter Lünette aus Weißgold, wie sie die Referenz 336934 kennzeichnet. Das Zifferblatt ist blau, getragen wird die Uhr am Oyster-Band.",
     "Zu erkennen sind die außermittige 24-Stunden-Scheibe für die Heimatzeit mit rotem Dreieck unter der Krone, die Stabindizes und Stabzeiger mit Leuchtmasse und das Datumsfenster mit Zykloplupe bei 3 Uhr. Am Rand liegen zwölf kleine Monatsfenster; eines davon ist rot markiert und zeigt den aktuellen Monat an. Die drehbare Lünette dient als »Ring Command« zum Umschalten der Funktionen."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "deepsea",
@@ -11579,7 +11673,8 @@
      "tiefsee-rekorde",
      "James Cameron und das »D-Blue«-Zifferblatt"
     ]
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "seamaster-300",
@@ -11736,7 +11831,8 @@
      "james-bond",
      "2014: Neuauflage und »Spectre«"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "ballon-bleu",
@@ -11858,7 +11954,8 @@
    "bd": [
     "Die Abbildung zeigt eine Cartier Ballon Bleu aus Edelstahl mit silberfarbenem, guillochiertem Zifferblatt und Automatikwerk. Das Gehäuse ist kieselförmig gewölbt, die Lünette glatt und poliert.",
     "Typisch ist die Krone mit blauem Cabochon, die in einer Vertiefung sitzt und von einem Metallbogen am Gehäuserand eingefasst wird; ihre Fassung schimmert hier goldfarben. Zu erkennen sind außerdem die schwarzen römischen Ziffern, die gebläuten Schwertzeiger, der innere Minutenkreis, der Schriftzug »CARTIER« und die Aufschrift »AUTOMATIC«. Das Stahlband hat breite, satinierte Glieder."
-   ]
+   ],
+   "dial": "Silber, guillochiert"
   },
   {
    "id": "panthere",
@@ -11882,7 +11979,7 @@
      "18 Karat (750/1000)"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz"
     ],
     [
@@ -11984,7 +12081,8 @@
    "bd": [
     "Die Abbildung zeigt eine Panthère de Cartier aus Edelstahl, wie sie seit der Neuauflage von 2017 gebaut wird. Das quadratische Gehäuse mit gerundeten Ecken geht nahtlos in das Gliederband über, das Zifferblatt ist silbrig-weiß.",
     "Zu erkennen sind die kleinen Schrauben auf der Lünette, schwarze römische Ziffern, gebläute Schwertzeiger, der Schriftzug »Cartier« unter der 12 und die facettierte Krone mit blauem Cabochon. Typisch ist das schmale, mehrreihige Gliederband, das kaum breiter als das Gehäuse ist und geschmeidig fällt. Einen Sekundenzeiger hat die Quarzuhr nicht."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "ingenieur",
@@ -12134,7 +12232,8 @@
      "genta",
      "1976: Gentas Ingenieur SL und Ref. 3508"
     ]
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "mark-xx",
@@ -12364,7 +12463,8 @@
       "Die Abbildung zeigt eine IWC Pilot’s Watch Chronograph aus der aktuellen Kollektion mit Edelstahlgehäuse, schwarzem Zifferblatt und schwarzem Lederband mit heller Naht.",
       "Typisch ist das Fliegerzifferblatt mit großen weißen arabischen Ziffern und einem Dreieck bei 12 Uhr. Zu erkennen sind drei Hilfszifferblätter: oben der Minutenzähler, links die kleine Sekunde und unten der Stundenzähler. Bei 3 Uhr liegt ein Fenster für Wochentag und Datum, hier »MON 25«, rechts sitzen Krone und zwei Drücker. Die Zeiger sind breite Schwertzeiger mit Leuchtfüllung."
      ],
-     "at": "1994: Pilot’s Watch Chronograph"
+     "at": "1994: Pilot’s Watch Chronograph",
+     "dial": "Schwarz"
     }
    ],
    "lx": [
@@ -12372,7 +12472,8 @@
      "fliegeruhr",
      "1948: Mark 11 für die RAF"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "superocean",
@@ -12492,7 +12593,8 @@
    "bd": [
     "Die Abbildung zeigt eine Breitling Superocean Automatic aus Edelstahl mit blauer Lünette und blauem Zifferblatt. Die Drehlünette trägt eine Taucherskala mit großen Ziffern bei 15, 30 und 45 und einen Leuchtpunkt bei 12 Uhr.",
     "Zu erkennen sind breite, an den Enden abgeschrägte Leuchtindizes, Stabzeiger mit Leuchtfüllung und ein Sekundenzeiger mit Leuchtpunkt. Unter dem geflügelten »B« und »BREITLING 1884« steht der geschwungene Schriftzug »SuperOcean« sowie die Tiefenangabe »300M / 1000FT«. Das Datumsfenster sitzt bei 3 Uhr. Rechts ist die verschraubte Krone, dazu kommt ein Stahlgliederband."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "aquaracer",
@@ -12616,7 +12718,8 @@
    "bd": [
     "Die Abbildung zeigt die TAG Heuer Aquaracer Professional 300 aus Edelstahl mit blauem Zifferblatt. Typisch ist die einseitig drehbare Lünette mit zwölf Facetten, hier mit blauer Einlage, Minutenskala und Leuchtpunkt im Dreieck bei 12 Uhr.",
     "Zu erkennen sind die waagerechten Rillen des Zifferblatts, die an Bootsplanken erinnern, aufgesetzte Leuchtindizes, breite Zeiger mit Leuchtmasse und ein gerahmtes Datumsfenster bei 3 Uhr. Das Zifferblatt trägt die Aufschriften »AQUARACER«, »AUTOMATIC« und »300 m / 1000 ft«. Rechts sitzt die verschraubte Krone, dazu kommt ein Stahlband mit satinierten Gliedern."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "reverso",
@@ -12754,7 +12857,8 @@
    "bd": [
     "Die Abbildung zeigt eine Jaeger-LeCoultre Reverso Tribute mit kleiner Sekunde in einem rechteckigen Wendegehäuse aus hellem Metall. Das Zifferblatt ist silbrig-weiß, das Band aus schwarzem Leder mit Krokodilprägung.",
     "Typisch sind die waagerechten Zierrillen oben und unten am Gehäuse, die den Art-déco-Stil der Reverso prägen. Zu erkennen sind aufgesetzte Stabindizes, ein Doppelindex bei 12 Uhr, gebläute Zeiger für Stunden und Minuten und das kleine Sekundenzifferblatt bei 6 Uhr. Unter der 12 steht der Schriftzug »Jaeger-LeCoultre«, ein Datum gibt es nicht."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "polaris",
@@ -12876,7 +12980,8 @@
      "wecker",
      "Seit 1950 Memovox, 1968 die Polaris mit Wecker"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "lange-1",
@@ -12903,7 +13008,7 @@
     ],
     [
      "Kaliber",
-     "L121.1, Handaufzug, 21.600 A/h"
+     "L121.1, Handaufzug, 21.600 A/h, Neusilber, handgravierter Unruhkloben"
     ],
     [
      "Gangreserve",
@@ -12912,10 +13017,6 @@
     [
      "Funktionen",
      "Großdatum, kleine Sekunde, Gangreserve"
-    ],
-    [
-     "Werk",
-     "Neusilber, handgravierter Unruhkloben"
     ]
    ],
    "refs": [
@@ -13016,7 +13117,8 @@
       "Die Abbildung zeigt eine A. Lange & Söhne Lange 1 in Rotgold mit silberfarbenem Zifferblatt und braunem Lederband. Typisch ist die asymmetrische Anordnung, bei der sich die Anzeigen nicht überdecken.",
       "Zu erkennen sind das links aus der Mitte gerückte Zifferblatt für Stunden und Minuten mit römischen Ziffern, das Großdatum aus zwei Ziffernscheiben rechts oben unter der Signatur »A. LANGE & SÖHNE GLASHÜTTE I/SA« und die kleine Sekunde rechts unten. Ganz rechts verläuft die Gangreserveanzeige mit der Aufschrift »AUF« und »AB«, unten steht »DOPPELFEDERHAUS«. Die Zeiger sind aus Gold, links bei 10 Uhr sitzt der Korrekturdrücker für das Datum."
      ],
-     "at": "1994: Reinhard Meis und die Wiedergründung"
+     "at": "1994: Reinhard Meis und die Wiedergründung",
+     "dial": "Silber"
     },
     {
      "n": "Lange 1 Mondphase",
@@ -13028,7 +13130,8 @@
       "Die Abbildung zeigt eine A. Lange & Söhne Lange 1 Mondphase. Das Gehäuse ist aus Roségold, das Zifferblatt silberfarben, das Band aus braunem Krokodilleder.",
       "Typisch ist das asymmetrische Zifferblatt: links das Zifferblatt für Stunden und Minuten mit römischen Ziffern, rechts oben das Großdatum mit zwei Fenstern und am rechten Rand die Gangreserveanzeige mit »AUF« und »AB«. Unten rechts zeigt ein Hilfszifferblatt die kleine Sekunde zusammen mit der Mondphase vor blauem Sternenhimmel. Unten steht »DOPPELFEDERHAUS«, links am Gehäuse sitzt der Korrekturdrücker für das Datum."
      ],
-     "at": "Mondphase, Zeitzone und Daymatic"
+     "at": "Mondphase, Zeitzone und Daymatic",
+     "dial": "Silber"
     }
    ],
    "lume": {
@@ -13051,7 +13154,8 @@
      "lange-fa",
      "1994: Reinhard Meis und die Wiedergründung"
     ]
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "zeitwerk",
@@ -13167,7 +13271,8 @@
      "bd": [
       "Die Abbildung zeigt eine A. Lange & Söhne Zeitwerk mit schwarzem Zifferblatt und einem Gehäuse aus hellem Metall an einem schwarzen Lederband. Ein Datum zeigt diese Ausführung nicht.",
       "Typisch ist die Anzeige mit springenden Ziffern: In der hellen Brücke zeigen zwei Fenster links die Stunde (hier »7«) und rechts die Minuten (»52«). Darüber liegt die Gangreserveanzeige mit den Aufschriften »Auf« und »Ab«, darunter die kleine Sekunde mit Skala. Zu erkennen sind außerdem der Schriftzug »A. Lange & Söhne Glashütte I/SA«, die Krone bei 2 Uhr und ein Drücker bei 4 Uhr."
-     ]
+     ],
+     "dial": "Schwarz"
     }
    ],
    "lume": {
@@ -13192,7 +13297,8 @@
      "konstantkraft",
      "Konstantkraft für den Stundensprung"
     ]
-   ]
+   ],
+   "dial": "Anthrazit"
   },
   {
    "id": "datograph",
@@ -13323,7 +13429,8 @@
      "bd": [
       "Die Abbildung zeigt eine A. Lange & Söhne Datograph mit Gehäuse aus Rotgold, schwarzem Zifferblatt und dunkelbraunem Lederband. Kennzeichnend ist die symmetrische Anordnung der Anzeigen mit zwei silbernen Hilfszifferblättern und dem Großdatum unter der Zwölf.",
       "Zu erkennen sind die Schriftzüge »DATOGRAPH« und »FLYBACK«, goldene Stabindizes und Zeiger, eine Tachymeterskala am Zifferblattrand und eine kleine Anzeige bei 6 Uhr. Die Hilfszifferblätter zeigen kleine Sekunde und springenden Minutenzähler. Rechts sitzen die Krone zwischen zwei Drückern. Die kleine Anzeige über der Sechs entspricht der Gangreserveanzeige der Datograph Auf/Ab, ist auf dem Bild aber nur undeutlich erkennbar."
-     ]
+     ],
+     "dial": "Schwarz"
     }
    ],
    "lume": {
@@ -13339,7 +13446,8 @@
    "bd": [
     "Die Abbildung zeigt eine A. Lange & Söhne Datograph Auf/Ab mit hellem Metallgehäuse und schwarzem Zifferblatt an einem schwarzen Lederband. Die Gangreserveanzeige der Auf/Ab sitzt klein bei 6 Uhr am Zifferblattrand und ist auf dieser Abbildung kaum zu erkennen.",
     "Zu erkennen sind das Großdatum unter dem bogenförmigen Schriftzug »A. LANGE & SÖHNE«, zwei silberne Hilfszifferblätter für kleine Sekunde und springenden Minutenzähler sowie die Tachymeterskala am Rand. Aufgesetzte Stabindizes und Stabzeiger in Silber heben sich vom schwarzen Grund ab. Rechts sitzen die Krone und die beiden Chronographendrücker, links eine weitere Taste."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "luminor",
@@ -13490,7 +13598,8 @@
    "bd": [
     "Die Abbildung zeigt eine Panerai Luminor Marina aus Edelstahl mit schwarzem Zifferblatt und schwarzem Lederband. Typisch ist der Kronenschutzbügel rechts, der die Krone abdeckt und Aufschriften wie »REG. T.M.« trägt.",
     "Zu erkennen sind das Sandwichzifferblatt mit großen Ziffern bei 12, 6 und 9 und Strichindizes in beigefarbener Leuchtmasse sowie die Schriftzüge »LUMINOR MARINA« und »PANERAI«. Die kleine Sekunde sitzt bei 9 Uhr und hat einen blauen Zeiger, das Datumsfenster liegt bei 3 Uhr. Die Lünette ist glatt und poliert, das Lederband hat helle Kontrastnähte."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "radiomir",
@@ -13624,7 +13733,8 @@
    "bd": [
     "Die Abbildung zeigt eine Panerai Radiomir aus der aktuellen Kollektion. Das kissenförmige Gehäuse ist aus Edelstahl, das Zifferblatt schwarz bis dunkelbraun, das Lederband braun mit heller Naht.",
     "Typisch sind die großen arabischen Ziffern 12, 3, 6 und 9 und die Stabindizes mit beigefarbener Leuchtmasse, die Schwertzeiger und der Schriftzug »RADIOMIR PANERAI« in der oberen Hälfte. Zu erkennen sind außerdem die angesetzten Drahtbügel für das Band und die einfache, gerändelte Krone ohne Schutzbügel."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "skx007",
@@ -13757,7 +13867,8 @@
      "taucheruhr",
      "1996: ISO-6425-Taucher zum kleinen Preis"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "seiko-5",
@@ -13886,7 +13997,8 @@
    "bd": [
     "Die Abbildung zeigt eine Seiko 5 Sports aus der 2019 eingeführten Serie mit Gehäuse und Gliederband aus Edelstahl, schwarzem Zifferblatt und schwarzer Drehlünette mit 60-Minuten-Skala.",
     "Zu erkennen sind runde Leuchtindizes, Balken bei 6 und 9 Uhr und ein Dreieck bei 12 Uhr, dazu breite Stabzeiger mit Leuchtfüllung und ein schlanker Sekundenzeiger. Bei 3 Uhr liegt das Fenster für Wochentag und Datum, hier »MON 28«. Unter dem Seiko-Schriftzug steht das »5«-Logo, über der 6 »Automatic«. Die Krone sitzt bei 4 Uhr, die Lünette hat einen gezahnten Rand."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "presage-cocktail",
@@ -14001,7 +14113,8 @@
    "bd": [
     "Die Abbildung zeigt eine Seiko Presage Cocktail Time mit blauem Zifferblatt in der Art der internationalen Version, für die der Kontext die Referenz SRPB43 nennt. Das runde Gehäuse ist aus Edelstahl, dazu gehört ein dunkelblaues Lederband mit Krokoprägung.",
     "Typisch ist das geprägte Zifferblatt mit strahlenförmigem Muster, das das Licht bricht wie ein Cocktailglas. Zu erkennen sind die polierten, spitz zulaufenden Indizes, die Dauphine-Zeiger, das Datumsfenster bei 3 Uhr und die Schriftzüge »SEIKO«, »PRESAGE« und »AUTOMATIC«. Die Krone ist geriffelt und sitzt bei 3 Uhr."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "astron",
@@ -14017,7 +14130,7 @@
    "cur": "Astron GPS Solar · seit 2012",
    "f": [
     [
-     "Werk",
+     "Kaliber",
      "GPS-Solar-Quarz"
     ],
     [
@@ -14112,7 +14225,8 @@
      "quarzkrise",
      "Offene Patente und Quarzkrise"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "big-bang",
@@ -14243,7 +14357,8 @@
       "Die Abbildung zeigt eine Hublot Big Bang Unico mit Gehäuse aus Titan und skelettiertem Zifferblatt. Das Unico-Werk ist Hublots eigenes Chronographenwerk mit Schaltrad. Getragen wird die Uhr an einem schwarzen, gerippten Kautschukband.",
       "Zu erkennen sind die sechs H-förmigen Schrauben auf der runden Lünette, die schwarzen Gehäuseeinlagen und das durchbrochene Zifferblatt mit Blick auf die Werkteile. Bei 3 Uhr liegt der 30-Minuten-Zähler, bei 9 Uhr die kleine Sekunde. Aufgesetzte Leuchtindizes, Skelettzeiger und die markanten Drücker beiderseits der Krone vervollständigen das Bild."
      ],
-     "at": "Seit 2010: Chronographenwerk Unico"
+     "at": "Seit 2010: Chronographenwerk Unico",
+     "dial": "Skelettiert"
     }
    ],
    "lume": {
@@ -14265,7 +14380,8 @@
      "biver",
      "2005: Bivers »Art of Fusion«"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "classic-fusion",
@@ -14377,7 +14493,8 @@
    "bd": [
     "Die Abbildung zeigt eine Hublot Classic Fusion mit satiniertem, silbergrauem Metallgehäuse und blauem Zifferblatt. Typisch ist die runde Lünette mit sechs sichtbaren H-förmigen Schrauben, die an ein Bullauge erinnert, daher der Name der Marke.",
     "Zu erkennen sind aufgesetzte Stabindizes, schlanke Stabzeiger, ein kleines Datumsfenster bei 3 Uhr und die Aufschrift »AUTOMATIC«. An den Gehäuseflanken zeigt sich eine dunkle Zwischenlage zwischen Lünette und Gehäuse. Die Uhr trägt hier ein Gliederband aus Metall statt des oft verwendeten Kautschukbands, rechts sitzt eine Krone mit dunkler Einlage."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "chronomaster",
@@ -14544,7 +14661,8 @@
      "wettlauf-1969",
      "1969: El Primero mit 5 Hz"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "defy",
@@ -14667,7 +14785,8 @@
    "bd": [
     "Die Abbildung zeigt eine Zenith Defy Skyline, die 2022 erschienene Neuinterpretation der Defy mit 41 Millimetern. Das achteckige Gehäuse mit facettierter Lünette und das integrierte Gliederband sind aus Edelstahl, das Zifferblatt ist blau.",
     "Typisch ist das Zifferblatt mit feinem Muster aus kleinen vierzackigen Sternen. Zu erkennen sind die aufgesetzten Stabindizes und Stabzeiger mit Leuchtmasse, der Zenith-Stern über dem Schriftzug »ZENITH«, das Datumsfenster bei 3 Uhr und das Hilfszifferblatt bei 9 Uhr für die kleine Sekunde. Das Band ist satiniert mit polierten Kanten, die Krone sitzt bei 3 Uhr."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "overseas",
@@ -14822,7 +14941,8 @@
      "bd": [
       "Die Abbildung zeigt eine Vacheron Constantin Overseas Automatic in Roségold mit blauem Zifferblatt. Gehäuse, Lünette und integriertes Gliederband sind aus Roségold; die Lünette hat die sechs Einkerbungen, die an das Malteserkreuz der Marke erinnern.",
       "Zu erkennen sind das Zifferblatt mit Sonnenschliff und feinem Strahlenmuster, aufgesetzte Stabindizes und Stabzeiger mit Leuchtfüllung, das Malteserkreuz unter 12 Uhr und die Signatur »VACHERON CONSTANTIN GENEVE«. Das Datumsfenster sitzt bei 3 Uhr. Das Band besteht aus halben Malteserkreuz-Gliedern, die Krone ist verschraubt und mit einem Gehäuseschutz versehen."
-     ]
+     ],
+     "dial": "Blau"
     }
    ],
    "lume": {
@@ -14844,7 +14964,8 @@
      "stahlsportuhr",
      "Von der 222 zur Overseas 1996"
     ]
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "patrimony",
@@ -14965,7 +15086,8 @@
    "bd": [
     "Die Abbildung zeigt eine Vacheron Constantin Patrimony als reine Zweizeiger-Uhr (Ref. 81180 mit Handaufzug). Das dünne Gehäuse mit schmaler Lünette ist aus Roségold, das Zifferblatt hell opalfarben, das Band aus braunem Krokodilleder.",
     "Typisch sind die schmalen, goldfarbenen Stabindizes, die schlanken Stabzeiger und das leicht gewölbte, schmucklose Zifferblatt. Unter 12 Uhr stehen das Malteserkreuz und »VACHERON CONSTANTIN GENÈVE«. Ein Sekundenzeiger und ein Datum fehlen, am Rand liegt eine feine Minuteneinteilung aus Punkten. Die kleine Krone aus Roségold sitzt bei 3 Uhr."
-   ]
+   ],
+   "dial": "Opal"
   },
   {
    "id": "glashuette-pano",
@@ -15079,7 +15201,8 @@
    "bd": [
     "Die Abbildung zeigt die Glashütte Original PanoMaticLunar mit silberfarbenem Gehäuse und dunkelblauem Zifferblatt. Typisch ist die asymmetrische Aufteilung: Die Anzeige für Stunden und Minuten sitzt links aus der Mitte gerückt, rechts oben liegt die Mondphase.",
     "Zu erkennen sind die kleine Sekunde unterhalb der Hauptanzeige, das Panoramadatum mit zwei großen Ziffern rechts unten, hier »28«, sowie aufgesetzte Stabindizes und silberfarbene Zeiger. Das Zifferblatt trägt den Schriftzug »Glashütte ORIGINAL« und unten »PanoMaticLunar«. Die Uhr ist an einem dunkelblauen Lederband mit Krokodilprägung montiert."
-   ]
+   ],
+   "dial": "Dunkelblau"
   },
   {
    "id": "tangente",
@@ -15197,7 +15320,8 @@
    "bd": [
     "Die Abbildung zeigt eine Nomos Tangente in einem flachen, runden Edelstahlgehäuse mit schmaler Lünette und geraden, schlanken Bandanstößen. Das Zifferblatt ist weiß, das Band aus schwarzem Leder.",
     "Typisch sind die schlanken schwarzen arabischen Ziffern bei 12, 2, 4, 8 und 10 und die feinen Strichindizes dazwischen. Zu erkennen sind außerdem gebläute Zeiger für Stunden und Minuten, die kleine Sekunde bei 6 Uhr mit eigenem Zeiger und der Schriftzug »Nomos Glashütte« unter der 12. Ein Datum hat diese Ausführung nicht."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "legend-diver",
@@ -15310,7 +15434,8 @@
    "bd": [
     "Die Abbildung zeigt eine Longines Legend Diver, die Neuauflage einer Longines-Taucheruhr von 1960, mit Gehäuse aus Edelstahl, schwarzem Zifferblatt und schwarzem Lederband mit hellen Nähten. Statt einer äußeren Drehlünette hat sie einen innen liegenden Drehring.",
     "Zu erkennen sind die beiden Kronen auf der rechten Seite, von denen eine den Innenring mit Dreieck bei 12 und den Ziffern 15, 30 und 45 verstellt. Die arabischen Ziffern 6, 9 und 12, die Stabindizes und die Schwertzeiger tragen cremefarbene Leuchtmasse. Bei 3 Uhr sitzt ein Datumsfenster, über der 6 steht »Automatic« in Schreibschrift."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "master-collection",
@@ -15422,7 +15547,8 @@
    "bd": [
     "Die Abbildung zeigt eine Longines Master Collection aus Edelstahl mit silberfarbenem Zifferblatt an einem braunen Lederband mit heller Steppnaht. Das Zifferblatt trägt das für die Linie typische Gerstenkornmuster.",
     "Zu erkennen sind große schwarze arabische Ziffern, gebläute Blattzeiger und ein gebläuter Sekundenzeiger, dazu eine Minuterie am Rand und das Flügelsanduhr-Logo unter dem Schriftzug »LONGINES«. Das Datum erscheint in einem Fenster bei 3 Uhr, unten steht »AUTOMATIC«. Eine Mondphase hat diese Ausführung nicht."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "fifty-fathoms",
@@ -15576,7 +15702,8 @@
      "taucheruhr",
      "1953: Fiechter und die Kampfschwimmer"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "khaki-field",
@@ -15690,7 +15817,8 @@
    "bd": [
     "Die Abbildung zeigt eine Hamilton Khaki Field Mechanical, die mit 38 Millimetern und Handaufzug gebaut wird. Das matt gebürstete Gehäuse ist aus Edelstahl, das Zifferblatt dunkel, fast schwarz, das Textilband olivgrün.",
     "Zu erkennen sind die großen weißen arabischen Ziffern 1 bis 12, die innen liegende 24-Stunden-Skala, Leuchtdreiecke am Rand und die Zeiger mit beigefarbener Leuchtmasse. Unter 12 Uhr steht »HAMILTON«, darunter »KHAKI MECHANICAL«. Die große Krone sitzt bei 3 Uhr; das Band ist durch die Federstege gezogen, wie es beim Militär üblich war."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "ventura",
@@ -15710,7 +15838,7 @@
      "32,3 × 50,3 mm, Edelstahl, asymmetrisch"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz"
     ],
     [
@@ -15791,7 +15919,8 @@
      "kino-uhren",
      "Elvis, »Men in Black«, heutige Werke"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "sinn-556",
@@ -15894,7 +16023,8 @@
    "bd": [
     "Die Abbildung zeigt eine Sinn 556 A in einem gebürsteten Edelstahlgehäuse mit glatter Lünette und massivem Gliederband aus Edelstahl. Das Zifferblatt ist matt schwarz.",
     "Zu erkennen sind weiße Stabindizes mit Doppelindex bei 12 Uhr, eine feine Minuterie, weiße Stabzeiger mit Leuchtfüllung und ein schlanker Zentralsekundenzeiger. Unter der 12 steht der Schriftzug »Sinn«, über der 6 »Automatik«, am unteren Rand »Made in Germany«. Ein Datumsfenster hat diese Ausführung nicht."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "sinn-u1",
@@ -15993,7 +16123,8 @@
    "bd": [
     "Die Abbildung zeigt die Sinn U1 mit 44 Millimetern und Gehäuse aus U-Boot-Stahl, hier in mattgrauer Ausführung mit passendem Gliederband. Die einseitig drehbare Lünette ist schwarz, ebenso das Zifferblatt.",
     "Typisch sind die kräftigen roten Akzente: Die Lünette trägt rote Punkte zwischen den Minutenzahlen, Sekundenzeiger und Zeigermitte sind rot, ebenso der Schriftzug »AUTOMATIK«. Zu erkennen sind außerdem die breiten, rechteckigen Leuchtindizes, die weißen Stabzeiger, das Leuchtdreieck bei 12 Uhr auf der Lünette, die Aufschrift »1000 m / 100 bar« und die große Krone bei 4 Uhr."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "max-bill",
@@ -16114,7 +16245,8 @@
      "bill",
      "1956: Max Bill entwirft für Junghans"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "g-shock",
@@ -16138,7 +16270,7 @@
      "42,8 × 48,9 mm, Kunststoff"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz, digital"
     ],
     [
@@ -16236,7 +16368,8 @@
    "bd": [
     "Die Abbildung zeigt eine Casio G-Shock aus der Reihe DW-5600 mit schwarzem Kunststoffgehäuse und schwarzem Harzband. Typisch ist die eckige Form mit dem stoßdämpfenden Gehäuse, oben mit »PROTECTION«, unten mit »G-SHOCK« beschriftet.",
     "Zu erkennen sind das LCD-Display mit Wochentag, Datum und digitaler Uhrzeit samt Sekunden sowie die Einfassung mit blauem und rotem Rahmen. Darauf stehen »CASIO«, »ILLUMINATOR« für die Hintergrundbeleuchtung und »ALARM CHRONO«. An den Seiten sitzen die vier Bedientasten, die im Gehäuse versenkt sind."
-   ]
+   ],
+   "dial": "Digitalanzeige"
   },
   {
    "id": "classique",
@@ -16260,7 +16393,7 @@
      "18 Karat (750/1000)"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "Stunden, Minuten, kleine Sekunde bei 5 Uhr"
     ],
     [
@@ -16353,7 +16486,8 @@
      "breguet",
      "Breguets Gestaltung um 1800"
     ]
-   ]
+   ],
+   "dial": "Dunkelblau, guillochiert"
   },
   {
    "id": "type-xx",
@@ -16479,7 +16613,8 @@
      "fliegeruhr",
      0
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "swatch-original",
@@ -16500,7 +16635,7 @@
      "Kunststoff (heute oft Biokunststoff)"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz"
     ],
     [
@@ -16590,7 +16725,8 @@
      "quarzkrise",
      "Krise der Schweizer Uhrenindustrie"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "moonswatch",
@@ -16610,7 +16746,7 @@
      "42 mm, Biokeramik"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz-Chronograph"
     ],
     [
@@ -16663,7 +16799,8 @@
       "Die Abbildung zeigt die Swatch MoonSwatch »Mission to Mars« aus der ersten Serie von 2022. Das Gehäuse aus roter Biokeramik übernimmt die Form der Omega Speedmaster Moonwatch, Lünette und Zifferblatt sind weiß.",
       "Zu erkennen sind die Tachymeterskala auf der Lünette, drei hellgraue Hilfszifferblätter mit roten Zeigern und die Schriftzüge »OMEGA x swatch«, »Speedmaster« und »MOONSWATCH«. Die Stundenzeiger und Indizes sind weiß, der zentrale Stoppsekundenzeiger rot. Rechts sitzen Krone und zwei Drücker in Rot, das weiße Klettband trägt ein Omega-Logo."
      ],
-     "at": "Elf Modelle nach Himmelskörpern"
+     "at": "Elf Modelle nach Himmelskörpern",
+     "dial": "Weiß"
     },
     {
      "n": "Mission to Neptune",
@@ -16678,7 +16815,8 @@
       "Die Abbildung zeigt die Omega × Swatch MoonSwatch »Mission to Neptune« mit Gehäuse aus blauer Biokeramik und dunkelblauem Zifferblatt. Die Form folgt der Omega Speedmaster Moonwatch, die Lünette trägt die Tachymeterskala mit der Aufschrift »TACHYMÈTRE«.",
       "Zu erkennen sind drei Hilfszifferblätter, Stabindizes und Stabzeiger mit heller Leuchtmasse sowie die Schriftzüge »OMEGA × swatch«, »Speedmaster« und »MOONSWATCH«. Rechts sitzen die Krone und zwei Drücker zwischen asymmetrischen Ausformungen des Gehäuses. Die Uhr trägt ein dunkelblaues Klettband mit Omega-Schriftzug."
      ],
-     "at": "Elf Modelle nach Himmelskörpern"
+     "at": "Elf Modelle nach Himmelskörpern",
+     "dial": "Dunkelblau"
     }
    ],
    "m": [
@@ -16734,7 +16872,8 @@
      "mondlandung",
      "März 2022: Speedmaster aus Biokeramik"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "prx",
@@ -16816,7 +16955,8 @@
      "bd": [
       "Die Abbildung zeigt die Tissot PRX Powermatic 80 aus Edelstahl mit grünem Zifferblatt. Typisch ist das flache Tonneau-Gehäuse, das nahtlos in das integrierte Gliederband übergeht, wie bei den Sportuhren der 1970er-Jahre.",
       "Zu erkennen sind das Zifferblatt mit Waffelmuster, aufgesetzte Stabindizes, Stabzeiger mit Leuchtmasse und ein gerahmtes Datumsfenster bei 3 Uhr. Das Zifferblatt trägt die Aufschriften »TISSOT 1853«, »PRX« und »POWERMATIC 80«. Lünette und Gehäuse wechseln zwischen satinierten und polierten Flächen, das Band hat breite, satinierte Glieder."
-     ]
+     ],
+     "dial": "Grün"
     }
    ],
    "m": [
@@ -16859,7 +16999,8 @@
    "bd": [
     "Die Abbildung zeigt eine Tissot PRX Powermatic 80, die seit 2021 als Neuauflage der PRX von 1978 gebaut wird. Das flache Gehäuse mit integriertem Gliederband ist aus Edelstahl, das Zifferblatt blau mit Waffelmuster.",
     "Zu erkennen sind aufgesetzte Stabindizes mit Leuchtmasse, Stabzeiger, das Datumsfenster bei 3 Uhr und die Aufschriften »TISSOT 1853« sowie »PRX POWERMATIC 80«. Typisch ist der Übergang vom Gehäuse in das Band ohne sichtbare Stege, wie bei den Sportuhren der 1970er-Jahre."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "aquis",
@@ -16974,7 +17115,8 @@
    "bd": [
     "Die Abbildung zeigt eine Oris Aquis mit Datum, Gehäuse und Gliederband aus Edelstahl, blauem Zifferblatt mit Sonnenschliff und blauer Drehlünette. Ob es sich um die Version mit dem eigenen Kaliber 400 handelt, lässt das Bild nicht erkennen.",
     "Zu erkennen sind die Minutenskala der Lünette mit Zahlen im Zehnerabstand und einem Leuchtpunkt im Dreieck bei 12 Uhr, breite aufgesetzte Stabindizes und Stabzeiger mit Leuchtfüllung. Das Datumsfenster liegt bei 6 Uhr, darüber stehen »Aquis« und »300 m / 1000 ft«. Typisch sind die kräftigen, kurzen Bandanstöße, die das Band fast integriert wirken lassen."
-   ]
+   ],
+   "dial": "Blau, Sonnenschliff"
   },
   {
    "id": "big-crown",
@@ -17085,7 +17227,8 @@
    "bd": [
     "Die Abbildung zeigt eine Oris Big Crown Pointer Date mit Gehäuse aus Edelstahl, cremefarbenem Zifferblatt und braunem Lederband mit hellen Nähten. Namensgebend ist die große Krone, die sich auch mit Handschuhen bedienen lässt.",
     "Typisch ist das Zeigerdatum: Ein zusätzlicher Zeiger mit roter Spitze zeigt auf den Kreis mit den Zahlen 1 bis 31 am Zifferblattrand. Zu erkennen sind außerdem die großen arabischen Ziffern, die Schwertzeiger mit Leuchtmasse, die geriffelte Lünette und der Schriftzug »BIG CROWN POINTER DATE« über der 6."
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "br-03",
@@ -17221,7 +17364,8 @@
    "bd": [
     "Die Abbildung zeigt eine Bell & Ross BR 03 mit quadratischem, mattschwarzem Gehäuse, schwarzem Zifferblatt und schwarzem Kautschukband. Typisch ist der runde Zifferblattausschnitt im Quadrat mit vier Schrauben in den Ecken, angelehnt an ein Cockpitinstrument.",
     "Zu erkennen sind große weiße arabische Ziffern bei 12, 3, 6 und 9, breite Indizes und Zeiger mit Leuchtmasse sowie das Datumsfenster zwischen 4 und 5 Uhr. Auf dem Zifferblatt stehen »Bell & Ross« und »BR 03-A«. Die gerändelte Krone sitzt rechts, auf dem Band ist das Kürzel »BR« eingeprägt."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "alpine-eagle",
@@ -17353,7 +17497,8 @@
    "bd": [
     "Die Abbildung zeigt eine Chopard Alpine Eagle aus Edelstahl, nach dem Kontext aus Chopards Lucent Steel, mit blauem Zifferblatt. Typisch ist die runde Lünette mit acht Schrauben, die paarweise angeordnet sind, und das integrierte Gliederband.",
     "Zu erkennen sind das strukturierte Zifferblatt mit radialem Muster, das an die Iris eines Adlerauges erinnern soll, eine römische XII, aufgesetzte Stabindizes und Stabzeiger mit Leuchtfüllung. Das Datumsfenster sitzt bei 6 Uhr, unter der Mitte stehen »CHOPARD« und »ALPINE EAGLE«. Die Krone ist rechts in einen Gehäuseschutz eingebettet, die Bandglieder sind satiniert mit polierten Mittelstücken."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "laureato",
@@ -17490,7 +17635,8 @@
      "stahlsportuhr",
      "1975: Luxus-Sportuhr mit Quarzwerk"
     ]
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "ranger",
@@ -17620,7 +17766,8 @@
    "bd": [
     "Die Abbildung zeigt eine Tudor Ranger aus Edelstahl mit mattem schwarzem Zifferblatt und glatter Lünette. Die gut ablesbare Gestaltung steht in der Tradition der einfachen Werkzeuguhren der Marke.",
     "Zu erkennen sind die großen arabischen Ziffern 12, 3, 6 und 9 und die Stabindizes mit beigefarbener Leuchtmasse, Zeiger mit gleicher Leuchtfüllung und der Schriftzug »RANGER« unter der Mitte. Ein Datum fehlt. Gehäuse und Bandanstöße sind satiniert, die Uhr trägt ein schwarzes Textilband mit beigefarbener Naht."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "black-bay-gmt",
@@ -17737,7 +17884,8 @@
    "bd": [
     "Die Abbildung zeigt die Tudor Black Bay GMT Referenz M79830RB mit 41 Millimetern, Gehäuse und Gliederband aus Edelstahl und schwarzem Zifferblatt. Die drehbare Lünette mit 24-Stunden-Skala ist in der oberen Hälfte blau und in der unteren burgunderrot.",
     "Zu erkennen sind der Stundenzeiger mit großem, eckigem Leuchtfeld, runde Leuchtindizes, Balken bei 6 und 9 Uhr und ein Dreieck bei 12 Uhr sowie der rote GMT-Zeiger mit dreieckiger Spitze. Bei 3 Uhr sitzt das Datumsfenster, über der 6 stehen »GMT« und die Chronometerangabe. Die große Krone sitzt ohne Kronenschutz am Gehäuse."
-   ]
+   ],
+   "dial": "Schwarz, lackiert"
   },
   {
    "id": "perpetual-1908",
@@ -17885,7 +18033,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Perpetual 1908 Referenz 52509 mit Gehäuse aus Weißgold und schwarzem Zifferblatt an einem schwarzen Lederband. Das flache, 39 Millimeter große Gehäuse hat eine teilweise geriffelte Lünette.",
       "Zu erkennen sind die arabischen Ziffern bei 3, 9 und 12, schlanke Stabindizes und feine Stabzeiger. Bei 6 Uhr sitzt die kleine Sekunde mit eigener Skala, darüber die Rolex-Krone und der Schriftzug »PERPETUAL 1908«. Das Zifferblatt hat eine feine Minuterie am Rand. Das Lederband ist mit Krokodilprägung versehen, die Krone sitzt rechts am Gehäuse."
-     ]
+     ],
+     "dial": "Schwarz"
     }
    ],
    "lume": {
@@ -17906,7 +18055,8 @@
      "wilsdorf",
      "2023: Nachfolgerin der Cellini"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "land-dweller",
@@ -18038,7 +18188,8 @@
      "bd": [
       "Die Abbildung zeigt eine Rolex Land-Dweller der Referenz 127234, die seit 2025 mit 36 Millimetern aus Oystersteel mit Weißgoldlünette gebaut wird. Das Zifferblatt ist blau, das Band ein fast nahtlos anschließendes Flat-Jubilee-Band.",
       "Zu erkennen sind die geriffelte Lünette, das lasergravierte Wabenmuster auf dem Zifferblatt, aufgesetzte Stabindizes und Stabzeiger sowie das Datumsfenster bei 3 Uhr. Unter dem Kronenlogo steht »OYSTER PERPETUAL LAND-DWELLER«, über 6 Uhr »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Das flache Gehäuse greift den Stil der Oysterquartz auf."
-     ]
+     ],
+     "dial": "Blau"
     }
    ],
    "lume": {
@@ -18053,7 +18204,8 @@
    "bd": [
     "Die Abbildung zeigt die Rolex Land-Dweller aus Oystersteel mit geriffelter Lünette aus Weißgold und weißem Zifferblatt. Das Gehäuse geht nahtlos in ein flaches, integriertes Gliederband über.",
     "Typisch ist das Zifferblatt mit eingeprägtem Wabenmuster. Zu erkennen sind schmale aufgesetzte Stabindizes, Stabzeiger, die Rolex-Krone bei 12 Uhr, die Aufschriften »OYSTER PERPETUAL LAND-DWELLER« und »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED« sowie das Datumsfenster bei 3 Uhr. Am Rand ist eine fein gedruckte Fünfminutenskala zu sehen. Das Band hat fünf Reihen flacher Glieder, die Mittelglieder sind poliert."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "turtle",
@@ -18085,7 +18237,7 @@
      "Einseitig drehbar, 60 Minuten"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "Datum"
     ],
     [
@@ -18199,7 +18351,8 @@
    "bd": [
     "Die Abbildung zeigt eine Seiko Prospex im kissenförmigen »Turtle«-Gehäuse aus Edelstahl mit schwarzem Zifferblatt. Die einseitig drehbare Lünette ist schwarz mit Minutenskala und Leuchtpunkt im Dreieck bei 12 Uhr.",
     "Zu erkennen sind große runde Leuchtindizes, Balken bei 3, 6 und 9 Uhr, ein Doppelbalken bei 12 Uhr, breite Zeiger mit Leuchtmasse und ein Datumsfenster bei 3 Uhr ohne Wochentag. Das Zifferblatt trägt das Prospex-Logo und die Aufschriften »AUTOMATIC« und »DIVER'S 200m«. Die Krone sitzt bei 4 Uhr, das Band ist schwarzer Kautschuk."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "alpinist",
@@ -18344,7 +18497,8 @@
    "bd": [
     "Die Abbildung zeigt die Seiko Prospex Alpinist Referenz SPB121 mit 39,5 Millimetern, Edelstahlgehäuse und dunkelgrünem Zifferblatt. Dazu gehört ein dunkelbraunes Lederband mit heller Naht.",
     "Typisch sind der innen liegende Drehring mit Himmelsrichtungen, der über die zweite Krone bei 4 Uhr verstellt wird, und die goldfarbenen arabischen Ziffern im Wechsel mit dreieckigen Indizes. Zu erkennen sind außerdem goldfarbene Zeiger, das Datumsfenster bei 3 Uhr und unter dem X-Logo der Prospex-Linie die Aufschrift »Automatic 20BAR«."
-   ]
+   ],
+   "dial": "Dunkelgrün"
   },
   {
    "id": "gs-sbgw231",
@@ -18463,7 +18617,8 @@
    "bd": [
     "Die Abbildung zeigt die Grand Seiko SBGW231 aus der Elegance-Kollektion mit 37,3 Millimetern und dem Handaufzugskaliber 9S64. Das polierte Gehäuse ist aus Edelstahl, das Zifferblatt elfenbeinfarben, das Lederband schwarz mit Krokoprägung.",
     "Zu erkennen sind die polierten Stabindizes mit doppelter Markierung bei 12 Uhr, die Dauphine-Zeiger mit Spiegelschliff und das Logo »GS Grand Seiko«. Auf Datum und Leuchtmasse wird verzichtet, sodass das Zifferblatt sehr aufgeräumt wirkt. Die Krone bei 3 Uhr ist geriffelt."
-   ]
+   ],
+   "dial": "Elfenbein"
   },
   {
    "id": "spirit",
@@ -18586,7 +18741,8 @@
    "bd": [
     "Die Abbildung zeigt eine Longines Spirit aus Edelstahl mit blauem Zifferblatt am Gliederband, eine Ausführung der Referenz L3.810.4 mit 40 Millimetern. Gehäuse und Lünette sind poliert und satiniert.",
     "Typisch sind die großen aufgesetzten arabischen Ziffern mit Leuchtmasse, die schwertförmigen Zeiger und die Minuterie mit Leuchtpunkten am Rand. Zu erkennen sind außerdem das Datumsfenster bei 3 Uhr, das Flügelsanduhr-Logo und unter der Mitte fünf Sterne mit »AUTOMATIC«. Die Krone ist groß und gerillt und sitzt rechts am Gehäuse."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "gentleman",
@@ -18706,7 +18862,8 @@
    "bd": [
     "Die Abbildung zeigt eine Tissot Gentleman aus Edelstahl mit blauem Zifferblatt und Stahlgliederband. Das runde Gehäuse hat eine glatte, polierte Lünette.",
     "Zu erkennen sind das Zifferblatt mit Sonnenschliff, aufgesetzte Stabindizes, Stabzeiger mit Leuchtfüllung und ein schlanker Zentralsekundenzeiger. Unter der Signatur »TISSOT 1853« liegt das Datumsfenster bei 3 Uhr; unten stehen »POWERMATIC 80« und »SILICIUM«, der Hinweis auf das Automatikwerk mit Spiralfeder aus Silizium. Das Band besteht aus satinierten Gliedern mit polierten Zwischenstücken."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "murph",
@@ -18839,7 +18996,8 @@
      "kino-uhren",
      "»Interstellar« und Christopher Nolan"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "orion",
@@ -18867,7 +19025,7 @@
      "Weiß versilbert, silberfarbene Indizes"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "Kleine Sekunde bei 6 Uhr"
     ],
     [
@@ -18944,7 +19102,8 @@
    "bd": [
     "Die Abbildung zeigt eine Nomos Orion mit poliertem Edelstahlgehäuse und hellem, silberweißem Zifferblatt. Typisch sind die leicht gewölbte Lünette und die langen, gebogenen Bandanstöße.",
     "Zu erkennen sind schlanke, aufgesetzte, silberfarbene Stabindizes, spitze gebläute Zeiger und die kleine Sekunde bei 6 Uhr. Ein Datum fehlt. Das Zifferblatt trägt die Aufschriften »NOMOS GLASHÜTTE« und »MADE IN GERMANY«. Die Uhr ist an einem schwarzen Lederband montiert, rechts sitzt eine kleine geriffelte Krone."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "pasha",
@@ -19083,7 +19242,8 @@
      "genta",
      "1985: Gentas Entwurf und der Pascha"
     ]
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "historiques-222",
@@ -19222,7 +19382,8 @@
      "stahlsportuhr",
      "1977: Jorg Hysek und das Jubiläum"
     ]
-   ]
+   ],
+   "dial": "Dunkelblau"
   },
   {
    "id": "octo-finissimo",
@@ -19367,7 +19528,8 @@
    "bd": [
     "Die Abbildung zeigt eine Bulgari Octo Finissimo Automatic mit Gehäuse und Gliederband aus mattem, sandgestrahltem Titan. Typisch ist das facettierte Gehäuse, das ein Achteck mit einem runden Zifferblatt verbindet und nahtlos in das Band übergeht.",
     "Zu erkennen sind das graue Zifferblatt in der Farbe des Gehäuses, schwarze Stabindizes und die Ziffern 12 und 6 in schmaler Schrift. Die Zeiger sind schlank und schwarz, eine kleine Sekunde sitzt zwischen 7 und 8 Uhr. In der Mitte steht »BVLGARI«. Die Krone ist klein und liegt flach an der rechten Gehäuseflanke."
-   ]
+   ],
+   "dial": "Grau"
   },
   {
    "id": "captain-cook",
@@ -19485,7 +19647,8 @@
    "bd": [
     "Die Abbildung zeigt eine Rado Captain Cook Automatic aus Edelstahl mit grüner Drehlünette, grünem Zifferblatt und braunem Lederband. Die Lünette trägt eine Taucherskala mit Ziffern bei 15, 30 und 45 und ein Dreieck bei 12 Uhr.",
     "Zu erkennen sind das Zifferblatt mit Sonnenschliff und Verlauf zum Rand hin, keilförmige Leuchtindizes, der breite pfeilförmige Stundenzeiger und der beige Leuchtton der Zeiger. Unter dem beweglichen Anker-Logo steht »RADO«, darunter der geschwungene Schriftzug »Captain Cook«. Das Datumsfenster sitzt bei 3 Uhr, das Lederband hat helle Kontrastnähte."
-   ]
+   ],
+   "dial": "Grün"
   },
   {
    "id": "promaster-diver",
@@ -19593,7 +19756,8 @@
    "bd": [
     "Die Abbildung zeigt eine Citizen Promaster Diver mit Eco-Drive-Solarantrieb (BN0150). Gehäuse und Gliederband sind aus Edelstahl, die einseitig drehbare Lünette ist schwarz, das Zifferblatt ebenfalls.",
     "Zu erkennen sind große runde und rechteckige Leuchtindizes, der breite Stundenzeiger mit Leuchtfläche und der Pfeil als Minutenzeiger, das Datumsfenster zwischen 4 und 5 Uhr und die Aufschrift »Eco-Drive DIVER'S 200m«. Die Krone sitzt bei 4 Uhr, die Lünette hat einen grob gezahnten Rand und einen Leuchtpunkt bei 12 Uhr."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "sub-300",
@@ -19708,7 +19872,8 @@
    "bd": [
     "Die Abbildung zeigt eine Doxa SUB 300T Professional der Neuauflage mit kissenförmigem Edelstahlgehäuse und orangem Zifferblatt, das bei Doxa »Professional« heißt. Die Lünette trägt neben der Minutenskala in Schwarz eine Tabelle für Tauchzeiten ohne Dekompressionspause mit Tiefenangaben in Orange.",
     "Zu erkennen sind breite Leuchtindizes, ein kurzer, breiter Stundenzeiger, ein Datumsfenster bei 3 Uhr und die Aufschriften »DOXA automatic« und »SUB 300T professional«. Rechts sitzt die verschraubte Krone, das Band ist ein Stahlband mit vielen kleinen, gerundeten Gliedern."
-   ]
+   ],
+   "dial": "Orange"
   },
   {
    "id": "laco-aachen",
@@ -19824,7 +19989,8 @@
      "fliegeruhr",
      0
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "portofino",
@@ -19933,7 +20099,8 @@
    "bd": [
     "Die Abbildung zeigt eine IWC Portofino Automatic aus Edelstahl mit silberfarbenem Zifferblatt und schwarzem Lederband. Das runde Gehäuse hat eine schmale, polierte Lünette.",
     "Zu erkennen sind römische Ziffern bei 12 und 6 Uhr, schlanke aufgesetzte Stabindizes, Blattzeiger und eine fein gedruckte Minuterie mit Fünfminutenzahlen. Das Datumsfenster sitzt bei 3 Uhr, unter der Mitte stehen »PORTOFINO« und »AUTOMATIC«, oben »IWC SCHAFFHAUSEN«. Der Zentralsekundenzeiger ist sehr schlank, die gerändelte Krone sitzt rechts. Die Uhr trägt ein Lederband mit Alligatorprägung."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "cellini",
@@ -20063,7 +20230,8 @@
    "bd": [
     "Die Abbildung zeigt eine Rolex Cellini Time aus der 2014 erneuerten Linie mit rundem 39-Millimeter-Gehäuse. Das Gehäuse ist aus Roségold, das Zifferblatt cremeweiß, das Band aus schwarzem Krokodilleder.",
     "Typisch sind die doppelte Lünette mit geriffeltem Rand, die hohen, schmalen Anstöße und die schlanken Zeiger in Blattform. Zu erkennen sind dünne Stabindizes, das Kronenlogo mit »ROLEX GENEVE« und der Schriftzug »Cellini« in Schreibschrift über 6 Uhr. Ein Datum fehlt, wie bei der Cellini Time vorgesehen."
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "oysterquartz",
@@ -20212,7 +20380,8 @@
    "bd": [
     "Die Abbildung zeigt die Rolex Oysterquartz Datejust Referenz 17000 aus Edelstahl mit silberfarbenem Zifferblatt. Typisch ist das kantige Oyster-Gehäuse mit aufgesetzter Lünette, das eckiger wirkt als bei der Datejust und fest mit dem Gliederband verbunden ist.",
     "Zu erkennen sind aufgesetzte Stabindizes, schlanke Stabzeiger, das Datumsfenster bei 3 Uhr und die Aufschriften »OYSTERQUARTZ DATEJUST« sowie »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Gehäuse und Band sind überwiegend satiniert, die Lünette ist glatt. Rechts sitzt die verschraubte Krone."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "yacht-master-ii",
@@ -20237,7 +20406,7 @@
      "18 Karat (750/1000)"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Regatta-Countdown, Flyback-Chronograph"
     ],
     [
@@ -20347,7 +20516,8 @@
    "bd": [
     "Die Abbildung zeigt die Rolex Yacht-Master II Referenz 116680 mit 44 Millimetern in Edelstahl, mit blauer Keramiklünette, weißem Zifferblatt und Oyster-Band.",
     "Typisch ist die Regatta-Funktion: Die Lünette trägt die Ziffern 10 bis 0 und den Schriftzug »Yacht-Master II«, auf dem Zifferblatt verläuft ein blau eingefasster Bogen mit Countdown-Ziffern und einem roten Dreieck. Zu erkennen sind außerdem der rote zentrale Zeiger, die kleine Sekunde mit blauem Ring bei 6 Uhr, eckig eingefasste Leuchtindizes, der Mercedes-Stundenzeiger und zwei Drücker neben der Krone mit Kronenschutz."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "rolex-prince",
@@ -20372,7 +20542,7 @@
      "18 Karat (750/1000)"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Handaufzug, Präzisionswerk"
     ],
     [
@@ -20467,7 +20637,8 @@
    "bd": [
     "Die Abbildung zeigt eine rechteckige Rolex Prince mit Gehäuse aus Roségold und dunkelbraunem Lederband. Typisch für die Prince ist das geteilte Zifferblatt mit einem Feld für die Stunden oben und einem großen Feld für die kleine Sekunde unten.",
     "Zu erkennen sind das braune Zifferblatt mit goldenen arabischen Ziffern bei 12, 3 und 9, Stabindizes, die Rolex-Krone und das quadratische Sekundenfeld mit eigenen Indizes. Gehäuse oben und unten sind quer geriffelt, die Seiten gestuft. Das Bild zeigt eine neuwertig wirkende Uhr; ob es sich um ein Vintage-Exemplar oder eine spätere Ausführung handelt, lässt sich daraus nicht sicher ablesen."
-   ]
+   ],
+   "dial": "Braun"
   },
   {
    "id": "ploprof",
@@ -20484,7 +20655,7 @@
    "cur": "Seamaster Ploprof mit 600-Meter-Angabe (»600 m / 2000 ft«) auf dem Zifferblatt",
    "f": [
     [
-     "Wasserdichtigkeit",
+     "Wasserdicht",
      "600 m laut Zifferblatt (Neuauflagen seit 2009: 1.200 m)"
     ],
     [
@@ -20606,7 +20777,8 @@
    "bd": [
     "Die Abbildung zeigt eine Omega Seamaster Ploprof mit monolithischem Gehäuse aus Metall, schwarzem Zifferblatt und schwarzer Lünette. Typisch ist die ungewöhnliche Form mit der Krone bei 9 Uhr unter einem Schutz und dem orangefarbenen Knopf oben rechts, der die Lünette entriegelt.",
     "Zu erkennen sind breite Leuchtindizes, der weiße Stundenzeiger und der orangefarbene Minutenzeiger, der für Taucher gut ablesbar ist. Unter dem Omega-Logo steht in Orange »Seamaster« und darunter die Tiefenangabe »600 m / 2000 ft«. Die Lünette trägt eine Taucherskala mit Dreieck bei 12 Uhr. Die Uhr sitzt an einem Metallband aus vielen ineinandergreifenden Gliedern, das an ein Kettenhemd erinnert."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "flightmaster",
@@ -20629,7 +20801,7 @@
      "910 / 911"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Chronograph, zweite Zeitzone"
     ],
     [
@@ -20726,7 +20898,8 @@
    "bd": [
     "Die Abbildung zeigt einen Omega Flightmaster, den Pilotenchronographen mit Handaufzug aus den Jahren ab 1969. Das große, asymmetrisch geformte Gehäuse ist aus Edelstahl, das Zifferblatt schwarz, das Band ein braunes, gelochtes Lederband.",
     "Zu erkennen sind die farbigen Zeiger: blau für die zweite Zeitzone, orange für den Chronographen. Bei 9 Uhr liegt ein Hilfszifferblatt mit grünem Segment, bei 3 Uhr ein Minutenzähler. Um das Zifferblatt läuft ein Ring mit Minutenskala. Am Gehäuse sitzen links zwei Kronen, rechts die Krone zwischen zwei Drückern."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "globemaster",
@@ -20846,7 +21019,8 @@
    "bd": [
     "Die Abbildung zeigt eine Omega Constellation Globemaster aus Edelstahl mit silbrig-weißem Pie-Pan-Zifferblatt. Typisch ist die geriffelte Lünette, die zusammen mit dem facettierten Zifferblatt auf die Constellation von 1952 zurückgreift.",
     "Zu erkennen sind aufgesetzte, facettierte Stabindizes, schlanke Zeiger, das Datumsfenster bei 6 Uhr und darüber der Stern der Constellation. Das Zifferblatt trägt die Aufschriften »Globemaster«, »CO-AXIAL« und »MASTER CHRONOMETER«. Die Uhr ist an einem Stahlband mit satinierten und polierten Gliedern montiert."
-   ]
+   ],
+   "dial": "Weiß, »Pie-Pan«"
   },
   {
    "id": "de-ville-tresor",
@@ -20953,7 +21127,8 @@
    "bd": [
     "Die Abbildung zeigt eine Omega De Ville Trésor mit Handaufzug in einem flachen, polierten Gehäuse aus hellem Metall mit schmaler Lünette. Das leicht gewölbte Zifferblatt ist cremefarben, dazu kommt ein schwarzes Lederband mit Krokodilprägung.",
     "Zu erkennen sind feine aufgesetzte Stabindizes, schlanke Stabzeiger für Stunden und Minuten und das Omega-Symbol mit Schriftzug unter der 12. Über der 6 stehen »De Ville« und »Trésor«. Einen Sekundenzeiger oder ein Datum zeigt das Zifferblatt nicht, was dem puristischen Charakter der Trésor entspricht. Die Krone ist klein und flach."
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "golden-ellipse",
@@ -21091,7 +21266,8 @@
    "bd": [
     "Die Abbildung zeigt eine Patek Philippe Golden Ellipse aus Gelbgold mit blauem Zifferblatt und dunkelblauem Lederband. Typisch ist die ovale Gehäuseform, deren Achsenverhältnis an den Goldenen Schnitt angelehnt ist.",
     "Zu erkennen sind das Zifferblatt mit Sonnenschliff, aufgesetzte Stabindizes aus Gold und schlanke goldene Stabzeiger für Stunden und Minuten. Eine Sekundenanzeige und ein Datum fehlen. Die Signatur »PATEK PHILIPPE GENEVE« steht unter 12 Uhr. Die Krone ist klein und sitzt bei 3 Uhr, das Lederband hat Alligatorprägung und helle Nähte."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "twenty4",
@@ -21204,7 +21380,8 @@
    "bd": [
     "Die Abbildung zeigt eine Patek Philippe Twenty~4 im rechteckigen Gehäuse aus Edelstahl, der Form der Ref. 4910, mit der die Linie 1999 begann. Das Zifferblatt ist blau mit Sonnenschliff, das Gliederband aus Edelstahl.",
     "Zu erkennen sind die beiden Diamantreihen an den Gehäuseseiten, die römischen Ziffern XII und VI, Diamanten als Stundenindizes und schlanke Stabzeiger. Unter 12 Uhr steht »PATEK PHILIPPE GENEVE«. Die Krone trägt einen blauen Cabochon."
-   ]
+   ],
+   "dial": "Blau, Sonnenschliff"
   },
   {
    "id": "chrono-ewiger-kalender",
@@ -21333,7 +21510,8 @@
      "bd": [
       "Die Abbildung zeigt einen Patek Philippe Ewigen Kalender Chronographen der Referenz 5270 mit 41 Millimetern in Rotgold und mit Handaufzug. Das Zifferblatt ist silbrig-opalin mit warmem Ton, dazu kommen Drücker aus Rotgold und ein dunkelbraunes Lederband mit Krokodilprägung.",
       "Zu erkennen sind die Fenster für Wochentag und Monat unter der 12, hier »SAT« und »MAR«, die beiden Hilfszifferblätter des Chronographen bei 3 und 9 Uhr und bei 6 Uhr ein Zeigerdatum rund um die Mondphase. Zwei kleine runde Fenster daneben ergänzen die Kalenderanzeigen. Am Rand verläuft eine Tachymeterskala, Indizes und Zeiger sind aus Rotgold."
-     ]
+     ],
+     "dial": "Silber"
     }
    ],
    "lume": {
@@ -21359,7 +21537,8 @@
      "ewiger-kalender",
      "Kalender bis 2100 und Chronograph"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "royal-oak-concept",
@@ -21383,7 +21562,7 @@
      "Tourbillon, GMT"
     ],
     [
-     "Werk",
+     "Kaliber",
      "skelettiert"
     ],
     [
@@ -21461,7 +21640,8 @@
    "bd": [
     "Die Abbildung zeigt eine Audemars Piguet Royal Oak Concept mit Gehäuse aus Titan und schwarzem Kautschukband. Typisch ist die achteckige Lünette mit sechseckigen Schrauben, die das Gehäuse der Royal Oak in eine kantigere Form übersetzt.",
     "Zu erkennen sind das skelettierte Werk mit schwarzen Brücken in X-Form, das fliegende Tourbillon bei 6 Uhr und das aufgesetzte AP-Monogramm bei 12 Uhr. Die Zeiger sind skelettiert und mit Leuchtmasse gefüllt, Stabindizes sitzen auf einem schwarzen Ring. Rechts liegt die Krone in einem schwarzen Kronenschutz, das Band hat ein markantes Profil."
-   ]
+   ],
+   "dial": "Skelettiert"
   },
   {
    "id": "millenary",
@@ -21588,7 +21768,8 @@
    "bd": [
     "Die Abbildung zeigt eine Audemars Piguet Millenary mit ovalem Gehäuse in hellem Metall und schwarzem Lederband. Typisch ist das aus der Mitte nach rechts verschobene Zifferblatt für Stunden und Minuten, das schwarz mit großen roségoldenen römischen Ziffern gestaltet ist.",
     "Links liegt das offene Werk mit der großen Unruh, die unter einer bogenförmigen roségoldenen Brücke mit roten Lagersteinen schwingt; um sie herum sind Räder und Brücken des Werks zu sehen. Die kleine Sekunde sitzt links unten in einem eigenen schwarzen Hilfszifferblatt, die Signatur mit AP-Monogramm steht im Hauptzifferblatt. Die Krone ist gerändelt, das Lederband hat Alligatorprägung."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "crash",
@@ -21699,7 +21880,8 @@
    "bd": [
     "Die Abbildung zeigt eine Cartier Crash mit Gehäuse aus Gold. Das Gehäuse ist eingeknickt und asymmetrisch verformt, als sei es geschmolzen, und das helle, silbrige Zifferblatt folgt dieser Form.",
     "Typisch sind die schwarzen römischen Ziffern, die je nach Lage gestreckt und schräg verlaufen, sowie die gebläuten Zeiger. Unter 12 Uhr steht der Schriftzug »CARTIER«. Rechts sitzt eine perlierte Krone mit blauem Cabochon. Die Uhr trägt ein braunes Lederband mit Krokodilprägung."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "baignoire",
@@ -21818,7 +22000,8 @@
    "bd": [
     "Die Abbildung zeigt eine Cartier Baignoire in Gelbgold mit dem ovalen, gewölbten Gehäuse, das der Uhr ihren Namen nach der Badewanne gibt. Das Zifferblatt ist silbrig-weiß, das Band aus braunem Leder mit Krokodilprägung.",
     "Zu erkennen sind schwarze römische Ziffern, die der ovalen Form folgen, gebläute Schwertzeiger und der Schriftzug »Cartier« unter der 12. Die Krone hat einen Perlrand und einen blauen Cabochon. Typisch ist das breite, glatt polierte Gehäuse ohne sichtbare Lünette, das weich in die Bandanstöße übergeht. Einen Sekundenzeiger hat das Zifferblatt nicht."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "drive-de-cartier",
@@ -21932,7 +22115,8 @@
    "bd": [
     "Die Abbildung zeigt eine Drive de Cartier, die 2016 eingeführte Herrenuhr mit kissenförmigem 40-Millimeter-Gehäuse, hier aus Edelstahl mit silberfarbenem Zifferblatt und schwarzem Lederband mit Krokoprägung. Die Krone trägt einen Saphir-Cabochon.",
     "Zu erkennen sind die großen schwarzen römischen Ziffern, die innere Minuterie, das guillochierte Zentrum und die gebläuten Schwertzeiger. Bei 6 Uhr sitzt eine kleine Sekunde mit eigenem gebläutem Zeiger, unter der 12 steht der Schriftzug »CARTIER«. Die geschwungene Lünette folgt der Kissenform des Gehäuses."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "roadster",
@@ -22052,7 +22236,8 @@
    "bd": [
     "Die Abbildung zeigt eine Cartier Roadster aus Edelstahl mit silbernem Zifferblatt und Stahlgliederband. Typisch ist das Tonneau-Gehäuse mit gewölbter Form, dessen Linien an Sportwagen erinnern.",
     "Zu erkennen sind schwarze römische Ziffern, ein guillochiertes Zifferblatt, gebläute Schwertzeiger und die Signatur »CARTIER«. Das Datumsfenster bei 3 Uhr liegt unter einer aufgesetzten Lupe auf dem Glas. Die Krone ist facettiert und trägt einen blauen Cabochon. Das Band ist in das Gehäuse integriert und hat breite, satinierte Glieder."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "aquatimer",
@@ -22182,7 +22367,8 @@
    "bd": [
     "Die Abbildung zeigt eine IWC Aquatimer Automatic 2000 mit der Aufschrift »AQUATIMER 2000 METERS«. Gehäuse und Gliederband sind aus Edelstahl, das Zifferblatt ist schwarz, die Lünette schwarz mit Minutenskala.",
     "Zu erkennen sind breite Stabzeiger und Stabindizes mit grünlich-heller Leuchtmasse, ein Dreieck bei 12 Uhr auf der Lünette und große Ziffern 15, 30 und 45. Die Tiefenangabe ist gelb gedruckt, der Sekundenzeiger hat eine gelbe Spitze. Das Datumsfenster liegt bei 3 Uhr, die schwarze Krone rechts, links ein weiteres Bedienelement am Gehäuse."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "da-vinci",
@@ -22312,7 +22498,8 @@
      "klaus",
      "Von 1969 bis zur Neuauflage 2017"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "premier",
@@ -22427,7 +22614,8 @@
    "bd": [
     "Die Abbildung zeigt einen Breitling Premier B01 Chronograph 42 aus Edelstahl mit cremeweißem Zifferblatt und zwei schwarzen Hilfszifferblättern an einem braunen Lederband mit heller Naht. Die Gestaltung orientiert sich an den Breitling-Chronographen der 1940er-Jahre.",
     "Zu erkennen sind aufgesetzte arabische Ziffern bei 2, 4, 8, 10 und 12, Stabindizes, Stabzeiger und eine Tachymeterskala auf einem schwarzen Außenring. Unter dem Schriftzug »BREITLING 1884« steht unten »PREMIER CHRONOMETER«. Rechts sitzen die Krone und zwei rechteckige Drücker an einem schlanken, polierten Gehäuse."
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "top-time",
@@ -22550,7 +22738,8 @@
      "james-bond",
      "1964: Chronograph aus »Thunderball«"
     ]
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "avenger",
@@ -22570,7 +22759,7 @@
      "42–48 mm, Edelstahl oder Titan"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Dreizeiger, Chronograph"
     ],
     [
@@ -22665,7 +22854,8 @@
    "bd": [
     "Die Abbildung zeigt eine Breitling Avenger mit Gehäuse und Band aus mattem, silbergrauem Metall. Das Zifferblatt ist schwarz, die Drehlünette hat Reiter bei 0, 15, 30 und 45 Minuten zum Greifen mit Handschuhen.",
     "Zu erkennen sind große weiße arabische Ziffern, Leuchtbalken bei 3, 6 und 9 Uhr, ein Dreieck bei 12 Uhr und der Leuchtpunkt im Reiter bei 12 Uhr. Unter dem Flügellogo steht »BREITLING 1884«, über 6 Uhr »AVENGER CHRONOMETER«. Das Datumsfenster liegt bei 3 Uhr, der Sekundenzeiger hat eine rote Spitze; die Krone ist kräftig gerändelt."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "heritage-chrono",
@@ -22770,7 +22960,8 @@
    "bd": [
     "Die Abbildung zeigt eine Tudor Heritage Chrono Blue aus Edelstahl mit cremefarbenem Zifferblatt, blauen Hilfszifferblättern und blauer Drehlünette mit Zahlenskala. Die Gestaltung greift den Oysterdate-Chronographen von 1970 auf, den Sammler »Montecarlo« nennen.",
     "Zu erkennen sind die eckigen Hilfszifferblätter bei 3 und 9 Uhr mit orangen Akzenten, der orange Chronographenzeiger, pfeilförmige aufgesetzte Indizes, ein Minutenring in Blau und Orange und das Datumsfenster bei 6 Uhr. Rechts sitzen die verschraubte Krone und zwei verschraubte Drücker, das Band ist ein Stahlband mit satinierten Gliedern."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "black-bay-chrono",
@@ -22894,7 +23085,8 @@
    "bd": [
     "Die Abbildung zeigt die Tudor Black Bay Chrono Referenz 79360 mit 41 Millimetern, Gehäuse und Gliederband aus Edelstahl. Das Zifferblatt ist schwarz mit hellen Hilfszifferblättern, die schwarze Lünette trägt eine Tachymeterskala.",
     "Zu erkennen sind zwei cremeweiße Hilfszifferblätter bei 3 und 9 Uhr, runde Leuchtindizes, ein Dreieck bei 12 Uhr und der Stundenzeiger mit eckigem Leuchtfeld. Bei 6 Uhr liegt das Datumsfenster, darüber stehen in Rot »200 m / 660 ft« und die Chronometerangabe. Die Lünette trägt die Aufschrift »Units per Hour«, neben der Krone sitzen zwei Drücker."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "tudor-1926",
@@ -23011,7 +23203,8 @@
      "wilsdorf",
      "2019: Klassische Dresswatch"
     ]
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "autavia",
@@ -23143,7 +23336,8 @@
      "wettlauf-1969",
      "1969: Calibre 11, Rindt und Siffert"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "formula-1",
@@ -23255,7 +23449,8 @@
    "bd": [
     "Die Abbildung zeigt eine TAG Heuer Formula 1 aus Edelstahl mit blauem Zifferblatt, schwarzer Drehlünette und schwarzem Kautschukband. Die Lünette trägt eine Taucherskala mit weißen Ziffern und einem roten Dreieck bei 12 Uhr.",
     "Zu erkennen sind große arabische Leuchtziffern bei 12 und 6 Uhr, Stabindizes, Stabzeiger mit Leuchtfüllung und ein roter Sekundenzeiger. Unter dem Heuer-Wappen sitzt das Datumsfenster bei 3 Uhr, unter der Mitte steht »FORMULA 1«. Die verschraubte Krone liegt rechts zwischen Gehäuseschultern, das Kautschukband ist strukturiert."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "link",
@@ -23369,7 +23564,8 @@
    "bd": [
     "Die Abbildung zeigt eine TAG Heuer Link aus der neueren Generation. Gehäuse und Gliederband sind aus Edelstahl, das Zifferblatt ist blau mit Sonnenschliff.",
     "Typisch ist das Band, dessen Glieder in S-Form ineinandergreifen. Zu erkennen sind außerdem aufgesetzte Stabindizes mit Leuchtmasse, ein doppelter Index bei 12 Uhr, Stabzeiger, das Datumsfenster bei 3 Uhr, das TAG-Heuer-Logo unter 12 Uhr und der Schriftzug »LINK« über 6 Uhr. Die Krone sitzt in einer Ausbuchtung des Gehäuses."
-   ]
+   ],
+   "dial": "Blau, Sonnenschliff"
   },
   {
    "id": "master-control",
@@ -23483,7 +23679,8 @@
    "bd": [
     "Die Abbildung zeigt eine Jaeger-LeCoultre Master Ultra Thin Moon aus der Master-Familie mit rundem, flachem Edelstahlgehäuse und hellem, silberfarbenem Zifferblatt. Die Gestaltung ist schlicht, die Lünette glatt.",
     "Zu erkennen sind schlanke aufgesetzte Stabindizes, ein V-förmiger Index bei 12 Uhr, schlanke Zeiger und ein Hilfszifferblatt bei 6 Uhr mit Mondphase und umlaufender Datumsskala. Das Zifferblatt trägt das Logo, den Schriftzug »Jaeger-LeCoultre« und die Aufschrift »AUTOMATIQUE«. Die Uhr ist an einem dunkelblauen Lederband mit Krokodilprägung montiert."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "duometre",
@@ -23576,7 +23773,8 @@
    "bd": [
     "Die Abbildung zeigt eine Ausführung der Jaeger-LeCoultre Duomètre mit sichtbarem Tourbillon in einem polierten, runden Gehäuse aus hellem Metall. Das silberfarbene Zifferblatt ist fein strukturiert, dazu kommt ein schwarzes Lederband mit Krokodilprägung.",
     "Zu erkennen sind rechts ein eigenes Hilfszifferblatt für Stunden und Minuten mit den römischen Ziffern XII und VI und gebläuten Zeigern, oben links eine bogenförmige Skala mit gebläutem Zeiger und unten links das Tourbillon in einer großen Öffnung. Unter dem Logo steht der Schriftzug »Jaeger-LeCoultre«, rechts unten »Duomètre«."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "geophysic",
@@ -23667,7 +23865,8 @@
    "bd": [
     "Die Abbildung zeigt eine Jaeger-LeCoultre Geophysic in moderner Ausführung mit rundem Edelstahlgehäuse, silberweißem Zifferblatt und schwarzem Lederband mit Krokoprägung. Die Linie geht auf die Geophysic von 1958 zurück, die für Wissenschaftler und Expeditionen gebaut wurde.",
     "Zu erkennen sind die aufgesetzten facettierten Stabindizes mit kleinen Leuchtpunkten am Rand, die doppelte Markierung bei 12 Uhr, die Dauphine-Zeiger mit Leuchtmasse und das Datumsfenster bei 3 Uhr. Auf dem Zifferblatt stehen das Logo von Jaeger-LeCoultre und der Schriftzug »GEOPHYSIC«. Die Krone sitzt bei 3 Uhr."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "saxonia",
@@ -23786,7 +23985,8 @@
       "Die Abbildung zeigt eine A. Lange & Söhne Saxonia in Rotgold mit silberfarbenem Zifferblatt und braunem Lederband. Das runde Gehäuse ist schlicht und poliert.",
       "Zu erkennen sind schlanke aufgesetzte Stabindizes aus Gold, goldene Lanzenzeiger und die Signatur »A. LANGE & SÖHNE GLASHÜTTE I/SA« unter 12 Uhr. Bei 6 Uhr liegt eine kleine Sekunde in einem vertieften Hilfszifferblatt. Ein Datum gibt es nicht. Das Lederband hat Alligatorprägung."
      ],
-     "at": "1994: Schlichte Dresswatch"
+     "at": "1994: Schlichte Dresswatch",
+     "dial": "Silber"
     }
    ],
    "lume": {
@@ -23807,7 +24007,8 @@
      "lange-fa",
      "Neugründung 1990 und sächsisches Erbe"
     ]
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "odysseus",
@@ -23920,7 +24121,8 @@
    "bd": [
     "Die Abbildung zeigt eine A. Lange & Söhne Odysseus, Referenz 363.179, die erste Stahl-Sportuhr der Manufaktur mit 40,5 Millimetern. Gehäuse und integriertes Gliederband sind aus Edelstahl, das Zifferblatt blau.",
     "Zu erkennen sind die Wochentagsanzeige in einem Fenster bei 9 Uhr, hier »FR«, und das Großdatum bei 3 Uhr, hier »25«, sowie die kleine Sekunde bei 6 Uhr. Dazu kommen aufgesetzte Stabindizes mit Leuchtmasse, Stabzeiger und der Schriftzug »A. LANGE & SÖHNE GLASHÜTTE I/SA ODYSSEUS«."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "luminor-marina",
@@ -24037,7 +24239,8 @@
    "bd": [
     "Die Abbildung zeigt eine Panerai Luminor Marina mit kissenförmigem Edelstahlgehäuse und schwarzem Zifferblatt. Typisch ist der patentierte Kronenschutz mit Hebelbügel, auf dem die Aufschriften »REG.« und »T.M.« zu lesen sind.",
     "Zu erkennen sind die Ziffern 12 und 6 sowie Strichindizes mit beigefarbener Leuchtmasse im Sandwich-Zifferblatt, Zeiger mit gleicher Leuchtfüllung und die kleine Sekunde bei 9 Uhr mit blauem Zeiger. Das Zifferblatt trägt die Aufschriften »PANERAI« und »LUMINOR MARINA«. Das Band ist schwarzes Leder mit heller Naht."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "luminor-due",
@@ -24137,7 +24340,8 @@
    "bd": [
     "Die Abbildung zeigt eine Panerai Luminor Due mit dem flachen, kissenförmigen Gehäuse aus hellem Metall, schwarzem Zifferblatt und schwarzem Lederband mit Krokodilprägung.",
     "Typisch ist der Hebelbügel zum Schutz der Krone mit der Prägung »Reg. T.M.«. Zu erkennen sind große beigefarbene Ziffern bei 12, 3, 6 und 9, Strichindizes dazwischen und Stabzeiger mit beiger Leuchtmasse. Unter der 12 steht »Panerai«, über der 6 »Luminor Due«. Einen Sekundenzeiger oder ein Datum zeigt das Bild nicht, die Lünette ist schmal und glatt."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "mare-nostrum",
@@ -24158,7 +24362,7 @@
      "52 mm (Original), 42 mm (2017), Edelstahl"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Chronograph"
     ],
     [
@@ -24252,7 +24456,8 @@
    "bd": [
     "Die Abbildung zeigt eine Panerai Mare Nostrum in der Art der Neuauflage von 2017, eines Chronographen mit Stahlgehäuse. Die breite Lünette ist satiniert und trägt eine Tachymeterskala, das Zifferblatt ist schwarz, das Lederband braun mit hellen Nähten.",
     "Zu erkennen sind die beiden Hilfszifferblätter bei 3 und 9 Uhr, die arabischen Ziffern 6 und 12, die Stabindizes und Zeiger mit cremefarbener Leuchtmasse und der Schriftzug »PANERAI MARE NOSTRUM«. Rechts sitzen die Krone und zwei Chronographendrücker, der Schriftzug »TACHYMETRE« steht oben rechts auf der Lünette."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "seiko-monster",
@@ -24367,7 +24572,8 @@
    "bd": [
     "Die Abbildung zeigt eine Seiko Monster als Taucheruhr mit Gehäuse und Gliederband aus Edelstahl, schwarzer Lünette und schwarzem Zifferblatt. Typisch sind die breiten Schultern und die gezackte Lünette, die der Uhr ihren Spitznamen eingebracht haben.",
     "Zu erkennen sind die übergroßen Indizes mit Leuchtmasse, der pfeilförmige Stundenzeiger, der Stabminutenzeiger und das Datumsfenster bei 3 Uhr. Die Lünette zeigt eine 60-Minuten-Skala mit Leuchtpunkt im Dreieck bei 12 Uhr. Unten stehen das Prospex-Logo, »AUTOMATIC« und »DIVER'S 200m«. Die Krone sitzt bei 4 Uhr."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "seiko-sumo",
@@ -24477,7 +24683,8 @@
    "bd": [
     "Die Abbildung zeigt eine Seiko Prospex Sumo aus Edelstahl mit blauer Lünette und blauem Zifferblatt. Die einseitig drehbare Lünette trägt eine Taucherskala mit Leuchtpunkt im Dreieck bei 12 Uhr.",
     "Zu erkennen sind runde Leuchtindizes, ein großes Leuchtsegment bei 12 Uhr, keilförmige Indizes bei 6 und 9 Uhr, der breite Stundenzeiger und der Minutenzeiger mit Pfeilspitze. Das Datumsfenster sitzt bei 3 Uhr. Über »AUTOMATIC« und »DIVER’S 200m« steht das Prospex-Logo. Die verschraubte Krone liegt bei 4 Uhr, dazu kommt ein Stahlgliederband."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "seiko-6139",
@@ -24599,7 +24806,8 @@
      "uhren-im-all",
      "1969: 6139, Skylab und »Bullhead«"
     ]
-   ]
+   ],
+   "dial": "Gelb"
   },
   {
    "id": "king-seiko",
@@ -24720,7 +24928,8 @@
    "bd": [
     "Die Abbildung zeigt eine King Seiko der Neuauflage aus Edelstahl mit silbrig-weißem Zifferblatt im Sonnenschliff. Das Gehäuse zeigt den Stil der 1960er-Jahre mit flachen Flächen und scharfen Kanten.",
     "Zu erkennen sind breite, facettierte und mehrfach gekerbte Stabindizes, ein dreifacher Index bei 12 Uhr, kantige Zeiger und ein gerahmtes Datumsfenster bei 3 Uhr. Das Zifferblatt trägt die Aufschriften »SEIKO«, »KING SEIKO« mit Wappen und »DIASHOCK 25 JEWELS«. Das Band ist schwarzes Leder mit Krokodilprägung."
-   ]
+   ],
+   "dial": "Weiß, Sonnenschliff"
   },
   {
    "id": "gs-44gs",
@@ -24832,7 +25041,8 @@
    "bd": [
     "Die Abbildung zeigt eine Grand Seiko mit dem kantigen Gehäuse im Stil der 44GS von 1967, mit Gliederband aus hellem Metall und silberweißem Zifferblatt mit feinem Sonnenschliff. Eine bestimmte Referenz der Neuauflagen lässt sich dem Bild nicht sicher zuordnen.",
     "Typisch sind die ebenen polierten Flächen und scharfen Kanten an Lünette und Bandanstößen. Zu erkennen sind breite, facettierte Stabindizes mit Doppelindex bei 12 Uhr, Facettenzeiger für Stunden und Minuten und ein gebläuter Sekundenzeiger. Bei 3 Uhr liegt ein eingefasstes Datumsfenster, unter der 12 stehen das Logo »GS« und »Grand Seiko«."
-   ]
+   ],
+   "dial": "Silber, Sonnenschliff"
   },
   {
    "id": "gs-hi-beat",
@@ -24952,7 +25162,8 @@
    "bd": [
     "Die Abbildung zeigt eine Grand Seiko aus der Hi-Beat-36000-Familie mit Gehäuse und Gliederband aus Edelstahl und weißem, strukturiertem Zifferblatt. Die Aufschrift »80 HOURS« kennzeichnet die Generation mit dem Kaliber 9SA5.",
     "Zu erkennen sind das goldene »GS«-Logo, die breiten facettierten Stabindizes, die polierten Zeiger und der blaue Sekundenzeiger. Bei 3 Uhr sitzt ein Datumsfenster, über der 6 steht »HI-BEAT 36000 80 HOURS«. Gehäuse und Band zeigen den Wechsel von polierten und satinierten Flächen."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "gs-spring-drive-chrono",
@@ -24976,7 +25187,7 @@
      "9R86 (Spring Drive)"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Chronograph, GMT"
     ],
     [
@@ -25049,7 +25260,8 @@
    "bd": [
     "Die Abbildung zeigt einen Grand Seiko Spring Drive Chronograph mit Gehäuse und Gliederband in hellem Metall und weißem Zifferblatt mit reliefartiger Struktur. Das Gehäuse hat polierte Flächen und eine glatte Lünette.",
     "Zu erkennen sind drei Hilfszifferblätter, eine kleine Zusatzanzeige links unten, aufgesetzte facettierte Stabindizes und Zeiger sowie der gebläute zentrale Stoppsekundenzeiger. Bei etwa 4 Uhr sitzt ein Datumsfenster, unten steht »SPRING DRIVE«, oben das GS-Logo mit dem Schriftzug »Grand Seiko«. Rechts liegen die Krone zwischen zwei Drückern."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "mp-05-laferrari",
@@ -25149,7 +25361,8 @@
    "bd": [
     "Die Abbildung zeigt eine Hublot MP-05 LaFerrari mit einem Gehäuse aus schwarz beschichtetem Titan, dessen Form an die Linien eines Sportwagens erinnert. Statt eines Zifferblatts gibt das große Glas den Blick auf das Werk frei.",
     "Zu erkennen sind die übereinander gestapelten Federhäuser in der Mitte, links die Zeitanzeige über Walzen mit roten Ziffern und rechts weitere Anzeigewalzen. Unten sitzt das senkrecht aufgehängte Tourbillon, darüber der Schriftzug »HUBLOT«. Rote Akzente und ein Pferdesymbol am unteren Ende verweisen auf Ferrari, das Band ist schwarz und in das Gehäuse eingepasst."
-   ]
+   ],
+   "dial": "Skelettiert"
   },
   {
    "id": "spirit-of-big-bang",
@@ -25257,7 +25470,8 @@
    "bd": [
     "Die Abbildung zeigt eine Hublot Spirit of Big Bang mit tonneauförmigem Gehäuse, die seit 2014 gebaut wird. Gehäuse und Lünette sind schwarz, vermutlich aus Keramik, das Kautschukband ebenfalls schwarz.",
     "Zu erkennen sind die H-förmigen Schrauben auf der Lünette, das skelettierte Zifferblatt mit Blick auf das Chronographenwerk, zwei schwarze Hilfszifferblätter bei 3 und 9 Uhr sowie ein weiteres bei 6 Uhr. Dazu kommen Leuchtindizes, Zeiger mit heller Leuchtmasse und der rot lackierte Chronographenzeiger. Krone und Drücker sitzen rechts."
-   ]
+   ],
+   "dial": "Skelettiert"
   },
   {
    "id": "pilot-type-20",
@@ -25359,7 +25573,8 @@
    "bd": [
     "Die Abbildung zeigt eine Zenith Pilot Type 20 mit großem, gealtert wirkendem, mattgrauem Metallgehäuse und schwarzem Zifferblatt. Typisch ist die große Zwiebelkrone, die sich auch mit Handschuhen bedienen lässt.",
     "Zu erkennen sind große arabische Ziffern mit cremefarbener Leuchtmasse, breite Zeiger mit gleicher Leuchtfüllung und kleine orange Punkte am Minutenring. Unter 12 Uhr stehen der Stern und der Schriftzug »ZENITH«, unten die Aufschrift »PILOT« und in Orange »TYPE 20«. Das Band ist braunes Leder mit Gebrauchsoptik und heller Naht."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "zenith-elite",
@@ -25453,7 +25668,8 @@
    "bd": [
     "Die Abbildung zeigt eine Zenith Elite in einem flachen, runden Gehäuse aus hellem Metall mit schmaler Lünette und schwarzem Lederband mit Krokodilprägung. Das Zifferblatt ist silberfarben mit Sonnenschliff.",
     "Zu erkennen sind schlanke aufgesetzte Stabindizes, ein Doppelindex bei 12 Uhr und schlanke, spitz zulaufende Zeiger für Stunden und Minuten. Unter der 12 stehen der Zenith-Stern, der Schriftzug »Zenith« und »Elite«. Bei 6 Uhr liegt das Datumsfenster, darüber ein kleiner Stern. Ein Sekundenzeiger ist auf dem Bild nicht zu erkennen."
-   ]
+   ],
+   "dial": "Silber, Sonnenschliff"
   },
   {
    "id": "fiftysix",
@@ -25578,7 +25794,8 @@
    "bd": [
     "Die Abbildung zeigt eine Vacheron Constantin Fiftysix, die 2018 eingeführte Linie mit rundem 40-Millimeter-Gehäuse, als Dreizeiger mit Datum. Das Gehäuse ist roségoldfarben, dazu kommen ein silberfarbenes Zifferblatt und ein braunes Lederband mit Krokoprägung.",
     "Typisch sind die geschwungenen Bandanstöße im Stil der 1950er-Jahre und das zweigeteilte Zifferblatt mit Minuterie. Zu erkennen sind die aufgesetzten arabischen Ziffern 6, 9 und 12, die Stabindizes, die Dauphine-Zeiger und das Datumsfenster bei 3 Uhr. Unter dem Malteserkreuz steht »VACHERON CONSTANTIN GENEVE«."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "traditionnelle",
@@ -25674,7 +25891,8 @@
    "bd": [
     "Die Abbildung zeigt einen Vacheron Constantin Traditionnelle Chronograph mit Gehäuse aus Roségold, silberfarbenem Zifferblatt und dunkelbraunem Lederband. Rundes Gehäuse und schlanke Lünette entsprechen der klassischen Linie der Manufaktur.",
     "Zu erkennen sind zwei Hilfszifferblätter bei 3 und 9 Uhr mit gebläuten Zeigern, aufgesetzte goldene Stabindizes und Zeiger sowie eine Tachymeterskala am Zifferblattrand. Unter der Zwölf sitzt das Malteserkreuz mit dem Schriftzug »VACHERON CONSTANTIN GENÈVE«. Rechts liegen die Krone und zwei rechteckige Drücker."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "ludwig",
@@ -25789,7 +26007,8 @@
    "bd": [
     "Die Abbildung zeigt eine Nomos Ludwig aus Edelstahl mit weißem Zifferblatt und schwarzem Lederband. Das runde Gehäuse ist schlank, die Bandanstöße sind lang und gerade.",
     "Typisch sind die schwarzen römischen Ziffern bei 12, 3, 6 und 9 Uhr und dazwischen feine Strichindizes. Zu erkennen sind außerdem die schlanken gebläuten Zeiger, die kleine Sekunde über 6 Uhr in einem eigenen Hilfszifferblatt und die Signatur »NOMOS GLASHÜTTE«. Ein Datum gibt es nicht, die Krone ist klein und gerändelt."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "tetra",
@@ -25893,7 +26112,8 @@
    "bd": [
     "Die Abbildung zeigt eine Nomos Tetra mit quadratischem Gehäuse aus Edelstahl. Das helle Zifferblatt wirkt auf dem Bild leicht rosa schimmernd, das Lederband ist schwarz.",
     "Typisch sind die schmalen Ziffern 12, 2, 4, 8 und 10 im Nomos-Stil, dazwischen Striche als Indizes, die gebläuten Zeiger und die kleine Sekunde unten bei 6 Uhr. Unter 12 Uhr steht »NOMOS GLASHÜTTE«, am unteren Rand »MADE IN GERMANY«. Der schmale Gehäuserand lässt das Zifferblatt groß wirken."
-   ]
+   ],
+   "dial": "Hell, leicht rosé schimmernd"
   },
   {
    "id": "conquest",
@@ -26008,7 +26228,8 @@
    "bd": [
     "Die Abbildung zeigt eine Longines Conquest aus Edelstahl mit blauem Zifferblatt im Sonnenschliff. Die Lünette ist glatt und poliert, Gehäuse und Band sind kräftig gezeichnet.",
     "Zu erkennen sind aufgesetzte, facettierte Stabindizes, Stabzeiger mit Leuchtmasse, ein Datumsfenster bei 3 Uhr und das Logo mit der geflügelten Sanduhr unter dem Schriftzug »LONGINES«. Das Zifferblatt trägt außerdem die Aufschriften »CONQUEST« und »AUTOMATIC«. Die Uhr ist an einem dreireihigen Stahlband mit polierten Mittelgliedern montiert."
-   ]
+   ],
+   "dial": "Blau, Sonnenschliff"
   },
   {
    "id": "hydroconquest",
@@ -26124,7 +26345,8 @@
    "bd": [
     "Die Abbildung zeigt eine Longines HydroConquest in der Ausführung mit Ziffern bei 12, 6 und 9 Uhr, mit Gehäuse und Gliederband aus Edelstahl, blauem Zifferblatt mit Sonnenschliff und blauer Drehlünette.",
     "Zu erkennen sind die Minutenskala der Lünette mit Leuchtpunkt im Dreieck bei 12 Uhr, runde Leuchtindizes, große aufgesetzte Ziffern und Zeiger mit Leuchtfüllung. Bei 3 Uhr liegt das Datumsfenster, die Krone wird von einem Kronenschutz eingefasst. Unter der 12 steht »Longines« mit dem Flügellogo, über der 6 »HydroConquest« und »30bar (300meter)«."
-   ]
+   ],
+   "dial": "Blau, Sonnenschliff"
   },
   {
    "id": "flagship-heritage",
@@ -26223,7 +26445,8 @@
    "bd": [
     "Die Abbildung zeigt eine Longines Flagship Heritage, die Neuauflage der Dresswatch von 1957 mit 38,5 Millimetern. Das runde, schlanke Gehäuse ist aus Edelstahl, das Zifferblatt cremefarben, das Lederband braun mit Krokoprägung.",
     "Zu erkennen sind die aufgesetzten goldfarbenen Stabindizes und Stabzeiger, das geflügelte Longines-Logo unter dem Schriftzug sowie »Flagship« in Schreibschrift über einem kleinen Schiffssymbol und »AUTOMATIC«. Ein Datum gibt es nicht, der Sekundenzeiger fehlt auf dem Bild. Die Krone sitzt bei 3 Uhr."
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "jazzmaster",
@@ -26326,7 +26549,8 @@
    "bd": [
     "Die Abbildung zeigt eine Hamilton Jazzmaster aus Edelstahl mit blauem Zifferblatt am Gliederband. Rundes Gehäuse mit schlankem, poliertem Rand entspricht der Dresswatch-Linie der Marke.",
     "Zu erkennen sind der Sonnenschliff des Zifferblatts, aufgesetzte keilförmige Stabindizes und Stabzeiger sowie ein dünner Sekundenzeiger. Das Datum erscheint in einem Fenster bei 3 Uhr. Oben stehen das Hamilton-Logo und der Markenname, unten der Schriftzug »JAZZMASTER«. Die gerillte Krone sitzt rechts, das Band hat satinierte Glieder mit polierten Mittelteilen."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "pan-europ",
@@ -26350,7 +26574,7 @@
      "H-31 (Automatik)"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Chronograph"
     ],
     [
@@ -26428,7 +26652,8 @@
    "bd": [
     "Die Abbildung zeigt einen Hamilton Pan Europ Auto Chrono aus Edelstahl mit blauem Zifferblatt und blauer Lünette. Das kissenförmige Gehäuse ist von der Original-Pan-Europ der 1970er-Jahre abgeleitet.",
     "Zu erkennen sind zwei silberne Hilfszifferblätter bei 3 und 9 Uhr mit roten Zeigern, ein roter Chronographenzeiger und Stabindizes. Unter 12 Uhr stehen »HAMILTON« und »AUTOMATIC«, über 6 Uhr »PAN-EUROP« und darunter das Datumsfenster. Die Lünette trägt eine Tachymeterskala mit der Aufschrift »TACHYMETER«. Rechts sitzen die Krone und zwei Drücker, dazu kommt ein Stahlgliederband."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "sinn-104",
@@ -26543,7 +26768,8 @@
    "bd": [
     "Die Abbildung zeigt eine Sinn 104 St Sa, die klassische Fliegeruhr von Sinn mit 41-Millimeter-Gehäuse. Gehäuse und Gliederband sind aus Edelstahl, die Drehlünette und das Zifferblatt sind schwarz.",
     "Zu erkennen sind große weiße arabische Ziffern mit Leuchtpunkten, die Schwertzeiger, der dünne Sekundenzeiger und die Tag- und Datumsanzeige bei 3 Uhr, hier »MON 28«. Unter 12 Uhr steht »Sinn« in Schreibschrift, über 6 Uhr »Automatik«. Die Lünette trägt eine Minutenskala im Fünferabstand mit Dreieck bei 12 Uhr."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "sinn-ezm-3",
@@ -26658,7 +26884,8 @@
    "bd": [
     "Die Abbildung zeigt eine Sinn EZM 3 aus Edelstahl mit schwarzem Zifferblatt und schwarzer, einseitig drehbarer Lünette mit Minutenskala und Leuchtdreieck bei 12 Uhr.",
     "Zu erkennen sind breite Strichindizes und Zeiger mit Leuchtmasse, ein Datum bei 3 Uhr und die roten Aufschriften »EZM 3« sowie das Symbol »Ar« für die Ar-Trockenhaltetechnik, bei der das Gehäuse mit Argon gefüllt wird. Der Sekundenzeiger hat eine rote Spitze. Rechts sitzt die verschraubte Krone, das Band ist ein Stahlband mit satinierten Gliedern."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "sinn-356",
@@ -26682,7 +26909,7 @@
      "Valjoux 7750 / Sellita SW500"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Chronograph"
     ],
     [
@@ -26763,7 +26990,8 @@
    "bd": [
     "Die Abbildung zeigt eine Sinn 356 Flieger, einen Chronographen mit 38,5 Millimetern, Edelstahlgehäuse, schwarzem Zifferblatt und schwarzem Lederband mit heller Naht.",
     "Typisch ist die Anordnung der drei Hilfszifferblätter des Valjoux 7750: oben der Minutenzähler, links die kleine Sekunde, unten der Stundenzähler. Zu erkennen sind außerdem weiße arabische Ziffern im Fliegerstil, Strichindizes, breite Zeiger mit Leuchtfüllung sowie Krone und zwei Drücker. Unter dem Schriftzug »Sinn« steht »356 Flieger«. Ein Datumsfenster ist auf diesem Bild nicht zu sehen."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "junghans-meister",
@@ -26873,7 +27101,8 @@
      "bill",
      "Schramberg 1861 und Max Bill"
     ]
-   ]
+   ],
+   "dial": "Silber, Sonnenschliff"
   },
   {
    "id": "junghans-mega",
@@ -26993,7 +27222,8 @@
      "funkuhr",
      "1990: Erste Funkarmbanduhr"
     ]
-   ]
+   ],
+   "dial": "Hell"
   },
   {
    "id": "f-91w",
@@ -27086,7 +27316,8 @@
    "bd": [
     "Die Abbildung zeigt eine Casio F-91W mit schwarzem Kunststoffgehäuse und schwarzem Kunststoffband. Das schmale, rechteckige Gehäuse trägt ein Digitaldisplay mit blau umrandeter Einfassung.",
     "Zu erkennen sind die Aufschriften »CASIO«, »F-91W« in Gold und »ALARM CHRONOGRAPH«, dazu die Tastenbeschriftungen »LIGHT«, »MODE« und »ALARM ON-OFF/24HR«. Das LCD zeigt Wochentag, Datum und die Uhrzeit mit Sekunden. Unten steht »WATER WR RESIST« mit rotem »WR«. Drei Metalltasten sitzen an den Seiten, das Band ist in Querrippen gegliedert und mit einer Dornschließe versehen."
-   ]
+   ],
+   "dial": "Digitalanzeige"
   },
   {
    "id": "ga-2100",
@@ -27106,7 +27337,7 @@
      "45 mm, Karbon-Kunststoff"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "analog-digital"
     ],
     [
@@ -27188,7 +27419,8 @@
    "bd": [
     "Die Abbildung zeigt eine Casio G-Shock GA-2100 mit achteckigem Gehäuse und Band aus schwarzem Kunststoff, wegen der Form »CasiOak« genannt. Das Zifferblatt ist schwarz mit analog-digitaler Anzeige.",
     "Zu erkennen sind die Aufschriften »G-SHOCK« und »PROTECTION« auf der Lünette sowie die Tastenbezeichnungen »ADJUST«, »LIGHT«, »MODE« und »START«. Auf dem Zifferblatt liegen weiße Stabindizes, Stabzeiger, ein kleines Hilfszifferblatt bei 9 Uhr und unten rechts eine Digitalanzeige mit »10:56« und »28«. Die Aufschrift »WR 20BAR« steht für die Wasserdichtigkeit."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "sistem51",
@@ -27277,7 +27509,8 @@
    "bd": [
     "Die Abbildung zeigt eine Swatch Sistem51 mit transparentem blauem Kunststoffgehäuse und dunkelblauem Kunststoffband. Durch das offene Zifferblatt ist das goldfarbene Automatikwerk zu sehen.",
     "Zu erkennen sind weiße Strichindizes auf einem blauen Ring, weiße Stunden- und Minutenzeiger, ein orangefarbener Sekundenzeiger und die Aufschriften »swatch«, »SISTEM51« und »AUTOMATIC«. Im Werk sind die rötlichen Lagersteine und die verzierten Oberflächen sichtbar; das Werk ist auf 51 Bauteile reduziert und wird durch eine einzige zentrale Schraube zusammengehalten. Rechts sitzt eine kleine blaue Krone, ebenfalls aus Kunststoff."
-   ]
+   ],
+   "dial": "Goldfarben"
   },
   {
    "id": "swatch-skin",
@@ -27305,7 +27538,7 @@
      "1997"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz"
     ]
    ],
@@ -27395,7 +27628,8 @@
      "hayek",
      "1983: Swatch gegen die Quarzkrise"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "tissot-seastar",
@@ -27509,7 +27743,8 @@
    "bd": [
     "Die Abbildung zeigt eine Tissot Seastar 1000 als Taucheruhr mit Gehäuse und Gliederband aus Edelstahl, blauer einseitig drehbarer Lünette und blauem Zifferblatt.",
     "Zu erkennen sind die Minutenskala auf der Lünette mit dem Leuchtdreieck bei 12 Uhr, die runden und rechteckigen Indizes mit Leuchtmasse und die breiten Zeiger. Bei 6 Uhr sitzt ein Datumsfenster, auf dem Zifferblatt stehen »TISSOT 1853«, »SEASTAR« und »300 m / 1000 ft«. Die verschraubte Krone sitzt zwischen zwei Kronenschutzflanken."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "le-locle",
@@ -27529,7 +27764,7 @@
      "Edelstahl, poliert"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "Stunden, Minuten, kleine Sekunde bei 6 Uhr"
     ],
     [
@@ -27613,7 +27848,8 @@
    "bd": [
     "Die Abbildung zeigt eine klassische Dresswatch mit dem Schriftzug »LE LOCLE SUISSE« auf dem Zifferblatt, mit poliertem Gehäuse in hellem Metall und dunkelblauem Lederband. Das silberne Zifferblatt hat in der Mitte ein feines Guilloché-Muster.",
     "Zu erkennen sind schwarze römische Ziffern, eine Minuterie am Rand, gebläute Zeiger mit Hohlspitze im Stil der Breguet-Zeiger und eine kleine Sekunde bei 6 Uhr. Das Zifferblatt trägt nur den Schriftzug »LE LOCLE SUISSE«, ein Datumsfenster gibt es nicht. Die gerillte Krone sitzt rechts, das Lederband trägt eine Krokodilprägung."
-   ]
+   ],
+   "dial": "Dunkelblau"
   },
   {
    "id": "t-touch",
@@ -27727,7 +27963,8 @@
    "bd": [
     "Die Abbildung zeigt eine Tissot T-Touch mit Gehäuse aus hellem Metall, schwarzem Zifferblatt und schwarzem Kautschukband. Die Lünette trägt eine Kompassskala mit den Himmelsrichtungen N, E, S und W.",
     "Typisch sind die Funktionsbezeichnungen rund um das Zifferblatt, etwa »METEO«, »ALTIMETER«, »CHRONO«, »COMPASS«, »ALARM« und »TIMER«, die über das berührungsempfindliche Glas angewählt werden. Zu erkennen sind analoge Zeiger mit Leuchtfüllung, ein kleines LCD mit einer Höhenangabe in Metern und der Schriftzug »T-TOUCH« über dem Display. Rechts sitzen die Krone und zwei schwarze Drücker."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "divers-sixty-five",
@@ -27851,7 +28088,8 @@
    "bd": [
     "Die Abbildung zeigt eine Oris Divers Sixty-Five mit 40-Millimeter-Gehäuse, die seit 2015 an die erste Oris-Taucheruhr von 1965 erinnert. Gehäuse und Gliederband sind aus Edelstahl, die Drehlünette ist schwarz, das Zifferblatt ebenfalls.",
     "Typisch sind die runden Indizes und Stabindizes mit cremefarben getönter Leuchtmasse, das Dreieck bei 12 Uhr, die Zeiger im Vintage-Stil und das Datumsfenster bei 6 Uhr. Auf dem Zifferblatt stehen »ORIS« und »DIVERS SIXTY-FIVE 100m/330ft«. Die Lünette trägt eine Minutenskala mit Leuchtpunkt im Dreieck bei 12 Uhr."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "propilot",
@@ -27955,7 +28193,8 @@
    "bd": [
     "Die Abbildung zeigt eine Oris ProPilot aus Edelstahl mit schwarzem Zifferblatt. Typisch ist die gerillte Lünette, die zusammen mit der großen Krone auf die Fliegeruhren der Marke verweist.",
     "Zu erkennen sind große weiße arabische Ziffern, kleine Stabindizes, breite Zeiger mit Leuchtmasse, ein Sekundenzeiger mit roter Spitze und ein Datumsfenster bei 3 Uhr. Das Zifferblatt trägt die Aufschriften »ORIS«, »PROPILOT« und »AUTOMATIC«. Das Band ist ein schwarzes Textilband mit weißer Naht."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "br-01",
@@ -28069,7 +28308,8 @@
    "bd": [
     "Die Abbildung zeigt eine Bell & Ross BR 01 mit quadratischem 46-Millimeter-Gehäuse in Schwarz, rundem schwarzem Zifferblatt und schwarzem Kautschukband mit der Prägung »BR«.",
     "Typisch sind die vier Schrauben in den Ecken der Lünette, die an die Befestigung von Cockpit-Instrumenten erinnern. Zu erkennen sind große weiße Ziffern bei 12, 3, 6 und 9, kräftige Strichindizes, breite Zeiger mit Leuchtfüllung und ein schlanker Sekundenzeiger. Unter der 12 steht »Bell & Ross«, über der 6 »BR 01«. Die schwarze Krone ist kräftig geriffelt."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "happy-diamonds",
@@ -28101,7 +28341,7 @@
      "1976"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz / Automatik"
     ]
    ],
@@ -28164,7 +28404,8 @@
    "bd": [
     "Die Abbildung zeigt eine Chopard Happy Diamonds, die Linie von 1976 mit frei beweglichen Diamanten, hier mit rundem, silberfarbenem Gehäuse, weißsilbernem Zifferblatt und schwarzem Lederband mit Krokoprägung.",
     "Typisch sind die fünf frei beweglichen Diamanten in runden Fassungen, die im unteren Bereich des Zifferblatts zwischen zwei Gläsern liegen. Zu erkennen sind außerdem die schlanken Stabzeiger, der Schriftzug »Chopard« in Schreibschrift, die Bandanstöße mit runden Endstücken und die Krone mit blauem Cabochon."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "mille-miglia",
@@ -28269,7 +28510,8 @@
    "bd": [
     "Die Abbildung zeigt einen Chopard Mille Miglia Chronograph aus Edelstahl mit schwarzer Tachymeterlünette und schwarzem Zifferblatt. Getragen wird er an einem schwarzen, gelochten Lederband mit roter Naht, das an Autorennhandschuhe erinnert.",
     "Zu erkennen sind große weiße arabische Ziffern, drei schwarze Hilfszifferblätter, Zeiger mit Leuchtmasse und der rote zentrale Stoppsekundenzeiger. Unter dem Schriftzug »Chopard MILLE MIGLIA« sitzt das rote Logo des Rennens. Ein Datumsfenster liegt zwischen 4 und 5 Uhr. Rechts sitzen die Krone und zwei runde Drücker."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "gp-vintage-1945",
@@ -28370,7 +28612,8 @@
    "bd": [
     "Die Abbildung zeigt eine Girard-Perregaux Vintage 1945 mit rechteckigem, gewölbtem Gehäuse aus hellem Metall und schwarzem Lederband. Das Gehäuse ist an den Flanken gestuft, wie es Uhren im Art-déco-Stil der 1940er-Jahre zeigen.",
     "Zu erkennen sind das cremeweiße Zifferblatt, aufgesetzte Stabindizes, arabische Ziffern bei 12 und 6 Uhr sowie die kleine Sekunde über 6 Uhr. Die Signatur besteht aus dem »GP«-Logo und »GIRARD-PERREGAUX 1791«. Die Zeiger sind schlanke Stabzeiger, die Krone ist gerändelt. Das Lederband hat Alligatorprägung."
-   ]
+   ],
+   "dial": "Creme"
   },
   {
    "id": "gp-three-bridges",
@@ -28394,7 +28637,7 @@
      "18 Karat (750/1000)"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Handaufzug, Tourbillon"
     ],
     [
@@ -28484,7 +28727,8 @@
    "bd": [
     "Die Abbildung zeigt eine Girard-Perregaux mit Tourbillon unter drei Brücken in einem runden Gehäuse aus hellem Metall am schwarzen Krokodillederband. Die drei pfeilförmigen Brücken sind bei dieser Ausführung dunkel gehalten.",
     "Zu erkennen sind die drei waagerecht übereinander liegenden Brücken mit roten Lagersteinen in Goldchatons, das offen liegende Werk zwischen ihnen und das Tourbillon im unteren Teil des Zifferblatts. Darüber stehen das Logo »GP« und »GIRARD-PERREGAUX«. Die Zeit wird von zwei hellen Stabzeigern angezeigt, am Rand markieren kleine Punkte die Stunden."
-   ]
+   ],
+   "dial": "Skelettiert"
   },
   {
    "id": "bulgari-bulgari",
@@ -28597,7 +28841,8 @@
    "bd": [
     "Die Abbildung zeigt eine Bulgari Bulgari aus Edelstahl mit schwarzem Zifferblatt. Typisch ist die breite Lünette mit dem doppelt eingravierten Schriftzug »BVLGARI«, mit dem römischen V statt U wie auf antiken Inschriften.",
     "Zu erkennen sind aufgesetzte arabische Ziffern bei 12 und 6 Uhr, Stabindizes, Stabzeiger, ein Datumsfenster bei 3 Uhr und der Schriftzug »BVLGARI« unter 12 Uhr. Rechts sitzt eine geriffelte Krone, das Band ist ein Stahlband mit satinierten Gliedern."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "serpenti",
@@ -28629,7 +28874,7 @@
      "1948"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz / Automatik"
     ]
    ],
@@ -28711,7 +28956,8 @@
    "bd": [
     "Die Abbildung zeigt eine Bulgari Serpenti mit Gehäuse und Band aus Gold. Das tropfenförmige Gehäuse ist mit Diamanten eingefasst, das Zifferblatt ist schwarz.",
     "Typisch ist das in Tubogas-Technik gefertigte Band, das sich spiralförmig um das Handgelenk windet. Zu erkennen sind außerdem römische Ziffern bei 12 und 6 Uhr, goldfarbene Strichindizes, schlanke goldfarbene Zeiger und ein feiner Sekundenzeiger. Unter der 12 steht der Schriftzug »Bvlgari«, die Krone trägt einen rötlichen Cabochon. Die Diamanten auf der Lünette folgen der Tropfenform."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "rado-diastar",
@@ -28739,7 +28985,7 @@
      "1962"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Automatik"
     ]
    ],
@@ -28824,7 +29070,8 @@
    "bd": [
     "Die Abbildung zeigt eine Rado DiaStar in der Art der DiaStar Original. Das ovale, stark gewölbte Gehäuse mit breiter, polierter Facette läuft in ein Gliederband über; Gehäuse und Band sind dunkelgrau, das Zifferblatt anthrazit mit Sonnenschliff.",
     "Zu erkennen sind die aufgesetzten Stabindizes, die Stabzeiger, das Datumsfenster bei 3 Uhr und das Rado-Anker-Logo über dem Schriftzug »RADO«. Über der 6 steht »DIASTAR«. Eine Krone ist auf dem Bild nicht zu sehen, sodass die Form geschlossen wirkt."
-   ]
+   ],
+   "dial": "Anthrazit, Sonnenschliff"
   },
   {
    "id": "rado-true",
@@ -28852,7 +29099,7 @@
      "2011"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz / Automatik"
     ]
    ],
@@ -28921,7 +29168,8 @@
    "bd": [
     "Die Abbildung zeigt eine Rado True mit Gehäuse und Gliederband aus glänzender schwarzer Hightech-Keramik und schwarzem Zifferblatt. Typisch ist die reduzierte, runde Form, bei der Gehäuse und Band ineinander übergehen.",
     "Zu erkennen sind aufgesetzte Stabindizes und Stabzeiger in Silber, ein dünner Sekundenzeiger und das Datumsfenster bei 3 Uhr. Unter dem Anker-Logo bei 12 Uhr steht »RADO«, unten der Schriftzug »TRUE«. Die kleine Krone ist ebenfalls schwarz und sitzt rechts am Gehäuse."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "satellite-wave",
@@ -28949,7 +29197,7 @@
      "2011"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "Zeitzone automatisch"
     ]
    ],
@@ -29020,7 +29268,8 @@
      "solarwerk",
      "Eco-Drive und Satellitensuche"
     ]
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "citizen-x8",
@@ -29039,7 +29288,7 @@
      "»The Citizen«"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "Stunden, Minuten, Sekunden, Datum"
     ],
     [
@@ -29099,7 +29348,8 @@
    "bd": [
     "Die Abbildung zeigt eine moderne Citizen mit der Aufschrift »The Citizen« und »X8« auf dem Zifferblatt, die den Namen der X-8 Chronometer von 1970 aufgreift. Das Gehäuse ist aus hellem, poliertem Metall, das Zifferblatt weiß mit feiner, papierartiger Struktur, das Band aus schwarzem Krokodilleder.",
     "Zu erkennen sind aufgesetzte, facettierte Stabindizes, schlanke Stabzeiger mit zentralem Sekundenzeiger und das Datumsfenster bei 3 Uhr. Unter 12 Uhr sitzt das Adler-Emblem von »The Citizen«, darunter der Schriftzug »CITIZEN«, über 6 Uhr steht »X8«."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "doxa-sharkhunter",
@@ -29217,7 +29467,8 @@
    "bd": [
     "Die Abbildung zeigt eine Doxa Sharkhunter der Neuauflage mit kissenförmigem Edelstahlgehäuse und schwarzem Zifferblatt. Die drehbare Lünette trägt neben der Minutenskala eine Tabelle für Tauchzeiten ohne Dekompressionspause mit Tiefenangaben in Orange, hier mit schwarzem Ring.",
     "Zu erkennen sind breite Leuchtindizes, ein orangefarbener Minutenzeiger, ein kurzer Stundenzeiger, ein Datumsfenster bei 3 Uhr und die Aufschriften »DOXA automatic« und »SUB 300 sharkhunter«. Rechts sitzt die verschraubte Krone, das Band ist ein Stahlband mit vielen kleinen, gerundeten Gliedern."
-   ]
+   ],
+   "dial": "Schwarz"
   },
   {
    "id": "villeret",
@@ -29320,7 +29571,8 @@
      "biver",
      "1735, Biver und keine Quarzuhr"
     ]
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "leman",
@@ -29409,7 +29661,8 @@
    "bd": [
     "Die Abbildung zeigt eine Blancpain Léman, die alltagstaugliche Sportuhr der Marke mit Automatikwerk, hier als Dreizeiger mit Datum, rundem Edelstahlgehäuse, blauem Zifferblatt mit Sonnenschliff und schwarzem Lederband mit Krokoprägung.",
     "Zu erkennen sind die aufgesetzten Stabindizes, die Stabzeiger, das Datumsfenster bei 3 Uhr und der Schriftzug »BLANCPAIN 1735« unter dem Logo, über der 6 steht »Léman« in Schreibschrift. Die Lünette ist gestuft und poliert, die geriffelte Krone sitzt bei 3 Uhr."
-   ]
+   ],
+   "dial": "Blau, Sonnenschliff"
   },
   {
    "id": "breguet-marine",
@@ -29533,7 +29786,8 @@
      "breguet",
      "Erbe der Marinechronometer"
     ]
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "breguet-tradition",
@@ -29557,7 +29811,7 @@
      "18 Karat (750/1000)"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Handaufzug, sichtbar"
     ],
     [
@@ -29645,7 +29899,8 @@
      "breguet",
      "2005: Das Werk auf der Zifferblattseite"
     ]
-   ]
+   ],
+   "dial": "Silber, guillochiert"
   },
   {
    "id": "altiplano",
@@ -29767,7 +30022,8 @@
    "bd": [
     "Die Abbildung zeigt eine Piaget Altiplano mit rundem, flachem Gehäuse aus hellem Metall. Das Zifferblatt ist silberfarben mit Sonnenschliff, das Band aus schwarzem Krokodilleder.",
     "Typisch ist die schmucklose Gestaltung: schmale schwarze Strichindizes, zwei schlanke schwarze Stabzeiger ohne Sekundenzeiger und der Schriftzug »PIAGET« unter der Mitte. Die schmale Lünette lässt das Zifferblatt groß wirken. Unten steht »SWISS MADE«, die kleine Krone sitzt bei 3 Uhr. Die schlanken Bandanstöße gehen fast gerade aus dem Gehäuse hervor."
-   ]
+   ],
+   "dial": "Silber, Sonnenschliff"
   },
   {
    "id": "piaget-polo",
@@ -29877,7 +30133,8 @@
    "bd": [
     "Die Abbildung zeigt eine Piaget Polo aus Edelstahl mit blauem Zifferblatt. Typisch ist das kissenförmige Zifferblatt in einem runden Gehäuse, das in das integrierte Gliederband übergeht.",
     "Zu erkennen sind waagerechte Rillen auf dem Zifferblatt, aufgesetzte Stabindizes, Stabzeiger mit Leuchtmasse und die Aufschriften »PIAGET« und »POLO«. Ein Datumsfenster ist in dieser Ausführung nicht zu sehen. Die Indizes sind schmal und poliert, der Minutenkreis am Rand ist fein unterteilt. Gehäuse und Band wechseln zwischen satinierten und polierten Flächen, rechts sitzt eine geriffelte Krone."
-   ]
+   ],
+   "dial": "Blau"
   },
   {
    "id": "un-marine-chronometer",
@@ -29905,7 +30162,7 @@
      "Automatik, Chronometer"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "Gangreserve, Datum"
     ],
     [
@@ -29984,7 +30241,8 @@
    "bd": [
     "Die Abbildung zeigt eine Ulysse Nardin Marine Chronometer in einem runden Gehäuse aus hellem Metall mit geriffelter Lünette, weißem Zifferblatt und dunkelblauem Lederband mit Krokodilprägung.",
     "Typisch ist die Gangreserveanzeige unter der 12 mit den Aufschriften »Up« und »Down«. Zu erkennen sind außerdem blaue arabische Ziffern, gebläute Blattzeiger und die kleine Sekunde bei 6 Uhr mit der Jahreszahl »1846« in Rot. Über der Mitte stehen »Ulysse Nardin« sowie »Le Locle« und »Suisse«, auf dem Sekundenzifferblatt ein Hinweis auf das Chronometerzertifikat."
-   ]
+   ],
+   "dial": "Weiß"
   },
   {
    "id": "freak",
@@ -30004,11 +30262,11 @@
      "45 mm, Titan oder Keramik"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Tourbillon, Silizium"
     ],
     [
-     "Anzeige",
+     "Funktionen",
      "Werk als Minutenzeiger"
     ],
     [
@@ -30103,7 +30361,8 @@
    "bd": [
     "Die Abbildung zeigt eine Ausführung der Ulysse Nardin Freak mit rundem Gehäuse aus hellem Metall, dunkelblauem Zifferblatt und dunkelblauem Kautschukband. Statt herkömmlicher Zeiger dreht sich das Werk selbst über dem Zifferblatt und zeigt die Zeit an.",
     "Zu erkennen sind die lange Brücke mit Pfeilspitze, die als Minutenanzeige dient, die freiliegenden Räder mit roten Lagersteinen und darunter die gemusterte Zifferblattfläche. Am Rand sitzen aufgesetzte Stabindizes, unten rechts steht »ULYSSE NARDIN« mit Ankersymbol. Unten am Gehäuse ist ein Plättchen mit der Aufschrift »FREAK« eingelassen."
-   ]
+   ],
+   "dial": "Dunkelblau"
   },
   {
    "id": "sea-wolf",
@@ -30222,7 +30481,8 @@
      "taucheruhr",
      "1953: Eine der ersten Taucheruhren"
     ]
-   ]
+   ],
+   "dial": "Orange"
   },
   {
    "id": "fc-slimline",
@@ -30315,7 +30575,8 @@
    "bd": [
     "Die Abbildung zeigt eine Frédérique Constant Slimline aus Edelstahl mit silberfarbenem Zifferblatt und schwarzem Lederband. Das runde, flache Gehäuse hat eine schmale Lünette, die das Zifferblatt groß wirken lässt.",
     "Zu erkennen sind schlanke aufgesetzte Stabindizes, ein Doppelindex bei 12 Uhr und schmale Stabzeiger für Stunden und Minuten. Eine Sekundenanzeige oder ein Datum gibt es nicht. Unter 12 Uhr steht »FREDERIQUE CONSTANT GENEVE«, über 6 Uhr der geschwungene Schriftzug »Slimline«. Die Krone ist klein, das Lederband hat Alligatorprägung."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "tissot-visodate",
@@ -30343,7 +30604,7 @@
      "1953"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Datum"
     ]
    ],
@@ -30421,7 +30682,8 @@
    "bd": [
     "Die Abbildung zeigt eine Tissot Heritage Visodate aus Edelstahl mit silberfarbenem Zifferblatt. Die schlichte Gestaltung mit rundem Gehäuse und schmaler Lünette greift den Stil der 1950er-Jahre auf.",
     "Zu erkennen sind aufgesetzte Stabindizes, schlanke Stabzeiger, ein gerahmtes Datumsfenster bei 3 Uhr und die Aufschriften »TISSOT 1853«, »Visodate« in Schreibschrift und »AUTOMATIC«. Der Sekundenzeiger ist schlank und läuft bis zum fein unterteilten Minutenkreis, ein doppelter Index markiert 12 Uhr. Die Uhr trägt ein braunes Lederband mit Krokodilprägung und heller Naht, rechts sitzt eine geriffelte Krone."
-   ]
+   ],
+   "dial": "Silber"
   },
   {
    "id": "casio-ca53w",
@@ -30441,7 +30703,7 @@
      "Kunststoff oder Edelstahl"
     ],
     [
-     "Funktion",
+     "Funktionen",
      "Rechner, Datum, Wecker"
     ],
     [
@@ -30449,7 +30711,7 @@
      "1980er"
     ],
     [
-     "Werk",
+     "Kaliber",
      "Quarz"
     ]
    ],
@@ -30521,7 +30783,8 @@
    "bd": [
     "Die Abbildung zeigt die Casio CA-53W, eine digitale Quarzuhr mit eingebautem Taschenrechner. Gehäuse und Band sind aus schwarzem Kunststoff, über dem Display stehen links »Casio« und rechts in Orange die Modellbezeichnung »CA-53W«.",
     "Zu erkennen ist das LCD-Display mit der Uhrzeit »10:58«, den Sekunden »50«, der Wochentagsanzeige »SU« und dem Hinweis »PM«. Darunter liegt das Tastenfeld mit den Ziffern 0 bis 9, einer Taste für das Gleichheitszeichen und vier orangefarbenen Rechenzeichen für Division, Multiplikation, Subtraktion und Addition. Seitlich sitzen kleine Bedienknöpfe."
-   ]
+   ],
+   "dial": "Digitalanzeige"
   }
  ],
  "lumeMasks": {
