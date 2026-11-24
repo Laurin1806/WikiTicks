@@ -156,7 +156,7 @@ def gen(img, spec):
             if role=='sec': mw=max(mw,3)
             t=math.radians(a_);ax_,ay_=math.sin(t),-math.cos(t);along=dx*ax_+dy*ay_;perp=np.abs(-dx*ay_+dy*ax_)
             handm|=(along>-4)&(along<dm+2)&(perp<mw/2+1.5)
-    keep|=shp|(und&~np.array(Image.fromarray((handm*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)))>0)
+    keep|=(shp if not spec.get('shapesafter') else False)|(und&~np.array(Image.fromarray((handm*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)))>0)
     for x0,y0,x1,y1 in spec.get('add',[]): # zusätzlich zu übernehmende Bereiche (alles Helle darin)
         sub=(L>=spec.get('thr',175)-40)&(S<=spec.get('sat',70)+10);keep[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]|=sub[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]
     # Indizes an bestimmten Winkeln neu setzen (z. B. wenn ein Zeiger darüber liegt): Kreis mit mittlerer Punktgröße auf dem Indexkreis
@@ -250,6 +250,7 @@ def gen(img, spec):
             pts=[(cx_+(ca+sa*l2)*v[0]+(cb+sb*w2)*u[0],cy_+(ca+sa*l2)*v[1]+(cb+sb*w2)*u[1]) for sa,sb in((-1,-1),(1,-1),(1,1),(-1,1))]
             d2.polygon([(x*4,y*4) for x,y in pts],fill=255)
         keep=new|(np.array(im2.resize((w,h),Image.LANCZOS))>110)
+    if spec.get('shapesafter'): keep|=shp   # gezeichnete Zeigerformen unverändert übernehmen (nicht schrumpfen/abtrennen)
     # Kanten glätten
     mk=Image.fromarray((keep*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(.7))
     col=(185,232,255) if spec.get('col','g')=='b' else (175,255,205)

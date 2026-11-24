@@ -3159,6 +3159,24 @@
      }
     },
     {
+     "n": "Ref. 1680 »Red Sub« (frühe Ausführung)",
+     "y": "1969–1979",
+     "v": {
+      "date": "cyclops",
+      "lume": "#e9dcb8",
+      "hc": "#e9dcb8",
+      "top": [
+       "OYSTER PERPETUAL",
+       "DATE"
+      ],
+      "bottom": [
+       "SUBMARINER",
+       "660ft = 200m"
+      ],
+      "img": "assets/watches/rolex-submariner-1680-red.jpg"
+     }
+    },
+    {
      "n": "Ref. 116610LV »Hulk«",
      "y": "2010–2020",
      "v": {
@@ -4042,6 +4060,17 @@
       "dial": "#d9c99c",
       "case": "steel",
       "img": "assets/watches/rolex-datejust-126233-steel-gold-champagne.jpg"
+     }
+    },
+    {
+     "n": "Ref. 1601, schwarzes Zifferblatt",
+     "y": "1959–1977",
+     "v": {
+      "dial": "#16181c",
+      "bezel": "fluted",
+      "strap": "jubilee",
+      "lume": "#e9dcb8",
+      "img": "assets/watches/rolex-datejust-1601-black.jpg"
      }
     }
    ],
@@ -28989,6 +29018,7 @@
   "rolex-air-king-126900-black.jpg": "b",
   "rolex-datejust-126233-steel-gold-champagne.jpg": "b",
   "rolex-datejust-126234-blue.jpg": "b",
+  "rolex-datejust-1601-black.jpg": "v",
   "rolex-day-date-228238-champagne.jpg": "b",
   "rolex-day-date-platinum-ice-blue.jpg": "b",
   "rolex-daytona-116520.jpg": "g",
@@ -29017,6 +29047,7 @@
   "rolex-submariner-116610lv-hulk.jpg": "b",
   "rolex-submariner-126610ln.jpg": "b",
   "rolex-submariner-126610lv-starbucks.jpg": "b",
+  "rolex-submariner-1680-red.jpg": "v",
   "rolex-submariner-5513.jpg": "v",
   "rolex-turn-o-graph-116264-black.jpg": "g",
   "rolex-yacht-master-126622-slate.jpg": "b",
