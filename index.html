@@ -269,7 +269,7 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .imgnote summary::-webkit-details-marker { display: none; }
 .imgnote summary::after { content: ""; width: 7px; height: 7px; border-right: 1.6px solid currentColor; border-bottom: 1.6px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .25s ease; }
 .imgnote[open] summary::after { transform: translateY(1px) rotate(-135deg); }
-.imgpop { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 60; padding: 4px 16px 12px; background: color-mix(in srgb, var(--surface) 72%, transparent); backdrop-filter: blur(10px) saturate(1.2); -webkit-backdrop-filter: blur(10px) saturate(1.2); border: 1px solid color-mix(in srgb, var(--line) 80%, transparent); border-radius: 12px; box-shadow: 0 12px 32px rgba(0, 0, 0, .14); }
+.imgpop { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 60; padding: 4px 16px 12px; background: radial-gradient(120% 90% at 30% 0%, color-mix(in srgb, #ffffff 26%, transparent), transparent 60%), color-mix(in srgb, var(--surface) 50%, transparent); backdrop-filter: blur(5px) saturate(1.35) contrast(1.05); -webkit-backdrop-filter: blur(5px) saturate(1.35) contrast(1.05); border: 1px solid color-mix(in srgb, #ffffff 45%, var(--line)); border-radius: 14px; box-shadow: inset 0 1px 0 color-mix(in srgb, #ffffff 70%, transparent), inset 0 -10px 24px color-mix(in srgb, var(--fg) 6%, transparent), 0 12px 32px rgba(0, 0, 0, .14); } /* gläserne Lupe wie über einem Datumsfenster */
 .imgnote[open] .imgpop { animation: imgpop .22s ease; }
 @keyframes imgpop { from { opacity: 0; transform: translateY(-4px); } }
 .imgpop p { margin: 8px 0 0; }
