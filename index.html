@@ -400,7 +400,7 @@ article .curbox { margin-top: 10px; }
 .brandinfo p { margin: 0 0 12px; max-width: 64ch; }
 .brandinfo .facts { margin: 0; align-self: start; }
 .brandside { align-self: start; }
-.brandlogo { display: flex; align-items: center; justify-content: center; height: 120px; padding: 14px 22px; margin: 4px 0 22px; background: #fff; border: 1px solid var(--line); border-radius: 12px; }
+.brandlogo { display: flex; align-items: center; justify-content: center; height: 120px; padding: 14px 22px; margin: 0 0 22px; background: #fff; border: 1px solid var(--line); border-radius: 12px; }
 .brandlogo img { max-width: 100%; max-height: 100%; object-fit: contain; }
 :root.night .brandlogo { background: #eef0f3; border-color: transparent; filter: brightness(.86); }
 .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 24px; }
@@ -1492,16 +1492,15 @@ function viewBrand(b) {
   const ms = MODELS.filter(e => e.brand === b).sort((x, y) => x.t.localeCompare(y.t, "de"));
   const info = BRAND_INFO[b], used = new Set();
   return crumbs([["Uhrenmodelle", "uhrenmodelle"], [b]]) + `
-    <h2 class="page-title">${esc(b)}</h2>
-    <button type="button" class="tomodels" data-to="brand-models">Zu den Modellen <span aria-hidden="true">↓</span></button>
     ${info ? `<div class="brandinfo">
-      <div>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
+      <div><h2 class="page-title">${esc(b)}</h2>
+    <button type="button" class="tomodels" data-to="brand-models">Zu den Modellen <span aria-hidden="true">↓</span></button>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
       <div class="brandside">${BRAND_LOGOS.has(slug(b)) ? `<div class="brandlogo"><img src="assets/logos/${slug(b)}.png?v=${IMGV}" alt="Logo ${esc(b)}"></div>` : ""}${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ...(info.fakten || []), ["Modelle bei WikiTicks", String(ms.length)]])}</div>
     </div>
     ${(info.abschnitte || info.zeit) ? `<article class="brandart">
       ${(info.abschnitte || []).map(([h, ps]) => `<h3 class="art-h">${esc(h)}</h3>${ps.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}`).join("")}
       ${info.zeit ? `<h3 class="art-h">Zeitleiste</h3><ol class="timeline">${info.zeit.map(([y, t]) => `<li><span class="ty">${esc(y)}</span><span class="tt">${linkify(esc(t), "marke-" + slug(b), used)}</span></li>`).join("")}</ol>` : ""}
-    </article>` : ""}` : ""}
+    </article>` : ""}` : `<h2 class="page-title">${esc(b)}</h2>`}
     <div class="vhead" id="brand-models"><div><h3 class="section-title">Modelle</h3>
     <p class="count">${plural(ms.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
     ${listMode
