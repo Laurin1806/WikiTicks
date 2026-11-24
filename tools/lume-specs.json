@@ -101,13 +101,23 @@
     ],
     "r": 17,
     "under": true
+   },
+   {
+    "t": "circle",
+    "c": [
+     508,
+     287
+    ],
+    "r": 9.3,
+    "pip": true
    }
   ],
   "idxinset": 0.28,
   "idxfix": [
    60,
    210
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-sea-dweller-126600.jpg": {
   "c": [
@@ -145,7 +155,19 @@
   "idxinset": 0.28,
   "idxfix": [
    60
-  ]
+  ],
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     474,
+     296
+    ],
+    "r": 10.7,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-deepsea-136660-d-blue.jpg": {
   "c": [
@@ -183,7 +205,19 @@
   "idxinset": 0.28,
   "idxfix": [
    60
-  ]
+  ],
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     507.22,
+     295
+    ],
+    "r": 11.3,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-gmt-master-2-126710-pepsi.jpg": {
   "c": [
@@ -221,7 +255,8 @@
   "idxinset": 0.28,
   "idxfix": [
    60
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-explorer-124270.jpg": {
   "c": [
@@ -270,7 +305,8 @@
     0.5188571428571429,
     0.6699174793698425
    ]
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-yacht-master-126622-slate.jpg": {
   "c": [
@@ -309,7 +345,8 @@
   "idxfix": [
    60,
    210
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-datejust-126234-blue.jpg": {
   "c": [
@@ -346,7 +383,8 @@
   "inset": 0.27,
   "idxinset": 0.28,
   "sec": false,
-  "merc": false
+  "merc": false,
+  "nologo": true
  },
  "assets/watches/rolex-turn-o-graph-116264-black.jpg": {
   "c": [
@@ -383,7 +421,8 @@
   "inset": 0.27,
   "idxinset": 0.28,
   "sec": false,
-  "merc": false
+  "merc": false,
+  "nologo": true
  },
  "assets/watches/rolex-sky-dweller-336934-blue.jpg": {
   "c": [
@@ -427,7 +466,8 @@
   "force": {
    "hour": 306
   },
-  "merc": false
+  "merc": false,
+  "nologo": true
  },
  "assets/watches/rolex-milgauss-116400gv-black.jpg": {
   "c": [
@@ -458,7 +498,8 @@
   "inset": 0.27,
   "idxinset": 0.28,
   "sec": false,
-  "merc": false
+  "merc": false,
+  "nologo": true
  },
  "assets/watches/rolex-air-king-126900-black.jpg": {
   "c": [
@@ -564,7 +605,8 @@
   "sec": false,
   "merc": true,
   "nounder": true,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "nologo": true
  },
  "assets/watches/rolex-explorer-ii-16570-polar.jpg": {
   "mode": "light",
@@ -616,7 +658,8 @@
     ],
     "r": 8
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-daytona-126500ln.jpg": {
   "mode": "light",
@@ -748,7 +791,8 @@
   "hub": [
    441,
    494
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-oyster-perpetual-124300-turquoise.jpg": {
   "c": [
@@ -808,7 +852,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-day-date-228238-champagne.jpg": {
   "c": [
@@ -870,7 +915,8 @@
     ],
     "off": 3.2
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-land-dweller-127334-white.jpg": {
   "c": [
@@ -948,7 +994,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-yacht-master-ii-116680.jpg": {
   "c": [
@@ -1020,7 +1067,8 @@
     ],
     "sw": 2.4
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-submariner-116610lv-hulk.jpg": {
   "c": [
@@ -1056,7 +1104,19 @@
   "idxfix": [
    60,
    210
-  ]
+  ],
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     509,
+     317
+    ],
+    "r": 10.2,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-gmt-master-2-126710-batman.jpg": {
   "c": [
@@ -1088,7 +1148,8 @@
   "idxinset": 0.28,
   "idxfix": [
    60
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-explorer-2-1655-freccione.jpg": {
   "c": [
@@ -1119,7 +1180,8 @@
   "inset": 0.27,
   "idxinset": 0.28,
   "merc": false,
-  "vint": true
+  "vint": true,
+  "nologo": true
  },
  "assets/watches/rolex-gmt-master-1675-pepsi.jpg": {
   "c": [
@@ -1152,7 +1214,8 @@
   "idxfix": [
    60
   ],
-  "vint": true
+  "vint": true,
+  "nologo": true
  },
  "assets/watches/rolex-sea-dweller-1665-double-red.jpg": {
   "c": [
@@ -1180,7 +1243,19 @@
    150,
    210
   ],
-  "vint": true
+  "vint": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     495,
+     270
+    ],
+    "r": 9.9,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-daytona-116520.jpg": {
   "c": [
@@ -1237,7 +1312,8 @@
     0.4978494623655914,
     0.708
    ]
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-explorer-214270.jpg": {
   "c": [
@@ -1290,7 +1366,8 @@
   "idxfix": [
    210
   ],
-  "idxbar": true
+  "idxbar": true,
+  "nologo": true
  },
  "assets/watches/rolex-milgauss-116400gv-z-blue.jpg": {
   "c": [
@@ -1321,7 +1398,8 @@
   "inset": 0.27,
   "idxinset": 0.28,
   "sec": false,
-  "merc": false
+  "merc": false,
+  "nologo": true
  },
  "assets/watches/rolex-land-dweller-127234-blue.jpg": {
   "c": [
@@ -1399,7 +1477,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-milgauss-1019-black.jpg": {
   "c": [
@@ -1477,7 +1556,8 @@
     ]
    }
   ],
-  "vint": true
+  "vint": true,
+  "nologo": true
  },
  "assets/watches/rolex-datejust-126233-steel-gold-champagne.jpg": {
   "c": [
@@ -1556,7 +1636,8 @@
     ],
     "off": 3
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-day-date-platinum-ice-blue.jpg": {
   "c": [
@@ -1618,7 +1699,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-oyster-perpetual-124300-coral-red.jpg": {
   "c": [
@@ -1716,7 +1798,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-oyster-perpetual-124300-yellow.jpg": {
   "c": [
@@ -1814,7 +1897,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-explorer-ii-226570-polar.jpg": {
   "mode": "light",
@@ -1923,7 +2007,8 @@
     "r": 17
    }
   ],
-  "dotr": 0.0
+  "dotr": 0.0,
+  "nologo": true
  },
  "assets/watches/rolex-daytona-6239-paul-newman.jpg": {
   "c": [
@@ -2008,7 +2093,8 @@
     "off": 0
    }
   ],
-  "vint": true
+  "vint": true,
+  "nologo": true
  },
  "assets/watches/omega-speedmaster-professional-310-30-42-50-01-001.jpg": {
   "c": [
@@ -2054,7 +2140,8 @@
   "handerode": 5,
   "autofill": false,
   "dotr": 0.62,
-  "capr": 34.077887999999994
+  "capr": 34.077887999999994,
+  "nologo": true
  },
  "assets/watches/omega-speedmaster-ck2915-broad-arrow.jpg": {
   "c": [
@@ -2081,7 +2168,8 @@
   "handerode": 5,
   "autofill": false,
   "dotr": 0.62,
-  "vint": true
+  "vint": true,
+  "nologo": true
  },
  "assets/watches/omega-seamaster-diver-300m-210-30-42-20.jpg": {
   "c": [
@@ -2110,7 +2198,19 @@
   "dotr": 0.62,
   "idxfix": [
    60
-  ]
+  ],
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     506.9,
+     318.4
+    ],
+    "r": 12.9,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/omega-seamaster-planet-ocean-215-30-44-21.jpg": {
   "c": [
@@ -2136,7 +2236,8 @@
   "sec": false,
   "handerode": 5,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/omega-seamaster-aqua-terra-220-10-41-21.jpg": {
   "c": [
@@ -2162,7 +2263,8 @@
   "sec": false,
   "handerode": 5,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/omega-railmaster-220-10-40-20.jpg": {
   "c": [
@@ -2188,7 +2290,8 @@
   "sec": false,
   "handerode": 5,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/tudor-black-bay.jpg": {
   "c": [
@@ -2214,7 +2317,19 @@
   "sec": false,
   "handerode": 2,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     183.6,
+     102.9
+    ],
+    "r": 6.6,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/tudor-black-bay-blue.jpg": {
   "c": [
@@ -2243,7 +2358,8 @@
   "dotr": 0.62,
   "idxfix": [
    60
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/tudor-pelagos.jpg": {
   "c": [
@@ -2269,7 +2385,19 @@
   "sec": false,
   "handerode": 4,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     376.8,
+     225.8
+    ],
+    "r": 19.8,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/tudor-pelagos-blue.jpg": {
   "c": [
@@ -2295,7 +2423,8 @@
   "sec": false,
   "handerode": 2,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/omega-seamaster-300-234-30-41-21.jpg": {
   "c": [
@@ -2321,7 +2450,19 @@
   "sec": false,
   "handerode": 5,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     486.9,
+     301.0
+    ],
+    "r": 14.4,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/tudor-black-bay-58.jpg": {
   "c": [
@@ -2350,7 +2491,19 @@
   "dotr": 0.62,
   "idxfix": [
    60
-  ]
+  ],
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     375.2,
+     225.8
+    ],
+    "r": 11.5,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/tudor-ranger.jpg": {
   "c": [
@@ -2376,7 +2529,8 @@
   "sec": false,
   "handerode": 2,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/tudor-black-bay-gmt.jpg": {
   "c": [
@@ -2405,7 +2559,19 @@
   "dotr": 0.62,
   "idxfix": [
    60
-  ]
+  ],
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     165.9,
+     99.4
+    ],
+    "r": 8.3,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/tudor-black-bay-54-m79000n.jpg": {
   "c": [
@@ -2434,7 +2600,8 @@
   "dotr": 0.62,
   "idxfix": [
    60
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/omega-seamaster-ploprof-1200m.jpg": {
   "c": [
@@ -2460,7 +2627,8 @@
   "sec": false,
   "handerode": 2,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/omega-flightmaster-vintage.jpg": {
   "c": [
@@ -2507,7 +2675,8 @@
   "autofill": false,
   "dotr": 0.62,
   "capr": 8.64,
-  "vint": true
+  "vint": true,
+  "nologo": true
  },
  "assets/watches/omega-constellation-globemaster.jpg": {
   "c": [
@@ -2535,7 +2704,8 @@
   "max": 0.006,
   "handerode": 2,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/omega-speedmaster-dark-side-of-the-moon.jpg": {
   "c": [
@@ -2575,7 +2745,8 @@
   "handerode": 2,
   "autofill": false,
   "dotr": 0.62,
-  "capr": 16.188768
+  "capr": 16.188768,
+  "nologo": true
  },
  "assets/watches/omega-speedmaster-57-black.jpg": {
   "c": [
@@ -2615,7 +2786,8 @@
   "handerode": 2,
   "autofill": false,
   "dotr": 0.62,
-  "capr": 13.44
+  "capr": 13.44,
+  "nologo": true
  },
  "assets/watches/tudor-heritage-chrono.jpg": {
   "c": [
@@ -2643,7 +2815,8 @@
   "max": 0.006,
   "handerode": 2,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/tudor-black-bay-chrono.jpg": {
   "c": [
@@ -2682,7 +2855,8 @@
   "sec": false,
   "handerode": 2,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "nologo": true
  },
  "assets/watches/rolex-datejust-1601-black.jpg": {
   "c": [
@@ -2720,7 +2894,8 @@
   "idxinset": 0.28,
   "sec": false,
   "merc": false,
-  "vint": true
+  "vint": true,
+  "nologo": true
  },
  "assets/watches/rolex-submariner-1680-red.jpg": {
   "c": [
@@ -2842,9 +3017,19 @@
      525.8
     ],
     "r": 5.2
+   },
+   {
+    "t": "circle",
+    "c": [
+     313.64,
+     230.6
+    ],
+    "r": 9.6,
+    "pip": true
    }
   ],
-  "shapesafter": true
+  "shapesafter": true,
+  "nologo": true
  },
  "assets/watches/rolex-submariner-116619lb-smurf.jpg": {
   "c": [
@@ -2905,8 +3090,18 @@
       4.2
      ]
     ]
+   },
+   {
+    "t": "circle",
+    "c": [
+     339,
+     200
+    ],
+    "r": 8.0,
+    "pip": true
    }
-  ]
+  ],
+  "nologo": true
  },
  "assets/watches/rolex-submariner-5513.jpg": {
   "c": [
@@ -2933,7 +3128,19 @@
    60,
    210
   ],
-  "vint": true
+  "vint": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     600,
+     296
+    ],
+    "r": 10.2,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/patek-philippe-nautilus-5811-blue.jpg": {
   "c": [
@@ -2964,7 +3171,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -2972,7 +3179,8 @@
   "capr": 28.851119999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/patek-philippe-nautilus-3700-1a-blue.jpg": {
   "c": [
@@ -3003,7 +3211,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 3,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3012,7 +3220,8 @@
   "vint": true,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/patek-philippe-nautilus-3800-1a-blue.jpg": {
   "c": [
@@ -3043,7 +3252,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3052,7 +3261,8 @@
   "vint": true,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/patek-philippe-nautilus-5711-olive.jpg": {
   "c": [
@@ -3083,7 +3293,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3091,7 +3301,8 @@
   "capr": 28.851119999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/patek-philippe-aquanaut-5167a-black.jpg": {
   "c": [
@@ -3122,7 +3333,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3130,7 +3341,8 @@
   "capr": 27.660959999999996,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/patek-philippe-aquanaut-5168g-khaki.jpg": {
   "c": [
@@ -3161,7 +3373,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3169,7 +3381,8 @@
   "capr": 39.11112,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/patek-philippe-aquanaut-5164a-travel-time.jpg": {
   "c": [
@@ -3200,7 +3413,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 3,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3208,7 +3421,8 @@
   "capr": 41.2452,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/audemars-piguet-royal-oak-15510st-blue.jpg": {
   "c": [
@@ -3239,7 +3453,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3247,7 +3461,8 @@
   "capr": 38.86487999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/audemars-piguet-royal-oak-5402-blue.jpg": {
   "c": [
@@ -3278,7 +3493,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3287,7 +3502,8 @@
   "vint": true,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/audemars-piguet-royal-oak-offshore-26420-chronograph.jpg": {
   "c": [
@@ -3311,7 +3527,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 3,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3319,7 +3535,8 @@
   "capr": 41.61455999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/audemars-piguet-code-11-59-15210.jpg": {
   "c": [
@@ -3350,7 +3567,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3358,7 +3575,8 @@
   "capr": 39.43944,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/jaeger-lecoultre-polaris-date.jpg": {
   "c": [
@@ -3382,7 +3600,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3390,7 +3608,8 @@
   "capr": 9.31608,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/vacheron-constantin-overseas.jpg": {
   "c": [
@@ -3421,7 +3640,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3429,7 +3648,8 @@
   "capr": 8.98776,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/vacheron-constantin-overseas-rose-gold.jpg": {
   "c": [
@@ -3460,7 +3680,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3468,7 +3688,8 @@
   "capr": 15.348959999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/blancpain-fifty-fathoms-black.jpg": {
   "c": [
@@ -3492,7 +3713,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3500,7 +3721,19 @@
   "capr": 14.856479999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     182.4,
+     105.0
+    ],
+    "r": 7.7,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/breguet-type-xx.jpg": {
   "c": [
@@ -3524,7 +3757,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3532,7 +3765,8 @@
   "capr": 13.994639999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/patek-philippe-pilot-travel-time.jpg": {
   "c": [
@@ -3563,7 +3797,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 3,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3571,7 +3805,8 @@
   "capr": 40.17816,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/audemars-piguet-royal-oak-perpetual-calendar-26574.jpg": {
   "c": [
@@ -3602,7 +3837,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 3,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3610,7 +3845,8 @@
   "capr": 40.834799999999994,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/a-lange-soehne-odysseus-blue.jpg": {
   "c": [
@@ -3647,7 +3883,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 5,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3655,7 +3891,8 @@
   "capr": 38.659679999999994,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/blancpain-leman.jpg": {
   "c": [
@@ -3686,7 +3923,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3694,7 +3931,8 @@
   "capr": 14.61024,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/iwc-big-pilots-watch.jpg": {
   "c": [
@@ -3718,7 +3956,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 4,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3726,7 +3964,8 @@
   "capr": 33.693839999999994,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/breitling-chronomat.jpg": {
   "c": [
@@ -3750,7 +3989,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 4,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3758,7 +3997,8 @@
   "capr": 33.119279999999996,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/tag-heuer-monaco.jpg": {
   "c": [
@@ -3782,7 +4022,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 4,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3790,7 +4030,8 @@
   "capr": 30.821039999999996,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/tag-heuer-carrera.jpg": {
   "c": [
@@ -3814,7 +4055,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 4,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3822,7 +4063,8 @@
   "capr": 31.641840000000002,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/tag-heuer-carrera-chronograph-white.jpg": {
   "c": [
@@ -3846,7 +4088,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 3,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3854,7 +4096,8 @@
   "capr": 26.388719999999996,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/iwc-mark-xx.jpg": {
   "c": [
@@ -3885,7 +4128,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3894,7 +4137,8 @@
   "hubcut": false,
   "vint": true,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/breitling-superocean.jpg": {
   "c": [
@@ -3918,7 +4162,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3926,7 +4170,19 @@
   "capr": 14.281919999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     170.5,
+     103.1
+    ],
+    "r": 8.2,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/tag-heuer-aquaracer.jpg": {
   "c": [
@@ -3957,7 +4213,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -3965,39 +4221,19 @@
   "capr": 13.871519999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
- },
- "assets/watches/panerai-luminor-marina.jpg": {
-  "c": [
-   0.41767068273092367,
-   0.4984126984126984
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     183.0,
+     104.2
+    ],
+    "r": 7.8,
+    "pip": true
+   }
   ],
-  "r": 0.2963450602409638,
-  "col": "g",
-  "thr": 80,
-  "sat": 175,
-  "min": 0.0004,
-  "open": 5,
-  "ex": [],
-  "hub": [
-   104,
-   157
-  ],
-  "hubr": 16,
-  "autohands": false,
-  "R": 79.344,
-  "inset": 0.27,
-  "idxinset": 0.24,
-  "sec": false,
-  "handerode": 1,
-  "maxA": 0.012,
-  "nowin": true,
-  "dotr": 0.62,
-  "autofill": false,
-  "capr": 9.521279999999999,
-  "hubcut": false,
-  "idxlen": 0.1,
-  "noarc": true
+  "nologo": true
  },
  "assets/watches/panerai-radiomir.jpg": {
   "c": [
@@ -4021,7 +4257,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4029,7 +4265,8 @@
   "capr": 9.27504,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/seiko-skx007.jpg": {
   "c": [
@@ -4060,7 +4297,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4068,7 +4305,19 @@
   "capr": 13.338,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     160.8,
+     100.4
+    ],
+    "r": 9.1,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/seiko-5-sports.jpg": {
   "c": [
@@ -4099,7 +4348,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4107,7 +4356,19 @@
   "capr": 13.379039999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     179.5,
+     105.0
+    ],
+    "r": 4.0,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/seiko-prospex-turtle.jpg": {
   "c": [
@@ -4138,7 +4399,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4146,7 +4407,19 @@
   "capr": 14.52816,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     164.4,
+     104.5
+    ],
+    "r": 9.7,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/seiko-alpinist.jpg": {
   "c": [
@@ -4177,7 +4450,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4185,7 +4458,8 @@
   "capr": 14.44608,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/citizen-promaster-diver.jpg": {
   "c": [
@@ -4216,7 +4490,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 4,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4224,7 +4498,19 @@
   "capr": 28.727999999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     386.7,
+     186.7
+    ],
+    "r": 20.8,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/iwc-aquatimer-black.jpg": {
   "c": [
@@ -4255,7 +4541,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4263,7 +4549,8 @@
   "capr": 14.487119999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/iwc-pilots-watch-chronograph-black.jpg": {
   "c": [
@@ -4287,7 +4574,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4295,7 +4582,8 @@
   "capr": 12.886559999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/breitling-avenger.jpg": {
   "c": [
@@ -4326,7 +4614,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4334,7 +4622,8 @@
   "capr": 14.363999999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/tag-heuer-autavia.jpg": {
   "c": [
@@ -4358,7 +4647,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4367,7 +4656,8 @@
   "hubcut": false,
   "vint": true,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/tag-heuer-formula-1.jpg": {
   "c": [
@@ -4398,7 +4688,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4406,7 +4696,8 @@
   "capr": 13.666319999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/tag-heuer-link.jpg": {
   "c": [
@@ -4437,7 +4728,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4445,39 +4736,8 @@
   "capr": 13.214879999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
- },
- "assets/watches/panerai-luminor-marina-2.jpg": {
-  "c": [
-   0.5454545454545454,
-   0.46613545816733065
-  ],
-  "r": 0.2933975935828877,
-  "col": "g",
-  "thr": 80,
-  "sat": 175,
-  "min": 0.0004,
-  "open": 5,
-  "ex": [],
-  "hub": [
-   204,
-   234
-  ],
-  "hubr": 16,
-  "autohands": false,
-  "R": 117.98999999999998,
-  "inset": 0.27,
-  "idxinset": 0.24,
-  "sec": false,
-  "handerode": 1,
-  "maxA": 0.012,
-  "nowin": true,
-  "dotr": 0.62,
-  "autofill": false,
-  "capr": 14.158799999999998,
-  "hubcut": false,
-  "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/panerai-luminor-due.jpg": {
   "c": [
@@ -4501,7 +4761,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4509,7 +4769,8 @@
   "capr": 13.296959999999999,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
  },
  "assets/watches/seiko-monster.jpg": {
   "c": [
@@ -4540,7 +4801,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 4,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4548,7 +4809,19 @@
   "capr": 28.810079999999996,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     395.1,
+     191.6
+    ],
+    "r": 7.9,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/seiko-sumo-blue.jpg": {
   "c": [
@@ -4579,7 +4852,7 @@
   "inset": 0.27,
   "idxinset": 0.3,
   "sec": false,
-  "handerode": 2,
+  "handerode": 4,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4587,7 +4860,19 @@
   "capr": 27.41472,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     412.6,
+     186.3
+    ],
+    "r": 18.7,
+    "pip": true
+   }
+  ],
+  "nologo": true
  },
  "assets/watches/citizen-satellite-wave.jpg": {
   "c": [
@@ -4618,7 +4903,7 @@
   "inset": 0.27,
   "idxinset": 0.24,
   "sec": false,
-  "handerode": 1,
+  "handerode": 2,
   "maxA": 0.012,
   "nowin": true,
   "dotr": 0.62,
@@ -4626,6 +4911,1175 @@
   "capr": 15.307919999999998,
   "hubcut": false,
   "idxlen": 0.1,
-  "noarc": true
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/hublot-big-bang.jpg": {
+  "c": [
+   0.5102040816326531,
+   0.468944099378882
+  ],
+  "r": 0.2933941224489796,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   125,
+   151
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 77.292,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 9.27504,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/hublot-classic-fusion.jpg": {
+  "c": [
+   0.5172413793103449,
+   0.46273291925465837
+  ],
+  "r": 0.2933829310344827,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6749741379310344,
+    0.42863913043478263,
+    0.8074696551724138,
+    0.4968267080745341
+   ]
+  ],
+  "hub": [
+   120,
+   149
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 73.18799999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 8.782559999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/zenith-defy.jpg": {
+  "c": [
+   0.501466275659824,
+   0.43859649122807015
+  ],
+  "r": 0.30220363636363634,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.663941348973607,
+    0.4061964912280702,
+    0.8004204105571847,
+    0.47099649122807014
+   ]
+  ],
+  "hub": [
+   171,
+   225
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 110.80799999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.296959999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/longines-legend-diver.jpg": {
+  "c": [
+   0.48663101604278075,
+   0.4860557768924303
+  ],
+  "r": 0.269585614973262,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   182,
+   244
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 108.41399999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.009679999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "vint": false,
+  "nologo": true
+ },
+ "assets/watches/hamilton-khaki-field-mechanical.jpg": {
+  "c": [
+   0.4954128440366973,
+   0.4836852207293666
+  ],
+  "r": 0.30347009174311923,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   162,
+   252
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 106.704,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 12.804479999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/sinn-556-i.jpg": {
+  "c": [
+   0.4928774928774929,
+   0.464354527938343
+  ],
+  "r": 0.30356153846153844,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.656082621082621,
+    0.4312418111753372,
+    0.7931749287749288,
+    0.49746724470134873
+   ]
+  ],
+  "hub": [
+   173,
+   241
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 114.57,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.748399999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/sinn-u1.jpg": {
+  "c": [
+   0.4007936507936508,
+   0.4505928853754941
+  ],
+  "r": 0.28861,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.5559603174603175,
+    0.4158183794466403,
+    0.6863003174603174,
+    0.4853673913043478
+   ]
+  ],
+  "hub": [
+   303,
+   456
+  ],
+  "hubr": 22,
+  "autohands": false,
+  "R": 234.61199999999997,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 4,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 28.153439999999996,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/tissot-prx.jpg": {
+  "c": [
+   0.42857142857142855,
+   0.4708171206225681
+  ],
+  "r": 0.3029142857142857,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.5914285714285714,
+    0.43887937743190664,
+    0.7282285714285714,
+    0.5027548638132295
+   ]
+  ],
+  "hub": [
+   144,
+   242
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 109.43999999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.132799999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/tissot-prx-green.jpg": {
+  "c": [
+   0.5657370517928287,
+   0.4541832669322709
+  ],
+  "r": 0.2293580079681275,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6890478087649402,
+    0.4171900398406374,
+    0.792628844621514,
+    0.4911764940239044
+   ]
+  ],
+  "hub": [
+   284,
+   228
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 123.80399999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.856479999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/oris-aquis.jpg": {
+  "c": [
+   0.4358288770053476,
+   0.46613545816733065
+  ],
+  "r": 0.28319245989304814,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.5880828877005347,
+    0.4321057768924303,
+    0.715976256684492,
+    0.5001651394422311
+   ]
+  ],
+  "hub": [
+   163,
+   234
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 113.886,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.666319999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "shapes": [
+   {
+    "t": "circle",
+    "c": [
+     173.5,
+     99.2
+    ],
+    "r": 8.5,
+    "pip": true
+   }
+  ],
+  "nologo": true
+ },
+ "assets/watches/bell-ross-br03.jpg": {
+  "c": [
+   0.4570552147239264,
+   0.4826923076923077
+  ],
+  "r": 0.3014740490797546,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   149,
+   251
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 105.678,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 12.68136,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/chopard-alpine-eagle.jpg": {
+  "c": [
+   0.4373259052924791,
+   0.4666666666666667
+  ],
+  "r": 0.30388462395543175,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6007047353760445,
+    0.4331506666666667,
+    0.7379429526462395,
+    0.5001826666666667
+   ]
+  ],
+  "hub": [
+   157,
+   245
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 117.30599999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.076719999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/girard-perregaux-laureato.jpg": {
+  "c": [
+   0.5026737967914439,
+   0.4860557768924303
+  ],
+  "r": 0.2942480213903743,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6608716577540107,
+    0.450697609561753,
+    0.7937578609625668,
+    0.5214139442231076
+   ]
+  ],
+  "hub": [
+   188,
+   244
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 118.332,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.199839999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/longines-spirit.jpg": {
+  "c": [
+   0.5053475935828877,
+   0.49203187250996017
+  ],
+  "r": 0.28999588235294116,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.66125935828877,
+    0.4571846613545817,
+    0.7922252406417112,
+    0.5268790836653386
+   ]
+  ],
+  "hub": [
+   189,
+   247
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 116.62199999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.994639999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/tissot-gentleman.jpg": {
+  "c": [
+   0.4411764705882353,
+   0.4681274900398406
+  ],
+  "r": 0.29339759358288764,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.5989171122994652,
+    0.43287151394422313,
+    0.7314192513368983,
+    0.5033834661354581
+   ]
+  ],
+  "hub": [
+   165,
+   235
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 117.98999999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.158799999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/hamilton-khaki-field-murph.jpg": {
+  "c": [
+   0.5175438596491229,
+   0.4640776699029126
+  ],
+  "r": 0.30225,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   177,
+   239
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 111.14999999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.338,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/laco-aachen.jpg": {
+  "c": [
+   0.5026737967914439,
+   0.4701195219123506
+  ],
+  "r": 0.3010514438502674,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   188,
+   236
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 121.068,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.52816,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/zenith-pilot-type-20.jpg": {
+  "c": [
+   0.5634920634920635,
+   0.47134387351778656
+  ],
+  "r": 0.28398214285714285,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   426,
+   477
+  ],
+  "hubr": 22,
+  "autohands": false,
+  "R": 230.85,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 4,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 27.701999999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/longines-conquest-blue.jpg": {
+  "c": [
+   0.4647398843930636,
+   0.44613259668508287
+  ],
+  "r": 0.2871732485549133,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6191341040462427,
+    0.41846319060773485,
+    0.7488252485549133,
+    0.47380200276243095
+   ]
+  ],
+  "hub": [
+   402,
+   646
+  ],
+  "hubr": 25,
+  "autohands": false,
+  "R": 267.102,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 4,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 32.05224,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/longines-hydroconquest-blue.jpg": {
+  "c": [
+   0.45865490628445427,
+   0.4551104972375691
+  ],
+  "r": 0.28825283351708936,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6136295479603088,
+    0.42598853591160224,
+    0.7438082469680265,
+    0.4842324585635359
+   ]
+  ],
+  "hub": [
+   416,
+   659
+  ],
+  "hubr": 27,
+  "autohands": false,
+  "R": 281.124,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 4,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 33.734880000000004,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/hamilton-pan-europ.jpg": {
+  "c": [
+   0.45187165775401067,
+   0.49203187250996017
+  ],
+  "r": 0.2916967379679144,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   169,
+   247
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 117.30599999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.076719999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/sinn-104.jpg": {
+  "c": [
+   0.5267379679144385,
+   0.4940239043824701
+  ],
+  "r": 0.31720957219251333,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6972807486631016,
+    0.4559065737051793,
+    0.8405366844919786,
+    0.532141235059761
+   ]
+  ],
+  "hub": [
+   197,
+   248
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 127.56599999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 15.307919999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/sinn-ezm-3.jpg": {
+  "c": [
+   0.5401069518716578,
+   0.47808764940239046
+  ],
+  "r": 0.29764973262032085,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.7001336898395722,
+    0.44232071713147414,
+    0.8345561497326204,
+    0.5138545816733068
+   ]
+  ],
+  "hub": [
+   202,
+   240
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 119.69999999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.363999999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/sinn-356-flieger.jpg": {
+  "c": [
+   0.40641711229946526,
+   0.4701195219123506
+  ],
+  "r": 0.2908463101604278,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   152,
+   236
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 116.96399999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.035679999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/tissot-seastar.jpg": {
+  "c": [
+   0.47593582887700536,
+   0.450199203187251
+  ],
+  "r": 0.30020101604278077,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6373342245989305,
+    0.4141256972111554,
+    0.7729088770053476,
+    0.48627270916334664
+   ]
+  ],
+  "hub": [
+   178,
+   226
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 120.726,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.487119999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/oris-divers-sixty-five.jpg": {
+  "c": [
+   0.5132275132275133,
+   0.46047430830039526
+  ],
+  "r": 0.29155499999999995,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6699775132275132,
+    0.4253449604743083,
+    0.8016475132275133,
+    0.4956036561264822
+   ]
+  ],
+  "hub": [
+   388,
+   466
+  ],
+  "hubr": 23,
+  "autohands": false,
+  "R": 237.00599999999997,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 4,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 28.440719999999995,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/oris-propilot.jpg": {
+  "c": [
+   0.48128342245989303,
+   0.45219123505976094
+  ],
+  "r": 0.29935058823529415,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6422245989304813,
+    0.41621992031872507,
+    0.7774151871657754,
+    0.4881625498007968
+   ]
+  ],
+  "hub": [
+   180,
+   227
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 120.384,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.44608,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/bell-ross-br01.jpg": {
+  "c": [
+   0.5508021390374331,
+   0.4681274900398406
+  ],
+  "r": 0.28999588235294116,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.7067139037433154,
+    0.43328027888446213,
+    0.8376797860962567,
+    0.5029747011952191
+   ]
+  ],
+  "hub": [
+   206,
+   235
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 116.62199999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.994639999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/chopard-mille-miglia.jpg": {
+  "c": [
+   0.44919786096256686,
+   0.4721115537848606
+  ],
+  "r": 0.30615401069518716,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   168,
+   237
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 123.11999999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.774399999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/doxa-sub-300t-sharkhunter-black.jpg": {
+  "c": [
+   0.47593582887700536,
+   0.50199203187251
+  ],
+  "r": 0.3027522994652406,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   178,
+   252
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 121.752,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.61024,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/zodiac-sea-wolf.jpg": {
+  "c": [
+   0.44223107569721115,
+   0.4601593625498008
+  ],
+  "r": 0.2090832669322709,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   222,
+   231
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 112.85999999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.543199999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
  }
 }

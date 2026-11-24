@@ -48,6 +48,10 @@ def gen(img, spec):
                 if 0<=yy<H2 and 0<=xx<W2 and not sub[yy,xx] and not out[yy,xx]: out[yy,xx]=True;q.append((yy,xx))
         fill=~out
         if spec.get('maxA') and fill.sum()>spec['maxA']*w*w: continue
+        if spec.get('nologo') and 'hub' in spec:   # Logo und Schriftzug zwischen Mitte und 12-Uhr-Index
+            hx_,hy_=spec['hub'];Rr=spec.get('R',r);ccx=c[:,1].mean();ccy=c[:,0].mean()
+            dmin=np.hypot(c[:,1]-hx_,c[:,0]-hy_).min()
+            if abs(ccx-hx_)<Rr*.4 and hy_-Rr*.68<ccy<hy_-Rr*.12 and dmin>Rr*.1: continue
         if spec.get('noarc') and 'hub' in spec:   # Bogen am Zifferblattrand (Rehaut, Lünettenkante): lang, dünn, tangential
             dd=np.hypot(c[:,1]-spec['hub'][0],c[:,0]-spec['hub'][1])
             if dd.min()>r*.78 and (dd.max()-dd.min())<r*.06 and len(c)>r*.6: continue   # sehr große helle Fläche (Hilfszifferblatt, Zifferblattausschnitt): keine Leuchtmasse
@@ -97,6 +101,7 @@ def gen(img, spec):
     shp=Image.new('L',(w*4,h*4),0);dr=ImageDraw.Draw(shp);S4=4
     shp2=Image.new('L',(w*4,h*4),0);dr2=ImageDraw.Draw(shp2)
     for f in spec.get('shapes',[]):
+        if f.get('pip'): continue
         if f['t']=='sword':  # Füllung entlang der Zeigerachse: Liste [Abstand, Breite]
             hx,hy=f.get('hub',spec.get('hub'));t=math.radians(f['ang']);ax,ay=math.sin(t),-math.cos(t);px,py=math.cos(t),math.sin(t);off=f.get('off',0)
             L1=[];L2=[]
@@ -259,6 +264,13 @@ def gen(img, spec):
             d2.polygon([(x*4,y*4) for x,y in pts],fill=255)
         keep=new|(np.array(im2.resize((w,h),Image.LANCZOS))>110)
     if spec.get('shapesafter'): keep|=shp   # gezeichnete Zeigerformen unverändert übernehmen (nicht schrumpfen/abtrennen)
+    # Leuchtperle auf der Lünette: zuletzt, unverändert als Kreis
+    pips=[f for f in spec.get('shapes',[]) if f.get('pip')]
+    if pips:
+        pim=Image.new('L',(w*4,h*4),0);pd=ImageDraw.Draw(pim)
+        for f in pips:
+            cx_,cy_=f['c'];rr=f['r'];pd.ellipse([(cx_-rr)*4,(cy_-rr)*4,(cx_+rr)*4,(cy_+rr)*4],fill=255)
+        keep|=np.array(pim.resize((w,h),Image.LANCZOS))>110
     # Kanten glätten
     mk=Image.fromarray((keep*255).astype(np.uint8)).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(.7))
     col=(185,232,255) if spec.get('col','g')=='b' else (175,255,205)
@@ -276,5 +288,5 @@ if __name__=='__main__':
         ov.save((OUT if 'OUT' in globals() else ROOT+'assets/watches/lume/')+name,optimize=True)
         # Vorschau
         base=Image.open(ROOT+img).convert('RGB');pv=base.point(lambda v:int(v*.35)).convert('RGBA')
-        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save('/tmp/pv_'+name)
+        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save(f'/tmp/claude-0/-home-user-WikiTicks/0e28edec-f94f-555b-a2c4-826ff2b6d4c0/scratchpad/lm/pv_{name}')
         print(name,int(keep.sum()))
