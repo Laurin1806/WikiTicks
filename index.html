@@ -97,6 +97,26 @@ header { border-bottom: 1px solid var(--line); }
 a.xl, .crumbs a, nav a.more, .daily .kicker, .fcard .kicker, .timeline .ty, .curbox .label, .rel a, .toc button, .pc-table summary { text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), transparent); }
 .card .cat, article .cat { text-shadow: 0 0 7px color-mix(in srgb, var(--gold) calc(var(--gl) * 45%), transparent); }
 .azgroup > h3 { text-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), transparent); }
+.head p { margin: 8px 0 0; color: var(--muted); max-width: 56ch; }
+.beat { font-family: var(--font-mono); font-size: 12px; color: var(--muted); margin-top: 6px; }
+.accent-box { margin-top: 28px; padding: 18px 0 0 10px; border-top: 1px solid var(--line); }
+.accent-box .label { margin-bottom: 8px; }
+.accent-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); max-width: 260px; }
+.accent-switch button { display: flex; align-items: center; gap: 7px; font: inherit; font-size: 13px; color: var(--muted); background: none; border: 0; border-radius: 999px; padding: 5px 12px 5px 8px; cursor: pointer; }
+.accent-switch button[aria-pressed="true"] { background: var(--accent-soft); color: var(--fg); font-weight: 600; }
+.accent-switch i { width: 14px; height: 14px; border-radius: 50%; display: block; }
+.accent-switch .sw-blue { background: #1f4fa0; }
+.accent-switch .sw-green { background: #1d5c42; }
+.accent-switch .sw-bordeaux { background: #7a1f33; }
+.accent-switch .sw-anthrazit { background: #3a4048; }
+@media (max-width: 760px) { .accent-box { display: none; margin-top: 0; padding: 14px 4px 4px; } nav.open + .accent-box { display: block; } }
+.search { position: relative; margin-top: 16px; max-width: 480px; }
+.search input { width: 100%; font: inherit; padding: 11px 14px 11px 40px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--fg); }
+.search input:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+.search svg { position: absolute; left: 13px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+
+/* Navigation */
+main { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 52px; padding-block: 30px 56px; }
 .menu-toggle { display: none; }
 nav { display: grid; gap: 22px; align-content: start; }
 .navgroup h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; margin: 0 0 6px; padding-left: 10px; }
