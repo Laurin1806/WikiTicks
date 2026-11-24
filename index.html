@@ -262,6 +262,15 @@ a.xl:hover { text-decoration-color: var(--accent); }
 
 /* Illustrationen */
 .watch { display: block; width: 100%; height: 100%; }
+/* Favoriten */
+.favbtn { display: inline-flex; align-items: center; gap: 5px; margin-left: 12px; vertical-align: middle; font: inherit; font-size: 12px; letter-spacing: 0; text-transform: none; font-weight: 500; color: var(--muted); background: none; border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px 3px 7px; cursor: pointer; }
+.favbtn svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
+.favbtn[aria-pressed="true"] { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 50%, var(--line)); }
+.favbtn[aria-pressed="true"] svg { fill: currentColor; }
+.favbtn:hover { border-color: var(--gold); color: var(--gold); }
+.brandbtns { display: flex; align-items: center; gap: 0; flex-wrap: wrap; margin: 0 0 12px; }
+.brandbtns .tomodels { margin: 0; }
+nav .favhint, #minipanel .favhint { font-size: 13px; color: var(--muted); padding: 4px 10px 4px 22px; }
 .mpinfo { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; width: 210px; max-width: 100%; box-sizing: border-box; margin: 4px auto 8px; padding: 6px 12px; background: var(--accent-soft); border-radius: 8px; font-size: 13px; }
 .mpinfo .mpn { font-weight: 600; color: var(--fg); }
 .mpinfo .mpk { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--accent); min-width: 5ch; text-align: right; }
@@ -657,11 +666,26 @@ function navBrands(key) {
   if (cur && !top.includes(cur)) top.push(cur);
   return top;
 }
+// ---------- Favoriten (im Browser gespeichert) ----------
+let FAV = []; try { FAV = JSON.parse(localStorage.getItem("wikiticks-fav") || "[]").filter(x => typeof x === "string"); } catch (e) {}
+const isFav = id => FAV.includes(id);
+const favLabel = id => id.startsWith("marke-") ? (BRANDS.find(b => "marke-" + slug(b) === id) || id) : byId[id] ? byId[id].t : null;
+const favBtn = id => `<button type="button" class="favbtn" data-fav="${id}" aria-pressed="${isFav(id)}" title="${isFav(id) ? "Aus den Favoriten entfernen" : "Zu den Favoriten hinzufügen"}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.7 5.6 6.1.8-4.5 4.2 1.1 6-5.4-3-5.4 3 1.1-6-4.5-4.2 6.1-.8z"/></svg><span>${isFav(id) ? "Favorit" : "Merken"}</span></button>`;
+function toggleFav(id) {
+  FAV = isFav(id) ? FAV.filter(x => x !== id) : [...FAV, id];
+  try { localStorage.setItem("wikiticks-fav", JSON.stringify(FAV)); } catch (e) {}
+  document.querySelectorAll(`.favbtn[data-fav="${CSS.escape(id)}"]`).forEach(b => { const on = isFav(id); b.setAttribute("aria-pressed", on); b.title = on ? "Aus den Favoriten entfernen" : "Zu den Favoriten hinzufügen"; b.querySelector("span").textContent = on ? "Favorit" : "Merken"; });
+  renderNav(decodeURIComponent(location.hash.slice(1)));
+}
+document.addEventListener("click", ev => { const b = ev.target.closest && ev.target.closest(".favbtn"); if (!b) return; ev.preventDefault(); toggleFav(b.dataset.fav); });
 function renderNav(h) {
   const key = navKey(h);
   const link = (href, text, cls = "") => `<li><a href="#${href}" class="${cls}" aria-current="${key === (href || "home")}">${esc(text)}</a></li>`;
   $("#nav").innerHTML = `
     <ul>${link("", "Startseite", "home")}</ul>
+    <div class="navgroup favgroup"><h2>Favoriten</h2><ul>
+      ${FAV.filter(favLabel).length ? FAV.filter(favLabel).map(id => `<li><a href="#${id}" class="sub" aria-current="${h === id}">${esc(favLabel(id))}</a></li>`).join("") : `<li class="favhint">Mit ☆ bei einem Beitrag merken</li>`}
+    </ul></div>
     <div class="navgroup"><h2>Uhrenmodelle</h2><ul>
       ${link("uhrenmodelle", "Alle Marken")}
       ${navBrands(key).map(b => link("marke-" + slug(b), b, "sub")).join("")}
@@ -1531,7 +1555,7 @@ function viewBrand(b) {
   return crumbs([["Uhrenmodelle", "uhrenmodelle"], [b]]) + `
     ${info ? `<div class="brandinfo">
       <div>${BRAND_LOGOS.has(slug(b)) ? `<div class="brandlogo m"><img src="assets/logos/${slug(b)}.png?v=${IMGV}" alt=""></div>` : ""}<h2 class="page-title${BRAND_LOGOS.has(slug(b)) ? " haslogo" : ""}">${esc(b)}</h2>
-    <button type="button" class="tomodels" data-to="brand-models">Zu den Modellen <span aria-hidden="true">↓</span></button>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
+    <div class="brandbtns"><button type="button" class="tomodels" data-to="brand-models">Zu den Modellen <span aria-hidden="true">↓</span></button>${favBtn("marke-" + slug(b))}</div>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
       <div class="brandside">${BRAND_LOGOS.has(slug(b)) ? `<div class="brandlogo"><img src="assets/logos/${slug(b)}.png?v=${IMGV}" alt="Logo ${esc(b)}"></div>` : ""}${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ...(info.fakten || [])])}</div>
     </div>
     ${(info.abschnitte || info.zeit) ? `<article class="brandart">
@@ -1667,7 +1691,7 @@ function viewEntry(e) {
   return crumbs(trail) + `
     <article>
       ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption></figure>`) : LF.top}
-      <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}</div>
+      <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}${favBtn(e.id)}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
       <p class="lead">${esc(e.s)}</p>
