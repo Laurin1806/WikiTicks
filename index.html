@@ -689,7 +689,7 @@ function renderNav(h) {
   const key = isFav(h) ? "favoriten-eintrag" : navKey(h); // gemerkter Beitrag: nur in den Favoriten hervorheben
   const link = (href, text, cls = "") => `<li><a href="#${href}" class="${cls}" aria-current="${key === (href || "home")}">${esc(text)}</a></li>`;
   $("#nav").innerHTML = `
-    <ul>${link("", "Startseite", "home")}</ul>
+    <div class="navgroup"><h2><a href="#" aria-current="${key === "home"}">Startseite</a></h2></div>
     <div class="navgroup favgroup"><h2><a href="#favoriten" aria-current="${h === "favoriten"}">Favoriten</a></h2><ul>
       ${FAV.filter(favLabel).length ? FAV.filter(favLabel).map(id => `<li><a href="#${id}" class="sub" aria-current="${h === id}">${esc(favLabel(id))}</a></li>`).join("") : `<li class="favhint">Mit ☆ bei einem Beitrag merken</li>`}
     </ul></div>
