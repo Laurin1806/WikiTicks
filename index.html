@@ -726,7 +726,7 @@ footer .wrap { padding-block: 20px calc(36px + env(safe-area-inset-bottom)); dis
       <div class="accent-box night-box">
         <div class="label">Ansicht</div>
         <button type="button" class="nightbtn" id="nightbtn" aria-pressed="false"><svg class="moon" viewBox="4 1 52 28" aria-hidden="true"></svg><span class="nl">Nachtmodus</span></button>
-        <button type="button" class="vintbtn" id="vintbtn" aria-pressed="false" title="Test: zeigt als Hauptbild die älteste Ausführung, soweit ein Bild vorhanden ist">Vintage-Bilder <span>Test</span></button>
+        <button type="button" class="vintbtn" id="vintbtn" aria-pressed="false" title="Test: zeigt als Hauptbild die früheste Ausführung, von der es ein Bild gibt">Vintage-Bilder <span>Test</span></button>
       </div>
       <div class="accent-box">
         <div class="label">Farbe</div>
@@ -1109,7 +1109,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112592";
+const IMGV = "2026112593";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2069,14 +2069,15 @@ function lexFigures(e) {
   };
 }
 // Bild für Übersichten: das Hauptbild des Eintrags (bei e.topv die dort gewählte Variante)
-// Test: Vintage-Ansicht – Hauptbilder durch das älteste Variantenbild (vor 1990) ersetzen
+// Test: Vintage-Ansicht – Hauptbild durch das Bild der frühesten Ausführung ersetzen
 let VINTAGE = false; try { VINTAGE = localStorage.getItem("wikiticks-vintage") === "1"; } catch (e) {}
-const yearOf = y => +((String(y || "").match(/\d{4}/) || [9999])[0]);
+const yearOf = y => +((String(y || "").match(/(?<!\d)(?:18|19|20)\d\d(?!\d)/) || [9999])[0]); // nur echte Jahreszahlen, nicht Teile von Referenzen
 function vintVar(e) {
   if (!VINTAGE || !e || !e.brand) return null;
-  if (e.topv && yearOf(e.topv.y) < 1990) return null; // Hauptbild ist schon eine alte Ausführung
+  // immer die früheste Ausführung, von der es ein Bild gibt – sofern sie älter ist als das Hauptbild
+  const mainY = yearOf(e.topv ? e.topv.y : e.cur);
   let best = null;
-  (e.var || []).forEach(x => { if (x.v && x.v.img && !/seit/i.test(x.y || "") && yearOf(x.y) < 1990 && (!best || yearOf(x.y) < yearOf(best.y))) best = x; });
+  (e.var || []).forEach(x => { const vy = x.vy || x.y; /* vy: Jahr nur zum Sortieren, z. B. bei Bildern »im Stil« einer alten Referenz */ if (x.v && x.v.img && yearOf(vy) < mainY && (!best || yearOf(vy) < yearOf(best.vy || best.y))) best = x; });
   return best;
 }
 const mainV = e => { const vv = vintVar(e); return vv ? withVariant(e.v, { ...vv.v, era: "vintage" }) : mainV0(e); };
@@ -2385,7 +2386,7 @@ function viewEntry(e) {
   const lastK = (e.b || []).length - 1;
   if (varAt[lastK] && varRest.length) varAt[lastK] = varAt[lastK].concat(varRest.splice(0));
   // keine Reihe aus zwei Bildern mit einem einzelnen darunter: bei 3 oder 5 Bildern das letzte weglassen
-  const evenize = a => (a.length > 2 && a.length % 2) ? a.slice(0, -1) : a;
+  const evenize = a => { if (!(a.length > 2 && a.length % 2)) return a; const i = a.map(x => x !== curAsVar).lastIndexOf(true); return a.filter((x, j) => j !== i); }; // das aktuelle Bild (Vintage-Ansicht) nie weglassen
   for (const k in varAt) varAt[k] = evenize(varAt[k]);
   varRest.splice(0, varRest.length, ...evenize(varRest));
   const varGallery = varRest.length ? `<div class="gallery gallery-inline">${varRest.map(varFig).join("")}</div>` : "";
