@@ -683,6 +683,7 @@ footer .wrap { padding-block: 20px calc(36px + env(safe-area-inset-bottom)); dis
 }
 @media (prefers-reduced-motion: reduce) { .card, .fcard { transition: none; } }
 </style>
+<script>/* Eigener Nachtmodus statt des alten System-Dunkelthemas: dunkel nur über die Klasse "night" */document.documentElement.dataset.theme="light";try{var s=localStorage.getItem("wikiticks-night");if(s==="1"||(s===null&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("night")}catch(e){}</script>
 </head>
 <body>
 
@@ -1102,7 +1103,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112587";
+const IMGV = "2026112588";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2770,7 +2771,12 @@ function setNight(on, save = true, anim = false) {
 }
 document.getElementById("nightbtn").addEventListener("click", () => setNight(!document.documentElement.classList.contains("night"), true, true));
 document.addEventListener("load", ev => { if (ev.target && ev.target.matches && ev.target.matches("img.wimg") && document.documentElement.classList.contains("night")) nightPrep(ev.target); }, true);
-try { if (localStorage.getItem("wikiticks-night") === "1") setNight(true, false); } catch (e) {}
+// Startzustand: eigene Wahl (gespeichert) hat Vorrang, sonst Dunkelmodus des Geräts übernehmen
+const DARK_MQ = matchMedia("(prefers-color-scheme: dark)");
+try { const sv = localStorage.getItem("wikiticks-night"); setNight(sv === "1" || (sv === null && DARK_MQ.matches), false); } catch (e) { setNight(DARK_MQ.matches, false); }
+// Wechselt das Gerät zwischen hell und dunkel (z. B. automatisch abends), folgt die Seite und die eigene Wahl wird verworfen
+const onScheme = ev => { try { localStorage.removeItem("wikiticks-night"); } catch (e) {} setNight(ev.matches, false, true); };
+if (DARK_MQ.addEventListener) DARK_MQ.addEventListener("change", onScheme); else if (DARK_MQ.addListener) DARK_MQ.addListener(onScheme);
 
 // ---------- Routing ----------
 // Frühere eigene Beiträge, die in einen anderen Beitrag aufgenommen wurden
