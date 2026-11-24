@@ -5427,18 +5427,18 @@
    "w": "Flach, schlicht und seit 1932 kaum verändert gilt die Calatrava als Urform der runden Dresswatch. Ihr Kreuz ist das Wappen von Patek Philippe.",
    "var": [
     {
-     "n": "Ref. 96",
-     "y": "1932",
+     "n": "Im Stil der Ref. 96, mit arabischen Ziffern und kleiner Sekunde",
+     "y": "",
      "v": {
       "img": "assets/watches/patek-philippe-calatrava-96.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine Patek Philippe Calatrava im klassischen Stil der ersten Referenz 96 von 1932: ein schlichtes rundes Gehäuse aus hellem Metall mit schmaler, glatter Lünette und ein cremefarbenes Zifferblatt. Ob es sich tatsächlich um eine Ref. 96 handelt, lässt das Bild nicht sicher erkennen.",
+      "Die Abbildung zeigt eine moderne Patek Philippe Calatrava im Stil der ersten Referenz 96 von 1932: ein schlichtes rundes Gehäuse aus hellem Metall mit schmaler, glatter Lünette und ein cremefarbenes Zifferblatt.",
       "Zu erkennen sind aufgesetzte arabische Ziffern bei 12, 2, 4, 8 und 10, dazwischen dreieckige Indizes, beides in einem bräunlichen Goldton, sowie schlanke Zeiger im selben Farbton. Bei 6 Uhr liegt die kleine Sekunde in einem eigenen Hilfszifferblatt, am Rand verläuft eine Minuterie mit Punkten. Unter der 12 stehen »Patek Philippe« und »Genève«. Die Uhr sitzt an einem braunen Lederband mit heller Naht."
      ]
     },
     {
-     "n": "Calatrava in Gelbgold",
+     "n": "Calatrava in Gelbgold mit kleiner Sekunde",
      "y": "",
      "v": {
       "img": "assets/watches/patek-philippe-calatrava-yellow-gold.jpg"
@@ -5914,13 +5914,13 @@
    "w": "Patek Philippe stellte den Annual Calendar 1996 vor; er muss nur einmal im Jahr, Ende Februar, korrigiert werden.",
    "var": [
     {
-     "n": "Ref. 5205",
+     "n": "Jahreskalender mit Mondphase in Edelstahl, blaues Zifferblatt",
      "y": "",
      "v": {
       "img": "assets/watches/patek-philippe-annual-calendar-5205.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine Ausführung eines Patek Philippe Jahreskalenders mit rundem Edelstahlgehäuse, polierter Lünette und Gliederband. Das Zifferblatt ist dunkelblau mit feiner Sonnenschliff-Struktur. Das gezeigte Zifferblatt-Layout entspricht nicht eindeutig der Referenz 5205, sondern einem Jahreskalender mit Fenstern.",
+      "Die Abbildung zeigt eine Ausführung eines Patek Philippe Jahreskalenders mit rundem Edelstahlgehäuse, polierter Lünette und Gliederband. Das Zifferblatt ist dunkelblau mit feiner Sonnenschliff-Struktur. Wochentag und Monat erscheinen in Fenstern, Datum und Mondphase sitzen über 6 Uhr.",
       "Zu erkennen sind die Fenster für Wochentag »SAT« und Monat »MAR« unter dem Schriftzug »PATEK PHILIPPE GENEVE«, eine Mondphasenanzeige mit Sternenhimmel oberhalb der 6 und ein Datumsfenster bei 6 Uhr. Dazu kommen aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie die Krone bei 3 Uhr."
      ]
     }
@@ -6066,15 +6066,15 @@
    },
    "var": [
     {
-     "n": "Ref. 5402ST »Jumbo«",
-     "y": "1972",
+     "n": "»Jumbo« Extra-Thin in Edelstahl, blau (moderne Ausführung)",
+     "y": "seit 1972",
      "v": {
       "dial": "#1d3058",
       "seconds": false,
       "img": "assets/watches/audemars-piguet-royal-oak-5402-blue.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine Audemars Piguet Royal Oak im »Jumbo«-Stil aus Edelstahl mit blauem Zifferblatt. Zu sehen ist die achteckige Lünette mit acht sechseckigen Schrauben, das integrierte Gliederband und die Wechselwirkung aus satinierten und polierten Flächen, die Gérald Genta 1972 mit der Ref. 5402ST einführte. Die Ausführung auf dem Bild wirkt wie eine moderne Fertigung dieses Entwurfs.",
+      "Die Abbildung zeigt eine moderne Audemars Piguet Royal Oak »Jumbo« Extra-Thin aus Edelstahl mit blauem Zifferblatt. Zu sehen ist die achteckige Lünette mit acht sechseckigen Schrauben, das integrierte Gliederband und die Wechselwirkung aus satinierten und polierten Flächen, die Gérald Genta 1972 mit der Ref. 5402ST einführte. Die heutige Ausführung führt diesen Entwurf fort.",
       "Zu erkennen sind das »Petite Tapisserie«-Muster des Zifferblatts, aufgesetzte Stabindizes und Stabzeiger mit Leuchtfüllung sowie das Datumsfenster bei 3 Uhr. Unter der Signatur »AUDEMARS PIGUET« steht »AUTOMATIC«, über 6 Uhr sitzt das AP-Monogramm. Die Uhr hat keinen Zentralsekundenzeiger; die Krone ist sechseckig ausgeformt."
      ]
     }
@@ -6748,8 +6748,8 @@
    },
    "var": [
     {
-     "n": "Ref. CK2915 »Broad Arrow«",
-     "y": "1957",
+     "n": "Im Stil der CK2915 »Broad Arrow«, ohne Hilfszifferblätter",
+     "y": "",
      "v": {
       "bezelColor": "#c9ced6",
       "hands": "arrow",
@@ -6760,8 +6760,8 @@
       "img": "assets/watches/omega-speedmaster-ck2915-broad-arrow.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine Uhr im Stil der ersten Omega Speedmaster CK2915 von 1957 mit Gehäuse und Band aus Stahl. Typisch für diese frühe Gestaltung sind die Lünette aus Stahl mit eingravierter Tachymeterskala »TACHYMETRE BASE 1000« und das schwarze Zifferblatt.",
-      "Zu erkennen sind der breite Pfeil-Stundenzeiger (»Broad Arrow«), cremefarben gealterte Leuchtmasse in Dreiecksindizes und den Ziffern 12, 3, 6 und 9 sowie der Schriftzug »Speedmaster« unter dem Omega-Logo. Rechts sitzen die Krone und zwei runde Drücker. Hilfszifferblätter für Stoppminuten und Stunden, wie sie das Original hatte, sind auf diesem Bild nicht zu sehen, sodass es die CK2915 nur in Grundzügen wiedergibt."
+      "Die Abbildung zeigt eine Omega Speedmaster in der Gestaltung der ersten Referenz CK2915 von 1957 mit Gehäuse und Band aus Stahl. Typisch für diese frühe Gestaltung sind die Lünette aus Stahl mit eingravierter Tachymeterskala »TACHYMETRE BASE 1000« und das schwarze Zifferblatt.",
+      "Zu erkennen sind der breite Pfeil-Stundenzeiger (»Broad Arrow«), cremefarben gealterte Leuchtmasse in Dreiecksindizes und den Ziffern 12, 3, 6 und 9 sowie der Schriftzug »Speedmaster« unter dem Omega-Logo. Rechts sitzen die Krone und zwei runde Drücker. Hilfszifferblätter gibt es bei dieser Ausführung nicht, das Zifferblatt bleibt bis auf Ziffern, Indizes und Minuterie frei."
      ]
     }
    ],
@@ -7402,31 +7402,27 @@
     "1968 erschien die Constellation »C-Shape« mit asymmetrisch gerundetem Gehäuse; das Design wird häufig Gérald Genta zugeschrieben. 1982 folgte die »Manhattan«-Generation mit einem neuen Erkennungszeichen: zwei kleine »Krallen« bei 3 und 9 Uhr. Dazu kamen eine Lünette mit römischen Ziffern und ein integriertes Band. Diese Krallen tragen bis heute alle Constellation-Modelle.",
     "Seit 2020 hat die Herren-Constellation das Kaliber 8900 als Master Chronometer und ein überarbeitetes Gehäuse mit schlankeren Krallen."
    ],
-   "cur": "Ref. 131.10.41 / 131.30.41 (41 mm) · seit 2020",
+   "cur": "Constellation mit »Pie-Pan«-Zifferblatt (Modelle der 1950er- und 1960er-Jahre)",
    "f": [
     [
      "Gehäuse",
-     "41 mm, Stahl, Stahl/Gold oder Gold"
+     "34–35 mm, Edelstahl oder Gold"
     ],
     [
      "Kaliber",
-     "8900, Automatik, Co-Axial, 25.200 A/h"
+     "Automatik-Chronometerwerk"
     ],
     [
-     "Gangreserve",
-     "≈ 60 Stunden"
+     "Zifferblatt",
+     "»Pie-Pan«, facettierter Rand, Dauphine-Zeiger"
     ],
     [
      "Zertifizierung",
-     "Master Chronometer (METAS), 15.000 Gauß"
+     "Chronometer mit Gangzeugnis"
     ],
     [
-     "Merkmal",
-     "»Krallen« bei 3 und 9 Uhr"
-    ],
-    [
-     "Wasserdicht",
-     "50 m"
+     "Boden",
+     "Sternwarten-Medaillon"
     ]
    ],
    "refs": [
@@ -7472,9 +7468,9 @@
     "img": "assets/watches/omega-constellation-pie-pan-vintage.jpg"
    },
    "m": [
-    "»Krallen« bei 3 und 9 Uhr",
-    "Römische Ziffern auf der Lünette",
-    "Integriertes Band",
+    "»Pie-Pan«-Zifferblatt (1950er- und 1960er-Jahre)",
+    "»Krallen« bei 3 und 9 Uhr (seit 1982)",
+    "Römische Ziffern auf der Lünette (seit 1982)",
     "Sternwarten-Medaillon auf dem Boden"
    ],
    "tipp": [
@@ -7528,7 +7524,7 @@
     "Seit 2020: Kaliber 8900"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Omega Constellation mit »Pie-Pan«-Zifferblatt, wie es für die Modelle der 1950er- und 1960er-Jahre typisch ist, und nicht die aktuelle Ausführung. Gehäuse und Gliederband sind aus Edelstahl, das silberfarbene Zifferblatt hat einen facettierten Rand wie eine umgedrehte Kuchenform.",
+    "Die Abbildung zeigt eine Omega Constellation mit »Pie-Pan«-Zifferblatt, wie es für die Modelle der 1950er- und 1960er-Jahre typisch ist. Gehäuse und Gliederband sind aus Edelstahl, das silberfarbene Zifferblatt hat einen facettierten Rand wie eine umgedrehte Kuchenform.",
     "Zu erkennen sind keilförmige, facettierte Stabindizes auf dem abgeschrägten Rand, schlanke Dauphine-Zeiger und unter der 12 das Omega-Symbol mit Schriftzug, darunter der Modellname in Schreibschrift. Über der 6 stehen »Chronometer Officially Certified« und ein Stern. Die für spätere Modelle typischen »Krallen« bei 3 und 9 Uhr fehlen, ein Sekundenzeiger ist nicht zu sehen. Das mehrreihige Band hat kleine Mittelglieder."
    ]
   },
@@ -7971,14 +7967,14 @@
    "w": "Eine selbstverstellende Faltschließe passt das Band dem Neoprenanzug an, Gehäuse und Band bestehen aus Titan.",
    "var": [
     {
-     "n": "Pelagos in Blau",
+     "n": "Pelagos in Blau (Titan, 200 m)",
      "y": "",
      "v": {
       "img": "assets/watches/tudor-pelagos-blue.jpg"
      },
      "bd": [
       "Die Abbildung zeigt eine Ausführung der Tudor Pelagos in Blau. Gehäuse und Band sind aus mattgrauem Titan, die einseitig drehbare Lünette trägt eine blaue Einlage mit Minutenskala, deren erste 15 Minuten fein unterteilt sind. Das Zifferblatt ist ebenfalls blau.",
-      "Zu erkennen sind der Stundenzeiger mit großer eckiger Leuchtfläche, rechteckige Leuchtindizes, ein Dreieck bei 12 Uhr, der Leuchtpunkt auf der Lünette und die Aufschriften »PELAGOS« und »CHRONOMETER OFFICIALLY CERTIFIED«. Ein Datum fehlt. Rechts sitzt die verschraubte Krone mit Kronenschutzflanken, das Titanband hat gebürstete Glieder."
+      "Zu erkennen sind der Stundenzeiger mit großer eckiger Leuchtfläche, rechteckige Leuchtindizes, ein Dreieck bei 12 Uhr, der Leuchtpunkt auf der Lünette und die Aufschriften »PELAGOS«, »CHRONOMETER OFFICIALLY CERTIFIED« und die Tiefenangabe »200m-660ft«. Ein Datum fehlt. Rechts sitzt die verschraubte Krone mit Kronenschutzflanken, das Titanband hat gebürstete Glieder."
      ]
     }
    ],
@@ -8305,7 +8301,7 @@
    },
    "var": [
     {
-     "n": "Tank Louis Cartier in Gold",
+     "n": "Tank Louis Cartier in Gelbgold",
      "y": "seit 1922",
      "v": {
       "case": "gold",
@@ -8313,7 +8309,7 @@
       "img": "assets/watches/cartier-tank-louis-rose-gold.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine Cartier Tank Louis Cartier mit Gehäuse aus Gold. Die rechteckige Form mit gerundeten Kanten und den seitlichen Stegen, den Brancards, kennzeichnet diese seit 1922 gebaute Variante der Tank. Das Zifferblatt ist cremeweiß.",
+      "Die Abbildung zeigt eine Cartier Tank Louis Cartier mit Gehäuse aus Gelbgold. Die rechteckige Form mit gerundeten Kanten und den seitlichen Stegen, den Brancards, kennzeichnet diese seit 1922 gebaute Variante der Tank. Das Zifferblatt ist cremeweiß.",
       "Typisch sind die schwarzen römischen Ziffern, der innere Minutenkreis im »Chemin de fer«-Stil und die gebläuten Schwertzeiger. Unter 12 Uhr steht der Schriftzug »CARTIER«. Die perlierte Krone trägt einen blauen Cabochon. Die Uhr ist an einem dunkelbraunen Lederband mit Krokodilprägung und brauner Naht montiert."
      ]
     },
@@ -8457,23 +8453,23 @@
     "2003 folgte der Ewige Kalender nach Kurt Klaus, 2015 der Jahreskalender. Heute umfasst die Portugieser-Familie außerdem Modelle mit Tourbillon, Minutenrepetition und Weltzeit.",
     "Optisch blieb die Portugieser konstant: dünne Lünette, aufgesetzte arabische Applikationsziffern, Stahl-Blattzeiger und die Minuterie im Eisenbahnstil. Gerade weil sich das Zifferblatt kaum verändert hat, erkennt man Generationen an Werk, Größe und Details wie Datumsfenster oder Gangreserveanzeige."
    ],
-   "cur": "Portugieser Automatic 42 · seit 2020",
+   "cur": "Portugieser Automatic 40 (Ref. IW3583) · seit 2020",
    "f": [
     [
      "Gehäuse",
-     "42,4 mm, Edelstahl oder Gold"
+     "40,4 mm, Edelstahl oder Gold"
     ],
     [
      "Kaliber",
-     "52010, Automatik mit Pellaton-Aufzug, 28.800 A/h"
+     "82200, Automatik mit Pellaton-Aufzug, 28.800 A/h"
     ],
     [
      "Gangreserve",
-     "7 Tage (168 Stunden)"
+     "≈ 60 Stunden"
     ],
     [
      "Funktionen",
-     "kleine Sekunde, Datum, Gangreserveanzeige"
+     "Stunden, Minuten, kleine Sekunde"
     ],
     [
      "Wasserdicht",
@@ -8515,6 +8511,13 @@
      "42,4 mm",
      "52010",
      "Automatic im neuen Format"
+    ],
+    [
+     "Automatic 40",
+     "seit 2020",
+     "40,4 mm",
+     "82200",
+     "Dreizeiger mit kleiner Sekunde"
     ]
    ],
    "r": [
@@ -8541,7 +8544,7 @@
     "Großes, klares Zifferblatt",
     "Aufgesetzte arabische Ziffern",
     "Blattzeiger",
-    "Bei der Automatic sieben Tage Gangreserve"
+    "Kleine Sekunde bei 6 Uhr"
    ],
    "tipp": [
     "Der Portugieser Chronograph ist eines der beliebtesten IWC-Modelle.",
@@ -8647,7 +8650,7 @@
    ],
    "bd": [
     "Die Abbildung zeigt eine IWC Portugieser aus Edelstahl mit silberweißem Zifferblatt und dunkelblauem Lederband. Das runde Gehäuse hat eine schmale, polierte Lünette, die viel Raum für das Zifferblatt lässt.",
-    "Zu erkennen sind die aufgesetzten arabischen Ziffern, die feine Eisenbahn-Minuterie am Rand, die schlanken gebläuten Blattzeiger und die Signatur »IWC SCHAFFHAUSEN«. Die kleine Sekunde sitzt bei 6 Uhr; ein Datum oder eine Gangreserveanzeige fehlt. Die Anordnung entspricht damit nicht der im Text genannten Portugieser Automatic 42, die eine Gangreserveanzeige hat; das Bild zeigt eine Dreizeiger-Ausführung der Linie."
+    "Zu erkennen sind die aufgesetzten arabischen Ziffern, die feine Eisenbahn-Minuterie am Rand, die schlanken gebläuten Blattzeiger und die Signatur »IWC SCHAFFHAUSEN«. Die kleine Sekunde sitzt bei 6 Uhr; ein Datum oder eine Gangreserveanzeige fehlt. Das Zifferblatt entspricht damit der Portugieser Automatic 40, der schlichtesten Ausführung der Linie."
    ]
   },
   {
@@ -9414,33 +9417,25 @@
    "b": [
     "Heuer stellte die Monaco 1969 vor und benannte sie nach dem Grand Prix von Monaco. Sie war der erste Chronograph in einem quadratischen, wasserdichten Gehäuse. In ihr arbeitete das neue Kaliber 11, eines der ersten automatischen Chronographenwerke, das 1969 mit großem Aufwand der Presse vorgestellt wurde. Mikrorotor und Wasserdichtigkeit in einem eckigen Gehäuse zu vereinen war eine Herausforderung. Weil der Mikrorotor-Aufzug keine Krone zum Aufziehen brauchte, saß sie auf der linken Seite.",
     "Berühmt wurde die Monaco durch den Film »Le Mans« von 1971. Steve McQueen trug darin eine Monaco mit blauem Zifferblatt und das Heuer-Logo auf seinem Rennanzug. Das Modell heißt deshalb bis heute oft »Steve McQueen«. Der Mythos der Monaco stammt von diesem Film und vom Werbewert, den Heuer daraus zog.",
-    "In den 1970er-Jahren gab es weitere Varianten, etwa die schwarz beschichtete 74033N, die Sammler »Dark Lord« nennen. In der Quarzkrise wurde die Monaco Mitte der 1970er-Jahre eingestellt. 1998 brachte TAG Heuer sie als Re-Edition zurück, seit den 2000er-Jahren gehört sie wieder fest zum Programm; 2009 folgte die Jubiläumsversion mit Kaliber 11. Seit 2019 gibt es sie mit dem eigenen Werk Heuer 02 und 80 Stunden Gangreserve, in der Gestaltung des Originals mit Krone links."
+    "In den 1970er-Jahren gab es weitere Varianten, etwa die schwarz beschichtete 74033N, die Sammler »Dark Lord« nennen. In der Quarzkrise wurde die Monaco Mitte der 1970er-Jahre eingestellt. 1998 brachte TAG Heuer sie als Re-Edition zurück, seit den 2000er-Jahren gehört sie wieder fest zum Programm; 2009 folgte die Jubiläumsversion mit Kaliber 11. Seit 2019 gibt es sie mit dem eigenen Werk Heuer 02 und 80 Stunden Gangreserve, in der Gestaltung des Originals mit Krone links. Daneben baute TAG Heuer Ausführungen, bei denen Krone und Drücker rechts liegen und ein Datum bei 6 Uhr sitzt."
    ],
-   "cur": "Ref. CBL2111 (Heuer 02, blau) · seit 2019",
+   "cur": "Monaco Automatik-Chronograph mit Krone rechts und Datum bei 6 Uhr, blau",
    "f": [
     [
      "Gehäuse",
      "39 mm, Edelstahl, quadratisch"
     ],
     [
-     "Kaliber",
-     "Heuer 02, Automatik-Chronograph, 28.800 A/h"
+     "Werk",
+     "Automatik-Chronograph"
     ],
     [
-     "Gangreserve",
-     "≈ 80 Stunden"
-    ],
-    [
-     "Chronograph",
-     "Schaltrad, vertikale Kupplung"
-    ],
-    [
-     "Wasserdicht",
-     "100 m"
+     "Anzeigen",
+     "zwei Hilfszifferblätter, Datum bei 6 Uhr"
     ],
     [
      "Merkmal",
-     "Krone links"
+     "Krone und Drücker rechts"
     ]
    ],
    "refs": [
@@ -9492,7 +9487,7 @@
    },
    "m": [
     "Quadratisches Gehäuse",
-    "Krone links",
+    "Krone links (Original) oder rechts",
     "Zwei Hilfszifferblätter",
     "Blaues Zifferblatt mit roten Akzenten"
    ],
@@ -9563,7 +9558,7 @@
    ],
    "bd": [
     "Die Abbildung zeigt eine TAG Heuer Monaco mit quadratischem Gehäuse aus Edelstahl und blauem Zifferblatt an einem schwarzen, gelochten Lederband. Die Farbgebung erinnert an die blaue Monaco, die Steve McQueen im Film »Le Mans« trug.",
-    "Zu erkennen sind zwei eckige, weiße Hilfszifferblätter mit roten Zeigern, eine Minuterie mit roten Punkten, Stabindizes und der rote zentrale Stoppsekundenzeiger. Bei 6 Uhr sitzt ein Datumsfenster, darüber steht »AUTOMATIC«. Krone und Drücker liegen auf der rechten Gehäuseseite. Die aktuelle Referenz CBL2111 hat dagegen die Krone links und kein Datum; das Bild zeigt deshalb eine andere Ausführung der Monaco."
+    "Zu erkennen sind zwei eckige, weiße Hilfszifferblätter mit roten Zeigern, eine Minuterie mit roten Punkten, Stabindizes und der rote zentrale Stoppsekundenzeiger. Bei 6 Uhr sitzt ein Datumsfenster, darüber steht »AUTOMATIC«. Krone und Drücker liegen auf der rechten Gehäuseseite."
    ]
   },
   {
@@ -9576,29 +9571,29 @@
     "Jack Heuer entwarf die Carrera 1963 als Chronographen, der sich auch während der Fahrt auf einen Blick ablesen lässt. Das Zifferblatt ist bewusst aufgeräumt; die Tachymeterskala saß nicht auf der Lünette, sondern auf einem schlanken, glasnahen inneren Ring (»Flange«), damit das Glas groß bleiben konnte.",
     "Ihren Namen hat sie von der Carrera Panamericana, einem Straßenrennen quer durch Mexiko, das von 1950 bis 1954 ausgetragen und wegen vieler tödlicher Unfälle eingestellt wurde. Das spanische Wort »Carrera« bedeutet Rennen.",
     "Die ersten Carrera (Ref. 2447) erschienen 1963 mit dem Handaufzugs-Chronographenwerk Valjoux 72. Das erste Modell war bewusst schmucklos; Varianten wie die Carrera 45 erweiterten das Spektrum.",
-    "1969 erhielt die Carrera das Kaliber 11 (Ref. 1153). In den 1970ern verschwand die Linie, 1996 erschien eine Re-Edition der Ur-Carrera, die den Neuanfang der Marke bei Sammlern markierte; heute ist die Carrera eine der wichtigsten Linien von TAG Heuer. 2010 brachte TAG Heuer das Kaliber 1887, 2015 das Heuer 01 mit Skelett-Optik, 2020 und 2023 weitere Generationen. Zum 60. Jubiläum 2023 erschien die Carrera Glassbox, deren hoch gewölbtes Glas an die Acrylgläser der 1960er-Jahre erinnert."
+    "1969 erhielt die Carrera das Kaliber 11 (Ref. 1153). In den 1970ern verschwand die Linie, 1996 erschien eine Re-Edition der Ur-Carrera, die den Neuanfang der Marke bei Sammlern markierte; heute ist die Carrera eine der wichtigsten Linien von TAG Heuer. 2010 brachte TAG Heuer das Kaliber 1887, 2015 das Heuer 01 mit Skelett-Optik, 2020 und 2023 weitere Generationen. Zum 60. Jubiläum 2023 erschien die Carrera Glassbox, deren hoch gewölbtes Glas an die Acrylgläser der 1960er-Jahre erinnert. Daneben gibt es sportlichere Carrera-Chronographen mit Tachymeterskala auf einer schwarzen Lünette."
    ],
-   "cur": "Carrera Chronograph Glassbox (Ref. CBS2210) · seit 2023",
+   "cur": "Carrera Chronograph mit schwarzer Tachymeterlünette, Edelstahl",
    "f": [
     [
      "Gehäuse",
-     "39 mm, Edelstahl"
+     "Edelstahl"
     ],
     [
-     "Kaliber",
-     "TH20-00, Automatik-Chronograph, 28.800 A/h"
+     "Werk",
+     "Automatik-Chronograph"
     ],
     [
-     "Gangreserve",
-     "≈ 80 Stunden"
+     "Lünette",
+     "schwarz, mit Tachymeterskala"
     ],
     [
-     "Glas",
-     "stark gewölbtes Saphirglas"
+     "Zifferblatt",
+     "schwarz, drei helle Hilfszifferblätter, Datum bei 6 Uhr"
     ],
     [
-     "Wasserdicht",
-     "100 m"
+     "Band",
+     "Edelstahl"
     ]
    ],
    "refs": [
@@ -9647,7 +9642,7 @@
    "m": [
     "Aufgeräumtes Zifferblatt",
     "Zwei oder drei Hilfszifferblätter",
-    "Tachymeterskala am Zifferblattrand",
+    "Tachymeterskala am Zifferblattrand oder auf der Lünette",
     "Klassische Rennsport-Optik"
    ],
    "tipp": [
@@ -9737,7 +9732,7 @@
     "Von Kaliber 11 bis zur Glassbox"
    ],
    "bd": [
-    "Die Abbildung zeigt einen TAG Heuer Carrera Chronograph aus Edelstahl mit schwarzem Zifferblatt und schwarzer Tachymeterlünette. Die im Text genannte Glassbox-Ausführung CBS2210 hat dagegen keine Lünette, sondern ein gewölbtes Glas; das Bild zeigt eine andere Carrera-Ausführung.",
+    "Die Abbildung zeigt einen TAG Heuer Carrera Chronograph aus Edelstahl mit schwarzem Zifferblatt und schwarzer Tachymeterlünette. Die Tachymeterskala liegt bei dieser Ausführung auf der Lünette.",
     "Zu erkennen sind drei silberweiße Hilfszifferblätter in »Panda«-Optik, aufgesetzte Stabindizes mit Leuchtfüllung, ein Doppelindex bei 12 Uhr und das Heuer-Wappen unter dem Schriftzug »CARRERA«. Die Zeiger sind Stabzeiger mit Leuchtmasse, im Totalisator bei 6 Uhr ist eine kleine Datumsanzeige untergebracht. Rechts sitzen die Krone und zwei Drücker, dazu kommt ein Stahlgliederband."
    ]
   },
@@ -12492,13 +12487,13 @@
    "w": "Statt Zeigern zeigen springende Ziffern Stunden und Minuten an.",
    "var": [
     {
-     "n": "Zeitwerk Date",
+     "n": "Zeitwerk mit schwarzem Zifferblatt",
      "y": "",
      "v": {
       "img": "assets/watches/a-lange-soehne-zeitwerk-date.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine A. Lange & Söhne Zeitwerk mit schwarzem Zifferblatt und einem Gehäuse aus hellem Metall an einem schwarzen Lederband. Der für die Zeitwerk Date typische Datumsring am Zifferblattrand ist auf diesem Bild nicht zu sehen, es handelt sich daher eher um eine Zeitwerk ohne Datum.",
+      "Die Abbildung zeigt eine A. Lange & Söhne Zeitwerk mit schwarzem Zifferblatt und einem Gehäuse aus hellem Metall an einem schwarzen Lederband. Ein Datum zeigt diese Ausführung nicht.",
       "Typisch ist die Anzeige mit springenden Ziffern: In der hellen Brücke zeigen zwei Fenster links die Stunde (hier »7«) und rechts die Minuten (»52«). Darüber liegt die Gangreserveanzeige mit den Aufschriften »Auf« und »Ab«, darunter die kleine Sekunde mit Skala. Zu erkennen sind außerdem der Schriftzug »A. Lange & Söhne Glashütte I/SA«, die Krone bei 2 Uhr und ein Drücker bei 4 Uhr."
      ]
     }
@@ -12591,7 +12586,7 @@
     "Flyback-Chronograph",
     "Großdatum",
     "Springender Minutenzähler",
-    "Römische Ziffern"
+    "Römische Ziffern (Original) oder Stabindizes (Auf/Ab)"
    ],
    "x": [
     "Dass der Minutenzähler springt, statt zu gleiten, erlaubt ein genaues Ablesen."
@@ -12656,7 +12651,7 @@
     "Ewiger Kalender, Tourbillon und L951.1"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Ausführung der A. Lange & Söhne Datograph mit hellem Metallgehäuse und schwarzem Zifferblatt an einem schwarzen Lederband. Die als Datograph Auf/Ab bezeichnete Version hat laut Kontext ein 41-Millimeter-Gehäuse und eine Gangreserveanzeige, die auf dem Bild jedoch nicht deutlich zu erkennen ist.",
+    "Die Abbildung zeigt eine A. Lange & Söhne Datograph Auf/Ab mit hellem Metallgehäuse und schwarzem Zifferblatt an einem schwarzen Lederband. Die Gangreserveanzeige der Auf/Ab sitzt klein bei 6 Uhr am Zifferblattrand und ist auf dieser Abbildung kaum zu erkennen.",
     "Zu erkennen sind das Großdatum unter dem bogenförmigen Schriftzug »A. LANGE & SÖHNE«, zwei silberne Hilfszifferblätter für kleine Sekunde und springenden Minutenzähler sowie die Tachymeterskala am Rand. Aufgesetzte Stabindizes und Stabzeiger in Silber heben sich vom schwarzen Grund ab. Rechts sitzen die Krone und die beiden Chronographendrücker, links eine weitere Taste."
    ]
   },
@@ -14133,15 +14128,15 @@
     "Die Patrimony steht für Zurückhaltung. Das Gehäuse ist dünn und hat eine schmale Lünette, sodass das Zifferblatt besonders groß wirkt.",
     "Es gibt sie als reine Zweizeiger, mit Datum, mit Mondphase und mit ewigem Kalender. Die Werke tragen das Genfer Siegel."
    ],
-   "cur": "Patrimony Self-winding (85180) · seit 2010er",
+   "cur": "Patrimony Handaufzug (Ref. 81180), Roségold",
    "f": [
     [
      "Gehäuse",
-     "40 mm, Gold"
+     "40 mm, Roségold"
     ],
     [
      "Kaliber",
-     "2450 Q6, Automatik, 28.800 A/h"
+     "1400, Handaufzug, 28.800 A/h"
     ],
     [
      "Gangreserve",
@@ -14149,7 +14144,7 @@
     ],
     [
      "Funktionen",
-     "Stunden, Minuten, Sekunden, Datum"
+     "Stunden, Minuten"
     ],
     [
      "Qualitätszeichen",
@@ -14591,7 +14586,7 @@
     "Bekannt ist die Kollektion für Modelle mit Mondphase, Vollkalender und Chronograph, die man sonst meist nur in viel teureren Uhren findet.",
     "Seit 2022 gibt es eine überarbeitete Version mit neuen Werken und bis zu 72 Stunden Gangreserve."
    ],
-   "cur": "Master Collection Moonphase · seit 2022",
+   "cur": "Master Collection Automatic mit Datum, 40 mm",
    "f": [
     [
      "Gehäuse",
@@ -14599,15 +14594,11 @@
     ],
     [
      "Kaliber",
-     "L899, Automatik, 25.200 A/h"
-    ],
-    [
-     "Gangreserve",
-     "≈ 72 Stunden"
+     "Automatik"
     ],
     [
      "Funktionen",
-     "Datum, Mondphase"
+     "Stunden, Minuten, Sekunden, Datum"
     ],
     [
      "Wasserdicht",
@@ -14651,7 +14642,7 @@
    },
    "m": [
     "Gerstenkornmuster auf dem Zifferblatt",
-    "Mondphase",
+    "Datum bei 3 Uhr",
     "Arabische Ziffern",
     "Gebläute Zeiger"
    ],
@@ -14660,7 +14651,7 @@
     "Die Mondphasen-Modelle sind besonders beliebt."
    ],
    "x": [
-    "Das Kaliber L899 hat eine Silizium-Spirale und eine lange Gangreserve.",
+    "Mondphasen-Modelle der Linie arbeiten mit dem Kaliber L899, das eine Silizium-Spirale und eine lange Gangreserve hat.",
     "Longines war lange offizieller Zeitnehmer bei vielen Sportveranstaltungen, etwa im Pferdesport."
    ],
    "preis": {
@@ -14693,7 +14684,7 @@
    ],
    "bd": [
     "Die Abbildung zeigt eine Longines Master Collection aus Edelstahl mit silberfarbenem Zifferblatt an einem braunen Lederband mit heller Steppnaht. Das Zifferblatt trägt das für die Linie typische Gerstenkornmuster.",
-    "Zu erkennen sind große schwarze arabische Ziffern, gebläute Blattzeiger und ein gebläuter Sekundenzeiger, dazu eine Minuterie am Rand und das Flügelsanduhr-Logo unter dem Schriftzug »LONGINES«. Das Datum erscheint in einem Fenster bei 3 Uhr, unten steht »AUTOMATIC«. Eine Mondphasenanzeige, wie sie die als aktuell genannte Master Collection Moonphase hat, ist auf diesem Bild nicht zu sehen."
+    "Zu erkennen sind große schwarze arabische Ziffern, gebläute Blattzeiger und ein gebläuter Sekundenzeiger, dazu eine Minuterie am Rand und das Flügelsanduhr-Logo unter dem Schriftzug »LONGINES«. Das Datum erscheint in einem Fenster bei 3 Uhr, unten steht »AUTOMATIC«. Eine Mondphase hat diese Ausführung nicht."
    ]
   },
   {
@@ -14708,19 +14699,19 @@
     "Jacques Cousteau und sein Team trugen die Fifty Fathoms im Dokumentarfilm »Die schweigende Welt«, der 1956 in Cannes die Goldene Palme gewann. Die heutige Fifty Fathoms hat eine Lünette aus gewölbtem Saphirglas und fünf Tage Gangreserve.",
     "Militärische Verwendung: Die US-Marine bestellte über Rayville-Blancpain die Variante »Tornek-Rayville«, und auch die Bundeswehr-Kampfschwimmer sollen Fifty Fathoms benutzt haben. Mit der Quarzkrise verschwand die Linie. 2003 wurde sie mit 50. Jubiläum wiederbelebt, 2013 kam die Bathyscaphe hinzu, eine dezentere, schlankere Interpretation, die erstmals 1956 vorgestellt worden war."
    ],
-   "cur": "Fifty Fathoms Automatique (5015) · seit 2007",
+   "cur": "Fifty Fathoms Automatique ohne Datum, Edelstahl, schwarzes Zifferblatt",
    "f": [
     [
      "Gehäuse",
-     "45 mm, Edelstahl oder Titan"
+     "Edelstahl"
     ],
     [
      "Kaliber",
-     "1315, Automatik, 28.800 A/h"
+     "Automatik"
     ],
     [
-     "Gangreserve",
-     "≈ 120 Stunden"
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
     ],
     [
      "Lünette",
@@ -14775,7 +14766,7 @@
    "m": [
     "Gewölbte Lünette aus Saphir",
     "Große Leuchtziffern",
-    "Fünf Tage Gangreserve",
+    "Pfeilförmige Leuchtindizes",
     "Wasserdicht bis 300 Meter"
    ],
    "ev": [
@@ -14841,7 +14832,7 @@
    ],
    "bd": [
     "Die Abbildung zeigt eine Blancpain Fifty Fathoms Automatique aus Edelstahl mit schwarzem Zifferblatt und schwarzer Lünette. Die einseitig drehbare Lünette ist gewölbt, ihre Taucherskala hat große Ziffern bei 15, 30 und 45 sowie eine Raute bei 12 Uhr.",
-    "Zu erkennen sind arabische Leuchtziffern bei 12, 3, 6 und 9, dazwischen pfeilförmige Leuchtindizes, breite Schwertzeiger und ein Sekundenzeiger mit roter Spitze. Unter dem Blancpain-Logo stehen »Fifty Fathoms« und »300m/1000ft«. Ein Datumsfenster ist auf dieser Abbildung nicht zu sehen. Die Uhr trägt ein schwarzes Textilband mit hellen Nähten."
+    "Zu erkennen sind arabische Leuchtziffern bei 12, 3, 6 und 9, dazwischen pfeilförmige Leuchtindizes, breite Schwertzeiger und ein Sekundenzeiger mit roter Spitze. Unter dem Blancpain-Logo stehen »Fifty Fathoms« und »300m/1000ft«. Ein Datumsfenster hat diese Ausführung nicht. Die Uhr trägt ein schwarzes Textilband mit hellen Nähten."
    ]
   },
   {
@@ -15062,9 +15053,9 @@
    "b": [
     "Die 556 ist eine einfache Dreizeigeruhr mit schwarzem Zifferblatt, klaren Ziffern und einem gebürsteten Stahlgehäuse. Ihr Design leitet sich von den Fliegeruhren ab, für die Sinn bekannt ist.",
     "Mit 38,5 Millimetern ist sie vielseitig, mit 200 Metern Wasserdichtigkeit sehr robust. Sie gilt als eine der vernünftigsten mechanischen Uhren in ihrer Preisklasse.",
-    "Im Inneren arbeitet ein bewährtes Schweizer Automatikwerk. Die 556 gibt es in mehreren Zifferblattvarianten, auch mit Datum."
+    "Im Inneren arbeitet ein bewährtes Schweizer Automatikwerk. Die 556 gibt es in mehreren Zifferblattvarianten, mit und ohne Datum."
    ],
-   "cur": "556 I · aktuelle Kollektion",
+   "cur": "556 A (ohne Datum) · aktuelle Kollektion",
    "f": [
     [
      "Gehäuse",
@@ -15080,7 +15071,7 @@
     ],
     [
      "Funktionen",
-     "Datum"
+     "Stunden, Minuten, Sekunden"
     ],
     [
      "Wasserdicht",
@@ -15094,6 +15085,13 @@
      "38,5 mm",
      "SW200-1",
      "Mit Datum"
+    ],
+    [
+     "556 A",
+     "aktuell",
+     "38,5 mm",
+     "SW200-1",
+     "Ohne Datum"
     ]
    ],
    "r": [
@@ -15114,7 +15112,7 @@
     "Schwarzes Zifferblatt",
     "Schlichtes Design",
     "Wasserdicht bis 200 Meter",
-    "Datum bei 3 Uhr"
+    "Ohne Datum (556 A) oder mit Datum bei 3 Uhr (556 I)"
    ],
    "x": [
     "Die 556 gilt als einer der günstigsten Einstiege in die Marke Sinn.",
@@ -15145,8 +15143,8 @@
     "Schweizer Automatikwerk und Varianten"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Sinn 556 in einem gebürsteten Edelstahlgehäuse mit glatter Lünette und massivem Gliederband aus Edelstahl. Das Zifferblatt ist matt schwarz.",
-    "Zu erkennen sind weiße Stabindizes mit Doppelindex bei 12 Uhr, eine feine Minuterie, weiße Stabzeiger mit Leuchtfüllung und ein schlanker Zentralsekundenzeiger. Unter der 12 steht der Schriftzug »Sinn«, über der 6 »Automatik«, am unteren Rand »Made in Germany«. Ein Datumsfenster ist auf diesem Bild nicht zu sehen, obwohl die aktuelle 556 I mit Datum geführt wird."
+    "Die Abbildung zeigt eine Sinn 556 A in einem gebürsteten Edelstahlgehäuse mit glatter Lünette und massivem Gliederband aus Edelstahl. Das Zifferblatt ist matt schwarz.",
+    "Zu erkennen sind weiße Stabindizes mit Doppelindex bei 12 Uhr, eine feine Minuterie, weiße Stabzeiger mit Leuchtfüllung und ein schlanker Zentralsekundenzeiger. Unter der 12 steht der Schriftzug »Sinn«, über der 6 »Automatik«, am unteren Rand »Made in Germany«. Ein Datumsfenster hat diese Ausführung nicht."
    ]
   },
   {
@@ -15496,31 +15494,23 @@
     "Der Gehäuserand ist fein geriffelt (Cannelure), die Bandanstöße sind angeschweißt und mit Schrauben befestigt. Wie schon bei Breguet trägt jede Uhr eine individuelle Nummer und eine fast unsichtbare Signatur auf dem Zifferblatt, die vor Fälschungen schützen soll.",
     "Die Classique ist die Linie der eleganten Uhren von Breguet, von einfachen Zweizeigern bis zu Modellen mit Tourbillon und ewigem Kalender."
    ],
-   "cur": "Classique 5177 · aktuelle Kollektion",
+   "cur": "Classique mit kleiner Sekunde bei 5 Uhr, Weißgold, guillochiertes Zifferblatt",
    "f": [
     [
      "Gehäuse",
-     "38 mm, Gold"
+     "rund, Weißgold, geriffelter Rand"
     ],
     [
-     "Kaliber",
-     "777Q, Automatik, 28.800 A/h"
-    ],
-    [
-     "Gangreserve",
-     "≈ 55 Stunden"
+     "Anzeige",
+     "Stunden, Minuten, kleine Sekunde bei 5 Uhr"
     ],
     [
      "Zifferblatt",
-     "Emaille oder Guilloché"
+     "silberfarben, handguillochiert, arabische Breguet-Ziffern"
     ],
     [
      "Zeiger",
      "Breguet-Zeiger aus gebläutem Stahl"
-    ],
-    [
-     "Wasserdicht",
-     "30 m"
     ]
    ],
    "refs": [
@@ -15596,7 +15586,7 @@
     "Vom Zweizeiger bis zum Tourbillon"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Uhr der Breguet-Linie Classique mit Gehäuse aus hellem Edelmetall, silberfarbenem, guillochiertem Zifferblatt und dunkelblauem Krokodillederband.",
+    "Die Abbildung zeigt eine Uhr der Breguet-Linie Classique mit Gehäuse aus Weißgold, silberfarbenem, guillochiertem Zifferblatt und dunkelblauem Krokodillederband.",
     "Typisch sind die gebläuten Breguet-Zeiger mit hohlem Ring an der Spitze, die arabischen Breguet-Ziffern und das handgedrehte Guilloché-Muster. Zu erkennen sind außerdem die kleine Sekunde bei 5 Uhr, die Signatur »Breguet« auf einer glatten Kartusche unter 12 Uhr, der fein geriffelte Gehäuserand und die angeschweißten Bandanstöße. Ein Datum ist nicht zu sehen."
    ]
   },
@@ -17272,26 +17262,22 @@
    "s": "Taucheruhr mit kissenförmigem Gehäuse, dessen Form ihr den Spitznamen »Turtle« eingebracht hat.",
    "b": [
     "Seiko brachte 1976 die Taucheruhr 6309 auf den Markt. Ihr breites, kissenförmiges Gehäuse erinnerte Sammler an einen Schildkrötenpanzer, daher der Spitzname »Turtle«. Die Uhr war preiswert, robust und bis 150 Meter wasserdicht, deshalb in den 1970er- und 1980er-Jahren bei Tauchern weit verbreitet, und wurde bis in die späten 1980er-Jahre gebaut.",
-    "2016 legte Seiko die Form in der Prospex-Linie neu auf. Die Neuauflage hat rund 45 Millimeter Durchmesser, ist bis 200 Meter wasserdicht und arbeitet mit dem Automatikkaliber 4R36, das sich auch von Hand aufziehen lässt und einen Sekundenstopp besitzt. Wochentag und Datum stehen bei 3 Uhr.",
+    "2016 legte Seiko die Form in der Prospex-Linie neu auf. Die Neuauflage hat rund 45 Millimeter Durchmesser, ist bis 200 Meter wasserdicht und arbeitet mit dem Automatikkaliber 4R36, das sich auch von Hand aufziehen lässt und einen Sekundenstopp besitzt. Bei der SRP777 stehen Wochentag und Datum bei 3 Uhr, andere Ausführungen der Linie zeigen nur das Datum.",
     "Die Turtle gilt als eine der besten Taucheruhren im unteren Preisbereich und ist in vielen Farben und Sondereditionen erschienen."
    ],
-   "cur": "Prospex SRP777 · seit 2016",
+   "cur": "Prospex »Turtle« mit Datum ohne Wochentag, schwarz, Kautschukband",
    "f": [
     [
      "Gehäuse",
-     "≈ 45 mm, Edelstahl, Kissenform"
+     "Edelstahl, Kissenform"
     ],
     [
      "Kaliber",
-     "4R36, Automatik, 21.600 A/h"
-    ],
-    [
-     "Gangreserve",
-     "≈ 41 Stunden"
+     "Automatik"
     ],
     [
      "Wasserdicht",
-     "200 m (ISO 6425)"
+     "200 m"
     ],
     [
      "Lünette",
@@ -17299,11 +17285,11 @@
     ],
     [
      "Anzeige",
-     "Wochentag und Datum"
+     "Datum"
     ],
     [
      "Band",
-     "Silikon oder Edelstahl"
+     "Kautschuk"
     ]
    ],
    "refs": [
@@ -17355,7 +17341,7 @@
    "m": [
     "Breites Kissengehäuse",
     "Krone bei 3 Uhr",
-    "Wochentag und Datum bei 3 Uhr",
+    "Datum bei 3 Uhr, je nach Ausführung mit Wochentag",
     "Einseitig drehbare Taucherlünette"
    ],
    "tipp": [
@@ -18053,33 +18039,25 @@
    "t": "Nomos Orion",
    "brand": "Nomos Glashütte",
    "since": "1992",
-   "s": "Zurückhaltende Dresswatch mit goldenen Stabindizes, eines der ersten vier Nomos-Modelle.",
+   "s": "Zurückhaltende Dresswatch mit schlanken Stabindizes, eines der ersten vier Nomos-Modelle.",
    "b": [
-    "Nomos wurde kurz nach der Wiedervereinigung in Glashütte gegründet und brachte 1992 seine ersten vier Modelle heraus: Tangente, Orion, Ludwig und Tetra. Die Orion war darunter die eleganteste, mit schlanken goldfarbenen Stabindizes und spitzen Zeigern auf einem hellen Zifferblatt.",
+    "Nomos wurde kurz nach der Wiedervereinigung in Glashütte gegründet und brachte 1992 seine ersten vier Modelle heraus: Tangente, Orion, Ludwig und Tetra. Die Orion war darunter die eleganteste, mit schlanken aufgesetzten Stabindizes und spitzen Zeigern auf einem hellen Zifferblatt.",
     "Ihr Gehäuse hat eine leicht gewölbte Lünette und lange, gebogene Bandanstöße. Wie die Tangente besitzt sie eine kleine Sekunde bei 6 Uhr und kein Datum. Angetrieben wird die klassische Orion vom Handaufzugskaliber Alpha, das Nomos selbst baut.",
     "Inzwischen gibt es die Orion in vielen Größen und Ausführungen, auch mit Automatikwerk und Datum. Die Grundform ist seit über 30 Jahren nahezu unverändert."
    ],
-   "cur": "Orion 35 · seit 1992",
+   "cur": "Orion mit silberfarbenen Stabindizes, Edelstahl",
    "f": [
     [
      "Gehäuse",
-     "35 mm, Edelstahl"
+     "Edelstahl"
     ],
     [
      "Kaliber",
-     "Alpha, Handaufzug, 21.600 A/h"
-    ],
-    [
-     "Gangreserve",
-     "≈ 43 Stunden"
-    ],
-    [
-     "Wasserdicht",
-     "30 m"
+     "Nomos-Manufakturwerk"
     ],
     [
      "Zifferblatt",
-     "Weiß versilbert, goldfarbene Indizes"
+     "Weiß versilbert, silberfarbene Indizes"
     ],
     [
      "Anzeige",
@@ -18087,7 +18065,7 @@
     ],
     [
      "Band",
-     "Pferdeleder"
+     "Leder"
     ]
    ],
    "refs": [
@@ -18127,7 +18105,7 @@
     "img": "assets/watches/nomos-orion.jpg"
    },
    "m": [
-    "Goldfarbene Stabindizes",
+    "Schlanke aufgesetzte Stabindizes",
     "Kleine Sekunde bei 6 Uhr",
     "Gewölbte Lünette",
     "Kein Datum"
@@ -18138,7 +18116,7 @@
    ],
    "x": [
     "Seit 2014 baut Nomos mit dem Swing-System sogar die Unruh und die Spirale selbst, was nur wenige unabhängige Marken können.",
-    "Die Indizes sind vergoldet und aufgesetzt, was auf dem hellen Zifferblatt eine feine Plastizität erzeugt."
+    "Die Indizes sind aufgesetzt, was auf dem hellen Zifferblatt eine feine Plastizität erzeugt; je nach Ausführung sind sie vergoldet oder silberfarben."
    ],
    "ev": [
     [
@@ -18158,7 +18136,7 @@
    ],
    "bd": [
     "Die Abbildung zeigt eine Nomos Orion mit poliertem Edelstahlgehäuse und hellem, silberweißem Zifferblatt. Typisch sind die leicht gewölbte Lünette und die langen, gebogenen Bandanstöße.",
-    "Zu erkennen sind schlanke, aufgesetzte Stabindizes, die hier silberfarben erscheinen, spitze gebläute Zeiger und die kleine Sekunde bei 6 Uhr. Ein Datum fehlt. Das Zifferblatt trägt die Aufschriften »NOMOS GLASHÜTTE« und »MADE IN GERMANY«. Die Uhr ist an einem schwarzen Lederband montiert, rechts sitzt eine kleine geriffelte Krone."
+    "Zu erkennen sind schlanke, aufgesetzte, silberfarbene Stabindizes, spitze gebläute Zeiger und die kleine Sekunde bei 6 Uhr. Ein Datum fehlt. Das Zifferblatt trägt die Aufschriften »NOMOS GLASHÜTTE« und »MADE IN GERMANY«. Die Uhr ist an einem schwarzen Lederband montiert, rechts sitzt eine kleine geriffelte Krone."
    ]
   },
   {
@@ -18303,13 +18281,13 @@
    "b": [
     "Vacheron Constantin stellte die 222 im Jahr 1977 vor, zum 222-jährigen Bestehen der Manufaktur, die 1755 gegründet wurde. Entworfen hat sie der junge Designer Jorg Hysek. Sie gehört wie die Royal Oak und die Nautilus zu den Sportuhren mit integriertem Band, die in den 1970er-Jahren das Luxussegment veränderten.",
     "Typisch sind die gekerbte Lünette, das kissenförmig auslaufende Gehäuse mit integriertem Gliederband und das kleine Malteserkreuz, das Wappen der Marke, das seitlich unten in das Gehäuse eingesetzt ist. Die 222 wurde in Stahl, Gold und Bicolor gebaut und Mitte der 1980er-Jahre eingestellt. Ihre Nachfolgerin ist die Overseas.",
-    "2022 legte Vacheron Constantin die 222 in der Historiques-Reihe in Gelbgold mit 37 Millimetern neu auf. Später folgten weitere Ausführungen."
+    "2022 legte Vacheron Constantin die 222 in der Historiques-Reihe in Gelbgold mit 37 Millimetern neu auf. Später folgten weitere Ausführungen, darunter eine in Edelstahl mit blauem Zifferblatt."
    ],
-   "cur": "Ref. 4200H/222J · seit 2022",
+   "cur": "Historiques 222 in Edelstahl mit blauem Zifferblatt",
    "f": [
     [
      "Gehäuse",
-     "37 mm, Gelbgold"
+     "37 mm, Edelstahl"
     ],
     [
      "Kaliber",
@@ -18325,7 +18303,7 @@
     ],
     [
      "Zifferblatt",
-     "Goldfarben, Stabindizes"
+     "Blau, Stabindizes mit Leuchtmasse"
     ],
     [
      "Gehäuseboden",
@@ -18333,7 +18311,7 @@
     ],
     [
      "Band",
-     "Integriertes Gliederband aus Gold"
+     "Integriertes Gliederband aus Edelstahl"
     ]
    ],
    "refs": [
@@ -18423,7 +18401,7 @@
     "2022: Neuauflage in Gelbgold"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Ausführung der Vacheron Constantin Historiques 222 in Edelstahl mit dunkelblauem Zifferblatt und integriertem Gliederband. Die Neuauflage von 2022 erschien laut Kontext zunächst in Gelbgold (4200H/222J); das gezeigte Stahlmodell gehört zu den später folgenden Ausführungen.",
+    "Die Abbildung zeigt eine Ausführung der Vacheron Constantin Historiques 222 in Edelstahl mit dunkelblauem Zifferblatt und integriertem Gliederband. Sie gehört zu den Ausführungen, die auf die Gelbgold-Neuauflage von 2022 folgten.",
     "Typisch sind die gekerbte Lünette, das kissenförmig auslaufende Gehäuse und das kleine Malteserkreuz aus Gold, das seitlich unten bei etwa 5 Uhr in das Gehäuse eingesetzt ist. Zu erkennen sind außerdem die aufgesetzten Stabindizes und Stabzeiger mit Leuchtmasse, das Datumsfenster bei 3 Uhr und der Schriftzug »HISTORIQUES 222«."
    ]
   },
@@ -18806,10 +18784,10 @@
    "s": "Taucheruhr mit orangem Zifferblatt und Dekompressionstabelle auf der Lünette.",
    "b": [
     "Doxa stellte die SUB 300 1967 vor, entwickelt zusammen mit erfahrenen Tauchern. Das orange Zifferblatt war unter Wasser besonders gut ablesbar, und auf der Lünette stand neben der Minutenskala eine Tabelle für Tauchzeiten ohne Dekompressionspause.",
-    "Bekannt wurde die Uhr auch durch die Romanfigur Dirk Pitt des Autors Clive Cussler, der eine Doxa trägt. Seit einigen Jahren legt Doxa die SUB 300 in mehreren Farben neu auf, das Orange heißt dort »Professional«.",
+    "Bekannt wurde die Uhr auch durch die Romanfigur Dirk Pitt des Autors Clive Cussler, der eine Doxa trägt. Seit einigen Jahren legt Doxa die SUB 300 und die SUB 300T in mehreren Farben neu auf, das Orange heißt dort »Professional«.",
     "Die Linie wurde 1969 um die Sharkhunter erweitert; die Farbe Orange (»Professional«) blieb das Erkennungszeichen."
    ],
-   "cur": "SUB 300 · Neuauflage",
+   "cur": "SUB 300T Professional (Neuauflage)",
    "f": [
     [
      "Gehäuse",
@@ -18821,7 +18799,7 @@
     ],
     [
      "Wasserdicht",
-     "300 m"
+     "mindestens 300 m"
     ],
     [
      "Lünette",
@@ -18909,7 +18887,7 @@
     "1969: Die Sharkhunter"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Doxa SUB 300 der Neuauflage mit kissenförmigem Edelstahlgehäuse und orangem Zifferblatt, das bei Doxa »Professional« heißt. Die Lünette trägt neben der Minutenskala in Schwarz eine Tabelle für Tauchzeiten ohne Dekompressionspause mit Tiefenangaben in Orange.",
+    "Die Abbildung zeigt eine Doxa SUB 300T Professional der Neuauflage mit kissenförmigem Edelstahlgehäuse und orangem Zifferblatt, das bei Doxa »Professional« heißt. Die Lünette trägt neben der Minutenskala in Schwarz eine Tabelle für Tauchzeiten ohne Dekompressionspause mit Tiefenangaben in Orange.",
     "Zu erkennen sind breite Leuchtindizes, ein kurzer, breiter Stundenzeiger, ein Datumsfenster bei 3 Uhr und die Aufschriften »DOXA automatic« und »SUB 300T professional«. Rechts sitzt die verschraubte Krone, das Band ist ein Stahlband mit vielen kleinen, gerundeten Gliedern."
    ]
   },
@@ -19151,14 +19129,14 @@
    "s": "Flache Dresswatch mit quadratischem Gehäuse, benannt nach dem Flugpionier Alberto Santos-Dumont.",
    "b": [
     "Louis Cartier entwarf 1904 für seinen Freund, den brasilianischen Flugpionier Alberto Santos-Dumont, eine Uhr, die man am Handgelenk tragen konnte, ohne beim Fliegen die Hände vom Steuer zu nehmen. Sie gilt als eine der ersten Armbanduhren für Männer.",
-    "Während die Santos de Cartier zur Sportuhr wurde, blieb die Santos-Dumont ihre schlanke, elegante Schwester und das dressige Gegenstück: Statt Schrauben auf der Lünette hat sie ein glattes, deutlich flacheres, rechteckig-quadratisches Gehäuse, römische Ziffern und Schwertzeiger und wird an einem Lederband getragen. Die große Ausführung hat ein Handaufzugswerk.",
+    "Während die Santos de Cartier zur Sportuhr wurde, blieb die Santos-Dumont ihre schlanke, elegante Schwester und das dressige Gegenstück: Die acht Schrauben auf der Lünette teilt sie mit der Santos, doch ihr rechteckig-quadratisches Gehäuse ist deutlich flacher; dazu kommen römische Ziffern, Schwertzeiger und ein Lederband. Die große Ausführung hat ein Handaufzugswerk.",
     "2019 brachte Cartier die Linie in zwei Größen und mit dem flachen Handaufzugskaliber 430 MC neu auf, das auf dem Piaget-Kaliber 430P basiert."
    ],
    "cur": "Santos-Dumont Large in Roségold · Handaufzug",
    "f": [
     [
      "Gehäuse",
-     "43,5 × 31,4 mm, Edelstahl"
+     "43,5 × 31,4 mm, Roségold"
     ],
     [
      "Kaliber",
@@ -19227,7 +19205,7 @@
     "Quadratisches, flaches Gehäuse",
     "Römische Ziffern und Minutenschiene",
     "Blaue Schwertzeiger",
-    "Glatte Lünette ohne Schrauben"
+    "Acht Schrauben auf der Lünette"
    ],
    "tipp": [
     "Auch als Quarzversion in kleineren Größen erhältlich."
@@ -20038,11 +20016,11 @@
     "Die Ploprof blieb lange ein Außenseiter. Erst die Neuauflage 2009 mit dem Zusatz »1200 M« und 2016 mit Master-Chronometer-Werk (Kaliber 8912) brachte sie zurück in den Fokus. Heute ist sie bis 1.200 Meter wasserdicht und gilt als eine der markantesten Taucheruhren überhaupt.",
     "Die Uhr ist nicht jedermanns Sache: Mit 55 Millimetern Gehäusedurchmesser fällt sie am Handgelenk deutlich auf. Wer die Form mag, bekommt eine Uhr mit eigener Geschichte; für den Alltag unter dem Hemd ist sie schwer geeignet."
    ],
-   "cur": "Seamaster Planet Ocean Ploprof 1200 M",
+   "cur": "Seamaster Ploprof mit 600-Meter-Angabe (»600 m / 2000 ft«) auf dem Zifferblatt",
    "f": [
     [
      "Wasserdichtigkeit",
-     "600 m (1970), 1.200 m (heute)"
+     "600 m laut Zifferblatt (Neuauflagen seit 2009: 1.200 m)"
     ],
     [
      "Gehäuse",
@@ -20162,7 +20140,7 @@
    ],
    "bd": [
     "Die Abbildung zeigt eine Omega Seamaster Ploprof mit monolithischem Gehäuse aus Metall, schwarzem Zifferblatt und schwarzer Lünette. Typisch ist die ungewöhnliche Form mit der Krone bei 9 Uhr unter einem Schutz und dem orangefarbenen Knopf oben rechts, der die Lünette entriegelt.",
-    "Zu erkennen sind breite Leuchtindizes, der weiße Stundenzeiger und der orangefarbene Minutenzeiger, der für Taucher gut ablesbar ist. Unter dem Omega-Logo steht in Orange »Seamaster« mit einer Tiefenangabe, die auf dieser Abbildung nicht sicher lesbar ist. Die Lünette trägt eine Taucherskala mit Dreieck bei 12 Uhr. Die Uhr sitzt an einem Metallband aus vielen ineinandergreifenden Gliedern, das an ein Kettenhemd erinnert."
+    "Zu erkennen sind breite Leuchtindizes, der weiße Stundenzeiger und der orangefarbene Minutenzeiger, der für Taucher gut ablesbar ist. Unter dem Omega-Logo steht in Orange »Seamaster« und darunter die Tiefenangabe »600 m / 2000 ft«. Die Lünette trägt eine Taucherskala mit Dreieck bei 12 Uhr. Die Uhr sitzt an einem Metallband aus vielen ineinandergreifenden Gliedern, das an ein Kettenhemd erinnert."
    ]
   },
   {
@@ -20891,18 +20869,18 @@
    "b": [
     "Die Twenty~4 erschien 1999 und war die erste Patek-Philippe-Uhr, die gezielt für den Alltag und für ein jüngeres Publikum entworfen wurde. Der Name verweist auf die 24 Stunden eines Tages: Die Uhr sollte morgens im Büro und abends zum Essen passen. Das erste Modell (Ref. 4910) hat ein rechteckiges Gehäuse mit Gliederband und Diamantbesatz.",
     "Mit der Twenty~4 verließ Patek Philippe die klassische Damenuhr in Gold und Leder. Das Stahlband, die Formsprache und der Quarzantrieb waren ein Bruch mit der Tradition des Hauses. Die Uhr wurde ein Erfolg und verhalf der Marke zu einem neuen Kundenkreis.",
-    "Seit 2018 gibt es die Twenty~4 mit rundem 36-Millimeter-Gehäuse und Automatikwerk (Kaliber 324 S C) als Ref. 7300. Sie bleibt Teil des Programms mit Stahl- und Goldvarianten.",
+    "Seit 2018 gibt es die Twenty~4 mit rundem 36-Millimeter-Gehäuse und Automatikwerk (Kaliber 324 S C) als Ref. 7300. Daneben baut Patek Philippe die rechteckige Quarzversion weiter; beide Formen gibt es in Stahl- und Goldvarianten.",
     "Im Vergleich zu anderen Patek-Modellen ist die Twenty~4 ein günstiger Einstieg in die Marke, auch wenn die Preise für eine Stahluhr auf dem Zweitmarkt hoch bleiben."
    ],
-   "cur": "Twenty~4 Automatic (Ref. 7300)",
+   "cur": "Twenty~4 Quarz im rechteckigen Edelstahlgehäuse (Ref. 4910)",
    "f": [
     [
      "Gehäuse",
-     "rechteckig (4910) oder rund, 36 mm (7300)"
+     "rechteckig, Edelstahl, mit Diamanten (4910); rund, 36 mm (7300)"
     ],
     [
      "Kaliber",
-     "Quarz / 324 S C (Automatik, seit 2018)"
+     "Quarz (4910) / 324 S C, Automatik (7300)"
     ],
     [
      "Band",
@@ -20916,7 +20894,7 @@
    "refs": [
     [
      "4910",
-     "1999–2018",
+     "seit 1999",
      "rechteckig",
      "Quarz",
      "Original"
@@ -20946,6 +20924,7 @@
     "img": "assets/watches/patek-philippe-twenty4.jpg"
    },
    "m": [
+    "Rechteckiges Gehäuse mit Diamantreihen an den Seiten",
     "Gliederband mit integrierten Anstößen",
     "Quarz oder Automatik"
    ],
@@ -20990,7 +20969,7 @@
     "Einstieg in die Marke"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Patek Philippe Twenty~4 im rechteckigen Gehäuse aus Edelstahl, wie es das erste Modell (Ref. 4910) hatte, nicht die seit 2018 gebaute runde Ref. 7300. Das Zifferblatt ist blau mit Sonnenschliff, das Gliederband aus Edelstahl.",
+    "Die Abbildung zeigt eine Patek Philippe Twenty~4 im rechteckigen Gehäuse aus Edelstahl, der Form der Ref. 4910, mit der die Linie 1999 begann. Das Zifferblatt ist blau mit Sonnenschliff, das Gliederband aus Edelstahl.",
     "Zu erkennen sind die beiden Diamantreihen an den Gehäuseseiten, die römischen Ziffern XII und VI, Diamanten als Stundenindizes und schlanke Stabzeiger. Unter 12 Uhr steht »PATEK PHILIPPE GENEVE«. Die Krone trägt einen blauen Cabochon."
    ]
   },
@@ -21479,8 +21458,8 @@
     "Polarisierendes Design auf dem Zweitmarkt"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Audemars Piguet Millenary mit ovalem Gehäuse in hellem Metall und schwarzem Lederband. Typisch ist das aus der Mitte nach rechts verschobene Zifferblatt für Stunden und Minuten, das schwarz mit großen roségoldenen römischen Ziffern gestaltet ist.",
-    "Links ist das offene Werk zu sehen, mit einer roségoldenen Brücke, roten Lagersteinen und der sichtbaren Hemmung. Ein Tourbillon ist auf dieser Abbildung nicht zu erkennen. Die kleine Sekunde sitzt links unten in einem eigenen schwarzen Hilfszifferblatt, die Signatur mit AP-Monogramm steht im Hauptzifferblatt. Die Krone ist gerändelt, das Lederband hat Alligatorprägung."
+    "Die Abbildung zeigt eine Audemars Piguet Millenary Tourbillon mit ovalem Gehäuse in hellem Metall und schwarzem Lederband. Typisch ist das aus der Mitte nach rechts verschobene Zifferblatt für Stunden und Minuten, das schwarz mit großen roségoldenen römischen Ziffern gestaltet ist.",
+    "Links liegt das offene Werk mit dem Tourbillon, das unter einer bogenförmigen roségoldenen Brücke mit roten Lagersteinen sitzt; um sie herum sind Räder und Brücken des Werks zu sehen. Die kleine Sekunde sitzt links unten in einem eigenen schwarzen Hilfszifferblatt, die Signatur mit AP-Monogramm steht im Hauptzifferblatt. Die Krone ist gerändelt, das Lederband hat Alligatorprägung."
    ]
   },
   {
@@ -22063,7 +22042,7 @@
    "since": "2001",
    "s": "Die sportliche Cartier im Tonneau-Gehäuse, entstanden 2001.",
    "b": [
-    "Die Roadster erschien 2001 als sportliche Cartier. Das Gehäuse ist ein Tonneau, dessen Proportionen an Sportwagen der 1950er erinnern; dazu kommen arabische Ziffern, eine abgerundete Lünette und eine Krone mit Saphir. Gedacht war sie als sportliche Alternative zur Santos für Träger, die Cartier mögen, aber nicht die Santos wollen.",
+    "Die Roadster erschien 2001 als sportliche Cartier. Das Gehäuse ist ein Tonneau, dessen Proportionen an Sportwagen der 1950er erinnern; dazu kommen römische Ziffern, eine abgerundete Lünette und eine Krone mit Saphir. Gedacht war sie als sportliche Alternative zur Santos für Träger, die Cartier mögen, aber nicht die Santos wollen.",
     "Es gab die Roadster mit Automatikwerk, als Chronograph und mit Edelsteinen; die GMT-Version kam 2002, die XL-Ausführung 2011. 2012 nahm Cartier die Linie aus dem Programm, als sie sich auf Tank und Santos konzentrierte. 2026 kehrte die Roadster auf den Watches & Wonders in Genf zurück.",
     "Auf dem Zweitmarkt ist die Roadster günstig."
    ],
@@ -22079,7 +22058,7 @@
     ],
     [
      "Zifferblatt",
-     "arabische Ziffern"
+     "römische Ziffern"
     ],
     [
      "Seit",
@@ -22121,7 +22100,7 @@
     "img": "assets/watches/cartier-roadster-steel.jpg"
    },
    "m": [
-    "Arabische Ziffern",
+    "Römische Ziffern",
     "Abgerundete Lünette",
     "Saphir-Krone"
    ],
@@ -22180,22 +22159,22 @@
    "s": "Die Taucheruhr von IWC mit innen und außen drehbarer Lünette.",
    "b": [
     "IWC zeigte 1967 auf der Basler Messe die Ref. 812 AD, die erste Taucheruhr des Hauses und die erste mit dem Namen Aquatimer; sie war bis 200 Meter wasserdicht. 1982 folgte die Ocean 2000 aus Titan, gestaltet im Studio von Ferdinand Alexander Porsche. Die moderne Aquatimer-Linie gibt es seit 1998: Dreizeiger, Chronographen und Modelle mit Zusatzfunktionen, mit einer Innenlünette, die man über eine zweite Krone bedient, damit sie sich nicht versehentlich verstellt (SafeDive).",
-    "Die Aquatimer gibt es mit Edelstahl- und Titangehäuse; die aktuelle Generation ist bis 300 Meter wasserdicht, Sondermodelle gehen deutlich tiefer. Verschraubte Krone, Saphirglas und großflächige Leuchtmasse sorgen dafür, dass Zeit und Tauchzeit auch bei schlechter Sicht ablesbar bleiben. Mit der Cousteau Society entstanden seit den 2000er-Jahren Sondereditionen, bei denen ein Teil des Erlöses der Meeresforschung zugutekommt.",
+    "Die Aquatimer gibt es mit Edelstahl- und Titangehäuse; die aktuelle Generation ist bis 300 Meter wasserdicht, Sondermodelle gehen deutlich tiefer, etwa die Aquatimer Automatic 2000 mit 2.000 Metern. Verschraubte Krone, Saphirglas und großflächige Leuchtmasse sorgen dafür, dass Zeit und Tauchzeit auch bei schlechter Sicht ablesbar bleiben. Mit der Cousteau Society entstanden seit den 2000er-Jahren Sondereditionen, bei denen ein Teil des Erlöses der Meeresforschung zugutekommt.",
     "Im Alltag ist die Aquatimer eine unauffällige Sportuhr, die auch im Büro funktioniert: zurückhaltender im Look als viele Konkurrenten und ohne die Statusbotschaft einer Rolex oder Omega."
    ],
-   "cur": "Aquatimer Automatic (aktuelle Modelle)",
+   "cur": "Aquatimer Automatic 2000 (Ref. IW3580), Edelstahl",
    "f": [
     [
      "Gehäuse",
-     "42 mm, Edelstahl"
+     "46 mm, Edelstahl"
     ],
     [
      "Kaliber",
-     "IWC-Automatikwerk (30000er-Familie)"
+     "IWC-Automatikkaliber 80110"
     ],
     [
      "Wasserdicht",
-     "300 m"
+     "2.000 m"
     ],
     [
      "Besonderheit",
@@ -22298,7 +22277,7 @@
     "Unauffällige Sportuhr im Alltag"
    ],
    "bd": [
-    "Die Abbildung zeigt eine IWC Aquatimer Automatic mit der Aufschrift »AQUATIMER 2000 METERS«. Gehäuse und Gliederband sind aus Edelstahl, das Zifferblatt ist schwarz, die Lünette schwarz mit Minutenskala.",
+    "Die Abbildung zeigt eine IWC Aquatimer Automatic 2000 mit der Aufschrift »AQUATIMER 2000 METERS«. Gehäuse und Gliederband sind aus Edelstahl, das Zifferblatt ist schwarz, die Lünette schwarz mit Minutenskala.",
     "Zu erkennen sind breite Stabzeiger und Stabindizes mit grünlich-heller Leuchtmasse, ein Dreieck bei 12 Uhr auf der Lünette und große Ziffern 15, 30 und 45. Die Tiefenangabe ist gelb gedruckt, der Sekundenzeiger hat eine gelbe Spitze. Das Datumsfenster liegt bei 3 Uhr, die schwarze Krone rechts, links ein weiteres Bedienelement am Gehäuse."
    ]
   },
@@ -22313,23 +22292,23 @@
     "Kurt Klaus, langjähriger Chefentwickler von IWC, konstruierte das Kalendermodul, das auf ein bewährtes Chronographenwerk aufgesetzt wird und Datum, Wochentag, Monat, Schaltjahr und Mondphase steuert. Alle Anzeigen lassen sich über die Krone stellen, ohne versteckte Korrektordrücker. Die vierstellige Jahresanzeige reicht bis 2499. Damit bot eine Serienuhr eine Komplikation, die sonst fast nur Manufakturen in kleiner Stückzahl anboten.",
     "Später teilte sich die Da Vinci in mehrere Linien: schlichte Automatik, Chronograph, Mondphase. Eine Sonderausgabe ist die Laureus-Edition für die Sportstiftung des Hauses; gebraucht liegt der Chronograph deutlich unter dem Neupreis."
    ],
-   "cur": "Da Vinci (aktuelle Modelle)",
+   "cur": "Da Vinci Chronograph der Generation seit 2017, Edelstahl, weißes Zifferblatt",
    "f": [
     [
      "Gehäuse",
-     "36–43 mm, Edelstahl oder Gold"
+     "rund, Edelstahl"
     ],
     [
      "Funktionen",
-     "Ewiger Kalender, Chronograph, Mondphase"
+     "Chronograph, Datum"
     ],
     [
      "Seit",
-     "1969"
+     "1969 (Linie), 2017 (Generation)"
     ],
     [
      "Besonderheit",
-     "Ewiger Kalender von Kurt Klaus"
+     "Bewegliche Bandanstöße"
     ]
    ],
    "refs": [
@@ -22374,8 +22353,8 @@
     "img": "assets/watches/iwc-da-vinci-chronograph-white.jpg"
    },
    "m": [
-    "Ewiger Kalender",
-    "Mondphase",
+    "Ewiger Kalender (seit 1985)",
+    "Rundes Gehäuse mit beweglichen Bandanstößen (seit 2017)",
     "Kalender über die Krone"
    ],
    "tipp": [
@@ -23004,11 +22983,11 @@
    "since": "2010",
    "s": "Der Retro-Chronograph, mit dem Tudor 2010 die Heritage-Linie begann.",
    "b": [
-    "Die Heritage Chrono erschien 2010 als Auftakt der Heritage-Linie von Tudor. Vorbild war der Oysterdate-Chronograph von 1970 (Ref. 7031) mit Valjoux-Handaufzugswerk, den Sammler »Montecarlo« nennen. Typisch sind das Zifferblatt mit Hilfszifferblättern in Kontrastfarbe und die Lünette mit Tachymeterskala; als Werk dient ein ETA-Automatikwerk mit Chronographenmodul.",
+    "Die Heritage Chrono erschien 2010 als Auftakt der Heritage-Linie von Tudor. Vorbild war der Oysterdate-Chronograph von 1970 (Ref. 7031) mit Valjoux-Handaufzugswerk, den Sammler »Montecarlo« nennen. Typisch sind das Zifferblatt mit Hilfszifferblättern in Kontrastfarbe und die drehbare Lünette mit Zahlenskala; als Werk dient ein ETA-Automatikwerk mit Chronographenmodul.",
     "Die Heritage Chrono war ein erster Schritt, mit dem Tudor nach Jahren im Schatten von Rolex wieder eigene Konturen gewann. Das Gehäuse hat 42 Millimeter, es gab Stahl- und Lederband.",
     "Mit der Black Bay folgte 2012 die nächste Generation der Heritage-Linie. Heute ist die Heritage Chrono vergleichsweise günstig zu bekommen und gilt als Einstieg in vintage-inspirierte Chronographen."
    ],
-   "cur": "Heritage Chrono (bis 2010er)",
+   "cur": "Heritage Chrono Blue (Ref. 70330B)",
    "f": [
     [
      "Gehäuse",
@@ -23020,7 +22999,7 @@
     ],
     [
      "Lünette",
-     "Tachymeter"
+     "drehbar, blau, mit Zahlenskala"
     ],
     [
      "Band",
@@ -23064,7 +23043,7 @@
    "m": [
     "Retro-Zifferblatt",
     "Chronograph",
-    "Tachymeterlünette"
+    "Drehlünette mit Zahlenskala"
    ],
    "tipp": [
     "Die Variante mit blauem Zifferblatt ist besonders gefragt."
@@ -23098,7 +23077,7 @@
     "Black Bay und günstiger Vintage-Einstieg"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Tudor Heritage Chrono aus Edelstahl mit cremefarbenem Zifferblatt, blauen Hilfszifferblättern und blauer Drehlünette mit Zahlenskala. Die Gestaltung greift den Oysterdate-Chronographen von 1970 auf, den Sammler »Montecarlo« nennen.",
+    "Die Abbildung zeigt eine Tudor Heritage Chrono Blue aus Edelstahl mit cremefarbenem Zifferblatt, blauen Hilfszifferblättern und blauer Drehlünette mit Zahlenskala. Die Gestaltung greift den Oysterdate-Chronographen von 1970 auf, den Sammler »Montecarlo« nennen.",
     "Zu erkennen sind die eckigen Hilfszifferblätter bei 3 und 9 Uhr mit orangen Akzenten, der orange Chronographenzeiger, pfeilförmige aufgesetzte Indizes, ein Minutenring in Blau und Orange und das Datumsfenster bei 6 Uhr. Rechts sitzen die verschraubte Krone und zwei verschraubte Drücker, das Band ist ein Stahlband mit satinierten Gliedern."
    ]
   },
@@ -23697,19 +23676,23 @@
    "since": "1992",
    "s": "Die klassische Linie von Jaeger-LeCoultre, deren Uhren 1.000 Stunden getestet werden.",
    "b": [
-    "Die Master Control erschien 1992 als Kernlinie klassischer Herrenuhren von Jaeger-LeCoultre. Das Zifferblatt ist schlicht, das Gehäuse rund und flach. Neben der Dreizeigeruhr gibt es Modelle mit Datum, Mondphase, Kalender und Gangreserveanzeige. Der Name verweist auf den Test »1000 Hours Control«, mit dem jede Uhr geprüft wird.",
+    "Die Master Control erschien 1992 als Kernlinie klassischer Herrenuhren von Jaeger-LeCoultre. Das Zifferblatt ist schlicht, das Gehäuse rund und flach. Neben der Dreizeigeruhr gibt es Modelle mit Datum, Mondphase, Kalender und Gangreserveanzeige; zur Familie gehört auch die besonders flache Master Ultra Thin, etwa mit Mondphase und Zeigerdatum. Der Name verweist auf den Test »1000 Hours Control«, mit dem jede Uhr geprüft wird.",
     "Beim »1000 Hours Control« wird die fertige Uhr rund sechs Wochen lang auf Gang, Funktion und Wasserdichtigkeit geprüft; das ist deutlich länger als bei vielen Wettbewerbern und als die 15 Tage der COSC-Prüfung.",
     "Im Programm steht die Master Control zwischen der sportlichen Polaris und der Reverso. Gebraucht ist sie vergleichsweise günstig und für Einsteiger interessant."
    ],
-   "cur": "Master Control (aktuelle Modelle)",
+   "cur": "Master Ultra Thin Moon, Edelstahl (Master-Familie)",
    "f": [
     [
      "Gehäuse",
-     "37–40 mm, Edelstahl oder Gold"
+     "39 mm, Edelstahl"
     ],
     [
      "Kaliber",
      "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Mondphase, Zeigerdatum"
     ],
     [
      "Test",
@@ -23717,7 +23700,7 @@
     ],
     [
      "Seit",
-     "1992"
+     "1992 (Master-Linie)"
     ]
    ],
    "refs": [
@@ -23756,7 +23739,8 @@
    "m": [
     "Schlichtes Zifferblatt",
     "Dünnes Gehäuse",
-    "Qualitätstest"
+    "Qualitätstest",
+    "Mondphase mit Zeigerdatum bei 6 Uhr (abgebildete Ausführung)"
    ],
    "tipp": [
     "Die Mondphasen- und Kalendermodelle sind gebraucht deutlich seltener als die Dreizeiger."
@@ -23795,7 +23779,7 @@
     "Zwischen Polaris und Reverso"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Jaeger-LeCoultre aus der Master-Familie mit rundem, flachem Edelstahlgehäuse und hellem, silberfarbenem Zifferblatt. Die Gestaltung ist schlicht, die Lünette glatt.",
+    "Die Abbildung zeigt eine Jaeger-LeCoultre Master Ultra Thin Moon aus der Master-Familie mit rundem, flachem Edelstahlgehäuse und hellem, silberfarbenem Zifferblatt. Die Gestaltung ist schlicht, die Lünette glatt.",
     "Zu erkennen sind schlanke aufgesetzte Stabindizes, ein V-förmiger Index bei 12 Uhr, schlanke Zeiger und ein Hilfszifferblatt bei 6 Uhr mit Mondphase und umlaufender Datumsskala. Das Zifferblatt trägt das Logo, den Schriftzug »Jaeger-LeCoultre« und die Aufschrift »AUTOMATIQUE«. Die Uhr ist an einem dunkelblauen Lederband mit Krokodilprägung montiert."
    ]
   },
@@ -23810,11 +23794,11 @@
     "Beide Antriebe arbeiten über ein gemeinsames Hemmungssystem, ohne sich zu stören. Das erste Modell, die Duomètre à Chronographe, erschien 2007 mit dem Kaliber 380; später kamen Mondphase, Reisezeit, Tourbillon und Sphärotourbillon hinzu, darunter die Duomètre Unique Travel Time.",
     "Preislich liegt die Duomètre über den Standardmodellen von Jaeger-LeCoultre und ist gebraucht selten, weil viele Stücke in Sammlungen bleiben."
    ],
-   "cur": "Duomètre (aktuelle Modelle)",
+   "cur": "Duomètre mit Tourbillon",
    "f": [
     [
      "Gehäuse",
-     "40–42 mm, Gold"
+     "rund, Edelmetall"
     ],
     [
      "Prinzip",
@@ -23822,7 +23806,7 @@
     ],
     [
      "Funktionen",
-     "Chronograph, Mondphase, Tourbillon"
+     "Tourbillon, Stunden und Minuten auf eigenem Hilfszifferblatt"
     ],
     [
      "Seit",
@@ -23865,7 +23849,7 @@
    "m": [
     "Zwei Federhäuser",
     "Handaufzug",
-    "Komplikationen"
+    "Sichtbares Tourbillon unten links (abgebildete Ausführung)"
    ],
    "ev": [
     [
@@ -23888,7 +23872,7 @@
     "Selten auf dem Gebrauchtmarkt"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Ausführung der Jaeger-LeCoultre Duomètre mit sichtbarem Tourbillon in einem polierten, runden Gehäuse aus hellem Metall. Das silberfarbene Zifferblatt ist fein strukturiert, dazu kommt ein schwarzes Lederband mit Krokodilprägung. Einen Chronographen zeigt dieses Modell nicht.",
+    "Die Abbildung zeigt eine Ausführung der Jaeger-LeCoultre Duomètre mit sichtbarem Tourbillon in einem polierten, runden Gehäuse aus hellem Metall. Das silberfarbene Zifferblatt ist fein strukturiert, dazu kommt ein schwarzes Lederband mit Krokodilprägung.",
     "Zu erkennen sind rechts ein eigenes Hilfszifferblatt für Stunden und Minuten mit den römischen Ziffern XII und VI und gebläuten Zeigern, oben links eine bogenförmige Skala mit gebläutem Zeiger und unten links das Tourbillon in einer großen Öffnung. Unter dem Logo steht der Schriftzug »Jaeger-LeCoultre«, rechts unten »Duomètre«."
    ]
   },
@@ -24087,14 +24071,14 @@
    },
    "var": [
     {
-     "n": "Saxonia Thin (Rotgold)",
+     "n": "Saxonia mit kleiner Sekunde (Rotgold)",
      "y": "",
      "v": {
       "img": "assets/watches/a-lange-soehne-saxonia-thin-rose-gold.jpg"
      },
      "bd": [
       "Die Abbildung zeigt eine A. Lange & Söhne Saxonia in Rotgold mit silberfarbenem Zifferblatt und braunem Lederband. Das runde Gehäuse ist schlicht und poliert.",
-      "Zu erkennen sind schlanke aufgesetzte Stabindizes aus Gold, goldene Lanzenzeiger und die Signatur »A. LANGE & SÖHNE GLASHÜTTE I/SA« unter 12 Uhr. Bei 6 Uhr liegt eine kleine Sekunde in einem vertieften Hilfszifferblatt. Die als Saxonia Thin bezeichnete Ausführung zeigt nur Stunden und Minuten; die Uhr auf dem Bild mit kleiner Sekunde entspricht eher einer anderen Saxonia-Variante. Das Lederband hat Alligatorprägung."
+      "Zu erkennen sind schlanke aufgesetzte Stabindizes aus Gold, goldene Lanzenzeiger und die Signatur »A. LANGE & SÖHNE GLASHÜTTE I/SA« unter 12 Uhr. Bei 6 Uhr liegt eine kleine Sekunde in einem vertieften Hilfszifferblatt. Ein Datum gibt es nicht. Das Lederband hat Alligatorprägung."
      ]
     }
    ],
@@ -25138,7 +25122,7 @@
     "Das Kaliber 9S85 hat 55 Stunden Gangreserve und ist durch den Glasboden sichtbar; das Gehäuse der SBGH001 folgt der Grammar of Design mit polierten Flächen.",
     "Gebrauchte SBGH001 sind vergleichsweise günstig und gelten als guter Einstieg in die mechanische Grand Seiko."
    ],
-   "cur": "Hi-Beat 36000 (SBGH-Serie)",
+   "cur": "Hi-Beat 36000 80 Hours (Kaliber 9SA5), Edelstahl, weißes Zifferblatt",
    "f": [
     [
      "Gehäuse",
@@ -25146,15 +25130,19 @@
     ],
     [
      "Kaliber",
-     "9S85 / 9SA5"
+     "9SA5, Automatik"
     ],
     [
      "Frequenz",
      "36.000 A/h"
     ],
     [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
      "Seit",
-     "2009 (modern)"
+     "2020 (Kaliber 9SA5)"
     ]
    ],
    "refs": [
@@ -25239,7 +25227,7 @@
     "SBGH001 als Einstieg"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Grand Seiko aus der Hi-Beat-36000-Familie mit Gehäuse und Gliederband aus Edelstahl und weißem, strukturiertem Zifferblatt. Die Aufschrift »80 HOURS« deutet auf die neue Generation mit dem Kaliber 9SA5 hin, nicht auf die im Kontext genannte SBGH-Serie mit 55 Stunden Gangreserve.",
+    "Die Abbildung zeigt eine Grand Seiko aus der Hi-Beat-36000-Familie mit Gehäuse und Gliederband aus Edelstahl und weißem, strukturiertem Zifferblatt. Die Aufschrift »80 HOURS« kennzeichnet die Generation mit dem Kaliber 9SA5.",
     "Zu erkennen sind das goldene »GS«-Logo, die breiten facettierten Stabindizes, die polierten Zeiger und der blaue Sekundenzeiger. Bei 3 Uhr sitzt ein Datumsfenster, über der 6 steht »HI-BEAT 36000 80 HOURS«. Gehäuse und Band zeigen den Wechsel von polierten und satinierten Flächen."
    ]
   },
@@ -27773,27 +27761,27 @@
    "since": "2000er",
    "s": "Die klassische Dresswatch von Tissot, benannt nach dem Gründungsort der Marke.",
    "b": [
-    "Die Le Locle ist die klassische Dresswatch von Tissot und trägt den Namen des Ortes, an dem die Marke gegründet wurde. Sie hat ein schlankes Gehäuse von rund 39 Millimetern, römische Ziffern oder Stabindizes und das Automatikwerk Powermatic 80 mit rund 80 Stunden Gangreserve.",
+    "Die Le Locle ist die klassische Dresswatch von Tissot und trägt den Namen des Ortes, an dem die Marke gegründet wurde. Sie hat ein schlankes Gehäuse von rund 39 Millimetern, römische Ziffern oder Stabindizes und meist das Automatikwerk Powermatic 80 mit rund 80 Stunden Gangreserve.",
     "Le Locle liegt im Neuenburger Jura und gehört gemeinsam mit La Chaux-de-Fonds seit 2009 zum UNESCO-Welterbe der Uhrmacherstädte; hier gründete Charles-Félicien Tissot 1853 mit seinem Sohn das Unternehmen. Das Powermatic 80 ist für diese Preisklasse ungewöhnlich ausdauernd.",
     "Als erste mechanische Uhr ist die Le Locle eine gute Wahl: unauffällig, gut verarbeitet und preislich niedrig."
    ],
-   "cur": "Le Locle Powermatic 80 (T006.407)",
+   "cur": "Le Locle im klassischen Stil mit kleiner Sekunde bei 6 Uhr",
    "f": [
     [
      "Gehäuse",
-     "39,3 mm, Edelstahl"
+     "Edelstahl, poliert"
     ],
     [
-     "Kaliber",
-     "Powermatic 80"
-    ],
-    [
-     "Gangreserve",
-     "≈ 80 Stunden"
+     "Anzeige",
+     "Stunden, Minuten, kleine Sekunde bei 6 Uhr"
     ],
     [
      "Zifferblatt",
-     "römische Ziffern"
+     "silberfarben, Guilloché-Zentrum, römische Ziffern"
+    ],
+    [
+     "Band",
+     "Leder"
     ]
    ],
    "refs": [
@@ -27824,7 +27812,7 @@
    },
    "m": [
     "Römische Ziffern",
-    "Powermatic 80",
+    "Gebläute Zeiger mit Hohlspitze",
     "Schlankes Gehäuse"
    ],
    "ev": [
@@ -27867,7 +27855,7 @@
    ],
    "bd": [
     "Die Abbildung zeigt eine klassische Dresswatch mit dem Schriftzug »LE LOCLE SUISSE« auf dem Zifferblatt, mit poliertem Gehäuse in hellem Metall und dunkelblauem Lederband. Das silberne Zifferblatt hat in der Mitte ein feines Guilloché-Muster.",
-    "Zu erkennen sind schwarze römische Ziffern, eine Minuterie am Rand, gebläute Zeiger mit Hohlspitze im Stil der Breguet-Zeiger und eine kleine Sekunde bei 6 Uhr. Ein Tissot-Logo und ein Datumsfenster, wie sie die Le Locle Powermatic 80 hat, sind auf diesem Bild nicht zu sehen. Die gerillte Krone sitzt rechts, das Lederband trägt eine Krokodilprägung."
+    "Zu erkennen sind schwarze römische Ziffern, eine Minuterie am Rand, gebläute Zeiger mit Hohlspitze im Stil der Breguet-Zeiger und eine kleine Sekunde bei 6 Uhr. Das Zifferblatt trägt nur den Schriftzug »LE LOCLE SUISSE«, ein Datumsfenster gibt es nicht. Die gerillte Krone sitzt rechts, das Lederband trägt eine Krokodilprägung."
    ]
   },
   {
@@ -28627,10 +28615,10 @@
    "s": "Das Tourbillon unter drei goldenen Brücken, das Constant Girard im 19. Jahrhundert baute.",
    "b": [
     "Das Tourbillon unter drei goldenen Brücken geht auf Constant Girard zurück, der es in den 1860er-Jahren als Taschenuhr baute, 1884 patentieren ließ und 1889 auf der Pariser Weltausstellung mit einer Goldmedaille auszeichnen ließ. In den 1990er-Jahren stellte Girard-Perregaux eine Armbanduhr mit diesem Prinzip vor, bei der die pfeilförmigen Brücken sichtbar bleiben. Das Gehäuse besteht aus Gold oder Platin.",
-    "Die drei Brücken tragen das Werk in einer Linie und sind Teil des Designs, statt hinter dem Zifferblatt versteckt zu sein; das Tourbillon sitzt in der Mitte, die Brücken laufen darauf zu.",
+    "Die drei Brücken tragen das Werk in einer Linie und sind Teil des Designs, statt hinter dem Zifferblatt versteckt zu sein; das Tourbillon sitzt bei 6 Uhr unter der unteren Brücke. Neben der klassischen goldenen Ausführung gibt es Modelle mit dunklen Brücken.",
     "Die Uhr ist ein Zeugnis der Haute Horlogerie und ein Sammlerobjekt; neuere Modelle verbinden das Prinzip mit der Laureato und anderen Gehäusen."
    ],
-   "cur": "Tourbillon mit drei goldenen Brücken (aktuelle Modelle)",
+   "cur": "Tourbillon mit drei Brücken, Ausführung mit dunklen Brücken",
    "f": [
     [
      "Gehäuse",
@@ -28642,7 +28630,7 @@
     ],
     [
      "Brücken",
-     "drei, pfeilförmig, golden"
+     "drei, pfeilförmig, golden oder dunkel"
     ],
     [
      "Seit",
@@ -28675,8 +28663,8 @@
     "img": "assets/watches/girard-perregaux-three-bridges.jpg"
    },
    "m": [
-    "Tourbillon",
-    "Drei goldene Brücken",
+    "Tourbillon bei 6 Uhr",
+    "Drei pfeilförmige Brücken (klassisch golden, auch dunkel)",
     "Handaufzug"
    ],
    "tipp": [],
@@ -28725,7 +28713,7 @@
     "Sammlerobjekt und Laureato"
    ],
    "bd": [
-    "Die Abbildung zeigt eine Girard-Perregaux mit Tourbillon unter drei Brücken in einem runden Gehäuse aus hellem Metall am schwarzen Krokodillederband. Die drei pfeilförmigen Brücken sind auf diesem Bild dunkel, nicht goldfarben ausgeführt.",
+    "Die Abbildung zeigt eine Girard-Perregaux mit Tourbillon unter drei Brücken in einem runden Gehäuse aus hellem Metall am schwarzen Krokodillederband. Die drei pfeilförmigen Brücken sind bei dieser Ausführung dunkel gehalten.",
     "Zu erkennen sind die drei waagerecht übereinander liegenden Brücken mit roten Lagersteinen in Goldchatons, das offen liegende Werk zwischen ihnen und das Tourbillon im unteren Teil des Zifferblatts. Darüber stehen das Logo »GP« und »GIRARD-PERREGAUX«. Die Zeit wird von zwei hellen Stabzeigern angezeigt, am Rand markieren kleine Punkte die Stunden."
    ]
   },
@@ -29255,25 +29243,25 @@
    "s": "Die erste Titan-Armbanduhr der Welt, 1970 von Citizen vorgestellt.",
    "b": [
     "Die X-8 Chronometer erschien 1970 als erste Armbanduhr mit Gehäuse aus Titan. Das Metall war damals schwer zu bearbeiten, Citizen musste eigene Verfahren entwickeln. Die Uhr hatte ein Automatikwerk und war als Chronometer zertifiziert; erhaltene Exemplare sind gesuchte Sammlerstücke.",
-    "Titan ist leicht und korrosionsfest. Später entwickelte Citizen das Härteverfahren Duratect, das Titan kratzfest macht; das Haus bleibt bis heute für Titan-Uhren bekannt."
+    "Titan ist leicht und korrosionsfest. Später entwickelte Citizen das Härteverfahren Duratect, das Titan kratzfest macht; das Haus bleibt bis heute für Titan-Uhren bekannt. Den Namen X8 greift Citizen auch in der Oberklasse-Linie »The Citizen« wieder auf."
    ],
-   "cur": "X-8 Chronometer (Vintage)",
+   "cur": "Moderne Ausführung der Linie »The Citizen« mit »X8«-Schriftzug",
    "f": [
     [
-     "Gehäuse",
-     "Titan"
+     "Linie",
+     "»The Citizen«"
     ],
     [
-     "Werk",
-     "Automatik"
+     "Anzeige",
+     "Stunden, Minuten, Sekunden, Datum"
     ],
     [
-     "Seit",
-     "1970"
+     "Zifferblatt",
+     "weiß, strukturiert, aufgesetzte Stabindizes"
     ],
     [
-     "Besonderheit",
-     "Erste Titanuhr"
+     "Vorbild",
+     "X-8 Chronometer von 1970, erste Titanuhr"
     ]
    ],
    "refs": [
@@ -29302,9 +29290,9 @@
     "img": "assets/watches/citizen-the-citizen-x8.jpg"
    },
    "m": [
-    "Titangehäuse",
-    "Automatikwerk",
-    "Chronometer"
+    "»X8«-Schriftzug über 6 Uhr",
+    "Adler-Emblem der Linie »The Citizen« (moderne Ausführung)",
+    "Titangehäuse und Chronometer beim Original von 1970"
    ],
    "ev": [
     [
@@ -29322,7 +29310,7 @@
     "c": "g"
    },
    "bd": [
-    "Die Abbildung zeigt eine moderne Citizen mit der Aufschrift »The Citizen« und »X8« auf dem Zifferblatt, nicht die X-8 Chronometer von 1970. Das Gehäuse ist aus hellem, poliertem Metall, das Zifferblatt weiß mit feiner, papierartiger Struktur, das Band aus schwarzem Krokodilleder.",
+    "Die Abbildung zeigt eine moderne Citizen mit der Aufschrift »The Citizen« und »X8« auf dem Zifferblatt, die den Namen der X-8 Chronometer von 1970 aufgreift. Das Gehäuse ist aus hellem, poliertem Metall, das Zifferblatt weiß mit feiner, papierartiger Struktur, das Band aus schwarzem Krokodilleder.",
     "Zu erkennen sind aufgesetzte, facettierte Stabindizes, schlanke Stabzeiger mit zentralem Sekundenzeiger und das Datumsfenster bei 3 Uhr. Unter 12 Uhr sitzt das Adler-Emblem von »The Citizen«, darunter der Schriftzug »CITIZEN«, über 6 Uhr steht »X8«."
    ]
   },
@@ -29337,7 +29325,7 @@
     "Doxa wurde 1889 in Le Locle von Georges Ducommun gegründet. Für den US-Markt vertrieb U.S. Divers, das Unternehmen von Jacques Cousteau, die SUB 300 und setzte sein Logo auf das Zifferblatt; die Lünette mit Dekompressionstabelle ersetzt die übliche Minutenskala.",
     "Seit den 2010er-Jahren legt Doxa die Linie in mehreren Farben neu auf, die Neuauflage hat 42 Millimeter und ein Automatikwerk. Frühe Exemplare gehören zu den begehrten Taucheruhren der 1960er."
    ],
-   "cur": "Sharkhunter (Neuauflage)",
+   "cur": "SUB 300 Sharkhunter (Neuauflage)",
    "f": [
     [
      "Gehäuse",
