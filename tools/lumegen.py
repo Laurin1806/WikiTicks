@@ -47,12 +47,17 @@ def gen(img, spec):
                 yy,xx=y+dy,x+dx
                 if 0<=yy<H2 and 0<=xx<W2 and not sub[yy,xx] and not out[yy,xx]: out[yy,xx]=True;q.append((yy,xx))
         fill=~out
+        if spec.get('maxA') and fill.sum()>spec['maxA']*w*w: continue   # sehr große helle Fläche (Hilfszifferblatt, Zifferblattausschnitt): keine Leuchtmasse
+        if spec.get('nowin'):   # Datums-/Tagesfenster: fast rechteckig gefüllt, mit dunklen Ziffern darin
+            bb=(y1-y0+1)*(x1-x0+1);fr=fill.sum()/bb;holes=(fill.sum()-len(c))/max(1,fill.sum())
+            if fr>.84 and holes>.1 and .5<(x1-x0+1)/(y1-y0+1)<2.6: continue
         ys2,xs2=np.nonzero(fill);keep[ys2+y0-1,xs2+x0-1]=True
     # Zeiger: automatisch gefundene Flächen am Zeigerzentrum entfernen, Leuchtmasse stattdessen als Form zeichnen
     if 'hub' in spec:
         hx,hy=spec['hub'];hr=spec.get('hubr',14)
         lab_keep=keep.copy();handm=np.zeros((h,w),bool)
-        for c in comps(lab_keep):
+        if spec.get('hubcut',True):
+          for c in comps(lab_keep):
             if (np.hypot(c[:,1]-hx,c[:,0]-hy)<hr).any(): keep[c[:,0],c[:,1]]=False
         # Zeigerfläche selbst (helle Pixel der entfernten Flächen, ohne Füllung) als Abdeckung merken
         hm=(L>=spec.get('thr',175))&(S<=spec.get('sat',70))

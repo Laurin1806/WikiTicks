@@ -29720,6 +29720,16 @@
   }
  ],
  "lumeMasks": {
+  "a-lange-soehne-odysseus-blue.jpg": "g",
+  "audemars-piguet-code-11-59-15210.jpg": "g",
+  "audemars-piguet-royal-oak-15510st-blue.jpg": "g",
+  "audemars-piguet-royal-oak-5402-blue.jpg": "v",
+  "audemars-piguet-royal-oak-offshore-26420-chronograph.jpg": "g",
+  "audemars-piguet-royal-oak-perpetual-calendar-26574.jpg": "g",
+  "blancpain-fifty-fathoms-black.jpg": "g",
+  "blancpain-leman.jpg": "g",
+  "breguet-type-xx.jpg": "g",
+  "jaeger-lecoultre-polaris-date.jpg": "g",
   "omega-constellation-globemaster.jpg": "g",
   "omega-flightmaster-vintage.jpg": "v",
   "omega-railmaster-220-10-40-20.jpg": "g",
@@ -29732,6 +29742,14 @@
   "omega-speedmaster-ck2915-broad-arrow.jpg": "v",
   "omega-speedmaster-dark-side-of-the-moon.jpg": "g",
   "omega-speedmaster-professional-310-30-42-50-01-001.jpg": "g",
+  "patek-philippe-aquanaut-5164a-travel-time.jpg": "g",
+  "patek-philippe-aquanaut-5167a-black.jpg": "g",
+  "patek-philippe-aquanaut-5168g-khaki.jpg": "g",
+  "patek-philippe-nautilus-3700-1a-blue.jpg": "v",
+  "patek-philippe-nautilus-3800-1a-blue.jpg": "v",
+  "patek-philippe-nautilus-5711-olive.jpg": "g",
+  "patek-philippe-nautilus-5811-blue.jpg": "g",
+  "patek-philippe-pilot-travel-time.jpg": "g",
   "rolex-air-king-126900-black.jpg": "b",
   "rolex-datejust-126233-steel-gold-champagne.jpg": "b",
   "rolex-datejust-126234-blue.jpg": "b",
@@ -29778,7 +29796,9 @@
   "tudor-heritage-chrono.jpg": "g",
   "tudor-pelagos-blue.jpg": "g",
   "tudor-pelagos.jpg": "g",
-  "tudor-ranger.jpg": "g"
+  "tudor-ranger.jpg": "g",
+  "vacheron-constantin-overseas-rose-gold.jpg": "g",
+  "vacheron-constantin-overseas.jpg": "g"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,

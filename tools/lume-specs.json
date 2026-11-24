@@ -2934,5 +2934,726 @@
    210
   ],
   "vint": true
+ },
+ "assets/watches/patek-philippe-nautilus-5811-blue.jpg": {
+  "c": [
+   0.5,
+   0.4823529411764706
+  ],
+  "r": 0.20266171874999997,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6173955078125,
+    0.44699617647058826,
+    0.716007734375,
+    0.5177097058823529
+   ]
+  ],
+  "hub": [
+   512,
+   492
+  ],
+  "hubr": 23,
+  "autohands": false,
+  "R": 240.426,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 28.851119999999998,
+  "hubcut": false
+ },
+ "assets/watches/patek-philippe-nautilus-3700-1a-blue.jpg": {
+  "c": [
+   0.4906015037593985,
+   0.46254071661237783
+  ],
+  "r": 0.2721721804511278,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6482622180451127,
+    0.4297555048859935,
+    0.7806972180451127,
+    0.4953259283387622
+   ]
+  ],
+  "hub": [
+   522,
+   710
+  ],
+  "hubr": 32,
+  "autohands": false,
+  "R": 335.50199999999995,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 3,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 40.260239999999996,
+  "vint": true,
+  "hubcut": false
+ },
+ "assets/watches/patek-philippe-nautilus-3800-1a-blue.jpg": {
+  "c": [
+   0.48720472440944884,
+   0.4654947916666667
+  ],
+  "r": 0.27021259842519685,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6437303149606299,
+    0.4344342447916667,
+    0.775211811023622,
+    0.4965553385416666
+   ]
+  ],
+  "hub": [
+   495,
+   715
+  ],
+  "hubr": 30,
+  "autohands": false,
+  "R": 318.06,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 38.1672,
+  "vint": true,
+  "hubcut": false
+ },
+ "assets/watches/patek-philippe-nautilus-5711-olive.jpg": {
+  "c": [
+   0.4931640625,
+   0.4823529411764706
+  ],
+  "r": 0.20266171874999997,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6105595703125,
+    0.44699617647058826,
+    0.709171796875,
+    0.5177097058823529
+   ]
+  ],
+  "hub": [
+   505,
+   492
+  ],
+  "hubr": 23,
+  "autohands": false,
+  "R": 240.426,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 28.851119999999998,
+  "hubcut": false
+ },
+ "assets/watches/patek-philippe-aquanaut-5167a-black.jpg": {
+  "c": [
+   0.4658203125,
+   0.48627450980392156
+  ],
+  "r": 0.19430156249999997,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.578373046875,
+    0.45237627450980394,
+    0.67291734375,
+    0.5201727450980392
+   ]
+  ],
+  "hub": [
+   477,
+   496
+  ],
+  "hubr": 22,
+  "autohands": false,
+  "R": 230.50799999999998,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 27.660959999999996,
+  "hubcut": false
+ },
+ "assets/watches/patek-philippe-aquanaut-5168g-khaki.jpg": {
+  "c": [
+   0.472168905950096,
+   0.4759114583333333
+  ],
+  "r": 0.26998618042226485,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.628563339731286,
+    0.4440827473958333,
+    0.7599346641074857,
+    0.5077401692708333
+   ]
+  ],
+  "hub": [
+   492,
+   731
+  ],
+  "hubr": 31,
+  "autohands": false,
+  "R": 325.926,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 39.11112,
+  "hubcut": false
+ },
+ "assets/watches/patek-philippe-aquanaut-5164a-travel-time.jpg": {
+  "c": [
+   0.4830741079597438,
+   0.4615885416666667
+  ],
+  "r": 0.2714327538883806,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6403064958828911,
+    0.42802311197916665,
+    0.7723817017383348,
+    0.49515397135416667
+   ]
+  ],
+  "hub": [
+   528,
+   709
+  ],
+  "hubr": 33,
+  "autohands": false,
+  "R": 343.71,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 3,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 41.2452,
+  "hubcut": false
+ },
+ "assets/watches/audemars-piguet-royal-oak-15510st-blue.jpg": {
+  "c": [
+   0.472007722007722,
+   0.4427083333333333
+  ],
+  "r": 0.26984015444015436,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6283175675675676,
+    0.41108001302083336,
+    0.7596178378378378,
+    0.47433665364583333
+   ]
+  ],
+  "hub": [
+   489,
+   680
+  ],
+  "hubr": 31,
+  "autohands": false,
+  "R": 323.87399999999997,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 38.86487999999999,
+  "hubcut": false
+ },
+ "assets/watches/audemars-piguet-royal-oak-5402-blue.jpg": {
+  "c": [
+   0.494140625,
+   0.47568093385214005
+  ],
+  "r": 0.20093203124999998,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6105341796875,
+    0.4408987354085603,
+    0.708304765625,
+    0.5104631322957198
+   ]
+  ],
+  "hub": [
+   506,
+   489
+  ],
+  "hubr": 23,
+  "autohands": false,
+  "R": 238.37399999999997,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 28.604879999999994,
+  "vint": true,
+  "hubcut": false
+ },
+ "assets/watches/audemars-piguet-royal-oak-offshore-26420-chronograph.jpg": {
+  "c": [
+   0.46455223880597013,
+   0.4641927083333333
+  ],
+  "r": 0.2792283582089552,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   498,
+   713
+  ],
+  "hubr": 33,
+  "autohands": false,
+  "R": 346.78799999999995,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 3,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 41.61455999999999,
+  "hubcut": false
+ },
+ "assets/watches/audemars-piguet-code-11-59-15210.jpg": {
+  "c": [
+   0.4342857142857143,
+   0.451171875
+  ],
+  "r": 0.2701782857142857,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.5907914285714286,
+    0.4190759765625,
+    0.7222562285714286,
+    0.4832677734375
+   ]
+  ],
+  "hub": [
+   456,
+   693
+  ],
+  "hubr": 31,
+  "autohands": false,
+  "R": 328.662,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 39.43944,
+  "hubcut": false
+ },
+ "assets/watches/jaeger-lecoultre-polaris-date.jpg": {
+  "c": [
+   0.46153846153846156,
+   0.5084745762711864
+  ],
+  "r": 0.2712971659919028,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   114,
+   180
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 77.634,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 9.31608,
+  "hubcut": false
+ },
+ "assets/watches/vacheron-constantin-overseas.jpg": {
+  "c": [
+   0.4789915966386555,
+   0.44753086419753085
+  ],
+  "r": 0.2716336134453781,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6363403361344538,
+    0.41285586419753084,
+    0.7685132773109243,
+    0.48220586419753086
+   ]
+  ],
+  "hub": [
+   114,
+   145
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 74.898,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 8.98776,
+  "hubcut": false
+ },
+ "assets/watches/vacheron-constantin-overseas-rose-gold.jpg": {
+  "c": [
+   0.5,
+   0.451171875
+  ],
+  "r": 0.273279207920792,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6583019801980198,
+    0.41369882812500003,
+    0.7912756435643564,
+    0.48864492187499997
+   ]
+  ],
+  "hub": [
+   202,
+   231
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 127.90799999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 15.348959999999998,
+  "hubcut": false
+ },
+ "assets/watches/blancpain-fifty-fathoms-black.jpg": {
+  "c": [
+   0.45038167938931295,
+   0.44569288389513106
+  ],
+  "r": 0.2719145038167939,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   177,
+   238
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 123.80399999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.856479999999998,
+  "hubcut": false
+ },
+ "assets/watches/breguet-type-xx.jpg": {
+  "c": [
+   0.40641711229946526,
+   0.45617529880478086
+  ],
+  "r": 0.26915294117647054,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   152,
+   229
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 116.62199999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.994639999999999,
+  "hubcut": false
+ },
+ "assets/watches/patek-philippe-pilot-travel-time.jpg": {
+  "c": [
+   0.49765258215962443,
+   0.45703125
+  ],
+  "r": 0.27136225352112675,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6548441314553991,
+    0.4243341796875,
+    0.7868850328638498,
+    0.4897283203125
+   ]
+  ],
+  "hub": [
+   530,
+   702
+  ],
+  "hubr": 32,
+  "autohands": false,
+  "R": 334.818,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 3,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 40.17816,
+  "hubcut": false
+ },
+ "assets/watches/audemars-piguet-royal-oak-perpetual-calendar-26574.jpg": {
+  "c": [
+   0.46999076638965837,
+   0.4661458333333333
+  ],
+  "r": 0.27121329639889197,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6270960295475531,
+    0.4329143880208333,
+    0.7590644506001847,
+    0.4993772786458333
+   ]
+  ],
+  "hub": [
+   509,
+   716
+  ],
+  "hubr": 32,
+  "autohands": false,
+  "R": 340.28999999999996,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 3,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 40.834799999999994,
+  "hubcut": false
+ },
+ "assets/watches/a-lange-soehne-odysseus-blue.jpg": {
+  "c": [
+   0.48349514563106794,
+   0.5520833333333334
+  ],
+  "r": 0.2699790291262136,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.18635359223300973,
+    0.5101348958333333,
+    0.3427438834951457,
+    0.5940317708333334
+   ],
+   [
+    0.6086073786407766,
+    0.5101348958333333,
+    0.7806366990291261,
+    0.5940317708333334
+   ]
+  ],
+  "hub": [
+   498,
+   848
+  ],
+  "hubr": 31,
+  "autohands": false,
+  "R": 322.164,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 38.659679999999994,
+  "hubcut": false
+ },
+ "assets/watches/blancpain-leman.jpg": {
+  "c": [
+   0.42780748663101603,
+   0.47808764940239046
+  ],
+  "r": 0.2809925133689839,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.5905775401069518,
+    0.4417075697211155,
+    0.727304385026738,
+    0.5144677290836652
+   ]
+  ],
+  "hub": [
+   160,
+   240
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 121.752,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.61024,
+  "hubcut": false
  }
 }
