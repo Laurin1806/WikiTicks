@@ -3418,6 +3418,10 @@
     [
      "james-bond",
      "Big Crown, 5512 und 5513"
+    ],
+    [
+     "tiefsee-rekorde",
+     "Rekordtiefe im Marianengraben"
     ]
    ]
   },
@@ -7513,6 +7517,10 @@
     [
      "james-bond",
      "Kaliber 8500 und Seamaster-Erbe"
+    ],
+    [
+     "tiefsee-rekorde",
+     "2019: Ultra Deep im Marianengraben"
     ]
    ]
   },
@@ -9632,6 +9640,10 @@
     [
      "fliegeruhr",
      "1952: Willy Breitling und die AOPA"
+    ],
+    [
+     "uhren-im-all",
+     "AOPA und der Cosmonaute"
     ]
    ]
   },
@@ -10169,6 +10181,10 @@
     [
      "kino-uhren",
      "»Le Mans« und Steve McQueen"
+    ],
+    [
+     "wettlauf-1969",
+     "1969: Quadratisch und automatisch"
     ]
    ]
   },
@@ -11147,6 +11163,12 @@
    "bd": [
     "Die Abbildung zeigt eine Rolex Oyster Perpetual mit türkisfarbenem Zifferblatt aus der seit 2020 gebauten Generation (Ref. 124300 mit 41 Millimetern), die mit bunten Zifferblättern bekannt wurde. Gehäuse, glatte polierte Lünette und Oyster-Band sind aus Edelstahl.",
     "Zu erkennen sind aufgesetzte Stabindizes mit Leuchtmasse, Stabzeiger und der Zentralsekundenzeiger, das Kronenlogo mit »ROLEX OYSTER PERPETUAL« und unten »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Ein Datum gibt es nicht, wie bei der Oyster Perpetual üblich. Die verschraubte Krone sitzt bei 3 Uhr."
+   ],
+   "lx": [
+    [
+     "mercedes-gleitze",
+     "Oyster-Gehäuse, Rotor und Mercedes Gleitze"
+    ]
    ]
   },
   {
@@ -11479,7 +11501,13 @@
      "Die Abbildung zeigt eine Rolex Deepsea aus Edelstahl mit dem Zifferblatt »D-Blue«, das von tiefem Blau oben zu Schwarz unten verläuft. Die drehbare Lünette trägt eine schwarze Keramikeinlage mit Taucherskala und Leuchtpunkt bei 12 Uhr.",
      "Zu erkennen sind der grüne Schriftzug »DEEPSEA« und darunter »SEA-DWELLER«, runde Leuchtindizes, Balken bei 6 und 9 sowie ein Dreieck bei 12 Uhr und der Mercedes-Stundenzeiger. Das Datumsfenster bei 3 Uhr hat keine Zykloplupe. Auf dem Rehaut stehen »ORIGINAL GAS ESCAPE VALVE« und »RING LOCK SYSTEM«, Hinweise auf Heliumventil und Gehäusekonstruktion. Die Uhr sitzt an einem Oyster-Band."
     ]
-   }
+   },
+   "lx": [
+    [
+     "tiefsee-rekorde",
+     "James Cameron und das »D-Blue«-Zifferblatt"
+    ]
+   ]
   },
   {
    "id": "seamaster-300",
@@ -14414,6 +14442,10 @@
     [
      "quarzkrise",
      "Charles Vermot rettet die Werkzeuge"
+    ],
+    [
+     "wettlauf-1969",
+     "1969: El Primero mit 5 Hz"
     ]
    ]
   },
@@ -22940,6 +22972,12 @@
    "bd": [
     "Die Abbildung zeigt eine TAG Heuer Autavia aus Edelstahl am Gliederband mit drehbarer Lünette in Schwarz und schwarzem Zifferblatt. Kombiniert ist es mit drei weißen Hilfszifferblättern, eine Gestaltung, die auf die Autavia der 1960er-Jahre zurückgeht.",
     "Zu erkennen sind die 60-Minuten-Skala auf der Lünette mit Leuchtpunkt bei 12 Uhr, Stabindizes und Stabzeiger mit cremefarbener Leuchtmasse und ein Datumsfenster im unteren Hilfszifferblatt. Unter dem TAG-Heuer-Logo steht »AUTAVIA«. Rechts sitzen die Krone zwischen zwei Pumpdrückern."
+   ],
+   "lx": [
+    [
+     "wettlauf-1969",
+     "1969: Calibre 11, Rindt und Siffert"
+    ]
    ]
   },
   {
@@ -24382,6 +24420,16 @@
    "bd": [
     "Die Abbildung zeigt einen Seiko-Automatikchronographen mit Kaliber 6139 in der »Pogue«-Version mit gelbem Zifferblatt (6139-6002). Gehäuse und Gliederband sind aus Edelstahl, die Lünette blau und rot.",
     "Zu erkennen sind die Tachymeterskala auf der zweifarbigen Lünette, ein einzelnes Hilfszifferblatt bei 6 Uhr für den 30-Minuten-Zähler, roter Chronographenzeiger und rote Zählerzeiger sowie Tag und Datum in Fenstern bei 3 Uhr, hier »SUN« und »6«. Unter 12 Uhr steht »SEIKO CHRONOGRAPH AUTOMATIC«. Krone und zwei Drücker sitzen rechts."
+   ],
+   "lx": [
+    [
+     "wettlauf-1969",
+     "1969: 6139, Skylab und »Bullhead«"
+    ],
+    [
+     "uhren-im-all",
+     "1969: 6139, Skylab und »Bullhead«"
+    ]
    ]
   },
   {

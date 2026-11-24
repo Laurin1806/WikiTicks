@@ -5380,5 +5380,325 @@
   "x": [
    "Der Architekt Le Corbusier wurde 1887 in La Chaux-de-Fonds geboren und besuchte dort die Kunstgewerbeschule, die eng mit der Uhrengravur verbunden war."
   ]
+ },
+ {
+  "id": "mercedes-gleitze",
+  "t": "Mercedes Gleitze und die Oyster",
+  "c": "Geschichte",
+  "a": [
+   "Mercedes Gleitze",
+   "Vindication Swim"
+  ],
+  "s": "Wie eine junge Schwimmerin 1927 durch den Ärmelkanal Rolex den Beweis lieferte, dass die Oyster wirklich wasserdicht ist.",
+  "b": [
+   "1926 ließ Rolex das Oyster-Gehäuse patentieren, mit verschraubtem Boden, verschraubter Lünette und verschraubter Krone. Hans Wilsdorf suchte nach einem Weg, der Öffentlichkeit zu zeigen, dass eine Armbanduhr damit tatsächlich dicht ist. Die Gelegenheit kam mit Mercedes Gleitze, einer jungen Londoner Stenotypistin und Langstreckenschwimmerin.",
+   "Gleitze hatte am 7. Oktober 1927 als erste Britin den Ärmelkanal durchschwommen. Weil kurz danach eine andere Schwimmerin eine falsche Überquerung behauptet hatte, zweifelten manche auch an ihrer Leistung. Am 21. Oktober 1927 trat sie deshalb zu einem »Beweisschwimmen« an, dem »Vindication Swim«. Um den Hals trug sie eine Rolex Oyster.",
+   "Das Wasser war so kalt, dass sie nach über zehn Stunden wenige Kilometer vor der englischen Küste aufgeben musste. Die Uhr aber lief einwandfrei, wie Reporter festhielten. Am 24. November 1927 schaltete Rolex eine ganzseitige Anzeige auf der Titelseite der »Daily Mail« und feierte die Oyster als »Wunderuhr, die den Elementen trotzt«. Es war der Beginn einer Werbestrategie, die Rolex bis heute pflegt: Uhren an den Handgelenken von Menschen, die Außergewöhnliches leisten."
+  ],
+  "f": [
+   [
+    "Datum",
+    "21. Oktober 1927"
+   ],
+   [
+    "Uhr",
+    "Rolex Oyster (Patent von 1926)"
+   ],
+   [
+    "Werbung",
+    "Titelseite der »Daily Mail«, 24. November 1927"
+   ]
+  ],
+  "r": [
+   "oyster-perpetual",
+   "wasserdichtigkeit",
+   "wilsdorf",
+   "armbanduhr"
+  ],
+  "k": "Mercedes Gleitze trug die Rolex Oyster 1927 beim Schwimmen durch den Ärmelkanal an einer Kette um den Hals.",
+  "fig": {
+   "m": [
+    "oyster-perpetual"
+   ],
+   "mc": [
+    "Die heutige Oyster Perpetual"
+   ]
+  },
+  "g": [
+   "Wasserdichte Uhren hatte es schon vorher gegeben, meist mit zusätzlichen Schutzgehäusen. Das Oyster-Gehäuse brauchte so etwas nicht.",
+   "Gleitze blieb Rolex verbunden und schwamm später unter anderem durch die Straße von Gibraltar. Zum 90. Jahrestag erinnerte Rolex 2017 mit Anzeigen an sie."
+  ],
+  "x": [
+   "Der Name »Oyster« soll daher kommen, dass das Gehäuse dicht schließt wie eine Auster."
+  ]
+ },
+ {
+  "id": "olympia-zeitmessung",
+  "t": "Zeitmessung bei Olympia",
+  "c": "Geschichte",
+  "a": [
+   "Olympische Spiele",
+   "Fotofinish"
+  ],
+  "s": "Von 30 Stoppuhren im Koffer zur Hundertstelsekunde: wie Uhrenhersteller die Olympischen Spiele vermessen.",
+  "b": [
+   "Bei den Olympischen Spielen 1932 in Los Angeles übernahm Omega erstmals die gesamte Zeitmessung. Ein einziger Uhrmacher reiste mit 30 Stoppuhren an, die von der Sternwarte in Neuenburg geprüft worden waren und Zehntelsekunden anzeigten. Seitdem ist Omega bei den meisten Olympischen Spielen offizieller Zeitnehmer.",
+   "Die Technik entwickelte sich schnell. 1948 in London kam eine Fotofinish-Kamera zum Einsatz, die den Zieleinlauf mit eingeblendeter Zeit festhielt. Für das Schwimmen entwickelte Omega Anschlagplatten, die der Schwimmer selbst auslöst; sie wurden 1967 bei den Panamerikanischen Spielen eingeführt und ersetzten die Kampfrichter mit ihren Handstoppuhren. Heute messen Lichtschranken, Startpistolen mit Lautsprechern hinter jedem Block und Hochgeschwindigkeitskameras auf die Tausendstelsekunde.",
+   "Die Zeitmessung ist für die Hersteller vor allem Werbung. Neben Omega waren auch Longines, Heuer und Seiko Zeitnehmer großer Sportereignisse; Longines etwa bei Ski- und Pferdesport, Heuer in der Formel 1. Viele Sondermodelle erinnern an diese Rolle."
+  ],
+  "f": [
+   [
+    "Seit",
+    "1932 (Los Angeles)"
+   ],
+   [
+    "Erste Ausrüstung",
+    "30 Stoppuhren, Zehntelsekunde"
+   ],
+   [
+    "Heute",
+    "Tausendstelsekunde, Fotofinish"
+   ]
+  ],
+  "r": [
+   "chronograph",
+   "rattrapante",
+   "chronometer"
+  ],
+  "k": "1932 reiste ein einziger Omega-Uhrmacher mit 30 Stoppuhren zu den Olympischen Spielen nach Los Angeles.",
+  "g": [
+   "Vor 1932 brachten die Kampfrichter ihre eigenen Stoppuhren mit, was zu unterschiedlichen Messungen führte.",
+   "Die Einführung elektronischer Zeitmessung machte Ergebnisse unabhängig von der Reaktionszeit der Kampfrichter."
+  ],
+  "x": [
+   "Bei Schwimmrennen kann über Sieg und Niederlage eine Hundertstelsekunde entscheiden; Zeitgleichheit wird dann als geteilter Platz gewertet."
+  ]
+ },
+ {
+  "id": "tiefsee-rekorde",
+  "t": "Uhren in der Tiefsee",
+  "c": "Geschichte",
+  "a": [
+   "Marianengraben",
+   "Challengertief",
+   "Deep Sea Special"
+  ],
+  "s": "Dreimal bis zum tiefsten Punkt der Erde: wie Rolex und Omega Uhren in den Marianengraben schickten.",
+  "b": [
+   "Am 23. Januar 1960 tauchten Jacques Piccard und Don Walsh mit dem Tauchboot »Trieste« in das Challengertief des Marianengrabens, rund 10.900 Meter unter die Meeresoberfläche. Außen am Rumpf war eine Versuchsuhr von Rolex befestigt, die »Deep Sea Special« mit einem extrem gewölbten Glas. Sie überstand den Druck von über tausend Bar und lief nach dem Auftauchen weiter.",
+   "Am 26. März 2012 tauchte der Filmregisseur James Cameron allein mit der »Deepsea Challenger« an dieselbe Stelle. Am Greifarm hing eine experimentelle Rolex Deepsea Challenge. Rolex erinnerte daran 2014 mit dem Zifferblatt »D-Blue« der Deepsea und brachte 2022 eine Serienuhr Deepsea Challenge aus Titan heraus, wasserdicht bis 11.000 Meter.",
+   "2019 erreichte der Amerikaner Victor Vescovo mit dem Tauchboot »Limiting Factor« das Challengertief mehrfach. Diesmal waren Uhren von Omega dabei: Prototypen der Seamaster Planet Ocean Ultra Deep, befestigt am Greifarm, die die Tiefe ebenfalls unbeschadet überstanden. Omega brachte daraus später eine Serie mit 6.000 Metern Wasserdichtigkeit heraus."
+  ],
+  "f": [
+   [
+    "1960",
+    "Trieste, Rolex Deep Sea Special"
+   ],
+   [
+    "2012",
+    "Deepsea Challenger, Rolex Deepsea Challenge"
+   ],
+   [
+    "2019",
+    "Limiting Factor, Omega Ultra Deep"
+   ]
+  ],
+  "r": [
+   "taucheruhr",
+   "wasserdichtigkeit",
+   "deepsea",
+   "submariner",
+   "planet-ocean"
+  ],
+  "k": "Die Rolex Deep Sea Special hing 1960 außen am Tauchboot Trieste und überstand fast 11.000 Meter Tiefe.",
+  "fig": {
+   "m": [
+    "deepsea",
+    "planet-ocean"
+   ],
+   "mc": [
+    "Erinnerung an Camerons Tauchgang 2012",
+    "Seamaster Planet Ocean, Familie der Ultra Deep"
+   ]
+  },
+  "g": [
+   "Die Deep Sea Special war kein Serienmodell, sondern ein Experiment mit kuppelförmigem Glas; Rolex baute nur wenige Exemplare.",
+   "Die Tauchgänge waren für die Hersteller vor allem ein Beweis: Wenn eine Uhr den tiefsten Punkt der Erde übersteht, übersteht sie jeden Badeurlaub."
+  ],
+  "x": []
+ },
+ {
+  "id": "uhren-im-all",
+  "t": "Uhren im Weltall",
+  "c": "Geschichte",
+  "a": [
+   "Raumfahrt",
+   "Gagarin",
+   "Skylab"
+  ],
+  "s": "Gagarin, Carpenter, Schirra und Pogue: welche Uhren die ersten Raumfahrer am Handgelenk trugen.",
+  "b": [
+   "Als Juri Gagarin am 12. April 1961 als erster Mensch die Erde umrundete, trug er eine sowjetische Sturmanskie der Ersten Moskauer Uhrenfabrik, eine einfache Handaufzugsuhr, wie sie Piloten der Luftwaffe erhielten.",
+   "Der Amerikaner Scott Carpenter flog im Mai 1962 mit der Mercury-Kapsel »Aurora 7« und trug einen Breitling Navitimer mit 24-Stunden-Zifferblatt, weil man im All Tag und Nacht nicht unterscheiden kann. Breitling nannte die Ausführung danach »Cosmonaute«. Im Oktober 1962 trug Wally Schirra eine privat gekaufte Omega Speedmaster, mit der die Geschichte der späteren Moonwatch begann.",
+   "Im Herbst 1973 trug der Astronaut William Pogue auf der Raumstation Skylab einen Seiko-Chronographen der Reihe 6139, den er selbst gekauft hatte. Sammler nennen diese Uhr seitdem »Pogue«. Bis heute tragen Astronauten neben offiziell geprüften Uhren oft private Modelle, die ihnen am Boden ans Herz gewachsen sind."
+  ],
+  "f": [
+   [
+    "1961",
+    "Gagarin, Sturmanskie"
+   ],
+   [
+    "1962",
+    "Carpenter, Breitling Navitimer Cosmonaute"
+   ],
+   [
+    "1973",
+    "Pogue, Seiko 6139"
+   ]
+  ],
+  "r": [
+   "mondlandung",
+   "chronograph",
+   "navitimer",
+   "seiko-6139",
+   "speedmaster"
+  ],
+  "k": "Scott Carpenter trug 1962 einen Navitimer mit 24-Stunden-Zifferblatt, weil im All Tag und Nacht verschwimmen.",
+  "fig": {
+   "m": [
+    "navitimer",
+    "seiko-6139"
+   ],
+   "mc": [
+    "Navitimer, Familie des »Cosmonaute«",
+    "Seiko 6139, getragen auf Skylab"
+   ]
+  },
+  "g": [
+   "In den frühen Jahren der Raumfahrt gab es keine Vorschriften, welche Uhr ein Raumfahrer trug; erst die NASA-Tests von 1964 und 1965 legten eine offizielle Uhr fest.",
+   "Die Speedmaster bestand diese Tests und begleitete später die Mondlandung."
+  ],
+  "x": []
+ },
+ {
+  "id": "wettlauf-1969",
+  "t": "Der Wettlauf um den Automatik-Chronographen",
+  "c": "Geschichte",
+  "a": [
+   "El Primero",
+   "Chronomatic",
+   "Calibre 11"
+  ],
+  "s": "1969 kämpften drei Lager darum, den ersten Chronographen mit automatischem Aufzug auf den Markt zu bringen.",
+  "b": [
+   "Ende der 1960er-Jahre hatten Automatikuhren die Handaufzugsuhren weitgehend verdrängt, nur Chronographen musste man noch täglich von Hand aufziehen. Mehrere Hersteller arbeiteten im Geheimen an einer Lösung, und 1969 wurde daraus ein Wettlauf.",
+   "Zenith stellte am 10. Januar 1969 das El Primero vor, ein vollständig integriertes Automatik-Chronographenwerk mit 36.000 Halbschwingungen pro Stunde, damals eine Sensation. Am 3. März 1969 antwortete ein Konsortium aus Heuer-Leonidas, Breitling, Hamilton-Büren und dem Modulspezialisten Dubois Dépraz mit dem Chronomatic-Kaliber 11: einem Mikrorotor-Werk mit aufgesetztem Chronographenmodul, die Krone links. Daraus entstanden die Heuer Monaco, Autavia und Carrera sowie der Breitling Chrono-Matic.",
+   "In Japan kam im Mai 1969 der Seiko 6139 in den Handel, ebenfalls ein Automatik-Chronograph mit Schaltrad und vertikaler Kupplung; er war womöglich der erste, den man tatsächlich kaufen konnte. Wer den Wettlauf gewonnen hat, ist bis heute Streitthema unter Sammlern. Fest steht: Das El Primero lief bald in vielen Marken, sogar in der Rolex Daytona der 1990er-Jahre."
+  ],
+  "f": [
+   [
+    "10. Januar 1969",
+    "Zenith El Primero"
+   ],
+   [
+    "3. März 1969",
+    "Chronomatic Kaliber 11 (Heuer, Breitling, Hamilton-Büren)"
+   ],
+   [
+    "Mai 1969",
+    "Seiko 6139 in Japan"
+   ]
+  ],
+  "r": [
+   "chronograph",
+   "automatik",
+   "mikrorotor",
+   "schlagzahl",
+   "chronomaster",
+   "monaco",
+   "seiko-6139",
+   "jack-heuer"
+  ],
+  "k": "Beim Chronomatic-Kaliber 11 sitzt die Krone links, weil man sie bei einer Automatikuhr kaum noch braucht.",
+  "fig": {
+   "m": [
+    "chronomaster",
+    "monaco",
+    "seiko-6139"
+   ],
+   "mc": [
+    "El Primero mit 36.000 A/h",
+    "Monaco, 1969 mit Kaliber 11 vorgestellt",
+    "Seiko 6139 aus Japan"
+   ]
+  },
+  "g": [
+   "Die Entwicklung des Chronomatic-Werks begann um 1965 im Geheimen; die Partner teilten sich Kosten und Vermarktung.",
+   "Das El Primero überlebte die Quarzkrise nur, weil der Techniker Charles Vermot Werkzeuge und Pläne versteckte, als die Produktion eingestellt werden sollte."
+  ],
+  "x": []
+ },
+ {
+  "id": "spitznamen",
+  "t": "Spitznamen von Uhren",
+  "c": "Geschichte",
+  "a": [
+   "Pepsi",
+   "Batman",
+   "Hulk",
+   "Kermit",
+   "Root Beer"
+  ],
+  "s": "Pepsi, Batman, Hulk oder Tuna: warum Sammler vielen Uhren Spitznamen geben und woher sie kommen.",
+  "b": [
+   "Kaum eine Szene liebt Spitznamen so sehr wie die der Uhrensammler. Lange Referenznummern sind schwer zu merken, ein Spitzname dagegen beschreibt eine Uhr auf einen Blick. Die meisten Namen kommen von Farben, Formen oder berühmten Trägern, und fast keiner stammt vom Hersteller selbst.",
+   "Viele Namen beziehen sich auf Farben. Die rot-blaue Lünette der Rolex GMT-Master heißt »Pepsi«, die rot-schwarze »Coke«, die blau-schwarze »Batman«, die braun-goldene »Root Beer« und die grün-schwarze mit Krone links »Sprite«. Die Submariner mit grüner Lünette wurde zur »Kermit«, die mit grünem Zifferblatt und grüner Lünette zur »Hulk«, die blaue Weißgold-Version zur »Smurf«. Bei Patek Philippe steht »Tiffany« für das Blau des New Yorker Juweliers.",
+   "Andere Namen kommen von Formen oder Menschen. Seikos Taucheruhren heißen »Tuna«, »Turtle«, »Monster« oder »Sumo«, weil sie an Thunfischdosen, Schildkröten oder Ringer erinnern. Die Rolex Daytona mit exotischem Zifferblatt heißt nach Paul Newman, die Explorer II 1655 wegen ihres großen Pfeilzeigers »Freccione« und die Seiko 6139 nach dem Astronauten William Pogue. Manche Spitznamen hat inzwischen sogar der Handel übernommen."
+  ],
+  "f": [
+   [
+    "Farben",
+    "Pepsi, Coke, Batman, Root Beer, Sprite, Kermit, Hulk"
+   ],
+   [
+    "Formen",
+    "Tuna, Turtle, Monster, Sumo, Bullhead"
+   ],
+   [
+    "Personen",
+    "Paul Newman, Pogue, Ed White"
+   ]
+  ],
+  "r": [
+   "gmt-master-2",
+   "submariner",
+   "turtle",
+   "paul-newman-daytona",
+   "referenz",
+   "vintage-begriffe"
+  ],
+  "k": "Fast kein Uhren-Spitzname stammt vom Hersteller selbst, die meisten haben Sammler erfunden.",
+  "fig": {
+   "m": [
+    "gmt-master-2",
+    "submariner",
+    "turtle"
+   ],
+   "mc": [
+    "»Pepsi« mit rot-blauer Lünette",
+    "»Hulk« mit grüner Lünette und grünem Zifferblatt",
+    "»Turtle« nach der Form einer Schildkröte"
+   ],
+   "img": [
+    null,
+    "assets/watches/rolex-submariner-116610lv-hulk.jpg",
+    null
+   ]
+  },
+  "g": [
+   "Die ersten Spitznamen entstanden in den 1980er- und 1990er-Jahren mit dem Aufkommen des Sammelns von Vintage-Uhren.",
+   "In Internetforen der 2000er-Jahre verbreiteten sie sich weltweit und wurden zu einer eigenen Sprache der Sammler."
+  ],
+  "x": []
  }
 ]
