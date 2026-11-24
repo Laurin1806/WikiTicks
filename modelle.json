@@ -9016,7 +9016,8 @@
       "heute",
       2867
      ]
-    ]
+    ],
+    "cmp": "Tank Must (groß)"
    },
    "w": "Mit ihrem rechteckigen Gehäuse und den seitlichen Holmen (Brancards) wurde die Tank zum Vorbild unzähliger Uhren.",
    "lume": {
@@ -9240,7 +9241,8 @@
       "heute",
       8950
      ]
-    ]
+    ],
+    "cmp": "IW501701"
    },
    "w": "Groß und klar, im Format einer Taschenuhr: So entstand sie 1939 für portugiesische Kaufleute.",
    "var": [
@@ -12298,7 +12300,8 @@
       4300
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Vintage-Referenzen: Händlerangebot für ein Exemplar; Exemplare mit militärischer Provenienz liegen deutlich höher. IW377709: Gebrauchtwert als Mitte der Händler- und Privatangebote zwischen 3.200 und 4.450 EUR; Listenpreisangaben schwanken zwischen 4.900 und 5.200 EUR."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Vintage-Referenzen: Händlerangebot für ein Exemplar; Exemplare mit militärischer Provenienz liegen deutlich höher. IW377709: Gebrauchtwert als Mitte der Händler- und Privatangebote zwischen 3.200 und 4.450 EUR; Listenpreisangaben schwanken zwischen 4.900 und 5.200 EUR.",
+    "cmp": "IW328201"
    },
    "ev": [
     [
