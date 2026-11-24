@@ -696,7 +696,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112513"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112514"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1695,7 +1695,9 @@ const SOFTSPOT = .8, SOFTSPOT_ID = {}; // Licht von oben bei Uhren mit Leuchtmas
 // Rechenauflösung der Nachtbilder (Höhe in Pixeln): hoch genug für scharfe Darstellung auf Retina-Displays und in der Vergrößerung
 const NIGHT_PX = 1300, NIGHT_AN = 640; // dunkles Bild in hoher Auflösung, Erkennung (Hintergrund, Schatten, Leuchtmasse) in kleiner Auflösung
 // Tonkurve auf die Helligkeit statt auf jeden Farbkanal: Farbton und Sättigung bleiben erhalten (Gold wird nicht orange)
-const tcK = (r, g, b) => { const y = .299 * r + .587 * g + .114 * b; return y > .5 ? TC[1][Math.min(255, Math.round(y))] / y : NTOP * .5; };
+const tcK = (r, g, b) => { const y = .299 * r + .587 * g + .114 * b; let k = y > .5 ? TC[1][Math.min(255, Math.round(y))] / y : NTOP * .5;
+  // Gold (warm, gesättigt): etwas heller, damit es nachts nicht bräunlich wirkt
+  if (r > g && g > b && r - b > 45 && y > 60) k *= 1 + Math.min(1, (r - b - 45) / 80) * .3; return k; };
 function nightPrep(img) {
   const wrap = img.parentElement;
   if (!wrap || !wrap.classList.contains("wimg-wrap") || wrap.dataset.nt) return;

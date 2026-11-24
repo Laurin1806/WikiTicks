@@ -318,5 +318,5 @@ if __name__=='__main__':
         ov.save((OUT if 'OUT' in globals() else ROOT+'assets/watches/lume/')+name,optimize=True)
         # Vorschau
         base=Image.open(ROOT+img).convert('RGB');pv=base.point(lambda v:int(v*.35)).convert('RGBA')
-        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save('/tmp/pv_'+name)
+        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save(f'/tmp/claude-0/-home-user-WikiTicks/0e28edec-f94f-555b-a2c4-826ff2b6d4c0/scratchpad/lm/pv_{name}')
         print(name,int(keep.sum()))
