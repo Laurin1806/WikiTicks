@@ -6636,7 +6636,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "manual": true
  },
  "assets/watches/patek-philippe-nautilus-5740-1g-perpetual.jpg": {
   "c": [
@@ -6927,6 +6928,7 @@
      ]
     ]
    }
-  ]
+  ],
+  "manual": true
  }
 }

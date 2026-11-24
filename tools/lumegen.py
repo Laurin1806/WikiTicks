@@ -313,6 +313,7 @@ def gen(img, spec):
 if __name__=='__main__':
     specs=json.load(open(sys.argv[1]))
     for img,spec in specs.items():
+        if spec.get('manual'): continue   # Maske von Hand/eigenem Skript erzeugt (z. B. tools/nautmask.py)
         ov,keep=gen(img,spec)
         name=img.split('/')[-1].rsplit('.',1)[0]+'.png'
         ov.save((OUT if 'OUT' in globals() else ROOT+'assets/watches/lume/')+name,optimize=True)

@@ -516,12 +516,16 @@
   "k": "Fast alle ewigen Kalender müssen am 1. März 2100 von Hand korrigiert werden, weil 2100 kein Schaltjahr ist.",
   "fig": {
    "m": [
-    "jahreskalender",
-    "sky-dweller"
+    "nautilus",
+    "jahreskalender"
+   ],
+   "img": [
+    "assets/watches/patek-philippe-nautilus-5740-1g-perpetual.jpg",
+    null
    ],
    "mc": [
-    "Verwandt: Jahreskalender",
-    "Verwandt: Jahreskalender »Saros«"
+    "Ref. 5740/1G mit ewigem Kalender",
+    "Verwandt: Jahreskalender"
    ]
   },
   "g": [
@@ -568,12 +572,16 @@
    "d": "mondphase",
    "dc": "Aufbau einer klassischen Mondphasenanzeige.",
    "m": [
-    "royal-oak-perpetual",
-    "jahreskalender"
+    "nautilus",
+    "royal-oak-perpetual"
    ],
    "mc": [
-    "Ewiger Kalender mit Mondphase bei 6 Uhr",
-    "Jahreskalender mit Mondphase"
+    "Nautilus 5740/1G: Mondphase im Datumszähler bei 6 Uhr",
+    "Ewiger Kalender mit Mondphase bei 6 Uhr"
+   ],
+   "img": [
+    "assets/watches/patek-philippe-nautilus-5740-1g-perpetual.jpg",
+    null
    ]
   },
   "g": [
@@ -1559,10 +1567,16 @@
   "k": "Der Rotor eines Mikrorotorwerks besteht meist aus Gold oder Platin, weil er trotz geringer Größe schwer genug sein muss.",
   "fig": {
    "m": [
-    "world-time"
+    "world-time",
+    "nautilus"
+   ],
+   "img": [
+    null,
+    "assets/watches/patek-philippe-nautilus-5740-1g-perpetual.jpg"
    ],
    "mc": [
-    "Kaliber 240 HU mit Mikrorotor"
+    "Kaliber 240 HU mit Mikrorotor",
+    "Nautilus 5740/1G, Kaliber 240 Q mit Mikrorotor"
    ]
   },
   "g": [
