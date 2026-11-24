@@ -5955,9 +5955,9 @@
     "Die Royal Oak, Referenz 5402ST, wurde 1972 in Basel vorgestellt. Ihre achteckige Lünette wird von acht sechseckigen Schrauben aus Weißgold gehalten. Das Band geht nahtlos aus dem Gehäuse hervor, und das Zifferblatt trägt ein feines Karomuster, die »Tapisserie«. Mit 39 Millimetern bei nur rund 7 Millimetern Höhe war sie für damalige Verhältnisse riesig und bekam den Spitznamen »Jumbo«. Im Inneren arbeitete das ultraflache Kaliber 2121 auf Basis des Jaeger-LeCoultre 920.",
     "Am meisten überraschte der Preis: Die Stahluhr kostete mehr als viele Golduhren, weil die vielen polierten und satinierten Flächen in aufwendiger Handarbeit veredelt wurden. Die Royal Oak verkaufte sich zuerst schleppend, wurde dann aber zum Vorbild für eine ganze Gattung von Luxus-Sportuhren.",
     "Den Namen hat sie von den Schiffen der britischen Marine namens HMS Royal Oak, die wiederum an eine Eiche erinnern, in der sich der englische König Karl II. versteckt haben soll.",
-    "Die Linie wuchs in den folgenden Jahrzehnten: 1993 kam die mittelgroße 14790ST, 2005 die 15300ST mit 39 Millimetern und Datum, 2012 die 15400ST mit 41 Millimetern. Seit 2022, zum 50. Jubiläum, gibt es zwei Hauptlinien: die extraflache »Jumbo« 16202ST mit 39 Millimetern und dem neuen Kaliber 7121 als direkte Nachfahrin des Originals und die Royal Oak Selfwinding 15510ST mit 41 Millimetern. Dazu kommen Chronographen, Modelle mit ewigem Kalender und Tourbillon.",
-    "Der klassische Royal Oak Chronograph erschien 1997 mit der Referenz 25860ST: achteckige Lünette, integriertes Band und Tapisserie, ergänzt um drei Hilfszifferblätter bei 3, 6 und 9 Uhr. Er ist flacher und eleganter als die wuchtige Offshore. Lange arbeitete darin ein Basiswerk auf Grundlage des Frédéric-Piguet-Kalibers 1185 mit aufgesetztem Chronographenmodul (Kaliber 2385), das Gehäuse wuchs dabei von 39 auf 41 Millimeter. Seit 2022 hat die Referenz 26240 das hauseigene Kaliber 4401 mit Schaltrad und Flyback-Funktion: Ein Druck auf den unteren Drücker setzt die laufende Messung zurück und startet sofort eine neue. Die Kombination aus hellem Zifferblatt und dunklen Hilfszifferblättern wird nach dem Daytona-Vorbild »Panda« genannt.",
-    "Schon 1984 hatte Audemars Piguet auf der Basler Messe die erste Royal Oak mit ewigem Kalender vorgestellt (Ref. 5554, bald 25554), eine der ersten Sportuhren mit dieser Komplikation. Ihr Kaliber 2120/2800 war 1978 als damals dünnstes selbstaufziehendes Werk mit ewigem Kalender erschienen (3,95 mm); die ganze Uhr misst 7,5 Millimeter. Die heutige Referenz 26574 mit 41 Millimetern und Kaliber 5134 zeigt Datum, Wochentag, Monat, Schaltjahr, Kalenderwoche und Mondphase und muss laut Hersteller erst 2100 korrigiert werden."
+    "1984 stellte Audemars Piguet auf der Basler Messe die erste Royal Oak mit ewigem Kalender vor (Ref. 5554, bald 25554), eine der ersten Sportuhren mit dieser Komplikation. Ihr Kaliber 2120/2800 war 1978 als damals dünnstes selbstaufziehendes Werk mit ewigem Kalender erschienen (3,95 mm); die ganze Uhr misst 7,5 Millimeter. Die heutige Referenz 26574 mit 41 Millimetern und Kaliber 5134 zeigt Datum, Wochentag, Monat, Schaltjahr, Kalenderwoche und Mondphase und muss laut Hersteller erst 2100 korrigiert werden.",
+    "Die Linie wuchs in den folgenden Jahrzehnten: 1993 kam die mittelgroße 14790ST, 2005 die 15300ST mit 39 Millimetern und Datum, 2012 die 15400ST mit 41 Millimetern. Seit 2022, zum 50. Jubiläum, gibt es zwei Hauptlinien: die extraflache »Jumbo« 16202ST mit 39 Millimetern und dem neuen Kaliber 7121 als direkte Nachfahrin des Originals und die Royal Oak Selfwinding 15510ST mit 41 Millimetern.",
+    "Der klassische Royal Oak Chronograph erschien 1997 mit der Referenz 25860ST: achteckige Lünette, integriertes Band und Tapisserie, ergänzt um drei Hilfszifferblätter bei 3, 6 und 9 Uhr. Er ist flacher und eleganter als die wuchtige Offshore. Lange arbeitete darin ein Basiswerk auf Grundlage des Frédéric-Piguet-Kalibers 1185 mit aufgesetztem Chronographenmodul (Kaliber 2385), das Gehäuse wuchs dabei von 39 auf 41 Millimeter. Seit 2022 hat die Referenz 26240ST das hauseigene Kaliber 4401 mit Schaltrad und Flyback-Funktion: Ein Druck auf den unteren Drücker setzt die laufende Messung zurück und startet sofort eine neue. Die Kombination aus hellem Zifferblatt und dunklen Hilfszifferblättern wird nach dem Daytona-Vorbild »Panda« genannt."
    ],
    "cur": "Ref. 15510ST (Selfwinding 41 mm) · seit 2022",
    "f": [
@@ -6107,19 +6107,6 @@
     "img": "assets/watches/audemars-piguet-royal-oak-15510st-blue.jpg"
    },
    "var": [
-    {
-     "n": "»Jumbo« Extra-Thin in Edelstahl, blau (moderne Ausführung)",
-     "y": "seit 1972",
-     "v": {
-      "dial": "#1d3058",
-      "seconds": false,
-      "img": "assets/watches/audemars-piguet-royal-oak-5402-blue.jpg"
-     },
-     "bd": [
-      "Die Abbildung zeigt eine moderne Audemars Piguet Royal Oak »Jumbo« Extra-Thin aus Edelstahl mit blauem Zifferblatt. Zu sehen ist die achteckige Lünette mit acht sechseckigen Schrauben, das integrierte Gliederband und die Wechselwirkung aus satinierten und polierten Flächen, die Gérald Genta 1972 mit der Ref. 5402ST einführte. Die heutige Ausführung führt diesen Entwurf fort.",
-      "Zu erkennen sind das »Petite Tapisserie«-Muster des Zifferblatts, aufgesetzte Stabindizes und Stabzeiger mit Leuchtfüllung sowie das Datumsfenster bei 3 Uhr. Unter der Signatur »AUDEMARS PIGUET« steht »AUTOMATIC«, über 6 Uhr sitzt das AP-Monogramm. Die Uhr hat keinen Zentralsekundenzeiger; die Krone ist sechseckig ausgeformt."
-     ]
-    },
     {
      "n": "Chronograph Ref. 26240ST",
      "y": "seit 2022",
@@ -6285,9 +6272,9 @@
     "1972: Ref. 5402ST, die »Jumbo«",
     "Eine Stahluhr teurer als Gold",
     "Der Name »Royal Oak«",
+    "1984: der ewige Kalender",
     "Von der 14790ST zur 16202ST",
-    "1997: der Royal Oak Chronograph",
-    "1984: der ewige Kalender"
+    "1997: der Royal Oak Chronograph"
    ],
    "bd": [
     "Die Abbildung zeigt eine Audemars Piguet Royal Oak Selfwinding in der aktuellen Stahlausführung, wie sie als Referenz 15510ST mit 41 Millimetern gebaut wird. Typisch sind die achteckige Lünette mit acht sichtbaren Sechskantschrauben und das blaue Zifferblatt.",
