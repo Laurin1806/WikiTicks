@@ -1,0 +1,4 @@
+# Python-Pakete und Werkzeug-Downloads nie mit hochladen
+*.whl
+*.tar.gz
+__pycache__/
