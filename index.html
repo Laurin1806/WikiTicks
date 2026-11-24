@@ -1633,7 +1633,13 @@ function nightPrep(img) {
     const shd = new Uint8Array(N); { let qp = 0; const q2 = new Int32Array(N);
       const grow = (i, n) => { if (!bg[n] && !shd[n] && S[n] < 22 && L[n] > 110 && Math.abs(L[n] - L[i]) <= 5) { shd[n] = 1; q2[qp++] = n; } };
       for (let i = 0; i < N; i++) if (bg[i]) { const px = i % w; if (px > 0) grow(i, i - 1); if (px < w - 1) grow(i, i + 1); if (i >= w) grow(i, i - w); if (i < N - w) grow(i, i + w); }
-      while (qp) { const i = q2[--qp], px = i % w; if (px > 0) grow(i, i - 1); if (px < w - 1) grow(i, i + 1); if (i >= w) grow(i, i - w); if (i < N - w) grow(i, i + w); } }
+      while (qp) { const i = q2[--qp], px = i % w; if (px > 0) grow(i, i - 1); if (px < w - 1) grow(i, i + 1); if (i >= w) grow(i, i - w); if (i < N - w) grow(i, i + w); }
+      // nur Flächen unterhalb der Uhr gelten als Schatten (glatte Stahlflanken am Band seitlich nicht)
+      let oy0 = h, oy1 = 0; for (let i = 0; i < N; i++) if (!bg[i] && !shd[i]) { const py = (i / w) | 0; if (py < oy0) oy0 = py; if (py > oy1) oy1 = py; }
+      const lim = oy1 - (oy1 - oy0) * .06, lab = new Int32Array(N); let nl = 0;
+      for (let k0 = 0; k0 < N; k0++) { if (!shd[k0] || lab[k0]) continue; nl++; let qh = 0, qt = 0, sy = 0; q2[qt++] = k0; lab[k0] = nl;
+        while (qh < qt) { const i = q2[qh++], px = i % w; sy += (i / w) | 0; for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && shd[n] && !lab[n]) { lab[n] = nl; q2[qt++] = n; } }
+        if (sy / qt < lim) for (let t = 0; t < qt; t++) shd[q2[t]] = 0; } }
     // Freisteller: abgedunkelt, Kanten leicht weich
     const cut = document.createElement("canvas"); cut.width = w; cut.height = h; const cx = cut.getContext("2d"), od = cx.createImageData(w, h), o = od.data;
     for (let i = 0; i < N; i++) {
