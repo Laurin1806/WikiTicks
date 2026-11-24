@@ -1633,13 +1633,15 @@ function viewSearch(term) {
 // Helligkeit der Uhren in der Nachtansicht: Originalfoto leicht abgedunkelt, mit etwas mehr Kontrast (Tiefen dunkler, Lichter erhalten)
 const NDIM = .82, NGAM = 1.5, NTOP = .85, TC = [0, 1, 2].map(() => { const t = new Uint8ClampedArray(256); for (let v = 0; v < 256; v++) t[v] = 255 * NTOP * Math.pow(v / 255, NGAM); return t; });
 const SOFTSPOT = .45; // Uhren mit Leuchtmasse: nachts zusätzlich ganz leicht von oben angeleuchtet (Stärke 0–1)
+// Rechenauflösung der Nachtbilder (Höhe in Pixeln): hoch genug für scharfe Darstellung auf Retina-Displays und in der Vergrößerung
+const NIGHT_PX = 1300, NIGHT_AN = 640; // dunkles Bild in hoher Auflösung, Erkennung (Hintergrund, Schatten, Leuchtmasse) in kleiner Auflösung
 function nightPrep(img) {
   const wrap = img.parentElement;
   if (!wrap || !wrap.classList.contains("wimg-wrap") || wrap.dataset.nt) return;
   if (!img.complete || !img.naturalWidth) { img.addEventListener("load", () => nightPrep(img), { once: true }); return; }
   wrap.dataset.nt = "0";
   try {
-    const nh = img.naturalHeight, nw = img.naturalWidth, sc = Math.min(1, 640 / nh), w = Math.max(2, Math.round(nw * sc)), h = Math.max(2, Math.round(nh * sc));
+    const nh = img.naturalHeight, nw = img.naturalWidth, sc = Math.min(1, NIGHT_AN / nh), w = Math.max(2, Math.round(nw * sc)), h = Math.max(2, Math.round(nh * sc));
     const c = document.createElement("canvas"); c.width = w; c.height = h;
     const x = c.getContext("2d", { willReadFrequently: true }); x.drawImage(img, 0, 0, w, h);
     const id = x.getImageData(0, 0, w, h), d = id.data, N = w * h;
@@ -1662,7 +1664,7 @@ function nightPrep(img) {
         while (qh < qt) { const i = q2[qh++], px = i % w; sy += (i / w) | 0; for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && shd[n] && !lab[n]) { lab[n] = nl; q2[qt++] = n; } }
         if (sy / qt < lim) for (let t = 0; t < qt; t++) shd[q2[t]] = 0; } }
     // Freisteller: abgedunkelt, Kanten leicht weich
-    const cut = document.createElement("canvas"); cut.width = w; cut.height = h; const cx = cut.getContext("2d"), od = cx.createImageData(w, h), o = od.data;
+    let cut = document.createElement("canvas"); cut.width = w; cut.height = h; const cx = cut.getContext("2d"), od = cx.createImageData(w, h), o = od.data;
     for (let i = 0; i < N; i++) {
       const px = i % w; let edge = false;
       if (!bg[i]) edge = (px > 0 && bg[i - 1]) || (px < w - 1 && bg[i + 1]) || (i >= w && bg[i - w]) || (i < N - w && bg[i + w]);
@@ -1672,11 +1674,12 @@ function nightPrep(img) {
     // Uhren ohne Leuchtmasse: im Dunkeln von oben angeleuchtet (Lichtkegel von oben, nach unten auslaufend)
     const spotS = (!wrap.dataset.lmk && !wrap.dataset.lz) ? 1 : SOFTSPOT; // 1 = volle Beleuchtung (ohne Leuchtmasse), kleiner = nur angedeutet
     const sb = spotS === 1 ? .46 : .34, spk = spotS === 1 ? .56 : .78, sdx = spotS === 1 ? 1 : 1.6, sdy = spotS === 1 ? .75 : .55; // sdx/sdy: Breite des Lichtkegels (kleiner sdx / größer sdy = weicher) // Grundhelligkeit / Lichtkegel (ohne Leuchtmasse: Uhr heller, Licht schwächer)
+    const mulA = new Float32Array(N).fill(1);
     if (spotS) { let y0 = h, y1 = 0, x0 = w, x1 = 0; for (let i = 0; i < N; i++) if (!bg[i] && !shd[i]) { const px = i % w, py = (i / w) | 0; if (py < y0) y0 = py; if (py > y1) y1 = py; if (px < x0) x0 = px; if (px > x1) x1 = px; }
       const cxs = (x0 + x1) / 2, hh = Math.max(1, y1 - y0), ww = Math.max(1, x1 - x0);
       for (let i = 0; i < N; i++) { if (bg[i] || shd[i]) continue; const px = i % w, py = (i / w) | 0, ty = (py - y0) / hh, dx = (px - cxs) / (ww * (.42 + ty * .35));
         const f = 1 + spotS * ((sb + spk * Math.exp(-dx * dx * sdx) * Math.exp(-Math.pow(Math.max(0, ty - .18) / sdy, 2))) / NDIM - 1); // relativ zur Grundabdunklung
-        o[i * 4] = Math.min(255, o[i * 4] * f * (1 + .02 * spotS)); o[i * 4 + 1] = Math.min(255, o[i * 4 + 1] * f); o[i * 4 + 2] = Math.min(255, o[i * 4 + 2] * f * (1 - .1 * spotS)); } }
+        mulA[i] = f; o[i * 4] = Math.min(255, o[i * 4] * f * (1 + .02 * spotS)); o[i * 4 + 1] = Math.min(255, o[i * 4 + 1] * f); o[i * 4 + 2] = Math.min(255, o[i * 4 + 2] * f * (1 - .1 * spotS)); } }
     cx.putImageData(od, 0, 0);
     // Leuchtmasse nach den Angaben im Modell (data-lz: I Indizes, H Zeiger, P Lünettenpunkt, B Lünettenmarkierungen, S Hilfszifferblätter, L LCD).
     // Erkennung: sehr helle, farbarme Flächen, die rundherum von Dunkel umgeben sind; Zuordnung zu Zonen über Lage zum Zifferblattmittelpunkt.
@@ -1858,6 +1861,30 @@ function nightPrep(img) {
     }
     // alles Helle, das nicht leuchtet (Lünettenzahlen, Aufdruck, Reflexe), im Dunkeln stärker zurücknehmen
     if (dimBright) { const anyS = !!wrap.dataset.lmk; for (let i = 0; i < N; i++) if (!bg[i] && !keep[i] && L[i] > 120 && (anyS || S[i] < 70)) { const t = Math.min(1, (L[i] - 120) / 90), f = 1 - .5 * t * t * (3 - 2 * t); o[i * 4] *= f; o[i * 4 + 1] *= f; o[i * 4 + 2] *= f; } cx.putImageData(od, 0, 0); }
+    // dunkles Bild in hoher Auflösung neu berechnen (Masken aus der kleinen Auflösung, Hintergrund/Kanten scharf neu)
+    // benötigte Höhe: angezeigte Höhe × Pixeldichte, bei vergrößerbaren Bildern (nicht in Links) doppelt
+    const dispH = img.getBoundingClientRect().height || 300, needH = dispH * Math.min(3, devicePixelRatio || 1) * (wrap.closest("a") ? 1 : 2);
+    const scH = Math.min(1, Math.min(NIGHT_PX, needH) / nh);
+    if (scH > sc * 1.05) {
+      const W = Math.round(nw * scH), H = Math.round(nh * scH), hc = document.createElement("canvas"); hc.width = W; hc.height = H;
+      const hx = hc.getContext("2d", { willReadFrequently: true }); hx.drawImage(img, 0, 0, W, H);
+      const hd = hx.getImageData(0, 0, W, H), D = hd.data, NH = W * H, hb = new Uint8Array(NH), st2 = new Int32Array(NH); let sp2 = 0;
+      const push2 = i => { if (!hb[i] && D[i * 4] >= 238 && D[i * 4 + 1] >= 238 && D[i * 4 + 2] >= 238) { hb[i] = 1; st2[sp2++] = i; } };
+      for (let i = 0; i < W; i++) { push2(i); push2((H - 1) * W + i); } for (let j = 0; j < H; j++) { push2(j * W); push2(j * W + W - 1); }
+      while (sp2) { const i = st2[--sp2], px = i % W; if (px > 0) push2(i - 1); if (px < W - 1) push2(i + 1); if (i >= W) push2(i - W); if (i < NH - W) push2(i + W); }
+      const xm = new Int32Array(W), anyS = !!wrap.dataset.lmk, tR = spotS ? 1 + .02 * spotS : 1, tB = spotS ? 1 - .1 * spotS : 1;
+      for (let X = 0; X < W; X++) xm[X] = Math.min(w - 1, (X * w / W) | 0);
+      for (let Y = 0; Y < H; Y++) { const ly = Math.min(h - 1, (Y * h / H) | 0) * w;
+        for (let X = 0; X < W; X++) { const i = Y * W + X, j = i * 4, li = ly + xm[X];
+          if (hb[i]) { D[j + 3] = 0; continue; }
+          const r = D[j], g = D[j + 1], b = D[j + 2];
+          if (shd[li]) { D[j] = D[j + 1] = D[j + 2] = 0; D[j + 3] = Math.min(255, (255 - (r + g + b) / 3) * 1.3); continue; }
+          let f = mulA[li];
+          if (dimBright && !keep[li]) { const Lh = (r + g + b) / 3; if (Lh > 120 && (anyS || Math.max(r, g, b) - Math.min(r, g, b) < 70)) { const t = Math.min(1, (Lh - 120) / 90); f *= 1 - .5 * t * t * (3 - 2 * t); } }
+          D[j] = Math.min(255, TC[0][r] * f * tR); D[j + 1] = Math.min(255, TC[1][g] * f); D[j + 2] = Math.min(255, TC[2][b] * f * tB);
+          D[j + 3] = (X > 0 && hb[i - 1]) || (X < W - 1 && hb[i + 1]) || (Y > 0 && hb[i - W]) || (Y < H - 1 && hb[i + W]) ? 150 : 255; } }
+      hx.putImageData(hd, 0, 0); cut = hc;
+    }
     if (window.__dbgZone) { const pal = [[0,0,0],[255,60,60],[60,255,60],[255,255,0],[0,255,255],[255,0,255],[120,120,120]]; for (let i = 0; i < N; i++) if (zc[i]) { const p = pal[zc[i]]; lo[i * 4] = p[0]; lo[i * 4 + 1] = p[1]; lo[i * 4 + 2] = p[2]; lo[i * 4 + 3] = 255; } lx.putImageData(ld, 0, 0); } else
     // Leuchtflächen an den Rändern vervollständigen: angrenzende, etwas weniger helle Pixel (Verlauf, Randzonen) dazunehmen
     if (lz && lz !== "L") { const gthr = Math.max(105, (dimBright ? 0 : 0) + 120); for (let it = 0; it < 3; it++) { const add = []; for (let k = 0; k < N; k++) { if (keep[k] || bg[k] || L[k] < gthr || S[k] > 75) continue; const px = k % w; if ((px > 0 && keep[k - 1]) || (px < w - 1 && keep[k + 1]) || (k >= w && keep[k - w]) || (k < N - w && keep[k + w])) add.push(k); } for (const k of add) keep[k] = 1; } }
