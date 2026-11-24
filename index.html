@@ -143,6 +143,13 @@ article .topfig .watchfig { margin: 0; }
 article .lexfig.topfig { width: 380px; }
 article .topfig figcaption b { display: block; }
 article .gallery-inline, article .refs-wrap, article .curbox, article .timeline { clear: right; }
+/* Bilder zwischen den Absätzen: rechts neben dem passenden Absatz, Text fließt daneben */
+article .inlinefig { width: 250px; margin: 6px 0 14px 28px; float: right; clear: right; }
+article .inlinefig .watchfig { margin: 0; padding: 14px 10px 12px; }
+article .inlinefig .watchfig .watch { height: 220px; }
+article .inlinefig figcaption b { display: block; }
+article h3.art-h { clear: both; }
+@media (max-width: 760px) { article .inlinefig { float: none; width: auto; margin: 10px 0 16px; } }
 @media (max-width: 1100px) { article .topfig { width: 260px; margin-left: 24px; } article .topfig.watchfig .watch { height: 230px; } }
 @media (max-width: 760px) {
   article .topfig { float: none; width: auto; margin: 6px 0 20px; }
@@ -655,7 +662,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112484"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112485"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1329,8 +1336,12 @@ function lexFigures(e) {
   if (fg.d && DG[fg.d]) top = `<figure class="diagram">${DG[fg.d]()}<figcaption>${esc(fg.dc || "Schemazeichnung, vereinfacht")}</figcaption></figure>`;
   else if (ms.length) { top = modelFig(ms[0]); rest = ms.slice(1); }
   rest = rest.slice(0, 2);
+  // fg.at: optional Position je Bild zwischen den Absätzen, z. B. "b3" (nach Absatz 3 von b) oder "g1" (nach Absatz 1 der Geschichte)
+  const inline = {};
+  rest = rest.filter(m => { const at = (fg.at || [])[m[2]]; if (!at) return true; inline[at] = (inline[at] || "") + `<div class="lexfig inlinefig">${modelFig(m)}</div>`; return false; });
   return {
     top: top ? `<div class="lexfig topfig">${top}</div>` : "",
+    inline,
     rest: rest.length ? `<div class="gallery gallery-inline">${rest.map(modelFig).join("")}</div>` : ""
   };
 }
@@ -1580,7 +1591,7 @@ function viewEntry(e) {
       <p class="lead">${esc(e.s)}</p>
       ${(() => {
         const H = (key, title) => `<h3 class="art-h" id="sec-${key}">${title}</h3>`;
-        const P = arr => arr.map(p => `<p>${linkify(esc(p), e.id, used)}</p>`).join("");
+        const P = (arr, sec, off = 0) => arr.map((p, k) => `<p>${linkify(esc(p), e.id, used)}</p>` + ((sec && LF && LF.inline[sec + (off + k)]) || "")).join("");
         const UL = arr => `<ul class="art-list">${arr.map(t => `<li>${linkify(esc(t), e.id, used)}</li>`).join("")}</ul>`;
         if (e.brand) {
           // Zeitleiste aus Referenzen und besonderen Ereignissen
@@ -1603,9 +1614,9 @@ function viewEntry(e) {
             + H("technik", "Technik der aktuellen Ausführung") + facts;
         }
         const person = e.c === "Persönlichkeiten";
-        return H("grundlagen", person ? "Herkunft" : "Grundlagen") + P(e.b.slice(0, 1))
-          + (e.g ? H("geschichte", "Geschichte") + P(e.g) : "")
-          + (e.b.length > 1 ? H("detail", person ? "Leben und Werk" : "Im Detail") + P(e.b.slice(1)) : "")
+        return H("grundlagen", person ? "Herkunft" : "Grundlagen") + P(e.b.slice(0, 1), "b")
+          + (e.g ? H("geschichte", "Geschichte") + P(e.g, "g") : "")
+          + (e.b.length > 1 ? H("detail", person ? "Leben und Werk" : "Im Detail") + P(e.b.slice(1), "b", 1) : "")
           + (e.x && e.x.length ? H("experte", "Expertenwissen") + UL(e.x) : "")
           + LF.rest
           + H("eckdaten", "Auf einen Blick") + facts;
