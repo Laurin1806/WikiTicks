@@ -13069,6 +13069,16 @@
    "bd": [
     "Die Abbildung zeigt die A. Lange & Söhne Zeitwerk mit silberfarbenem Gehäuse und anthrazitfarbenem Zifferblatt. Statt Zeigern zeigen große Ziffern auf Scheiben die Uhrzeit, sichtbar durch zwei Fenster in einer hellen Brücke aus Neusilber, die quer über das Zifferblatt läuft.",
     "Zu erkennen sind links die Stunde »10« und rechts die Minuten »09«, darüber die bogenförmige Gangreserveanzeige mit den Aufschriften »AUF« und »AB« und darunter die kleine Sekunde. Der Schriftzug »A. LANGE & SÖHNE« und »GLASHÜTTE I/SA« steht oben. Die Krone sitzt bei 2 Uhr, das Band ist schwarzes Leder mit Krokodilprägung."
+   ],
+   "lx": [
+    [
+     "springende-stunde",
+     "2009: Springende Ziffern statt Zeigern"
+    ],
+    [
+     "konstantkraft",
+     "Konstantkraft für den Stundensprung"
+    ]
    ]
   },
   {
@@ -26744,6 +26754,12 @@
    "bd": [
     "Die Abbildung zeigt eine Junghans Mega als Funkuhr mit Gehäuse und Gliederband aus Edelstahl und hellem Zifferblatt. Die flache, schlichte Gestaltung erinnert an die Bauhaus-Linie der Marke.",
     "Zu erkennen sind schmale Strichindizes, sehr dünne Stabzeiger und das Datumsfenster bei 3 Uhr. Unter der Zwölf stehen »JUNGHANS« mit Stern und »MEGA«, bei 6 Uhr sitzt das Funksymbol, ein Hinweis auf den Empfang des Zeitsignals. Ein Sekundenzeiger ist nicht zu sehen. Die Krone sitzt rechts am Gehäuse."
+   ],
+   "lx": [
+    [
+     "funkuhr",
+     "1990: Erste Funkarmbanduhr"
+    ]
    ]
   },
   {
@@ -28741,6 +28757,16 @@
    "bd": [
     "Die Abbildung zeigt eine Citizen Satellite Wave aus Metall mit schwarzem Zifferblatt und schwarzer Lünette. Die Lünette trägt die Kürzel von Städten der Weltzeitzonen, etwa »LON«, »PAR« und »RIO«.",
     "Zu erkennen sind das schwarze Zifferblatt mit einer schwach sichtbaren Weltkarte, aufgesetzte Stabindizes, Stabzeiger mit Leuchtfüllung und das Datumsfenster bei 3 Uhr. Links unten liegt ein Hilfszifferblatt für weitere Anzeigen. Unter der Signatur »CITIZEN« steht »SATELLITE WAVE«. Rechts sitzen die Krone und zwei Drücker, die Uhr trägt ein Metallgliederband."
+   ],
+   "lx": [
+    [
+     "funkuhr",
+     "2011: GPS-Empfang mit Solarantrieb"
+    ],
+    [
+     "solarwerk",
+     "Eco-Drive und Satellitensuche"
+    ]
    ]
   },
   {

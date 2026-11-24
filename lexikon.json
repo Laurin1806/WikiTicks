@@ -4807,5 +4807,578 @@
    "Wohltätigkeitsauktionen wie Only Watch erzielen oft Preise weit über dem Marktwert, weil Bieter die Einzelstücke zugleich als Spende verstehen.",
    "Auch neuere Uhren erzielen Rekorde: Eine der auf 170 Stück limitierten Nautilus 5711/1A mit Tiffany-blauem Zifferblatt erreichte 2021 einen Millionenbetrag, und 2026 setzte eine Londoner Cartier Crash von etwa 1987 bei Sotheby's einen Rekord für eine Cartier-Armbanduhr."
   ]
+ },
+ {
+  "id": "rattrapante",
+  "t": "Schleppzeiger-Chronograph",
+  "c": "Komplikationen",
+  "a": [
+   "Rattrapante",
+   "Schleppzeiger",
+   "Split-Seconds"
+  ],
+  "s": "Ein Chronograph mit zwei übereinanderliegenden Stoppzeigern, mit dem sich Zwischenzeiten messen lassen.",
+  "b": [
+   "Ein Schleppzeiger-Chronograph, französisch »Rattrapante«, hat zwei Stoppzeiger, die beim Start genau übereinanderliegen und gemeinsam loslaufen. Mit einem eigenen Drücker lässt sich einer der beiden anhalten, um eine Zwischenzeit abzulesen, während der andere weiterläuft. Ein weiterer Druck lässt den angehaltenen Zeiger wieder auf den laufenden aufholen; daher kommt der Name, denn »rattraper« heißt »einholen«.",
+   "Technisch ist das aufwendig: Der Schleppzeiger wird von einer eigenen Zange gebremst, ein Herz mit Hebel sorgt dafür, dass er beim Lösen exakt auf den Hauptzeiger springt. Meist sitzt der dritte Drücker bei 10 Uhr oder in der Krone. Weil die Zange beim Stoppen Kraft kostet, darf der Schleppzeiger nicht zu lange angehalten bleiben, wenn die Gangreserve klein ist.",
+   "Rattrapanten gelten neben Minutenrepetition und ewigem Kalender als eine der schwierigsten Komplikationen. A. Lange & Söhne stellte 2004 mit der Double Split einen Chronographen vor, bei dem auch der Minutenzähler einen Schleppzeiger hat, sodass sich Zwischenzeiten bis zu 30 Minuten messen lassen."
+  ],
+  "f": [
+   [
+    "Zeiger",
+    "zwei Stoppzeiger übereinander"
+   ],
+   [
+    "Bedienung",
+    "dritter Drücker, oft bei 10 Uhr oder in der Krone"
+   ],
+   [
+    "Zweck",
+    "Zwischenzeiten, Vergleich zweier Zeiten"
+   ]
+  ],
+  "r": [
+   "chronograph",
+   "flyback",
+   "schaltrad",
+   "datograph"
+  ],
+  "k": "»Rattraper« heißt einholen: Der angehaltene Stoppzeiger springt auf Knopfdruck wieder auf den laufenden.",
+  "g": [
+   "Schleppzeiger gab es schon bei Taschenuhr-Chronographen des 19. Jahrhunderts, unter anderem für Pferderennen, bei denen mehrere Zeiten verglichen werden mussten.",
+   "In Armbanduhren blieb die Rattrapante wegen ihres Aufwands ein Merkmal der Spitzenmanufakturen, etwa bei Patek Philippe oder A. Lange & Söhne."
+  ],
+  "x": [
+   "Zwei Stoppzeiger bedeuten nicht zwei getrennte Messungen: Beide messen ab demselben Start, nur das Ablesen der Zwischenzeit ist unabhängig."
+  ]
+ },
+ {
+  "id": "springende-stunde",
+  "t": "Springende Stunde",
+  "c": "Komplikationen",
+  "a": [
+   "Digitale Anzeige",
+   "Jumping Hour"
+  ],
+  "s": "Eine Anzeige, bei der die Stunde als Ziffer in einem Fenster erscheint und zur vollen Stunde schlagartig weiterspringt.",
+  "b": [
+   "Bei einer springenden Stunde gibt es keinen Stundenzeiger. Die Stunde steht als Ziffer in einem Fenster und wechselt zur vollen Stunde in einem Sprung auf die nächste Zahl. Die Minuten zeigt meist ein Zeiger oder eine Scheibe.",
+   "Der Sprung braucht Kraft, die das Werk über die Stunde in einer kleinen Feder speichert und im richtigen Moment freigibt. Noch aufwendiger ist eine rein digitale Anzeige, bei der auch die Minuten springen: Die A. Lange & Söhne Zeitwerk von 2009 zeigt Stunden und Minuten mit springenden Ziffernscheiben und braucht dafür eine eigene Konstantkraft-Einrichtung.",
+   "Springende Anzeigen wirken modern, sind aber eine alte Idee. Sie sind gut ablesbar, verlangen aber ein Werk, das genug Kraft für den Sprung aufbringt, ohne dass die Ganggenauigkeit leidet."
+  ],
+  "f": [
+   [
+    "Anzeige",
+    "Stunde als Ziffer im Fenster"
+   ],
+   [
+    "Antrieb",
+    "Feder, die sich über die Stunde spannt"
+   ],
+   [
+    "Beispiele",
+    "Pallweber-Taschenuhren, Cartier Tank à Guichets, Lange Zeitwerk"
+   ]
+  ],
+  "r": [
+   "zeitwerk",
+   "konstantkraft",
+   "retrograde",
+   "tank"
+  ],
+  "k": "Die springende Stunde ist älter, als sie aussieht: Taschenuhren mit Ziffernfenstern gab es schon in den 1880er-Jahren.",
+  "fig": {
+   "m": [
+    "zeitwerk"
+   ],
+   "mc": [
+    "Springende Stunden und Minuten"
+   ]
+  },
+  "g": [
+   "In den 1880er-Jahren ließ sich der Salzburger Josef Pallweber eine Taschenuhr mit springenden Ziffern patentieren; IWC baute solche Pallweber-Uhren.",
+   "Cartier griff die Idee um 1928 mit der Tank à Guichets auf, bei der Stunde und Minute in kleinen Fenstern erscheinen. Lange machte sie 2009 mit der Zeitwerk wieder bekannt."
+  ],
+  "x": [
+   "Bei der Zeitwerk springen zur vollen Stunde drei Scheiben gleichzeitig, der kraftaufwendigste Moment im Lauf der Uhr."
+  ]
+ },
+ {
+  "id": "zykloplupe",
+  "t": "Zykloplupe",
+  "c": "Gehäuse & Bauteile",
+  "a": [
+   "Zyklopenlupe",
+   "Cyclops",
+   "Datumslupe"
+  ],
+  "s": "Die kleine Lupe auf dem Uhrglas über dem Datum, durch die das Datum etwa 2,5-fach vergrößert erscheint.",
+  "b": [
+   "Die Zykloplupe ist eine gewölbte Linse, die über dem Datumsfenster auf das Uhrglas gesetzt ist. Sie vergrößert das Datum, das sonst auf einer kleinen Scheibe sitzt, und macht es leichter ablesbar. Der Name spielt auf das eine Auge der Zyklopen aus der griechischen Sage an.",
+   "Rolex führte die Lupe 1953 bei der Datejust ein, und sie wurde zu einem der bekanntesten Erkennungszeichen der Marke. Bei Acrylgläsern war sie mitgeformt, bei Saphirgläsern wird sie aufgeklebt. Heutige Rolex-Lupen vergrößern rund 2,5-fach und sind meist innen entspiegelt.",
+   "Nicht jede Rolex hat sie: Die Sea-Dweller verzichtete lange darauf, weil die Lupe unter dem Druck großer Tiefen hätte abplatzen können, erst 2017 erhielt sie eine. Viele Sammler unterscheiden auch Fälschungen an der Lupe, weil billige Nachbauten oft schwächer vergrößern."
+  ],
+  "f": [
+   [
+    "Eingeführt",
+    "1953 (Rolex Datejust)"
+   ],
+   [
+    "Vergrößerung",
+    "rund 2,5-fach"
+   ],
+   [
+    "Material",
+    "Saphir, aufgeklebt"
+   ]
+  ],
+  "r": [
+   "datejust",
+   "saphirglas",
+   "sea-dweller",
+   "submariner"
+  ],
+  "k": "Die Zykloplupe vergrößert das Datum etwa 2,5-fach und ist nach dem einäugigen Zyklopen benannt.",
+  "fig": {
+   "m": [
+    "datejust",
+    "submariner"
+   ],
+   "mc": [
+    "Zykloplupe bei 3 Uhr",
+    "1680: erste Submariner mit Datum und Lupe"
+   ],
+   "img": [
+    null,
+    "assets/watches/rolex-submariner-1680-red.jpg"
+   ]
+  },
+  "g": [
+   "Die Lupe soll auf eine Idee von Hans Wilsdorf zurückgehen, dessen Frau das kleine Datum schlecht lesen konnte; belegt ist das nicht.",
+   "Seit den 1950er-Jahren gehört sie fast zu jeder datumsführenden Rolex, die Submariner bekam sie 1969 mit der Ref. 1680."
+  ],
+  "x": [
+   "Eine Lupe, die nicht genau über dem Datum sitzt, ist ein Warnzeichen für ein getauschtes Glas oder eine Fälschung."
+  ]
+ },
+ {
+  "id": "emaille",
+  "t": "Emaille",
+  "c": "Materialien & Veredelung",
+  "a": [
+   "Email",
+   "Grand Feu",
+   "Cloisonné",
+   "Champlevé"
+  ],
+  "s": "Glasartiger Überzug auf Zifferblättern, der bei hoher Temperatur eingebrannt wird und seine Farbe praktisch nie verliert.",
+  "b": [
+   "Emaille besteht aus fein gemahlenem Glas mit Metalloxiden als Farbstoff. Es wird als Paste auf eine Metallplatte aufgetragen und im Ofen bei rund 800 Grad geschmolzen. Bei der »Grand Feu«-Emaille geschieht das in vielen Schichten und Bränden, bis eine tiefe, glänzende Oberfläche entsteht, die auch nach Jahrzehnten nicht verblasst.",
+   "Es gibt mehrere Techniken. Beim Cloisonné werden feine Golddrähte auf das Zifferblatt gelötet, die Zellen dazwischen füllt der Emailleur mit verschiedenen Farben; so entstehen Landkarten oder Bilder. Beim Champlevé wird das Motiv aus dem Metall herausgraviert und die Vertiefungen werden mit Emaille gefüllt. Flinqué nennt man durchscheinende Emaille über einer Guilloche.",
+   "Emaille ist heikel: Bei jedem Brand kann die Schicht reißen oder Blasen werfen, und ein misslungenes Zifferblatt lässt sich nicht reparieren. Deshalb sind Emaillezifferblätter teuer und meist Uhren der höheren Preisklassen vorbehalten, etwa Weltzeituhren von Patek Philippe mit Cloisonné-Karten."
+  ],
+  "f": [
+   [
+    "Material",
+    "Glaspulver mit Metalloxiden"
+   ],
+   [
+    "Brenntemperatur",
+    "rund 800 °C"
+   ],
+   [
+    "Techniken",
+    "Grand Feu, Cloisonné, Champlevé, Flinqué"
+   ]
+  ],
+  "r": [
+   "zifferblatt",
+   "guilloche",
+   "world-time",
+   "weltzeit"
+  ],
+  "k": "Ein Emaillezifferblatt verblasst praktisch nie, aber jeder Brand kann es zerstören.",
+  "fig": {
+   "m": [
+    "world-time"
+   ],
+   "mc": [
+    "Weltzeituhr, Sondermodelle mit Cloisonné-Emaille"
+   ]
+  },
+  "g": [
+   "Emaille schmückte schon im 17. Jahrhundert die Gehäuse von Taschenuhren, Genf war ein Zentrum der Emailmalerei.",
+   "Mit der Massenfertigung im 20. Jahrhundert verdrängten lackierte und galvanisierte Zifferblätter die Emaille; seit den 1990er-Jahren erlebt sie bei Luxusuhren eine Renaissance."
+  ],
+  "x": [
+   "Weiße Grand-Feu-Zifferblätter erkennt man an ihrem weichen, tiefen Glanz, der anders wirkt als Lack."
+  ]
+ },
+ {
+  "id": "solarwerk",
+  "t": "Solarwerk",
+  "c": "Werk & Antrieb",
+  "a": [
+   "Solaruhr",
+   "Eco-Drive",
+   "Solar"
+  ],
+  "s": "Ein Quarzwerk, das seinen Strom aus Licht gewinnt und ihn in einem Akku speichert, sodass kein Batteriewechsel nötig ist.",
+  "b": [
+   "Ein Solarwerk ist ein Quarzwerk, dessen Energie aus Licht stammt. Unter dem Zifferblatt liegen Solarzellen; damit genug Licht durchkommt, ist das Zifferblatt leicht durchscheinend. Der gewonnene Strom lädt einen Akku, der die Uhr auch im Dunkeln über Monate weiterlaufen lässt.",
+   "Citizen brachte 1976 mit der Crystron Solar Cell eine der ersten analogen Solaruhren und vermarktet die Technik seit 1995 unter dem Namen Eco-Drive. Seiko, Casio (Tough Solar) und viele andere folgten. 2021 stellte Cartier mit dem SolarBeat-Werk in der Tank Must eine Solarversion vor, bei der das Licht durch die durchbrochenen römischen Ziffern fällt.",
+   "Der Vorteil ist der Wegfall des Batteriewechsels und damit auch des Öffnens des Gehäuses. Der Akku altert zwar, hält aber meist viele Jahre. Uhren, die lange im Dunkeln liegen, schalten oft in einen Energiesparmodus und bleiben stehen, bis sie wieder Licht bekommen."
+  ],
+  "f": [
+   [
+    "Energie",
+    "Licht über Solarzellen"
+   ],
+   [
+    "Speicher",
+    "Akku statt Batterie"
+   ],
+   [
+    "Bekannt als",
+    "Eco-Drive (Citizen), Tough Solar (Casio), SolarBeat (Cartier)"
+   ]
+  ],
+  "r": [
+   "quarzwerk",
+   "funkuhr",
+   "satellite-wave",
+   "tank"
+  ],
+  "k": "Bei einer Solaruhr ist das Zifferblatt leicht durchscheinend, damit Licht die Zellen darunter erreicht.",
+  "fig": {
+   "m": [
+    "satellite-wave",
+    "tank"
+   ],
+   "mc": [
+    "Solarantrieb mit GPS-Empfang",
+    "Tank Must, auch mit SolarBeat-Werk"
+   ],
+   "img": [
+    null,
+    "assets/watches/cartier-tank.jpg"
+   ]
+  },
+  "g": [
+   "Erste Solaruhren mit Digitalanzeige gab es Anfang der 1970er-Jahre; sie hatten sichtbare Solarzellen auf dem Zifferblatt.",
+   "Mit lichtdurchlässigen Zifferblättern und besseren Akkus wurde die Technik ab den 1990er-Jahren alltagstauglich."
+  ],
+  "x": []
+ },
+ {
+  "id": "funkuhr",
+  "t": "Funkuhr",
+  "c": "Werk & Antrieb",
+  "a": [
+   "Funkarmbanduhr",
+   "DCF77",
+   "GPS-Uhr"
+  ],
+  "s": "Eine Quarzuhr, die ihre Zeit regelmäßig über ein Funksignal oder Satelliten abgleicht und so immer auf die Sekunde genau geht.",
+  "b": [
+   "Eine Funkuhr hat ein Quarzwerk mit Empfänger. Meist nachts empfängt sie ein Zeitsignal und stellt sich danach selbst; auch die Umstellung auf Sommer- und Winterzeit erledigt sie allein. In Deutschland kommt das Signal vom Langwellensender DCF77 in Mainflingen bei Frankfurt am Main, dessen Zeit von den Atomuhren der Physikalisch-Technischen Bundesanstalt in Braunschweig stammt.",
+   "Junghans stellte 1990 mit der Mega 1 die erste Funkarmbanduhr vor. Heute gibt es Sender in mehreren Ländern, und viele Uhren empfangen Signale aus Europa, Nordamerika, Japan und China. Eine Weiterentwicklung sind GPS-Uhren: Citizen stellte 2011 mit der Satellite Wave die erste Uhr vor, die Zeit und Zeitzone über GPS-Satelliten bestimmt, 2012 folgte die Seiko Astron GPS Solar.",
+   "Weil der Empfang Strom braucht, werden viele Funk- und GPS-Uhren mit Solarzellen kombiniert."
+  ],
+  "f": [
+   [
+    "Signal",
+    "Langwelle (DCF77) oder GPS"
+   ],
+   [
+    "Erste Funkarmbanduhr",
+    "Junghans Mega 1, 1990"
+   ],
+   [
+    "Erste GPS-Uhr",
+    "Citizen Satellite Wave, 2011"
+   ]
+  ],
+  "r": [
+   "quarzwerk",
+   "solarwerk",
+   "junghans-mega",
+   "satellite-wave",
+   "astron"
+  ],
+  "k": "Das Zeitsignal für Funkuhren in Deutschland kommt aus Mainflingen bei Frankfurt.",
+  "fig": {
+   "m": [
+    "junghans-mega",
+    "satellite-wave"
+   ],
+   "mc": [
+    "Erste Funkarmbanduhr der Welt",
+    "Zeitabgleich über GPS"
+   ]
+  },
+  "g": [
+   "Der Sender DCF77 verbreitet seit 1959 eine Normalfrequenz und seit 1973 einen Zeitcode.",
+   "Funkwecker und Wanduhren gab es vor den Armbanduhren; die Mega 1 von 1990 brachte den Empfänger erstmals in ein Armbandgehäuse."
+  ],
+  "x": []
+ },
+ {
+  "id": "unruhspirale",
+  "t": "Unruhspirale",
+  "c": "Gangregelung & Präzision",
+  "a": [
+   "Spirale",
+   "Breguet-Spirale",
+   "Nivarox",
+   "Parachrom"
+  ],
+  "s": "Die hauchdünne Feder, die die Unruh hin- und herschwingen lässt und damit den Takt einer mechanischen Uhr bestimmt.",
+  "b": [
+   "Die Unruhspirale ist eine aufgewickelte Feder aus einem Band, das dünner als ein Haar sein kann. Sie ist innen mit der Unruhwelle und außen mit dem Unruhkloben verbunden und zieht die Unruh nach jeder Auslenkung zurück. Länge, Stärke und Material der Spirale bestimmen, wie schnell die Unruh schwingt, und damit, wie genau die Uhr geht.",
+   "Abraham-Louis Breguet verbesserte die Spirale um 1795, indem er ihre letzte Windung nach oben und nach innen bog. Diese »Breguet-Spirale« atmet gleichmäßiger und macht die Uhr unabhängiger von ihrer Lage. Ein weiterer Durchbruch war in den 1930er-Jahren die Legierung Nivarox des Metallurgen Reinhard Straumann, die kaum auf Temperatur reagiert und kaum magnetisierbar ist; sie ist bis heute der Standard.",
+   "Moderne Hersteller gehen eigene Wege: Rolex verwendet seit 2000 die blau schimmernde Parachrom-Spirale aus einer Niob-Zirkonium-Legierung, die gegen Stöße und Magnetfelder unempfindlicher ist, und viele Marken setzen auf Spiralen aus Silizium."
+  ],
+  "f": [
+   [
+    "Aufgabe",
+    "Rückstellkraft für die Unruh"
+   ],
+   [
+    "Verbesserung 1795",
+    "Breguet-Endkurve"
+   ],
+   [
+    "Standardlegierung",
+    "Nivarox (seit den 1930er-Jahren)"
+   ]
+  ],
+  "r": [
+   "unruh",
+   "silizium",
+   "isochronismus",
+   "antimagnetisch",
+   "breguet"
+  ],
+  "k": "Die Unruhspirale kann dünner sein als ein menschliches Haar und bestimmt doch den Takt der ganzen Uhr.",
+  "g": [
+   "Christiaan Huygens ließ 1675 die Spiralfeder als Regulierorgan für tragbare Uhren beschreiben; erst sie machte Taschenuhren einigermaßen genau.",
+   "Mit der Endkurve von Breguet um 1795 und der Nivarox-Legierung der 1930er-Jahre folgten die beiden wichtigsten Verbesserungen."
+  ],
+  "x": [
+   "Eine magnetisierte Spirale, deren Windungen aneinanderhaften, lässt eine Uhr plötzlich stark vorgehen; ein Uhrmacher kann sie entmagnetisieren."
+  ]
+ },
+ {
+  "id": "konstantkraft",
+  "t": "Konstantkraft",
+  "c": "Gangregelung & Präzision",
+  "a": [
+   "Remontoir",
+   "Kette und Schnecke",
+   "Fusée"
+  ],
+  "s": "Einrichtungen, die dafür sorgen, dass die Hemmung immer gleich viel Kraft bekommt, egal wie weit die Zugfeder gespannt ist.",
+  "b": [
+   "Eine voll aufgezogene Zugfeder gibt mehr Kraft ab als eine fast entspannte. Diese Schwankung erreicht über das Räderwerk die Unruh und lässt sie unterschiedlich weit schwingen, was die Ganggenauigkeit verschlechtert. Konstantkraft-Einrichtungen gleichen das aus.",
+   "Die älteste Lösung ist Kette und Schnecke, französisch Fusée: Eine feine Kette läuft von einem kegelförmigen Rad, der Schnecke, auf das Federhaus. Ist die Feder stark gespannt, zieht die Kette am kleinen Radius der Schnecke, ist sie schwach, am großen. A. Lange & Söhne baute diese Technik 1994 mit dem Tourbillon »Pour le Mérite« in eine Armbanduhr ein. Eine andere Lösung ist der Remontoir: Eine kleine Zwischenfeder wird vom Werk in kurzen Abständen nachgespannt und gibt ihre gleichbleibende Kraft an die Hemmung weiter.",
+   "Konstantkraft ist vor allem dort wichtig, wo das Werk viel Energie auf einmal braucht, etwa bei der Lange Zeitwerk, die zur vollen Stunde drei Ziffernscheiben gleichzeitig springen lässt."
+  ],
+  "f": [
+   [
+    "Problem",
+    "nachlassende Kraft der Zugfeder"
+   ],
+   [
+    "Lösungen",
+    "Kette und Schnecke, Remontoir"
+   ],
+   [
+    "Beispiele",
+    "Lange »Pour le Mérite«, Lange Zeitwerk"
+   ]
+  ],
+  "r": [
+   "federhaus",
+   "hemmung",
+   "isochronismus",
+   "zeitwerk",
+   "tourbillon"
+  ],
+  "k": "Die Kette einer Fusée in der Armbanduhr besteht aus Hunderten winziger Einzelteile.",
+  "fig": {
+   "m": [
+    "zeitwerk"
+   ],
+   "mc": [
+    "Konstantkraft für die springenden Ziffern"
+   ]
+  },
+  "g": [
+   "Kette und Schnecke finden sich schon in Uhren des 15. Jahrhunderts; in Marinechronometern blieben sie bis ins 20. Jahrhundert Standard.",
+   "In Armbanduhren tauchte die Fusée erst in den 1990er-Jahren wieder auf, als Zeichen höchster Uhrmacherkunst."
+  ],
+  "x": []
+ },
+ {
+  "id": "militaeruhren",
+  "t": "Militäruhren",
+  "c": "Geschichte",
+  "a": [
+   "Dirty Dozen",
+   "Grabenuhr",
+   "Dienstuhr"
+  ],
+  "s": "Uhren, die nach den Vorgaben von Armeen gebaut wurden und viele heutige Sport- und Fliegeruhren geprägt haben.",
+  "b": [
+   "Im Ersten Weltkrieg setzte sich die Armbanduhr durch, weil Soldaten in den Schützengräben beide Hände brauchten. Aus Taschenuhren wurden mit angelöteten Bandanstößen sogenannte Grabenuhren, oft mit Leuchtziffern und Gittern zum Schutz des Glases.",
+   "Später schrieben Armeen genaue Anforderungen vor. Gegen Ende des Zweiten Weltkriegs bestellte das britische Verteidigungsministerium bei zwölf Schweizer Herstellern Uhren nach dem Standard »W.W.W.« (Watch, Wristlet, Waterproof); Sammler nennen sie die »Dirty Dozen«. Dazu gehörten unter anderem IWC, Jaeger-LeCoultre, Longines und Omega. 1948 folgte die IWC Mark 11 als Navigationsuhr der Royal Air Force, die italienische Marine trug Taucheruhren von Panerai, die französische Marine Taucheruhren von Tudor.",
+   "Viele Merkmale heutiger Uhren stammen aus diesen Vorgaben: große, leuchtende Ziffern, schwarze Zifferblätter, Weicheisen-Innengehäuse gegen Magnetfelder, das Dreieck bei 12 Uhr und robuste Gehäuse. Militärische Herkunft ist bei Sammlern sehr gefragt, Uhren mit belegter Dienstgeschichte erzielen deutlich höhere Preise."
+  ],
+  "f": [
+   [
+    "Ursprung",
+    "Erster Weltkrieg, Grabenuhren"
+   ],
+   [
+    "»Dirty Dozen«",
+    "12 Hersteller, britischer W.W.W.-Standard"
+   ],
+   [
+    "Typische Merkmale",
+    "Leuchtziffern, schwarzes Zifferblatt, robuste Gehäuse"
+   ]
+  ],
+  "r": [
+   "fliegeruhr",
+   "taucheruhr",
+   "armbanduhr",
+   "antimagnetisch",
+   "mark-xx",
+   "radiomir"
+  ],
+  "k": "Die »Dirty Dozen« waren zwölf Schweizer Hersteller, die gegen Kriegsende Uhren für die britische Armee bauten.",
+  "fig": {
+   "m": [
+    "mark-xx",
+    "radiomir"
+   ],
+   "mc": [
+    "Nachfahrin der Mark 11 der Royal Air Force",
+    "Taucheruhr für die italienische Marine"
+   ]
+  },
+  "g": [
+   "Schon im Burenkrieg um 1900 trugen britische Offiziere Uhren am Handgelenk; der Erste Weltkrieg machte sie allgemein üblich.",
+   "Nach 1945 entstanden in vielen Ländern Dienstuhren nach Normen, deren Gestaltung die zivilen Fliegeruhren und Taucheruhren bis heute prägt."
+  ],
+  "x": [
+   "Militäruhren tragen oft Gravuren auf dem Boden, etwa den »Broad Arrow«, das Eigentumszeichen der britischen Krone."
+  ]
+ },
+ {
+  "id": "taschenuhr",
+  "t": "Taschenuhr",
+  "c": "Geschichte",
+  "a": [
+   "Taschenuhren",
+   "Eisenbahneruhr"
+  ],
+  "s": "Die Vorgängerin der Armbanduhr, die vom 16. Jahrhundert bis zum Ersten Weltkrieg die tragbare Uhr schlechthin war.",
+  "b": [
+   "Die ersten tragbaren Uhren entstanden Anfang des 16. Jahrhunderts, als die Zugfeder Gewichte als Antrieb ersetzte. Oft wird der Nürnberger Peter Henlein als Erfinder genannt, belegt ist das nicht. Diese frühen Uhren trug man an einer Kette um den Hals, sie hatten nur einen Stundenzeiger und gingen sehr ungenau.",
+   "Mit der Spiralfeder von 1675 wurden Taschenuhren deutlich genauer, im 18. und 19. Jahrhundert wurden sie zum Zeichen bürgerlichen Wohlstands. In den USA führte ein Zugunglück 1891 bei Kipton in Ohio, an dem eine falsch gehende Uhr beteiligt gewesen sein soll, zu strengen Standards für Eisenbahneruhren, die der Uhrmacher Webb C. Ball mitentwickelte.",
+   "Nach dem Ersten Weltkrieg verdrängte die Armbanduhr die Taschenuhr. Ihr Erbe lebt weiter: Die IWC Portugieser entstand 1939, weil nur ein Taschenuhrwerk die gewünschte Genauigkeit am Arm bot, und viele Komplikationen wie die Minutenrepetition wurden für Taschenuhren erfunden."
+  ],
+  "f": [
+   [
+    "Entstehung",
+    "Anfang des 16. Jahrhunderts"
+   ],
+   [
+    "Blütezeit",
+    "18. und 19. Jahrhundert"
+   ],
+   [
+    "Abgelöst",
+    "nach dem Ersten Weltkrieg"
+   ]
+  ],
+  "r": [
+   "armbanduhr",
+   "militaeruhren",
+   "minutenrepetition",
+   "unruhspirale",
+   "portugieser"
+  ],
+  "k": "Die IWC Portugieser ist so groß, weil in ihr ursprünglich ein Taschenuhrwerk steckte.",
+  "fig": {
+   "m": [
+    "portugieser"
+   ],
+   "mc": [
+    "Armbanduhr mit dem Format eines Taschenuhrwerks"
+   ]
+  },
+  "g": [
+   "Im 17. Jahrhundert wanderte die Uhr vom Hals in die Westentasche; die Mode der Weste soll dazu beigetragen haben.",
+   "Im 19. Jahrhundert machten Fabriken in den USA und der Schweiz Taschenuhren durch Serienfertigung erschwinglich."
+  ],
+  "x": []
+ },
+ {
+  "id": "la-chaux-de-fonds",
+  "t": "La Chaux-de-Fonds und Le Locle",
+  "c": "Herkunft & Institutionen",
+  "a": [
+   "La Chaux-de-Fonds",
+   "Le Locle",
+   "Jurabogen"
+  ],
+  "s": "Die beiden Uhrenstädte im Schweizer Jura, deren ganze Stadtplanung auf die Uhrmacherei ausgerichtet ist; seit 2009 Unesco-Welterbe.",
+  "b": [
+   "La Chaux-de-Fonds und Le Locle liegen nahe beieinander im Neuenburger Jura auf rund 1.000 Metern Höhe. Nach großen Bränden wurden beide Städte im 19. Jahrhundert schachbrettartig wieder aufgebaut, mit langen Häuserzeilen, deren große Fenster nach Süden zeigen, damit die Uhrmacher an ihren Werkbänken möglichst viel Tageslicht hatten. Wohnen und Arbeiten lagen oft im selben Haus.",
+   "2009 nahm die Unesco die beiden Städte als »Stadtlandschaft Uhrenindustrie« in die Liste des Welterbes auf. Bis heute haben hier bekannte Marken ihren Sitz: In Le Locle sind es unter anderem Tissot, Zenith und Ulysse Nardin, in La Chaux-de-Fonds Girard-Perregaux und TAG Heuer.",
+   "Die Region ist Teil des Jurabogens, der sich von Genf bis Basel zieht und in dem ein Großteil der Schweizer Uhrenindustrie arbeitet. Im Musée international d'horlogerie in La Chaux-de-Fonds lässt sich die Geschichte der Zeitmessung verfolgen."
+  ],
+  "f": [
+   [
+    "Lage",
+    "Neuenburger Jura, rund 1.000 m"
+   ],
+   [
+    "Unesco-Welterbe",
+    "seit 2009"
+   ],
+   [
+    "Marken",
+    "Tissot, Zenith, Ulysse Nardin, Girard-Perregaux, TAG Heuer"
+   ]
+  ],
+  "r": [
+   "vallee-de-joux",
+   "swiss-made",
+   "genfer-siegel",
+   "chronomaster",
+   "laureato"
+  ],
+  "k": "In La Chaux-de-Fonds zeigen die Fenster der alten Häuser nach Süden, damit die Uhrmacher viel Licht hatten.",
+  "fig": {
+   "m": [
+    "chronomaster",
+    "laureato"
+   ],
+   "mc": [
+    "Zenith aus Le Locle",
+    "Girard-Perregaux aus La Chaux-de-Fonds"
+   ]
+  },
+  "g": [
+   "Im 18. Jahrhundert verbreitete sich die Uhrmacherei als Heimarbeit der Bauern im Jura; der Uhrmacher Daniel JeanRichard soll sie in Le Locle eingeführt haben.",
+   "Nach dem Stadtbrand von 1794 in La Chaux-de-Fonds entstand der rechtwinklige Stadtplan, der auf die Bedürfnisse der Uhrmacher zugeschnitten war."
+  ],
+  "x": [
+   "Der Architekt Le Corbusier wurde 1887 in La Chaux-de-Fonds geboren und besuchte dort die Kunstgewerbeschule, die eng mit der Uhrengravur verbunden war."
+  ]
  }
 ]
