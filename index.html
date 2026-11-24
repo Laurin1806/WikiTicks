@@ -2122,6 +2122,7 @@ document.addEventListener("keydown", ev => { if (ev.key === "Escape") closeZoom(
 addEventListener("hashchange", closeZoom);
 
 // ---------- Zifferblatt ----------
+let TOFF = 0; // Abweichung Gerätezeit → Serverzeit in ms
 (function dial() {
   let h = "";
   for (let i = 0; i < 60; i++) {
@@ -2132,13 +2133,20 @@ addEventListener("hashchange", closeZoom);
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const set = (id, deg) => $(id).setAttribute("transform", `rotate(${deg} 60 60)`);
   function tick() {
-    const d = new Date(), steps = reduce ? 1 : 8; // 4 Hz = 8 Halbschwingungen pro Sekunde
+    const d = new Date(Date.now() + TOFF), steps = reduce ? 1 : 8; // 4 Hz = 8 Halbschwingungen pro Sekunde; Zeit mit dem Server abgeglichen
     const sec = d.getSeconds() + Math.floor(d.getMilliseconds() / (1000 / steps)) / steps;
     // alle Zifferblätter (kleine Uhr oben links und die vergrößerte Ansicht)
     const rot = (h, deg) => document.querySelectorAll(`[data-hand="${h}"]`).forEach(el => el.setAttribute("transform", `rotate(${deg} 60 60)`));
     rot("s", sec * 6); rot("m", (d.getMinutes() + sec / 60) * 6); rot("h", ((d.getHours() % 12) + d.getMinutes() / 60) * 30);
   }
   tick(); setInterval(tick, reduce ? 1000 : 125);
+  // Gerätezeit gegen die Serverzeit (Date-Header) abgleichen, falls die Uhr des Geräts um mehr als eine Sekunde abweicht
+  const t0 = Date.now();
+  fetch(location.pathname + "?zeit=" + t0, { method: "HEAD", cache: "no-store" }).then(r => {
+    const t1 = Date.now(), h = r.headers.get("Date"); if (!h) return;
+    const off = Date.parse(h) + 500 - (t0 + t1) / 2; // Header ist auf ganze Sekunden abgeschnitten: im Mittel +0,5 s
+    if (Math.abs(off) > 1200 && t1 - t0 < 1500) TOFF = off;
+  }).catch(() => {});
 })();
 
 // Klick auf die kleine Uhr oben links: groß darstellen (läuft live weiter), Klick oder Esc schließt
