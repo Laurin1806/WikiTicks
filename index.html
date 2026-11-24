@@ -350,6 +350,7 @@ a.hot[aria-current="true"] .flame { fill: #ffb27a; }
 .cmpvar { font: inherit; font-size: 13px; line-height: 1.35; text-align: left; padding: 8px 10px; border: 0; border-radius: 7px; background: none; color: var(--fg); cursor: pointer; }
 .cmpvar[aria-pressed="true"] { background: var(--accent); color: #fff; font-weight: 600; }
 @media (hover: hover) and (pointer: fine) { .cmpvar[aria-pressed="false"]:hover { background: var(--accent-soft); } }
+.cmptable tr.cmpsec th { padding: 22px 0 8px; font-family: var(--font-display); font-size: 1.15rem; text-transform: none; letter-spacing: 0; color: var(--fg); border-top: 0; position: static; background: none; }
 .cmptable td b.cmpdial { display: block; font-weight: 600; }
 .cmptable td small + small { margin-top: 2px; }
 .cmpin { width: 100%; font: inherit; font-size: 14px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--fg); }
@@ -877,8 +878,12 @@ function cmpPrices(e, vname) {
   if (best) { const o = fmtRow(best); if (o.liste || !pr.liste) out.liste = o.liste; if (!o.liste && !pr.liste) delete out.liste; out.used = o.used; }
   return out;
 }
+const SPEC_FIELDS = [["ref", "Referenz"], ["produktion", "Produktion"], ["durchmesser", "Durchmesser"], ["hoehe", "Höhe"], ["anstoss", "Bandanstoß"], ["gewicht", "Gewicht"], ["gehaeuse", "Gehäusematerial"], ["groessen", "Weitere Größen"], ["glas", "Glas"], ["boden", "Gehäuseboden"], ["luenette", "Lünette"], ["krone", "Krone"], ["wasserdicht", "Wasserdicht"],
+  ["werk", "Kaliber"], ["werktyp", "Aufzug"], ["manufaktur", "Herkunft des Werks"], ["frequenz", "Frequenz"], ["gangreserve", "Gangreserve"], ["steine", "Steine"], ["spirale", "Spirale"], ["genauigkeit", "Genauigkeit"], ["zertifizierung", "Zertifizierung"], ["antimagnetisch", "Magnetfeldschutz"],
+  ["funktionen", "Funktionen"], ["leuchtmasse", "Leuchtmasse"], ["band", "Band"], ["schliesse", "Schließe"], ["listenpreis_eur", "Listenpreis Deutschland"]];
+const SPEC_COVER = { "Kaliber": ["werk"], "Gangreserve": ["gangreserve"], "Wasserdicht": ["wasserdicht"], "Lünette": ["luenette"], "Band": ["band"], "Funktionen": ["funktionen"], "Zertifizierung": ["zertifizierung"], "Genauigkeit": ["genauigkeit"], "Glas": ["glas"], "Krone": ["krone"], "Leuchtmasse": ["leuchtmasse"], "Gehäuseboden": ["boden"], "Gehäuse": ["durchmesser", "gehaeuse"], "Magnetfeldschutz": ["antimagnetisch"], "Chronograph": [] };
 function viewCompare(h) {
-  if (h.startsWith("vergleich=")) { const ids = h.slice(10).split(",").filter(x => cmpItem(x)).slice(0, 3); if (ids.length) { CMP = ids; saveCmp(); } history.replaceState(null, "", "#vergleich"); }
+  if (h.startsWith("vergleich=")) { const ids = h.slice(10).split(",").filter(x => cmpItem(x)).slice(0, 3); if (ids.length) { CMP = ids; saveCmp(); history.replaceState(null, "", "#vergleich"); } }
   const sel = CMP.filter(x => cmpItem(x)), I = sel.map(cmpItem);
   const opts = MODELS.slice().sort((a, b) => a.t.localeCompare(b.t, "de")).map(m => `<option value="${esc(m.t)}"></option>`).join("");
   const slot = i => { const it = I[i], e = it && it.e, ch = e ? cmpChoices(e) : [];
@@ -886,7 +891,11 @@ function viewCompare(h) {
       : `<div class="cmpempty"><span>Uhr ${i + 1}</span></div>`}<input class="cmpin" list="cmplist" data-slot="${i}" placeholder="${e ? "Andere Uhr wählen" : "Uhr suchen, z. B. Submariner"}" aria-label="Uhr ${i + 1} auswählen">
       ${ch.length > 1 ? `<div class="cmpdd"><button type="button" class="cmpddbtn" aria-expanded="false"><b>Ausführung</b><span>${esc(it.name.replace(/^Ref\.\s*/, ""))}</span></button><div class="cmpddp" role="group" aria-label="Ausführung wählen">${ch.map(c => `<button type="button" class="cmpvar" data-slot="${i}" data-k="${c.k == null ? "" : c.k}" aria-pressed="${c.k === it.k}">${esc(c.n.replace(/^Ref\.\s*/, ""))}</button>`).join("")}</div></div>` : ""}</div>`; };
   const E = I.map(x => x.e), P = I.map(x => cmpPrices(x.e, x.k != null ? x.name : ""));
-  const keys = []; E.forEach(e => (e.f || []).forEach(([k]) => { if (k !== "Zifferblatt" && !keys.includes(k)) keys.push(k); }));
+  // Datenblatt (datenblatt.json): Felder, die mindestens eine der gewählten Uhren hat; Faktenzeilen, die das Datenblatt bei allen Uhren abdeckt, entfallen
+  const SP = E.map(e => SPECS[e.id] || {});
+  const specRows = SPEC_FIELDS.filter(([k]) => SP.some(s => s[k])).map(([k, l]) => row(l, SP.map(s => s[k] ? esc(s[k]) : "–")));
+  const covered = k => (SPEC_COVER[k] || []).length && SP.every(s => (SPEC_COVER[k] || []).some(x => s[x]));
+  const keys = []; E.forEach(e => (e.f || []).forEach(([k]) => { if (k !== "Zifferblatt" && !covered(k) && !keys.includes(k)) keys.push(k); }));
   const fact = (e, k) => { const x = (e.f || []).find(f => f[0] === k); return x ? esc(x[1]) : "–"; };
   const row = (label, cells, cls = "") => `<tr class="${cls}"><th scope="row">${esc(label)}</th>${cells.map(c => `<td>${c}</td>`).join("")}${"<td></td>".repeat(3 - cells.length)}</tr>`;
   const pv = (p, k) => p[k] ? `<b>${p[k][0]}</b><small>${esc(p[k][1])}</small>` : p.note ? `<small>${esc(p.note)}</small>` : "–";
@@ -903,6 +912,8 @@ function viewCompare(h) {
     row("Listenpreis", P.map(p => pv(p, "liste")), "cmpprice"),
     row("Gebrauchtpreis", P.map(p => pv(p, "used")), "cmpprice"),
     row("Zifferblatt", I.map(dialCell)),
+    SP.some(s => s.zifferblatt_optionen) ? row("Lieferbare Zifferblätter", SP.map(s => s.zifferblatt_optionen ? esc(s.zifferblatt_optionen) : "–")) : "",
+    ...(specRows.length ? [`<tr class="cmpsec"><th colspan="4">Datenblatt der aktuellen Ausführung</th></tr>`, ...specRows] : []),
     ...keys.map(k => row(k, E.map(e => fact(e, k)))),
     row("Erkennungsmerkmale", E.map(e => (e.m || []).length ? `<ul>${e.m.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "–")),
     row("Kurz gesagt", E.map(e => esc(e.s || "")))].join("");
@@ -1018,7 +1029,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112563"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112564"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2930,6 +2941,8 @@ drawPcal(); setInterval(drawPcal, 10 * 60 * 1000);
 const load = f => fetch(`${f}?v=${IMGV}`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
 // Eingebettete Daten (Offline-Version) haben Vorrang, sonst werden die JSON-Dateien geladen
 const DATA = window.WIKITICKS_DATA;
+// Datenblätter nur für den Uhrenvergleich (datenblatt.json), werden im Hintergrund nachgeladen
+let SPECS = {}; (DATA && DATA.datenblatt ? Promise.resolve(DATA.datenblatt) : load("datenblatt.json")).then(d => { SPECS = d || {}; if (E.length && (location.hash || "").startsWith("#vergleich")) route(); });
 (DATA ? Promise.resolve([DATA.lexikon, DATA.modelle]) : Promise.all([load("lexikon.json"), load("modelle.json")])).then(([lex, mod]) => {
   if (!lex && !mod) { $("#view").innerHTML = '<p class="empty">Die Inhalte konnten nicht geladen werden. Bitte lade die Seite neu.</p>'; return; }
   E = [...(lex || []), ...((mod && mod.modelle) || []).map(m => ({ ...m, c: "Uhrenmodelle" }))];
