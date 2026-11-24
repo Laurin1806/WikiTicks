@@ -8511,10 +8511,10 @@
      }
     },
     {
-     "n": "Navitimer im Stil der Ref. 806",
-     "y": "",
+     "n": "Navitimer B01 Chronograph, schwarzes Zifferblatt",
+     "y": "seit 2022",
      "v": {
-      "img": "assets/watches/breitling-navitimer-806.jpg"
+      "img": "assets/watches/breitling-navitimer-b01-black.jpg"
      }
     }
    ],
@@ -9266,10 +9266,10 @@
    "w": "Ein aufgeräumtes Zifferblatt mit der Tachymeterskala am Rand hält die Carrera auch bei Rennen gut lesbar.",
    "var": [
     {
-     "n": "Carrera mit weißem Zifferblatt",
+     "n": "Carrera Chronograph mit weißem Zifferblatt und Keramiklünette",
      "y": "",
      "v": {
-      "img": "assets/watches/tag-heuer-carrera-2447.jpg"
+      "img": "assets/watches/tag-heuer-carrera-chronograph-white.jpg"
      }
     }
    ],
@@ -18161,7 +18161,7 @@
     "Die Santos-Dumont ist die schlanke, elegante Schwester der sportlicheren Santos. Statt Schrauben auf der Lünette hat sie ein glattes, flaches Gehäuse und wird an einem Lederband getragen. Die große Ausführung hat ein Handaufzugswerk.",
     "Während die Santos de Cartier zur Sportuhr wurde, blieb die Santos-Dumont das dressige Gegenstück: ein flaches, rechteckig-quadratisches Gehäuse, römische Ziffern, Schwertzeiger und ein Lederband. 2019 brachte Cartier die Linie in zwei Größen und mit dem Handaufzugskaliber 430 MC neu auf, das auf einem Piaget-Werk basiert."
    ],
-   "cur": "Santos-Dumont Large · Handaufzug",
+   "cur": "Santos-Dumont Large in Roségold · Handaufzug",
    "f": [
     [
      "Gehäuse",
@@ -18227,7 +18227,8 @@
     "strapColor": "#2a201a",
     "thin": true,
     "brandDy": -3,
-    "img": "assets/watches/cartier-santos-dumont-steel.jpg"
+    "img": "assets/watches/cartier-santos-dumont-rose-gold.jpg",
+    "case": "rose"
    },
    "m": [
     "Quadratisches, flaches Gehäuse",
@@ -29079,7 +29080,7 @@
   "breguet-type-xx.jpg": 374,
   "breitling-avenger.jpg": 374,
   "breitling-chronomat.jpg": 873,
-  "breitling-navitimer-806.jpg": 384,
+  "breitling-navitimer-b01-black.jpg": 384,
   "breitling-navitimer-green.jpg": 502,
   "breitling-navitimer.jpg": 838,
   "breitling-premier-b01.jpg": 491,
@@ -29097,7 +29098,7 @@
   "cartier-roadster-steel.jpg": 337,
   "cartier-santos-100.jpg": 502,
   "cartier-santos-blue.jpg": 502,
-  "cartier-santos-dumont-steel.jpg": 293,
+  "cartier-santos-dumont-rose-gold.jpg": 293,
   "cartier-santos-skeleton-rose-gold.jpg": 305,
   "cartier-santos-skeleton-steel.jpg": 366,
   "cartier-santos.jpg": 746,
@@ -29283,7 +29284,7 @@
   "swatch-skin.jpg": 374,
   "tag-heuer-aquaracer.jpg": 374,
   "tag-heuer-autavia.jpg": 374,
-  "tag-heuer-carrera-2447.jpg": 703,
+  "tag-heuer-carrera-chronograph-white.jpg": 703,
   "tag-heuer-carrera.jpg": 837,
   "tag-heuer-formula-1.jpg": 374,
   "tag-heuer-link.jpg": 374,
