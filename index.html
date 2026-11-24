@@ -1695,6 +1695,8 @@ const SOFTSPOT = .8, SOFTSPOT_ID = {}; // Licht von oben bei Uhren mit Leuchtmas
 // Rechenauflösung der Nachtbilder (Höhe in Pixeln): hoch genug für scharfe Darstellung auf Retina-Displays und in der Vergrößerung
 const NIGHT_PX = 1300, NIGHT_AN = 640; // dunkles Bild in hoher Auflösung, Erkennung (Hintergrund, Schatten, Leuchtmasse) in kleiner Auflösung
 // Tonkurve auf die Helligkeit statt auf jeden Farbkanal: Farbton und Sättigung bleiben erhalten (Gold wird nicht orange)
+// Gold nachts leicht entsättigen (wirkt im Dunkeln sonst gelber als auf dem Tagfoto)
+const goldDesat = (o, j, r, g, b) => { if (!(r > g && g > b && r - b > 45)) return; const t = Math.min(1, (r - b - 45) / 70) * .3, y = .299 * o[j] + .587 * o[j + 1] + .114 * o[j + 2]; o[j] += (y - o[j]) * t; o[j + 1] += (y - o[j + 1]) * t; o[j + 2] += (y - o[j + 2]) * t; };
 const tcK = (r, g, b) => { const y = .299 * r + .587 * g + .114 * b; let k = y > .5 ? TC[1][Math.min(255, Math.round(y))] / y : NTOP * .5;
   // Gold (warm, gesättigt): etwas heller, damit es nachts nicht bräunlich wirkt
   if (r > g && g > b && r - b > 45 && y > 60) k *= 1 + Math.min(1, (r - b - 45) / 80) * .15; return k; };
@@ -1730,11 +1732,12 @@ function nightPrep(img) {
         while (qh < qt) { const i = q2[qh++], px = i % w; sy += (i / w) | 0; for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && shd[n] && !lab[n]) { lab[n] = nl; q2[qt++] = n; } }
         if (sy / qt < lim) for (let t = 0; t < qt; t++) shd[q2[t]] = 0; } }
     // Freisteller: abgedunkelt, Kanten leicht weich
+    const gD = !!wrap.dataset.lmk; // Gold-Entsättigung nur bei Uhren mit Leuchtmasse (dort stärker abgedunkelt)
     let cut = document.createElement("canvas"); cut.width = w; cut.height = h; const cx = cut.getContext("2d"), od = cx.createImageData(w, h), o = od.data;
     for (let i = 0; i < N; i++) {
       const px = i % w; let edge = false;
       if (!bg[i]) edge = (px > 0 && bg[i - 1]) || (px < w - 1 && bg[i + 1]) || (i >= w && bg[i - w]) || (i < N - w && bg[i + w]);
-      { const k = tcK(d[i * 4], d[i * 4 + 1], d[i * 4 + 2]); o[i * 4] = d[i * 4] * k; o[i * 4 + 1] = d[i * 4 + 1] * k; o[i * 4 + 2] = d[i * 4 + 2] * k; } o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
+      { const k = tcK(d[i * 4], d[i * 4 + 1], d[i * 4 + 2]); o[i * 4] = d[i * 4] * k; o[i * 4 + 1] = d[i * 4 + 1] * k; o[i * 4 + 2] = d[i * 4 + 2] * k; if (gD) goldDesat(o, i * 4, d[i * 4], d[i * 4 + 1], d[i * 4 + 2]); } o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
       if (shd[i]) { o[i * 4] = o[i * 4 + 1] = o[i * 4 + 2] = 0; o[i * 4 + 3] = Math.min(255, (255 - L[i]) * 1.3); } // Schatten im Dunkeln: dunkel statt hell
     }
     // Uhren ohne Leuchtmasse: im Dunkeln von oben angeleuchtet (Lichtkegel von oben, nach unten auslaufend)
@@ -1948,7 +1951,7 @@ function nightPrep(img) {
           if (shd[li]) { D[j] = D[j + 1] = D[j + 2] = 0; D[j + 3] = Math.min(255, (255 - (r + g + b) / 3) * 1.3); continue; }
           let f = mulA[li];
           if (dimBright && !keep[li]) { const Lh = (r + g + b) / 3; if (Lh > 120 && (anyS || Math.max(r, g, b) - Math.min(r, g, b) < 70)) { const t = Math.min(1, (Lh - 120) / 90); f *= 1 - .5 * t * t * (3 - 2 * t); } }
-          const k = tcK(r, g, b) * f; D[j] = Math.min(255, r * k * tR); D[j + 1] = Math.min(255, g * k); D[j + 2] = Math.min(255, b * k * tB);
+          const k = tcK(r, g, b) * f; D[j] = Math.min(255, r * k * tR); D[j + 1] = Math.min(255, g * k); D[j + 2] = Math.min(255, b * k * tB); if (gD) goldDesat(D, j, r, g, b);
           D[j + 3] = (X > 0 && hb[i - 1]) || (X < W - 1 && hb[i + 1]) || (Y > 0 && hb[i - W]) || (Y < H - 1 && hb[i + W]) ? 150 : 255; } }
       hx.putImageData(hd, 0, 0); cut = hc;
     }
