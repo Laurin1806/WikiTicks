@@ -47,7 +47,10 @@ def gen(img, spec):
                 yy,xx=y+dy,x+dx
                 if 0<=yy<H2 and 0<=xx<W2 and not sub[yy,xx] and not out[yy,xx]: out[yy,xx]=True;q.append((yy,xx))
         fill=~out
-        if spec.get('maxA') and fill.sum()>spec['maxA']*w*w: continue   # sehr große helle Fläche (Hilfszifferblatt, Zifferblattausschnitt): keine Leuchtmasse
+        if spec.get('maxA') and fill.sum()>spec['maxA']*w*w: continue
+        if spec.get('noarc') and 'hub' in spec:   # Bogen am Zifferblattrand (Rehaut, Lünettenkante): lang, dünn, tangential
+            dd=np.hypot(c[:,1]-spec['hub'][0],c[:,0]-spec['hub'][1])
+            if dd.min()>r*.78 and (dd.max()-dd.min())<r*.06 and len(c)>r*.6: continue   # sehr große helle Fläche (Hilfszifferblatt, Zifferblattausschnitt): keine Leuchtmasse
         if spec.get('nowin'):   # Datums-/Tagesfenster: fast rechteckig gefüllt, mit dunklen Ziffern darin
             bb=(y1-y0+1)*(x1-x0+1);fr=fill.sum()/bb;holes=(fill.sum()-len(c))/max(1,fill.sum())
             if fr>.84 and holes>.1 and .5<(x1-x0+1)/(y1-y0+1)<2.6: continue
@@ -251,7 +254,7 @@ def gen(img, spec):
                     if er.sum()>=len(c)*.4 or e<=1: break
                     e-=1
                 ys2,xs2=np.nonzero(er);new[ys2+y0-1,xs2+x0-1]=True;continue
-            ca=(pa.max()+pa.min())/2;cb=(pb.max()+pb.min())/2;l2=L_*(1-ins)/2;w2=W_*(1-2*ins)/2
+            ca=(pa.max()+pa.min())/2;cb=(pb.max()+pb.min())/2;l2=L_*(1-spec.get('idxlen',ins))/2;w2=W_*(1-2*ins)/2
             pts=[(cx_+(ca+sa*l2)*v[0]+(cb+sb*w2)*u[0],cy_+(ca+sa*l2)*v[1]+(cb+sb*w2)*u[1]) for sa,sb in((-1,-1),(1,-1),(1,1),(-1,1))]
             d2.polygon([(x*4,y*4) for x,y in pts],fill=255)
         keep=new|(np.array(im2.resize((w,h),Image.LANCZOS))>110)
