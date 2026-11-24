@@ -304,7 +304,7 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 .moon .mp-hill { fill: var(--surface); stroke: var(--line); stroke-width: .8; }
 .moon .mp-base { stroke: var(--line); stroke-width: .8; }
 .moon .mp-rim { fill: none; stroke: color-mix(in srgb, var(--fg) 30%, transparent); stroke-width: 1; }
-.nightbtn[aria-pressed="true"] { --mp-sky1: #0f2a22; --mp-sky2: #06120e; --mp-moon1: #f0fff6; --mp-moon2: #9fe8bf; }
+.nightbtn[aria-pressed="true"] { --mp-glow: #3f9f74; --mp-sky1: #0f2a22; --mp-sky2: #06120e; --mp-moon1: #f0fff6; --mp-moon2: #9fe8bf; }
 .nightbtn[aria-pressed="true"] .mp-moons { filter: drop-shadow(0 0 2.5px rgba(120,255,175,.8)); }
 .nightbtn[aria-pressed="true"] .mp-hill { fill: #0c1a14; stroke: #2c6b4a; }
 .nightbtn[aria-pressed="true"] { background: #0c1a14; color: #9dffc4; border-color: #2c6b4a; box-shadow: 0 0 14px rgba(80,255,150,.25); }
@@ -1987,7 +1987,7 @@ function moonSVG(p, glow = false) {
   return `<defs><clipPath id="${id}c"><path d="M${cx - 24} ${by}A24 24 0 0 1 ${cx + 24} ${by}Z"/></clipPath>
     <linearGradient id="${id}s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--mp-sky1)"/><stop offset="1" stop-color="var(--mp-sky2)"/></linearGradient>
     <radialGradient id="${id}m" cx=".38" cy=".35" r=".75"><stop offset="0" stop-color="var(--mp-moon1)"/><stop offset="1" stop-color="var(--mp-moon2)"/></radialGradient>${glow ? `<filter id="${id}g" filterUnits="userSpaceOnUse" x="-10" y="-10" width="80" height="50"><feGaussianBlur in="SourceGraphic" stdDeviation=".6" result="a"/><feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="a"/><feMergeNode in="SourceGraphic"/></feMerge></filter>` : ""}</defs>
-    <g clip-path="url(#${id}c)"><rect x="0" y="0" width="60" height="${by}" fill="url(#${id}s)"/><g${glow ? ` filter="url(#${id}g)"` : ""}>${stars}</g><g class="mp-moons"${glow ? ` filter="url(#${id}g)"` : ""}>${moon(ang)}${moon(ang + 180)}${moon(ang - 180)}</g></g>
+    <g clip-path="url(#${id}c)"><rect x="0" y="0" width="60" height="${by}" fill="url(#${id}s)"/><rect x="0" y="0" width="60" height="${by}" fill="var(--mp-glow, #6f9fe6)" opacity="${(.42 * (1 - Math.cos(2 * Math.PI * p)) / 2).toFixed(3)}"/><g${glow ? ` filter="url(#${id}g)"` : ""}>${stars}</g><g class="mp-moons"${glow ? ` filter="url(#${id}g)"` : ""}>${moon(ang)}${moon(ang + 180)}${moon(ang - 180)}</g></g>
     <path class="mp-hill" d="M${cx - 24} ${by}A12 12 0 0 1 ${cx} ${by}A12 12 0 0 1 ${cx + 24} ${by}Z"/><path class="mp-base" d="M${cx - 24} ${by}H${cx + 24}"/>
     <path class="mp-rim" d="M${cx - 24} ${by}A24 24 0 0 1 ${cx + 24} ${by}Z"/>`;
 }
