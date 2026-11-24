@@ -1062,7 +1062,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112575"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112577"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2302,9 +2302,9 @@ function viewEntry(e) {
     : factList(e.f);
   const refs = e.refs ? `<div class="label">Alle Referenzen</div>
     <div class="refs-wrap"><table class="refs"><thead><tr><th>Ref.</th><th>Bauzeit</th><th>Größe</th><th>Kaliber</th><th>Merkmale</th></tr></thead>
-    <tbody>${e.refs.map(x => { const now = /^seit/.test(x[1]), ds = (SPECS._refs || {})[e.id + "|" + x[0]];
+    <tbody>${(() => { const seen = {}; return e.refs.map(x => { const now = /^seit/.test(x[1]), n = seen[x[0]] = (seen[x[0]] || 0) + 1, ds = (SPECS._refs || {})[e.id + "|" + x[0] + (n > 1 ? "#" + n : "")];
       return `<tr class="${now ? "now" : ""}${ds ? " hasds" : ""}"><td class="m w">${esc(x[0]).replace(/ \/ /g, " /<wbr> ")}${now ? ' <span class="chip">aktuell</span>' : ""}${ds ? `<button type="button" class="dsbtn" aria-expanded="false">Datenblatt</button>` : ""}</td><td class="m">${esc(x[1])}</td><td class="m">${esc(x[2])}</td><td class="m w">${esc(x[3]).replace(/ \/ /g, " /<wbr> ")}</td><td class="n">${esc(x[4])}</td></tr>`
-        + (ds ? `<tr class="dsrow" hidden><td colspan="5"><div class="dspop"><dl>${SPEC_FIELDS.filter(([k]) => ds[k]).map(([k, l]) => `<dt>${esc(l)}</dt><dd>${esc(ds[k])}</dd>`).join("")}${ds.zifferblatt_optionen ? `<dt>Zifferblätter</dt><dd>${esc(ds.zifferblatt_optionen)}</dd>` : ""}</dl></div></td></tr>` : ""); }).join("")}</tbody></table></div>` : "";
+        + (ds ? `<tr class="dsrow" hidden><td colspan="5"><div class="dspop"><dl>${SPEC_FIELDS.filter(([k]) => ds[k]).map(([k, l]) => `<dt>${esc(l)}</dt><dd>${esc(ds[k])}</dd>`).join("")}${ds.zifferblatt_optionen ? `<dt>Zifferblätter</dt><dd>${esc(ds.zifferblatt_optionen)}</dd>` : ""}</dl></div></td></tr>` : ""); }).join(""); })()}</tbody></table></div>` : "";
   const meta = e.brand ? `<p class="meta"><span>Hersteller <a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a></span><span>Erstvorstellung <b>${esc(e.since || "–")}</b></span>${e.designer ? `<span>Design <b>${esc(e.designer)}</b></span>` : ""}</p>` : "";
   if (e.brand) used.add("marke-" + slug(e.brand));
   const related = e.r.filter(id => byId[id] && id !== e.id);
