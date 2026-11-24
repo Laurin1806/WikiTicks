@@ -149,7 +149,7 @@ article .inlinefig .watchfig { margin: 0; padding: 14px 10px 12px; }
 article .inlinefig .watchfig .watch { height: 220px; }
 article .inlinefig figcaption b { display: block; }
 /* Unterüberschriften innerhalb eines Abschnitts (optional, Feld bh je Absatz) */
-article h4.art-sh { font-family: var(--font-logo); font-weight: 600; font-size: 1.02rem; letter-spacing: -.005em; line-height: 1.3; margin: 24px 0 6px; color: var(--fg); }
+article h4.art-sh { font-family: inherit; font-weight: 600; font-size: 1.06rem; letter-spacing: -.005em; line-height: 1.3; margin: 24px 0 6px; color: var(--fg); }
 article h3.art-h + h4.art-sh { margin-top: 10px; }
 @media (max-width: 760px) { article .inlinefig { float: none; width: auto; margin: 10px 0 16px; } }
 @media (max-width: 1100px) { article .topfig { width: 260px; margin-left: 24px; } article .topfig.watchfig .watch { height: 230px; } }
@@ -668,7 +668,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112493"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112494"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
