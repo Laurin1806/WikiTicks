@@ -24050,7 +24050,7 @@
     "Beide Antriebe arbeiten über ein gemeinsames Hemmungssystem, ohne sich zu stören. Das erste Modell, die Duomètre à Chronographe, erschien 2007 mit dem Kaliber 380; später kamen Mondphase, Reisezeit, Tourbillon und Sphärotourbillon hinzu, darunter die Duomètre Unique Travel Time.",
     "Preislich liegt die Duomètre über den Standardmodellen von Jaeger-LeCoultre und ist gebraucht selten, weil viele Stücke in Sammlungen bleiben."
    ],
-   "cur": "Duomètre mit Tourbillon",
+   "cur": "Duomètre Quantième Lunaire in Roségold",
    "f": [
     [
      "Gehäuse",
@@ -24099,7 +24099,8 @@
     "markers": "roman",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#3a2618"
+    "strapColor": "#3a2618",
+    "img": "assets/watches/jaeger-lecoultre-duometre-quantieme-lunaire.jpg"
    },
    "m": [
     "Zwei Federhäuser",
@@ -24125,7 +24126,12 @@
     "2007: Dual-Wing mit zwei Federhäusern",
     "Kaliber 380 und Unique Travel Time",
     "Selten auf dem Gebrauchtmarkt"
-   ]
+   ],
+   "bd": [
+    "Die Abbildung zeigt eine Jaeger-LeCoultre Duomètre Quantième Lunaire mit Gehäuse aus Roségold, silberfarbenem Zifferblatt und braunem Lederband.",
+    "Typisch sind die zwei Hilfszifferblätter: links Stunden und Minuten mit arabischen Ziffern, rechts das Datum mit Zeiger und die Mondphase mit Himmelsscheibe. Dazu kommen kleine Anzeigen für die beiden Federhäuser und der Schriftzug »DUOMÈTRE« über 6 Uhr. Das Duomètre-Prinzip trennt Zeitmessung und Zusatzfunktion in zwei Energiekreise."
+   ],
+   "dial": "Silber"
   },
   {
    "id": "geophysic",
@@ -24614,7 +24620,7 @@
     "Die Due war Panerais Antwort auf die Kritik an der Größe seiner Uhren: Möglich machte das flache Gehäuse ein Automatikwerk mit geringer Bauhöhe; gebaut wird sie in Stahl, Titan und Gold. Das Design wirkt etwas feiner als bei der klassischen Luminor.",
     "Für alle, die den Panerai-Look wollen, aber nicht die Maße der großen Modelle, ist sie eine Alternative; auf dem Zweitmarkt ist sie günstig."
    ],
-   "cur": "Luminor Due (aktuelle Modelle)",
+   "cur": "Luminor Due mit blauem Zifferblatt und kleiner Sekunde",
    "f": [
     [
      "Gehäuse",
@@ -24658,7 +24664,8 @@
     "case": "steel",
     "guards": true,
     "crown": "big",
-    "shape": "cushion"
+    "shape": "cushion",
+    "img": "assets/watches/panerai-luminor-due-blue.jpg"
    },
    "m": [
     "Flaches Gehäuse",
@@ -24696,7 +24703,12 @@
     "2013: Die flachere Luminor",
     "Antwort auf die Größenkritik",
     "Panerai-Look in kleineren Maßen"
-   ]
+   ],
+   "bd": [
+    "Die Abbildung zeigt eine Panerai Luminor Due mit dem flachen, kissenförmigen Edelstahlgehäuse, blauem Zifferblatt mit Sonnenschliff und blauem Lederband.",
+    "Typisch ist der Kronenschutzbügel mit Hebel, auf dem »REG. T.M.« steht. Zu erkennen sind die großen Leuchtziffern 12, 3 und 6, Leuchtstriche als Indizes, die kleine Sekunde bei 9 Uhr und die Schriftzüge »LUMINOR DUE« und »PANERAI«. Ziffern, Indizes und Zeiger sind in hellem Beige gehalten."
+   ],
+   "dial": "Blau, Sonnenschliff"
   },
   {
    "id": "mare-nostrum",
@@ -28160,7 +28172,7 @@
     "Le Locle liegt im Neuenburger Jura und gehört gemeinsam mit La Chaux-de-Fonds seit 2009 zum UNESCO-Welterbe der Uhrmacherstädte; hier gründete Charles-Félicien Tissot 1853 mit seinem Sohn das Unternehmen. Das Powermatic 80 ist für diese Preisklasse ungewöhnlich ausdauernd.",
     "Als erste mechanische Uhr ist die Le Locle eine gute Wahl: unauffällig, gut verarbeitet und preislich niedrig."
    ],
-   "cur": "Le Locle Powermatic 80 · aktuelle Kollektion",
+   "cur": "Le Locle Powermatic 80 (Ref. T006.407.11.033.00) · aktuelle Kollektion",
    "f": [
     [
      "Gehäuse",
@@ -28202,7 +28214,8 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "6"
+    "date": "6",
+    "img": "assets/watches/tissot-le-locle-powermatic-80.jpg"
    },
    "m": [
     "Römische Ziffern",
@@ -28246,7 +28259,14 @@
     "Dresswatch mit Powermatic 80",
     "Uhrmacherstadt und UNESCO-Welterbe",
     "Als erste mechanische Uhr"
-   ]
+   ],
+   "bd": [
+    "Die Abbildung zeigt eine Tissot Le Locle Powermatic 80 aus Edelstahl mit silberweißem Zifferblatt und Gliederband. Abgebildet ist die Referenz T006.407.11.033.00.",
+    "Zu erkennen sind das guillochierte Zifferblatt mit schwarzen römischen Ziffern, die gebläuten Zeiger, das Datumsfenster bei 3 Uhr und der Schriftzug »Le Locle Powermatic 80« über 6 Uhr. Unter der 12 stehen »TISSOT« und »1853«. Das polierte Gehäuse hat eine schmale Lünette und eine Krone mit Tissot-Logo."
+   ],
+   "dial": "Silber, guillochiert",
+   "iref": "T006.407.11.033.00",
+   "irefs": "hoch"
   },
   {
    "id": "t-touch",
@@ -29695,7 +29715,7 @@
     "Die X-8 Chronometer erschien 1970 als erste Armbanduhr mit Gehäuse aus Titan. Das Metall war damals schwer zu bearbeiten, Citizen musste eigene Verfahren entwickeln. Die Uhr hatte ein Automatikwerk und war als Chronometer zertifiziert; erhaltene Exemplare sind gesuchte Sammlerstücke.",
     "Titan ist leicht und korrosionsfest. Später entwickelte Citizen das Härteverfahren Duratect, das Titan kratzfest macht; das Haus bleibt bis heute für Titan-Uhren bekannt. Den Namen X8 greift Citizen auch in der Oberklasse-Linie »The Citizen« wieder auf."
    ],
-   "cur": "Moderne Linie »The Citizen«",
+   "cur": "Attesa Eco-Drive mit »X8«-Schriftzug, Titan",
    "f": [
     [
      "Linie",
@@ -29736,7 +29756,8 @@
     "hands": "baton",
     "strap": "link3",
     "case": "titanium",
-    "date": "3"
+    "date": "3",
+    "img": "assets/watches/citizen-attesa-x8-eco-drive.jpg"
    },
    "m": [
     "»X8«-Schriftzug über 6 Uhr",
@@ -29755,9 +29776,14 @@
    ],
    "w": "Die erste Titanuhr der Welt: Citizens Materialpionier von 1970.",
    "lume": {
-    "z": "",
+    "z": "IH",
     "c": "g"
-   }
+   },
+   "bd": [
+    "Die Abbildung zeigt eine Citizen Attesa Eco-Drive mit dem Schriftzug »X8« auf dem Zifferblatt, mit Gehäuse und Gliederband aus Titan und schwarzem, strukturiertem Zifferblatt.",
+    "Zu erkennen sind die facettierten Stabindizes, goldfarbene Zeiger mit Leuchtmasse, ein Datumsfenster bei 3 Uhr und die Schriftzüge »CITIZEN«, »ATTESA« und »Eco-Drive«. Eco-Drive steht für den Solarantrieb, das »X8« erinnert an die X-8 Chronometer von 1970."
+   ],
+   "dial": "Schwarz, strukturiert"
   },
   {
    "id": "doxa-sharkhunter",
@@ -31238,6 +31264,7 @@
   "casio-g-shock-ga-2100.jpg": "g",
   "chopard-alpine-eagle.jpg": "g",
   "chopard-mille-miglia.jpg": "g",
+  "citizen-attesa-x8-eco-drive.jpg": "g",
   "citizen-promaster-diver.jpg": "g",
   "citizen-satellite-wave.jpg": "g",
   "doxa-sub-300t-orange.jpg": "g",
@@ -31265,6 +31292,7 @@
   "iwc-portugieser-hand-wound.jpg": "n",
   "iwc-portugieser-perpetual-calendar.jpg": "n",
   "iwc-portugieser.jpg": "n",
+  "jaeger-lecoultre-duometre-quantieme-lunaire.jpg": "n",
   "jaeger-lecoultre-geophysic.jpg": "g",
   "jaeger-lecoultre-polaris-date.jpg": "g",
   "king-seiko-ks.jpg": "n",
@@ -31290,6 +31318,7 @@
   "oris-big-crown-pointer-date.jpg": "v",
   "oris-divers-sixty-five.jpg": "g",
   "oris-propilot.jpg": "g",
+  "panerai-luminor-due-blue.jpg": "g",
   "panerai-luminor-due.jpg": "g",
   "panerai-luminor-marina-2.jpg": "g",
   "panerai-luminor-marina.jpg": "g",
@@ -31368,6 +31397,7 @@
   "tag-heuer-link.jpg": "g",
   "tag-heuer-monaco.jpg": "g",
   "tissot-gentleman.jpg": "g",
+  "tissot-le-locle-powermatic-80.jpg": "n",
   "tissot-prx-green.jpg": "g",
   "tissot-prx.jpg": "g",
   "tissot-seastar.jpg": "g",
@@ -31404,7 +31434,6 @@
   "audemars-piguet-code-11-59-15210.jpg": 1050,
   "audemars-piguet-millenary-open-balance.jpg": 1152,
   "audemars-piguet-royal-oak-15510st-blue.jpg": 1036,
-  "audemars-piguet-royal-oak-5402-blue.jpg": 1024,
   "audemars-piguet-royal-oak-chronograph-26240st-blue.jpg": 1083,
   "audemars-piguet-royal-oak-concept.jpg": 1032,
   "audemars-piguet-royal-oak-offshore-26420-chronograph.jpg": 1072,
@@ -31455,9 +31484,9 @@
   "chopard-alpine-eagle.jpg": 359,
   "chopard-happy-diamonds.jpg": 374,
   "chopard-mille-miglia.jpg": 374,
+  "citizen-attesa-x8-eco-drive.jpg": 759,
   "citizen-promaster-diver.jpg": 756,
   "citizen-satellite-wave.jpg": 374,
-  "citizen-the-citizen-x8.jpg": 374,
   "doxa-sub-300t-orange.jpg": 756,
   "doxa-sub-300t-sharkhunter-black.jpg": 374,
   "frederique-constant-slimline.jpg": 502,
@@ -31491,9 +31520,8 @@
   "iwc-portugieser-chronograph-iw3716.jpg": 279,
   "iwc-portugieser-hand-wound.jpg": 381,
   "iwc-portugieser-perpetual-calendar.jpg": 387,
-  "iwc-portugieser-yacht-club.jpg": 374,
   "iwc-portugieser.jpg": 815,
-  "jaeger-lecoultre-duometre-chronograph.jpg": 369,
+  "jaeger-lecoultre-duometre-quantieme-lunaire.jpg": 759,
   "jaeger-lecoultre-geophysic.jpg": 374,
   "jaeger-lecoultre-master-control-calendar.jpg": 352,
   "jaeger-lecoultre-polaris-date.jpg": 247,
@@ -31503,7 +31531,6 @@
   "junghans-meister.jpg": 374,
   "king-seiko-ks.jpg": 756,
   "laco-aachen.jpg": 374,
-  "le-locle-classic.jpg": 374,
   "longines-conquest-blue.jpg": 865,
   "longines-flagship-heritage.jpg": 756,
   "longines-hydroconquest-blue.jpg": 907,
@@ -31525,7 +31552,6 @@
   "omega-seamaster-planet-ocean-215-30-44-21.jpg": 1107,
   "omega-seamaster-ploprof-1200m.jpg": 374,
   "omega-speedmaster-57-black.jpg": 351,
-  "omega-speedmaster-ck2915-broad-arrow.jpg": 1002,
   "omega-speedmaster-dark-side-of-the-moon.jpg": 500,
   "omega-speedmaster-professional-310-30-42-50-01-001.jpg": 1048,
   "omega-swatch-moonswatch.jpg": 374,
@@ -31533,12 +31559,11 @@
   "oris-big-crown-pointer-date.jpg": 374,
   "oris-divers-sixty-five.jpg": 756,
   "oris-propilot.jpg": 374,
-  "panerai-luminor-due.jpg": 374,
+  "panerai-luminor-due-blue.jpg": 759,
   "panerai-luminor-marina-2.jpg": 374,
   "panerai-luminor-marina.jpg": 249,
   "panerai-mare-nostrum.jpg": 374,
   "panerai-radiomir.jpg": 245,
-  "patek-philippe-annual-calendar-5205.jpg": 985,
   "patek-philippe-annual-calendar-5396-blue.jpg": 1038,
   "patek-philippe-aquanaut-5164a-travel-time.jpg": 1093,
   "patek-philippe-aquanaut-5167a-black.jpg": 1020,
@@ -31631,6 +31656,7 @@
   "tag-heuer-link.jpg": 374,
   "tag-heuer-monaco.jpg": 817,
   "tissot-gentleman.jpg": 374,
+  "tissot-le-locle-powermatic-80.jpg": 759,
   "tissot-prx-green.jpg": 502,
   "tissot-prx.jpg": 336,
   "tissot-seastar.jpg": 374,
