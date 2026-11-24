@@ -93,7 +93,7 @@ header { border-bottom: 1px solid var(--line); }
 /* Nachtmodus: »Ticks« im Logo leuchtet, farbige Überschriften und farbiger Text glühen leicht (Stärke über --gl, läuft synchron mit dem Farbwechsel) */
 :root { --gl: 0; }
 :root.night { --gl: 1; }
-.head h1 em { text-shadow: 0 0 1px color-mix(in srgb, var(--accent) calc(var(--gl) * 100%), var(--bg)), 0 0 6px color-mix(in srgb, var(--accent) calc(var(--gl) * 85%), var(--bg)), 0 0 16px color-mix(in srgb, var(--accent) calc(var(--gl) * 55%), var(--bg)), 0 0 32px color-mix(in srgb, var(--accent) calc(var(--gl) * 30%), var(--bg)); }
+.head h1 em { text-shadow: 0 0 1px color-mix(in srgb, var(--accent) calc(var(--gl) * 100%), var(--bg)), 0 0 5px color-mix(in srgb, var(--accent) calc(var(--gl) * 100%), var(--bg)), 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 80%), var(--bg)), 0 0 24px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), var(--bg)), 0 0 44px color-mix(in srgb, var(--accent) calc(var(--gl) * 40%), var(--bg)); } /* gleiche Farbe wie der gewählte Menüpunkt (Akzentfarbe), kräftigeres Leuchten */
 a.xl, .crumbs a, nav a.more, .daily .kicker, .fcard .kicker, .timeline .ty, .curbox .label, .rel a, .toc button, .pc-table summary { text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
 .card .cat, article .cat { text-shadow: 0 0 7px color-mix(in srgb, var(--gold) calc(var(--gl) * 45%), var(--bg)); }
 .azgroup > h3 { text-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
