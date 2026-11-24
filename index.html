@@ -243,8 +243,9 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .mpinfo { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; width: 210px; max-width: 100%; box-sizing: border-box; margin: 4px auto 8px; padding: 6px 12px; background: var(--accent-soft); border-radius: 8px; font-size: 13px; }
 .mpinfo .mpn { font-weight: 600; color: var(--fg); }
 .mpinfo .mpk { font-family: var(--font-mono); font-variant-numeric: tabular-nums; color: var(--accent); min-width: 5ch; text-align: right; }
-.mpslide { display: flex; align-items: center; gap: 10px; margin: 6px 4px 2px; font-size: 12.5px; color: var(--muted); }
-.mpslide input { flex: 1; accent-color: var(--accent); min-width: 0; }
+.mpslide { display: flex; flex-direction: column; align-items: center; gap: 6px; margin: 6px 4px 4px; font-size: 12.5px; color: var(--muted); }
+.mpslide input { width: 280px; max-width: 100%; accent-color: var(--accent); }
+figure.diagram[data-dg="mondphase"] figcaption { text-align: center; }
 .mpslide .mpnow { font: inherit; font-size: 12px; color: var(--accent); background: var(--accent-soft); border: 0; border-radius: 999px; padding: 4px 10px; cursor: pointer; }
 /* Klick auf die kleine Uhr: groß darstellen */
 .head .dial { cursor: zoom-in; }
@@ -1332,12 +1333,15 @@ const DG = (() => {
       ${lab(213, 150, "0", "middle", 213, 100)}${lab(229, 150, "1", "middle", 229, 100)}${lab(245, 150, "2", "middle", 245, 100)}
       ${lab(270, 50, "0 · eingedrückt: aufziehen")}${lab(270, 70, "1 · Datum schnell stellen")}${lab(270, 90, "2 · Zeiger stellen")}
       ${lab(115, 90, "Gehäuse (Seitenansicht)", "middle")}`),
-    mondphase: (pp) => { const mp0 = moonPhase(), p = pp ?? mp0.p, k = (1 - Math.cos(2 * Math.PI * p)) / 2, names = ["Neumond", "Zunehmende Sichel", "Erstes Viertel", "Zunehmender Mond", "Vollmond", "Abnehmender Mond", "Letztes Viertel", "Abnehmende Sichel"], mp = { p, k, name: names[Math.round(p * 8) % 8] }, wax = p < .5; return svg(460, 136, `
-      <g class="moon" transform="translate(20 6) scale(4)" style="--mp-sky1: #22427e; --mp-sky2: #0f1f45; --mp-moon1: #fff6d8; --mp-moon2: #e2b85a">${moonSVG(p, true)}</g>
-      ${lab(240, 40, "Mondscheibe mit zwei Monden", "start", 172, 56)}
-      ${lab(240, 60, "59 Zähne: eine Umdrehung in 59 Tagen", "start")}
-      ${lab(240, 100, "Fenster mit zwei Wölbungen", "start", 186, 108)}
-      ${lab(240, 120, "verdecken den Mond nach und nach", "start")}
+    mondphase: (pp) => { const mp0 = moonPhase(), p = pp ?? mp0.p, k = (1 - Math.cos(2 * Math.PI * p)) / 2, names = ["Neumond", "Zunehmende Sichel", "Erstes Viertel", "Zunehmender Mond", "Vollmond", "Abnehmender Mond", "Letztes Viertel", "Abnehmende Sichel"], mp = { p, k, name: names[Math.round(p * 8) % 8] }, wax = p < .5; return svg(540, 152, `
+      <g class="moon" transform="translate(132 6) scale(4.6)" style="--mp-sky1: #22427e; --mp-sky2: #0f1f45; --mp-moon1: #fff6d8; --mp-moon2: #e2b85a">${moonSVG(p, true)}</g>
+      ${lab(418, 34, "Mondscheibe mit", "start", 330, 46)}
+      ${lab(418, 52, "zwei Monden,", "start")}
+      ${lab(418, 70, "59 Zähne: eine Um-", "start")}
+      ${lab(418, 88, "drehung in 59 Tagen", "start")}
+      ${lab(122, 90, "Fenster mit zwei", "end", 176, 110)}
+      ${lab(122, 108, "Wölbungen verdecken", "end")}
+      ${lab(122, 126, "den Mond nach und nach", "end")}
       `); },
     wasserdichtigkeit: () => svg(430, 240, `
       <defs><linearGradient id="dgw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fb5e6"/><stop offset="1" stop-color="#0f2f5c"/></linearGradient></defs>
@@ -1370,7 +1374,7 @@ function lexFigures(e) {
   const figV = (id, i) => { const im = (fg.img || [])[i]; return im ? withVariant(mainV(byId[id]), { img: im, era: "vintage" }) : mainV(byId[id]); };
   const modelFig = ([id, cap, i]) => `<a class="watchfig ${fg.night ? "night" : ""}" href="#${id}">${drawWatch(fg.night ? withVariant(figV(id, i), NIGHT) : figV(id, i), byId[id])}<figcaption><b>${esc(byId[id].t)}</b>${esc(cap || "Beispielmodell")}</figcaption></a>`;
   let top = "", rest = ms;
-  if (fg.d && DG[fg.d]) top = `<figure class="diagram" data-dg="${fg.d}">${DG[fg.d]()}${fg.d === "mondphase" ? `<div class="mpinfo"><span class="mpn">${moonPhase().name}</span><span class="mpk">${Math.round(moonPhase().k * 100)} %</span></div><label class="mpslide"><span>Mondphase einstellen</span><input type="range" min="0" max="1000" step="1" value="${Math.round(moonPhase().p * 1000)}" aria-label="Mondphase einstellen"><button type="button" class="mpnow">Heute</button></label>` : ""}<figcaption>${esc(fg.dc || "Schemazeichnung, vereinfacht")}</figcaption></figure>`;
+  if (fg.d && DG[fg.d]) top = `<figure class="diagram" data-dg="${fg.d}">${DG[fg.d]()}${fg.d === "mondphase" ? `<div class="mpinfo"><span class="mpn">${moonPhase().name}</span><span class="mpk">${Math.round(moonPhase().k * 100)} %</span></div><div class="mpslide"><label for="mpr">Mondphase einstellen</label><input id="mpr" type="range" min="0" max="1000" step="1" value="${Math.round(moonPhase().p * 1000)}"><button type="button" class="mpnow">Heute</button></div>` : ""}<figcaption>${esc(fg.dc || "Schemazeichnung, vereinfacht")}</figcaption></figure>`;
   else if (ms.length) { top = modelFig(ms[0]); rest = ms.slice(1); }
   rest = rest.slice(0, 2);
   // fg.at: optional Position je Bild zwischen den Absätzen, z. B. "b3" (nach Absatz 3 von b) oder "g1" (nach Absatz 1 der Geschichte)
