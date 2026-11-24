@@ -854,10 +854,10 @@ function cmpItem(x) {
   if (k != null && !(vr && vr.v && vr.v.img)) return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung", v: mainV(e), dial: e.dial };
   if (vr) { const yr = +((vr.y || "").match(/\d{4}/) || [9999])[0]; return { e, k, name: vr.n, y: vr.y, v: withVariant(e.v, { ...vr.v, ...(yr < 2005 ? { era: "vintage" } : {}) }), dial: vr.dial, ref: vr.iref, refs: vr.irefs }; }
   const t = e.topv || e;
-  return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung", y: e.topv ? e.topv.y : "", v: mainV(e), dial: e.dial, ref: t.iref, refs: t.irefs };
+  return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung" + (t.iref ? ", Ref. " + t.iref : ""), y: e.topv ? e.topv.y : "", v: mainV(e), dial: e.dial, ref: t.iref, refs: t.irefs };
 }
 // Bilder, zwischen denen man wählen kann: Hauptbild und alle Varianten mit eigenem Bild
-const cmpChoices = e => [{ k: null, n: e.topv ? e.topv.n : "Aktuelle Ausführung" }, ...(e.var || []).map((v, k) => ({ k, n: v.n, img: v.v && v.v.img })).filter(x => x.img)];
+const cmpChoices = e => [{ k: null, n: e.topv ? e.topv.n : "Aktuelle Ausführung" + ((e.iref) ? ", Ref. " + e.iref : "") }, ...(e.var || []).map((v, k) => ({ k, n: v.n, img: v.v && v.v.img })).filter(x => x.img)];
 // Listen- und Gebrauchtpreis aus der Preistabelle; bei einer Variante die Zeile mit ihrer Referenz, sonst die der aktuellen Ausführung
 function cmpPrices(e, vname) {
   const pr = e.preis; if (!pr) return {};
@@ -896,7 +896,8 @@ function viewCompare(h) {
   const E = I.map(x => x.e), P = I.map(x => { const p = cmpPrices(x.e, x.k != null ? x.name + " " + (x.ref || "") : (x.ref || "")); return (x.k == null && p.note) ? cmpPrices(x.e, "") : p; });
   // Datenblatt der gezeigten Ausführung: eigenes Blatt für das Bild (SPECS._bilder), sonst das der aktuellen Ausführung
   const OWN = I.map(it => (SPECS._bilder || {})[it.e.id + "|" + (it.k == null ? "main" : it.k)]);
-  const SP = I.map((it, j) => OWN[j] || SPECS[it.e.id] || {});
+  // gewählte Variante ohne eigenes Blatt: keine Werte der aktuellen Ausführung zeigen, nur die Referenz im Bild
+  const SP = I.map((it, j) => OWN[j] ? { ref: it.ref, ...OWN[j] } : it.k != null ? (OWN[j] = { ref: it.ref || "" }) : { ...(SPECS[it.e.id] || {}), ...(it.ref ? { ref: it.ref } : {}) });
   // Datenblatt (datenblatt.json): Felder, die mindestens eine der gewählten Uhren hat; Faktenzeilen, die das Datenblatt bei allen Uhren abdeckt, entfallen
   const fact = (e, k) => { const x = (e.f || []).find(f => f[0] === k); return x ? esc(x[1]) : "–"; };
   const row = (label, cells, cls = "") => `<tr class="${cls}"><th scope="row">${esc(label)}</th>${cells.map(c => `<td>${c}</td>`).join("")}${"<td></td>".repeat(3 - cells.length)}</tr>`;
@@ -915,7 +916,6 @@ function viewCompare(h) {
   const rows = !E.length ? "" : [
     row("Marke", E.map(e => `<a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a>`)),
     row("Gezeigte Ausführung", I.map(it => esc(it.name) + (it.y ? `<small>${esc(it.y)}</small>` : ""))),
-    row("Referenz im Bild", I.map(it => it.ref ? `<b>${esc(it.ref)}</b>` : "–")),
     row("Seit", E.map(e => esc(String(e.since || "–")))),
     row("Aktuelle Ausführung", E.map(e => esc(e.cur || "–"))),
     E.some(e => e.designer) ? row("Entwurf", E.map(e => esc(e.designer || "–"))) : "",
@@ -1039,7 +1039,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112569"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112570"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
