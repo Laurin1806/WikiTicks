@@ -148,7 +148,9 @@ article .inlinefig { width: 250px; margin: 6px 0 14px 28px; float: right; clear:
 article .inlinefig .watchfig { margin: 0; padding: 14px 10px 12px; }
 article .inlinefig .watchfig .watch { height: 220px; }
 article .inlinefig figcaption b { display: block; }
-article h3.art-h { clear: both; }
+/* Unterüberschriften innerhalb eines Abschnitts (optional, Feld bh je Absatz) */
+article h4.art-sh { font-family: var(--font-display); font-weight: 400; font-size: 1.22rem; line-height: 1.25; margin: 26px 0 6px; color: var(--fg); }
+article h3.art-h + h4.art-sh { margin-top: 10px; }
 @media (max-width: 760px) { article .inlinefig { float: none; width: auto; margin: 10px 0 16px; } }
 @media (max-width: 1100px) { article .topfig { width: 260px; margin-left: 24px; } article .topfig.watchfig .watch { height: 230px; } }
 @media (max-width: 760px) {
@@ -177,11 +179,13 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .curbox .facts dt, .curbox .facts dd { border-bottom-color: color-mix(in srgb, var(--accent) 25%, transparent); }
 .curnote { font-size: 12.5px; color: var(--muted); margin: 10px 0 12px !important; }
 .refs-wrap { overflow-x: auto; margin: 4px 0 28px; }
-.refs { border-collapse: collapse; width: 100%; min-width: 600px; font-size: 13.5px; }
+.refs { border-collapse: collapse; width: 100%; min-width: 480px; font-size: 13.5px; }
 .refs th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 600; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); }
 .refs td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
-.refs td.m { font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.refs td.n { color: var(--muted); min-width: 200px; }
+.refs td.m { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.refs td.n { color: var(--muted); min-width: 150px; }
+.refs td.m.w { white-space: normal; min-width: 7ch; }
+@media (max-width: 600px) { .refs { font-size: 12.5px; min-width: 420px; } .refs th, .refs td { padding-right: 8px; } .refs td.n { min-width: 120px; } }
 .refs tr.now td { background: var(--accent-soft); }
 .refs tr.now td:first-child { padding-left: 8px; }
 .chip { display: inline-block; font-family: var(--font-body); font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--surface); background: var(--accent); padding: 1px 6px; border-radius: 4px; margin-left: 6px; vertical-align: 1px; }
@@ -519,7 +523,9 @@ function rebuild() {
 
 // Verlinkt im (bereits escapten) Text jeden Begriff einmal pro Seite
 function linkify(html, selfId, used) {
-  return html.replace(TERM_RE, (m, term) => {
+  return html.replace(TERM_RE, (m, term, _suf, off) => {
+    // nichts innerhalb von »…« verlinken (Spitznamen wie »Cookie Monster«)
+    if (html.lastIndexOf("»", off) > html.lastIndexOf("«", off)) return m;
     const target = TERMS[term];
     if (!target || target === selfId || used.has(target)) return m;
     used.add(target);
@@ -662,7 +668,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112490"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112491"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1574,7 +1580,7 @@ function viewEntry(e) {
     : factList(e.f);
   const refs = e.refs ? `<div class="label">Alle Referenzen</div>
     <div class="refs-wrap"><table class="refs"><thead><tr><th>Ref.</th><th>Bauzeit</th><th>Größe</th><th>Kaliber</th><th>Merkmale</th></tr></thead>
-    <tbody>${e.refs.map(x => { const now = /^seit/.test(x[1]); return `<tr${now ? ' class="now"' : ""}><td class="m">${esc(x[0])}${now ? ' <span class="chip">aktuell</span>' : ""}</td><td class="m">${esc(x[1])}</td><td class="m">${esc(x[2])}</td><td class="m">${esc(x[3])}</td><td class="n">${esc(x[4])}</td></tr>`; }).join("")}</tbody></table></div>` : "";
+    <tbody>${e.refs.map(x => { const now = /^seit/.test(x[1]); return `<tr${now ? ' class="now"' : ""}><td class="m w">${esc(x[0]).replace(/ \/ /g, " /<wbr> ")}${now ? ' <span class="chip">aktuell</span>' : ""}</td><td class="m">${esc(x[1])}</td><td class="m">${esc(x[2])}</td><td class="m w">${esc(x[3]).replace(/ \/ /g, " /<wbr> ")}</td><td class="n">${esc(x[4])}</td></tr>`; }).join("")}</tbody></table></div>` : "";
   const meta = e.brand ? `<p class="meta"><span>Hersteller <a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a></span><span>Erstvorstellung <b>${esc(e.since || "–")}</b></span>${e.designer ? `<span>Design <b>${esc(e.designer)}</b></span>` : ""}</p>` : "";
   if (e.brand) used.add("marke-" + slug(e.brand));
   const related = e.r.filter(id => byId[id] && id !== e.id);
@@ -1605,7 +1611,7 @@ function viewEntry(e) {
           const timeline = tl.length >= 2 ? `<ol class="timeline">${tl.map(([y, t]) => `<li><span class="ty">${y}</span><span class="tt">${linkify(esc(t), e.id, used)}</span></li>`).join("")}</ol>` : "";
           const parts = [["geschichte", "Geschichte"], ...(timeline ? [["zeitleiste", "Zeitleiste"]] : []), ...(e.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ...(e.x && e.x.length ? [["experte", "Expertenwissen"]] : []), ...((e.tipp && e.tipp.length) || e.preis ? [["sammler", "Wissenswert für Sammler und Käufer"]] : []), ...(e.refs ? [["referenzen", "Alle Referenzen"]] : []), ["technik", "Technik der aktuellen Ausführung"]];
           return `<nav class="toc" aria-label="Inhalt">${parts.map(([k, t]) => `<button type="button" data-sec="${k}">${t}</button>`).join("")}</nav>`
-            + H("geschichte", "Geschichte") + P(e.b) + varGallery
+            + H("geschichte", "Geschichte") + (e.bh ? e.b.map((p, k) => (e.bh[k] ? `<h4 class="art-sh">${esc(e.bh[k])}</h4>` : "") + P([p])).join("") : P(e.b)) + varGallery
             + (timeline ? H("zeitleiste", "Zeitleiste") + timeline : "")
             + (e.m ? H("merkmale", "Erkennungsmerkmale") + UL(e.m) : "")
             + (e.x && e.x.length ? H("experte", "Expertenwissen") + UL(e.x) : "")
