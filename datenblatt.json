@@ -4521,7 +4521,7 @@
   },
   "luminor-marina|main": {
    "ref": "PAM00111",
-   "produktion": "ca. 2002–2015",
+   "produktion": "2002–2015",
    "durchmesser": "44 mm",
    "hoehe": "14,5 mm",
    "anstoss": "24 mm",
@@ -10218,7 +10218,7 @@
   },
   "polaris|E859": {
    "ref": "E859",
-   "produktion": "1965–1970er",
+   "produktion": "1965–1971",
    "durchmesser": "42 mm",
    "gehaeuse": "Edelstahl",
    "glas": "Acrylglas",
@@ -12988,11 +12988,11 @@
   },
   "luminor-marina|Luminor Marina (PAM 111)": {
    "ref": "PAM 111",
-   "produktion": "1990er–2010er",
+   "produktion": "2002–2015",
    "durchmesser": "44 mm",
    "gehaeuse": "Edelstahl",
    "glas": "Saphir",
-   "werk": "Kaliber OP XI (Basis Unitas 6497)",
+   "werk": "OP XI",
    "werktyp": "Handaufzug",
    "frequenz": "21.600 A/h (3 Hz)",
    "gangreserve": "56 Stunden",
