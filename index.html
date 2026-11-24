@@ -94,8 +94,8 @@ header { border-bottom: 1px solid var(--line); }
 :root { --gl: 0; }
 :root.night { --gl: 1; }
 .head h1 em { text-shadow: 0 0 1px color-mix(in srgb, var(--accent) calc(var(--gl) * 100%), var(--bg)), 0 0 5px color-mix(in srgb, var(--accent) calc(var(--gl) * 100%), var(--bg)), 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 80%), var(--bg)), 0 0 24px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), var(--bg)), 0 0 44px color-mix(in srgb, var(--accent) calc(var(--gl) * 40%), var(--bg)); } /* gleiche Farbe wie der gewählte Menüpunkt (Akzentfarbe), kräftigeres Leuchten */
-a.xl, .crumbs a, nav a.more, .daily .kicker, .fcard .kicker, .timeline .ty, .curbox .label, .rel a, .toc button, .pc-table summary { text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
-.card .cat, article .cat { text-shadow: 0 0 7px color-mix(in srgb, var(--gold) calc(var(--gl) * 45%), var(--bg)); }
+a.xl, .crumbs a, nav a.more, #minipanel a.more, .daily .kicker, .fcard .kicker, .timeline .ty, .curbox .label, .rel a, .toc button, .pc-table summary, .lexbtn span, .imgnote summary, .mpinfo .mpk { text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
+.card .cat, article .cat, .mlist li small, .azgroup li small { text-shadow: 0 0 7px color-mix(in srgb, var(--gold) calc(var(--gl) * 45%), var(--bg)); }
 .azgroup > h3 { text-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
 .head p { margin: 8px 0 0; color: var(--muted); max-width: 56ch; }
 .beat { font-family: var(--font-mono); font-size: 12px; color: var(--muted); margin-top: 6px; }
@@ -266,7 +266,7 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .watchfig:has(.imgnote) { position: relative; }
 .lexlinks { display: flex; flex-wrap: wrap; gap: 8px; margin: -4px 0 14px; }
 .lexbtn { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px 5px 9px; border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line)); border-radius: 999px; font-size: 12.5px; font-weight: 600; color: var(--fg); text-decoration: none; background: color-mix(in srgb, var(--accent) 7%, var(--surface)); transition: background .2s, border-color .2s; }
-.lexbtn svg { width: 14px; height: 14px; fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linejoin: round; }
+.lexbtn svg { width: 14px; height: 14px; fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linejoin: round; filter: drop-shadow(0 0 3px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), transparent)); }
 .lexbtn span { color: var(--accent); font-weight: 700; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
 @media (hover: hover) and (pointer: fine) { .lexbtn:hover { background: color-mix(in srgb, var(--accent) 15%, var(--surface)); border-color: var(--accent); } }
 .imgnote { width: 100%; text-align: left; font-size: 13px; line-height: 1.5; color: var(--fg); border-top: 1px solid var(--line); padding-top: 8px; margin-top: 2px; position: static; }
