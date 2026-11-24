@@ -196,7 +196,16 @@ def gen(img, spec):
         im2=Image.new('L',(w*4,h*4),0);d2=_ID.Draw(im2)
         for c in comps(keep.copy()):
             cy_,cx_=c[:,0].mean(),c[:,1].mean()
-            if hub0 and math.hypot(cx_-hub0[0],cy_-hub0[1])<spec.get('R',r)*.5: new[c[:,0],c[:,1]]=True;continue
+            if hub0 and math.hypot(cx_-hub0[0],cy_-hub0[1])<spec.get('R',r)*.5:
+                he=spec.get('handerode',0)
+                if he:   # Zeiger aus dem Foto: nur die Innenfläche (Leuchtmasse) behalten, Zeigerkappe in der Mitte weglassen
+                    y0h,x0h=c.min(0);sh=np.zeros((c[:,0].max()-y0h+3,c[:,1].max()-x0h+3),np.uint8);sh[c[:,0]-y0h+1,c[:,1]-x0h+1]=255
+                    er=np.array(Image.fromarray(sh).filter(ImageFilter.MinFilter(2*he+1)))>127
+                    ys3,xs3=np.nonzero(er);ys3=ys3+y0h-1;xs3=xs3+x0h-1
+                    ok=np.hypot(xs3-hub0[0],ys3-hub0[1])>spec.get('capr',spec.get('R',r)*.09)
+                    new[ys3[ok],xs3[ok]]=True
+                else: new[c[:,0],c[:,1]]=True
+                continue
             # dünne Anhängsel (Zeigerstriche über dem Index) abtrennen: Öffnen und größtes Stück behalten
             if len(c)>40:
                 y0o,x0o=c.min(0);so=np.zeros((c[:,0].max()-y0o+5,c[:,1].max()-x0o+5),np.uint8);so[c[:,0]-y0o+2,c[:,1]-x0o+2]=255

@@ -2063,5 +2063,550 @@
     "off": 0
    }
   ]
+ },
+ "assets/watches/omega-speedmaster-professional-310-30-42-50-01-001.jpg": {
+  "c": [
+   0.4799618320610687,
+   0.5234375
+  ],
+  "r": 0.27097557251908394,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   503,
+   804
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 329.00399999999996,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 2
+ },
+ "assets/watches/omega-speedmaster-ck2915-broad-arrow.jpg": {
+  "c": [
+   0.43313373253493015,
+   0.490234375
+  ],
+  "r": 0.30798021556886224,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   434,
+   753
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 313.614,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 2
+ },
+ "assets/watches/omega-seamaster-diver-300m-210-30-42-20.jpg": {
+  "c": [
+   0.4737827715355805,
+   0.4622395833333333
+  ],
+  "r": 0.271152808988764,
+  "col": "b",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   506,
+   710
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 335.50199999999995,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 3
+ },
+ "assets/watches/omega-seamaster-planet-ocean-215-30-44-21.jpg": {
+  "c": [
+   0.4778681120144535,
+   0.4602864583333333
+  ],
+  "r": 0.27226666666666666,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   529,
+   707
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 349.18199999999996,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 3
+ },
+ "assets/watches/omega-seamaster-aqua-terra-220-10-41-21.jpg": {
+  "c": [
+   0.4686595949855352,
+   0.4596191726854892
+  ],
+  "r": 0.27043394406943105,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   486,
+   700
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 324.9,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 2
+ },
+ "assets/watches/omega-railmaster-220-10-40-20.jpg": {
+  "c": [
+   0.4670599803343166,
+   0.4609323703217334
+  ],
+  "r": 0.27052743362831855,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   475,
+   702
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 318.74399999999997,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 2
+ },
+ "assets/watches/tudor-black-bay.jpg": {
+  "c": [
+   0.45989304812834225,
+   0.448207171314741
+  ],
+  "r": 0.26441711229946524,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   172,
+   225
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 114.57,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/tudor-black-bay-blue.jpg": {
+  "c": [
+   0.5956175298804781,
+   0.4701195219123506
+  ],
+  "r": 0.21934183266932272,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   299,
+   236
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 127.56599999999999,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/tudor-pelagos.jpg": {
+  "c": [
+   0.4268440145102781,
+   0.4453125
+  ],
+  "r": 0.27164111245465533,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   353,
+   513
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 260.26199999999994,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 2
+ },
+ "assets/watches/tudor-pelagos-blue.jpg": {
+  "c": [
+   0.5274151436031331,
+   0.46441947565543074
+  ],
+  "r": 0.2713065274151436,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   202,
+   248
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 120.384,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/omega-seamaster-300-234-30-41-21.jpg": {
+  "c": [
+   0.47104247104247104,
+   0.4556795797767564
+  ],
+  "r": 0.2704100386100386,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   488,
+   694
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 324.558,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 2
+ },
+ "assets/watches/tudor-black-bay-58.jpg": {
+  "c": [
+   0.4681647940074906,
+   0.4600694444444444
+  ],
+  "r": 0.2705078651685393,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   375,
+   530
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 251.028,
+  "inset": 0.27,
+  "idxinset": 0.28,
+  "sec": false,
+  "handerode": 2
+ },
+ "assets/watches/tudor-ranger.jpg": {
+  "c": [
+   0.4625668449197861,
+   0.49203187250996017
+  ],
+  "r": 0.31076684491978607,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   173,
+   247
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 127.56599999999999,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/tudor-black-bay-gmt.jpg": {
+  "c": [
+   0.4090909090909091,
+   0.49800796812749004
+  ],
+  "r": 0.2873069518716577,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   153,
+   250
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 124.48799999999999,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/tudor-black-bay-54-m79000n.jpg": {
+  "c": [
+   0.4668141592920354,
+   0.45625841184387617
+  ],
+  "r": 0.267116814159292,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   211,
+   339
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 139.878,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/omega-seamaster-ploprof-1200m.jpg": {
+  "c": [
+   0.5427807486631016,
+   0.46449136276391556
+  ],
+  "r": 0.22994652406417113,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   203,
+   242
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 94.60000000000001,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/omega-flightmaster-vintage.jpg": {
+  "c": [
+   0.49865951742627346,
+   0.46551724137931033
+  ],
+  "r": 0.19302949061662197,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   186,
+   243
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 79.2,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/omega-constellation-globemaster.jpg": {
+  "c": [
+   0.46176470588235297,
+   0.4942528735632184
+  ],
+  "r": 0.2700211764705882,
+  "col": "g",
+  "thr": 150,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 0,
+  "ex": [],
+  "hub": [
+   157,
+   258
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 106.362,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "mode": "light",
+  "max": 0.006,
+  "handerode": 1
+ },
+ "assets/watches/omega-speedmaster-dark-side-of-the-moon.jpg": {
+  "c": [
+   0.47,
+   0.4657718120805369
+  ],
+  "r": 0.26981279999999996,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   235,
+   347
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 156.29399999999998,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/omega-speedmaster-57-black.jpg": {
+  "c": [
+   0.4672364672364672,
+   0.46923076923076923
+  ],
+  "r": 0.3190883190883191,
+  "col": "g",
+  "thr": 80,
+  "sat": 175,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   164,
+   244
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 118,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
+ },
+ "assets/watches/tudor-heritage-chrono.jpg": {
+  "c": [
+   0.4919786096256685,
+   0.49800796812749004
+  ],
+  "r": 0.26599572192513365,
+  "col": "g",
+  "thr": 150,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 0,
+  "ex": [],
+  "hub": [
+   184,
+   250
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 115.25399999999999,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "mode": "light",
+  "max": 0.006,
+  "handerode": 1
+ },
+ "assets/watches/tudor-black-bay-chrono.jpg": {
+  "c": [
+   0.4679144385026738,
+   0.4701195219123506
+  ],
+  "r": 0.26915294117647054,
+  "col": "g",
+  "thr": 120,
+  "sat": 115,
+  "min": 0.0002,
+  "open": 5,
+  "ex": [
+   [
+    0.20588235294117646,
+    0.398406374501992,
+    0.3983957219251337,
+    0.5418326693227091
+   ],
+   [
+    0.5320855614973262,
+    0.398406374501992,
+    0.7245989304812834,
+    0.5418326693227091
+   ]
+  ],
+  "hub": [
+   175,
+   236
+  ],
+  "hubr": 0,
+  "autohands": false,
+  "R": 116.62199999999999,
+  "inset": 0.27,
+  "idxinset": 0.15,
+  "sec": false,
+  "handerode": 1
  }
 }

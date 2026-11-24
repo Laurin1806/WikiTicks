@@ -7191,7 +7191,7 @@
    ],
    "w": "»Krallen« an der Lünette und eine Sternwarte auf dem Gehäuseboden kennzeichnen die Chronometer-Linie von Omega.",
    "lume": {
-    "z": "IH",
+    "z": "",
     "c": "g"
    }
   },
@@ -28974,6 +28974,18 @@
   }
  ],
  "lumeMasks": {
+  "omega-constellation-globemaster.jpg": "g",
+  "omega-flightmaster-vintage.jpg": "g",
+  "omega-railmaster-220-10-40-20.jpg": "g",
+  "omega-seamaster-300-234-30-41-21.jpg": "g",
+  "omega-seamaster-aqua-terra-220-10-41-21.jpg": "g",
+  "omega-seamaster-diver-300m-210-30-42-20.jpg": "b",
+  "omega-seamaster-planet-ocean-215-30-44-21.jpg": "g",
+  "omega-seamaster-ploprof-1200m.jpg": "g",
+  "omega-speedmaster-57-black.jpg": "g",
+  "omega-speedmaster-ck2915-broad-arrow.jpg": "g",
+  "omega-speedmaster-dark-side-of-the-moon.jpg": "g",
+  "omega-speedmaster-professional-310-30-42-50-01-001.jpg": "g",
   "rolex-air-king-126900-black.jpg": "b",
   "rolex-datejust-126233-steel-gold-champagne.jpg": "b",
   "rolex-datejust-126234-blue.jpg": "b",
@@ -29008,6 +29020,16 @@
   "rolex-submariner-5513.jpg": "g",
   "rolex-turn-o-graph-116264-black.jpg": "g",
   "rolex-yacht-master-126622-slate.jpg": "b",
-  "rolex-yacht-master-ii-116680.jpg": "b"
+  "rolex-yacht-master-ii-116680.jpg": "b",
+  "tudor-black-bay-54-m79000n.jpg": "g",
+  "tudor-black-bay-58.jpg": "g",
+  "tudor-black-bay-blue.jpg": "g",
+  "tudor-black-bay-chrono.jpg": "g",
+  "tudor-black-bay-gmt.jpg": "g",
+  "tudor-black-bay.jpg": "g",
+  "tudor-heritage-chrono.jpg": "g",
+  "tudor-pelagos-blue.jpg": "g",
+  "tudor-pelagos.jpg": "g",
+  "tudor-ranger.jpg": "g"
  }
 }
