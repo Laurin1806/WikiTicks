@@ -1612,6 +1612,8 @@ function viewSearch(term) {
 
 // ---------- Nachtmodus (ganze Seite) ----------
 // Uhrenbilder: Weiß vom Rand aus entfernen (Freisteller), abdunkeln und Leuchtmasse (helle Flächen auf dunklem Grund) grün leuchten lassen
+// Tonkurve für die Nachtansicht: Tiefen kräftiger abdunkeln, Lichter erhalten (mehr Kontrast als lineares Abdunkeln), leicht kühl getönt
+const TC = [.78, .8, .85].map(m => { const t = new Uint8ClampedArray(256); for (let v = 0; v < 256; v++) t[v] = 255 * Math.pow(v / 255, 1.4) * m; return t; });
 function nightPrep(img) {
   const wrap = img.parentElement;
   if (!wrap || !wrap.classList.contains("wimg-wrap") || wrap.dataset.nt) return;
@@ -1645,7 +1647,7 @@ function nightPrep(img) {
     for (let i = 0; i < N; i++) {
       const px = i % w; let edge = false;
       if (!bg[i]) edge = (px > 0 && bg[i - 1]) || (px < w - 1 && bg[i + 1]) || (i >= w && bg[i - w]) || (i < N - w && bg[i + w]);
-      o[i * 4] = d[i * 4] * .64; o[i * 4 + 1] = d[i * 4 + 1] * .66; o[i * 4 + 2] = d[i * 4 + 2] * .7; o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
+      o[i * 4] = TC[0][d[i * 4]]; o[i * 4 + 1] = TC[1][d[i * 4 + 1]]; o[i * 4 + 2] = TC[2][d[i * 4 + 2]]; o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
       if (shd[i]) { o[i * 4] = o[i * 4 + 1] = o[i * 4 + 2] = 0; o[i * 4 + 3] = Math.min(255, (255 - L[i]) * 1.3); } // Schatten im Dunkeln: dunkel statt hell
     }
     // Uhren ohne Leuchtmasse: im Dunkeln von oben angeleuchtet (Lichtkegel von oben, nach unten auslaufend)
