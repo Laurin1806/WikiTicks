@@ -894,14 +894,16 @@ function viewCompare(h) {
       : `<div class="cmpempty"><span>Uhr ${i + 1}</span></div>`}<input class="cmpin" list="cmplist" data-slot="${i}" placeholder="${e ? "Andere Uhr wählen" : "Uhr suchen, z. B. Submariner"}" aria-label="Uhr ${i + 1} auswählen">
       ${ch.length > 1 ? `<div class="cmpdd"><button type="button" class="cmpddbtn" aria-expanded="false"><b>Ausführung</b><span>${esc(it.name.replace(/^Ref\.\s*/, ""))}</span></button><div class="cmpddp" role="group" aria-label="Ausführung wählen">${ch.map(c => `<button type="button" class="cmpvar" data-slot="${i}" data-k="${c.k == null ? "" : c.k}" aria-pressed="${c.k === it.k}">${esc(c.n.replace(/^Ref\.\s*/, ""))}</button>`).join("")}</div></div>` : ""}</div>`; };
   const E = I.map(x => x.e), P = I.map(x => { const p = cmpPrices(x.e, x.k != null ? x.name + " " + (x.ref || "") : (x.ref || "")); return (x.k == null && p.note) ? cmpPrices(x.e, "") : p; });
-  const SP = E.map(e => SPECS[e.id] || {});
+  // Datenblatt der gezeigten Ausführung: eigenes Blatt für das Bild (SPECS._bilder), sonst das der aktuellen Ausführung
+  const OWN = I.map(it => (SPECS._bilder || {})[it.e.id + "|" + (it.k == null ? "main" : it.k)]);
+  const SP = I.map((it, j) => OWN[j] || SPECS[it.e.id] || {});
   // Datenblatt (datenblatt.json): Felder, die mindestens eine der gewählten Uhren hat; Faktenzeilen, die das Datenblatt bei allen Uhren abdeckt, entfallen
   const fact = (e, k) => { const x = (e.f || []).find(f => f[0] === k); return x ? esc(x[1]) : "–"; };
   const row = (label, cells, cls = "") => `<tr class="${cls}"><th scope="row">${esc(label)}</th>${cells.map(c => `<td>${c}</td>`).join("")}${"<td></td>".repeat(3 - cells.length)}</tr>`;
   // fehlt ein Datenblattwert, die passende Angabe aus dem Fakten-Kasten des Modells verwenden
-  const factRaw = (e, k) => { const x = (e.f || []).find(f => f[0] === k); return x ? x[1] : ""; };
-  const shown = SPEC_FIELDS.filter(([k]) => SP.some((s, j) => s[k] || (FACT_FOR[k] && factRaw(E[j], FACT_FOR[k]))));
-  const specRows = shown.map(([k, l]) => row(l, SP.map((s, j) => { const v = s[k] || (FACT_FOR[k] && factRaw(E[j], FACT_FOR[k])); return v ? esc(v) : "–"; })));
+  const factRaw = (e, k, j) => { if (j != null && OWN[j]) return ""; const x = (e.f || []).find(f => f[0] === k); return x ? x[1] : ""; }; // eigenes Blatt: keine Werte der aktuellen Ausführung untermischen
+  const shown = SPEC_FIELDS.filter(([k]) => SP.some((s, j) => s[k] || (FACT_FOR[k] && factRaw(E[j], FACT_FOR[k], j))));
+  const specRows = shown.map(([k, l]) => row(l, SP.map((s, j) => { const v = s[k] || (FACT_FOR[k] && factRaw(E[j], FACT_FOR[k], j)); return v ? esc(v) : "–"; })));
   const shownFacts = new Set(shown.map(([k]) => FACT_FOR[k]).filter(Boolean));
   const covered = k => shownFacts.has(k) || (k === "Gehäuse" && SP.every(s => s.durchmesser && s.gehaeuse));
   const keys = []; E.forEach(e => (e.f || []).forEach(([k]) => { if (k !== "Zifferblatt" && !covered(k) && !keys.includes(k)) keys.push(k); }));
@@ -921,8 +923,8 @@ function viewCompare(h) {
     row("Gebrauchtpreis", P.map(p => pv(p, "used")), "cmpprice"),
     row("Zifferblatt", I.map(dialCell)),
     SP.some(s => s.zifferblatt_optionen) ? row("Lieferbare Zifferblätter", SP.map(s => s.zifferblatt_optionen ? esc(s.zifferblatt_optionen) : "–")) : "",
-    ...(specRows.length ? [`<tr class="cmpsec"><th colspan="4">Datenblatt der aktuellen Ausführung</th></tr>`, ...specRows] : []),
-    ...keys.map(k => row(k, E.map(e => fact(e, k)))),
+    ...(specRows.length ? [`<tr class="cmpsec"><th colspan="4">Datenblatt der gezeigten Ausführung</th></tr>`, ...specRows] : []),
+    ...keys.filter(k => E.some((e, j) => !OWN[j] && factRaw(e, k))).map(k => row(k, E.map((e, j) => OWN[j] ? "–" : fact(e, k)))),
     row("Erkennungsmerkmale", E.map(e => (e.m || []).length ? `<ul>${e.m.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "–")),
     row("Kurz gesagt", E.map(e => esc(e.s || "")))].join("");
   return crumbs([["Startseite", ""], ["Uhrenvergleich"]]) + `
@@ -933,7 +935,7 @@ function viewCompare(h) {
     <datalist id="cmplist">${opts}</datalist>
     <div class="cmpwrap"><div class="cmpgrid">${[0, 1, 2].map(slot).join("")}</div>
     ${E.length ? `<table class="cmptable"><colgroup><col class="cmpk"><col><col><col></colgroup><tbody>${rows}</tbody></table>
-    <p class="gallery-note">Technische Angaben gelten für die aktuelle Ausführung des Modells. Preise in Euro umgerechnet, ungefähre Richtwerte ohne Gewähr; Quellen stehen bei den Preisangaben der jeweiligen Modelle.</p>` : `<p class="empty">Noch keine Uhr ausgewählt. Tippe oben in ein Feld und wähle ein Modell.</p>`}</div>`;
+    <p class="gallery-note">Das Datenblatt gilt für die gezeigte Ausführung; fehlende Werte stammen aus den Angaben zum Modell. Preise in Euro umgerechnet, ungefähre Richtwerte ohne Gewähr; Quellen stehen bei den Preisangaben der jeweiligen Modelle.</p>` : `<p class="empty">Noch keine Uhr ausgewählt. Tippe oben in ein Feld und wähle ein Modell.</p>`}</div>`;
 }
 const cmpSet = (i, x) => { const cur = CMP.filter(y => cmpItem(y)); if (x == null) cur.splice(i, 1); else if (i < cur.length) cur[i] = x; else cur.push(x); CMP = cur.slice(0, 3); saveCmp(); const y = scrollY; route(); scrollTo(0, y); };
 document.addEventListener("change", ev => {
