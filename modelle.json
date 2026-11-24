@@ -4022,6 +4022,7 @@
    "b": [
     "Die Datejust erschien 1945 zum 40-jährigen Firmenjubiläum von Rolex und gilt als Urform der modernen Armbanduhr mit Datumsanzeige. Sie vereinte drei Rolex-Erfindungen in einer Uhr: das wasserdichte Oyster-Gehäuse von 1926, den automatischen Perpetual-Aufzug von 1931 und ein Datum, das in einem Fenster im Zifferblatt um Mitternacht von selbst weiterspringt, statt wie bei früheren Uhren über Stunden zu gleiten. Dazu war sie als Chronometer zertifiziert.",
     "Für die Datejust entwarf Rolex 1945 auch das fünfreihige Jubilé-Band, das sie bis heute begleitet. Der Name erinnert an das Firmenjubiläum. Die geriffelte Lünette, heute ein Erkennungszeichen aus Weißgold oder Gelbgold, diente ursprünglich dazu, die Lünette fest auf das Gehäuse zu schrauben; erst später wurde sie reine Gestaltung. 1953 kam die Zykloplupe über dem Datumsfenster hinzu. Sie vergrößert das Datum etwa 2,5-fach und ist seither eines der bekanntesten Erkennungsmerkmale von Rolex.",
+    "1953 erschien die Turn-O-Graph, eine der frühen Rolex-Sportuhren mit drehbarer Lünette, im selben Jahr wie die Submariner. Man drehte die Lünette auf den Minutenzeiger und konnte die verstrichene Zeit ablesen, ohne einen Chronographen zu brauchen. Die erste Referenz 6202 hatte 36 Millimeter und ein Perpetual-Automatikwerk; den Beinamen »Thunderbird« bekam sie, weil die Kunstflugstaffel der US Air Force sie trug. Ab den 1960er-Jahren übertrug Rolex den Namen auf Datejust-Modelle mit drehbarer Stahllünette und 60-Minuten-Skala. 2004 kam mit der Ref. 116264 eine moderne Version mit Saphirglas, die bis in die 2010er-Jahre gebaut wurde. Frühe, gut erhaltene Exemplare sind selten und gesucht.",
     "Mit den Jahren wurde die Datejust zum Standardmodell der Marke. Die Referenz 1601 (ab 1959) lief fast zwei Jahrzehnte. Sie ist die Ausführung mit geriffelter Goldlünette, bei Stahluhren aus Weißgold; daneben gab es die 1600 mit glatter und die 1603 mit guillochierter Lünette. Die 1601 hatte noch ein Acrylglas mit Zykloplupe und die Kaliber 1560 beziehungsweise 1570 ohne Schnellschaltung, und es gab sie in zahllosen Zifferblättern, darunter Schwarz mit aufgesetzten Stabindizes. Mit der Referenz 16014 kamen 1977 das Kaliber 3035 mit Schnellschaltung für das Datum und das Saphirglas. Mitte der 1980er-Jahre begann Rolex, Stahlmodelle aus dem korrosionsbeständigeren 904L-Stahl zu fertigen; ab etwa 2003 galt das durchgängig, seit 2018 heißt das Material bei Rolex »Oystersteel«. 1988 erschienen mit dem Kaliber 3135 die Referenzen, die in den 1990er-Jahren die Datejust prägten.",
     "2009 brachte Rolex die Datejust II mit 41 Millimetern, die 2016 durch die Datejust 41 (Ref. 126300) mit dem Kaliber 3235 und schlankerem Gehäuse abgelöst wurde. 2018 folgte die Datejust 36 mit demselben Werk. Kaum eine Uhr gibt es in so vielen Varianten: Größen von 28 bis 41 Millimetern, Stahl, Gold und die Kombination aus beidem, die Rolex »Rolesor« nennt, dazu Dutzende Zifferblätter, von schlicht bis mit Diamanten besetzt, und Lünetten in glatt, geriffelt oder mit Edelsteinen.",
     "Auf diese Breite geht der Reiz der Datejust unter Kennern zurück: Die Uhr ist technisch das Basismodell der Marke, aber in ihrer Vielfalt gleichzeitig ein Abbild der Rolex-Geschichte. Viele Sammler konzentrieren sich auf eine Epoche (zum Beispiel die 1601 mit Pie-Pan-Zifferblatt), einen Zifferblatt-Typ oder die Kombination aus Lünette und Band."
@@ -4066,6 +4067,13 @@
      "Erste Datejust"
     ],
     [
+     "6202",
+     "1953–1950er",
+     "36 mm",
+     "1030",
+     "Erste Turn-O-Graph"
+    ],
+    [
      "1601",
      "1959–1977",
      "36 mm",
@@ -4085,6 +4093,13 @@
      "36 mm",
      "3135",
      "Breiteres Band mit massiven Endstücken"
+    ],
+    [
+     "116264",
+     "2004–2010er",
+     "36 mm",
+     "3135",
+     "Datejust Turn-O-Graph"
     ],
     [
      "116334",
@@ -4115,7 +4130,10 @@
     "day-date"
    ],
    "k": "Die Zykloplupe der Rolex Datejust vergrößert das Datum um das 2,5-fache.",
-   "a": [],
+   "a": [
+    "Turn-O-Graph",
+    "Thunderbird"
+   ],
    "v": {
     "dial": "#2c4a7a",
     "tex": "sunburst",
@@ -4163,6 +4181,26 @@
       "Die Abbildung zeigt eine Rolex Datejust der Referenz 1601 mit schwarzem Zifferblatt, wie sie zwischen 1959 und 1977 gebaut wurde. Das Gehäuse ist aus Edelstahl, die geriffelte Lünette ist bei der Stahlausführung der 1601 aus Weißgold. Getragen wird die Uhr am fünfreihigen Jubilé-Band.",
       "Zu erkennen sind aufgesetzte Stabindizes und Stabzeiger, deren Leuchtmasse einen cremefarbenen Ton angenommen hat, das Datumsfenster bei 3 Uhr mit Zykloplupe auf dem gewölbten Glas sowie die Aufschriften »OYSTER PERPETUAL DATEJUST« und »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«. Gehäuse und Band zeigen deutliche Gebrauchsspuren, unten am Zifferblatt steht »T SWISS T«."
      ]
+    },
+    {
+     "n": "Datejust Turn-O-Graph Ref. 116264",
+     "y": "2004–2010er",
+     "v": {
+      "dial": "#1f4a8a",
+      "tex": "sunburst",
+      "markers": "baton",
+      "hands": "baton",
+      "bezel": "fluted",
+      "date": "cyclops",
+      "strap": "jubilee",
+      "case": "steel",
+      "img": "assets/watches/rolex-turn-o-graph-116264-black.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Rolex Datejust Turn-O-Graph in der Art der Referenz 116264 mit Gehäuse und Oyster-Band aus Edelstahl, schwarzem Zifferblatt und geriffelter, drehbarer Lünette mit 60-Minuten-Skala.",
+      "Zu erkennen sind die schwarzen Ziffern 10 bis 50 auf der Lünette, das rote Dreieck bei 12 Uhr, der rote Sekundenzeiger und der rote Schriftzug »TURN-O-GRAPH«. Das Datumsfenster bei 3 Uhr mit Zykloplupe zeigt die Zahl in Rot. Aufgesetzte Stabindizes und Stabzeiger tragen helle Leuchtmasse, darüber stehen »OYSTER PERPETUAL DATEJUST«."
+     ],
+     "at": "1953: Turn-O-Graph »Thunderbird«"
     }
    ],
    "m": [
@@ -4175,7 +4213,8 @@
     "Die Datejust ist der klassische Einstieg in die Welt von Rolex.",
     "Ältere Datejust-Modelle bieten viel Rolex für vergleichsweise wenig Geld.",
     "Diamanten auf Zifferblatt oder Lünette wurden manchmal nachträglich angebracht. Das sollte vor dem Kauf geprüft werden.",
-    "Bei Zifferblättern mit Leuchtpunkten verrät die Aufschrift unter der 6 das Alter: »T SWISS T« oder »SWISS – T < 25« (Tritium), um 1998/1999 kurz nur »SWISS« (Luminova), danach »SWISS MADE«."
+    "Bei Zifferblättern mit Leuchtpunkten verrät die Aufschrift unter der 6 das Alter: »T SWISS T« oder »SWISS – T < 25« (Tritium), um 1998/1999 kurz nur »SWISS« (Luminova), danach »SWISS MADE«.",
+    "Bei Vintage-Turn-O-Graph auf Originalität von Lünette und Zifferblatt achten; viele Zifferblätter wurden nachträglich aufgefrischt."
    ],
    "ev": [
     [
@@ -4187,8 +4226,16 @@
      "Einführung der Zykloplupe"
     ],
     [
+     "1953",
+     "Turn-O-Graph Ref. 6202"
+    ],
+    [
      "1977",
      "Kaliber 3035 mit Schnellschaltung für das Datum"
+    ],
+    [
+     "2004",
+     "Datejust Turn-O-Graph Ref. 116264"
     ],
     [
      "2009",
@@ -4283,9 +4330,27 @@
       8950,
       "heute",
       9854
+     ],
+     [
+      "116264 (Turn-O-Graph)",
+      "Liste 2004",
+      4890,
+      "heute",
+      7973,
+      [
+       "EUR",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        7650,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16234: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: Mitte der Spanne von rund 3.150 bis 7.150 EUR für 1601/1603 der 1970er laut Händlerratgeber (grob). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16234: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: Mitte der Spanne von rund 3.150 bis 7.150 EUR für 1601/1603 der 1970er laut Händlerratgeber (grob). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert. Turn-O-Graph 116264: Marktschätzung von WatchCharts (Herbst 2026); Händlerpreise 7.950 bis 9.850 EUR, ein Exemplar von 2004 erzielte 2023 bei einer Auktion 8.400 EUR."
    },
    "w": "1945 schaltete sie als erste Armbanduhr das Datum selbstständig um, seit den 1950er-Jahren sitzt die Cyclops-Lupe auf dem Glas.",
    "lume": {
@@ -4295,6 +4360,7 @@
    "bh": [
     "1945: Die Uhr zum Firmenjubiläum",
     "Jubilé-Band, geriffelte Lünette und Zykloplupe",
+    "1953: Turn-O-Graph »Thunderbird«",
     "Ref. 1601, 16014 und Kaliber 3135",
     "Datejust II, Datejust 41 und Variantenvielfalt",
     "Epochen und Sammelgebiete"
@@ -5292,6 +5358,7 @@
     "Die erste Calatrava, Referenz 96, erschien 1932, im selben Jahr, in dem die Familie Stern Patek Philippe übernahm. Ihr Entwurf folgt den Ideen des Bauhauses: ein schlichtes rundes Gehäuse, ein klares Zifferblatt und nichts, was nicht nötig ist. Die Referenz 96 wurde über vier Jahrzehnte gebaut und prägte das Bild der klassischen Dresswatch.",
     "Ihren Namen hat die Calatrava vom Calatrava-Kreuz, einem Ordenszeichen aus dem mittelalterlichen Spanien, das Patek Philippe seit 1887 als Markenzeichen verwendet. Sie steht damit für die Idee, dass die Marke nicht trendet, sondern ihre Linie hält.",
     "Ein bekanntes Gestaltungsmerkmal vieler Calatrava-Modelle ist die Lünette mit Clous-de-Paris-Muster, einem feinen Pyramidenmuster, das 1985 mit der Referenz 3919 eingeführt wurde. Die meisten Modelle haben Handaufzug, dünne Gehäuse und Zifferblätter mit aufgesetzten Indizes oder Breguet-Ziffern. Zu den bekannten Referenzen gehören die 5196 (2005, 37 Millimeter) und die 5227 (2013, mit Datum).",
+    "Seit 2015 gehört auch die Calatrava Pilot Travel Time zur Familie. Sie erinnert an die Fliegeruhren, die Patek Philippe in den 1930er-Jahren baute, hat ein 42-Millimeter-Gehäuse in Weißgold (5524G) oder Roségold (5524R), arabische Ziffern und breite Zeiger. Sie zeigt zwei Zeitzonen mit Tag-und-Nacht-Anzeige und ein Datum. Mit zwei Drückern bei 8 und 10 Uhr lässt sich die Ortszeit stundenweise vor- oder zurückstellen, auch mit einer Hand, während die Heimatzeit weiterläuft. Im Inneren arbeitet das Automatikkaliber 324 S C FUS mit rund 45 Stunden Gangreserve.",
     "Die Calatrava ist eine ganze Familie mit Dutzenden Referenzen, von schlichten Dreizeigern über Modelle mit Datum bis zu Pilotenuhren mit zweiter Zeitzone. Die aktuelle Referenz 6119 von 2021 ist mit 39 Millimetern größer als ihre Vorgänger und hat ein neues Handaufzugswerk mit rund 65 Stunden Gangreserve."
    ],
    "cur": "Ref. 6119 · seit 2021",
@@ -5348,6 +5415,20 @@
      "Nachfolger der 3919"
     ],
     [
+     "5524G",
+     "seit 2015",
+     "42 mm",
+     "324 S C FUS",
+     "Pilot Travel Time, Weißgold"
+    ],
+    [
+     "5524R",
+     "seit 2015",
+     "42 mm",
+     "324 S C FUS",
+     "Pilot Travel Time, Roségold"
+    ],
+    [
      "6119",
      "seit 2021",
      "39 mm",
@@ -5361,7 +5442,10 @@
     "world-time"
    ],
    "k": "Das Calatrava-Kreuz ist seit 1887 das Markenzeichen von Patek Philippe.",
-   "a": [],
+   "a": [
+    "Pilot Travel Time",
+    "Calatrava Pilot Travel Time"
+   ],
    "v": {
     "dial": "#ece8df",
     "bezel": "clous",
@@ -5385,7 +5469,8 @@
     "Eine ideale Uhr zum Anzug."
    ],
    "x": [
-    "Bis 2009 trugen die Werke das Genfer Siegel; seither tragen sie wie alle Patek-Philippe-Uhren das strengere Patek-Philippe-Siegel."
+    "Bis 2009 trugen die Werke das Genfer Siegel; seither tragen sie wie alle Patek-Philippe-Uhren das strengere Patek-Philippe-Siegel.",
+    "Bei der Pilot Travel Time sitzen die Drücker für die Ortszeit bei 8 und 10 Uhr, damit man sie mit einer Hand bedienen kann."
    ],
    "preis": {
     "u": "USD",
@@ -5410,9 +5495,23 @@
       37510,
       "heute",
       27734
+     ],
+     [
+      "5524G (Pilot Travel Time)",
+      "Liste 2026",
+      67267,
+      "heute",
+      35949
+     ],
+     [
+      "5524R (Pilot Travel Time)",
+      "",
+      null,
+      "heute",
+      37006
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebote und Verkäufe bei WatchProSite (3919/5J Gelbgold 33 mm; 5196 in Weißgold/Gelbgold)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebote und Verkäufe bei WatchProSite (3919/5J Gelbgold 33 mm; 5196 in Weißgold/Gelbgold). Pilot Travel Time: Marktschätzung von WatchCharts (Herbst 2026); Händler verlangen für die 5524G meist 37.550 bis 41.550 EUR."
    },
    "ev": [
     [
@@ -5422,6 +5521,10 @@
     [
      "1985",
      "Referenz 3919 mit Clous-de-Paris-Lünette"
+    ],
+    [
+     "2015",
+     "Calatrava Pilot Travel Time"
     ],
     [
      "2021",
@@ -5451,6 +5554,26 @@
       "Die Abbildung zeigt eine Patek Philippe Calatrava mit Gehäuse und Krone aus Gelbgold. Das schlichte runde Gehäuse hat eine glatte Lünette und schlanke, geschwungene Bandanstöße; das Zifferblatt ist cremeweiß, das Lederband dunkelbraun mit Krokoprägung.",
       "Zu erkennen sind aufgesetzte goldene Stabindizes, schlanke Dauphine-Zeiger aus Gold und eine kleine Sekunde bei 6 Uhr mit Minuterie und eigenem Zeiger. Unter der 12 steht der Schriftzug »PATEK PHILIPPE GENEVE«, am unteren Rand »SWISS«. Ein Datum gibt es nicht; das Zifferblatt bleibt bewusst aufgeräumt, wie es dem Bauhaus-Gedanken der Calatrava entspricht."
      ]
+    },
+    {
+     "n": "Calatrava Pilot Travel Time",
+     "y": "seit 2015",
+     "v": {
+      "case": "rose",
+      "dial": "#2a2c30",
+      "markers": "arabicAll",
+      "hands": "baton",
+      "strap": "leather",
+      "strapColor": "#2a1a10",
+      "crown": "onion",
+      "date": "3",
+      "img": "assets/watches/patek-philippe-pilot-travel-time.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt die Patek Philippe Calatrava Pilot Travel Time mit 42 Millimetern in weißem Gehäusemetall, wie es der Weißgoldversion 5524G entspricht. Das Zifferblatt ist dunkelblau, das Lederband braun mit hellen Nähten.",
+      "Typisch sind die großen arabischen Ziffern und die breiten Zeiger mit heller Leuchtmasse. Zu erkennen sind die Tag-und-Nacht-Anzeigen mit den Beschriftungen »LOCAL« und »HOME«, das Hilfszifferblatt bei 6 Uhr für das Datum und die beiden Drücker auf der linken Gehäuseseite, mit denen die Ortszeit stundenweise verstellt wird. Die Krone sitzt bei 3 Uhr."
+     ],
+     "at": "2015: Pilot Travel Time"
     }
    ],
    "lume": {
@@ -5461,6 +5584,7 @@
     "1932: Referenz 96 im Bauhaus-Geist",
     "Das Calatrava-Kreuz als Namensgeber",
     "Clous de Paris und Handaufzug",
+    "2015: Pilot Travel Time",
     "Ref. 6119 und die Calatrava-Familie"
    ],
    "bd": [
@@ -6580,6 +6704,8 @@
     "Die Speedmaster kam nicht wie später oft erzählt als Auftragsuhr ins All, sondern über einen Zufall und einen Test. 1962 flog Wally Schirra mit seiner privat gekauften Speedmaster CK2998 an Bord von »Sigma 7« und trug damit als Erster eine Omega im Weltraum. Die NASA suchte danach eine zuverlässige Armbanduhr für ihre Astronauten, kaufte Chronographen mehrerer Marken im normalen Handel und unterzog sie 1964 und 1965 extremen Tests mit Hitze, Kälte, Vakuum, Erschütterung und Druck. Nur die Speedmaster bestand alle Prüfungen und wurde im März 1965 offiziell für bemannte Raumflüge zugelassen.",
     "Juli 1969 trug Buzz Aldrin seine Speedmaster bei der ersten Mondlandung auf der Mondoberfläche. Neil Armstrong hatte seine in der Mondfähre gelassen, weil deren Bordzeituhr ausgefallen war. 1970 half eine Speedmaster der Besatzung von Apollo 13, nach der Explosion an Bord die Zündung der Triebwerke von Hand exakt zu timen. Die NASA verlieh Omega dafür den »Silver Snoopy Award«. Der Name »Moonwatch« geht auf diese Zeit zurück.",
     "Technisch lief das Handaufzugskaliber 321 bis 1968, dann folgte das Kaliber 861 mit vereinfachter Konstruktion; seit 1996 bis 2021 arbeitete das Kaliber 1861. Typisch blieben der Handaufzug, das asymmetrische Gehäuse mit Kronenschutz und das gewölbte Hesalitglas aus Kunststoff, das für Raumflüge gewählt wurde, weil es beim Bruch nicht splittert. Die Optik der Moonwatch blieb über 60 Jahre fast unverändert.",
+    "Neben der Moonwatch entstanden Ableger. Die Speedmaster ’57 von 2012 greift die Gestaltung der ersten Speedmaster CK2915 auf: breite Pfeilzeiger (»Broad Arrow«), ein schmales Gehäuse und die Tachymeterskala auf dem Lünetteneinsatz. Anders als die Moonwatch hat sie mit 41,5 Millimetern ein Automatikwerk, das Co-Axial-Kaliber 9300; spätere Versionen erhielten Master-Chronometer-Werke. Sie richtet sich an Träger, die den Vintage-Look ohne den Bezug zur Mondlandung suchen.",
+    "2013 erschien die Speedmaster Dark Side of the Moon, die erste Omega mit Gehäuse und Zifferblatt aus schwarzer Zirkonoxid-Keramik, ebenfalls mit dem Kaliber 9300 und 44,25 Millimetern Durchmesser. Der Name verweist auf die Mondrückseite, die Menschen erst durch die Raumfahrt sehen konnten. Zirkonoxid wird bei hoher Temperatur gesintert, schrumpft dabei deutlich und lässt sich danach nur aufwendig bearbeiten; es ist extrem kratzfest, aber bruchempfindlicher als Metall. Es folgten Varianten wie die »Grey Side of the Moon« mit grauem Zifferblatt und 2017 die »Apollo 8« mit Mondmotiv.",
     "2021 erhielt die Moonwatch das Kaliber 3861 mit Co-Axial-Hemmung. Sie ist seitdem als »Master Chronometer« zertifiziert und widersteht Magnetfeldern bis 15.000 Gauß. Das Band erinnert wieder an das der Apollo-Ära. Erstmals gibt es die Speedmaster Professional wahlweise mit Hesalitglas und geschlossenem Boden oder mit Saphirglas und Glasboden."
    ],
    "cur": "Ref. 310.30.42.50.01.001 (Hesalit) / .002 (Saphir) · seit 2021",
@@ -6664,6 +6790,27 @@
      "Hesalit-Moonwatch mit Kaliber 1861"
     ],
     [
+     "331.10.42.51",
+     "2012–2020",
+     "41,5 mm",
+     "9300",
+     "Speedmaster ’57, Automatik"
+    ],
+    [
+     "311.92.44.51",
+     "seit 2013",
+     "44,25 mm",
+     "9300",
+     "Dark Side of the Moon, Keramik"
+    ],
+    [
+     "Apollo 8",
+     "2017",
+     "44,25 mm",
+     "9300",
+     "Keramik, Mondmotiv"
+    ],
+    [
      "310.30.42.50",
      "seit 2021",
      "42 mm",
@@ -6679,7 +6826,11 @@
    ],
    "k": "Buzz Aldrin trug 1969 auf dem Mond eine Omega Speedmaster. Neil Armstrong hatte seine in der Mondfähre gelassen.",
    "a": [
-    "Moonwatch"
+    "Moonwatch",
+    "Speedmaster ’57",
+    "Speedmaster '57",
+    "Dark Side of the Moon",
+    "Grey Side of the Moon"
    ],
    "v": {
     "dial": "#17191d",
@@ -6715,6 +6866,52 @@
       "Die Abbildung zeigt eine Omega Speedmaster in der Gestaltung der ersten Referenz CK2915 von 1957 mit Gehäuse und Band aus Stahl. Typisch für diese frühe Gestaltung sind die Lünette aus Stahl mit eingravierter Tachymeterskala »TACHYMETRE BASE 1000« und das schwarze Zifferblatt.",
       "Zu erkennen sind der breite Pfeil-Stundenzeiger (»Broad Arrow«), cremefarben gealterte Leuchtmasse in Dreiecksindizes und den Ziffern 12, 3, 6 und 9 sowie der Schriftzug »Speedmaster« unter dem Omega-Logo. Rechts sitzen die Krone und zwei runde Drücker. Hilfszifferblätter gibt es bei dieser Ausführung nicht, das Zifferblatt bleibt bis auf Ziffern, Indizes und Minuterie frei."
      ]
+    },
+    {
+     "n": "Speedmaster ’57",
+     "y": "2012–2020",
+     "v": {
+      "dial": "#17191d",
+      "sub": "chrono3",
+      "subColor": "#1f2126",
+      "markers": "baton",
+      "hands": "arrow",
+      "bezel": "tachy",
+      "pushers": true,
+      "strap": "omega",
+      "lugs": "lyre",
+      "img": "assets/watches/omega-speedmaster-57-black.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Omega Speedmaster ’57 Co-Axial Chronograph aus Edelstahl mit schwarzem Zifferblatt am Gliederband. Die Gestaltung greift die erste Speedmaster von 1957 auf, mit Lünette aus Stahl und eingravierter Tachymeterskala »TACHYMETRE BASE 1000«.",
+      "Typisch sind der breite Pfeil-Stundenzeiger (»Broad Arrow«) und die Leuchtmasse in cremefarbenem Vintage-Ton. Zu erkennen sind zwei Hilfszifferblätter bei 3 und 9 Uhr, Dreiecksindizes und der Schriftzug »Speedmaster ’57« in Orange unter dem Omega-Logo. Rechts sitzen die Krone und zwei runde Drücker an einem schlanken, symmetrischen Gehäuse."
+     ],
+     "at": "2012: Speedmaster ’57"
+    },
+    {
+     "n": "Dark Side of the Moon",
+     "y": "seit 2013",
+     "v": {
+      "case": "black",
+      "dial": "#101214",
+      "sub": "chrono3",
+      "markers": "baton",
+      "hands": "alpha",
+      "bezel": "tachy",
+      "pushers": true,
+      "strap": "rubber",
+      "strapColor": "#141619",
+      "top": [
+       "Speedmaster",
+       "DARK SIDE OF THE MOON"
+      ],
+      "img": "assets/watches/omega-speedmaster-dark-side-of-the-moon.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt die Omega Speedmaster Dark Side of the Moon, Referenz 311.92.44.51.01.003, mit Gehäuse und Zifferblatt aus schwarzer Zirkonoxid-Keramik und 44,25 Millimetern. Auch Lünette, Krone und Drücker sind schwarz; getragen wird sie an einem schwarzen Textilband mit hellen Nähten.",
+      "Zu erkennen sind die Tachymeterskala auf der Lünette, die beiden Hilfszifferblätter bei 3 und 9 Uhr, die Stabindizes und Stabzeiger mit weißer Leuchtmasse sowie die Schriftzüge »Speedmaster«, »CO-AXIAL« und »MASTER CHRONOMETER«. Die matte Oberfläche des Zifferblatts unterscheidet sich vom polierten Keramikgehäuse."
+     ],
+     "at": "2013: Dark Side of the Moon"
     }
    ],
    "m": [
@@ -6726,7 +6923,8 @@
    "tipp": [
     "Versionen mit Hesalitglas entsprechen am ehesten der Uhr der Apollo-Missionen.",
     "Es gibt zahlreiche Sondereditionen, etwa die »Snoopy«-Modelle.",
-    "Die Uhr muss regelmäßig von Hand aufgezogen werden. Viele schätzen genau dieses Ritual."
+    "Die Uhr muss regelmäßig von Hand aufgezogen werden. Viele schätzen genau dieses Ritual.",
+    "Die Speedmaster ’57 und die Dark Side of the Moon haben Automatikwerke, wer das Aufziehen von Hand nicht mag."
    ],
    "ev": [
     [
@@ -6752,6 +6950,18 @@
     [
      "1996",
      "Kaliber 1861"
+    ],
+    [
+     "2012",
+     "Speedmaster ’57 mit Co-Axial-Kaliber 9300"
+    ],
+    [
+     "2013",
+     "Dark Side of the Moon aus Keramik"
+    ],
+    [
+     "2017",
+     "Dark Side of the Moon »Apollo 8«"
     ],
     [
      "2021",
@@ -6823,9 +7033,23 @@
       7800,
       "heute",
       6000
+     ],
+     [
+      "331.10.42.51.01.001 (’57)",
+      "Liste (zuletzt)",
+      9000,
+      "heute",
+      4668
+     ],
+     [
+      "311.92.44.51.01.003 (Dark Side)",
+      "letzte Liste 2023",
+      12000,
+      "heute",
+      7329
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenz 311.30.42.30.01.005 (bis 2021): Händlerangebot von SwissWatchExpo. Ältere Referenzen: 3570.50: WatchCharts (Oktober 2026); 3590.50: Händlerangebot eines Exemplars von 1991. Vintage-Referenzen: 105.012: Listenpreis laut einer einzelnen Quelle (ca. 160 EUR), Gebrauchtpreis aus Händlerangeboten von rund 8.600 bis 10.450 EUR; 105.003: WatchCharts (Oktober 2026); 145.012: Mitte einer Händlerspanne von rund 7.150 bis 13.400 EUR. Grobe Richtwerte, stark zustandsabhängig. 3570.50: Listenpreis um 2009 von rund 2.500 USD bei autorisierten Händlern (Hesalit-Version, laut Preisgeschichte), 2023 lag er bei 4.500 USD."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenz 311.30.42.30.01.005 (bis 2021): Händlerangebot von SwissWatchExpo. Ältere Referenzen: 3570.50: WatchCharts (Oktober 2026); 3590.50: Händlerangebot eines Exemplars von 1991. Vintage-Referenzen: 105.012: Listenpreis laut einer einzelnen Quelle (ca. 160 EUR), Gebrauchtpreis aus Händlerangeboten von rund 8.600 bis 10.450 EUR; 105.003: WatchCharts (Oktober 2026); 145.012: Mitte einer Händlerspanne von rund 7.150 bis 13.400 EUR. Grobe Richtwerte, stark zustandsabhängig. 3570.50: Listenpreis um 2009 von rund 2.500 USD bei autorisierten Händlern (Hesalit-Version, laut Preisgeschichte), 2023 lag er bei 4.500 USD. Speedmaster ’57: Gebrauchtwert als Mitte zwischen einem verkauften Exemplar (3.800 EUR) und einem Händlerpreis (4.550 EUR). Dark Side of the Moon: Marktschätzung von WatchCharts (Herbst 2026)."
    },
    "w": "1969 war sie bei der ersten Mondlandung dabei und ist bis heute von der NASA für bemannte Missionen zugelassen.",
    "lume": {
@@ -6839,6 +7063,8 @@
     "NASA-Tests und Zulassung 1965",
     "Mondlandung und Apollo 13",
     "Kaliber 321, 861 und 1861",
+    "2012: Speedmaster ’57",
+    "2013: Dark Side of the Moon",
     "2021: Kaliber 3861 als Master Chronometer"
    ],
    "bd": [
@@ -7632,7 +7858,9 @@
    "b": [
     "Die Entstehung: 2010 erschien die Heritage Chrono, 2012 stellte Tudor auf der Baselworld die Heritage Black Bay vor. Tudor griff damit auf seine Taucheruhren der 1950er- und 1960er-Jahre zurück, vor allem auf die Big-Crown-Referenzen wie die 7924 von 1958. Die Black Bay hat ein gewölbtes Zifferblatt, eine große Krone ohne Kronenschutz und den sogenannten Snowflake-Zeiger. Dieser kantige Stundenzeiger wurde Ende der 1960er-Jahre für die Taucheruhren der französischen Marine eingeführt, weil er unter Wasser besser zu erkennen war.",
     "Das erste Modell 79220 hatte ein zugekauftes Werk auf Basis des ETA 2824, ein Nietenband und eine bordeauxrote Lünette; es folgten die schwarze Variante und die blaue (79220B, 2013). 2016 bekam die Black Bay mit dem Kaliber MT5602 Tudors erstes eigenes Automatikwerk in dieser Linie: 70 Stunden Gangreserve, Silizium-Spirale, COSC-Chronometerzertifikat. Seit 2023 ist die Black Bay als Master Chronometer zertifiziert und damit gegen Magnetfelder bis 15.000 Gauß geschützt. Das Band mit Nietenoptik, die Schneeflocken-Zeiger und die gewölbten Gläser sind die gestalterischen Konstanten.",
-    "Aus der Black Bay ist eine ganze Familie entstanden: Bronze (2016, mit Patina-Effekt), Dark (2016), die kleineren Black Bay 32 und 36 (2017), der Black Bay Chrono (2017) mit dem Kaliber MT5813 auf Basis des Breitling B01, Fifty-Eight und GMT (beide 2018). Der Umfang der Familie macht sie zum Rückgrat der Marke."
+    "Aus der Black Bay ist eine ganze Familie entstanden: Bronze (2016, mit Patina-Effekt), Dark (2016), die kleineren Black Bay 32 und 36 (2017), der Black Bay Chrono (2017) mit dem Kaliber MT5813 auf Basis des Breitling B01, Fifty-Eight und GMT (beide 2018) sowie 2023 die Black Bay 54. Der Umfang der Familie macht sie zum Rückgrat der Marke.",
+    "Die Black Bay Fifty-Eight kam 2018. Die Zahl erinnert an die Referenz 7924 von 1958, die erste Tudor-Taucheruhr mit 200 Metern Wasserdichtigkeit, die Sammler »Big Crown« nennen. Mit 39 Millimetern und rund 11,9 Millimetern Höhe ist sie kleiner und flacher als die normale Black Bay und passt an viele Handgelenke. Goldfarbene Zeiger und Schrift erinnern an die »gilt«-Zifferblätter der späten 1950er-Jahre, im Inneren arbeitet das Manufakturkaliber MT5402. Seit 2020 gibt es sie in Navy-Blau, seit 2021 in Bronze und in 925er-Silber, dazu eine Ausführung in Gold. Mit ihr begann eine Welle kleinerer Taucheruhren.",
+    "2023 folgte die Black Bay 54, mit 37 Millimetern und rund 11,2 Millimetern Höhe die kleinste Black Bay. Ihr Name erinnert an die Oyster Prince Submariner Ref. 7922 von 1954, die erste Taucheruhr der Marke. Wie diese hat sie kein Datum und eine Lünette mit durchgehender Minutenskala ohne Ziffernring, die Krone ist schlanker. Im Inneren arbeitet das Manufakturkaliber MT5400 mit rund 70 Stunden Gangreserve; die Faltschließe lässt sich mit der T-fit-Schnellverstellung ohne Werkzeug um bis zu 8 Millimeter verlängern."
    ],
    "cur": "Ref. 7941A1A0RU (41 mm, rote Lünette) · seit 2023",
    "f": [
@@ -7667,6 +7895,20 @@
    ],
    "refs": [
     [
+     "7922",
+     "1954",
+     "37 mm",
+     "390",
+     "Erste Tudor-Taucheruhr, Vorbild der Black Bay 54"
+    ],
+    [
+     "7924",
+     "1958–1959",
+     "37 mm",
+     "390",
+     "»Big Crown«, Vorbild der Fifty-Eight"
+    ],
+    [
      "79220R",
      "2012–2016",
      "41 mm",
@@ -7681,11 +7923,32 @@
      "Manufakturwerk, Chronometer"
     ],
     [
+     "M79030N",
+     "seit 2018",
+     "39 mm",
+     "MT5402",
+     "Black Bay Fifty-Eight, schwarz"
+    ],
+    [
+     "M79030B",
+     "seit 2020",
+     "39 mm",
+     "MT5402",
+     "Fifty-Eight Navy-Blau"
+    ],
+    [
      "7941A1A0RU",
      "seit 2023",
      "41 mm",
      "MT5602-U",
      "Master Chronometer"
+    ],
+    [
+     "M79000N",
+     "seit 2023",
+     "37 mm",
+     "MT5400",
+     "Black Bay 54, ohne Datum"
     ]
    ],
    "r": [
@@ -7695,7 +7958,13 @@
     "kaliber"
    ],
    "k": "Der kantige Snowflake-Zeiger der Tudor Black Bay stammt von Taucheruhren der französischen Marine.",
-   "a": [],
+   "a": [
+    "Black Bay 58",
+    "Black Bay Fifty-Eight",
+    "Black Bay 54",
+    "BB54",
+    "BB58"
+   ],
    "v": {
     "dial": "#17191d",
     "bezel": "dive",
@@ -7723,16 +7992,62 @@
       "Die Abbildung zeigt eine Tudor Black Bay in der blauen Ausführung aus Edelstahl. Typisch sind die blaue Aluminiumlünette mit Taucherskala in Silber und Dreieck bei 12 Uhr sowie das tiefblaue Zifferblatt.",
       "Zu erkennen sind die »Snowflake«-Zeiger mit dem eckigen Stundenzeiger, runde Leuchtindizes, Balken bei 3, 6 und 9 und ein großes Dreieck bei 12 Uhr. Unter der Signatur »TUDOR GENEVE« stehen die Tiefenangabe »200m · 660 ft« und »CHRONOMETER OFFICIALLY CERTIFIED«. Ein Datumsfenster gibt es nicht. Die Uhr trägt ein Stahlgliederband, die verschraubte Krone sitzt rechts. Ob es sich um die 41-Millimeter-Ausführung oder eine kleinere Variante handelt, ist auf dem Bild nicht sicher zu erkennen."
      ]
+    },
+    {
+     "n": "Black Bay Fifty-Eight",
+     "y": "seit 2018",
+     "v": {
+      "dial": "#17191d",
+      "bezel": "dive",
+      "markers": "dots",
+      "hands": "snowflake",
+      "lume": "#e5d5a8",
+      "hc": "#d4b56a",
+      "crown": "big",
+      "bottom": [
+       "CHRONOMETER",
+       "200 m – 660 ft"
+      ],
+      "img": "assets/watches/tudor-black-bay-58.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Tudor Black Bay 58 mit schwarzem Zifferblatt, Referenz M79030N, die seit 2018 mit 39 Millimetern gebaut wird. Gehäuse und Gliederband sind aus Edelstahl, die Drehlünette hat eine schwarze Aluminiumeinlage mit goldfarbener Skala.",
+      "Zu erkennen sind der eckige »Snowflake«-Stundenzeiger, goldfarbene Zeiger und Indexrahmen, runde Leuchtindizes mit Balken bei 3, 6 und 9 und ein Dreieck bei 12 Uhr. Die Leuchtmasse ist leicht vergilbt eingefärbt. Auf der Lünette sitzt bei 12 Uhr ein rotes Dreieck. Ein Datum fehlt; die Krone ist ohne Kronenschutz."
+     ],
+     "at": "2018: Black Bay Fifty-Eight"
+    },
+    {
+     "n": "Black Bay 54",
+     "y": "seit 2023",
+     "v": {
+      "dial": "#17191d",
+      "bezel": "dive",
+      "markers": "dots",
+      "hands": "snowflake",
+      "lume": "#e9dcb8",
+      "sec": "#e9dcb8",
+      "bottom": [
+       "200 m – 660 ft"
+      ],
+      "img": "assets/watches/tudor-black-bay-54-m79000n.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt die Tudor Black Bay 54 Referenz M79000N mit 37 Millimetern, die kleinste Black Bay. Gehäuse und Gliederband sind aus Edelstahl, die drehbare Lünette und das Zifferblatt sind schwarz.",
+      "Typisch ist die Lünette mit durchgehender Minutenskala ohne Ziffernring und dem Leuchtpunkt im Dreieck bei 12 Uhr. Zu erkennen sind die runden Leuchtindizes, das Dreieck bei 12 Uhr und die Balken bei 3, 6 und 9, alle mit cremefarbener Leuchtmasse, dazu der Stundenzeiger in Schneeflockenform. Auf dem Zifferblatt stehen »BLACK BAY 54« und »200m / 660ft«."
+     ],
+     "at": "2023: Black Bay 54"
     }
    ],
    "m": [
     "Große Krone ohne Kronenschutz",
     "Snowflake-Stundenzeiger",
     "Gewölbtes Zifferblatt",
-    "Farbige Lünette"
+    "Farbige Lünette",
+    "Kleinere Ausführungen mit 39 und 37 Millimetern"
    ],
    "tipp": [
-    "Ein beliebter, günstigerer Weg zu sehr hoher Verarbeitungsqualität."
+    "Ein beliebter, günstigerer Weg zu sehr hoher Verarbeitungsqualität.",
+    "Die Fifty-Eight und die 54 sind ideal für schmalere Handgelenke."
    ],
    "ev": [
     [
@@ -7756,13 +8071,26 @@
      "Fifty-Eight und GMT"
     ],
     [
+     "2020",
+     "Fifty-Eight in Navy-Blau"
+    ],
+    [
+     "2021",
+     "Fifty-Eight in Bronze und Silber"
+    ],
+    [
      "2023",
      "Master Chronometer"
+    ],
+    [
+     "2023",
+     "Black Bay 54"
     ]
    ],
    "x": [
     "Auch die rote Lünette geht auf die Tudor-Taucheruhren für die französische Marine (Marine Nationale) ab Ende der 1960er-Jahre zurück.",
-    "Die frühen Black Bay tragen die Tudor-Rose auf dem Zifferblatt, spätere Modelle das Schild; Sammler unterscheiden daran die Generationen."
+    "Die frühen Black Bay tragen die Tudor-Rose auf dem Zifferblatt, spätere Modelle das Schild; Sammler unterscheiden daran die Generationen.",
+    "Die Lünette der Black Bay 54 übernimmt die durchgehende Minuterie der ersten Tudor-Taucheruhr Ref. 7922."
    ],
    "w": "Nietenband, große Krone und Schneeflocken-Zeiger: Mit der Black Bay meldete sich Tudor 2012 im Stil der 1950er-Jahre zurück.",
    "lume": {
@@ -7772,12 +8100,34 @@
    "bh": [
     "2012: Rückgriff auf die Big-Crown-Taucher",
     "Ref. 79220, MT5602 und Master Chronometer",
-    "Bronze, Dark, Chrono und Fifty-Eight"
+    "Die Black-Bay-Familie",
+    "2018: Black Bay Fifty-Eight",
+    "2023: Black Bay 54"
    ],
    "bd": [
     "Die Abbildung zeigt eine aktuelle Tudor Black Bay aus Edelstahl mit 41 Millimetern, wie sie als Referenz 7941A1A0RU gebaut wird. Typisch sind die drehbare Lünette mit bordeauxrotem Einsatz und das schwarze, leicht gewölbte Zifferblatt.",
     "Zu erkennen sind die Minutenskala auf der Lünette mit Leuchtpunkt im Dreieck bei 12 Uhr, runde Leuchtindizes, Balken bei 3, 6 und 9 und ein Dreieck bei 12 Uhr. Der Stundenzeiger hat die Schneeflockenform, Zeiger und Beschriftung sind goldfarben. Unten stehen »200m-660ft« und »MASTER CHRONOMETER«. Die Krone ist groß und unverkleidet, das Stahlband zeigt die Nietenoptik."
-   ]
+   ],
+   "preis": {
+    "u": "USD",
+    "rows": [
+     [
+      "M79030N (Fifty-Eight)",
+      "Liste 2026",
+      5350,
+      "",
+      null
+     ],
+     [
+      "M79000N (54)",
+      "Liste 2026",
+      4900,
+      "",
+      null
+     ]
+    ],
+    "n": "Listenpreise USA 2026 laut Hersteller- bzw. Händlerangaben (Fifty-Eight und 54 jeweils am Stahlband). Ungefähre Werte ohne Gewähr."
+   }
   },
   {
    "id": "pelagos",
@@ -7955,7 +8305,9 @@
     "Der brasilianische Flugpionier Alberto Santos-Dumont klagte seinem Freund Louis Cartier, dass er beim Fliegen die Hände nicht vom Steuer nehmen könne, um auf seine Taschenuhr zu sehen. Cartier entwarf ihm daraufhin 1904 eine Uhr für das Handgelenk, mit quadratischem Gehäuse und Lederband.",
     "Ab 1911 verkaufte Cartier die Santos auch an andere Kunden. Damit gehört sie zu den ersten Armbanduhren für Männer, zu einer Zeit, als Herren fast nur Taschenuhren trugen. Danach entstanden Gold- und Platinversionen im Herrenformat, bevor das Modell fast einschlief.",
     "1978 erschien die Santos de Cartier aus Stahl und Gold mit einem Gliederband, auf dem wie auf der Lünette sichtbare Schrauben sitzen. Sie machte die Santos zur Sportuhr mit Schmuck-Anspruch, positionierte sie zwischen den Stahlsportuhren der 1970er-Jahre und wurde zu einem Erfolg der 1980er-Jahre. 1987 folgte die »Santos Galbée« mit gewölbtem statt flachem Gehäuse; Sammler achten auf diese Unterscheidung.",
-    "2004 folgte zum 100. Jubiläum die Santos 100 in größerem Format, 2018 die Neuauflage mit zwei Größen, gestreckten Bandanstößen und dem Manufakturkaliber 1847 MC. Ihr Band lässt sich mit dem QuickSwitch-System ohne Werkzeug wechseln und mit SmartLink ohne Werkzeug in der Länge anpassen. Seitdem sind Dual-Time-, Skelett- und Chronographenversionen dazugekommen."
+    "2004 erschien zum 100. Jubiläum die Santos 100. Sie ist größer als die Santos de Cartier der 1980er-Jahre und hat ein kantiges Gehäuse mit sichtbaren Schrauben auf der Lünette; es gab sie in Edelstahl und Gold in Größen von 41 bis 51 Millimetern, mit Quarz- oder Automatikwerk. Mit der Neuauflage von 2018 verschwand sie aus dem Programm und ist gebraucht vergleichsweise günstig.",
+    "2018 folgte die Neuauflage mit zwei Größen, gestreckten Bandanstößen und dem Manufakturkaliber 1847 MC. Ihr Band lässt sich mit dem QuickSwitch-System ohne Werkzeug wechseln und mit SmartLink ohne Werkzeug in der Länge anpassen. Seitdem sind Dual-Time-, Skelett- und Chronographenversionen dazugekommen.",
+    "Neben der sportlichen Santos de Cartier blieb die Santos-Dumont die schlanke, elegante Schwester. Sie geht auf die Uhr von 1904 zurück, hat ein deutlich flacheres Gehäuse, römische Ziffern, blaue Schwertzeiger und ein Lederband. 2019 legte Cartier sie in zwei Größen neu auf; die große Ausführung hat das flache Handaufzugskaliber 430 MC auf Basis des Piaget-Kalibers 430P, kleinere Größen gibt es auch mit Quarzwerk."
    ],
    "cur": "Santos de Cartier, Größe Large (z. B. WSSA0018) · seit 2018",
    "f": [
@@ -8012,6 +8364,13 @@
      "39,8 mm",
      "1847 MC",
      "QuickSwitch-Band"
+    ],
+    [
+     "Santos-Dumont Large",
+     "seit 2019",
+     "43,5 × 31,4 mm",
+     "430 MC",
+     "Flaches Handaufzugswerk"
     ]
    ],
    "r": [
@@ -8019,7 +8378,10 @@
     "armbanduhr"
    ],
    "k": "Die Cartier Santos entstand 1904 für einen Flugpionier, der beim Fliegen nicht auf seine Taschenuhr sehen konnte.",
-   "a": [],
+   "a": [
+    "Santos-Dumont",
+    "Santos 100"
+   ],
    "v": {
     "shape": "square",
     "screws": 8,
@@ -8037,6 +8399,53 @@
     "img": "assets/watches/cartier-santos.jpg"
    },
    "var": [
+    {
+     "n": "Santos 100",
+     "y": "2004–2018",
+     "v": {
+      "shape": "square",
+      "dial": "#e8e8e8",
+      "markers": "roman",
+      "hands": "sword",
+      "strap": "santos",
+      "case": "steel",
+      "date": "6",
+      "brandDy": -3,
+      "img": "assets/watches/cartier-santos-100.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Cartier Santos 100, die von 2004 bis 2018 zum hundertjährigen Jubiläum der ersten Santos gebaut wurde. Das kantige Gehäuse ist aus Edelstahl, das Zifferblatt weiß, das Band aus schwarzem Krokodilleder.",
+      "Typisch sind die acht sichtbaren Schrauben auf der quadratischen Lünette, die großen schwarzen römischen Ziffern, der Minutenkreis im Eisenbahnstil und die gebläuten Schwertzeiger. Unter 12 Uhr steht »CARTIER«, über 6 Uhr »AUTOMATIC«. Die achteckige Krone mit blauem Cabochon wird seitlich von einem Kronenschutz eingefasst."
+     ],
+     "at": "2004: Santos 100"
+    },
+    {
+     "n": "Santos-Dumont Large in Roségold",
+     "y": "seit 2019",
+     "v": {
+      "shape": "square",
+      "screws": 0,
+      "dial": "#f3f2ee",
+      "markers": "roman",
+      "hands": "sword",
+      "hc": "#2b4aa8",
+      "cabochon": true,
+      "round": 20,
+      "label": "",
+      "track": "rail",
+      "strap": "leather",
+      "strapColor": "#2a201a",
+      "thin": true,
+      "brandDy": -3,
+      "img": "assets/watches/cartier-santos-dumont-rose-gold.jpg",
+      "case": "rose"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Cartier Santos-Dumont in großer Ausführung mit Gehäuse aus Roségold und dunkelbraunem Lederband. Das flache, quadratische Gehäuse mit abgerundeten Ecken trägt auf der Lünette acht kleine Schrauben.",
+      "Zu erkennen sind das silberweiße Zifferblatt mit schwarzen römischen Ziffern, eine innere Minuterie im Chemin-de-fer-Stil und gebläute Schwertzeiger. In der Mitte steht »CARTIER«. Die Krone ist achteckig und trägt einen blauen Cabochon. Ein Sekundenzeiger oder Datum ist nicht vorhanden, das Lederband hat eine Krokodilprägung."
+     ],
+     "at": "2019: Santos-Dumont"
+    },
     {
      "n": "Zifferblatt Blau",
      "y": "seit 2018",
@@ -8108,6 +8517,10 @@
     [
      "2018",
      "Neuauflage mit QuickSwitch"
+    ],
+    [
+     "2019",
+     "Santos-Dumont mit Kaliber 430 MC"
     ]
    ],
    "x": [
@@ -8130,9 +8543,16 @@
       9200,
       "heute",
       8495
+     ],
+     [
+      "W20106X8 (Santos 100, Stahl)",
+      "Liste (ca.)",
+      6550,
+      "heute",
+      4319
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot (CollectorSquare, Modell von etwa 2000)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot (CollectorSquare, Modell von etwa 2000). Santos 100: Marktschätzung von WatchCharts (Herbst 2026)."
    },
    "w": "Eine der ersten Herren-Armbanduhren der Welt, mit sichtbaren Schrauben auf Lünette und Band.",
    "lume": {
@@ -8143,7 +8563,9 @@
     "1904: Eine Uhr für Santos-Dumont",
     "1911: Eine der ersten Herrenarmbanduhren",
     "1978: Stahl, Gold, Schrauben und »Galbée«",
-    "Santos 100, Neuauflage 2018 und QuickSwitch"
+    "2004: Santos 100",
+    "2018: Neuauflage und QuickSwitch",
+    "2019: Santos-Dumont"
    ],
    "bd": [
     "Die Abbildung zeigt die Santos de Cartier in Edelstahl, wie sie seit 2018 gebaut wird. Das quadratische Gehäuse mit gerundeten Ecken geht fließend in das Gliederband über, das silbrig-weiße Zifferblatt trägt schwarze römische Ziffern.",
@@ -8160,9 +8582,10 @@
     "Louis Cartier entwarf die Tank 1917. Die Form soll von den Panzern inspiriert sein, die im Ersten Weltkrieg erstmals eingesetzt wurden: Die seitlichen Stege, die Brancards, stehen für die Ketten, das Zifferblatt für das Fahrzeug. Ein frühes Exemplar soll Cartier dem amerikanischen General John Pershing geschenkt haben.",
     "Das Zifferblatt mit römischen Ziffern, gebläuten Schwertzeigern und einem Minutenkreis in Form von Eisenbahnschienen, dem »Chemin de fer«, wurde zum Vorbild unzähliger Uhren. Die Tank ist bewusst schlicht und wird bis heute nicht als Sportuhr, sondern als elegantes Schmuckstück getragen.",
     "Kaum eine Uhr hatte so viele berühmte Träger: Andy Warhol, Jacqueline Kennedy, Yves Saint Laurent und Muhammad Ali trugen eine Tank. Warhol soll gesagt haben, er trage sie nicht, um die Zeit abzulesen.",
-    "Die Tank Must kam 2021 neu heraus, auch mit dem SolarBeat-Quarzwerk, das sich durch Licht durch die Ziffern auflädt.",
     "Aus der Tank Normale entwickelte Cartier in den 1920er-Jahren eine ganze Familie: Die Tank Cintrée (1921) hat ein so stark gewölbtes Gehäuse, dass sie sich dem Handgelenk anschmiegt, die Tank Chinoise (1920er) erinnert an chinesische Torbögen, die Tank à Guichets (um 1928) zeigt die Zeit über springende Stunden und Minutenfenster, die Tank Basculante (1932) lässt sich wie die Reverso in einem Rahmen wenden. Mit der Tank Asymétrique (1936) wurde die Form gedreht.",
-    "Nach dem Zweiten Weltkrieg verlor die Tank an Bedeutung, kam aber 1970er-Jahre als »Tank Must« (in Vermeil, günstig) in die Masse. Die Tank Américaine (1989) und die Tank Française (1996) erweiterten das Spektrum in Richtung Armband-Schmuckuhr."
+    "Nach dem Zweiten Weltkrieg verlor die Tank an Bedeutung, kam aber 1970er-Jahre als »Tank Must« (in Vermeil, günstig) in die Masse. Die Tank Américaine (1989) und die Tank Française (1996) erweiterten das Spektrum in Richtung Armband-Schmuckuhr.",
+    "Die Tank Française von 1996 hat statt Bandanstößen ein integriertes Gliederband, das nahtlos ins Gehäuse übergeht; das Zifferblatt trägt römische Ziffern, eine Chemin-de-fer-Minuterie und ein Datumsfenster. Sie erschien zunächst in Gelbgold und zweifarbig, ein Jahr später in Stahl, mit Quarz- oder Automatikwerk in kleiner, mittlerer und großer Ausführung; 2023 überarbeitete Cartier sie. Sie zählt zu den meistverkauften Cartier-Modellen, gebrauchte Stahlmodelle sind günstig.",
+    "Die Tank Must kam 2021 neu heraus, auch mit dem SolarBeat-Quarzwerk, das sich durch Licht durch die Ziffern auflädt."
    ],
    "cur": "Tank Must, Größe Large · Neuauflage 2021",
    "f": [
@@ -8221,6 +8644,13 @@
      "Mit Gliederband"
     ],
     [
+     "Tank Française Chronograph",
+     "2000er",
+     "versch.",
+     "Automatik",
+     "Mit Chronograph"
+    ],
+    [
      "Tank Must",
      "seit 2021",
      "33,7 × 25,5 mm",
@@ -8234,7 +8664,10 @@
     "quarzwerk"
    ],
    "k": "Die Form der Cartier Tank soll auf die Panzer des Ersten Weltkriegs zurückgehen.",
-   "a": [],
+   "a": [
+    "Tank Française",
+    "Tank Francaise"
+   ],
    "v": {
     "shape": "rect",
     "brancards": true,
@@ -8252,6 +8685,25 @@
     "img": "assets/watches/cartier-tank.jpg"
    },
    "var": [
+    {
+     "n": "Tank Française in Stahl",
+     "y": "seit 1996",
+     "v": {
+      "shape": "rect",
+      "dial": "#f1f3f6",
+      "markers": "roman",
+      "hands": "sword",
+      "strap": "integrated",
+      "case": "steel",
+      "brandDy": -1,
+      "img": "assets/watches/cartier-tank-francaise-steel.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Cartier Tank Française aus Edelstahl mit silberweißem Zifferblatt. Typisch ist das integrierte Gliederband, das ohne sichtbare Bandanstöße in das rechteckige Gehäuse mit seinen kräftigen Seitenstegen übergeht.",
+      "Zu erkennen sind schwarze römische Ziffern, eine innere Minuterie im Chemin-de-fer-Stil und gebläute Schwertzeiger. In der Mitte steht »CARTIER«. Die Krone trägt einen blauen Cabochon in einer facettierten Fassung. Ein Datumsfenster ist auf dieser Ausführung nicht zu sehen; die Glieder des Bandes sind satiniert mit polierten Kanten."
+     ],
+     "at": "1996: Tank Française"
+    },
     {
      "n": "Tank Louis Cartier in Gelbgold",
      "y": "seit 1922",
@@ -8348,7 +8800,7 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Tank Must, große Ausführung, Lederband, USA (Mai 2026). Ältere Referenzen: Händlerangebote; Tank Française typisch etwa 3.150 bis 4.900 EUR, Tank Solo ein Angebot von rund 2010.",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Tank Must, große Ausführung, Lederband, USA (Mai 2026). Ältere Referenzen: Händlerangebote; Tank Française typisch etwa 3.150 bis 4.900 EUR, Tank Solo ein Angebot von rund 2010. Tank Française W51008Q3: WatchCharts-Durchschnitt.",
     "rows": [
      [
       "Tank Solo (Stahl, ältere)",
@@ -8371,6 +8823,13 @@
       4100,
       "",
       null
+     ],
+     [
+      "Tank Française W51008Q3",
+      "",
+      null,
+      "heute",
+      2867
      ]
     ]
    },
@@ -8383,9 +8842,10 @@
     "1917: Inspiriert von Panzern",
     "Römische Ziffern und »Chemin de fer«",
     "Berühmte Träger",
-    "2021: Tank Must mit SolarBeat",
     "Cintrée, Chinoise und weitere Varianten",
-    "Nachkriegszeit, Américaine und Française"
+    "Nachkriegszeit, Américaine und Française",
+    "1996: Tank Française",
+    "2021: Tank Must mit SolarBeat"
    ],
    "bd": [
     "Die Abbildung zeigt eine Cartier Tank im rechteckigen Gehäuse aus hellem Metall mit den seitlichen Stegen, den Brancards. Das Zifferblatt ist cremeweiß, getragen wird die Uhr an einem schwarzen Lederband mit Krokodilprägung. Seit 2021 gibt es die Tank Must in dieser Form neu.",
@@ -8401,6 +8861,7 @@
    "b": [
     "Ende der 1930er-Jahre bestellten zwei portugiesische Uhrenhändler bei IWC eine Armbanduhr, die so genau sein sollte wie ein Schiffschronometer. Das ging damals nur mit einem großen Taschenuhrwerk. IWC baute deshalb ein Handaufzugskaliber für Taschenuhren in ein Armbandgehäuse von über 41 Millimetern ein, für die damalige Zeit riesig. Ab 1939 entstanden nur wenige Exemplare dieser Ref. 325 für portugiesische Kunden.",
     "Bis in die 1990er-Jahre blieb die Portugieser ein Randereignis mit kleinen Stückzahlen. 1993 erinnerte die Portugieser Jubilee (Ref. 5441) zum 125. Geburtstag der Marke an das Konzept und fand überraschend viel Zuspruch. Mit dem Trend zu großen Uhren wurde die Portugieser zum Erfolg, besonders der Portugieser Chronograph von 1998 mit seinem klaren Zifferblatt, den aufgesetzten arabischen Ziffern und einem Werk auf Basis des Valjoux 7750.",
+    "Als sportliche Schwester entstand in den 1990er-Jahren die Portugieser Yacht Club, als Dreizeiger und als Chronograph. Sie hat ein 43-Millimeter-Gehäuse, kräftige Zeiger und große Ziffern, damit man sie auch in Bewegung ablesen kann, dazu blaue oder weiße Details, die an Segelboote und Marineflaggen erinnern. Mit 60 Metern Wasserdichtigkeit und Kautschukband ist sie wassertauglicher als die klassische Portugieser. Auf dem Zweitmarkt ist sie weniger gefragt als der Portugieser Chronograph und deshalb günstiger.",
     "2000 stellte IWC die Portugieser Automatic mit dem eigenen Pellaton-Werk 5000, sieben Tagen Gangreserve und einer Gangreserveanzeige auf dem Zifferblatt vor. Der Pellaton-Aufzug zieht in beide Drehrichtungen des Rotors auf.",
     "2003 folgte der Ewige Kalender nach Kurt Klaus, 2015 der Jahreskalender. Heute umfasst die Portugieser-Familie außerdem Modelle mit Tourbillon, Minutenrepetition und Weltzeit.",
     "Optisch blieb die Portugieser konstant: dünne Lünette, aufgesetzte arabische Applikationsziffern, Stahl-Blattzeiger und die Minuterie im Eisenbahnstil. Gerade weil sich das Zifferblatt kaum verändert hat, erkennt man Generationen an Werk, Größe und Details wie Datumsfenster oder Gangreserveanzeige."
@@ -8435,6 +8896,13 @@
      "41,5 mm",
      "74 (Taschenuhrwerk)",
      "Original, Handaufzug"
+    ],
+    [
+     "Yacht Club",
+     "seit 1990er",
+     "43 mm",
+     "Automatik",
+     "Sportliche Linie, auch als Chronograph"
     ],
     [
      "3714",
@@ -8479,7 +8947,9 @@
     "big-pilot"
    ],
    "k": "Die IWC Portugieser war 1939 so groß, weil in ihr ein Taschenuhrwerk steckte.",
-   "a": [],
+   "a": [
+    "Portugieser Yacht Club"
+   ],
    "v": {
     "dial": "#f2f2ee",
     "markers": "arabicAll",
@@ -8506,6 +8976,10 @@
     [
      "1939",
      "Auftrag zweier portugiesischer Kaufleute"
+    ],
+    [
+     "1990er",
+     "Portugieser Yacht Club als sportliche Variante"
     ],
     [
      "1993",
@@ -8535,7 +9009,7 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Portugieser Automatic 42, IW501701, USA 2026. Ältere Referenzen: Händlerangebot für ein aufgearbeitetes Exemplar (Watches of Switzerland).",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Portugieser Automatic 42, IW501701, USA 2026. Ältere Referenzen: Händlerangebot für ein aufgearbeitetes Exemplar (Watches of Switzerland). Yacht Club Chronograph: Händlerangebot für ein Exemplar mit geschätzter Liste.",
     "rows": [
      [
       "3714 Chronograph",
@@ -8550,6 +9024,13 @@
       13900,
       "",
       null
+     ],
+     [
+      "Yacht Club Chronograph",
+      "Liste (geschätzt)",
+      15100,
+      "heute",
+      8950
      ]
     ]
    },
@@ -8596,6 +9077,7 @@
    "bh": [
     "Ende der 1930er: Taschenuhrwerk am Arm",
     "1993 Jubilee, 1998 Chronograph",
+    "Portugieser Yacht Club",
     "2000: Automatic mit Pellaton-Aufzug",
     "Kalender und große Komplikationen",
     "Konstantes Zifferblatt, erkennbare Generationen"
@@ -11362,12 +11844,15 @@
    "since": "1948",
    "a": [
     "Mark XX",
-    "Mark 11"
+    "Mark 11",
+    "Pilot’s Watch Chronograph",
+    "Pilot's Watch Chronograph"
    ],
    "s": "Die schlichte Fliegeruhr, deren Vorfahrin Mark 11 jahrzehntelang am Handgelenk der Royal-Air-Force-Navigatoren saß.",
    "b": [
     "1948 lieferte IWC die Mark 11 an die britische Royal Air Force. Gebaut wurde sie nach der britischen Militärspezifikation 6B/346, die bis heute auf Sammlerstücken auftaucht und bei Mark-11-Sammlern ein feststehender Begriff ist. Sie war eine Navigationsuhr mit Weicheisen-Innengehäuse gegen die Magnetfelder im Cockpit und einem sehr gut ablesbaren schwarzen Zifferblatt. Die RAF nutzte sie bis in die 1980er-Jahre.",
     "1994 griff IWC das Design mit der Mark XII wieder auf. Seitdem folgt etwa alle fünf Jahre eine neue Generation (XII, XV, XVI, XVII, XVIII, XX). Die Reihe folgt einer festen Formel: Dreieck mit zwei Punkten bei 12 Uhr, große Zahlen mit Leuchtmasse, schlichtes Datum bei 3 Uhr, Weicheisen-Innengehäuse. Die Gehäuse wachsen oder schrumpfen je nach Mode: von 36 mm der Mark XII über 41 mm der Mark XVII bis zu 40 mm der Mark XVIII und XX. Nachdem die Mark XVII drei Datumsfenster hatte, kehrte die Mark XVIII (2016) wieder zu einem Datum bei 3 Uhr zurück.",
+    "Ebenfalls 1994 ergänzte IWC die Fliegeruhren um den Pilot’s Watch Chronograph. Er verbindet das schwarze Zifferblatt mit dem Dreieck bei 12 Uhr und das Weicheisen-Innengehäuse gegen Magnetfelder mit einem Chronographenwerk, zunächst aus der Valjoux-7750-Familie, später aus der IWC-Familie 69000. Er zählt zu den meistverkauften Chronographen der Marke. Aus ihm gingen die Spitfire-Linie mit Bezug auf britische Flugzeuge und die Top-Gun-Modelle mit Keramikgehäuse hervor.",
     "Die Mark XX von 2022 hat das Manufakturwerk 32111 mit fünf Tagen (120 Stunden) Gangreserve und ist bis 100 Meter wasserdicht, für eine Fliegeruhr ungewöhnlich viel."
    ],
    "cur": "Mark XX (IW3282) · seit 2022",
@@ -11411,6 +11896,13 @@
      "36 mm",
      "884/2",
      "Neuauflage"
+    ],
+    [
+     "Pilot’s Watch Chronograph",
+     "seit 1994",
+     "41–43 mm",
+     "7750 / 69000",
+     "Fliegerchronograph"
     ],
     [
      "Mark XV",
@@ -11472,12 +11964,14 @@
     "Schlichtes Fliegerzifferblatt",
     "Dreieck bei 12 Uhr",
     "Datum bei 3 Uhr",
-    "Weicheisen-Innengehäuse"
+    "Weicheisen-Innengehäuse",
+    "Als Chronograph mit drei Hilfszifferblättern erhältlich"
    ],
    "tipp": [
     "Einer der besten Einstiege in die Welt von IWC.",
     "Die Mark XII gilt bei Sammlern als besonders gelungen.",
-    "Die Mark 11 hatte ursprünglich Radium-Leuchtmasse; bei späteren Revisionen erhielten viele Zifferblätter Tritium, erkennbar an einem »T« im Kreis."
+    "Die Mark 11 hatte ursprünglich Radium-Leuchtmasse; bei späteren Revisionen erhielten viele Zifferblätter Tritium, erkennbar an einem »T« im Kreis.",
+    "Beim Pilot’s Watch Chronograph die Drücker und die Stoppfunktion prüfen."
    ],
    "x": [
     "Die Datumsscheibe ist schwarz, damit sie sich unauffällig ins Zifferblatt fügt."
@@ -11498,9 +11992,16 @@
       5800,
       "heute",
       4950
+     ],
+     [
+      "IW377709 (Chronograph)",
+      "Liste (ca.)",
+      5500,
+      "heute",
+      4300
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Vintage-Referenzen: Händlerangebot für ein Exemplar; Exemplare mit militärischer Provenienz liegen deutlich höher."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Vintage-Referenzen: Händlerangebot für ein Exemplar; Exemplare mit militärischer Provenienz liegen deutlich höher. IW377709: Gebrauchtwert als Mitte der Händler- und Privatangebote zwischen 3.200 und 4.450 EUR; Listenpreisangaben schwanken zwischen 4.900 und 5.200 EUR."
    },
    "ev": [
     [
@@ -11510,6 +12011,14 @@
     [
      "1994",
      "Mark XII"
+    ],
+    [
+     "1994",
+     "Pilot’s Watch Chronograph"
+    ],
+    [
+     "2000er",
+     "Spitfire- und Top-Gun-Linien"
     ],
     [
      "2016",
@@ -11528,11 +12037,35 @@
    "bh": [
     "1948: Mark 11 für die RAF",
     "1994: Mark XII und die Formel der Reihe",
+    "1994: Pilot’s Watch Chronograph",
     "Mark XX mit fünf Tagen Gangreserve"
    ],
    "bd": [
     "Die Abbildung zeigt eine IWC Pilot's Watch Mark XX aus Edelstahl mit 40 Millimetern und schwarzem Zifferblatt, wie sie seit 2022 gebaut wird. Getragen wird sie an einem olivgrünen Textilband mit heller Naht.",
     "Typisch ist die Formel der Mark-Reihe: das Dreieck mit zwei Punkten bei 12 Uhr, große weiße arabische Ziffern mit Leuchtmasse und ein schlichtes Datumsfenster bei 3 Uhr. Zu erkennen sind außerdem die Schwertzeiger, die feine Minuterie und die Aufschrift »MARK XX AUTOMATIC« unter der Mitte. Gehäuse und Lünette sind poliert, die Krone ist groß und gerillt."
+   ],
+   "var": [
+    {
+     "n": "Pilot’s Watch Chronograph",
+     "y": "seit 1994",
+     "v": {
+      "dial": "#17191d",
+      "sub": "chrono3",
+      "markers": "pilot",
+      "hands": "baton",
+      "crown": "onion",
+      "pushers": true,
+      "strap": "leather",
+      "strapColor": "#2a1a10",
+      "case": "steel",
+      "img": "assets/watches/iwc-pilots-watch-chronograph-black.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine IWC Pilot’s Watch Chronograph aus der aktuellen Kollektion mit Edelstahlgehäuse, schwarzem Zifferblatt und schwarzem Lederband mit heller Naht.",
+      "Typisch ist das Fliegerzifferblatt mit großen weißen arabischen Ziffern und einem Dreieck bei 12 Uhr. Zu erkennen sind drei Hilfszifferblätter: oben der Minutenzähler, links die kleine Sekunde und unten der Stundenzähler. Bei 3 Uhr liegt ein Fenster für Wochentag und Datum, hier »MON 25«, rechts sitzen Krone und zwei Drücker. Die Zeiger sind breite Schwertzeiger mit Leuchtfüllung."
+     ],
+     "at": "1994: Pilot’s Watch Chronograph"
+    }
    ]
   },
   {
@@ -11653,141 +12186,6 @@
    "bd": [
     "Die Abbildung zeigt eine Breitling Superocean Automatic aus Edelstahl mit blauer Lünette und blauem Zifferblatt. Die Drehlünette trägt eine Taucherskala mit großen Ziffern bei 15, 30 und 45 und einen Leuchtpunkt bei 12 Uhr.",
     "Zu erkennen sind breite, an den Enden abgeschrägte Leuchtindizes, Stabzeiger mit Leuchtfüllung und ein Sekundenzeiger mit Leuchtpunkt. Unter dem geflügelten »B« und »BREITLING 1884« steht der geschwungene Schriftzug »SuperOcean« sowie die Tiefenangabe »300M / 1000FT«. Das Datumsfenster sitzt bei 3 Uhr. Rechts ist die verschraubte Krone, dazu kommt ein Stahlgliederband."
-   ]
-  },
-  {
-   "id": "black-bay-58",
-   "t": "Tudor Black Bay 58",
-   "brand": "Tudor",
-   "since": "2018",
-   "s": "Die kompakte Black Bay mit 39 Millimetern und goldfarbenen Details, im Stil der Tudor-Taucheruhren von 1958.",
-   "b": [
-    "Die Black Bay 58 kam 2018 und wurde schnell zu einer der beliebtesten Taucheruhren ihrer Preisklasse. Die Zahl im Namen erinnert an die Tudor-Referenz 7924 von 1958, die erste Tudor-Taucheruhr mit 200 Metern Wasserdichtigkeit, die Sammler »Big Crown« nennen.",
-    "Mit 39 Millimetern ist sie kleiner und flacher als die normale Black Bay und passt deshalb an viele Handgelenke. Goldfarbene Zeiger und Schrift sowie eine leicht vergilbte Leuchtmasse geben ihr einen Vintage-Charakter.",
-    "Neben Schwarz gibt es sie seit 2020 in Navy-Blau, seit 2021 auch in Bronze und in Silber.",
-    "Die Black Bay 58 leitete eine Welle kleinerer Taucheruhren ein. Mit dem Manufakturwerk MT5402 und aluminiumeingelegter Lünette trifft sie den Geschmack derjenigen, denen die große Black Bay zu wuchtig war."
-   ],
-   "cur": "Ref. M79030N · seit 2018",
-   "f": [
-    [
-     "Gehäuse",
-     "39 mm, Edelstahl"
-    ],
-    [
-     "Kaliber",
-     "MT5402, Automatik, 28.800 A/h"
-    ],
-    [
-     "Gangreserve",
-     "≈ 70 Stunden"
-    ],
-    [
-     "Zertifizierung",
-     "COSC-Chronometer"
-    ],
-    [
-     "Lünette",
-     "einseitig drehbar, Aluminium"
-    ],
-    [
-     "Wasserdicht",
-     "200 m"
-    ]
-   ],
-   "refs": [
-    [
-     "7924",
-     "1958–1959",
-     "37 mm",
-     "390",
-     "Vorbild »Big Crown«"
-    ],
-    [
-     "M79030N",
-     "seit 2018",
-     "39 mm",
-     "MT5402",
-     "Black Bay 58 schwarz"
-    ],
-    [
-     "M79030B",
-     "seit 2020",
-     "39 mm",
-     "MT5402",
-     "Navy-Blau"
-    ]
-   ],
-   "r": [
-    "black-bay",
-    "pelagos",
-    "submariner"
-   ],
-   "k": "Die »58« im Namen der Tudor Black Bay 58 erinnert an die erste 200-Meter-Taucheruhr von Tudor aus dem Jahr 1958.",
-   "a": [],
-   "v": {
-    "dial": "#17191d",
-    "bezel": "dive",
-    "markers": "dots",
-    "hands": "snowflake",
-    "lume": "#e5d5a8",
-    "hc": "#d4b56a",
-    "crown": "big",
-    "bottom": [
-     "CHRONOMETER",
-     "200 m – 660 ft"
-    ],
-    "img": "assets/watches/tudor-black-bay-58.jpg"
-   },
-   "m": [
-    "39 Millimeter, flaches Gehäuse",
-    "Goldfarbene Zeiger und Schrift",
-    "Snowflake-Zeiger",
-    "Leuchtmasse in Vintage-Farbe"
-   ],
-   "tipp": [
-    "Die blaue Version gilt als eine der schönsten Tudor-Uhren."
-   ],
-   "x": [
-    "Mit rund 11,9 mm Höhe gilt die BB58 als eine der tragefreundlichsten modernen Taucheruhren.",
-    "Die goldfarbenen Akzente auf dem Zifferblatt erinnern an »gilt«-Zifferblätter der späten 1950er-Jahre.",
-    "Die Silberversion ist aus 925er-Silber gefertigt; daneben gibt es eine Ausführung in 18-karätigem Gold, ein für Tudor ungewöhnliches Material."
-   ],
-   "preis": {
-    "u": "USD",
-    "liste": [
-     5350,
-     "Black Bay 58, Stahlband, USA 2026"
-    ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
-   },
-   "ev": [
-    [
-     "2018",
-     "Black Bay Fifty-Eight"
-    ],
-    [
-     "2020",
-     "Navy-Blau-Version"
-    ],
-    [
-     "2021",
-     "Bronze-Version"
-    ]
-   ],
-   "w": "Mit 39 Millimetern kleiner und flacher als die normale Black Bay, angelehnt an die Tudor-Taucheruhren von 1958.",
-   "lume": {
-    "z": "IHP",
-    "c": "g"
-   },
-   "bh": [
-    "2018: Erinnerung an die »Big Crown«",
-    "39 Millimeter und Vintage-Details",
-    "Navy-Blau, Bronze und Silber",
-    "Kaliber MT5402 und kleinere Taucheruhren"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine Tudor Black Bay 58 mit schwarzem Zifferblatt, Referenz M79030N, die seit 2018 mit 39 Millimetern gebaut wird. Gehäuse und Gliederband sind aus Edelstahl, die Drehlünette hat eine schwarze Aluminiumeinlage mit goldfarbener Skala.",
-    "Zu erkennen sind der eckige »Snowflake«-Stundenzeiger, goldfarbene Zeiger und Indexrahmen, runde Leuchtindizes mit Balken bei 3, 6 und 9 und ein Dreieck bei 12 Uhr. Die Leuchtmasse ist leicht vergilbt eingefärbt. Auf der Lünette sitzt bei 12 Uhr ein rotes Dreieck. Ein Datum fehlt; die Krone ist ohne Kronenschutz."
    ]
   },
   {
@@ -18948,240 +19346,6 @@
    ]
   },
   {
-   "id": "black-bay-54",
-   "t": "Tudor Black Bay 54",
-   "brand": "Tudor",
-   "since": "2023",
-   "s": "Kompakte Taucheruhr mit 37 Millimetern, angelehnt an die erste Tudor-Taucheruhr von 1954.",
-   "b": [
-    "Tudor stellte die Black Bay 54 im Jahr 2023 vor. Ihr Name erinnert an die Oyster Prince Submariner Ref. 7922 von 1954, die erste Taucheruhr der Marke. Mit 37 Millimetern ist sie die kleinste Black Bay.",
-    "Anders als bei den anderen Black-Bay-Modellen hat die Lünette eine durchgehende Minutenskala ohne Ziffernring, und die Krone ist schlanker. Im Inneren arbeitet das Manufakturkaliber MT5400 mit rund 70 Stunden Gangreserve."
-   ],
-   "cur": "Ref. M79000N · seit 2023",
-   "f": [
-    [
-     "Gehäuse",
-     "37 mm, Edelstahl"
-    ],
-    [
-     "Kaliber",
-     "MT5400, Automatik"
-    ],
-    [
-     "Gangreserve",
-     "≈ 70 Stunden"
-    ],
-    [
-     "Genauigkeit",
-     "COSC-zertifizierter Chronometer"
-    ],
-    [
-     "Wasserdicht",
-     "200 m"
-    ],
-    [
-     "Band",
-     "Edelstahl oder Kautschuk"
-    ]
-   ],
-   "refs": [
-    [
-     "7922",
-     "1954",
-     "37 mm",
-     "390",
-     "Erste Tudor-Taucheruhr"
-    ],
-    [
-     "M79000N",
-     "seit 2023",
-     "37 mm",
-     "MT5400",
-     "Black Bay 54"
-    ]
-   ],
-   "r": [
-    "automatik",
-    "chronometer",
-    "luenette",
-    "black-bay",
-    "black-bay-58",
-    "submariner"
-   ],
-   "k": "Die Black Bay 54 ist so groß wie die erste Tudor-Taucheruhr von 1954.",
-   "a": [
-    "BB54"
-   ],
-   "v": {
-    "dial": "#17191d",
-    "bezel": "dive",
-    "markers": "dots",
-    "hands": "snowflake",
-    "lume": "#e9dcb8",
-    "sec": "#e9dcb8",
-    "bottom": [
-     "200 m – 660 ft"
-    ],
-    "img": "assets/watches/tudor-black-bay-54-m79000n.jpg"
-   },
-   "m": [
-    "37-mm-Gehäuse",
-    "Schneeflocken-Zeiger",
-    "Lünette mit durchgehender Minutenskala",
-    "Kein Datum"
-   ],
-   "tipp": [
-    "Ideal für schmale Handgelenke."
-   ],
-   "x": [
-    "Die durchgehende Minuterie der Lünette übernimmt sie von der ersten Tudor-Taucheruhr Ref. 7922.",
-    "Die Faltschließe hat die T-fit-Schnellverstellung, mit der sich das Band ohne Werkzeug um bis zu 8 mm verlängern lässt.",
-    "Mit rund 11,2 mm Höhe ist sie flacher als die BB58.",
-    "Wie die Original-7922 hat die Black Bay 54 kein Datum."
-   ],
-   "preis": {
-    "u": "USD",
-    "liste": [
-     4900,
-     "Black Bay 54, Stahlband, USA 2026"
-    ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
-   },
-   "ev": [
-    [
-     "1954",
-     "Submariner Ref. 7922"
-    ],
-    [
-     "2023",
-     "Black Bay 54"
-    ]
-   ],
-   "w": "Mit 37 Millimetern die kleinste Black Bay; wie bei der ersten Tudor-Taucheruhr fehlt der Ziffernring auf der Lünette.",
-   "lume": {
-    "z": "IHP",
-    "c": "g"
-   },
-   "bd": [
-    "Die Abbildung zeigt die Tudor Black Bay 54 Referenz M79000N mit 37 Millimetern, die kleinste Black Bay. Gehäuse und Gliederband sind aus Edelstahl, die drehbare Lünette und das Zifferblatt sind schwarz.",
-    "Typisch ist die Lünette mit durchgehender Minutenskala ohne Ziffernring und dem Leuchtpunkt im Dreieck bei 12 Uhr. Zu erkennen sind die runden Leuchtindizes, das Dreieck bei 12 Uhr und die Balken bei 3, 6 und 9, alle mit cremefarbener Leuchtmasse, dazu der Stundenzeiger in Schneeflockenform. Auf dem Zifferblatt stehen »BLACK BAY 54« und »200m / 660ft«."
-   ]
-  },
-  {
-   "id": "santos-dumont",
-   "t": "Cartier Santos-Dumont",
-   "brand": "Cartier",
-   "since": "1904",
-   "s": "Flache Dresswatch mit quadratischem Gehäuse, benannt nach dem Flugpionier Alberto Santos-Dumont.",
-   "b": [
-    "Louis Cartier entwarf 1904 für seinen Freund, den brasilianischen Flugpionier Alberto Santos-Dumont, eine Uhr, die man am Handgelenk tragen konnte, ohne beim Fliegen die Hände vom Steuer zu nehmen. Sie gilt als eine der ersten Armbanduhren für Männer.",
-    "Während die Santos de Cartier zur Sportuhr wurde, blieb die Santos-Dumont ihre schlanke, elegante Schwester und das dressige Gegenstück: Die acht Schrauben auf der Lünette teilt sie mit der Santos, doch ihr rechteckig-quadratisches Gehäuse ist deutlich flacher; dazu kommen römische Ziffern, Schwertzeiger und ein Lederband. Die große Ausführung hat ein Handaufzugswerk.",
-    "2019 brachte Cartier die Linie in zwei Größen und mit dem flachen Handaufzugskaliber 430 MC neu auf, das auf dem Piaget-Kaliber 430P basiert."
-   ],
-   "cur": "Santos-Dumont Large in Roségold · Handaufzug",
-   "f": [
-    [
-     "Gehäuse",
-     "43,5 × 31,4 mm, Roségold"
-    ],
-    [
-     "Kaliber",
-     "430 MC, Handaufzug"
-    ],
-    [
-     "Gangreserve",
-     "≈ 38 Stunden"
-    ],
-    [
-     "Wasserdicht",
-     "30 m"
-    ],
-    [
-     "Krone",
-     "Mit blauem Cabochon"
-    ],
-    [
-     "Band",
-     "Alligatorleder"
-    ]
-   ],
-   "refs": [
-    [
-     "Santos-Dumont",
-     "1904",
-     "–",
-     "Handaufzug",
-     "Einzelstück für Alberto Santos-Dumont"
-    ],
-    [
-     "Santos-Dumont Large",
-     "seit 2019",
-     "43,5 mm",
-     "430 MC",
-     "Flaches Handaufzugswerk"
-    ]
-   ],
-   "r": [
-    "handaufzug",
-    "armbanduhr",
-    "santos",
-    "tank"
-   ],
-   "k": "Die Santos-Dumont gilt als eine der ersten Armbanduhren für Männer.",
-   "a": [],
-   "v": {
-    "shape": "square",
-    "screws": 0,
-    "dial": "#f3f2ee",
-    "markers": "roman",
-    "hands": "sword",
-    "hc": "#2b4aa8",
-    "cabochon": true,
-    "round": 20,
-    "label": "",
-    "track": "rail",
-    "strap": "leather",
-    "strapColor": "#2a201a",
-    "thin": true,
-    "brandDy": -3,
-    "img": "assets/watches/cartier-santos-dumont-rose-gold.jpg",
-    "case": "rose"
-   },
-   "m": [
-    "Quadratisches, flaches Gehäuse",
-    "Römische Ziffern und Minutenschiene",
-    "Blaue Schwertzeiger",
-    "Acht Schrauben auf der Lünette"
-   ],
-   "tipp": [
-    "Auch als Quarzversion in kleineren Größen erhältlich."
-   ],
-   "ev": [
-    [
-     "1904",
-     "Entwurf für Alberto Santos-Dumont"
-    ],
-    [
-     "2019",
-     "Neuauflage mit Kaliber 430 MC"
-    ]
-   ],
-   "w": "Die flache Dresswatch-Schwester der Santos, mit glatter Lünette.",
-   "lume": {
-    "z": "",
-    "c": "g"
-   },
-   "bh": [
-    "1904: Uhr für einen Flugpionier",
-    "Die schlanke Schwester der Santos",
-    "2019: Kaliber 430 MC"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine Cartier Santos-Dumont in großer Ausführung mit Gehäuse aus Roségold und dunkelbraunem Lederband. Das flache, quadratische Gehäuse mit abgerundeten Ecken trägt auf der Lünette acht kleine Schrauben.",
-    "Zu erkennen sind das silberweiße Zifferblatt mit schwarzen römischen Ziffern, eine innere Minuterie im Chemin-de-fer-Stil und gebläute Schwertzeiger. In der Mitte steht »CARTIER«. Die Krone ist achteckig und trägt einen blauen Cabochon. Ein Sekundenzeiger oder Datum ist nicht vorhanden, das Lederband hat eine Krokodilprägung."
-   ]
-  },
-  {
    "id": "portofino",
    "t": "IWC Portofino",
    "brand": "IWC",
@@ -19690,148 +19854,6 @@
    "bd": [
     "Die Abbildung zeigt die Rolex Yacht-Master II Referenz 116680 mit 44 Millimetern in Edelstahl, mit blauer Keramiklünette, weißem Zifferblatt und Oyster-Band.",
     "Typisch ist die Regatta-Funktion: Die Lünette trägt die Ziffern 10 bis 0 und den Schriftzug »Yacht-Master II«, auf dem Zifferblatt verläuft ein blau eingefasster Bogen mit Countdown-Ziffern und einem roten Dreieck. Zu erkennen sind außerdem der rote zentrale Zeiger, die kleine Sekunde mit blauem Ring bei 6 Uhr, eckig eingefasste Leuchtindizes, der Mercedes-Stundenzeiger und zwei Drücker neben der Krone mit Kronenschutz."
-   ]
-  },
-  {
-   "id": "turn-o-graph",
-   "t": "Rolex Turn-O-Graph",
-   "brand": "Rolex",
-   "since": "1953",
-   "s": "Eine der ersten Rolex mit drehbarer Lünette, später als Datejust Turn-O-Graph und »Thunderbird« bekannt.",
-   "b": [
-    "Die Turn-O-Graph erschien 1953 und gehört zu den frühen Rolex-Sportuhren mit drehbarer Lünette. Das Prinzip war einfach: Man drehte die Lünette auf den Minutenzeiger und konnte die verstrichene Zeit ablesen, ohne einen Chronographen zu benötigen. Im selben Jahr führte Rolex die Submariner ein; beide Uhren zeigen, wie intensiv das Haus damals mit dem Konzept der Funktionslünette experimentierte.",
-    "Die erste Referenz, die 6202, trug ein Gehäuse von 36 Millimetern und ein Perpetual-Automatikwerk. Später setzte sich der Name »Thunderbird« durch, weil die Kunstflugstaffel der US Air Force, die Thunderbirds, die Uhren trug. Ein Beispiel dafür, wie wichtig die Verbindung zu Piloten und Taucher-Teams für Rolex’ Markenbild damals war.",
-    "Ab den 1960er-Jahren wurde der Name auf Datejust-Modelle mit drehbarer Lünette übertragen. Die Datejust Turn-O-Graph hat eine Stahllünette mit 60-Minuten-Skala und blieb mit verschiedenen Zifferblättern lange im Programm. 2004 kam mit der Ref. 116264 eine moderne Version mit Automatikwerk und Saphirglas.",
-    "Heute sind die frühen Exemplare bei Sammlern gesucht, die moderne Version gilt als günstiger Einstieg in die Sport-Datejust. Gut erhaltene Vintage-Modelle sind selten, weil sie im Alltag getragen wurden."
-   ],
-   "cur": "Datejust Turn-O-Graph (bis in die 2010er)",
-   "f": [
-    [
-     "Gehäuse",
-     "36 mm, Edelstahl oder Stahl-Gold"
-    ],
-    [
-     "Lünette",
-     "drehbar, 60 Minuten"
-    ],
-    [
-     "Kaliber",
-     "3135"
-    ],
-    [
-     "Besonderheit",
-     "Beiname »Thunderbird«"
-    ]
-   ],
-   "refs": [
-    [
-     "6202",
-     "1953–1950er",
-     "36 mm",
-     "1030",
-     "Erste Turn-O-Graph"
-    ],
-    [
-     "Datejust Turn-O-Graph",
-     "1980er–2000er",
-     "36 mm",
-     "3135",
-     "Mit Datum"
-    ],
-    [
-     "116264",
-     "2004–2010er",
-     "36 mm",
-     "3135",
-     "Letzte Generation"
-    ]
-   ],
-   "r": [
-    "datejust",
-    "submariner",
-    "luenette"
-   ],
-   "k": "Die Turn-O-Graph bekam ihren Beinamen nach den Thunderbirds, der Kunstflugstaffel der US Air Force.",
-   "a": [],
-   "v": {
-    "dial": "#1f4a8a",
-    "tex": "sunburst",
-    "markers": "baton",
-    "hands": "baton",
-    "bezel": "fluted",
-    "date": "cyclops",
-    "strap": "jubilee",
-    "case": "steel",
-    "img": "assets/watches/rolex-turn-o-graph-116264-black.jpg"
-   },
-   "m": [
-    "Drehbare Lünette",
-    "Cyclops-Lupe bei späteren Modellen",
-    "Kombination aus Stahl und Gold"
-   ],
-   "tipp": [
-    "Bei Vintage-Modellen auf Originalität von Lünette und Zifferblatt achten; viele Zifferblätter wurden nachträglich aufgefrischt."
-   ],
-   "x": [
-    "Die Lünette der 6202 trug die Beschriftung »Turn-O-Graph«, während spätere Datejust-Modelle nur noch »Datejust« auf dem Zifferblatt führen.",
-    "Die Referenz 116264 war über längere Zeit mit Stahl-Oyster- und Jubilé-Band lieferbar."
-   ],
-   "ev": [
-    [
-     "1953",
-     "Turn-O-Graph Ref. 6202"
-    ],
-    [
-     "1960er",
-     "Datejust-Modelle mit Drehlünette"
-    ],
-    [
-     "2004",
-     "Ref. 116264 mit Automatik und Saphirglas"
-    ],
-    [
-     "2010er",
-     "Auslauf der klassischen Linie"
-    ]
-   ],
-   "w": "Rolex mit drehbarer Lünette vor der Submariner, später als Datejust Turn-O-Graph bekannt.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "Datejust Turn-O-Graph 116264",
-      "Liste 2004",
-      4890,
-      "heute",
-      7973,
-      [
-       "EUR",
-       "USD"
-      ],
-      [
-       [
-        "2021",
-        7650,
-        "USD"
-       ]
-      ]
-     ]
-    ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Händlerpreise liegen bei 7.950 bis 9.850 EUR; ein Exemplar von 2004 erzielte 2023 bei einer Auktion 8.400 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
-   },
-   "lume": {
-    "z": "IH",
-    "c": "b"
-   },
-   "bh": [
-    "1953: Die Funktionslünette",
-    "Referenz 6202 und »Thunderbird«",
-    "Datejust Turn-O-Graph und Ref. 116264",
-    "Vintage-Exemplare und Einstiegsmodell"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine Rolex Datejust Turn-O-Graph in der Art der Referenz 116264 mit Gehäuse und Oyster-Band aus Edelstahl, schwarzem Zifferblatt und geriffelter, drehbarer Lünette mit 60-Minuten-Skala.",
-    "Zu erkennen sind die schwarzen Ziffern 10 bis 50 auf der Lünette, das rote Dreieck bei 12 Uhr, der rote Sekundenzeiger und der rote Schriftzug »TURN-O-GRAPH«. Das Datumsfenster bei 3 Uhr mit Zykloplupe zeigt die Zahl in Rot. Aufgesetzte Stabindizes und Stabzeiger tragen helle Leuchtmasse, darüber stehen »OYSTER PERPETUAL DATEJUST«."
    ]
   },
   {
@@ -20429,250 +20451,6 @@
    ]
   },
   {
-   "id": "dark-side-of-the-moon",
-   "t": "Omega Speedmaster Dark Side of the Moon",
-   "brand": "Omega",
-   "since": "2013",
-   "s": "Die schwarze Speedmaster aus Keramik, benannt nach der Rückseite des Mondes.",
-   "b": [
-    "Die Dark Side of the Moon erschien 2013 und war die erste Omega-Uhr mit Gehäuse und Zifferblatt aus schwarzer Zirkonoxid-Keramik. Der Name verweist auf die Mondrückseite, die Menschen erst durch die Raumfahrt sehen konnten. Die Uhr ist Teil der Speedmaster-Familie und trägt das Co-Axial-Chronographen-Kaliber 9300.",
-    "Die Herstellung des Keramikgehäuses war aufwendig. Zirkonoxid wird bei hoher Temperatur gesintert und anschließend bearbeitet; die Kanten und Polierungen sind schwieriger als bei Stahl. Das Material ist extrem kratzfest, aber bruchempfindlicher als Metall. Das Keramik-Zifferblatt ist durch Laser strukturiert und wirkt matt und gleichmäßig.",
-    "Später kamen weitere Varianten hinzu, darunter die »Grey Side of the Moon« mit grauem Zifferblatt und die »Apollo 8« mit Mondmotiv. Das Gehäuse ist mit 44,25 Millimetern groß, die Wasserdichtigkeit liegt bei 50 Metern.",
-    "Bei Sammlern ist die Uhr ein Beispiel für Omegas Experimentierfreude. Die Preise liegen unter dem Niveau der Stahl-Moonwatch, sind aber stabil."
-   ],
-   "cur": "Speedmaster Dark Side of the Moon (Ref. 311.92.44.51.01.003)",
-   "f": [
-    [
-     "Gehäuse",
-     "44,25 mm, schwarze Keramik"
-    ],
-    [
-     "Kaliber",
-     "9300 (Co-Axial Chronograph)"
-    ],
-    [
-     "Zifferblatt",
-     "schwarze Keramik"
-    ],
-    [
-     "Wasserdicht",
-     "50 m"
-    ]
-   ],
-   "refs": [
-    [
-     "311.92.44.51.01.003",
-     "2013",
-     "44,25 mm",
-     "9300",
-     "Original"
-    ],
-    [
-     "Grey Side of the Moon",
-     "2013",
-     "44,25 mm",
-     "9300",
-     "Graues Zifferblatt"
-    ],
-    [
-     "Apollo 8",
-     "2017",
-     "44,25 mm",
-     "9300",
-     "Mit Mondmotiv"
-    ]
-   ],
-   "r": [
-    "speedmaster",
-    "keramik",
-    "mondlandung"
-   ],
-   "k": "Die Dark Side of the Moon war die erste Speedmaster aus Keramik.",
-   "a": [],
-   "v": {
-    "case": "black",
-    "dial": "#101214",
-    "sub": "chrono3",
-    "markers": "baton",
-    "hands": "alpha",
-    "bezel": "tachy",
-    "pushers": true,
-    "strap": "rubber",
-    "strapColor": "#141619",
-    "top": [
-     "Speedmaster",
-     "DARK SIDE OF THE MOON"
-    ],
-    "img": "assets/watches/omega-speedmaster-dark-side-of-the-moon.jpg"
-   },
-   "m": [
-    "Schwarze Keramik",
-    "Co-Axial Kaliber 9300",
-    "44-mm-Gehäuse"
-   ],
-   "tipp": [
-    "Probiere die Uhr bei verschiedenem Licht an: Das mattschwarze Gehäuse wirkt je nach Beleuchtung sehr unterschiedlich.",
-    "Die »Grey Side of the Moon« ist optisch freundlicher, wenn dir das schwarze Gehäuse zu streng ist."
-   ],
-   "x": [
-    "Beim Sintern schrumpft die Keramik deutlich, was die Fertigung maßgenauer Gehäuse erschwert."
-   ],
-   "ev": [
-    [
-     "2013",
-     "Dark Side of the Moon mit Keramikgehäuse"
-    ],
-    [
-     "2013",
-     "Grey Side of the Moon"
-    ],
-    [
-     "2017",
-     "Apollo 8"
-    ]
-   ],
-   "w": "Eine schwarze Speedmaster aus Keramik für alle, die die Moonwatch moderner mögen.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "311.92.44.51.01.003",
-      "letzte Liste 2023",
-      12000,
-      "heute",
-      7329
-     ]
-    ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "lume": {
-    "z": "IH",
-    "c": "g",
-    "rmax": 0.8
-   },
-   "bh": [
-    "2013: Erste Omega aus Zirkonoxid",
-    "Gesintertes Keramikgehäuse",
-    "»Grey Side« und »Apollo 8«",
-    "Omegas Experimentierfreude"
-   ],
-   "bd": [
-    "Die Abbildung zeigt die Omega Speedmaster Dark Side of the Moon, Referenz 311.92.44.51.01.003, mit Gehäuse und Zifferblatt aus schwarzer Zirkonoxid-Keramik und 44,25 Millimetern. Auch Lünette, Krone und Drücker sind schwarz; getragen wird sie an einem schwarzen Textilband mit hellen Nähten.",
-    "Zu erkennen sind die Tachymeterskala auf der Lünette, die beiden Hilfszifferblätter bei 3 und 9 Uhr, die Stabindizes und Stabzeiger mit weißer Leuchtmasse sowie die Schriftzüge »Speedmaster«, »CO-AXIAL« und »MASTER CHRONOMETER«. Die matte Oberfläche des Zifferblatts unterscheidet sich vom polierten Keramikgehäuse."
-   ]
-  },
-  {
-   "id": "speedmaster-57",
-   "t": "Omega Speedmaster ’57",
-   "brand": "Omega",
-   "since": "2012",
-   "s": "Die Speedmaster im Stil der ersten Speedmaster von 1957 mit breiten Pfeilzeigern und Tachymeterlünette.",
-   "b": [
-    "Die Speedmaster ’57 erschien 2012 und greift die Gestaltung der ersten Speedmaster von 1957 auf. Charakteristisch sind die breiten Pfeilzeiger (»Broad Arrow«), das schmale Gehäuse und die Tachymeterskala auf dem Lünetteneinsatz. Anders als die Moonwatch hat sie ein Automatikwerk, das Co-Axial-Kaliber 9300.",
-    "Das Original von 1957, die CK 2915, war die erste Speedmaster. Sie sollte Rennfahrer ansprechen, die die Zeit stoppten und die Geschwindigkeit mit der Tachymeterskala ablasen. Erst Jahre später wurde die Uhr zur Mondlandungs-Uhr, als die NASA sie testete und für Raumfahrtmissionen auswählte.",
-    "Die ’57 ist größer als das Original und bietet moderne Technik. In späteren Jahren folgten Versionen mit Master-Chronometer-Werk und anderen Gehäusegrößen. Die klassische Optik bleibt aber erhalten.",
-    "Die Uhr eignet sich für Träger, die den Vintage-Look ohne den Hype um die Mondlandung wollen. Gebraucht liegt sie deutlich unter der Neupreisgrenze."
-   ],
-   "cur": "Speedmaster ’57 Co-Axial Chronograph",
-   "f": [
-    [
-     "Gehäuse",
-     "41,5 mm, Edelstahl"
-    ],
-    [
-     "Kaliber",
-     "9300 (Co-Axial)"
-    ],
-    [
-     "Zeiger",
-     "Broad Arrow"
-    ],
-    [
-     "Lünette",
-     "Tachymeter"
-    ]
-   ],
-   "refs": [
-    [
-     "Speedmaster ’57",
-     "2012–2020",
-     "41,5 mm",
-     "9300",
-     "Co-Axial Chronograph"
-    ]
-   ],
-   "r": [
-    "speedmaster",
-    "dark-side-of-the-moon",
-    "chronograph"
-   ],
-   "k": "Die erste Speedmaster von 1957 trug Pfeilzeiger und eine Tachymeterlünette aus Stahl.",
-   "a": [],
-   "v": {
-    "dial": "#17191d",
-    "sub": "chrono3",
-    "subColor": "#1f2126",
-    "markers": "baton",
-    "hands": "arrow",
-    "bezel": "tachy",
-    "pushers": true,
-    "strap": "omega",
-    "lugs": "lyre",
-    "img": "assets/watches/omega-speedmaster-57-black.jpg"
-   },
-   "m": [
-    "Broad-Arrow-Zeiger",
-    "Automatikwerk",
-    "41,5 mm"
-   ],
-   "tipp": [
-    "Die Lünette ist empfindlich; Kratzer sind bei gebrauchten Exemplaren häufig."
-   ],
-   "ev": [
-    [
-     "1957",
-     "Erste Speedmaster, CK 2915"
-    ],
-    [
-     "1969",
-     "Speedmaster Professional auf dem Mond"
-    ],
-    [
-     "2012",
-     "Speedmaster ’57 mit Co-Axial-Kaliber"
-    ]
-   ],
-   "w": "Die Speedmaster der Anfangszeit als Automatik: Pfeilzeiger, Tachymeter, 41,5 mm.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "331.10.42.51.01.001",
-      "Liste (zuletzt)",
-      9000,
-      "heute",
-      4668
-     ]
-    ],
-    "n": "Gebrauchtwert als Mitte zwischen einem verkauften Exemplar (3.800 EUR) und einem Händlerpreis (4.550 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "lume": {
-    "z": "IH",
-    "c": "g",
-    "rmax": 0.8
-   },
-   "bh": [
-    "2012: Broad Arrow mit Kaliber 9300",
-    "CK 2915 von 1957 für Rennfahrer",
-    "Größer, moderner, klassische Optik",
-    "Vintage-Look ohne Mondlandung"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine Omega Speedmaster ’57 Co-Axial Chronograph aus Edelstahl mit schwarzem Zifferblatt am Gliederband. Die Gestaltung greift die erste Speedmaster von 1957 auf, mit Lünette aus Stahl und eingravierter Tachymeterskala »TACHYMETRE BASE 1000«.",
-    "Typisch sind der breite Pfeil-Stundenzeiger (»Broad Arrow«) und die Leuchtmasse in cremefarbenem Vintage-Ton. Zu erkennen sind zwei Hilfszifferblätter bei 3 und 9 Uhr, Dreiecksindizes und der Schriftzug »Speedmaster ’57« in Orange unter dem Omega-Logo. Rechts sitzen die Krone und zwei runde Drücker an einem schlanken, symmetrischen Gehäuse."
-   ]
-  },
-  {
    "id": "golden-ellipse",
    "t": "Patek Philippe Golden Ellipse",
    "brand": "Patek Philippe",
@@ -21058,129 +20836,6 @@
    "bd": [
     "Die Abbildung zeigt den Patek Philippe Ewiger Kalender Chronograph Referenz 5270 mit silberfarbenem Gehäuse und hellem, silbrig-weißem Zifferblatt. Er verbindet einen Chronographen mit einem ewigen Kalender.",
     "Zu erkennen sind die Fenster für Wochentag und Monat bei 12 Uhr, hier »SAT« und »MAR«, die Mondphase mit Zeigerdatum bei 6 Uhr, zwei Chronographen-Hilfszifferblätter bei 3 und 9 Uhr und zwei kleine runde Fenster dazwischen. Am Rand läuft eine Tachymeterskala mit der Aufschrift »BASE 1000«. Rechts sitzen Krone und zwei Drücker, das Band ist dunkelblaues Leder mit heller Naht."
-   ]
-  },
-  {
-   "id": "pilot-travel-time",
-   "t": "Patek Philippe Calatrava Pilot Travel Time",
-   "brand": "Patek Philippe",
-   "since": "2015",
-   "s": "Die Calatrava mit Fliegerzifferblatt, zweiter Zeitzone und Datum.",
-   "b": [
-    "Die Calatrava Pilot Travel Time erschien 2015 und greift die Fliegeruhren auf, die Patek Philippe in den 1930er-Jahren gebaut hatte. Sie zeigt zwei Zeitzonen gleichzeitig, mit Tag-und-Nacht-Anzeige für die Ortszeit und die Heimatzeit, und dazu ein Datum.",
-    "Die Bedienung ist einfach: Mit zwei Drückern am Gehäuse lässt sich die Ortszeit stundenweise vor- oder zurückstellen, die Heimatzeit läuft unverändert weiter. Das Kaliber 324 S C FUS ist ein Automatikwerk mit einer Gangreserve von rund 45 Stunden. Typisch sind die arabischen Ziffern, die breiten Zeiger und ein Zifferblatt im Pilotenstil.",
-    "Das Gehäuse hat 42 Millimeter und ist in Weißgold (5524G) oder Roségold (5524R) erhältlich. Das Lederband in Braun oder Schwarz passt zum Pilotenlook.",
-    "Die Uhr ist bei Vielreisenden beliebt. Sammler achten auf die Varianten mit unterschiedlichen Zifferblättern, die in kleinen Serien erschienen."
-   ],
-   "cur": "Calatrava Pilot Travel Time (Ref. 5524)",
-   "f": [
-    [
-     "Gehäuse",
-     "42 mm, Weißgold oder Roségold"
-    ],
-    [
-     "Kaliber",
-     "324 S C FUS (Automatik)"
-    ],
-    [
-     "Funktion",
-     "Zweite Zeitzone, Datum"
-    ],
-    [
-     "Band",
-     "Leder"
-    ]
-   ],
-   "refs": [
-    [
-     "5524G",
-     "2015–heute",
-     "42 mm",
-     "324 S C FUS",
-     "Weißgold"
-    ],
-    [
-     "5524R",
-     "2015–heute",
-     "42 mm",
-     "324 S C FUS",
-     "Roségold"
-    ]
-   ],
-   "r": [
-    "calatrava",
-    "world-time",
-    "gmt"
-   ],
-   "k": "Die Pilot Travel Time greift Patek-Fliegeruhren der 1930er auf.",
-   "a": [],
-   "v": {
-    "case": "rose",
-    "dial": "#2a2c30",
-    "markers": "arabicAll",
-    "hands": "baton",
-    "strap": "leather",
-    "strapColor": "#2a1a10",
-    "crown": "onion",
-    "date": "3",
-    "img": "assets/watches/patek-philippe-pilot-travel-time.jpg"
-   },
-   "m": [
-    "Fliegerzifferblatt",
-    "Zweite Zeitzone",
-    "Große Krone"
-   ],
-   "tipp": [
-    "Probiere die beiden Drücker – sie sollten sauber und leicht schalten.",
-    "Das Lederband lässt sich gegen ein Stoffband tauschen, was der Uhr einen sportlicheren Look gibt."
-   ],
-   "x": [
-    "Die beiden Drücker für die Ortszeit sitzen bei 8 und 10 Uhr, damit man die Zeit auch mit einer Hand verstellen kann."
-   ],
-   "ev": [
-    [
-     "1930er",
-     "Frühe Fliegeruhren von Patek Philippe"
-    ],
-    [
-     "2015",
-     "Calatrava Pilot Travel Time"
-    ]
-   ],
-   "w": "Eine Calatrava im Fliegerstil: arabische Ziffern, Zweitzeitzone und Datum.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "5524G (Weißgold)",
-      "Liste 2026",
-      67267,
-      "heute",
-      35949
-     ],
-     [
-      "5524R (Roségold)",
-      "",
-      null,
-      "heute",
-      37006
-     ]
-    ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Händler verlangen für die 5524G meist 37.550 bis 41.550 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "lume": {
-    "z": "IH",
-    "c": "g"
-   },
-   "bh": [
-    "2015: Zwei Zeitzonen im Fliegerstil",
-    "Bedienung über zwei Drücker",
-    "5524G und 5524R mit 42 Millimetern",
-    "Vielreisende und Zifferblattvarianten"
-   ],
-   "bd": [
-    "Die Abbildung zeigt die Patek Philippe Calatrava Pilot Travel Time mit 42 Millimetern in weißem Gehäusemetall, wie es der Weißgoldversion 5524G entspricht. Das Zifferblatt ist dunkelblau, das Lederband braun mit hellen Nähten.",
-    "Typisch sind die großen arabischen Ziffern und die breiten Zeiger mit heller Leuchtmasse. Zu erkennen sind die Tag-und-Nacht-Anzeigen mit den Beschriftungen »LOCAL« und »HOME«, das Hilfszifferblatt bei 6 Uhr für das Datum und die beiden Drücker auf der linken Gehäuseseite, mit denen die Ortszeit stundenweise verstellt wird. Die Krone sitzt bei 3 Uhr."
    ]
   },
   {
@@ -21741,126 +21396,6 @@
    ]
   },
   {
-   "id": "tank-francaise",
-   "t": "Cartier Tank Française",
-   "brand": "Cartier",
-   "since": "1996",
-   "s": "Die Tank mit Gliederband und abgerundetem Gehäuse, 1996 für ein jüngeres Publikum entworfen.",
-   "b": [
-    "Die Tank Française erschien 1996 als Neuinterpretation der Tank, die Louis Cartier 1917 entwarf und 1919 verkaufte. Statt Bandanstößen hat sie ein integriertes Gliederband, das nahtlos ins Gehäuse übergeht; das Zifferblatt trägt römische Ziffern und eine Chemin-de-fer-Minuterie. Es gibt sie mit Quarz- und Automatikwerk, in Stahl und Gold.",
-    "Die Tank zitiert in ihrer Form die Draufsicht auf Panzer des Ersten Weltkriegs: zwei parallele Gehäuseseiten, die Bandanstöße. Die Ausführung der Française ist zurückhaltend, mit einem Datumsfenster, in kleinen, mittleren und großen Größen.",
-    "Heute ist sie eines der meistverkauften Cartier-Modelle; Stahlmodelle sind auf dem Zweitmarkt günstig, Gold ist teurer."
-   ],
-   "cur": "Tank Française (aktuelle Modelle)",
-   "f": [
-    [
-     "Gehäuse",
-     "32–41 mm, Stahl oder Gold"
-    ],
-    [
-     "Kaliber",
-     "Quarz / Automatik"
-    ],
-    [
-     "Band",
-     "integriert, Gliederband"
-    ],
-    [
-     "Seit",
-     "1996"
-    ]
-   ],
-   "refs": [
-    [
-     "Tank Française",
-     "1996–heute",
-     "versch.",
-     "Quarz / Automatik",
-     "Original"
-    ],
-    [
-     "Tank Française Chronograph",
-     "2000er",
-     "versch.",
-     "Automatik",
-     "Mit Chronograph"
-    ],
-    [
-     "Tank Française Großes Modell",
-     "seit 2020er",
-     "versch.",
-     "Automatik",
-     "Aktuell"
-    ]
-   ],
-   "r": [
-    "tank",
-    "santos",
-    "panthere"
-   ],
-   "k": "Die Tank Française war 1996 die erste Tank mit Gliederband.",
-   "a": [],
-   "v": {
-    "shape": "rect",
-    "dial": "#f1f3f6",
-    "markers": "roman",
-    "hands": "sword",
-    "strap": "integrated",
-    "case": "steel",
-    "brandDy": -1,
-    "img": "assets/watches/cartier-tank-francaise-steel.jpg"
-   },
-   "m": [
-    "Integriertes Band",
-    "Römische Ziffern",
-    "Abgerundetes Gehäuse"
-   ],
-   "x": [
-    "Die Tank Française erschien 1996 zunächst in Gelbgold und Zweifarbig, ein Jahr später in Stahl; 2023 überarbeitete Cartier sie."
-   ],
-   "ev": [
-    [
-     "1917",
-     "Tank-Entwurf von Louis Cartier"
-    ],
-    [
-     "1919",
-     "Verkaufsstart der Tank"
-    ],
-    [
-     "1996",
-     "Tank Française"
-    ]
-   ],
-   "w": "Die Tank mit Gliederband: sportlicher und alltagstauglicher als das Original.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "Tank Française W51008Q3",
-      "",
-      null,
-      "heute",
-      2867
-     ]
-    ],
-    "n": "WatchCharts-Durchschnitt für diese Referenz. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "lume": {
-    "z": "",
-    "c": "g"
-   },
-   "bh": [
-    "1996: Tank mit integriertem Gliederband",
-    "Panzer-Draufsicht als Vorbild",
-    "Bestseller mit günstigen Stahlmodellen"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine Cartier Tank Française aus Edelstahl mit silberweißem Zifferblatt. Typisch ist das integrierte Gliederband, das ohne sichtbare Bandanstöße in das rechteckige Gehäuse mit seinen kräftigen Seitenstegen übergeht.",
-    "Zu erkennen sind schwarze römische Ziffern, eine innere Minuterie im Chemin-de-fer-Stil und gebläute Schwertzeiger. In der Mitte steht »CARTIER«. Die Krone trägt einen blauen Cabochon in einer facettierten Fassung. Ein Datumsfenster ist auf dieser Ausführung nicht zu sehen; die Glieder des Bandes sind satiniert mit polierten Kanten."
-   ]
-  },
-  {
    "id": "roadster",
    "t": "Cartier Roadster",
    "brand": "Cartier",
@@ -22228,230 +21763,6 @@
    "bd": [
     "Die Abbildung zeigt eine IWC Da Vinci Chronograph der aktuellen Generation mit rundem Edelstahlgehäuse und weißem Zifferblatt. Die Bandanstöße sind beweglich am Gehäuse angesetzt.",
     "Zu erkennen sind schwarze arabische Ziffern, gebläute Blattzeiger und zwei Hilfszifferblätter bei 12 und 6 Uhr für die gestoppte Zeit, im unteren sitzt das Datumsfenster. Das Zifferblatt trägt die Aufschriften »IWC SCHAFFHAUSEN« und »DA VINCI CHRONOGRAPH«; Anzeigen eines ewigen Kalenders hat diese Ausführung nicht. Rechts sitzen die Krone und zwei Drücker, das Band ist schwarzes Leder mit Krokodilprägung."
-   ]
-  },
-  {
-   "id": "pilots-chronograph",
-   "t": "IWC Pilot’s Watch Chronograph",
-   "brand": "IWC",
-   "since": "1994",
-   "s": "Der Fliegerchronograph von IWC mit Weicheisen-Innengehäuse und Pilotenzifferblatt.",
-   "b": [
-    "Der Pilot’s Watch Chronograph erschien 1994 als sportliche Erweiterung der IWC-Fliegeruhren. Er verbindet das klare schwarze Zifferblatt mit dem Dreieck bei 12 Uhr und der Zwiebelkrone mit einem Chronographenwerk. Er gehört zu den meistverkauften Chronographen der Marke.",
-    "Ein Weicheisen-Innengehäuse schirmt das Werk gegen Magnetfelder ab, was im Cockpit wichtig ist; die Technik stammt aus den 1940er-Jahren und wird bei IWC bis heute genutzt. Die Gestaltung orientiert sich an Beobachtungsuhren der Luftwaffe. Die Werke stammen aus der Valjoux-7750-Familie, später aus der Familie 69000.",
-    "Aus dem Chronographen entstanden die Spitfire-Linie mit Bezug auf britische Flugzeuge und die Top-Gun-Modelle mit Keramikgehäuse. Wer die Fliegeruhr als Alltagsuhr sucht, hat hier die vielseitigste Wahl der Linie."
-   ],
-   "cur": "Pilot’s Watch Chronograph (aktuelle Modelle)",
-   "f": [
-    [
-     "Gehäuse",
-     "41–43 mm, Edelstahl"
-    ],
-    [
-     "Kaliber",
-     "IWC-Chronographenwerk"
-    ],
-    [
-     "Besonderheit",
-     "Weicheisen-Innengehäuse"
-    ],
-    [
-     "Zifferblatt",
-     "Fliegerstil"
-    ]
-   ],
-   "refs": [
-    [
-     "Pilot’s Watch Chronograph",
-     "seit 1994",
-     "versch.",
-     "Chronograph",
-     "Erste Serie"
-    ],
-    [
-     "Spitfire",
-     "später",
-     "versch.",
-     "Chronograph",
-     "Spitfire-Serie"
-    ]
-   ],
-   "r": [
-    "big-pilot",
-    "mark-xx",
-    "chronograph"
-   ],
-   "k": "Der Pilot’s Watch Chronograph führte die Fliegeruhr von IWC in die Chronographenwelt.",
-   "a": [],
-   "v": {
-    "dial": "#17191d",
-    "sub": "chrono3",
-    "markers": "pilot",
-    "hands": "baton",
-    "crown": "onion",
-    "pushers": true,
-    "strap": "leather",
-    "strapColor": "#2a1a10",
-    "case": "steel",
-    "img": "assets/watches/iwc-pilots-watch-chronograph-black.jpg"
-   },
-   "m": [
-    "Dreieck bei 12 Uhr",
-    "Zwiebelkrone",
-    "Weicheisen-Innengehäuse"
-   ],
-   "tipp": [
-    "Die Stahlversion mit Lederband wirkt klassischer.",
-    "Die Referenz IW377709 ist gebraucht gut erhältlich.",
-    "Prüfe die Drücker und die Funktion des Chronographen."
-   ],
-   "x": [
-    "Das Dreieck mit Leuchtpunkt bei 12 Uhr geht auf historische Beobachtungsuhren zurück."
-   ],
-   "ev": [
-    [
-     "1940er",
-     "Fliegeruhren mit Weicheisen-Innengehäuse"
-    ],
-    [
-     "1994",
-     "Pilot’s Watch Chronograph"
-    ],
-    [
-     "2000er",
-     "Spitfire- und Top-Gun-Linien"
-    ]
-   ],
-   "w": "Eine Fliegeruhr mit Stoppfunktion: das Dreieck bei 12 Uhr, die Zwiebelkrone, der Chronograph.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "IW377709",
-      "Liste (ca.)",
-      5500,
-      "heute",
-      4300
-     ]
-    ],
-    "n": "Gebrauchtwert als Mitte der Händler- und Privatangebote zwischen 3.200 und 4.450 EUR; Listenpreisangaben schwanken zwischen 4.900 und 5.200 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "lume": {
-    "z": "IH",
-    "c": "g"
-   },
-   "bh": [
-    "1994: Fliegeruhr mit Chronograph",
-    "Weicheisen-Innengehäuse und Valjoux 7750",
-    "Spitfire und Top Gun"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine IWC Pilot’s Watch Chronograph aus der aktuellen Kollektion mit Edelstahlgehäuse, schwarzem Zifferblatt und schwarzem Lederband mit heller Naht.",
-    "Typisch ist das Fliegerzifferblatt mit großen weißen arabischen Ziffern und einem Dreieck bei 12 Uhr. Zu erkennen sind drei Hilfszifferblätter: oben der Minutenzähler, links die kleine Sekunde und unten der Stundenzähler. Bei 3 Uhr liegt ein Fenster für Wochentag und Datum, hier »MON 25«, rechts sitzen Krone und zwei Drücker. Die Zeiger sind breite Schwertzeiger mit Leuchtfüllung."
-   ]
-  },
-  {
-   "id": "portugieser-yacht-club",
-   "t": "IWC Portugieser Yacht Club",
-   "brand": "IWC",
-   "since": "1990er",
-   "s": "Die sportliche Portugieser mit Taucher-Optik und Chronograph.",
-   "b": [
-    "Die Portugieser Yacht Club entstand in den 1990er-Jahren als sportliche Schwester der Portugieser. Sie trägt ein schlichtes Zifferblatt mit Stabindizes und Ziffern, ein Gehäuse mit Lünette und eine höhere Wasserdichtigkeit als die klassische Portugieser. Es gibt sie als Dreizeiger und als Chronograph.",
-    "Typisch sind blaue oder weiße Details an Zifferblatt und Lünette, die an Segelboote und Marineflaggen erinnern; die Zeiger sind kräftig, die Ziffern groß, damit man sie bei Bewegung ablesen kann. Das Gehäuse ist mit 43 Millimetern groß, die Wasserdichtigkeit liegt bei 60 Metern, das Kautschukband macht die Uhr wassertauglicher als die klassische Portugieser.",
-    "Auf dem Zweitmarkt hat sie weniger Nachfrage als die Portugieser Chronograph und ist deshalb günstiger."
-   ],
-   "cur": "Portugieser Yacht Club (aktuelle Modelle)",
-   "f": [
-    [
-     "Gehäuse",
-     "43 mm, Edelstahl"
-    ],
-    [
-     "Besonderheit",
-     "Sportliche Portugieser"
-    ],
-    [
-     "Wasserdicht",
-     "60 m"
-    ],
-    [
-     "Band",
-     "Kautschuk oder Leder"
-    ]
-   ],
-   "refs": [
-    [
-     "Portugieser Yacht Club",
-     "seit 1990er",
-     "43 mm",
-     "Automatik",
-     "Sportliche Linie"
-    ]
-   ],
-   "r": [
-    "portugieser",
-    "aquatimer",
-    "big-pilot"
-   ],
-   "k": "Die Yacht Club ist die sportlichste Portugieser.",
-   "a": [],
-   "v": {
-    "dial": "#1f3a5f",
-    "sub": "chrono2",
-    "markers": "baton",
-    "hands": "sword",
-    "strap": "rubber",
-    "strapColor": "#1f3a5f",
-    "case": "steel",
-    "pushers": true,
-    "img": "assets/watches/iwc-portugieser-yacht-club.jpg"
-   },
-   "m": [
-    "Sportliches Zifferblatt",
-    "Chronograph",
-    "Kautschukband"
-   ],
-   "ev": [
-    [
-     "1990er",
-     "Portugieser Yacht Club als sportliche Variante"
-    ],
-    [
-     "2000er",
-     "Chronographen-Versionen"
-    ],
-    [
-     "2010er",
-     "Neue Zifferblattfarben"
-    ]
-   ],
-   "w": "Die sportliche Seite der Portugieser: maritim, klar und mit Kautschukband.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "Yacht Club Chronograph",
-      "Liste (geschätzt)",
-      15100,
-      "heute",
-      8950
-     ]
-    ],
-    "n": "Händlerangebot für ein Exemplar mit geschätzter Liste. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "lume": {
-    "z": "IH",
-    "c": "g"
-   },
-   "bh": [
-    "1990er: Sportliche Schwester der Portugieser",
-    "Segeldetails, 43 Millimeter und Kautschukband",
-    "Günstiger als der Portugieser Chronograph"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine IWC Portugieser Yacht Club als Chronograph mit Gehäuse und Gliederband aus Edelstahl und blauem Zifferblatt. Rechts sitzen die Krone und zwei Drücker mit Kronenschutzwulst.",
-    "Zu erkennen sind die aufgesetzten arabischen Ziffern, die Stabzeiger mit Leuchtmasse und die beiden Hilfszifferblätter bei 12 und 6 Uhr. Auffällig ist der rote Zeiger im oberen Hilfszifferblatt. Bei 6 Uhr sitzt ein Datumsfenster, rechts der Mitte steht der Schriftzug »YACHT CLUB«, links »IWC SCHAFFHAUSEN«."
    ]
   },
   {
@@ -23071,7 +22382,6 @@
    ],
    "r": [
     "black-bay",
-    "black-bay-58",
     "ranger"
    ],
    "k": "Tudor 1926 erinnert an das Jahr der Namenseintragung.",
@@ -26788,7 +26098,7 @@
    "r": [
     "sinn-104",
     "sinn-ezm-3",
-    "pilots-chronograph"
+    "mark-xx"
    ],
    "k": "Die 356 ist ein Fliegerchronograph aus Frankfurt.",
    "a": [],
@@ -27845,7 +27155,7 @@
    ],
    "r": [
     "aquis",
-    "black-bay-58",
+    "black-bay",
     "seamaster-300"
    ],
    "k": "Die Divers Sixty-Five greift eine Oris-Taucheruhr von 1965 auf.",
@@ -30035,7 +29345,7 @@
    "r": [
     "tourbillon",
     "silizium",
-    "dark-side-of-the-moon"
+    "speedmaster"
    ],
    "k": "Bei der Freak dreht sich das ganze Werk als Zeiger.",
    "a": [],
@@ -30309,106 +29619,6 @@
    "bd": [
     "Die Abbildung zeigt eine Frédérique Constant Slimline aus Edelstahl mit silberfarbenem Zifferblatt und schwarzem Lederband. Das runde, flache Gehäuse hat eine schmale Lünette, die das Zifferblatt groß wirken lässt.",
     "Zu erkennen sind schlanke aufgesetzte Stabindizes, ein Doppelindex bei 12 Uhr und schmale Stabzeiger für Stunden und Minuten. Eine Sekundenanzeige oder ein Datum gibt es nicht. Unter 12 Uhr steht »FREDERIQUE CONSTANT GENEVE«, über 6 Uhr der geschwungene Schriftzug »Slimline«. Die Krone ist klein, das Lederband hat Alligatorprägung."
-   ]
-  },
-  {
-   "id": "santos-100",
-   "t": "Cartier Santos 100",
-   "brand": "Cartier",
-   "since": "2004",
-   "s": "Die größere Santos von 2004, zum 100. Jubiläum der ersten Santos vorgestellt.",
-   "b": [
-    "Die Santos 100 erschien 2004 zum hundertjährigen Jubiläum der ersten Santos von 1904, die für den Flugpionier Alberto Santos-Dumont entstand. Sie ist größer als die Santos de Cartier der 1980er und hat ein kantiges Gehäuse mit sichtbaren Schrauben auf der Lünette; es gab sie in Edelstahl und Gold in Größen von 41 bis 51 Millimetern mit Quarz- oder Automatikwerk.",
-    "Mit der Neuauflage der Santos de Cartier 2018 verschwand die Santos 100 aus dem Programm. Auf dem Zweitmarkt ist sie günstig, vor allem im Vergleich zur neuen Santos."
-   ],
-   "cur": "Santos 100 (bis 2018)",
-   "f": [
-    [
-     "Gehäuse",
-     "41–51 mm, Edelstahl"
-    ],
-    [
-     "Kaliber",
-     "Automatik / Quarz"
-    ],
-    [
-     "Seit",
-     "2004"
-    ],
-    [
-     "Besonderheit",
-     "Größer als die frühere Santos"
-    ]
-   ],
-   "refs": [
-    [
-     "Santos 100",
-     "2004–2018",
-     "versch.",
-     "Automatik",
-     "Jubiläumsmodell"
-    ]
-   ],
-   "r": [
-    "santos",
-    "santos-dumont",
-    "tank"
-   ],
-   "k": "Die Santos 100 erschien zum hundertjährigen Jubiläum der ersten Santos.",
-   "a": [],
-   "v": {
-    "shape": "square",
-    "dial": "#e8e8e8",
-    "markers": "roman",
-    "hands": "sword",
-    "strap": "santos",
-    "case": "steel",
-    "date": "6",
-    "brandDy": -3,
-    "img": "assets/watches/cartier-santos-100.jpg"
-   },
-   "m": [
-    "Sichtbare Schrauben",
-    "Größeres Gehäuse",
-    "Stahlband"
-   ],
-   "tipp": [],
-   "x": [],
-   "ev": [
-    [
-     "1904",
-     "Santos für Santos-Dumont"
-    ],
-    [
-     "2004",
-     "Santos 100"
-    ],
-    [
-     "2018",
-     "Neue Santos de Cartier"
-    ]
-   ],
-   "w": "Die große Santos zum 100. Geburtstag: kantig, mit Schrauben und viel Präsenz.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "W20106X8 (Stahl)",
-      "Liste (ca.)",
-      6550,
-      "heute",
-      4319
-     ]
-    ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "lume": {
-    "z": "",
-    "c": "g"
-   },
-   "bd": [
-    "Die Abbildung zeigt eine Cartier Santos 100, die von 2004 bis 2018 zum hundertjährigen Jubiläum der ersten Santos gebaut wurde. Das kantige Gehäuse ist aus Edelstahl, das Zifferblatt weiß, das Band aus schwarzem Krokodilleder.",
-    "Typisch sind die acht sichtbaren Schrauben auf der quadratischen Lünette, die großen schwarzen römischen Ziffern, der Minutenkreis im Eisenbahnstil und die gebläuten Schwertzeiger. Unter 12 Uhr steht »CARTIER«, über 6 Uhr »AUTOMATIC«. Die achteckige Krone mit blauem Cabochon wird seitlich von einem Kronenschutz eingefasst."
    ]
   },
   {

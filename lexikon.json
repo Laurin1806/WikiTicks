@@ -3410,7 +3410,6 @@
    "chronograph",
    "tachymeter",
    "moonswatch",
-   "speedmaster-57",
    "handaufzug"
   ],
   "k": "Die Speedmaster bestand die harten Tests der NASA, bei denen andere Chronographen ausfielen.",
@@ -4130,8 +4129,6 @@
    "santos",
    "tank",
    "armbanduhr",
-   "santos-dumont",
-   "tank-francaise",
    "platin"
   ],
   "k": "Cartiers Tank wurde der Legende nach vom Grundriss eines Panzers der Renault-Serie FT inspiriert.",
@@ -4140,7 +4137,7 @@
   ],
   "fig": {
    "m": [
-    "santos-dumont",
+    "santos",
     "tank"
    ],
    "mc": [
@@ -4148,7 +4145,7 @@
     "Tank Normale, die Grundform von 1917"
    ],
    "img": [
-    null,
+    "assets/watches/cartier-santos-dumont-rose-gold.jpg",
     "assets/watches/cartier-tank-normale.jpg"
    ]
   }
