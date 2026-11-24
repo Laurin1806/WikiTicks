@@ -4066,7 +4066,9 @@
    "planet-ocean",
    "top-time",
    "taucheruhr",
-   "armband"
+   "armband",
+   "kino-uhren",
+   "paul-newman-daytona"
   ],
   "k": "In den Romanen von Ian Fleming trägt Bond eine Rolex, im Kino seit 1995 eine Omega.",
   "fig": {
@@ -4089,6 +4091,269 @@
    "Der Rolex Chronograph 6238 aus »Im Geheimdienst Ihrer Majestät« ist unter Sammlern als »Pre-Daytona« bekannt.",
    "Omega bringt zu den Filmen regelmäßig Sondermodelle heraus, etwa limitierte Seamaster-Ausführungen mit 007-Motiven auf Zifferblatt oder Rotor.",
    "Die im Film benutzten Uhren wurden für die Spezialeffekte oft umgebaut oder als Attrappen gefertigt; die Originale aus den Dreharbeiten sind heute begehrte Auktionsstücke."
+  ]
+ },
+ {
+  "id": "paul-newman-daytona",
+  "t": "Die Paul Newman Daytona",
+  "c": "Geschichte",
+  "a": [
+   "Paul Newman",
+   "Newman-Daytona",
+   "Exotic Dial"
+  ],
+  "s": "Wie ein anfangs schwer verkäufliches Zifferblatt zur begehrtesten Vintage-Rolex wurde.",
+  "b": [
+   "Als »Paul Newman« bezeichnen Sammler eine bestimmte Zifferblattvariante der frühen Rolex Cosmograph Daytona mit Handaufzug. Rolex selbst nannte sie »Exotic Dial«. Typisch sind Hilfszifferblätter mit Zahlen im Art-déco-Stil, kleine Quadrate an den Enden der Teilstriche in den Hilfszifferblättern und eine farblich abgesetzte Sekundenskala am Rand, die sich als schmaler Ring vom Zifferblatt abhebt. Es gab sie für die Referenzen 6239, 6241, 6262, 6263, 6264 und 6265.",
+   "Den Namen verdankt die Variante dem Schauspieler und Rennfahrer Paul Newman. Seine Ehefrau Joanne Woodward schenkte ihm eine Daytona Ref. 6239 mit weißem Exotic-Zifferblatt und ließ in den Boden »Drive Carefully Me« gravieren. Newman trug die Uhr über viele Jahre und verschenkte sie 1984 an James Cox, den damaligen Freund seiner Tochter Nell. Fotos des Schauspielers mit der Uhr machten die Zifferblattvariante unter Sammlern bekannt, die ihr seit den 1980er-Jahren seinen Namen geben.",
+   "Im Oktober 2017 versteigerte das Auktionshaus Phillips in New York genau diese Uhr. Sie erzielte umgerechnet rund 15 Millionen Euro und war damit die bis dahin teuerste je versteigerte Armbanduhr. Ein Teil des Erlöses ging an die Stiftung von Nell Newman. 2020 kam bei Phillips eine zweite Daytona aus Newmans Besitz unter den Hammer, eine Weißgold-Daytona Ref. 116519 mit der Gravur »Drive Slowly Joanne«; sie erzielte umgerechnet rund 4,5 Millionen Euro.",
+   "Seit den 1990er-Jahren steigen die Preise für Exotic-Dial-Daytonas stark, und die Auktion von 2017 hat das Interesse an Vintage-Rolex insgesamt beflügelt. Weil Originalität alles bestimmt, prüfen Experten Zifferblatt, Zeiger, Drücker und Gehäuse besonders genau: Nachträglich eingesetzte oder nachgedruckte Zifferblätter sind bei kaum einer Uhr so verbreitet wie hier."
+  ],
+  "g": [
+   "Rolex stellte die Cosmograph Daytona 1963 mit der Referenz 6239 vor. Der Name erinnert an die Rennstrecke von Daytona Beach in Florida. Angetrieben wurde sie von einem Handaufzugswerk auf Basis des Valjoux 72. Die Lünette mit Tachymeterskala lag außen, damit das Zifferblatt übersichtlich blieb.",
+   "Die Exotic-Zifferblätter verkauften sich in den 1960er- und 1970er-Jahren schlecht und blieben oft beim Händler liegen. Rolex produzierte sie deshalb nur in kleiner Zahl, was sie heute umso seltener macht. 1988 folgte die erste Daytona mit Automatikwerk (Ref. 16520, Basis Zenith El Primero), im Jahr 2000 die Ref. 116520 mit dem eigenen Kaliber 4130."
+  ],
+  "f": [
+   [
+    "Bezeichnung bei Rolex",
+    "»Exotic Dial«"
+   ],
+   [
+    "Referenzen",
+    "6239, 6241, 6262, 6263, 6264, 6265"
+   ],
+   [
+    "Namensgeber",
+    "Paul Newman (1925–2008)"
+   ],
+   [
+    "Auktion von Newmans Uhr",
+    "Phillips New York, Oktober 2017"
+   ]
+  ],
+  "r": [
+   "daytona",
+   "chronograph",
+   "tachymeter",
+   "vintage-begriffe",
+   "rekord-auktionen",
+   "kino-uhren"
+  ],
+  "k": "Paul Newmans eigene Daytona mit der Gravur »Drive Carefully Me« war 2017 die teuerste je versteigerte Armbanduhr.",
+  "fig": {
+   "m": [
+    "daytona",
+    "daytona"
+   ],
+   "img": [
+    "assets/watches/rolex-daytona-6239-paul-newman.jpg",
+    null
+   ],
+   "mc": [
+    "Ref. 6239 mit »Paul Newman«-Zifferblatt",
+    "Heutige Daytona mit Automatikwerk"
+   ]
+  },
+  "x": [
+   "Der rote Schriftzug »Daytona« über dem unteren Hilfszifferblatt fehlt bei den frühesten Exemplaren und kam erst später hinzu.",
+   "Die Referenzen 6263 und 6265 haben verschraubte Drücker (»Oyster«-Drücker) für bessere Wasserdichtigkeit.",
+   "Ein Zifferblatt, das nicht ab Werk zur Uhr gehörte, senkt den Sammlerwert erheblich, selbst wenn es selbst echt ist."
+  ]
+ },
+ {
+  "id": "kino-uhren",
+  "t": "Uhren im Kino und auf dem roten Teppich",
+  "c": "Geschichte",
+  "a": [
+   "Filmuhren",
+   "Uhren im Film",
+   "Hollywood"
+  ],
+  "s": "Von Steve McQueens Monaco bis zur Hamilton aus »Interstellar«: Uhren, die durch Filme und ihre Stars berühmt wurden.",
+  "b": [
+   "Filme haben einzelne Uhrenmodelle bekannter gemacht als jede Werbung. Manche Uhren wählten Kostümbildner bewusst als Teil einer Figur aus, andere trugen die Schauspieler privat, und wieder andere entstanden erst, weil ein Film sie berühmt gemacht hatte. Dazu kommen die Stars selbst, deren Uhren auf Fotos und roten Teppichen ganze Sammlertrends auslösen können.",
+   "Steve McQueen trug im Rennfilm »Le Mans« (1971) eine Heuer Monaco mit blauem Zifferblatt. Die eckige Uhr war damals ein Außenseiter, heute gilt sie als Ikone, und TAG Heuer erinnert in Werbung und Sondermodellen immer wieder an McQueen. Kurios ist die Rolex Explorer II Ref. 1655: Sammler nennen sie »Steve McQueen«, obwohl es keinen Beleg gibt, dass er sie je getragen hat. Privat trug er eine Rolex Submariner.",
+   "Marlon Brando trug in »Apocalypse Now« (1979) eine Rolex GMT-Master Ref. 1675, bei der die Lünette entfernt war. Seinen Namen hatte er in den Boden gravieren lassen. Die Uhr wurde 2019 bei Phillips in New York versteigert und erzielte umgerechnet rund 1,75 Millionen Euro. Michael Douglas trug als Gordon Gekko in »Wall Street« (1987) eine Cartier Santos aus Stahl und Gold, die zum Sinnbild des Börsenjahrzehnts wurde.",
+   "Hamilton ist die Marke mit der vielleicht längsten Filmgeschichte. Elvis Presley trug in »Blaues Hawaii« (1961) die asymmetrische Hamilton Ventura. In Christopher Nolans »Interstellar« (2014) spielt eine Hamilton Khaki eine Schlüsselrolle in der Handlung; nach dem Film brachte Hamilton das Modell auf Nachfrage der Fans als »Murph« in Serie, benannt nach der Tochter der Hauptfigur.",
+   "Auf dem roten Teppich und in der Werbung arbeiten Uhrenmarken heute mit Markenbotschaftern: George Clooney und Nicole Kidman etwa für Omega, Ryan Gosling für TAG Heuer. Andy Warhol, der mehrere Cartier Tank besaß, sagte, er trage die Tank nicht, um die Zeit abzulesen, er ziehe sie nicht einmal auf, weil sie einfach die Uhr sei, die man trage."
+  ],
+  "g": [
+   "Schon in der Stummfilmzeit hing Harold Lloyd in »Ausgerechnet Wolkenkratzer!« (1923) an einer großen Turmuhr, eine der bekanntesten Szenen der Filmgeschichte. Armbanduhren rückten mit dem Farbfilm und den Nahaufnahmen der 1950er- und 1960er-Jahre stärker ins Bild. Mit James Bond wurde die Uhr ab 1962 zu einem festen Teil einer Filmfigur."
+  ],
+  "f": [
+   [
+    "Le Mans (1971)",
+    "Heuer Monaco, Steve McQueen"
+   ],
+   [
+    "Apocalypse Now (1979)",
+    "Rolex GMT-Master 1675, Marlon Brando"
+   ],
+   [
+    "Wall Street (1987)",
+    "Cartier Santos, Michael Douglas"
+   ],
+   [
+    "Interstellar (2014)",
+    "Hamilton Khaki, später »Murph«"
+   ]
+  ],
+  "r": [
+   "james-bond",
+   "paul-newman-daytona",
+   "monaco",
+   "murph",
+   "ventura",
+   "santos"
+  ],
+  "k": "Die Rolex Explorer II 1655 heißt unter Sammlern »Steve McQueen«, obwohl er sie wohl nie getragen hat.",
+  "fig": {
+   "m": [
+    "monaco",
+    "murph",
+    "ventura"
+   ],
+   "mc": [
+    "Die Uhr aus »Le Mans« (1971)",
+    "Aus »Interstellar« (2014) entstanden",
+    "Elvis Presley in »Blaues Hawaii« (1961)"
+   ]
+  },
+  "x": [
+   "Die Monaco war 1969 eine der ersten Uhren mit automatischem Chronographenwerk (Kaliber 11) und eines der ersten wasserdichten Gehäuse in quadratischer Form.",
+   "Requisiteure besorgen Filmuhren häufig doppelt oder dreifach, damit bei Stunts und Wiederholungen immer ein identisches Exemplar bereitliegt.",
+   "Uhren mit belegter Herkunft aus dem Besitz eines Stars erzielen auf Auktionen oft ein Vielfaches des Preises einer gleichen Uhr ohne diese Geschichte."
+  ]
+ },
+ {
+  "id": "praesidenten-uhren",
+  "t": "Uhren der Präsidenten",
+  "c": "Geschichte",
+  "a": [
+   "Präsidentenuhr",
+   "President",
+   "Politiker-Uhren"
+  ],
+  "s": "Warum die Day-Date »President« heißt und welche Uhren amerikanische Präsidenten wirklich trugen.",
+  "b": [
+   "Kaum ein Accessoire wird bei Staatsoberhäuptern so genau beobachtet wie die Uhr. Sie kann Bodenständigkeit zeigen oder Status, sie kann ein Geschenk mit Geschichte sein oder ein politisches Signal. Entsprechend unterschiedlich fällt die Auswahl aus: Neben Golduhren aus der Schweiz trugen amerikanische Präsidenten auch einfache Quarzuhren für wenige Dutzend Euro.",
+   "John F. Kennedy trug bei seiner Amtseinführung 1961 eine flache Omega aus Gold. Bekannter ist seine Cartier Tank, ein Geschenk seiner Frau Jacqueline; Jacqueline Kennedy trug selbst ebenfalls eine Tank, die 2017 bei Christie's versteigert wurde. Um eine Rolex Day-Date, die Marilyn Monroe Kennedy geschenkt haben soll, ranken sich Geschichten, deren Echtheit umstritten ist.",
+   "Bill Clinton trug häufig eine Timex Ironman Triathlon, eine Digitaluhr aus Kunststoff; ein Exemplar gelangte in die Sammlung der Smithsonian Institution. Barack Obama trug lange einen Chronographen der kleinen Marke Jorg Gray, ein Geschenk seiner Personenschützer vom Secret Service aus dem Wahlkampf 2008. Joe Biden zeigte sich mit einer Omega Seamaster Diver 300M und einer Rolex Datejust.",
+   "Weil Uhren für Präsidenten oft Geschenke sind, gelten für Amtsträger strenge Regeln. In den USA müssen Geschenke ausländischer Regierungen ab einem bestimmten Wert gemeldet werden und gehen in der Regel in den Besitz des Staates über. Manche Präsidenten trugen deshalb bewusst günstige Uhren, um gar nicht erst in den Verdacht zu geraten, sich beschenken zu lassen."
+  ],
+  "g": [
+   "Rolex stellte 1956 die Day-Date vor, die erste Armbanduhr, die Wochentag und Datum ausgeschrieben im Zifferblatt zeigte. Sie gab es nur in Gold oder Platin, und mit ihr kam das dreireihige »President«-Band mit halbrunden Gliedern. Der Name des Bandes übertrug sich bald auf die ganze Uhr: Unter Sammlern und Händlern heißt die Day-Date bis heute »President«.",
+   "Rolex nutzte die Verbindung zur Politik in der Werbung. Die Marke betonte gern, dass ihre Uhren an den Handgelenken von Staatsmännern zu sehen seien, ohne dass jeder dieser Träger tatsächlich eine Day-Date besaß. Lyndon B. Johnson wird häufig mit einer goldenen Day-Date in Verbindung gebracht."
+  ],
+  "f": [
+   [
+    "»President«",
+    "Spitzname der Rolex Day-Date (seit 1956)"
+   ],
+   [
+    "John F. Kennedy",
+    "Omega (Amtseinführung 1961), Cartier Tank"
+   ],
+   [
+    "Bill Clinton",
+    "Timex Ironman Triathlon"
+   ],
+   [
+    "Barack Obama",
+    "Jorg Gray Chronograph"
+   ]
+  ],
+  "r": [
+   "day-date",
+   "tank",
+   "seamaster-300m",
+   "datejust",
+   "quarzkrise",
+   "kino-uhren"
+  ],
+  "k": "Die Rolex Day-Date heißt »President«, weil ihr Band diesen Namen trägt, nicht weil ein bestimmter Präsident sie trug.",
+  "fig": {
+   "m": [
+    "day-date",
+    "tank",
+    "seamaster-300m"
+   ],
+   "mc": [
+    "Die »President«",
+    "Geschenk von Jacqueline an John F. Kennedy",
+    "Getragen von Joe Biden"
+   ]
+  },
+  "x": [
+   "Eine Uhr mit nachgewiesener Herkunft aus dem Besitz eines Präsidenten erzielt auf Auktionen ein Vielfaches ihres Materialwerts.",
+   "Die Day-Date ist seit ihrer Einführung ausschließlich in Gold und Platin erhältlich, eine Stahlversion hat es nie gegeben."
+  ]
+ },
+ {
+  "id": "rekord-auktionen",
+  "t": "Rekord-Auktionen",
+  "c": "Geschichte",
+  "a": [
+   "Auktionsrekorde",
+   "teuerste Uhr",
+   "Only Watch"
+  ],
+  "s": "Die teuersten je versteigerten Uhren, und warum Herkunft und Seltenheit mehr zählen als Gold.",
+  "b": [
+   "Die Preise für Uhren bei Auktionen erreichen seit den 2010er-Jahren Höhen, die früher Gemälden vorbehalten waren. Den Wert bestimmen vor allem drei Dinge: Seltenheit, Erhaltungszustand und Herkunft. Eine Uhr, die nur einmal gebaut wurde oder einer berühmten Person gehörte, kann ein Vielfaches einer technisch gleichwertigen Uhr erzielen. Die großen Auktionshäuser für Uhren sind Phillips, Christie's und Sotheby's, die wichtigsten Auktionsorte Genf, New York und Hongkong.",
+   "Die teuerste je versteigerte Armbanduhr ist die Patek Philippe Grandmaster Chime Ref. 6300A-010, ein Einzelstück aus Stahl, das Patek Philippe für die Wohltätigkeitsauktion Only Watch 2019 baute. Sie erzielte bei Christie's in Genf 31 Millionen Schweizer Franken, umgerechnet rund 28 Millionen Euro. Die Grandmaster Chime hat zwanzig Komplikationen und zwei Zifferblätter; dass Patek Philippe sie einmalig in Stahl baute, machte sie unverwechselbar.",
+   "Die teuerste Taschenuhr ist die Henry Graves Supercomplication von Patek Philippe, 1933 für den amerikanischen Bankier Henry Graves Jr. fertiggestellt und mit 24 Komplikationen über Jahrzehnte die komplizierteste Uhr der Welt. Sotheby's versteigerte sie 2014 in Genf für umgerechnet rund 19 Millionen Euro.",
+   "Zu den bekanntesten Rekorden zählen außerdem die Rolex Daytona von Paul Newman, die 2017 umgerechnet rund 15 Millionen Euro erzielte, eine Patek Philippe Ref. 1518 aus Stahl, einer von nur vier bekannten Stahl-Exemplaren des ersten in Serie gebauten ewigen Kalenders mit Chronograph, die 2016 bei Phillips umgerechnet rund 10 Millionen Euro erreichte, und die Rolex »Bao Dai« Ref. 6062 des letzten Kaisers von Vietnam, 2017 bei Phillips für umgerechnet rund 4,6 Millionen Euro versteigert.",
+   "Rekorde verändern den Markt: Nach spektakulären Ergebnissen steigen oft auch die Preise für verwandte, gewöhnlichere Modelle. Gleichzeitig zeigen Auktionen, wie wichtig Belege sind. Originalrechnung, Garantiepapiere, Fotos und eine lückenlose Besitzerkette machen bei Sammleruhren einen großen Teil des Wertes aus."
+  ],
+  "g": [
+   "Uhrenauktionen gab es schon im 19. Jahrhundert, doch erst in den 1980er-Jahren entstand ein eigener Markt für Sammleruhren, als Auktionshäuser in Genf spezialisierte Uhrenauktionen etablierten. Die große Auktion zum 150-jährigen Bestehen von Patek Philippe 1989 in Genf gilt als Wendepunkt für den Sammlermarkt. Seit 2005 findet in Monaco regelmäßig die Wohltätigkeitsauktion Only Watch statt, für die Hersteller Einzelstücke bauen; der Erlös fließt in die Erforschung der Muskelkrankheit Duchenne."
+  ],
+  "f": [
+   [
+    "Teuerste Armbanduhr",
+    "Patek Philippe Grandmaster Chime 6300A-010 (2019)"
+   ],
+   [
+    "Teuerste Taschenuhr",
+    "Patek Philippe Henry Graves Supercomplication (2014)"
+   ],
+   [
+    "Teuerste Rolex",
+    "Daytona »Paul Newman« Ref. 6239 (2017)"
+   ],
+   [
+    "Wichtigste Auktionsorte",
+    "Genf, New York, Hongkong"
+   ]
+  ],
+  "r": [
+   "paul-newman-daytona",
+   "chrono-ewiger-kalender",
+   "minutenrepetition",
+   "ewiger-kalender",
+   "vintage-begriffe",
+   "daytona"
+  ],
+  "k": "Die teuerste je versteigerte Armbanduhr ist eine Patek Philippe aus Stahl, nicht aus Gold.",
+  "fig": {
+   "m": [
+    "daytona",
+    "chrono-ewiger-kalender"
+   ],
+   "img": [
+    "assets/watches/rolex-daytona-6239-paul-newman.jpg",
+    null
+   ],
+   "mc": [
+    "Ref. 6239 »Paul Newman«, Rekord 2017",
+    "Nachfahre der Ref. 1518, des ersten Serien-Chronographen mit ewigem Kalender"
+   ]
+  },
+  "x": [
+   "Bei Auktionen kommt zum Zuschlag ein Aufgeld des Auktionshauses hinzu; die veröffentlichten Rekordpreise enthalten es meist bereits.",
+   "Uhren aus Stahl sind bei historischen Patek Philippe oft seltener als goldene, weil die Marke Stahl früher nur auf besondere Bestellung verwendete.",
+   "Wohltätigkeitsauktionen wie Only Watch erzielen oft Preise weit über dem Marktwert, weil Bieter die Einzelstücke zugleich als Spende verstehen."
   ]
  }
 ]
