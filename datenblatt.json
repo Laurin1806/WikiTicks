@@ -5991,11 +5991,16 @@
    "zifferblatt_optionen": "Creme, aufgesetzte goldfarbene Stabindizes, Dauphine-Zeiger"
   },
   "master-collection|0": {
-   "gehaeuse": "Gelbgold, poliert",
+   "ref": "6817",
+   "produktion": "1980er-Jahre",
+   "durchmesser": "37 mm",
+   "gehaeuse": "18 Karat Gelbgold",
    "krone": "geriffelt, zwischen zwei Chronographendrückern",
+   "werktyp": "Handaufzug",
    "funktionen": "Stunden, Minuten, kleine Sekunde bei 9 Uhr; Chronograph mit 30-Minuten-Zähler bei 3 Uhr und 12-Stunden-Zähler bei 6 Uhr; Wochentag und Monat (Fenster), Datum (Zeiger mit Halbmondspitze), Mondphase im Zähler bei 6 Uhr; Vollkalender: Monate mit weniger als 31 Tagen von Hand korrigieren",
    "leuchtmasse": "keine",
    "band": "schwarzes Leder mit Krokoprägung",
+   "schliesse": "Dornschließe, signiert",
    "zifferblatt_optionen": "Champagner, aufgesetzte goldene Stabindizes, Dauphine-Zeiger"
   }
  },
@@ -14164,6 +14169,18 @@
    "steine": "19",
    "funktionen": "Stunden, Minuten, kleine Sekunde",
    "band": "Alligatorleder"
+  },
+  "master-collection|6817": {
+   "ref": "6817",
+   "produktion": "1980er-Jahre",
+   "durchmesser": "37 mm",
+   "gehaeuse": "18 Karat Gelbgold",
+   "krone": "geriffelt, zwischen zwei Chronographendrückern",
+   "werktyp": "Handaufzug",
+   "funktionen": "Stunden, Minuten, kleine Sekunde; Chronograph; Wochentag und Monat (Fenster), Datum (Zeiger), Mondphase",
+   "leuchtmasse": "keine",
+   "band": "schwarzes Leder",
+   "schliesse": "Dornschließe, signiert"
   }
  }
 }
