@@ -5991,17 +5991,12 @@
    "zifferblatt_optionen": "Creme, aufgesetzte goldfarbene Stabindizes, Dauphine-Zeiger"
   },
   "master-collection|0": {
-   "gehaeuse": "Edelstahl, poliert",
-   "glas": "Saphir, entspiegelt",
-   "boden": "Saphirglasboden",
-   "wasserdicht": "30 m (3 bar)",
-   "werktyp": "Automatik",
-   "manufaktur": "Basis ETA",
-   "krone": "geriffelt, ohne Kronenschutz",
-   "funktionen": "Stunden, Minuten, Zentralsekunde, Wochentag und Monat (Fenster), Datum (Zeiger mit Halbmondspitze), Mondphase bei 6 Uhr; Vollkalender: Monate mit weniger als 31 Tagen von Hand korrigieren",
+   "gehaeuse": "Gelbgold, poliert",
+   "krone": "geriffelt, zwischen zwei Chronographendrückern",
+   "funktionen": "Stunden, Minuten, kleine Sekunde bei 9 Uhr; Chronograph mit 30-Minuten-Zähler bei 3 Uhr und 12-Stunden-Zähler bei 6 Uhr; Wochentag und Monat (Fenster), Datum (Zeiger mit Halbmondspitze), Mondphase im Zähler bei 6 Uhr; Vollkalender: Monate mit weniger als 31 Tagen von Hand korrigieren",
    "leuchtmasse": "keine",
-   "band": "Leder mit Krokoprägung, helle Steppnaht",
-   "zifferblatt_optionen": "Silber mit Gerstenkornmuster, gebläute Zeiger"
+   "band": "schwarzes Leder mit Krokoprägung",
+   "zifferblatt_optionen": "Champagner, aufgesetzte goldene Stabindizes, Dauphine-Zeiger"
   }
  },
  "_refs": {

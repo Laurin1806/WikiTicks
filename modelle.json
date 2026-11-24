@@ -15693,7 +15693,7 @@
    "s": "Klassische Uhren von Longines, bekannt für Mondphasen und Kalender zu vergleichsweise günstigen Preisen.",
    "b": [
     "Die Master Collection ist die klassische Linie von Longines. Ihre Zifferblätter sind oft mit einem Gerstenkornmuster verziert, die Zeiger gebläut und die Ziffern arabisch.",
-    "Bekannt ist die Kollektion für Modelle mit Mondphase, Vollkalender und Chronograph, die man sonst meist nur in viel teureren Uhren findet. Beim Vollkalender stehen Wochentag und Monat in zwei Fenstern unter der 12, das Datum zeigt ein gebläuter Zeiger auf einer Skala am Rand. Weil das Werk nicht weiß, wie viele Tage ein Monat hat, muss man nach Monaten mit weniger als 31 Tagen das Datum von Hand weiterstellen, fünfmal im Jahr. Die Mondphase bei 6 Uhr arbeitet mit einer Scheibe, auf der zwei Monde aufgedruckt sind und die einmal am Tag um einen Zahn weiterrückt. Bei den üblichen 59 Zähnen dauert ein Mondzyklus 29,5 Tage; der echte Mondmonat ist etwa 44 Minuten länger, deshalb weicht die Anzeige nach rund zweieinhalb Jahren um einen Tag ab und wird über einen Drücker oder die Krone nachgestellt.",
+    "Bekannt ist die Kollektion für Modelle mit Mondphase, Vollkalender und Chronograph, die man sonst meist nur in viel teureren Uhren findet. Beim Vollkalender stehen Wochentag und Monat in zwei Fenstern unter der 12, das Datum zeigt ein Zeiger mit Halbmondspitze auf einer Skala am Rand. Weil das Werk nicht weiß, wie viele Tage ein Monat hat, muss man nach Monaten mit weniger als 31 Tagen das Datum von Hand weiterstellen, fünfmal im Jahr. Beim Kalender-Chronographen kommen Hilfszifferblätter für die kleine Sekunde, die gestoppten Minuten und Stunden dazu; die Mondphase sitzt dann im Stundenzähler bei 6 Uhr. Die Mondanzeige arbeitet mit einer Scheibe, auf der zwei Monde aufgedruckt sind und die einmal am Tag um einen Zahn weiterrückt. Bei den üblichen 59 Zähnen dauert ein Mondzyklus 29,5 Tage; der echte Mondmonat ist etwa 44 Minuten länger, deshalb weicht die Anzeige nach rund zweieinhalb Jahren um einen Tag ab und wird über einen Drücker oder die Krone nachgestellt.",
     "Seit 2022 gibt es eine überarbeitete Version mit neuen Werken und bis zu 72 Stunden Gangreserve."
    ],
    "cur": "Master Collection Automatic mit Datum, 40 mm",
@@ -15801,17 +15801,17 @@
    "irefs": "mittel",
    "var": [
     {
-     "n": "Master Collection mit Vollkalender und Mondphase",
+     "n": "Kalender-Chronograph mit Mondphase in Gelbgold",
      "y": "",
      "v": {
       "img": "assets/watches/longines-master-collection-moonphase.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine Longines Master Collection aus Edelstahl mit Vollkalender und Mondphase, mit silberfarbenem Zifferblatt im Gerstenkornmuster und braunem Lederband mit heller Steppnaht.",
-      "Zu erkennen sind die Fenster für Wochentag und Monat unter dem Schriftzug »LONGINES«, der gebläute Zeiger mit Halbmondspitze, der das Datum auf der Skala am Rand anzeigt, und die Mondphase in einem Hilfszifferblatt bei 6 Uhr. Dazu kommen große schwarze arabische Ziffern, gebläute Blattzeiger und ein schlanker blauer Sekundenzeiger; über der 12 steht die rote 31 der Datumsskala."
+      "Die Abbildung zeigt einen Longines-Chronographen mit Vollkalender und Mondphase in einem Gehäuse aus Gelbgold, mit champagnerfarbenem Zifferblatt und schwarzem Lederband mit Krokoprägung. Die Gestaltung erinnert an die klassischen Kalender-Chronographen der Mitte des 20. Jahrhunderts; eine bestimmte Referenz lässt sich der Darstellung nicht zuordnen.",
+      "Zu erkennen sind die Fenster für Wochentag und Monat unter der 12, darunter »LONGINES« mit dem Flügelsanduhr-Logo, und der Datumszeiger mit blauer Halbmondspitze, der auf die Skala von 1 bis 31 am Rand zeigt. Links liegt die kleine Sekunde, rechts der 30-Minuten-Zähler, unten der 12-Stunden-Zähler mit der Mondphase, deren Mond ein Gesicht trägt. Die Indizes sind aufgesetzte goldene Stäbe, die Zeiger schlanke Dauphine-Zeiger; rechts sitzen die Krone und die beiden Drücker des Chronographen."
      ],
      "at": "Mondphase, Vollkalender und Chronograph",
-     "dial": "Silber"
+     "dial": "Champagner"
     }
    ],
    "lx": [
@@ -31741,6 +31741,6 @@
   "zodiac-sea-wolf.jpg": 502,
   "jaeger-lecoultre-reverso-turned.jpg": 543,
   "vacheron-constantin-vintage-small-seconds.jpg": 543,
-  "longines-master-collection-moonphase.jpg": 543
+  "longines-master-collection-moonphase.jpg": 1139
  }
 }
