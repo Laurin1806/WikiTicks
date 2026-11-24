@@ -103,7 +103,11 @@
     "under": true
    }
   ],
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60,
+   210
+  ]
  },
  "assets/watches/rolex-sea-dweller-126600.jpg": {
   "c": [
@@ -138,7 +142,10 @@
   "autohands": true,
   "R": 255,
   "inset": 0.25,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60
+  ]
  },
  "assets/watches/rolex-deepsea-136660-d-blue.jpg": {
   "c": [
@@ -173,7 +180,10 @@
   "autohands": true,
   "R": 268,
   "inset": 0.25,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60
+  ]
  },
  "assets/watches/rolex-gmt-master-2-126710-pepsi.jpg": {
   "c": [
@@ -208,7 +218,10 @@
   "autohands": true,
   "R": 190,
   "inset": 0.25,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60
+  ]
  },
  "assets/watches/rolex-explorer-124270.jpg": {
   "c": [
@@ -292,7 +305,11 @@
   "autohands": true,
   "R": 225,
   "inset": 0.25,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60,
+   210
+  ]
  },
  "assets/watches/rolex-datejust-126234-blue.jpg": {
   "c": [
@@ -1037,6 +1054,7 @@
    "hour": 303
   },
   "idxfix": [
+   60,
    210
   ]
  },
@@ -1069,6 +1087,7 @@
   "inset": 0.27,
   "idxinset": 0.28,
   "idxfix": [
+   60,
    210
   ]
  },
@@ -1092,7 +1111,11 @@
   "autohands": true,
   "R": 243.10000000000002,
   "inset": 0.27,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60,
+   210
+  ]
  },
  "assets/watches/rolex-gmt-master-2-126710-batman.jpg": {
   "c": [
@@ -1121,7 +1144,10 @@
   "autohands": true,
   "R": 209.00000000000003,
   "inset": 0.27,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60
+  ]
  },
  "assets/watches/rolex-explorer-2-1655-freccione.jpg": {
   "c": [
@@ -1180,7 +1206,10 @@
   "autohands": true,
   "R": 209.00000000000003,
   "inset": 0.27,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60
+  ]
  },
  "assets/watches/rolex-sea-dweller-1665-double-red.jpg": {
   "c": [
@@ -1202,7 +1231,12 @@
   "autohands": true,
   "R": 236.50000000000003,
   "inset": 0.27,
-  "idxinset": 0.28
+  "idxinset": 0.28,
+  "idxfix": [
+   60,
+   150,
+   210
+  ]
  },
  "assets/watches/rolex-daytona-116520.jpg": {
   "c": [
@@ -1834,6 +1868,199 @@
       0
      ]
     ]
+   }
+  ]
+ },
+ "assets/watches/rolex-explorer-ii-226570-polar.jpg": {
+  "mode": "light",
+  "c": [
+   0.4654226125137212,
+   0.46534653465346537
+  ],
+  "r": 0.252,
+  "col": "b",
+  "thr": 150,
+  "sat": 60,
+  "min": 6e-05,
+  "max": 0.006,
+  "open": 0,
+  "ex": [
+   [
+    0.71,
+    0.43,
+    0.86,
+    0.5
+   ],
+   [
+    0.35,
+    0.33,
+    0.59,
+    0.38
+   ]
+  ],
+  "shapes": [
+   {
+    "t": "merc",
+    "c": [
+     349,
+     561
+    ],
+    "r1": 17,
+    "sp": [
+     123.69006752597977,
+     243.69006752597977,
+     3.690067525979771
+    ],
+    "sw": 2.2
+   },
+   {
+    "t": "circle",
+    "c": [
+     537.0,
+     413.75757575757575
+    ],
+    "r": 17
+   },
+   {
+    "t": "circle",
+    "c": [
+     626.3939393939394,
+     499.3636363636364
+    ],
+    "r": 17
+   },
+   {
+    "t": "circle",
+    "c": [
+     626.3939393939394,
+     734.2121212121212
+    ],
+    "r": 17
+   },
+   {
+    "t": "circle",
+    "c": [
+     537.0,
+     819.8181818181818
+    ],
+    "r": 17
+   },
+   {
+    "t": "circle",
+    "c": [
+     309.7272727272727,
+     819.8181818181818
+    ],
+    "r": 17
+   },
+   {
+    "t": "circle",
+    "c": [
+     224.12121212121212,
+     734.2121212121212
+    ],
+    "r": 17
+   },
+   {
+    "t": "circle",
+    "c": [
+     224.12121212121212,
+     499.3636363636364
+    ],
+    "r": 17
+   },
+   {
+    "t": "circle",
+    "c": [
+     309.7272727272727,
+     413.75757575757575
+    ],
+    "r": 17
+   }
+  ],
+  "dotr": 0.0
+ },
+ "assets/watches/rolex-daytona-6239-paul-newman.jpg": {
+  "c": [
+   0.49042553191489363,
+   0.496
+  ],
+  "r": 0.01,
+  "col": "g",
+  "thr": 255,
+  "min": 1,
+  "hub": [
+   463,
+   494
+  ],
+  "shapes": [
+   {
+    "t": "idx",
+    "r": 228,
+    "angs": [
+     30,
+     60,
+     90,
+     120,
+     150,
+     210,
+     240,
+     270,
+     300,
+     330
+    ],
+    "L": 7,
+    "W": 4,
+    "hub": [
+     461,
+     496
+    ]
+   },
+   {
+    "t": "sword",
+    "ang": 55.1,
+    "w": [
+     [
+      55,
+      1.5
+     ],
+     [
+      75,
+      3
+     ],
+     [
+      165,
+      3
+     ],
+     [
+      176,
+      0
+     ]
+    ],
+    "off": 0
+   },
+   {
+    "t": "sword",
+    "ang": 304.7,
+    "w": [
+     [
+      40,
+      1.5
+     ],
+     [
+      55,
+      3
+     ],
+     [
+      118,
+      3
+     ],
+     [
+      128,
+      0
+     ]
+    ],
+    "off": 0
    }
   ]
  }

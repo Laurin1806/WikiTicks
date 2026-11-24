@@ -175,6 +175,11 @@ def gen(img, spec):
                 if dots and len(dots)>=len(bars) and not spec.get('idxbar'):
                     rad=float(np.median([math.sqrt(len(c)/math.pi) for c in dots]))
                     keep[np.hypot(xx5-px5,yy5-py5)<rad*1.9]=False;keep[np.hypot(xx5-px5,yy5-py5)<=rad]=True
+                    # Teil unter Stunden-/Minutenzeiger nicht leuchten lassen (Zeiger liegt darüber)
+                    for a_,role,mw,dm in lg:
+                        if role=='sec': continue
+                        ta=math.radians(a_);ax6,ay6=math.sin(ta),-math.cos(ta);dx6=xx5-hx;dy6=yy5-hy;al6=dx6*ax6+dy6*ay6;pe6=np.abs(-dx6*ay6+dy6*ax6)
+                        keep[(al6>0)&(al6<dm+3)&(pe6<mw/2+1.5)&(np.hypot(xx5-px5,yy5-py5)<=rad+1)]=False
                 elif bars:   # Balken: Vorlage eines vorhandenen Balkens drehen
                     tb=bars[0];tcy,tcx=tb[:,0].mean(),tb[:,1].mean();ta=math.atan2(tcx-hx,-(tcy-hy));da=t-ta
                     keep[np.hypot(xx5-px5,yy5-py5)<math.sqrt(len(tb))*1.3]=False
@@ -205,6 +210,15 @@ def gen(img, spec):
             ev,evec=np.linalg.eigh(np.cov(np.vstack([dx_,dy_])));v=evec[:,1];u=np.array([-v[1],v[0]])
             pa=dx_*v[0]+dy_*v[1];pb=dx_*u[0]+dy_*u[1]
             L_=pa.max()-pa.min();W_=pb.max()-pb.min()
+            ell=len(c)/max(1,math.pi/4*(L_+1)*(W_+1))
+            # Rundheit über den Rand: Abstand der Randpixel zum Mittelpunkt muss nahezu konstant sein (Ziffern 6/9 fallen heraus)
+            S_=set(map(tuple,c.tolist()));edge=np.array([p for p in c.tolist() if (p[0]+1,p[1]) not in S_ or (p[0]-1,p[1]) not in S_ or (p[0],p[1]+1) not in S_ or (p[0],p[1]-1) not in S_])
+            rd=np.hypot(edge[:,1]-cx_,edge[:,0]-cy_) if len(edge) else np.array([0.,1.])
+            circ=rd.std()/max(rd.mean(),1e-6)
+            if spec.get('dotr',1)==0 and L_<W_*1.3 and .8<ell<1.2: continue   # Kreise werden per Form gesetzt
+            if L_<W_*1.3 and .8<ell<1.2 and circ<.09:   # runde Indizes: Leuchtmasse als exakter Kreis in der Mitte der Einfassung
+                rr=math.sqrt(len(c)/math.pi)*spec.get('dotr',.68)
+                d2.ellipse([(cx_-rr)*4,(cy_-rr)*4,(cx_+rr)*4,(cy_+rr)*4],fill=255);continue
             if L_<W_*1.6 or len(c)/max(1,L_*W_)<.72:   # Punkte, Dreiecke, Ziffern: Leuchtmasse nur innerhalb der Einfassung (nach innen schrumpfen)
                 fillr=len(c)/max(1,(c[:,0].max()-c[:,0].min()+1)*(c[:,1].max()-c[:,1].min()+1))
                 e=max(1,int(round(min(L_,W_)*spec.get('dotshrink',.17))))
