@@ -265,7 +265,7 @@ a.xl:hover { text-decoration-color: var(--accent); }
 /* »Heißeste« Marken im Menü */
 .hothint { display: flex; align-items: center; gap: 5px; font-size: 11.5px; color: var(--muted); padding: 0 10px 4px 22px; }
 .flame { width: 12px; height: 12px; fill: #e0702e; flex: none; }
-a.hot { display: flex !important; align-items: center; justify-content: space-between; gap: 6px; }
+a.hot { display: flex !important; align-items: center; gap: 6px; padding-left: 4px !important; }
 a.hot .flame { opacity: .85; }
 a.hot[aria-current="true"] .flame { fill: #ffb27a; }
 :root.night .flame { filter: drop-shadow(0 0 3px rgba(240, 130, 60, calc(var(--gl) * .8))); }
@@ -708,8 +708,7 @@ function renderNav(h) {
       ${FAV.filter(favLabel).length ? FAV.filter(favLabel).map(id => `<li><a href="#${id}" class="sub" aria-current="${h === id}">${esc(favLabel(id))}</a></li>`).join("") : `<li class="favhint">Mit ☆ bei einem Beitrag merken</li>`}
     </ul></div>
     <div class="navgroup"><h2><a href="#uhrenmodelle" aria-current="${key === "uhrenmodelle"}">Alle Marken</a></h2><ul>
-      <li class="hothint">${FLAME}Gefragteste Marken</li>
-      ${navBrands(key).map(b => NAV_FIXED.includes(b) ? `<li><a href="#marke-${slug(b)}" class="sub hot" aria-current="${key === "marke-" + slug(b)}">${esc(b)}${FLAME}</a></li>` : link("marke-" + slug(b), b, "sub")).join("")}
+      ${navBrands(key).map(b => NAV_FIXED.includes(b) ? `<li><a href="#marke-${slug(b)}" class="sub hot" aria-current="${key === "marke-" + slug(b)}" title="Gefragte Marke">${FLAME}${esc(b)}</a></li>` : link("marke-" + slug(b), b, "sub")).join("")}
     </ul></div>
     <div class="navgroup"><h2><a href="#a-z" aria-current="${key === "a-z"}">Lexikon</a></h2><ul>
       ${CAT_ORDER.filter(c => LEX.some(e => e.c === c)).map(c => link("rubrik-" + slug(c), c, "sub")).join("")}
