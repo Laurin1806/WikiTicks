@@ -4019,5 +4019,73 @@
    "Nomos beruft sich auf das gleiche Bauhaus-Erbe.",
    "Seine Entwürfe gelten als frühe Designklassiker."
   ]
+ },
+ {
+  "id": "james-bond",
+  "t": "James Bond und seine Uhren",
+  "c": "Geschichte",
+  "a": [
+   "007",
+   "Bond-Uhren",
+   "Bond"
+  ],
+  "s": "Wie die Uhr zum festen Teil der Figur wurde: von der Rolex Submariner der Connery-Jahre über Seiko-Quarzuhren bis zur Omega Seamaster.",
+  "b": [
+   "Kaum eine Filmfigur ist so eng mit Armbanduhren verbunden wie James Bond. Seit dem ersten Film »James Bond jagt Dr. No« von 1962 trägt der Agent eine erkennbare Uhr, und oft spielt sie eine Rolle in der Handlung: als Werkzeug, als Gerät aus Qs Werkstatt oder als Zeichen für den Charakter des jeweiligen Darstellers. Grob lassen sich drei Epochen unterscheiden: die Rolex-Jahre mit Sean Connery und George Lazenby, die Quarz- und Gadget-Zeit mit Roger Moore und seit 1995 die Omega-Ära.",
+   "Mit Roger Moore kam 1973 in »Leben und sterben lassen« zunächst noch eine Submariner 5513 zum Einsatz, deren Magnet laut Q sogar eine Pistolenkugel ablenken kann und deren Lünette sich als Kreissäge durch Fesseln schneidet. Im selben Film trägt Bond aber auch eine Hamilton Pulsar mit roter Leuchtdiodenanzeige, eine der ersten elektronischen Digitaluhren. Das war ein Zeichen der Zeit: Die Quarzuhr eroberte in den 1970er-Jahren den Markt.",
+   "Ab »Der Spion, der mich liebte« (1977) trug Moore Seiko-Quarzuhren. In diesem Film druckt seine Seiko eine Nachricht auf einem schmalen Papierstreifen aus, in »Octopussy« (1983) zeigt eine Seiko sogar ein kleines Fernsehbild. Timothy Dalton trug in »Der Hauch des Todes« (1987) eine TAG Heuer und in »Lizenz zum Töten« (1989) wieder eine Rolex Submariner.",
+   "Mit »GoldenEye« begann 1995 die bis heute andauernde Zusammenarbeit mit Omega. Die Kostümbildnerin Lindy Hemming sah Bond als Offizier der Royal Navy und hielt eine Omega für passender. Pierce Brosnan trug in allen vier Filmen die Seamaster Professional Diver 300M mit blauem Zifferblatt und Wellenmuster, im ersten Film mit eingebautem Laser. Für Omega wurde die Seamaster damit zu einem ihrer bekanntesten Modelle.",
+   "Daniel Craig trug in »Casino Royale« (2006) die Seamaster Planet Ocean und die Seamaster Diver 300M. Berühmt ist ein Dialog im Zug: Vesper Lynd fragt nach seiner Uhr, »Rolex?«, Bond antwortet »Omega.«, sie erwidert »Beautiful.«. Es folgten Planet Ocean und Seamaster 300M in »Ein Quantum Trost« (2008) und »Skyfall« (2012), die im Stil der 1950er-Jahre gehaltene Seamaster 300 in »Spectre« (2015) und in »Keine Zeit zu sterben« (2021) eine Seamaster Diver 300M aus Titan mit braunem Zifferblatt und Milanaiseband, an deren Gestaltung Craig selbst mitwirkte.",
+   "Auch das Armband hat Geschichte geschrieben. In »Goldfinger« (1964) trägt Connery die Submariner an einem schwarz-olivgrün-rot gestreiften Nylonband. Solche Bänder heißen heute oft »Bond-NATO«, obwohl das eigentliche NATO-Band (britische Bezeichnung G10) erst 1973 vom britischen Verteidigungsministerium eingeführt wurde. Das Filmband war ein einfaches Textilband im Regimentsstil."
+  ],
+  "g": [
+   "Die Romanfigur stammt von Ian Fleming, der Bond ab 1953 in zwölf Romanen und zwei Erzählbänden auftreten ließ. In den Büchern trägt Bond eine Rolex. In »Im Geheimdienst Ihrer Majestät« (1963) beschreibt Fleming eine schwere Oyster Perpetual am dehnbaren Metallband, die Bond im Kampf auch als Schlagring einsetzen könnte.",
+   "Für den ersten Film übernahmen die Produzenten die Marke. Sean Connery trägt in »James Bond jagt Dr. No« (1962) eine Rolex Submariner Ref. 6538 mit großer Krone an einem Lederband; nach verbreiteter Darstellung stammte die Uhr aus dem Besitz von Produzent Albert R. »Cubby« Broccoli. Dieselbe Submariner ist in »Liebesgrüße aus Moskau« (1963) und »Goldfinger« (1964) zu sehen. In »Feuerball« (1965) trägt Bond zusätzlich eine Breitling Top Time, die Q zum Geigerzähler umgebaut hat. George Lazenby trug in »Im Geheimdienst Ihrer Majestät« (1969) eine Submariner 5513 und einen Rolex Chronographen der Referenz 6238, den Vorläufer der Daytona."
+  ],
+  "f": [
+   [
+    "Erste Filmuhr",
+    "Rolex Submariner Ref. 6538 (»Dr. No«, 1962)"
+   ],
+   [
+    "Omega seit",
+    "»GoldenEye« (1995)"
+   ],
+   [
+    "Bekanntester Dialog",
+    "»Rolex?« – »Omega.« (»Casino Royale«, 2006)"
+   ],
+   [
+    "Weitere Marken",
+    "Breitling, Hamilton, Seiko, TAG Heuer"
+   ]
+  ],
+  "r": [
+   "submariner",
+   "seamaster-300m",
+   "planet-ocean",
+   "top-time",
+   "taucheruhr",
+   "armband"
+  ],
+  "k": "In den Romanen von Ian Fleming trägt Bond eine Rolex, im Kino seit 1995 eine Omega.",
+  "fig": {
+   "m": [
+    "submariner",
+    "seamaster-300m",
+    "planet-ocean"
+   ],
+   "mc": [
+    "Bond-Uhr der 1960er-Jahre (abgebildet: heutige Ausführung)",
+    "Seit »GoldenEye« (1995) die Bond-Uhr",
+    "Linie aus »Casino Royale« (2006)"
+   ]
+  },
+  "x": [
+   "Die Submariner aus »Dr. No« trägt keine Kronenschützer, typisch für die Referenz 6538 aus den 1950er-Jahren.",
+   "Der Rolex Chronograph 6238 aus »Im Geheimdienst Ihrer Majestät« ist unter Sammlern als »Pre-Daytona« bekannt.",
+   "Omega bringt zu den Filmen regelmäßig Sondermodelle heraus, etwa limitierte Seamaster-Ausführungen mit 007-Motiven auf Zifferblatt oder Rotor.",
+   "Die im Film benutzten Uhren wurden für die Spezialeffekte oft umgebaut oder als Attrappen gefertigt; die Originale aus den Dreharbeiten sind heute begehrte Auktionsstücke."
+  ]
  }
 ]
