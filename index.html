@@ -445,6 +445,22 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.night[data-accent="green"] { --accent: #6cc39a; --accent-soft: #10241f; }
 :root.night[data-accent="bordeaux"] { --accent: #e58fa1; --accent-soft: #2b161c; }
 :root.night[data-accent="anthrazit"] { --accent: #bcc4ce; --accent-soft: #1c222a; }
+/* ---------- Vintage-Ansicht (Test): Patina – vergilbtes Papier, Sepia, Messing ---------- */
+:root.vintage:not(.night) { --bg: #efe5d0; --surface: #f8f1e1; --fg: #2e2418; --muted: #7b6a52; --line: #dccbaa; --accent: #8a5a1c; --accent-soft: #eddcbc; --gold: #8f6a24; --font-logo: "Instrument Serif", "Iowan Old Style", Georgia, serif; }
+:root.vintage.night { --bg: #0f0b06; --surface: #18120a; --fg: #e6d9be; --muted: #a08f72; --line: #2e2415; --accent: #d9a55a; --accent-soft: #2a1e0e; --gold: #d9a55a; --font-logo: "Instrument Serif", "Iowan Old Style", Georgia, serif; }
+:root.vintage body { background-image: radial-gradient(ellipse at 50% 35%, transparent 55%, rgba(110,70,20,.10) 100%), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .32 0 0 0 0 .16 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E"); background-attachment: fixed; }
+:root.vintage.night body { background-image: radial-gradient(ellipse at 50% 35%, transparent 50%, rgba(0,0,0,.45) 100%), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .32 0 0 0 0 .16 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E"); }
+:root.vintage .head h1 { font-weight: 400; letter-spacing: 0; font-style: italic; }
+:root.vintage .section-title, :root.vintage .daily .kicker, :root.vintage .fcard .kicker { font-weight: 400; letter-spacing: 0; }
+:root.vintage .card, :root.vintage .watchfig, :root.vintage .fcard, :root.vintage .pagetile, :root.vintage .brandinfo, :root.vintage .refs-wrap, :root.vintage .daily { box-shadow: inset 0 0 0 1px rgba(143,106,36,.10), 0 1px 0 rgba(110,70,20,.06); }
+:root.vintage:not(.night) img.wimg { filter: sepia(.22) saturate(.92) contrast(.98); }
+:root.vintage.night img.wimg { background: #e9dcc0; filter: sepia(.3) brightness(.7) contrast(1.05); }
+:root.vintage .nightbtn[aria-pressed="true"] { background: #1f1809; color: #e8c27a; border-color: #6b5320; box-shadow: 0 0 14px rgba(232,194,122,.2); --mp-glow: #c99a4a; --mp-moon1: #fff3d6; --mp-moon2: #e3b866; }
+:root.vintage .nightbtn[aria-pressed="true"] .mp-hill { fill: #1f1809; stroke: #6b5320; }
+:root.vintage .nightbtn[aria-pressed="true"] .mp-moons { filter: drop-shadow(0 0 2.5px rgba(240,200,120,.7)); }
+/* gealterte Leuchtmasse: cremig statt grün */
+:root.vintage .wimg-wrap, :root.vintage .wimg-wrap[data-lc] { --lc1: 246,224,168; --lc2: 232,198,128; --lc3: 205,165,95; }
+:root.vintage img.wlume-img { filter: sepia(.95) saturate(1.5) hue-rotate(-12deg) brightness(1.1) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .9)) drop-shadow(0 0 6px rgba(var(--lc2), .7)) drop-shadow(0 0 14px rgba(var(--lc3), .4)); }
 .wimg-wrap { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
 .thumb .wimg-wrap, .daily-fig .wimg-wrap { height: 100%; }
 .daily-fig .wimg-wrap { height: auto; }
@@ -688,7 +704,7 @@ footer .wrap { padding-block: 20px calc(36px + env(safe-area-inset-bottom)); dis
 }
 @media (prefers-reduced-motion: reduce) { .card, .fcard { transition: none; } }
 </style>
-<script>/* Eigener Nachtmodus statt des alten System-Dunkelthemas: dunkel nur über die Klasse "night" */document.documentElement.dataset.theme="light";try{var s=localStorage.getItem("wikiticks-night");if(s==="1"||(s===null&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("night")}catch(e){}</script>
+<script>/* Eigener Nachtmodus statt des alten System-Dunkelthemas: dunkel nur über die Klasse "night" */document.documentElement.dataset.theme="light";try{if(localStorage.getItem("wikiticks-vintage")==="1")document.documentElement.classList.add("vintage");}catch(e){}try{var s=localStorage.getItem("wikiticks-night");if(s==="1"||(s===null&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("night")}catch(e){}</script>
 </head>
 <body>
 
@@ -1109,7 +1125,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112593";
+const IMGV = "2026112594";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2790,6 +2806,8 @@ function setNight(on, save = true, anim = false) {
 }
 function setVintage(on) {
   VINTAGE = on; try { localStorage.setItem("wikiticks-vintage", on ? "1" : "0"); } catch (e) {}
+  const root = document.documentElement; if (!matchMedia("(prefers-reduced-motion: reduce)").matches) { root.classList.add("theme-fade"); clearTimeout(fadeT); fadeT = setTimeout(() => root.classList.remove("theme-fade"), 1300); }
+  root.classList.toggle("vintage", on);
   document.querySelectorAll("#vintbtn, .vintbtn").forEach(b => b.setAttribute("aria-pressed", on));
   const y = window.scrollY; route(); requestAnimationFrame(() => window.scrollTo({ top: y }));
 }
