@@ -2246,7 +2246,11 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
   function fill() { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; nb.querySelector(".moon").innerHTML = m.querySelector(".moon").innerHTML; }, 0); }); panel.querySelector(".mininight").append(nb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); }
   // Link im Menü: sofort öffnen (nicht erst nur das Menü schließen)
   panel.addEventListener("click", ev => { const a = ev.target.closest("a[href^='#']"); if (!a) return; ev.preventDefault(); close(); freshNav = true; location.hash = a.getAttribute("href").slice(1); });
-  document.addEventListener("click", ev => { if (!ev.target.closest("#minibar, #nightbtn, .accent-switch, #menu")) close(); });
+  // Tipp neben das offene Menü: nur Menü schließen, nichts dahinter auslösen (kein Link, keine Kachel)
+  document.addEventListener("click", ev => {
+    if (!bar.classList.contains("open") || ev.target.closest("#minibar, #nightbtn, .accent-switch, #menu")) return;
+    ev.preventDefault(); ev.stopPropagation(); close();
+  }, true);
   check();
 })();
 // ---------- Daten laden ----------
