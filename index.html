@@ -273,6 +273,8 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .favbtn:hover { border-color: var(--gold); color: var(--gold); }
 .favbtn { transition: box-shadow .25s ease; }
 .favbtn[aria-pressed="true"] { box-shadow: 0 0 0 0 transparent; }
+:root.night .favbtn[aria-pressed="false"] { color: #d6dbe2; border-color: color-mix(in srgb, #d6dbe2 45%, var(--line)); box-shadow: 0 0 7px color-mix(in srgb, #e6ebf2 calc(var(--gl) * 28%), var(--bg)), 0 0 16px color-mix(in srgb, #e6ebf2 calc(var(--gl) * 12%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, #ffffff calc(var(--gl) * 45%), var(--bg)); }
+:root.night .favbtn[aria-pressed="false"] svg { filter: drop-shadow(0 0 3px rgba(255, 255, 255, .55)); }
 :root.night .favbtn[aria-pressed="true"] { box-shadow: 0 0 8px color-mix(in srgb, var(--gold) calc(var(--gl) * 55%), var(--bg)), 0 0 18px color-mix(in srgb, var(--gold) calc(var(--gl) * 25%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, var(--gold) calc(var(--gl) * 60%), var(--bg)); }
 :root.night .favbtn[aria-pressed="true"] svg { filter: drop-shadow(0 0 3px color-mix(in srgb, var(--gold) 80%, transparent)); }
 .brandbtns { display: flex; align-items: center; gap: 0; flex-wrap: wrap; margin: 0 0 12px; }
