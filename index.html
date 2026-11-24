@@ -480,6 +480,11 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 .night-box + .accent-box { margin-top: 16px; }
 .nightbtn { display: inline-flex; align-items: center; gap: 11px; font: 600 13px/1.15 var(--font-body); padding: 7px 16px 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-align: left; transition: border-color .2s, box-shadow .3s, background .3s; }
 .nightbtn:hover { border-color: var(--accent); }
+.vintbtn { display: inline-flex; align-items: center; gap: 8px; margin-top: 8px; font: 600 13px/1.15 var(--font-body); padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.vintbtn span { font: 500 10px/1 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 6px; }
+.vintbtn:hover { border-color: var(--accent); }
+.vintbtn[aria-pressed="true"] { background: #f4ead6; color: #6b4a14; border-color: #c9a25a; }
+:root.night .vintbtn[aria-pressed="true"] { background: #1f1809; color: #e8c27a; border-color: #6b5320; box-shadow: 0 0 12px rgba(232,194,122,.2); }
 .nightbtn .moon { width: 48px; height: 26px; flex: none; overflow: visible; }
 .nightbtn .nt { display: grid; gap: 2px; }
 .nightbtn .mp { font: 500 11px/1.2 var(--font-mono); color: var(--muted); letter-spacing: .01em; }
@@ -721,6 +726,7 @@ footer .wrap { padding-block: 20px calc(36px + env(safe-area-inset-bottom)); dis
       <div class="accent-box night-box">
         <div class="label">Ansicht</div>
         <button type="button" class="nightbtn" id="nightbtn" aria-pressed="false"><svg class="moon" viewBox="4 1 52 28" aria-hidden="true"></svg><span class="nl">Nachtmodus</span></button>
+        <button type="button" class="vintbtn" id="vintbtn" aria-pressed="false" title="Test: zeigt als Hauptbild die älteste Ausführung, soweit ein Bild vorhanden ist">Vintage-Bilder <span>Test</span></button>
       </div>
       <div class="accent-box">
         <div class="label">Farbe</div>
@@ -879,10 +885,10 @@ document.addEventListener("click", ev => { const b = ev.target.closest && ev.tar
 function cmpItem(x) {
   const [id, ks] = x.split("@"), e = byId[id]; if (!e || !e.brand) return null;
   const k = ks === undefined || ks === "" ? null : +ks, vr = k != null ? (e.var || [])[k] : null;
-  if (k != null && !(vr && vr.v && vr.v.img)) return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung", v: mainV(e), dial: e.dial };
+  if (k != null && !(vr && vr.v && vr.v.img)) return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung", v: mainV0(e), dial: e.dial };
   if (vr) { const yr = +((vr.y || "").match(/\d{4}/) || [9999])[0]; return { e, k, name: vr.n, y: vr.y, v: withVariant(e.v, { ...vr.v, ...(yr < 2005 ? { era: "vintage" } : {}) }), dial: vr.dial, ref: vr.iref, refs: vr.irefs }; }
   const t = e.topv || e;
-  return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung" + (t.iref ? ", Ref. " + t.iref : ""), y: e.topv ? e.topv.y : "", v: mainV(e), dial: e.dial, ref: t.iref, refs: t.irefs };
+  return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung" + (t.iref ? ", Ref. " + t.iref : ""), y: e.topv ? e.topv.y : "", v: mainV0(e), dial: e.dial, ref: t.iref, refs: t.irefs };
 }
 // Bilder, zwischen denen man wählen kann: Hauptbild und alle Varianten mit eigenem Bild
 const cmpChoices = e => [{ k: null, n: e.topv ? e.topv.n : "Aktuelle Ausführung" + ((e.iref) ? ", Ref. " + e.iref : "") }, ...(e.var || []).map((v, k) => ({ k, n: v.n, img: v.v && v.v.img })).filter(x => x.img)];
@@ -1103,7 +1109,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112591";
+const IMGV = "2026112592";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2063,7 +2069,18 @@ function lexFigures(e) {
   };
 }
 // Bild für Übersichten: das Hauptbild des Eintrags (bei e.topv die dort gewählte Variante)
-const mainV = e => e.topv ? withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : e.v;
+// Test: Vintage-Ansicht – Hauptbilder durch das älteste Variantenbild (vor 1990) ersetzen
+let VINTAGE = false; try { VINTAGE = localStorage.getItem("wikiticks-vintage") === "1"; } catch (e) {}
+const yearOf = y => +((String(y || "").match(/\d{4}/) || [9999])[0]);
+function vintVar(e) {
+  if (!VINTAGE || !e || !e.brand) return null;
+  if (e.topv && yearOf(e.topv.y) < 1990) return null; // Hauptbild ist schon eine alte Ausführung
+  let best = null;
+  (e.var || []).forEach(x => { if (x.v && x.v.img && !/seit/i.test(x.y || "") && yearOf(x.y) < 1990 && (!best || yearOf(x.y) < yearOf(best.y))) best = x; });
+  return best;
+}
+const mainV = e => { const vv = vintVar(e); return vv ? withVariant(e.v, { ...vv.v, era: "vintage" }) : mainV0(e); };
+const mainV0 = e => e.topv ? withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : e.v;
 const thumb = e => e.brand ? `<div class="thumb">${drawWatch(mainV(e), e)}</div>` : "";
 const card = (e, label) => `
   <a class="card" href="#${e.id}">
@@ -2353,7 +2370,8 @@ function viewEntry(e) {
   const related = e.r.filter(id => byId[id] && id !== e.id);
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
-  const imgVars = (e.var || []).filter(x => x.v && x.v.img), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 5) : (e.var || []).slice(0, 2)) : [];
+  const VV = vintVar(e), curAsVar = VV ? { n: e.topv ? e.topv.n : "Aktuelle Ausführung", y: e.topv ? e.topv.y || "" : (e.cur || ""), v: e.topv ? e.topv.v : { img: e.v.img }, bd: (e.topv || e).bd, iref: (e.topv || e).iref, irefs: (e.topv || e).irefs, at: (e.bh || [])[(e.bh || []).length - 1] } : null;
+  const imgVars = (e.var || []).filter(x => x.v && x.v.img && x !== VV).concat(curAsVar ? [curAsVar] : []), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 5) : (e.var || []).slice(0, 2)) : [];
   const varFig = x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}${refLine(x, x.n)}</figcaption>${imgNote(x.bd)}</figure>`;
   // Variantenbilder unter den Absatz setzen, der die Referenz nennt (oder per x.at unter eine Zwischenüberschrift) (z. B. »1680« → Absatz über die Red Sub); übrige in die Galerie
   const varAt = {}, varRest = [];
@@ -2377,7 +2395,7 @@ function viewEntry(e) {
   const lxBtns = k => lxAt[k] ? `<div class="lexlinks">${lxAt[k].map(id => `<a class="lexbtn" href="#${id}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 016.5 3H20v15H6.5A2.5 2.5 0 004 20.5v-15zM4 20.5A2.5 2.5 0 016.5 23H20v-5"/></svg><span>Lexikon</span>${esc(byId[id].t.split(": ").pop())}</a>`).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
-      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}${refLine(e.topv, e.topv.n)}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}` : ""}${refLine(e, e.cur)}</figcaption>${imgNote(e.bd)}</figure>`) : (LF.dg ? "" : LF.top)}
+      ${e.brand ? VV ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...VV.v, era: "vintage" }), e)}<figcaption><b>${esc(VV.n)}</b>${esc(VV.y || "")}${refLine(VV, VV.n)}</figcaption>${imgNote(VV.bd)}</figure>` : (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}${refLine(e.topv, e.topv.n)}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}` : ""}${refLine(e, e.cur)}</figcaption>${imgNote(e.bd)}</figure>`) : (LF.dg ? "" : LF.top)}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}${favBtn(e.id)}${e.brand ? cmpBtn(e.id) : ""}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
@@ -2769,6 +2787,13 @@ function setNight(on, save = true, anim = false) {
   if (save) try { localStorage.setItem("wikiticks-night", on ? "1" : "0"); } catch (e) {}
   nightApply();
 }
+function setVintage(on) {
+  VINTAGE = on; try { localStorage.setItem("wikiticks-vintage", on ? "1" : "0"); } catch (e) {}
+  document.querySelectorAll("#vintbtn, .vintbtn").forEach(b => b.setAttribute("aria-pressed", on));
+  const y = window.scrollY; route(); requestAnimationFrame(() => window.scrollTo({ top: y }));
+}
+document.getElementById("vintbtn").setAttribute("aria-pressed", VINTAGE);
+document.getElementById("vintbtn").addEventListener("click", () => setVintage(!VINTAGE));
 document.getElementById("nightbtn").addEventListener("click", () => setNight(!document.documentElement.classList.contains("night"), true, true));
 document.addEventListener("load", ev => { if (ev.target && ev.target.matches && ev.target.matches("img.wimg") && document.documentElement.classList.contains("night")) nightPrep(ev.target); }, true);
 // Startzustand: eigene Wahl (gespeichert) hat Vorrang, sonst Dunkelmodus des Geräts übernehmen
@@ -2985,7 +3010,7 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
     inp.addEventListener("keydown", ev => { if (ev.key !== "Enter") return; ev.preventDefault(); const id = bestMatch(inp.value); close(); if (id) { freshNav = true; location.hash = id; } else { const first = document.querySelector("#view .card"); if (first) { freshNav = true; location.href = first.getAttribute("href"); } } inp.blur(); });
     if (inp.value) { g.classList.add("msopen"); b.setAttribute("aria-expanded", "true"); }
   }
-  function fill() { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; addSearch(); const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; }, 0); const mg = nb.querySelector(".mp-moons"); if (mg && mg.animate && !matchMedia("(prefers-reduced-motion: reduce)").matches) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 850, easing: "cubic-bezier(.7,0,.25,1)" }); }); panel.querySelector(".mininight").append(nb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); }
+  function fill() { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; addSearch(); const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; }, 0); const mg = nb.querySelector(".mp-moons"); if (mg && mg.animate && !matchMedia("(prefers-reduced-motion: reduce)").matches) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 850, easing: "cubic-bezier(.7,0,.25,1)" }); }); panel.querySelector(".mininight").append(nb); const vb = $("#vintbtn").cloneNode(true); vb.id = ""; vb.addEventListener("click", ev => { ev.stopPropagation(); setVintage(!VINTAGE); }); panel.querySelector(".mininight").append(vb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); }
   // Link im Menü: sofort öffnen (nicht erst nur das Menü schließen)
   panel.addEventListener("click", ev => { const a = ev.target.closest("a[href^='#']"); if (!a) return; ev.preventDefault(); close(); freshNav = true; location.hash = a.getAttribute("href").slice(1); });
   // Tipp neben das offene Menü: auf dem Smartphone nur Menü schließen, am PC zusätzlich den Klick ausführen
