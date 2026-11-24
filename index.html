@@ -1614,7 +1614,7 @@ function viewSearch(term) {
 // Uhrenbilder: Weiß vom Rand aus entfernen (Freisteller), abdunkeln und Leuchtmasse (helle Flächen auf dunklem Grund) grün leuchten lassen
 // Helligkeit der Uhren in der Nachtansicht: Originalfoto leicht abgedunkelt, mit etwas mehr Kontrast (Tiefen dunkler, Lichter erhalten)
 const NDIM = .82, NGAM = 1.5, NTOP = .85, TC = [0, 1, 2].map(() => { const t = new Uint8ClampedArray(256); for (let v = 0; v < 256; v++) t[v] = 255 * NTOP * Math.pow(v / 255, NGAM); return t; });
-const SOFTSPOT = .3; // Uhren mit Leuchtmasse: nachts zusätzlich ganz leicht von oben angeleuchtet (Stärke 0–1)
+const SOFTSPOT = .45; // Uhren mit Leuchtmasse: nachts zusätzlich ganz leicht von oben angeleuchtet (Stärke 0–1)
 function nightPrep(img) {
   const wrap = img.parentElement;
   if (!wrap || !wrap.classList.contains("wimg-wrap") || wrap.dataset.nt) return;
