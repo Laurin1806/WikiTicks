@@ -553,7 +553,10 @@ article .curbox { margin-top: 10px; }
 .gallery-note { font-size: 12px; color: var(--muted); margin: 0 0 22px !important; }
 
 /* Marken, A–Z */
-.brandinfo { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 28px; margin: 6px 0 30px; }
+.brandinfo { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 32px; margin: 6px 0 36px; padding: 30px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; } /* Kachel wie der Artikel des Tages */
+.brandinfo .page-title { margin-top: 0; }
+.brandside { border-left: 1px solid var(--line); padding-left: 28px; }
+.brandinfo .facts { border-top: 0; }
 .brandinfo p { margin: 0 0 12px; max-width: 64ch; }
 .brandinfo .facts { margin: 0; align-self: start; }
 .brandside { align-self: start; }
@@ -611,6 +614,7 @@ footer .wrap { padding-block: 20px calc(36px + env(safe-area-inset-bottom)); dis
   nav { display: none; padding: 14px 4px 4px; border-bottom: 1px solid var(--line); }
   nav.open { display: grid; }
   .daily, .brandinfo { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .brandinfo { padding: 20px; } .brandside { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 14px; }
   .daily { padding: 22px; }
   .daily-txt { display: contents; }
   .daily .kicker, .daily h2, .daily .lead { order: 0; margin-bottom: 0; }
@@ -772,8 +776,10 @@ function pickNoRepeat(day, salt, groupA, groupB, shareA, extraExclude) {
   const yest = pickDay(day - 1, salt, groupA, groupB, shareA);
   return pickDay(day, salt, groupA, groupB, shareA, yest && yest.id) || pickDay(day, salt, groupA, groupB, shareA);
 }
+// Wissenswertes wechselt alle drei Stunden (Ortszeit, ab 0 Uhr)
+const SLOT_H = 3, slotNow = () => Math.floor((Date.now() - new Date().getTimezoneOffset() * 60000) / (SLOT_H * 36e5));
 function featured(exclude) {
-  const day = today(), period = Math.floor(day / ROTATE_DAYS);
+  const day = today(), period = slotNow();
   const pool = shuffled(period * 2654435761, E.filter(e => e.k && e.id !== exclude));
   return { items: pool.slice(0, FEATURED), start: new Date(period * ROTATE_DAYS * 864e5), end: new Date((period + 1) * ROTATE_DAYS * 864e5 - 1), left: (period + 1) * ROTATE_DAYS - day };
 }
@@ -955,7 +961,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112556"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112557"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1968,7 +1974,7 @@ function viewHome() {
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
         <h2 class="section-title" id="fh">Wissenswertes</h2>
-        <p>${ROTATE_DAYS === 1 ? `Heute, ${fmt(F.start)}` : `${fmt(F.start)} bis ${fmt(F.end)}`} · neue Auswahl ${F.left === 1 ? "morgen" : `in ${F.left} Tagen`}</p>
+        
       </div>
       <div class="fgrid">${F.items.map(e => `
         <a class="fcard" href="#${e.id}">
@@ -2848,6 +2854,8 @@ function drawPcal() {
   el.setAttribute("aria-label", "Ewiger Kalender: " + d.toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long" }));
 }
 drawPcal(); setInterval(drawPcal, 10 * 60 * 1000);
+// Startseite: Artikel und Uhr des Tages wechseln um 0 Uhr, Wissenswertes alle drei Stunden; offene Startseite dann neu aufbauen
+(() => { let last = slotNow(); setInterval(() => { const n = slotNow(); if (n === last) return; last = n; drawPcal(); if (!location.hash || location.hash === "#") { const y = scrollY; route(); scrollTo(0, y); } }, 20000); })();
 // ---------- Daten laden ----------
 // Daten immer frisch laden (Versionsnummer + kein Browser-Cache), sonst passen alte JSON-Daten nicht zur neuen Seite
 const load = f => fetch(`${f}?v=${IMGV}`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
