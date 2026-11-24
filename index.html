@@ -262,6 +262,17 @@ a.xl:hover { text-decoration-color: var(--accent); }
 
 /* Illustrationen */
 .watch { display: block; width: 100%; height: 100%; }
+/* Ewiger Kalender oben rechts (gegenüber der kleinen Uhr) */
+.pcal { flex: none; margin-left: auto; width: 360px; height: auto; align-self: center; overflow: visible; }
+.pcal .sd { fill: var(--surface); stroke: var(--line); stroke-width: 1.6; }
+.pcal .lb { font-family: Inter, system-ui, sans-serif; font-weight: 600; fill: var(--fg); }
+.pcal .lb.red { fill: #c8102e; }
+.pcal .dt { fill: var(--muted); }
+.pcal .hd { stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; }
+.pcal .hub { fill: var(--accent); }
+.pcal .cap { font-family: var(--font-mono); font-size: 7.5px; letter-spacing: .25em; fill: var(--muted); }
+:root.night .pcal .hd { filter: drop-shadow(0 0 2px color-mix(in srgb, var(--accent) 70%, transparent)); }
+@media (max-width: 1080px) { .pcal { display: none; } }
 /* »Heißeste« Marken im Menü */
 .hothint { display: flex; align-items: center; gap: 5px; font-size: 11.5px; color: var(--muted); padding: 0 10px 4px 22px; }
 .flame { width: 12px; height: 12px; fill: #e0702e; flex: none; }
@@ -541,6 +552,7 @@ footer .wrap { padding-block: 20px 28px; }
         <input id="q" type="search" placeholder="Suchen, z. B. Tourbillon oder Submariner" aria-label="WikiTicks durchsuchen">
       </div>
     </div>
+    <svg class="pcal" id="pcal" viewBox="0 0 360 104" role="img" aria-label="Ewiger Kalender"></svg>
   </div>
 </header>
 
@@ -2306,6 +2318,31 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
   }, true);
   check();
 })();
+// Ewiger Kalender oben rechts: Wochentag, Datum, Mondphase und Monat von heute
+function drawPcal() {
+  const el = document.getElementById("pcal"); if (!el) return;
+  const d = new Date(Date.now() + (typeof TOFF === "number" ? TOFF : 0)), R = 34, cy = 46;
+  const P = (cx, a, r) => [cx + r * Math.sin(a * Math.PI / 180), cy - r * Math.cos(a * Math.PI / 180)];
+  const lab = (cx, a, r, t, fs, cls = "") => { const [x, y] = P(cx, a, r), rot = (a > 90 && a < 270) ? a + 180 : a; return `<text class="lb ${cls}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" font-size="${fs}" text-anchor="middle" dominant-baseline="central" transform="rotate(${rot.toFixed(1)} ${x.toFixed(1)} ${y.toFixed(1)})">${t}</text>`; };
+  const hand = (cx, a, len) => { const [x, y] = P(cx, a, len), [bx, by] = P(cx, a + 180, 6); return `<line class="hd" x1="${bx.toFixed(1)}" y1="${by.toFixed(1)}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}"/><circle class="hub" cx="${cx}" cy="${cy}" r="3"/>`; };
+  const sub = (cx, items) => `<circle class="sd" cx="${cx}" cy="${cy}" r="${R + 6}"/>` + items;
+  // Wochentag (So oben)
+  const wd = ["SO", "MO", "DI", "MI", "DO", "FR", "SA"];
+  let a = sub(45, wd.map((t, i) => lab(45, i * 360 / 7, R - 4, t, 8.5)).join("") + hand(45, d.getDay() * 360 / 7, R - 15));
+  // Datum 1–31 (ungerade beschriftet, gerade als Punkt)
+  let dd = "";
+  for (let i = 1; i <= 31; i++) { const ang = (i - 1) * 360 / 31; if (i % 2) dd += lab(137, ang, R - 3, i, i > 9 ? 6.2 : 6.6, i === 31 ? "red" : ""); else { const [x, y] = P(137, ang, R - 3); dd += `<circle class="dt" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r=".9"/>`; } }
+  a += sub(137, dd + hand(137, (d.getDate() - 1) * 360 / 31, R - 13));
+  // Mondphase
+  a += `<g class="moon" transform="translate(181 4) scale(1.5)" style="--mp-sky1: #22427e; --mp-sky2: #0f1f45; --mp-moon1: #fff6d8; --mp-moon2: #e2b85a">${moonSVG(moonPhase(d).p)}</g>`;
+  // Monat (Jan oben)
+  const mo = ["JAN", "FEB", "MÄR", "APR", "MAI", "JUN", "JUL", "AUG", "SEP", "OKT", "NOV", "DEZ"];
+  a += sub(315, mo.map((t, i) => lab(315, i * 30, R - 2.5, t, 5.8)).join("") + hand(315, d.getMonth() * 30, R - 15));
+  a += `<text class="cap" x="180" y="101" text-anchor="middle">EWIGER KALENDER</text>`;
+  el.innerHTML = a;
+  el.setAttribute("aria-label", "Ewiger Kalender: " + d.toLocaleDateString("de-DE", { weekday: "long", day: "numeric", month: "long" }) + ", " + moonPhase(d).name);
+}
+drawPcal(); setInterval(drawPcal, 10 * 60 * 1000);
 // ---------- Daten laden ----------
 // Daten immer frisch laden (Versionsnummer + kein Browser-Cache), sonst passen alte JSON-Daten nicht zur neuen Seite
 const load = f => fetch(`${f}?v=${IMGV}`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
