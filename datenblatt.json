@@ -5982,18 +5982,26 @@
    "zifferblatt_optionen": "Silber mit arabischen Ziffern"
   },
   "patrimony|0": {
-   "gehaeuse": "Edelstahl",
-   "funktionen": "Stunden, Minuten, kleine Sekunde",
-   "band": "Leder",
-   "zifferblatt_optionen": "Creme"
+   "gehaeuse": "Edelstahl, poliert, gerade Bandanstöße",
+   "luenette": "schmal, glatt",
+   "krone": "geriffelt, ohne Kronenschutz",
+   "funktionen": "Stunden, Minuten, kleine Sekunde bei 6 Uhr",
+   "leuchtmasse": "keine",
+   "band": "Leder mit Krokoprägung",
+   "zifferblatt_optionen": "Creme, aufgesetzte goldfarbene Stabindizes, Dauphine-Zeiger"
   },
   "master-collection|0": {
-   "gehaeuse": "Edelstahl",
+   "gehaeuse": "Edelstahl, poliert",
    "glas": "Saphir, entspiegelt",
+   "boden": "Saphirglasboden",
+   "wasserdicht": "30 m (3 bar)",
    "werktyp": "Automatik",
-   "funktionen": "Stunden, Minuten, Sekunden, Wochentag, Monat, Datum (Zeiger), Mondphase",
-   "band": "Leder",
-   "zifferblatt_optionen": "Silber mit Gerstenkornmuster"
+   "manufaktur": "Basis ETA",
+   "krone": "geriffelt, ohne Kronenschutz",
+   "funktionen": "Stunden, Minuten, Zentralsekunde, Wochentag und Monat (Fenster), Datum (Zeiger mit Halbmondspitze), Mondphase bei 6 Uhr; Vollkalender: Monate mit weniger als 31 Tagen von Hand korrigieren",
+   "leuchtmasse": "keine",
+   "band": "Leder mit Krokoprägung, helle Steppnaht",
+   "zifferblatt_optionen": "Silber mit Gerstenkornmuster, gebläute Zeiger"
   }
  },
  "_refs": {

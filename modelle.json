@@ -15199,7 +15199,7 @@
    "since": "2004",
    "s": "Die schlichte, flache Dresswatch von Vacheron Constantin im Stil der 1950er-Jahre.",
    "b": [
-    "Die Patrimony greift die eleganten Uhren auf, die Vacheron Constantin in den 1950er-Jahren baute. Ihr Zifferblatt ist leicht gewölbt, die Indizes sind schmale Stäbe, und die Minuteneinteilung besteht aus feinen Punkten am Rand.",
+    "Die Patrimony greift die eleganten Uhren auf, die Vacheron Constantin in den 1950er-Jahren baute. Ihr Zifferblatt ist leicht gewölbt, die Indizes sind schmale Stäbe, und die Minuteneinteilung besteht aus feinen Punkten am Rand. Viele dieser Uhren waren schlichte Handaufzugsuhren mit kleiner Sekunde bei 6 Uhr, aufgesetzten Stabindizes und schmaler Lünette. Die Patrimony übernahm davon vor allem die zurückhaltende Gestaltung, verzichtet in der Grundversion aber ganz auf den Sekundenzeiger.",
     "Die Patrimony steht für Zurückhaltung. Das Gehäuse ist dünn und hat eine schmale Lünette, sodass das Zifferblatt besonders groß wirkt.",
     "Es gibt sie als reine Zweizeiger, mit Datum, mit Mondphase und mit ewigem Kalender. Die Werke tragen das Genfer Siegel."
    ],
@@ -15693,7 +15693,7 @@
    "s": "Klassische Uhren von Longines, bekannt für Mondphasen und Kalender zu vergleichsweise günstigen Preisen.",
    "b": [
     "Die Master Collection ist die klassische Linie von Longines. Ihre Zifferblätter sind oft mit einem Gerstenkornmuster verziert, die Zeiger gebläut und die Ziffern arabisch.",
-    "Bekannt ist die Kollektion für Modelle mit Mondphase, Vollkalender und Chronograph, die man sonst meist nur in viel teureren Uhren findet.",
+    "Bekannt ist die Kollektion für Modelle mit Mondphase, Vollkalender und Chronograph, die man sonst meist nur in viel teureren Uhren findet. Beim Vollkalender stehen Wochentag und Monat in zwei Fenstern unter der 12, das Datum zeigt ein gebläuter Zeiger auf einer Skala am Rand. Weil das Werk nicht weiß, wie viele Tage ein Monat hat, muss man nach Monaten mit weniger als 31 Tagen das Datum von Hand weiterstellen, fünfmal im Jahr. Die Mondphase bei 6 Uhr arbeitet mit einer Scheibe, auf der zwei Monde aufgedruckt sind und die einmal am Tag um einen Zahn weiterrückt. Bei den üblichen 59 Zähnen dauert ein Mondzyklus 29,5 Tage; der echte Mondmonat ist etwa 44 Minuten länger, deshalb weicht die Anzeige nach rund zweieinhalb Jahren um einen Tag ab und wird über einen Drücker oder die Krone nachgestellt.",
     "Seit 2022 gibt es eine überarbeitete Version mit neuen Werken und bis zu 72 Stunden Gangreserve."
    ],
    "cur": "Master Collection Automatic mit Datum, 40 mm",
@@ -15813,6 +15813,12 @@
      "at": "Mondphase, Vollkalender und Chronograph",
      "dial": "Silber"
     }
+   ],
+   "lx": [
+    [
+     "mondphase",
+     "Mondphase, Vollkalender und Chronograph"
+    ]
    ]
   },
   {

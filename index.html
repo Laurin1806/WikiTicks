@@ -457,6 +457,7 @@ img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; wid
 img.wlume-img { mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); animation: lumeglow 5s ease-in-out infinite; animation-play-state: paused; }
 :root.night img.wlume-img { opacity: 1; animation-play-state: running; }
 :root.night .wimg-wrap[data-lc="v"] img.wlume-img { opacity: .62; } /* Vintage (Tritium/Radium): gealterte Leuchtmasse etwas schwächer */
+:root.night .wimg-wrap[data-lo] img.wlume-img { opacity: var(--lo); } /* einzelne Bilder mit besonders stark gealterter Leuchtmasse */
 .wimg-wrap[data-lc="v"] { --lc1: 120,235,165; --lc2: 70,220,135; --lc3: 50,190,115; }
 @media (prefers-reduced-motion: reduce) { img.wlume-img { animation: none !important; } }
 .wimg-wrap { --lc1: 130,255,180; --lc2: 80,255,150; --lc3: 60,230,130; }
@@ -1101,12 +1102,14 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112585"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112586";
+// Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
+const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
     const bn = v.img.split("/").pop(), noL = LUMEMASK.get(bn) === "n", lmk = LUMEMASK.has(bn) && !noL, lc = lmk ? LUMEMASK.get(bn) : e && e.lume ? e.lume.c : "g";
-    const nd = NIGHT_DIM[bn], lm = (nd ? ` data-dim="${nd.join(",")}"` : "") + (e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "");
+    const nd = NIGHT_DIM[bn], lo = LUME_OP[bn], lm = (nd ? ` data-dim="${nd.join(",")}"` : "") + (lo ? ` data-lo style="--lo:${lo}"` : "") + (e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "");
     const ovl = lmk ? `<img class="wlume-img" src="assets/watches/lume/${bn.replace(/\.[a-z]+$/i, ".png")}?v=${IMGV}" alt="" aria-hidden="true" loading="lazy">` : "";
     return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}${noL ? ' data-nol="1"' : ""}>${base}${ovl}</span>`;
   }
