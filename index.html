@@ -2233,8 +2233,7 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
     if (on !== wasOn) {
       // offenes Menü beim Scrollen mitnehmen: oben offenes Menü -> Leiste offen, und zurück
       const small = innerWidth <= 760, navOpen = small && $("#nav").classList.contains("open");
-      if (on && navOpen) { open(); const hN = $("#nav").offsetHeight; $("#nav").classList.remove("open"); $("#menu").setAttribute("aria-expanded", "false"); scrollBy(0, -hN); } // Inhalt nicht springen lassen
-      if (!on && bar.classList.contains("open") && small) { $("#nav").classList.add("open"); $("#menu").setAttribute("aria-expanded", "true"); }
+      if (on && navOpen) open(); // oberes Menü bleibt im Seitenfluss offen (kein Springen), die Leiste zeigt es zusätzlich
       if (!on) close();
       wasOn = on;
     }
