@@ -555,6 +555,10 @@ article .curbox { margin-top: 10px; }
 /* Marken, A–Z */
 .brandinfo { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 32px; margin: 6px 0 36px; padding: 30px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; } /* Kachel wie der Artikel des Tages */
 .brandinfo .page-title { margin-top: 0; }
+.catinfo .intro { font-size: 1.05rem; max-width: 62ch; }
+.catchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.catchips a { font-size: 12.5px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--fg); text-decoration: none; background: var(--bg); }
+@media (hover: hover) and (pointer: fine) { .catchips a:hover { border-color: var(--accent); color: var(--accent); } }
 .brandside { border-left: 1px solid var(--line); padding-left: 28px; }
 .brandinfo .facts { border-top: 0; }
 .brandinfo p { margin: 0 0 12px; max-width: 64ch; }
@@ -961,7 +965,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112557"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112558"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2062,9 +2066,11 @@ function viewBrand(b) {
 function viewCategory(c) {
   const list = LEX.filter(e => e.c === c).sort((a, b) => a.t.localeCompare(b.t, "de"));
   return crumbs([["Lexikon", "a-z"], [c]]) + `
-    <h2 class="page-title">${esc(c)}</h2>
-    <p class="intro">${esc(CAT_INTRO[c] || "")}</p>
-    <p class="count">${plural(list.length, "Begriff", "Begriffe")}</p>
+    <div class="brandinfo catinfo"><div>
+      <h2 class="page-title">${esc(c)}</h2>
+      <p class="intro">${esc(CAT_INTRO[c] || "")}</p>
+      <p class="count">${plural(list.length, "Begriff", "Begriffe")}</p>
+    </div><div class="brandside"><div class="label">Alle Begriffe</div><div class="catchips">${list.map(e => `<a href="#${e.id}">${esc(e.t.split(": ")[0])}</a>`).join("")}</div></div></div>
     <div class="grid">${list.map(e => card(e, c)).join("")}</div>`;
 }
 
