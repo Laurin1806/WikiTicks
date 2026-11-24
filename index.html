@@ -271,6 +271,10 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .favbtn[aria-pressed="true"] { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 50%, var(--line)); }
 .favbtn[aria-pressed="true"] svg { fill: currentColor; }
 .favbtn:hover { border-color: var(--gold); color: var(--gold); }
+.favbtn { transition: box-shadow .25s ease; }
+.favbtn[aria-pressed="true"] { box-shadow: 0 0 0 0 transparent; }
+:root.night .favbtn[aria-pressed="true"] { box-shadow: 0 0 8px color-mix(in srgb, var(--gold) calc(var(--gl) * 55%), var(--bg)), 0 0 18px color-mix(in srgb, var(--gold) calc(var(--gl) * 25%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, var(--gold) calc(var(--gl) * 60%), var(--bg)); }
+:root.night .favbtn[aria-pressed="true"] svg { filter: drop-shadow(0 0 3px color-mix(in srgb, var(--gold) 80%, transparent)); }
 .brandbtns { display: flex; align-items: center; gap: 0; flex-wrap: wrap; margin: 0 0 12px; }
 .brandbtns .tomodels { margin: 0; }
 nav .favhint, #minipanel .favhint { font-size: 13px; color: var(--muted); padding: 4px 10px 4px 22px; }
@@ -682,7 +686,7 @@ function toggleFav(id) {
 }
 document.addEventListener("click", ev => { const b = ev.target.closest && ev.target.closest(".favbtn"); if (!b) return; ev.preventDefault(); toggleFav(b.dataset.fav); });
 function renderNav(h) {
-  const key = navKey(h);
+  const key = isFav(h) ? "favoriten-eintrag" : navKey(h); // gemerkter Beitrag: nur in den Favoriten hervorheben
   const link = (href, text, cls = "") => `<li><a href="#${href}" class="${cls}" aria-current="${key === (href || "home")}">${esc(text)}</a></li>`;
   $("#nav").innerHTML = `
     <ul>${link("", "Startseite", "home")}</ul>
