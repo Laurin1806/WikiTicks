@@ -655,7 +655,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112477"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112478"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1321,8 +1321,10 @@ const withVariant = (base, over) => { const o = { ...base }; Object.entries(over
 const NIGHT = { dial: "#060908", ink: "#2a3a2e", lume: "#86ffa4", hc: "#86ffa4", sec: "#86ffa4", case: "black", bezelColor: "#0b0d0c", strap: "rubber", strapColor: "#0d0f0e", top: [], bottom: [], brandText: "", origin: "" };
 // Lexikon-Bilder: höchstens drei pro Beitrag. Oben eins (Schemazeichnung oder erstes Beispielmodell), der Rest weiter unten.
 function lexFigures(e) {
-  const fg = e.fig || {}, ms = (fg.m || []).map((id, i) => [id, (fg.mc || [])[i]]).filter(([id]) => byId[id]);
-  const modelFig = ([id, cap]) => `<a class="watchfig ${fg.night ? "night" : ""}" href="#${id}">${drawWatch(fg.night ? withVariant(mainV(byId[id]), NIGHT) : mainV(byId[id]), byId[id])}<figcaption><b>${esc(byId[id].t)}</b>${esc(cap || "Beispielmodell")}</figcaption></a>`;
+  const fg = e.fig || {}, ms = (fg.m || []).map((id, i) => [id, (fg.mc || [])[i], i]).filter(([id]) => byId[id]);
+  // fg.img: optional anderes Bild je Beispielmodell (z. B. eine historische Referenz statt der aktuellen Ausführung)
+  const figV = (id, i) => { const im = (fg.img || [])[i]; return im ? withVariant(mainV(byId[id]), { img: im, era: "vintage" }) : mainV(byId[id]); };
+  const modelFig = ([id, cap, i]) => `<a class="watchfig ${fg.night ? "night" : ""}" href="#${id}">${drawWatch(fg.night ? withVariant(figV(id, i), NIGHT) : figV(id, i), byId[id])}<figcaption><b>${esc(byId[id].t)}</b>${esc(cap || "Beispielmodell")}</figcaption></a>`;
   let top = "", rest = ms;
   if (fg.d && DG[fg.d]) top = `<figure class="diagram">${DG[fg.d]()}<figcaption>${esc(fg.dc || "Schemazeichnung, vereinfacht")}</figcaption></figure>`;
   else if (ms.length) { top = modelFig(ms[0]); rest = ms.slice(1); }
