@@ -532,7 +532,13 @@ article .curbox { margin-top: 10px; }
 .azgroup li small { color: var(--gold); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; font-weight: 600; margin-left: 8px; }
 
 footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
-footer .wrap { padding-block: 20px 28px; }
+footer .wrap { padding-block: 20px 28px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.infobtn { display: inline-flex; align-items: center; gap: 7px; padding: 7px 14px 7px 11px; border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line)); border-radius: 999px; color: var(--fg); font-weight: 600; font-size: 13px; text-decoration: none; background: color-mix(in srgb, var(--accent) 7%, var(--surface)); text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
+.infobtn svg { width: 16px; height: 16px; fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; filter: drop-shadow(0 0 3px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), transparent)); }
+@media (hover: hover) and (pointer: fine) { .infobtn:hover { background: color-mix(in srgb, var(--accent) 15%, var(--surface)); border-color: var(--accent); } }
+.infopage { max-width: 680px; }
+.infopage h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; margin: 30px 0 8px; }
+.infopage p, .infopage li { line-height: 1.7; }
 
 @media (max-width: 760px) {
   .head { flex-direction: column; align-items: flex-start; gap: 14px; padding-block: 22px 18px; }
@@ -608,7 +614,7 @@ footer .wrap { padding-block: 20px 28px; }
     <section id="view" aria-live="polite"><p class="count">Lädt …</p></section>
   </main>
 </div>
-<footer><div class="wrap">WikiTicks · Alle Angaben nach bestem Wissen und ohne Gewähr.</div></footer>
+<footer><div class="wrap"><span>WikiTicks · Alle Angaben nach bestem Wissen und ohne Gewähr.</span><a class="infobtn" href="#info"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg>Über WikiTicks</a></div></footer>
 
 <script>
 const $ = s => document.querySelector(s);
@@ -816,7 +822,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112535"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112536"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1649,6 +1655,32 @@ function viewCategory(c) {
     <div class="grid">${list.map(e => card(e, c)).join("")}</div>`;
 }
 
+// Infoseite: Hinweise zu Inhalten, Bildern, Preisen und Urheberschaft
+function viewInfo() {
+  const S = (t, ps) => `<h3>${esc(t)}</h3>` + ps.map(p => Array.isArray(p) ? `<ul>${p.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : `<p>${esc(p)}</p>`).join("");
+  return crumbs([["Startseite", ""], ["Über WikiTicks"]]) + `
+    <article class="infopage">
+      <h2 class="page-title">Über WikiTicks</h2>
+      <p class="lead">WikiTicks ist ein privates Uhrenlexikon: eine Sammlung von Wissen über Uhrwerke, Komplikationen, Marken, Modelle und die Geschichte der Zeitmessung, geschrieben aus Freude an mechanischen und modernen Uhren.</p>
+      ${S("Idee und Gestaltung", [
+        "Idee, Konzept, Aufbau und Gestaltung von WikiTicks stammen vom Ersteller der Website. Dazu gehören die Auswahl der Marken, Modelle und Themen, die Gliederung der Beiträge, die Funktionen wie Nachtmodus mit Leuchtmasse, ewiger Kalender, Favoriten und Mondphasen-Regler sowie das gesamte Erscheinungsbild.",
+        "Bei der technischen Umsetzung und beim Formulieren der Texte kamen KI-Werkzeuge zum Einsatz. Die Inhalte wurden vom Ersteller ausgewählt, angeleitet und überarbeitet."])}
+      ${S("Fakten nach bestem Wissen", [
+        "Alle Angaben auf WikiTicks wurden nach bestem Wissen und Gewissen zusammengetragen. Trotz aller Sorgfalt können Fehler, Ungenauigkeiten oder veraltete Informationen enthalten sein. Technische Daten, Jahreszahlen, Referenznummern und Produktionszeiträume können je nach Quelle abweichen, und Hersteller ändern ihre Modelle laufend.",
+        "Manche Geschichten aus der Uhrenwelt sind gut belegt, andere beruhen auf Überlieferungen oder werden von verschiedenen Quellen unterschiedlich erzählt. Wo etwas nicht sicher belegt ist, ist das im Text nach Möglichkeit gekennzeichnet, etwa mit »soll« oder »nach verbreiteter Darstellung«.",
+        "WikiTicks ersetzt keine fachliche Beratung. Wer eine Uhr kaufen, verkaufen oder bewerten möchte, sollte sich zusätzlich an den Hersteller, einen Konzessionär oder einen unabhängigen Uhrmacher wenden."])}
+      ${S("Preise", [
+        "Preisangaben sind ungefähre Richtwerte. Listenpreise stammen aus Händler- und Herstellerangaben, Gebrauchtpreise aus Marktschätzungen und einzelnen Angeboten zum jeweils genannten Zeitpunkt. Tatsächliche Preise schwanken stark je nach Zustand, Vollständigkeit, Zifferblatt, Region und Marktlage. Alle Preise sind ohne Gewähr und kein Angebot."])}
+      ${S("Bilder", [
+        "Die Uhrenbilder auf WikiTicks sind KI-generierte Illustrationen, die eigens für diese Website erstellt wurden. Sie sind keine Originalaufnahmen der Hersteller und können in Details wie Beschriftungen, Proportionen oder Farben vom echten Modell abweichen. Die Beschreibung unter »Über dieses Bild« erklärt, was auf der jeweiligen Abbildung zu sehen ist.",
+        "Die Leuchtmasse im Nachtmodus wird aus den Bildern berechnet und zeigt nur annähernd, wie eine Uhr im Dunkeln wirkt."])}
+      ${S("Marken und Namen", [
+        "Alle genannten Marken, Modellnamen und Logos sind Eigentum ihrer jeweiligen Inhaber. WikiTicks ist ein unabhängiges Projekt und steht in keiner Verbindung zu den genannten Herstellern; es wird von keinem Hersteller unterstützt, beauftragt oder bezahlt. Markennamen werden nur verwendet, um die beschriebenen Uhren zu benennen."])}
+      ${S("Im Browser gespeichert", [
+        "Favoriten, die Akzentfarbe, der Tag- oder Nachtmodus und die gewählte Listenansicht werden nur lokal in deinem Browser gespeichert und nicht an einen Server übertragen. Für die Uhr im Kopf der Seite wird lediglich die Uhrzeit des Servers abgefragt, damit sie sekundengenau läuft."])}
+      <p class="count">Hinweise auf Fehler oder Ergänzungen sind jederzeit willkommen.</p>
+    </article>`;
+}
 function viewFav() {
   const ids = FAV.filter(favLabel);
   return crumbs([["Startseite", ""], ["Favoriten"]]) + `
@@ -2179,6 +2211,7 @@ function route() {
   else if (h === "uhrenmodelle") html = viewModels();
   else if (h === "a-z") html = viewAZ();
   else if (h === "favoriten") html = viewFav();
+  else if (h === "info") html = viewInfo();
   else if (brand) html = viewBrand(brand);
   else if (cat) html = viewCategory(cat);
   else if (byId[h]) html = viewEntry(byId[h]);
