@@ -262,6 +262,14 @@ a.xl:hover { text-decoration-color: var(--accent); }
 
 /* Illustrationen */
 .watch { display: block; width: 100%; height: 100%; }
+/* Aufklappbare Bildbeschreibung */
+.imgnote { width: 100%; text-align: left; font-size: 13px; line-height: 1.5; color: var(--fg); border-top: 1px solid var(--line); padding-top: 8px; margin-top: 2px; }
+.imgnote summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--accent); }
+.imgnote summary::-webkit-details-marker { display: none; }
+.imgnote summary::after { content: ""; width: 7px; height: 7px; border-right: 1.6px solid currentColor; border-bottom: 1.6px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .25s ease; }
+.imgnote[open] summary::after { transform: translateY(1px) rotate(-135deg); }
+.imgnote p { margin: 8px 0 0; }
+.imgnote .credit { font-size: 11.5px; color: var(--muted); }
 /* Ewiger Kalender oben rechts (gegenüber der kleinen Uhr) */
 .pcal { flex: none; margin-left: auto; width: 290px; height: auto; align-self: center; overflow: visible; }
 .pcal .sd { fill: var(--surface); stroke: var(--line); stroke-width: 1.6; }
@@ -1591,6 +1599,9 @@ function brandList() {
     </ul></div>`).join("");
 }
 
+// Bildbeschreibung als aufklappbarer Text unter dem Bild (Feld bd: Liste von Absätzen)
+const IMG_CREDIT = "Bildnachweis: KI-generierte Illustration, erstellt für WikiTicks. Keine Originalaufnahme des Herstellers.";
+const imgNote = bd => bd && bd.length ? `<details class="imgnote"><summary>Über dieses Bild</summary>${bd.map(p => `<p>${esc(p)}</p>`).join("")}<p class="credit">${esc(IMG_CREDIT)}</p></details>` : "";
 const BRAND_LOGOS = new Set(["rolex", "audemars-piguet", "patek-philippe", "omega", "a-lange-soehne", "tudor", "cartier", "breitling", "iwc", "jaeger-lecoultre", "vacheron-constantin", "blancpain"]);
 function viewBrand(b) {
   const ms = MODELS.filter(e => e.brand === b).sort((x, y) => x.t.localeCompare(y.t, "de"));
@@ -1726,7 +1737,7 @@ function viewEntry(e) {
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
   const imgVars = (e.var || []).filter(x => x.v && x.v.img), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 4) : (e.var || []).slice(0, 2)) : [];
-  const varFig = x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`;
+  const varFig = x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption>${imgNote(x.bd)}</figure>`;
   // Variantenbilder unter den Absatz setzen, der die Referenz nennt (z. B. »1680« → Absatz über die Red Sub); übrige in die Galerie
   const varAt = {}, varRest = [];
   for (const x of vars) {
@@ -1741,7 +1752,7 @@ function viewEntry(e) {
   const varGallery = varRest.length ? `<div class="gallery gallery-inline">${varRest.map(varFig).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
-      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption></figure>`) : LF.top}
+      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption>${imgNote(e.bd)}</figure>`) : LF.top}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}${favBtn(e.id)}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}

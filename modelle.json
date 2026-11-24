@@ -3180,7 +3180,11 @@
        "660ft = 200m"
       ],
       "img": "assets/watches/rolex-submariner-1680-red.jpg"
-     }
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Rolex Submariner Date Referenz 1680 aus den 1970er-Jahren in der frühen Ausführung mit rotem Schriftzug »SUBMARINER«, unter Sammlern »Red Sub« genannt. Gezeigt ist sie mit gealtertem Gehäuse und Band sowie verblasster schwarzer Aluminiumlünette.",
+      "Die Leuchtmasse aus Tritium hat einen cremefarbenen Ton angenommen; das Zifferblatt trägt unten die Aufschrift »SWISS – T < 25«. Weitere Merkmale sind die Tiefenangabe »660ft = 200m«, das gewölbte Acrylglas mit Zykloplupe über dem Datum und der Mercedes-Stundenzeiger."
+     ]
     },
     {
      "n": "Ref. 116610LV »Hulk«",
@@ -3190,7 +3194,11 @@
       "bezelColor": "#1c5a33",
       "tex": "sunburst",
       "img": "assets/watches/rolex-submariner-116610lv-hulk.jpg"
-     }
+     },
+     "bd": [
+      "Die Abbildung zeigt die Rolex Submariner Date Referenz 116610LV aus Edelstahl mit 40 Millimetern Durchmesser, gebaut von 2010 bis 2020 und wegen ihrer Farbe »Hulk« genannt. Zifferblatt mit Sonnenschliff und Cerachrom-Keramiklünette sind beide grün.",
+      "Zu sehen sind die kräftigen Gehäuseflanken der damaligen Generation, die großen Leuchtindizes (»Maxi Dial«), das Datum mit Zykloplupe und das Oyster-Band mit Glidelock-Faltschließe."
+     ]
     },
     {
      "n": "Ref. 116619LB »Smurf«, 18 Karat Weißgold",
@@ -3201,7 +3209,11 @@
       "tex": "sunburst",
       "case": "steel",
       "img": "assets/watches/rolex-submariner-116619lb-smurf.jpg"
-     }
+     },
+     "bd": [
+      "Die Abbildung zeigt die Rolex Submariner Date Referenz 116619LB aus 18 Karat Weißgold, gebaut von 2008 bis 2020 und unter Sammlern »Smurf« genannt. Charakteristisch sind das tiefblaue Zifferblatt und die blaue Cerachrom-Keramiklünette mit Zahlen in Platinbeschichtung.",
+      "Wie bei den Stahlmodellen hat sie das Datum mit Zykloplupe bei 3 Uhr, runde Leuchtindizes und den Mercedes-Stundenzeiger; das Oyster-Band ist ebenfalls aus Weißgold."
+     ]
     }
    ],
    "m": [
@@ -3377,6 +3389,10 @@
     "1680: Datum und »Red Sub«",
     "Saphirglas und neue Werke",
     "Cerachrom, 41 Millimeter und Edelmetall"
+   ],
+   "bd": [
+    "Die Abbildung zeigt die aktuelle Rolex Submariner Date Referenz 126610LN aus Edelstahl mit 41 Millimetern Durchmesser. Typisch sind die schwarze Cerachrom-Keramiklünette mit Minutenskala über die ersten 15 Minuten und einem Leuchtpunkt im Dreieck bei 12 Uhr sowie das schwarze Zifferblatt mit runden Leuchtindizes, Balken bei 6 und 9 und einem Dreieck bei 12 Uhr.",
+    "Zu erkennen sind außerdem der Mercedes-Stundenzeiger, das Datumsfenster mit Zykloplupe bei 3 Uhr, die Aufschrift »1000ft = 300m« für die Wasserdichtigkeit und das Oyster-Band mit polierten Mittelgliedern."
    ]
   },
   {
