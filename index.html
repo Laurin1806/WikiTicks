@@ -668,7 +668,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112494"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112495"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1595,6 +1595,10 @@ function viewEntry(e) {
     const k = toks.length ? (e.b || []).findIndex(p => toks.some(t => new RegExp(`(^|[^\\w])${t}([^\\w]|$)`, "i").test(p))) : -1;
     if (k >= 0) (varAt[k] = varAt[k] || []).push(x); else varRest.push(x);
   }
+  // keine Reihe aus zwei Bildern mit einem einzelnen darunter: bei 3 oder 5 Bildern das letzte weglassen
+  const evenize = a => (a.length > 2 && a.length % 2) ? a.slice(0, -1) : a;
+  for (const k in varAt) varAt[k] = evenize(varAt[k]);
+  varRest.splice(0, varRest.length, ...evenize(varRest));
   const varGallery = varRest.length ? `<div class="gallery gallery-inline">${varRest.map(varFig).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
