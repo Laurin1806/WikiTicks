@@ -226,7 +226,12 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .curbox .facts { margin: 0; border-top-color: color-mix(in srgb, var(--accent) 25%, transparent); }
 .curbox .facts dt, .curbox .facts dd { border-bottom-color: color-mix(in srgb, var(--accent) 25%, transparent); }
 .curnote { font-size: 12.5px; color: var(--muted); margin: 10px 0 12px !important; }
-.refs-wrap { overflow-x: auto; margin: 4px 0 28px; }
+.refs-wrap { overflow-x: auto; margin: 6px 0 30px; padding: 8px 22px 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; } /* Referenztabelle als Kachel */
+.refs-wrap .refs tr:last-child td, .refs-wrap .refs tr.dsrow:last-child td { border-bottom: 0; }
+.refs-wrap .refs tr.now td { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.refs-wrap .refs tr.now td:first-child { border-radius: 10px 0 0 10px; padding-left: 10px; }
+.refs-wrap .refs tr.now td:last-child { border-radius: 0 10px 10px 0; }
+@media (max-width: 600px) { .refs-wrap { padding: 4px 14px 6px; } }
 /* Datenblatt je Referenz: Aufklapper im Stil von »Über dieses Bild« */
 .dsbtn { display: flex; align-items: center; gap: 5px; margin-top: 4px; padding: 0; border: 0; background: none; font: inherit; font-family: var(--font-body); font-size: 12px; font-weight: 600; color: var(--accent); cursor: pointer; white-space: nowrap; text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
 .dsbtn::after { content: ""; width: 6px; height: 6px; border-right: 1.6px solid currentColor; border-bottom: 1.6px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .25s ease; }
@@ -1057,7 +1062,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112574"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112575"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2349,15 +2354,14 @@ function viewEntry(e) {
           const tl = [...(e.refs || []).filter(x => yr(x[1])).map(x => [yr(x[1]), `Ref. ${x[0]}${x[4] ? ": " + x[4] : ""}`]).filter(x => !dupOfEv(x[0], x[1])), ...evs]
             .filter(x => x[0]).sort((a, b) => a[0] - b[0]);
           const timeline = tl.length >= 2 ? `<ol class="timeline">${tl.map(([y, t]) => `<li><span class="ty">${y}</span><span class="tt">${linkify(esc(t), e.id, used)}</span></li>`).join("")}</ol>` : "";
-          const parts = [["geschichte", "Geschichte"], ...(timeline ? [["zeitleiste", "Zeitleiste"]] : []), ...(e.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ...(e.x && e.x.length ? [["experte", "Expertenwissen"]] : []), ...((e.tipp && e.tipp.length) || e.preis ? [["sammler", "Wissenswert für Sammler und Käufer"]] : []), ...(e.refs ? [["referenzen", "Alle Referenzen"]] : []), ["technik", "Technik der aktuellen Ausführung"]];
+          const parts = [["geschichte", "Geschichte"], ...(timeline ? [["zeitleiste", "Zeitleiste"]] : []), ...(e.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ...(e.x && e.x.length ? [["experte", "Expertenwissen"]] : []), ...((e.tipp && e.tipp.length) || e.preis ? [["sammler", "Wissenswert für Sammler und Käufer"]] : []), ...(e.refs ? [["referenzen", "Alle Referenzen"]] : [])];
           return `<nav class="toc" aria-label="Inhalt">${parts.map(([k, t]) => `<button type="button" data-sec="${k}">${t}</button>`).join("")}</nav>`
             + H("geschichte", "Geschichte") + e.b.map((p, k) => ((e.bh && e.bh[k]) ? `<h4 class="art-sh">${esc(e.bh[k])}</h4>` : "") + P([p]) + lxBtns(k) + (varAt[k] ? `<div class="gallery gallery-inline">${varAt[k].map(varFig).join("")}</div>` : "")).join("") + varGallery
             + (timeline ? H("zeitleiste", "Zeitleiste") + timeline : "")
             + (e.m ? H("merkmale", "Erkennungsmerkmale") + UL(e.m) : "")
             + (e.x && e.x.length ? H("experte", "Expertenwissen") + UL(e.x) : "")
             + ((e.tipp && e.tipp.length) || e.preis ? H("sammler", "Wissenswert für Sammler und Käufer") + ((e.tipp && e.tipp.length) ? UL(e.tipp) : "") + priceChart(e.preis, e.refs) : "")
-            + (e.refs ? H("referenzen", "Alle Referenzen") + refs.replace('<div class="label">Alle Referenzen</div>', "") : "")
-            + H("technik", "Technik der aktuellen Ausführung") + facts;
+            + (e.refs ? H("referenzen", "Alle Referenzen") + refs.replace('<div class="label">Alle Referenzen</div>', "") : "");
         }
         const person = e.c === "Persönlichkeiten";
         return H("grundlagen", person ? "Herkunft" : "Grundlagen") + P(e.b.slice(0, 1), "b")
