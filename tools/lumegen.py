@@ -53,8 +53,10 @@ def gen(img, spec):
             dmin=np.hypot(c[:,1]-hx_,c[:,0]-hy_).min()
             if abs(ccx-hx_)<Rr*.4 and hy_-Rr*.68<ccy<hy_-Rr*.12 and dmin>Rr*.1: continue
         if spec.get('noarc') and 'hub' in spec:   # Bogen am Zifferblattrand (Rehaut, Lünettenkante): lang, dünn, tangential
-            dd=np.hypot(c[:,1]-spec['hub'][0],c[:,0]-spec['hub'][1])
-            if dd.min()>r*.78 and (dd.max()-dd.min())<r*.06 and len(c)>r*.6: continue   # sehr große helle Fläche (Hilfszifferblatt, Zifferblattausschnitt): keine Leuchtmasse
+            dd=np.hypot(c[:,1]-spec['hub'][0],c[:,0]-spec['hub'][1]);Rr=spec.get('R',r)
+            if dd.min()>Rr*.95: continue   # ganz am Rand (Rehaut, Minutenskala außen): keine Leuchtmasse
+            ang=np.arctan2(c[:,0]-spec['hub'][1],c[:,1]-spec['hub'][0]);ang=np.unwrap(np.sort(ang));tang=(ang.max()-ang.min())*dd.mean()
+            if dd.mean()>Rr*.8 and tang>2.5*(dd.max()-dd.min()+1): continue   # tangentialer Bogen am Rand   # sehr große helle Fläche (Hilfszifferblatt, Zifferblattausschnitt): keine Leuchtmasse
         if spec.get('nowin'):   # Datums-/Tagesfenster: fast rechteckig gefüllt, mit dunklen Ziffern darin
             bb=(y1-y0+1)*(x1-x0+1);fr=fill.sum()/bb;holes=(fill.sum()-len(c))/max(1,fill.sum())
             if fr>.84 and holes>.1 and .5<(x1-x0+1)/(y1-y0+1)<2.6: continue
@@ -288,5 +290,5 @@ if __name__=='__main__':
         ov.save((OUT if 'OUT' in globals() else ROOT+'assets/watches/lume/')+name,optimize=True)
         # Vorschau
         base=Image.open(ROOT+img).convert('RGB');pv=base.point(lambda v:int(v*.35)).convert('RGBA')
-        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save(f'/tmp/claude-0/-home-user-WikiTicks/0e28edec-f94f-555b-a2c4-826ff2b6d4c0/scratchpad/lm/pv_{name}')
+        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save('/tmp/pv_'+name)
         print(name,int(keep.sum()))
