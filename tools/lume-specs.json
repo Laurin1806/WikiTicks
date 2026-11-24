@@ -6944,5 +6944,1430 @@
    708
   ],
   "R": 300
+ },
+ "assets/watches/audemars-piguet-royal-oak-chronograph-26240st-blue.jpg": {
+  "c": [
+   0.45891043397968606,
+   0.521484375
+  ],
+  "r": 0.2768551578947368,
+  "col": "g",
+  "thr": 150,
+  "sat": 60,
+  "min": 6e-05,
+  "open": 0,
+  "ex": [
+   [
+    0.6158578024007386,
+    0.488286328125,
+    0.7476935918744229,
+    0.554682421875
+   ]
+  ],
+  "hub": [
+   497,
+   801
+  ],
+  "hubr": 32,
+  "autohands": false,
+  "R": 339.948,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "mode": "light",
+  "max": 0.006,
+  "handerode": 3,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 40.79376,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/breitling-navitimer.jpg": {
+  "c": [
+   0.4713603818615752,
+   0.4748263888888889
+  ],
+  "r": 0.2778868353221957,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   395,
+   547
+  ],
+  "hubr": 25,
+  "autohands": false,
+  "R": 264.024,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 31.682879999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/breitling-navitimer-b01-black.jpg": {
+  "c": [
+   0.4895833333333333,
+   0.447265625
+  ],
+  "r": 0.260796375,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   188,
+   229
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 113.544,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.625279999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/panerai-luminor-marina.jpg": {
+  "c": [
+   0.41767068273092367,
+   0.4984126984126984
+  ],
+  "r": 0.28104983132530115,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   104,
+   157
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 79.344,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 9.521279999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/seiko-presage-cocktail-time.jpg": {
+  "c": [
+   0.5103244837758112,
+   0.44680851063829785
+  ],
+  "r": 0.2865173097345132,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6727492625368732,
+    0.41485764023210836,
+    0.8091860766961652,
+    0.4787593810444874
+   ]
+  ],
+  "hub": [
+   173,
+   231
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 110.124,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.214879999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/seiko-astron-gps-solar.jpg": {
+  "c": [
+   0.5141700404858299,
+   0.49201277955271566
+  ],
+  "r": 0.2821043076923077,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.6740931174089069,
+    0.4541523961661342,
+    0.8084285020242915,
+    0.5298731629392971
+   ]
+  ],
+  "hub": [
+   127,
+   154
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 79.002,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 9.480239999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/swatch-moonswatch-mission-to-neptune.jpg": {
+  "c": [
+   0.37649402390438247,
+   0.46215139442231074
+  ],
+  "r": 0.22713432669322706,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   189,
+   232
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 129.27599999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 15.513119999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/rado-captain-cook.jpg": {
+  "c": [
+   0.41292134831460675,
+   0.4649805447470817
+  ],
+  "r": 0.28808696629213476,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.5762359550561797,
+    0.4310466926070039,
+    0.7134202247191012,
+    0.49891439688715955
+   ]
+  ],
+  "hub": [
+   147,
+   239
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 116.27999999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.953599999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/doxa-sub-300t-orange.jpg": {
+  "c": [
+   0.4166666666666667,
+   0.4851778656126482
+  ],
+  "r": 0.28767899999999996,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   315,
+   491
+  ],
+  "hubr": 23,
+  "autohands": false,
+  "R": 246.582,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 29.58984,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    366,
+    484
+   ],
+   "R": 200,
+   "ri": 0.74,
+   "ro": 0.9,
+   "skip": [
+    3
+   ],
+   "iw": 10,
+   "hands": [
+    268,
+    57
+   ],
+   "hl": [
+    0.5,
+    0.8
+   ],
+   "hw": 8
+  }
+ },
+ "assets/watches/panerai-luminor-marina-2.jpg": {
+  "c": [
+   0.5454545454545454,
+   0.46613545816733065
+  ],
+  "r": 0.2782544919786096,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   204,
+   234
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 117.98999999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.158799999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/panerai-mare-nostrum.jpg": {
+  "c": [
+   0.4625668449197861,
+   0.50199203187251
+  ],
+  "r": 0.27986756149732617,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   173,
+   252
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 118.67399999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.240879999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/seiko-6139-pogue-yellow.jpg": {
+  "c": [
+   0.5383597883597884,
+   0.42391304347826086
+  ],
+  "r": 0.285684,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [
+   [
+    0.7003121693121693,
+    0.38761778656126483,
+    0.8363521693121693,
+    0.4602083003952569
+   ]
+  ],
+  "hub": [
+   407,
+   429
+  ],
+  "hubr": 23,
+  "autohands": false,
+  "R": 244.87199999999999,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 29.384639999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/casio-g-shock-ga-2100.jpg": {
+  "c": [
+   0.40106951871657753,
+   0.43227091633466136
+  ],
+  "r": 0.270995679144385,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   150,
+   217
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 114.91199999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.789439999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/piaget-polo.jpg": {
+  "c": [
+   0.42245989304812837,
+   0.46613545816733065
+  ],
+  "r": 0.2943851871657754,
+  "col": "g",
+  "thr": 120,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 5,
+  "ex": [],
+  "hub": [
+   158,
+   234
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 124.83,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.9796,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/breitling-navitimer-green.jpg": {
+  "c": [
+   0.34462151394422313,
+   0.42828685258964144
+  ],
+  "r": 0.215044531314741,
+  "col": "g",
+  "thr": 170,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 7,
+  "ex": [],
+  "hub": [
+   173,
+   215
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 133.03799999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.004,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 15.964559999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/hublot-big-bang-unico-titanium-skeleton.jpg": {
+  "c": [
+   0.4146919431279621,
+   0.42578125
+  ],
+  "r": 0.25712649213270145,
+  "col": "g",
+  "thr": 170,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 7,
+  "ex": [],
+  "hub": [
+   175,
+   218
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 133.72199999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.004,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 16.046639999999996,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/tissot-t-touch.jpg": {
+  "c": [
+   0.446524064171123,
+   0.448207171314741
+  ],
+  "r": 0.26638230032085564,
+  "col": "g",
+  "thr": 170,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 7,
+  "ex": [],
+  "hub": [
+   167,
+   225
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 122.778,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.004,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.73336,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true
+ },
+ "assets/watches/grand-seiko-snowflake.jpg": {
+  "c": [
+   0.4206815511163337,
+   0.5008680555555556
+  ],
+  "r": 0.27824975323149237,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [
+   [
+    0.5784195064629848,
+    0.4659110243055556,
+    0.7109193889541715,
+    0.5358250868055555
+   ]
+  ],
+  "hub": [
+   358,
+   577
+  ],
+  "hubr": 25,
+  "autohands": false,
+  "R": 268.46999999999997,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 32.21639999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    358,
+    577
+   ],
+   "R": 268.46999999999997,
+   "skip": [
+    3
+   ],
+   "dbl12": 9.39645,
+   "hands": [
+    305,
+    62
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/grand-seiko-white-birch.jpg": {
+  "c": [
+   0.46402877697841727,
+   0.4809027777777778
+  ],
+  "r": 0.27777289208633094,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [
+   [
+    0.6214964028776978,
+    0.4467027777777777,
+    0.7537692086330936,
+    0.5151027777777778
+   ]
+  ],
+  "hub": [
+   387,
+   554
+  ],
+  "hubr": 25,
+  "autohands": false,
+  "R": 262.656,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 31.51872,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    387,
+    554
+   ],
+   "R": 262.656,
+   "skip": [
+    3
+   ],
+   "dbl12": 9.192960000000001,
+   "hands": [
+    300,
+    58
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/zenith-chronomaster.jpg": {
+  "c": [
+   0.4139344262295082,
+   0.4551083591331269
+  ],
+  "r": 0.27939157377049184,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [],
+  "hub": [
+   101,
+   147
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 77.292,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 9.27504,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    101,
+    147
+   ],
+   "R": 77.292,
+   "ri": 0.8,
+   "ro": 0.92,
+   "hands": [
+    302,
+    52
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/omega-swatch-moonswatch.jpg": {
+  "c": [
+   0.516042780748663,
+   0.448207171314741
+  ],
+  "r": 0.26615647058823527,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [],
+  "hub": [
+   193,
+   225
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 112.85999999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.543199999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    193,
+    225
+   ],
+   "R": 112.85999999999999,
+   "ri": 0.84,
+   "ro": 0.94,
+   "hands": [
+    305,
+    58
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/swatch-moonswatch-mission-to-mars.jpg": {
+  "c": [
+   0.5438247011952191,
+   0.5039840637450199
+  ],
+  "r": 0.22713432669322706,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [],
+  "hub": [
+   273,
+   253
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 129.27599999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 15.513119999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    273,
+    253
+   ],
+   "R": 129.27599999999998,
+   "ri": 0.84,
+   "ro": 0.94,
+   "hands": [
+    290,
+    42
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/audemars-piguet-royal-oak-concept.jpg": {
+  "c": [
+   0.45348837209302323,
+   0.455078125
+  ],
+  "r": 0.25465534744186047,
+  "col": "g",
+  "thr": 170,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 7,
+  "ex": [],
+  "hub": [
+   468,
+   699
+  ],
+  "hubr": 31,
+  "autohands": false,
+  "R": 323.87399999999997,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "handerode": 2,
+  "maxA": 0.004,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 38.86487999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    468,
+    699
+   ],
+   "R": 323.87399999999997,
+   "ri": 0.82,
+   "ro": 0.93,
+   "hands": [
+    306,
+    48
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/breitling-top-time-vintage.jpg": {
+  "c": [
+   0.425414364640884,
+   0.4599236641221374
+  ],
+  "r": 0.2774791491712707,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [],
+  "hub": [
+   154,
+   241
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 113.886,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.666319999999999,
+  "vint": true,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    154,
+    241
+   ],
+   "R": 113.886,
+   "ri": 0.8,
+   "ro": 0.92,
+   "hands": [
+    305,
+    55
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/jaeger-lecoultre-geophysic.jpg": {
+  "c": [
+   0.4090909090909091,
+   0.43824701195219123
+  ],
+  "r": 0.25567151871657756,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [
+   [
+    0.5540294117647059,
+    0.405852390438247,
+    0.6757777540106952,
+    0.47064163346613547
+   ]
+  ],
+  "hub": [
+   153,
+   220
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 108.41399999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.009679999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    153,
+    220
+   ],
+   "R": 108.41399999999999,
+   "skip": [
+    3
+   ],
+   "dbl12": 3.7944899999999997,
+   "hands": [
+    302,
+    58
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/king-seiko-ks.jpg": {
+  "c": [
+   0.47619047619047616,
+   0.4782608695652174
+  ],
+  "r": 0.2948609999999999,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [
+   [
+    0.643345238095238,
+    0.44079970355731224,
+    0.7837552380952381,
+    0.5157220355731226
+   ]
+  ],
+  "hub": [
+   360,
+   484
+  ],
+  "hubr": 24,
+  "autohands": false,
+  "R": 252.73799999999994,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 30.328559999999992,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    360,
+    484
+   ],
+   "R": 252.73799999999994,
+   "skip": [
+    3
+   ],
+   "dbl12": 8.84583,
+   "hands": [
+    305,
+    60
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/grand-seiko-44gs.jpg": {
+  "c": [
+   0.4126984126984127,
+   0.4723320158102767
+  ],
+  "r": 0.262941,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [],
+  "hub": [
+   312,
+   478
+  ],
+  "hubr": 21,
+  "autohands": false,
+  "R": 225.37799999999996,
+  "inset": 0.27,
+  "idxinset": 0.3,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 2,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 27.045359999999995,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    312,
+    478
+   ],
+   "R": 225.37799999999996,
+   "skip": [
+    3
+   ],
+   "dbl12": 7.888229999999999,
+   "hands": [
+    300,
+    62
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/grand-seiko-hi-beat-36000.jpg": {
+  "c": [
+   0.5213903743315508,
+   0.5
+  ],
+  "r": 0.2734152834224599,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [
+   [
+    0.6763877005347594,
+    0.465357171314741,
+    0.8065854545454545,
+    0.5346428286852589
+   ]
+  ],
+  "hub": [
+   195,
+   251
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 115.93799999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.912559999999997,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    195,
+    251
+   ],
+   "R": 115.93799999999999,
+   "skip": [
+    3
+   ],
+   "dbl12": 4.05783,
+   "hands": [
+    301,
+    37
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/grand-seiko-spring-drive-chronograph.jpg": {
+  "c": [
+   0.46547314578005117,
+   0.4228571428571429
+  ],
+  "r": 0.27927142710997443,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [],
+  "hub": [
+   182,
+   222
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 123.80399999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.856479999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    182,
+    222
+   ],
+   "R": 123.80399999999999,
+   "skip": [
+    3,
+    6,
+    9
+   ],
+   "dbl12": 4.33314,
+   "hands": [
+    300,
+    52
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/vacheron-constantin-fiftysix.jpg": {
+  "c": [
+   0.4320652173913043,
+   0.49074074074074076
+  ],
+  "r": 0.2770534565217391,
+  "col": "g",
+  "thr": 200,
+  "sat": 40,
+  "min": 0.00015,
+  "open": 0,
+  "ex": [
+   [
+    0.589125,
+    0.4586307407407407,
+    0.7210552173913044,
+    0.5228507407407408
+   ]
+  ],
+  "hub": [
+   159,
+   265
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 115.59599999999999,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "mode": "light",
+  "max": 0.003,
+  "handerode": 1,
+  "maxA": 0.012,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 13.871519999999999,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    159,
+    265
+   ],
+   "R": 115.59599999999999,
+   "skip": [
+    0,
+    3,
+    6,
+    9
+   ],
+   "hands": [
+    305,
+    58
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
+ },
+ "assets/watches/hamilton-pan-europ.jpg": {
+  "c": [
+   0.45187165775401067,
+   0.49203187250996017
+  ],
+  "r": 0.25451010866310153,
+  "col": "g",
+  "thr": 170,
+  "sat": 60,
+  "min": 0.0004,
+  "open": 7,
+  "ex": [],
+  "hub": [
+   169,
+   247
+  ],
+  "hubr": 16,
+  "autohands": false,
+  "R": 117.30599999999998,
+  "inset": 0.27,
+  "idxinset": 0.24,
+  "sec": false,
+  "handerode": 1,
+  "maxA": 0.004,
+  "nowin": true,
+  "dotr": 0.62,
+  "autofill": false,
+  "capr": 14.076719999999998,
+  "hubcut": false,
+  "idxlen": 0.1,
+  "noarc": true,
+  "nologo": true,
+  "manual": true,
+  "geo": {
+   "hub": [
+    169,
+    247
+   ],
+   "R": 117.30599999999998,
+   "skip": [
+    6
+   ],
+   "ri": 0.8,
+   "ro": 0.92,
+   "hands": [
+    300,
+    58
+   ],
+   "hl": [
+    0.5,
+    0.78
+   ]
+  }
  }
 }
