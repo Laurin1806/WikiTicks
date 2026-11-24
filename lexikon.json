@@ -573,7 +573,7 @@
    "dc": "Aufbau einer klassischen Mondphasenanzeige. Mit dem Regler lässt sich jede Phase einstellen.",
    "m": [
     "nautilus",
-    "royal-oak-perpetual"
+    "royal-oak"
    ],
    "mc": [
     "Nautilus 5740/1G: Mondphase im Datumszähler bei 6 Uhr",
@@ -581,7 +581,7 @@
    ],
    "img": [
     "assets/watches/patek-philippe-nautilus-5740-1g-perpetual.jpg",
-    null
+    "assets/watches/audemars-piguet-royal-oak-perpetual-calendar-26574.jpg"
    ]
   },
   "g": [
@@ -1818,14 +1818,14 @@
   "r": [
    "chronograph",
    "schaltrad",
-   "royal-oak-chronograph",
+   "royal-oak",
    "datograph",
    "type-xx"
   ],
   "k": "Beim Flyback-Chronographen springt der Stoppzeiger mit einem Druck auf null und läuft sofort weiter.",
   "fig": {
    "m": [
-    "royal-oak-chronograph",
+    "royal-oak",
     "type-xx",
     "datograph"
    ],
@@ -1833,6 +1833,11 @@
     "Flyback mit Schaltrad",
     "Fliegerchronograph mit Flyback",
     "Flyback mit springendem Minutenzähler"
+   ],
+   "img": [
+    "assets/watches/audemars-piguet-royal-oak-chronograph-26240st-blue.jpg",
+    null,
+    null
    ]
   },
   "g": [

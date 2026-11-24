@@ -5955,7 +5955,9 @@
     "Die Royal Oak, Referenz 5402ST, wurde 1972 in Basel vorgestellt. Ihre achteckige Lünette wird von acht sechseckigen Schrauben aus Weißgold gehalten. Das Band geht nahtlos aus dem Gehäuse hervor, und das Zifferblatt trägt ein feines Karomuster, die »Tapisserie«. Mit 39 Millimetern bei nur rund 7 Millimetern Höhe war sie für damalige Verhältnisse riesig und bekam den Spitznamen »Jumbo«. Im Inneren arbeitete das ultraflache Kaliber 2121 auf Basis des Jaeger-LeCoultre 920.",
     "Am meisten überraschte der Preis: Die Stahluhr kostete mehr als viele Golduhren, weil die vielen polierten und satinierten Flächen in aufwendiger Handarbeit veredelt wurden. Die Royal Oak verkaufte sich zuerst schleppend, wurde dann aber zum Vorbild für eine ganze Gattung von Luxus-Sportuhren.",
     "Den Namen hat sie von den Schiffen der britischen Marine namens HMS Royal Oak, die wiederum an eine Eiche erinnern, in der sich der englische König Karl II. versteckt haben soll.",
-    "Die Linie wuchs in den folgenden Jahrzehnten: 1993 kam die mittelgroße 14790ST, 2005 die 15300ST mit 39 Millimetern und Datum, 2012 die 15400ST mit 41 Millimetern. Seit 2022, zum 50. Jubiläum, gibt es zwei Hauptlinien: die extraflache »Jumbo« 16202ST mit 39 Millimetern und dem neuen Kaliber 7121 als direkte Nachfahrin des Originals und die Royal Oak Selfwinding 15510ST mit 41 Millimetern, dazu Chronographen, Modelle mit ewigem Kalender und Tourbillon."
+    "Die Linie wuchs in den folgenden Jahrzehnten: 1993 kam die mittelgroße 14790ST, 2005 die 15300ST mit 39 Millimetern und Datum, 2012 die 15400ST mit 41 Millimetern. Seit 2022, zum 50. Jubiläum, gibt es zwei Hauptlinien: die extraflache »Jumbo« 16202ST mit 39 Millimetern und dem neuen Kaliber 7121 als direkte Nachfahrin des Originals und die Royal Oak Selfwinding 15510ST mit 41 Millimetern. Dazu kommen Chronographen, Modelle mit ewigem Kalender und Tourbillon.",
+    "Der klassische Royal Oak Chronograph erschien 1997 mit der Referenz 25860ST: achteckige Lünette, integriertes Band und Tapisserie, ergänzt um drei Hilfszifferblätter bei 3, 6 und 9 Uhr. Er ist flacher und eleganter als die wuchtige Offshore. Lange arbeitete darin ein Basiswerk auf Grundlage des Frédéric-Piguet-Kalibers 1185 mit aufgesetztem Chronographenmodul (Kaliber 2385), das Gehäuse wuchs dabei von 39 auf 41 Millimeter. Seit 2022 hat die Referenz 26240 das hauseigene Kaliber 4401 mit Schaltrad und Flyback-Funktion: Ein Druck auf den unteren Drücker setzt die laufende Messung zurück und startet sofort eine neue. Die Kombination aus hellem Zifferblatt und dunklen Hilfszifferblättern wird nach dem Daytona-Vorbild »Panda« genannt.",
+    "Schon 1984 hatte Audemars Piguet auf der Basler Messe die erste Royal Oak mit ewigem Kalender vorgestellt (Ref. 5554, bald 25554), eine der ersten Sportuhren mit dieser Komplikation. Ihr Kaliber 2120/2800 war 1978 als damals dünnstes selbstaufziehendes Werk mit ewigem Kalender erschienen (3,95 mm); die ganze Uhr misst 7,5 Millimeter. Die heutige Referenz 26574 mit 41 Millimetern und Kaliber 5134 zeigt Datum, Wochentag, Monat, Schaltjahr, Kalenderwoche und Mondphase und muss laut Hersteller erst 2100 korrigiert werden."
    ],
    "cur": "Ref. 15510ST (Selfwinding 41 mm) · seit 2022",
    "f": [
@@ -6044,14 +6046,50 @@
      "41 mm",
      "4302",
      "Aktuelle Selfwinding"
+    ],
+    [
+     "25860ST",
+     "1997–2008",
+     "39 mm",
+     "2385",
+     "Erster Royal Oak Chronograph"
+    ],
+    [
+     "26320ST",
+     "2012–2019",
+     "41 mm",
+     "2385",
+     "Chronograph, größeres Gehäuse"
+    ],
+    [
+     "26240ST",
+     "seit 2022",
+     "41 mm",
+     "4401",
+     "Chronograph, hauseigenes Flyback-Werk"
+    ],
+    [
+     "5554 / 25554",
+     "1984–1990er",
+     "39 mm",
+     "2120/2800",
+     "Erster ewiger Kalender"
+    ],
+    [
+     "26574",
+     "seit 2015",
+     "41 mm",
+     "5134",
+     "Ewiger Kalender, aktuelle Ausführung"
     ]
    ],
    "r": [
     "nautilus",
     "royal-oak-offshore",
-    "royal-oak-chronograph",
     "edelstahl",
-    "zifferblatt"
+    "zifferblatt",
+    "chronograph",
+    "ewiger-kalender"
    ],
    "k": "Gérald Genta soll den Entwurf der Audemars Piguet Royal Oak in einer einzigen Nacht gezeichnet haben.",
    "a": [],
@@ -6081,19 +6119,51 @@
       "Die Abbildung zeigt eine moderne Audemars Piguet Royal Oak »Jumbo« Extra-Thin aus Edelstahl mit blauem Zifferblatt. Zu sehen ist die achteckige Lünette mit acht sechseckigen Schrauben, das integrierte Gliederband und die Wechselwirkung aus satinierten und polierten Flächen, die Gérald Genta 1972 mit der Ref. 5402ST einführte. Die heutige Ausführung führt diesen Entwurf fort.",
       "Zu erkennen sind das »Petite Tapisserie«-Muster des Zifferblatts, aufgesetzte Stabindizes und Stabzeiger mit Leuchtfüllung sowie das Datumsfenster bei 3 Uhr. Unter der Signatur »AUDEMARS PIGUET« steht »AUTOMATIC«, über 6 Uhr sitzt das AP-Monogramm. Die Uhr hat keinen Zentralsekundenzeiger; die Krone ist sechseckig ausgeformt."
      ]
+    },
+    {
+     "n": "Chronograph Ref. 26240ST",
+     "y": "seit 2022",
+     "v": {
+      "sub": "chrono3",
+      "pushers": true,
+      "label": "ROYAL OAK",
+      "brandDy": 6,
+      "img": "assets/watches/audemars-piguet-royal-oak-chronograph-26240st-blue.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt den Audemars Piguet Royal Oak Chronograph Referenz 26240 aus Edelstahl mit blauem Zifferblatt. Typisch sind die achteckige Lünette mit acht sichtbaren Sechskantschrauben, das integrierte Gliederband und das Zifferblatt mit Tapisserie-Muster.",
+      "Zu erkennen sind drei silberfarbene Hilfszifferblätter bei 3, 6 und 9 Uhr, aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie ein kleines Datumsfenster zwischen 4 und 5 Uhr. Rechts am Gehäuse sitzen die verschraubte Krone und die beiden Chronographendrücker. Die Flächen von Gehäuse und Band sind überwiegend satiniert, die Kanten poliert."
+     ]
+    },
+    {
+     "n": "Ewiger Kalender Ref. 26574",
+     "y": "seit 2015",
+     "v": {
+      "markers": "baton",
+      "hands": "baton",
+      "moon": true,
+      "img": "assets/watches/audemars-piguet-royal-oak-perpetual-calendar-26574.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt die aktuelle Audemars Piguet Royal Oak Ewiger Kalender der Referenz 26574, die seit 2015 mit 41 Millimetern und dem Kaliber 5134 gebaut wird. Gehäuse, achteckige Lünette mit sechseckigen Schrauben und integriertes Band sind aus Edelstahl, das Zifferblatt blau mit Tapisserie-Muster.",
+      "Zu erkennen sind die Hilfszifferblätter für Wochentag bei 9 Uhr, Monat und Schaltjahr bei 12 Uhr und Datum bei 3 Uhr sowie die Mondphase bei 6 Uhr. Am Rand läuft eine Skala mit den Kalenderwochen. Aufgesetzte Stabindizes, Stabzeiger mit Leuchtmasse und der Schriftzug »AUDEMARS PIGUET« vervollständigen das Bild."
+     ]
     }
    ],
    "m": [
     "Achteckige Lünette mit acht Sechskantschrauben",
     "Integriertes Band",
     "Zifferblatt mit Tapisserie-Muster",
-    "Abwechselnd polierte und satinierte Flächen"
+    "Abwechselnd polierte und satinierte Flächen",
+    "Chronograph mit Flyback (Kaliber 4401)",
+    "Ewiger Kalender mit Mondphase"
    ],
    "tipp": [
     "Die extraflache »Jumbo« gilt als die reinste Form der Royal Oak.",
     "Stahlmodelle sind oft nur mit langer Wartezeit erhältlich.",
     "Bei gebrauchten Uhren auf zu stark polierte, abgerundete Kanten achten. Das senkt den Wert.",
-    "Frühe 5402 haben Tritium-Leuchtmasse, die mit den Jahren cremefarben nachdunkelt; heutige Modelle leuchten mit nicht radioaktiver Leuchtmasse."
+    "Frühe 5402 haben Tritium-Leuchtmasse, die mit den Jahren cremefarben nachdunkelt; heutige Modelle leuchten mit nicht radioaktiver Leuchtmasse.",
+    "Der Chronograph ist flacher und eleganter als die Offshore; ältere Modelle mit zugekauftem Werk sind etwas günstiger."
    ],
    "ev": [
     [
@@ -6105,8 +6175,20 @@
      "Vorstellung der Royal Oak 5402ST in Basel"
     ],
     [
+     "1978",
+     "Kaliber 2120/2800 in der Ref. 5548"
+    ],
+    [
+     "1984",
+     "Royal Oak 5554 mit ewigem Kalender"
+    ],
+    [
      "1993",
      "Mittelgroße 14790ST"
+    ],
+    [
+     "1997",
+     "Erster Royal Oak Chronograph (Ref. 25860ST)"
     ],
     [
      "2005",
@@ -6117,15 +6199,25 @@
      "15400ST mit 41 mm"
     ],
     [
+     "2015",
+     "Ewiger Kalender Ref. 26574"
+    ],
+    [
      "2022",
      "50. Jubiläum: 16202ST und 15510ST"
+    ],
+    [
+     "2022",
+     "Chronograph 26240 mit Kaliber 4401"
     ]
    ],
    "x": [
     "Das »Tapisserie«-Muster des Zifferblatts wird auf einer alten Guillochiermaschine gefertigt; es gibt »Petite«, »Grande« und »Mega Tapisserie«, und die Feinheit des Musters verändert den Charakter der Uhr deutlich.",
     "Das Band besteht aus sehr vielen Einzelteilen und verjüngt sich vom Gehäuse bis zur Schließe von rund 26 auf etwa 18 Millimeter; Gehäuse und Band gehen so ineinander über, dass sie als Einheit wirken.",
     "Von 1972 bis 1976 war die 5402 die einzige Royal Oak im Programm von Audemars Piguet; sie blieb rund 15 Jahre im Katalog.",
-    "Das Kaliber 2121 beruht auf demselben extraflachen Jaeger-LeCoultre-Rohwerk 920, das auch in der Nautilus 3700 (Kaliber 28-255 C) und in der Vacheron Constantin 222 (Kaliber 1121) steckte."
+    "Das Kaliber 2121 beruht auf demselben extraflachen Jaeger-LeCoultre-Rohwerk 920, das auch in der Nautilus 3700 (Kaliber 28-255 C) und in der Vacheron Constantin 222 (Kaliber 1121) steckte.",
+    "Die Hilfszifferblätter liegen bei 3, 6 und 9 Uhr und haben die gleiche Tapisserie-Struktur wie das Hauptzifferblatt.",
+    "Die 5554 gilt als erste Sport-Armbanduhr mit ewigem Kalender; die Mondphase sitzt bei 6 Uhr."
    ],
    "preis": {
     "u": "USD",
@@ -6165,9 +6257,23 @@
       40100,
       "heute",
       80386
+     ],
+     [
+      "26240ST (Chronograph)",
+      "Liste",
+      44400,
+      "heute",
+      68950
+     ],
+     [
+      "26574ST (Ewiger Kalender)",
+      "Liste (Händlerangabe)",
+      129900,
+      "heute",
+      113600
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14790: laut Chronext inzwischen nahe 40.000 Euro (Richtwert). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Neupreis 5402: Listenpreis zum Verkaufsstart 1972; Gebrauchtpreis: Händlerangebote zwischen etwa 60.000 und 129.650 EUR, hier ein grober Mittelwert."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14790: laut Chronext inzwischen nahe 40.000 Euro (Richtwert). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Neupreis 5402: Listenpreis zum Verkaufsstart 1972; Gebrauchtpreis: Händlerangebote zwischen etwa 60.000 und 129.650 EUR, hier ein grober Mittelwert. Chronograph 26240ST: Gebrauchtpreis als Angebot eines Händlers (Herbst 2026), Listenpreis von einer Preisseite ohne Datum, unsicher. Ewiger Kalender 26574ST: Gebrauchtwert als Mitte der Händlerpreise zwischen 89.350 und 113.800 EUR; kein offizieller Listenpreis auffindbar."
    },
    "w": "Achteckige Lünette, sichtbare Schrauben und ein integriertes Band: 1972 kostete die Stahluhr mehr als manche Golduhr.",
    "lume": {
@@ -6179,7 +6285,9 @@
     "1972: Ref. 5402ST, die »Jumbo«",
     "Eine Stahluhr teurer als Gold",
     "Der Name »Royal Oak«",
-    "Von der 14790ST zur 16202ST"
+    "Von der 14790ST zur 16202ST",
+    "1997: der Royal Oak Chronograph",
+    "1984: der ewige Kalender"
    ],
    "bd": [
     "Die Abbildung zeigt eine Audemars Piguet Royal Oak Selfwinding in der aktuellen Stahlausführung, wie sie als Referenz 15510ST mit 41 Millimetern gebaut wird. Typisch sind die achteckige Lünette mit acht sichtbaren Sechskantschrauben und das blaue Zifferblatt.",
@@ -6350,153 +6458,6 @@
    "bd": [
     "Die Abbildung zeigt die aktuelle Audemars Piguet Royal Oak Offshore Chronograph der Referenz 26420, die seit 2021 mit 43 Millimetern und hauseigenem Flyback-Werk gebaut wird. Das Gehäuse mit der achteckigen, verschraubten Lünette ist aus Edelstahl, das Zifferblatt schwarz mit »Méga Tapisserie«-Muster.",
     "Zu erkennen sind drei hellgraue Hilfszifferblätter mit roten Zeigern, aufgesetzte Leuchtindizes, das Datumsfenster zwischen 4 und 5 Uhr und das Logo »AP« unter 12 Uhr. Typisch für die Offshore sind die schwarzen, gummierten Drücker und die Krone mit Kronenschutz sowie das schwarze Kautschukband."
-   ]
-  },
-  {
-   "id": "royal-oak-chronograph",
-   "t": "Audemars Piguet Royal Oak Chronograph",
-   "brand": "Audemars Piguet",
-   "since": "1997",
-   "s": "Die Royal Oak mit Stoppfunktion, eleganter und flacher als die Offshore.",
-   "b": [
-    "Neben der wuchtigen Offshore gibt es seit den 1990er-Jahren auch einen klassischen Chronographen im Gehäuse der Royal Oak. Die erste Referenz 25860ST erschien 1997; sie übernimmt die achteckige Lünette, das integrierte Band und die Tapisserie, ergänzt um drei Hilfszifferblätter.",
-    "Lange arbeitete in ihm ein zugekauftes Basiswerk auf Grundlage des Frédéric-Piguet-Kalibers 1185 mit einem aufgesetzten Chronographenmodul (Kaliber 2385). Das Gehäuse wuchs dabei von 39 auf 41 Millimeter. Seit 2022 hat der Royal Oak Chronograph das hauseigene Kaliber 4401 mit integriertem Chronographen, Schaltrad und Flyback-Funktion. Bei einem Flyback-Chronographen setzt ein Druck auf den unteren Drücker die laufende Messung sofort zurück und startet eine neue.",
-    "Die Zifferblätter gibt es in Blau, Schwarz, Grau und Silber. Die besonders beliebte Kombination aus hellem Zifferblatt und schwarzen Hilfszifferblättern wird nach dem bekannten Daytona-Vorbild auch »Panda« genannt."
-   ],
-   "cur": "Ref. 26240 · seit 2022",
-   "f": [
-    [
-     "Gehäuse",
-     "41 mm, Edelstahl, Saphirglasboden"
-    ],
-    [
-     "Kaliber",
-     "4401, Automatik-Chronograph, 28.800 A/h"
-    ],
-    [
-     "Chronograph",
-     "Schaltrad, Flyback, vertikale Kupplung"
-    ],
-    [
-     "Gangreserve",
-     "≈ 70 Stunden"
-    ],
-    [
-     "Zifferblatt",
-     "»Grande Tapisserie«"
-    ],
-    [
-     "Wasserdicht",
-     "50 m"
-    ]
-   ],
-   "refs": [
-    [
-     "25860ST",
-     "1997–2008",
-     "39 mm",
-     "2385",
-     "Erster Royal Oak Chronograph"
-    ],
-    [
-     "26300ST",
-     "2008–2012",
-     "39 mm",
-     "2385",
-     "Überarbeitete Version"
-    ],
-    [
-     "26320ST",
-     "2012–2019",
-     "41 mm",
-     "2385",
-     "Größeres Gehäuse"
-    ],
-    [
-     "26331ST",
-     "2017–2022",
-     "41 mm",
-     "2385",
-     "Neue Zifferblattgestaltung"
-    ],
-    [
-     "26240",
-     "seit 2022",
-     "41 mm",
-     "4401",
-     "Hauseigenes Flyback-Werk"
-    ]
-   ],
-   "r": [
-    "royal-oak",
-    "royal-oak-offshore",
-    "chronograph"
-   ],
-   "k": "Ein Flyback-Chronograph wie in der Royal Oak setzt mit einem einzigen Druck zurück und startet sofort neu.",
-   "a": [],
-   "v": {
-    "shape": "octagon",
-    "dial": "#1b3560",
-    "tex": "tap",
-    "sub": "chrono3",
-    "pushers": true,
-    "label": "ROYAL OAK",
-    "strap": "ro",
-    "origin": "",
-    "ro": true,
-    "crown": "hex",
-    "brandDy": 6,
-    "img": "assets/watches/audemars-piguet-royal-oak-chronograph-26240st-blue.jpg"
-   },
-   "m": [
-    "Drei Hilfszifferblätter",
-    "Achteckige Lünette mit Schrauben",
-    "Tapisserie-Zifferblatt",
-    "Seit 2022 Flyback mit eigenem Werk"
-   ],
-   "tipp": [
-    "Der Chronograph ist flacher und eleganter als die Offshore.",
-    "Ältere Modelle mit zugekauftem Werk sind etwas günstiger."
-   ],
-   "x": [
-    "Die Hilfszifferblätter liegen bei 3, 6 und 9 Uhr und haben die gleiche Tapisserie-Struktur wie das Hauptzifferblatt."
-   ],
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "26240ST",
-      "Liste",
-      44400,
-      "heute",
-      68950
-     ]
-    ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Der Listenpreis stammt von einer Preisseite ohne Datum und ist unsicher. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "ev": [
-    [
-     "1997",
-     "Erste Royal Oak Chronograph (Ref. 25860ST)"
-    ],
-    [
-     "2022",
-     "Referenz 26240 mit Manufakturkaliber 4401"
-    ]
-   ],
-   "w": "Die Royal-Oak-Form mit Stoppfunktion: flacher und eleganter als die Offshore.",
-   "lume": {
-    "z": "IH",
-    "c": "g"
-   },
-   "bh": [
-    "1997: Ref. 25860ST",
-    "Vom Modul zum Kaliber 4401",
-    "Zifferblattfarben und »Panda«"
-   ],
-   "bd": [
-    "Die Abbildung zeigt den Audemars Piguet Royal Oak Chronograph Referenz 26240 aus Edelstahl mit blauem Zifferblatt. Typisch sind die achteckige Lünette mit acht sichtbaren Sechskantschrauben, das integrierte Gliederband und das Zifferblatt mit Tapisserie-Muster.",
-    "Zu erkennen sind drei silberfarbene Hilfszifferblätter bei 3, 6 und 9 Uhr, aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie ein kleines Datumsfenster zwischen 4 und 5 Uhr. Rechts am Gehäuse sitzen die verschraubte Krone und die beiden Chronographendrücker. Die Flächen von Gehäuse und Band sind überwiegend satiniert, die Kanten poliert."
    ]
   },
   {
@@ -21458,127 +21419,6 @@
    "bd": [
     "Die Abbildung zeigt eine Audemars Piguet Millenary mit ovalem Gehäuse in hellem Metall und schwarzem Lederband. Typisch ist das aus der Mitte nach rechts verschobene Zifferblatt für Stunden und Minuten, das schwarz mit großen roségoldenen römischen Ziffern gestaltet ist.",
     "Links liegt das offene Werk mit der großen Unruh, die unter einer bogenförmigen roségoldenen Brücke mit roten Lagersteinen schwingt; um sie herum sind Räder und Brücken des Werks zu sehen. Die kleine Sekunde sitzt links unten in einem eigenen schwarzen Hilfszifferblatt, die Signatur mit AP-Monogramm steht im Hauptzifferblatt. Die Krone ist gerändelt, das Lederband hat Alligatorprägung."
-   ]
-  },
-  {
-   "id": "royal-oak-perpetual",
-   "t": "Audemars Piguet Royal Oak Ewiger Kalender",
-   "brand": "Audemars Piguet",
-   "since": 1984,
-   "s": "Die Royal Oak mit ewigem Kalender, die 1984 eine Komplikation in die Luxus-Sportuhr brachte.",
-   "b": [
-    "1984 stellte Audemars Piguet auf der Basler Messe die erste Royal Oak mit ewigem Kalender vor (Ref. 5554, bald 25554); die Idee war 1981 wiederbelebt worden, die technische Abteilung nahm das Projekt 1983 auf. Das Werk basiert auf dem Kaliber 2120/2800, ergänzt um ein Kalendermodul; die heutige Version (26574) trägt das Kaliber 5134. Die Uhr behielt das Achteck-Gehäuse mit Tapisserie-Zifferblatt, in Stahl, Gold und Platin.",
-    "Das Kaliber 2120/2800 war schon 1978 in der Ref. 5548 als damals dünnstes selbstaufziehendes Perpetual-Werk der Welt (3,95 mm) vorgestellt worden; die Royal Oak 25554 misst insgesamt 7,5 Millimeter. Es wurde exklusiv für AP, Patek und Vacheron verwendet.",
-    "Die Uhr zeigt Datum, Wochentag, Monat, Schaltjahr und Mondphase; der Kalender muss laut Hersteller erst 2100 korrigiert werden. Gesucht sind besonders frühe Referenzen; gebraucht liegt die aktuelle Version im sechsstelligen Bereich."
-   ],
-   "cur": "Royal Oak Ewiger Kalender (Ref. 26574)",
-   "f": [
-    [
-     "Gehäuse",
-     "41 mm, Stahl, Gold oder Platin"
-    ],
-    [
-     "Kaliber",
-     "5134 (Automatik)"
-    ],
-    [
-     "Funktionen",
-     "Ewiger Kalender, Mondphase"
-    ],
-    [
-     "Seit",
-     "1984"
-    ]
-   ],
-   "refs": [
-    [
-     "5554 (später 25554)",
-     "1984–1990er",
-     "39 mm",
-     "2120/2800",
-     "Erste Royal Oak mit ewigem Kalender"
-    ],
-    [
-     "26574",
-     "seit 2015",
-     "41 mm",
-     "5134",
-     "Aktuelle Ausführung"
-    ]
-   ],
-   "r": [
-    "royal-oak",
-    "ewiger-kalender",
-    "royal-oak-chronograph"
-   ],
-   "k": "Die Royal Oak mit ewigem Kalender war 1984 neu in einer Sportuhr.",
-   "a": [],
-   "v": {
-    "shape": "octagon",
-    "dial": "#1b3560",
-    "tex": "tap",
-    "markers": "baton",
-    "hands": "baton",
-    "strap": "ro",
-    "ro": true,
-    "crown": "hex",
-    "moon": true,
-    "date": "3",
-    "img": "assets/watches/audemars-piguet-royal-oak-perpetual-calendar-26574.jpg"
-   },
-   "m": [
-    "Ewiger Kalender",
-    "Mondphase",
-    "Achteckige Lünette"
-   ],
-   "tipp": [],
-   "x": [
-    "Die 5554 gilt als erste Sport-Armbanduhr mit ewigem Kalender; die Mondphase sitzt bei 6 Uhr."
-   ],
-   "ev": [
-    [
-     "1972",
-     "Royal Oak"
-    ],
-    [
-     "1978",
-     "Kaliber 2120/2800 in der Ref. 5548"
-    ],
-    [
-     "1984",
-     "Royal Oak 5554 mit ewigem Kalender"
-    ],
-    [
-     "2015",
-     "Aktuelle Referenz 26574"
-    ]
-   ],
-   "w": "Eine Sportuhr mit ewigem Kalender: Royal Oak, Mondphase und Kalender in einer Uhr.",
-   "preis": {
-    "u": "USD",
-    "rows": [
-     [
-      "26574ST (Stahl)",
-      "Liste (Händlerangabe)",
-      129900,
-      "heute",
-      113600
-     ]
-    ],
-    "n": "Gebrauchtwert als Mitte der Händlerpreise zwischen 89.350 und 113.800 EUR, je nach Zifferblatt und Jahr; kein offizieller Listenpreis auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
-   },
-   "lume": {
-    "z": "IH",
-    "c": "g"
-   },
-   "bh": [
-    "1984: Ref. 5554 in Basel",
-    "Kaliber 2120/2800 mit 3,95 mm",
-    "Anzeigen und gesuchte frühe Referenzen"
-   ],
-   "bd": [
-    "Die Abbildung zeigt die aktuelle Audemars Piguet Royal Oak Ewiger Kalender der Referenz 26574, die seit 2015 mit 41 Millimetern und dem Kaliber 5134 gebaut wird. Gehäuse, achteckige Lünette mit sechseckigen Schrauben und integriertes Band sind aus Edelstahl, das Zifferblatt blau mit Tapisserie-Muster.",
-    "Zu erkennen sind die Hilfszifferblätter für Wochentag bei 9 Uhr, Monat und Schaltjahr bei 12 Uhr und Datum bei 3 Uhr sowie die Mondphase bei 6 Uhr. Am Rand läuft eine Skala mit den Kalenderwochen. Aufgesetzte Stabindizes, Stabzeiger mit Leuchtmasse und der Schriftzug »AUDEMARS PIGUET« vervollständigen das Bild."
    ]
   },
   {

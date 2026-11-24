@@ -810,7 +810,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112523"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112524"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2148,8 +2148,12 @@ document.addEventListener("load", ev => { if (ev.target && ev.target.matches && 
 try { if (localStorage.getItem("wikiticks-night") === "1") setNight(true, false); } catch (e) {}
 
 // ---------- Routing ----------
+// Frühere eigene Beiträge, die in einen anderen Beitrag aufgenommen wurden
+const MERGED = { "royal-oak-chronograph": "royal-oak", "royal-oak-perpetual": "royal-oak" };
 function route() {
-  const h = decodeURIComponent(location.hash.slice(1));
+  const h0 = decodeURIComponent(location.hash.slice(1));
+  if (MERGED[h0]) { history.replaceState(null, "", "#" + MERGED[h0]); }
+  const h = MERGED[h0] || h0;
   renderNav(h);
   $("#nav").classList.remove("open"); $("#menu").setAttribute("aria-expanded", "false");
   const brand = h.startsWith("marke-") && BRANDS.find(b => slug(b) === h.slice(6));
