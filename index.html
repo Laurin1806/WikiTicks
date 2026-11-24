@@ -272,7 +272,13 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .pcal .hub { fill: var(--accent); }
 .pcal .cap { font-family: var(--font-mono); font-size: 7.5px; letter-spacing: .25em; fill: var(--muted); }
 :root.night .pcal .hd { filter: drop-shadow(0 0 2px color-mix(in srgb, var(--accent) 70%, transparent)); }
-@media (max-width: 1080px) { .pcal { display: none; } }
+@media (max-width: 1080px) and (min-width: 761px) { .pcal { display: none; } }
+@media (max-width: 760px) {
+  .head { display: grid !important; grid-template-columns: auto minmax(0, 1fr); grid-template-areas: "dial cal" "txt txt"; align-items: center; column-gap: 14px; }
+  .head > .dial { grid-area: dial; }
+  .head > div { grid-area: txt; }
+  .pcal { grid-area: cal; width: 100%; max-width: 270px; justify-self: end; margin-left: 0; }
+}
 /* »Heißeste« Marken im Menü */
 .hothint { display: flex; align-items: center; gap: 5px; font-size: 11.5px; color: var(--muted); padding: 0 10px 4px 22px; }
 .flame { width: 12px; height: 12px; fill: #e0702e; flex: none; }
