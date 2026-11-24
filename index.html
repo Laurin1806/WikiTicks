@@ -262,14 +262,18 @@ a.xl:hover { text-decoration-color: var(--accent); }
 
 /* Illustrationen */
 .watch { display: block; width: 100%; height: 100%; }
-/* Aufklappbare Bildbeschreibung */
-.imgnote { width: 100%; text-align: left; font-size: 13px; line-height: 1.5; color: var(--fg); border-top: 1px solid var(--line); padding-top: 8px; margin-top: 2px; }
+/* Aufklappbare Bildbeschreibung: legt sich als halbtransparente Karte über den Text darunter */
+.watchfig:has(.imgnote) { position: relative; }
+.imgnote { width: 100%; text-align: left; font-size: 13px; line-height: 1.5; color: var(--fg); border-top: 1px solid var(--line); padding-top: 8px; margin-top: 2px; position: static; }
 .imgnote summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--accent); }
 .imgnote summary::-webkit-details-marker { display: none; }
 .imgnote summary::after { content: ""; width: 7px; height: 7px; border-right: 1.6px solid currentColor; border-bottom: 1.6px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .25s ease; }
 .imgnote[open] summary::after { transform: translateY(1px) rotate(-135deg); }
-.imgnote p { margin: 8px 0 0; }
-.imgnote .credit { font-size: 11.5px; color: var(--muted); }
+.imgpop { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 60; padding: 4px 16px 12px; background: color-mix(in srgb, var(--surface) 72%, transparent); backdrop-filter: blur(10px) saturate(1.2); -webkit-backdrop-filter: blur(10px) saturate(1.2); border: 1px solid color-mix(in srgb, var(--line) 80%, transparent); border-radius: 12px; box-shadow: 0 12px 32px rgba(0, 0, 0, .14); }
+.imgnote[open] .imgpop { animation: imgpop .22s ease; }
+@keyframes imgpop { from { opacity: 0; transform: translateY(-4px); } }
+.imgpop p { margin: 8px 0 0; }
+.imgpop .credit { font-size: 11.5px; color: var(--muted); }
 /* Ewiger Kalender oben rechts (gegenüber der kleinen Uhr) */
 .pcal { flex: none; margin-left: auto; width: 290px; height: auto; align-self: center; overflow: visible; }
 .pcal .sd { fill: var(--surface); stroke: var(--line); stroke-width: 1.6; }
@@ -1599,9 +1603,10 @@ function brandList() {
     </ul></div>`).join("");
 }
 
-// Bildbeschreibung als aufklappbarer Text unter dem Bild (Feld bd: Liste von Absätzen)
+// Bildbeschreibung als aufklappbarer Text unter dem Bild (Feld bd: Liste von Absätzen); Klick daneben schließt
+document.addEventListener("click", ev => { document.querySelectorAll(".imgnote[open]").forEach(d => { if (!d.contains(ev.target)) d.open = false; }); });
 const IMG_CREDIT = "Bildnachweis: KI-generierte Illustration, erstellt für WikiTicks. Keine Originalaufnahme des Herstellers.";
-const imgNote = bd => bd && bd.length ? `<details class="imgnote"><summary>Über dieses Bild</summary>${bd.map(p => `<p>${esc(p)}</p>`).join("")}<p class="credit">${esc(IMG_CREDIT)}</p></details>` : "";
+const imgNote = bd => bd && bd.length ? `<details class="imgnote"><summary>Über dieses Bild</summary><div class="imgpop">${bd.map(p => `<p>${esc(p)}</p>`).join("")}<p class="credit">${esc(IMG_CREDIT)}</p></div></details>` : "";
 const BRAND_LOGOS = new Set(["rolex", "audemars-piguet", "patek-philippe", "omega", "a-lange-soehne", "tudor", "cartier", "breitling", "iwc", "jaeger-lecoultre", "vacheron-constantin", "blancpain"]);
 function viewBrand(b) {
   const ms = MODELS.filter(e => e.brand === b).sort((x, y) => x.t.localeCompare(y.t, "de"));
