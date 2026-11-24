@@ -570,7 +570,7 @@
   "k": "Präzise Mondphasenanzeigen weichen erst nach rund 122 Jahren um einen Tag ab.",
   "fig": {
    "d": "mondphase",
-   "dc": "Aufbau einer klassischen Mondphasenanzeige. Hier: zunehmender Mond, er schiebt sich hinter der linken Wölbung hervor und steht in wenigen Tagen als Vollmond in der Mitte.",
+   "dc": "Aufbau einer klassischen Mondphasenanzeige, eingestellt auf die heutige Mondphase.",
    "m": [
     "nautilus",
     "royal-oak-perpetual"
