@@ -12895,7 +12895,7 @@
    "b": [
     "1930 klagten britische Offiziere in Indien, dass beim Polospiel ständig die Gläser ihrer Uhren zerbrachen. Daraus entstand 1931 die Reverso, lateinisch für »ich drehe um«: Das rechteckige Gehäuse lässt sich in einem Rahmen seitlich verschieben und wenden, sodass nur noch der massive Boden nach außen zeigt. Der Entwurf stammt aus dem Umfeld von Jacques-David LeCoultre, dem Importeur César de Trey und Edmond Jaeger. Das Patent von 1931 beschreibt ein Gehäuse, das auf Schienen im Rahmen gleitet und mit dem Rücken nach oben wieder einrastet.",
     "Die Reverso ist ein Klassiker des Art déco, mit klaren Zifferblättern, rechteckigen Formen und drei schmalen Rillen oben und unten am Gehäuse. Die leere Rückseite wurde schnell zum Platz für Gravuren, Wappen und Emaille-Malereien; Jaeger-LeCoultre bietet Gravuren nach Kundenwunsch an.",
-    "Anfang der 1970er-Jahre geriet die Reverso nahezu in Vergessenheit und wurde ab 1972 neu aufgelegt. Mit der Reverso Duoface wurde 1994 die Rückseite funktional: Sie hat zwei Zifferblätter, vorne und hinten, für zwei Zeitzonen. Seit 2016 greift die Tribute-Linie die Optik der Ur-Reverso aus den 1930er-Jahren wieder auf. Heute reicht die Familie von schlichten Handaufzugsmodellen bis zu Uhren mit vier Zifferblättern und Dutzenden Komplikationen."
+    "Anfang der 1970er-Jahre geriet die Reverso nahezu in Vergessenheit und wurde ab 1972 neu aufgelegt. Mit der Reverso Duoface wurde 1994 die Rückseite funktional: Sie hat zwei Zifferblätter, vorne und hinten, für zwei Zeitzonen. Seit 2016 greift die Tribute-Linie die Optik der Ur-Reverso aus den 1930er-Jahren wieder auf, seit 2017 gibt es die Reverso Classic Large Small Seconds (Ref. Q3858520) mit arabischen Ziffern. Heute reicht die Familie von schlichten Handaufzugsmodellen bis zu Uhren mit vier Zifferblättern und Dutzenden Komplikationen."
    ],
    "cur": "Reverso Tribute Monoface Small Seconds · seit 2016",
    "f": [
@@ -12941,6 +12941,13 @@
      "45,6 × 27,4 mm",
      "822",
      "Klassische Neuauflage"
+    ],
+    [
+     "Q3858520",
+     "seit 2017",
+     "45,6 × 27,4 mm",
+     "822/2",
+     "Classic Large Small Seconds, arabische Ziffern"
     ]
    ],
    "r": [
@@ -13023,7 +13030,24 @@
     "Die Abbildung zeigt eine Jaeger-LeCoultre Reverso Tribute mit kleiner Sekunde in einem rechteckigen Wendegehäuse aus hellem Metall. Das Zifferblatt ist silbrig-weiß, das Band aus schwarzem Leder mit Krokodilprägung.",
     "Typisch sind die waagerechten Zierrillen oben und unten am Gehäuse, die den Art-déco-Stil der Reverso prägen. Zu erkennen sind aufgesetzte Stabindizes, ein Doppelindex bei 12 Uhr, gebläute Zeiger für Stunden und Minuten und das kleine Sekundenzifferblatt bei 6 Uhr. Unter der 12 steht der Schriftzug »Jaeger-LeCoultre«, ein Datum gibt es nicht."
    ],
-   "dial": "Silber"
+   "dial": "Silber",
+   "var": [
+    {
+     "n": "Reverso Classic Large Small Seconds, halb gewendet",
+     "y": "seit 2017",
+     "v": {
+      "img": "assets/watches/jaeger-lecoultre-reverso-turned.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Jaeger-LeCoultre Reverso Classic Large Small Seconds aus Edelstahl mitten beim Wenden. Das Gehäuse ist im Rahmen seitlich herausgeschoben, sodass man die Schiene sieht, auf der es gleitet und sich anschließend umdrehen lässt. Abgebildet ist die Referenz Q3858520.",
+      "Zu erkennen sind das silberfarbene Zifferblatt mit schwarzen arabischen Ziffern, gebläute Zeiger für Stunden und Minuten und die kleine Sekunde bei 6 Uhr. Oben und unten trägt das Gehäuse die drei waagerechten Zierrillen im Art-déco-Stil, links liegt der leere Rahmen frei, rechts sitzt die Krone. Das Band ist aus braunem Leder."
+     ],
+     "at": "1931: Ein Gehäuse zum Wenden",
+     "dial": "Silber",
+     "iref": "Q3858520",
+     "irefs": "hoch"
+    }
+   ]
   },
   {
    "id": "polaris",
@@ -15290,7 +15314,22 @@
    ],
    "dial": "Opal",
    "iref": "81180/000R-9159",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "var": [
+    {
+     "n": "Vacheron Constantin mit kleiner Sekunde im Stil der 1950er-Jahre",
+     "y": "",
+     "v": {
+      "img": "assets/watches/vacheron-constantin-vintage-small-seconds.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine runde Vacheron Constantin aus Edelstahl im Stil der Uhren, die die Manufaktur in den 1950er-Jahren baute und die später die Patrimony prägten. Das Zifferblatt ist cremefarben, das Band aus braunem Leder mit heller Naht. Eine bestimmte Referenz lässt sich der Darstellung nicht zuordnen.",
+      "Zu erkennen sind schmale, goldfarbene Stabindizes, schlanke Zeiger und die kleine Sekunde bei 6 Uhr. Unter 12 Uhr stehen das Malteserkreuz und »VACHERON CONSTANTIN GENEVE«. Die schmale Lünette lässt das Zifferblatt groß wirken, die Krone sitzt bei 3 Uhr."
+     ],
+     "at": "Vorbild aus den 1950er-Jahren",
+     "dial": "Creme"
+    }
+   ]
   },
   {
    "id": "glashuette-pano",
@@ -15759,7 +15798,22 @@
    ],
    "dial": "Silber",
    "iref": "L2.793.4.78.3",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "var": [
+    {
+     "n": "Master Collection mit Vollkalender und Mondphase",
+     "y": "",
+     "v": {
+      "img": "assets/watches/longines-master-collection-moonphase.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Longines Master Collection aus Edelstahl mit Vollkalender und Mondphase, mit silberfarbenem Zifferblatt im Gerstenkornmuster und braunem Lederband mit heller Steppnaht.",
+      "Zu erkennen sind die Fenster für Wochentag und Monat unter dem Schriftzug »LONGINES«, der gebläute Zeiger mit Halbmondspitze, der das Datum auf der Skala am Rand anzeigt, und die Mondphase in einem Hilfszifferblatt bei 6 Uhr. Dazu kommen große schwarze arabische Ziffern, gebläute Blattzeiger und ein schlanker blauer Sekundenzeiger; über der 12 steht die rote 31 der Datumsskala."
+     ],
+     "at": "Mondphase, Vollkalender und Chronograph",
+     "dial": "Silber"
+    }
+   ]
   },
   {
    "id": "fifty-fathoms",
@@ -31408,7 +31462,10 @@
   "zenith-chronomaster.jpg": "g",
   "zenith-defy.jpg": "g",
   "zenith-pilot-type-20.jpg": "g",
-  "zodiac-sea-wolf.jpg": "g"
+  "zodiac-sea-wolf.jpg": "g",
+  "jaeger-lecoultre-reverso-turned.jpg": "n",
+  "vacheron-constantin-vintage-small-seconds.jpg": "n",
+  "longines-master-collection-moonphase.jpg": "n"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -31675,6 +31732,9 @@
   "zenith-defy.jpg": 341,
   "zenith-elite.jpg": 374,
   "zenith-pilot-type-20.jpg": 756,
-  "zodiac-sea-wolf.jpg": 502
+  "zodiac-sea-wolf.jpg": 502,
+  "jaeger-lecoultre-reverso-turned.jpg": 543,
+  "vacheron-constantin-vintage-small-seconds.jpg": 543,
+  "longines-master-collection-moonphase.jpg": 543
  }
 }

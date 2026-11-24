@@ -5960,6 +5960,40 @@
    "funktionen": "springende digitale Stunden und Minuten, kleine Sekunde, Gangreserveanzeige; Konstantkraft-Hemmung",
    "band": "Alligatorleder",
    "zifferblatt_optionen": "Schwarz"
+  },
+  "reverso|0": {
+   "ref": "Q3858520",
+   "durchmesser": "45,6 × 27,4 mm",
+   "hoehe": "8,5 mm",
+   "gehaeuse": "Edelstahl, wendbar",
+   "glas": "Saphir",
+   "boden": "geschlossen (Rückseite des Wendegehäuses)",
+   "werk": "Kaliber 822/2",
+   "werktyp": "Handaufzug",
+   "manufaktur": "Manufakturwerk",
+   "frequenz": "21.600 A/h (3 Hz)",
+   "gangreserve": "42 Stunden",
+   "steine": "19",
+   "funktionen": "Stunden, Minuten, kleine Sekunde",
+   "wasserdicht": "30 m",
+   "band": "Alligatorleder",
+   "schliesse": "Dornschließe",
+   "produktion": "seit 2017",
+   "zifferblatt_optionen": "Silber mit arabischen Ziffern"
+  },
+  "patrimony|0": {
+   "gehaeuse": "Edelstahl",
+   "funktionen": "Stunden, Minuten, kleine Sekunde",
+   "band": "Leder",
+   "zifferblatt_optionen": "Creme"
+  },
+  "master-collection|0": {
+   "gehaeuse": "Edelstahl",
+   "glas": "Saphir, entspiegelt",
+   "werktyp": "Automatik",
+   "funktionen": "Stunden, Minuten, Sekunden, Wochentag, Monat, Datum (Zeiger), Mondphase",
+   "band": "Leder",
+   "zifferblatt_optionen": "Silber mit Gerstenkornmuster"
   }
  },
  "_refs": {
@@ -14109,6 +14143,24 @@
    "krone": "mit Cabochon",
    "band": "geschmeidiges Gliederband",
    "funktionen": "Stunden, Minuten"
+  },
+  "reverso|Q3858520": {
+   "ref": "Q3858520",
+   "produktion": "seit 2017",
+   "durchmesser": "45,6 × 27,4 mm",
+   "hoehe": "8,5 mm",
+   "gehaeuse": "Edelstahl, wendbar",
+   "glas": "Saphir",
+   "boden": "geschlossen (Rückseite des Wendegehäuses)",
+   "wasserdicht": "30 m",
+   "werk": "Kaliber 822/2",
+   "werktyp": "Handaufzug",
+   "manufaktur": "Manufakturwerk",
+   "frequenz": "21.600 A/h (3 Hz)",
+   "gangreserve": "42 Stunden",
+   "steine": "19",
+   "funktionen": "Stunden, Minuten, kleine Sekunde",
+   "band": "Alligatorleder"
   }
  }
 }
