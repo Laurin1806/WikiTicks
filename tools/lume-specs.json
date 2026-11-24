@@ -1115,7 +1115,8 @@
   "idxfix": [
    60,
    210
-  ]
+  ],
+  "vint": true
  },
  "assets/watches/rolex-gmt-master-2-126710-batman.jpg": {
   "c": [
@@ -1177,7 +1178,8 @@
   "R": 236.50000000000003,
   "inset": 0.27,
   "idxinset": 0.28,
-  "merc": false
+  "merc": false,
+  "vint": true
  },
  "assets/watches/rolex-gmt-master-1675-pepsi.jpg": {
   "c": [
@@ -1209,7 +1211,8 @@
   "idxinset": 0.28,
   "idxfix": [
    60
-  ]
+  ],
+  "vint": true
  },
  "assets/watches/rolex-sea-dweller-1665-double-red.jpg": {
   "c": [
@@ -1236,7 +1239,8 @@
    60,
    150,
    210
-  ]
+  ],
+  "vint": true
  },
  "assets/watches/rolex-daytona-116520.jpg": {
   "c": [
@@ -1532,7 +1536,8 @@
      ]
     ]
    }
-  ]
+  ],
+  "vint": true
  },
  "assets/watches/rolex-datejust-126233-steel-gold-champagne.jpg": {
   "c": [
@@ -2062,7 +2067,8 @@
     ],
     "off": 0
    }
-  ]
+  ],
+  "vint": true
  },
  "assets/watches/omega-speedmaster-professional-310-30-42-50-01-001.jpg": {
   "c": [
@@ -2134,7 +2140,8 @@
   "sec": false,
   "handerode": 5,
   "autofill": false,
-  "dotr": 0.62
+  "dotr": 0.62,
+  "vint": true
  },
  "assets/watches/omega-seamaster-diver-300m-210-30-42-20.jpg": {
   "c": [
@@ -2559,7 +2566,8 @@
   "handerode": 2,
   "autofill": false,
   "dotr": 0.62,
-  "capr": 8.64
+  "capr": 8.64,
+  "vint": true
  },
  "assets/watches/omega-constellation-globemaster.jpg": {
   "c": [

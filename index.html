@@ -233,6 +233,8 @@ canvas.wlume { mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 
 img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity 1.1s ease-in-out; will-change: opacity; }
 img.wlume-img { mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); animation: lumeglow 5s ease-in-out infinite; animation-play-state: paused; }
 :root.night img.wlume-img { opacity: 1; animation-play-state: running; }
+:root.night .wimg-wrap[data-lc="v"] img.wlume-img { opacity: .62; } /* Vintage (Tritium/Radium): gealterte Leuchtmasse etwas schwächer */
+.wimg-wrap[data-lc="v"] { --lc1: 120,235,165; --lc2: 70,220,135; --lc3: 50,190,115; }
 @media (prefers-reduced-motion: reduce) { img.wlume-img { animation: none !important; } }
 .wimg-wrap { --lc1: 130,255,180; --lc2: 80,255,150; --lc3: 60,230,130; }
 .wimg-wrap[data-lc="b"] { --lc1: 150,215,255; --lc2: 80,170,255; --lc3: 50,130,255; }
@@ -475,7 +477,7 @@ const CAT_INTRO = {
   "Persönlichkeiten": "Uhrmacher, Gründer, Manager und Designer, die die Uhrenwelt geprägt haben."
 };
 
-let LUMEMASK = new Map(); // Bilddatei -> Leuchtfarbe der fertigen Leuchtebene ("g" grün, "b" blau)
+let LUMEMASK = new Map(); // Bilddatei -> Leuchtfarbe der fertigen Leuchtebene ("g" grün, "b" blau, "v" Vintage-grün gedämpft)
 let E = [], byId = {}, MODELS = [], LEX = [], BRANDS = [], BRAND_INFO = {}, TERM_RE = null, TERMS = {};
 let q = "";
 
@@ -644,7 +646,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112470"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112471"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;

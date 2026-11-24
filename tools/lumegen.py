@@ -256,6 +256,8 @@ def gen(img, spec):
     ov=Image.new('RGBA',(w,h),col+(0,));ov.putalpha(mk)
     # auf max. 900 px Höhe verkleinern
     if h>900: ov=ov.resize((round(w*900/h),900),Image.LANCZOS)
+    # Kanten bei allen Masken gleich fest: weiche Kante straffen, damit Leuchtkraft/Glow nicht von der Bildgröße abhängt
+    al=np.asarray(ov.getchannel('A')).astype(np.float32);ov.putalpha(Image.fromarray(np.clip((al-40)*255/150,0,255).astype(np.uint8)))
     return ov,keep
 if __name__=='__main__':
     specs=json.load(open(sys.argv[1]))
@@ -265,5 +267,5 @@ if __name__=='__main__':
         ov.save((OUT if 'OUT' in globals() else ROOT+'assets/watches/lume/')+name,optimize=True)
         # Vorschau
         base=Image.open(ROOT+img).convert('RGB');pv=base.point(lambda v:int(v*.35)).convert('RGBA')
-        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save(f'/tmp/claude-0/-home-user-WikiTicks/0e28edec-f94f-555b-a2c4-826ff2b6d4c0/scratchpad/lm/pv_{name}')
+        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save('/tmp/pv_'+name)
         print(name,int(keep.sum()))
