@@ -4,7 +4,7 @@
    0.474,
    0.4685
   ],
-  "r": 0.205,
+  "r": 0.20909999999999998,
   "col": "b",
   "thr": 120,
   "sat": 60,
@@ -118,7 +118,9 @@
    210
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-sea-dweller-126600.jpg": {
   "c": [
@@ -169,7 +171,9 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-deepsea-136660-d-blue.jpg": {
   "c": [
@@ -220,7 +224,9 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-gmt-master-2-126710-pepsi.jpg": {
   "c": [
@@ -260,7 +266,9 @@
    60
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-explorer-124270.jpg": {
   "c": [
@@ -311,7 +319,9 @@
    ]
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-yacht-master-126622-slate.jpg": {
   "c": [
@@ -352,7 +362,9 @@
    210
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-datejust-126234-blue.jpg": {
   "c": [
@@ -391,7 +403,9 @@
   "sec": false,
   "merc": false,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-turn-o-graph-116264-black.jpg": {
   "c": [
@@ -430,7 +444,9 @@
   "sec": false,
   "merc": false,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-sky-dweller-336934-blue.jpg": {
   "c": [
@@ -476,7 +492,9 @@
   },
   "merc": false,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-milgauss-116400gv-black.jpg": {
   "c": [
@@ -509,7 +527,9 @@
   "sec": false,
   "merc": false,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-air-king-126900-black.jpg": {
   "c": [
@@ -617,7 +637,9 @@
   "nounder": true,
   "idxinset": 0.28,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-explorer-ii-16570-polar.jpg": {
   "mode": "light",
@@ -679,7 +701,7 @@
    0.4846153846153846,
    0.494
   ],
-  "r": 0.05,
+  "r": 0.051000000000000004,
   "col": "b",
   "thr": 170,
   "sat": 50,
@@ -805,7 +827,9 @@
    494
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-oyster-perpetual-124300-turquoise.jpg": {
   "c": [
@@ -867,14 +891,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-day-date-228238-champagne.jpg": {
   "c": [
    0.47194388777555113,
    0.45703125
   ],
-  "r": 0.01,
+  "r": 0.0102,
   "col": "b",
   "thr": 255,
   "min": 1,
@@ -931,14 +957,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-land-dweller-127334-white.jpg": {
   "c": [
    0.47110675808031344,
    0.4615885416666667
   ],
-  "r": 0.01,
+  "r": 0.0102,
   "col": "b",
   "thr": 255,
   "min": 1,
@@ -1011,14 +1039,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-yacht-master-ii-116680.jpg": {
   "c": [
    0.4569842738205365,
    0.44921875
   ],
-  "r": 0.01,
+  "r": 0.0102,
   "col": "b",
   "thr": 255,
   "min": 1,
@@ -1085,14 +1115,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-submariner-116610lv-hulk.jpg": {
   "c": [
    0.47314814814814815,
    0.49291338582677163
   ],
-  "r": 0.20462962962962963,
+  "r": 0.22959444444444446,
   "col": "b",
   "thr": 120,
   "sat": 60,
@@ -1134,14 +1166,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-gmt-master-2-126710-batman.jpg": {
   "c": [
    0.4909090909090909,
    0.49381443298969074
   ],
-  "r": 0.1919191919191919,
+  "r": 0.21533333333333338,
   "col": "b",
   "thr": 120,
   "sat": 60,
@@ -1168,14 +1202,16 @@
    60
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-explorer-2-1655-freccione.jpg": {
   "c": [
    0.4411764705882353,
    0.45083487940630795
   ],
-  "r": 0.2107843137254902,
+  "r": 0.23650000000000004,
   "col": "g",
   "thr": 110,
   "sat": 170,
@@ -1201,14 +1237,16 @@
   "merc": false,
   "vint": true,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-gmt-master-1675-pepsi.jpg": {
   "c": [
    0.441699604743083,
    0.49690721649484537
   ],
-  "r": 0.18774703557312253,
+  "r": 0.2106521739130435,
   "col": "g",
   "thr": 110,
   "sat": 170,
@@ -1253,14 +1291,16 @@
     "sw": 3.1799999999999997
    }
   ],
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-sea-dweller-1665-double-red.jpg": {
   "c": [
    0.4872549019607843,
    0.41510791366906474
   ],
-  "r": 0.2107843137254902,
+  "r": 0.23650000000000004,
   "col": "g",
   "thr": 110,
   "sat": 170,
@@ -1309,14 +1349,16 @@
   ],
   "nologo": true,
   "merc": false,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-daytona-116520.jpg": {
   "c": [
    0.4870967741935484,
    0.492
   ],
-  "r": 0.22795698924731184,
+  "r": 0.2557677419354839,
   "col": "g",
   "thr": 120,
   "sat": 60,
@@ -1368,14 +1410,16 @@
    ]
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-explorer-214270.jpg": {
   "c": [
    0.4760845383759733,
    0.4673668417104276
   ],
-  "r": 0.3003337041156841,
+  "r": 0.33697441601779754,
   "col": "b",
   "thr": 120,
   "sat": 60,
@@ -1423,14 +1467,16 @@
   ],
   "idxbar": true,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-milgauss-116400gv-z-blue.jpg": {
   "c": [
    0.4686868686868687,
    0.4453125
   ],
-  "r": 0.2898989898989899,
+  "r": 0.32526666666666676,
   "col": "b",
   "thr": 160,
   "sat": 60,
@@ -1456,14 +1502,16 @@
   "sec": false,
   "merc": false,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-land-dweller-127234-blue.jpg": {
   "c": [
    0.4680232558139535,
    0.4615885416666667
   ],
-  "r": 0.01,
+  "r": 0.0102,
   "col": "b",
   "thr": 255,
   "min": 1,
@@ -1536,14 +1584,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-milgauss-1019-black.jpg": {
   "c": [
    0.4850498338870432,
    0.4422735346358792
   ],
-  "r": 0.31561461794019935,
+  "r": 0.4174883720930233,
   "col": "g",
   "thr": 110,
   "sat": 120,
@@ -1616,14 +1666,16 @@
   ],
   "vint": true,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-datejust-126233-steel-gold-champagne.jpg": {
   "c": [
    0.4707070707070707,
    0.4518229166666667
   ],
-  "r": 0.01,
+  "r": 0.0102,
   "col": "b",
   "thr": 255,
   "min": 1,
@@ -1697,14 +1749,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-day-date-platinum-ice-blue.jpg": {
   "c": [
    0.46971201588877853,
    0.4576822916666667
   ],
-  "r": 0.01,
+  "r": 0.010199999999999999,
   "col": "b",
   "thr": 255,
   "min": 1,
@@ -1761,14 +1815,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-oyster-perpetual-124300-coral-red.jpg": {
   "c": [
    0.5078125,
    0.4519607843137255
   ],
-  "r": 0.01,
+  "r": 0.0102,
   "col": "b",
   "thr": 255,
   "min": 1,
@@ -1861,14 +1917,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-oyster-perpetual-124300-yellow.jpg": {
   "c": [
    0.4677734375,
    0.4519607843137255
   ],
-  "r": 0.01,
+  "r": 0.0102,
   "col": "b",
   "thr": 255,
   "min": 1,
@@ -1961,7 +2019,9 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-explorer-ii-226570-polar.jpg": {
   "mode": "light",
@@ -2079,7 +2139,7 @@
    0.49042553191489363,
    0.496
   ],
-  "r": 0.01,
+  "r": 0.0102,
   "col": "g",
   "thr": 255,
   "min": 1,
@@ -2159,14 +2219,16 @@
   ],
   "vint": true,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-speedmaster-professional-310-30-42-50-01-001.jpg": {
   "c": [
    0.4799618320610687,
    0.5234375
   ],
-  "r": 0.27097557251908394,
+  "r": 0.3202138167938931,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2207,14 +2269,16 @@
   "dotr": 0.62,
   "capr": 34.077887999999994,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-speedmaster-ck2915-broad-arrow.jpg": {
   "c": [
    0.43313373253493015,
    0.490234375
   ],
-  "r": 0.30798021556886224,
+  "r": 0.3192477844311377,
   "col": "g",
   "thr": 80,
   "sat": 175,
@@ -2236,14 +2300,16 @@
   "dotr": 0.62,
   "vint": true,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-seamaster-diver-300m-210-30-42-20.jpg": {
   "c": [
    0.4737827715355805,
    0.4622395833333333
   ],
-  "r": 0.271152808988764,
+  "r": 0.32042325842696623,
   "col": "b",
   "thr": 120,
   "sat": 115,
@@ -2278,14 +2344,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-seamaster-planet-ocean-215-30-44-21.jpg": {
   "c": [
    0.4778681120144535,
    0.4602864583333333
   ],
-  "r": 0.27226666666666666,
+  "r": 0.3217395121951219,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2306,14 +2374,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-seamaster-aqua-terra-220-10-41-21.jpg": {
   "c": [
    0.4686595949855352,
    0.4596191726854892
   ],
-  "r": 0.27043394406943105,
+  "r": 0.31957377049180324,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2334,14 +2404,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-railmaster-220-10-40-20.jpg": {
   "c": [
    0.4670599803343166,
    0.4609323703217334
   ],
-  "r": 0.27052743362831855,
+  "r": 0.3196842477876106,
   "col": "g",
   "thr": 80,
   "sat": 175,
@@ -2362,14 +2434,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-black-bay.jpg": {
   "c": [
    0.45989304812834225,
    0.448207171314741
   ],
-  "r": 0.26441711229946524,
+  "r": 0.31246363636363633,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2401,14 +2475,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-black-bay-blue.jpg": {
   "c": [
    0.5956175298804781,
    0.4701195219123506
   ],
-  "r": 0.21934183266932272,
+  "r": 0.25919784860557765,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2432,14 +2508,16 @@
    60
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-pelagos.jpg": {
   "c": [
    0.4268440145102781,
    0.4453125
   ],
-  "r": 0.27164111245465533,
+  "r": 0.3210002902055622,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2471,14 +2549,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-pelagos-blue.jpg": {
   "c": [
    0.5274151436031331,
    0.46441947565543074
   ],
-  "r": 0.2713065274151436,
+  "r": 0.320604908616188,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2499,14 +2579,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-seamaster-300-234-30-41-21.jpg": {
   "c": [
    0.47104247104247104,
    0.4556795797767564
   ],
-  "r": 0.2704100386100386,
+  "r": 0.3195455212355212,
   "col": "g",
   "thr": 80,
   "sat": 175,
@@ -2538,14 +2620,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-black-bay-58.jpg": {
   "c": [
    0.4681647940074906,
    0.4600694444444444
   ],
-  "r": 0.2705078651685393,
+  "r": 0.31966112359550564,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2580,14 +2664,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-ranger.jpg": {
   "c": [
    0.4625668449197861,
    0.49203187250996017
   ],
-  "r": 0.31076684491978607,
+  "r": 0.3479072727272727,
   "col": "g",
   "thr": 80,
   "sat": 175,
@@ -2608,14 +2694,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-black-bay-gmt.jpg": {
   "c": [
    0.4090909090909091,
    0.49800796812749004
   ],
-  "r": 0.2873069518716577,
+  "r": 0.33951272727272724,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2650,14 +2738,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-black-bay-54-m79000n.jpg": {
   "c": [
    0.4668141592920354,
    0.45625841184387617
   ],
-  "r": 0.267116814159292,
+  "r": 0.3156538938053097,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2681,14 +2771,16 @@
    60
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-seamaster-ploprof-1200m.jpg": {
   "c": [
    0.5427807486631016,
    0.46449136276391556
   ],
-  "r": 0.22994652406417113,
+  "r": 0.258,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2709,14 +2801,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-flightmaster-vintage.jpg": {
   "c": [
    0.49865951742627346,
    0.46551724137931033
   ],
-  "r": 0.19302949061662197,
+  "r": 0.2165790884718499,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2758,14 +2852,16 @@
   "capr": 8.64,
   "vint": true,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-constellation-globemaster.jpg": {
   "c": [
    0.46176470588235297,
    0.4942528735632184
   ],
-  "r": 0.2700211764705882,
+  "r": 0.319086,
   "col": "g",
   "thr": 150,
   "sat": 115,
@@ -2788,14 +2884,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-speedmaster-dark-side-of-the-moon.jpg": {
   "c": [
    0.47,
    0.4657718120805369
   ],
-  "r": 0.26981279999999996,
+  "r": 0.31883975999999997,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2830,14 +2928,16 @@
   "dotr": 0.62,
   "capr": 16.188768,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/omega-speedmaster-57-black.jpg": {
   "c": [
    0.4672364672364672,
    0.46923076923076923
   ],
-  "r": 0.3190883190883191,
+  "r": 0.3429059829059829,
   "col": "g",
   "thr": 80,
   "sat": 175,
@@ -2872,14 +2972,16 @@
   "dotr": 0.62,
   "capr": 13.44,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-heritage-chrono.jpg": {
   "c": [
    0.4919786096256685,
    0.49800796812749004
   ],
-  "r": 0.26599572192513365,
+  "r": 0.3143290909090909,
   "col": "g",
   "thr": 150,
   "sat": 115,
@@ -2902,14 +3004,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/tudor-black-bay-chrono.jpg": {
   "c": [
    0.4679144385026738,
    0.4701195219123506
   ],
-  "r": 0.26915294117647054,
+  "r": 0.31805999999999995,
   "col": "g",
   "thr": 120,
   "sat": 115,
@@ -2943,14 +3047,16 @@
   "autofill": false,
   "dotr": 0.62,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-datejust-1601-black.jpg": {
   "c": [
    0.472082717872969,
    0.4580078125
   ],
-  "r": 0.29542097488921715,
+  "r": 0.30132939438700146,
   "col": "g",
   "thr": 120,
   "sat": 175,
@@ -2983,14 +3089,16 @@
   "merc": false,
   "vint": true,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-submariner-1680-red.jpg": {
   "c": [
    0.4639175257731959,
    0.44921875
   ],
-  "r": 0.2650957290132548,
+  "r": 0.2884241531664212,
   "col": "g",
   "thr": 115,
   "sat": 175,
@@ -3118,14 +3226,16 @@
   ],
   "shapesafter": true,
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-submariner-116619lb-smurf.jpg": {
   "c": [
    0.46317934782608694,
    0.43779296875
   ],
-  "r": 0.2418478260869565,
+  "r": 0.2647010869565217,
   "col": "b",
   "thr": 170,
   "sat": 70,
@@ -3191,14 +3301,16 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/rolex-submariner-5513.jpg": {
   "c": [
    0.5181347150259067,
    0.4732283464566929
   ],
-  "r": 0.19084628670120898,
+  "r": 0.21412953367875648,
   "col": "g",
   "thr": 120,
   "sat": 170,
@@ -3231,7 +3343,9 @@
    }
   ],
   "nologo": true,
-  "nowin": true
+  "nowin": true,
+  "idxlen": 0.04,
+  "noarc": true
  },
  "assets/watches/patek-philippe-nautilus-5811-blue.jpg": {
   "c": [

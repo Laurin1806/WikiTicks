@@ -691,7 +691,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112509"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112510"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1732,7 +1732,7 @@ function nightPrep(img) {
     if (spotS) { let y0 = h, y1 = 0, x0 = w, x1 = 0; for (let i = 0; i < N; i++) if (!bg[i] && !shd[i]) { const px = i % w, py = (i / w) | 0; if (py < y0) y0 = py; if (py > y1) y1 = py; if (px < x0) x0 = px; if (px > x1) x1 = px; }
       const cxs = (x0 + x1) / 2, hh = Math.max(1, y1 - y0), ww = Math.max(1, x1 - x0);
       for (let i = 0; i < N; i++) { if (bg[i] || shd[i]) continue; const px = i % w, py = (i / w) | 0, ty = (py - y0) / hh, dx = (px - cxs) / (ww * (spotS === 1 ? .36 : .42 + ty * .35));
-        const f = 1 + spotS * ((sb + spk * (spotS === 1 ? Math.exp(-dx * dx * 1.6 - Math.pow((ty - .44) / .3, 2)) * 1.15 : Math.exp(-dx * dx * sdx) * Math.exp(-Math.pow(Math.max(0, ty - .18) / sdy, 2)))) / NDIM - 1); // ohne Leuchtmasse: punktueller Lichtfleck auf dem Zifferblatt // relativ zur Grundabdunklung
+        const f = 1 + spotS * ((sb + spk * (spotS === 1 ? Math.exp(-dx * dx * 1.6 - Math.pow((ty - .34) / .3, 2)) * 1.15 : Math.exp(-dx * dx * sdx) * Math.exp(-Math.pow(Math.max(0, ty - .18) / sdy, 2)))) / NDIM - 1); // ohne Leuchtmasse: punktueller Lichtfleck auf dem Zifferblatt // relativ zur Grundabdunklung
         mulA[i] = f; o[i * 4] = Math.min(255, o[i * 4] * f * (1 + .02 * spotS)); o[i * 4 + 1] = Math.min(255, o[i * 4 + 1] * f); o[i * 4 + 2] = Math.min(255, o[i * 4 + 2] * f * (1 - .1 * spotS)); } }
     cx.putImageData(od, 0, 0);
     // Leuchtmasse nach den Angaben im Modell (data-lz: I Indizes, H Zeiger, P Lünettenpunkt, B Lünettenmarkierungen, S Hilfszifferblätter, L LCD).
