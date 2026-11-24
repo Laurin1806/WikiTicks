@@ -262,6 +262,9 @@ a.xl:hover { text-decoration-color: var(--accent); }
 
 /* Illustrationen */
 .watch { display: block; width: 100%; height: 100%; }
+.navgroup h2 a { color: inherit; text-decoration: none; display: block; margin: 0 -10px; padding: 3px 10px; border-radius: 6px; }
+.navgroup h2 a:hover { background: var(--accent-soft); color: var(--fg); }
+.navgroup h2 a[aria-current="true"] { background: var(--accent); color: #fff; }
 /* Favoriten */
 .favbtn { display: inline-flex; align-items: center; gap: 5px; margin-left: 12px; vertical-align: middle; font: inherit; font-size: 12px; letter-spacing: 0; text-transform: none; font-weight: 500; color: var(--muted); background: none; border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px 3px 7px; cursor: pointer; }
 .favbtn svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
@@ -683,15 +686,13 @@ function renderNav(h) {
   const link = (href, text, cls = "") => `<li><a href="#${href}" class="${cls}" aria-current="${key === (href || "home")}">${esc(text)}</a></li>`;
   $("#nav").innerHTML = `
     <ul>${link("", "Startseite", "home")}</ul>
-    <div class="navgroup favgroup"><h2>Favoriten</h2><ul>
+    <div class="navgroup favgroup"><h2><a href="#favoriten" aria-current="${h === "favoriten"}">Favoriten</a></h2><ul>
       ${FAV.filter(favLabel).length ? FAV.filter(favLabel).map(id => `<li><a href="#${id}" class="sub" aria-current="${h === id}">${esc(favLabel(id))}</a></li>`).join("") : `<li class="favhint">Mit ☆ bei einem Beitrag merken</li>`}
     </ul></div>
-    <div class="navgroup"><h2>Uhrenmodelle</h2><ul>
-      ${link("uhrenmodelle", "Alle Marken")}
+    <div class="navgroup"><h2><a href="#uhrenmodelle" aria-current="${key === "uhrenmodelle"}">Alle Marken</a></h2><ul>
       ${navBrands(key).map(b => link("marke-" + slug(b), b, "sub")).join("")}
     </ul></div>
-    <div class="navgroup"><h2>Lexikon</h2><ul>
-      ${link("a-z", "Alle Begriffe A–Z")}
+    <div class="navgroup"><h2><a href="#a-z" aria-current="${key === "a-z"}">Lexikon</a></h2><ul>
       ${CAT_ORDER.filter(c => LEX.some(e => e.c === c)).map(c => link("rubrik-" + slug(c), c, "sub")).join("")}
     </ul></div>`;
   const cur = $("#nav a[aria-current='true']");
@@ -1508,8 +1509,8 @@ function viewHome() {
       <h2 class="section-title" id="bh">Stöbern</h2>
       <p class="count">${plural(MODELS.length, "Modell", "Modelle")} von ${plural(BRANDS.length, "Marke", "Marken")} · ${plural(LEX.length, "Lexikonbegriff", "Lexikonbegriffe")}</p>
       <div class="browse">
-        <a href="#uhrenmodelle"><b>Uhrenmodelle</b><span>Uhr des Tages und alle Marken von ${esc(BRANDS[0] || "")} bis ${esc(BRANDS[BRANDS.length - 1] || "")}</span></a>
-        <a href="#a-z"><b>Lexikon A–Z</b><span>Alle Begriffe alphabetisch, von der Ankerhemmung bis zur Zaratsu-Politur</span></a>
+        <a href="#uhrenmodelle"><b>Alle Marken</b><span>Uhr des Tages und alle Marken von ${esc(BRANDS[0] || "")} bis ${esc(BRANDS[BRANDS.length - 1] || "")}</span></a>
+        <a href="#a-z"><b>Lexikon</b><span>Alle Begriffe alphabetisch, von der Ankerhemmung bis zur Zaratsu-Politur</span></a>
         <a href="#rubrik-persoenlichkeiten"><b>Persönlichkeiten</b><span>Breguet, Wilsdorf, Genta, Daniels und andere</span></a>
       </div>
     </section>`;
@@ -1522,9 +1523,10 @@ const ICON_LIST = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="
 const vtoggle = () => `<div class="vtoggle" role="group" aria-label="Ansicht"><button type="button" data-v="cards" aria-pressed="${!listMode}" aria-label="Kartenansicht" title="Kartenansicht">${ICON_CARDS}</button><button type="button" data-v="list" aria-pressed="${listMode}" aria-label="Listenansicht" title="Listenansicht">${ICON_LIST}</button></div>`;
 
 function viewModels() {
-  return crumbs([["Startseite", ""], ["Uhrenmodelle"]]) +
+  return crumbs([["Startseite", ""], ["Alle Marken"]]) +
     `
-    <div class="vhead"><div><h2 class="section-title">Marken</h2>
+    <h2 class="page-title">Alle Marken</h2>
+    <div class="vhead"><div>
     <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(MODELS.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
     ${listMode ? brandList() : `<div class="grid">${BRANDS.map(b => {
       const ms = MODELS.filter(e => e.brand === b), info = BRAND_INFO[b];
@@ -1552,7 +1554,7 @@ const BRAND_LOGOS = new Set(["rolex", "audemars-piguet", "patek-philippe", "omeg
 function viewBrand(b) {
   const ms = MODELS.filter(e => e.brand === b).sort((x, y) => x.t.localeCompare(y.t, "de"));
   const info = BRAND_INFO[b], used = new Set();
-  return crumbs([["Uhrenmodelle", "uhrenmodelle"], [b]]) + `
+  return crumbs([["Alle Marken", "uhrenmodelle"], [b]]) + `
     ${info ? `<div class="brandinfo">
       <div>${BRAND_LOGOS.has(slug(b)) ? `<div class="brandlogo m"><img src="assets/logos/${slug(b)}.png?v=${IMGV}" alt=""></div>` : ""}<h2 class="page-title${BRAND_LOGOS.has(slug(b)) ? " haslogo" : ""}">${esc(b)}</h2>
     <div class="brandbtns"><button type="button" class="tomodels" data-to="brand-models">Zu den Modellen <span aria-hidden="true">↓</span></button>${favBtn("marke-" + slug(b))}</div>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
@@ -1584,13 +1586,21 @@ function viewCategory(c) {
     <div class="grid">${list.map(e => card(e, c)).join("")}</div>`;
 }
 
+function viewFav() {
+  const ids = FAV.filter(favLabel);
+  return crumbs([["Startseite", ""], ["Favoriten"]]) + `
+    <h2 class="page-title">Favoriten</h2>
+    <p class="count">${plural(ids.length, "gemerkter Beitrag", "gemerkte Beiträge")}</p>
+    ${ids.length ? `<div class="grid">${ids.map(id => id.startsWith("marke-") ? (b => `<a class="card" href="#${id}"><span class="cat">Marke</span><h3>${esc(b)}</h3><p>${plural(MODELS.filter(e => e.brand === b).length, "Modell", "Modelle")}</p></a>`)(favLabel(id)) : card(byId[id])).join("")}</div>`
+      : `<p class="empty">Noch keine Favoriten. Tippe bei einem Beitrag oder einer Marke auf ☆ »Merken«, dann erscheint er hier und in der linken Leiste.</p>`}`;
+}
 function viewAZ() {
   const list = LEX.slice().sort((a, b) => a.t.localeCompare(b.t, "de"));
   const groups = {};
   list.forEach(e => { const l = e.t[0].toUpperCase().normalize("NFD")[0]; (groups[l] = groups[l] || []).push(e); });
   const letters = Object.keys(groups).sort((a, b) => a.localeCompare(b, "de"));
-  return crumbs([["Startseite", ""], ["Lexikon A–Z"]]) + `
-    <h2 class="page-title">Lexikon A–Z</h2>
+  return crumbs([["Startseite", ""], ["Lexikon"]]) + `
+    <h2 class="page-title">Lexikon</h2>
     <p class="intro">Alle ${list.length} Begriffe des Lexikons alphabetisch. Die Uhrenmodelle findest du unter den Marken.</p>
     <div class="letters">${letters.map(l => `<button type="button" data-l="${l}">${l}</button>`).join("")}</div>
     ${letters.map(l => `
@@ -1656,7 +1666,7 @@ function priceChart(pr, refs) {
 function viewEntry(e) {
   const used = new Set();
   const trail = e.brand
-    ? [["Uhrenmodelle", "uhrenmodelle"], [e.brand, "marke-" + slug(e.brand)], [shortName(e)]]
+    ? [["Alle Marken", "uhrenmodelle"], [e.brand, "marke-" + slug(e.brand)], [shortName(e)]]
     : [["Lexikon", "a-z"], [e.c, "rubrik-" + slug(e.c)], [e.t]];
   const facts = e.cur
     ? `<div class="curbox">
@@ -1741,7 +1751,7 @@ function viewSearch(term) {
   return `
     <h2 class="page-title">Suche</h2>
     <p class="count">${plural(n, "Treffer", "Treffer")} für »${esc(term)}«</p>
-    ${n ? "" : `<p class="empty">Nichts gefunden. Versuche einen anderen Begriff oder stöbere im <a href="#a-z">Lexikon A–Z</a>.</p>`}
+    ${n ? "" : `<p class="empty">Nichts gefunden. Versuche einen anderen Begriff oder stöbere im <a href="#a-z">Lexikon</a>.</p>`}
     ${brands.length ? `<div class="label">Marken</div><div class="grid">${brands.map(b => `<a class="card" href="#marke-${slug(b)}"><span class="cat">Marke</span><h3>${esc(b)}</h3><p>${plural(MODELS.filter(e => e.brand === b).length, "Modell", "Modelle")}</p></a>`).join("")}</div>` : ""}
     ${mod.length ? `<div class="label">Uhrenmodelle</div><div class="grid">${mod.map(e => card(e)).join("")}</div>` : ""}
     ${lex.length ? `<div class="label">Lexikon</div><div class="grid">${lex.map(e => card(e)).join("")}</div>` : ""}`;
@@ -2091,6 +2101,7 @@ function route() {
   if (q.trim()) html = viewSearch(q.trim());
   else if (h === "uhrenmodelle") html = viewModels();
   else if (h === "a-z") html = viewAZ();
+  else if (h === "favoriten") html = viewFav();
   else if (brand) html = viewBrand(brand);
   else if (cat) html = viewCategory(cat);
   else if (byId[h]) html = viewEntry(byId[h]);
