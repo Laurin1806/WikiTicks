@@ -1495,7 +1495,7 @@ function viewBrand(b) {
     ${info ? `<div class="brandinfo">
       <div><h2 class="page-title">${esc(b)}</h2>
     <button type="button" class="tomodels" data-to="brand-models">Zu den Modellen <span aria-hidden="true">↓</span></button>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
-      <div class="brandside">${BRAND_LOGOS.has(slug(b)) ? `<div class="brandlogo"><img src="assets/logos/${slug(b)}.png?v=${IMGV}" alt="Logo ${esc(b)}"></div>` : ""}${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ...(info.fakten || []), ["Modelle bei WikiTicks", String(ms.length)]])}</div>
+      <div class="brandside">${BRAND_LOGOS.has(slug(b)) ? `<div class="brandlogo"><img src="assets/logos/${slug(b)}.png?v=${IMGV}" alt="Logo ${esc(b)}"></div>` : ""}${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ...(info.fakten || [])])}</div>
     </div>
     ${(info.abschnitte || info.zeit) ? `<article class="brandart">
       ${(info.abschnitte || []).map(([h, ps]) => `<h3 class="art-h">${esc(h)}</h3>${ps.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}`).join("")}
