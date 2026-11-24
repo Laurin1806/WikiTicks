@@ -3248,6 +3248,21 @@
      "dial": "Tiefblau",
      "iref": "116619LB",
      "irefs": "hoch"
+    },
+    {
+     "n": "Ref. 5513",
+     "y": "1962–1989",
+     "v": {
+      "img": "assets/watches/rolex-submariner-5513.jpg"
+     },
+     "at": "Big Crown, 5512 und 5513",
+     "dial": "Schwarz",
+     "iref": "5513",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex Submariner Referenz 5513 aus Edelstahl, die Variante ohne Datum und ohne Chronometerzertifikat, die von 1962 bis 1989 gebaut wurde. Das schwarze Zifferblatt hat matte Oberfläche, die Leuchtmasse ist zu einem Cremeton gealtert.",
+      "Zu erkennen sind runde Leuchtindizes, Balken bei 3, 6 und 9 Uhr und das Dreieck bei 12 Uhr, dazu der Mercedes-Stundenzeiger und ein Sekundenzeiger mit Leuchtpunkt. Unter der Mitte stehen »SUBMARINER« und »660ft = 200m«; die schwarze Lünette trägt eine 60-Minuten-Skala mit Leuchtpunkt im Dreieck. Rechts sitzt die verschraubte Krone zwischen dem Kronenschutz, das Band ist ein Oyster-Band."
+     ]
     }
    ],
    "m": [
@@ -4308,6 +4323,21 @@
      "dial": "Schwarz",
      "iref": "116264",
      "irefs": "hoch"
+    },
+    {
+     "n": "Ref. 1601, cremefarbenes Zifferblatt mit Patina",
+     "y": "1959–1977",
+     "v": {
+      "img": "assets/watches/rolex-datejust-1601-cream.jpg"
+     },
+     "at": "Ref. 1601, 16014 und Kaliber 3135",
+     "dial": "Creme",
+     "iref": "1601",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex Datejust Referenz 1601 aus Edelstahl mit geriffelter Weißgoldlünette und Jubilé-Band. Das ursprünglich helle Zifferblatt hat mit den Jahren einen cremefarbenen Ton angenommen, wie er bei vielen Uhren dieser Zeit vorkommt.",
+      "Zu erkennen sind schlanke aufgesetzte Stabindizes, Stabzeiger und das Datum bei 3 Uhr unter der Zykloplupe. Unter der Krone stehen »ROLEX OYSTER PERPETUAL DATEJUST«, über der 6 »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«."
+     ]
     }
    ],
    "m": [
@@ -5413,6 +5443,21 @@
      "dial": "Blau",
      "iref": "5740/1G-001",
      "irefs": "hoch"
+    },
+    {
+     "n": "Ref. 3700/1A »Jumbo«",
+     "y": "1976–1990",
+     "v": {
+      "img": "assets/watches/patek-philippe-nautilus-3700-1a.jpg"
+     },
+     "at": "Ref. 3700/1A »Jumbo« aus Stahl",
+     "dial": "Blau-schwarz",
+     "iref": "3700/1A",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt die erste Patek Philippe Nautilus, Referenz 3700/1A aus Edelstahl, die Sammler wegen ihrer 42 Millimeter »Jumbo« nennen. Gebaut wurde sie von 1976 bis 1990.",
+      "Zu erkennen sind das waagerecht gerillte, dunkelblaue Zifferblatt, die aufgesetzten Stabindizes mit Leuchtmasse, der Doppelindex bei 12 Uhr und das Datum bei 3 Uhr. Einen Sekundenzeiger hat die 3700 nicht, es gibt nur Stunden- und Minutenzeiger. Die achteckige Lünette mit den seitlichen »Ohren« und das integrierte Gliederband prägen das Bild."
+     ]
     }
    ],
    "m": [
@@ -31205,7 +31250,22 @@
    ],
    "dial": "Silber",
    "iref": "T019.430.16.031.01",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "var": [
+    {
+     "n": "Visodate der 1950er-Jahre",
+     "y": "1953–1970er",
+     "v": {
+      "img": "assets/watches/tissot-visodate-1953.jpg"
+     },
+     "at": "1953: Datumsanzeige und Heritage-Neuauflage",
+     "dial": "Creme",
+     "bd": [
+      "Die Abbildung zeigt eine Tissot Visodate im Stil der ersten Generation aus den 1950er-Jahren, mit rundem Edelstahlgehäuse, cremefarbenem Zifferblatt und braunem Lederband. Eine bestimmte Referenz lässt sich der Darstellung nicht zuordnen.",
+      "Zu erkennen sind der Schriftzug »Tissot« mit »VISODATE« darunter, aufgesetzte goldfarbene Pfeil- und Stabindizes, die Ziffern 12 und 6, Dauphine-Zeiger und das Datumsfenster bei 3 Uhr. Unten steht »AUTOMATIC«."
+     ]
+    }
+   ]
   },
   {
    "id": "casio-ca53w",
@@ -31493,7 +31553,10 @@
   "zodiac-sea-wolf.jpg": "g",
   "jaeger-lecoultre-reverso-turned.jpg": "n",
   "vacheron-constantin-vintage-small-seconds.jpg": "n",
-  "longines-master-collection-moonphase.jpg": "n"
+  "longines-master-collection-moonphase.jpg": "n",
+  "patek-philippe-nautilus-3700-1a.jpg": "v",
+  "rolex-datejust-1601-cream.jpg": "n",
+  "tissot-visodate-1953.jpg": "n"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -31763,6 +31826,10 @@
   "zodiac-sea-wolf.jpg": 502,
   "jaeger-lecoultre-reverso-turned.jpg": 543,
   "vacheron-constantin-vintage-small-seconds.jpg": 543,
-  "longines-master-collection-moonphase.jpg": 1139
+  "longines-master-collection-moonphase.jpg": 1139,
+  "rolex-submariner-5513.jpg": 543,
+  "patek-philippe-nautilus-3700-1a.jpg": 543,
+  "rolex-datejust-1601-cream.jpg": 543,
+  "tissot-visodate-1953.jpg": 543
  }
 }
