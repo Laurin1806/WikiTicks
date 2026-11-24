@@ -178,6 +178,8 @@ article .topfig { float: right; width: 320px; margin: 4px 0 20px 36px; }
 article .topfig.watchfig .watch { height: 280px; }
 article .topfig .watchfig { margin: 0; }
 article .lexfig.topfig { width: 380px; }
+article .lexfig.dgfig { max-width: 760px; margin: 14px 0 26px; }
+article .lexfig.dgfig .diagram { padding: 22px 24px 16px; }
 article .topfig figcaption b { display: block; }
 article .gallery-inline, article .refs-wrap, article .curbox, article .timeline { clear: right; }
 /* Bilder zwischen den Absätzen: rechts neben dem passenden Absatz, Text fließt daneben */
@@ -195,7 +197,7 @@ article h3.art-h + h4.art-sh { margin-top: 10px; }
   /* Handy: Bild unter Überschrift und Kurzbeschreibung */
   article { display: flex; flex-direction: column; }
   article > * { order: 6; min-width: 0; max-width: 100%; }
-  article > .cat { order: 1; } article > h2 { order: 2; } article > .meta { order: 3; } article > .lead { order: 4; } article > .topfig { order: 5; }
+  article > .cat { order: 1; } article > h2 { order: 2; } article > .meta { order: 3; } article > .lead { order: 4; } article > .topfig { order: 5; } article > .dgfig { order: 5; margin: 6px 0 20px; }
 }
 article .cat { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: var(--gold); font-weight: 600; }
 article h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3rem); line-height: 1.05; margin: 6px 0 12px; text-wrap: balance; }
@@ -422,7 +424,25 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 .lexfig .watchfig figcaption b, .gallery figcaption b { color: var(--fg); font-weight: 600; font-size: 12.5px; }
 .lexfig { margin: 6px 0 24px; display: grid; gap: 12px; }
 .diagram { margin: 0; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; gap: 8px; }
-.diagram-svg { width: 100%; max-height: 260px; overflow: visible; }
+.diagram-svg { width: 100%; max-height: 300px; overflow: visible; }
+/* Bewegung in den Schemazeichnungen (Unruh schwingt, Räder drehen sich) */
+.dgx [class^="dg-"] { transform-box: view-box; }
+.dgx .dg-turn { transform-box: fill-box; transform-origin: center; animation: dgrot 30s linear infinite; }
+.dgx .dg-swing { animation: dgswing 1.1s ease-in-out infinite alternate; }
+.dgx .dg-rock { animation: dgrock 1.1s ease-in-out infinite alternate; }
+.dgx .dg-tick { animation: dgrot 33s steps(30) infinite; }
+.dgx .dg-rotor { animation: dgrotor 3.2s ease-in-out infinite alternate; }
+.dgx .dg-spin { animation: dgrot 20s linear infinite; }
+.dgx .dg-step { animation: dgrot 2s steps(2, jump-none) infinite; }
+.dgx .dg-index { animation: dgrot 36s steps(18) infinite; }
+.dgx .dg-slow { animation: dgrot 160s linear infinite; }
+.dgx .dg-retro { animation: dgretro 7s linear infinite; }
+@keyframes dgrot { to { transform: rotate(360deg); } }
+@keyframes dgswing { from { transform: rotate(-38deg); } to { transform: rotate(38deg); } }
+@keyframes dgrock { from { transform: rotate(-4deg); } to { transform: rotate(4deg); } }
+@keyframes dgrotor { from { transform: rotate(-70deg); } to { transform: rotate(70deg); } }
+@keyframes dgretro { 0% { transform: rotate(-70deg); } 94% { transform: rotate(70deg); } 100% { transform: rotate(-70deg); } }
+@media (prefers-reduced-motion: reduce) { .dgx [class^="dg-"] { animation: none !important; } }
 .diagram figcaption { font-size: 12px; color: var(--muted); text-align: center; }
 a.watchfig { text-decoration: none; color: inherit; }
 a.watchfig:hover { border-color: var(--accent); }
@@ -825,7 +845,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112537"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112539"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1368,94 +1388,145 @@ function drawWatch(v = {}, e = null) {
 
 // ---------- Schemazeichnungen für Lexikonbegriffe (themenfähig über CSS-Variablen) ----------
 const DG = (() => {
-  const fg = "var(--fg)", mu = "var(--muted)", ac = "var(--accent)", so = "var(--accent-soft)", sf = "var(--surface)", ruby = "#b3263a";
+  // Schemazeichnungen im Stil der Mondphasen-Illustration: Metallverläufe, Rubine, leuchtende Pfeile, sanfte Bewegung
+  const fg = "var(--fg)", mu = "var(--muted)", ac = "var(--accent)", ol = "rgba(18,22,30,.55)", ruby = "#c8243c";
   const F = 'font-family="Inter, system-ui, sans-serif"';
-  const svg = (w, h, body) => `<svg viewBox="0 0 ${w} ${h}" class="diagram-svg" role="img" aria-hidden="true">${body}</svg>`;
-  const lab = (x, y, t, a = "start", px, py) => (px != null ? `<path d="M${px} ${py}L${x + (a === "start" ? -4 : a === "end" ? 4 : 0)} ${y - 4}" stroke="${mu}" stroke-width=".8"/><circle cx="${px}" cy="${py}" r="1.8" fill="${mu}"/>` : "") + `<text x="${x}" y="${y}" text-anchor="${a}" ${F} font-size="11" fill="${fg}">${t}</text>`;
+  let N = 0;
   const P = (cx, cy, a, r) => [cx + r * Math.sin(a * Math.PI / 180), cy - r * Math.cos(a * Math.PI / 180)];
   const f = n => Math.round(n * 10) / 10;
-  const arrowHead = (x, y, ang, c = mu) => { const a = ang * Math.PI / 180; return `<path d="M${f(x)} ${f(y)}l${f(-7 * Math.cos(a - .45))} ${f(-7 * Math.sin(a - .45))}M${f(x)} ${f(y)}l${f(-7 * Math.cos(a + .45))} ${f(-7 * Math.sin(a + .45))}" stroke="${c}" stroke-width="1.4" fill="none"/>`; };
-  const gear = (cx, cy, r, n, depth = 4, fill = so) => { let d = ""; for (let i = 0; i < n; i++) { const a0 = i * 360 / n, w = 360 / n; [[a0, r - depth], [a0 + w * .2, r], [a0 + w * .5, r], [a0 + w * .7, r - depth]].forEach(([a, rr], k) => { const [x, y] = P(cx, cy, a, rr); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); } return `<path d="${d}Z" fill="${fill}" stroke="${fg}" stroke-width="1.1"/>`; };
-  const spiral = (cx, cy, r0, r1, turns, c = ac) => { let d = ""; const n = 220; for (let i = 0; i <= n; i++) { const t = i / n, a = t * turns * 360, r = r0 + (r1 - r0) * t, [x, y] = P(cx, cy, a, r); d += `${i ? "L" : "M"}${f(x)} ${f(y)}`; } return `<path d="${d}" fill="none" stroke="${c}" stroke-width="1.3"/>`; };
+  const defs = id => `<defs>
+    <linearGradient id="${id}br" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8e7ad"/><stop offset=".5" stop-color="#d8b056"/><stop offset="1" stop-color="#9a7325"/></linearGradient>
+    <linearGradient id="${id}st" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fafbfc"/><stop offset=".55" stop-color="#c4cbd3"/><stop offset="1" stop-color="#7c8692"/></linearGradient>
+    <linearGradient id="${id}dk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8d96a2"/><stop offset="1" stop-color="#3b424c"/></linearGradient>
+    <linearGradient id="${id}bl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa6f4"/><stop offset=".5" stop-color="#2a54b8"/><stop offset="1" stop-color="#15306f"/></linearGradient>
+    <linearGradient id="${id}cu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7c09a"/><stop offset=".5" stop-color="#c8703e"/><stop offset="1" stop-color="#7c3b1b"/></linearGradient>
+    <linearGradient id="${id}pl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1f5"/><stop offset="1" stop-color="#cdd3da"/></linearGradient>
+    <linearGradient id="${id}sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22427e"/><stop offset="1" stop-color="#0f1f45"/></linearGradient>
+    <linearGradient id="${id}wa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd0f5"/><stop offset=".45" stop-color="#2f7fc1"/><stop offset="1" stop-color="#0c2550"/></linearGradient>
+    <radialGradient id="${id}ru" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ff9aa5"/><stop offset=".5" stop-color="#cc2640"/><stop offset="1" stop-color="#6c0e1f"/></radialGradient>
+    <radialGradient id="${id}qz" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#b9d6ee"/></radialGradient>
+    <filter id="${id}gl" filterUnits="userSpaceOnUse" x="-50" y="-50" width="700" height="400"><feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="a"/><feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="a"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="${id}sh" filterUnits="userSpaceOnUse" x="-50" y="-50" width="700" height="400"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2.2" flood-color="#000" flood-opacity=".28"/></filter>
+  </defs>`;
+  // svg(w, h, id => body): jede Zeichnung bekommt eigene IDs für Verläufe und Filter
+  const svg = (w, h, body) => { const id = "dg" + (++N); return `<svg viewBox="0 0 ${w} ${h}" class="diagram-svg dgx" role="img" aria-hidden="true">${defs(id)}${body(k => `url(#${id}${k})`, id)}</svg>`; };
+  const lab = (x, y, t, a = "start", px, py) => (px != null ? `<path d="M${px} ${py}L${x + (a === "start" ? -5 : a === "end" ? 5 : 0)} ${y - 4}" stroke="${mu}" stroke-width=".9"/><circle cx="${px}" cy="${py}" r="2.2" fill="${ac}"/>` : "") + `<text x="${x}" y="${y}" text-anchor="${a}" ${F} font-size="12.5" fill="${fg}">${t}</text>`;
+  const note = (x, y, t, a = "middle") => `<text x="${x}" y="${y}" text-anchor="${a}" ${F} font-size="12.5" font-style="italic" fill="${mu}">${t}</text>`;
+  const head = (x, y, ang, c = ac, s = 8) => { const a = ang * Math.PI / 180; return `<path d="M${f(x)} ${f(y)}l${f(-s * Math.cos(a - .5))} ${f(-s * Math.sin(a - .5))}M${f(x)} ${f(y)}l${f(-s * Math.cos(a + .5))} ${f(-s * Math.sin(a + .5))}" stroke="${c}" stroke-width="2" fill="none" stroke-linecap="round"/>`; };
+  // leuchtender Bogenpfeil um (cx, cy) von Winkel a0 nach a1
+  const arc = (u, cx, cy, r, a0, a1, both = false) => { const [x0, y0] = P(cx, cy, a0, r), [x1, y1] = P(cx, cy, a1, r), cw = a1 > a0, big = Math.abs(a1 - a0) > 180 ? 1 : 0; const t1 = (cw ? a1 + 90 : a1 - 90) - 90, t0 = (cw ? a0 - 90 : a0 + 90) - 90; return `<g filter="${u("gl")}"><path d="M${f(x0)} ${f(y0)}A${r} ${r} 0 ${big} ${cw ? 1 : 0} ${f(x1)} ${f(y1)}" fill="none" stroke="${ac}" stroke-width="2" stroke-linecap="round"/>${head(x1, y1, t1)}${both ? head(x0, y0, t0) : ""}</g>`; };
+  const arrow = (u, x0, y0, x1, y1) => { const ang = Math.atan2(y1 - y0, x1 - x0) * 180 / Math.PI; return `<g filter="${u("gl")}"><path d="M${f(x0)} ${f(y0)}L${f(x1)} ${f(y1)}" stroke="${ac}" stroke-width="2" stroke-linecap="round"/>${head(x1, y1, ang)}</g>`; };
+  // Zahnrad mit Metallverlauf, ausgesparten Speichen und Nabe
+  const gear = (u, cx, cy, r, n, mat = "br", depth, spokes = r > 16, cls = "") => {
+    depth = depth || Math.max(2.2, r * .12); let d = "";
+    for (let i = 0; i < n; i++) { const a0 = i * 360 / n, w = 360 / n; [[a0, r - depth], [a0 + w * .18, r], [a0 + w * .5, r], [a0 + w * .68, r - depth]].forEach(([a, rr], k) => { const [x, y] = P(cx, cy, a, rr); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); }
+    const ri = r - depth - Math.max(2, r * .12), hub = Math.max(2.5, r * .2);
+    const sp = spokes ? [0, 1, 2, 3, 4].map(i => { const a = i * 72 + 36, w = 360 / 5 / 2 - 9; const [x1, y1] = P(cx, cy, a - w, ri), [x2, y2] = P(cx, cy, a + w, ri), [x3, y3] = P(cx, cy, a + w * .5, hub + 3), [x4, y4] = P(cx, cy, a - w * .5, hub + 3); return `<path d="M${f(x4)} ${f(y4)}L${f(x1)} ${f(y1)}A${f(ri)} ${f(ri)} 0 0 1 ${f(x2)} ${f(y2)}L${f(x3)} ${f(y3)}Z" fill="rgba(10,14,22,.62)"/>`; }).join("") : "";
+    return `<g class="${cls}"><path d="${d}Z" fill="${u(mat)}" stroke="${ol}" stroke-width=".8"/>${sp}<circle cx="${cx}" cy="${cy}" r="${f(hub)}" fill="${u("st")}" stroke="${ol}" stroke-width=".8"/><circle cx="${cx}" cy="${cy}" r="${f(hub * .4)}" fill="${u("ru")}"/></g>`;
+  };
+  const spiral = (u, cx, cy, r0, r1, turns, mat = "bl", w = 1.6) => { let d = ""; const n = 260; for (let i = 0; i <= n; i++) { const t = i / n, a = t * turns * 360, r = r0 + (r1 - r0) * t, [x, y] = P(cx, cy, a, r); d += `${i ? "L" : "M"}${f(x)} ${f(y)}`; } return `<path d="${d}" fill="none" stroke="${u(mat)}" stroke-width="${w}" stroke-linecap="round"/>`; };
+  const jewel = (u, cx, cy, r = 3.2) => `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${u("ru")}" stroke="rgba(80,0,10,.5)" stroke-width=".5"/>`;
+  // Unruh: Reif mit Schrauben, drei Arme, blaue Spirale; cls für die Schwingbewegung
+  const balance = (u, cx, cy, r, cls = "dg-swing") => `<g class="${cls}" style="transform-origin:${cx}px ${cy}px"><circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${u("br")}" stroke-width="${f(r * .12)}"/>${[0, 120, 240].map(a => { const [x, y] = P(cx, cy, a, r * .96); return `<path d="M${cx} ${cy}L${f(x)} ${f(y)}" stroke="${u("br")}" stroke-width="${f(r * .07)}" stroke-linecap="round"/>`; }).join("")}${Array.from({ length: 12 }, (_, i) => { const [x, y] = P(cx, cy, i * 30 + 15, r); return `<circle cx="${f(x)}" cy="${f(y)}" r="${f(r * .045)}" fill="${u("st")}" stroke="${ol}" stroke-width=".5"/>`; }).join("")}</g>${spiral(u, cx, cy, r * .1, r * .5, 6)}<circle cx="${cx}" cy="${cy}" r="${f(r * .08)}" fill="${u("st")}" stroke="${ol}"/>${jewel(u, cx, cy, r * .04)}`;
+  // Ankerrad mit 15 Zähnen
+  const escWheel = (u, cx, cy, r, cls = "") => { let d = ""; for (let i = 0; i < 15; i++) { const a0 = i * 24; [[a0, r * .76], [a0 + 6, r], [a0 + 12, r * .96], [a0 + 14, r * .76]].forEach(([a, rr], k) => { const [x, y] = P(cx, cy, a, rr); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); } return `<g class="${cls}" style="transform-origin:${cx}px ${cy}px"><path d="${d}Z" fill="${u("st")}" stroke="${ol}" stroke-width=".8"/>${[0, 90, 180, 270].map(a => { const [x1, y1] = P(cx, cy, a + 28, r * .66), [x2, y2] = P(cx, cy, a + 62, r * .66); return `<path d="M${cx} ${cy}L${f(x1)} ${f(y1)}A${f(r * .66)} ${f(r * .66)} 0 0 1 ${f(x2)} ${f(y2)}Z" fill="rgba(10,14,22,.6)"/>`; }).join("")}<circle cx="${cx}" cy="${cy}" r="${f(r * .14)}" fill="${u("st")}" stroke="${ol}"/>${jewel(u, cx, cy, r * .06)}</g>`; };
+  const plate = (u, x, y, w, h, rx = 10) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}" fill="${u("pl")}" stroke="${ol}" stroke-width=".8" opacity=".9"/>`;
   return {
-    unruh: () => svg(400, 220, `
-      <path d="M${f(P(120, 110, -42, 88)[0])} ${f(P(120, 110, -42, 88)[1])} A88 88 0 0 1 ${f(P(120, 110, 42, 88)[0])} ${f(P(120, 110, 42, 88)[1])}" fill="none" stroke="${mu}" stroke-width="1.4"/>
-      ${arrowHead(...P(120, 110, 42, 88), 20)}${arrowHead(...P(120, 110, -42, 88), 160)}
-      <circle cx="120" cy="110" r="70" fill="none" stroke="${fg}" stroke-width="7"/>
-      ${[0, 120, 240].map(a => { const [x, y] = P(120, 110, a, 67); return `<path d="M120 110L${f(x)} ${f(y)}" stroke="${fg}" stroke-width="4"/>`; }).join("")}
-      ${Array.from({ length: 12 }, (_, i) => { const [x, y] = P(120, 110, i * 30 + 15, 70); return `<circle cx="${f(x)}" cy="${f(y)}" r="2.6" fill="${sf}" stroke="${fg}"/>`; }).join("")}
-      ${spiral(120, 110, 6, 34, 6.5)}<rect x="${f(P(120, 110, 6.5 * 360, 34)[0] - 3)}" y="${f(P(120, 110, 6.5 * 360, 34)[1] - 3)}" width="6" height="6" fill="${fg}"/>
-      <circle cx="120" cy="110" r="5" fill="${fg}"/>
-      ${lab(232, 60, "Unruhreif mit Schrauben", "start", 186, 84)}
-      ${lab(232, 110, "Spiralfeder", "start", 150, 104)}
-      ${lab(232, 160, "Unruhwelle", "start", 124, 114)}
-      ${lab(120, 14, "schwingt hin und her", "middle")}`),
-    hemmung: () => svg(360, 210, `
-      ${(() => { let d = ""; for (let i = 0; i < 15; i++) { const a0 = i * 24; [[a0, 42], [a0 + 6, 56], [a0 + 13, 54], [a0 + 15, 42]].forEach(([a, r], k) => { const [x, y] = P(80, 112, a, r); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); } return `<path d="${d}Z" fill="${so}" stroke="${fg}" stroke-width="1.1"/>`; })()}
-      ${[0, 90, 180, 270].map(a => { const [x, y] = P(80, 112, a + 45, 40); return `<path d="M80 112L${f(x)} ${f(y)}" stroke="${fg}" stroke-width="3"/>`; }).join("")}<circle cx="80" cy="112" r="5" fill="${fg}"/>
-      <path d="M118 66 L176 78 L132 124" fill="none" stroke="${fg}" stroke-width="5" stroke-linejoin="round"/>
-      <path d="M176 78 L246 100" stroke="${fg}" stroke-width="5"/><path d="M246 92 l12 2 M246 108 l12 -2" stroke="${fg}" stroke-width="4"/>
-      <rect x="111" y="60" width="9" height="14" fill="${ruby}" transform="rotate(25 115 67)"/><rect x="128" y="118" width="9" height="14" fill="${ruby}" transform="rotate(-35 132 125)"/>
-      <circle cx="176" cy="78" r="5" fill="${fg}"/>
-      <circle cx="290" cy="104" r="20" fill="${sf}" stroke="${fg}" stroke-width="1.5"/><circle cx="272" cy="102" r="3.2" fill="${ruby}"/><circle cx="290" cy="104" r="44" fill="none" stroke="${mu}" stroke-dasharray="4 4"/><circle cx="290" cy="104" r="4" fill="${fg}"/>
-      ${lab(80, 196, "Ankerrad", "middle")}
-      ${lab(150, 30, "Anker", "middle", 170, 74)}
-      ${lab(20, 30, "Paletten (Rubine)", "start", 114, 64)}
-      ${lab(290, 196, "Unruh mit Hebelstein", "middle", 272, 106)}`),
-    automatik: () => svg(400, 222, `
-      <circle cx="120" cy="112" r="80" fill="${so}" stroke="${fg}" stroke-width="1.5"/>
-      ${gear(150, 78, 20, 24, 3, sf)}<circle cx="150" cy="78" r="9" fill="none" stroke="${mu}" stroke-dasharray="3 3"/>
-      ${gear(92, 76, 11, 14, 2.4, sf)}
-      <path d="M120 112 L${f(P(120, 112, 200, 74)[0])} ${f(P(120, 112, 200, 74)[1])} A74 74 0 0 1 ${f(P(120, 112, 20, 74)[0])} ${f(P(120, 112, 20, 74)[1])} Z" fill="${mu}" opacity=".55" stroke="${fg}" stroke-width="1.2"/>
-      <circle cx="120" cy="112" r="7" fill="${fg}"/>
-      <path d="M${f(P(120, 112, 210, 92)[0])} ${f(P(120, 112, 210, 92)[1])} A92 92 0 0 1 ${f(P(120, 112, 150, 92)[0])} ${f(P(120, 112, 150, 92)[1])}" fill="none" stroke="${ac}" stroke-width="1.6"/>
-      ${arrowHead(...P(120, 112, 150, 92), 70, ac)}${arrowHead(...P(120, 112, 210, 92), 110 + 180, ac)}
-      ${lab(232, 150, "Rotor (Schwungmasse)", "start", 110, 150)}
-      ${lab(232, 112, "Rotorlager", "start", 126, 112)}
-      ${lab(232, 74, "Federhaus mit Zugfeder", "start", 168, 74)}
-      ${lab(232, 36, "Wechselgetriebe", "start", 98, 70)}
-      ${lab(120, 214, "dreht in beide Richtungen und spannt die Feder", "middle")}`),
-    quarzwerk: () => svg(380, 170, `
-      <rect x="14" y="60" width="44" height="44" rx="6" fill="${so}" stroke="${fg}"/><text x="36" y="88" text-anchor="middle" ${F} font-size="16" fill="${fg}">+</text>
-      <rect x="86" y="58" width="40" height="48" rx="20" fill="${sf}" stroke="${fg}"/><path d="M98 98V70h16v28M106 70v-6" fill="none" stroke="${ac}" stroke-width="3"/>
-      <rect x="154" y="62" width="48" height="40" rx="3" fill="${fg}"/>${[0, 1, 2, 3].map(i => `<path d="M${160 + i * 12} 58v4M${160 + i * 12} 102v4" stroke="${fg}" stroke-width="2"/>`).join("")}
-      <rect x="230" y="66" width="40" height="32" rx="4" fill="${sf}" stroke="${fg}"/>${[0, 1, 2, 3, 4, 5].map(i => `<path d="M${236 + i * 6} 66v32" stroke="${ac}" stroke-width="1.6"/>`).join("")}
-      <circle cx="306" cy="82" r="18" fill="${sf}" stroke="${fg}"/><path d="M306 64v36" stroke="${fg}"/><text x="298" y="86" ${F} font-size="10" fill="${ruby}">N</text><text x="309" y="86" ${F} font-size="10" fill="${ac}">S</text>
-      ${gear(352, 82, 14, 14, 3, so)}
-      ${[[58, 86], [126, 154], [202, 230], [270, 288], [324, 338]].map(([a, b]) => `<path d="M${a + 3} 82H${b - 4}" stroke="${mu}" stroke-width="1.4"/>${arrowHead(b - 3, 82, 0)}`).join("")}
-      ${lab(36, 130, "Batterie", "middle")}${lab(106, 130, "Quarz", "middle")}${lab(106, 145, "32.768 Hz", "middle")}
-      ${lab(178, 130, "Schaltkreis", "middle")}${lab(178, 145, "teilt auf 1 Hz", "middle")}
-      ${lab(250, 130, "Spule", "middle")}${lab(306, 130, "Schrittmotor", "middle")}${lab(354, 152, "Zeiger", "middle")}
-      ${lab(190, 24, "jede Sekunde ein Impuls für den Schrittmotor", "middle")}`),
-    schaltrad: () => svg(340, 210, `
-      ${(() => { let d = ""; for (let i = 0; i < 18; i++) { const a0 = i * 20; [[a0, 42], [a0 + 14, 52], [a0 + 20, 42]].forEach(([a, r], k) => { const [x, y] = P(110, 106, a, r); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); } return `<path d="${d}Z" fill="${so}" stroke="${fg}" stroke-width="1.1"/>`; })()}
-      ${Array.from({ length: 6 }, (_, i) => { const [x, y] = P(110, 106, i * 60, 28); return `<circle cx="${f(x)}" cy="${f(y)}" r="9" fill="${mu}" stroke="${fg}"/>`; }).join("")}
-      <circle cx="110" cy="106" r="9" fill="${fg}"/>
-      <path d="M300 54 L170 84 L148 88" fill="none" stroke="${fg}" stroke-width="4" stroke-linecap="round"/><path d="M300 160 L168 126 L146 120" fill="none" stroke="${fg}" stroke-width="4" stroke-linecap="round"/>
-      <rect x="300" y="44" width="22" height="20" rx="4" fill="${sf}" stroke="${fg}"/>${arrowHead(298, 54, 180, ac)}
-      ${lab(110, 202, "Sperrrad", "middle", 110, 152)}
-      ${lab(30, 24, "Säulen", "start", 92, 92)}
-      ${lab(230, 196, "Steuerhebel", "middle", 220, 140)}
-      ${lab(312, 30, "Drücker", "middle")}`),
-    tourbillon: () => svg(430, 220, `
-      <circle cx="130" cy="112" r="84" fill="none" stroke="${mu}" stroke-dasharray="5 5"/>
-      <path d="M${f(P(130, 112, 20, 94)[0])} ${f(P(130, 112, 20, 94)[1])} A94 94 0 0 1 ${f(P(130, 112, 80, 94)[0])} ${f(P(130, 112, 80, 94)[1])}" fill="none" stroke="${ac}" stroke-width="1.8"/>${arrowHead(...P(130, 112, 80, 94), 160, ac)}
-      <circle cx="130" cy="112" r="66" fill="none" stroke="${fg}" stroke-width="4"/>
-      ${[0, 120, 240].map(a => { const [x, y] = P(130, 112, a, 64); return `<path d="M130 112L${f(x)} ${f(y)}" stroke="${fg}" stroke-width="5" stroke-linecap="round"/>`; }).join("")}
-      <circle cx="130" cy="112" r="34" fill="none" stroke="${ac}" stroke-width="4"/>${spiral(130, 112, 4, 18, 4.5)}
-      ${gear(130, 164, 11, 15, 2.6, so)}
-      <circle cx="130" cy="112" r="5" fill="${fg}"/>
-      ${lab(240, 40, "Käfig: 1 Umdrehung pro Minute", "start", 190, 58)}
-      ${lab(240, 112, "Unruh mit Spirale", "start", 164, 112)}
-      ${lab(240, 176, "Hemmung im Käfig", "start", 140, 166)}`),
-    krone: () => svg(430, 170, `
-      <rect x="30" y="40" width="170" height="90" rx="30" fill="${so}" stroke="${fg}" stroke-width="1.4"/>
-      <path d="M200 85H${248}" stroke="${fg}" stroke-width="3"/>
-      ${[[206, 1], [222, .45], [238, .45]].map(([x, o], i) => `<rect x="${x}" y="72" width="14" height="26" rx="4" fill="${i ? "none" : sf}" stroke="${fg}" stroke-width="1.4" opacity="${o}" ${i ? 'stroke-dasharray="3 2"' : ""}/>`).join("")}
-      ${lab(213, 150, "0", "middle", 213, 100)}${lab(229, 150, "1", "middle", 229, 100)}${lab(245, 150, "2", "middle", 245, 100)}
-      ${lab(270, 50, "0 · eingedrückt: aufziehen")}${lab(270, 70, "1 · Datum schnell stellen")}${lab(270, 90, "2 · Zeiger stellen")}
-      ${lab(115, 90, "Gehäuse (Seitenansicht)", "middle")}`),
-    mondphase: (pp) => { const mp0 = moonPhase(), p = pp ?? mp0.p, k = (1 - Math.cos(2 * Math.PI * p)) / 2, names = ["Neumond", "Zunehmende Sichel", "Erstes Viertel", "Zunehmender Mond", "Vollmond", "Abnehmender Mond", "Letztes Viertel", "Abnehmende Sichel"], mp = { p, k, name: names[Math.round(p * 8) % 8] }, wax = p < .5; return svg(540, 152, `
+    unruh: () => svg(540, 230, u => `
+      <g filter="${u("sh")}">${balance(u, 150, 115, 82)}</g>
+      ${arc(u, 150, 115, 100, -50, 50, true)}
+      ${lab(300, 50, "Unruhreif mit Regulierschrauben", "start", 214, 64)}
+      ${lab(300, 92, "Spiralfeder aus gebläutem Stahl", "start", 178, 100)}
+      ${lab(300, 134, "Unruhwelle im Rubinlager", "start", 154, 118)}
+      ${lab(300, 176, "Arme (Schenkel)", "start", 188, 142)}
+      ${note(150, 226, "schwingt etwa 270 bis 310 Grad hin und her")}`),
+    hemmung: () => svg(540, 230, u => `
+      <g filter="${u("sh")}">${escWheel(u, 110, 120, 70, "dg-tick")}</g>
+      <g filter="${u("sh")}" class="dg-rock" style="transform-origin:232px 84px">
+        <path d="M168 58 L232 84 L184 150" fill="none" stroke="${u("st")}" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M232 84 L330 116" stroke="${u("st")}" stroke-width="8" stroke-linecap="round"/><path d="M328 106 l16 3 M328 126 l16 -4" stroke="${u("st")}" stroke-width="6" stroke-linecap="round"/>
+        <rect x="158" y="50" width="11" height="18" rx="1.5" fill="${u("ru")}" transform="rotate(28 163 59)"/><rect x="178" y="143" width="11" height="18" rx="1.5" fill="${u("ru")}" transform="rotate(-38 183 152)"/>
+        <circle cx="232" cy="84" r="6" fill="${u("st")}" stroke="${ol}"/>${jewel(u, 232, 84, 2.4)}
+      </g>
+      <g filter="${u("sh")}"><circle cx="384" cy="118" r="26" fill="${u("br")}" stroke="${ol}"/><circle cx="384" cy="118" r="62" fill="none" stroke="${u("br")}" stroke-width="7" opacity=".9"/>${jewel(u, 360, 116, 4)}<circle cx="384" cy="118" r="5" fill="${u("st")}"/></g>
+      ${arc(u, 384, 118, 76, 200, 250, true)}
+      ${lab(110, 222, "Ankerrad (15 Zähne)", "middle")}
+      ${lab(232, 24, "Anker mit Gabel", "middle", 232, 78)}
+      ${lab(20, 24, "Paletten aus Rubin", "start", 160, 56)}
+      ${lab(400, 222, "Unruh mit Hebelstein", "middle", 360, 118)}`),
+    automatik: () => svg(540, 240, u => `
+      <circle cx="140" cy="120" r="98" fill="${u("pl")}" stroke="${ol}"/>
+      ${gear(u, 176, 80, 26, 30, "br")}${gear(u, 112, 74, 13, 16, "st")}${gear(u, 92, 98, 9, 12, "st")}
+      <g class="dg-rotor" style="transform-origin:140px 120px"><path d="M140 120 L${f(P(140, 120, 205, 90)[0])} ${f(P(140, 120, 205, 90)[1])} A90 90 0 0 1 ${f(P(140, 120, 335, 90)[0])} ${f(P(140, 120, 335, 90)[1])} Z" fill="${u("br")}" stroke="${ol}" filter="${u("sh")}" opacity=".95"/><path d="M${f(P(140, 120, 212, 80)[0])} ${f(P(140, 120, 212, 80)[1])} A80 80 0 0 1 ${f(P(140, 120, 328, 80)[0])} ${f(P(140, 120, 328, 80)[1])}" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.5"/></g>
+      <circle cx="140" cy="120" r="12" fill="${u("st")}" stroke="${ol}"/>${[0, 60, 120, 180, 240, 300].map(a => { const [x, y] = P(140, 120, a, 7); return `<circle cx="${f(x)}" cy="${f(y)}" r="2" fill="${u("dk")}"/>`; }).join("")}
+      ${arc(u, 140, 120, 110, -30, 30, true)}
+      ${lab(300, 44, "Federhaus mit Zugfeder", "start", 196, 70)}
+      ${lab(300, 86, "Wechsler: macht aus beiden", "start", 112, 74)}${lab(300, 102, "Drehrichtungen eine", "start")}
+      ${lab(300, 144, "Rotor (Schwungmasse)", "start", 160, 196)}
+      ${lab(300, 186, "Kugellager in der Mitte", "start", 146, 122)}
+      ${note(140, 236, "jede Armbewegung spannt die Feder")}`),
+    quarzwerk: () => svg(560, 200, u => `
+      <g filter="${u("sh")}">
+        <rect x="14" y="70" width="52" height="52" rx="26" fill="${u("st")}" stroke="${ol}"/><text x="40" y="101" text-anchor="middle" ${F} font-size="13" font-weight="600" fill="#3b424c">1,55 V</text>
+        <rect x="96" y="62" width="46" height="68" rx="22" fill="${u("st")}" stroke="${ol}"/><path d="M110 120V80h18v40M119 80v-8" fill="none" stroke="${u("qz")}" stroke-width="5" stroke-linecap="round"/>
+        <rect x="174" y="72" width="62" height="48" rx="4" fill="#1d222a"/>${[0, 1, 2, 3, 4].map(i => `<path d="M${182 + i * 12} 66v6M${182 + i * 12} 120v6" stroke="${u("st")}" stroke-width="2.4"/>`).join("")}<text x="205" y="100" text-anchor="middle" ${F} font-size="10" fill="#9aa4b1">÷ 2¹⁵</text>
+        <rect x="268" y="74" width="54" height="44" rx="6" fill="${u("dk")}"/>${Array.from({ length: 9 }, (_, i) => `<ellipse cx="${274 + i * 5.3}" cy="96" rx="2.6" ry="20" fill="none" stroke="${u("cu")}" stroke-width="2"/>`).join("")}
+        <circle cx="362" cy="96" r="24" fill="${u("st")}" stroke="${ol}"/><g class="dg-step" style="transform-origin:362px 96px"><path d="M362 80a16 16 0 0 1 0 32z" fill="#c8243c"/><path d="M362 80a16 16 0 0 0 0 32z" fill="#2a54b8"/><text x="368" y="100" ${F} font-size="10" font-weight="700" fill="#fff">N</text><text x="350" y="100" ${F} font-size="10" font-weight="700" fill="#fff">S</text></g>
+      </g>
+      ${gear(u, 430, 96, 22, 22, "br")}${gear(u, 470, 70, 12, 14, "br")}
+      ${[[66, 96], [142, 174], [236, 268], [322, 338]].map(([a, b]) => `<path d="M${a + 4} 96H${b - 5}" stroke="${mu}" stroke-width="1.4"/>${head(b - 4, 96, 0, mu, 6)}`).join("")}
+      <g filter="${u("gl")}"><path d="M96 40 ${Array.from({ length: 16 }, (_, i) => `q2.5 ${i % 2 ? 9 : -9} 5 0`).join(" ")}" fill="none" stroke="${ac}" stroke-width="1.6"/><path d="M190 40h8v-10h4v10h44v-10h4v10h44v-10h4v10h20" fill="none" stroke="${ac}" stroke-width="1.6"/></g>
+      ${note(120, 22, "32.768 Schwingungen pro Sekunde")}${note(330, 22, "ein Impuls pro Sekunde")}
+      ${lab(40, 150, "Batterie", "middle")}${lab(119, 150, "Quarz", "middle")}${lab(205, 150, "Schaltkreis", "middle")}${lab(295, 150, "Spule", "middle")}${lab(362, 150, "Schrittmotor", "middle")}${lab(450, 150, "Räderwerk", "middle")}
+      ${note(280, 190, "der Rotor dreht sich bei jedem Impuls um eine halbe Umdrehung")}`),
+    lagersteine: () => svg(540, 220, u => `
+      <rect x="40" y="104" width="250" height="44" fill="${u("pl")}" stroke="${ol}"/>${Array.from({ length: 16 }, (_, i) => `<path d="M${44 + i * 16} 148l14 -44" stroke="${ol}" stroke-width=".5" opacity=".6"/>`).join("")}
+      <path d="M140 104h50v44h-50z" fill="${u("pl")}"/>
+      <path d="M140 108 h21 v10 q5 9 0 20 h-21z" fill="${u("ru")}" stroke="rgba(80,0,10,.5)" stroke-width=".6"/><path d="M190 108 h-21 v10 q-5 9 0 20 h21z" fill="${u("ru")}" stroke="rgba(80,0,10,.5)" stroke-width=".6"/>
+      <ellipse cx="165" cy="104" rx="11" ry="3.5" fill="#f5c542" opacity=".75" filter="${u("gl")}"/>
+      <rect x="140" y="88" width="50" height="12" rx="4" fill="${u("ru")}" stroke="rgba(80,0,10,.5)" stroke-width=".6"/>
+      <rect x="160" y="142" width="10" height="72" fill="${u("st")}" stroke="${ol}" stroke-width=".6"/><rect x="163" y="118" width="4" height="26" rx="2" fill="${u("st")}" stroke="${ol}" stroke-width=".6"/>
+      ${lab(320, 86, "Deckstein", "start", 188, 92)}
+      ${lab(320, 108, "Ölsenke mit Öl", "start", 174, 104)}
+      ${lab(320, 132, "Lochstein aus synthetischem Rubin", "start", 186, 124)}
+      ${lab(320, 160, "Platine", "start", 278, 144)}
+      ${lab(320, 196, "Welle mit poliertem Zapfen", "start", 168, 190)}
+      ${note(150, 24, "Querschnitt durch eine Lagerstelle")}`),
+    tourbillon: () => svg(540, 240, u => `
+      <g filter="${u("sh")}">${gear(u, 150, 122, 98, 80, "br", 5, false)}<circle cx="150" cy="122" r="86" fill="${u("pl")}"/></g>
+      <g class="dg-spin" style="transform-origin:150px 122px">
+        <circle cx="150" cy="122" r="72" fill="none" stroke="${u("st")}" stroke-width="6"/>${[0, 120, 240].map(a => { const [x, y] = P(150, 122, a, 70); return `<path d="M150 122L${f(x)} ${f(y)}" stroke="${u("st")}" stroke-width="7" stroke-linecap="round"/>`; }).join("")}
+        ${balance(u, 150, 122, 36, "dg-swing")}
+        ${escWheel(u, 150, 176, 14)}
+      </g>
+      ${arc(u, 150, 122, 112, 20, 90)}
+      ${lab(300, 40, "Käfig dreht sich einmal pro Minute", "start", 214, 80)}
+      ${lab(300, 92, "Unruh mit Spirale im Käfig", "start", 180, 108)}
+      ${lab(300, 144, "Ankerrad läuft am festen", "start", 160, 178)}${lab(300, 160, "Sekundenrad ab", "start")}
+      ${lab(300, 206, "feststehendes Sekundenrad", "start", 236, 196)}`),
+    krone: () => svg(540, 210, u => `
+      <rect x="30" y="50" width="200" height="100" rx="34" fill="${u("st")}" stroke="${ol}" filter="${u("sh")}"/><rect x="58" y="70" width="140" height="60" rx="16" fill="${u("sk")}"/>
+      <rect x="200" y="98" width="100" height="4" fill="${u("st")}" stroke="${ol}" stroke-width=".5"/>
+      ${[[230, 1], [250, .5], [270, .5]].map(([x, o], i) => `<g opacity="${o}"><rect x="${x}" y="80" width="18" height="40" rx="5" fill="${i ? "none" : u("st")}" stroke="${i ? mu : ol}" stroke-width="1.4" ${i ? 'stroke-dasharray="3 2"' : ""}/>${i ? "" : Array.from({ length: 6 }, (_, k) => `<path d="M${x + 3 + k * 2.4} 82v36" stroke="${ol}" stroke-width=".5"/>`).join("")}</g>`).join("")}
+      <rect x="226" y="88" width="6" height="24" fill="#2b2f36" opacity=".8"/>
+      ${lab(239, 146, "0", "middle", 239, 122)}${lab(259, 146, "1", "middle", 259, 122)}${lab(279, 146, "2", "middle", 279, 122)}
+      ${lab(320, 70, "0 · eingedrückt: Feder aufziehen")}${lab(320, 96, "1 · Datum schnell stellen")}${lab(320, 122, "2 · Zeiger stellen, Sekunde hält an")}
+      ${lab(320, 160, "Dichtung im Kronentubus", "start", 229, 112)}
+      ${note(130, 186, "Gehäuse in der Seitenansicht")}`),
+    schaltrad: () => svg(540, 230, u => `
+      <g filter="${u("sh")}" class="dg-index" style="transform-origin:130px 120px">
+        ${(() => { let d = ""; for (let i = 0; i < 18; i++) { const a0 = i * 20; [[a0, 52], [a0 + 14, 64], [a0 + 20, 52]].forEach(([a, r], k) => { const [x, y] = P(130, 120, a, r); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); } return `<path d="${d}Z" fill="${u("st")}" stroke="${ol}" stroke-width=".8"/>`; })()}
+        <circle cx="130" cy="120" r="48" fill="${u("dk")}" opacity=".35"/>
+        ${Array.from({ length: 6 }, (_, i) => { const [x, y] = P(130, 120, i * 60, 32); return `<circle cx="${f(x)}" cy="${f(y)}" r="11" fill="${u("st")}" stroke="${ol}"/><circle cx="${f(x - 3)}" cy="${f(y - 3)}" r="4" fill="#fff" opacity=".55"/>`; }).join("")}
+        <circle cx="130" cy="120" r="10" fill="${u("st")}" stroke="${ol}"/>${jewel(u, 130, 120, 3)}
+      </g>
+      <path d="M380 62 L200 102 L176 104" fill="none" stroke="${u("st")}" stroke-width="7" stroke-linecap="round" filter="${u("sh")}"/><path d="M380 176 L196 138 L172 132" fill="none" stroke="${u("st")}" stroke-width="7" stroke-linecap="round" filter="${u("sh")}"/>
+      <rect x="380" y="50" width="30" height="24" rx="6" fill="${u("st")}" stroke="${ol}"/>${arrow(u, 440, 62, 414, 62)}
+      ${lab(130, 222, "Sperrrad mit Säulen", "middle")}
+      ${lab(24, 24, "Säulen", "start", 112, 96)}
+      ${lab(300, 210, "Steuerhebel: fallen zwischen Säulen", "middle", 290, 158)}
+      ${lab(395, 36, "Drücker", "middle")}`),
+    mondphase: (pp) => { const p = pp ?? moonPhase().p; return svg(540, 152, () => `
       <g class="moon" transform="translate(132 6) scale(4.6)" style="--mp-sky1: #22427e; --mp-sky2: #0f1f45; --mp-moon1: #fff6d8; --mp-moon2: #e2b85a">${moonSVG(p, true)}</g>
       ${lab(414, 34, "Mondscheibe mit", "start", 330, 46)}
       ${lab(414, 52, "zwei Monden,", "start")}
@@ -1463,21 +1534,241 @@ const DG = (() => {
       ${lab(414, 88, "drehung in 59 Tagen", "start")}
       ${lab(122, 90, "Fenster mit zwei", "end", 176, 110)}
       ${lab(122, 108, "Wölbungen verdecken", "end")}
-      ${lab(122, 126, "den Mond nach und nach", "end")}
-      `).replace(/font-size="11"/g, 'font-size="12.5"'); },
-    wasserdichtigkeit: () => svg(430, 240, `
-      <defs><linearGradient id="dgw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fb5e6"/><stop offset="1" stop-color="#0f2f5c"/></linearGradient></defs>
-      <rect x="40" y="20" width="44" height="210" rx="6" fill="url(#dgw)"/>
-      ${[[3, 30, "Spritzwasser, Händewaschen"], [5, 50, "Duschen, kurzes Schwimmen"], [10, 100, "Schwimmen, Schnorcheln"], [20, 200, "Sporttauchen"], [30, 300, "Tauchen, Taucheruhr nach ISO 6425"]].map(([bar, m, t], i) => { const y = 34 + i * 42; return `<path d="M84 ${y}H104" stroke="${fg}"/><text x="110" y="${y + 4}" ${F} font-size="11" font-weight="600" fill="${fg}">${bar} bar · ${m} m</text><text x="200" y="${y + 4}" ${F} font-size="11" fill="${mu}">${t}</text>`; }).join("")}`),
-    lagersteine: () => svg(400, 190, `
-      <rect x="40" y="96" width="200" height="34" fill="${so}" stroke="${fg}"/>${Array.from({ length: 12 }, (_, i) => `<path d="M${44 + i * 16} 130l12 -34" stroke="${mu}" stroke-width=".6"/>`).join("")}
-      <path d="M118 100h44v26h-44z" fill="${sf}"/><path d="M118 100 h18 v8 q4 8 0 18 h-18zM162 100 h-18 v8 q-4 8 0 18 h18z" fill="${ruby}"/>
-      <rect x="120" y="86" width="40" height="10" rx="3" fill="${ruby}" opacity=".85"/>
-      <path d="M140 190 V136 Q140 130 140 120 L140 110" stroke="${fg}" stroke-width="6"/><path d="M140 112 l0 -6" stroke="${fg}" stroke-width="3" stroke-linecap="round"/>
-      ${lab(260, 92, "Deckstein", "start", 160, 90)}
-      ${lab(260, 114, "Lochstein (Rubin)", "start", 162, 112)}
-      ${lab(260, 140, "Platine", "start", 236, 126)}
-      ${lab(260, 170, "Welle mit Zapfen", "start", 143, 160)}`)
+      ${lab(122, 126, "den Mond nach und nach", "end")}`); },
+    wasserdichtigkeit: () => svg(540, 250, u => `
+      <rect x="40" y="18" width="54" height="222" rx="10" fill="${u("wa")}" filter="${u("sh")}"/>
+      ${Array.from({ length: 9 }, (_, i) => `<circle cx="${52 + (i * 13) % 32}" cy="${210 - i * 22}" r="${1.5 + (i % 3)}" fill="#fff" opacity=".45"/>`).join("")}
+      ${[[3, 30, "Spritzwasser, Händewaschen"], [5, 50, "Duschen, kurzes Schwimmen"], [10, 100, "Schwimmen, Schnorcheln"], [20, 200, "Sporttauchen"], [30, 300, "Tauchen, Taucheruhr nach ISO 6425"]].map(([bar, m, t], i) => { const y = 36 + i * 44; return `<path d="M94 ${y}H116" stroke="${ac}" stroke-width="1.6" filter="${u("gl")}"/><text x="124" y="${y + 4}" ${F} font-size="12.5" font-weight="600" fill="${fg}">${bar} bar · ${m} m</text><text x="236" y="${y + 4}" ${F} font-size="12.5" fill="${mu}">${t}</text>`; }).join("")}`),
+    // ---------- neu ----------
+    handaufzug: () => svg(560, 230, u => `
+      <g filter="${u("sh")}"><circle cx="300" cy="112" r="70" fill="${u("br")}" stroke="${ol}"/></g><circle cx="300" cy="112" r="60" fill="${u("dk")}" opacity=".4"/>${spiral(u, 300, 112, 10, 56, 8, "st", 2)}
+      <rect x="18" y="92" width="28" height="40" rx="6" fill="${u("st")}" stroke="${ol}" filter="${u("sh")}"/>${Array.from({ length: 7 }, (_, k) => `<path d="M${21.5 + k * 3.4} 94v36" stroke="${ol}" stroke-width=".5"/>`).join("")}
+      <rect x="46" y="109" width="140" height="6" fill="${u("st")}" stroke="${ol}" stroke-width=".5"/>
+      <rect x="150" y="100" width="22" height="24" rx="3" fill="${u("st")}" stroke="${ol}"/>${Array.from({ length: 5 }, (_, k) => `<path d="M172 ${102 + k * 4.4}l5 2.2-5 2.2" fill="${u("st")}" stroke="${ol}" stroke-width=".5"/>`).join("")}
+      ${gear(u, 202, 112, 22, 20, "st")}
+      ${gear(u, 300, 112, 40, 40, "st", 0, true, "dg-turn")}
+      <path d="M332 66 l26 -6 l-10 16 z" fill="${u("st")}" stroke="${ol}" filter="${u("sh")}"/><circle cx="356" cy="62" r="3" fill="${u("st")}" stroke="${ol}"/>
+      ${arc(u, 32, 112, 32, 140, 220)}
+      ${lab(32, 178, "Krone", "middle")}
+      ${lab(120, 200, "Aufzugswelle mit", "middle", 110, 115)}${lab(120, 216, "Kupplungstrieb", "middle")}
+      ${lab(202, 178, "Kronrad", "middle", 202, 134)}
+      ${lab(420, 46, "Sperrklinke", "start", 352, 64)}
+      ${lab(420, 100, "Sperrrad auf dem", "start", 336, 104)}${lab(420, 116, "Federkern", "start")}
+      ${lab(420, 170, "Federhaus mit Zugfeder", "start", 352, 158)}
+      ${note(260, 14, "jede Kronendrehung wickelt die Zugfeder enger")}`),
+    federhaus: () => svg(540, 230, u => `
+      <g filter="${u("sh")}">${gear(u, 150, 115, 96, 84, "br", 5, false)}</g>
+      <circle cx="150" cy="115" r="84" fill="${u("dk")}" opacity=".5"/>
+      ${spiral(u, 150, 115, 14, 80, 9, "st", 2.2)}
+      <circle cx="150" cy="115" r="14" fill="${u("st")}" stroke="${ol}"/><path d="M150 101v-6" stroke="${ol}" stroke-width="2"/>
+      ${arc(u, 150, 115, 108, 30, 90)}
+      ${lab(300, 44, "Zahnkranz treibt das Räderwerk an", "start", 238, 80)}
+      ${lab(300, 92, "Zugfeder, spiralförmig aufgewickelt", "start", 204, 104)}
+      ${lab(300, 140, "Federkern mit Haken", "start", 164, 116)}
+      ${lab(300, 188, "Trommel (Federhaus)", "start", 204, 180)}
+      ${note(150, 226, "beim Ablaufen dreht die Feder die Trommel")}`),
+    gangreserve: () => svg(560, 210, u => `
+      ${[110, 250].map((x, i) => `<g filter="${u("sh")}">${gear(u, x, 100, 58, 50, "br", 4, false)}</g><circle cx="${x}" cy="100" r="50" fill="${u("dk")}" opacity=".45"/>${spiral(u, x, 100, 8, 46, 6, "st", 1.8)}<circle cx="${x}" cy="100" r="8" fill="${u("st")}" stroke="${ol}"/>`).join("")}
+      ${arrow(u, 160, 40, 202, 40)}${arrow(u, 300, 40, 342, 40)}
+      ${gear(u, 380, 120, 26, 24, "st")}
+      <g transform="translate(470 110)"><path d="M-46 0A46 46 0 0 1 46 0" fill="none" stroke="${mu}" stroke-width="5" stroke-linecap="round"/><path d="M-46 0A46 46 0 0 1 ${f(P(0, 0, 30, 46)[0])} ${f(P(0, 0, 30, 46)[1])}" fill="none" stroke="${ac}" stroke-width="5" stroke-linecap="round" filter="${u("gl")}"/><path d="M0 0L${f(P(0, 0, 30, 38)[0])} ${f(P(0, 0, 30, 38)[1])}" stroke="${fg}" stroke-width="2.5" stroke-linecap="round"/><circle r="4" fill="${fg}"/><text x="-46" y="18" text-anchor="middle" ${F} font-size="11" fill="${mu}">leer</text><text x="46" y="18" text-anchor="middle" ${F} font-size="11" fill="${mu}">voll</text></g>
+      ${lab(110, 190, "1. Federhaus", "middle")}${lab(250, 190, "2. Federhaus", "middle")}${lab(380, 190, "Räderwerk", "middle")}${lab(470, 160, "Anzeige", "middle")}
+      ${note(250, 22, "hintereinander geschaltet: die Laufzeiten addieren sich")}`),
+    chronograph: () => svg(560, 240, u => `
+      ${gear(u, 80, 140, 34, 36, "br", 0, true, "dg-turn")}${gear(u, 80, 140, 16, 20, "st")}
+      ${gear(u, 160, 96, 14, 18, "st")}
+      ${gear(u, 250, 140, 46, 60, "br", 3)}
+      <g filter="${u("sh")}"><path d="M250 140 m-14 -6 a16 16 0 1 1 28 0 l-14 24 z" fill="${u("st")}" stroke="${ol}"/></g>
+      <path d="M380 200 L296 140 L270 138" fill="none" stroke="${u("st")}" stroke-width="8" stroke-linecap="round" filter="${u("sh")}"/>
+      <g filter="${u("sh")}">${Array.from({ length: 6 }, (_, i) => { const [x, y] = P(430, 96, i * 60, 18); return `<circle cx="${f(x)}" cy="${f(y)}" r="7" fill="${u("st")}" stroke="${ol}"/>`; }).join("")}<circle cx="430" cy="96" r="7" fill="${u("st")}" stroke="${ol}"/></g>
+      ${arrow(u, 120, 90, 146, 92)}${arrow(u, 172, 104, 206, 122)}
+      ${lab(80, 220, "Sekundenrad mit", "middle")}${lab(80, 236, "Mitnehmerrad", "middle")}
+      ${lab(160, 40, "Kupplungsrad", "middle", 160, 82)}
+      ${lab(250, 236, "Chronographenrad", "middle")}
+      ${lab(330, 40, "Herzscheibe für die Nullstellung", "start", 256, 128)}
+      ${lab(410, 200, "Hammer", "start", 360, 186)}
+      ${lab(430, 150, "Schaltrad steuert", "middle")}${lab(430, 166, "Start, Stopp, Null", "middle")}`),
+    "ewiger-kalender": () => svg(560, 250, u => {
+      const L = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31], dep = { 31: 4, 30: 9, 28: 16, 29: 13 }, col = { 31: "#d8b056", 30: "#7aa6f4", 28: "#cc2640", 29: "#9b59d0" };
+      let d = "", marks = "";
+      for (let i = 0; i < 48; i++) { const yr = Math.floor(i / 12), m = i % 12, len = m === 1 && yr === 0 ? 29 : L[m], a0 = i * 7.5, r = 92, dd = dep[len]; [[a0 + .6, r], [a0 + 1.4, r - dd], [a0 + 6.1, r - dd], [a0 + 6.9, r]].forEach(([a, rr], k) => { const [x, y] = P(140, 125, a, rr); d += `${i === 0 && k === 0 ? "M" : "L"}${f(x)} ${f(y)}`; }); const [mx, my] = P(140, 125, a0 + 3.75, 72); marks += `<circle cx="${f(mx)}" cy="${f(my)}" r="2.6" fill="${col[len]}"/>`; }
+      return `<g filter="${u("sh")}" class="dg-slow" style="transform-origin:140px 125px"><path d="${d}Z" fill="${u("st")}" stroke="${ol}" stroke-width=".8"/>${marks}<circle cx="140" cy="125" r="24" fill="${u("br")}" stroke="${ol}"/><text x="140" y="130" text-anchor="middle" ${F} font-size="12" font-weight="700" fill="#5a4310">4 Jahre</text></g>
+      <path d="M300 30 L232 52 L${f(P(140, 125, 0, 84)[0]) + 4} ${f(P(140, 125, 0, 84)[1]) - 2}" fill="none" stroke="${u("st")}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="${u("sh")}"/><circle cx="300" cy="30" r="6" fill="${u("st")}" stroke="${ol}"/>
+      ${gear(u, 420, 150, 46, 31, "br", 0, true)}
+      ${arrow(u, 300, 44, 380, 112)}
+      ${[[31, "31 Tage: flache Kerbe"], [30, "30 Tage: tiefer"], [28, "Februar: tief"], [29, "Februar im Schaltjahr"]].map(([k, t], i) => `<circle cx="300" cy="${206 + i * 0}" r="0"/><circle cx="${286 + (i % 2) * 150}" cy="${212 + Math.floor(i / 2) * 20}" r="4" fill="${col[k]}"/><text x="${296 + (i % 2) * 150}" y="${216 + Math.floor(i / 2) * 20}" ${F} font-size="12" fill="${fg}">${t}</text>`).join("")}
+      ${lab(240, 22, "Fühlhebel tastet die Kerbe", "end")}
+      ${lab(420, 92, "Datumsstern (31 Zähne)", "middle")}
+      ${lab(140, 244, "Programmrad: 48 Monate", "middle")}`; }),
+    gmt: () => svg(540, 240, u => `
+      <g filter="${u("sh")}"><circle cx="140" cy="120" r="104" fill="${u("st")}" stroke="${ol}"/>
+      <path d="M140 120 L${f(P(140, 120, 270, 98)[0])} ${f(P(140, 120, 270, 98)[1])} A98 98 0 0 1 ${f(P(140, 120, 90, 98)[0])} ${f(P(140, 120, 90, 98)[1])}Z" fill="#c8243c"/><path d="M140 120 L${f(P(140, 120, 90, 98)[0])} ${f(P(140, 120, 90, 98)[1])} A98 98 0 0 1 ${f(P(140, 120, 270, 98)[0])} ${f(P(140, 120, 270, 98)[1])}Z" fill="#1f3f9a"/>
+      <circle cx="140" cy="120" r="78" fill="${u("sk")}"/></g>
+      ${Array.from({ length: 12 }, (_, i) => { const [x, y] = P(140, 120, i * 30, 88), h = (i * 2 + 24) % 24; return `<text x="${f(x)}" y="${f(y + 4)}" text-anchor="middle" ${F} font-size="10" font-weight="700" fill="#fff">${h === 0 ? "▼" : h}</text>`; }).join("")}
+      ${Array.from({ length: 12 }, (_, i) => { const [x, y] = P(140, 120, i * 30, 68); return `<circle cx="${f(x)}" cy="${f(y)}" r="3.4" fill="#e9f7ee" filter="${u("gl")}"/>`; }).join("")}
+      <path d="M140 120 L${f(P(140, 120, 150, 50)[0])} ${f(P(140, 120, 150, 50)[1])}" stroke="#e8edf3" stroke-width="6" stroke-linecap="round"/>
+      <path d="M140 120 L${f(P(140, 120, 40, 66)[0])} ${f(P(140, 120, 40, 66)[1])}" stroke="#e8edf3" stroke-width="4" stroke-linecap="round"/>
+      <g filter="${u("gl")}"><path d="M140 120 L${f(P(140, 120, 75, 92)[0])} ${f(P(140, 120, 75, 92)[1])}" stroke="#ff5a5a" stroke-width="2.4"/><path d="M${f(P(140, 120, 75, 92)[0])} ${f(P(140, 120, 75, 92)[1])} l-9 -2 l3 8z" fill="#ff5a5a"/></g>
+      <circle cx="140" cy="120" r="5" fill="#e8edf3"/>
+      ${arc(u, 140, 120, 58, 120, 180, true)}
+      ${lab(290, 40, "24-Stunden-Lünette: Tag rot, Nacht blau", "start", 226, 70)}
+      ${lab(290, 88, "GMT-Zeiger: eine Runde in 24 Stunden,", "start", 222, 98)}${lab(290, 104, "zeigt die Heimatzeit", "start")}
+      ${lab(290, 152, "Stundenzeiger springt auf Reisen", "start", 172, 152)}${lab(290, 168, "einzeln in ganzen Stunden", "start")}
+      ${note(140, 236, "Minute, Sekunde und GMT-Zeiger laufen weiter")}`),
+    minutenrepetition: () => svg(560, 250, u => {
+      const seq = [["t", 3], ["d", 3], ["h", 7]]; let x = 300, dots = "";
+      seq.forEach(([k, n]) => { for (let i = 0; i < n; i++) { if (k === "d") { dots += `<circle cx="${x}" cy="186" r="6" fill="#d8b056" filter="${u("gl")}"/><circle cx="${x + 9}" cy="176" r="6" fill="${ac}" filter="${u("gl")}"/>`; x += 22; } else { dots += `<circle cx="${x}" cy="${k === "t" ? 192 : 172}" r="6" fill="${k === "t" ? "#d8b056" : ac}" filter="${u("gl")}"/>`; x += 16; } } x += 10; });
+      return `<circle cx="130" cy="125" r="104" fill="${u("pl")}" stroke="${ol}"/>
+      <path d="M${f(P(130, 125, 200, 96)[0])} ${f(P(130, 125, 200, 96)[1])} A96 96 0 1 1 ${f(P(130, 125, 160, 96)[0])} ${f(P(130, 125, 160, 96)[1])}" fill="none" stroke="${u("st")}" stroke-width="3.5"/>
+      <path d="M${f(P(130, 125, 205, 88)[0])} ${f(P(130, 125, 205, 88)[1])} A88 88 0 1 1 ${f(P(130, 125, 155, 88)[0])} ${f(P(130, 125, 155, 88)[1])}" fill="none" stroke="${u("br")}" stroke-width="3.5"/>
+      <g filter="${u("sh")}"><path d="M100 196 L118 160" stroke="${u("st")}" stroke-width="7" stroke-linecap="round"/><path d="M160 196 L142 160" stroke="${u("st")}" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="130" cy="96" r="30" fill="${u("st")}" stroke="${ol}"/><circle cx="130" cy="96" r="20" fill="${u("br")}" stroke="${ol}"/><circle cx="130" cy="96" r="5" fill="${u("st")}"/></g>
+      <rect x="232" y="100" width="14" height="50" rx="5" fill="${u("st")}" stroke="${ol}"/>${arrow(u, 252, 108, 252, 142)}
+      ${dots}
+      ${lab(300, 40, "Tonfedern: tief für Stunden,", "start", 222, 80)}${lab(300, 56, "hoch für Minuten", "start")}
+      ${lab(300, 92, "Hämmer schlagen auf die Tonfedern", "start", 150, 170)}
+      ${lab(300, 128, "Schieber spannt die Schlagwerksfeder", "start", 246, 120)}
+      ${lab(300, 220, "So klingt 3:52 Uhr: 3 tief, 3 doppelt, 7 hoch", "start")}
+      ${lab(130, 30, "Staffeln lesen die Uhrzeit", "middle", 130, 66)}`; }),
+    "co-axial": () => svg(540, 230, u => `
+      <g filter="${u("sh")}" class="dg-tick" style="transform-origin:110px 120px">${gear(u, 110, 120, 70, 15, "st", 14, false)}${(() => { let d = ""; for (let i = 0; i < 3; i++) { const a = i * 120; const [x, y] = P(110, 120, a, 40); d += `<circle cx="${f(x)}" cy="${f(y)}" r="9" fill="${u("br")}" stroke="${ol}"/>`; } return d; })()}<circle cx="110" cy="120" r="30" fill="${u("br")}" opacity=".85" stroke="${ol}"/>${jewel(u, 110, 120, 4)}</g>
+      <g filter="${u("sh")}" class="dg-rock" style="transform-origin:236px 90px"><path d="M182 60 L236 90 L194 150 M236 90 L320 112" fill="none" stroke="${u("st")}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><rect x="172" y="52" width="11" height="17" rx="1.5" fill="${u("ru")}" transform="rotate(28 177 60)"/><rect x="188" y="142" width="11" height="17" rx="1.5" fill="${u("ru")}" transform="rotate(-38 193 150)"/><rect x="214" y="100" width="10" height="15" rx="1.5" fill="${u("ru")}" transform="rotate(-10 219 107)"/><circle cx="236" cy="90" r="6" fill="${u("st")}" stroke="${ol}"/></g>
+      <g filter="${u("sh")}">${balance(u, 400, 118, 64)}<circle cx="370" cy="132" r="12" fill="${u("st")}" stroke="${ol}"/>${jewel(u, 362, 128, 3.4)}</g>
+      ${arrow(u, 160, 170, 352, 140)}
+      ${lab(110, 224, "Hemmungsrad in zwei Etagen", "middle")}
+      ${lab(240, 24, "Anker mit drei Paletten", "middle", 236, 84)}
+      ${lab(400, 224, "Unruh mit Impulsrolle", "middle", 370, 132)}
+      ${note(260, 200, "Stoß statt Gleiten: kaum Reibung, wenig Öl")}`),
+    "spring-drive": () => svg(560, 230, u => `
+      <g filter="${u("sh")}">${gear(u, 60, 110, 44, 40, "br", 3, false)}</g><circle cx="60" cy="110" r="38" fill="${u("dk")}" opacity=".45"/>${spiral(u, 60, 110, 6, 34, 5, "st", 1.6)}
+      ${gear(u, 150, 96, 22, 22, "br")}${gear(u, 205, 120, 16, 18, "st")}
+      <g class="dg-spin" style="transform-origin:285px 110px">${gear(u, 285, 110, 34, 40, "st", 2)}<circle cx="285" cy="110" r="20" fill="${u("dk")}"/>${[0, 90, 180, 270].map(a => { const [x, y] = P(285, 110, a, 13); return `<circle cx="${f(x)}" cy="${f(y)}" r="5" fill="${a % 180 ? "#2a54b8" : "#c8243c"}"/>`; }).join("")}</g>
+      <rect x="338" y="86" width="48" height="48" rx="6" fill="${u("dk")}"/>${Array.from({ length: 8 }, (_, i) => `<ellipse cx="${344 + i * 5}" cy="110" rx="2.4" ry="20" fill="none" stroke="${u("cu")}" stroke-width="2"/>`).join("")}
+      <rect x="420" y="86" width="54" height="48" rx="4" fill="#1d222a"/><text x="447" y="114" text-anchor="middle" ${F} font-size="10" fill="#9aa4b1">IC</text>
+      <rect x="492" y="88" width="30" height="44" rx="14" fill="${u("st")}" stroke="${ol}"/><path d="M500 124V100h14v24M507 100v-6" fill="none" stroke="${u("qz")}" stroke-width="4"/>
+      ${[[104, 128], [172, 190], [222, 252], [320, 338], [386, 420], [474, 492]].map(([a, b]) => `<path d="M${a} 110H${b - 4}" stroke="${mu}" stroke-width="1.3"/>`).join("")}
+      <g filter="${u("gl")}"><path d="M447 140 V186 H285 V150" fill="none" stroke="${ac}" stroke-width="2" stroke-dasharray="5 4"/>${head(285, 150, -90)}</g>
+      ${lab(60, 178, "Zugfeder", "middle")}${lab(180, 178, "Räderwerk", "middle")}${lab(285, 52, "Gleitrad mit Magneten", "middle")}${lab(362, 160, "Spule", "middle")}${lab(447, 72, "Schaltkreis", "middle")}${lab(507, 160, "Quarz", "middle")}
+      ${note(366, 206, "elektromagnetische Bremse hält das Gleitrad im Quarztakt")}`),
+    unruhspirale: () => svg(560, 220, u => `
+      <g filter="${u("sh")}">${spiral(u, 110, 110, 8, 70, 9, "bl", 2)}</g><circle cx="110" cy="110" r="7" fill="${u("st")}" stroke="${ol}"/><rect x="${f(P(110, 110, 9 * 360, 70)[0] - 4)}" y="${f(P(110, 110, 9 * 360, 70)[1] - 4)}" width="8" height="8" fill="${u("st")}" stroke="${ol}"/>
+      <rect x="300" y="148.5" width="220" height="3" rx="1.5" fill="${u("bl")}" filter="${u("sh")}"/><rect x="300" y="138.5" width="220" height="3" rx="1.5" fill="${u("bl")}" opacity=".75"/>
+      <path d="M520 140 C536 140 536 120 520 116 L380 112 C360 112 352 118 348 126" fill="none" stroke="#2a54b8" stroke-width="3" stroke-linecap="round" filter="${u("gl")}"/>
+      <circle cx="348" cy="126" r="5" fill="${u("st")}" stroke="${ol}"/>
+      ${lab(110, 210, "Draufsicht: flache Spirale", "middle")}
+      ${lab(410, 74, "Breguet-Endkurve: letzte Windung", "middle", 450, 114)}${lab(410, 90, "nach oben und innen gebogen", "middle")}
+      ${lab(410, 190, "Seitenansicht", "middle")}
+      ${note(280, 22, "die Endkurve lässt die Spirale gleichmäßig um ihre Mitte atmen")}`),
+    konstantkraft: () => svg(560, 220, u => {
+      let cone = "", grooves = "";
+      for (let i = 0; i <= 8; i++) { const x = 300 + i * 22, r = 18 + i * 6; grooves += `<path d="M${x} ${110 - r}V${110 + r}" stroke="${ol}" stroke-width=".6"/>`; }
+      cone = `<path d="M300 92 L476 62 L476 158 L300 128 Z" fill="${u("br")}" stroke="${ol}"/>`;
+      return `<g filter="${u("sh")}"><rect x="40" y="50" width="120" height="120" rx="10" fill="${u("br")}" stroke="${ol}"/>${cone}${grooves}</g>
+      <path d="M100 50 C180 40 250 70 476 62" fill="none" stroke="${u("st")}" stroke-width="3.5" stroke-dasharray="6 2"/>
+      <path d="M100 170 C200 180 240 140 300 128" fill="none" stroke="${u("st")}" stroke-width="3.5" stroke-dasharray="6 2" opacity=".55"/>
+      ${arrow(u, 476, 40, 300, 40)}
+      ${lab(100, 200, "Federhaus", "middle")}${lab(388, 200, "Schnecke (Fusée)", "middle")}
+      ${lab(200, 32, "Kette", "middle", 200, 52)}
+      ${note(388, 22, "volle Feder zieht am kleinen Radius, schwache am großen")}`; }),
+    grossdatum: () => svg(540, 230, u => `
+      <rect x="30" y="20" width="260" height="190" rx="18" fill="${u("pl")}" stroke="${ol}"/>
+      <g filter="${u("sh")}"><circle cx="210" cy="96" r="70" fill="${u("st")}" stroke="${ol}"/>${Array.from({ length: 10 }, (_, i) => { const [x, y] = P(210, 96, i * 36, 50); return `<text x="${f(x)}" y="${f(y + 7)}" text-anchor="middle" ${F} font-size="20" font-weight="700" fill="#2b2f36" transform="rotate(${i * 36} ${f(x)} ${f(y)})">${i}</text>`; }).join("")}</g>
+      <g filter="${u("sh")}"><path d="M110 96 m-12 -56 h24 v44 h44 v24 h-44 v44 h-24 v-44 h-44 v-24 h44z" fill="${u("st")}" stroke="${ol}"/>${[["1", 0, -44], ["2", 44, 12], ["3", 0, 56], ["0", -44, 12]].map(([t, dx, dy]) => `<text x="${110 + dx}" y="${96 + dy}" text-anchor="middle" ${F} font-size="20" font-weight="700" fill="#2b2f36">${t}</text>`).join("")}</g>
+      <rect x="92" y="28" width="134" height="40" rx="6" fill="none" stroke="${ac}" stroke-width="2.4" filter="${u("gl")}"/>
+      ${lab(330, 52, "Fenster zeigt den 10.:", "start", 228, 48)}${lab(330, 68, "Zehnerkreuz links, Einer rechts", "start")}
+      ${lab(330, 120, "Einerscheibe 0 bis 9", "start", 268, 120)}
+      ${lab(330, 168, "Zehnerkreuz 0 bis 3", "start", 140, 150)}
+      ${note(160, 226, "beide Scheiben liegen in einer Ebene")}`),
+    retrograde: () => svg(540, 230, u => `
+      <path d="M${f(P(150, 150, -70, 110)[0])} ${f(P(150, 150, -70, 110)[1])} A110 110 0 0 1 ${f(P(150, 150, 70, 110)[0])} ${f(P(150, 150, 70, 110)[1])}" fill="none" stroke="${u("st")}" stroke-width="10" stroke-linecap="round"/>
+      ${[1, 5, 10, 15, 20, 25, 31].map(n => { const a = -70 + (n - 1) / 30 * 140, [x, y] = P(150, 150, a, 126); return `<text x="${f(x)}" y="${f(y + 4)}" text-anchor="middle" ${F} font-size="11" fill="${mu}">${n}</text>`; }).join("")}
+      <g class="dg-retro" style="transform-origin:150px 150px"><path d="M150 150 L150 50" stroke="#2a54b8" stroke-width="3.5" stroke-linecap="round" filter="${u("gl")}"/></g><circle cx="150" cy="150" r="6" fill="${u("st")}" stroke="${ol}"/>
+      ${arc(u, 150, 150, 92, 60, -60)}
+      <g filter="${u("sh")}"><path d="M380 150 ${Array.from({ length: 41 }, (_, i) => { const a = i * 9, r = 22 + i * .7, [x, y] = P(380, 150, a, r); return `L${f(x)} ${f(y)}`; }).join(" ")} L380 ${150 - 22}Z" fill="${u("br")}" stroke="${ol}"/><circle cx="380" cy="150" r="5" fill="${u("st")}"/></g>
+      <path d="M300 60 L${f(P(380, 150, 0, 50)[0])} ${f(P(380, 150, 0, 50)[1]) - 4}" stroke="${u("st")}" stroke-width="5" stroke-linecap="round" filter="${u("sh")}"/><circle cx="300" cy="60" r="5" fill="${u("st")}" stroke="${ol}"/>
+      ${lab(150, 222, "Zeiger läuft über den Bogen", "middle")}
+      ${lab(380, 222, "Schnecke mit Stufe", "middle")}
+      ${lab(430, 56, "Fühlhebel fällt über", "start", 362, 100)}${lab(430, 72, "die Stufe, der Zeiger", "start")}${lab(430, 88, "springt zurück", "start")}`),
+    weltzeit: () => svg(540, 250, u => {
+      const cities = ["London", "Paris", "Kairo", "Moskau", "Dubai", "Karachi", "Dhaka", "Bangkok", "Hongkong", "Tokio", "Sydney", "Nouméa", "Auckland", "Midway", "Honolulu", "Anchorage", "Los Angeles", "Denver", "Chicago", "New York", "Caracas", "Rio", "Azoren", "Kap Verde"];
+      return `<g filter="${u("sh")}"><circle cx="140" cy="125" r="112" fill="${u("st")}" stroke="${ol}"/></g>
+      ${cities.map((c, i) => { const a = i * 15; return `<text ${F} font-size="6.8" fill="#2b2f36" text-anchor="middle" transform="rotate(${a} 140 125) translate(140 ${125 - 102})">${c}</text>`; }).join("")}
+      <circle cx="140" cy="125" r="94" fill="${u("sk")}"/>
+      <path d="M140 125 L${f(P(140, 125, 90, 94)[0])} ${f(P(140, 125, 90, 94)[1])} A94 94 0 0 1 ${f(P(140, 125, 270, 94)[0])} ${f(P(140, 125, 270, 94)[1])}Z" fill="#f2d27a" opacity=".85"/>
+      <circle cx="140" cy="125" r="76" fill="${u("pl")}"/>
+      ${Array.from({ length: 24 }, (_, i) => { const [x, y] = P(140, 125, i * 15, 85); return `<text x="${f(x)}" y="${f(y + 3)}" text-anchor="middle" ${F} font-size="7.5" font-weight="700" fill="${i >= 6 && i <= 18 ? "#5a4310" : "#e6ecf5"}">${(i + 12) % 24 || 24}</text>`; }).join("")}
+      <path d="M140 125 L${f(P(140, 125, 300, 44)[0])} ${f(P(140, 125, 300, 44)[1])}" stroke="#2b2f36" stroke-width="5" stroke-linecap="round"/><path d="M140 125 L140 62" stroke="#2b2f36" stroke-width="3" stroke-linecap="round"/><circle cx="140" cy="125" r="5" fill="#2b2f36"/>
+      <rect x="${f(P(140, 125, 300, 114)[0] - 7)}" y="${f(P(140, 125, 300, 114)[1] - 7)}" width="14" height="14" rx="3" fill="${u("st")}" stroke="${ol}" transform="rotate(-60 ${f(P(140, 125, 300, 114)[0])} ${f(P(140, 125, 300, 114)[1])})"/>
+      ${lab(290, 40, "Städtering: 24 Zeitzonen", "start", 214, 50)}
+      ${lab(290, 92, "24-Stunden-Ring mit Tag (hell)", "start", 224, 112)}${lab(290, 108, "und Nacht (dunkel)", "start")}
+      ${lab(290, 170, "Drücker bei 10 Uhr: Stunde,", "start", 46, 70)}${lab(290, 186, "Städte- und 24-h-Ring springen", "start")}${lab(290, 202, "gemeinsam um eine Zone weiter", "start")}`; }),
+    tachymeter: () => svg(540, 250, u => {
+      const vals = [500, 400, 300, 250, 200, 180, 160, 140, 120, 110, 100, 90, 80, 75, 70, 65, 60]; const ang = s => s * 6;
+      return `<g filter="${u("sh")}"><circle cx="140" cy="125" r="112" fill="#1d222a"/><circle cx="140" cy="125" r="88" fill="${u("st")}"/></g>
+      ${vals.map(v => { const s = 3600 / v, a = ang(s), [x1, y1] = P(140, 125, a, 108), [x2, y2] = P(140, 125, a, 101), [x, y] = P(140, 125, a, 94); return `<path d="M${f(x1)} ${f(y1)}L${f(x2)} ${f(y2)}" stroke="#fff" stroke-width="1.4"/>`; }).join("")}
+      ${[500, 300, 200, 150, 120, 100, 90, 80, 70, 60].map(v => { const a = ang(3600 / v), [x, y] = P(140, 125, a, 96); return `<text ${F} font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle" transform="rotate(${f(a)} ${f(x)} ${f(y)})" x="${f(x)}" y="${f(y) + 3}">${v}</text>`; }).join("")}
+      ${Array.from({ length: 60 }, (_, i) => { const [x1, y1] = P(140, 125, i * 6, 86), [x2, y2] = P(140, 125, i * 6, i % 5 ? 82 : 78); return `<path d="M${f(x1)} ${f(y1)}L${f(x2)} ${f(y2)}" stroke="#2b2f36" stroke-width="${i % 5 ? .6 : 1.4}"/>`; }).join("")}
+      <path d="M140 125 L${f(P(140, 125, 270, 22)[0])} ${f(P(140, 125, 270, 22)[1])}" stroke="#c8243c" stroke-width="2.4"/>
+      <g filter="${u("gl")}"><path d="M140 125 L${f(P(140, 125, 270, 104)[0])} ${f(P(140, 125, 270, 104)[1])}" stroke="#ff4d5e" stroke-width="2.4" stroke-linecap="round"/></g><circle cx="140" cy="125" r="5" fill="#c8243c"/>
+      ${arc(u, 140, 125, 70, 0, 265)}
+      ${lab(290, 60, "Start am Kilometerstein,", "start")}${lab(290, 76, "Stopp am nächsten", "start")}
+      ${lab(290, 120, "nach 45 Sekunden steht", "start", 42, 125)}${lab(290, 136, "der Zeiger auf 80 km/h", "start")}
+      ${lab(290, 190, "Formel: 3.600 ÷ Sekunden", "start")}`; }),
+    antimagnetisch: () => svg(560, 230, u => {
+      const lines = Array.from({ length: 7 }, (_, i) => { const y = 40 + i * 25, dy = y - 115, bend = Math.abs(dy) < 70 ? (dy >= 0 ? 1 : -1) * (72 - Math.abs(dy)) * .9 : 0; return `<path d="M260 ${y} C320 ${y} ${340} ${y + bend} 400 ${y + bend} S480 ${y} 540 ${y}" fill="none" stroke="${ac}" stroke-width="1.4" opacity=".8" filter="${u("gl")}"/>`; }).join("");
+      return `${Array.from({ length: 7 }, (_, i) => `<path d="M10 ${40 + i * 25} H230" stroke="${ac}" stroke-width="1.4" opacity=".8" filter="${u("gl")}"/>`).join("")}
+      <g filter="${u("sh")}">${spiral(u, 120, 115, 6, 46, 6, "bl", 2)}</g>
+      <circle cx="120" cy="115" r="56" fill="none" stroke="#c8243c" stroke-width="2" stroke-dasharray="4 3"/>
+      ${lines}
+      <g filter="${u("sh")}"><circle cx="400" cy="115" r="62" fill="none" stroke="${u("dk")}" stroke-width="12"/>${spiral(u, 400, 115, 5, 40, 6, "bl", 2)}</g>
+      ${lab(120, 210, "ohne Schutz: Feld geht durchs Werk,", "middle")}${lab(120, 226, "Spiralwindungen haften aneinander", "middle")}
+      ${lab(400, 210, "Weicheisen-Innengehäuse lenkt", "middle")}${lab(400, 226, "die Feldlinien um das Werk herum", "middle")}`; }),
+    mikrorotor: () => svg(560, 220, u => `
+      <rect x="30" y="110" width="210" height="34" rx="6" fill="${u("pl")}" stroke="${ol}"/>${gear(u, 80, 127, 12, 14, "br")}${gear(u, 120, 127, 9, 12, "st")}
+      <rect x="20" y="78" width="230" height="20" rx="6" fill="${u("br")}" stroke="${ol}" filter="${u("sh")}"/><rect x="132.5" y="98" width="5" height="12" fill="${u("st")}" stroke="${ol}" stroke-width=".5"/>
+      <path d="M20 66 H250" stroke="${mu}" stroke-dasharray="3 3"/><path d="M20 152 H250" stroke="${mu}" stroke-dasharray="3 3"/>
+      <rect x="300" y="110" width="210" height="34" rx="6" fill="${u("pl")}" stroke="${ol}"/>${gear(u, 340, 127, 12, 14, "br")}${gear(u, 378, 127, 9, 12, "st")}
+      <rect x="420" y="112" width="74" height="30" rx="8" fill="${u("br")}" stroke="${ol}" filter="${u("sh")}"/><circle cx="457" cy="127" r="5" fill="${u("st")}"/>
+      <path d="M290 100 H520" stroke="${mu}" stroke-dasharray="3 3"/><path d="M290 152 H520" stroke="${mu}" stroke-dasharray="3 3"/>
+      ${lab(135, 188, "Zentralrotor liegt über dem Werk", "middle")}${lab(135, 204, "und macht es höher", "middle")}
+      ${lab(405, 188, "Mikrorotor sitzt versenkt", "middle")}${lab(405, 204, "in der Werkebene", "middle")}
+      ${lab(457, 70, "schwerer Rotor aus Gold oder Platin", "middle", 457, 112)}
+      ${note(280, 22, "Seitenansicht")}`),
+    funkuhr: () => svg(560, 200, u => {
+      const bits = [0, 1, 0, 0, 1, 1, 0, 1, 0, 1]; let d = "M20 70";
+      bits.forEach((b, i) => { const x = 20 + i * 52, w = b ? 10.4 : 5.2; d += ` L${x} 70 L${x} 110 L${x + w} 110 L${x + w} 70`; }); d += " L540 70";
+      return `<g filter="${u("gl")}"><path d="${d}" fill="none" stroke="${ac}" stroke-width="2"/></g>
+      ${bits.map((b, i) => `<text x="${20 + i * 52 + 26}" y="138" text-anchor="middle" ${F} font-size="14" font-weight="700" fill="${b ? ac : mu}">${b}</text>`).join("")}
+      ${lab(20, 40, "Zu Beginn jeder Sekunde wird das Signal kurz abgesenkt:", "start")}
+      ${lab(20, 170, "0,1 Sekunden bedeuten 0, 0,2 Sekunden bedeuten 1", "start")}
+      ${lab(20, 190, "59 Bits pro Minute ergeben Uhrzeit und Datum", "start")}`; }),
+    rattrapante: () => svg(540, 240, u => `
+      <g filter="${u("sh")}"><circle cx="140" cy="125" r="108" fill="${u("st")}" stroke="${ol}"/><circle cx="140" cy="125" r="96" fill="${u("sk")}"/></g>
+      ${Array.from({ length: 60 }, (_, i) => { const [x1, y1] = P(140, 125, i * 6, 94), [x2, y2] = P(140, 125, i * 6, i % 5 ? 89 : 84); return `<path d="M${f(x1)} ${f(y1)}L${f(x2)} ${f(y2)}" stroke="#dfe7f2" stroke-width="${i % 5 ? .7 : 1.5}"/>`; }).join("")}
+      <g filter="${u("gl")}"><path d="M140 125 L${f(P(140, 125, 132, 90)[0])} ${f(P(140, 125, 132, 90)[1])}" stroke="#ff4d5e" stroke-width="2.4" stroke-linecap="round"/></g>
+      <path d="M140 125 L${f(P(140, 125, 200, 90)[0])} ${f(P(140, 125, 200, 90)[1])}" stroke="#f2d27a" stroke-width="2.4" stroke-linecap="round" filter="${u("gl")}"/>
+      <circle cx="140" cy="125" r="6" fill="#f2d27a"/>
+      ${arc(u, 140, 125, 66, 132, 196)}
+      <rect x="${f(P(140, 125, 300, 116)[0] - 7)}" y="${f(P(140, 125, 300, 116)[1] - 7)}" width="14" height="14" rx="3" fill="${u("st")}" stroke="${ol}"/>
+      ${lab(290, 50, "Schleppzeiger angehalten:", "start", 214, 70)}${lab(290, 66, "zeigt die Zwischenzeit", "start")}
+      ${lab(290, 120, "Hauptzeiger läuft weiter", "start", 170, 178)}
+      ${lab(290, 170, "Drücker bei 10 Uhr: anhalten", "start", 40, 70)}${lab(290, 186, "und wieder aufholen lassen", "start")}`),
+    schlagzahl: () => svg(560, 220, u => [[2.5, "18.000 A/h · 2,5 Hz"], [4, "28.800 A/h · 4 Hz"], [5, "36.000 A/h · 5 Hz"]].map(([hz, t], i) => {
+      const y = 50 + i * 62, n = Math.round(hz * 2); let d = `M140 ${y}`;
+      for (let k = 0; k <= 400; k += 2) { const x = 140 + k, ph = k / 400 * hz * 2 * Math.PI; d += ` L${x} ${f(y - 16 * Math.sin(ph))}`; }
+      const ticks = Array.from({ length: n + 1 }, (_, k) => `<circle cx="${f(140 + k * 400 / n)}" cy="${y}" r="3" fill="${ac}"/>`).join("");
+      return `<text x="20" y="${y + 4}" ${F} font-size="12.5" font-weight="600" fill="${fg}">${t}</text><path d="${d}" fill="none" stroke="${u("bl")}" stroke-width="2" filter="${u("gl")}"/>${ticks}`; }).join("") + `<path d="M140 206 H540" stroke="${mu}"/><text x="140" y="218" ${F} font-size="11" fill="${mu}">0</text><text x="540" y="218" text-anchor="end" ${F} font-size="11" fill="${mu}">1 Sekunde</text>`),
+    solarwerk: () => svg(560, 200, u => `
+      <circle cx="50" cy="50" r="22" fill="#f6c84c" filter="${u("gl")}"/>${Array.from({ length: 8 }, (_, i) => { const [x1, y1] = P(50, 50, i * 45, 28), [x2, y2] = P(50, 50, i * 45, 38); return `<path d="M${f(x1)} ${f(y1)}L${f(x2)} ${f(y2)}" stroke="#f6c84c" stroke-width="2.4" stroke-linecap="round"/>`; }).join("")}
+      ${[0, 1, 2].map(i => arrow(u, 80 + i * 10, 70 + i * 8, 150 + i * 10, 104 + i * 8)).join("")}
+      <rect x="140" y="110" width="200" height="16" rx="4" fill="#e9e3d2" opacity=".75" stroke="${ol}"/>
+      <rect x="140" y="130" width="200" height="16" rx="3" fill="${u("bl")}" stroke="${ol}"/>${Array.from({ length: 9 }, (_, i) => `<path d="M${160 + i * 20} 130v16" stroke="#cfe0ff" stroke-width=".7"/>`).join("")}
+      <rect x="380" y="118" width="46" height="34" rx="6" fill="${u("st")}" stroke="${ol}" filter="${u("sh")}"/><rect x="384" y="122" width="26" height="26" rx="3" fill="#6fd08a" filter="${u("gl")}"/>
+      ${gear(u, 480, 135, 22, 22, "br")}
+      ${arrow(u, 342, 138, 376, 136)}${arrow(u, 428, 135, 454, 135)}
+      ${lab(240, 100, "lichtdurchlässiges Zifferblatt", "middle")}
+      ${lab(240, 174, "Solarzellen", "middle", 240, 146)}
+      ${lab(403, 182, "Akku", "middle")}${lab(480, 182, "Quarzwerk", "middle")}`)
   };
 })();
 
@@ -1503,7 +1794,8 @@ function lexFigures(e) {
   const inline = {};
   rest = rest.filter(m => { const at = (fg.at || [])[m[2]]; if (!at) return true; inline[at] = (inline[at] || "") + `<div class="lexfig inlinefig">${modelFig(m)}</div>`; return false; });
   return {
-    top: top ? `<div class="lexfig topfig">${top}</div>` : "",
+    top: top ? `<div class="lexfig ${fg.d && DG[fg.d] ? "dgfig" : "topfig"}">${top}</div>` : "",
+    dg: !!(fg.d && DG[fg.d]), // Schemazeichnung: volle Breite unter dem Einleitungssatz
     inline,
     rest: rest.length ? `<div class="gallery gallery-inline">${rest.map(modelFig).join("")}</div>` : ""
   };
@@ -1806,11 +2098,12 @@ function viewEntry(e) {
   const lxBtns = k => lxAt[k] ? `<div class="lexlinks">${lxAt[k].map(id => `<a class="lexbtn" href="#${id}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 016.5 3H20v15H6.5A2.5 2.5 0 004 20.5v-15zM4 20.5A2.5 2.5 0 016.5 23H20v-5"/></svg><span>Lexikon</span>${esc(byId[id].t.split(": ").pop())}</a>`).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
-      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption>${imgNote(e.bd)}</figure>`) : LF.top}
+      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption>${imgNote(e.bd)}</figure>`) : (LF.dg ? "" : LF.top)}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}${favBtn(e.id)}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
       <p class="lead">${esc(e.s)}</p>
+      ${LF && LF.dg ? LF.top : ""}
       ${(() => {
         const H = (key, title) => `<h3 class="art-h" id="sec-${key}">${title}</h3>`;
         const P = (arr, sec, off = 0) => arr.map((p, k) => `<p>${linkify(esc(p), e.id, used)}</p>` + ((sec && LF && LF.inline[sec + (off + k)]) || "")).join("");

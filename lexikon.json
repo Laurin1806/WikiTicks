@@ -47,7 +47,9 @@
     "Handaufzug aus Glashütte",
     "Schlichter Handaufzug",
     "Handaufzug-Chronograph"
-   ]
+   ],
+   "d": "handaufzug",
+   "dc": "Vom Drehen der Krone bis zur Zugfeder: Kupplungstrieb, Kronrad und Sperrrad mit Klinke."
   },
   "g": [
    "Die Zugfeder als Antrieb tragbarer Uhren kam im 15. Jahrhundert auf. Zu den frühen Uhrmachern, die federgetriebene Taschenuhren bauten, zählt Peter Henlein aus Nürnberg zu Beginn des 16. Jahrhunderts.",
@@ -383,7 +385,9 @@
     "Gangreserveanzeige bei 3 Uhr",
     "Sieben Tage Gangreserve",
     "Anzeige »AUF/AB«"
-   ]
+   ],
+   "d": "gangreserve",
+   "dc": "Zwei Federhäuser hintereinander verlängern die Laufzeit; die Anzeige zeigt, wie viel Kraft noch übrig ist."
   },
   "g": [
    "Frühe Taschenuhren liefen meist etwa 30 Stunden und mussten jeden Tag aufgezogen werden. Anfang des 20. Jahrhunderts kamen Taschenuhren mit acht Tagen Laufzeit auf, die mit einer besonders langen Zugfeder arbeiteten.",
@@ -452,7 +456,9 @@
    "mc": [
     "36.000 A/h, misst Zehntelsekunden",
     "36.000 A/h mit 80 h Gangreserve"
-   ]
+   ],
+   "d": "schlagzahl",
+   "dc": "Je höher die Frequenz, desto mehr Schritte macht die Unruh pro Sekunde."
   },
   "g": [
    "Taschenuhren schwangen lange mit 18.000 Halbschwingungen pro Stunde. In den 1960er-Jahren begann ein Wettlauf um höhere Frequenzen, weil schnellere Unruhen bei den Präzisionswettbewerben der Sternwarten besser abschnitten.",
@@ -579,7 +585,9 @@
     "Klassischer Handaufzug-Chronograph",
     "Chronograph mit Tachymeterlünette",
     "Chronograph mit Rechenschieber"
-   ]
+   ],
+   "d": "chronograph",
+   "dc": "Klassischer Chronograph: Das Kupplungsrad verbindet das laufende Werk mit dem Chronographenrad, der Hammer stellt über die Herzscheibe auf null."
   },
   "g": [
    "Lange galt Nicolas Rieussec als Erfinder des Chronographen. Er baute 1821 für Pferderennen ein Gerät, das die Zeit mit Tinte auf ein drehendes Zifferblatt schrieb, und patentierte es als ersten kommerziellen Chronographen. Daher kommt der Name: »Chronograph« bedeutet »Zeitschreiber«. 2013 tauchte jedoch ein Instrument von Louis Moinet aus dem Jahr 1816 auf, das schon Sechzigstelsekunden messen konnte.",
@@ -652,7 +660,9 @@
    "mc": [
     "Ref. 5740/1G mit ewigem Kalender und Mondphase",
     "Verwandt: Jahreskalender"
-   ]
+   ],
+   "d": "ewiger-kalender",
+   "dc": "Das Programmrad dreht sich in vier Jahren einmal; die Tiefe jeder Kerbe verrät die Länge des Monats."
   },
   "g": [
    "Der englische Uhrmacher Thomas Mudge baute 1762 eine der ersten Taschenuhren mit ewigem Kalender. Bei Patek Philippe entstand 1925 die erste bekannte Armbanduhr mit ewigem Kalender, ein umgebautes Damenuhrwerk.",
@@ -788,7 +798,9 @@
     "Drehbare 24-Stunden-Lünette",
     "Feste 24-Stunden-Lünette",
     "Zweite Zeitzone als Scheibe"
-   ]
+   ],
+   "d": "gmt",
+   "dc": "GMT-Uhr mit 24-Stunden-Lünette: Der zusätzliche Zeiger zeigt die Heimatzeit, der Stundenzeiger die Ortszeit."
   },
   "g": [
    "Die Abkürzung GMT steht für Greenwich Mean Time. 1884 legte eine internationale Konferenz in Washington den Nullmeridian durch Greenwich fest. Daraus entstand das System der 24 Zeitzonen.",
@@ -923,7 +935,11 @@
     "Tempo und Sicherheit",
     "Damit die Schläge in gleichmäßigem Takt kommen, bremst ein Regulator das Schlagwerk ab, früher ein Windflügel, heute meist ein Fliehkraftregler, der möglichst leise arbeiten soll. Eine Ganz-oder-gar-nicht-Sicherung sorgt dafür, dass die Uhr nur schlägt, wenn der Schieber ganz durchgezogen wurde; sonst würde sie eine falsche Zeit läuten."
    ]
-  ]
+  ],
+  "fig": {
+   "d": "minutenrepetition",
+   "dc": "Minutenrepetition: Staffeln lesen die Zeit, Hämmer schlagen sie auf zwei Tonfedern."
+  }
  },
  {
   "id": "krone",
@@ -1675,7 +1691,9 @@
    "mc": [
     "Co-Axial-Kaliber 8800",
     "Co-Axial-Kaliber 3861"
-   ]
+   ],
+   "d": "co-axial",
+   "dc": "Co-Axial-Hemmung: zweistöckiges Hemmungsrad, Anker mit drei Paletten und Impuls direkt auf die Unruh."
   },
   "g": [
    "George Daniels baute seine erste Taschenuhr mit Co-Axial-Hemmung Mitte der 1970er-Jahre und ließ die Erfindung 1980 patentieren. Zunächst wollte er sie nur für seine eigenen Uhren verwenden. Er versuchte jahrelang, die Schweizer Industrie dafür zu gewinnen, doch die Konstruktion galt als zu aufwendig.",
@@ -1815,7 +1833,9 @@
    "mc": [
     "Kaliber 240 HU mit Mikrorotor",
     "Nautilus 5740/1G, Kaliber 240 Q mit Mikrorotor"
-   ]
+   ],
+   "d": "mikrorotor",
+   "dc": "Zentralrotor und Mikrorotor im Vergleich, seitlich betrachtet."
   },
   "g": [
    "1954 stellte Büren mit dem Intra-matic das erste Automatikwerk mit Mikrorotor vor und ließ sich ein solches Werk als »Super Slender« patentieren. Ein Jahr später folgte Universal Genève mit dem Kaliber 138 SS im Polerouter, dessen Gehäuse Gérald Genta entworfen hatte.",
@@ -1952,7 +1972,9 @@
     "1.000 Gauß",
     "Weicheisen-Innengehäuse",
     "15.000 Gauß ohne Innengehäuse"
-   ]
+   ],
+   "d": "antimagnetisch",
+   "dc": "Wie ein Weicheisen-Innengehäuse Magnetfelder um das Werk herumlenkt."
   },
   "g": [
    "1930 brachte Tissot eine der ersten antimagnetischen Armbanduhren auf den Markt, mit Bauteilen aus nicht magnetischen Legierungen. Mit der Ausbreitung von Elektrizität, Radar und Röntgengeräten nach dem Zweiten Weltkrieg wurde Magnetismus zu einem echten Problem.",
@@ -2071,7 +2093,9 @@
    ],
    "mc": [
     "Spring-Drive-Kaliber 9R65"
-   ]
+   ],
+   "d": "spring-drive",
+   "dc": "Spring Drive: Eine Zugfeder treibt das Gleitrad, ein Quarz regelt es über eine elektromagnetische Bremse."
   },
   "g": [
    "Der Seiko-Ingenieur Yoshikazu Akahane hatte 1977 die Idee, eine Zugfeder mit der Genauigkeit eines Quarzes zu verbinden. Die Umsetzung scheiterte jahrelang am Stromverbrauch der Elektronik.",
@@ -2210,7 +2234,9 @@
    "mc": [
     "Tachymeter auf der Keramiklünette",
     "Tachymeter auf der Aluminiumlünette"
-   ]
+   ],
+   "d": "tachymeter",
+   "dc": "Ablesen auf der Tachymeterskala: 45 Sekunden für einen Kilometer entsprechen 80 km/h."
   },
   "g": [
    "Tachymeterskalen gab es schon auf Taschenuhren-Chronographen des frühen 20. Jahrhunderts, meist am Rand des Zifferblatts.",
@@ -2798,7 +2824,11 @@
     "Mehrere Federhäuser",
     "Für lange Gangreserven schalten Hersteller zwei oder drei Federhäuser hintereinander, für viel Kraft nebeneinander. Bei Uhren mit Schlagwerk hat das Schlagwerk oft ein eigenes Federhaus, damit das Läuten die Ganggenauigkeit nicht stört."
    ]
-  ]
+  ],
+  "fig": {
+   "d": "federhaus",
+   "dc": "Das Federhaus: Die Zugfeder treibt beim Ablaufen die Trommel mit ihrem Zahnkranz an."
+  }
  },
  {
   "id": "isochronismus",
@@ -3091,7 +3121,9 @@
    ],
    "mc": [
     "World Time Ref. 5230G mit Städte- und 24-Stunden-Ring"
-   ]
+   ],
+   "d": "weltzeit",
+   "dc": "Weltzeitsystem nach Louis Cottier mit Städtering und 24-Stunden-Ring."
   },
   "how": [
    [
@@ -3165,7 +3197,9 @@
     null,
     null,
     null
-   ]
+   ],
+   "d": "grossdatum",
+   "dc": "Großdatum aus Zehnerkreuz und Einerscheibe, beide in derselben Ebene."
   },
   "how": [
    [
@@ -3238,7 +3272,11 @@
     "Warum retrograde Anzeigen heikel sind",
     "Der Rücksprung erfolgt mit Wucht. Der Zeiger und der Rechen müssen leicht sein, und eine Bremse oder Dämpfung verhindert, dass der Zeiger zurückprallt. Auch das Stellen ist empfindlich: Bei manchen Uhren darf man die Anzeige nicht rückwärts korrigieren, weil die Mechanik dafür nicht ausgelegt ist."
    ]
-  ]
+  ],
+  "fig": {
+   "d": "retrograde",
+   "dc": "Retrograde Anzeige: Eine Schnecke führt den Zeiger über den Bogen, an der Stufe springt er zurück."
+  }
  },
  {
   "id": "sonnerie",
@@ -5360,7 +5398,11 @@
     "Das Aufholen",
     "Beim zweiten Druck öffnet sich die Zange. Der federnde Hebel drückt auf das Herz und dreht das Schleppzeigerrad so lange, bis der Hebel in der tiefsten Stelle des Herzens liegt, und genau dann steht der Schleppzeiger wieder über dem Hauptzeiger. Moderne Konstruktionen trennen beim Anhalten zusätzlich die Verbindung zum Herz, damit der Schleppzeiger kaum Energie aus dem Werk zieht."
    ]
-  ]
+  ],
+  "fig": {
+   "d": "rattrapante",
+   "dc": "Schleppzeiger-Chronograph: Ein Zeiger hält für die Zwischenzeit an, der andere läuft weiter."
+  }
  },
  {
   "id": "springende-stunde",
@@ -5582,7 +5624,9 @@
    "img": [
     null,
     "assets/watches/cartier-tank.jpg"
-   ]
+   ],
+   "d": "solarwerk",
+   "dc": "Vom Licht zur Bewegung: Solarzellen unter dem Zifferblatt laden einen Akku, der das Quarzwerk antreibt."
   },
   "g": [
    "Erste Solaruhren mit Digitalanzeige gab es Anfang der 1970er-Jahre; sie hatten sichtbare Solarzellen auf dem Zifferblatt.",
@@ -5645,7 +5689,9 @@
    "mc": [
     "Erste Funkarmbanduhr der Welt",
     "Zeitabgleich über GPS"
-   ]
+   ],
+   "d": "funkuhr",
+   "dc": "Das Zeitsignal von DCF77: kurze und lange Absenkungen stehen für Nullen und Einsen."
   },
   "g": [
    "Der Sender DCF77 verbreitet seit 1959 eine Normalfrequenz und seit 1973 einen Zeitcode.",
@@ -5717,7 +5763,11 @@
     "Temperatur und Endkurve",
     "Fast alle Metalle werden bei Wärme weicher, und die Unruh dehnt sich aus; beides würde die Uhr verlangsamen. Legierungen wie Nivarox sind so zusammengesetzt, dass ihre Elastizität bei Wärme leicht zunimmt und den Effekt ausgleicht. Die Endkurve nach Breguet sorgt zusätzlich dafür, dass die Spirale beim Schwingen gleichmäßig um ihre Mitte atmet und den Schwerpunkt der Unruh nicht zur Seite zieht."
    ]
-  ]
+  ],
+  "fig": {
+   "d": "unruhspirale",
+   "dc": "Flache Spirale und Breguet-Endkurve im Vergleich."
+  }
  },
  {
   "id": "konstantkraft",
@@ -5762,7 +5812,9 @@
    ],
    "mc": [
     "Konstantkraft für die springenden Ziffern"
-   ]
+   ],
+   "d": "konstantkraft",
+   "dc": "Kette und Schnecke: Die Kegelform gleicht die nachlassende Kraft der Zugfeder aus."
   },
   "g": [
    "Kette und Schnecke finden sich schon in Uhren des 15. Jahrhunderts; in Marinechronometern blieben sie bis ins 20. Jahrhundert Standard.",
