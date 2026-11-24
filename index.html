@@ -560,10 +560,15 @@ article .curbox { margin-top: 10px; }
 /* Marken, A–Z */
 .brandinfo { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 32px; margin: 6px 0 36px; padding: 30px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; } /* Kachel wie der Artikel des Tages */
 .brandinfo .page-title { margin-top: 0; }
-.catinfo .intro { font-size: 1.05rem; max-width: 62ch; }
-.catchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-.catchips a { font-size: 12.5px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--fg); text-decoration: none; background: var(--bg); }
-@media (hover: hover) and (pointer: fine) { .catchips a:hover { border-color: var(--accent); color: var(--accent); } }
+.pagetile { margin: 6px 0 30px; padding: 28px 30px 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; } /* Kopfbereich als Kachel wie der Artikel des Tages */
+.pagetile .page-title { margin-top: 0; }
+.pagetile .intro { font-size: 1.05rem; max-width: 64ch; }
+.pagetile .count { margin-bottom: 0; }
+.pagetile .vhead { margin-bottom: 0; }
+.pagetile .letters, .pagetile .toc { margin: 14px 0 0; }
+@media (max-width: 760px) { .pagetile { padding: 20px; } }
+.toc a { font-size: 12.5px; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 5px 12px; text-decoration: none; }
+@media (hover: hover) and (pointer: fine) { .toc a:hover { text-decoration: underline; } }
 .brandside { border-left: 1px solid var(--line); padding-left: 28px; }
 .brandinfo .facts { border-top: 0; }
 .brandinfo p { margin: 0 0 12px; max-width: 64ch; }
@@ -891,8 +896,10 @@ function viewCompare(h) {
     row("Erkennungsmerkmale", E.map(e => (e.m || []).length ? `<ul>${e.m.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "–")),
     row("Kurz gesagt", E.map(e => esc(e.s || "")))].join("");
   return crumbs([["Startseite", ""], ["Uhrenvergleich"]]) + `
+    <div class="pagetile">
     <h2 class="page-title">Uhrenvergleich</h2>
-    <p class="count">Bis zu drei Uhren nebeneinander: Grunddaten, Preise und Technik. Auswahl über die Felder oder mit »Vergleichen« auf einer Modellseite; unter dem Feld lässt sich die Ausführung wählen.</p>
+    <p class="intro">Bis zu drei Uhren nebeneinander: Grunddaten, Preise und Technik. Auswahl über die Felder oder mit »Vergleichen« auf einer Modellseite; unter dem Feld lässt sich die Ausführung wählen.</p>
+    </div>
     <datalist id="cmplist">${opts}</datalist>
     <div class="cmpwrap"><div class="cmpgrid">${[0, 1, 2].map(slot).join("")}</div>
     ${E.length ? `<table class="cmptable"><colgroup><col class="cmpk"><col><col><col></colgroup><tbody>${rows}</tbody></table>
@@ -997,7 +1004,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112560"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112561"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2039,9 +2046,13 @@ const vtoggle = () => `<div class="vtoggle" role="group" aria-label="Ansicht"><b
 function viewModels() {
   return crumbs([["Startseite", ""], ["Alle Marken"]]) +
     `
+    <div class="pagetile">
     <h2 class="page-title">Alle Marken</h2>
+    <p class="intro">Alle Marken mit ihren Modellen, von A. Lange &amp; Söhne bis Zodiac. Mit einem Tipp auf eine Marke kommst du zu Geschichte, Grunddaten und allen Modellen.</p>
     <div class="vhead"><div>
     <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(MODELS.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
+    <div class="toc catchips">${BRANDS.map(b => `<a href="#marke-${slug(b)}">${esc(b)}</a>`).join("")}</div>
+    </div>
     ${listMode ? brandList() : `<div class="grid">${BRANDS.map(b => {
       const ms = MODELS.filter(e => e.brand === b), info = BRAND_INFO[b];
       return `
@@ -2098,11 +2109,12 @@ function viewBrand(b) {
 function viewCategory(c) {
   const list = LEX.filter(e => e.c === c).sort((a, b) => a.t.localeCompare(b.t, "de"));
   return crumbs([["Lexikon", "a-z"], [c]]) + `
-    <div class="brandinfo catinfo"><div>
+    <div class="pagetile">
       <h2 class="page-title">${esc(c)}</h2>
       <p class="intro">${esc(CAT_INTRO[c] || "")}</p>
       <p class="count">${plural(list.length, "Begriff", "Begriffe")}</p>
-    </div><div class="brandside"><div class="label">Alle Begriffe</div><div class="catchips">${list.map(e => `<a href="#${e.id}">${esc(e.t.split(": ")[0])}</a>`).join("")}</div></div></div>
+      <div class="toc catchips">${list.map(e => `<a href="#${e.id}">${esc(e.t.split(": ")[0])}</a>`).join("")}</div>
+    </div>
     <div class="grid">${list.map(e => card(e, c)).join("")}</div>`;
 }
 
@@ -2135,8 +2147,11 @@ function viewInfo() {
 function viewFav() {
   const ids = FAV.filter(favLabel);
   return crumbs([["Startseite", ""], ["Favoriten"]]) + `
+    <div class="pagetile">
     <h2 class="page-title">Favoriten</h2>
+    <p class="intro">Deine gemerkten Beiträge und Marken. Sie werden nur in diesem Browser gespeichert.</p>
     <p class="count">${plural(ids.length, "gemerkter Beitrag", "gemerkte Beiträge")}</p>
+    </div>
     ${ids.length ? `<div class="grid">${ids.map(id => id.startsWith("marke-") ? (b => `<a class="card" href="#${id}"><span class="cat">Marke</span><h3>${esc(b)}</h3><p>${plural(MODELS.filter(e => e.brand === b).length, "Modell", "Modelle")}</p></a>`)(favLabel(id)) : card(byId[id])).join("")}</div>`
       : `<p class="empty">Noch keine Favoriten. Tippe bei einem Beitrag oder einer Marke auf ☆ »Merken«, dann erscheint er hier und in der linken Leiste.</p>`}`;
 }
@@ -2146,9 +2161,11 @@ function viewAZ() {
   list.forEach(e => { const l = e.t[0].toUpperCase().normalize("NFD")[0]; (groups[l] = groups[l] || []).push(e); });
   const letters = Object.keys(groups).sort((a, b) => a.localeCompare(b, "de"));
   return crumbs([["Startseite", ""], ["Lexikon"]]) + `
+    <div class="pagetile">
     <h2 class="page-title">Lexikon</h2>
     <p class="intro">Alle ${list.length} Begriffe des Lexikons alphabetisch. Die Uhrenmodelle findest du unter den Marken.</p>
     <div class="letters">${letters.map(l => `<button type="button" data-l="${l}">${l}</button>`).join("")}</div>
+    </div>
     ${letters.map(l => `
       <div class="azgroup" id="az-${l}"><h3>${l}</h3><ul>
         ${groups[l].map(e => `<li><a href="#${e.id}">${esc(e.t)}</a><small>${esc(e.c)}</small><br><span>${esc(e.s)}</span></li>`).join("")}
