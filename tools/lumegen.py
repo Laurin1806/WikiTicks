@@ -32,6 +32,7 @@ def gen(img, spec):
     for x0,y0,x1,y1 in spec.get('ex',[]): m[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]=False
     if 'exr' in spec:
         hx0,hy0=spec['hub'];rd=np.hypot(xx-hx0,yy-hy0);m&=~((rd>=spec['exr'][0])&(rd<=spec['exr'][1]))
+    mraw=m.copy()
     k=spec.get('open',0)
     if k: m=np.array(Image.fromarray((m*255).astype(np.uint8)).filter(ImageFilter.MinFilter(k)).filter(ImageFilter.MaxFilter(k)))>127
     keep=np.zeros((h,w),bool);minA=spec.get('min',.0004)*w*w
@@ -47,6 +48,9 @@ def gen(img, spec):
                 yy,xx=y+dy,x+dx
                 if 0<=yy<H2 and 0<=xx<W2 and not sub[yy,xx] and not out[yy,xx]: out[yy,xx]=True;q.append((yy,xx))
         fill=~out
+        if (fill.sum()-len(c))>len(c)*.12 and not spec.get('fillall'):   # große Löcher (Ziffern 0/6/8/9, Ringe) nicht füllen, nur Sprenkel
+            for hc in comps(fill&~sub):
+                if len(hc)>len(c)*.04: fill[hc[:,0],hc[:,1]]=False
         if spec.get('maxA') and fill.sum()>spec['maxA']*w*w: continue
         if spec.get('nologo') and 'hub' in spec:   # Logo und Schriftzug zwischen Mitte und 12-Uhr-Index
             hx_,hy_=spec['hub'];Rr=spec.get('R',r);ccx=c[:,1].mean();ccy=c[:,0].mean()
@@ -61,6 +65,25 @@ def gen(img, spec):
             bb=(y1-y0+1)*(x1-x0+1);fr=fill.sum()/bb;holes=(fill.sum()-len(c))/max(1,fill.sum())
             if fr>.84 and holes>.1 and .5<(x1-x0+1)/(y1-y0+1)<2.6: continue
         ys2,xs2=np.nonzero(fill);keep[ys2+y0-1,xs2+x0-1]=True
+    # Ziffern und Indizes, die das Öffnen (open) verschluckt hat: helle Flächen im Indexring ohne Verbindung zur Mitte nachtragen
+    if spec.get('numpass',True) and 'hub' in spec:
+        hx0,hy0=spec['hub'];Rr=spec.get('R',r)
+        for c in comps(mraw):
+            if len(c)<minA*.5: continue
+            dd=np.hypot(c[:,1]-hx0,c[:,0]-hy0)
+            if dd.min()<Rr*.42 or dd.mean()<Rr*.55 or dd.mean()>Rr*.93: continue
+            if keep[c[:,0],c[:,1]].mean()>.85: continue   # teilweise verschluckte Ziffern vervollständigen
+            hh=np.ptp(c[:,0])+1;ww=np.ptp(c[:,1])+1
+            if max(hh,ww)>Rr*.4 or max(hh,ww)<Rr*.1 or hh<Rr*.085: continue   # nur ziffern-/indexgroß, keine Schrift
+            if len(c)/(hh*ww)>.86 and .5<ww/hh<2.6: continue   # Datumsfenster
+            y0,x0=c.min(0);sub=np.zeros((hh+2,ww+2),bool);sub[c[:,0]-y0+1,c[:,1]-x0+1]=True
+            out=np.zeros_like(sub);q=deque([(0,0)]);out[0,0]=True
+            while q:
+                y,x=q.popleft()
+                for dy,dx in((1,0),(-1,0),(0,1),(0,-1)):
+                    yy2,xx2=y+dy,x+dx
+                    if 0<=yy2<sub.shape[0] and 0<=xx2<sub.shape[1] and not sub[yy2,xx2] and not out[yy2,xx2]: out[yy2,xx2]=True;q.append((yy2,xx2))
+            ys2,xs2=np.nonzero(~out);keep[ys2+y0-1,xs2+x0-1]=True
     # Zeiger: automatisch gefundene Flächen am Zeigerzentrum entfernen, Leuchtmasse stattdessen als Form zeichnen
     if 'hub' in spec:
         hx,hy=spec['hub'];hr=spec.get('hubr',14)
@@ -231,7 +254,8 @@ def gen(img, spec):
                 else: new[c[:,0],c[:,1]]=True
                 continue
             # dünne Anhängsel (Zeigerstriche über dem Index) abtrennen: Öffnen und größtes Stück behalten
-            if len(c)>40:
+            bh_,bw_=np.ptp(c[:,0])+1,np.ptp(c[:,1])+1
+            if len(c)>40 and (max(bh_,bw_)/min(bh_,bw_)>1.9 or len(c)/(bh_*bw_)>.6):   # nicht bei Ziffern (gedrungen, locker gefüllt)
                 y0o,x0o=c.min(0);so=np.zeros((c[:,0].max()-y0o+5,c[:,1].max()-x0o+5),np.uint8);so[c[:,0]-y0o+2,c[:,1]-x0o+2]=255
                 op=np.array(Image.fromarray(so).filter(ImageFilter.MinFilter(5)).filter(ImageFilter.MaxFilter(5)))>127
                 pcs=comps(op)
@@ -254,12 +278,14 @@ def gen(img, spec):
                 d2.ellipse([(cx_-rr)*4,(cy_-rr)*4,(cx_+rr)*4,(cy_+rr)*4],fill=255);continue
             if L_<W_*1.6 or len(c)/max(1,L_*W_)<.72:   # Punkte, Dreiecke, Ziffern: Leuchtmasse nur innerhalb der Einfassung (nach innen schrumpfen)
                 fillr=len(c)/max(1,(c[:,0].max()-c[:,0].min()+1)*(c[:,1].max()-c[:,1].min()+1))
-                e=max(1,int(round(min(L_,W_)*spec.get('dotshrink',.17))))
+                e=max(1,int(round(min(L_,W_)*spec.get('dotshrink',.17)*(.45 if fillr<.6 else 1))))  # Ziffern (dünne Striche): nur leicht einrücken
                 y0,x0=c.min(0);sub=np.zeros((c[:,0].max()-y0+3,c[:,1].max()-x0+3),np.uint8);sub[c[:,0]-y0+1,c[:,1]-x0+1]=255
                 while True:   # nicht zu stark schrumpfen: mindestens ~40 % der Fläche behalten (Ziffern mit dünnen Strichen)
                     er=np.array(Image.fromarray(sub).filter(ImageFilter.MinFilter(2*e+1)))>127
-                    if er.sum()>=len(c)*.4 or e<=1: break
+                    if er.sum()>=len(c)*(.6 if fillr<.6 else .4) or e<=1: break
                     e-=1
+                if fillr<.6 and er.sum()<len(c)*.75:   # dünne Ziffernstriche würden verschwinden: Ziffer ganz übernehmen
+                    new[c[:,0],c[:,1]]=True;continue
                 ys2,xs2=np.nonzero(er);new[ys2+y0-1,xs2+x0-1]=True;continue
             ca=(pa.max()+pa.min())/2;cb=(pb.max()+pb.min())/2;l2=L_*(1-spec.get('idxlen',ins))/2;w2=W_*(1-2*ins)/2
             pts=[(cx_+(ca+sa*l2)*v[0]+(cb+sb*w2)*u[0],cy_+(ca+sa*l2)*v[1]+(cb+sb*w2)*u[1]) for sa,sb in((-1,-1),(1,-1),(1,1),(-1,1))]
