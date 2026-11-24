@@ -1686,7 +1686,7 @@ function viewSearch(term) {
 // Uhrenbilder: Weiß vom Rand aus entfernen (Freisteller), abdunkeln und Leuchtmasse (helle Flächen auf dunklem Grund) grün leuchten lassen
 // Helligkeit der Uhren in der Nachtansicht: Originalfoto leicht abgedunkelt, mit etwas mehr Kontrast (Tiefen dunkler, Lichter erhalten)
 const NDIM = .82, NGAM = 1.5, NTOP = .85, TC = [0, 1, 2].map(() => { const t = new Uint8ClampedArray(256); for (let v = 0; v < 256; v++) t[v] = 255 * NTOP * Math.pow(v / 255, NGAM); return t; });
-const SOFTSPOT = .45, SOFTSPOT_ID = { "explorer-2": .8 }; // Test: stärkeres Licht für einzelne Modelle // Uhren mit Leuchtmasse: nachts zusätzlich ganz leicht von oben angeleuchtet (Stärke 0–1)
+const SOFTSPOT = .8, SOFTSPOT_ID = {}; // Licht von oben bei Uhren mit Leuchtmasse (Stärke 0–1) // Uhren mit Leuchtmasse: nachts zusätzlich ganz leicht von oben angeleuchtet (Stärke 0–1)
 // Rechenauflösung der Nachtbilder (Höhe in Pixeln): hoch genug für scharfe Darstellung auf Retina-Displays und in der Vergrößerung
 const NIGHT_PX = 1300, NIGHT_AN = 640; // dunkles Bild in hoher Auflösung, Erkennung (Hintergrund, Schatten, Leuchtmasse) in kleiner Auflösung
 function nightPrep(img) {
@@ -1704,7 +1704,10 @@ function nightPrep(img) {
     // Hintergrund = zusammenhängendes Weiß, das den Bildrand berührt
     const bg = new Uint8Array(N), st = new Int32Array(N); let sp = 0;
     const push = i => { if (white[i] && !bg[i]) { bg[i] = 1; st[sp++] = i; } };
-    for (let i = 0; i < w; i++) { push(i); push((h - 1) * w + i); } for (let j = 0; j < h; j++) { push(j * w); push(j * w + w - 1); }
+    // Hintergrund nur von längeren weißen Randstücken aus füllen (nicht von Glanzlichtern auf dem Band, das den Bildrand berührt)
+    const seedRuns = (idx, n, minRun, pushF, isW) => { let st0 = -1; for (let t = 0; t <= n; t++) { const on = t < n && isW(idx(t)); if (on && st0 < 0) st0 = t; if (!on && st0 >= 0) { if (t - st0 >= minRun) for (let u = st0; u < t; u++) pushF(idx(u)); st0 = -1; } } };
+    const isW1 = i => white[i] === 1;
+    seedRuns(t => t, w, w * .06, push, isW1); seedRuns(t => (h - 1) * w + t, w, w * .06, push, isW1); seedRuns(t => t * w, h, h * .06, push, isW1); seedRuns(t => t * w + w - 1, h, h * .06, push, isW1);
     while (sp) { const i = st[--sp], px = i % w; if (px > 0) push(i - 1); if (px < w - 1) push(i + 1); if (i >= w) push(i - w); if (i < N - w) push(i + w); }
     // Schlagschatten (weicher, grauer Verlauf am Hintergrund) erkennen: vom Hintergrund aus über sanfte, farbarme Übergänge
     const shd = new Uint8Array(N); { let qp = 0; const q2 = new Int32Array(N);
@@ -1726,7 +1729,7 @@ function nightPrep(img) {
       if (shd[i]) { o[i * 4] = o[i * 4 + 1] = o[i * 4 + 2] = 0; o[i * 4 + 3] = Math.min(255, (255 - L[i]) * 1.3); } // Schatten im Dunkeln: dunkel statt hell
     }
     // Uhren ohne Leuchtmasse: im Dunkeln von oben angeleuchtet (Lichtkegel von oben, nach unten auslaufend)
-    const spotS = (!wrap.dataset.lmk && !wrap.dataset.lz) ? 1 : (SOFTSPOT_ID[wrap.dataset.id] ?? SOFTSPOT); const front = wrap.dataset.id in SOFTSPOT_ID; // frontaler Lichtkegel (Mitte des Zifferblatts) // 1 = volle Beleuchtung (ohne Leuchtmasse), kleiner = nur angedeutet
+    const spotS = (!wrap.dataset.lmk && !wrap.dataset.lz) ? 1 : (SOFTSPOT_ID[wrap.dataset.id] ?? SOFTSPOT); const front = true; // frontaler Lichtkegel (Mitte des Zifferblatts) // 1 = volle Beleuchtung (ohne Leuchtmasse), kleiner = nur angedeutet
     const sb = spotS === 1 ? .46 : .34, spk = spotS === 1 ? .56 : .78, sdx = 1.6, sdy = .55; // sdx/sdy: Breite des Lichtkegels (kleiner sdx / größer sdy = weicher) // Grundhelligkeit / Lichtkegel (ohne Leuchtmasse: Uhr heller, Licht schwächer)
     const mulA = new Float32Array(N).fill(1);
     if (spotS) { let y0 = h, y1 = 0, x0 = w, x1 = 0; for (let i = 0; i < N; i++) if (!bg[i] && !shd[i]) { const px = i % w, py = (i / w) | 0; if (py < y0) y0 = py; if (py > y1) y1 = py; if (px < x0) x0 = px; if (px > x1) x1 = px; }
@@ -1924,7 +1927,8 @@ function nightPrep(img) {
       const hx = hc.getContext("2d", { willReadFrequently: true }); hx.drawImage(img, 0, 0, W, H);
       const hd = hx.getImageData(0, 0, W, H), D = hd.data, NH = W * H, hb = new Uint8Array(NH), st2 = new Int32Array(NH); let sp2 = 0;
       const push2 = i => { if (!hb[i] && D[i * 4] >= 238 && D[i * 4 + 1] >= 238 && D[i * 4 + 2] >= 238) { hb[i] = 1; st2[sp2++] = i; } };
-      for (let i = 0; i < W; i++) { push2(i); push2((H - 1) * W + i); } for (let j = 0; j < H; j++) { push2(j * W); push2(j * W + W - 1); }
+      const isW2 = i => D[i * 4] >= 238 && D[i * 4 + 1] >= 238 && D[i * 4 + 2] >= 238;
+      seedRuns(t => t, W, W * .06, push2, isW2); seedRuns(t => (H - 1) * W + t, W, W * .06, push2, isW2); seedRuns(t => t * W, H, H * .06, push2, isW2); seedRuns(t => t * W + W - 1, H, H * .06, push2, isW2);
       while (sp2) { const i = st2[--sp2], px = i % W; if (px > 0) push2(i - 1); if (px < W - 1) push2(i + 1); if (i >= W) push2(i - W); if (i < NH - W) push2(i + W); }
       const xm = new Int32Array(W), anyS = !!wrap.dataset.lmk, tR = spotS ? 1 + .02 * spotS : 1, tB = spotS ? 1 - .1 * spotS : 1;
       for (let X = 0; X < W; X++) xm[X] = Math.min(w - 1, (X * w / W) | 0);
