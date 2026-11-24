@@ -301,11 +301,13 @@ a.hot[aria-current="true"] .flame { fill: #ffb27a; }
 .favbtn svg { transition: fill .7s ease, filter .7s ease; }
 .favbtn span { display: inline-block; transition: opacity .28s ease, transform .28s ease; }
 .favbtn.swap span { opacity: 0; transform: translateY(2px); }
-.favbtn[aria-pressed="true"] { box-shadow: 0 0 0 0 transparent; }
-:root.night .favbtn[aria-pressed="false"] { color: #d6dbe2; border-color: color-mix(in srgb, #d6dbe2 45%, var(--line)); box-shadow: 0 0 7px color-mix(in srgb, #e6ebf2 calc(var(--gl) * 28%), var(--bg)), 0 0 16px color-mix(in srgb, #e6ebf2 calc(var(--gl) * 12%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, #ffffff calc(var(--gl) * 45%), var(--bg)); }
-:root.night .favbtn[aria-pressed="false"] svg { filter: drop-shadow(0 0 3px rgba(255, 255, 255, .55)); }
-:root.night .favbtn[aria-pressed="true"] { box-shadow: 0 0 8px color-mix(in srgb, var(--gold) calc(var(--gl) * 55%), var(--bg)), 0 0 18px color-mix(in srgb, var(--gold) calc(var(--gl) * 25%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, var(--gold) calc(var(--gl) * 60%), var(--bg)); }
-:root.night .favbtn[aria-pressed="true"] svg { filter: drop-shadow(0 0 3px color-mix(in srgb, var(--gold) 80%, transparent)); }
+/* Tag/Nacht über --gl: läuft fließend mit dem Seitenwechsel (keine eigenen Übergänge während des Umschaltens) */
+.favbtn[aria-pressed="false"] { color: color-mix(in srgb, #d6dbe2 calc(var(--gl) * 100%), var(--muted)); border-color: color-mix(in srgb, #d6dbe2 calc(var(--gl) * 45%), var(--line)); box-shadow: 0 0 7px color-mix(in srgb, #e6ebf2 calc(var(--gl) * 28%), var(--bg)), 0 0 16px color-mix(in srgb, #e6ebf2 calc(var(--gl) * 12%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, #ffffff calc(var(--gl) * 45%), var(--bg)); }
+.favbtn[aria-pressed="false"] svg { filter: drop-shadow(0 0 3px rgba(255, 255, 255, calc(var(--gl) * .55))); }
+.favbtn[aria-pressed="true"] { box-shadow: 0 0 8px color-mix(in srgb, var(--gold) calc(var(--gl) * 55%), var(--bg)), 0 0 18px color-mix(in srgb, var(--gold) calc(var(--gl) * 25%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, var(--gold) calc(var(--gl) * 60%), var(--bg)); }
+.favbtn[aria-pressed="true"] svg { filter: drop-shadow(0 0 3px color-mix(in srgb, var(--gold) calc(var(--gl) * 80%), transparent)); }
+.favbtn:hover { border-color: var(--gold); color: var(--gold); }
+:root.theme-fade .favbtn, :root.theme-fade .favbtn svg { transition: none !important; }
 .brandbtns { display: flex; align-items: center; gap: 0; flex-wrap: wrap; margin: 0 0 12px; }
 .brandbtns .tomodels { margin: 0; }
 nav .favhint, #minipanel .favhint { font-size: 13px; color: var(--muted); padding: 4px 10px 4px 22px; }
