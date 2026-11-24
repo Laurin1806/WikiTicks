@@ -93,10 +93,10 @@ header { border-bottom: 1px solid var(--line); }
 /* Nachtmodus: »Ticks« im Logo leuchtet, farbige Überschriften und farbiger Text glühen leicht (Stärke über --gl, läuft synchron mit dem Farbwechsel) */
 :root { --gl: 0; }
 :root.night { --gl: 1; }
-.head h1 em { text-shadow: 0 0 1px color-mix(in srgb, var(--accent) calc(var(--gl) * 100%), transparent), 0 0 6px color-mix(in srgb, var(--accent) calc(var(--gl) * 85%), transparent), 0 0 16px color-mix(in srgb, var(--accent) calc(var(--gl) * 55%), transparent), 0 0 32px color-mix(in srgb, var(--accent) calc(var(--gl) * 30%), transparent); }
-a.xl, .crumbs a, nav a.more, .daily .kicker, .fcard .kicker, .timeline .ty, .curbox .label, .rel a, .toc button, .pc-table summary { text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), transparent); }
-.card .cat, article .cat { text-shadow: 0 0 7px color-mix(in srgb, var(--gold) calc(var(--gl) * 45%), transparent); }
-.azgroup > h3 { text-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), transparent); }
+.head h1 em { text-shadow: 0 0 1px color-mix(in srgb, var(--accent) calc(var(--gl) * 100%), var(--bg)), 0 0 6px color-mix(in srgb, var(--accent) calc(var(--gl) * 85%), var(--bg)), 0 0 16px color-mix(in srgb, var(--accent) calc(var(--gl) * 55%), var(--bg)), 0 0 32px color-mix(in srgb, var(--accent) calc(var(--gl) * 30%), var(--bg)); }
+a.xl, .crumbs a, nav a.more, .daily .kicker, .fcard .kicker, .timeline .ty, .curbox .label, .rel a, .toc button, .pc-table summary { text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
+.card .cat, article .cat { text-shadow: 0 0 7px color-mix(in srgb, var(--gold) calc(var(--gl) * 45%), var(--bg)); }
+.azgroup > h3 { text-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
 .head p { margin: 8px 0 0; color: var(--muted); max-width: 56ch; }
 .beat { font-family: var(--font-mono); font-size: 12px; color: var(--muted); margin-top: 6px; }
 .accent-box { margin-top: 28px; padding: 18px 0 0 10px; border-top: 1px solid var(--line); }
@@ -123,8 +123,8 @@ nav { display: grid; gap: 22px; align-content: start; }
 nav ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
 nav a { display: block; color: var(--fg); text-decoration: none; padding: 6px 10px; border-radius: 6px; font-size: 14.5px; }
 nav a:hover { background: var(--accent-soft); }
-nav a[aria-current="true"] { background: var(--accent); background: color-mix(in srgb, var(--accent) calc(100% - var(--gl) * 35%), #0b1220); color: #fff; } /* Schrift bleibt weiß, Hintergrund nachts etwas dunkler: kein Verschwinden der Schrift beim Umschalten */
-nav a.sub { padding-left: 22px; color: var(--muted); font-size: 14px; }
+nav a[aria-current="true"] { background: var(--accent); color: #fff; } /* Schrift bleibt weiß: kein Verschwinden beim Umschalten */
+nav a.sub { padding-left: 22px; color: var(--muted); color: color-mix(in srgb, var(--fg) 70%, var(--bg)); font-size: 14px; }
 nav a.sub[aria-current="true"] { color: #fff; }
 nav a.home { font-weight: 600; }
 nav a.more { color: var(--accent); font-weight: 500; }
@@ -280,7 +280,7 @@ img.wlume-img { mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0
 :root.night { --glow: color-mix(in srgb, var(--accent) 60%, transparent); }
 :root.night .card, :root.night .watchfig, :root.night .fcard, :root.night .browse a, :root.night .letters button, :root.night .toc button { transition: box-shadow .25s ease, border-color .25s ease, transform .2s ease; }
 :root.night .card:hover, :root.night a.watchfig:hover, :root.night .daily-fig:hover, :root.night .fcard:hover, :root.night .browse a:hover { border-color: var(--accent); box-shadow: 0 0 0 1px var(--glow), 0 0 18px var(--glow), 0 0 42px color-mix(in srgb, var(--accent) 22%, transparent); }
-nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), transparent), 0 0 28px color-mix(in srgb, var(--accent) calc(var(--gl) * 25%), transparent); }
+nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), var(--bg)), 0 0 28px color-mix(in srgb, var(--accent) calc(var(--gl) * 25%), var(--bg)); }
 :root.night nav a:hover { box-shadow: 0 0 10px color-mix(in srgb, var(--accent) 35%, transparent); }
 /* Sanfter Wechsel zwischen Tag- und Nachtmodus (nur während des Umschaltens aktiv) */
 :root.theme-fade { transition: --gl 1.1s ease-in-out, --bg 1.1s ease-in-out, --surface 1.1s ease-in-out, --fg 1.1s ease-in-out, --muted 1.1s ease-in-out, --line 1.1s ease-in-out, --accent 1.1s ease-in-out, --accent-soft 1.1s ease-in-out, --gold 1.1s ease-in-out; }
