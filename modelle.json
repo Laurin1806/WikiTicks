@@ -4961,7 +4961,7 @@
     "Patek Philippe stellte die Nautilus 1976 vor. Entworfen hat sie Gérald Genta, der wenige Jahre zuvor schon die Royal Oak für Audemars Piguet gestaltet hatte. Genta soll den Entwurf bei einem Essen in Basel auf eine Serviette gezeichnet haben: Die Form des Gehäuses mit den seitlichen »Ohren« erinnert an das Bullauge eines Schiffes, das waagerecht gerillte Zifferblatt an Schiffsplanken. Patek Philippe wollte damit eine sportliche, wasserdichte Uhr anbieten, die in jede Lebenslage passt.",
     "Die erste Referenz 3700/1A war für ihre Zeit groß und wird deshalb »Jumbo« genannt. Dass eine Uhr dieser Preisklasse aus Edelstahl gefertigt war, galt damals als gewagt. Patek Philippe warb sinngemäß damit, dass eine der teuersten Uhren der Welt aus Stahl sei. Das Gehäuse war zweiteilig und wurde von oben geöffnet, das Werk (Kaliber 28-255 C auf Basis des ultraflachen Jaeger-LeCoultre 920) war besonders flach.",
     "1981 folgte die kleinere Referenz 3800/1A mit 37,5 Millimetern, die bis 2006 gebaut wurde. Die Referenz 5711/1A von 2006 (Kaliber 324 S C) wurde zur begehrtesten Sportuhr ihrer Zeit, mit langen Wartelisten und Gebrauchtpreisen weit über dem Neupreis. 2021 wurde sie eingestellt. Zum Abschied erschienen eine Version mit olivgrünem Zifferblatt und eine auf 170 Stück limitierte Edition mit Tiffany-blauem Zifferblatt, die bei einer Auktion für umgerechnet rund 5,8 Millionen Euro verkauft wurde.",
-    "Nachfolger der Stahlversion ist seit 2022 die Referenz 5811/1G aus Weißgold mit 41 Millimetern. Daneben gibt es Nautilus-Modelle mit Komplikationen wie Chronograph (5980), Jahreskalender (5726), Travel Time (5990) oder ewigem Kalender (5740)."
+    "Nachfolger der Stahlversion ist seit 2022 die Referenz 5811/1G aus Weißgold mit 41 Millimetern. Daneben gibt es Nautilus-Modelle mit Komplikationen wie Chronograph (5980), Jahreskalender (5726), Travel Time (5990) oder ewigem Kalender (5740). Die 5740/1G aus Weißgold zeigt Wochentag, Monat und Datum in drei Hilfszifferblättern, dazu die Mondphase und eine 24-Stunden-Anzeige; ihr ultraflaches Automatikwerk 240 Q mit Mikrorotor hält die Uhr trotz ewigem Kalender schlank."
    ],
    "cur": "Ref. 5811/1G · seit 2022",
    "f": [
@@ -5045,13 +5045,6 @@
    },
    "var": [
     {
-     "n": "Ref. 3700/1A",
-     "y": "1976–1990",
-     "v": {
-      "img": "assets/watches/patek-philippe-nautilus-3700-1a-blue.jpg"
-     }
-    },
-    {
      "n": "Ref. 3800/1A",
      "y": "1981–2006",
      "v": {
@@ -5059,11 +5052,11 @@
      }
     },
     {
-     "n": "Ref. 5711/1A-014 (Olivgrün)",
-     "y": "2021",
+     "n": "Ref. 5711/1A-011, weißes Zifferblatt",
+     "y": "2006–2021",
      "v": {
-      "dial": "#3d4a2a",
-      "img": "assets/watches/patek-philippe-nautilus-5711-olive.jpg"
+      "dial": "#eceae4",
+      "img": "assets/watches/patek-philippe-nautilus-5711-1a-white.jpg"
      }
     },
     {
@@ -5075,6 +5068,13 @@
       "lume": "#f2f2f2",
       "hc": "#f2f2f2",
       "img": "assets/watches/patek-philippe-nautilus-5711-1a-tiffany-blue.jpg"
+     }
+    },
+    {
+     "n": "Ref. 5740/1G Ewiger Kalender",
+     "y": "seit 2018",
+     "v": {
+      "img": "assets/watches/patek-philippe-nautilus-5740-1g-perpetual.jpg"
      }
     }
    ],
@@ -29756,6 +29756,7 @@
   "hublot-classic-fusion.jpg": "g",
   "iwc-aquatimer-black.jpg": "g",
   "iwc-big-pilots-watch.jpg": "g",
+  "iwc-ingenieur.jpg": "g",
   "iwc-mark-xx.jpg": "v",
   "iwc-pilots-watch-chronograph-black.jpg": "g",
   "jaeger-lecoultre-polaris-date.jpg": "g",
@@ -29784,9 +29785,9 @@
   "patek-philippe-aquanaut-5164a-travel-time.jpg": "g",
   "patek-philippe-aquanaut-5167a-black.jpg": "g",
   "patek-philippe-aquanaut-5168g-khaki.jpg": "g",
-  "patek-philippe-nautilus-3700-1a-blue.jpg": "v",
   "patek-philippe-nautilus-3800-1a-blue.jpg": "v",
-  "patek-philippe-nautilus-5711-olive.jpg": "g",
+  "patek-philippe-nautilus-5711-1a-white.jpg": "g",
+  "patek-philippe-nautilus-5740-1g-perpetual.jpg": "g",
   "patek-philippe-nautilus-5811-blue.jpg": "g",
   "patek-philippe-pilot-travel-time.jpg": "g",
   "rolex-air-king-126900-black.jpg": "b",
@@ -29863,8 +29864,7 @@
   "vacheron-constantin-overseas.jpg": "g",
   "zenith-defy.jpg": "g",
   "zenith-pilot-type-20.jpg": "g",
-  "zodiac-sea-wolf.jpg": "g",
-  "iwc-ingenieur.jpg": "g"
+  "zodiac-sea-wolf.jpg": "g"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -30023,10 +30023,10 @@
   "patek-philippe-calatrava-96.jpg": 953,
   "patek-philippe-calatrava-yellow-gold.jpg": 389,
   "patek-philippe-golden-ellipse.jpg": 889,
-  "patek-philippe-nautilus-3700-1a-blue.jpg": 1064,
   "patek-philippe-nautilus-3800-1a-blue.jpg": 1016,
   "patek-philippe-nautilus-5711-1a-tiffany-blue.jpg": 1068,
-  "patek-philippe-nautilus-5711-olive.jpg": 1020,
+  "patek-philippe-nautilus-5711-1a-white.jpg": 1012,
+  "patek-philippe-nautilus-5740-1g-perpetual.jpg": 957,
   "patek-philippe-nautilus-5811-blue.jpg": 1020,
   "patek-philippe-perpetual-calendar-chronograph-5270-rose-gold.jpg": 350,
   "patek-philippe-perpetual-calendar-chronograph-5270.jpg": 1039,
