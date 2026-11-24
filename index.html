@@ -85,7 +85,7 @@ header { border-bottom: 1px solid var(--line); }
 .dial .dlume-dot { fill: #eceff2; stroke: var(--accent); }
 :root.night .dial .dlume { stroke: #b4ffd2; }
 :root.night .dial .dlume-dot { fill: #b4ffd2; stroke: var(--accent); }
-:root.night .dial #hh line:first-child, :root.night .dial #mh line:first-child { stroke: #6f7986; }
+:root.night .dial [data-hand="h"] line:first-child, :root.night .dial [data-hand="m"] line:first-child { stroke: #6f7986; }
 :root.night .dial .dlume { filter: drop-shadow(0 0 1px rgba(130, 255, 180, 1)) drop-shadow(0 0 3px rgba(80, 255, 150, .75)) drop-shadow(0 0 7px rgba(60, 230, 130, .4)); }
 .head h1 { font-family: var(--font-logo); font-weight: 800; font-size: clamp(2.1rem, 5vw, 3.1rem); line-height: 1; margin: 0; letter-spacing: -.03em; }
 .head h1 a { color: inherit; text-decoration: none; }
@@ -240,6 +240,13 @@ a.xl:hover { text-decoration-color: var(--accent); }
 
 /* Illustrationen */
 .watch { display: block; width: 100%; height: 100%; }
+/* Klick auf die kleine Uhr: groß darstellen */
+.head .dial { cursor: zoom-in; }
+#dialzoom { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--bg) 70%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); opacity: 0; transition: opacity .25s ease; cursor: zoom-out; }
+#dialzoom.on { opacity: 1; }
+#dialzoom .dial { width: min(78vmin, 560px); height: min(78vmin, 560px); transform: scale(.25); transition: transform .35s cubic-bezier(.2, .8, .2, 1); filter: drop-shadow(0 18px 40px rgba(0, 0, 0, .25)); }
+#dialzoom.on .dial { transform: scale(1); }
+@media (prefers-reduced-motion: reduce) { #dialzoom, #dialzoom .dial { transition: none; } }
 /* Bildvergrößerung per Klick (nur bei ausreichender Auflösung, etwa doppelte Größe) */
 .wimg-wrap.zoomable { cursor: zoom-in; }
 #zoom { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; background: rgba(8, 10, 14, .55); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); opacity: 0; transition: opacity .22s ease; cursor: zoom-out; }
@@ -452,9 +459,9 @@ footer .wrap { padding-block: 20px 28px; }
     <svg class="dial" viewBox="0 0 120 120" aria-hidden="true">
       <circle cx="60" cy="60" r="57" fill="var(--surface)" stroke="var(--line)" stroke-width="2"/>
       <g id="ticks"></g>
-      <g id="hh"><line x1="60" y1="60" x2="60" y2="32" stroke="var(--fg)" stroke-width="4" stroke-linecap="round"/><line class="dlume" x1="60" y1="51" x2="60" y2="35" stroke-width="1.9" stroke-linecap="round"/></g>
-      <g id="mh"><line x1="60" y1="60" x2="60" y2="18" stroke="var(--fg)" stroke-width="2.5" stroke-linecap="round"/><line class="dlume" x1="60" y1="50" x2="60" y2="21" stroke-width="1.1" stroke-linecap="round"/></g>
-      <g id="sh"><line x1="60" y1="70" x2="60" y2="14" stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round"/><circle class="dlume dlume-dot" cx="60" cy="25" r="2.3" stroke="var(--accent)" stroke-width=".9"/></g>
+      <g id="hh" data-hand="h"><line x1="60" y1="60" x2="60" y2="32" stroke="var(--fg)" stroke-width="4" stroke-linecap="round"/><line class="dlume" x1="60" y1="51" x2="60" y2="35" stroke-width="1.9" stroke-linecap="round"/></g>
+      <g id="mh" data-hand="m"><line x1="60" y1="60" x2="60" y2="18" stroke="var(--fg)" stroke-width="2.5" stroke-linecap="round"/><line class="dlume" x1="60" y1="50" x2="60" y2="21" stroke-width="1.1" stroke-linecap="round"/></g>
+      <g id="sh" data-hand="s"><line x1="60" y1="70" x2="60" y2="14" stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round"/><circle class="dlume dlume-dot" cx="60" cy="25" r="2.3" stroke="var(--accent)" stroke-width=".9"/></g>
       <circle cx="60" cy="60" r="3" fill="var(--accent)"/>
     </svg>
     <div>
@@ -2127,10 +2134,23 @@ addEventListener("hashchange", closeZoom);
   function tick() {
     const d = new Date(), steps = reduce ? 1 : 8; // 4 Hz = 8 Halbschwingungen pro Sekunde
     const sec = d.getSeconds() + Math.floor(d.getMilliseconds() / (1000 / steps)) / steps;
-    set("#sh", sec * 6); set("#mh", (d.getMinutes() + sec / 60) * 6); set("#hh", ((d.getHours() % 12) + d.getMinutes() / 60) * 30);
+    // alle Zifferblätter (kleine Uhr oben links und die vergrößerte Ansicht)
+    const rot = (h, deg) => document.querySelectorAll(`[data-hand="${h}"]`).forEach(el => el.setAttribute("transform", `rotate(${deg} 60 60)`));
+    rot("s", sec * 6); rot("m", (d.getMinutes() + sec / 60) * 6); rot("h", ((d.getHours() % 12) + d.getMinutes() / 60) * 30);
   }
   tick(); setInterval(tick, reduce ? 1000 : 125);
 })();
+
+// Klick auf die kleine Uhr oben links: groß darstellen (läuft live weiter), Klick oder Esc schließt
+function closeDial() { const z = document.getElementById("dialzoom"); if (!z) return; z.classList.remove("on"); setTimeout(() => z.remove(), 300); }
+document.querySelector(".head .dial").addEventListener("click", ev => {
+  ev.preventDefault();
+  const c = ev.currentTarget.cloneNode(true); c.querySelectorAll("[id]").forEach(el => el.removeAttribute("id"));
+  const z = document.createElement("div"); z.id = "dialzoom"; z.setAttribute("role", "dialog"); z.setAttribute("aria-label", "Uhr groß"); z.append(c);
+  z.addEventListener("click", closeDial); document.body.append(z);
+  requestAnimationFrame(() => requestAnimationFrame(() => z.classList.add("on")));
+});
+document.addEventListener("keydown", ev => { if (ev.key === "Escape") closeDial(); });
 
 // ---------- Daten laden ----------
 // Daten immer frisch laden (Versionsnummer + kein Browser-Cache), sonst passen alte JSON-Daten nicht zur neuen Seite
