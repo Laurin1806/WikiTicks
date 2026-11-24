@@ -363,6 +363,7 @@ a.hot[aria-current="true"] .flame { fill: #ffb27a; }
 .cmpvar[aria-pressed="true"] { background: var(--accent); color: #fff; font-weight: 600; }
 @media (hover: hover) and (pointer: fine) { .cmpvar[aria-pressed="false"]:hover { background: var(--accent-soft); } }
 .cmptable tr.cmpsec th { padding: 22px 0 8px; font-family: var(--font-display); font-size: 1.15rem; text-transform: none; letter-spacing: 0; color: var(--fg); border-top: 0; position: static; background: none; }
+.cmptable .na { color: var(--muted); opacity: .75; font-size: 12px; font-style: italic; }
 .cmptable td b.cmpdial { display: block; font-weight: 600; }
 .cmptable td small + small { margin-top: 2px; }
 .cmpin { width: 100%; font: inherit; font-size: 14px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--fg); }
@@ -910,33 +911,34 @@ function viewCompare(h) {
   // gewählte Variante ohne eigenes Blatt: keine Werte der aktuellen Ausführung zeigen, nur die Referenz im Bild
   const SP = I.map((it, j) => OWN[j] ? { ref: it.ref, ...OWN[j] } : it.k != null ? (OWN[j] = { ref: it.ref || "" }) : { ...(SPECS[it.e.id] || {}), ...(it.ref ? { ref: it.ref } : {}) });
   // Datenblatt (datenblatt.json): Felder, die mindestens eine der gewählten Uhren hat; Faktenzeilen, die das Datenblatt bei allen Uhren abdeckt, entfallen
-  const fact = (e, k) => { const x = (e.f || []).find(f => f[0] === k); return x ? esc(x[1]) : "–"; };
+  const NA = `<span class="na">keine Angabe</span>`; // fehlende Information (nicht: »hat die Uhr nicht«)
+  const fact = (e, k) => { const x = (e.f || []).find(f => f[0] === k); return x ? esc(x[1]) : NA; };
   const row = (label, cells, cls = "") => `<tr class="${cls}"><th scope="row">${esc(label)}</th>${cells.map(c => `<td>${c}</td>`).join("")}${"<td></td>".repeat(3 - cells.length)}</tr>`;
   // fehlt ein Datenblattwert, die passende Angabe aus dem Fakten-Kasten des Modells verwenden
   const factRaw = (e, k, j) => { if (j != null && OWN[j]) return ""; const x = (e.f || []).find(f => f[0] === k); return x ? x[1] : ""; }; // eigenes Blatt: keine Werte der aktuellen Ausführung untermischen
   const shown = SPEC_FIELDS.filter(([k]) => SP.some((s, j) => s[k] || (FACT_FOR[k] && factRaw(E[j], FACT_FOR[k], j))));
-  const specRows = shown.map(([k, l]) => row(l, SP.map((s, j) => { const v = s[k] || (FACT_FOR[k] && factRaw(E[j], FACT_FOR[k], j)); return v ? esc(v) : "–"; })));
+  const specRows = shown.map(([k, l]) => row(l, SP.map((s, j) => { const v = s[k] || (FACT_FOR[k] && factRaw(E[j], FACT_FOR[k], j)); return v ? esc(v) : NA; })));
   const shownFacts = new Set(shown.map(([k]) => FACT_FOR[k]).filter(Boolean));
   const covered = k => shownFacts.has(k) || (k === "Gehäuse" && SP.every(s => s.durchmesser && s.gehaeuse));
   const keys = []; E.forEach(e => (e.f || []).forEach(([k]) => { if (k !== "Zifferblatt" && !covered(k) && !keys.includes(k)) keys.push(k); }));
-  const pv = (p, k) => p[k] ? `<b>${p[k][0]}</b><small>${esc(p[k][1])}</small>` : p.note ? `<small>${esc(p.note)}</small>` : "–";
+  const pv = (p, k) => p[k] ? `<b>${p[k][0]}</b><small>${esc(p[k][1])}</small>` : p.note ? `<small>${esc(p.note)}</small>` : NA;
   // Zifferblatt: das der gezeigten Ausführung, dazu die allgemeine Angabe aus den Fakten, falls vorhanden
   const dialCell = it => { const f = it.k == null ? (it.e.f || []).find(x => x[0] === "Zifferblatt") : null, d = it.dial ? `<b class="cmpdial">${esc(it.dial)}</b>` : "";
     const alt = cmpChoices(it.e).length > 1 ? `<small>${plural(cmpChoices(it.e).length, "Ausführung", "Ausführungen")} zur Auswahl</small>` : "";
-    return (d || (f ? "" : "–")) + (f ? `<small>${esc(f[1])}</small>` : "") + alt; };
+    return (d || (f ? "" : NA)) + (f ? `<small>${esc(f[1])}</small>` : "") + alt; };
   const rows = !E.length ? "" : [
     row("Marke", E.map(e => `<a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a>`)),
     row("Gezeigte Ausführung", I.map(it => esc(it.name) + (it.y ? `<small>${esc(it.y)}</small>` : ""))),
-    row("Seit", E.map(e => esc(String(e.since || "–")))),
-    row("Aktuelle Ausführung", E.map(e => esc(e.cur || "–"))),
-    E.some(e => e.designer) ? row("Entwurf", E.map(e => esc(e.designer || "–"))) : "",
+    row("Seit", E.map(e => (e.since ? esc(String(e.since)) : NA))),
+    row("Aktuelle Ausführung", E.map(e => (e.cur ? esc(e.cur) : NA))),
+    E.some(e => e.designer) ? row("Entwurf", E.map(e => (e.designer ? esc(e.designer) : NA))) : "",
     row("Listenpreis", P.map(p => pv(p, "liste")), "cmpprice"),
     row("Gebrauchtpreis", P.map(p => pv(p, "used")), "cmpprice"),
     row("Zifferblatt", I.map(dialCell)),
-    SP.some(s => s.zifferblatt_optionen) ? row("Lieferbare Zifferblätter", SP.map(s => s.zifferblatt_optionen ? esc(s.zifferblatt_optionen) : "–")) : "",
+    SP.some(s => s.zifferblatt_optionen) ? row("Lieferbare Zifferblätter", SP.map(s => s.zifferblatt_optionen ? esc(s.zifferblatt_optionen) : NA)) : "",
     ...(specRows.length ? [`<tr class="cmpsec"><th colspan="4">Datenblatt der gezeigten Ausführung</th></tr>`, ...specRows] : []),
-    ...keys.filter(k => E.some((e, j) => !OWN[j] && factRaw(e, k))).map(k => row(k, E.map((e, j) => OWN[j] ? "–" : fact(e, k)))),
-    row("Erkennungsmerkmale", E.map(e => (e.m || []).length ? `<ul>${e.m.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "–")),
+    ...keys.filter(k => E.some((e, j) => !OWN[j] && factRaw(e, k))).map(k => row(k, E.map((e, j) => OWN[j] ? NA : fact(e, k)))),
+    row("Erkennungsmerkmale", E.map(e => (e.m || []).length ? `<ul>${e.m.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : NA)),
     row("Kurz gesagt", E.map(e => esc(e.s || "")))].join("");
   return crumbs([["Startseite", ""], ["Uhrenvergleich"]]) + `
     <div class="pagetile">
@@ -1055,7 +1057,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112573"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112574"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
