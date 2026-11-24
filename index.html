@@ -123,9 +123,11 @@ main { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 52px; pa
 #minibar.on { transform: translate(-50%, 0); }
 #minibar .menu-toggle.mini { display: flex; justify-content: space-between; align-items: center; width: 100%; font: inherit; font-weight: 600; padding: 11px 14px; border: 1px solid var(--line); border-radius: 10px; background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: var(--fg); cursor: pointer; box-shadow: 0 6px 24px rgba(0, 0, 0, .12); }
 #minibar .menu-toggle.mini span { color: var(--muted); font-weight: 400; }
-#minipanel { display: none; margin-top: 6px; max-height: min(70vh, 560px); overflow: auto; padding: 14px 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, .16); }
-#minibar.open #minipanel { display: grid; gap: 18px; }
-@media (prefers-reduced-motion: reduce) { #minibar { transition: none; } }
+#minipanel { display: grid; gap: 18px; margin-top: 6px; max-height: 0; overflow: hidden; padding: 0 8px; opacity: 0; transform: translateY(-8px); transition: max-height .35s ease, padding .35s ease, opacity .25s ease, transform .35s ease; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, .16); }
+#minibar.open #minipanel { max-height: min(78vh, 640px); overflow: auto; padding: 14px 8px; opacity: 1; transform: none; }
+#minipanel .mininight { border-top: 1px solid var(--line); padding: 14px 6px 2px; }
+@media (min-width: 761px) { #minibar { transform: translateY(-140%); } #minibar.on { transform: none; } }
+@media (prefers-reduced-motion: reduce) { #minibar, #minipanel { transition: none; } }
 #minipanel .navgroup h2 {font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; margin: 0 0 6px; padding-left: 10px; }
 #minipanel ul {list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
 #minipanel a {display: block; color: var(--fg); text-decoration: none; padding: 6px 10px; border-radius: 6px; font-size: 14.5px; }
@@ -2225,11 +2227,12 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
   const bar = $("#minibar"), btn = $("#minibtn"), panel = $("#minipanel");
   const anchor = () => { const t = $("#menu"); return t.offsetParent ? t : $("#nav"); };
   const close = () => { bar.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); };
-  const check = () => { const a = anchor(), r = a.getBoundingClientRect(), on = r.bottom < 0; bar.classList.toggle("on", on); bar.setAttribute("aria-hidden", on ? "false" : "true"); if (!on) close(); $("#mini-cur").textContent = $("#menu-cur").textContent; };
+  const place = () => { if (innerWidth > 760) { const r = $("#nav").getBoundingClientRect(); bar.style.left = r.left + "px"; bar.style.width = r.width + "px"; } else { bar.style.left = ""; bar.style.width = ""; } };
+  const check = () => { place(); const a = anchor(), r = a.getBoundingClientRect(), on = r.bottom < 0; bar.classList.toggle("on", on); bar.setAttribute("aria-hidden", on ? "false" : "true"); if (!on) close(); $("#mini-cur").textContent = $("#menu-cur").textContent; };
   addEventListener("scroll", check, { passive: true }); addEventListener("resize", check); addEventListener("hashchange", () => { close(); setTimeout(check, 50); });
-  btn.addEventListener("click", () => { const o = !bar.classList.contains("open"); if (o) panel.innerHTML = $("#nav").innerHTML; bar.classList.toggle("open", o); btn.setAttribute("aria-expanded", o); });
+  btn.addEventListener("click", () => { const o = !bar.classList.contains("open"); if (o) { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; nb.querySelector(".moon").innerHTML = m.querySelector(".moon").innerHTML; }, 0); }); panel.querySelector(".mininight").append(nb); } bar.classList.toggle("open", o); btn.setAttribute("aria-expanded", o); });
   panel.addEventListener("click", ev => { if (ev.target.closest("a")) close(); });
-  document.addEventListener("click", ev => { if (!ev.target.closest("#minibar")) close(); });
+  document.addEventListener("click", ev => { if (!ev.target.closest("#minibar, #nightbtn")) close(); });
   check();
 })();
 // ---------- Daten laden ----------
