@@ -228,13 +228,13 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity 1.1s ease-in-out; will-change: opacity; }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { opacity: 0; }
 :root.night canvas.wcut { opacity: 1; }
-:root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); animation: lumepulse 5s ease-in-out infinite; }
-img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity 1.1s ease-in-out .12s; will-change: opacity; }
-:root.night img.wlume-img { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); animation: lumepulse 5s ease-in-out infinite; }
+:root.night canvas.wlume { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); animation: lumeglow 5s ease-in-out infinite; }
+img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity 1.1s ease-in-out; will-change: opacity; }
+:root.night img.wlume-img { opacity: 1; mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); animation: lumeglow 5s ease-in-out infinite; }
 @media (prefers-reduced-motion: reduce) { :root.night img.wlume-img { animation: none; } }
 .wimg-wrap { --lc1: 130,255,180; --lc2: 80,255,150; --lc3: 60,230,130; }
 .wimg-wrap[data-lc="b"] { --lc1: 150,215,255; --lc2: 80,170,255; --lc3: 50,130,255; }
-@keyframes lumepulse { 0%, 100% { opacity: 1; } 50% { opacity: .84; } }
+@keyframes lumeglow { 0%, 100% { filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); } 50% { filter: brightness(.95) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); } }
 @media (prefers-reduced-motion: reduce) { :root.night canvas.wlume { animation: none; } }
 :root.night img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; filter: brightness(.74) contrast(1.05); }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { background: transparent; mix-blend-mode: multiply; filter: none; } /* blendet ohne weißen Kasten aus */
@@ -642,7 +642,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112464"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112465"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
