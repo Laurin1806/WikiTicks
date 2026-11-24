@@ -56,6 +56,8 @@ def gen(img, spec):
             hx_,hy_=spec['hub'];Rr=spec.get('R',r);ccx=c[:,1].mean();ccy=c[:,0].mean()
             dmin=np.hypot(c[:,1]-hx_,c[:,0]-hy_).min()
             if abs(ccx-hx_)<Rr*.4 and hy_-Rr*.68<ccy<hy_-Rr*.12 and dmin>Rr*.1: continue
+            hh_=np.ptp(c[:,0])+1
+            if abs(ccx-hx_)<Rr*.5 and hy_+Rr*.1<ccy<hy_+Rr*.66 and dmin>Rr*.1 and hh_<Rr*.09: continue   # Schriftzeilen unter der Mitte
         if spec.get('noarc') and 'hub' in spec:   # Bogen am Zifferblattrand (Rehaut, Lünettenkante): lang, dünn, tangential
             dd=np.hypot(c[:,1]-spec['hub'][0],c[:,0]-spec['hub'][1]);Rr=spec.get('R',r)
             if dd.min()>Rr*.95: continue   # ganz am Rand (Rehaut, Minutenskala außen): keine Leuchtmasse

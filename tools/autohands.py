@@ -103,7 +103,22 @@ def hand_shapes(L,hub,R,thr=150,inset=.28,minw=6,mercedes=True,second=True,log=N
                     if y0<0 or x0<0 or y0+rr.shape[0]>H or x0+rr.shape[1]>W: continue
                     win=B[y0:y0+rr.shape[0],x0:x0+rr.shape[1]];sc=win[din].mean()-win[ring].mean()
                     if sc>best[0]: best=(sc,cx_,cy_)
-            shapes.append({'t':'merc','c':[best[1],best[2]],'r1':cr*.8,'sp':[a+60,a+180,a-60],'sw':max(1.6,cr*.12)})
+            # Mittelpunkt über die drei dunklen Speichen nachführen (sie treffen sich genau in der Mitte)
+            sp3=[a+60,a+180,a-60];bx,by=best[1],best[2];bs=None
+            for oy in np.arange(-cr*.4,cr*.4+.1,1):
+                for ox in np.arange(-cr*.4,cr*.4+.1,1):
+                    vals=[];btw=[]
+                    for spa in sp3:
+                        for off,lst in ((0,vals),(60,btw)):
+                            tt=math.radians(spa+off)
+                            for dd in np.arange(cr*.2,cr*.7,1):
+                                X=int(round(bx+ox+dd*math.sin(tt)));Y=int(round(by+oy-dd*math.cos(tt)))
+                                if 0<=X<W and 0<=Y<H: lst.append(L[Y,X])
+                    if vals and btw:
+                        sc=np.mean(vals)-np.mean(btw)
+                        if bs is None or sc<bs[0]: bs=(sc,bx+ox,by+oy)
+            if bs: bx,by=bs[1],bs[2]
+            shapes.append({'t':'merc','c':[bx,by],'r1':cr*.88,'sp':sp3,'sw':max(1.6,cr*.12)})
             body=[(d,p) for d,p in seq if d>dc1+3]
             body=body[:max(4,int(len(body)*.82))]
             if len(body)<4: continue
