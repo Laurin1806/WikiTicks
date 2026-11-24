@@ -118,6 +118,25 @@ a.xl, .crumbs a, nav a.more, .daily .kicker, .fcard .kicker, .timeline .ty, .cur
 /* Navigation */
 main { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 52px; padding-block: 30px 56px; }
 .menu-toggle { display: none; }
+/* Kompakte Menüleiste: erscheint oben fest, sobald das Menü aus dem Bild gescrollt ist; klappt nach unten auf */
+#minibar { position: fixed; top: 10px; max-width: 560px; left: 50%; transform: translate(-50%, -140%); width: min(560px, calc(100% - 24px)); z-index: 900; transition: transform .25s ease; }
+#minibar.on { transform: translate(-50%, 0); }
+#minibar .menu-toggle.mini { display: flex; justify-content: space-between; align-items: center; width: 100%; font: inherit; font-weight: 600; padding: 11px 14px; border: 1px solid var(--line); border-radius: 10px; background: color-mix(in srgb, var(--surface) 92%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: var(--fg); cursor: pointer; box-shadow: 0 6px 24px rgba(0, 0, 0, .12); }
+#minibar .menu-toggle.mini span { color: var(--muted); font-weight: 400; }
+#minipanel { display: none; margin-top: 6px; max-height: min(70vh, 560px); overflow: auto; padding: 14px 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, .16); }
+#minibar.open #minipanel { display: grid; gap: 18px; }
+@media (prefers-reduced-motion: reduce) { #minibar { transition: none; } }
+#minipanel .navgroup h2 {font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; margin: 0 0 6px; padding-left: 10px; }
+#minipanel ul {list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
+#minipanel a {display: block; color: var(--fg); text-decoration: none; padding: 6px 10px; border-radius: 6px; font-size: 14.5px; }
+#minipanel a:hover {background: var(--accent-soft); }
+#minipanel a.sub {padding-left: 22px; color: var(--muted); color: color-mix(in srgb, var(--fg) 70%, var(--bg)); font-size: 14px; }
+#minipanel a.sub[aria-current="true"] {color: #fff; }
+#minipanel a[aria-current="true"] { background: var(--accent); color: #fff; }
+#minipanel a.home {font-weight: 600; }
+#minipanel a.more {color: var(--accent); font-weight: 500; }
+#minipanel a[aria-current="true"] {box-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), var(--bg)), 0 0 28px color-mix(in srgb, var(--accent) calc(var(--gl) * 25%), var(--bg)); }
+:root.night #minipanel a:hover {box-shadow: 0 0 10px color-mix(in srgb, var(--accent) 35%, transparent); }
 nav { display: grid; gap: 22px; align-content: start; }
 .navgroup h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; margin: 0 0 6px; padding-left: 10px; }
 nav ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
@@ -499,6 +518,7 @@ footer .wrap { padding-block: 20px 28px; }
     <div>
       <button type="button" class="menu-toggle" id="menu" aria-expanded="false" aria-controls="nav">Menü <span id="menu-cur">Startseite</span></button>
       <nav id="nav" aria-label="Navigation"></nav>
+      <div id="minibar" aria-hidden="true"><button type="button" class="menu-toggle mini" id="minibtn" aria-expanded="false">Menü <span id="mini-cur"></span></button><div id="minipanel"></div></div>
       <div class="accent-box night-box">
         <div class="label">Ansicht</div>
         <button type="button" class="nightbtn" id="nightbtn" aria-pressed="false"><svg class="moon" viewBox="4 1 52 28" aria-hidden="true"></svg><span class="nl">Nachtmodus</span></button>
@@ -2200,6 +2220,18 @@ document.addEventListener("click", ev => {
   const t = document.createElement("div"); t.innerHTML = DG.mondphase(); f.querySelector("svg").replaceWith(t.firstElementChild); mpInfo(f, moonPhase().p);
 });
 function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viertel", "Zunehmender Mond", "Vollmond", "Abnehmender Mond", "Letztes Viertel", "Abnehmende Sichel"][Math.round(p * 8) % 8]; f.querySelector(".mpn").textContent = n; f.querySelector(".mpk").textContent = Math.round((1 - Math.cos(2 * Math.PI * p)) / 2 * 100) + " %"; }
+// Kompakte Menüleiste (PC und Smartphone): sobald das Menü oben verschwindet, fest am oberen Rand; Klick klappt das Menü nach unten auf
+(function () {
+  const bar = $("#minibar"), btn = $("#minibtn"), panel = $("#minipanel");
+  const anchor = () => { const t = $("#menu"); return t.offsetParent ? t : $("#nav"); };
+  const close = () => { bar.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); };
+  const check = () => { const a = anchor(), r = a.getBoundingClientRect(), on = r.bottom < 0; bar.classList.toggle("on", on); bar.setAttribute("aria-hidden", on ? "false" : "true"); if (!on) close(); $("#mini-cur").textContent = $("#menu-cur").textContent; };
+  addEventListener("scroll", check, { passive: true }); addEventListener("resize", check); addEventListener("hashchange", () => { close(); setTimeout(check, 50); });
+  btn.addEventListener("click", () => { const o = !bar.classList.contains("open"); if (o) panel.innerHTML = $("#nav").innerHTML; bar.classList.toggle("open", o); btn.setAttribute("aria-expanded", o); });
+  panel.addEventListener("click", ev => { if (ev.target.closest("a")) close(); });
+  document.addEventListener("click", ev => { if (!ev.target.closest("#minibar")) close(); });
+  check();
+})();
 // ---------- Daten laden ----------
 // Daten immer frisch laden (Versionsnummer + kein Browser-Cache), sonst passen alte JSON-Daten nicht zur neuen Seite
 const load = f => fetch(`${f}?v=${IMGV}`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
