@@ -410,6 +410,12 @@ article .curbox { margin-top: 10px; }
 .brandlogo { display: flex; align-items: center; justify-content: center; height: 120px; padding: 14px 22px; margin: 0 0 22px; background: #fff; border: 1px solid var(--line); border-radius: 12px; }
 .brandlogo img { max-width: 100%; max-height: 100%; object-fit: contain; }
 :root.night .brandlogo { background: #eef0f3; border-color: transparent; filter: brightness(.86); }
+.brandlogo.m { display: none; }
+@media (max-width: 760px) {
+  .brandlogo.m { display: flex; height: 96px; margin: 0 0 14px; }
+  .brandside .brandlogo { display: none; }
+  .page-title.haslogo { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; } /* Name bleibt für Screenreader */
+}
 .letters { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 24px; }
 .letters button { font: inherit; font-family: var(--font-mono); font-size: 13px; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); cursor: pointer; }
 .letters button:hover { border-color: var(--accent); color: var(--accent); }
@@ -1335,14 +1341,14 @@ const DG = (() => {
       ${lab(115, 90, "Gehäuse (Seitenansicht)", "middle")}`),
     mondphase: (pp) => { const mp0 = moonPhase(), p = pp ?? mp0.p, k = (1 - Math.cos(2 * Math.PI * p)) / 2, names = ["Neumond", "Zunehmende Sichel", "Erstes Viertel", "Zunehmender Mond", "Vollmond", "Abnehmender Mond", "Letztes Viertel", "Abnehmende Sichel"], mp = { p, k, name: names[Math.round(p * 8) % 8] }, wax = p < .5; return svg(540, 152, `
       <g class="moon" transform="translate(132 6) scale(4.6)" style="--mp-sky1: #22427e; --mp-sky2: #0f1f45; --mp-moon1: #fff6d8; --mp-moon2: #e2b85a">${moonSVG(p, true)}</g>
-      ${lab(418, 34, "Mondscheibe mit", "start", 330, 46)}
-      ${lab(418, 52, "zwei Monden,", "start")}
-      ${lab(418, 70, "59 Zähne: eine Um-", "start")}
-      ${lab(418, 88, "drehung in 59 Tagen", "start")}
+      ${lab(414, 34, "Mondscheibe mit", "start", 330, 46)}
+      ${lab(414, 52, "zwei Monden,", "start")}
+      ${lab(414, 70, "59 Zähne: eine Um-", "start")}
+      ${lab(414, 88, "drehung in 59 Tagen", "start")}
       ${lab(122, 90, "Fenster mit zwei", "end", 176, 110)}
       ${lab(122, 108, "Wölbungen verdecken", "end")}
       ${lab(122, 126, "den Mond nach und nach", "end")}
-      `); },
+      `).replace(/font-size="11"/g, 'font-size="12.5"'); },
     wasserdichtigkeit: () => svg(430, 240, `
       <defs><linearGradient id="dgw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fb5e6"/><stop offset="1" stop-color="#0f2f5c"/></linearGradient></defs>
       <rect x="40" y="20" width="44" height="210" rx="6" fill="url(#dgw)"/>
@@ -1501,7 +1507,7 @@ function viewBrand(b) {
   const info = BRAND_INFO[b], used = new Set();
   return crumbs([["Uhrenmodelle", "uhrenmodelle"], [b]]) + `
     ${info ? `<div class="brandinfo">
-      <div><h2 class="page-title">${esc(b)}</h2>
+      <div>${BRAND_LOGOS.has(slug(b)) ? `<div class="brandlogo m"><img src="assets/logos/${slug(b)}.png?v=${IMGV}" alt=""></div>` : ""}<h2 class="page-title${BRAND_LOGOS.has(slug(b)) ? " haslogo" : ""}">${esc(b)}</h2>
     <button type="button" class="tomodels" data-to="brand-models">Zu den Modellen <span aria-hidden="true">↓</span></button>${info.text.map(p => `<p>${linkify(esc(p), "marke-" + slug(b), used)}</p>`).join("")}</div>
       <div class="brandside">${BRAND_LOGOS.has(slug(b)) ? `<div class="brandlogo"><img src="assets/logos/${slug(b)}.png?v=${IMGV}" alt="Logo ${esc(b)}"></div>` : ""}${factList([["Gegründet", info.gegruendet], ["Sitz", info.sitz], ...(info.fakten || [])])}</div>
     </div>
