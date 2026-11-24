@@ -6251,20 +6251,7 @@
     ]
    ],
    "w": "Patek Philippe stellte den Annual Calendar 1996 vor; er muss nur einmal im Jahr, Ende Februar, korrigiert werden.",
-   "var": [
-    {
-     "n": "Jahreskalender mit Mondphase in Edelstahl, blaues Zifferblatt",
-     "y": "",
-     "v": {
-      "img": "assets/watches/patek-philippe-annual-calendar-5205.jpg"
-     },
-     "bd": [
-      "Die Abbildung zeigt eine Ausführung eines Patek Philippe Jahreskalenders mit rundem Edelstahlgehäuse, polierter Lünette und Gliederband. Das Zifferblatt ist dunkelblau mit feiner Sonnenschliff-Struktur. Wochentag und Monat erscheinen in Fenstern, Datum und Mondphase sitzen über 6 Uhr.",
-      "Zu erkennen sind die Fenster für Wochentag »SAT« und Monat »MAR« unter dem Schriftzug »PATEK PHILIPPE GENEVE«, eine Mondphasenanzeige mit Sternenhimmel oberhalb der 6 und ein Datumsfenster bei 6 Uhr. Dazu kommen aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie die Krone bei 3 Uhr."
-     ],
-     "dial": "Dunkelblau, Sonnenschliff"
-    }
-   ],
+   "var": [],
    "lume": {
     "z": "",
     "c": "g"
@@ -9099,16 +9086,16 @@
      "dial": "Creme"
     },
     {
-     "n": "Tank Normale",
+     "n": "Tank in Stahl",
      "y": "",
      "v": {
       "img": "assets/watches/cartier-tank-normale.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine Ausführung der Cartier Tank mit rechteckigem Gehäuse aus Edelstahl und schwarzem Lederband. Die geraden, kräftigen Seitenstege, die in die Bandanstöße übergehen, sind das Merkmal, das die Tank seit dem Original der Tank Normale prägt.",
+      "Die Abbildung zeigt eine Ausführung der Cartier Tank mit rechteckigem Gehäuse aus Edelstahl und schwarzem Lederband. Die geraden, kräftigen Seitenstege, die in die Bandanstöße übergehen, sind das Merkmal, das die Tank seit dem Original der Tank in Stahl prägt.",
       "Zu erkennen sind das silberweiße Zifferblatt mit großen schwarzen römischen Ziffern, eine innere Minuterie im Chemin-de-fer-Stil und gebläute Schwertzeiger. In der Mitte steht »CARTIER«, unten »SWISS MADE«. Die Krone trägt einen blauen Cabochon, das Band ist mit Krokodilprägung versehen. Ein Datum oder Sekundenzeiger ist nicht vorhanden."
      ],
-     "at": "1917: Inspiriert von Panzern",
+     "at": "2021: Neuauflage der Tank Must",
      "dial": "Silber"
     },
     {
@@ -19519,10 +19506,6 @@
     "Pasha C, Seatimer und Grille",
     "2020: Neuauflage mit 41 mm und Kaliber 1847 MC"
    ],
-   "bd": [
-    "Die Abbildung zeigt eine Cartier Pasha aus Edelstahl mit Gliederband und cremeweißem Zifferblatt. Die Lünette trägt eine Minutenskala mit den Zahlen 10 bis 50 und einem Dreieck bei 12 Uhr; ob es sich um die 2020 überarbeitete Pasha mit 41 Millimetern handelt, lässt das Bild nicht sicher erkennen. Das Bild entspricht am ehesten der Referenz W31074M7.",
-    "Typisch sind die vier großen arabischen Ziffern 12, 3, 6 und 9 und die Kronenkappe mit blauem Cabochon, die mit einer kleinen Kette am Gehäuse befestigt ist. Zu erkennen sind außerdem gebläute Schwertzeiger, Strichindizes, der Schriftzug »Automatic« über der Mitte und ein kleines Datumsfenster zwischen 4 und 5 Uhr."
-   ],
    "lx": [
     [
      "genta",
@@ -19530,8 +19513,19 @@
     ]
    ],
    "dial": "Creme",
-   "iref": "W31074M7",
-   "irefs": "mittel"
+   "topv": {
+    "n": "Pasha 38 mm Automatik",
+    "y": "",
+    "v": {
+     "img": "assets/watches/cartier-pasha-steel.jpg"
+    },
+    "bd": [
+     "Die Abbildung zeigt eine Cartier Pasha aus Edelstahl mit Gliederband und cremeweißem Zifferblatt. Die Lünette trägt eine Minutenskala mit den Zahlen 10 bis 50 und einem Dreieck bei 12 Uhr; ob es sich um die 2020 überarbeitete Pasha mit 41 Millimetern handelt, lässt das Bild nicht sicher erkennen. Das Bild entspricht am ehesten der Referenz W31074M7.",
+     "Typisch sind die vier großen arabischen Ziffern 12, 3, 6 und 9 und die Kronenkappe mit blauem Cabochon, die mit einer kleinen Kette am Gehäuse befestigt ist. Zu erkennen sind außerdem gebläute Schwertzeiger, Strichindizes, der Schriftzug »Automatic« über der Mitte und ein kleines Datumsfenster zwischen 4 und 5 Uhr."
+    ],
+    "iref": "W31074M7",
+    "irefs": "mittel"
+   }
   },
   {
    "id": "historiques-222",
@@ -21579,13 +21573,20 @@
     "Von Ref. 3548 zu 5738",
     "Eigenständige Dresswatch am Zweitmarkt"
    ],
-   "bd": [
-    "Die Abbildung zeigt eine Patek Philippe Golden Ellipse aus Gelbgold mit blauem Zifferblatt und dunkelblauem Lederband. Typisch ist die ovale Gehäuseform, deren Achsenverhältnis an den Goldenen Schnitt angelehnt ist. Das Bild entspricht am ehesten der Referenz 3738/100J.",
-    "Zu erkennen sind das Zifferblatt mit Sonnenschliff, aufgesetzte Stabindizes aus Gold und schlanke goldene Stabzeiger für Stunden und Minuten. Eine Sekundenanzeige und ein Datum fehlen. Die Signatur »PATEK PHILIPPE GENEVE« steht unter 12 Uhr. Die Krone ist klein und sitzt bei 3 Uhr, das Lederband hat Alligatorprägung und helle Nähte."
-   ],
    "dial": "Blau",
-   "iref": "3738/100J",
-   "irefs": "mittel"
+   "topv": {
+    "n": "Ref. 3738/100J in Gelbgold",
+    "y": "",
+    "v": {
+     "img": "assets/watches/patek-philippe-golden-ellipse.jpg"
+    },
+    "bd": [
+     "Die Abbildung zeigt eine Patek Philippe Golden Ellipse aus Gelbgold mit blauem Zifferblatt und dunkelblauem Lederband. Typisch ist die ovale Gehäuseform, deren Achsenverhältnis an den Goldenen Schnitt angelehnt ist. Das Bild entspricht am ehesten der Referenz 3738/100J.",
+     "Zu erkennen sind das Zifferblatt mit Sonnenschliff, aufgesetzte Stabindizes aus Gold und schlanke goldene Stabzeiger für Stunden und Minuten. Eine Sekundenanzeige und ein Datum fehlen. Die Signatur »PATEK PHILIPPE GENEVE« steht unter 12 Uhr. Die Krone ist klein und sitzt bei 3 Uhr, das Lederband hat Alligatorprägung und helle Nähte."
+    ],
+    "iref": "3738/100J",
+    "irefs": "mittel"
+   }
   },
   {
    "id": "twenty4",
@@ -24098,8 +24099,7 @@
     "markers": "roman",
     "hands": "dauphine",
     "strap": "leather",
-    "strapColor": "#3a2618",
-    "img": "assets/watches/jaeger-lecoultre-duometre-chronograph.jpg"
+    "strapColor": "#3a2618"
    },
    "m": [
     "Zwei Federhäuser",
@@ -24125,12 +24125,7 @@
     "2007: Dual-Wing mit zwei Federhäusern",
     "Kaliber 380 und Unique Travel Time",
     "Selten auf dem Gebrauchtmarkt"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine Ausführung der Jaeger-LeCoultre Duomètre mit sichtbarem Tourbillon in einem polierten, runden Gehäuse aus hellem Metall. Das silberfarbene Zifferblatt ist fein strukturiert, dazu kommt ein schwarzes Lederband mit Krokodilprägung.",
-    "Zu erkennen sind rechts ein eigenes Hilfszifferblatt für Stunden und Minuten mit den römischen Ziffern XII und VI und gebläuten Zeigern, oben links eine bogenförmige Skala mit gebläutem Zeiger und unten links das Tourbillon in einer großen Öffnung. Unter dem Logo steht der Schriftzug »Jaeger-LeCoultre«, rechts unten »Duomètre«."
-   ],
-   "dial": "Silber"
+   ]
   },
   {
    "id": "geophysic",
@@ -24663,8 +24658,7 @@
     "case": "steel",
     "guards": true,
     "crown": "big",
-    "shape": "cushion",
-    "img": "assets/watches/panerai-luminor-due.jpg"
+    "shape": "cushion"
    },
    "m": [
     "Flaches Gehäuse",
@@ -24702,12 +24696,7 @@
     "2013: Die flachere Luminor",
     "Antwort auf die Größenkritik",
     "Panerai-Look in kleineren Maßen"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine Panerai Luminor Due mit dem flachen, kissenförmigen Gehäuse aus hellem Metall, schwarzem Zifferblatt und schwarzem Lederband mit Krokodilprägung.",
-    "Typisch ist der Hebelbügel zum Schutz der Krone mit der Prägung »Reg. T.M.«. Zu erkennen sind große beigefarbene Ziffern bei 12, 3, 6 und 9, Strichindizes dazwischen und Stabzeiger mit beiger Leuchtmasse. Unter der 12 steht »Panerai«, über der 6 »Luminor Due«. Einen Sekundenzeiger oder ein Datum zeigt das Bild nicht, die Lünette ist schmal und glatt."
-   ],
-   "dial": "Schwarz"
+   ]
   },
   {
    "id": "mare-nostrum",
@@ -28171,7 +28160,7 @@
     "Le Locle liegt im Neuenburger Jura und gehört gemeinsam mit La Chaux-de-Fonds seit 2009 zum UNESCO-Welterbe der Uhrmacherstädte; hier gründete Charles-Félicien Tissot 1853 mit seinem Sohn das Unternehmen. Das Powermatic 80 ist für diese Preisklasse ungewöhnlich ausdauernd.",
     "Als erste mechanische Uhr ist die Le Locle eine gute Wahl: unauffällig, gut verarbeitet und preislich niedrig."
    ],
-   "cur": "Le Locle im klassischen Stil mit kleiner Sekunde bei 6 Uhr",
+   "cur": "Le Locle Powermatic 80 · aktuelle Kollektion",
    "f": [
     [
      "Gehäuse",
@@ -28213,8 +28202,7 @@
     "strap": "leather",
     "strapColor": "#3a2618",
     "case": "steel",
-    "date": "6",
-    "img": "assets/watches/le-locle-classic.jpg"
+    "date": "6"
    },
    "m": [
     "Römische Ziffern",
@@ -28258,12 +28246,7 @@
     "Dresswatch mit Powermatic 80",
     "Uhrmacherstadt und UNESCO-Welterbe",
     "Als erste mechanische Uhr"
-   ],
-   "bd": [
-    "Die Abbildung zeigt eine klassische Dresswatch mit dem Schriftzug »LE LOCLE SUISSE« auf dem Zifferblatt, mit poliertem Gehäuse in hellem Metall und dunkelblauem Lederband. Das silberne Zifferblatt hat in der Mitte ein feines Guilloché-Muster.",
-    "Zu erkennen sind schwarze römische Ziffern, eine Minuterie am Rand, gebläute Zeiger mit Hohlspitze im Stil der Breguet-Zeiger und eine kleine Sekunde bei 6 Uhr. Das Zifferblatt trägt nur den Schriftzug »LE LOCLE SUISSE«, ein Datumsfenster gibt es nicht. Die gerillte Krone sitzt rechts, das Lederband trägt eine Krokodilprägung."
-   ],
-   "dial": "Dunkelblau"
+   ]
   },
   {
    "id": "t-touch",
@@ -28819,13 +28802,20 @@
     "Chopard, Scheufele und gelöste Steine",
     "Markenzeichen und Happy Sport"
    ],
-   "bd": [
-    "Die Abbildung zeigt eine Chopard Happy Diamonds, die Linie von 1976 mit frei beweglichen Diamanten, hier mit rundem, silberfarbenem Gehäuse, weißsilbernem Zifferblatt und schwarzem Lederband mit Krokoprägung. Das Bild entspricht am ehesten der Referenz 278582-3001.",
-    "Typisch sind die fünf frei beweglichen Diamanten in runden Fassungen, die im unteren Bereich des Zifferblatts zwischen zwei Gläsern liegen. Zu erkennen sind außerdem die schlanken Stabzeiger, der Schriftzug »Chopard« in Schreibschrift, die Bandanstöße mit runden Endstücken und die Krone mit blauem Cabochon."
-   ],
    "dial": "Weiß",
-   "iref": "278582-3001",
-   "irefs": "mittel"
+   "topv": {
+    "n": "Happy Sport mit beweglichen Diamanten",
+    "y": "",
+    "v": {
+     "img": "assets/watches/chopard-happy-diamonds.jpg"
+    },
+    "bd": [
+     "Die Abbildung zeigt eine Chopard Happy Sport, die sportliche Schwester der Happy Diamonds von 1976 mit frei beweglichen Diamanten, hier mit rundem, silberfarbenem Gehäuse, weißsilbernem Zifferblatt und schwarzem Lederband mit Krokoprägung. Das Bild entspricht am ehesten der Referenz 278582-3001.",
+     "Typisch sind die fünf frei beweglichen Diamanten in runden Fassungen, die im unteren Bereich des Zifferblatts zwischen zwei Gläsern liegen. Zu erkennen sind außerdem die schlanken Stabzeiger, der Schriftzug »Chopard« in Schreibschrift, die Bandanstöße mit runden Endstücken und die Krone mit blauem Cabochon."
+    ],
+    "iref": "278582-3001",
+    "irefs": "mittel"
+   }
   },
   {
    "id": "mille-miglia",
@@ -29705,7 +29695,7 @@
     "Die X-8 Chronometer erschien 1970 als erste Armbanduhr mit Gehäuse aus Titan. Das Metall war damals schwer zu bearbeiten, Citizen musste eigene Verfahren entwickeln. Die Uhr hatte ein Automatikwerk und war als Chronometer zertifiziert; erhaltene Exemplare sind gesuchte Sammlerstücke.",
     "Titan ist leicht und korrosionsfest. Später entwickelte Citizen das Härteverfahren Duratect, das Titan kratzfest macht; das Haus bleibt bis heute für Titan-Uhren bekannt. Den Namen X8 greift Citizen auch in der Oberklasse-Linie »The Citizen« wieder auf."
    ],
-   "cur": "Moderne Ausführung der Linie »The Citizen« mit »X8«-Schriftzug",
+   "cur": "Moderne Linie »The Citizen«",
    "f": [
     [
      "Linie",
@@ -29746,8 +29736,7 @@
     "hands": "baton",
     "strap": "link3",
     "case": "titanium",
-    "date": "3",
-    "img": "assets/watches/citizen-the-citizen-x8.jpg"
+    "date": "3"
    },
    "m": [
     "»X8«-Schriftzug über 6 Uhr",
@@ -29768,12 +29757,7 @@
    "lume": {
     "z": "",
     "c": "g"
-   },
-   "bd": [
-    "Die Abbildung zeigt eine moderne Citizen mit der Aufschrift »The Citizen« und »X8« auf dem Zifferblatt, die den Namen der X-8 Chronometer von 1970 aufgreift. Das Gehäuse ist aus hellem, poliertem Metall, das Zifferblatt weiß mit feiner, papierartiger Struktur, das Band aus schwarzem Krokodilleder.",
-    "Zu erkennen sind aufgesetzte, facettierte Stabindizes, schlanke Stabzeiger mit zentralem Sekundenzeiger und das Datumsfenster bei 3 Uhr. Unter 12 Uhr sitzt das Adler-Emblem von »The Citizen«, darunter der Schriftzug »CITIZEN«, über 6 Uhr steht »X8«."
-   ],
-   "dial": "Weiß"
+   }
   },
   {
    "id": "doxa-sharkhunter",
