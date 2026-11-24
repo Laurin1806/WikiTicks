@@ -2153,7 +2153,8 @@ function zoomOK(wrap) {
   const r = img.getBoundingClientRect();
   return r.height && img.naturalHeight >= r.height * 1.6 ? { img, r } : null;
 }
-document.addEventListener("mouseover", ev => { const w = ev.target.closest && ev.target.closest(".wimg-wrap"); if (w && !w.dataset.zk) { w.dataset.zk = "1"; if (zoomOK(w)) w.classList.add("zoomable"); } });
+// nur bei echter Maus: auf Touchgeräten würde eine DOM-Änderung beim »Hover« den ersten Tipp verschlucken (iOS)
+document.addEventListener("pointerover", ev => { if (ev.pointerType !== "mouse") return; const w = ev.target.closest && ev.target.closest(".wimg-wrap"); if (w && !w.dataset.zk) { w.dataset.zk = "1"; if (zoomOK(w)) w.classList.add("zoomable"); } });
 function closeZoom() { const z = document.getElementById("zoom"); if (!z) return; z.classList.remove("on"); setTimeout(() => z.remove(), 260); }
 document.addEventListener("click", ev => {
   const w = ev.target.closest && ev.target.closest(".wimg-wrap"), ok = zoomOK(w);
