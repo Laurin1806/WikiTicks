@@ -9,6 +9,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Unbounded:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
+/* Farbvariablen registriert, damit der Tag/Nacht-Wechsel die Farben selbst überblendet: alle Elemente ändern sich gleichzeitig */
+@property --bg { syntax: "<color>"; inherits: true; initial-value: #f6f7f9; }
+@property --surface { syntax: "<color>"; inherits: true; initial-value: #ffffff; }
+@property --fg { syntax: "<color>"; inherits: true; initial-value: #16202c; }
+@property --muted { syntax: "<color>"; inherits: true; initial-value: #5b6676; }
+@property --line { syntax: "<color>"; inherits: true; initial-value: #dde2ea; }
+@property --accent { syntax: "<color>"; inherits: true; initial-value: #1f4fa0; }
+@property --accent-soft { syntax: "<color>"; inherits: true; initial-value: #e6edf8; }
+@property --gold { syntax: "<color>"; inherits: true; initial-value: #9a6f22; }
+
 /* Layout: Kopfzeile mit laufendem Zifferblatt; links gegliederte Navigation (Uhrenmodelle / Lexikon), rechts die Ansicht */
 :root {
   --bg: #f6f7f9;
@@ -235,7 +245,7 @@ img.wlume-img { position: absolute; z-index: 3; left: 0; right: 0; top: 4px; wid
 :root.night nav a[aria-current="true"] { box-shadow: 0 0 12px var(--glow), 0 0 28px color-mix(in srgb, var(--accent) 25%, transparent); }
 :root.night nav a:hover { box-shadow: 0 0 10px color-mix(in srgb, var(--accent) 35%, transparent); }
 /* Sanfter Wechsel zwischen Tag- und Nachtmodus (nur während des Umschaltens aktiv) */
-:root.theme-fade, :root.theme-fade *:not(img):not(canvas), :root.theme-fade *::before, :root.theme-fade *::after { transition: background-color 1.1s ease-in-out, color 1.1s ease-in-out, border-color 1.1s ease-in-out, fill 1.1s ease-in-out, stroke 1.1s ease-in-out !important; }
+:root.theme-fade { transition: --bg 1.1s ease-in-out, --surface 1.1s ease-in-out, --fg 1.1s ease-in-out, --muted 1.1s ease-in-out, --line 1.1s ease-in-out, --accent 1.1s ease-in-out, --accent-soft 1.1s ease-in-out, --gold 1.1s ease-in-out; }
 @media (prefers-reduced-motion: reduce) { :root.theme-fade, :root.theme-fade * { transition: none !important; } }
 .moon .mp-moons { transform-box: view-box; transform-origin: 30px 27px; }
 .night-box + .accent-box { margin-top: 16px; }
@@ -632,7 +642,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112463"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112464"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
