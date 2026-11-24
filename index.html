@@ -271,7 +271,10 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .favbtn[aria-pressed="true"] { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 50%, var(--line)); }
 .favbtn[aria-pressed="true"] svg { fill: currentColor; }
 .favbtn:hover { border-color: var(--gold); color: var(--gold); }
-.favbtn { transition: box-shadow .25s ease; }
+.favbtn { transition: color .4s ease, border-color .4s ease, box-shadow .4s ease, text-shadow .4s ease; }
+.favbtn svg { transition: fill .4s ease, filter .4s ease; }
+.favbtn span { display: inline-block; transition: opacity .16s ease, transform .16s ease; }
+.favbtn.swap span { opacity: 0; transform: translateY(2px); }
 .favbtn[aria-pressed="true"] { box-shadow: 0 0 0 0 transparent; }
 :root.night .favbtn[aria-pressed="false"] { color: #d6dbe2; border-color: color-mix(in srgb, #d6dbe2 45%, var(--line)); box-shadow: 0 0 7px color-mix(in srgb, #e6ebf2 calc(var(--gl) * 28%), var(--bg)), 0 0 16px color-mix(in srgb, #e6ebf2 calc(var(--gl) * 12%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, #ffffff calc(var(--gl) * 45%), var(--bg)); }
 :root.night .favbtn[aria-pressed="false"] svg { filter: drop-shadow(0 0 3px rgba(255, 255, 255, .55)); }
@@ -683,7 +686,7 @@ const favBtn = id => `<button type="button" class="favbtn" data-fav="${id}" aria
 function toggleFav(id) {
   FAV = isFav(id) ? FAV.filter(x => x !== id) : [...FAV, id];
   try { localStorage.setItem("wikiticks-fav", JSON.stringify(FAV)); } catch (e) {}
-  document.querySelectorAll(`.favbtn[data-fav="${CSS.escape(id)}"]`).forEach(b => { const on = isFav(id); b.setAttribute("aria-pressed", on); b.title = on ? "Aus den Favoriten entfernen" : "Zu den Favoriten hinzufügen"; b.querySelector("span").textContent = on ? "Favorit" : "Merken"; });
+  document.querySelectorAll(`.favbtn[data-fav="${CSS.escape(id)}"]`).forEach(b => { const on = isFav(id); b.setAttribute("aria-pressed", on); b.title = on ? "Aus den Favoriten entfernen" : "Zu den Favoriten hinzufügen"; b.classList.add("swap"); setTimeout(() => { b.querySelector("span").textContent = on ? "Favorit" : "Merken"; b.classList.remove("swap"); }, 170); });
   renderNav(decodeURIComponent(location.hash.slice(1)));
 }
 document.addEventListener("click", ev => { const b = ev.target.closest && ev.target.closest(".favbtn"); if (!b) return; ev.preventDefault(); toggleFav(b.dataset.fav); });
