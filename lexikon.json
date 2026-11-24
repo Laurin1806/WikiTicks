@@ -790,7 +790,7 @@
   "k": "Der GMT-Zeiger dreht sich nur einmal am Tag um das Zifferblatt.",
   "fig": {
    "m": [
-    "gmt-master-2",
+    "gmt-master",
     "explorer-2",
     "sky-dweller"
    ],
@@ -1024,7 +1024,7 @@
   "fig": {
    "m": [
     "submariner",
-    "gmt-master-2",
+    "gmt-master",
     "daytona"
    ],
    "mc": [
@@ -2522,7 +2522,7 @@
   ],
   "r": [
    "submariner",
-   "gmt-master-2",
+   "gmt-master",
    "nautilus"
   ],
   "k": "Bei Rolex verrät die letzte Ziffer der Referenznummer das Material, eine 0 steht für Stahl.",
@@ -6302,7 +6302,7 @@
    ]
   ],
   "r": [
-   "gmt-master-2",
+   "gmt-master",
    "submariner",
    "turtle",
    "paul-newman-daytona",
@@ -6312,7 +6312,7 @@
   "k": "Fast kein Uhren-Spitzname stammt vom Hersteller selbst, die meisten haben Sammler erfunden.",
   "fig": {
    "m": [
-    "gmt-master-2",
+    "gmt-master",
     "submariner",
     "turtle"
    ],

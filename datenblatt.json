@@ -1118,7 +1118,7 @@
   "groessen": "39 mm, 41 mm (Jahreskalender)",
   "produktion": "seit 2015"
  },
- "gmt-master-2": {
+ "gmt-master": {
   "manufaktur": "Manufakturwerk",
   "werktyp": "Automatik",
   "frequenz": "28.800 A/h (4 Hz)",
@@ -4227,7 +4227,7 @@
    "ref": "130.30.39.21.02.001",
    "band": "Edelstahl-Gliederband"
   },
-  "gmt-master-2|0": {
+  "gmt-master|0": {
    "manufaktur": "Manufakturwerk",
    "werktyp": "Automatik",
    "frequenz": "28.800 A/h (4 Hz)",
@@ -4253,7 +4253,7 @@
    "produktion": "seit 2019",
    "steine": "31"
   },
-  "gmt-master-2|1": {
+  "gmt-master|1": {
    "ref": "1675",
    "produktion": "1959–1980",
    "durchmesser": "40 mm",
@@ -6531,7 +6531,7 @@
    "zifferblatt_optionen": "Weiß, Schwarz",
    "produktion": "seit 2023"
   },
-  "gmt-master-2|6542": {
+  "gmt-master|6542": {
    "ref": "6542",
    "produktion": "1955–1959",
    "durchmesser": "38 mm",
@@ -6548,7 +6548,7 @@
    "leuchtmasse": "Radium",
    "band": "Oyster-Band"
   },
-  "gmt-master-2|1675": {
+  "gmt-master|1675": {
    "ref": "1675",
    "produktion": "1959–1980",
    "durchmesser": "40 mm",
@@ -6570,7 +6570,7 @@
    "band": "Oyster- oder Jubilé-Band, Edelstahl",
    "zifferblatt_optionen": "Schwarz"
   },
-  "gmt-master-2|16750": {
+  "gmt-master|16750": {
    "ref": "16750",
    "produktion": "1981–1988",
    "durchmesser": "40 mm",
@@ -6590,7 +6590,7 @@
    "leuchtmasse": "Tritium",
    "band": "Oyster- oder Jubilé-Band, Edelstahl"
   },
-  "gmt-master-2|16760": {
+  "gmt-master|16760": {
    "ref": "16760",
    "produktion": "1983–1988",
    "durchmesser": "40 mm",
@@ -6611,7 +6611,7 @@
    "band": "Oyster- oder Jubilé-Band, Edelstahl",
    "zifferblatt_optionen": "Schwarz"
   },
-  "gmt-master-2|16710": {
+  "gmt-master|16710": {
    "ref": "16710",
    "produktion": "1989–2007",
    "durchmesser": "40 mm",
@@ -6634,7 +6634,7 @@
    "band": "Oyster- oder Jubilé-Band, Edelstahl",
    "zifferblatt_optionen": "Schwarz"
   },
-  "gmt-master-2|116710LN / BLNR": {
+  "gmt-master|116710LN / BLNR": {
    "ref": "116710LN / BLNR",
    "produktion": "2007–2019",
    "durchmesser": "40 mm",
@@ -6658,7 +6658,7 @@
    "schliesse": "Oysterlock-Faltschließe mit Easylink-Verlängerung",
    "zifferblatt_optionen": "Schwarz"
   },
-  "gmt-master-2|126710": {
+  "gmt-master|126710": {
    "manufaktur": "Manufakturwerk",
    "werktyp": "Automatik",
    "frequenz": "28.800 A/h (4 Hz)",
@@ -6683,7 +6683,7 @@
    "zifferblatt_optionen": "Schwarz",
    "produktion": "seit 2018"
   },
-  "gmt-master-2|126720VTNR": {
+  "gmt-master|126720VTNR": {
    "ref": "126720VTNR",
    "produktion": "seit 2022",
    "durchmesser": "40 mm",

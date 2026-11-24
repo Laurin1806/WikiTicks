@@ -858,12 +858,12 @@ function navBrands(key) {
   return top;
 }
 // ---------- Favoriten (im Browser gespeichert) ----------
-let FAV = []; try { FAV = JSON.parse(localStorage.getItem("wikiticks-fav") || "[]").filter(x => typeof x === "string"); } catch (e) {}
+let FAV = []; try { FAV = JSON.parse(localStorage.getItem("wikiticks-fav") || "[]").filter(x => typeof x === "string").map(x => x.replace(/^gmt-master-2(?=@|$)/, "gmt-master")); } catch (e) {}
 const isFav = id => FAV.includes(id);
 const favLabel = id => id.startsWith("marke-") ? (BRANDS.find(b => "marke-" + slug(b) === id) || id) : byId[id] ? byId[id].t : null;
 const favBtn = id => `<button type="button" class="favbtn" data-fav="${id}" aria-pressed="${isFav(id)}" title="${isFav(id) ? "Aus den Favoriten entfernen" : "Zu den Favoriten hinzufügen"}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2l2.7 5.6 6.1.8-4.5 4.2 1.1 6-5.4-3-5.4 3 1.1-6-4.5-4.2 6.1-.8z"/></svg><span>${isFav(id) ? "Favorit" : "Merken"}</span></button>`;
 // ---------- Uhrenvergleich (bis zu drei Modelle, im Browser gemerkt) ----------
-let CMP = []; try { CMP = JSON.parse(localStorage.getItem("wikiticks-cmp") || "[]").filter(x => typeof x === "string").slice(0, 3); } catch (e) {}
+let CMP = []; try { CMP = JSON.parse(localStorage.getItem("wikiticks-cmp") || "[]").filter(x => typeof x === "string").map(x => x.replace(/^gmt-master-2(?=@|$)/, "gmt-master")).slice(0, 3); } catch (e) {}
 const saveCmp = () => { try { localStorage.setItem("wikiticks-cmp", JSON.stringify(CMP)); } catch (e) {} };
 const cmpBase = x => x.split("@")[0], inCmp = id => CMP.some(x => cmpBase(x) === id); // Einträge: »id« oder »id@k« (k = Variante)
 const cmpBtn = id => `<button type="button" class="favbtn cmpbtn" data-cmp="${id}" aria-pressed="${inCmp(id)}" title="Im Uhrenvergleich gegenüberstellen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h11M4 7l3-3M4 7l3 3M20 17H9M20 17l-3-3M20 17l-3 3"/></svg><span>${inCmp(id) ? "Im Vergleich" : "Vergleichen"}</span></button>`;
@@ -914,7 +914,7 @@ const SPEC_FIELDS = [["ref", "Referenz"], ["produktion", "Produktion"], ["durchm
 const FACT_FOR = { werk: "Kaliber", gangreserve: "Gangreserve", wasserdicht: "Wasserdicht", luenette: "Lünette", band: "Band", funktionen: "Funktionen", zertifizierung: "Zertifizierung", genauigkeit: "Genauigkeit", glas: "Glas", krone: "Krone", leuchtmasse: "Leuchtmasse", boden: "Gehäuseboden", antimagnetisch: "Magnetfeldschutz", frequenz: "Frequenz" };
 const SPEC_COVER = { "Kaliber": ["werk"], "Gangreserve": ["gangreserve"], "Wasserdicht": ["wasserdicht"], "Lünette": ["luenette"], "Band": ["band"], "Funktionen": ["funktionen"], "Zertifizierung": ["zertifizierung"], "Genauigkeit": ["genauigkeit"], "Glas": ["glas"], "Krone": ["krone"], "Leuchtmasse": ["leuchtmasse"], "Gehäuseboden": ["boden"], "Gehäuse": ["durchmesser", "gehaeuse"], "Magnetfeldschutz": ["antimagnetisch"], "Chronograph": [] };
 function viewCompare(h) {
-  if (h.startsWith("vergleich=")) { const ids = h.slice(10).split(",").filter(x => cmpItem(x)).slice(0, 3); if (ids.length) { CMP = ids; saveCmp(); history.replaceState(null, "", "#vergleich"); } }
+  if (h.startsWith("vergleich=")) { const ids = h.slice(10).split(",").map(x => { const [i, k] = x.split("@"); return (MERGED[i] || i) + (k !== undefined ? "@" + k : ""); }).filter(x => cmpItem(x)).slice(0, 3); if (ids.length) { CMP = ids; saveCmp(); history.replaceState(null, "", "#vergleich"); } }
   const sel = CMP.filter(x => cmpItem(x)), I = sel.map(cmpItem);
   const opts = MODELS.slice().sort((a, b) => a.t.localeCompare(b.t, "de")).map(m => `<option value="${esc(m.t)}"></option>`).join("");
   const slot = i => { const it = I[i], e = it && it.e, ch = e ? cmpChoices(e) : [];
@@ -1103,7 +1103,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112590";
+const IMGV = "2026112591";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2780,7 +2780,7 @@ if (DARK_MQ.addEventListener) DARK_MQ.addEventListener("change", onScheme); else
 
 // ---------- Routing ----------
 // Frühere eigene Beiträge, die in einen anderen Beitrag aufgenommen wurden
-const MERGED = { "royal-oak-chronograph": "royal-oak", "royal-oak-perpetual": "royal-oak", "black-bay-58": "black-bay", "black-bay-54": "black-bay", "pilot-travel-time": "calatrava", "portugieser-yacht-club": "portugieser", "pilots-chronograph": "mark-xx", "speedmaster-57": "speedmaster", "dark-side-of-the-moon": "speedmaster", "santos-dumont": "santos", "santos-100": "santos", "tank-francaise": "tank", "turn-o-graph": "datejust" };
+const MERGED = { "gmt-master-2": "gmt-master", "royal-oak-chronograph": "royal-oak", "royal-oak-perpetual": "royal-oak", "black-bay-58": "black-bay", "black-bay-54": "black-bay", "pilot-travel-time": "calatrava", "portugieser-yacht-club": "portugieser", "pilots-chronograph": "mark-xx", "speedmaster-57": "speedmaster", "dark-side-of-the-moon": "speedmaster", "santos-dumont": "santos", "santos-100": "santos", "tank-francaise": "tank", "turn-o-graph": "datejust" };
 function route() {
   const h0 = decodeURIComponent(location.hash.slice(1));
   if (MERGED[h0]) { history.replaceState(null, "", "#" + MERGED[h0]); }

@@ -2789,7 +2789,7 @@
     "edelstahl",
     "gangabweichung",
     "leuchtmasse",
-    "gmt-master-2",
+    "gmt-master",
     "explorer"
    ],
    "k": "Die erste Explorer II heißt »Steve McQueen«, obwohl McQueen sie nach heutigem Wissen nie getragen hat.",
@@ -3751,13 +3751,13 @@
    "irefs": "mittel"
   },
   {
-   "id": "gmt-master-2",
-   "t": "Rolex GMT-Master II",
+   "id": "gmt-master",
+   "t": "Rolex GMT-Master",
    "brand": "Rolex",
    "since": "1955",
-   "s": "Die Pilotenuhr mit drehbarer 24-Stunden-Lünette, mit der sich bis zu drei Zeitzonen gleichzeitig ablesen lassen.",
+   "s": "Die Pilotenuhr mit drehbarer 24-Stunden-Lünette: seit 1955 als GMT-Master, seit 1983 als GMT-Master II mit einzeln stellbarem Stundenzeiger.",
    "b": [
-    "Die GMT-Master ist eine Auftragsarbeit des Luftverkehrs. Mitte der 1950er-Jahre begannen die ersten Langstrecken-Linienflüge mit Düsenflugzeugen, die Piloten und Navigatoren mehrere Zeitzonen in einem Dienst durchqueren ließen. Die Fluggesellschaft Pan American World Airways, damals das Gesicht der internationalen Zivilluftfahrt, suchte eine Armbanduhr, die Ortszeit und die Zeit am Heimatflughafen (Greenwich Mean Time, GMT) gleichzeitig anzeigt. Rolex antwortete 1954 mit der Referenz 6542, die ein Jahr später lieferbar war: ein vierter, zentral montierter Zeiger, der das Zifferblatt in 24 Stunden einmal umrundet, und eine drehbare 24-Stunden-Lünette.",
+    "Die GMT-Master ist eine Auftragsarbeit des Luftverkehrs; seit 1983 heißt ihre Weiterentwicklung GMT-Master II, die bis heute gebaut wird. Mitte der 1950er-Jahre begannen die ersten Langstrecken-Linienflüge mit Düsenflugzeugen, die Piloten und Navigatoren mehrere Zeitzonen in einem Dienst durchqueren ließen. Die Fluggesellschaft Pan American World Airways, damals das Gesicht der internationalen Zivilluftfahrt, suchte eine Armbanduhr, die Ortszeit und die Zeit am Heimatflughafen (Greenwich Mean Time, GMT) gleichzeitig anzeigt. Rolex antwortete 1954 mit der Referenz 6542, die ein Jahr später lieferbar war: ein vierter, zentral montierter Zeiger, der das Zifferblatt in 24 Stunden einmal umrundet, und eine drehbare 24-Stunden-Lünette.",
     "Die zweifarbige Lünette sollte die Orientierung erleichtern: Die eine Hälfte steht für den Tag (rot), die andere für die Nacht (blau). Die Einlage der 6542 bestand aus Bakelit, einem frühen Kunststoff, in den die Ziffern mit radiumhaltiger Leuchtmasse eingelegt waren. Das Material brach leicht und Rolex ersetzte es bald durch Aluminium. Intakte Bakelit-Einlagen gehören heute zu den gesuchtesten Details der Marke.",
     "1959 löste die 1675 die 6542 ab, mit Kronenschutz. Sie wurde über zwei Jahrzehnte, bis 1980, gebaut. Ihr 24-Stunden-Zeiger war mit dem Stundenzeiger gekoppelt und lief als Tag-Nacht-Anzeige mit der Ortszeit; die zweite Zeitzone las man über die drehbare Lünette ab, die man um den Zeitunterschied verdrehte. Die Uhr war eine zuverlässige Zeitzonenhilfe, aber noch keine »echte« GMT-Funktion im Sinne der Uhrmacher.",
     "Diese entstand 1983 mit der GMT-Master II, der Referenz 16760, die Sammler wegen ihres breiten Gehäuses »Fat Lady« nennen. Bei ihr lässt sich der Stundenzeiger unabhängig von allen anderen Zeigern in ganzen Stunden verstellen, ohne dass die Uhr anhält. Auf Reisen springt die Ortszeit weiter, während der 24-Stunden-Zeiger unverändert die Heimatzeit anzeigt. Das Datum folgt dem Stundenzeiger, auch rückwärts. 1989 folgte mit der 16710 die Version mit Kaliber 3185, die in den 1990er-Jahren als Pepsi, Coke und Schwarz erhältlich war.",
@@ -4069,7 +4069,7 @@
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, Originalwert, hier in Euro). Ältere Referenzen: Spanne gängiger Händlerangebote von rund 9.400 bis 12.250 EUR (Luxury Bazaar, BQ Watches); der Wert ist deren Mitte. Neupreis 16710: Liste 2004 laut Crown & Caliber, nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: WatchCharts (Oktober 2026). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
    },
-   "w": "Die zweifarbige Lünette trennt Tag (Rot) und Nacht (Blau) und macht die GMT-Master II zusammen mit dem vierten Zeiger zur Reiseuhr für bis zu drei Zeitzonen.",
+   "w": "Die zweifarbige Lünette trennt Tag (Rot) und Nacht (Blau) und macht die GMT-Master zusammen mit dem vierten Zeiger zur Reiseuhr für bis zu drei Zeitzonen.",
    "lume": {
     "z": "IHP",
     "c": "b"
@@ -11547,7 +11547,7 @@
    "r": [
     "jahreskalender",
     "gmt",
-    "gmt-master-2",
+    "gmt-master",
     "ewiger-kalender"
    ],
    "k": "Die Rolex Sky-Dweller zeigt den Monat über zwölf kleine Fenster am Rand des Zifferblatts.",
@@ -18142,7 +18142,7 @@
     "chronometer",
     "luenette",
     "black-bay",
-    "gmt-master-2"
+    "gmt-master"
    ],
    "k": "Der einzeln stellbare Stundenzeiger macht die Black Bay GMT zu einer echten Reiseuhr: Nach der Landung wird nur der Stundenzeiger verstellt.",
    "a": [],
