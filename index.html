@@ -264,6 +264,11 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .watch { display: block; width: 100%; height: 100%; }
 /* Aufklappbare Bildbeschreibung: legt sich als halbtransparente Karte über den Text darunter */
 .watchfig:has(.imgnote) { position: relative; }
+.lexlinks { display: flex; flex-wrap: wrap; gap: 8px; margin: -4px 0 14px; }
+.lexbtn { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px 5px 9px; border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line)); border-radius: 999px; font-size: 12.5px; font-weight: 600; color: var(--fg); text-decoration: none; background: color-mix(in srgb, var(--accent) 7%, var(--surface)); transition: background .2s, border-color .2s; }
+.lexbtn svg { width: 14px; height: 14px; fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linejoin: round; }
+.lexbtn span { color: var(--accent); font-weight: 700; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+@media (hover: hover) and (pointer: fine) { .lexbtn:hover { background: color-mix(in srgb, var(--accent) 15%, var(--surface)); border-color: var(--accent); } }
 .imgnote { width: 100%; text-align: left; font-size: 13px; line-height: 1.5; color: var(--fg); border-top: 1px solid var(--line); padding-top: 8px; margin-top: 2px; position: static; }
 .imgnote summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--accent); }
 .imgnote summary::-webkit-details-marker { display: none; }
@@ -811,7 +816,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112529"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112530"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1760,6 +1765,10 @@ function viewEntry(e) {
   for (const k in varAt) varAt[k] = evenize(varAt[k]);
   varRest.splice(0, varRest.length, ...evenize(varRest));
   const varGallery = varRest.length ? `<div class="gallery gallery-inline">${varRest.map(varFig).join("")}</div>` : "";
+  // e.lx: Verweise auf passende Lexikon-Artikel als kleine Knöpfe unter dem zugehörigen Absatz ([Lexikon-ID, Zwischenüberschrift oder Absatznummer])
+  const lxAt = {};
+  (e.lx || []).forEach(([id, at]) => { const k = typeof at === "number" ? at : (e.bh || []).indexOf(at); if (k >= 0 && byId[id]) (lxAt[k] = lxAt[k] || []).push(id); });
+  const lxBtns = k => lxAt[k] ? `<div class="lexlinks">${lxAt[k].map(id => `<a class="lexbtn" href="#${id}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 016.5 3H20v15H6.5A2.5 2.5 0 004 20.5v-15zM4 20.5A2.5 2.5 0 016.5 23H20v-5"/></svg><span>Lexikon</span>${esc(byId[id].t.split(": ").pop())}</a>`).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
       ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption>${imgNote(e.bd)}</figure>`) : LF.top}
@@ -1783,7 +1792,7 @@ function viewEntry(e) {
           const timeline = tl.length >= 2 ? `<ol class="timeline">${tl.map(([y, t]) => `<li><span class="ty">${y}</span><span class="tt">${linkify(esc(t), e.id, used)}</span></li>`).join("")}</ol>` : "";
           const parts = [["geschichte", "Geschichte"], ...(timeline ? [["zeitleiste", "Zeitleiste"]] : []), ...(e.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ...(e.x && e.x.length ? [["experte", "Expertenwissen"]] : []), ...((e.tipp && e.tipp.length) || e.preis ? [["sammler", "Wissenswert für Sammler und Käufer"]] : []), ...(e.refs ? [["referenzen", "Alle Referenzen"]] : []), ["technik", "Technik der aktuellen Ausführung"]];
           return `<nav class="toc" aria-label="Inhalt">${parts.map(([k, t]) => `<button type="button" data-sec="${k}">${t}</button>`).join("")}</nav>`
-            + H("geschichte", "Geschichte") + e.b.map((p, k) => ((e.bh && e.bh[k]) ? `<h4 class="art-sh">${esc(e.bh[k])}</h4>` : "") + P([p]) + (varAt[k] ? `<div class="gallery gallery-inline">${varAt[k].map(varFig).join("")}</div>` : "")).join("") + varGallery
+            + H("geschichte", "Geschichte") + e.b.map((p, k) => ((e.bh && e.bh[k]) ? `<h4 class="art-sh">${esc(e.bh[k])}</h4>` : "") + P([p]) + lxBtns(k) + (varAt[k] ? `<div class="gallery gallery-inline">${varAt[k].map(varFig).join("")}</div>` : "")).join("") + varGallery
             + (timeline ? H("zeitleiste", "Zeitleiste") + timeline : "")
             + (e.m ? H("merkmale", "Erkennungsmerkmale") + UL(e.m) : "")
             + (e.x && e.x.length ? H("experte", "Expertenwissen") + UL(e.x) : "")
