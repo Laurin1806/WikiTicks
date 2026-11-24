@@ -125,7 +125,7 @@ main { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 52px; pa
 #minibar .menu-toggle.mini span { color: var(--muted); font-weight: 400; }
 #minipanel { display: grid; gap: 18px; margin-top: 6px; max-height: 0; overflow: hidden; padding: 0 8px; opacity: 0; transform: translateY(-8px); transition: max-height .35s ease, padding .35s ease, opacity .25s ease, transform .35s ease; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 30px rgba(0, 0, 0, .16); }
 #minibar.open #minipanel { max-height: min(78vh, 640px); overflow: auto; padding: 14px 8px; opacity: 1; transform: none; }
-#minipanel .mininight { border-top: 1px solid var(--line); padding: 14px 6px 2px; }
+#minipanel .mininight { border-top: 1px solid var(--line); padding: 14px 6px 2px; display: grid; gap: 12px; }
 @media (min-width: 761px) { #minibar { transform: translateY(-140%); } #minibar.on { transform: none; } }
 @media (prefers-reduced-motion: reduce) { #minibar, #minipanel { transition: none; } }
 #minipanel .navgroup h2 {font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; margin: 0 0 6px; padding-left: 10px; }
@@ -2138,8 +2138,8 @@ function setAccent(a) {
   document.querySelectorAll(".accent-switch button").forEach(b => b.setAttribute("aria-pressed", b.dataset.accent === a));
 }
 try { setAccent(localStorage.getItem("wikiticks-accent")); } catch (e) {}
-document.querySelector(".accent-switch").addEventListener("click", ev => {
-  const b = ev.target.closest("button"); if (!b) return;
+document.addEventListener("click", ev => {
+  const b = ev.target.closest && ev.target.closest(".accent-switch button"); if (!b) return;
   setAccent(b.dataset.accent);
   try { localStorage.setItem("wikiticks-accent", b.dataset.accent); } catch (e) {}
 });
@@ -2230,9 +2230,10 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
   const place = () => { if (innerWidth > 760) { const r = $("#nav").getBoundingClientRect(); bar.style.left = r.left + "px"; bar.style.width = r.width + "px"; } else { bar.style.left = ""; bar.style.width = ""; } };
   const check = () => { place(); const a = anchor(), r = a.getBoundingClientRect(), on = r.bottom < 0; bar.classList.toggle("on", on); bar.setAttribute("aria-hidden", on ? "false" : "true"); if (!on) close(); $("#mini-cur").textContent = $("#menu-cur").textContent; };
   addEventListener("scroll", check, { passive: true }); addEventListener("resize", check); addEventListener("hashchange", () => { close(); setTimeout(check, 50); });
-  btn.addEventListener("click", () => { const o = !bar.classList.contains("open"); if (o) { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; nb.querySelector(".moon").innerHTML = m.querySelector(".moon").innerHTML; }, 0); }); panel.querySelector(".mininight").append(nb); } bar.classList.toggle("open", o); btn.setAttribute("aria-expanded", o); });
-  panel.addEventListener("click", ev => { if (ev.target.closest("a")) close(); });
-  document.addEventListener("click", ev => { if (!ev.target.closest("#minibar, #nightbtn")) close(); });
+  btn.addEventListener("click", () => { const o = !bar.classList.contains("open"); if (o) { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; nb.querySelector(".moon").innerHTML = m.querySelector(".moon").innerHTML; }, 0); }); panel.querySelector(".mininight").append(nb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); } bar.classList.toggle("open", o); btn.setAttribute("aria-expanded", o); });
+  // Link im Menü: sofort öffnen (nicht erst nur das Menü schließen)
+  panel.addEventListener("click", ev => { const a = ev.target.closest("a[href^='#']"); if (!a) return; ev.preventDefault(); close(); freshNav = true; location.hash = a.getAttribute("href").slice(1); });
+  document.addEventListener("click", ev => { if (!ev.target.closest("#minibar, #nightbtn, .accent-switch")) close(); });
   check();
 })();
 // ---------- Daten laden ----------
