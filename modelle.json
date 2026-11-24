@@ -10793,20 +10793,6 @@
     "coin": true,
     "img": "assets/watches/rolex-deepsea-136660-d-blue.jpg"
    },
-   "var": [
-    {
-     "n": "Zifferblatt »D-Blue«",
-     "y": "seit 2014",
-     "v": {
-      "dial": "#1b4c8f",
-      "img": "assets/watches/rolex-deepsea-136660-d-blue.jpg"
-     },
-     "bd": [
-      "Die Abbildung zeigt eine Rolex Deepsea aus Edelstahl mit dem Zifferblatt »D-Blue«, das von tiefem Blau oben zu Schwarz unten verläuft. Die drehbare Lünette trägt eine schwarze Keramikeinlage mit Taucherskala und Leuchtpunkt bei 12 Uhr.",
-      "Zu erkennen sind der grüne Schriftzug »DEEPSEA« und darunter »SEA-DWELLER«, runde Leuchtindizes, Balken bei 3, 6 und 9 sowie ein Dreieck bei 12 Uhr und der Mercedes-Stundenzeiger. Das Datumsfenster bei 3 Uhr hat keine Zykloplupe. Auf dem Rehaut stehen »ORIGINAL GAS ESCAPE VALVE« und »RING LOCK SYSTEM«, Hinweise auf Heliumventil und Gehäusekonstruktion. Die Uhr sitzt an einem Oyster-Band."
-     ]
-    }
-   ],
    "m": [
     "Ringlock-System gegen extremen Druck",
     "Sehr dickes, gewölbtes Saphirglas",
@@ -10869,10 +10855,18 @@
     "James Cameron und das »D-Blue«-Zifferblatt",
     "Kaliber 3235 und Deepsea Challenge"
    ],
-   "bd": [
-    "Die Abbildung zeigt eine Rolex Deepsea aus Edelstahl mit dem Zifferblatt »D-Blue«, das von tiefem Blau oben zu Schwarz unten verläuft. Die drehbare Lünette trägt eine schwarze Keramikeinlage mit Taucherskala und Leuchtpunkt bei 12 Uhr.",
-    "Zu erkennen sind der grüne Schriftzug »DEEPSEA« und darunter »SEA-DWELLER«, runde Leuchtindizes, Balken bei 3, 6 und 9 sowie ein Dreieck bei 12 Uhr und der Mercedes-Stundenzeiger. Das Datumsfenster bei 3 Uhr hat keine Zykloplupe. Auf dem Rehaut stehen »ORIGINAL GAS ESCAPE VALVE« und »RING LOCK SYSTEM«, Hinweise auf Heliumventil und Gehäusekonstruktion. Die Uhr sitzt an einem Oyster-Band."
-   ]
+   "topv": {
+    "n": "Deepsea »D-Blue«",
+    "y": "seit 2014",
+    "v": {
+     "dial": "#1b4c8f",
+     "img": "assets/watches/rolex-deepsea-136660-d-blue.jpg"
+    },
+    "bd": [
+     "Die Abbildung zeigt eine Rolex Deepsea aus Edelstahl mit dem Zifferblatt »D-Blue«, das von tiefem Blau oben zu Schwarz unten verläuft. Die drehbare Lünette trägt eine schwarze Keramikeinlage mit Taucherskala und Leuchtpunkt bei 12 Uhr.",
+     "Zu erkennen sind der grüne Schriftzug »DEEPSEA« und darunter »SEA-DWELLER«, runde Leuchtindizes, Balken bei 6 und 9 sowie ein Dreieck bei 12 Uhr und der Mercedes-Stundenzeiger. Das Datumsfenster bei 3 Uhr hat keine Zykloplupe. Auf dem Rehaut stehen »ORIGINAL GAS ESCAPE VALVE« und »RING LOCK SYSTEM«, Hinweise auf Heliumventil und Gehäusekonstruktion. Die Uhr sitzt an einem Oyster-Band."
+    ]
+   }
   },
   {
    "id": "seamaster-300",
