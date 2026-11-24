@@ -6074,6 +6074,22 @@
    "leuchtmasse": "keine",
    "band": "braunes Leder",
    "zifferblatt_optionen": "Creme, goldfarbene Indizes"
+  },
+  "air-king|0": {
+   "ref": "5500",
+   "produktion": "1957–1989",
+   "durchmesser": "34 mm",
+   "gehaeuse": "Edelstahl",
+   "glas": "Acrylglas",
+   "boden": "verschraubt, geschlossen",
+   "krone": "verschraubt",
+   "werk": "Kaliber 1530, ab den 1960er-Jahren 1520",
+   "werktyp": "Automatik",
+   "manufaktur": "Manufakturwerk",
+   "funktionen": "Stunden, Minuten, Sekunden",
+   "leuchtmasse": "Tritium",
+   "band": "Oyster-Band, Edelstahl",
+   "zifferblatt_optionen": "Silber, gealtert"
   }
  },
  "_refs": {
@@ -9550,7 +9566,7 @@
    "glas": "Acrylglas",
    "boden": "verschraubt, geschlossen",
    "krone": "verschraubt",
-   "werk": "Kaliber 1520, später 1530",
+   "werk": "Kaliber 1530, ab den 1960er-Jahren 1520",
    "werktyp": "Automatik",
    "manufaktur": "Manufakturwerk",
    "funktionen": "Stunden, Minuten, Sekunden",

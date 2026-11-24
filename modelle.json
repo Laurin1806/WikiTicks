@@ -11102,7 +11102,24 @@
    ],
    "dial": "Schwarz",
    "iref": "126900",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "var": [
+    {
+     "n": "Ref. 5500",
+     "y": "1957–1989",
+     "v": {
+      "img": "assets/watches/rolex-air-king-5500.jpg"
+     },
+     "at": "1945: Erbe der »Air«-Modelle",
+     "dial": "Silber",
+     "iref": "5500",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex Air-King Referenz 5500 aus Edelstahl mit 34 Millimetern, glatter Lünette und Oyster-Band. Gebaut wurde sie von 1957 bis 1989; über Jahrzehnte war sie die schlichte Einstiegs-Rolex ohne Datum.",
+      "Zu erkennen sind das helle, leicht gealterte Zifferblatt mit aufgesetzten Stabindizes, die kleinen Tritiumpunkte außen an den Indizes und die Stabzeiger mit Leuchtfüllung. Unter der Krone stehen »ROLEX OYSTER PERPETUAL« und der Schriftzug »Air-King« in Schreibschrift, über der 6 »PRECISION«; »T SWISS T« am unteren Rand weist auf Tritium-Leuchtmasse hin."
+     ]
+    }
+   ]
   },
   {
    "id": "milgauss",
@@ -31556,7 +31573,8 @@
   "longines-master-collection-moonphase.jpg": "n",
   "patek-philippe-nautilus-3700-1a.jpg": "v",
   "rolex-datejust-1601-cream.jpg": "n",
-  "tissot-visodate-1953.jpg": "n"
+  "tissot-visodate-1953.jpg": "n",
+  "rolex-air-king-5500.jpg": "v"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -31830,6 +31848,7 @@
   "rolex-submariner-5513.jpg": 543,
   "patek-philippe-nautilus-3700-1a.jpg": 543,
   "rolex-datejust-1601-cream.jpg": 543,
-  "tissot-visodate-1953.jpg": 543
+  "tissot-visodate-1953.jpg": 543,
+  "rolex-air-king-5500.jpg": 768
  }
 }
