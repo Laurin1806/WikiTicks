@@ -2227,7 +2227,7 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
 // Kompakte Menüleiste (PC und Smartphone): sobald das Menü oben verschwindet, fest am oberen Rand; Klick klappt das Menü nach unten auf
 (function () {
   const bar = $("#minibar"), btn = $("#minibtn"), panel = $("#minipanel");
-  const anchor = () => { const t = $("#menu"); return t.offsetParent ? t : $("#nav"); };
+  const anchor = () => { const t = $("#menu"); return t.offsetParent && !$("#nav").classList.contains("open") ? t : $("#nav"); }; // aufgeklapptes Menü: Leiste erst, wenn es ganz oben verschwunden ist
   const close = () => { bar.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); };
   const place = () => { if (innerWidth > 760) { const r = $("#nav").getBoundingClientRect(); bar.style.left = r.left + "px"; bar.style.width = r.width + "px"; } else { bar.style.left = ""; bar.style.width = ""; } };
   let wasOn = false;
@@ -2235,7 +2235,7 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
     if (on !== wasOn) {
       // offenes Menü beim Scrollen mitnehmen: oben offenes Menü -> Leiste offen, und zurück
       const small = innerWidth <= 760, navOpen = small && $("#nav").classList.contains("open");
-      if (on && navOpen) open(); // oberes Menü bleibt im Seitenfluss offen (kein Springen), die Leiste zeigt es zusätzlich
+      if (on && navOpen) { open(); bar.dataset.fromNav = "1"; } // oberes Menü bleibt im Seitenfluss offen (kein Springen), die Leiste zeigt es aufgeklappt weiter
       if (!on) close();
       wasOn = on;
     }
@@ -2246,7 +2246,7 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
   function fill() { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; nb.querySelector(".moon").innerHTML = m.querySelector(".moon").innerHTML; }, 0); }); panel.querySelector(".mininight").append(nb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); }
   // Link im Menü: sofort öffnen (nicht erst nur das Menü schließen)
   panel.addEventListener("click", ev => { const a = ev.target.closest("a[href^='#']"); if (!a) return; ev.preventDefault(); close(); freshNav = true; location.hash = a.getAttribute("href").slice(1); });
-  document.addEventListener("click", ev => { if (!ev.target.closest("#minibar, #nightbtn, .accent-switch")) close(); });
+  document.addEventListener("click", ev => { if (!ev.target.closest("#minibar, #nightbtn, .accent-switch, #menu")) close(); });
   check();
 })();
 // ---------- Daten laden ----------
