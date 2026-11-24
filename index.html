@@ -1653,10 +1653,11 @@ function nightPrep(img) {
     }
     // Uhren ohne Leuchtmasse: im Dunkeln von oben angeleuchtet (Lichtkegel von oben, nach unten auslaufend)
     const spotS = (!wrap.dataset.lmk && !wrap.dataset.lz) ? 1 : SOFTSPOT; // 1 = volle Beleuchtung (ohne Leuchtmasse), kleiner = nur angedeutet
+    const sb = spotS === 1 ? .46 : .34, spk = spotS === 1 ? .56 : .78; // Grundhelligkeit / Lichtkegel (ohne Leuchtmasse: Uhr heller, Licht schwächer)
     if (spotS) { let y0 = h, y1 = 0, x0 = w, x1 = 0; for (let i = 0; i < N; i++) if (!bg[i] && !shd[i]) { const px = i % w, py = (i / w) | 0; if (py < y0) y0 = py; if (py > y1) y1 = py; if (px < x0) x0 = px; if (px > x1) x1 = px; }
       const cxs = (x0 + x1) / 2, hh = Math.max(1, y1 - y0), ww = Math.max(1, x1 - x0);
       for (let i = 0; i < N; i++) { if (bg[i] || shd[i]) continue; const px = i % w, py = (i / w) | 0, ty = (py - y0) / hh, dx = (px - cxs) / (ww * (.42 + ty * .35));
-        const f = 1 + spotS * ((.34 + .78 * Math.exp(-dx * dx * 1.6) * Math.exp(-Math.pow(Math.max(0, ty - .18) / .55, 2))) / NDIM - 1); // relativ zur Grundabdunklung
+        const f = 1 + spotS * ((sb + spk * Math.exp(-dx * dx * 1.6) * Math.exp(-Math.pow(Math.max(0, ty - .18) / .55, 2))) / NDIM - 1); // relativ zur Grundabdunklung
         o[i * 4] = Math.min(255, o[i * 4] * f * (1 + .02 * spotS)); o[i * 4 + 1] = Math.min(255, o[i * 4 + 1] * f); o[i * 4 + 2] = Math.min(255, o[i * 4 + 2] * f * (1 - .1 * spotS)); } }
     cx.putImageData(od, 0, 0);
     // Leuchtmasse nach den Angaben im Modell (data-lz: I Indizes, H Zeiger, P Lünettenpunkt, B Lünettenmarkierungen, S Hilfszifferblätter, L LCD).
