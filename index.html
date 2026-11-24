@@ -127,6 +127,7 @@ main { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 52px; pa
 #minibar.open #minipanel { max-height: min(78vh, 640px); overflow: auto; overscroll-behavior: contain; padding: 14px 8px; opacity: 1; transform: none; }
 #minipanel .mininight { border-top: 1px solid var(--line); padding: 14px 6px 2px; display: grid; gap: 12px; }
 @media (min-width: 761px) { #minibar { transform: translateY(-140%); } #minibar.on { transform: none; } }
+@media (max-width: 760px) { #minibar.open #minipanel { max-height: 50vh; } }
 @media (prefers-reduced-motion: reduce) { #minibar, #minipanel { transition: none; } }
 #minipanel .navgroup h2 {font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); font-weight: 600; margin: 0 0 6px; padding-left: 10px; }
 #minipanel ul {list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
