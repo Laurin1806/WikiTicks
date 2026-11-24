@@ -816,7 +816,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112530"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112531"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1727,7 +1727,7 @@ function priceChart(pr, refs) {
 }
 
 function viewEntry(e) {
-  const used = new Set();
+  const used = new Set((e.lx || []).map(x => x[0])); // Lexikon-Artikel mit eigenem Knopf nicht zusätzlich im Text verlinken
   const trail = e.brand
     ? [["Alle Marken", "uhrenmodelle"], [e.brand, "marke-" + slug(e.brand)], [shortName(e)]]
     : [["Lexikon", "a-z"], [e.c, "rubrik-" + slug(e.c)], [e.t]];
