@@ -326,19 +326,30 @@ a.hot[aria-current="true"] .flame { fill: #ffb27a; }
 .cmpbtn { margin-left: 8px; }
 .cmpbtn[aria-pressed="true"] { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 50%, var(--line)); }
 .cmpbtn svg { stroke-linecap: round; }
-.cmpwrap { overflow-x: auto; margin-top: 10px; }
+.cmpwrap { overflow-x: auto; margin-top: 10px; padding-bottom: 260px; margin-bottom: -260px; } /* Platz für aufgeklappte Ausführungsmenüs */
 .cmpgrid { display: grid; grid-template-columns: 170px repeat(3, minmax(150px, 1fr)); gap: 12px; min-width: 640px; }
 .cmpgrid::before { content: ""; }
-.cmpslot { display: grid; gap: 8px; align-content: start; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+.cmpslot > * { min-width: 0; }
+.cmpslot { min-width: 0; grid-template-columns: minmax(0, 1fr); display: grid; gap: 8px; align-content: start; padding: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
 .cmpimg .watch { height: 190px; }
 .cmpempty { height: 190px; display: grid; place-items: center; border: 1.5px dashed var(--line); border-radius: 10px; color: var(--muted); font-size: 13px; }
 .cmphead { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 2px 6px; }
 .cmphead .cat { grid-column: 1; font-size: 10.5px; text-transform: uppercase; letter-spacing: .1em; color: var(--gold); font-weight: 600; }
 .cmphead a { grid-column: 1; color: var(--fg); font-weight: 600; text-decoration: none; line-height: 1.3; }
 .cmprm { grid-column: 2; grid-row: 1 / span 2; width: 28px; height: 28px; border-radius: 999px; border: 1px solid var(--line); background: none; color: var(--muted); font-size: 17px; line-height: 1; cursor: pointer; }
-.cmpvars { display: flex; flex-wrap: wrap; gap: 5px; }
-.cmpvar { font: inherit; font-size: 11.5px; line-height: 1.3; text-align: left; padding: 4px 9px; border: 1px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--fg); cursor: pointer; }
-.cmpvar[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: color-mix(in srgb, var(--accent) 9%, var(--surface)); font-weight: 600; }
+/* Ausführung wählen: aufklappbares Menü im Stil des Scrollmenüs */
+.cmpdd { position: relative; }
+.cmpddbtn { display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%; font: inherit; font-size: 13px; text-align: left; padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--fg); cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,.06); }
+.cmpddbtn { display: grid; grid-template-columns: minmax(0, 1fr) auto; row-gap: 1px; }
+.cmpddbtn b { grid-column: 1; font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.cmpddbtn span { grid-column: 1; color: var(--fg); font-weight: 500; line-height: 1.35; }
+.cmpddbtn::after { grid-column: 2; grid-row: 1 / span 2; content: ""; flex: none; width: 7px; height: 7px; border-right: 1.6px solid var(--muted); border-bottom: 1.6px solid var(--muted); transform: translateY(-2px) rotate(45deg); transition: transform .25s ease; }
+.cmpdd.open .cmpddbtn::after { transform: translateY(1px) rotate(-135deg); }
+.cmpddp { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 50; display: grid; gap: 2px; max-height: 0; overflow: hidden; padding: 0 6px; opacity: 0; transform: translateY(-6px); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,.16); transition: max-height .3s ease, padding .3s ease, opacity .2s ease, transform .3s ease; pointer-events: none; }
+.cmpdd.open .cmpddp { max-height: 320px; overflow-y: auto; padding: 6px; opacity: 1; transform: none; pointer-events: auto; }
+.cmpvar { font: inherit; font-size: 13px; line-height: 1.35; text-align: left; padding: 8px 10px; border: 0; border-radius: 7px; background: none; color: var(--fg); cursor: pointer; }
+.cmpvar[aria-pressed="true"] { background: var(--accent); color: #fff; font-weight: 600; }
+@media (hover: hover) and (pointer: fine) { .cmpvar[aria-pressed="false"]:hover { background: var(--accent-soft); } }
 .cmptable td b.cmpdial { display: block; font-weight: 600; }
 .cmptable td small + small { margin-top: 2px; }
 .cmpin { width: 100%; font: inherit; font-size: 14px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--fg); }
@@ -873,7 +884,7 @@ function viewCompare(h) {
   const slot = i => { const it = I[i], e = it && it.e, ch = e ? cmpChoices(e) : [];
     return `<div class="cmpslot">${e ? `<a class="cmpimg" href="#${e.id}">${drawWatch(it.v, e)}</a><div class="cmphead"><span class="cat">${esc(e.brand)}</span><a href="#${e.id}">${esc(shortName(e))}</a><button type="button" class="cmprm" data-slot="${i}" aria-label="Aus dem Vergleich entfernen">×</button></div>`
       : `<div class="cmpempty"><span>Uhr ${i + 1}</span></div>`}<input class="cmpin" list="cmplist" data-slot="${i}" placeholder="${e ? "Andere Uhr wählen" : "Uhr suchen, z. B. Submariner"}" aria-label="Uhr ${i + 1} auswählen">
-      ${ch.length > 1 ? `<div class="cmpvars" role="group" aria-label="Ausführung wählen">${ch.map(c => `<button type="button" class="cmpvar" data-slot="${i}" data-k="${c.k == null ? "" : c.k}" aria-pressed="${c.k === it.k}">${esc(c.n.replace(/^Ref\.\s*/, ""))}</button>`).join("")}</div>` : ""}</div>`; };
+      ${ch.length > 1 ? `<div class="cmpdd"><button type="button" class="cmpddbtn" aria-expanded="false"><b>Ausführung</b><span>${esc(it.name.replace(/^Ref\.\s*/, ""))}</span></button><div class="cmpddp" role="group" aria-label="Ausführung wählen">${ch.map(c => `<button type="button" class="cmpvar" data-slot="${i}" data-k="${c.k == null ? "" : c.k}" aria-pressed="${c.k === it.k}">${esc(c.n.replace(/^Ref\.\s*/, ""))}</button>`).join("")}</div></div>` : ""}</div>`; };
   const E = I.map(x => x.e), P = I.map(x => cmpPrices(x.e, x.k != null ? x.name : ""));
   const keys = []; E.forEach(e => (e.f || []).forEach(([k]) => { if (k !== "Zifferblatt" && !keys.includes(k)) keys.push(k); }));
   const fact = (e, k) => { const x = (e.f || []).find(f => f[0] === k); return x ? esc(x[1]) : "–"; };
@@ -915,6 +926,9 @@ document.addEventListener("change", ev => {
   CMP = cur; cmpSet(Math.min(i, CMP.length), m.id);
 });
 document.addEventListener("click", ev => {
+  const db = ev.target.closest && ev.target.closest(".cmpddbtn");
+  if (db) { const d = db.parentElement, o = !d.classList.contains("open"); document.querySelectorAll(".cmpdd.open").forEach(x => { x.classList.remove("open"); x.querySelector(".cmpddbtn").setAttribute("aria-expanded", "false"); }); d.classList.toggle("open", o); db.setAttribute("aria-expanded", o); return; }
+  if (!(ev.target.closest && ev.target.closest(".cmpdd"))) document.querySelectorAll(".cmpdd.open").forEach(x => { x.classList.remove("open"); x.querySelector(".cmpddbtn").setAttribute("aria-expanded", "false"); });
   const vb = ev.target.closest && ev.target.closest(".cmpvar");
   if (vb) { const i = +vb.dataset.slot, base = cmpBase(CMP.filter(y => cmpItem(y))[i]); cmpSet(i, base + (vb.dataset.k === "" ? "" : "@" + vb.dataset.k)); return; }
   const b = ev.target.closest && ev.target.closest(".cmprm"); if (!b) return; cmpSet(+b.dataset.slot, null);
@@ -1004,7 +1018,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112561"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112563"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
