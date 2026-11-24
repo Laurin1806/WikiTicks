@@ -3448,14 +3448,6 @@
    "band": "Alligatorleder",
    "zifferblatt_optionen": "Silber, guillochiert"
   },
-  "bulgari-bulgari|main": {
-   "ref": "102038",
-   "gehaeuse": "Edelstahl",
-   "glas": "Saphir",
-   "luenette": "mit doppelt graviertem Schriftzug »BVLGARI BVLGARI«",
-   "band": "Edelstahl-Gliederband",
-   "zifferblatt_optionen": "Schwarz"
-  },
   "calatrava|0": {
    "ref": "Calatrava im Stil der Ref. 96, mit arabischen Ziffern und kleiner Sekunde",
    "manufaktur": "Manufakturwerk",
@@ -3808,7 +3800,7 @@
    "band": "President-Band, Platin 950",
    "schliesse": "verdeckte Crownclasp-Faltschließe",
    "groessen": "40 mm",
-   "produktion": "seit 2015",
+   "produktion": "seit 2022",
    "steine": "31",
    "zifferblatt_optionen": "Eisblau (Platinmodellen vorbehalten)"
   },
@@ -4510,17 +4502,6 @@
    "funktionen": "Stunden, Minuten, Sekunden, Datum",
    "band": "Leder"
   },
-  "link|main": {
-   "ref": "WBC1310.BA0600",
-   "durchmesser": "32 mm",
-   "hoehe": "9,05 mm",
-   "gehaeuse": "Edelstahl",
-   "glas": "Saphir",
-   "werktyp": "Quarz",
-   "funktionen": "Stunden, Minuten, Sekunden, Datum",
-   "wasserdicht": "100 m",
-   "band": "S-förmiges Gliederband, Edelstahl"
-  },
   "ludwig|main": {
    "ref": "201",
    "produktion": "seit 1992",
@@ -4648,18 +4629,6 @@
    "schliesse": "Oysterlock-Faltschließe",
    "zifferblatt_optionen": "Z-Blau",
    "produktion": "2014–2023"
-  },
-  "mille-miglia|main": {
-   "ref": "168589-3001",
-   "durchmesser": "42 mm",
-   "gehaeuse": "Edelstahl",
-   "glas": "Saphir",
-   "werktyp": "Automatik",
-   "zertifizierung": "COSC",
-   "gangreserve": "42 Stunden",
-   "funktionen": "Stunden, Minuten, kleine Sekunde, Chronograph, Datum",
-   "luenette": "Tachymeterskala",
-   "wasserdicht": "50 m"
   },
   "millenary|main": {
    "gehaeuse": "Edelstahl, oval",
@@ -5018,30 +4987,6 @@
    "produktion": "seit 2004",
    "zifferblatt_optionen": "Opal"
   },
-  "pelagos|0": {
-   "ref": "25600TB-0001",
-   "durchmesser": "42 mm",
-   "anstoss": "22 mm",
-   "gehaeuse": "Titan",
-   "glas": "Saphir",
-   "boden": "verschraubt, geschlossen, Titan",
-   "werk": "Kaliber MT5612",
-   "werktyp": "Automatik",
-   "manufaktur": "Manufakturwerk",
-   "frequenz": "28.800 A/h (4 Hz)",
-   "gangreserve": "70 Stunden",
-   "spirale": "Silizium",
-   "zertifizierung": "COSC",
-   "funktionen": "Stunden, Minuten, Sekunden, Datum",
-   "luenette": "einseitig drehbar, Keramik, 60 Minuten",
-   "krone": "verschraubt",
-   "wasserdicht": "500 m, Heliumventil",
-   "leuchtmasse": "Super-LumiNova",
-   "band": "Titanband (dazu Kautschukband)",
-   "schliesse": "Faltschließe mit selbstanpassender Federverlängerung",
-   "zifferblatt_optionen": "Blau",
-   "produktion": "seit 2015"
-  },
   "perpetual-1908|0": {
    "ref": "52509-0002",
    "durchmesser": "39 mm",
@@ -5089,22 +5034,6 @@
    "schliesse": "Faltschließe",
    "zifferblatt_optionen": "Weiß, Schwarz",
    "produktion": "seit 2023"
-  },
-  "pilot-type-20|main": {
-   "ref": "11.2430.4069/21.C900",
-   "durchmesser": "45 mm",
-   "gehaeuse": "Edelstahl, gealterte Optik",
-   "glas": "Saphir",
-   "werk": "Kaliber El Primero 4069",
-   "werktyp": "Automatik",
-   "manufaktur": "Manufakturwerk",
-   "frequenz": "36.000 A/h (5 Hz)",
-   "funktionen": "Stunden, Minuten, Chronograph",
-   "krone": "Zwiebelkrone",
-   "leuchtmasse": "Super-LumiNova",
-   "wasserdicht": "100 m",
-   "band": "Leder",
-   "zifferblatt_optionen": "Schwarz"
   },
   "ploprof|main": {
    "ref": "224.30.55.21.01.001",
