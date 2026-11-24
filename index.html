@@ -296,7 +296,7 @@ a.hot[aria-current="true"] .flame { fill: #ffb27a; }
 .favbtn svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
 .favbtn[aria-pressed="true"] { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 50%, var(--line)); }
 .favbtn[aria-pressed="true"] svg { fill: currentColor; }
-.favbtn:hover { border-color: var(--gold); color: var(--gold); }
+
 .favbtn { transition: color .7s ease, border-color .7s ease, box-shadow .7s ease, text-shadow .7s ease; }
 .favbtn svg { transition: fill .7s ease, filter .7s ease; }
 .favbtn span { display: inline-block; transition: opacity .28s ease, transform .28s ease; }
@@ -306,8 +306,9 @@ a.hot[aria-current="true"] .flame { fill: #ffb27a; }
 .favbtn[aria-pressed="false"] svg { filter: drop-shadow(0 0 3px rgba(255, 255, 255, calc(var(--gl) * .55))); }
 .favbtn[aria-pressed="true"] { box-shadow: 0 0 8px color-mix(in srgb, var(--gold) calc(var(--gl) * 55%), var(--bg)), 0 0 18px color-mix(in srgb, var(--gold) calc(var(--gl) * 25%), var(--bg)); text-shadow: 0 0 6px color-mix(in srgb, var(--gold) calc(var(--gl) * 60%), var(--bg)); }
 .favbtn[aria-pressed="true"] svg { filter: drop-shadow(0 0 3px color-mix(in srgb, var(--gold) calc(var(--gl) * 80%), transparent)); }
-.favbtn:hover { border-color: var(--gold); color: var(--gold); }
+
 :root.theme-fade .favbtn, :root.theme-fade .favbtn svg { transition: none !important; }
+@media (hover: hover) and (pointer: fine) { .favbtn:hover { border-color: var(--gold); color: var(--gold); } } /* auf Touchgeräten bleibt :hover nach dem Tippen hängen */
 .brandbtns { display: flex; align-items: center; gap: 0; flex-wrap: wrap; margin: 0 0 12px; }
 .brandbtns .tomodels { margin: 0; }
 nav .favhint, #minipanel .favhint { font-size: 13px; color: var(--muted); padding: 4px 10px 4px 22px; }
