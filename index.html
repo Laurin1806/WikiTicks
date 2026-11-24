@@ -262,6 +262,13 @@ a.xl:hover { text-decoration-color: var(--accent); }
 
 /* Illustrationen */
 .watch { display: block; width: 100%; height: 100%; }
+/* »Heißeste« Marken im Menü */
+.hothint { display: flex; align-items: center; gap: 5px; font-size: 11.5px; color: var(--muted); padding: 0 10px 4px 22px; }
+.flame { width: 12px; height: 12px; fill: #e0702e; flex: none; }
+a.hot { display: flex !important; align-items: center; justify-content: space-between; gap: 6px; }
+a.hot .flame { opacity: .85; }
+a.hot[aria-current="true"] .flame { fill: #ffb27a; }
+:root.night .flame { filter: drop-shadow(0 0 3px rgba(240, 130, 60, calc(var(--gl) * .8))); }
 .navgroup h2 a { color: inherit; text-decoration: none; display: block; margin: 0 -10px; padding: 3px 10px; border-radius: 6px; }
 .navgroup h2 a:hover { background: var(--accent-soft); color: var(--fg); }
 .navgroup h2 a[aria-current="true"] { background: var(--accent); color: #fff; }
@@ -671,7 +678,9 @@ function navKey(h) {
   return h;
 }
 // In der Navigation nur die Marken mit den meisten Modellen zeigen, die gerade geöffnete Marke immer dazu
-const NAV_FIXED = ["Rolex", "Omega", "Patek Philippe", "A. Lange & Söhne"], NAV_BRANDS = NAV_FIXED.length;
+// »Heißeste« Marken: die gefragtesten Marken am Uhrenmarkt (Nachfrage, Wartelisten, Gebrauchtpreise über Liste)
+const NAV_FIXED = ["Rolex", "Patek Philippe", "Audemars Piguet", "Omega"], NAV_BRANDS = NAV_FIXED.length;
+const FLAME = `<svg class="flame" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c.6 3.2-1.6 4.8-3 6.6C7.6 10.9 6.5 12.6 6.5 15a5.5 5.5 0 0011 0c0-2.2-1-3.9-2.2-5.2.1 1.6-.5 2.7-1.6 3.2.5-3.5-.4-7.2-1.7-10.5z"/></svg>`;
 function navBrands(key) {
   const top = NAV_FIXED.filter(b => BRANDS.includes(b));
   const cur = BRANDS.find(b => key === "marke-" + slug(b));
@@ -699,7 +708,8 @@ function renderNav(h) {
       ${FAV.filter(favLabel).length ? FAV.filter(favLabel).map(id => `<li><a href="#${id}" class="sub" aria-current="${h === id}">${esc(favLabel(id))}</a></li>`).join("") : `<li class="favhint">Mit ☆ bei einem Beitrag merken</li>`}
     </ul></div>
     <div class="navgroup"><h2><a href="#uhrenmodelle" aria-current="${key === "uhrenmodelle"}">Alle Marken</a></h2><ul>
-      ${navBrands(key).map(b => link("marke-" + slug(b), b, "sub")).join("")}
+      <li class="hothint">${FLAME}Gefragteste Marken</li>
+      ${navBrands(key).map(b => NAV_FIXED.includes(b) ? `<li><a href="#marke-${slug(b)}" class="sub hot" aria-current="${key === "marke-" + slug(b)}">${esc(b)}${FLAME}</a></li>` : link("marke-" + slug(b), b, "sub")).join("")}
     </ul></div>
     <div class="navgroup"><h2><a href="#a-z" aria-current="${key === "a-z"}">Lexikon</a></h2><ul>
       ${CAT_ORDER.filter(c => LEX.some(e => e.c === c)).map(c => link("rubrik-" + slug(c), c, "sub")).join("")}
