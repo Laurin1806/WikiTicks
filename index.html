@@ -1327,9 +1327,9 @@ const DG = (() => {
       ${lab(270, 50, "0 · eingedrückt: aufziehen")}${lab(270, 70, "1 · Datum schnell stellen")}${lab(270, 90, "2 · Zeiger stellen")}
       ${lab(115, 90, "Gehäuse (Seitenansicht)", "middle")}`),
     mondphase: () => svg(460, 130, `
-      <g class="moon" transform="translate(20 6) scale(4)" style="--mp-sky1: #22427e; --mp-sky2: #0f1f45; --mp-moon1: #fff6d8; --mp-moon2: #e2b85a">${moonSVG(moonPhase().p)}</g>
+      <g class="moon" transform="translate(20 6) scale(4)" style="--mp-sky1: #22427e; --mp-sky2: #0f1f45; --mp-moon1: #fff6d8; --mp-moon2: #e2b85a">${moonSVG(.32)}</g>
       ${lab(240, 40, "Mondscheibe mit zwei Monden", "start", 172, 56)}
-      ${lab(240, 60, "59 Zähne, zeigt die Mondphase von heute", "start")}
+      ${lab(240, 60, "59 Zähne: eine Umdrehung in 59 Tagen", "start")}
       ${lab(240, 100, "Fenster mit zwei Wölbungen", "start", 186, 108)}
       ${lab(240, 120, "verdecken den Mond nach und nach", "start")}
       `),
