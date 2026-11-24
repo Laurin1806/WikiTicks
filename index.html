@@ -282,6 +282,7 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .lexbtn svg { width: 14px; height: 14px; fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linejoin: round; filter: drop-shadow(0 0 3px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), transparent)); }
 .lexbtn span { color: var(--accent); font-weight: 700; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
 @media (hover: hover) and (pointer: fine) { .lexbtn:hover { background: color-mix(in srgb, var(--accent) 15%, var(--surface)); border-color: var(--accent); } }
+.figref { display: block; margin-top: 3px; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .imgnote { width: 100%; text-align: left; font-size: 13px; line-height: 1.5; color: var(--fg); border-top: 1px solid var(--line); padding-top: 8px; margin-top: 2px; position: static; }
 .imgnote summary { cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--accent); }
 .imgnote summary::-webkit-details-marker { display: none; }
@@ -851,8 +852,9 @@ function cmpItem(x) {
   const [id, ks] = x.split("@"), e = byId[id]; if (!e || !e.brand) return null;
   const k = ks === undefined || ks === "" ? null : +ks, vr = k != null ? (e.var || [])[k] : null;
   if (k != null && !(vr && vr.v && vr.v.img)) return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung", v: mainV(e), dial: e.dial };
-  if (vr) { const yr = +((vr.y || "").match(/\d{4}/) || [9999])[0]; return { e, k, name: vr.n, y: vr.y, v: withVariant(e.v, { ...vr.v, ...(yr < 2005 ? { era: "vintage" } : {}) }), dial: vr.dial }; }
-  return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung", y: e.topv ? e.topv.y : "", v: mainV(e), dial: e.dial };
+  if (vr) { const yr = +((vr.y || "").match(/\d{4}/) || [9999])[0]; return { e, k, name: vr.n, y: vr.y, v: withVariant(e.v, { ...vr.v, ...(yr < 2005 ? { era: "vintage" } : {}) }), dial: vr.dial, ref: vr.iref, refs: vr.irefs }; }
+  const t = e.topv || e;
+  return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung", y: e.topv ? e.topv.y : "", v: mainV(e), dial: e.dial, ref: t.iref, refs: t.irefs };
 }
 // Bilder, zwischen denen man wählen kann: Hauptbild und alle Varianten mit eigenem Bild
 const cmpChoices = e => [{ k: null, n: e.topv ? e.topv.n : "Aktuelle Ausführung" }, ...(e.var || []).map((v, k) => ({ k, n: v.n, img: v.v && v.v.img })).filter(x => x.img)];
@@ -891,7 +893,7 @@ function viewCompare(h) {
     return `<div class="cmpslot">${e ? `<a class="cmpimg" href="#${e.id}">${drawWatch(it.v, e)}</a><div class="cmphead"><span class="cat">${esc(e.brand)}</span><a href="#${e.id}">${esc(shortName(e))}</a><button type="button" class="cmprm" data-slot="${i}" aria-label="Aus dem Vergleich entfernen">×</button></div>`
       : `<div class="cmpempty"><span>Uhr ${i + 1}</span></div>`}<input class="cmpin" list="cmplist" data-slot="${i}" placeholder="${e ? "Andere Uhr wählen" : "Uhr suchen, z. B. Submariner"}" aria-label="Uhr ${i + 1} auswählen">
       ${ch.length > 1 ? `<div class="cmpdd"><button type="button" class="cmpddbtn" aria-expanded="false"><b>Ausführung</b><span>${esc(it.name.replace(/^Ref\.\s*/, ""))}</span></button><div class="cmpddp" role="group" aria-label="Ausführung wählen">${ch.map(c => `<button type="button" class="cmpvar" data-slot="${i}" data-k="${c.k == null ? "" : c.k}" aria-pressed="${c.k === it.k}">${esc(c.n.replace(/^Ref\.\s*/, ""))}</button>`).join("")}</div></div>` : ""}</div>`; };
-  const E = I.map(x => x.e), P = I.map(x => cmpPrices(x.e, x.k != null ? x.name : ""));
+  const E = I.map(x => x.e), P = I.map(x => { const p = cmpPrices(x.e, x.k != null ? x.name + " " + (x.ref || "") : (x.ref || "")); return (x.k == null && p.note) ? cmpPrices(x.e, "") : p; });
   const SP = E.map(e => SPECS[e.id] || {});
   // Datenblatt (datenblatt.json): Felder, die mindestens eine der gewählten Uhren hat; Faktenzeilen, die das Datenblatt bei allen Uhren abdeckt, entfallen
   const fact = (e, k) => { const x = (e.f || []).find(f => f[0] === k); return x ? esc(x[1]) : "–"; };
@@ -911,6 +913,7 @@ function viewCompare(h) {
   const rows = !E.length ? "" : [
     row("Marke", E.map(e => `<a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a>`)),
     row("Gezeigte Ausführung", I.map(it => esc(it.name) + (it.y ? `<small>${esc(it.y)}</small>` : ""))),
+    row("Referenz im Bild", I.map(it => it.ref ? `<b>${esc(it.ref)}</b>${it.refs === "mittel" ? "<small>wahrscheinlich</small>" : ""}` : "–")),
     row("Seit", E.map(e => esc(String(e.since || "–")))),
     row("Aktuelle Ausführung", E.map(e => esc(e.cur || "–"))),
     E.some(e => e.designer) ? row("Entwurf", E.map(e => esc(e.designer || "–"))) : "",
@@ -1034,7 +1037,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112566"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112567"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2108,6 +2111,9 @@ function brandList() {
 // Bildbeschreibung als aufklappbarer Text unter dem Bild (Feld bd: Liste von Absätzen); Klick daneben schließt
 document.addEventListener("click", ev => { document.querySelectorAll(".imgnote[open]").forEach(d => { if (!d.contains(ev.target)) d.open = false; }); });
 const IMG_CREDIT = "Bildnachweis: KI-generierte Illustration, erstellt für WikiTicks. Keine Originalaufnahme des Herstellers.";
+// Referenz der abgebildeten Uhr unter dem Bild (nur wenn sie nicht schon in der Bildunterschrift steht)
+const refNorm = x => String(x || "").replace(/[\s.\-\/]/g, "").toLowerCase();
+const refLine = (t, cap) => t && t.iref && !refNorm(cap).includes(refNorm(t.iref.split(" ")[0]).slice(0, 6)) ? `<span class="figref">Abgebildet: Ref. ${esc(t.iref)}${t.irefs === "mittel" ? " (wahrscheinlich)" : ""}</span>` : "";
 const imgNote = bd => bd && bd.length ? `<details class="imgnote"><summary>Über dieses Bild</summary><div class="imgpop">${bd.map(p => `<p>${esc(p)}</p>`).join("")}<p class="credit">${esc(IMG_CREDIT)}</p></div></details>` : "";
 const BRAND_LOGOS = new Set(["rolex", "audemars-piguet", "patek-philippe", "omega", "a-lange-soehne", "tudor", "cartier", "breitling", "iwc", "jaeger-lecoultre", "vacheron-constantin", "blancpain"]);
 function viewBrand(b) {
@@ -2278,7 +2284,7 @@ function viewEntry(e) {
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
   const imgVars = (e.var || []).filter(x => x.v && x.v.img), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 5) : (e.var || []).slice(0, 2)) : [];
-  const varFig = x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption>${imgNote(x.bd)}</figure>`;
+  const varFig = x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}${refLine(x, x.n)}</figcaption>${imgNote(x.bd)}</figure>`;
   // Variantenbilder unter den Absatz setzen, der die Referenz nennt (oder per x.at unter eine Zwischenüberschrift) (z. B. »1680« → Absatz über die Red Sub); übrige in die Galerie
   const varAt = {}, varRest = [];
   for (const x of vars) {
@@ -2301,7 +2307,7 @@ function viewEntry(e) {
   const lxBtns = k => lxAt[k] ? `<div class="lexlinks">${lxAt[k].map(id => `<a class="lexbtn" href="#${id}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 016.5 3H20v15H6.5A2.5 2.5 0 004 20.5v-15zM4 20.5A2.5 2.5 0 016.5 23H20v-5"/></svg><span>Lexikon</span>${esc(byId[id].t.split(": ").pop())}</a>`).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
-      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption>${imgNote(e.bd)}</figure>`) : (LF.dg ? "" : LF.top)}
+      ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}${refLine(e.topv, e.topv.n)}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}${refLine(e, e.cur)}</figcaption>${imgNote(e.bd)}</figure>`) : (LF.dg ? "" : LF.top)}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}${favBtn(e.id)}${e.brand ? cmpBtn(e.id) : ""}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
