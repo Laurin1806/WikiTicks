@@ -477,6 +477,7 @@ const CAT_INTRO = {
   "Persönlichkeiten": "Uhrmacher, Gründer, Manager und Designer, die die Uhrenwelt geprägt haben."
 };
 
+let IMGRES = new Map(); // Bilddatei -> kürzere Seite in Pixeln (tools/imgres.py)
 let LUMEMASK = new Map(); // Bilddatei -> Leuchtfarbe der fertigen Leuchtebene ("g" grün, "b" blau, "v" Vintage-grün gedämpft)
 let E = [], byId = {}, MODELS = [], LEX = [], BRANDS = [], BRAND_INFO = {}, TERM_RE = null, TERMS = {};
 let q = "";
@@ -1359,14 +1360,23 @@ function dailyCard(M, kicker, varName = "", hid = "dh") {
 }
 
 // ---------- Ansichten ----------
+// Uhr/Artikel des Tages: bevorzugt Modelle mit hochauflösendem Bild; gezeigt wird das größte Bild (Hauptbild oder Variante)
+const HIRES = 600;
+const imgPx = v => (v && v.img && IMGRES.get(v.img.split("/").pop())) || 0;
+function bestImg(M) {
+  let best = { n: "", px: imgPx(M.v) };
+  for (const x of M.var || []) { const px = imgPx(x.v); if (px > best.px * 1.15) best = { n: x.n, px }; } // Variante nur, wenn deutlich größer
+  return best;
+}
+const hiRes = list => { const h = list.filter(e => bestImg(e).px >= HIRES); return h.length ? h : list; };
 function viewHome() {
   const man = manuell();
-  const M = (man && byId[man.artikel]) || (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || pickNoRepeat(today(), 21, LEX, MODELS, ARTIKEL_ANTEIL_LEXIKON), F = featured(M.id);
+  const M = (man && byId[man.artikel]) || (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || pickNoRepeat(today(), 21, LEX, hiRes(MODELS), ARTIKEL_ANTEIL_LEXIKON), F = featured(M.id);
   // Uhr des Tages: nie dasselbe Modell und nie dieselbe Marke wie der Artikel des Tages
   const pool = MODELS.filter(e => e.id !== M.id && (!M.brand || e.brand !== M.brand));
-  const luxus = pool.filter(e => LUXUS.has(e.brand)), rest = pool.filter(e => !LUXUS.has(e.brand));
+  const hp = hiRes(pool), luxus = hp.filter(e => LUXUS.has(e.brand)), rest = hp.filter(e => !LUXUS.has(e.brand));
   const W = (man && byId[man.uhr]) || (pool.length ? pickDay(today(), 33, luxus, rest, UHR_ANTEIL_LUXUS) : null);
-  return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES ? ARTIKEL_DES_TAGES_VARIANTE : "") + (W ? dailyCard(W, "Uhr des Tages", "", "dh2") : "") + `
+  return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES && ARTIKEL_DES_TAGES_VARIANTE ? ARTIKEL_DES_TAGES_VARIANTE : M.brand ? bestImg(M).n : "") + (W ? dailyCard(W, "Uhr des Tages", bestImg(W).n, "dh2") : "") + `
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
         <h2 class="section-title" id="fh">Wissenswertes</h2>
@@ -1997,6 +2007,7 @@ const DATA = window.WIKITICKS_DATA;
   ((mod && mod.marken) || []).forEach(m => { BRAND_INFO[m.name] = m; });
   const lmRaw = (mod && mod.lumeMasks) || {};
   LUMEMASK = new Map(Array.isArray(lmRaw) ? lmRaw.map(f => [f, "b"]) : Object.entries(lmRaw));
+  IMGRES = new Map(Object.entries((mod && mod.imgRes) || {}));
   rebuild(); route();
   if (POS[location.hash]) requestAnimationFrame(() => window.scrollTo({ top: POS[location.hash] }));
 });
