@@ -816,7 +816,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112534"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112535"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1804,6 +1804,8 @@ function viewEntry(e) {
         return H("grundlagen", person ? "Herkunft" : "Grundlagen") + P(e.b.slice(0, 1), "b")
           + (e.g ? H("geschichte", "Geschichte") + P(e.g, "g") : "")
           + (e.b.length > 1 ? H("detail", person ? "Leben und Werk" : "Im Detail") + P(e.b.slice(1), "b", 1) : "")
+          // e.how: technische Erklärung in Schritten [[Zwischenüberschrift, Absatz], …]
+          + (e.how && e.how.length ? H("funktion", "So funktioniert es") + e.how.map(([h, p]) => `<h4 class="art-sh">${esc(h)}</h4>` + P([p])).join("") : "")
           + (e.x && e.x.length ? H("experte", "Expertenwissen") + UL(e.x) : "")
           + LF.rest
           + H("eckdaten", "Auf einen Blick") + facts;

@@ -58,6 +58,20 @@
    "Ein Handaufzugswerk sollte am besten täglich zur gleichen Zeit aufgezogen werden, weil die Zugfeder im oberen Spannungsbereich gleichmäßiger Kraft abgibt.",
    "Bei Handaufzugswerken ohne Rutschkupplung spürt man einen klaren Widerstand, wenn die Feder voll ist. Weiterdrehen kann die Feder beschädigen.",
    "Viele Hochfrequenz- und Chronographenwerke mit Handaufzug sind flacher und lassen eine aufwendigere Finissage sichtbar werden."
+  ],
+  "how": [
+   [
+    "Von der Krone zur Zugfeder",
+    "Dreht man die Krone, dreht sich die Aufzugswelle im Werk. Auf ihr sitzt ein verschiebbares Kupplungsrad, der Kupplungstrieb. In der normalen Kronenstellung greift er in das Kronrad, das die Bewegung um 90 Grad umlenkt und an das große Sperrrad auf dem Federhaus weitergibt. Das Sperrrad dreht den Federkern, und die Zugfeder wickelt sich enger um ihn. Eine federnde Sperrklinke greift in die Zähne des Sperrrads und verhindert, dass die Feder sich beim Loslassen der Krone sofort wieder entspannt; das leise Klicken beim Aufziehen stammt von ihr."
+   ],
+   [
+    "Zeigerstellen und Stoppsekunde",
+    "Zieht man die Krone heraus, schiebt ein Winkelhebel den Kupplungstrieb auf die andere Seite. Er greift dann über Wechselräder in das Zeigerwerk, und die Krone dreht Stunden- und Minutenzeiger statt die Feder. Viele Werke haben zusätzlich eine Stoppsekunde: Ein Hebel legt sich in dieser Stellung an den Unruhreif und hält die Unruh an, damit sich die Uhr sekundengenau stellen lässt."
+   ],
+   [
+    "Warum man nicht überdrehen kann",
+    "Bei einer Handaufzugsuhr ist das äußere Ende der Zugfeder fest im Federhaus eingehängt. Ist die Feder ganz aufgewickelt, spürt man einen deutlichen Widerstand und hört auf. Gefährlich ist nur rohe Gewalt darüber hinaus. Bei Automatikwerken ist die Feder dagegen über eine Schleppfeder eingehängt, die am Ende rutscht, damit der Rotor die Feder nicht zerreißen kann."
+   ]
   ]
  },
  {
@@ -111,6 +125,20 @@
    "Typische Aufzugssysteme sind der Wechselrad-Aufzug, die Klinkenrad-Lösung (Magic Lever bei Seiko, bei der der Rotor schon bei kleinen Schwenkbewegungen Energie einspeist) und der Pellaton-Aufzug (IWC).",
    "Wer die Uhr wenig trägt, profitiert von einem Uhrenbeweger; dauerhaftes Bewegen erhöht jedoch den Verschleiß leicht.",
    "Ein vollständig aufgezogenes Automatikwerk hat meist 38 bis 80 Stunden Gangreserve, je nach Federhaus."
+  ],
+  "how": [
+   [
+    "Der Rotor als Schwungmasse",
+    "Herzstück ist der Rotor, ein halbkreisförmiges Gewicht, das sich auf einem Kugellager in der Werkmitte frei drehen kann. Jede Bewegung des Arms bringt ihn ins Pendeln oder Kreisen. Damit er möglichst viel Schwung hat, liegt das Gewicht außen am Rand, oft aus schwerem Wolfram oder Gold."
+   ],
+   [
+    "Der Wechsler macht aus Hin und Her eine Richtung",
+    "Die Zugfeder lässt sich nur in eine Richtung spannen, der Rotor dreht sich aber in beide. Ein Wechsler sorgt dafür, dass beide Drehrichtungen nutzbar werden: Bei vielen Werken sind es zwei Wechselräder mit Klinken, die je nach Richtung sperren oder frei laufen. Seiko verwendet den »Magic Lever«, einen Hebel mit zwei Klinken, IWC das Pellaton-System mit einer Herzkurve und zwei Klinken. Ein Untersetzungsgetriebe wandelt die vielen schnellen Rotorbewegungen in wenige langsame Umdrehungen des Sperrrads um."
+   ],
+   [
+    "Schutz vor Überspannung",
+    "Weil der Rotor nicht weiß, wann die Feder voll ist, endet die Zugfeder nicht an einem festen Haken, sondern an einer Schleppfeder, die mit Reibung an der Innenwand des Federhauses anliegt. Ist die Feder voll gespannt, rutscht diese Schleppfeder ein Stück weiter, statt die Feder weiter zu spannen. So kann der Rotor beliebig lange drehen, ohne Schaden anzurichten."
+   ]
   ]
  },
  {
@@ -170,6 +198,20 @@
   "x": [
    "Die Batterie eines Quarzwerks hält meist zwei bis fünf Jahre; eine leere Batterie sollte schnell getauscht werden, weil auslaufende Batterien das Werk beschädigen.",
    "Weitere Meilensteine: die Hamilton Pulsar als erste LED-Digitaluhr (1972), die Citizen Crystron als erste solarbetriebene Analoguhr (1976), die Junghans Mega als erste Funkarmbanduhr (1990) und Citizen Eco-Drive (1995)."
+  ],
+  "how": [
+   [
+    "Die Stimmgabel aus Quarz",
+    "Im Werk steckt ein winziger Quarzkristall in Form einer Stimmgabel, eingeschlossen in einem kleinen Vakuumröhrchen. Quarz ist piezoelektrisch: Legt man eine Spannung an, verformt er sich, und wenn er schwingt, erzeugt er selbst eine Spannung. Eine Schaltung hält ihn so in Schwingung, und zwar mit 32.768 Schwingungen pro Sekunde. Diese Zahl ist 2 hoch 15 und wurde gewählt, weil sie sich mit einfachen Schaltungen halbieren lässt."
+   ],
+   [
+    "Vom Takt zum Sekundenschritt",
+    "Ein integrierter Schaltkreis teilt die Frequenz fünfzehnmal hintereinander durch zwei und erhält so genau einen Impuls pro Sekunde. Dieser Impuls geht an einen Schrittmotor nach dem Prinzip von Lavet: Eine Spule magnetisiert kurz einen Stator, und ein kleiner Dauermagnet als Rotor dreht sich um eine halbe Umdrehung. Beim nächsten Impuls ist die Polung umgekehrt, und der Rotor dreht sich weiter. Über ein kleines Räderwerk bewegt er die Zeiger."
+   ],
+   [
+    "Wie genau stellt man ein Quarzwerk ein?",
+    "Kein Kristall schwingt exakt mit der Sollfrequenz. Statt ihn mechanisch abzustimmen, misst der Hersteller die Abweichung und programmiert den Chip so, dass er in regelmäßigen Abständen einige Schwingungen weglässt oder hinzuzählt; das nennt man Inhibition. Hochgenaue Werke messen zusätzlich die Temperatur und gleichen deren Einfluss aus. Sie erreichen wenige Sekunden Abweichung im Jahr, normale Quarzuhren etwa 15 Sekunden im Monat."
+   ]
   ]
  },
  {
@@ -218,6 +260,20 @@
   "x": [
    "Der Wirkungsgrad der Schweizer Ankerhemmung liegt bei nur etwa 30 bis 40 Prozent, rund ein Drittel der Antriebsenergie.",
    "Silizium-Anker und -Ankerräder sind zusätzlich antimagnetisch."
+  ],
+  "how": [
+   [
+    "Die Bauteile der Schweizer Ankerhemmung",
+    "Die verbreitetste Hemmung besteht aus drei Teilen: dem Ankerrad mit 15 schräg geformten Zähnen, dem Anker mit zwei Paletten aus synthetischem Rubin und der Doppelrolle auf der Unruhwelle mit einem kleinen Stift, dem Hebelstein. Der Anker sitzt dazwischen wie eine Wippe: Seine Paletten greifen abwechselnd in das Ankerrad, seine Gabel umfasst den Hebelstein der Unruh."
+   ],
+   [
+    "Ein Takt in fünf Schritten",
+    "Während die Unruh frei schwingt, liegt ein Ankerradzahn auf der Ruhefläche einer Palette und das Räderwerk steht still. Schwingt die Unruh zurück, stößt ihr Hebelstein in die Ankergabel und kippt den Anker; das nennt man Auslösung. Der Zahn rutscht nun über die schräge Hebefläche der Palette und schiebt den Anker weiter, der seinerseits der Unruh über den Hebelstein einen kleinen Stoß gibt, den Antrieb. Danach fällt das Ankerrad frei auf die andere Palette, bis der nächste Zahn dort aufschlägt. Dieser Fall ist das Ticken, das man hört. Zum Schluss zieht die Form der Paletten den Anker sicher an seinen Anschlag, damit er sich nicht von selbst löst."
+   ],
+   [
+    "Warum die Hemmung so wichtig ist",
+    "Die Hemmung ist die einzige Stelle, an der das Räderwerk die Unruh berührt. Je kürzer und gleichmäßiger diese Berührung, desto ungestörter schwingt die Unruh und desto genauer geht die Uhr. Zugleich ist sie die verschleißanfälligste Stelle, weil die Zähne bei jedem Takt über die Paletten gleiten und Öl brauchen. Genau hier setzen Entwicklungen wie die Co-Axial-Hemmung oder Hemmungsteile aus Silizium an."
+   ]
   ]
  },
  {
@@ -269,6 +325,20 @@
   ],
   "x": [
    "Die Unruhamplitude, der in Grad angegebene Ausschlag der Schwingung, ist ein wichtiger Messwert bei der Wartung: Bei voll aufgezogener Feder liegen gesunde Werke zwischen etwa 270 und 310 Grad."
+  ],
+  "how": [
+   [
+    "Ein Pendel im Kreis",
+    "Die Unruh ist ein Schwungrad, meist ein Reif mit zwei bis vier Armen, das auf einer feinen Welle sitzt. Mit der Unruhspirale bildet sie ein schwingendes System: Die Spirale zieht die ausgelenkte Unruh zurück, die Unruh schwingt durch ihren Schwung über die Mitte hinaus und spannt die Spirale in die andere Richtung. Wie lange eine Schwingung dauert, hängt nur vom Trägheitsmoment der Unruh und von der Steifigkeit der Spirale ab, nicht davon, wie weit sie schwingt. Das macht sie zum Taktgeber."
+   ],
+   [
+    "Amplitude und Stoßsicherung",
+    "Wie weit die Unruh ausschlägt, nennt man Amplitude. Bei einer gesunden, aufgezogenen Uhr liegt sie meist zwischen 270 und 310 Grad. Sinkt sie deutlich, ist das Werk verschmutzt, die Feder schwach oder das Öl verharzt. Die Zapfen der Unruhwelle sind so dünn wie ein Haar und laufen in Lagersteinen. Damit sie bei einem Stoß nicht brechen, sitzen die Steine in federnden Fassungen, etwa dem Incabloc-System mit seiner leierförmigen Feder: Der Stein weicht aus und springt danach in seine Lage zurück."
+   ],
+   [
+    "Regulieren durch Masse oder Länge",
+    "Um die Uhr genauer einzustellen, kann man entweder die wirksame Länge der Spirale ändern, mit einem Rücker, oder das Trägheitsmoment der Unruh. Bei sogenannten Freischwingern sitzen dafür kleine Schrauben oder Gewichte im Unruhreif; dreht man sie nach außen, schwingt die Unruh langsamer, nach innen schneller. Freischwinger gelten als stabiler, weil kein Rücker die Spirale berührt."
+   ]
   ]
  },
  {
@@ -318,6 +388,20 @@
   "g": [
    "Frühe Taschenuhren liefen meist etwa 30 Stunden und mussten jeden Tag aufgezogen werden. Anfang des 20. Jahrhunderts kamen Taschenuhren mit acht Tagen Laufzeit auf, die mit einer besonders langen Zugfeder arbeiteten.",
    "Heute sind 70 bis 80 Stunden in vielen Serienwerken üblich. Einige Hersteller zeigen, was technisch möglich ist: A. Lange & Söhne stellte 2007 die Lange 31 vor, die 31 Tage mit einer Federhausfüllung läuft. Hublot kam 2013 mit der MP-05 LaFerrari auf 50 Tage."
+  ],
+  "how": [
+   [
+    "Wo die Energie steckt",
+    "Die Gangreserve ist die Zeit, die eine voll aufgezogene Uhr läuft, bis die Zugfeder entspannt ist. Sie hängt von der Länge und Stärke der Feder ab und davon, wie viel Energie das Werk pro Stunde verbraucht. Ein Werk mit hoher Frequenz oder vielen Komplikationen braucht mehr Energie und läuft bei gleicher Feder kürzer."
+   ],
+   [
+    "Mehr Reserve durch mehrere Federhäuser",
+    "Eine längere Feder passt nicht beliebig in ein Federhaus. Hersteller schalten deshalb zwei oder mehr Federhäuser hintereinander: Das erste treibt das zweite an, und die Laufzeiten addieren sich. So erreichen Werke wie das Pellaton-Kaliber von IWC sieben Tage. Federhäuser nebeneinander dagegen erhöhen eher die Kraft als die Laufzeit."
+   ],
+   [
+    "So arbeitet eine Gangreserveanzeige",
+    "Die Anzeige muss zwei Bewegungen verrechnen: das Aufziehen, das die Feder spannt, und das Ablaufen, das sie entspannt. Dafür sitzt meist ein kleines Differentialgetriebe zwischen Sperrrad und Federhaus. Es dreht sich nur, wenn sich beide unterschiedlich bewegen, und führt über eine Untersetzung den Zeiger. Steht er auf »voll«, ist die Feder gespannt; je weiter er fällt, desto näher kommt das Ende der Reserve."
+   ]
   ]
  },
  {
@@ -373,6 +457,20 @@
   "g": [
    "Taschenuhren schwangen lange mit 18.000 Halbschwingungen pro Stunde. In den 1960er-Jahren begann ein Wettlauf um höhere Frequenzen, weil schnellere Unruhen bei den Präzisionswettbewerben der Sternwarten besser abschnitten.",
    "Girard-Perregaux brachte 1966 mit dem Gyromatic HF eine der ersten Armbanduhren mit 36.000 A/h. 1969 folgte das El Primero von Zenith. Seiko baute ab 1968 Uhren mit zehn Halbschwingungen pro Sekunde, etwa die Grand Seiko 61GS. Danach setzte sich 28.800 A/h als guter Kompromiss zwischen Genauigkeit und Verschleiß durch."
+  ],
+  "how": [
+   [
+    "Halbschwingungen, Hertz und Ticks",
+    "Die Schlagzahl zählt die Halbschwingungen der Unruh pro Stunde, also jedes Mal, wenn sie von einem Umkehrpunkt zum anderen schwingt. 28.800 Halbschwingungen pro Stunde ergeben 8 pro Sekunde, das sind 4 volle Schwingungen oder 4 Hertz. Bei jedem dieser Takte springt der Sekundenzeiger ein winziges Stück weiter, daher wirkt er bei hohen Frequenzen fast gleitend."
+   ],
+   [
+    "Warum höher genauer sein kann",
+    "Eine schneller schwingende Unruh reagiert weniger auf Störungen: Ein Stoß oder eine Lageänderung stört eine einzelne Schwingung, und je mehr Schwingungen es pro Sekunde gibt, desto kleiner ist der Anteil dieser Störung am Gesamtergebnis. Bei Chronographen erlaubt eine höhere Frequenz außerdem feinere Messungen: Mit 5 Hertz wie beim Zenith El Primero lassen sich Zehntelsekunden ablesen."
+   ],
+   [
+    "Der Preis der Geschwindigkeit",
+    "Eine schnellere Unruh braucht deutlich mehr Energie, weil sie bei jedem Takt angetrieben werden muss, und die Teile der Hemmung verschleißen schneller. Deshalb setzen viele Hersteller auf 4 Hertz als Kompromiss; ältere oder sehr flache Werke laufen oft mit 2,5 bis 3 Hertz, Hochfrequenzwerke mit 5 oder mehr."
+   ]
   ]
  },
  {
@@ -420,6 +518,20 @@
   ],
   "x": [
    "Ein einfaches Automatikwerk braucht etwa 21 bis 25 Steine."
+  ],
+  "how": [
+   [
+    "Warum Steine statt Metall",
+    "Wo eine Stahlwelle in einem Messinglager läuft, entsteht Reibung und Abrieb. Synthetischer Rubin, chemisch Aluminiumoxid, ist sehr hart und glatt; ein polierter Stahlzapfen läuft darin mit wenig Reibung und fast ohne Verschleiß. Seit Auguste Verneuil um 1902 ein Verfahren zur künstlichen Herstellung fand, sind solche Steine billig und genau herstellbar."
+   ],
+   [
+    "Lochstein, Deckstein und Ölsenke",
+    "Ein Lochstein hat eine feine Bohrung, die innen leicht gewölbt ist, damit der Zapfen nur auf einer kleinen Fläche anliegt. Auf der Außenseite hat er eine Senke, in der das Öl durch Kapillarkraft festgehalten wird. An den schnell drehenden Stellen wie der Unruh liegt zusätzlich ein flacher Deckstein darüber, auf dem die Zapfenspitze aufliegt; so ändert sich die Reibung kaum, wenn die Uhr auf dem Zifferblatt oder auf dem Rand liegt."
+   ],
+   [
+    "Was die Zahl der Steine bedeutet",
+    "Ein einfaches mechanisches Werk ist mit 17 Steinen vollständig gelagert: an den Rädern, an Anker und Unruh, dazu die Paletten und der Hebelstein. Komplikationen brauchen mehr. Nach einer Norm dürfen nur Steine mit Funktion gezählt werden; früher setzten manche Hersteller funktionslose Steine ein, um mit einer hohen Zahl zu werben."
+   ]
   ]
  },
  {
@@ -476,6 +588,20 @@
   ],
   "x": [
    "Das Valjoux 7750, 1974 vorgestellt, ist bis heute eines der meistverwendeten Chronographenwerke."
+  ],
+  "how": [
+   [
+    "Abzweigen vom laufenden Werk",
+    "Ein mechanischer Chronograph hat kein eigenes Uhrwerk für die Stoppfunktion. Er zweigt die Kraft vom Sekundenrad des normalen Werks ab, das sich einmal pro Minute dreht. Auf dessen Achse sitzt ein Mitnehmerrad, das ständig mitläuft. Ob es den Stoppsekundenzeiger antreibt, entscheidet eine Kupplung."
+   ],
+   [
+    "Horizontale oder vertikale Kupplung",
+    "Bei der klassischen horizontalen Kupplung schwenkt beim Start ein kleines Zwischenrad zwischen Mitnehmerrad und Chronographenrad ein, deren Zähne dann ineinandergreifen. Das ist schön anzusehen, kann aber beim Start den Zeiger kurz zucken lassen, wenn die Zähne nicht sofort passend aufeinandertreffen. Bei der vertikalen Kupplung sitzen zwei Reibscheiben übereinander auf der Achse des Chronographenrads; beim Start werden sie zusammengedrückt und verbinden sich ohne Zahneingriff. Der Zeiger startet ruckfrei, und der Chronograph kann dauerhaft mitlaufen, ohne das Werk zu stören."
+   ],
+   [
+    "Zähler und Nullstellung",
+    "Der Minutenzähler wird über einen Finger am Chronographenrad bei jeder vollen Umdrehung um einen Schritt weitergeschaltet, der Stundenzähler auf ähnliche Weise oder über ein eigenes Räderwerk. Für die Nullstellung sitzt auf jeder Zählerachse eine herzförmige Scheibe. Drückt man den Rückstelldrücker, schlägt ein Hammer gegen diese Herzscheibe; wegen ihrer Form dreht sie sich immer an dieselbe Stelle, und der Zeiger springt auf null, egal wo er stand. Gesteuert wird die Reihenfolge von Start, Stopp und Rückstellung über ein Schaltrad oder eine Kulisse."
+   ]
   ]
  },
  {
@@ -517,7 +643,7 @@
   "fig": {
    "m": [
     "nautilus",
-    "jahreskalender"
+    "annual-calendar"
    ],
    "img": [
     "assets/watches/patek-philippe-nautilus-5740-1g-perpetual.jpg",
@@ -534,6 +660,20 @@
   ],
   "x": [
    "Nachfolger der Ref. 1518 bei Patek Philippe waren unter anderem die Ref. 5970 mit Automatik-Chronographenwerk (2004) und die Ref. 5270 mit Handaufzug (2011)."
+  ],
+  "how": [
+   [
+    "Das Gedächtnis aus Kerben",
+    "Kern des mechanischen ewigen Kalenders ist ein Programmrad, das sich in vier Jahren einmal dreht und am Rand 48 Kerben für 48 Monate trägt. Die Tiefe der Kerbe verrät die Länge des Monats: flach für 31 Tage, tiefer für 30, noch tiefer für den Februar mit 28 Tagen und eine eigene Tiefe für den Februar im Schaltjahr."
+   ],
+   [
+    "Der Mehrfachsprung am Monatsende",
+    "Jede Nacht schaltet das Werk über einen Finger am 24-Stunden-Rad den Datumsstern um einen Tag weiter. Gegen Monatsende tastet ein Fühlhebel in die Kerbe des Programmrads. Je tiefer er fallen kann, desto weiter bewegt sich ein großer Schalthebel, und am letzten Tag eines kurzen Monats schiebt er das Datum in einem Zug um mehrere Tage weiter, etwa vom 28. Februar direkt auf den 1. März. Gleichzeitig schaltet er Monatsanzeige und Programmrad um einen Schritt."
+   ],
+   [
+    "Warum das Jahr 2100 eine Ausnahme ist",
+    "Nach dem gregorianischen Kalender ist ein Jahr, das durch 100 teilbar ist, kein Schaltjahr, es sei denn, es ist auch durch 400 teilbar. 2000 war deshalb ein Schaltjahr, 2100 wird keines sein. Das Programmrad kennt nur den Vierjahresrhythmus und muss deshalb 2100 einmal von Hand korrigiert werden. Wichtig für Besitzer: Die Korrekturdrücker sollte man nicht in den Abend- und Nachtstunden betätigen, während die Schaltung läuft, weil sonst Teile beschädigt werden können."
+   ]
   ]
  },
  {
@@ -587,6 +727,20 @@
   "g": [
    "Mondphasen gehören zu den ältesten Anzeigen überhaupt. Schon der Mechanismus von Antikythera, ein griechisches Zahnradgerät aus dem 2. oder 1. Jahrhundert vor Christus, zeigte den Mondzyklus an. Auch die großen astronomischen Uhren der Kathedralen hatten Mondanzeigen, ebenso Tisch- und Standuhren des 17. Jahrhunderts.",
    "Bei Taschen- und Armbanduhren war die Mondphase vor allem in den 1940er- und 1950er-Jahren in Verbindung mit einem Vollkalender beliebt. Nach der Quarzkrise erlebte sie als Zeichen klassischer Uhrmacherkunst ein Comeback."
+  ],
+  "how": [
+   [
+    "Die Scheibe mit zwei Monden",
+    "Die meisten Mondphasen bestehen aus einer Scheibe mit zwei aufgemalten Monden und 59 Zähnen. Ein Finger schiebt sie einmal am Tag um einen Zahn weiter. 59 Zähne für zwei Monde ergeben 29,5 Tage pro Mondumlauf. Hinter den zwei halbrunden Abdeckungen am Zifferblattausschnitt, den Bosses, taucht der Mond langsam auf und verschwindet wieder."
+   ],
+   [
+    "Der kleine Fehler",
+    "Ein echter Mondumlauf von Neumond zu Neumond dauert aber rund 29,53 Tage. Die Scheibe ist also pro Monat um etwa 0,03 Tage zu schnell, nach gut zweieinhalb Jahren ist sie einen ganzen Tag voraus und muss korrigiert werden. Das geschieht meist über einen kleinen Drücker in der Gehäuseflanke."
+   ],
+   [
+    "Präzisionsmondphasen",
+    "Aufwendigere Mondphasen verwenden mehr Zähne und ein zusätzliches Zwischenrad, etwa eine Scheibe mit 135 Zähnen. Damit lässt sich die Übersetzung so genau wählen, dass sich der Fehler erst nach über hundert Jahren zu einem Tag summiert. Einige Hersteller geben für ihre Präzisionsmondphasen rund 122 Jahre an."
+   ]
   ]
  },
  {
@@ -642,6 +796,20 @@
   ],
   "x": [
    "Eine drehbare 24-Stunden-Lünette erlaubt die Anzeige einer dritten Zeitzone."
+  ],
+  "how": [
+   [
+    "Der zusätzliche Zeiger",
+    "Eine GMT-Uhr hat einen zusätzlichen Stundenzeiger, der sich in 24 statt in 12 Stunden einmal dreht. Er wird vom Zeigerwerk über eine Untersetzung von 2:1 angetrieben und zeigt auf einer 24-Stunden-Skala, auf dem Zifferblatt oder der drehbaren Lünette, eine zweite Zeitzone samt Tag und Nacht."
+   ],
+   [
+    "Echte Reise-GMT",
+    "Bei einer »echten« GMT, wie sie Rolex 1983 mit der GMT-Master II einführte, lässt sich der normale Stundenzeiger in Stundenschritten einzeln verstellen. Sein Rad ist dafür über eine Raste mit federnden Zähnen mit dem Rest des Zeigerwerks verbunden: Beim Drehen der Krone springt er von Stunde zu Stunde, während Minutenzeiger, Sekunde und 24-Stunden-Zeiger ungestört weiterlaufen. Das Datum hängt am Stundenzeiger und springt vor oder zurück, wenn er Mitternacht überschreitet."
+   ],
+   [
+    "Office-GMT",
+    "Bei einer anderen Bauart lässt sich stattdessen der 24-Stunden-Zeiger einzeln stellen. Das ist praktisch, um eine zweite Zeitzone im Blick zu behalten, etwa die eines Geschäftspartners, aber umständlicher auf Reisen, weil man dort den Hauptzeiger samt Minute neu stellen muss. Sammler nennen diese Variante oft »Office-« oder »Caller-GMT«."
+   ]
   ]
  },
  {
@@ -686,6 +854,20 @@
   ],
   "x": [
    "Der Käfig eines Tourbillons wiegt oft nur wenige Zehntelgramm, damit die Unruh nicht belastet wird."
+  ],
+  "how": [
+   [
+    "Der drehende Käfig",
+    "Beim Tourbillon sitzen Unruh, Anker und Ankerrad gemeinsam in einem leichten Käfig, der sich meist einmal pro Minute um sich selbst dreht. Angetrieben wird der Käfig vom Räderwerk. Das Ankerradtrieb läuft dabei an einem feststehenden Zahnrad ab, so wie ein Zahnrad, das um ein anderes herumwandert. Dadurch wird die Hemmung bei der Drehung des Käfigs automatisch angetrieben."
+   ],
+   [
+    "Was die Drehung bewirkt",
+    "Hängt eine Uhr senkrecht, zieht die Schwerkraft an der Unruh, und jede kleine Unwucht lässt sie je nach Lage etwas schneller oder langsamer gehen. Weil sich der Käfig dreht, durchläuft die Unruh alle senkrechten Lagen gleichmäßig, und die Fehler mitteln sich aus. In Taschenuhren, die meist senkrecht in der Westentasche steckten, war das ein echter Gewinn. Am Handgelenk, wo die Uhr ständig die Lage wechselt, ist der Vorteil kleiner; dort ist das Tourbillon vor allem ein Meisterstück."
+   ],
+   [
+    "Fliegend, mehrachsig, leicht",
+    "Ein klassisches Tourbillon ist oben von einer Brücke gehalten. Beim fliegenden Tourbillon, das Alfred Helwig in Glashütte 1920 erfand, fehlt diese Brücke, und der Käfig ist nur von unten gelagert, sodass man frei hineinsehen kann. Mehrachsige Tourbillons drehen den Käfig zusätzlich um eine zweite oder dritte Achse. Weil der ganze Käfig bei jedem Takt mitbewegt wird, muss er extrem leicht sein; oft wiegt er nur einen Bruchteil eines Gramms."
+   ]
   ]
  },
  {
@@ -727,6 +909,20 @@
   ],
   "x": [
    "Der Klang hängt stark vom Gehäusematerial ab; Gold klingt wärmer, Platin dumpfer, Stahl und Titan heller."
+  ],
+  "how": [
+   [
+    "Eigene Kraft für den Klang",
+    "Die Minutenrepetition läutet die Uhrzeit auf Knopfdruck. Dafür schiebt man einen Schieber an der Gehäuseflanke. Er spannt eine eigene Feder, die Repetitionsfeder, die das Schlagwerk antreibt. Die Kraft des Gehwerks bleibt so unberührt, und die Uhr läuft genau weiter, während sie schlägt."
+   ],
+   [
+    "Staffeln lesen die Zeit",
+    "Woher weiß das Schlagwerk, wie oft es schlagen soll? Mit dem Zeigerwerk drehen sich Staffeln, das sind gestufte Nocken: eine Stundenstaffel mit zwölf Stufen, eine Viertelstaffel und eine Minutenstaffel. Beim Auslösen fallen Fühlhebel, die Rechen, auf diese Staffeln. Je tiefer ein Rechen auf die Staffel fällt, desto mehr Zähne zieht er auf, und so viele Schläge folgen. Die Hämmer schlagen auf Tonfedern, gebogene Stahldrähte um das Werk: tief für die Stunden, Doppelschläge hoch und tief für die Viertel, hoch für die Minuten. Um 3 Uhr 52 hört man also drei tiefe Schläge, drei Doppelschläge für 45 Minuten und sieben hohe für die restlichen Minuten."
+   ],
+   [
+    "Tempo und Sicherheit",
+    "Damit die Schläge in gleichmäßigem Takt kommen, bremst ein Regulator das Schlagwerk ab, früher ein Windflügel, heute meist ein Fliehkraftregler, der möglichst leise arbeiten soll. Eine Ganz-oder-gar-nicht-Sicherung sorgt dafür, dass die Uhr nur schlägt, wenn der Schieber ganz durchgezogen wurde; sonst würde sie eine falsche Zeit läuten."
+   ]
   ]
  },
  {
@@ -1373,6 +1569,20 @@
   ],
   "x": [
    "Wer seine Uhr über Nacht in einer bestimmten Lage ablegt, kann eine leichte Abweichung teilweise ausgleichen."
+  ],
+  "how": [
+   [
+    "Was die Abweichung beeinflusst",
+    "Eine mechanische Uhr geht nie ganz genau. Wie stark sie abweicht, hängt vor allem von vier Dingen ab: von der Lage, weil die Schwerkraft die Unruh je nach Haltung unterschiedlich beeinflusst; von der Temperatur, weil sich Spirale und Unruh ausdehnen; vom Aufzugszustand, weil eine schwache Feder die Unruh weniger weit schwingen lässt; und von Magnetfeldern."
+   ],
+   [
+    "Messen mit der Zeitwaage",
+    "Uhrmacher messen die Gangabweichung mit einer Zeitwaage. Ein Mikrofon hört die Ticks der Hemmung ab, ein Rechner vergleicht ihren Abstand mit einem genauen Takt und rechnet hoch, wie viele Sekunden pro Tag die Uhr vor- oder nachgeht. Zusätzlich zeigt das Gerät die Amplitude und den Abfallfehler, also ob die Ticks in beide Richtungen gleichmäßig verteilt sind; ein großer Abfallfehler deutet auf eine verstellte Unruh hin."
+   ],
+   [
+    "Mehrere Lagen, ein Ergebnis",
+    "Weil sich die Abweichungen der Lagen teilweise ausgleichen, messen Uhrmacher in mehreren Positionen: Zifferblatt oben und unten sowie Krone oben, unten, links und rechts. Daraus ergeben sich der mittlere Gang und die größte Differenz zwischen den Lagen. Wer nachts seine Uhr gezielt auf eine bestimmte Seite legt, kann eine kleine Abweichung damit sogar ausgleichen."
+   ]
   ]
  },
  {
@@ -1474,6 +1684,20 @@
   "x": [
    "Seit 2015 kombiniert Omega die Co-Axial-Hemmung mit der Master-Chronometer-Zertifizierung.",
    "2021 erhielt auch die Speedmaster Moonwatch mit dem Handaufzugskaliber 3861 die Co-Axial-Hemmung und die Master-Chronometer-Zertifizierung."
+  ],
+  "how": [
+   [
+    "Stoßen statt Gleiten",
+    "Bei der Schweizer Ankerhemmung gleiten die Zähne des Ankerrads bei jedem Antrieb über die schrägen Flächen der Paletten. Dieses Gleiten erzeugt Reibung und verlangt Öl. Die Co-Axial-Hemmung von George Daniels gibt den Antrieb dagegen überwiegend durch einen Stoß weiter, ähnlich wie ein Finger, der gegen einen Gegenstand tippt, statt an ihm entlangzustreichen."
+   ],
+   [
+    "Zwei Räder auf einer Achse",
+    "Ihren Namen hat sie vom Hemmungsrad, das aus zwei übereinanderliegenden Zahnkränzen auf derselben Achse besteht. Der Anker hat drei Paletten statt zwei. In der einen Schwingungsrichtung gibt das Rad den Antrieb direkt an eine Rolle auf der Unruhwelle, in der anderen Richtung über den Anker. Die Gleitreibung sinkt dadurch stark, und die Hemmung braucht an den Kontaktstellen kaum Schmierung."
+   ],
+   [
+    "Was das in der Praxis bringt",
+    "Weil weniger Öl altern und verharzen kann, bleibt der Gang über die Jahre stabiler, und Omega gibt längere Serviceintervalle an. Die Fertigung ist allerdings anspruchsvoll; Omega brauchte nach dem Erwerb der Rechte 1999 mehrere Jahre, bis die Hemmung in großer Stückzahl zuverlässig lief."
+   ]
   ]
  },
  {
@@ -1528,6 +1752,20 @@
   ],
   "x": [
    "Das Seiko-Kaliber 6139 von 1969 verband als einer der ersten Automatikchronographen Schaltrad und vertikale Kupplung."
+  ],
+  "how": [
+   [
+    "Ein Rad mit Säulen",
+    "Das Schaltrad sieht aus wie ein kleiner Turm mit Zinnen: Auf einem Rad mit Sperrzähnen stehen meist sechs bis neun Säulen im Kreis. Jeder Druck auf den Start- oder Stoppdrücker schiebt das Rad über eine Klinke um einen Zahn weiter, die Säulen wandern also um eine Position."
+   ],
+   [
+    "Hebel zwischen den Säulen",
+    "An den Säulen liegen die Steuerhebel des Chronographen an: der Kupplungshebel, die Bremse und der Rückstellhebel. Fällt ein Hebel zwischen zwei Säulen, wird er aktiv, liegt er auf einer Säule, ist er ausgeschaltet. Weil die Säulen alle Hebel gleichzeitig und in der richtigen Reihenfolge steuern, kann es nicht passieren, dass Kupplung und Bremse zugleich greifen."
+   ],
+   [
+    "Schaltrad oder Kulisse",
+    "Die günstigere Alternative ist die Kulissensteuerung, bei der eine geformte Platte mit Nocken die Hebel bewegt. Sie funktioniert zuverlässig, ist aber einfacher herzustellen und fühlt sich am Drücker oft etwas härter an. Ein Schaltrad gilt als feinere Lösung: Der Druckpunkt ist präziser, und die aufwendig polierten Säulen sind ein Schmuckstück für den Blick durch den Glasboden."
+   ]
   ]
  },
  {
@@ -1582,6 +1820,20 @@
   "g": [
    "1954 stellte Büren mit dem Intra-matic das erste Automatikwerk mit Mikrorotor vor und ließ sich ein solches Werk als »Super Slender« patentieren. Ein Jahr später folgte Universal Genève mit dem Kaliber 138 SS im Polerouter, dessen Gehäuse Gérald Genta entworfen hatte.",
    "In den 1960er- und 1970er-Jahren fand das Konzept weitere Verbreitung: Heuer verwendete es 1969 im Chronomatic-Kaliber 11, Patek Philippe ab 1977 für das besonders flache Automatikwerk Kaliber 240, das bis heute gebaut wird."
+  ],
+  "how": [
+   [
+    "Der Rotor in der Werkebene",
+    "Ein normaler Rotor liegt über dem ganzen Werk und macht die Uhr höher. Ein Mikrorotor ist viel kleiner und sitzt versenkt in einer Aussparung des Werks, auf gleicher Höhe wie die Räder. Dadurch wird das Werk kaum dicker als ein Handaufzugswerk."
+   ],
+   [
+    "Warum er schwer sein muss",
+    "Weil der kleine Rotor nur einen kurzen Hebelarm hat, muss er aus einem sehr dichten Material bestehen, um genug Schwung zu entwickeln, meist aus Gold, Platin oder Wolfram. Trotzdem zieht er weniger kräftig auf als ein großer Rotor. Werke mit Mikrorotor brauchen deshalb einen sparsamen Antrieb und eine Zugfeder, die mit dieser kleineren Energiezufuhr auskommt."
+   ],
+   [
+    "Bekannte Werke",
+    "Zu den ersten Mikrorotor-Werken gehörten Konstruktionen von Büren und von Universal Genève in den 1950er-Jahren. Patek Philippe verwendet den Mikrorotor im Kaliber 240, das seit 1977 extraflache Komplikationen wie Weltzeit oder ewigen Kalender ermöglicht, und auch das Chronomatic-Kaliber 11 von 1969 setzte darauf."
+   ]
   ]
  },
  {
@@ -1626,6 +1878,20 @@
   ],
   "x": [
    "Rolex setzt Silizium seit 2025 auch in der Hemmung ein: Die Dynapulse-Hemmung des Kalibers 7135 arbeitet mit zwei Hemmungsrädern aus Silizium."
+  ],
+  "how": [
+   [
+    "Geätzt statt gefräst",
+    "Bauteile aus Silizium werden nicht wie Stahlteile gefräst oder gestanzt, sondern mit Verfahren aus der Chipindustrie hergestellt. Auf eine Siliziumscheibe wird eine Maske belichtet, danach ätzt ein Plasma das freiliegende Material in die Tiefe. So entstehen Spiralen, Ankerräder und Anker mit einer Genauigkeit im Bereich von Tausendstelmillimetern, viele Teile auf einer Scheibe."
+   ],
+   [
+    "Warum Silizium so gut passt",
+    "Silizium ist nicht magnetisch, sehr leicht und hart. Ein leichter Anker oder ein leichtes Ankerrad braucht weniger Energie, und die glatte Oberfläche kommt ohne Öl aus. Bei Spiralen hat Silizium allerdings eine Schwäche: Es wird bei Wärme weicher. Hersteller überziehen die Spirale deshalb mit einer dünnen Schicht Siliziumoxid, das sich genau umgekehrt verhält; beide Effekte heben sich auf, und die Spirale bleibt über einen weiten Temperaturbereich gleich steif."
+   ],
+   [
+    "Die Kehrseite",
+    "Silizium ist spröde. Fällt ein Teil aus, lässt es sich nicht nachbiegen oder anpassen wie eine Metallspirale, sondern muss ersetzt werden. Für Uhrmacher außerhalb der Herstellernetze ist das ein Nachteil, weil die Teile oft nur beim Hersteller erhältlich sind."
+   ]
   ]
  },
  {
@@ -1691,6 +1957,20 @@
   "g": [
    "1930 brachte Tissot eine der ersten antimagnetischen Armbanduhren auf den Markt, mit Bauteilen aus nicht magnetischen Legierungen. Mit der Ausbreitung von Elektrizität, Radar und Röntgengeräten nach dem Zweiten Weltkrieg wurde Magnetismus zu einem echten Problem.",
    "Mitte der 1950er-Jahre entstanden die Klassiker IWC Ingenieur (1955), Rolex Milgauss (1956) und Omega Railmaster (1957) mit Weicheisen-Innengehäuse. 2013 erreichte Omega erstmals ohne Innengehäuse 15.000 Gauß. Die Milgauss stellte Rolex 2023 ein."
+  ],
+  "how": [
+   [
+    "Was Magnetismus anrichtet",
+    "Wird eine Stahlspirale magnetisiert, ziehen sich ihre Windungen gegenseitig an und kleben teilweise aneinander. Die Spirale wird dadurch quasi kürzer, und die Uhr geht stark vor, oft um Minuten am Tag. Auch Teile aus Stahl in der Hemmung können magnetisch werden. Quellen sind heute Lautsprecher, Taschenverschlüsse, Tablets oder Handyhüllen mit Magneten."
+   ],
+   [
+    "Abschirmen mit Weicheisen",
+    "Die klassische Lösung ist ein Innengehäuse aus Weicheisen, das das Werk umschließt. Weicheisen leitet magnetische Feldlinien sehr gut und lenkt sie um das Werk herum, sodass das Werk im Inneren kaum etwas abbekommt. So arbeiten die IWC Ingenieur und die Rolex Milgauss. Nachteil: Das Gehäuse wird dicker, und einen Glasboden kann es nicht geben."
+   ],
+   [
+    "Unmagnetische Werkstoffe",
+    "Der moderne Weg ist, magnetisierbare Teile durch unmagnetische zu ersetzen: Spiralen aus Silizium oder aus Speziallegierungen wie Rolex Parachrom oder Nivachron, Anker und Ankerrad aus Silizium oder Nichteisenmetallen. Omega erreicht so mit den Master-Chronometer-Werken eine Beständigkeit gegen 15.000 Gauß, ohne Abschirmung und mit Glasboden. Die Norm für »antimagnetisch« verlangt nur 4.800 Ampere pro Meter, rund 60 Gauß."
+   ]
   ]
  },
  {
@@ -1734,6 +2014,20 @@
   "g": [
    "Die Schweizer Uhrenindustrie war lange arbeitsteilig organisiert. Spezialisierte Firmen fertigten Rohwerke, die sogenannten Ébauches, also unveredelte Basiswerke, die Uhrenmarken dann modifizierten, fertigstellten und in ihre Gehäuse setzten.",
    "Viele dieser Werkehersteller gingen später in der ETA auf. Ihr Automatikwerk 2824 von 1971 wurde zum meistverwendeten Werk der Schweiz. Als die Swatch Group Anfang der 2000er-Jahre die Lieferungen einschränkte, bauten viele Marken eigene Manufakturwerke auf."
+  ],
+  "how": [
+   [
+    "Ein Name für ein Werk",
+    "Mit Kaliber bezeichnen Uhrmacher eine bestimmte Werkkonstruktion. Ursprünglich meinte das Wort die Abmessungen und die Anordnung der Teile, heute ist es einfach die Typenbezeichnung, etwa Kaliber 3235 bei Rolex oder 8900 bei Omega. Ein Kaliber kann in vielen Uhrenmodellen stecken, und ein Modell kann im Lauf der Jahre verschiedene Kaliber bekommen."
+   ],
+   [
+    "Linien, Rohwerk und Manufaktur",
+    "Die Größe eines Werks wird traditionell in Linien angegeben; eine Linie entspricht 2,2558 Millimetern. Das verbreitete ETA 2824 misst 11½ Linien, also rund 26 Millimeter. Viele Marken kaufen ein Rohwerk, auf Französisch »Ébauche«, und verfeinern es; eine Manufaktur entwickelt und baut ihre Werke dagegen weitgehend selbst."
+   ],
+   [
+    "Was sich hinter einer Kalibernummer verbirgt",
+    "Viele Hersteller verschlüsseln in der Bezeichnung Informationen. Patek Philippe hängt an die Nummer Kürzel für die Funktionen an, etwa bei »240 Q« oder »324 S C«: S für Zentralsekunde, C für Kalender, Q für Quantième perpétuel, also ewigen Kalender. Wer diese Kürzel kennt, kann aus der Nummer viel über das Werk ablesen."
+   ]
   ]
  },
  {
@@ -1785,6 +2079,20 @@
   ],
   "x": [
    "2007 folgte mit dem Kaliber 9R86 ein Spring-Drive-Chronograph für Grand Seiko."
+  ],
+  "how": [
+   [
+    "Mechanischer Antrieb, elektronische Bremse",
+    "Spring Drive beginnt wie eine mechanische Uhr: Eine Zugfeder, aufgezogen von Hand oder per Rotor, treibt ein Räderwerk an. Am Ende sitzt aber keine Unruh mit Hemmung, sondern ein Gleitrad. Es dreht sich gleichmäßig und treibt einen winzigen Generator an, der dabei Strom erzeugt."
+   ],
+   [
+    "Der Quarz als Schiedsrichter",
+    "Mit diesem selbst erzeugten Strom betreibt die Uhr eine Quarzschwingung mit 32.768 Hertz und einen Schaltkreis. Der vergleicht die Drehzahl des Gleitrads mit dem Quarztakt. Läuft das Rad zu schnell, erzeugt der Schaltkreis über Elektromagnete eine Bremskraft, die das Rad wieder verlangsamt. Seiko spricht vom »Tri-synchro Regulator«, weil mechanische Energie, elektrische Energie und elektromagnetische Bremse zusammenarbeiten."
+   ],
+   [
+    "Was man davon sieht",
+    "Weil es keine Hemmung mit einzelnen Schritten gibt, gleitet der Sekundenzeiger völlig gleichmäßig über das Zifferblatt. Die Genauigkeit liegt auf Quarzniveau, typischerweise bei einer Sekunde pro Tag, ohne dass die Uhr eine Batterie braucht. Seiko brauchte für die Entwicklung rund zwei Jahrzehnte, bis 1999 das erste Serienwerk erschien."
+   ]
   ]
  },
  {
@@ -1843,6 +2151,20 @@
   "g": [
    "Longines gilt als Pionier des Flyback-Armbandchronographen und ließ 1936 eine der ersten Flyback-Funktionen patentieren (Kaliber 13ZN). Sie war für Piloten gedacht, die beim Navigieren schnell aufeinanderfolgende Zeitabschnitte messen mussten.",
    "Nach dem Zweiten Weltkrieg verlangte die französische Luftwaffe für ihre Fliegerchronographen ausdrücklich eine Flyback-Funktion. Daraus entstanden die Typ-20-Chronographen (Type XX) von Breguet, Dodane und anderen."
+  ],
+  "how": [
+   [
+    "Zurück und neu in einem Druck",
+    "Bei einem normalen Chronographen muss man zum Neustart dreimal drücken: stoppen, auf null stellen, neu starten. Bei der Flyback-Funktion genügt ein Druck auf den Rückstelldrücker, während der Chronograph läuft. Der Stoppzeiger springt auf null und läuft sofort wieder los."
+   ],
+   [
+    "Was im Werk passiert",
+    "Der Rückstelldrücker ist bei einem Flyback-Chronographen auch bei laufender Messung freigegeben. Drückt man ihn, hebt er gleichzeitig die Kupplung aus und lässt die Hämmer auf die Herzscheiben fallen, die Zeiger springen auf null. Lässt man den Drücker los, heben sich die Hämmer wieder, und die Kupplung greift sofort ein. Bei einem einfachen Chronographen ist der Rückstelldrücker dagegen blockiert, solange die Messung läuft, damit man das Werk nicht beschädigt."
+   ],
+   [
+    "Wozu man das braucht",
+    "Ursprünglich war Flyback für Piloten gedacht, die bei der Navigation mehrere Flugabschnitte hintereinander messen mussten, ohne Zeit mit drei Drückerbewegungen zu verlieren. Heute ist es vor allem eine Komfortfunktion."
+   ]
   ]
  },
  {
@@ -1893,6 +2215,20 @@
   "g": [
    "Tachymeterskalen gab es schon auf Taschenuhren-Chronographen des frühen 20. Jahrhunderts, meist am Rand des Zifferblatts.",
    "Mit dem Aufschwung des Motorsports in den 1950er- und 1960er-Jahren wanderte die Skala auf die Lünette, etwa bei der Omega Speedmaster von 1957 und der Rolex Daytona von 1963. So blieb das Zifferblatt übersichtlich."
+  ],
+  "how": [
+   [
+    "So liest man ab",
+    "Man startet den Chronographen an einem bekannten Startpunkt, etwa einem Kilometerstein, und stoppt am nächsten. Der Stoppsekundenzeiger zeigt auf der Tachymeterskala direkt die Geschwindigkeit in Einheiten pro Stunde. Braucht man für einen Kilometer 45 Sekunden, steht der Zeiger bei 80; man fuhr also 80 Kilometer pro Stunde."
+   ],
+   [
+    "Warum die Skala ungleichmäßig ist",
+    "Die Skala folgt der Formel 3.600 geteilt durch die Sekunden. Bei kurzen Zeiten ändert sich das Ergebnis stark, bei langen kaum noch: Zwischen 10 und 11 Sekunden liegen 360 und 327 km/h, zwischen 50 und 51 Sekunden nur 72 und 71 km/h. Deshalb liegen die Zahlen am Anfang der Skala weit auseinander und drängen sich gegen Ende zusammen."
+   ],
+   [
+    "Telemeter und Pulsometer",
+    "Andere Skalen nutzen dasselbe Prinzip mit anderen Formeln. Ein Telemeter rechnet mit der Schallgeschwindigkeit von rund 343 Metern pro Sekunde: Man startet beim Blitz und stoppt beim Donner und liest die Entfernung des Gewitters ab. Ein Pulsometer ist so geteilt, dass man nach 15 oder 30 Herzschlägen direkt den Puls pro Minute abliest."
+   ]
   ]
  },
  {
@@ -2039,6 +2375,20 @@
   "x": [
    "Grand Seiko prüft seine mechanischen Werke nach eigener Norm 17 Tage lang in sechs Lagen und bei drei Temperaturen, also strenger als die COSC.",
    "Auch Quarzwerke können Chronometer sein: Die thermokompensierte Rolex Oysterquartz (1977 bis 2001) trug das Prädikat Chronometer."
+  ],
+  "how": [
+   [
+    "Die Prüfung der COSC",
+    "In der Schweiz prüft die unabhängige Contrôle Officiel Suisse des Chronomètres (COSC) Uhrwerke, bevor sie ins Gehäuse kommen. Jedes Werk wird 15 Tage lang beobachtet, in fünf Lagen und bei drei Temperaturen: 8, 23 und 38 Grad Celsius. Kameras lesen dabei die Zeigerstellung ab, und ein Rechner bestimmt mehrere Kennwerte."
+   ],
+   [
+    "Die Kriterien",
+    "Entscheidend ist der mittlere tägliche Gang, der zwischen minus 4 und plus 6 Sekunden liegen muss. Dazu kommen Grenzwerte für die Schwankung von Tag zu Tag, für die Unterschiede zwischen den Lagen und für den Einfluss der Temperatur. Erfüllt ein Werk alle sieben Kriterien, erhält es ein Zertifikat mit eigener Nummer und darf als Chronometer bezeichnet werden."
+   ],
+   [
+    "Was danach kommt",
+    "Weil die COSC nur das nackte Werk prüft, haben einige Hersteller zusätzliche Prüfungen der fertigen Uhr eingeführt. Rolex prüft seit 2015 jede Uhr nach dem Einschalen auf minus 2 bis plus 2 Sekunden am Tag, Omega lässt mit dem Master Chronometer die fertigen Uhren vom Schweizer Bundesinstitut für Metrologie testen."
+   ]
   ]
  },
  {
@@ -2098,6 +2448,20 @@
   "g": [
    "Omega wollte zeigen, dass seine Uhren auch im Alltag mit Magnetfeldern genau laufen.",
    "Nach der Aqua Terra mit 15.000 Gauß von 2013 entwickelte Omega mit dem Eidgenössischen Institut für Metrologie die neue Prüfung. Die Globemaster war 2015 die erste zertifizierte Uhr."
+  ],
+  "how": [
+   [
+    "Geprüft wird die ganze Uhr",
+    "Anders als beim COSC-Chronometer prüft das Eidgenössische Institut für Metrologie METAS beim Master Chronometer die fertig eingeschalte Uhr. Voraussetzung ist ein bestandenes COSC-Zertifikat des Werks. Danach durchläuft die Uhr über zehn Tage acht Prüfungen."
+   ],
+   [
+    "Die acht Prüfungen",
+    "Geprüft werden unter anderem die Ganggenauigkeit in sechs Lagen und bei zwei Temperaturen, die mittlere Abweichung, die zwischen 0 und plus 5 Sekunden pro Tag liegen muss, die Gangreserve, die Wasserdichtigkeit und vor allem die Funktion während und nach dem Kontakt mit einem Magnetfeld von 15.000 Gauß. Die Uhr muss in diesem Feld weiterlaufen und danach innerhalb der Grenzwerte bleiben."
+   ],
+   [
+    "Wie Omega das erreicht",
+    "Möglich wird das durch Werke, deren empfindliche Teile nicht magnetisierbar sind: Spirale aus Silizium, unmagnetische Legierungen in der Hemmung und im Räderwerk. Jeder Käufer kann die Prüfergebnisse seiner Uhr mit der Seriennummer online abrufen."
+   ]
   ]
  },
  {
@@ -2420,6 +2784,20 @@
   ],
   "g": [
    "Die Zugfeder als Antrieb machte im 15. Jahrhundert tragbare Uhren möglich. Die Legende, Peter Henlein habe in Nürnberg die erste Taschenuhr gebaut, lässt sich historisch nicht sicher belegen. Weil eine Feder ungleichmäßig Kraft abgibt, glich man dies lange mit Kette und Schnecke aus. Im 18. und 19. Jahrhundert setzte sich bei Taschenuhren schrittweise das einfachere, direkt verzahnte Federhaus durch, weil bessere Hemmungen weniger empfindlich auf Kraftschwankungen reagierten."
+  ],
+  "how": [
+   [
+    "Aufbau",
+    "Das Federhaus ist eine flache Trommel mit einem Zahnkranz am Rand. Im Inneren liegt die spiralförmig aufgerollte Zugfeder. Ihr inneres Ende ist am Federkern eingehängt, einer Achse in der Mitte, ihr äußeres Ende an der Trommelwand. Beim Aufziehen dreht man den Federkern und wickelt die Feder um ihn, beim Ablaufen dreht die Feder die Trommel und mit ihr den Zahnkranz, der das Räderwerk antreibt."
+   ],
+   [
+    "Das Problem der nachlassenden Kraft",
+    "Eine voll gespannte Feder drückt stärker als eine fast entspannte. Diese Schwankung erreicht über das Räderwerk die Unruh und verändert ihre Schwingungsweite. Moderne Zugfedern aus Legierungen wie Nivaflex haben deshalb eine besondere Form, die ihnen im entspannten Zustand eine S-Form gibt; so bleibt die Kraft über einen großen Teil der Laufzeit gleichmäßiger."
+   ],
+   [
+    "Mehrere Federhäuser",
+    "Für lange Gangreserven schalten Hersteller zwei oder drei Federhäuser hintereinander, für viel Kraft nebeneinander. Bei Uhren mit Schlagwerk hat das Schlagwerk oft ein eigenes Federhaus, damit das Läuten die Ganggenauigkeit nicht stört."
+   ]
   ]
  },
  {
@@ -2466,6 +2844,20 @@
   "g": [
    "Dass ein Pendel bei kleinen Ausschlägen nahezu gleich lange schwingt, beschrieb bereits Galileo Galilei. Die bekannte Erzählung, er habe dies an einem schwingenden Leuchter im Dom von Pisa beobachtet, gilt als Legende.",
    "Christiaan Huygens erkannte, dass ein Pendel nur auf einer Zykloidenbahn wirklich gleich lange schwingt, und übertrug das Problem später auf die Unruh mit Spiralfeder. Um 1800 entwickelte Abraham-Louis Breguet die nach ihm benannte Endkurve, im 19. Jahrhundert lieferte Édouard Phillips die mathematische Theorie dazu."
+  ],
+  "how": [
+   [
+    "Das Ideal",
+    "Isochron heißt »gleichzeitig«. Ein isochrones Schwingsystem braucht für jede Schwingung gleich lange, egal ob es weit oder wenig ausschlägt. Für eine Uhr wäre das ideal, denn die Schwingungsweite der Unruh ändert sich ständig: mit dem Aufzugszustand, der Lage und der Temperatur."
+   ],
+   [
+    "Warum es in der Praxis nicht ganz klappt",
+    "Eine flache Spirale atmet nicht gleichmäßig nach allen Seiten, ihr Schwerpunkt verschiebt sich beim Schwingen. Auch die Hemmung stört, weil sie der Unruh bei jedem Takt einen Antrieb gibt und sie dabei kurz bremst oder beschleunigt. Beides führt dazu, dass große und kleine Schwingungen leicht unterschiedlich lange dauern."
+   ],
+   [
+    "Wie Uhrmacher gegensteuern",
+    "Die Breguet-Spirale mit ihrer hochgebogenen Endkurve und berechnete Endkurven nach dem Ingenieur Édouard Phillips sorgen dafür, dass die Spirale konzentrisch atmet. Konstantkraft-Einrichtungen halten die Antriebskraft gleichmäßig, und sorgfältige Regulierung in mehreren Lagen gleicht den Rest aus."
+   ]
   ]
  },
  {
@@ -2511,6 +2903,20 @@
   "g": [
    "Mit der Unruhspirale, die Christiaan Huygens 1675 vorstellte, wurde eine Feinregulierung überhaupt erst nötig. Bald setzten Uhrmacher einen Rückerzeiger ein, der mit zwei Stiften die wirksame Länge der Spirale verändert. Er blieb über lange Zeit die verbreitetste Lösung.",
    "Im 19. und 20. Jahrhundert kamen feinere Systeme hinzu. Schwanenhals- und Mikrometerschrauben erlaubten kleinste Verstellungen des Rückers, und in Präzisionsuhren setzten sich frei schwingende Unruhen mit Regulierschrauben oder Gewichten am Reif durch."
+  ],
+  "how": [
+   [
+    "Rücker und Schwanenhals",
+    "Am häufigsten wird die Gangfeinregulierung über einen Rücker gemacht: Zwei kleine Stifte umfassen die letzte Windung der Spirale. Verschiebt man den Rücker, ändert sich die wirksame Länge der Spirale, und die Uhr geht schneller oder langsamer. Bei hochwertigen Werken drückt eine Mikrometerschraube gegen eine geschwungene Feder, den Schwanenhals, damit sich der Rücker in winzigen Schritten bewegen lässt."
+   ],
+   [
+    "Freischwinger",
+    "Beim Freischwinger gibt es keinen Rücker. Die Spirale schwingt ungehindert, und reguliert wird über die Unruh selbst: Kleine Gewichtsschrauben oder Exzenter im Unruhreif verändern ihr Trägheitsmoment. Das ist aufwendiger einzustellen, aber stabiler, weil nach einem Stoß nichts verrutschen kann. Rolex, Patek Philippe und A. Lange & Söhne setzen auf solche Unruhen."
+   ],
+   [
+    "Regulieren in Lagen",
+    "Ein Uhrmacher stellt nicht nur den mittleren Gang ein, sondern prüft, wie sich die Uhr in verschiedenen Lagen verhält. Ziel ist eine kleine Lagendifferenz, damit die Uhr am Arm und auf dem Nachttisch ähnlich geht."
+   ]
   ]
  },
  {
@@ -2559,14 +2965,28 @@
   ],
   "fig": {
    "m": [
-    "jahreskalender",
+    "annual-calendar",
     "sky-dweller"
    ],
    "mc": [
     "Patek Philippe Annual Calendar",
     "Rolex Sky-Dweller mit Jahreskalender »Saros«"
    ]
-  }
+  },
+  "how": [
+   [
+    "Zwölf Monate statt achtundvierzig",
+    "Der Jahreskalender kennt die Monate mit 30 und mit 31 Tagen, aber nicht den Februar. Statt eines Programmrads für vier Jahre genügt ihm eine Steuerung für zwölf Monate. Dadurch ist er einfacher, robuster und günstiger als ein ewiger Kalender."
+   ],
+   [
+    "Die Lösung von Patek Philippe",
+    "Bei der Patek Philippe Ref. 5035 von 1996 steuern Zahnräder statt der üblichen Hebel und Federn die Schaltung. Ein Monatsrad trägt Zähne für die kurzen Monate; am Ende eines 30-Tage-Monats greift ein zusätzlicher Finger und schiebt das Datum vom 30. direkt auf den 1. weiter. Weil Zahnräder weniger empfindlich sind als Hebel, gilt die Konstruktion als besonders zuverlässig."
+   ],
+   [
+    "Einmal im Jahr korrigieren",
+    "Am Ende des Februars springt der Jahreskalender vom 28. oder 29. auf den 30. und 31., weil er den Februar wie einen 30- oder 31-Tage-Monat behandelt. Am 1. März muss man das Datum deshalb einmal von Hand weiterstellen, meist über einen Drücker in der Gehäuseflanke."
+   ]
+  ]
  },
  {
   "id": "wecker",
@@ -2606,6 +3026,20 @@
   "g": [
    "Als erste praxistaugliche Armbanduhr mit Wecker gilt die Vulcain Cricket (1947); frühere Versuche anderer Hersteller blieben ohne Erfolg. Ihr Name spielt auf das zirpende Geräusch der Grille an. Bekannt wurde sie auch als »Präsidentenuhr«, weil mehrere US-Präsidenten sie trugen.",
    "Jaeger-LeCoultre baute ab 1950 die Memovox, später auch mit automatischem Aufzug. 1968 folgte die Memovox Polaris, eine Taucheruhr, deren Wecker das Ende der Tauchzeit anzeigen sollte. Auch Omega, Eterna und Seiko boten Weckeruhren an."
+  ],
+  "how": [
+   [
+    "Eigene Feder für den Wecker",
+    "Ein mechanischer Armbandwecker hat zwei Federhäuser: eines für das Gehwerk und eines für das Läutwerk. Man zieht den Wecker getrennt auf, meist über eine zweite Krone oder durch Drehen der Krone in die andere Richtung. So bleibt die Ganggenauigkeit unberührt, auch wenn der Wecker läutet."
+   ],
+   [
+    "So wird der Alarm ausgelöst",
+    "Den Weckzeitpunkt stellt man mit einem zusätzlichen Zeiger oder einer Scheibe. Darunter sitzt ein Rad mit einer Nocke oder Kerbe, das mit dem Stundenrad zusammenarbeitet. Erreicht der Stundenzeiger die eingestellte Zeit, fällt ein Hebel in die Kerbe und gibt das Läutwerk frei. Ein Hammer schwingt dann schnell hin und her und schlägt gegen einen Stift oder eine Tonfeder."
+   ],
+   [
+    "Der Klang aus dem Gehäuse",
+    "Damit das Läuten am Handgelenk hörbar ist, nutzen Hersteller das Gehäuse als Resonanzkörper. Bei der Jaeger-LeCoultre Memovox schlägt der Hammer gegen einen Stift im Gehäuseboden. Die Polaris von 1968 hatte einen dreiteiligen Boden mit Öffnungen, damit der Ton auch unter Wasser gut nach außen dringt."
+   ]
   ]
  },
  {
@@ -2658,7 +3092,21 @@
    "mc": [
     "World Time Ref. 5230G mit Städte- und 24-Stunden-Ring"
    ]
-  }
+  },
+  "how": [
+   [
+    "Drei Ringe um das Zifferblatt",
+    "Eine Weltzeituhr nach dem System von Louis Cottier hat neben den normalen Zeigern zwei Ringe: einen 24-Stunden-Ring, der sich einmal am Tag dreht und mit dem Stundenzeiger verbunden ist, und einen Städtering mit 24 Orten für die Zeitzonen. Zu jeder Stadt kann man auf dem 24-Stunden-Ring die dortige Uhrzeit ablesen, samt Tag und Nacht."
+   ],
+   [
+    "Ein Drücker für alles",
+    "Bei der Patek Philippe World Time sitzt ein Drücker bei 10 Uhr. Jeder Druck stellt den Stundenzeiger um eine Stunde vor und dreht gleichzeitig den Städtering und den 24-Stunden-Ring um eine Position. Steht die neue Ortszeit-Stadt bei 12 Uhr, zeigen die Hauptzeiger deren Zeit, und alle anderen Zeitzonen stimmen weiterhin auf dem Ring. Minute und Sekunde bleiben dabei unberührt."
+   ],
+   [
+    "Grenzen des Systems",
+    "Weil der Städtering nur ganze Stunden kennt, fehlen Zeitzonen mit halben oder Viertelstunden, etwa Indien. Auch die Sommerzeit berücksichtigt der Ring nicht, man muss sie im Kopf ausgleichen. Moderne Weltzeituhren mit mehr Städten oder zusätzlichen Anzeigen lösen das teilweise."
+   ]
+  ]
  },
  {
   "id": "grossdatum",
@@ -2718,7 +3166,21 @@
     null,
     null
    ]
-  }
+  },
+  "how": [
+   [
+    "Zwei Scheiben statt einer",
+    "Ein normales Datum steht auf einer einzigen Scheibe mit 31 Zahlen, die deshalb klein ausfallen müssen. Beim Großdatum gibt es zwei getrennte Anzeigen: eine Einerscheibe mit den Ziffern 0 bis 9 und ein Zehnerkreuz oder eine Zehnerscheibe mit 0 bis 3. Beide zusammen ergeben das Datum, und jede Ziffer kann fast so groß sein wie das Fenster."
+   ],
+   [
+    "Die Schaltung",
+    "Die Einerscheibe springt jede Nacht um eine Stelle. Beim Wechsel von 9 auf 0 nimmt sie über einen Finger das Zehnerkreuz einen Schritt mit. Am Monatsende muss das Werk vom 31. auf den 1. schalten: Die Einer bleiben auf 1, die Zehner springen von 3 auf 0, und die Einerscheibe darf dabei nicht wie sonst um eine Stelle weiterrücken; dafür ist eine eigene Steuerung nötig. Bei A. Lange & Söhne liegen Einerscheibe und Zehnerkreuz in derselben Ebene, damit beide Ziffern gleich weit vom Glas entfernt sind."
+   ],
+   [
+    "Viel Kraft auf einmal",
+    "Weil beim Großdatum mehr Masse auf einmal springt, braucht es mehr Energie als ein normales Datum. Viele Werke spannen deshalb über den Tag eine kleine Feder, die den Sprung um Mitternacht schlagartig ausführt."
+   ]
+  ]
  },
  {
   "id": "retrograde",
@@ -2762,6 +3224,20 @@
   ],
   "g": [
    "Retrograde Anzeigen finden sich bereits in historischen Taschenuhren und kunstvollen Pendulen. In der Armbanduhr wurden sie vor allem mit der Wiederentdeckung mechanischer Komplikationen seit den 1980er- und 1990er-Jahren beliebt, oft auch als doppelt retrograde Anzeige, bei der zwei Bögen nebeneinander liegen. Seither nutzen sowohl große Manufakturen als auch unabhängige Uhrmacher das Prinzip, um Zifferblätter ungewöhnlich und dennoch gut ablesbar zu gestalten."
+  ],
+  "how": [
+   [
+    "Ein Zeiger auf einem Bogen",
+    "Ein retrograder Zeiger läuft nicht im Kreis, sondern über einen Bogen, etwa von 1 bis 31 für das Datum. Am Ende des Bogens springt er in einem Augenblick an den Anfang zurück und beginnt von vorn."
+   ],
+   [
+    "Schnecke, Rechen und Feder",
+    "Angetrieben wird er meist über eine schneckenförmige Nocke, die sich langsam dreht. Auf ihr liegt ein Fühlhebel, der über einen gezahnten Rechen den Zeiger bewegt. Je weiter sich die Schnecke dreht, desto weiter wird der Hebel nach außen gedrückt und der Zeiger wandert den Bogen entlang. Hat der Hebel die höchste Stelle erreicht, fällt er über die Stufe der Schnecke zurück, eine Feder zieht ihn nach, und der Zeiger springt an den Anfang."
+   ],
+   [
+    "Warum retrograde Anzeigen heikel sind",
+    "Der Rücksprung erfolgt mit Wucht. Der Zeiger und der Rechen müssen leicht sein, und eine Bremse oder Dämpfung verhindert, dass der Zeiger zurückprallt. Auch das Stellen ist empfindlich: Bei manchen Uhren darf man die Anzeige nicht rückwärts korrigieren, weil die Mechanik dafür nicht ausgelegt ist."
+   ]
   ]
  },
  {
@@ -2808,6 +3284,20 @@
   "g": [
    "Schlagwerke, die von selbst die Zeit verkünden, kennt man seit den Turmuhren des Mittelalters. In Taschenuhren und Reiseuhren des 18. und 19. Jahrhunderts wurde die Sonnerie zur Königsdisziplin. Die Tonfeder, die Abraham-Louis Breguet gegen Ende des 18. Jahrhunderts einführte, ersetzte die Glocke und ermöglichte flachere Gehäuse.",
    "In der Armbanduhr ist die Grande Sonnerie besonders schwierig, weil das häufige Schlagen viel Energie verbraucht und kaum Platz vorhanden ist. Erst um 1990 gelang es Uhrmachern wie Philippe Dufour und Gérald Genta, sie in eine Armbanduhr zu bringen."
+  ],
+  "how": [
+   [
+    "Schlagen ohne Knopfdruck",
+    "Eine Sonnerie schlägt die Zeit von selbst, wie eine Turmuhr. Bei der Grande Sonnerie läutet sie zu jeder Viertelstunde die volle Stunde und die Viertel, bei der Petite Sonnerie zur vollen Stunde die Stunden und zu den Vierteln nur die Viertel. Meist lässt sich zusätzlich auf Knopfdruck die aktuelle Zeit abrufen wie bei einer Minutenrepetition."
+   ],
+   [
+    "Der enorme Energiebedarf",
+    "Weil die Uhr bis zu 96 Mal am Tag schlägt und dabei jedes Mal mehrere Hämmer bewegt, braucht das Schlagwerk ein eigenes, kräftiges Federhaus. Bei manchen Uhren zieht man es mit der Krone in die andere Richtung auf, bei anderen über das Gehwerk. Ist die Schlagwerksfeder leer, verstummt die Uhr, läuft aber weiter."
+   ],
+   [
+    "Stille, Petite, Grande",
+    "Über einen Schieber wählt man den Modus: »Silence« schaltet das Schlagen ab, damit man nachts schlafen kann, »Petite« und »Grande« wählen die Art des Schlags. Weil Schlagwerk, Staffeln und Steuerung auf engstem Raum Platz finden müssen, gehört die Grande Sonnerie zu den kompliziertesten Uhren überhaupt."
+   ]
   ]
  },
  {
@@ -4860,6 +5350,16 @@
   ],
   "x": [
    "Zwei Stoppzeiger bedeuten nicht zwei getrennte Messungen: Beide messen ab demselben Start, nur das Ablesen der Zwischenzeit ist unabhängig."
+  ],
+  "how": [
+   [
+    "Zwei Räder, eine Zange",
+    "Der Schleppzeiger sitzt auf einem eigenen Rad direkt über dem Chronographenrad. Normalerweise ist er über ein Herz und einen federnden Hebel mit dem Chronographenrad verbunden und läuft mit. Drückt man den Schleppzeiger-Drücker, schließt sich eine kleine Zange um sein Rad und hält es fest, während der Hauptzeiger weiterläuft; der Hebel gleitet dabei auf dem Herz."
+   ],
+   [
+    "Das Aufholen",
+    "Beim zweiten Druck öffnet sich die Zange. Der federnde Hebel drückt auf das Herz und dreht das Schleppzeigerrad so lange, bis der Hebel in der tiefsten Stelle des Herzens liegt, und genau dann steht der Schleppzeiger wieder über dem Hauptzeiger. Moderne Konstruktionen trennen beim Anhalten zusätzlich die Verbindung zum Herz, damit der Schleppzeiger kaum Energie aus dem Werk zieht."
+   ]
   ]
  },
  {
@@ -4911,6 +5411,16 @@
   ],
   "x": [
    "Bei der Zeitwerk springen zur vollen Stunde drei Scheiben gleichzeitig, der kraftaufwendigste Moment im Lauf der Uhr."
+  ],
+  "how": [
+   [
+    "Spannen und Loslassen",
+    "Die Stundenscheibe ist über eine Raste festgehalten, damit sie nicht von selbst weiterrutscht. Ein Nocken auf dem Minutenrad spannt im Laufe der Stunde langsam eine kleine Feder. Kurz vor der vollen Stunde fällt ein Hebel über die Stufe des Nockens, die gespannte Feder gibt ihre Kraft frei und schiebt die Stundenscheibe in einem Sprung um eine Stelle weiter, wo die Raste sie wieder festhält."
+   ],
+   [
+    "Warum es mehr Kraft braucht",
+    "Weil die ganze Energie für den Sprung im letzten Moment frei wird, wäre das ohne Zwischenspeicher eine große Belastung für das Werk und für die Unruh. Die Feder sammelt die Energie deshalb über die Stunde gleichmäßig. Bei einer vollständig digitalen Anzeige wie der Zeitwerk, die jede Minute springt, übernimmt ein Remontoir diese Aufgabe."
+   ]
   ]
  },
  {
@@ -5078,7 +5588,17 @@
    "Erste Solaruhren mit Digitalanzeige gab es Anfang der 1970er-Jahre; sie hatten sichtbare Solarzellen auf dem Zifferblatt.",
    "Mit lichtdurchlässigen Zifferblättern und besseren Akkus wurde die Technik ab den 1990er-Jahren alltagstauglich."
   ],
-  "x": []
+  "x": [],
+  "how": [
+   [
+    "Zellen unter dem Zifferblatt",
+    "Die Solarzellen bestehen meist aus amorphem Silizium und liegen als flache Scheibe unter dem Zifferblatt. Das Zifferblatt selbst ist aus einem Material, das einen Teil des Lichts durchlässt, oft so gestaltet, dass man es nicht bemerkt. Auch Kunstlicht reicht zum Laden, nur dauert es länger als im Sonnenlicht."
+   ],
+   [
+    "Laden und Sparen",
+    "Der erzeugte Strom lädt einen Akku, meist eine Lithium-Ionen-Zelle. Ein Schaltkreis verhindert das Überladen und überwacht den Ladezustand. Wird es knapp, zeigt die Uhr das oft an, etwa durch einen Sekundenzeiger, der in Zwei-Sekunden-Schritten springt. Bleibt die Uhr lange im Dunkeln, halten manche Modelle die Zeiger an, zählen intern aber weiter und stellen sich bei Licht wieder richtig."
+   ]
+  ]
  },
  {
   "id": "funkuhr",
@@ -5131,7 +5651,17 @@
    "Der Sender DCF77 verbreitet seit 1959 eine Normalfrequenz und seit 1973 einen Zeitcode.",
    "Funkwecker und Wanduhren gab es vor den Armbanduhren; die Mega 1 von 1990 brachte den Empfänger erstmals in ein Armbandgehäuse."
   ],
-  "x": []
+  "x": [],
+  "how": [
+   [
+    "Ein Signal in Sekundenpausen",
+    "DCF77 sendet auf der Langwelle mit 77,5 Kilohertz. Zu Beginn jeder Sekunde wird das Signal kurz abgeschwächt: 0,1 Sekunden bedeuten eine Null, 0,2 Sekunden eine Eins. In 59 Sekunden überträgt der Sender so Minute, Stunde, Tag, Wochentag, Monat und Jahr; in der 60. Sekunde fehlt die Absenkung, und die Uhr weiß, dass eine neue Minute beginnt."
+   ],
+   [
+    "Wann die Uhr hinhört",
+    "Weil der Empfang Strom kostet und tagsüber gestört sein kann, empfängt eine Funkuhr meist nur nachts. Sie prüft das Signal über mehrere Minuten auf Plausibilität und stellt dann die Zeiger. Dazwischen läuft sie als normale Quarzuhr. GPS-Uhren empfangen statt des Langwellensignals die Zeit der Satelliten und können zusätzlich aus ihrer Position die Zeitzone bestimmen."
+   ]
+  ]
  },
  {
   "id": "unruhspirale",
@@ -5177,6 +5707,16 @@
   ],
   "x": [
    "Eine magnetisierte Spirale, deren Windungen aneinanderhaften, lässt eine Uhr plötzlich stark vorgehen; ein Uhrmacher kann sie entmagnetisieren."
+  ],
+  "how": [
+   [
+    "Was die Steifigkeit bestimmt",
+    "Wie stark die Spirale zurückzieht, hängt von ihrer Länge, ihrer Breite, ihrer Dicke und vom Material ab. Am stärksten wirkt die Dicke, weil sie mit der dritten Potenz eingeht: Eine nur wenig dickere Spirale ist schon deutlich steifer. Deshalb werden Spiralen mit Toleranzen im Bereich von Tausendstelmillimetern gewalzt."
+   ],
+   [
+    "Temperatur und Endkurve",
+    "Fast alle Metalle werden bei Wärme weicher, und die Unruh dehnt sich aus; beides würde die Uhr verlangsamen. Legierungen wie Nivarox sind so zusammengesetzt, dass ihre Elastizität bei Wärme leicht zunimmt und den Effekt ausgleicht. Die Endkurve nach Breguet sorgt zusätzlich dafür, dass die Spirale beim Schwingen gleichmäßig um ihre Mitte atmet und den Schwerpunkt der Unruh nicht zur Seite zieht."
+   ]
   ]
  },
  {
@@ -5228,7 +5768,17 @@
    "Kette und Schnecke finden sich schon in Uhren des 15. Jahrhunderts; in Marinechronometern blieben sie bis ins 20. Jahrhundert Standard.",
    "In Armbanduhren tauchte die Fusée erst in den 1990er-Jahren wieder auf, als Zeichen höchster Uhrmacherkunst."
   ],
-  "x": []
+  "x": [],
+  "how": [
+   [
+    "So arbeitet die Schnecke",
+    "Bei Kette und Schnecke ist die Schnecke ein kegelförmiges Rad mit einer spiralförmigen Rille. Die Kette ist mit einem Ende am Federhaus und mit dem anderen an der Schnecke befestigt. Bei voller Spannung wickelt sie sich von der dünnsten Stelle der Schnecke ab, der Hebel ist klein; je schwächer die Feder wird, desto weiter außen zieht die Kette am großen Radius. So bleibt das Drehmoment fast gleich."
+   ],
+   [
+    "So arbeitet ein Remontoir",
+    "Ein Remontoir ist eine kleine Zwischenfeder kurz vor der Hemmung. Das Werk spannt sie in regelmäßigen Abständen nach, etwa jede Sekunde oder bei der Zeitwerk jede Minute, und sie gibt in der Zwischenzeit eine gleichbleibende Kraft an die Hemmung ab. Die Schwankungen der Hauptfeder erreichen die Unruh dadurch nicht mehr."
+   ]
+  ]
  },
  {
   "id": "militaeruhren",
