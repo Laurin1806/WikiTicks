@@ -227,6 +227,17 @@ a.xl:hover { text-decoration-color: var(--accent); }
 .curbox .facts dt, .curbox .facts dd { border-bottom-color: color-mix(in srgb, var(--accent) 25%, transparent); }
 .curnote { font-size: 12.5px; color: var(--muted); margin: 10px 0 12px !important; }
 .refs-wrap { overflow-x: auto; margin: 4px 0 28px; }
+/* Datenblatt je Referenz: Aufklapper im Stil von »Über dieses Bild« */
+.dsbtn { display: flex; align-items: center; gap: 5px; margin-top: 4px; padding: 0; border: 0; background: none; font: inherit; font-family: var(--font-body); font-size: 12px; font-weight: 600; color: var(--accent); cursor: pointer; white-space: nowrap; text-shadow: 0 0 7px color-mix(in srgb, var(--accent) calc(var(--gl) * 45%), var(--bg)); }
+.dsbtn::after { content: ""; width: 6px; height: 6px; border-right: 1.6px solid currentColor; border-bottom: 1.6px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .25s ease; }
+.dsbtn[aria-expanded="true"]::after { transform: translateY(1px) rotate(-135deg); }
+.refs tr.hasds td { border-bottom-color: transparent; }
+.refs tr.hasds.open + .dsrow td, .refs tr.dsrow td { padding: 0 0 10px; border-bottom: 1px solid var(--line); }
+.dspop { padding: 8px 16px 12px; background: radial-gradient(120% 90% at 30% 0%, color-mix(in srgb, #ffffff 26%, transparent), transparent 60%), color-mix(in srgb, var(--surface) 60%, transparent); backdrop-filter: blur(14px) saturate(1.3); -webkit-backdrop-filter: blur(14px) saturate(1.3); border: 1px solid color-mix(in srgb, #ffffff 45%, var(--line)); border-radius: 14px; box-shadow: inset 0 1px 0 color-mix(in srgb, #ffffff 70%, transparent), 0 8px 24px rgba(0,0,0,.10); animation: imgpop .22s ease; }
+.dspop dl { display: grid; grid-template-columns: minmax(110px, max-content) 1fr; gap: 4px 16px; margin: 6px 0 0; font-size: 13px; }
+.dspop dt { color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: .06em; padding-top: 2px; }
+.dspop dd { margin: 0; }
+@media (max-width: 600px) { .dspop dl { grid-template-columns: 1fr; gap: 0; } .dspop dd { margin-bottom: 6px; } }
 .refs { border-collapse: collapse; width: 100%; min-width: 480px; font-size: 13.5px; }
 .refs th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 600; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--line); }
 .refs td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
@@ -938,6 +949,11 @@ function viewCompare(h) {
     <p class="gallery-note">Das Datenblatt gilt für die gezeigte Ausführung; fehlende Werte stammen aus den Angaben zum Modell. Preise in Euro umgerechnet, ungefähre Richtwerte ohne Gewähr; Quellen stehen bei den Preisangaben der jeweiligen Modelle.</p>` : `<p class="empty">Noch keine Uhr ausgewählt. Tippe oben in ein Feld und wähle ein Modell.</p>`}</div>`;
 }
 const cmpSet = (i, x) => { const cur = CMP.filter(y => cmpItem(y)); if (x == null) cur.splice(i, 1); else if (i < cur.length) cur[i] = x; else cur.push(x); CMP = cur.slice(0, 3); saveCmp(); const y = scrollY; route(); scrollTo(0, y); };
+document.addEventListener("click", ev => {
+  const b = ev.target.closest && ev.target.closest(".dsbtn"); if (!b) return;
+  const tr = b.closest("tr"), row = tr.nextElementSibling, o = b.getAttribute("aria-expanded") !== "true";
+  b.setAttribute("aria-expanded", o); tr.classList.toggle("open", o); if (row && row.classList.contains("dsrow")) row.hidden = !o;
+});
 document.addEventListener("change", ev => {
   const inp = ev.target.closest && ev.target.closest(".cmpin"); if (!inp) return;
   const v = inp.value.trim().toLowerCase(), m = MODELS.find(x => x.t.toLowerCase() === v) || MODELS.find(x => x.t.toLowerCase().includes(v));
@@ -1039,7 +1055,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112571"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112572"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -2279,7 +2295,9 @@ function viewEntry(e) {
     : factList(e.f);
   const refs = e.refs ? `<div class="label">Alle Referenzen</div>
     <div class="refs-wrap"><table class="refs"><thead><tr><th>Ref.</th><th>Bauzeit</th><th>Größe</th><th>Kaliber</th><th>Merkmale</th></tr></thead>
-    <tbody>${e.refs.map(x => { const now = /^seit/.test(x[1]); return `<tr${now ? ' class="now"' : ""}><td class="m w">${esc(x[0]).replace(/ \/ /g, " /<wbr> ")}${now ? ' <span class="chip">aktuell</span>' : ""}</td><td class="m">${esc(x[1])}</td><td class="m">${esc(x[2])}</td><td class="m w">${esc(x[3]).replace(/ \/ /g, " /<wbr> ")}</td><td class="n">${esc(x[4])}</td></tr>`; }).join("")}</tbody></table></div>` : "";
+    <tbody>${e.refs.map(x => { const now = /^seit/.test(x[1]), ds = (SPECS._refs || {})[e.id + "|" + x[0]];
+      return `<tr class="${now ? "now" : ""}${ds ? " hasds" : ""}"><td class="m w">${esc(x[0]).replace(/ \/ /g, " /<wbr> ")}${now ? ' <span class="chip">aktuell</span>' : ""}${ds ? `<button type="button" class="dsbtn" aria-expanded="false">Datenblatt</button>` : ""}</td><td class="m">${esc(x[1])}</td><td class="m">${esc(x[2])}</td><td class="m w">${esc(x[3]).replace(/ \/ /g, " /<wbr> ")}</td><td class="n">${esc(x[4])}</td></tr>`
+        + (ds ? `<tr class="dsrow" hidden><td colspan="5"><div class="dspop"><dl>${SPEC_FIELDS.filter(([k]) => ds[k]).map(([k, l]) => `<dt>${esc(l)}</dt><dd>${esc(ds[k])}</dd>`).join("")}${ds.zifferblatt_optionen ? `<dt>Zifferblätter</dt><dd>${esc(ds.zifferblatt_optionen)}</dd>` : ""}</dl></div></td></tr>` : ""); }).join("")}</tbody></table></div>` : "";
   const meta = e.brand ? `<p class="meta"><span>Hersteller <a href="#marke-${slug(e.brand)}">${esc(e.brand)}</a></span><span>Erstvorstellung <b>${esc(e.since || "–")}</b></span>${e.designer ? `<span>Design <b>${esc(e.designer)}</b></span>` : ""}</p>` : "";
   if (e.brand) used.add("marke-" + slug(e.brand));
   const related = e.r.filter(id => byId[id] && id !== e.id);
@@ -2955,7 +2973,7 @@ const load = f => fetch(`${f}?v=${IMGV}`, { cache: "no-cache" }).then(r => r.ok 
 // Eingebettete Daten (Offline-Version) haben Vorrang, sonst werden die JSON-Dateien geladen
 const DATA = window.WIKITICKS_DATA;
 // Datenblätter nur für den Uhrenvergleich (datenblatt.json), werden im Hintergrund nachgeladen
-let SPECS = {}; (DATA && DATA.datenblatt ? Promise.resolve(DATA.datenblatt) : load("datenblatt.json")).then(d => { SPECS = d || {}; if (E.length && (location.hash || "").startsWith("#vergleich")) route(); });
+let SPECS = {}; (DATA && DATA.datenblatt ? Promise.resolve(DATA.datenblatt) : load("datenblatt.json")).then(d => { SPECS = d || {}; if (E.length && byId[decodeURIComponent((location.hash || "#").slice(1))] || (location.hash || "").startsWith("#vergleich")) route(); });
 (DATA ? Promise.resolve([DATA.lexikon, DATA.modelle]) : Promise.all([load("lexikon.json"), load("modelle.json")])).then(([lex, mod]) => {
   if (!lex && !mod) { $("#view").innerHTML = '<p class="empty">Die Inhalte konnten nicht geladen werden. Bitte lade die Seite neu.</p>'; return; }
   E = [...(lex || []), ...((mod && mod.modelle) || []).map(m => ({ ...m, c: "Uhrenmodelle" }))];
