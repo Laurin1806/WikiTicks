@@ -696,14 +696,14 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112512"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112513"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
-    const bn = v.img.split("/").pop(), lmk = LUMEMASK.has(bn), lc = lmk ? LUMEMASK.get(bn) : e && e.lume ? e.lume.c : "g";
+    const bn = v.img.split("/").pop(), noL = LUMEMASK.get(bn) === "n", lmk = LUMEMASK.has(bn) && !noL, lc = lmk ? LUMEMASK.get(bn) : e && e.lume ? e.lume.c : "g";
     const lm = e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "";
     const ovl = lmk ? `<img class="wlume-img" src="assets/watches/lume/${bn.replace(/\.[a-z]+$/i, ".png")}?v=${IMGV}" alt="" aria-hidden="true" loading="lazy">` : "";
-    return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}>${base}${ovl}</span>`;
+    return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}${noL ? ' data-nol="1"' : ""}>${base}${ovl}</span>`;
   }
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
   const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
@@ -1736,7 +1736,7 @@ function nightPrep(img) {
       if (shd[i]) { o[i * 4] = o[i * 4 + 1] = o[i * 4 + 2] = 0; o[i * 4 + 3] = Math.min(255, (255 - L[i]) * 1.3); } // Schatten im Dunkeln: dunkel statt hell
     }
     // Uhren ohne Leuchtmasse: im Dunkeln von oben angeleuchtet (Lichtkegel von oben, nach unten auslaufend)
-    const spotS = (!wrap.dataset.lmk && !wrap.dataset.lz) ? 1 : (SOFTSPOT_ID[wrap.dataset.id] ?? SOFTSPOT); const front = true; // frontaler Lichtkegel (Mitte des Zifferblatts) // 1 = volle Beleuchtung (ohne Leuchtmasse), kleiner = nur angedeutet
+    const spotS = (wrap.dataset.nol || (!wrap.dataset.lmk && !wrap.dataset.lz)) ? 1 : (SOFTSPOT_ID[wrap.dataset.id] ?? SOFTSPOT); const front = true; // frontaler Lichtkegel (Mitte des Zifferblatts) // 1 = volle Beleuchtung (ohne Leuchtmasse), kleiner = nur angedeutet
     const sb = spotS === 1 ? .46 : .34, spk = spotS === 1 ? .56 : .78, sdx = 1.6, sdy = .55; // sdx/sdy: Breite des Lichtkegels (kleiner sdx / größer sdy = weicher) // Grundhelligkeit / Lichtkegel (ohne Leuchtmasse: Uhr heller, Licht schwächer)
     const mulA = new Float32Array(N).fill(1);
     if (spotS) { let y0 = h, y1 = 0, x0 = w, x1 = 0; for (let i = 0; i < N; i++) if (!bg[i] && !shd[i]) { const px = i % w, py = (i / w) | 0; if (py < y0) y0 = py; if (py > y1) y1 = py; if (px < x0) x0 = px; if (px > x1) x1 = px; }
@@ -1747,7 +1747,7 @@ function nightPrep(img) {
     cx.putImageData(od, 0, 0);
     // Leuchtmasse nach den Angaben im Modell (data-lz: I Indizes, H Zeiger, P Lünettenpunkt, B Lünettenmarkierungen, S Hilfszifferblätter, L LCD).
     // Erkennung: sehr helle, farbarme Flächen, die rundherum von Dunkel umgeben sind; Zuordnung zu Zonen über Lage zum Zifferblattmittelpunkt.
-    const lz = wrap.dataset.lmk ? "" : (wrap.dataset.lz || ""), rmax = +wrap.dataset.rm || (/P/.test(lz) ? .7 : .9), sub = wrap.dataset.sub || "", blue = wrap.dataset.lc === "b";
+    const lz = (wrap.dataset.lmk || wrap.dataset.nol) ? "" : (wrap.dataset.lz || ""), rmax = +wrap.dataset.rm || (/P/.test(lz) ? .7 : .9), sub = wrap.dataset.sub || "", blue = wrap.dataset.lc === "b";
     const lu = document.createElement("canvas"); lu.width = w; lu.height = h; const lx = lu.getContext("2d"), ld = lx.createImageData(w, h), lo = ld.data;
     const col = blue ? [185, 232, 255] : [175, 255, 205], keep = new Uint8Array(N), zc = new Uint8Array(N);
     let dimBright = !!wrap.dataset.lmk;
