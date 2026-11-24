@@ -160,12 +160,21 @@ def gen(img, spec):
     for x0,y0,x1,y1 in spec.get('add',[]): # zusätzlich zu übernehmende Bereiche (alles Helle darin)
         sub=(L>=spec.get('thr',175)-40)&(S<=spec.get('sat',70)+10);keep[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]|=sub[int(y0*h):int(y1*h),int(x0*w):int(x1*w)]
     # Indizes an bestimmten Winkeln neu setzen (z. B. wenn ein Zeiger darüber liegt): Kreis mit mittlerer Punktgröße auf dem Indexkreis
-    if spec.get('idxfix') and 'hub' in spec:
+    if (spec.get('idxfix') or spec.get('autofill')) and 'hub' in spec:
         hx,hy=spec['hub'];cs=[c for c in comps(keep.copy()) if len(c)>30]
         info=[(math.hypot(c[:,1].mean()-hx,c[:,0].mean()-hy),c) for c in cs]
         ring=[(d,c) for d,c in info if d>spec.get('R',r)*.55]
         if ring:
             Rr=float(np.median([d for d,_ in ring]))
+            if spec.get('autofill'):   # fehlende Stundenindizes finden: 12er-Raster, belegte Plätze, Rest ergänzen
+                have=set()
+                for d,c in ring:
+                    if abs(d-Rr)<Rr*.14:
+                        a_=(math.degrees(math.atan2(c[:,1].mean()-hx,-(c[:,0].mean()-hy)))+360)%360;k_=round(a_/30)%12
+                        if abs(((a_-k_*30)+180)%360-180)<9: have.add(k_)
+                miss=[k*30 for k in range(12) if k not in have and k*30 not in spec.get('noidx',[]) and k!=0]
+                spec=dict(spec);spec['idxfix']=list(spec.get('idxfix',[]))+miss
+                if miss: print('  ergänzt:',miss)
             isdot=lambda c:(c.max(0)-c.min(0)).max()<1.35*((c.max(0)-c.min(0)).min()+1)
             dots=[c for d,c in ring if abs(d-Rr)<Rr*.06 and isdot(c)]
             bars=[c for d,c in ring if abs(d-Rr)<Rr*.1 and not isdot(c)]
@@ -256,5 +265,5 @@ if __name__=='__main__':
         ov.save((OUT if 'OUT' in globals() else ROOT+'assets/watches/lume/')+name,optimize=True)
         # Vorschau
         base=Image.open(ROOT+img).convert('RGB');pv=base.point(lambda v:int(v*.35)).convert('RGBA')
-        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save('/tmp/pv_'+name)
+        pv.alpha_composite(ov.resize(base.size));pv.convert('RGB').save(f'/tmp/claude-0/-home-user-WikiTicks/0e28edec-f94f-555b-a2c4-826ff2b6d4c0/scratchpad/lm/pv_{name}')
         print(name,int(keep.sum()))
