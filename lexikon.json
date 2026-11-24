@@ -1153,55 +1153,79 @@
   "a": [
    "Super-LumiNova",
    "Tritium",
-   "Radium"
+   "Radium",
+   "Chromalight",
+   "LumiBrite",
+   "Leuchtmittel",
+   "Lume"
   ],
-  "s": "Beschichtung auf Zeigern und Indizes, die im Dunkeln leuchtet.",
+  "s": "Vom strahlenden Radium über Tritium bis Super-LumiNova: wie Zeiger und Indizes im Dunkeln leuchten, wie Leuchtmasse altert und woran man sie erkennt.",
   "b": [
-   "Bis in die 1960er-Jahre wurde radioaktives Radium verwendet, danach das deutlich schwächer strahlende Tritium. Seit den 1990er-Jahren sind nicht radioaktive Leuchtpigmente auf Basis von Strontiumaluminat Standard, bekannt unter Namen wie Super-LumiNova.",
-   "Diese Pigmente laden sich mit Licht auf und geben es langsam wieder ab. Gealtertes Tritium färbt sich mit der Zeit cremefarben, was bei Vintage-Uhren als Patina geschätzt wird.",
-   "Radium wurde ab etwa 1910 bis in die 1960er-Jahre verwendet. In den USA erkrankten viele Arbeiterinnen, die Pinsel mit den Lippen anspitzten (»Radium Girls«). Danach folgte Tritium, ein schwach strahlendes Gas, das an Zifferblättern als Farbe oder in Röhrchen (GTLS) eingesetzt wird.",
-   "Seit den 1990er-Jahren sind Strontiumaluminat-Pigmente wie Super-LumiNova Standard. Sie speichern Licht, geben es ab und verblassen im Lauf der Nacht. Rolex nutzt das blau leuchtende Chromalight, das länger nachleuchten soll. Tritium-Zifferblätter tragen oft die Aufschrift »T Swiss T« oder »T<25«.",
-   "Gealterte Leuchtmasse färbt sich cremefarben bis gelblich. Bei Vintage-Uhren wird die Patina geschätzt, solange Zifferblatt und Zeiger zueinander passen."
+   "Leuchtmasse macht Zeiger, Indizes und oft auch die Lünettenmarkierung im Dunkeln ablesbar. Dahinter stehen zwei grundverschiedene Prinzipien. Bei radioaktiver Leuchtfarbe regt eine Strahlungsquelle, erst Radium, später Tritium, einen Leuchtstoff wie Zinksulfid dauerhaft zum Leuchten an; die Uhr leuchtet ohne Licht von außen, aber schwach. Heutige Leuchtmasse ist dagegen nicht radioaktiv: Sie speichert Licht und gibt es im Dunkeln langsam wieder ab. Fachleute sprechen von Nachleuchten oder Phosphoreszenz.",
+   "Moderne Leuchtpigmente bestehen aus Strontiumaluminat, das mit seltenen Erden wie Europium und Dysprosium dotiert ist. Sie laden sich an Tageslicht oder Lampenlicht auf, am stärksten unter ultraviolettem Licht. Direkt danach leuchten sie hell, in den ersten Minuten nimmt die Helligkeit stark ab, dann bleibt ein schwaches Nachleuchten über Stunden. Wie lange eine Uhr ablesbar bleibt, hängt vor allem von der Menge ab: Dick aufgetragene Indizes wie bei Taucheruhren leuchten deutlich länger als feine Striche.",
+   "Die Farbe ist ein Kompromiss. Grün leuchtende Pigmente sind am hellsten, weil das menschliche Auge im grünen Bereich am empfindlichsten ist. Blau leuchtende Varianten wirken bei Tageslicht weißer und leuchten oft länger nach, aber weniger hell. Viele Marken haben eigene Namen: Rolex verwendet seit 2008 das blau leuchtende Chromalight, Seiko nennt seine Leuchtmasse LumiBrite, und Super-LumiNova gibt es in zahlreichen Farbtönen, die Hersteller nach Kennziffern wie C3 (grün) oder BGW9 (blau) bestellen.",
+   "Eine Sonderform sind gasgefüllte Tritiumröhrchen (GTLS): winzige, innen beschichtete Glasröhrchen, in denen Tritiumgas eingeschlossen ist. Sie leuchten ohne jede Aufladung die ganze Nacht gleichmäßig, verlieren aber mit der Halbwertszeit des Tritiums von gut zwölf Jahren nach und nach an Helligkeit. Marken wie Ball, Luminox oder Traser setzen darauf, weil die Strahlung im geschlossenen Röhrchen bleibt.",
+   "Bei Vintage-Uhren ist die Leuchtmasse ein wichtiges Merkmal für Echtheit und Wert. Tritium altert sichtbar und nimmt je nach Uhr einen cremefarbenen, gelblichen oder bräunlichen Ton an; diese Patina ist bei Sammlern beliebt, solange Zifferblatt und Zeiger gleichmäßig gealtert sind. Hersteller ahmen den Effekt heute mit beige eingefärbter Leuchtmasse nach, unter Sammlern spöttisch »Fauxtina« genannt. Nachträglich neu aufgetragene Leuchtmasse (»Relume«) senkt den Sammlerwert einer alten Uhr dagegen deutlich.",
+   "Uhren mit Radium-Leuchtfarbe sind auch heute noch radioaktiv, selbst wenn sie längst nicht mehr leuchten: Der Leuchtstoff ist erschöpft, das Radium mit seiner Halbwertszeit von rund 1600 Jahren aber noch fast vollständig vorhanden. Getragen sind solche Uhren meist unbedenklich, das Öffnen des Gehäuses und das Abkratzen der Farbe gehören aber in die Hände von Fachleuten, weil dabei Staub entstehen kann."
   ],
   "f": [
    [
-    "Bis 1960er",
-    "Radium"
+    "Bis 1960er-Jahre",
+    "Radium (radioaktiv)"
    ],
    [
-    "Danach",
-    "Tritium"
+    "1960er bis 1990er",
+    "Tritium, Hinweis »T« auf dem Zifferblatt"
    ],
    [
-    "Heute",
-    "Strontiumaluminat, nicht radioaktiv"
+    "Seit 1993",
+    "LumiNova, später Super-LumiNova (Strontiumaluminat)"
+   ],
+   [
+    "Markennamen",
+    "Chromalight (Rolex), LumiBrite (Seiko)"
+   ],
+   [
+    "Sonderform",
+    "Tritiumröhrchen (GTLS)"
    ]
   ],
   "r": [
    "zifferblatt",
+   "taucheruhr",
+   "vintage-begriffe",
+   "explorer-2",
+   "radiomir",
    "luminor",
-   "radiomir"
+   "deepsea"
   ],
-  "k": "Bis in die 1960er-Jahre leuchteten Zeiger und Indizes mit radioaktivem Radium.",
+  "k": "Grüne Leuchtmasse wirkt am hellsten, weil das menschliche Auge im grünen Lichtbereich am empfindlichsten ist.",
   "fig": {
    "m": [
     "submariner",
-    "big-pilot"
+    "deepsea",
+    "radiomir"
+   ],
+   "img": [
+    "assets/watches/rolex-submariner-1680-red.jpg",
+    null,
+    null
    ],
    "mc": [
-    "So leuchtet sie im Dunkeln",
-    "Gut ablesbar bei Nacht"
-   ],
-   "night": true
+    "Gealtertes Tritium mit cremefarbener Patina (Ref. 1680)",
+    "Chromalight leuchtet blau (Rolex seit 2008)",
+    "Name nach Panerais Radium-Leuchtfarbe von 1916"
+   ]
   },
   "g": [
-   "Radioaktive Leuchtfarbe auf Radiumbasis kam um 1910 auf und wurde im Ersten Weltkrieg massenhaft verwendet. In amerikanischen Fabriken spitzten Arbeiterinnen die Pinsel mit den Lippen an und erkrankten schwer. Die »Radium Girls« klagten in den 1920er-Jahren und erreichten bessere Schutzvorschriften.",
-   "Ab den 1960er-Jahren ersetzte das schwächer strahlende Tritium das Radium. 1993 entwickelte die japanische Firma Nemoto mit LumiNova eine nicht radioaktive Leuchtfarbe, die heute als Super-LumiNova in fast allen Uhren steckt."
+   "Radioaktive Leuchtfarbe auf Radiumbasis kam um 1910 auf und wurde im Ersten Weltkrieg für Soldatenuhren und Instrumente in großer Menge verwendet. Panerai ließ sich 1916 eine solche Leuchtfarbe unter dem Namen Radiomir schützen, der heute ein Modell der Marke trägt. In amerikanischen Fabriken spitzten Arbeiterinnen die Pinsel mit den Lippen an und erkrankten schwer; die »Radium Girls« zogen in den 1920er-Jahren vor Gericht und erreichten bessere Schutzvorschriften für Arbeiter, die mit radioaktiven Stoffen umgehen.",
+   "Ab den 1960er-Jahren ersetzte das viel schwächer strahlende Tritium das Radium. Zifferblätter mit Tritium tragen unten meist einen Hinweis: »T SWISS T«, »SWISS – T < 25« oder ähnlich, wobei das T für Tritium steht und die 25 für die Höchstmenge in Millicurie. 1993 stellte die japanische Firma Nemoto mit LumiNova die erste leistungsfähige nicht radioaktive Leuchtfarbe vor; gemeinsam mit der Schweizer RC Tritec entstand daraus Super-LumiNova. Bis etwa zur Jahrtausendwende stellten fast alle Hersteller um, bei Rolex lassen sich die Übergänge an Zifferblättern wie dem der Explorer II 16570 ablesen."
   ],
   "x": [
-   "Frühe Uhren nutzten Radium, später Tritium; heute dominiert das nicht radioaktive Super-LumiNova.",
-   "Tritium zerfällt mit einer Halbwertszeit von etwa 12 Jahren, deshalb leuchten alte Tritium-Zifferblätter kaum noch.",
-   "Manche Marken verwenden kleine Tritiumröhrchen (GTLS), die ohne Aufladung jahrelang leuchten."
+   "Unter UV-Licht lassen sich Leuchtmassen unterscheiden: Moderne Pigmente leuchten nach kurzer Bestrahlung hell auf, gealtertes Tritium kaum noch.",
+   "Leuchten Zeiger und Indizes einer Vintage-Uhr unterschiedlich hell oder in verschiedenen Farben, wurden meist Teile bei einer Revision ersetzt.",
+   "Die Norm ISO 6425 verlangt bei Taucheruhren, dass die Uhr im Dunkeln aus 25 Zentimetern Entfernung ablesbar ist, auch der Markierungspunkt auf der Lünette.",
+   "Leuchtmasse wird meist von Hand oder mit feinen Dosiergeräten in die Vertiefungen von Indizes und Zeigern gefüllt; manche Hersteller setzen inzwischen massive Leuchtkörper aus Keramik ein."
   ]
  },
  {
