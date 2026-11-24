@@ -3031,6 +3031,10 @@
      "41 mm, Oystersteel"
     ],
     [
+     "Edelmetall",
+     "auch Rolesor mit Gelbgold und 18 Karat Gelb- oder Weißgold"
+    ],
+    [
      "Kaliber",
      "3230 / 3235, Automatik, 28.800 A/h"
     ],
@@ -3446,6 +3450,10 @@
      "40 mm, Oystersteel"
     ],
     [
+     "Edelmetall",
+     "auch in 18 Karat (750) Gelb-, Weiß- oder Everose-Gold sowie Platin 950"
+    ],
+    [
      "Kaliber",
      "4131, Automatik-Chronograph, 28.800 A/h"
     ],
@@ -3730,6 +3738,10 @@
     [
      "Gehäuse",
      "40 mm, Oystersteel"
+    ],
+    [
+     "Edelmetall",
+     "auch Rolesor und 18 Karat (750) Gelb-, Weiß- oder Everose-Gold"
     ],
     [
      "Kaliber",
@@ -4063,6 +4075,10 @@
     [
      "Gehäuse",
      "36 oder 41 mm, Oystersteel, Rolesor oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "Rolesor (Oystersteel mit 18 Karat Gelb-, Weiß- oder Everose-Gold) oder Vollgold in 18 Karat"
     ],
     [
      "Kaliber",
@@ -4411,6 +4427,7 @@
    "b": [
     "Mit der Day-Date stellte Rolex 1956 die erste Armbanduhr vor, die neben dem Datum auch den Wochentag ausgeschrieben anzeigt. Der Wochentag steht in einem gebogenen Fenster bei 12 Uhr. Er ist in rund 26 Sprachen erhältlich, darunter Arabisch, Hebräisch und Chinesisch. Die Uhr war von Beginn an ein Statussymbol: Rolex baute sie ausschließlich in Edelmetallen, in Gelb-, Weiß- und Everose-Gold sowie in Platin, und es gab nie eine Stahlversion.",
     "Zur Day-Date gehört das dreireihige President-Band mit halbrunden Gliedern und verdeckter Schließe, das eigens für sie entworfen wurde. Der Name des Bandes übertrug sich bald auf die ganze Uhr, die unter Sammlern und Händlern bis heute »President« heißt; mit US-Präsident Lyndon B. Johnson verbindet sich die Geschichte der Uhr besonders. Rolex hat diese Verbindung später gern aufgegriffen und die Uhr entsprechend positioniert: Wer eine Day-Date trägt, signalisiert, dass er es geschafft hat.",
+    "Für die Day-Date verwendet Rolex ausschließlich Edelmetall: 18 Karat Gold mit einem Feingehalt von 750/1000 und Platin 950. Das Gold gießt Rolex in einer eigenen Gießerei, um Farbe und Härte selbst zu bestimmen. Gelbgold enthält neben dem Gold vor allem Silber und Kupfer, Weißgold unter anderem Palladium, und das 2005 eingeführte Everose-Gold zusätzlich etwas Platin, damit sich der Roséton auch nach Jahren nicht verändert. Auch das President-Band ist massiv aus demselben Metall gefertigt, was die Uhr spürbar schwer macht.",
     "Technisch folgte die Day-Date der Datejust. Die Kaliber 1055 und 1555 aus den späten 1950er- und 1960er-Jahren wurden 1977 vom Kaliber 3055 mit Schnellschaltung für das Datum abgelöst (Ref. 18038, erstmals mit Saphirglas), 1988 vom Kaliber 3155 mit Schnellschaltung auch für den Wochentag. Fast 50 Jahre lang hatte die Day-Date 36 Millimeter. 2008 kam die Day-Date II mit 41 Millimetern, die 2015 von der Day-Date 40 abgelöst wurde; seit 2019 gibt es auch die Day-Date 36 wieder als eigene Referenz. Das Bild der Vintage-Day-Date prägte vor allem die Referenz 1803 (1960–1978) mit Acrylglas, geriffelter Lünette und President-Band.",
     "Mit der Day-Date 40 debütierte 2015 das Kaliber 3255 mit der Chronergy-Hemmung, die Rolex danach nach und nach in viele andere Modelle übernommen hat. Die Platinmodelle erkennt man an einem eisblauen Zifferblatt, das Rolex ausschließlich für Platin verwendet. Zu den Eigenheiten der Day-Date gehören außerdem Zifferblätter aus Onyx, Meteorit, Opal oder mit Diamanten und Smaragden, die Rolex in kleinen Serien anbietet."
    ],
@@ -4419,6 +4436,10 @@
     [
      "Gehäuse",
      "36 oder 40 mm, nur Gold oder Platin"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750) Gelb-, Weiß- oder Everose-Gold, Platin 950"
     ],
     [
      "Kaliber",
@@ -4650,6 +4671,7 @@
    "bh": [
     "1956: Wochentag ausgeschrieben",
     "Das President-Band",
+    "Gold aus eigener Gießerei",
     "Vom Kaliber 1055 zur Day-Date 36",
     "Kaliber 3255 und besondere Zifferblätter"
    ],
@@ -5166,6 +5188,10 @@
      "41 mm, Weißgold, Saphirglasboden"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750) Weißgold, Gehäuse und Band"
+    ],
+    [
      "Kaliber",
      "26-330 S C, Automatik, 28.800 A/h"
     ],
@@ -5422,6 +5448,10 @@
     [
      "Gehäuse",
      "39 mm, Weiß- oder Roségold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750) Weiß- oder Roségold"
     ],
     [
      "Kaliber",
@@ -5863,6 +5893,10 @@
      "38,5 mm, Weiß- oder Roségold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750) Weiß- oder Roségold"
+    ],
+    [
      "Kaliber",
      "240 HU, Automatik mit Mikrorotor, 21.600 A/h"
     ],
@@ -5996,6 +6030,10 @@
     [
      "Gehäuse",
      "38,5 mm, Gold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750) Gold, als Nautilus 5726A auch Edelstahl"
     ],
     [
      "Kaliber",
@@ -6158,6 +6196,10 @@
     [
      "Gehäuse",
      "41 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Edelmetall",
+     "auch 18 Karat (750) Gelb-, Rosé- und Weißgold sowie Platin 950"
     ],
     [
      "Kaliber",
@@ -6682,6 +6724,10 @@
     [
      "Gehäuse",
      "41 mm, Gold oder Gold mit Keramik"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
@@ -7690,6 +7736,10 @@
      "34–35 mm, Edelstahl oder Gold"
     ],
     [
+     "Edelmetall",
+     "auch 18 Karat Gold, etwa Omegas Roségold-Legierung Sedna"
+    ],
+    [
      "Kaliber",
      "Automatik-Chronometerwerk"
     ],
@@ -8427,6 +8477,10 @@
      "39,8 × 47,5 mm, Edelstahl"
     ],
     [
+     "Edelmetall",
+     "Goldmodelle in 18 Karat (750) Gelb- oder Roségold, auch Stahl mit Gold"
+    ],
+    [
      "Kaliber",
      "1847 MC, Automatik, 28.800 A/h"
     ],
@@ -8717,6 +8771,10 @@
     [
      "Gehäuse",
      "33,7 × 25,5 mm, Edelstahl"
+    ],
+    [
+     "Edelmetall",
+     "Goldmodelle in 18 Karat (750) Gelb-, Rosé- oder Weißgold"
     ],
     [
      "Werk",
@@ -9017,6 +9075,10 @@
     [
      "Gehäuse",
      "40,4 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
@@ -10388,6 +10450,10 @@
      "40 mm, Oystersteel"
     ],
     [
+     "Edelmetall",
+     "Lünette aus Platin 950 (»Rolesium«), Vollgold in 18 Karat (750) Gelb-, Weiß- oder Everose-Gold"
+    ],
+    [
      "Lünette",
      "beidseitig drehbar, Platin mit erhabenen Ziffern"
     ],
@@ -11189,6 +11255,10 @@
      "42 mm, Oystersteel mit Weißgoldlünette oder Gold"
     ],
     [
+     "Edelmetall",
+     "Weißgoldlünette in 18 Karat, Vollgold in Gelb-, Weiß- oder Everose-Gold"
+    ],
+    [
      "Kaliber",
      "9002, Automatik, 28.800 A/h"
     ],
@@ -11804,6 +11874,10 @@
     [
      "Gehäuse",
      "quadratisch, mehrere Größen, Stahl oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Werk",
@@ -12821,6 +12895,10 @@
      "38,5 mm, Gold oder Platin"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750) Gelb-, Rot- oder Weißgold, Platin 950, Sondereditionen in Honiggold"
+    ],
+    [
      "Kaliber",
      "L121.1, Handaufzug, 21.600 A/h"
     ],
@@ -12990,6 +13068,10 @@
      "41,6 mm, Gold oder Platin"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750) Gold, Platin 950, Sondereditionen in Honiggold"
+    ],
+    [
      "Kaliber",
      "L043.6, Handaufzug"
     ],
@@ -13126,6 +13208,10 @@
     [
      "Gehäuse",
      "41 mm, Gold oder Platin"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750) Rot- oder Weißgold, Platin 950"
     ],
     [
      "Kaliber",
@@ -14044,6 +14130,10 @@
      "42 mm (auch 44 mm), Titan, Keramik, Gold u. a."
     ],
     [
+     "Edelmetall",
+     "King Gold (18 Karat Rotgold mit Platinanteil) oder Magic Gold (Gold mit Keramik)"
+    ],
+    [
      "Kaliber",
      "HUB1280 Unico, Automatik-Chronograph, 28.800 A/h"
     ],
@@ -14190,6 +14280,10 @@
     [
      "Gehäuse",
      "42 mm, Titan, Keramik oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "King Gold (18 Karat Rotgold mit Platinanteil)"
     ],
     [
      "Kaliber",
@@ -14767,6 +14861,10 @@
      "40 mm, Roségold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "1400, Handaufzug, 28.800 A/h"
     ],
@@ -14885,6 +14983,10 @@
     [
      "Gehäuse",
      "40 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
@@ -16149,6 +16251,10 @@
     [
      "Gehäuse",
      "rund, Weißgold, geriffelter Rand"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Anzeige",
@@ -17647,6 +17753,10 @@
     [
      "Gehäuse",
      "39 mm, Gelb- oder Weißgold, ≈ 9,5 mm hoch"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750) Gelb- oder Weißgold, seit 2024 auch Platin 950"
     ],
     [
      "Kaliber",
@@ -19841,6 +19951,10 @@
      "32–39 mm, Gold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750) Gelb-, Weiß- oder Everose-Gold"
+    ],
+    [
      "Kaliber",
      "3132, 3165, 3195 (Automatik, je nach Modell)"
     ],
@@ -19965,6 +20079,10 @@
     [
      "Gehäuse",
      "36 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
@@ -20112,6 +20230,10 @@
      "44 mm, Edelstahl, Gold oder Platin"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Funktion",
      "Regatta-Countdown, Flyback-Chronograph"
     ],
@@ -20241,6 +20363,10 @@
     [
      "Gehäuse",
      "rechteckig, 18 Karat Gold oder Stahl"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Werk",
@@ -20618,6 +20744,10 @@
      "39 mm, 41 mm, Edelstahl oder Gold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "8900 / 8901"
     ],
@@ -20733,6 +20863,10 @@
      "40 mm, Edelstahl oder Gold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "8926 / 8910 (Handaufzug)"
     ],
@@ -20835,6 +20969,10 @@
     [
      "Gehäuse",
      "oval, Gold oder Platin"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750) Gold oder Platin 950"
     ],
     [
      "Kaliber",
@@ -21082,6 +21220,10 @@
     [
      "Gehäuse",
      "41 mm, Gold oder Platin"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750) Gold oder Platin 950, Platinmodelle mit kleinem Diamanten bei 6 Uhr in der Gehäuseflanke"
     ],
     [
      "Kaliber",
@@ -21336,6 +21478,10 @@
      "oval, Gold oder Stahl"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Zifferblatt",
      "außermittig"
     ],
@@ -21459,6 +21605,10 @@
      "verformt, Gold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Zifferblatt",
      "asymmetrisch"
     ],
@@ -21564,6 +21714,10 @@
     [
      "Gehäuse",
      "oval, Gold oder Stahl"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Zifferblatt",
@@ -21681,6 +21835,10 @@
      "40 mm, Edelstahl oder Gold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "1904-PS / 1904-MC"
     ],
@@ -21789,6 +21947,10 @@
     [
      "Gehäuse",
      "Tonneau, 36–43 mm, Stahl oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
@@ -23522,6 +23684,10 @@
      "35–40 mm, Gold oder Platin"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750) Gelb-, Rot- oder Weißgold"
+    ],
+    [
      "Kaliber",
      "Handaufzug, Dreiviertelplatine"
     ],
@@ -25000,6 +25166,10 @@
      "39–42 mm, Titan oder Gold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "Unico oder Chronographenwerk"
     ],
@@ -25206,6 +25376,10 @@
      "40 mm, Edelstahl oder Gold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "Elite (Automatik)"
     ],
@@ -25294,6 +25468,10 @@
     [
      "Gehäuse",
      "40 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
@@ -25415,6 +25593,10 @@
     [
      "Gehäuse",
      "38–41 mm, Gold oder Platin"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
@@ -27904,6 +28086,10 @@
      "Gold, Edelstahl"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Besonderheit",
      "Bewegliche Diamanten"
     ],
@@ -28100,6 +28286,10 @@
      "rechteckig, Gold oder Stahl"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "Automatik / Handaufzug"
     ],
@@ -28195,6 +28385,10 @@
     [
      "Gehäuse",
      "Gold oder Platin"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Werk",
@@ -28307,6 +28501,10 @@
      "36–41 mm, Gold oder Edelstahl"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "Automatik / Quarz"
     ],
@@ -28414,6 +28612,10 @@
     [
      "Gehäuse",
      "Gold, Edelstahl"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Band",
@@ -29032,6 +29234,10 @@
      "33–40 mm, Gold oder Edelstahl"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "Handaufzug / Automatik"
     ],
@@ -29220,6 +29426,10 @@
      "40–45 mm, Gold oder Edelstahl"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Kaliber",
      "Automatik"
     ],
@@ -29340,6 +29550,10 @@
      "40–41 mm, Gold"
     ],
     [
+     "Edelmetall",
+     "18 Karat (750/1000)"
+    ],
+    [
      "Werk",
      "Handaufzug, sichtbar"
     ],
@@ -29446,6 +29660,10 @@
     [
      "Gehäuse",
      "38–43 mm, Gold oder Weißgold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
@@ -29674,6 +29892,10 @@
     [
      "Gehäuse",
      "41–43 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Edelmetall",
+     "18 Karat (750/1000)"
     ],
     [
      "Kaliber",
