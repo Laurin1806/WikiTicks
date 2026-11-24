@@ -6859,24 +6859,6 @@
    },
    "var": [
     {
-     "n": "Im Stil der CK2915 »Broad Arrow«, ohne Hilfszifferblätter",
-     "y": "",
-     "v": {
-      "bezelColor": "#c9ced6",
-      "hands": "arrow",
-      "top": [
-       "Speedmaster"
-      ],
-      "lume": "#e9dcb8",
-      "img": "assets/watches/omega-speedmaster-ck2915-broad-arrow.jpg"
-     },
-     "bd": [
-      "Die Abbildung zeigt eine Omega Speedmaster in der Gestaltung der ersten Referenz CK2915 von 1957 mit Gehäuse und Band aus Stahl. Typisch für diese frühe Gestaltung sind die Lünette aus Stahl mit eingravierter Tachymeterskala »TACHYMETRE BASE 1000« und das schwarze Zifferblatt.",
-      "Zu erkennen sind der breite Pfeil-Stundenzeiger (»Broad Arrow«), cremefarben gealterte Leuchtmasse in Dreiecksindizes und den Ziffern 12, 3, 6 und 9 sowie der Schriftzug »Speedmaster« unter dem Omega-Logo. Rechts sitzen die Krone und zwei runde Drücker. Hilfszifferblätter gibt es bei dieser Ausführung nicht, das Zifferblatt bleibt bis auf Ziffern, Indizes und Minuterie frei."
-     ],
-     "at": "1957: CK2915 mit Kaliber 321"
-    },
-    {
      "n": "Speedmaster ’57",
      "y": "2012–2020",
      "v": {
