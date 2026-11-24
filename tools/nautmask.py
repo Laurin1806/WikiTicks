@@ -46,3 +46,10 @@ build('patek-philippe-nautilus-5711-1a-white',lambda L,S:(S>=19)&(L>=185)&(L<=24
 # 5740: weiße Leuchtmasse in den Indizes, Hilfszifferblätter und Schrift ausgenommen
 build('patek-philippe-nautilus-5740-1g-perpetual',lambda L,S:(L>=185)&(S<=50),(469.6,608.4),262,
   ex_circ=[(324,611.6,80),(624,615.6,80),(470.4,762,112),(469.6,608.4,22)],ex_box=[(380,460,570,530),(615,440,710,525),(620,690,720,745),(205,595,240,630),(705,595,740,630)],minpx=40,er=0,pca=True,strips=[((646,505),(693,484),7),((503,583),(666,462),7),((645,714.5),(702,734),7),((216,611),(225,611),9),((715.5,611.5),(723.5,611.5),9)])
+# 5711 Tiffany-Blau: Leuchtstreifen in Indizes und Zeigern von Hand vermessen (Zifferblatt zu hell und gestreift für Farbauswahl)
+import math
+_S=[]
+for th,(cx,cy),l in [(30,(650,485),60),(60,(745,580),60),(120,(745,845),60),(150,(655,940),60),(180,(520,955),62),(210,(385,940),60),(240,(292,845),60),(270,(270,713),70),(300,(292,580),60),(330,(388,483),60)]:
+  a=math.radians(th);dx,dy=math.sin(a)*l/2,-math.cos(a)*l/2;_S.append(((cx-dx,cy-dy),(cx+dx,cy+dy),9))
+_S+=[((506,428),(506,492),8),((532,428),(532,492),8),((378,617),(484,679),9),((733,547),(566,671),9)]
+build('patek-philippe-nautilus-5711-1a-tiffany-blue',lambda L,S:L<0,(518,708),300,minpx=40,er=0,strips=_S)

@@ -845,12 +845,12 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112539"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112541"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
     const bn = v.img.split("/").pop(), noL = LUMEMASK.get(bn) === "n", lmk = LUMEMASK.has(bn) && !noL, lc = lmk ? LUMEMASK.get(bn) : e && e.lume ? e.lume.c : "g";
-    const lm = e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "";
+    const nd = NIGHT_DIM[bn], lm = (nd ? ` data-dim="${nd.join(",")}"` : "") + (e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "");
     const ovl = lmk ? `<img class="wlume-img" src="assets/watches/lume/${bn.replace(/\.[a-z]+$/i, ".png")}?v=${IMGV}" alt="" aria-hidden="true" loading="lazy">` : "";
     return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}${noL ? ' data-nol="1"' : ""}>${base}${ovl}</span>`;
   }
@@ -2162,6 +2162,9 @@ function viewSearch(term) {
 // Uhrenbilder: Weiß vom Rand aus entfernen (Freisteller), abdunkeln und Leuchtmasse (helle Flächen auf dunklem Grund) grün leuchten lassen
 // Helligkeit der Uhren in der Nachtansicht: Originalfoto leicht abgedunkelt, mit etwas mehr Kontrast (Tiefen dunkler, Lichter erhalten)
 const NDIM = .82, NGAM = 1.5, NTOP = .85, TC = [0, 1, 2].map(() => { const t = new Uint8ClampedArray(256); for (let v = 0; v < 256; v++) t[v] = 255 * NTOP * Math.pow(v / 255, NGAM); return t; });
+// Helle, kräftig farbige Zifferblätter wirken nachts sonst angestrahlt: dort Zifferblatt zusätzlich abdunkeln und entsättigen (Faktor Helligkeit, Anteil Entsättigung)
+const nDim = (a, j, f, ds) => { const y = .299 * a[j] + .587 * a[j + 1] + .114 * a[j + 2]; for (let c = 0; c < 3; c++) a[j + c] = (y + (a[j + c] - y) * (1 - ds)) * f; };
+const NIGHT_DIM = { "patek-philippe-nautilus-5711-1a-tiffany-blue.jpg": [.6, .5] };
 const SOFTSPOT = .8, SOFTSPOT_ID = {}; // Licht von oben bei Uhren mit Leuchtmasse (Stärke 0–1) // Uhren mit Leuchtmasse: nachts zusätzlich ganz leicht von oben angeleuchtet (Stärke 0–1)
 // Rechenauflösung der Nachtbilder (Höhe in Pixeln): hoch genug für scharfe Darstellung auf Retina-Displays und in der Vergrößerung
 const NIGHT_PX = 1300, NIGHT_AN = 640; // dunkles Bild in hoher Auflösung, Erkennung (Hintergrund, Schatten, Leuchtmasse) in kleiner Auflösung
@@ -2203,12 +2206,13 @@ function nightPrep(img) {
         while (qh < qt) { const i = q2[qh++], px = i % w; sy += (i / w) | 0; for (const n of [px > 0 ? i - 1 : -1, px < w - 1 ? i + 1 : -1, i >= w ? i - w : -1, i < N - w ? i + w : -1]) if (n >= 0 && shd[n] && !lab[n]) { lab[n] = nl; q2[qt++] = n; } }
         if (sy / qt < lim) for (let t = 0; t < qt; t++) shd[q2[t]] = 0; } }
     // Freisteller: abgedunkelt, Kanten leicht weich
+    const [dimF, dimS] = (wrap.dataset.dim || "1,0").split(",").map(Number); // NIGHT_DIM
     const gD = !!wrap.dataset.lmk; // Gold-Entsättigung nur bei Uhren mit Leuchtmasse (dort stärker abgedunkelt)
     let cut = document.createElement("canvas"); cut.width = w; cut.height = h; const cx = cut.getContext("2d"), od = cx.createImageData(w, h), o = od.data;
     for (let i = 0; i < N; i++) {
       const px = i % w; let edge = false;
       if (!bg[i]) edge = (px > 0 && bg[i - 1]) || (px < w - 1 && bg[i + 1]) || (i >= w && bg[i - w]) || (i < N - w && bg[i + w]);
-      { const k = tcK(d[i * 4], d[i * 4 + 1], d[i * 4 + 2]); o[i * 4] = d[i * 4] * k; o[i * 4 + 1] = d[i * 4 + 1] * k; o[i * 4 + 2] = d[i * 4 + 2] * k; if (gD) goldDesat(o, i * 4, d[i * 4], d[i * 4 + 1], d[i * 4 + 2]); } o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
+      { const k = tcK(d[i * 4], d[i * 4 + 1], d[i * 4 + 2]); o[i * 4] = d[i * 4] * k; o[i * 4 + 1] = d[i * 4 + 1] * k; o[i * 4 + 2] = d[i * 4 + 2] * k; if (gD) goldDesat(o, i * 4, d[i * 4], d[i * 4 + 1], d[i * 4 + 2]); if (dimF < 1 && S[i] > 35) nDim(o, i * 4, dimF, dimS); } o[i * 4 + 3] = bg[i] ? 0 : edge ? 150 : 255;
       if (shd[i]) { o[i * 4] = o[i * 4 + 1] = o[i * 4 + 2] = 0; o[i * 4 + 3] = Math.min(255, (255 - L[i]) * 1.3); } // Schatten im Dunkeln: dunkel statt hell
     }
     // Uhren ohne Leuchtmasse: im Dunkeln von oben angeleuchtet (Lichtkegel von oben, nach unten auslaufend)
@@ -2422,7 +2426,7 @@ function nightPrep(img) {
           if (shd[li]) { D[j] = D[j + 1] = D[j + 2] = 0; D[j + 3] = Math.min(255, (255 - (r + g + b) / 3) * 1.3); continue; }
           let f = mulA[li];
           if (dimBright && !keep[li]) { const Lh = (r + g + b) / 3; if (Lh > 120 && (anyS || Math.max(r, g, b) - Math.min(r, g, b) < 70)) { const t = Math.min(1, (Lh - 120) / 90); f *= 1 - .5 * t * t * (3 - 2 * t); } }
-          const k = tcK(r, g, b) * f; D[j] = Math.min(255, r * k * tR); D[j + 1] = Math.min(255, g * k); D[j + 2] = Math.min(255, b * k * tB); if (gD) goldDesat(D, j, r, g, b);
+          const k = tcK(r, g, b) * f; D[j] = Math.min(255, r * k * tR); D[j + 1] = Math.min(255, g * k); D[j + 2] = Math.min(255, b * k * tB); if (gD) goldDesat(D, j, r, g, b); if (dimF < 1 && Math.max(r, g, b) - Math.min(r, g, b) > 35) nDim(D, j, dimF, dimS);
           D[j + 3] = (X > 0 && hb[i - 1]) || (X < W - 1 && hb[i + 1]) || (Y > 0 && hb[i - W]) || (Y < H - 1 && hb[i + W]) ? 150 : 255; } }
       hx.putImageData(hd, 0, 0); cut = hc;
     }

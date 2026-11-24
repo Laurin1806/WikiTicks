@@ -6930,5 +6930,19 @@
    }
   ],
   "manual": true
+ },
+ "assets/watches/patek-philippe-nautilus-5711-1a-tiffany-blue.jpg": {
+  "c": [
+   0.485,
+   0.461
+  ],
+  "r": 0.3,
+  "col": "g",
+  "manual": true,
+  "hub": [
+   518,
+   708
+  ],
+  "R": 300
  }
 }
