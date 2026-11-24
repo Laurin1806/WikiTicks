@@ -149,7 +149,7 @@ article .inlinefig .watchfig { margin: 0; padding: 14px 10px 12px; }
 article .inlinefig .watchfig .watch { height: 220px; }
 article .inlinefig figcaption b { display: block; }
 /* Unterüberschriften innerhalb eines Abschnitts (optional, Feld bh je Absatz) */
-article h4.art-sh { font-family: var(--font-display); font-weight: 400; font-size: 1.22rem; line-height: 1.25; margin: 26px 0 6px; color: var(--fg); }
+article h4.art-sh { font-family: var(--font-logo); font-weight: 600; font-size: 1.02rem; letter-spacing: -.005em; line-height: 1.3; margin: 24px 0 6px; color: var(--fg); }
 article h3.art-h + h4.art-sh { margin-top: 10px; }
 @media (max-width: 760px) { article .inlinefig { float: none; width: auto; margin: 10px 0 16px; } }
 @media (max-width: 1100px) { article .topfig { width: 260px; margin-left: 24px; } article .topfig.watchfig .watch { height: 230px; } }
@@ -668,7 +668,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112491"; // bei neuen Bildern hochzählen (Cache)
+const IMGV = "2026112492"; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
@@ -1587,7 +1587,15 @@ function viewEntry(e) {
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
   const imgVars = (e.var || []).filter(x => x.v && x.v.img), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 4) : (e.var || []).slice(0, 2)) : [];
-  const varGallery = vars.length ? `<div class="gallery gallery-inline">${vars.map(x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`).join("")}</div>` : "";
+  const varFig = x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}</figcaption></figure>`;
+  // Variantenbilder unter den Absatz setzen, der die Referenz nennt (z. B. »1680« → Absatz über die Red Sub); übrige in die Galerie
+  const varAt = {}, varRest = [];
+  for (const x of vars) {
+    const toks = (x.n.match(/\b\d{3,6}[A-Z]{0,4}\b/g) || []).filter(t => !/^(19|20)\d\d$/.test(t) || /Ref/.test(x.n));
+    const k = toks.length ? (e.b || []).findIndex(p => toks.some(t => new RegExp(`(^|[^\\w])${t}([^\\w]|$)`, "i").test(p))) : -1;
+    if (k >= 0) (varAt[k] = varAt[k] || []).push(x); else varRest.push(x);
+  }
+  const varGallery = varRest.length ? `<div class="gallery gallery-inline">${varRest.map(varFig).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
       ${e.brand ? (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}</figcaption></figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}<br>` : ""}</figcaption></figure>`) : LF.top}
@@ -1611,7 +1619,7 @@ function viewEntry(e) {
           const timeline = tl.length >= 2 ? `<ol class="timeline">${tl.map(([y, t]) => `<li><span class="ty">${y}</span><span class="tt">${linkify(esc(t), e.id, used)}</span></li>`).join("")}</ol>` : "";
           const parts = [["geschichte", "Geschichte"], ...(timeline ? [["zeitleiste", "Zeitleiste"]] : []), ...(e.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ...(e.x && e.x.length ? [["experte", "Expertenwissen"]] : []), ...((e.tipp && e.tipp.length) || e.preis ? [["sammler", "Wissenswert für Sammler und Käufer"]] : []), ...(e.refs ? [["referenzen", "Alle Referenzen"]] : []), ["technik", "Technik der aktuellen Ausführung"]];
           return `<nav class="toc" aria-label="Inhalt">${parts.map(([k, t]) => `<button type="button" data-sec="${k}">${t}</button>`).join("")}</nav>`
-            + H("geschichte", "Geschichte") + (e.bh ? e.b.map((p, k) => (e.bh[k] ? `<h4 class="art-sh">${esc(e.bh[k])}</h4>` : "") + P([p])).join("") : P(e.b)) + varGallery
+            + H("geschichte", "Geschichte") + e.b.map((p, k) => ((e.bh && e.bh[k]) ? `<h4 class="art-sh">${esc(e.bh[k])}</h4>` : "") + P([p]) + (varAt[k] ? `<div class="gallery gallery-inline">${varAt[k].map(varFig).join("")}</div>` : "")).join("") + varGallery
             + (timeline ? H("zeitleiste", "Zeitleiste") + timeline : "")
             + (e.m ? H("merkmale", "Erkennungsmerkmale") + UL(e.m) : "")
             + (e.x && e.x.length ? H("experte", "Expertenwissen") + UL(e.x) : "")
@@ -2006,6 +2014,32 @@ window.addEventListener("hashchange", () => {
 });
 window.addEventListener("pagehide", savePos);
 $("#q").addEventListener("input", ev => { q = ev.target.value; route(); });
+// Enter in der Suche: direkt zum passendsten Eintrag (z. B. »submariner« → Rolex Submariner, »rolex« → Markenseite)
+function bestMatch(term) {
+  const t = term.trim().toLowerCase().replace(/\s+/g, " "); if (!t) return null;
+  const strip = e => (e.brand && e.t.toLowerCase().startsWith(e.brand.toLowerCase() + " ") ? e.t.slice(e.brand.length + 1) : e.t).toLowerCase();
+  const brand = BRANDS.find(b => b.toLowerCase() === t); if (brand) return "marke-" + slug(brand);
+  const sc = e => {
+    const full = e.t.toLowerCase(), short = strip(e), al = (e.a || []).map(x => x.toLowerCase());
+    if (full === t || short === t || e.id === t) return 100;
+    if (al.includes(t)) return 90;
+    if (short.startsWith(t + " ") || full.startsWith(t + " ")) return 80 - short.length / 100;
+    if (new RegExp(`(^|[^\\p{L}])${t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^\\p{L}]|$)`, "u").test(full)) return 60 - full.length / 100;
+    if ((e.refs || []).some(x => String(x[0]).toLowerCase().split(/\s*\/\s*/).includes(t))) return 55;
+    return 0;
+  };
+  let best = null, bs = 0;
+  for (const e of MODELS.concat(LEX)) { const v = sc(e) + (e.brand ? .5 : 0); if (v > bs) { bs = v; best = e; } }
+  if (best && bs >= 50) return best.id;
+  const pb = BRANDS.find(b => b.toLowerCase().startsWith(t)); if (pb) return "marke-" + slug(pb);
+  return null;
+}
+$("#q").addEventListener("keydown", ev => {
+  if (ev.key !== "Enter") return;
+  const id = bestMatch(ev.target.value);
+  if (id) { ev.preventDefault(); freshNav = true; location.hash = id; ev.target.blur(); }
+  else { const first = document.querySelector("#view .card"); if (first) { ev.preventDefault(); freshNav = true; location.href = first.getAttribute("href"); ev.target.blur(); } }
+});
 $("#view").addEventListener("click", ev => {
   const t = ev.target.closest(".toc button");
   if (t) document.getElementById("sec-" + t.dataset.sec)?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
