@@ -6534,6 +6534,22 @@
      "dial": "Blau, Tapisserie",
      "iref": "26574ST.OO.1220ST",
      "irefs": "mittel"
+    },
+    {
+     "n": "Ref. 5402ST »Jumbo«",
+     "y": "1972–1980er",
+     "vo": true,
+     "v": {
+      "img": "assets/watches/audemars-piguet-royal-oak-5402-blue.jpg"
+     },
+     "at": "1972: Ref. 5402ST, die »Jumbo«",
+     "dial": "Blau",
+     "iref": "5402ST",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt die erste Audemars Piguet Royal Oak, Referenz 5402ST von 1972, aus Edelstahl mit 39 Millimetern; Sammler nennen sie wegen ihrer für die Zeit großen Abmessungen »Jumbo«.",
+      "Zu erkennen sind die achteckige Lünette mit acht sichtbaren Sechskantschrauben, das blaue Zifferblatt mit »Petite Tapisserie«-Muster, aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie das Datum bei 3 Uhr. Das AP-Logo sitzt bei 6 Uhr, wie bei der ersten Serie; das integrierte Gliederband verjüngt sich zur Schließe hin."
+     ]
     }
    ],
    "m": [
@@ -31864,6 +31880,7 @@
   "rolex-datejust-1601-cream.jpg": 543,
   "tissot-visodate-1953.jpg": 543,
   "rolex-air-king-5500.jpg": 768,
-  "rolex-oyster-perpetual-bubbleback.jpg": 1103
+  "rolex-oyster-perpetual-bubbleback.jpg": 1103,
+  "audemars-piguet-royal-oak-5402-blue.jpg": 1024
  }
 }

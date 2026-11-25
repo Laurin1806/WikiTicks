@@ -929,7 +929,7 @@ function cmpItem(x) {
   return { e, k: null, name: e.topv ? e.topv.n : "Aktuelle Ausführung" + (t.iref ? ", Ref. " + t.iref : ""), y: e.topv ? e.topv.y : "", v: mainV0(e), dial: e.dial, ref: t.iref, refs: t.irefs };
 }
 // Bilder, zwischen denen man wählen kann: Hauptbild und alle Varianten mit eigenem Bild
-const cmpChoices = e => [{ k: null, n: e.topv ? e.topv.n : "Aktuelle Ausführung" + ((e.iref) ? ", Ref. " + e.iref : "") }, ...(e.var || []).map((v, k) => ({ k, n: v.n, img: v.v && v.v.img })).filter(x => x.img)];
+const cmpChoices = e => [{ k: null, n: e.topv ? e.topv.n : "Aktuelle Ausführung" + ((e.iref) ? ", Ref. " + e.iref : "") }, ...(e.var || []).map((v, k) => v.vo ? null : ({ k, n: v.n, img: v.v && v.v.img })).filter(x => x && x.img)];
 // Listen- und Gebrauchtpreis aus der Preistabelle; bei einer Variante die Zeile mit ihrer Referenz, sonst die der aktuellen Ausführung
 function cmpPrices(e, vname) {
   const pr = e.preis; if (!pr) return {};
@@ -1147,7 +1147,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112601";
+const IMGV = "2026112602";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2163,7 +2163,7 @@ const HIRES = 600;
 const imgPx = v => (v && v.img && IMGRES.get(v.img.split("/").pop())) || 0;
 function bestImg(M) {
   let best = { n: "", px: imgPx(M.v) };
-  for (const x of M.var || []) { const px = imgPx(x.v); if (px > best.px * 1.15) best = { n: x.n, px }; } // Variante nur, wenn deutlich größer
+  for (const x of (M.var || []).filter(x => !x.vo)) { const px = imgPx(x.v); if (px > best.px * 1.15) best = { n: x.n, px }; } // Variante nur, wenn deutlich größer
   return best;
 }
 const hiRes = list => { const h = list.filter(e => bestImg(e).px >= HIRES); return h.length ? h : list; };
@@ -2416,7 +2416,7 @@ function viewEntry(e) {
   const LF = e.brand ? null : lexFigures(e);
   // Modelle: oben nur die aktuelle Ausführung, höchstens zwei Varianten weiter unten nach der Geschichte
   const VV = vintVar(e), curAsVar = VV ? { n: e.topv ? e.topv.n : "Aktuelle Ausführung", y: e.topv ? e.topv.y || "" : (e.cur || ""), v: e.topv ? e.topv.v : { img: e.v.img }, bd: (e.topv || e).bd, iref: (e.topv || e).iref, irefs: (e.topv || e).irefs, at: (e.bh || [])[(e.bh || []).length - 1] } : null;
-  const imgVars = (e.var || []).filter(x => x.v && x.v.img && x !== VV).concat(curAsVar ? [curAsVar] : []), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 5) : (e.var || []).slice(0, 2)) : [];
+  const imgVars = (e.var || []).filter(x => x.v && x.v.img && x !== VV && (!x.vo || VINTAGE)) /* vo: Bild nur in der Vintage-Ansicht */.concat(curAsVar ? [curAsVar] : []), vars = e.brand ? (imgVars.length ? imgVars.slice(0, 5) : (e.var || []).slice(0, 2)) : [];
   const varFig = x => `<figure class="watchfig">${drawWatch(withVariant(e.v, { ...x.v, ...((y => { const a = +(y.match(/\d{4}/) || [9999])[0]; return a < 2005 ? { era: "vintage" } : {}; })(x.y || "")) }), e)}<figcaption><b>${esc(x.n)}</b>${esc(x.y || "")}${refLine(x, x.n)}</figcaption>${imgNote(x.bd)}</figure>`;
   // Variantenbilder unter den Absatz setzen, der die Referenz nennt (oder per x.at unter eine Zwischenüberschrift) (z. B. »1680« → Absatz über die Red Sub); übrige in die Galerie
   const varAt = {}, varRest = [];

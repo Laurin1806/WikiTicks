@@ -6102,6 +6102,23 @@
    "leuchtmasse": "keine",
    "band": "Oyster-Band, Edelstahl, genietete Glieder",
    "zifferblatt_optionen": "Creme, gealtert"
+  },
+  "royal-oak|2": {
+   "ref": "5402ST",
+   "produktion": "1972–1980er",
+   "durchmesser": "39 mm",
+   "hoehe": "7 mm",
+   "gehaeuse": "Edelstahl",
+   "glas": "Saphir",
+   "boden": "geschlossen, verschraubt",
+   "werk": "Kaliber 2121",
+   "werktyp": "Automatik",
+   "frequenz": "19.800 A/h (2,75 Hz)",
+   "steine": "36",
+   "funktionen": "Stunden, Minuten, Datum",
+   "luenette": "achteckig, mit acht sechseckigen Schrauben",
+   "band": "integriertes Edelstahlband",
+   "zifferblatt_optionen": "Blau (»Petite Tapisserie«)"
   }
  },
  "_refs": {
