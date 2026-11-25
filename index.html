@@ -508,6 +508,9 @@ canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; he
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wimg { opacity: 0; animation: wshow .6s ease 1.4s forwards; } /* Sicherheitsnetz: klappt die Nachtebene nicht rasch, erscheint das Bild trotzdem */
 @keyframes wshow { to { opacity: 1; } }
 .wimg-wrap canvas.nfresh { opacity: 0 !important; transition: none !important; }
+/* Nachts Heute ⇄ Vintage: alte Uhren blenden aus, die andere Ausführung danach ein */
+:root.wswap #view .wimg-wrap { transition: opacity 1s cubic-bezier(.3,0,.2,1), filter 1s cubic-bezier(.3,0,.2,1); } /* taucht aus der Dunkelheit auf */
+:root.wswap.whide #view .wimg-wrap { opacity: 0; filter: brightness(.08) blur(1.5px); transition: opacity .85s cubic-bezier(.55,0,.8,.6), filter .7s cubic-bezier(.4,0,.6,1); } /* versinkt in der Dunkelheit: erst dunkler, dann weg */
 :root.wkeep canvas.wcut { filter: none !important; } /* Vintage-Wechsel: Uhr direkt in Endhelligkeit */
 :root.wdim .wimg-wrap canvas.nfresh { opacity: 1 !important; } /* in der Überblendung sofort da */
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wlume-img { opacity: 0; } /* keine Leuchtmasse ohne Uhr: erst mit der Nachtebene einblenden */ /* bis die Nachtebene berechnet ist: kein heller Kasten, die Uhr blendet danach ein */
@@ -1197,7 +1200,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112635";
+const IMGV = "2026112637";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2955,6 +2958,12 @@ function setVintage(on, src) {
     vt.finished.finally(() => {
       if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
       if (root.classList.contains("night")) nightApply(); // Nachtebenen der neuen Bilder erst nach der Überblendung berechnen (Safari)
+      if (root.classList.contains("wswap")) { // neue Ausführung einblenden, sobald ihre Nachtebenen fertig sind
+        const t0 = performance.now();
+        const ready = () => [...document.querySelectorAll("#view .wimg-wrap")].filter(w => { const r = w.getBoundingClientRect(); return r.bottom > 0 && r.top < innerHeight; }).every(w => w.dataset.nt === "1" || w.dataset.nt === "x");
+        const wait = () => { if (ready() || performance.now() - t0 > 1200) { setTimeout(() => { root.classList.remove("whide"); setTimeout(() => root.classList.remove("wswap"), 1100); }, 200); } else setTimeout(wait, 60); };
+        setTimeout(wait, 120);
+      }
       if (night) { requestAnimationFrame(() => root.classList.remove("wdim", "wkeep")); root.classList.add("accent-fade", "accent-slow"); requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); }); }
     });
   } else update();
@@ -2966,7 +2975,9 @@ function setVintage(on, src) {
     const urls = [...ids].map(id => byId[id]).filter(e => e && e.brand).map(e => { const v = mainV(e); return v && v.img; }).filter(Boolean);
     if (byId[[...ids][0]] && byId[[...ids][0]].brand) (byId[[...ids][0]].var || []).forEach(x => x.v && x.v.img && urls.push(x.v.img));
     const pre = [...new Set(urls)].slice(0, 24).map(u => { const im = new Image(); im.src = `${u}?v=${IMGV}`; return im.decode().catch(() => {}); });
-    Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 650))]).then(go);
+    const swap = root.classList.contains("night");
+    if (swap) { root.classList.add("wswap"); requestAnimationFrame(() => root.classList.add("whide")); } // alte Uhren ausblenden
+    Promise.all([Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 900))]), new Promise(r => setTimeout(r, swap ? 880 : 0))]).then(go);
   } else go();
   btns.forEach(b => { const sv = b.querySelector(".vdial"); if (sv) vdialAnim(sv, on); });
 }
