@@ -34424,7 +34424,7 @@
    "zeit": [
     {
      "m": "tudor-1926",
-     "c": "Tudor bietet mit der Ranger und der 1926 die schlichte Alltagsuhr aus dem Schwesterhaus."
+     "c": "Tudors 1926 ist die schlichte, günstige Alltagsuhr aus dem Schwesterhaus von Rolex."
     },
     {
      "m": "khaki-field",
@@ -34433,6 +34433,86 @@
     {
      "m": "ranger",
      "c": "Tudors Ranger nimmt bewusst die Expeditionsgeschichte des Explorer auf."
+    }
+   ]
+  },
+  {
+   "id": "explorer-2-1655",
+   "model": "explorer-2",
+   "ref": "1655",
+   "var": 0,
+   "t": "Rolex Explorer II Ref. 1655",
+   "bau": "1971–1985",
+   "cap": "mit orangefarbenem 24-Stunden-Zeiger, genannt »Freccione«",
+   "s": "Der erste Explorer II: eine Uhr für Höhlenforscher, die Tag und Nacht unterscheiden mussten – mit einem großen orangefarbenen Pfeil, der ihr den Beinamen »Freccione« gab.",
+   "bh": [
+    "Tag oder Nacht?",
+    "Gehäuse, Lünette und Werk",
+    "Ein Ladenhüter wird gesucht"
+   ],
+   "b": [
+    "Wer tagelang in einer Höhle unterwegs ist, verliert schnell das Gefühl dafür, ob draußen Tag oder Nacht ist. Für solche Forscher, aber auch für Polarexpeditionen mit Mitternachtssonne, stellte Rolex 1971 den Explorer II vor. Sein Kennzeichen ist ein großer, orangefarbener Zeiger, der das Zifferblatt einmal in 24 Stunden umrundet und auf einer festen 24-Stunden-Lünette anzeigt, ob es 9 Uhr morgens oder 21 Uhr abends ist. Italienische Sammler nennen die 1655 wegen dieses Pfeils »Freccione«, großer Pfeil.",
+    "Das Gehäuse aus Edelstahl misst rund 39 Millimeter und hat Kronenschutz. Anders als bei der GMT-Master ist die Lünette fest und aus Stahl, mit eingravierter 24-Stunden-Skala. Im Inneren arbeitet das Kaliber 1575 in seiner GMT-Ausführung; der 24-Stunden-Zeiger lässt sich nicht unabhängig verstellen, sondern läuft mit dem Stundenzeiger. Das Datum sitzt unter der Zykloplupe auf dem Acrylglas.",
+    "Zu ihrer Zeit verkaufte sich die 1655 schlecht; sie galt als ungewöhnlich und schwer zu lesen. Heute ist sie gerade deshalb gesucht. Den irreführenden Beinamen »Steve McQueen« verdankt sie einem Missverständnis, denn McQueen trug eine Submariner. 1985 löste die 16550 mit Saphirglas und unabhängig verstellbarem Stundenzeiger die 1655 ab."
+   ],
+   "m": [
+    "Rund 39 mm, Kronenschutz",
+    "Feste Stahllünette mit 24-Stunden-Skala",
+    "Großer orangefarbener 24-Stunden-Zeiger",
+    "Datum mit Zykloplupe auf Acrylglas"
+   ],
+   "ev": [
+    [
+     "1971",
+     "Vorstellung als erster Explorer II"
+    ],
+    [
+     "1985",
+     "Ablösung durch die Ref. 16550 mit Saphirglas"
+    ]
+   ],
+   "x": [
+    "Viele 1655 erhielten im Service einen roten statt des ursprünglichen orangefarbenen 24-Stunden-Zeigers; originale Zeiger sind gesucht.",
+    "Die Zifferblätter werden nach feinen Unterschieden in »Mark«-Generationen eingeteilt, ähnlich wie bei der »Red Sub«."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1971–1985"
+    ],
+    [
+     "Gehäuse",
+     "rund 39 mm, Edelstahl, Kronenschutz"
+    ],
+    [
+     "Kaliber",
+     "1575 GMT, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, 24-Stunden-Anzeige"
+    ],
+    [
+     "Lünette",
+     "fest, Stahl, 24 Stunden"
+    ],
+    [
+     "Nachfolger",
+     "16550"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "monaco",
+     "c": "Die Heuer Monaco war in denselben Jahren die andere Uhr, die erst als Außenseiterin galt und später Kult wurde."
+    },
+    {
+     "m": "ploprof",
+     "c": "Omegas Ploprof von 1970 war ein weiteres radikales Spezialwerkzeug dieser Jahre, für Sättigungstaucher."
+    },
+    {
+     "m": "royal-oak",
+     "c": "1972 erfand Audemars Piguet mit der Royal Oak die Luxus-Sportuhr aus Stahl."
     }
    ]
   }
