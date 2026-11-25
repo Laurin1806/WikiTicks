@@ -35058,6 +35058,95 @@
      "c": "Omegas Railmaster von 1957 war die schlichte, antimagnetische Uhr für Techniker und Eisenbahner."
     }
    ]
+  },
+  {
+   "id": "air-king-126900",
+   "model": "air-king",
+   "ref": "126900",
+   "alias": [
+    "116900"
+   ],
+   "var": null,
+   "t": "Rolex Air-King Ref. 126900",
+   "bau": "seit 2022",
+   "cap": "mit schwarzem Fliegerzifferblatt",
+   "s": "Die heutige Air-King: ein Fliegerzifferblatt mit großer Minuterie, grünem Sekundenzeiger und erstmals mit Kronenschutz – die eigenwilligste Uhr im Rolex-Programm.",
+   "bh": [
+    "Aus der schlichten Uhr wird eine Fliegeruhr",
+    "Die Generation 126900",
+    "Das Werk"
+   ],
+   "b": [
+    "Lange war die Air-King die schlichteste Rolex. 2016 änderte sich das grundlegend: Mit der Referenz 116900 bekam sie ein schwarzes Zifferblatt mit großen Ziffern für die Stunden 3, 6 und 9 und einer auffälligen Minuterie mit den Zahlen 5 bis 55, inspiriert von Cockpitinstrumenten. Dazu kamen ein gelbes Rolex-Kronenlogo, ein grüner Schriftzug und ein grüner Sekundenzeiger. Rolex verband die Uhr mit dem britischen Projekt »Bloodhound«, das einen Geschwindigkeitsrekord auf Rädern anstrebte.",
+    "2022 folgte die Referenz 126900. Das 40-Millimeter-Gehäuse erhielt zum ersten Mal einen Kronenschutz, und das Zifferblatt eine führende Null vor der 5, sodass die Minuterie bei 05 beginnt und symmetrischer wirkt. Ziffern und Zeiger leuchten mit Chromalight-Leuchtmasse. Das Oyster-Band hat eine Oysterlock-Schließe mit Easylink-Verlängerung.",
+    "Im Inneren arbeitet das Kaliber 3230 mit Chronergy-Hemmung, Parachrom-Spirale und etwa 70 Stunden Gangreserve. Es ist magnetfest genug, dass Rolex auf das zusätzliche Weicheisen-Innengehäuse der Vorgängerin verzichtete. Die Uhr ist bis 100 Meter wasserdicht."
+   ],
+   "vh": [
+    [
+     "Vorgängerin: Ref. 116900",
+     "Die 116900 von 2016 hatte noch keinen Kronenschutz und eine Minuterie ohne führende Null. Im Inneren arbeitete das Kaliber 3131, umgeben von einem Weicheisen-Innengehäuse gegen Magnetfelder, wie bei der Milgauss."
+    ]
+   ],
+   "m": [
+    "40 mm, Kronenschutz",
+    "Große Ziffern 3, 6, 9 und Minuterie 05 bis 55",
+    "Grüner Sekundenzeiger, grüner Rolex-Schriftzug, gelbes Kronenlogo",
+    "Kein Datum"
+   ],
+   "ev": [
+    [
+     "2016",
+     "Ref. 116900 mit Fliegerzifferblatt"
+    ],
+    [
+     "2022",
+     "Ref. 126900 mit Kronenschutz und Kaliber 3230"
+    ]
+   ],
+   "x": [
+    "Die Air-King polarisiert: Manche finden das Zifferblatt zu verspielt für eine Rolex, andere schätzen gerade das Eigenwillige.",
+    "Die Air-King ist meist gut beim Konzessionär verfügbar."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Oystersteel, Kronenschutz"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3230, Automatik, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorgänger",
+     "116900"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "big-pilot",
+     "c": "IWCs Große Fliegeruhr ist der Inbegriff der Beobachtungsuhr mit großer Krone und klarer Ziffernskala."
+    },
+    {
+     "m": "navitimer",
+     "c": "Breitlings Navitimer ist die klassische Pilotenuhr mit Rechenschieber."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Hamiltons Khaki-Uhren stehen für die günstige Flieger- und Felduhr mit langer Militärgeschichte."
+    }
+   ]
   }
  ]
 }
