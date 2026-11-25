@@ -511,7 +511,9 @@ canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; he
 /* Nachts Heute ⇄ Vintage: alte Uhren blenden aus, die andere Ausführung danach ein */
 :root.wswap #view .wimg-wrap { transition: opacity 1s cubic-bezier(.3,0,.2,1), filter 1s cubic-bezier(.3,0,.2,1); } /* taucht aus der Dunkelheit auf */
 :root.wswap.whide #view .wimg-wrap { opacity: 0; filter: brightness(.45) blur(1px); transition: opacity .8s cubic-bezier(.45,0,.55,1), filter .8s cubic-bezier(.45,0,.55,1); }
-:root.wswap #view .wimg-wrap canvas.wlume, :root.wswap #view .wimg-wrap img.wlume-img, :root.wswap #view .wimg-wrap canvas.wcut { transition: none !important; } /* Leuchtmasse geht und kommt zusammen mit der Uhr */ /* versinkt in der Dunkelheit: erst dunkler, dann weg */
+:root.wswap #view .wimg-wrap canvas.wcut { transition: none !important; }
+:root.wswap #view .wimg-wrap canvas.wlume, :root.wswap #view .wimg-wrap img.wlume-img { transition: opacity 1s cubic-bezier(.3,0,.2,1) !important; } /* Leuchtmasse geht und kommt im selben Takt wie die Uhr (Safari blendet sie sonst getrennt) */
+:root.wswap.whide #view .wimg-wrap canvas.wlume, :root.wswap.whide #view .wimg-wrap img.wlume-img { opacity: 0 !important; transition: opacity .8s cubic-bezier(.45,0,.55,1) !important; } /* versinkt in der Dunkelheit: erst dunkler, dann weg */
 :root.wkeep canvas.wcut { filter: none !important; } /* Vintage-Wechsel: Uhr direkt in Endhelligkeit */
 :root.wdim .wimg-wrap canvas.nfresh { opacity: 1 !important; } /* in der Überblendung sofort da */
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wlume-img { opacity: 0; } /* keine Leuchtmasse ohne Uhr: erst mit der Nachtebene einblenden */ /* bis die Nachtebene berechnet ist: kein heller Kasten, die Uhr blendet danach ein */
@@ -1202,7 +1204,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112641";
+const IMGV = "2026112642";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
