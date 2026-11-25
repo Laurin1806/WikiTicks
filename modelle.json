@@ -35235,6 +35235,106 @@
      "c": "Jaeger-LeCoultres Geophysic von 1958 entstand für das Internationale Geophysikalische Jahr, magnetfest und robust."
     }
    ]
+  },
+  {
+   "id": "milgauss-116400",
+   "model": "milgauss",
+   "ref": "116400GV",
+   "alias": [
+    "116400",
+    "116400 / 116400GV",
+    "116400GV-0001",
+    "116400GV-0002"
+   ],
+   "var": null,
+   "t": "Rolex Milgauss Ref. 116400GV",
+   "bau": "2007–2023",
+   "cap": "mit schwarzem Zifferblatt und grünem Saphirglas",
+   "s": "Die Rückkehr der Milgauss: mit grün getöntem Saphirglas, orangefarbenem Blitzzeiger und dem Kaliber 3131 – und 2023 überraschend eingestellt.",
+   "bh": [
+    "Comeback nach fast zwanzig Jahren",
+    "Grünes Glas",
+    "Werk und Magnetschutz"
+   ],
+   "b": [
+    "2007 holte Rolex die Milgauss nach fast zwanzig Jahren Pause zurück. Die Referenz 116400 griff den blitzförmigen Sekundenzeiger der ersten Milgauss 6541 auf, nun in leuchtendem Orange, und kombinierte ihn mit einem 40-Millimeter-Gehäuse aus Edelstahl und einer glatten, polierten Lünette. Die Uhr wirkte verspielter als die nüchterne 1019 und sprach ein neues Publikum an.",
+    "Die Ausführung 116400GV trägt ein grün getöntes Saphirglas, »GV« steht für »Glace Verte«. Kein anderer Hersteller bot damals ein farbiges Saphirglas in Serie an, und Rolex war besonders stolz darauf, weil es technisch aufwendig herzustellen war. Das Grün ist nur aus bestimmten Blickwinkeln zu sehen und gibt der Uhr einen unverwechselbaren Schimmer.",
+    "Im Inneren arbeitet das Kaliber 3131 mit blauer Parachrom-Spirale und Bauteilen aus nicht magnetisierbaren Werkstoffen, umgeben von einem Innengehäuse aus einer ferromagnetischen Legierung. So hält die Uhr Magnetfeldern von 1000 Gauss stand. 2023 nahm Rolex die Milgauss überraschend aus dem Programm, wohl weil die modernen Werke mit Parachrom-Spirale ohnehin sehr magnetfest sind."
+   ],
+   "vh": [
+    [
+     "»Z-Blue«",
+     "Seit 2014 gab es die 116400GV mit elektrisch blauem Zifferblatt, von Sammlern »Z-Blue« genannt. Zusammen mit dem grünen Glas ergab das eine Farbkombination, die es bei keiner anderen Rolex gab."
+    ],
+    [
+     "Klares Glas: Ref. 116400",
+     "Mit klarem Saphirglas trug die Milgauss die Referenz 116400, mit schwarzem oder weißem Zifferblatt; sie wurde bereits nach einigen Jahren eingestellt."
+    ]
+   ],
+   "m": [
+    "40 mm Edelstahl, glatte Lünette",
+    "Orangefarbener Sekundenzeiger in Blitzform",
+    "Grün getöntes Saphirglas (GV)",
+    "Kein Datum"
+   ],
+   "ev": [
+    [
+     "2007",
+     "Rückkehr mit der Ref. 116400 und 116400GV"
+    ],
+    [
+     "2014",
+     "»Z-Blue« mit blauem Zifferblatt"
+    ],
+    [
+     "2023",
+     "Einstellung der Milgauss"
+    ]
+   ],
+   "x": [
+    "Seit der Einstellung 2023 sind die Gebrauchtpreise der Milgauss gestiegen, besonders für die Z-Blue.",
+    "Das grüne Glas erkennt man am besten schräg von der Seite; frontal wirkt es fast klar."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2007–2023"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Oystersteel, magnetischer Schutzschild"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3131, Automatik, Parachrom-Spirale"
+    ],
+    [
+     "Magnetfeldschutz",
+     "bis 1000 Gauss"
+    ],
+    [
+     "Glas",
+     "Saphir, grün getönt"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "ingenieur",
+     "c": "IWCs Ingenieur ist der klassische Konkurrent unter den antimagnetischen Uhren."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra >15'000 Gauss machte die Milgauss technisch scheinbar überholt: magnetfest ganz ohne Weicheisen-Innengehäuse."
+    },
+    {
+     "m": "sinn-556",
+     "c": "Sinn bietet bei vielen Modellen erhöhten Magnetfeldschutz für den Alltag."
+    }
+   ]
   }
  ]
 }
