@@ -1208,7 +1208,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112648";
+const IMGV = "2026112649";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2910,7 +2910,7 @@ function setNight(on, save = true, anim = false) {
   };
   // Tag ⇄ Nacht mit Überblendung: Uhren blenden aus (nachts versinken sie in der Dunkelheit), die Seite blendet über,
   // danach erscheinen die Uhren im neuen Zustand; die Akzentfarbe geht mit den Uhren und leuchtet mit ihnen wieder auf
-  const onWatch = (() => { const e = byId[decodeURIComponent((location.hash || "#").slice(1))]; return !!(e && e.brand); })();
+  const onWatch = true; // überall wie im Uhrenartikel: Uhren bleiben sichtbar und wechseln weich in den neuen Zustand
   if (onWatch) {
   // Vintage-Ansicht: Hintergründe, Lünetten und Mondschein lassen sich nicht stufenlos umfärben – ganze Seite weich überblenden,
   // die Akzentfarbe erlischt dabei und leuchtet langsam wieder auf; der Nachtmodus-Knopf bleibt live
@@ -2920,6 +2920,7 @@ function setNight(on, save = true, anim = false) {
     root.classList.add("vt-night");
     // Während der Überblendung bleibt die Akzentfarbe dunkel (manche Browser frieren das neue Bild ein); erst danach leuchtet sie langsam auf – kein Aufploppen am Ende
     const vt = document.startViewTransition(() => {
+      root.classList.add("wjump"); requestAnimationFrame(() => requestAnimationFrame(() => root.classList.remove("wjump"))); // Bildfelder/Kacheln direkt im neuen Zustand
       root.classList.toggle("night", on);
       root.classList.toggle("wdim", on); root.classList.toggle("wnow", !on);
       if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
