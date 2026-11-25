@@ -34182,7 +34182,7 @@
    "vh": [
     [
      "Platin: Ref. 228236",
-     "In Platin trägt die Day-Date 40 die Referenz 228236 und, als Erkennungszeichen, ein eisblaues Zifferblatt, das Rolex den Platinmodellen vorbehält. Die abgebildete Variante zeigt dieses Eisblau; Platin ist schwerer als Gold und wirkt am Handgelenk kühler und zurückhaltender."
+     "In Platin trägt die Day-Date 40 die Referenz 228236 und, als Erkennungszeichen, ein eisblaues Zifferblatt, das Rolex den Platinmodellen vorbehält. Auf der Seite der Day-Date ist diese Ausführung abgebildet. Platin ist schwerer als Gold und wirkt am Handgelenk kühler und zurückhaltender."
     ],
     [
      "Weiß- und Everose-Gold",
@@ -34251,6 +34251,94 @@
     {
      "m": "classique",
      "c": "Breguets Classique steht für die elegante Golduhr mit Guilloché-Zifferblatt."
+    }
+   ]
+  },
+  {
+   "id": "explorer-1016",
+   "model": "explorer",
+   "ref": "1016",
+   "var": 0,
+   "t": "Rolex Explorer Ref. 1016",
+   "bau": "1963–1989",
+   "cap": "mit mattem Zifferblatt und 3-6-9-Ziffern",
+   "s": "Der Explorer der Bergsteiger und Forscher: 36 Millimeter, schwarzes Zifferblatt mit 3, 6 und 9 – und mehr als ein Vierteljahrhundert praktisch unverändert gebaut.",
+   "bh": [
+    "Eine Uhr nach dem Everest",
+    "Gehäuse und Werk",
+    "Zifferblätter"
+   ],
+   "b": [
+    "Den Namen Explorer verwendete Rolex ab 1953, dem Jahr der Erstbesteigung des Mount Everest, an der Rolex mit Uhren beteiligt war. Die Idee war eine robuste, gut ablesbare Uhr für Expeditionen in Eis und Höhe: ein schwarzes Zifferblatt mit großen Ziffern bei 3, 6 und 9, einem Dreieck bei 12 und leuchtenden Indizes. Die Referenz 1016 von 1963 setzte diese Idee am konsequentesten um und blieb bis 1989 im Programm.",
+    "Das Oyster-Gehäuse aus Edelstahl misst 36 Millimeter, Krone und Boden sind verschraubt, die Uhr ist bis 100 Meter wasserdicht. Über dem Zifferblatt sitzt ein gewölbtes Acrylglas ohne Lupe, denn ein Datum hat der Explorer nicht. Im Inneren arbeitete zunächst das Automatikkaliber 1560, später das Kaliber 1570, gegen Ende mit Sekundenstopp. Die Uhr ist schlicht, aber für jeden Tag gebaut, und viele Exemplare haben Jahrzehnte im Gebrauch überstanden.",
+    "Frühe 1016 tragen glänzende »Gilt«-Zifferblätter mit goldfarbener Schrift, ab Mitte der 1960er-Jahre folgten matte schwarze Zifferblätter mit weißer Schrift. Die Tritium-Leuchtmasse der Ziffern und Indizes ist bei vielen Stücken zu einem warmen Cremeton gealtert. 1989 löste die Referenz 14270 mit Saphirglas und gefassten Weißgold-Indizes die 1016 ab."
+   ],
+   "m": [
+    "36 mm Edelstahl, kein Datum",
+    "Schwarzes Zifferblatt mit Ziffern 3, 6 und 9 und Dreieck bei 12",
+    "Mercedes-Stundenzeiger",
+    "Gewölbtes Acrylglas"
+   ],
+   "ev": [
+    [
+     "1953",
+     "Name Explorer nach der Everest-Erstbesteigung"
+    ],
+    [
+     "1963",
+     "Vorstellung der Ref. 1016"
+    ],
+    [
+     "1989",
+     "Ablösung durch die Ref. 14270 mit Saphirglas"
+    ]
+   ],
+   "x": [
+    "Gilt-Zifferblätter sind deutlich seltener und teurer als die späteren matten Zifferblätter.",
+    "Viele 1016 erhielten im Service ein Zifferblatt mit neuer Leuchtmasse; originale, gleichmäßig gealterte Zifferblätter sind gefragt."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1963–1989"
+    ],
+    [
+     "Gehäuse",
+     "36 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "1560, später 1570, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Glas",
+     "gewölbtes Acrylglas"
+    ],
+    [
+     "Nachfolger",
+     "14270"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "speedmaster",
+     "c": "Die Omega Speedmaster war die Uhr der Raumfahrt, so wie der Explorer die der Bergsteiger und Polarforscher."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Omegas Seamaster 300 war die Werkzeuguhr für das Wasser, mit ähnlich klarer Ablesbarkeit."
+    },
+    {
+     "m": "max-bill",
+     "c": "Junghans' Uhren nach Max Bill zeigten 1961, wie klar und reduziert ein Zifferblatt sein kann."
     }
    ]
   }
