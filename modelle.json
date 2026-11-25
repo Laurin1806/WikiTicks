@@ -34056,6 +34056,103 @@
      "c": "Hamiltons Jazzmaster war die erschwingliche, klassische Alltagsuhr dieser Jahre."
     }
    ]
+  },
+  {
+   "id": "day-date-1803",
+   "model": "day-date",
+   "ref": "1803",
+   "alias": [
+    "1802"
+   ],
+   "var": 1,
+   "t": "Rolex Day-Date Ref. 1803",
+   "bau": "1960–1978",
+   "cap": "in 18 Karat Gelbgold am President-Band",
+   "s": "Die klassische »President« der 1960er- und 1970er-Jahre: nur in Gold oder Platin, mit ausgeschriebenem Wochentag und einer langen Liste berühmter Träger.",
+   "bh": [
+    "Wochentag und Datum",
+    "Gehäuse und Werk",
+    "Die Uhr der Mächtigen"
+   ],
+   "b": [
+    "1956 stellte Rolex die Day-Date vor, die erste Armbanduhr, die neben dem Datum auch den Wochentag ausgeschrieben in einem bogenförmigen Fenster bei 12 Uhr zeigt. Von Anfang an gab es sie nur in Edelmetall, und mit ihr kam das dreigliedrige President-Band mit halbrunden Gliedern. Die Referenz 1803 von 1960 wurde die klassische Day-Date ihrer Zeit und blieb fast zwei Jahrzehnte im Programm.",
+    "Das Gehäuse misst 36 Millimeter und besteht aus 18 Karat Gold; die 1803 trägt die geriffelte Lünette. Über dem Zifferblatt sitzt ein gewölbtes Acrylglas mit Zykloplupe über dem Datum. Im Inneren arbeitete zunächst das Kaliber 1555, später das Kaliber 1556, beide Automatikwerke mit Tages- und Datumsanzeige aus der Familie der Kaliber 1500. Wochentag und Datum ließen sich noch nicht getrennt schnell verstellen; das kam erst mit der Nachfolgerin 18038 und dem Kaliber 3055 Ende der 1970er-Jahre.",
+    "Die Day-Date erhielt bald den Beinamen »President«. Er geht auf das gleichnamige Band zurück, wird aber auch mit den vielen Staatsoberhäuptern und Politikern verbunden, die sie trugen. Rolex bot die Day-Date in vielen Sprachen für den Wochentag an, was sie zu einer Uhr für ein weltweites Publikum machte. Zifferblätter gab es in großer Zahl, von schlichtem Champagner über Onyx und andere Steine bis zu Diamantindizes."
+   ],
+   "vh": [
+    [
+     "Glatte Lünette: Ref. 1802",
+     "Mit glatter statt geriffelter Lünette trug die Day-Date die Referenz 1802; sie ist zurückhaltender und seltener."
+    ],
+    [
+     "Gelb-, Weiß- und Roségold, Platin",
+     "Die 1803 gab es in Gelb-, Weiß- und Roségold; Platin war bei der Day-Date dieser Jahre eine Ausnahme und ist entsprechend selten."
+    ]
+   ],
+   "m": [
+    "36 mm, 18 Karat Gold, geriffelte Lünette",
+    "Wochentag ausgeschrieben im Bogenfenster bei 12 Uhr",
+    "Datum mit Zykloplupe auf Acrylglas",
+    "President-Band mit halbrunden Gliedern"
+   ],
+   "ev": [
+    [
+     "1956",
+     "Erste Day-Date"
+    ],
+    [
+     "1960",
+     "Vorstellung der Ref. 1803"
+    ],
+    [
+     "Ende 1970er",
+     "Ablösung durch die 18038 mit Schnellschaltung"
+    ]
+   ],
+   "x": [
+    "Bei Vintage-Day-Dates lohnt der Blick auf das Band: Alte President-Bänder sind oft ausgeleiert und gedehnt.",
+    "Steinzifferblätter wie Onyx oder Tigerauge sind bei Sammlern besonders gefragt und werden entsprechend häufig nachträglich eingebaut."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1960–1978"
+    ],
+    [
+     "Gehäuse",
+     "36 mm, 18 Karat Gold"
+    ],
+    [
+     "Kaliber",
+     "1555, später 1556, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Wochentag"
+    ],
+    [
+     "Glas",
+     "gewölbtes Acrylglas mit Zykloplupe"
+    ],
+    [
+     "Nachfolger",
+     "18038"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "constellation",
+     "c": "Omegas Constellation war in Gold die Chronometer-Uhr des erfolgreichen Geschäftsmanns dieser Jahre."
+    },
+    {
+     "m": "calatrava",
+     "c": "Patek Philippes Calatrava stand für die zurückhaltende Golduhr ohne jede Komplikation."
+    },
+    {
+     "m": "golden-ellipse",
+     "c": "Die Golden Ellipse von 1968 war Patek Philippes elegante Antwort auf die Mode der flachen Golduhren."
+    }
+   ]
   }
  ]
 }
