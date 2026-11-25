@@ -506,7 +506,8 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity 1.1s ease-in-out; will-change: opacity; }
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { opacity: 0; }
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wimg { opacity: 0; animation: wshow .6s ease 1.4s forwards; } /* Sicherheitsnetz: klappt die Nachtebene nicht rasch, erscheint das Bild trotzdem */
-@keyframes wshow { to { opacity: 1; } } /* bis die Nachtebene berechnet ist: kein heller Kasten, die Uhr blendet danach ein */
+@keyframes wshow { to { opacity: 1; } }
+:root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wlume-img { opacity: 0; } /* keine Leuchtmasse ohne Uhr: erst mit der Nachtebene einblenden */ /* bis die Nachtebene berechnet ist: kein heller Kasten, die Uhr blendet danach ein */
 :root.night canvas.wcut { opacity: 1; }
 canvas.wlume { mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); animation: lumeglow 5s ease-in-out infinite; animation-play-state: paused; }
 :root.night canvas.wlume { opacity: 1; animation-play-state: running; }
@@ -1193,7 +1194,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112631";
+const IMGV = "2026112632";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2573,6 +2574,9 @@ function nightPrep(img) {
     const c = document.createElement("canvas"); c.width = w; c.height = h;
     const x = c.getContext("2d", { willReadFrequently: true }); x.drawImage(img, 0, 0, w, h);
     const id = x.getImageData(0, 0, w, h), d = id.data, N = w * h;
+    // Safari liefert manchmal ein leeres Bild (z. B. während einer Überblendung): dann später erneut versuchen statt eine leere Nachtebene zu bauen
+    let filled = false; for (let i = 3; i < d.length; i += 4 * 97) if (d[i]) { filled = true; break; }
+    if (!filled) { delete wrap.dataset.nt; if (!img._ntTry || img._ntTry < 6) { img._ntTry = (img._ntTry || 0) + 1; setTimeout(() => nightPrep(img), 250); } else wrap.dataset.nt = "x"; return; }
     const L = new Uint8Array(N), S = new Uint8Array(N), white = new Uint8Array(N);
     for (let i = 0; i < N; i++) { const r = d[i * 4], g = d[i * 4 + 1], b = d[i * 4 + 2], mx = Math.max(r, g, b), mn = Math.min(r, g, b); L[i] = (r + g + b) / 3; S[i] = mx - mn; white[i] = mn >= 238 ? 1 : 0; }
     // Hintergrund = zusammenhängendes Weiß, das den Bildrand berührt
@@ -2941,10 +2945,10 @@ function setVintage(on, src) {
       const vis = [...document.querySelectorAll("#view img.wimg")].filter(im => { const r = im.getBoundingClientRect(); return r.bottom > -200 && r.top < innerHeight + 200; });
       vis.forEach(im => { im.loading = "eager"; });
       await Promise.race([Promise.all(vis.map(im => im.decode().catch(() => {}))), new Promise(r => setTimeout(r, 700))]);
-      vis.forEach(im => { if (typeof nightPrep === "function" && root.classList.contains("night")) nightPrep(im); });
     });
     vt.finished.finally(() => {
       if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
+      if (root.classList.contains("night")) nightApply(); // Nachtebenen der neuen Bilder erst nach der Überblendung berechnen (Safari)
       if (night) { requestAnimationFrame(() => root.classList.remove("wdim")); root.classList.add("accent-fade", "accent-slow"); requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); }); }
     });
   } else update();
