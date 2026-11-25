@@ -34714,7 +34714,7 @@
    ],
    "m": [
     "40 mm, hohes Gehäuse, Heliumventil bei 9 Uhr",
-    "Kein Zykloplupe über dem Datum",
+    "Keine Zykloplupe über dem Datum",
     "Früh: zwei rote Zeilen »Sea-Dweller« und »Submariner 2000«",
     "Tiefenangabe 610 m = 2000 ft"
    ],
@@ -34772,12 +34772,110 @@
      "c": "Omegas Ploprof von 1970 löste dasselbe Problem anders: mit einem einteiligen Gehäuse, in das kein Helium eindringt."
     },
     {
-     "m": "doxa-sharkhunter",
-     "c": "Doxa baute ab 1967 Taucheruhren mit Dekompressionsskala für Sporttaucher."
+     "m": "seamaster-300",
+     "c": "Omegas Seamaster 300 war in diesen Jahren die klassische Taucheruhr für Marine und Sporttaucher."
     },
     {
      "m": "sub-300",
      "c": "Die Doxa SUB 300 mit orangefarbenem Zifferblatt erschien im selben Jahr wie die Sea-Dweller."
+    }
+   ]
+  },
+  {
+   "id": "sea-dweller-126600",
+   "model": "sea-dweller",
+   "ref": "126600",
+   "alias": [
+    "126603",
+    "116600"
+   ],
+   "var": null,
+   "t": "Rolex Sea-Dweller Ref. 126600",
+   "bau": "seit 2017",
+   "cap": "in Oystersteel mit rotem Schriftzug",
+   "s": "Die Sea-Dweller zum 50. Geburtstag: 43 Millimeter, rote Schriftzeile wie bei der ersten »Double Red« und – zum ersten Mal – eine Zykloplupe.",
+   "bh": [
+    "Größer, mit roter Zeile",
+    "Heliumventil und 1220 Meter",
+    "Das Werk"
+   ],
+   "b": [
+    "2017, fünfzig Jahre nach der ersten Sea-Dweller, stellte Rolex die Referenz 126600 vor. Das Gehäuse wuchs von 40 auf 43 Millimeter, und auf dem Zifferblatt kehrte eine rote Zeile zurück: Der Schriftzug »Sea-Dweller« ist rot, als Gruß an die »Double Red« der späten 1960er-Jahre. Zum ersten Mal hat eine Sea-Dweller auch eine Zykloplupe über dem Datum, was unter Puristen für Diskussionen sorgte.",
+    "Das Heliumventil im Gehäuseflanken bei 9 Uhr lässt beim Aufstieg aus der Druckkammer eingedrungenes Gas entweichen. Die Uhr ist bis 1220 Meter, 4000 Fuß, wasserdicht, mit verschraubter Triplock-Krone und einer einseitig drehbaren Keramiklünette aus Cerachrom.",
+    "Im Inneren arbeitet das Kaliber 3235 mit Chronergy-Hemmung, Parachrom-Spirale und etwa 70 Stunden Gangreserve. Das Oyster-Band hat eine Glidelock-Schließe und die Fliplock-Verlängerung, mit der sich das Band weit über einen Taucheranzug öffnen lässt."
+   ],
+   "vh": [
+    [
+     "Rolesor: Ref. 126603",
+     "2019 folgte die Sea-Dweller erstmals in Rolesor aus Oystersteel und Gelbgold, mit goldfarben gefassten Indizes. Für eine Taucheruhr für Sättigungstaucher war das ungewöhnlich, zeigt aber, wie sehr sie zur Alltagsuhr geworden ist."
+    ],
+    [
+     "Vorgängerin: Ref. 116600",
+     "Die 116600 von 2014 hatte noch 40 Millimeter und keine Zykloplupe; sie wurde nur drei Jahre gebaut und ist heute eine gesuchte Übergangsreferenz."
+    ]
+   ],
+   "m": [
+    "43 mm, Heliumventil bei 9 Uhr",
+    "Roter Schriftzug »Sea-Dweller«",
+    "Datum mit Zykloplupe",
+    "Tiefenangabe 1220 m = 4000 ft"
+   ],
+   "ev": [
+    [
+     "1967",
+     "Erste Sea-Dweller (Ref. 1665)"
+    ],
+    [
+     "2014",
+     "Ref. 116600 mit 40 mm"
+    ],
+    [
+     "2017",
+     "Ref. 126600 mit 43 mm zum 50. Jubiläum"
+    ]
+   ],
+   "x": [
+    "Neben der Sea-Dweller gibt es die noch tiefere Deepsea mit 3900 Metern; beide teilen das Heliumventil.",
+    "Wer die Sea-Dweller ohne Zykloplupe sucht, findet sie bei der 116600 und allen Vorgängerinnen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "43 mm, Oystersteel, Heliumventil"
+    ],
+    [
+     "Wasserdicht",
+     "1220 m"
+    ],
+    [
+     "Kaliber",
+     "3235, Automatik, ca. 70 h"
+    ],
+    [
+     "Lünette",
+     "einseitig drehbar, Cerachrom"
+    ],
+    [
+     "Vorgänger",
+     "116600"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "pelagos",
+     "c": "Tudors Pelagos aus Titan hat ebenfalls ein Heliumventil und ist die moderne Profi-Taucheruhr aus dem Schwesterhaus."
+    },
+    {
+     "m": "planet-ocean",
+     "c": "Omegas Planet Ocean bietet Heliumventil und 600 Meter mit Master-Chronometer-Werk."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Die Seamaster Diver 300M hat ihr Heliumventil sichtbar bei 10 Uhr."
     }
    ]
   }
