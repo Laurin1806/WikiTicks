@@ -558,6 +558,7 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 :root.wswap::view-transition-old(root), :root.wswap::view-transition-new(root) { animation-duration: .4s; } /* Uhren sind dabei ausgeblendet: kurze Seitenüberblendung */
 ::view-transition-group(vintbtn) { animation: none; } ::view-transition-old(vintbtn) { display: none; } ::view-transition-new(vintbtn) { animation: none; }
 :root.accent-fade { transition: --accent .8s ease-in-out, --accent-soft .8s ease-in-out, --gold .8s ease-in-out, --gl .8s ease-in-out; }
+:root.accent-out { transition: --accent .8s cubic-bezier(.45,0,.55,1), --accent-soft .8s cubic-bezier(.45,0,.55,1), --gold .8s cubic-bezier(.45,0,.55,1), --gl .8s cubic-bezier(.45,0,.55,1) !important; } /* Kachelleuchten geht mit der Uhr */
 :root.night.accent-fade.accent-slow { transition: --accent .7s ease-out, --accent-soft .7s ease-out, --gold .7s ease-out, --gl .7s ease-out !important; }
 :root.night.accent-fade { transition: --accent .42s ease, --accent-soft .42s ease, --gold .42s ease, --gl .42s ease; }
 :root.accent-fade.theme-fade { transition: --gl .8s ease-in-out, --bg 1.1s ease-in-out, --surface 1.1s ease-in-out, --fg 1.1s ease-in-out, --muted 1.1s ease-in-out, --line 1.1s ease-in-out, --accent .8s ease-in-out, --accent-soft .8s ease-in-out, --gold .8s ease-in-out; }
@@ -1204,7 +1205,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112642";
+const IMGV = "2026112643";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2942,7 +2943,7 @@ function setVintage(on, src) {
     if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
     const vtNight = useVT && root.classList.contains("night");
     if (vtNight) { root.classList.add("wdim", "wkeep"); // nachts: Farbe während der Überblendung dunkel, danach langsam aufleuchten (wie beim Nachtwechsel)
-      clearTimeout(accFadeT); clearTimeout(accPhaseT); root.classList.remove("accent-fade", "accent-slow", "theme-fade");
+      clearTimeout(accFadeT); clearTimeout(accPhaseT); root.classList.remove("accent-fade", "accent-slow", "accent-out", "theme-fade");
       ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v));
       if (window.applyAccent) window.applyAccent();
       const cs = getComputedStyle(root);
@@ -2980,7 +2981,11 @@ function setVintage(on, src) {
     if (byId[[...ids][0]] && byId[[...ids][0]].brand) (byId[[...ids][0]].var || []).forEach(x => x.v && x.v.img && urls.push(x.v.img));
     const pre = [...new Set(urls)].slice(0, 24).map(u => { const im = new Image(); im.src = `${u}?v=${IMGV}`; return im.decode().catch(() => {}); });
     const swap = root.classList.contains("night");
-    if (swap) { root.classList.add("wswap"); requestAnimationFrame(() => root.classList.add("whide")); } // alte Uhren ausblenden
+    if (swap) { // alte Uhren ausblenden, das Leuchten der Kacheln (Akzentfarbe) geht im selben Takt mit
+      root.classList.add("wswap"); clearTimeout(accFadeT); clearTimeout(accPhaseT);
+      const cs = getComputedStyle(root);
+      requestAnimationFrame(() => { root.classList.add("whide", "accent-out"); root.style.setProperty("--accent", darkOf(cs.getPropertyValue("--accent"))); root.style.setProperty("--gold", darkOf(cs.getPropertyValue("--gold"))); root.style.setProperty("--gl", "0"); });
+    }
     Promise.all([Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 900))]), new Promise(r => setTimeout(r, swap ? 830 : 0))]).then(go);
   } else go();
   btns.forEach(b => { const sv = b.querySelector(".vdial"); if (sv) vdialAnim(sv, on); });
