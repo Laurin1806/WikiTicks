@@ -33552,6 +33552,100 @@
      "c": "Tudors Black Bay Chrono hat ein Werk auf Basis eines Breitling-Kalibers und ist die günstigere Alternative mit Panda-Zifferblatt."
     }
    ]
+  },
+  {
+   "id": "gmt-master-1675",
+   "model": "gmt-master",
+   "ref": "1675",
+   "alias": [
+    "1675/3",
+    "1675/8"
+   ],
+   "var": 1,
+   "t": "Rolex GMT-Master Ref. 1675",
+   "bau": "1959–1980",
+   "cap": "mit rot-blauer »Pepsi«-Lünette",
+   "s": "Die GMT-Master der Jetset-Jahre: Kronenschutz, Pepsi-Lünette und mehr als zwei Jahrzehnte Bauzeit machten die 1675 zur klassischen Fliegeruhr von Rolex.",
+   "bh": [
+    "Eine Uhr für zwei Zeitzonen",
+    "Gehäuse, Lünette und Werk",
+    "Zifferblätter über zwei Jahrzehnte"
+   ],
+   "b": [
+    "Die GMT-Master entstand Mitte der 1950er-Jahre, als Langstreckenflüge über mehrere Zeitzonen alltäglich wurden; die erste Referenz 6542 wird oft mit der Fluggesellschaft Pan Am in Verbindung gebracht. Das Prinzip ist bis heute gleich: Ein zusätzlicher Zeiger umrundet das Zifferblatt einmal in 24 Stunden und zeigt auf der drehbaren 24-Stunden-Lünette eine zweite Zeitzone an. Die rot-blaue Einteilung trennt Tag und Nacht. 1959 folgte die Referenz 1675, die das Bild der GMT-Master für mehr als zwanzig Jahre bestimmte.",
+    "Die 1675 brachte das größere 40-Millimeter-Gehäuse mit Kronenschutz, bei frühen Stücken mit spitz zulaufenden Schutzflanken, später mit runden. Die Lünette hat eine Aluminiumeinlage und lässt sich in beide Richtungen drehen; so kann man die zweite Zeitzone einfach durch Verdrehen der Lünette einstellen. Im Inneren arbeitete zunächst das Automatikkaliber 1565, später das Kaliber 1575 in seiner GMT-Ausführung; eine Schnellkorrektur für das Datum gab es noch nicht. Über dem Zifferblatt sitzt ein Acrylglas mit Zykloplupe.",
+    "Wie bei der Submariner veränderten sich die Zifferblätter über die lange Bauzeit: Frühe Exemplare haben glänzende »Gilt«-Zifferblätter mit goldfarbener Schrift, ab Mitte der 1960er-Jahre folgten matte Zifferblätter mit weißer Schrift. Auch die Pepsi-Einlagen verblassen mit den Jahren unterschiedlich stark, manche bis zu Hellrot und Hellblau, was Sammler »Fuchsia« nennen. 1980 löste die Referenz 16750 mit schnell schaltbarem Datum die 1675 ab."
+   ],
+   "vh": [
+    [
+     "Rolesor und Gold: 1675/3 und 1675/8",
+     "Neben der Stahluhr gab es die 1675 in Rolesor aus Stahl und Gelbgold (1675/3) und ganz in 18 Karat Gelbgold (1675/8), meist mit braunem Zifferblatt und braun-goldener Lünette. Diese Farbgebung nennen Sammler heute »Root Beer«; sie lebt in der aktuellen GMT-Master II in Everose-Rolesor weiter."
+    ]
+   ],
+   "m": [
+    "40 mm mit Kronenschutz, früh spitz, später rund",
+    "Rot-blaue Aluminiumlünette mit 24-Stunden-Skala, beidseitig drehbar",
+    "Zusätzlicher 24-Stunden-Zeiger mit dreieckiger Spitze",
+    "Datum mit Zykloplupe auf Acrylglas"
+   ],
+   "ev": [
+    [
+     "1959",
+     "Vorstellung als Nachfolgerin der 6542"
+    ],
+    [
+     "Mitte 1960er",
+     "Matte Zifferblätter lösen die Gilt-Zifferblätter ab"
+    ],
+    [
+     "1980",
+     "Ablösung durch die Ref. 16750 mit Datums-Schnellschaltung"
+    ]
+   ],
+   "x": [
+    "Originale, gleichmäßig gealterte Pepsi-Einlagen sind gesucht; viele Uhren erhielten im Service eine neue, kräftig gefärbte Einlage.",
+    "Die frühen spitzen Kronenschutzflanken (»Pointed Crown Guards«) sind ein Merkmal der ersten Jahre und bei Sammlern besonders beliebt."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1959–1980"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl, Kronenschutz"
+    ],
+    [
+     "Kaliber",
+     "1565, später 1575 GMT, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone"
+    ],
+    [
+     "Lünette",
+     "beidseitig drehbar, Aluminiumeinlage, 24 Stunden"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "6542 / 16750"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "navitimer",
+     "c": "Breitlings Navitimer mit Rechenschieber-Lünette war die andere große Uhr der Piloten dieser Jahrzehnte."
+    },
+    {
+     "m": "world-time",
+     "c": "Patek Philippes Weltzeituhr zeigte schon seit 1937 alle Zeitzonen auf einen Blick – die luxuriöse Lösung für Vielreisende."
+    },
+    {
+     "m": "speedmaster",
+     "c": "Die Omega Speedmaster begleitete in denselben Jahren die Astronauten ins All."
+    }
+   ]
   }
  ]
 }
