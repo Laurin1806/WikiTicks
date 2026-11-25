@@ -35543,7 +35543,6 @@
    "ref": "136660",
    "alias": [
     "136660-0003",
-    "126660",
     "116660 D-Blue",
     "126067"
    ],
@@ -35640,6 +35639,106 @@
     {
      "m": "seamaster-300m",
      "c": "Die Seamaster Diver 300M ist der klassische Sporttaucher mit Heliumventil."
+    }
+   ]
+  },
+  {
+   "id": "perpetual-1908-52508",
+   "model": "perpetual-1908",
+   "ref": "52508",
+   "alias": [
+    "52508-0006",
+    "52509",
+    "52509-0002",
+    "52506"
+   ],
+   "var": null,
+   "t": "Rolex Perpetual 1908 Ref. 52508",
+   "bau": "seit 2023",
+   "cap": "in 18 Karat Gelbgold",
+   "s": "Rolex' elegante Golduhr: benannt nach dem Jahr, in dem Hans Wilsdorf den Namen Rolex eintragen ließ, mit kleiner Sekunde und erstmals einem Glasboden in der klassischen Linie.",
+   "bh": [
+    "Ein neues Kapitel",
+    "Das Werk hinter Glas",
+    "Zifferblatt und Zeiger"
+   ],
+   "b": [
+    "2023 ersetzte Rolex die Cellini-Linie durch eine neue Dresswatch, die Perpetual 1908. Der Name erinnert an das Jahr 1908, in dem Hans Wilsdorf die Marke Rolex eintragen ließ. Die Uhr ist bewusst klassisch: ein rundes Goldgehäuse mit 39 Millimetern, eine Lünette, die halb gewölbt, halb fein geriffelt ist, und ein schlichtes Zifferblatt mit kleiner Sekunde bei 6 Uhr. Die Referenz 52508 besteht aus 18 Karat Gelbgold.",
+    "Im Inneren arbeitet das Kaliber 7140, ein flaches Automatikwerk mit Chronergy-Hemmung, Syloxi-Spirale aus Silizium und etwa 66 Stunden Gangreserve. Zum ersten Mal in der klassischen Rolex-Linie zeigt die Uhr ihr Werk durch einen Saphirglasboden, mit einem Rotor aus Gold und sorgfältiger Verzierung. Für eine Marke, die ihre Werke traditionell hinter verschraubten Böden versteckt, war das ein Bruch mit der Gewohnheit.",
+    "Das Zifferblatt mit arabischen Ziffern bei 3, 9 und 12 und schmalen Indizes wirkt zurückhaltend. Der Stundenzeiger ist offen gearbeitet und erinnert an alte Taschenuhren. Die Uhr wird an einem Alligatorlederband mit Faltschließe getragen und ist bis 50 Meter wasserdicht."
+   ],
+   "vh": [
+    [
+     "Weißgold: Ref. 52509",
+     "In 18 Karat Weißgold trägt die Perpetual 1908 die Referenz 52509, mit schwarzem oder weißem Zifferblatt."
+    ],
+    [
+     "Platin: Ref. 52506",
+     "Seit 2024 gibt es die 1908 in Platin mit eisblauem Zifferblatt und feiner Guilloché, dem Rolex-Erkennungszeichen für Platin."
+    ]
+   ],
+   "m": [
+    "39 mm, 18 Karat Gold, teils gewölbte, teils geriffelte Lünette",
+    "Kleine Sekunde bei 6 Uhr",
+    "Ziffern 3, 9 und 12, offener Stundenzeiger",
+    "Saphirglasboden, kein Datum"
+   ],
+   "ev": [
+    [
+     "1908",
+     "Hans Wilsdorf lässt den Namen Rolex eintragen"
+    ],
+    [
+     "2023",
+     "Vorstellung der Perpetual 1908"
+    ],
+    [
+     "2024",
+     "Ausführung in Platin"
+    ]
+   ],
+   "x": [
+    "Die 1908 ist eine der wenigen Rolex mit sichtbarem Werk; das macht sie für Werkliebhaber interessant.",
+    "Mit 50 Metern Wasserdichtigkeit und Lederband ist sie keine Sportuhr, sondern eine Uhr für Anzug und Abend."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, 18 Karat Gelbgold"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "7140, Automatik, ca. 66 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ],
+    [
+     "Vorgänger",
+     "Cellini"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "calatrava",
+     "c": "Patek Philippes Calatrava ist seit 1932 der Maßstab für die klassische runde Golduhr."
+    },
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony steht für die schlichte, flache Dresswatch der Haute Horlogerie."
+    },
+    {
+     "m": "saxonia",
+     "c": "A. Lange & Söhnes Saxonia ist die zurückhaltende Golduhr aus Glashütte."
     }
    ]
   }
