@@ -448,8 +448,8 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.night[data-accent="anthrazit"] { --accent: #bcc4ce; --accent-soft: #1c222a; }
 /* ---------- Vintage-Ansicht (Test): Patina – vergilbtes Papier, Sepia, Messing ---------- */
 /* Stil der 1960er: Creme, Petrol und Senfgelb, geometrische Grotesk (Jost); nachts Akzent im Grün der Leuchtmasse */
-:root.vintage:not(.night) { --bg: #ebe8e0; --surface: #f8f6f1; --fg: #23272a; --muted: #6f6b62; --line: #e0d9c8; --gold: #b3841d; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
-:root.vintage.night { --bg: #0b0a08; --surface: #13120f; --fg: #e9e1cd; --muted: #8a9a90; --line: #22262b; --gold: #d4a856; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
+:root.vintage:not(.night) { --bg: #ebe8e0; --surface: #f8f6f1; --fg: #23272a; --muted: #6f6b62; --line: #e0d9c8; --gold: #b3841d; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
+:root.vintage.night { --bg: #0b0a08; --surface: #13120f; --fg: #e9e1cd; --muted: #8a9a90; --line: #22262b; --gold: #d4a856; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
 :root.vintage body { background-image: radial-gradient(circle at 50% 18%, rgba(255,255,255,.55), transparent 55%), repeating-conic-gradient(from 0deg at 50% 18%, rgba(0,0,0,.011) 0deg .5deg, rgba(255,255,255,.025) .5deg 1deg); background-attachment: fixed; }
 :root.vintage.night body { background-image: none; } /* weicher Mondschein von oben rechts als feste Ebene */
 :root.vintage.night body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(ellipse 55% 45% at 82% -6%, rgba(205,222,235,.13), rgba(205,222,235,.04) 45%, transparent 75%), conic-gradient(from 200deg at 82% -6%, transparent 0deg, rgba(200,220,235,.035) 14deg, transparent 30deg, rgba(200,220,235,.025) 46deg, transparent 64deg, rgba(200,220,235,.03) 82deg, transparent 100deg, transparent 360deg), radial-gradient(ellipse 80% 60% at 50% 120%, rgba(0,0,0,.35), transparent 70%); }
@@ -465,7 +465,6 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage.night { --gold: color-mix(in srgb, var(--accent) 80%, #fff); }
 :root.vintage .accent-switch .sw-blue { background: #26746d; } :root.vintage .accent-switch .sw-green { background: #5a6e28; } :root.vintage .accent-switch .sw-bordeaux { background: #8e3140; }
 :root.vintage.night .accent-switch .sw-blue { background: #7da6ec; } :root.vintage.night .accent-switch .sw-green { background: #8fe8b4; box-shadow: 0 0 6px rgba(143,232,180,.6); } :root.vintage.night .accent-switch .sw-bordeaux { background: #e58fa1; } :root.vintage.night .accent-switch .sw-anthrazit { background: #bcc4ce; }
-:root.vintage h2, :root.vintage .daily h2 { font-weight: 500; letter-spacing: -.015em; }
 :root.vintage .art-h, :root.vintage .section-title { font-family: "Unbounded", "Arial Black", system-ui, sans-serif; } /* gleiche Schrift wie normal: kein Umbruch-Unterschied, nichts verschiebt sich */
 :root.vintage .daily .kicker, :root.vintage .fcard .kicker { font-weight: 500; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; }
 /* Kacheln wie ein Zifferblatt der 60er: polierte Lünette (heller und dunkler Ring), gewölbtes Glas mit Lichtreflex */
@@ -1176,7 +1175,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112617";
+const IMGV = "2026112618";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
