@@ -1180,7 +1180,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112622";
+const IMGV = "2026112623";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2898,21 +2898,33 @@ function setVintage(on, src) {
   VINTAGE = on; try { localStorage.setItem("wikiticks-vintage", on ? "1" : "0"); } catch (e) {}
   const root = document.documentElement, reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const btns = [...document.querySelectorAll("#vintbtn, .vintbtn")];
+  const useVT = !reduce && !!document.startViewTransition;
   btns.forEach(b => { b.setAttribute("aria-pressed", on); const l = b.querySelector(".nl"); if (l) l.textContent = on ? "Heute-Modus" : "Vintage-Modus"; });
   const update = () => {
     if (!reduce) { root.classList.add("theme-fade"); clearTimeout(fadeT); fadeT = setTimeout(() => root.classList.remove("theme-fade"), 1300); }
     root.classList.toggle("vintage", on);
     if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
-    if (window.applyAccent) fadeAccent(window.applyAccent);
+    const vtNight = useVT && root.classList.contains("night");
+    if (vtNight) { // nachts: Farbe während der Überblendung dunkel, danach langsam aufleuchten (wie beim Nachtwechsel)
+      clearTimeout(accFadeT); clearTimeout(accPhaseT); root.classList.remove("accent-fade", "accent-slow", "theme-fade");
+      ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v));
+      if (window.applyAccent) window.applyAccent();
+      const cs = getComputedStyle(root);
+      root.style.setProperty("--accent", darkOf(cs.getPropertyValue("--accent"))); root.style.setProperty("--gold", darkOf(cs.getPropertyValue("--gold"))); root.style.setProperty("--gl", "0");
+    } else if (window.applyAccent) fadeAccent(window.applyAccent);
     const y = window.scrollY, navOpen = $("#nav").classList.contains("open"); route(); window.scrollTo({ top: y }); requestAnimationFrame(() => window.scrollTo({ top: y }));
     if (navOpen) { $("#nav").classList.add("open"); $("#menu").setAttribute("aria-expanded", "true"); } // Menü bleibt offen wie beim Nachtmodus
   };
   // ganze Seite weich überblenden (auch Verläufe, Lünetten der Kacheln, Schrift); der sichtbare Knopf bleibt live, damit seine Animation zu sehen ist
   const live = (src && src.offsetParent) ? src : btns.find(b => b.offsetParent && b.getBoundingClientRect().bottom > 0 && b.getBoundingClientRect().top < innerHeight); // der angeklickte Knopf bleibt live, nur er
-  if (!reduce && document.startViewTransition) {
+  if (useVT) {
     if (live) live.style.viewTransitionName = "vintbtn";
+    const night = root.classList.contains("night"); if (night) root.classList.add("vt-night");
     const vt = document.startViewTransition(update);
-    vt.finished.finally(() => { if (live) live.style.viewTransitionName = ""; });
+    vt.finished.finally(() => {
+      if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
+      if (night) { root.classList.add("accent-fade", "accent-slow"); requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 1150); }); }
+    });
   } else update();
   btns.forEach(b => { const sv = b.querySelector(".vdial"); if (sv) vdialAnim(sv, on); });
 }
