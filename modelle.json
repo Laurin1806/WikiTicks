@@ -33646,6 +33646,117 @@
      "c": "Die Omega Speedmaster begleitete in denselben Jahren die Astronauten ins All."
     }
    ]
+  },
+  {
+   "id": "gmt-master-126710",
+   "model": "gmt-master",
+   "ref": "126710",
+   "alias": [
+    "126710BLRO",
+    "126710BLNR",
+    "126720VTNR",
+    "126729VTNR",
+    "126711CHNR",
+    "126715CHNR",
+    "116710LN / BLNR"
+   ],
+   "var": null,
+   "t": "Rolex GMT-Master II Ref. 126710",
+   "bau": "seit 2018",
+   "cap": "abgebildet: Ref. 126710BLRO »Pepsi«",
+   "s": "Die heutige GMT-Master II in Stahl mit zweifarbiger Keramiklünette: als »Pepsi« in Rot-Blau, als »Batman« in Blau-Schwarz – und mit dem Kaliber 3285.",
+   "bh": [
+    "Zwei Farben aus Keramik",
+    "Unabhängig verstellbarer Stundenzeiger",
+    "Das Werk"
+   ],
+   "b": [
+    "Die rot-blaue »Pepsi«-Lünette gehört seit 1955 zur GMT-Master, war aber lange aus Aluminium. Eine zweifarbige Lünette aus Keramik herzustellen war technisch schwierig, weil sich die Farben beim Brennen nicht vermischen dürfen. Rolex gelang das zuerst 2013 mit Blau und Schwarz, dann mit Rot und Blau, zunächst nur in Weißgold. 2018 brachte Rolex die Pepsi-Keramiklünette mit der Referenz 126710BLRO erstmals in Stahl, am fünfreihigen Jubilee-Band, 2019 folgte die blau-schwarze 126710BLNR »Batman«.",
+    "Seit der Referenz 16760 von 1983 lässt sich bei der GMT-Master II der normale Stundenzeiger unabhängig vom 24-Stunden-Zeiger in Stundenschritten verstellen. Auf Reisen stellt man so die Ortszeit ein, ohne die Uhr anzuhalten, während der 24-Stunden-Zeiger weiter die Heimatzeit zeigt; mit der drehbaren Lünette lässt sich zusätzlich eine dritte Zeitzone ablesen. Das Datum springt dabei mit der Ortszeit mit, vor und zurück.",
+    "Im Inneren arbeitet das Kaliber 3285 mit Chronergy-Hemmung, Parachrom-Spirale und etwa 70 Stunden Gangreserve. Das Gehäuse misst 40 Millimeter und ist bis 100 Meter wasserdicht; die Uhr ist als Superlative Chronometer geprüft."
+   ],
+   "vh": [
+    [
+     "»Pepsi« und »Batman«",
+     "Die 126710BLRO trägt die rot-blaue, die 126710BLNR die blau-schwarze Lünette. Beide gibt es am Jubilee-Band und, seit 2021, auch am dreireihigen Oyster-Band."
+    ],
+    [
+     "»Sprite«: Krone links",
+     "2022 stellte Rolex die 126720VTNR mit grün-schwarzer Lünette vor. Krone und Datum sitzen auf der linken Seite, sodass man die Uhr bequem am rechten Handgelenk tragen kann; Sammler nennen sie »Sprite«. Es gibt sie auch in Weißgold (126729VTNR)."
+    ],
+    [
+     "»Root Beer« in Everose",
+     "Die braun-schwarze Lünette erinnert an die »Root Beer« der 1970er-Jahre und ist in Everose-Rolesor (126711CHNR) und ganz in Everose-Gold (126715CHNR) erhältlich."
+    ]
+   ],
+   "m": [
+    "40 mm, zweifarbige Keramiklünette mit 24-Stunden-Skala",
+    "24-Stunden-Zeiger mit Dreieckspitze, unabhängig verstellbarer Stundenzeiger",
+    "Datum mit Zykloplupe",
+    "Jubilee- oder Oyster-Band"
+   ],
+   "ev": [
+    [
+     "1983",
+     "Ref. 16760: unabhängig verstellbarer Stundenzeiger (GMT-Master II)"
+    ],
+    [
+     "2018",
+     "126710BLRO »Pepsi« in Stahl mit Keramiklünette"
+    ],
+    [
+     "2019",
+     "126710BLNR »Batman«"
+    ],
+    [
+     "2022",
+     "126720VTNR »Sprite« mit Krone links"
+    ]
+   ],
+   "x": [
+    "Die Vorgängerin 116710LN hatte eine schwarze Keramiklünette und grünen 24-Stunden-Zeiger; die 116710BLNR von 2013 war die erste »Batman«.",
+    "Unter den Stahl-Rolex gehört die Pepsi zu den Uhren mit den längsten Wartezeiten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Oystersteel"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3285, Automatik, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone (24 h), dritte über die Lünette"
+    ],
+    [
+     "Vorgänger",
+     "116710LN / 116710BLNR"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay-gmt",
+     "c": "Tudors Black Bay GMT von 2018 trägt ebenfalls eine rot-blaue Lünette – zu einem Bruchteil des Preises."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra gibt es auch als Weltzeit- und GMT-Uhr mit Master-Chronometer-Werk."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas ist die Luxus-Sportuhr mit eigener Dualtime-Ausführung."
+    }
+   ]
   }
  ]
 }
