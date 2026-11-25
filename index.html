@@ -511,6 +511,7 @@ canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; he
 /* Nachts Heute ⇄ Vintage: alte Uhren blenden aus, die andere Ausführung danach ein */
 :root.wswap #view .wimg-wrap { transition: opacity 1s cubic-bezier(.3,0,.2,1), filter 1s cubic-bezier(.3,0,.2,1); } /* taucht aus der Dunkelheit auf */
 :root.wswap.whide #view .wimg-wrap { opacity: 0; filter: brightness(.45) blur(1px); transition: opacity .8s cubic-bezier(.45,0,.55,1), filter .8s cubic-bezier(.45,0,.55,1); }
+:root:not(.night).wswap.whide #view .wimg-wrap { filter: blur(1px); } /* tagsüber: ausblenden ohne Abdunkeln */
 :root.wswap #view .wimg-wrap canvas.wcut { transition: none !important; }
 :root.wswap #view .wimg-wrap canvas.wlume, :root.wswap #view .wimg-wrap img.wlume-img { transition: opacity 1s cubic-bezier(.3,0,.2,1) !important; } /* Leuchtmasse geht und kommt im selben Takt wie die Uhr (Safari blendet sie sonst getrennt) */
 :root.wswap.whide #view .wimg-wrap canvas.wlume, :root.wswap.whide #view .wimg-wrap img.wlume-img { opacity: 0 !important; transition: opacity .8s cubic-bezier(.45,0,.55,1) !important; } /* versinkt in der Dunkelheit: erst dunkler, dann weg */
@@ -1205,7 +1206,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112643";
+const IMGV = "2026112644";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2965,7 +2966,7 @@ function setVintage(on, src) {
       if (root.classList.contains("night")) nightApply(); // Nachtebenen der neuen Bilder erst nach der Überblendung berechnen (Safari)
       if (root.classList.contains("wswap")) { // neue Ausführung einblenden, sobald ihre Nachtebenen fertig sind
         const t0 = performance.now();
-        const ready = () => [...document.querySelectorAll("#view .wimg-wrap")].filter(w => { const r = w.getBoundingClientRect(); return r.bottom > 0 && r.top < innerHeight; }).every(w => w.dataset.nt === "1" || w.dataset.nt === "x");
+        const ready = () => [...document.querySelectorAll("#view .wimg-wrap")].filter(w => { const r = w.getBoundingClientRect(); return r.bottom > 0 && r.top < innerHeight; }).every(w => root.classList.contains("night") ? (w.dataset.nt === "1" || w.dataset.nt === "x") : (w.querySelector("img.wimg") || {}).complete);
         const wait = () => { if (ready() || performance.now() - t0 > 1200) { setTimeout(() => { root.classList.remove("whide"); setTimeout(() => root.classList.remove("wswap"), 1100); }, 30); } else setTimeout(wait, 40); };
         wait();
       }
@@ -2980,11 +2981,11 @@ function setVintage(on, src) {
     const urls = [...ids].map(id => byId[id]).filter(e => e && e.brand).map(e => { const v = mainV(e); return v && v.img; }).filter(Boolean);
     if (byId[[...ids][0]] && byId[[...ids][0]].brand) (byId[[...ids][0]].var || []).forEach(x => x.v && x.v.img && urls.push(x.v.img));
     const pre = [...new Set(urls)].slice(0, 24).map(u => { const im = new Image(); im.src = `${u}?v=${IMGV}`; return im.decode().catch(() => {}); });
-    const swap = root.classList.contains("night");
-    if (swap) { // alte Uhren ausblenden, das Leuchten der Kacheln (Akzentfarbe) geht im selben Takt mit
+    const swap = true, nightNow = root.classList.contains("night");
+    if (swap) { // alte Uhren ausblenden (nachts geht das Leuchten der Kacheln im selben Takt mit), danach erscheint die andere Ausführung
       root.classList.add("wswap"); clearTimeout(accFadeT); clearTimeout(accPhaseT);
       const cs = getComputedStyle(root);
-      requestAnimationFrame(() => { root.classList.add("whide", "accent-out"); root.style.setProperty("--accent", darkOf(cs.getPropertyValue("--accent"))); root.style.setProperty("--gold", darkOf(cs.getPropertyValue("--gold"))); root.style.setProperty("--gl", "0"); });
+      requestAnimationFrame(() => { root.classList.add("whide"); if (!nightNow) return; root.classList.add("accent-out"); root.style.setProperty("--accent", darkOf(cs.getPropertyValue("--accent"))); root.style.setProperty("--gold", darkOf(cs.getPropertyValue("--gold"))); root.style.setProperty("--gl", "0"); });
     }
     Promise.all([Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 900))]), new Promise(r => setTimeout(r, swap ? 830 : 0))]).then(go);
   } else go();
