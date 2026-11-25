@@ -35147,6 +35147,94 @@
      "c": "Hamiltons Khaki-Uhren stehen für die günstige Flieger- und Felduhr mit langer Militärgeschichte."
     }
    ]
+  },
+  {
+   "id": "milgauss-1019",
+   "model": "milgauss",
+   "ref": "1019",
+   "var": 0,
+   "t": "Rolex Milgauss Ref. 1019",
+   "bau": "1960–1988",
+   "cap": "in Edelstahl mit glatter Lünette",
+   "s": "Die Uhr für Wissenschaftler: magnetfest bis 1000 Gauss dank eines Weicheisengehäuses – fast drei Jahrzehnte gebaut und lange eine der seltensten Rolex.",
+   "bh": [
+    "Tausend Gauss",
+    "Gehäuse und Werk",
+    "Ein stilles Modell"
+   ],
+   "b": [
+    "Magnetfelder sind der Feind einer mechanischen Uhr: Sie magnetisieren die Unruhspirale, deren Windungen dann aneinanderhaften, und die Uhr geht plötzlich stark vor. In Kraftwerken, Laboren und Forschungseinrichtungen wie dem CERN waren starke Felder alltäglich. Für diese Umgebungen entwickelte Rolex die Milgauss, deren Name auf ihre Widerstandsfähigkeit gegen Magnetfelder von 1000 Gauss verweist. Nach der ersten Referenz 6541 mit drehbarer Lünette und blitzförmigem Sekundenzeiger folgte 1960 die schlichtere Referenz 1019.",
+    "Das Geheimnis der Milgauss liegt im Inneren: Das Werk sitzt in einem Innengehäuse aus Weicheisen, das Magnetfelder um das Werk herumleitet, ähnlich einem Faradayschen Käfig. Das Automatikkaliber 1580 ist eine Ausführung der Werkfamilie 1570 mit zusätzlichen antimagnetischen Bauteilen. Das Oyster-Gehäuse aus Edelstahl misst 38 Millimeter und trägt bei der 1019 eine glatte, polierte Lünette; der Sekundenzeiger ist gerade, nicht mehr blitzförmig wie bei der 6541.",
+    "Die 1019 verkaufte sich nie in großen Stückzahlen und wurde 1988 ohne Nachfolgerin eingestellt. Erst 2007 kehrte die Milgauss mit der Referenz 116400 zurück. Unter Sammlern gelten besonders die Zifferblätter ohne Leuchtmasse als Rarität, die für Labore gebaut wurden, in denen radioaktive Leuchtmasse stören konnte."
+   ],
+   "m": [
+    "38 mm Edelstahl, glatte polierte Lünette",
+    "Schwarzes oder silbernes Zifferblatt mit Stabindizes",
+    "Gerader Sekundenzeiger",
+    "Kein Datum"
+   ],
+   "ev": [
+    [
+     "1956",
+     "Erste Milgauss (Ref. 6541)"
+    ],
+    [
+     "1960",
+     "Vorstellung der Ref. 1019"
+    ],
+    [
+     "1988",
+     "Einstellung ohne Nachfolgerin"
+    ],
+    [
+     "2007",
+     "Rückkehr mit der Ref. 116400"
+    ]
+   ],
+   "x": [
+    "Wegen der geringen Stückzahl ist die 1019 viel seltener als vergleichbare Explorer oder Datejust.",
+    "Zifferblätter ohne Leuchtmasse für Labore sind die gesuchteste Variante."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1960–1988"
+    ],
+    [
+     "Gehäuse",
+     "38 mm, Edelstahl, Weicheisen-Innengehäuse"
+    ],
+    [
+     "Kaliber",
+     "1580, Automatik, antimagnetisch"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Magnetfeldschutz",
+     "bis 1000 Gauss"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "6541 / 116400 (2007)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "ingenieur",
+     "c": "IWCs Ingenieur von 1955 setzte ebenfalls auf ein Weicheisen-Innengehäuse gegen Magnetfelder."
+    },
+    {
+     "m": "railmaster",
+     "c": "Omegas Railmaster von 1957 war die antimagnetische Uhr für Eisenbahner und Techniker."
+    },
+    {
+     "m": "geophysic",
+     "c": "Jaeger-LeCoultres Geophysic von 1958 entstand für das Internationale Geophysikalische Jahr, magnetfest und robust."
+    }
+   ]
   }
  ]
 }
