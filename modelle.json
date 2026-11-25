@@ -7396,7 +7396,8 @@
    ],
    "dial": "Schwarz",
    "iref": "310.30.42.50.01.001",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1968"
   },
   {
    "id": "seamaster-300m",
@@ -9305,7 +9306,8 @@
      "Berühmte Träger"
     ]
    ],
-   "dial": "Creme"
+   "dial": "Creme",
+   "vy": "1922"
   },
   {
    "id": "portugieser",
@@ -10536,7 +10538,8 @@
    ],
    "dial": "Blau",
    "iref": "CBL2111.FC6453",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1969"
   },
   {
    "id": "carrera",
@@ -12340,7 +12343,8 @@
     "Die Abbildung zeigt eine Panthère de Cartier aus Edelstahl, wie sie seit der Neuauflage von 2017 gebaut wird. Das quadratische Gehäuse mit gerundeten Ecken geht nahtlos in das Gliederband über, das Zifferblatt ist silbrig-weiß.",
     "Zu erkennen sind die kleinen Schrauben auf der Lünette, schwarze römische Ziffern, gebläute Schwertzeiger, der Schriftzug »Cartier« unter der 12 und die facettierte Krone mit blauem Cabochon. Typisch ist das schmale, mehrreihige Gliederband, das kaum breiter als das Gehäuse ist und geschmeidig fällt. Einen Sekundenzeiger hat die Quarzuhr nicht."
    ],
-   "dial": "Silber"
+   "dial": "Silber",
+   "vy": "1983"
   },
   {
    "id": "ingenieur",
@@ -12493,7 +12497,8 @@
    ],
    "dial": "Silber",
    "iref": "IW328902",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1976"
   },
   {
    "id": "mark-xx",
@@ -13150,7 +13155,8 @@
      "iref": "Q3858520",
      "irefs": "hoch"
     }
-   ]
+   ],
+   "vy": "1931"
   },
   {
    "id": "polaris",
@@ -16310,7 +16316,8 @@
    ],
    "dial": "Schwarz",
    "iref": "H24411732",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1957"
   },
   {
    "id": "sinn-556",
@@ -16642,7 +16649,8 @@
    ],
    "dial": "Weiß",
    "iref": "027/3700",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1961"
   },
   {
    "id": "g-shock",
@@ -16767,7 +16775,8 @@
    ],
    "dial": "Digitalanzeige",
    "iref": "DW-5600E-1V",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1987"
   },
   {
    "id": "classique",
@@ -17016,7 +17025,8 @@
    ],
    "dial": "Schwarz",
    "iref": "2067ST/92/3WU",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1954"
   },
   {
    "id": "swatch-original",
@@ -17410,7 +17420,8 @@
    ],
    "dial": "Blau",
    "iref": "T137.407.11.041.00",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1978"
   },
   {
    "id": "aquis",
@@ -17640,7 +17651,8 @@
     "Die Abbildung zeigt eine Oris Big Crown Pointer Date mit Gehäuse aus Edelstahl, cremefarbenem Zifferblatt und braunem Lederband mit hellen Nähten. Namensgebend ist die große Krone, die sich auch mit Handschuhen bedienen lässt.",
     "Typisch ist das Zeigerdatum: Ein zusätzlicher Zeiger mit roter Spitze zeigt auf den Kreis mit den Zahlen 1 bis 31 am Zifferblattrand. Zu erkennen sind außerdem die großen arabischen Ziffern, die Schwertzeiger mit Leuchtmasse, die geriffelte Lünette und der Schriftzug »BIG CROWN POINTER DATE« über der 6."
    ],
-   "dial": "Creme"
+   "dial": "Creme",
+   "vy": "1938"
   },
   {
    "id": "br-03",
@@ -18784,7 +18796,8 @@
    ],
    "dial": "Schwarz",
    "iref": "SRPE93K1",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1976"
   },
   {
    "id": "alpinist",
@@ -19838,7 +19851,8 @@
    ],
    "dial": "Dunkelblau",
    "iref": "4200H/222A-B934",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1977"
   },
   {
    "id": "octo-finissimo",
@@ -20107,7 +20121,8 @@
    ],
    "dial": "Grün",
    "iref": "R32505315",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1962"
   },
   {
    "id": "promaster-diver",
@@ -20336,7 +20351,8 @@
    ],
    "dial": "Orange",
    "iref": "840.10.351.10",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1967"
   },
   {
    "id": "laco-aachen",
@@ -20852,7 +20868,8 @@
    ],
    "dial": "Silber",
    "iref": "17000",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1977"
   },
   {
    "id": "yacht-master-ii",
@@ -21111,7 +21128,8 @@
     "Die Abbildung zeigt eine rechteckige Rolex Prince mit Gehäuse aus Roségold und dunkelbraunem Lederband. Typisch für die Prince ist das geteilte Zifferblatt mit einem Feld für die Stunden oben und einem großen Feld für die kleine Sekunde unten.",
     "Zu erkennen sind das braune Zifferblatt mit goldenen arabischen Ziffern bei 12, 3 und 9, Stabindizes, die Rolex-Krone und das quadratische Sekundenfeld mit eigenen Indizes. Gehäuse oben und unten sind quer geriffelt, die Seiten gestuft. Das Bild zeigt eine neuwertig wirkende Uhr; ob es sich um ein Vintage-Exemplar oder eine spätere Ausführung handelt, lässt sich daraus nicht sicher ablesen."
    ],
-   "dial": "Braun"
+   "dial": "Braun",
+   "vy": "1928"
   },
   {
    "id": "ploprof",
@@ -21253,7 +21271,8 @@
    ],
    "dial": "Schwarz",
    "iref": "224.30.55.21.01.001",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1970"
   },
   {
    "id": "flightmaster",
@@ -21376,7 +21395,8 @@
    ],
    "dial": "Schwarz",
    "iref": "145.026",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1969"
   },
   {
    "id": "globemaster",
@@ -21757,7 +21777,8 @@
     ],
     "iref": "3738/100J",
     "irefs": "mittel"
-   }
+   },
+   "vy": "1968"
   },
   {
    "id": "twenty4",
@@ -22381,7 +22402,8 @@
     "Die Abbildung zeigt eine Cartier Crash mit Gehäuse aus Gold. Das Gehäuse ist eingeknickt und asymmetrisch verformt, als sei es geschmolzen, und das helle, silbrige Zifferblatt folgt dieser Form.",
     "Typisch sind die schwarzen römischen Ziffern, die je nach Lage gestreckt und schräg verlaufen, sowie die gebläuten Zeiger. Unter 12 Uhr steht der Schriftzug »CARTIER«. Rechts sitzt eine perlierte Krone mit blauem Cabochon. Die Uhr trägt ein braunes Lederband mit Krokodilprägung."
    ],
-   "dial": "Silber"
+   "dial": "Silber",
+   "vy": "1967"
   },
   {
    "id": "baignoire",
@@ -23251,7 +23273,8 @@
    ],
    "dial": "Creme",
    "iref": "A23311121G1X1",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1964"
   },
   {
    "id": "avenger",
@@ -25351,7 +25374,8 @@
    ],
    "dial": "Gelb",
    "iref": "6139-6002",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1969"
   },
   {
    "id": "king-seiko",
@@ -25475,7 +25499,8 @@
    ],
    "dial": "Weiß, Sonnenschliff",
    "iref": "SJE083",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1965"
   },
   {
    "id": "gs-44gs",
@@ -25588,7 +25613,8 @@
     "Die Abbildung zeigt eine Grand Seiko mit dem kantigen Gehäuse im Stil der 44GS von 1967, mit Gliederband aus hellem Metall und silberweißem Zifferblatt mit feinem Sonnenschliff. Eine bestimmte Referenz der Neuauflagen lässt sich dem Bild nicht sicher zuordnen.",
     "Typisch sind die ebenen polierten Flächen und scharfen Kanten an Lünette und Bandanstößen. Zu erkennen sind breite, facettierte Stabindizes mit Doppelindex bei 12 Uhr, Facettenzeiger für Stunden und Minuten und ein gebläuter Sekundenzeiger. Bei 3 Uhr liegt ein eingefasstes Datumsfenster, unter der 12 stehen das Logo »GS« und »Grand Seiko«."
    ],
-   "dial": "Silber, Sonnenschliff"
+   "dial": "Silber, Sonnenschliff",
+   "vy": "1967"
   },
   {
    "id": "gs-hi-beat",
@@ -27012,7 +27038,8 @@
    ],
    "dial": "Creme",
    "iref": "L4.795.4.78.2",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1957"
   },
   {
    "id": "jazzmaster",
@@ -27223,7 +27250,8 @@
    ],
    "dial": "Blau",
    "iref": "H35756140",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1971"
   },
   {
    "id": "sinn-104",
@@ -27895,7 +27923,8 @@
    ],
    "dial": "Digitalanzeige",
    "iref": "F-91W-1",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1989"
   },
   {
    "id": "ga-2100",
@@ -29668,7 +29697,8 @@
     "Die Abbildung zeigt eine Rado DiaStar in der Art der DiaStar Original. Das ovale, stark gewölbte Gehäuse mit breiter, polierter Facette läuft in ein Gliederband über; Gehäuse und Band sind dunkelgrau, das Zifferblatt anthrazit mit Sonnenschliff.",
     "Zu erkennen sind die aufgesetzten Stabindizes, die Stabzeiger, das Datumsfenster bei 3 Uhr und das Rado-Anker-Logo über dem Schriftzug »RADO«. Über der 6 steht »DIASTAR«. Eine Krone ist auf dem Bild nicht zu sehen, sodass die Form geschlossen wirkt."
    ],
-   "dial": "Anthrazit, Sonnenschliff"
+   "dial": "Anthrazit, Sonnenschliff",
+   "vy": "1962"
   },
   {
    "id": "rado-true",
@@ -30067,7 +30097,8 @@
    ],
    "dial": "Schwarz",
    "iref": "821.10.101.10",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "vy": "1969"
   },
   {
    "id": "villeret",
@@ -31091,7 +31122,8 @@
      "1953: Eine der ersten Taucheruhren"
     ]
    ],
-   "dial": "Orange"
+   "dial": "Orange",
+   "vy": "1953"
   },
   {
    "id": "fc-slimline",
@@ -31414,7 +31446,8 @@
    ],
    "dial": "Digitalanzeige",
    "iref": "CA-53W-1",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "vy": "1988"
   }
  ],
  "lumeMasks": {

@@ -1147,7 +1147,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112602";
+const IMGV = "2026112603";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2113,14 +2113,15 @@ const yearOf = y => +((String(y || "").match(/(?<!\d)(?:18|19|20)\d\d(?!\d)/) ||
 function vintVar(e) {
   if (!VINTAGE || !e || !e.brand) return null;
   // immer die früheste Ausführung, von der es ein Bild gibt – sofern sie älter ist als das Hauptbild
-  const mainY = yearOf(e.topv ? e.topv.y : e.cur);
+  const mainY = Math.min(yearOf(e.topv ? e.topv.y : e.cur), e.vy ? yearOf(e.vy) : 9999); // Hauptbild im Stil von e.vy zählt als so alt
   let best = null;
   (e.var || []).forEach(x => { const vy = x.vy || x.y; /* vy: Jahr nur zum Sortieren, z. B. bei Bildern »im Stil« einer alten Referenz */ if (x.v && x.v.img && yearOf(vy) < mainY && (!best || yearOf(vy) < yearOf(best.vy || best.y))) best = x; });
   return best;
 }
 // Vintage-Ansicht: in den Markenvorschauen nur Modelle mit einem Bild einer Ausführung von vor 1990
 const oldY = y => !/seit/i.test(y || "") && yearOf(y) < 1990; // »seit 1922« = noch gebaut, Bild zeigt eine heutige Ausführung
-const hasOldImg = e => (e.topv ? oldY(e.topv.y) : /(?:18|19)\d0er/.test(e.cur || "") && yearOf(e.cur) < 1990) || (e.var || []).some(x => x.v && x.v.img && oldY(x.vy || x.y));
+// e.vy: Hauptbild zeigt eine Ausführung, deren Gestaltung sich seit diesem Jahr nicht grundlegend verändert hat (Neuauflage, »im Stil«)
+const hasOldImg = e => oldY(e.vy) || (e.topv ? oldY(e.topv.y) : /(?:18|19)\d0er/.test(e.cur || "") && yearOf(e.cur) < 1990) || (e.var || []).some(x => x.v && x.v.img && oldY(x.vy || x.y));
 const vintFilter = ms => VINTAGE ? ms.filter(hasOldImg) : ms;
 const mainV = e => { const vv = vintVar(e); return vv ? withVariant(e.v, { ...vv.v, era: "vintage" }) : mainV0(e); };
 const mainV0 = e => e.topv ? withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : e.v;
