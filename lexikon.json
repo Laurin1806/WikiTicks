@@ -3823,7 +3823,8 @@
    "leuchtmasse",
    "submariner",
    "fifty-fathoms",
-   "sea-dweller"
+   "sea-dweller",
+   "submariner-fifty-fathoms"
   ],
   "k": "1953 erschienen die Fifty Fathoms und die Submariner im selben Jahr.",
   "x": [
@@ -3850,6 +3851,117 @@
     null,
     null,
     "assets/watches/rolex-sea-dweller-1665-double-red.jpg"
+   ]
+  }
+ },
+ {
+  "id": "submariner-fifty-fathoms",
+  "t": "Submariner und Fifty Fathoms: Zwei Taucheruhren aus dem Jahr 1953",
+  "c": "Geschichte",
+  "a": [
+   "Submariner gegen Fifty Fathoms",
+   "Fifty Fathoms gegen Submariner",
+   "Erste Taucheruhren"
+  ],
+  "s": "Zwei Uhren, ein Jahr, zwei Wege unter Wasser: wie die Blancpain Fifty Fathoms und die Rolex Submariner die moderne Taucheruhr erfanden und was sie bis heute unterscheidet.",
+  "b": [
+   "1953 war ein gutes Jahr für alle, die unter Wasser die Zeit im Blick behalten wollten. Fast gleichzeitig erschienen zwei Uhren, die bis heute das Bild der Taucheruhr prägen: die Blancpain Fifty Fathoms und die Rolex Submariner. Beide haben eine drehbare Lünette, auf der man die Tauchzeit abliest, große Leuchtindizes auf schwarzem Zifferblatt, ein verschraubtes, dichtes Gehäuse und Automatikaufzug. Und doch kamen sie aus ganz verschiedenen Richtungen: Die eine wurde für Kampfschwimmer gebaut, die andere für einen Markt, den es damals erst zu entdecken galt.",
+   "Wer beide Uhren nebeneinanderlegt, sieht zwei Temperamente. Die Fifty Fathoms war von Anfang an ein Werkzeug, groß, kantig und auf Ablesbarkeit getrimmt, mit einem Lastenheft, das Soldaten geschrieben hatten. Die Submariner war kleiner und eleganter, ein Sportinstrument aus einem Haus, das seit 1926 mit der wasserdichten Oyster warb und nun zeigen wollte, dass diese Bauweise auch in der Tiefe trägt. Die eine Uhr folgte einem Auftrag, die andere einer Idee.",
+   "Ihre Wege trennten sich in den 1970er-Jahren. Die Submariner wurde ohne Unterbrechung weitergebaut, Referenz um Referenz, und wurde dabei zur meistkopierten Taucheruhr der Welt. Blancpain dagegen geriet in der Quarzkrise in Schwierigkeiten und ruhte einige Jahre, bevor die Marke Anfang der 1980er-Jahre wiederbelebt wurde. Die Fifty Fathoms kehrte erst zum 50. Jubiläum 2003 zurück, dann aber mit großem Auftritt.",
+   "Heute stehen beide wieder nebeneinander in den Schaufenstern, und an ihnen lässt sich ablesen, wie unterschiedlich zwei Hersteller dieselbe Aufgabe lösen: Rolex hat die Submariner in kleinen Schritten verfeinert, bis kaum ein Teil der ersten Uhr übrig war, ohne dass sich ihr Gesicht verändert hätte. Blancpain hat die Fifty Fathoms neu gedacht, größer, mit gewölbter Saphirlünette und einem Werk mit fünf Tagen Gangreserve, und dabei ihre Herkunft als Militäruhr bewusst in Szene gesetzt."
+  ],
+  "g": [
+   "Die Geschichte der Fifty Fathoms beginnt mit einem Schreck. Jean-Jacques Fiechter, seit 1950 Chef von Blancpain und begeisterter Sporttaucher, erzählte später, er habe bei einem Tauchgang die Zeit aus den Augen verloren und gemerkt, wie gefährlich das unter Wasser ist. Etwa zur selben Zeit suchten Robert Maloubier und Claude Riffaud, die Gründer der Kampfschwimmer der französischen Marine, eine Uhr, die ihren Einsätzen standhielt. Ihre Wünsche waren genau: ein schwarzes Zifferblatt mit großen Leuchtzeichen, eine Lünette für die Tauchzeit, die sich nicht versehentlich verstellt, ein zuverlässig dichtes Gehäuse und Automatikaufzug, damit die Krone möglichst selten geöffnet werden muss. Fiechter baute diese Uhr und nannte sie nach 50 Faden, rund 91 Metern, damals die Grenze für Tauchgänge mit Pressluft.",
+   "Bei Rolex trieb René-Paul Jeanneret die Entwicklung voran, ein Mitarbeiter der Marke, der selbst tauchte. Die erste Submariner, die Referenz 6204, hatte 37 Millimeter, das Automatikkaliber A260 und war bis 100 Meter wasserdicht. Rolex ließ sie von Tauchern erproben und machte sie über den Handel bekannt; Kampfschwimmer, Forscher und Abenteurer wurden zu ihren besten Werbeträgern. 1960 fuhr eine Experimentaluhr im Oyster-Prinzip außen am Bathyscaphe »Trieste« bis in den Marianengraben.",
+   "Beide Uhren fanden schnell berühmte Träger. Jacques Cousteau und seine Taucher trugen die Fifty Fathoms in »Die schweigende Welt«, der 1956 in Cannes die Goldene Palme gewann, und die US-Marine bestellte gegen Ende der 1950er-Jahre über den Händler Allen Tornek eine eigene Ausführung, die »Tornek-Rayville«. Die Submariner kam 1962 an das Handgelenk von Sean Connery, im ersten James-Bond-Film »James Bond jagt Dr. No«, und wurde damit über Nacht zur Uhr eines Lebensgefühls."
+  ],
+  "how": [
+   [
+    "Die Lünette: Zeitmessung unter Wasser",
+    "Beide Uhren lösen dieselbe Aufgabe: Vor dem Abtauchen stellt man die Null der Lünette auf den Minutenzeiger und liest dann ab, wie lange man schon unten ist. Fiechter legte großen Wert darauf, dass sich diese Einstellung nicht unbemerkt verschiebt, und sicherte die Lünette der Fifty Fathoms gegen versehentliches Verdrehen. Die frühen Submariner-Lünetten ließen sich dagegen in beide Richtungen drehen; die heute übliche einseitig rastende Lünette, die eine Tauchzeit höchstens zu lang, nie zu kurz anzeigt, setzte sich bei Rolex erst Ende der 1970er-Jahre durch. Heute haben beide eine einseitig drehbare Lünette, die Submariner mit Keramikeinlage, die Fifty Fathoms mit gewölbtem Saphirglas über der leuchtenden Skala.",
+    [
+     "luenette"
+    ]
+   ],
+   [
+    "Gehäuse und Dichtheit",
+    "Die Submariner baut auf dem Oyster-Gehäuse von 1926 auf: Boden, Glasring und Krone werden verschraubt, die Dichtungen sitzen unter Druck. Aus 100 Metern wurden Mitte der 1950er-Jahre 200 und 1979 mit der Referenz 16800 und ihrem Saphirglas 300 Meter; die heutige Triplock-Krone dichtet mit drei Dichtzonen. Die Fifty Fathoms setzte 1953 auf eine doppelt gedichtete Krone, damit eine einzelne beschädigte Dichtung nicht gleich Wasser ins Werk lässt. Heute sind beide bis 300 Meter wasserdicht, was für Sporttaucher mehr als genügt.",
+    [
+     "wasserdichtigkeit"
+    ]
+   ],
+   [
+    "Magnetfelder und Leuchtmasse",
+    "Eine Besonderheit der ersten Fifty Fathoms war ein Innengehäuse aus Weicheisen, das das Werk vor Magnetfeldern schützte, etwa von Minen und Instrumenten an Bord. Leuchten mussten beide Uhren im trüben Wasser: anfangs mit Radium, später mit Tritium, das mit den Jahrzehnten die cremefarbene Patina vieler Vintage-Zifferblätter erzeugt hat. Einige Fifty Fathoms der späten 1950er- und 1960er-Jahre tragen ein durchgestrichenes Radioaktivitätszeichen auf dem Zifferblatt, als Hinweis darauf, dass sie ohne Radium auskamen. Heute leuchtet die Submariner mit Rolex' blauer Chromalight-Masse, die Fifty Fathoms mit Super-LumiNova.",
+    [
+     "leuchtmasse"
+    ]
+   ],
+   [
+    "Das Werk",
+    "Beide Uhren hatten von Beginn an Automatikaufzug, denn jedes Aufziehen bedeutete, die Krone zu öffnen. In der heutigen Submariner arbeitet das Kaliber 3230, in der Submariner Date das 3235: Manufakturwerke mit 4 Hertz, blauer Parachrom-Spirale, rund 70 Stunden Gangreserve und einer Genauigkeit von zwei Sekunden pro Tag, die Rolex nach dem Einschalen prüft. Die Fifty Fathoms trägt das Blancpain-Kaliber 1315 mit drei Federhäusern und etwa fünf Tagen, also 120 Stunden, Gangreserve. Ungewöhnlich für eine Taucheruhr: Die Fifty Fathoms zeigt ihr Werk durch einen Saphirglasboden, die Submariner hat einen geschlossenen, verschraubten Boden.",
+    [
+     "automatik",
+     "chronometer"
+    ]
+   ],
+   [
+    "Größe und Tragegefühl",
+    "Mit 41 Millimetern und schlanken Bandanstößen ist die heutige Submariner fast so dezent wie ihre Vorfahrin, dazu kommt das Oyster-Band mit Glidelock-Verlängerung, die sich ohne Werkzeug über einen Neoprenanzug weiten lässt. Die Fifty Fathoms gibt es mit 45 Millimetern und seit dem 70. Jubiläum 2023 auch mit 42 Millimetern; sie wirkt kräftiger, mit großen arabischen Ziffern und der markanten gewölbten Lünette, und wird oft an Textil- oder Kautschukband getragen. Wer sie anprobiert, merkt schnell, dass hier nicht dieselbe Uhr in zwei Ausführungen gebaut wurde, sondern zwei Antworten auf dieselbe Frage."
+   ]
+  ],
+  "x": [
+   "Im Uhrenvergleich von WikiTicks lassen sich die heutige Submariner und die Fifty Fathoms direkt gegenüberstellen, mit Datenblatt, Preisen und Erkennungsmerkmalen.",
+   "Welche der beiden Uhren zuerst da war, ist unter Sammlern ein beliebter Streit: Die Fifty Fathoms wurde 1953 an die französische Marine geliefert, die Submariner im selben Jahr vorgestellt und kurz darauf öffentlich gezeigt. Beide gelten zu Recht als Pioniere.",
+   "Die Norm ISO 6425, die heute festlegt, was eine Taucheruhr können muss, entstand erst Jahrzehnte später. Viele ihrer Anforderungen, von der einseitigen Lünette bis zur Ablesbarkeit im Dunkeln, standen schon im Lastenheft der französischen Kampfschwimmer.",
+   "Bei frühen Exemplaren beider Uhren sind originale Zifferblätter und Zeiger entscheidend für den Wert; ausgetauschte Teile mit frischer Leuchtmasse erkennt man oft an einem Farbunterschied zwischen Zeigern und Indizes."
+  ],
+  "f": [
+   [
+    "Gemeinsames Jahr",
+    "1953"
+   ],
+   [
+    "Fifty Fathoms",
+    "entwickelt mit den Kampfschwimmern der französischen Marine, benannt nach 50 Faden (rund 91 m)"
+   ],
+   [
+    "Submariner",
+    "Ref. 6204: 37 mm, Automatikkaliber A260, 100 m"
+   ],
+   [
+    "Heute",
+    "beide 300 m; Submariner 41 mm, 70 h Gangreserve; Fifty Fathoms 42 oder 45 mm, 120 h Gangreserve"
+   ]
+  ],
+  "r": [
+   "submariner",
+   "fifty-fathoms",
+   "taucheruhr",
+   "luenette",
+   "wasserdichtigkeit",
+   "leuchtmasse",
+   "tiefsee-rekorde",
+   "james-bond",
+   "quarzkrise"
+  ],
+  "k": "Die Fifty Fathoms und die Submariner erschienen beide 1953, die eine für Kampfschwimmer, die andere für einen Markt, den es erst zu entdecken galt.",
+  "fig": {
+   "m": [
+    "fifty-fathoms",
+    "submariner"
+   ],
+   "mc": [
+    "Fifty Fathoms Automatique von heute",
+    "Submariner Ref. 5513, gebaut 1962 bis 1989"
+   ],
+   "img": [
+    null,
+    "assets/watches/rolex-submariner-5513.jpg"
+   ],
+   "at": [
+    null,
+    "g2"
    ]
   }
  },

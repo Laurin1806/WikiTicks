@@ -3025,7 +3025,7 @@
    "since": "1953",
    "s": "Die Taucheruhr, die seit 1953 das Bild einer Taucheruhr prägt: drehbare Lünette, große Leuchtindizes, verschraubte Krone.",
    "b": [
-    "Die Submariner entstand aus einer Überzeugung, die Rolex seit 1926 verfolgte: Das Oyster-Gehäuse mit verschraubter Krone, Lünette und Boden war die erste serienreife wasserdichte Armbanduhr, und Hans Wilsdorf wollte diesen Vorsprung im Sport und in der Berufspraxis belegen. Für die Submariner gilt René-Paul Jeanneret, ein in Rolex-Diensten stehender Sporttaucher, als treibende Kraft. Auf der Basler Messe 1953 stellte Rolex die Referenz 6204 vor: 37 Millimeter, Handaufzugskaliber A260, 100 Meter Wasserdichtigkeit und eine drehbare Lünette, mit der Taucher ihre Tauchzeit mitlesen. Im selben Jahr erschien die Blancpain Fifty Fathoms; beide Uhren gelten als Urform der modernen Taucheruhr.",
+    "Die Submariner entstand aus einer Überzeugung, die Rolex seit 1926 verfolgte: Das Oyster-Gehäuse mit verschraubter Krone, Lünette und Boden war die erste serienreife wasserdichte Armbanduhr, und Hans Wilsdorf wollte diesen Vorsprung im Sport und in der Berufspraxis belegen. Für die Submariner gilt René-Paul Jeanneret, ein in Rolex-Diensten stehender Sporttaucher, als treibende Kraft. Auf der Basler Messe 1953 stellte Rolex die Referenz 6204 vor: 37 Millimeter, Automatikkaliber A260, 100 Meter Wasserdichtigkeit und eine drehbare Lünette, mit der Taucher ihre Tauchzeit mitlesen. Im selben Jahr erschien die Blancpain Fifty Fathoms; beide Uhren gelten als Urform der modernen Taucheruhr.",
     "Rolex untermauerte den Anspruch spektakulär: Am 23. Januar 1960 tauchten Jacques Piccard und Don Walsh im Bathyscaphe »Trieste« in den Marianengraben, auf rund 10.900 Metern Tiefe. Außen am Rumpf war eine Experimentaluhr, die »Deep Sea Special«, befestigt und lief nach dem Aufstieg weiter. Mit der Serien-Submariner hatte sie nur die Gehäusebauweise gemein, aber sie wurde zum wichtigsten Werbebild der Marke.",
     "In den ersten Jahren folgten rasch neue Referenzen: Die 6200 und die 6538 aus der Mitte der 1950er-Jahre erreichten 200 Meter und trugen die auffällige große Krone mit rund acht Millimetern Durchmesser, sie heißen unter Sammlern »Big Crown«. Die 6538 trug Sean Connery 1962 in »James Bond jagt Dr. No«. Kronenschutz erhielt die Submariner Ende der 1950er-Jahre. Die 5512 von 1959 war die erste Submariner mit Chronometerzertifikat, die 5513 von 1962 die schlichtere Variante ohne Zertifikat und mit etwas günstigerem Werk. Gebaut wurde sie bis 1989, ein Vierteljahrhundert, kaum verändert, und sie ist deshalb die Referenz, an der sich fast jede spätere Taucheruhr messen lässt.",
     "Das Zifferblatt der 5512 und 5513 durchlief mehrere Generationen, die Sammler genau unterscheiden: »Gilt«-Zifferblätter mit goldfarbenen Aufdrucken bis etwa 1967, danach matte Zifferblätter, bei den frühen Exemplaren mit der Tiefenangabe »Meters First« vor »Feet«, später »Feet First«. Die Leuchtmasse wechselte von Radium (bis etwa 1963) zu Tritium (bis etwa 1998), was den Farbton gealterter Zifferblätter prägt. 1967 stellte Rolex mit der Sea-Dweller eine Taucheruhr für Sättigungstaucher vor; die Submariner blieb die Uhr für den Sporttaucher.",
@@ -3161,7 +3161,8 @@
     "keramik",
     "leuchtmasse",
     "sea-dweller",
-    "seamaster-300m"
+    "seamaster-300m",
+    "submariner-fifty-fathoms"
    ],
    "k": "Im ersten James-Bond-Film von 1962 trug Sean Connery eine Rolex Submariner.",
    "a": [],
@@ -16001,7 +16002,8 @@
    "r": [
     "submariner",
     "luenette",
-    "wasserdichtigkeit"
+    "wasserdichtigkeit",
+    "submariner-fifty-fathoms"
    ],
    "k": "50 Faden, der Namensgeber der Blancpain Fifty Fathoms, entsprechen rund 91 Metern.",
    "a": [],
