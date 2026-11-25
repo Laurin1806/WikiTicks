@@ -465,7 +465,7 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage .accent-switch .sw-blue { background: #26746d; } :root.vintage .accent-switch .sw-green { background: #5a6e28; } :root.vintage .accent-switch .sw-bordeaux { background: #8e3140; }
 :root.vintage.night .accent-switch .sw-blue { background: #7da6ec; } :root.vintage.night .accent-switch .sw-green { background: #8fe8b4; box-shadow: 0 0 6px rgba(143,232,180,.6); } :root.vintage.night .accent-switch .sw-bordeaux { background: #e58fa1; } :root.vintage.night .accent-switch .sw-anthrazit { background: #bcc4ce; }
 :root.vintage h2, :root.vintage .daily h2 { font-weight: 500; letter-spacing: -.015em; }
-:root.vintage .section-title { font-weight: 500; letter-spacing: .01em; }
+:root.vintage .art-h, :root.vintage .section-title { font-family: "Unbounded", "Arial Black", system-ui, sans-serif; } /* gleiche Schrift wie normal: kein Umbruch-Unterschied, nichts verschiebt sich */
 :root.vintage .daily .kicker, :root.vintage .fcard .kicker { font-weight: 500; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; }
 /* Kacheln wie ein Zifferblatt der 60er: polierte Lünette (heller und dunkler Ring), gewölbtes Glas mit Lichtreflex */
 :root.vintage .card, :root.vintage .watchfig, :root.vintage .fcard, :root.vintage .pagetile, :root.vintage .brandinfo, :root.vintage .refs-wrap, :root.vintage .daily { background: radial-gradient(130% 90% at 25% -10%, rgba(255,255,255,.75), transparent 50%), var(--surface); border-color: #cdc7b9; box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 rgba(0,0,0,.05), 0 0 0 3px #f4f2ec, 0 0 0 4px #d2ccbf, 0 6px 16px rgba(60,50,30,.06); }
@@ -480,7 +480,7 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage.night .card:hover, :root.vintage.night .fcard:hover, :root.vintage.night a.watchfig:hover, :root.vintage.night .card:active, :root.vintage.night .fcard:active, :root.vintage.night a.watchfig:active { box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 0 0 3px #0d0f12, 0 0 0 4px var(--accent), 0 0 16px color-mix(in srgb, var(--accent) 50%, transparent), 0 0 40px color-mix(in srgb, var(--accent) 22%, transparent); }
 :root.vintage.night[data-accent="green"] .card:hover, :root.vintage.night[data-accent="green"] .fcard:hover, :root.vintage.night[data-accent="green"] a.watchfig:hover, :root.vintage.night[data-accent="green"] .card:active, :root.vintage.night[data-accent="green"] .fcard:active, :root.vintage.night[data-accent="green"] a.watchfig:active { border-color: #8fe8b4; box-shadow: inset 0 1px 0 rgba(160,255,200,.1), inset 0 0 22px rgba(80,220,140,.08), 0 0 0 3px #0b110d, 0 0 0 4px #9ff0c2, 0 0 14px rgba(130,250,180,.55), 0 0 40px rgba(90,230,150,.28); }
 /* aufgesetzter goldener Stabindex vor Zwischenüberschriften, Minuterie als Trennlinie darunter */
-:root.vintage .art-h::before { content: ""; display: inline-block; width: 4px; height: .82em; margin-right: 11px; vertical-align: -1px; border-radius: 1px; background: linear-gradient(90deg, #f3e2b0, #b98f3a 55%, #8a6a26); box-shadow: 0 0 0 .5px rgba(0,0,0,.18), 1px 1px 1px rgba(0,0,0,.12); }
+:root.vintage .art-h::before { content: ""; position: absolute; left: -12px; top: .2em; width: 4px; height: .82em; border-radius: 1px; background: linear-gradient(90deg, #f3e2b0, #b98f3a 55%, #8a6a26); box-shadow: 0 0 0 .5px rgba(0,0,0,.18), 1px 1px 1px rgba(0,0,0,.12); }
 :root.vintage .art-h { position: relative; }
 :root.vintage .art-h::after { content: ""; position: absolute; left: 0; right: 0; bottom: -8px; height: 6px; pointer-events: none; opacity: .55; background: repeating-linear-gradient(90deg, var(--muted) 0 1px, transparent 1px 7px) left bottom / 100% 5px no-repeat, linear-gradient(var(--muted), var(--muted)) left bottom / 100% 1px no-repeat; -webkit-mask: linear-gradient(90deg, #000 30%, transparent); mask: linear-gradient(90deg, #000 30%, transparent); }
 /* Tritiumpunkte als Aufzählungszeichen und in der Zeitleiste */
@@ -1174,7 +1174,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112615";
+const IMGV = "2026112616";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2239,7 +2239,7 @@ function viewModels() {
     <h2 class="page-title">Alle Marken</h2>
     <p class="intro">Alle Marken mit ihren Modellen, von A. Lange &amp; Söhne bis Zodiac. Mit einem Tipp auf eine Marke kommst du zu Geschichte, Grunddaten und allen Modellen.</p>
     <div class="vhead"><div>
-    <p class="count">${plural(VINTAGE ? new Set(vintFilter(MODELS).map(e => e.brand)).size : BRANDS.length, "Marke", "Marken")} · ${plural(vintFilter(MODELS).length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Ansicht: nur Modelle mit Bild einer Ausführung vor 1990" : ""}</p></div>${vtoggle()}</div>
+    <p class="count">${plural(VINTAGE ? new Set(vintFilter(MODELS).map(e => e.brand)).size : BRANDS.length, "Marke", "Marken")} · ${plural(vintFilter(MODELS).length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Auswahl" : ""}</p></div>${vtoggle()}</div>
     <div class="toc catchips">${BRANDS.filter(b => !VINTAGE || vintFilter(MODELS.filter(e => e.brand === b)).length).map(b => `<a href="#marke-${slug(b)}">${esc(b)}</a>`).join("")}</div>
     </div>
     ${listMode ? brandList() : `<div class="grid">${BRANDS.map(b => {
@@ -2288,7 +2288,7 @@ function viewBrand(b) {
       ${info.zeit ? `<h3 class="art-h">Zeitleiste</h3><ol class="timeline">${info.zeit.map(([y, t]) => `<li><span class="ty">${esc(y)}</span><span class="tt">${linkify(esc(t), "marke-" + slug(b), used)}</span></li>`).join("")}</ol>` : ""}
     </article>` : ""}` : `<h2 class="page-title">${esc(b)}</h2>`}
     <div class="vhead" id="brand-models"><div><h3 class="section-title">Modelle</h3>
-    <p class="count">${plural(ms.length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Ansicht: nur Modelle mit Bild einer Ausführung vor 1990" : ""}</p></div>${vtoggle()}</div>
+    <p class="count">${plural(ms.length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Auswahl" : ""}</p></div>${vtoggle()}</div>
     ${listMode
       ? `<ul class="mlist">${ms.map(e => `<li><a href="#${e.id}">${esc(shortName(e))}</a><small>${esc(e.since ? "seit " + e.since : "Modell")}</small><br><span>${esc(e.s)}</span></li>`).join("")}</ul>`
       : `<div class="grid">${ms.map(e => `
