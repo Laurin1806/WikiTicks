@@ -507,6 +507,8 @@ canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; he
 :root.night .wimg-wrap[data-nt="1"] > img.wimg { opacity: 0; }
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wimg { opacity: 0; animation: wshow .6s ease 1.4s forwards; } /* Sicherheitsnetz: klappt die Nachtebene nicht rasch, erscheint das Bild trotzdem */
 @keyframes wshow { to { opacity: 1; } }
+.wimg-wrap canvas.nfresh { opacity: 0 !important; transition: none !important; }
+:root.wdim .wimg-wrap canvas.nfresh { opacity: 1 !important; } /* in der Überblendung sofort da */
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wlume-img { opacity: 0; } /* keine Leuchtmasse ohne Uhr: erst mit der Nachtebene einblenden */ /* bis die Nachtebene berechnet ist: kein heller Kasten, die Uhr blendet danach ein */
 :root.night canvas.wcut { opacity: 1; }
 canvas.wlume { mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0 .8px rgba(var(--lc1), 1)) drop-shadow(0 0 2.2px rgba(var(--lc1), .95)) drop-shadow(0 0 6px rgba(var(--lc2), .8)) drop-shadow(0 0 14px rgba(var(--lc3), .45)); animation: lumeglow 5s ease-in-out infinite; animation-play-state: paused; }
@@ -1194,7 +1196,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112632";
+const IMGV = "2026112634";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2829,7 +2831,8 @@ function nightPrep(img) {
     for (let i = 0; i < N; i++) if (keep[i]) { lo[i * 4] = col[0]; lo[i * 4 + 1] = col[1]; lo[i * 4 + 2] = col[2]; lo[i * 4 + 3] = lz === "L" ? 215 : 255; }
     lx.putImageData(ld, 0, 0);
     cut.className = "wlayer wcut"; lu.className = "wlayer wlume"; cut.setAttribute("aria-hidden", "true"); lu.setAttribute("aria-hidden", "true");
-    wrap.append(cut, lu); wrap.dataset.nt = "1";
+    cut.classList.add("nfresh"); lu.classList.add("nfresh"); wrap.append(cut, lu); wrap.dataset.nt = "1";
+    requestAnimationFrame(() => requestAnimationFrame(() => { cut.classList.remove("nfresh"); lu.classList.remove("nfresh"); })); // weich einblenden (auch ohne @starting-style)
   } catch (e) { wrap.dataset.nt = "x"; } // z. B. beim Öffnen als Datei: dann nur abdunkeln
 }
 function nightApply() { if (document.documentElement.classList.contains("night")) document.querySelectorAll(".wimg-wrap > img.wimg").forEach(nightPrep); else nightIdle(); }
@@ -2931,27 +2934,33 @@ function setVintage(on, src) {
       const cs = getComputedStyle(root);
       root.style.setProperty("--accent", darkOf(cs.getPropertyValue("--accent"))); root.style.setProperty("--gold", darkOf(cs.getPropertyValue("--gold"))); root.style.setProperty("--gl", "0");
     } else if (window.applyAccent) fadeAccent(window.applyAccent);
-    const y = window.scrollY, navOpen = $("#nav").classList.contains("open"); route(); window.scrollTo({ top: y }); requestAnimationFrame(() => window.scrollTo({ top: y }));
+    const y = window.scrollY, navOpen = $("#nav").classList.contains("open"); route();
+    if (vtNight) document.querySelectorAll("#view img.wimg").forEach(im => { const r = im.getBoundingClientRect(); if (r.bottom > -200 && r.top < innerHeight + 200 && im.complete) nightPrep(im); }); window.scrollTo({ top: y }); requestAnimationFrame(() => window.scrollTo({ top: y }));
     if (navOpen) { $("#nav").classList.add("open"); $("#menu").setAttribute("aria-expanded", "true"); } // Menü bleibt offen wie beim Nachtmodus
   };
   // ganze Seite weich überblenden (auch Verläufe, Lünetten der Kacheln, Schrift); der sichtbare Knopf bleibt live, damit seine Animation zu sehen ist
   const live = (src && src.offsetParent) ? src : btns.find(b => b.offsetParent && b.getBoundingClientRect().bottom > 0 && b.getBoundingClientRect().top < innerHeight); // der angeklickte Knopf bleibt live, nur er
+  const go = () => {
   if (useVT) {
     if (live) live.style.viewTransitionName = "vintbtn";
     const night = root.classList.contains("night"); if (night) root.classList.add("vt-night");
-    // neue Uhrenbilder erst laden, dann überblenden (sonst erscheinen sie leer und ploppen danach auf)
-    const vt = document.startViewTransition(async () => {
-      update();
-      const vis = [...document.querySelectorAll("#view img.wimg")].filter(im => { const r = im.getBoundingClientRect(); return r.bottom > -200 && r.top < innerHeight + 200; });
-      vis.forEach(im => { im.loading = "eager"; });
-      await Promise.race([Promise.all(vis.map(im => im.decode().catch(() => {}))), new Promise(r => setTimeout(r, 700))]);
-    });
+    const vt = document.startViewTransition(update);
     vt.finished.finally(() => {
       if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
       if (root.classList.contains("night")) nightApply(); // Nachtebenen der neuen Bilder erst nach der Überblendung berechnen (Safari)
       if (night) { requestAnimationFrame(() => root.classList.remove("wdim")); root.classList.add("accent-fade", "accent-slow"); requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); }); }
     });
   } else update();
+  };
+  // neue Uhrenbilder der sichtbaren Einträge vorab laden, dann überblenden (ohne Warten in der Überblendung – Safari zeigt sonst kurz Schwarz)
+  if (useVT) {
+    const ids = new Set([decodeURIComponent((location.hash || "#").slice(1))]);
+    document.querySelectorAll('#view a[href^="#"]').forEach(a => { const r = a.getBoundingClientRect(); if (r.bottom > -100 && r.top < innerHeight + 100) ids.add(a.getAttribute("href").slice(1)); });
+    const urls = [...ids].map(id => byId[id]).filter(e => e && e.brand).map(e => { const v = mainV(e); return v && v.img; }).filter(Boolean);
+    if (byId[[...ids][0]] && byId[[...ids][0]].brand) (byId[[...ids][0]].var || []).forEach(x => x.v && x.v.img && urls.push(x.v.img));
+    const pre = [...new Set(urls)].slice(0, 24).map(u => { const im = new Image(); im.src = `${u}?v=${IMGV}`; return im.decode().catch(() => {}); });
+    Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 650))]).then(go);
+  } else go();
   btns.forEach(b => { const sv = b.querySelector(".vdial"); if (sv) vdialAnim(sv, on); });
 }
 document.addEventListener("touchstart", () => {}, { passive: true }); // damit :active (Leuchten beim Antippen) auch auf iOS greift
