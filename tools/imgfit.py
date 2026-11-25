@@ -36,7 +36,8 @@ for m in M['modelle']:
     f=img.split('/')[-1]
     try: frac,dx=meas(img)
     except Exception as e: print('Fehler',f,e); continue
-    sc=round(max(.7,min(1.25,k*mm/frac)),3)
+    shaped=re.search(r'santos|tank|reverso|ellipse|crash|panthere|baignoire|oysterquartz|cle-de|tortue|twenty4|bubbleback|monaco|carree|rectang',f)
+    sc=round(max(.72,min(1.0 if shaped else 1.08,k*mm/frac)),3)   # Formuhren werden höchstens zentriert und verkleinert (Breite misst ihr Gehäuse nicht zuverlässig)
     fit[f]=[sc,round(-dx,4)]; print(m['id'],f,mm,'mm  Skala',sc,'Versatz',round(-dx,3))
 M['imgFit']=fit
 json.dump(M,open('modelle.json','w'),ensure_ascii=False,indent=1)
