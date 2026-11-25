@@ -34801,7 +34801,7 @@
    ],
    "b": [
     "2017, fünfzig Jahre nach der ersten Sea-Dweller, stellte Rolex die Referenz 126600 vor. Das Gehäuse wuchs von 40 auf 43 Millimeter, und auf dem Zifferblatt kehrte eine rote Zeile zurück: Der Schriftzug »Sea-Dweller« ist rot, als Gruß an die »Double Red« der späten 1960er-Jahre. Zum ersten Mal hat eine Sea-Dweller auch eine Zykloplupe über dem Datum, was unter Puristen für Diskussionen sorgte.",
-    "Das Heliumventil im Gehäuseflanken bei 9 Uhr lässt beim Aufstieg aus der Druckkammer eingedrungenes Gas entweichen. Die Uhr ist bis 1220 Meter, 4000 Fuß, wasserdicht, mit verschraubter Triplock-Krone und einer einseitig drehbaren Keramiklünette aus Cerachrom.",
+    "Das Heliumventil in der Gehäuseflanke bei 9 Uhr lässt beim Aufstieg aus der Druckkammer eingedrungenes Gas entweichen. Die Uhr ist bis 1220 Meter, 4000 Fuß, wasserdicht, mit verschraubter Triplock-Krone und einer einseitig drehbaren Keramiklünette aus Cerachrom.",
     "Im Inneren arbeitet das Kaliber 3235 mit Chronergy-Hemmung, Parachrom-Spirale und etwa 70 Stunden Gangreserve. Das Oyster-Band hat eine Glidelock-Schließe und die Fliplock-Verlängerung, mit der sich das Band weit über einen Taucheranzug öffnen lässt."
    ],
    "vh": [
@@ -34876,6 +34876,103 @@
     {
      "m": "seamaster-300m",
      "c": "Die Seamaster Diver 300M hat ihr Heliumventil sichtbar bei 10 Uhr."
+    }
+   ]
+  },
+  {
+   "id": "yacht-master-126622",
+   "model": "yacht-master",
+   "ref": "126622",
+   "alias": [
+    "126622-0001",
+    "16622",
+    "126621",
+    "126655",
+    "268622"
+   ],
+   "var": null,
+   "t": "Rolex Yacht-Master 40 Ref. 126622",
+   "bau": "seit 2019",
+   "cap": "in Rolesium mit schiefergrauem Zifferblatt",
+   "s": "Die Yacht-Master in Rolesium: Gehäuse aus Stahl, Lünette mit erhabenen Ziffern aus Platin – die elegante Segleruhr unter den Rolex-Sportmodellen.",
+   "bh": [
+    "Eine Uhr für den Yachthafen",
+    "Rolesium: Stahl und Platin",
+    "Das Werk"
+   ],
+   "b": [
+    "Die Yacht-Master kam 1992 als jüngstes Mitglied der Rolex-Sportfamilie, zunächst nur in Gelbgold. Sie sieht einer Submariner ähnlich, richtet sich aber an Segler und den Yachthafen statt an Taucher: Die drehbare Lünette hat erhabene, polierte Ziffern, die Wasserdichtigkeit ist mit 100 Metern geringer, die Erscheinung feiner. 1999 folgte mit der Referenz 16622 die erste Yacht-Master in Rolesium.",
+    "Rolesium nennt Rolex die Verbindung von Edelstahl und Platin. Bei der Yacht-Master ist die Lünette aus massivem Platin, mit satiniertem Grund und hochglanzpolierten, erhabenen Ziffern, das Gehäuse aus Oystersteel. Das Zifferblatt der 126622 ist schiefergrau oder blau, mit Zeigern und Indizes in Weißgold. Die Lünette lässt sich in beide Richtungen drehen, etwa um die Zeit bis zum Start einer Regatta abzulesen.",
+    "2019 erhielt die Yacht-Master 40 mit der Referenz 126622 das Kaliber 3235 mit Chronergy-Hemmung, Parachrom-Spirale und etwa 70 Stunden Gangreserve. Das Gehäuse misst 40 Millimeter, das Glas ist aus Saphir mit Zykloplupe über dem Datum."
+   ],
+   "vh": [
+    [
+     "Everose und Oysterflex",
+     "Neben Rolesium gibt es die Yacht-Master 40 in Everose-Rolesor mit schokoladenbraunem Zifferblatt (126621) und ganz in Everose-Gold am schwarzen Oysterflex-Kautschukband (126655), mit schwarzer Keramiklünette. Mit 42 Millimetern gibt es sie in Weißgold und Titan, mit 37 Millimetern als kleinere Ausführung (268622)."
+    ]
+   ],
+   "m": [
+    "40 mm, Lünette aus Platin mit erhabenen, polierten Ziffern",
+    "Beidseitig drehbare Lünette",
+    "Schiefergraues oder blaues Zifferblatt, roter Sekundenzeiger",
+    "Datum mit Zykloplupe"
+   ],
+   "ev": [
+    [
+     "1992",
+     "Erste Yacht-Master in Gelbgold"
+    ],
+    [
+     "1999",
+     "Erste Yacht-Master in Rolesium (Ref. 16622)"
+    ],
+    [
+     "2019",
+     "Ref. 126622 mit Kaliber 3235"
+    ]
+   ],
+   "x": [
+    "Die Platinlünette ist der eigentliche Luxus der Rolesium-Yacht-Master; sie verleiht der Uhr einen kühleren Glanz als eine Stahllünette.",
+    "Die Yacht-Master ist meist leichter beim Konzessionär erhältlich als Submariner oder GMT-Master."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Oystersteel, Lünette Platin"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3235, Automatik, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "116622"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "aquanaut",
+     "c": "Patek Philippes Aquanaut ist die sportlich-elegante Uhr für Freizeit und Wasser, mit Kautschukband."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra trägt ihren Namen nach Wasser und Land und hat ein Teakdeck-Zifferblatt wie eine Yacht."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas ist die Luxus-Sportuhr für Reisen und Meer."
     }
    ]
   }
