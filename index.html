@@ -553,6 +553,7 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 ::view-transition-old(root), ::view-transition-new(root) { animation-duration: 1s; animation-timing-function: ease-in-out; }
 ::view-transition-group(nightbtn) { animation: none; } ::view-transition-old(nightbtn) { display: none; } ::view-transition-new(nightbtn) { animation: none; }
 :root.vt-night::view-transition-old(root), :root.vt-night::view-transition-new(root) { animation-duration: .55s; }
+:root.wswap::view-transition-old(root), :root.wswap::view-transition-new(root) { animation-duration: .4s; } /* Uhren sind dabei ausgeblendet: kurze Seitenüberblendung */
 ::view-transition-group(vintbtn) { animation: none; } ::view-transition-old(vintbtn) { display: none; } ::view-transition-new(vintbtn) { animation: none; }
 :root.accent-fade { transition: --accent .8s ease-in-out, --accent-soft .8s ease-in-out, --gold .8s ease-in-out, --gl .8s ease-in-out; }
 :root.night.accent-fade.accent-slow { transition: --accent .7s ease-out, --accent-soft .7s ease-out, --gold .7s ease-out, --gl .7s ease-out !important; }
@@ -1201,7 +1202,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112638";
+const IMGV = "2026112640";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2962,8 +2963,8 @@ function setVintage(on, src) {
       if (root.classList.contains("wswap")) { // neue Ausführung einblenden, sobald ihre Nachtebenen fertig sind
         const t0 = performance.now();
         const ready = () => [...document.querySelectorAll("#view .wimg-wrap")].filter(w => { const r = w.getBoundingClientRect(); return r.bottom > 0 && r.top < innerHeight; }).every(w => w.dataset.nt === "1" || w.dataset.nt === "x");
-        const wait = () => { if (ready() || performance.now() - t0 > 1200) { setTimeout(() => { root.classList.remove("whide"); setTimeout(() => root.classList.remove("wswap"), 1100); }, 200); } else setTimeout(wait, 60); };
-        setTimeout(wait, 120);
+        const wait = () => { if (ready() || performance.now() - t0 > 1200) { setTimeout(() => { root.classList.remove("whide"); setTimeout(() => root.classList.remove("wswap"), 1100); }, 30); } else setTimeout(wait, 40); };
+        wait();
       }
       if (night) { requestAnimationFrame(() => root.classList.remove("wdim", "wkeep")); root.classList.add("accent-fade", "accent-slow"); requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); }); }
     });
@@ -2978,7 +2979,7 @@ function setVintage(on, src) {
     const pre = [...new Set(urls)].slice(0, 24).map(u => { const im = new Image(); im.src = `${u}?v=${IMGV}`; return im.decode().catch(() => {}); });
     const swap = root.classList.contains("night");
     if (swap) { root.classList.add("wswap"); requestAnimationFrame(() => root.classList.add("whide")); } // alte Uhren ausblenden
-    Promise.all([Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 900))]), new Promise(r => setTimeout(r, swap ? 880 : 0))]).then(go);
+    Promise.all([Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 900))]), new Promise(r => setTimeout(r, swap ? 560 : 0))]).then(go);
   } else go();
   btns.forEach(b => { const sv = b.querySelector(".vdial"); if (sv) vdialAnim(sv, on); });
 }
