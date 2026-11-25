@@ -33271,6 +33271,100 @@
      "c": "Die Blancpain Fifty Fathoms, die zweite Taucheruhr von 1953, heute mit Saphirlünette und fünf Tagen Gangreserve."
     }
    ]
+  },
+  {
+   "id": "daytona-6239",
+   "model": "daytona",
+   "ref": "6239",
+   "alias": [
+    "6241"
+   ],
+   "var": 0,
+   "t": "Rolex Cosmograph Daytona Ref. 6239",
+   "bau": "1963–1969",
+   "cap": "mit exotischem Zifferblatt, bekannt als »Paul Newman«",
+   "s": "Die erste Daytona: ein Handaufzugs-Chronograph für Rennfahrer, der erst Jahrzehnte später zur teuersten Armbanduhr der Welt wurde.",
+   "bh": [
+    "Ein Chronograph für die Rennstrecke",
+    "Gehäuse, Lünette und Werk",
+    "Das »Paul Newman«-Zifferblatt",
+    "Vom Ladenhüter zur Rekorduhr"
+   ],
+   "b": [
+    "1963 stellte Rolex mit der Referenz 6239 einen neuen Chronographen vor, den »Cosmograph«. Schon bald trug er den Namen »Daytona«, nach dem Rennkurs in Florida, auf dem Rolex als Zeitnehmer auftrat. Die Uhr richtete sich an Rennfahrer: Mit dem Chronographen ließen sich Rundenzeiten stoppen, mit der Tachymeterskala die Durchschnittsgeschwindigkeit ablesen.",
+    "Neu war vor allem, dass die Tachymeterskala nicht mehr auf das Zifferblatt gedruckt, sondern in eine Metalllünette graviert war. Das machte das Zifferblatt aufgeräumter und die Hilfszifferblätter, die sich farblich vom Grund abheben, besser lesbar. Das Gehäuse misst 37 Millimeter, die Drücker sind noch nicht verschraubt. Im Inneren arbeitet ein Handaufzugswerk auf Basis des Valjoux 72, eines bewährten Chronographenkalibers mit Schaltrad, das Rolex als Kaliber 722 bezeichnete. Neben der Stahluhr gab es die 6239 auch in Gold, und die eng verwandte 6241 unterschied sich vor allem durch eine schwarze Lünette aus Kunststoff.",
+    "Neben dem normalen Zifferblatt bot Rolex eine auffälligere Ausführung an, mit Art-déco-Ziffern, Hilfszifferblättern mit kleinen quadratischen Markierungen und einer farbig abgesetzten Minuterie. Sie verkaufte sich damals schlecht. Erst später erhielt sie ihren Namen: Der Schauspieler und Rennfahrer Paul Newman trug eine 6239 mit diesem Zifferblatt, ein Geschenk seiner Frau Joanne Woodward, und Fotos von ihm machten die Variante in den 1980er-Jahren bei Sammlern berühmt.",
+    "Lange galt die Handaufzugs-Daytona als schwer verkäuflich. Mit dem Vintage-Boom änderte sich das grundlegend, und die »Paul Newman« wurde zur Ikone. 2017 versteigerte Phillips in New York Newmans eigene 6239 für 17,8 Millionen US-Dollar, damals ein Weltrekord für eine Armbanduhr. Seitdem gilt die erste Daytona als Inbegriff der Sammleruhr."
+   ],
+   "m": [
+    "37 mm, Drücker nicht verschraubt",
+    "Tachymeterskala auf der Metalllünette",
+    "Drei Hilfszifferblätter in Kontrastfarbe",
+    "Handaufzug, Werk auf Basis des Valjoux 72",
+    "Zifferblatt ohne Aufschrift »Oyster« bei frühen Stücken"
+   ],
+   "ev": [
+    [
+     "1963",
+     "Vorstellung des Cosmograph Ref. 6239"
+    ],
+    [
+     "1965",
+     "Ref. 6240 mit verschraubten Drückern"
+    ],
+    [
+     "um 1969",
+     "Ablösung durch die Referenzen 6262 und 6264"
+    ],
+    [
+     "2017",
+     "Paul Newmans eigene 6239 erzielt bei Phillips 17,8 Mio. US-Dollar"
+    ]
+   ],
+   "x": [
+    "Echte »Paul Newman«-Zifferblätter werden seit Jahrzehnten gefälscht; Unterschiede in Schrift, Farbton und Druckbild erkennen nur Spezialisten.",
+    "Die Bezeichnung »Daytona« stand nicht von Anfang an auf jedem Zifferblatt; frühe Stücke tragen nur »Cosmograph«."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1963–1969"
+    ],
+    [
+     "Gehäuse",
+     "37 mm, Edelstahl oder Gold"
+    ],
+    [
+     "Kaliber",
+     "722 (Basis Valjoux 72), Handaufzug, Schaltrad"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Tachymeter"
+    ],
+    [
+     "Drücker",
+     "nicht verschraubt"
+    ],
+    [
+     "Nachfolger",
+     "6262 / 6264, mit verschraubten Drückern 6263 / 6265"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "carrera",
+     "c": "Im selben Jahr 1963 brachte Heuer die Carrera, ebenfalls ein Rennsport-Chronograph mit klarem Zifferblatt."
+    },
+    {
+     "m": "speedmaster",
+     "c": "Die Omega Speedmaster mit Tachymeterlünette wurde 1965 von der NASA ausgewählt und flog 1969 zum Mond."
+    },
+    {
+     "m": "autavia",
+     "c": "Heuers Autavia von 1962 war der Chronograph für Rennfahrer und Piloten mit drehbarer Lünette."
+    }
+   ]
   }
  ]
 }
