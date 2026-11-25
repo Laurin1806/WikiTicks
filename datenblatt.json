@@ -6090,6 +6090,18 @@
    "leuchtmasse": "Tritium",
    "band": "Oyster-Band, Edelstahl",
    "zifferblatt_optionen": "Silber, gealtert"
+  },
+  "oyster-perpetual|3": {
+   "produktion": "1940er-Jahre (Stil)",
+   "gehaeuse": "Edelstahl, gewölbter Boden (»Bubbleback«)",
+   "krone": "verschraubt, geriffelt",
+   "werktyp": "Automatik (Perpetual-Rotor)",
+   "manufaktur": "Manufakturwerk",
+   "funktionen": "Stunden, Minuten, kleine Sekunde",
+   "zertifizierung": "Chronometer (»Officially Certified«)",
+   "leuchtmasse": "keine",
+   "band": "Oyster-Band, Edelstahl, genietete Glieder",
+   "zifferblatt_optionen": "Creme, gealtert"
   }
  },
  "_refs": {

@@ -11448,6 +11448,19 @@
       "img": null
      },
      "dial": "Grün"
+    },
+    {
+     "n": "»Bubbleback« der 1940er-Jahre",
+     "y": "1940er-Jahre",
+     "v": {
+      "img": "assets/watches/rolex-oyster-perpetual-bubbleback.jpg"
+     },
+     "at": "Bubbleback und Referenz 1002",
+     "dial": "Creme",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex Oyster Perpetual im Stil der »Bubbleback«-Modelle der 1940er-Jahre, mit tonneauförmig ausgestelltem Edelstahlgehäuse, gewölbter Lünette und Oyster-Band. Der namensgebende gewölbte Boden schuf Platz für den Perpetual-Rotor. Eine bestimmte Referenz lässt sich der Darstellung nicht zuordnen.",
+      "Zu erkennen sind das gealterte, cremefarbene Zifferblatt mit aufgesetzten Stabindizes, schlanke Stabzeiger und die kleine Sekunde bei 6 Uhr. Darüber stehen das Krönchen und »ROLEX OYSTER PERPETUAL«, im Bogen um die kleine Sekunde »OFFICIALLY CERTIFIED CHRONOMETER«. Die geriffelte Krone sitzt bei 3 Uhr, das Band hat sichtbar genietete Glieder."
+     ]
     }
    ],
    "m": [
@@ -31574,7 +31587,8 @@
   "patek-philippe-nautilus-3700-1a.jpg": "v",
   "rolex-datejust-1601-cream.jpg": "n",
   "tissot-visodate-1953.jpg": "n",
-  "rolex-air-king-5500.jpg": "v"
+  "rolex-air-king-5500.jpg": "v",
+  "rolex-oyster-perpetual-bubbleback.jpg": "n"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -31849,6 +31863,7 @@
   "patek-philippe-nautilus-3700-1a.jpg": 543,
   "rolex-datejust-1601-cream.jpg": 543,
   "tissot-visodate-1953.jpg": 543,
-  "rolex-air-king-5500.jpg": 768
+  "rolex-air-king-5500.jpg": 768,
+  "rolex-oyster-perpetual-bubbleback.jpg": 1103
  }
 }

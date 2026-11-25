@@ -447,11 +447,22 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.night[data-accent="anthrazit"] { --accent: #bcc4ce; --accent-soft: #1c222a; }
 /* ---------- Vintage-Ansicht (Test): Patina – vergilbtes Papier, Sepia, Messing ---------- */
 /* Stil der 1960er: Creme, Petrol und Senfgelb, geometrische Grotesk (Jost); nachts Akzent im Grün der Leuchtmasse */
-:root.vintage:not(.night) { --bg: #f3efe4; --surface: #fbf8f1; --fg: #23272a; --muted: #6f6b62; --line: #e0d9c8; --accent: #1f6b66; --accent-soft: #dcebe6; --gold: #b3841d; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
-:root.vintage.night { --bg: #070b09; --surface: #0d1411; --fg: #dce6df; --muted: #8a9a90; --line: #1a2620; --accent: #8fe8b4; --accent-soft: #10251b; --gold: #a9dcba; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
+:root.vintage:not(.night) { --bg: #f3efe4; --surface: #fbf8f1; --fg: #23272a; --muted: #6f6b62; --line: #e0d9c8; --gold: #b3841d; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
+:root.vintage.night { --bg: #070b09; --surface: #0d1411; --fg: #dce6df; --muted: #8a9a90; --line: #1a2620; --gold: #a9dcba; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
 :root.vintage body { background-image: radial-gradient(ellipse at 50% 35%, transparent 65%, rgba(110,80,40,.04) 100%), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .32 0 0 0 0 .16 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.14'/%3E%3C/svg%3E"); background-attachment: fixed; }
 :root.vintage.night body { background-image: radial-gradient(ellipse at 50% 35%, transparent 60%, rgba(0,0,0,.25) 100%), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .32 0 0 0 0 .16 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.14'/%3E%3C/svg%3E"); }
 :root.vintage .head h1 { font-weight: 600; letter-spacing: -.01em; }
+/* Akzentfarben der Vintage-Ansicht (Farbwechsler bleibt nutzbar): tagsüber Petrol, Avocado, Burgund, Graphit; nachts Leuchtgrün u. a. */
+:root.vintage:not(.night):not([data-accent]) { --accent: #26746d; --accent-soft: #dcebe6; }
+:root.vintage:not(.night)[data-accent="green"] { --accent: #5a6e28; --accent-soft: #e7ecd7; }
+:root.vintage:not(.night)[data-accent="bordeaux"] { --accent: #8e3140; --accent-soft: #f2e0e2; }
+:root.vintage:not(.night)[data-accent="anthrazit"] { --accent: #41474c; --accent-soft: #e5e6e3; }
+:root.vintage.night:not([data-accent]) { --accent: #93b8e8; --accent-soft: #121c2a; }
+:root.vintage.night[data-accent="green"] { --accent: #8fe8b4; --accent-soft: #10251b; }
+:root.vintage.night[data-accent="bordeaux"] { --accent: #e89dab; --accent-soft: #2a161b; }
+:root.vintage.night[data-accent="anthrazit"] { --accent: #c4cbd2; --accent-soft: #1c2227; }
+:root.vintage .accent-switch .sw-blue { background: #26746d; } :root.vintage .accent-switch .sw-green { background: #5a6e28; } :root.vintage .accent-switch .sw-bordeaux { background: #8e3140; }
+:root.vintage.night .accent-switch .sw-blue { background: #93b8e8; } :root.vintage.night .accent-switch .sw-green { background: #8fe8b4; box-shadow: 0 0 6px rgba(143,232,180,.6); } :root.vintage.night .accent-switch .sw-bordeaux { background: #e89dab; } :root.vintage.night .accent-switch .sw-anthrazit { background: #c4cbd2; }
 :root.vintage h2, :root.vintage .daily h2 { font-weight: 500; letter-spacing: -.015em; }
 :root.vintage .section-title { font-weight: 500; letter-spacing: .01em; }
 :root.vintage .daily .kicker, :root.vintage .fcard .kicker { font-weight: 500; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; }
@@ -1122,7 +1133,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112598";
+const IMGV = "2026112599";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2093,6 +2104,8 @@ function vintVar(e) {
   (e.var || []).forEach(x => { const vy = x.vy || x.y; /* vy: Jahr nur zum Sortieren, z. B. bei Bildern »im Stil« einer alten Referenz */ if (x.v && x.v.img && yearOf(vy) < mainY && (!best || yearOf(vy) < yearOf(best.vy || best.y))) best = x; });
   return best;
 }
+// Vintage-Ansicht: in den Markenvorschauen nur Modelle, die bis 1990 erschienen sind
+const vintFilter = ms => VINTAGE ? ms.filter(e => { const y = yearOf(e.since); return y === 9999 || y <= 1990; }) : ms;
 const mainV = e => { const vv = vintVar(e); return vv ? withVariant(e.v, { ...vv.v, era: "vintage" }) : mainV0(e); };
 const mainV0 = e => e.topv ? withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : e.v;
 const thumb = e => e.brand ? `<div class="thumb">${drawWatch(mainV(e), e)}</div>` : "";
@@ -2182,11 +2195,11 @@ function viewModels() {
     <h2 class="page-title">Alle Marken</h2>
     <p class="intro">Alle Marken mit ihren Modellen, von A. Lange &amp; Söhne bis Zodiac. Mit einem Tipp auf eine Marke kommst du zu Geschichte, Grunddaten und allen Modellen.</p>
     <div class="vhead"><div>
-    <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(MODELS.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
+    <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(vintFilter(MODELS).length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Ansicht: nur Modelle bis 1990" : ""}</p></div>${vtoggle()}</div>
     <div class="toc catchips">${BRANDS.map(b => `<a href="#marke-${slug(b)}">${esc(b)}</a>`).join("")}</div>
     </div>
     ${listMode ? brandList() : `<div class="grid">${BRANDS.map(b => {
-      const ms = MODELS.filter(e => e.brand === b), info = BRAND_INFO[b];
+      const ms = vintFilter(MODELS.filter(e => e.brand === b)), info = BRAND_INFO[b];
       return `
       <a class="card" href="#marke-${slug(b)}">
         <span class="cat">${info ? "gegründet " + esc(info.gegruendet) + " · " : ""}${plural(ms.length, "Modell", "Modelle")}</span>
@@ -2202,7 +2215,7 @@ function brandList() {
   const letters = Object.keys(groups);
   return `<div class="letters">${letters.map(l => `<button type="button" data-l="${l}">${l}</button>`).join("")}</div>` + letters.map(l => `
     <div class="azgroup" id="az-${l}"><h3>${l}</h3><ul>
-      ${groups[l].map(b => { const ms = MODELS.filter(e => e.brand === b), info = BRAND_INFO[b];
+      ${groups[l].map(b => { const ms = vintFilter(MODELS.filter(e => e.brand === b)), info = BRAND_INFO[b];
         return `<li><a href="#marke-${slug(b)}">${esc(b)}</a><small>${info ? "gegründet " + esc(info.gegruendet) + " · " : ""}${plural(ms.length, "Modell", "Modelle")}</small><br><span>${esc(ms.map(shortName).sort((x, y) => x.localeCompare(y, "de")).join(", "))}</span></li>`; }).join("")}
     </ul></div>`).join("");
 }
@@ -2216,7 +2229,7 @@ const refLine = (t, cap) => t && t.iref && !refNorm(cap).includes(refNorm(t.iref
 const imgNote = bd => bd && bd.length ? `<details class="imgnote"><summary>Über dieses Bild</summary><div class="imgpop">${bd.map(p => `<p>${esc(p)}</p>`).join("")}<p class="credit">${esc(IMG_CREDIT)}</p></div></details>` : "";
 const BRAND_LOGOS = new Set(["rolex", "audemars-piguet", "patek-philippe", "omega", "a-lange-soehne", "tudor", "cartier", "breitling", "iwc", "jaeger-lecoultre", "vacheron-constantin", "blancpain"]);
 function viewBrand(b) {
-  const ms = MODELS.filter(e => e.brand === b).sort((x, y) => x.t.localeCompare(y.t, "de"));
+  const ms = vintFilter(MODELS.filter(e => e.brand === b)).sort((x, y) => x.t.localeCompare(y.t, "de"));
   const info = BRAND_INFO[b], used = new Set();
   return crumbs([["Alle Marken", "uhrenmodelle"], [b]]) + `
     ${info ? `<div class="brandinfo">
@@ -2229,7 +2242,7 @@ function viewBrand(b) {
       ${info.zeit ? `<h3 class="art-h">Zeitleiste</h3><ol class="timeline">${info.zeit.map(([y, t]) => `<li><span class="ty">${esc(y)}</span><span class="tt">${linkify(esc(t), "marke-" + slug(b), used)}</span></li>`).join("")}</ol>` : ""}
     </article>` : ""}` : `<h2 class="page-title">${esc(b)}</h2>`}
     <div class="vhead" id="brand-models"><div><h3 class="section-title">Modelle</h3>
-    <p class="count">${plural(ms.length, "Modell", "Modelle")}</p></div>${vtoggle()}</div>
+    <p class="count">${plural(ms.length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Ansicht: nur Modelle bis 1990" : ""}</p></div>${vtoggle()}</div>
     ${listMode
       ? `<ul class="mlist">${ms.map(e => `<li><a href="#${e.id}">${esc(shortName(e))}</a><small>${esc(e.since ? "seit " + e.since : "Modell")}</small><br><span>${esc(e.s)}</span></li>`).join("")}</ul>`
       : `<div class="grid">${ms.map(e => `
@@ -2799,12 +2812,14 @@ function setNight(on, save = true, anim = false) {
   const b = document.getElementById("nightbtn");
   if (b) { b.setAttribute("aria-pressed", on); b.querySelector(".nl").textContent = on ? "Tagmodus" : "Nachtmodus"; }
   if (save) try { localStorage.setItem("wikiticks-night", on ? "1" : "0"); } catch (e) {}
+  if (window.applyAccent) window.applyAccent();
   nightApply();
 }
 function setVintage(on) {
   VINTAGE = on; try { localStorage.setItem("wikiticks-vintage", on ? "1" : "0"); } catch (e) {}
   const root = document.documentElement; if (!matchMedia("(prefers-reduced-motion: reduce)").matches) { root.classList.add("theme-fade"); clearTimeout(fadeT); fadeT = setTimeout(() => root.classList.remove("theme-fade"), 1300); }
   root.classList.toggle("vintage", on);
+  if (window.applyAccent) window.applyAccent();
   document.querySelectorAll("#vintbtn, .vintbtn").forEach(b => b.setAttribute("aria-pressed", on));
   const y = window.scrollY; route(); requestAnimationFrame(() => window.scrollTo({ top: y }));
 }
@@ -2909,11 +2924,14 @@ function setAccent(a) {
   else document.documentElement.setAttribute("data-accent", a);
   document.querySelectorAll(".accent-switch button").forEach(b => b.setAttribute("aria-pressed", b.dataset.accent === a));
 }
-try { setAccent(localStorage.getItem("wikiticks-accent")); } catch (e) {}
+// Vintage + Nacht: eigene Akzentwahl, Standard ist das Grün der Leuchtmasse; sonst die normale Wahl
+const vNight = () => document.documentElement.classList.contains("vintage") && document.documentElement.classList.contains("night");
+window.applyAccent = () => { let a = null; try { a = vNight() ? (localStorage.getItem("wikiticks-accent-vn") || "green") : localStorage.getItem("wikiticks-accent"); } catch (e) { a = vNight() ? "green" : null; } setAccent(a); };
+applyAccent();
 document.addEventListener("click", ev => {
   const b = ev.target.closest && ev.target.closest(".accent-switch button"); if (!b) return;
   setAccent(b.dataset.accent);
-  try { localStorage.setItem("wikiticks-accent", b.dataset.accent); } catch (e) {}
+  try { localStorage.setItem(vNight() ? "wikiticks-accent-vn" : "wikiticks-accent", b.dataset.accent); } catch (e) {}
 });
 
 // ---------- Bildvergrößerung ----------
