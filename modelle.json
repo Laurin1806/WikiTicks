@@ -35536,6 +35536,112 @@
      "c": "Vacheron Constantins Overseas gibt es auch als Dualtime und mit ewigem Kalender."
     }
    ]
+  },
+  {
+   "id": "deepsea-136660",
+   "model": "deepsea",
+   "ref": "136660",
+   "alias": [
+    "136660-0003",
+    "126660",
+    "116660 D-Blue",
+    "126067"
+   ],
+   "var": null,
+   "t": "Rolex Deepsea Ref. 136660",
+   "bau": "seit 2022",
+   "cap": "mit dem verlaufenden »D-Blue«-Zifferblatt",
+   "s": "Die Taucheruhr für 3900 Meter: Ringlock-Gehäuse, Heliumventil und das »D-Blue«-Zifferblatt, das an James Camerons Tauchgang in den Marianengraben erinnert.",
+   "bh": [
+    "Tiefer als die Sea-Dweller",
+    "Das Ringlock-System",
+    "D-Blue",
+    "Die Generation 136660"
+   ],
+   "b": [
+    "2008 stellte Rolex mit der Deepsea eine Taucheruhr vor, die weit über die Sea-Dweller hinausging: bis 3900 Meter wasserdicht, 12.800 Fuß. Für Sporttaucher ist das eine eher symbolische Zahl, aber sie zeigt, was Rolex mit einem Serien-Gehäuse erreicht. Wie die Sea-Dweller hat die Deepsea ein Heliumventil für Sättigungstaucher.",
+    "Um den enormen Druck auszuhalten, entwickelte Rolex das Ringlock-System: Im Inneren des Gehäuses sitzt ein Ring aus Stickstoff-legiertem Stahl, auf dem das gewölbte, 5,5 Millimeter dicke Saphirglas und der Boden aufliegen. Er nimmt den Druck auf, sodass das 44 Millimeter große Gehäuse ihn nicht allein tragen muss. Der Boden ist aus Titan.",
+    "2012 tauchte der Regisseur James Cameron allein in den Marianengraben, mit einer Experimentaluhr außen am Tauchboot. Zur Erinnerung brachte Rolex 2014 das »D-Blue«-Zifferblatt heraus, das von Tiefblau oben zu Schwarz unten verläuft, wie das Licht, das mit zunehmender Tiefe verschwindet. Der Schriftzug »Deepsea« ist in Grün gehalten, der Farbe von Camerons Expedition.",
+    "Die Referenz 136660 von 2022 überarbeitete das Gehäuse: Die Flanken sind schlanker, der Kronenschutz ist neu gezeichnet, und der Titanboden ist mit dem Gehäuse aus Oystersteel verbunden. Im Inneren arbeitet das Kaliber 3235 mit etwa 70 Stunden Gangreserve."
+   ],
+   "vh": [
+    [
+     "Schwarzes Zifferblatt",
+     "Neben dem D-Blue gibt es die Deepsea mit schwarzem Zifferblatt."
+    ],
+    [
+     "Deepsea Challenge: Ref. 126067",
+     "2022 stellte Rolex die Deepsea Challenge vor, 50 Millimeter groß, aus Titan und bis 11.000 Meter wasserdicht – die Serienfassung der Uhr, die 2012 mit Cameron in den Marianengraben fuhr."
+    ]
+   ],
+   "m": [
+    "44 mm, Ringlock-System, Heliumventil",
+    "Verlaufendes D-Blue-Zifferblatt mit grünem Schriftzug »Deepsea«",
+    "Keine Zykloplupe über dem Datum",
+    "Tiefenangabe 3900 m = 12800 ft"
+   ],
+   "ev": [
+    [
+     "2008",
+     "Erste Deepsea (Ref. 116660)"
+    ],
+    [
+     "2012",
+     "James Cameron im Marianengraben"
+    ],
+    [
+     "2014",
+     "D-Blue-Zifferblatt"
+    ],
+    [
+     "2022",
+     "Ref. 136660 und Deepsea Challenge"
+    ]
+   ],
+   "x": [
+    "Mit rund 18 Millimetern Höhe ist die Deepsea deutlich dicker als eine Submariner; das sollte man vor dem Kauf am Handgelenk probieren.",
+    "Die Deepsea hat wie die Sea-Dweller die Fliplock-Verlängerung am Band für den Taucheranzug."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "44 mm, Oystersteel, Titanboden, Ringlock"
+    ],
+    [
+     "Wasserdicht",
+     "3900 m"
+    ],
+    [
+     "Kaliber",
+     "3235, Automatik, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "126660"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "planet-ocean",
+     "c": "Omegas Planet Ocean Ultra Deep ging 2019 ebenfalls in den Marianengraben – die direkte Antwort auf die Deepsea Challenge."
+    },
+    {
+     "m": "pelagos",
+     "c": "Tudors Pelagos aus Titan mit Heliumventil ist die leichtere Profi-Taucheruhr."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Die Seamaster Diver 300M ist der klassische Sporttaucher mit Heliumventil."
+    }
+   ]
   }
  ]
 }
