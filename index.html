@@ -508,7 +508,7 @@ canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; he
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wimg { opacity: 0; animation: wshow .6s ease 1.4s forwards; } /* Sicherheitsnetz: klappt die Nachtebene nicht rasch, erscheint das Bild trotzdem */
 @keyframes wshow { to { opacity: 1; } }
 .wimg-wrap canvas.nfresh { opacity: 0 !important; transition: none !important; }
-:root.wjump #view .wimg-wrap, :root.wjump #view .wimg-wrap > * { transition: none !important; }
+:root.wjump *, :root.wjump *::before, :root.wjump *::after { transition: none !important; } /* verdeckte Phase: alles springt direkt in den neuen Zustand (Bildfelder, Kacheln …) */
 /* Nachts Heute ⇄ Vintage: alte Uhren blenden aus, die andere Ausführung danach ein */
 :root.night.wswap #view .wimg-wrap { transition: opacity 1s cubic-bezier(.3,0,.2,1), filter 1s cubic-bezier(.3,0,.2,1); } /* taucht aus der Dunkelheit auf */
 :root.night.wswap.whide #view .wimg-wrap { opacity: 0; filter: brightness(.45) blur(1px); transition: opacity .8s cubic-bezier(.45,0,.55,1), filter .8s cubic-bezier(.45,0,.55,1); }
@@ -1208,7 +1208,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112647";
+const IMGV = "2026112648";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2910,6 +2910,35 @@ function setNight(on, save = true, anim = false) {
   };
   // Tag ⇄ Nacht mit Überblendung: Uhren blenden aus (nachts versinken sie in der Dunkelheit), die Seite blendet über,
   // danach erscheinen die Uhren im neuen Zustand; die Akzentfarbe geht mit den Uhren und leuchtet mit ihnen wieder auf
+  const onWatch = (() => { const e = byId[decodeURIComponent((location.hash || "#").slice(1))]; return !!(e && e.brand); })();
+  if (onWatch) {
+  // Vintage-Ansicht: Hintergründe, Lünetten und Mondschein lassen sich nicht stufenlos umfärben – ganze Seite weich überblenden,
+  // die Akzentfarbe erlischt dabei und leuchtet langsam wieder auf; der Nachtmodus-Knopf bleibt live
+  if (anim && !reduce && root.classList.contains("vintage") && document.startViewTransition) {
+    const live = b && b.offsetParent && b.getBoundingClientRect().bottom > 0 && b.getBoundingClientRect().top < innerHeight ? b : null;
+    if (live) live.style.viewTransitionName = "nightbtn";
+    root.classList.add("vt-night");
+    // Während der Überblendung bleibt die Akzentfarbe dunkel (manche Browser frieren das neue Bild ein); erst danach leuchtet sie langsam auf – kein Aufploppen am Ende
+    const vt = document.startViewTransition(() => {
+      root.classList.toggle("night", on);
+      root.classList.toggle("wdim", on); root.classList.toggle("wnow", !on);
+      if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
+      clearTimeout(accFadeT); clearTimeout(accPhaseT);
+      if (window.applyAccent) window.applyAccent();
+      const cs = getComputedStyle(root);
+      root.classList.remove("accent-fade", "accent-slow", "theme-fade"); // sofort dunkel, ohne Übergang (die Seite wird ohnehin überblendet)
+      root.style.setProperty("--accent", darkOf(cs.getPropertyValue("--accent"))); root.style.setProperty("--gold", darkOf(cs.getPropertyValue("--gold"))); root.style.setProperty("--gl", "0");
+      nightApply();
+    });
+    vt.finished.finally(() => {
+      if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
+      requestAnimationFrame(() => root.classList.remove("wdim", "wnow"));
+      root.classList.add("accent-fade", "accent-slow");
+      requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); });
+    });
+  } else update();
+    return;
+  }
   if (anim && !reduce && document.startViewTransition) {
     const live = b && b.offsetParent && b.getBoundingClientRect().bottom > 0 && b.getBoundingClientRect().top < innerHeight ? b : null;
     const wasNight = root.classList.contains("night");
