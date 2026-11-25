@@ -33167,6 +33167,110 @@
      "c": "Blancpain belebte die Fifty Fathoms mit Saphirlünette und fünf Tagen Gangreserve neu – die andere Taucheruhr von 1953."
     }
    ]
+  },
+  {
+   "id": "submariner-126610",
+   "model": "submariner",
+   "ref": "126610LN",
+   "alias": [
+    "126610",
+    "124060 / 126610LN",
+    "124060",
+    "126610LV",
+    "126619LB",
+    "126618LN",
+    "126613LB"
+   ],
+   "var": null,
+   "t": "Rolex Submariner Date Ref. 126610LN",
+   "bau": "seit 2020",
+   "cap": "die aktuelle Submariner Date in Edelstahl",
+   "s": "Die heutige Submariner Date: 41 Millimeter, schlankere Bandanstöße, das Kaliber 3235 mit rund 70 Stunden Gangreserve – eine behutsame Verfeinerung der Uhr von 1953.",
+   "bh": [
+    "Ein Millimeter mehr, und doch schlanker",
+    "Das Werk",
+    "Kleine Zeichen"
+   ],
+   "b": [
+    "Im September 2020 stellte Rolex eine neue Submariner-Generation vor, und die auffälligste Änderung war kaum zu sehen: Das Gehäuse wuchs von 40 auf 41 Millimeter, wirkt aber eleganter als bei der Vorgängerin 116610LN, weil die Bandanstöße wieder schmaler geworden sind. Das breite »Super Case« der 2010er-Jahre ist damit Geschichte, und die Proportionen erinnern wieder an die klassischen Submariner. Die Keramiklünette aus Cerachrom mit platinierten Zahlen, die verschraubte Triplock-Krone und 300 Meter Wasserdichtigkeit blieben.",
+    "Im Inneren arbeitet das Manufakturkaliber 3235 mit Datum, in der Ausführung ohne Datum das Kaliber 3230. Beide nutzen die von Rolex entwickelte Chronergy-Hemmung, eine blaue Parachrom-Spirale und bieten etwa 70 Stunden Gangreserve, gut ein Drittel mehr als das Kaliber 3135 der Vorgängerin. Rolex prüft jede Uhr nach dem Einschalen auf eine Genauigkeit von minus zwei bis plus zwei Sekunden pro Tag und nennt das »Superlative Chronometer«.",
+    "Wer genau hinsieht, erkennt die neue Generation an Details: Zwischen den Worten »Swiss« und »Made« bei 6 Uhr sitzt eine winzige Rolex-Krone, und das Oyster-Band mit Glidelock-Verlängerung ist etwas breiter geworden, passend zum neuen Gehäuse."
+   ],
+   "vh": [
+    [
+     "Ohne Datum: Ref. 124060",
+     "Parallel gibt es die Submariner ohne Datum und ohne Zykloplupe, die Referenz 124060 mit dem Kaliber 3230. Sie ist die direkte Nachfahrin der 5513 und 14060 und bei Liebhabern eines symmetrischen Zifferblatts besonders beliebt."
+    ],
+    [
+     "»Starbucks«: Ref. 126610LV",
+     "Die grüne Lünette lebt in der 126610LV weiter, nun mit schwarzem Zifferblatt. Wegen der Farbkombination nennen Sammler sie »Starbucks«, in Anspielung auf das Logo der Kaffeekette."
+    ],
+    [
+     "»Cookie Monster«: Ref. 126619LB",
+     "Die Weißgold-Ausführung trägt zur blauen Lünette ein schwarzes Zifferblatt statt des blauen der »Smurf« und heißt deshalb »Cookie Monster«. Daneben gibt es die Submariner Date in 18 Karat Gelbgold (126618) und in Rolesor (126613)."
+    ]
+   ],
+   "m": [
+    "41 mm, schlankere Bandanstöße als bei der 116610",
+    "Kleine Rolex-Krone zwischen »Swiss« und »Made« bei 6 Uhr",
+    "Keramiklünette mit platinierten Zahlen",
+    "Datum mit Zykloplupe",
+    "Tiefenangabe 1000 ft = 300 m"
+   ],
+   "ev": [
+    [
+     "2020",
+     "Vorstellung mit 41 mm und Kaliber 3235 bzw. 3230"
+    ]
+   ],
+   "x": [
+    "Die Gangreserve von rund 70 Stunden reicht über ein Wochenende: Eine am Freitagabend abgelegte Uhr läuft am Montagmorgen noch.",
+    "Die Wartezeiten beim Konzessionär sind für die Stahlmodelle seit Jahren lang; auf dem Zweitmarkt liegen die Preise meist über dem Listenpreis."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Oystersteel"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "3235 (Datum) / 3230 (ohne Datum), Automatik, ca. 70 h Gangreserve"
+    ],
+    [
+     "Genauigkeit",
+     "−2/+2 s pro Tag (Superlative Chronometer)"
+    ],
+    [
+     "Lünette",
+     "einseitig drehbar, Cerachrom"
+    ],
+    [
+     "Vorgänger",
+     "116610LN"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay",
+     "c": "Tudors Taucheruhr mit Manufakturwerk ist die Alternative aus dem eigenen Haus, deutlich günstiger und im Vintage-Stil."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M ist der meistverkaufte Konkurrent, mit Wellenzifferblatt und Heliumventil."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Die Blancpain Fifty Fathoms, die zweite Taucheruhr von 1953, heute mit Saphirlünette und fünf Tagen Gangreserve."
+    }
+   ]
   }
  ]
 }
