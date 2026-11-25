@@ -481,7 +481,8 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage.night[data-accent="green"] .card:hover, :root.vintage.night[data-accent="green"] .fcard:hover, :root.vintage.night[data-accent="green"] a.watchfig:hover, :root.vintage.night[data-accent="green"] .card:active, :root.vintage.night[data-accent="green"] .fcard:active, :root.vintage.night[data-accent="green"] a.watchfig:active { border-color: #8fe8b4; box-shadow: inset 0 1px 0 rgba(160,255,200,.1), inset 0 0 22px rgba(80,220,140,.08), 0 0 0 3px #0b110d, 0 0 0 4px #9ff0c2, 0 0 14px rgba(130,250,180,.55), 0 0 40px rgba(90,230,150,.28); }
 /* aufgesetzter goldener Stabindex vor Zwischenüberschriften, Minuterie als Trennlinie darunter */
 :root.vintage .art-h::before { content: ""; display: inline-block; width: 4px; height: .82em; margin-right: 11px; vertical-align: -1px; border-radius: 1px; background: linear-gradient(90deg, #f3e2b0, #b98f3a 55%, #8a6a26); box-shadow: 0 0 0 .5px rgba(0,0,0,.18), 1px 1px 1px rgba(0,0,0,.12); }
-:root.vintage .art-h::after { content: ""; display: block; height: 6px; margin-top: 7px; opacity: .55; background: repeating-linear-gradient(90deg, var(--muted) 0 1px, transparent 1px 7px) left bottom / 100% 5px no-repeat, linear-gradient(var(--muted), var(--muted)) left bottom / 100% 1px no-repeat; -webkit-mask: linear-gradient(90deg, #000 30%, transparent); mask: linear-gradient(90deg, #000 30%, transparent); }
+:root.vintage .art-h { position: relative; }
+:root.vintage .art-h::after { content: ""; position: absolute; left: 0; right: 0; bottom: -8px; height: 6px; pointer-events: none; opacity: .55; background: repeating-linear-gradient(90deg, var(--muted) 0 1px, transparent 1px 7px) left bottom / 100% 5px no-repeat, linear-gradient(var(--muted), var(--muted)) left bottom / 100% 1px no-repeat; -webkit-mask: linear-gradient(90deg, #000 30%, transparent); mask: linear-gradient(90deg, #000 30%, transparent); }
 /* Tritiumpunkte als Aufzählungszeichen und in der Zeitleiste */
 :root.vintage .art-list { list-style: none; padding-left: 4px; }
 :root.vintage .art-list li { position: relative; padding-left: 20px; }
@@ -1164,7 +1165,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112610";
+const IMGV = "2026112611";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2859,7 +2860,8 @@ function setVintage(on) {
   if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
   if (window.applyAccent) window.applyAccent();
   document.querySelectorAll("#vintbtn, .vintbtn").forEach(b => { b.setAttribute("aria-pressed", on); const l = b.querySelector(".nl"); if (l) l.textContent = on ? "Heute-Modus" : "Vintage-Modus"; const sv = b.querySelector(".vdial"); if (sv) vdialAnim(sv, on); });
-  const y = window.scrollY; route(); requestAnimationFrame(() => window.scrollTo({ top: y }));
+  const y = window.scrollY, navOpen = $("#nav").classList.contains("open"); route(); requestAnimationFrame(() => window.scrollTo({ top: y }));
+  if (navOpen) { $("#nav").classList.add("open"); $("#menu").setAttribute("aria-expanded", "true"); } // Menü bleibt offen wie beim Nachtmodus
 }
 document.addEventListener("touchstart", () => {}, { passive: true }); // damit :active (Leuchten beim Antippen) auch auf iOS greift
 // Zifferblatt im Vintage-Knopf: modernes Blatt (aus) und Vintage-Blatt (an); beim Umschalten deckt der Sekundenzeiger das neue Blatt im Kreis auf
@@ -3124,7 +3126,7 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
   panel.addEventListener("click", ev => { const a = ev.target.closest("a[href^='#']"); if (!a) return; ev.preventDefault(); close(); freshNav = true; location.hash = a.getAttribute("href").slice(1); });
   // Tipp neben das offene Menü: auf dem Smartphone nur Menü schließen, am PC zusätzlich den Klick ausführen
   document.addEventListener("click", ev => {
-    if (!bar.classList.contains("open") || ev.target.closest("#minibar, #nightbtn, .accent-switch, #menu")) return;
+    if (!bar.classList.contains("open") || ev.target.closest("#minibar, #nightbtn, #vintbtn, .accent-switch, #menu")) return;
     if (innerWidth > 760) { close(); return; } // Laptop/PC: Menü schließen und den Klick trotzdem ausführen
     ev.preventDefault(); ev.stopPropagation(); close(); // Smartphone: nur Menü schließen
   }, true);
