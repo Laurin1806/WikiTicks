@@ -33455,6 +33455,103 @@
      "c": "Die Speedmaster Professional blieb mit Handaufzug der klassische Gegenentwurf zur Automatik-Daytona."
     }
    ]
+  },
+  {
+   "id": "daytona-126500",
+   "model": "daytona",
+   "ref": "126500LN",
+   "alias": [
+    "126500",
+    "116500LN",
+    "126503",
+    "126508",
+    "126506"
+   ],
+   "var": null,
+   "t": "Rolex Cosmograph Daytona Ref. 126500LN",
+   "bau": "seit 2023",
+   "cap": "die aktuelle Daytona in Edelstahl mit Keramiklünette",
+   "s": "Die heutige Stahl-Daytona mit schwarzer Keramiklünette und dem Kaliber 4131 – zum 60. Geburtstag des Modells behutsam überarbeitet.",
+   "bh": [
+    "Keramik seit 2016",
+    "Feinschliff zum Jubiläum",
+    "Das Werk"
+   ],
+   "b": [
+    "2016 bekam die Stahl-Daytona mit der Referenz 116500LN erstmals eine Lünette aus schwarzer Cerachrom-Keramik. Die Tachymeterskala ist eingraviert und mit Platin beschichtet, die Keramik nahezu kratzfest. Optisch erinnerte das an die Daytona der 1960er- und 1970er-Jahre mit schwarzer Kunststofflünette, und die Uhr wurde sofort zu einer der gefragtesten Rolex überhaupt.",
+    "2023, zum 60. Jahrestag der ersten Daytona, folgte die 126500LN. Die Unterschiede sind fein: Die Keramiklünette hat einen schmalen Metallrand, der sie mit dem Gehäuse verbindet, die Ringe um die Hilfszifferblätter sind dünner, Gehäuse und Bandanstöße etwas schlanker gezeichnet. Das Gehäuse misst weiterhin 40 Millimeter, die verschraubten Drücker und 100 Meter Wasserdichtigkeit bleiben.",
+    "Im Inneren arbeitet das Kaliber 4131, eine Weiterentwicklung des 4130 mit Chronergy-Hemmung, Parachrom-Spirale und rund 72 Stunden Gangreserve. Es ist mit dem Côtes-de-Genève-Schliff verziert, den Rolex »Côtes de Rolex« nennt. Wie alle aktuellen Rolex ist die Daytona als Superlative Chronometer auf zwei Sekunden Abweichung pro Tag geprüft."
+   ],
+   "vh": [
+    [
+     "Weißes und schwarzes Zifferblatt",
+     "Die 126500LN gibt es mit weißem Zifferblatt und schwarzen Hilfszifferblättern, unter Sammlern »Panda« genannt, und mit schwarzem Zifferblatt."
+    ],
+    [
+     "Gold, Rolesor und Platin",
+     "Daneben gibt es die Generation in Rolesor (126503), in 18 Karat Gelb-, Weiß- und Everose-Gold, teils mit Keramiklünette am Oysterflex-Kautschukband, und in Platin (126506) mit eisblauem Zifferblatt. Die Platin-Daytona zeigt ihr Werk als erste Daytona durch einen Saphirglasboden."
+    ]
+   ],
+   "m": [
+    "40 mm, schwarze Keramiklünette mit schmalem Metallrand",
+    "Dünnere Ringe um die Hilfszifferblätter als bei der 116500LN",
+    "Verschraubte Drücker",
+    "Kleine Sekunde bei 9 Uhr"
+   ],
+   "ev": [
+    [
+     "2016",
+     "116500LN mit Keramiklünette"
+    ],
+    [
+     "2023",
+     "126500LN mit Kaliber 4131 zum 60. Jubiläum"
+    ]
+   ],
+   "x": [
+    "116500LN und 126500LN sind leicht zu verwechseln: Am sichersten erkennt man die neue Generation am Metallrand der Lünette.",
+    "Die Wartezeiten für die Stahl-Daytona gehören zu den längsten bei Rolex; auf dem Zweitmarkt liegt der Preis deutlich über dem Listenpreis."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023 (Vorgängerin 116500LN 2016–2023)"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Oystersteel"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "4131, Automatik, Schaltrad, vertikale Kupplung, ca. 72 h"
+    ],
+    [
+     "Lünette",
+     "Cerachrom mit Tachymeterskala"
+    ],
+    [
+     "Vorgänger",
+     "116500LN"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "speedmaster",
+     "c": "Omegas Moonwatch ist der ewige Gegenspieler, seit 2021 mit Master-Chronometer-Werk."
+    },
+    {
+     "m": "royal-oak",
+     "c": "Der Royal Oak Chronograph ist der Luxus-Sportchronograph von Audemars Piguet mit integriertem Band."
+    },
+    {
+     "m": "black-bay-chrono",
+     "c": "Tudors Black Bay Chrono hat ein Werk auf Basis eines Breitling-Kalibers und ist die günstigere Alternative mit Panda-Zifferblatt."
+    }
+   ]
   }
  ]
 }
