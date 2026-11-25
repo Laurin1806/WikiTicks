@@ -35741,6 +35741,91 @@
      "c": "A. Lange & Söhnes Saxonia ist die zurückhaltende Golduhr aus Glashütte."
     }
    ]
+  },
+  {
+   "id": "land-dweller-127334",
+   "model": "land-dweller",
+   "ref": "127334",
+   "alias": [
+    "127234"
+   ],
+   "var": null,
+   "t": "Rolex Land-Dweller 40 Ref. 127334",
+   "bau": "seit 2025",
+   "cap": "in Oystersteel mit Weißgoldlünette und weißem Wabenzifferblatt",
+   "s": "Die erste neue Rolex-Familie seit Jahren: flaches Gehäuse mit integriertem Band und ein Werk, das mit 5 Hertz schwingt.",
+   "bh": [
+    "Die Antwort auf die integrierten Sportuhren",
+    "Dynapulse und 5 Hertz",
+    "Zifferblatt und Band"
+   ],
+   "b": [
+    "2025 stellte Rolex mit der Land-Dweller eine völlig neue Modellfamilie vor, die erste seit vielen Jahren. Der Name ergänzt Sea-Dweller und Sky-Dweller. Mit dem flachen Gehäuse, der fein geriffelten Lünette und einem Band, das fast nahtlos ins Gehäuse übergeht, greift sie die Oysterquartz der 1970er-Jahre auf und tritt in eine Klasse ein, die Rolex lange anderen überlassen hatte: die Luxus-Sportuhr mit integriertem Band wie Royal Oak und Nautilus.",
+    "Technisch ist die Land-Dweller ein großer Schritt. Das Kaliber 7135 schwingt mit 5 Hertz, also 36.000 Halbschwingungen pro Stunde, und nutzt die neu entwickelte Dynapulse-Hemmung, bei der Bauteile aus Silizium die Energie besonders verlustarm übertragen. Trotz der hohen Frequenz, die sonst viel Energie kostet, erreicht das Werk etwa 66 Stunden Gangreserve. Durch einen Saphirglasboden ist es zu sehen.",
+    "Das Zifferblatt trägt ein lasergraviertes Wabenmuster, die Indizes sind schmal und poliert. Das Flat-Jubilee-Band ist eine flache Neuinterpretation des klassischen Jubilee-Bands und an das Gehäuse angepasst. Die Referenz 127334 hat 40 Millimeter und besteht aus Oystersteel mit einer Lünette aus 18 Karat Weißgold; sie ist bis 100 Meter wasserdicht."
+   ],
+   "vh": [
+    [
+     "36 Millimeter: Ref. 127234",
+     "Mit 36 Millimetern trägt die Land-Dweller in Stahl mit Weißgoldlünette die Referenz 127234, mit demselben Werk."
+    ],
+    [
+     "Everose und Platin",
+     "Daneben gibt es die Land-Dweller in Everose-Gold und, mit eisblauem Zifferblatt, in Platin."
+    ]
+   ],
+   "m": [
+    "40 mm, flaches Gehäuse, fein geriffelte Lünette",
+    "Integriertes Flat-Jubilee-Band",
+    "Wabenmuster auf dem Zifferblatt",
+    "Saphirglasboden, Datum mit Zykloplupe bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2025",
+     "Vorstellung der Land-Dweller mit Kaliber 7135 und Dynapulse-Hemmung"
+    ]
+   ],
+   "x": [
+    "Die 5 Hertz lassen den Sekundenzeiger sichtbar feiner laufen als bei den meisten Rolex mit 4 Hertz.",
+    "Als neues Modell ist die Land-Dweller beim Konzessionär sehr gefragt."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2025"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Oystersteel, Lünette 18 Karat Weißgold"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "7135, Automatik, 5 Hz, Dynapulse-Hemmung, ca. 66 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak von 1972 begründete die Klasse der Luxus-Sportuhren mit integriertem Band."
+    },
+    {
+     "m": "nautilus",
+     "c": "Patek Philippes Nautilus ist seit 1976 die andere große Ikone dieser Klasse."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle ist eine der neueren Uhren mit integriertem Band, ebenfalls mit 5 Hertz."
+    }
+   ]
   }
  ]
 }
