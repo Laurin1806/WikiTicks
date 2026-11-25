@@ -34603,6 +34603,95 @@
      "c": "Sinn stand mit der 556 für die schlichte, robuste Werkzeuguhr aus Deutschland."
     }
    ]
+  },
+  {
+   "id": "explorer-2-226570",
+   "model": "explorer-2",
+   "ref": "226570",
+   "alias": [
+    "216570"
+   ],
+   "var": 1,
+   "t": "Rolex Explorer II Ref. 226570",
+   "bau": "seit 2021",
+   "cap": "mit weißem »Polar«-Zifferblatt",
+   "s": "Der heutige Explorer II zum 50. Geburtstag des Modells: 42 Millimeter, orangefarbener 24-Stunden-Zeiger wie bei der 1655 und das Kaliber 3285.",
+   "bh": [
+    "Der orangefarbene Zeiger kehrt zurück",
+    "Feinschliff zum Jubiläum",
+    "Das Werk"
+   ],
+   "b": [
+    "2011 vergrößerte Rolex den Explorer II mit der Referenz 216570 auf 42 Millimeter und brachte dabei den orangefarbenen 24-Stunden-Zeiger zurück, der die erste Generation von 1971 geprägt hatte. Auch die größeren Indizes und Zeiger mit blau leuchtender Chromalight-Masse stammen aus dieser Generation.",
+    "Zum 50. Geburtstag des Explorer II folgte 2021 die Referenz 226570. Das Gehäuse blieb bei 42 Millimetern, wurde aber an den Bandanstößen und am Mittelteil fein überarbeitet und wirkt etwas schlanker. Das Zifferblatt gibt es weiterhin in Weiß, als »Polar«, und in Schwarz; auf dem weißen Zifferblatt sind die Indizes nun schwarz lackiert gefasst.",
+    "Im Inneren arbeitet das Kaliber 3285, dasselbe Werk wie in der GMT-Master II, mit Chronergy-Hemmung und etwa 70 Stunden Gangreserve. Der normale Stundenzeiger lässt sich in Stundenschritten verstellen, der 24-Stunden-Zeiger zeigt auf der festen Lünette die Heimatzeit oder einfach Tag und Nacht."
+   ],
+   "vh": [
+    [
+     "Vorgängerin: Ref. 216570",
+     "Die 216570 von 2011 hatte bereits 42 Millimeter und den orangefarbenen Zeiger, aber noch das Kaliber 3187. Äußerlich unterscheiden sich die beiden Generationen vor allem in Details von Gehäuse und Zifferblatt."
+    ]
+   ],
+   "m": [
+    "42 mm, feste Stahllünette mit 24-Stunden-Skala",
+    "Orangefarbener 24-Stunden-Zeiger",
+    "Weißes »Polar«- oder schwarzes Zifferblatt",
+    "Datum mit Zykloplupe"
+   ],
+   "ev": [
+    [
+     "2011",
+     "Ref. 216570: 42 mm, orangefarbener Zeiger"
+    ],
+    [
+     "2021",
+     "Ref. 226570 mit Kaliber 3285 zum 50. Jubiläum"
+    ]
+   ],
+   "x": [
+    "Der Explorer II ist eine der wenigen Stahl-Rolex, die man vergleichsweise leicht beim Konzessionär bekommt.",
+    "Das weiße Zifferblatt wird häufiger gesucht als das schwarze und gilt als das eigentliche Gesicht des Explorer II."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Oystersteel"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3285, Automatik, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone (24 h)"
+    ],
+    [
+     "Vorgänger",
+     "216570"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay-gmt",
+     "c": "Tudors Black Bay GMT ist die günstigere Uhr mit zweiter Zeitzone aus dem Schwesterhaus."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra gibt es ebenfalls mit GMT-Funktion und Master-Chronometer-Werk."
+    },
+    {
+     "m": "pelagos",
+     "c": "Tudors Pelagos aus Titan ist die moderne Werkzeuguhr, die den Expeditionsgedanken weiterträgt."
+    }
+   ]
   }
  ]
 }
