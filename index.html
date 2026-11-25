@@ -534,6 +534,7 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 .nightbtn:hover { border-color: var(--accent); }
 .vintbtn { display: inline-flex; align-items: center; gap: 11px; margin-top: 8px; font: 600 13px/1.15 var(--font-body); padding: 7px 16px 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-align: left; transition: border-color .2s, box-shadow .3s, background .3s; }
 .vintbtn:hover { border-color: var(--accent); }
+.nightbtn, .vintbtn { min-width: 192px; justify-content: flex-start; } /* feste Breite: Wechsel von »Nachtmodus« zu »Tagmodus« bzw. »Vintage-« zu »Heute-Modus« verschiebt nichts */
 .vintbtn .vdial { width: 32px; height: 31px; margin: -3px 8px; flex: none; overflow: visible; filter: drop-shadow(0 1px 1px rgba(0,0,0,.18)); }
 .vintbtn .vd-hands { transform-origin: 30px 15px; transform-box: view-box; }
 .vintbtn .vd-h { stroke-linecap: round; transition: stroke .8s ease; stroke: #1d3557; } .vintbtn[aria-pressed="true"] .vd-h { stroke: #b08a3e; }
@@ -1165,7 +1166,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112612";
+const IMGV = "2026112613";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
