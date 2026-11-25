@@ -8,17 +8,25 @@ from PIL import Image
 os.chdir(os.path.join(os.path.dirname(__file__),'..'))
 REF_IMG,REF_MM='rolex-submariner-126610ln.jpg',41.0
 def meas(path):
+  """Kreis an die linke Gehäusekante (Lünettenbogen) anpassen: Durchmesser als Anteil der Bildhöhe und Versatz der Mitte.
+  Links, weil rechts die Krone sitzt; Ausreißer (Heliumventil, Bandanstöße) werden schrittweise entfernt."""
   A=np.asarray(Image.open(path).convert('RGB')).astype(int);H,W,_=A.shape
   fg=(A.min(2)<232)|((A.max(2)-A.min(2))>18)
+  pts=[(np.nonzero(fg[y])[0].min(),y) for y in range(int(H*.25),int(H*.75)) if fg[y].any()]
+  P=np.array(pts,float);x,y=P[:,0],P[:,1]
+  def circ(x,y):
+    M=np.c_[x,y,np.ones_like(x)];D,E,F=np.linalg.lstsq(M,-(x**2+y**2),rcond=None)[0];cx,cy=-D/2,-E/2;return cx,cy,np.sqrt(max(1,cx**2+cy**2-F))
+  sel=np.abs(y-y[np.argmin(x)])<H*.13
+  for _ in range(4):
+    cx,cy,r=circ(x[sel],y[sel]);res=np.abs(np.hypot(x-cx,y-cy)-r);sel=sel&(res<max(2,np.percentile(res[sel],80)))
+  # einfache Messung zum Abgleich: Achse aus der Mitte des Bandes oben/unten, Radius bis zur linken Kante
   def mid(r0,r1):
-    xs=[(np.nonzero(fg[y])[0].min()+np.nonzero(fg[y])[0].max())/2 for y in range(int(H*r0),int(H*r1)) if fg[y].sum()>W*.05]
+    xs=[(np.nonzero(fg[yy])[0].min()+np.nonzero(fg[yy])[0].max())/2 for yy in range(int(H*r0),int(H*r1)) if fg[yy].sum()>W*.05]
     return float(np.median(xs)) if xs else W/2
-  ax=(mid(.03,.12)+mid(.88,.97))/2
-  best=0
-  for y in range(int(H*.3),int(H*.7)):
-    c=np.nonzero(fg[y])[0]
-    if len(c): best=max(best,ax-c.min())   # Radius ohne Krone (rechts)
-  return 2*best/H,(ax-W/2)/W
+  ax=(mid(.03,.12)+mid(.88,.97))/2;rs=ax-x.min()
+  # Kreis nur, wenn er zur einfachen Messung passt (runde Gehäuse); sonst (achteckig, Kissen, eckig) die einfache Messung
+  if W*.25<cx<W*.75 and abs(r-rs)/rs<.06: return 2*r/H,(cx-W/2)/W
+  return 2*rs/H,(ax-W/2)/W
 mmre=re.compile(r'(\d+(?:,\d+)?)\s*mm')
 def mm_of(txt):
   m=mmre.search(txt or '');return float(m.group(1).replace(',','.')) if m else None
