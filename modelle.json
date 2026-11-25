@@ -33757,6 +33757,109 @@
      "c": "Vacheron Constantins Overseas ist die Luxus-Sportuhr mit eigener Dualtime-Ausführung."
     }
    ]
+  },
+  {
+   "id": "datejust-1601",
+   "model": "datejust",
+   "ref": "1601",
+   "alias": [
+    "1600",
+    "1603",
+    "1601/3"
+   ],
+   "var": 1,
+   "t": "Rolex Datejust Ref. 1601",
+   "bau": "1959–1977",
+   "cap": "mit schwarzem Zifferblatt und geriffelter Lünette",
+   "s": "Die klassische Datejust der 1960er- und 1970er-Jahre: 36 Millimeter, geriffelte Lünette, Zykloplupe und Jubilee-Band – das Urbild der Rolex für jeden Tag.",
+   "bh": [
+    "Die Datejust wird erwachsen",
+    "Gehäuse, Lünette und Werk",
+    "Zifferblätter"
+   ],
+   "b": [
+    "Die Datejust von 1945 war die erste automatische Armbanduhr mit einem Datum, das um Mitternacht in einem Fenster springt; 1953 kam die Zykloplupe hinzu, die das Datum zweieinhalbfach vergrößert. Mit der Referenz 1601 von 1959 erreichte die Datejust ihre klassische Form, die fast zwei Jahrzehnte gebaut wurde und bis heute das Bild der Datejust prägt.",
+    "Das Oyster-Gehäuse aus Edelstahl misst 36 Millimeter. Die 1601 trägt eine geriffelte Lünette aus 18 Karat Weißgold, deren feine Facetten das Licht brechen; ursprünglich diente die Riffelung dem Verschrauben der Lünette, später wurde sie zum Erkennungszeichen. Über dem Zifferblatt sitzt ein gewölbtes Acrylglas mit Zykloplupe. Im Inneren arbeitete zunächst das Automatikkaliber 1560, ab den 1960er-Jahren das Kaliber 1570, in späteren Jahren mit Sekundenstopp. Eine Schnellkorrektur für das Datum gab es noch nicht: Man drehte die Zeiger über Mitternacht, um das Datum weiterzustellen.",
+    "Kaum eine Rolex gab es mit so vielen Zifferblättern: silbern, champagnerfarben, schwarz, blau, mit aufgesetzten Indizes oder Ziffern, in glänzender oder matter Ausführung. Bei Sammlern beliebt sind die »Pie Pan«-Zifferblätter, deren Rand wie eine umgedrehte Kuchenform abgeschrägt ist. Viele Zifferblätter haben mit den Jahren eine cremefarbene oder gesprenkelte Patina angenommen. 1977 löste die Referenz 16014 mit Saphirglas und Datums-Schnellschaltung die 1601 ab."
+   ],
+   "vh": [
+    [
+     "Andere Lünetten: 1600 und 1603",
+     "Mit glatter Stahllünette trug dieselbe Uhr die Referenz 1600, mit einer Lünette mit Guilloché-Muster (»Engine Turned«) die Referenz 1603. Die geriffelte 1601 blieb die beliebteste Ausführung."
+    ],
+    [
+     "Rolesor: 1601/3",
+     "In Rolesor mit Lünette, Krone und Bandmittelgliedern aus Gelbgold trug die Uhr die Referenz 1601/3, oft mit champagnerfarbenem Zifferblatt. Diese Kombination aus Stahl und Gold wurde zum Inbegriff der Datejust."
+    ]
+   ],
+   "m": [
+    "36 mm Edelstahl, geriffelte Weißgoldlünette",
+    "Gewölbtes Acrylglas mit Zykloplupe",
+    "Datum ohne Schnellschaltung",
+    "Häufig am Jubilee-Band"
+   ],
+   "ev": [
+    [
+     "1945",
+     "Erste Datejust (Ref. 4467)"
+    ],
+    [
+     "1953",
+     "Zykloplupe"
+    ],
+    [
+     "1959",
+     "Vorstellung der Ref. 1601"
+    ],
+    [
+     "1977",
+     "Ablösung durch die Ref. 16014 mit Saphirglas"
+    ]
+   ],
+   "x": [
+    "Weil die 1601 lange und in großen Stückzahlen gebaut wurde, ist sie ein vergleichsweise zugänglicher Einstieg in die Vintage-Rolex.",
+    "Bei Zifferblättern mit starker Patina lohnt der Blick auf die Leuchtpunkte: Sie sollten zur Alterung der Zeiger passen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1959–1977"
+    ],
+    [
+     "Gehäuse",
+     "36 mm, Edelstahl, Lünette Weißgold geriffelt"
+    ],
+    [
+     "Kaliber",
+     "1560, später 1570, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Glas",
+     "gewölbtes Acrylglas mit Zykloplupe"
+    ],
+    [
+     "Nachfolger",
+     "16014"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "constellation",
+     "c": "Omegas Constellation mit Chronometerwerk und Sternwarte auf dem Boden war die große Konkurrentin der Datejust."
+    },
+    {
+     "m": "calatrava",
+     "c": "Patek Philippes Calatrava stand für die schlichte, elegante Golduhr ohne Datum."
+    },
+    {
+     "m": "golden-ellipse",
+     "c": "1968 brachte Patek Philippe die Golden Ellipse, eine flache Dresswatch nach dem Goldenen Schnitt."
+    }
+   ]
   }
  ]
 }
