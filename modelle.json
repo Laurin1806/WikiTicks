@@ -36034,6 +36034,93 @@
      "c": "Patek Philippes Nautilus von 1976 war die zweite große Stahluhr mit integriertem Band dieser Jahre."
     }
    ]
+  },
+  {
+   "id": "yacht-master-ii-116680",
+   "model": "yacht-master-ii",
+   "ref": "116680",
+   "alias": [
+    "116681",
+    "116688",
+    "116689"
+   ],
+   "var": null,
+   "t": "Rolex Yacht-Master II Ref. 116680",
+   "bau": "seit 2013",
+   "cap": "in Oystersteel mit blauer Keramiklünette",
+   "s": "Die Regattauhr von Rolex: ein programmierbarer Countdown von einer bis zehn Minuten, eingestellt über die drehbare Ring-Command-Lünette.",
+   "bh": [
+    "Countdown bis zum Startschuss",
+    "Ring Command und mechanisches Gedächtnis",
+    "Die Stahlausführung"
+   ],
+   "b": [
+    "Bei einer Segelregatta zählt der Start: Die Boote kreuzen vor der Startlinie und versuchen, sie genau mit dem Startsignal zu überqueren. Dafür läuft ein festgelegter Countdown, meist von fünf oder zehn Minuten. 2007 stellte Rolex mit der Yacht-Master II eine Uhr vor, die genau dafür gebaut ist: ein Regatta-Chronograph mit einem Countdown, den man zwischen einer und zehn Minuten einstellen kann.",
+    "Programmiert wird der Countdown über die Lünette, die Rolex »Ring Command« nennt und hier zum ersten Mal einsetzte. Dreht man sie, verbindet sie sich mit dem Werk, und mit der Krone lässt sich die Dauer einstellen. Das Kaliber 4161 hat ein mechanisches Gedächtnis, das die eingestellte Zeit speichert. Während des Countdowns kann man den Zeiger auf die nächste volle Minute synchronisieren, falls das Startsignal der Wettfahrtleitung abweicht – eine Funktion, die Seglern in der Hektik vor dem Start hilft.",
+    "Anfangs gab es die Yacht-Master II nur in Gold. 2013 folgte mit der Referenz 116680 die Ausführung in Oystersteel, mit weißem Zifferblatt, roten Akzenten und einer blauen Keramiklünette aus Cerachrom mit Minutenskala. Das Gehäuse misst 44 Millimeter und ist bis 100 Meter wasserdicht."
+   ],
+   "vh": [
+    [
+     "Gold, Everose und Platin",
+     "Die Yacht-Master II gibt es in 18 Karat Gelbgold (116688, die erste Ausführung von 2007), in Everose-Rolesor (116681) und in Weißgold mit Platinlünette (116689)."
+    ]
+   ],
+   "m": [
+    "44 mm, blaue Keramiklünette mit Minutenskala",
+    "Countdown-Anzeige von 1 bis 10 Minuten im oberen Zifferblatt",
+    "Weißes Zifferblatt mit roten Akzenten",
+    "Kein Datum"
+   ],
+   "ev": [
+    [
+     "2007",
+     "Erste Yacht-Master II in Gelbgold"
+    ],
+    [
+     "2013",
+     "Ausführung in Oystersteel (Ref. 116680)"
+    ]
+   ],
+   "x": [
+    "Die Bedienung ist gewöhnungsbedürftig; wer die Uhr gebraucht kauft, sollte sich die Anleitung besorgen.",
+    "Am Zweitmarkt ist die Yacht-Master II eine Nischenuhr und meist günstiger als Daytona oder GMT-Master."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2013 (Modell seit 2007)"
+    ],
+    [
+     "Gehäuse",
+     "44 mm, Oystersteel"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "4161, Automatik, Regatta-Chronograph mit mechanischem Gedächtnis"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, programmierbarer Countdown 1–10 Minuten"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "aquanaut",
+     "c": "Patek Philippes Aquanaut ist die sportliche Luxusuhr für Meer und Freizeit."
+    },
+    {
+     "m": "planet-ocean",
+     "c": "Omegas Planet Ocean ist die große Sport- und Taucheruhr dieser Jahre mit Keramiklünette."
+    },
+    {
+     "m": "royal-oak-offshore",
+     "c": "Die Royal Oak Offshore ist der wuchtige Luxus-Chronograph mit sportlichem Anspruch."
+    }
+   ]
   }
  ]
 }
