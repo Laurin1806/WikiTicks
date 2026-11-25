@@ -34885,7 +34885,6 @@
    "ref": "126622",
    "alias": [
     "126622-0001",
-    "16622",
     "126621",
     "126655",
     "268622"
@@ -34973,6 +34972,90 @@
     {
      "m": "overseas",
      "c": "Vacheron Constantins Overseas ist die Luxus-Sportuhr für Reisen und Meer."
+    }
+   ]
+  },
+  {
+   "id": "air-king-5500",
+   "model": "air-king",
+   "ref": "5500",
+   "var": 0,
+   "t": "Rolex Air-King Ref. 5500",
+   "bau": "1957–1989",
+   "cap": "in Edelstahl mit 34 Millimetern",
+   "s": "Die einfachste Oyster Perpetual ihrer Zeit: 34 Millimeter, kein Datum, mehr als drei Jahrzehnte gebaut – eine Rolex für jeden Tag mit dem Namen der Piloten.",
+   "bh": [
+    "Ein Name für die Piloten",
+    "Gehäuse und Werk",
+    "Precision und Explorer-Zifferblatt"
+   ],
+   "b": [
+    "Den Namen Air-King führte Rolex in den 1940er-Jahren ein, als Hommage an die Piloten der britischen Royal Air Force, von denen viele im Krieg Rolex-Uhren trugen. Die Air-King war von Anfang an die schlichte, erschwingliche Oyster Perpetual: wasserdicht, automatisch, ohne Datum. Mit der Referenz 5500 von 1957 bekam sie die Form, die sie bis 1989 behielt, länger als fast jede andere Rolex-Referenz.",
+    "Das Oyster-Gehäuse aus Edelstahl misst 34 Millimeter, Boden und Krone sind verschraubt. Über dem Zifferblatt sitzt ein gewölbtes Acrylglas. Im Inneren arbeitete anfangs das Kaliber 1530, über die längste Zeit das Kaliber 1520, ein Automatikwerk ohne Chronometerzertifikat. Das schlichte Werk und das kleine Gehäuse machten die Air-King zur günstigsten Möglichkeit, eine Rolex zu tragen.",
+    "Viele 5500 tragen auf dem Zifferblatt unter dem Namen das Wort »Precision« oder »Super Precision«. Bei Sammlern besonders gesucht ist die Ausführung mit dem »Explorer-Zifferblatt«, schwarz mit den Ziffern 3, 6 und 9 wie beim Explorer 1016. 1989 folgte die Referenz 14000 mit Saphirglas."
+   ],
+   "m": [
+    "34 mm Edelstahl, kein Datum",
+    "Schriftzug »Air-King« und meist »Precision« auf dem Zifferblatt",
+    "Gewölbtes Acrylglas",
+    "Glatte, polierte Lünette"
+   ],
+   "ev": [
+    [
+     "1940er",
+     "Name Air-King als Hommage an die Royal Air Force"
+    ],
+    [
+     "1957",
+     "Vorstellung der Ref. 5500"
+    ],
+    [
+     "1989",
+     "Ablösung durch die Ref. 14000"
+    ]
+   ],
+   "x": [
+    "Die 5500 ist eine der günstigsten Vintage-Rolex und ein guter Einstieg; das 34-Millimeter-Gehäuse wirkt heute klein, aber zeitlos.",
+    "Ausführungen mit Explorer-Zifferblatt erzielen deutlich höhere Preise als die mit Stabindizes."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1957–1989"
+    ],
+    [
+     "Gehäuse",
+     "34 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "1530, später 1520, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Glas",
+     "gewölbtes Acrylglas"
+    ],
+    [
+     "Nachfolger",
+     "14000"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "seiko-5",
+     "c": "Seikos Seiko 5 machte ab 1963 die robuste Automatikuhr für den Alltag für jeden erschwinglich."
+    },
+    {
+     "m": "king-seiko",
+     "c": "King Seiko war die japanische Antwort auf die Schweizer Präzisionsuhr dieser Jahre."
+    },
+    {
+     "m": "railmaster",
+     "c": "Omegas Railmaster von 1957 war die schlichte, antimagnetische Uhr für Techniker und Eisenbahner."
     }
    ]
   }
