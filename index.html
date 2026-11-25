@@ -439,7 +439,8 @@ figure.diagram[data-dg="mondphase"] figcaption { text-align: center; }
 #zoom.on .zbox { transform: scale(1); }
 #zoom .wimg-wrap img.wimg { width: auto; max-width: none; }
 @media (prefers-reduced-motion: reduce) { #zoom, #zoom .zbox { transition: none; } }
-img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multiply; padding: 4px 0; box-sizing: border-box; transition: opacity 1.1s ease-in-out, filter 1.1s ease-in-out; }
+img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multiply; padding: 4px 0; box-sizing: border-box; transition: filter 1.1s ease-in-out; } /* zum Tag: Bild sofort da, die Nachtebene darüber blendet aus – kein Abdunkeln zwischendurch */
+:root.night img.wimg { transition: opacity 1.1s ease-in-out, filter 1.1s ease-in-out; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; } }
 :root[data-theme="dark"] img.wimg { mix-blend-mode: normal; background: #fff; border-radius: 14px; }
 /* Nachtmodus (ganze Seite): schwarze Seite, Uhren abgedunkelt, Leuchtmasse leuchtet. Freisteller und Leuchtmaske erzeugt der Browser je Bild (Canvas) */
@@ -516,7 +517,10 @@ img.wlume-img { mix-blend-mode: screen; filter: brightness(1.15) drop-shadow(0 0
 .wimg-wrap[data-lc="v"] { --lc1: 120,235,165; --lc2: 70,220,135; --lc3: 50,190,115; }
 @media (prefers-reduced-motion: reduce) { img.wlume-img { animation: none !important; } }
 /* Überblendungen (Vintage-/Nachtwechsel): Uhren erst im Tageszustand, danach fließend abdunkeln und aufleuchten */
-:root.wdim.night canvas.wcut, :root.wdim.night canvas.wlume, :root.wdim.night img.wlume-img { opacity: 0 !important; }
+:root.wnow .wimg-wrap > * { transition: none !important; } /* Überblendung zum Tag: Uhren direkt im Endzustand, die Seite blendet weich */
+:root.wdim.night canvas.wlume, :root.wdim.night img.wlume-img { opacity: 0 !important; } /* Überblendung zur Nacht: Uhr direkt dunkel (Seite blendet), Leuchtmasse leuchtet danach auf */
+:root.wdim.night canvas.wcut { opacity: 1 !important; transition: none !important; }
+:root.wdim.night .wimg-wrap[data-nt="1"] > img.wimg { opacity: 0 !important; transition: none !important; }
 @starting-style { :root.night canvas.wcut, :root.night canvas.wlume, :root.night img.wlume-img { opacity: 0; } } /* später erzeugte Leuchtebenen blenden ein statt aufzuploppen */
 .wimg-wrap { --lc1: 130,255,180; --lc2: 80,255,150; --lc3: 60,230,130; }
 .wimg-wrap[data-lc="b"] { --lc1: 150,215,255; --lc2: 80,170,255; --lc3: 50,130,255; }
@@ -1186,7 +1190,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112626";
+const IMGV = "2026112627";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2885,7 +2889,7 @@ function setNight(on, save = true, anim = false) {
     // Während der Überblendung bleibt die Akzentfarbe dunkel (manche Browser frieren das neue Bild ein); erst danach leuchtet sie langsam auf – kein Aufploppen am Ende
     const vt = document.startViewTransition(() => {
       root.classList.toggle("night", on);
-      root.classList.toggle("wdim", on);
+      root.classList.toggle("wdim", on); root.classList.toggle("wnow", !on);
       if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
       clearTimeout(accFadeT); clearTimeout(accPhaseT);
       if (window.applyAccent) window.applyAccent();
@@ -2896,7 +2900,7 @@ function setNight(on, save = true, anim = false) {
     });
     vt.finished.finally(() => {
       if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
-      requestAnimationFrame(() => root.classList.remove("wdim"));
+      requestAnimationFrame(() => root.classList.remove("wdim", "wnow"));
       root.classList.add("accent-fade", "accent-slow");
       requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 1150); });
     });
