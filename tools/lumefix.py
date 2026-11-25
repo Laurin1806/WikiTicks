@@ -5,6 +5,8 @@
   ["erase_poly", [[x,y],...]]             Vieleck löschen
   ["line", x0, y0, x1, y1, w]             Leuchtstreifen (Index, Zeigerfüllung) mit Breite w
   ["dot", x, y, r]                        runder Leuchtpunkt
+  ["bar", x0, y0, x1, y1, w]              eckiger Balken (gerade Enden) – für Balkenindizes
+  ["mercedes", x, y, r, a, sw]            Mercedes-Kreis mit drei Speichen (Winkel a der ersten Speiche, 0 = 12 Uhr; Speichenbreite sw)
   ["poly", [[x,y],...]]                   Leuchtfläche als Vieleck (z. B. Dreieck bei 12)
   ["sel", x0, y0, x1, y1, lmin]           helle, farbarme Pixel im Rechteck als Leuchtmasse (lmin = Mindesthelligkeit 0–255)
 Basis ist immer die Maske aus Commit 15f089433e098856be988d468bb4c53e8b6cce6c (so lassen sich Korrekturen beliebig oft neu anwenden).
@@ -33,6 +35,16 @@ def apply(n):
       x0,y0,x1,y1,w=op[1:6];d.line([P(x0,y0),P(x1,y1)],fill=255,width=max(2,int(w*s*SS)))
       for x,y in ((x0,y0),(x1,y1)): d.ellipse([P(x-w/2,y-w/2),P(x+w/2,y+w/2)],fill=255)
     elif k=='dot': x,y,r=op[1:4];d.ellipse([P(x-r,y-r),P(x+r,y+r)],fill=255)
+    elif k=='bar':  # eckiger Balken (Index) mit Breite w, Enden gerade
+      import math
+      x0,y0,x1,y1,w=op[1:6];L=math.hypot(x1-x0,y1-y0) or 1;nx,ny=-(y1-y0)/L*w/2,(x1-x0)/L*w/2
+      d.polygon([P(x0+nx,y0+ny),P(x1+nx,y1+ny),P(x1-nx,y1-ny),P(x0-nx,y0-ny)],fill=255)
+    elif k=='mercedes':  # Mercedes-Zeiger: Kreis (x,y,r) mit drei Speichen (Breite sw) ab Winkel a (Grad, 0 = 12 Uhr)
+      import math
+      x,y,r,a,sw=op[1:6];d.ellipse([P(x-r,y-r),P(x+r,y+r)],fill=255)
+      for k2 in range(3):
+        t=math.radians(a+120*k2);ex,ey=x+math.sin(t)*(r+2),y-math.cos(t)*(r+2);nx,ny=math.cos(t)*sw/2,math.sin(t)*sw/2
+        d.polygon([P(x+nx,y+ny),P(ex+nx,ey+ny),P(ex-nx,ey-ny),P(x-nx,y-ny)],fill=0)
     elif k=='poly': d.polygon([P(*p) for p in op[1]],fill=255)
     elif k=='sel':
       x0,y0,x1,y1,lmin=op[1:6];a=np.asarray(im).astype(int)[int(y0):int(y1),int(x0):int(x1)];L=a.mean(2);sat=a.max(2)-a.min(2)
