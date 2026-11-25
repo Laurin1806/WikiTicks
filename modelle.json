@@ -34153,6 +34153,106 @@
      "c": "Die Golden Ellipse von 1968 war Patek Philippes elegante Antwort auf die Mode der flachen Golduhren."
     }
    ]
+  },
+  {
+   "id": "day-date-228238",
+   "model": "day-date",
+   "ref": "228238",
+   "alias": [
+    "228236",
+    "228239",
+    "228235",
+    "128238"
+   ],
+   "var": null,
+   "t": "Rolex Day-Date 40 Ref. 228238",
+   "bau": "seit 2015",
+   "cap": "in 18 Karat Gelbgold mit champagnerfarbenem Zifferblatt",
+   "s": "Die heutige Day-Date 40 in Gelbgold: mit dem Kaliber 3255, dem ersten Werk mit der Chronergy-Hemmung, und dem President-Band, das seit 1956 zu ihr gehört.",
+   "bh": [
+    "Das Flaggschiff wird erneuert",
+    "Ein neues Werk",
+    "Wochentag in vielen Sprachen"
+   ],
+   "b": [
+    "2015 stellte Rolex die Day-Date 40 mit der Referenz 228238 in Gelbgold vor und löste damit die Day-Date II mit 41 Millimetern ab. Das Gehäuse ist mit 40 Millimetern etwas kleiner, aber schlanker gezeichnet als bei der Vorgängerin, und die Proportionen erinnern wieder an die klassische Day-Date. Wie seit 1956 gibt es die Uhr ausschließlich in Edelmetall, am dreigliedrigen President-Band mit verdeckter Faltschließe.",
+    "Mit der Day-Date 40 führte Rolex das Kaliber 3255 ein, das erste Werk einer neuen Generation. Seine Chronergy-Hemmung arbeitet effizienter als die klassische Schweizer Ankerhemmung, die Gangreserve stieg auf etwa 70 Stunden, und eine blaue Parachrom-Spirale macht das Werk unempfindlich gegen Magnetfelder und Temperaturschwankungen. Die Technik dieses Werks floss später in die Kaliber 3235 und 3230 der Datejust und Submariner ein.",
+    "Der Wochentag erscheint ausgeschrieben im Bogenfenster bei 12 Uhr, das Datum unter der Zykloplupe bei 3 Uhr. Rolex bietet den Wochentag in vielen Sprachen an, von Deutsch über Arabisch bis Chinesisch, und beide Anzeigen lassen sich schnell und unabhängig voneinander verstellen."
+   ],
+   "vh": [
+    [
+     "Platin: Ref. 228236",
+     "In Platin trägt die Day-Date 40 die Referenz 228236 und, als Erkennungszeichen, ein eisblaues Zifferblatt, das Rolex den Platinmodellen vorbehält. Die abgebildete Variante zeigt dieses Eisblau; Platin ist schwerer als Gold und wirkt am Handgelenk kühler und zurückhaltender."
+    ],
+    [
+     "Weiß- und Everose-Gold",
+     "Neben Gelbgold gibt es die Day-Date 40 in 18 Karat Weißgold (228239) und Everose-Gold (228235), Rolex' eigener, farbbeständiger Roségold-Legierung."
+    ],
+    [
+     "Day-Date 36: Ref. 128238",
+     "Seit 2019 hat auch die klassische Day-Date mit 36 Millimetern das Kaliber 3255, etwa als 128238 in Gelbgold. Sie ist die direkte Nachfahrin der 1803."
+    ]
+   ],
+   "m": [
+    "40 mm, 18 Karat Gold",
+    "Wochentag im Bogenfenster bei 12 Uhr, Datum mit Zykloplupe",
+    "President-Band mit verdeckter Faltschließe",
+    "Geriffelte Lünette"
+   ],
+   "ev": [
+    [
+     "2015",
+     "Day-Date 40 mit dem neuen Kaliber 3255"
+    ],
+    [
+     "2019",
+     "Day-Date 36 erhält ebenfalls das Kaliber 3255"
+    ]
+   ],
+   "x": [
+    "Gebrauchte Day-Dates in Gold liegen meist unter dem Listenpreis, anders als viele Stahl-Rolex.",
+    "Das eisblaue Zifferblatt gibt es bei Rolex nur in Platin; an ihm erkennt man eine Platin-Day-Date auf den ersten Blick."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2015"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, 18 Karat Gelbgold"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3255, Automatik, Chronergy-Hemmung, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Wochentag"
+    ],
+    [
+     "Vorgänger",
+     "Day-Date II (41 mm)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony ist die schlichte Golduhr der Haute Horlogerie, ohne Datum und Wochentag."
+    },
+    {
+     "m": "lange-1",
+     "c": "Die Lange 1 aus Glashütte ist die deutsche Antwort auf die prestigeträchtige Golduhr, mit Großdatum."
+    },
+    {
+     "m": "classique",
+     "c": "Breguets Classique steht für die elegante Golduhr mit Guilloché-Zifferblatt."
+    }
+   ]
   }
  ]
 }
