@@ -27,7 +27,7 @@ for m in M['modelle']:
   imgs=[m['v'].get('img')]+[(v.get('v') or {}).get('img') for v in m.get('var',[])]+[(m.get('topv') or {}).get('v',{}).get('img')]
   for img in filter(None,set(imgs)):
     f=img.split('/')[-1]
-    if L.get(f) in (None,'n'): continue
+    if L.get(f)!='b': continue   # nur blaue Leuchtmasse (Chromalight)
     jobs.append((m['id'],img,f))
 if '--check' in sys.argv:
   tiles=[]
