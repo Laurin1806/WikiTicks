@@ -1133,7 +1133,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112599";
+const IMGV = "2026112600";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2104,8 +2104,10 @@ function vintVar(e) {
   (e.var || []).forEach(x => { const vy = x.vy || x.y; /* vy: Jahr nur zum Sortieren, z. B. bei Bildern »im Stil« einer alten Referenz */ if (x.v && x.v.img && yearOf(vy) < mainY && (!best || yearOf(vy) < yearOf(best.vy || best.y))) best = x; });
   return best;
 }
-// Vintage-Ansicht: in den Markenvorschauen nur Modelle, die bis 1990 erschienen sind
-const vintFilter = ms => VINTAGE ? ms.filter(e => { const y = yearOf(e.since); return y === 9999 || y <= 1990; }) : ms;
+// Vintage-Ansicht: in den Markenvorschauen nur Modelle mit einem Bild einer Ausführung von vor 1990
+const oldY = y => !/seit/i.test(y || "") && yearOf(y) < 1990; // »seit 1922« = noch gebaut, Bild zeigt eine heutige Ausführung
+const hasOldImg = e => (e.topv ? oldY(e.topv.y) : /(?:18|19)\d0er/.test(e.cur || "") && yearOf(e.cur) < 1990) || (e.var || []).some(x => x.v && x.v.img && oldY(x.vy || x.y));
+const vintFilter = ms => VINTAGE ? ms.filter(hasOldImg) : ms;
 const mainV = e => { const vv = vintVar(e); return vv ? withVariant(e.v, { ...vv.v, era: "vintage" }) : mainV0(e); };
 const mainV0 = e => e.topv ? withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }) : e.v;
 const thumb = e => e.brand ? `<div class="thumb">${drawWatch(mainV(e), e)}</div>` : "";
@@ -2195,11 +2197,12 @@ function viewModels() {
     <h2 class="page-title">Alle Marken</h2>
     <p class="intro">Alle Marken mit ihren Modellen, von A. Lange &amp; Söhne bis Zodiac. Mit einem Tipp auf eine Marke kommst du zu Geschichte, Grunddaten und allen Modellen.</p>
     <div class="vhead"><div>
-    <p class="count">${plural(BRANDS.length, "Marke", "Marken")} · ${plural(vintFilter(MODELS).length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Ansicht: nur Modelle bis 1990" : ""}</p></div>${vtoggle()}</div>
-    <div class="toc catchips">${BRANDS.map(b => `<a href="#marke-${slug(b)}">${esc(b)}</a>`).join("")}</div>
+    <p class="count">${plural(VINTAGE ? new Set(vintFilter(MODELS).map(e => e.brand)).size : BRANDS.length, "Marke", "Marken")} · ${plural(vintFilter(MODELS).length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Ansicht: nur Modelle mit Bild einer Ausführung vor 1990" : ""}</p></div>${vtoggle()}</div>
+    <div class="toc catchips">${BRANDS.filter(b => !VINTAGE || vintFilter(MODELS.filter(e => e.brand === b)).length).map(b => `<a href="#marke-${slug(b)}">${esc(b)}</a>`).join("")}</div>
     </div>
     ${listMode ? brandList() : `<div class="grid">${BRANDS.map(b => {
       const ms = vintFilter(MODELS.filter(e => e.brand === b)), info = BRAND_INFO[b];
+      if (VINTAGE && !ms.length) return "";
       return `
       <a class="card" href="#marke-${slug(b)}">
         <span class="cat">${info ? "gegründet " + esc(info.gegruendet) + " · " : ""}${plural(ms.length, "Modell", "Modelle")}</span>
@@ -2216,6 +2219,7 @@ function brandList() {
   return `<div class="letters">${letters.map(l => `<button type="button" data-l="${l}">${l}</button>`).join("")}</div>` + letters.map(l => `
     <div class="azgroup" id="az-${l}"><h3>${l}</h3><ul>
       ${groups[l].map(b => { const ms = vintFilter(MODELS.filter(e => e.brand === b)), info = BRAND_INFO[b];
+        if (VINTAGE && !ms.length) return "";
         return `<li><a href="#marke-${slug(b)}">${esc(b)}</a><small>${info ? "gegründet " + esc(info.gegruendet) + " · " : ""}${plural(ms.length, "Modell", "Modelle")}</small><br><span>${esc(ms.map(shortName).sort((x, y) => x.localeCompare(y, "de")).join(", "))}</span></li>`; }).join("")}
     </ul></div>`).join("");
 }
@@ -2242,7 +2246,7 @@ function viewBrand(b) {
       ${info.zeit ? `<h3 class="art-h">Zeitleiste</h3><ol class="timeline">${info.zeit.map(([y, t]) => `<li><span class="ty">${esc(y)}</span><span class="tt">${linkify(esc(t), "marke-" + slug(b), used)}</span></li>`).join("")}</ol>` : ""}
     </article>` : ""}` : `<h2 class="page-title">${esc(b)}</h2>`}
     <div class="vhead" id="brand-models"><div><h3 class="section-title">Modelle</h3>
-    <p class="count">${plural(ms.length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Ansicht: nur Modelle bis 1990" : ""}</p></div>${vtoggle()}</div>
+    <p class="count">${plural(ms.length, "Modell", "Modelle")}${VINTAGE ? " · Vintage-Ansicht: nur Modelle mit Bild einer Ausführung vor 1990" : ""}</p></div>${vtoggle()}</div>
     ${listMode
       ? `<ul class="mlist">${ms.map(e => `<li><a href="#${e.id}">${esc(shortName(e))}</a><small>${esc(e.since ? "seit " + e.since : "Modell")}</small><br><span>${esc(e.s)}</span></li>`).join("")}</ul>`
       : `<div class="grid">${ms.map(e => `
