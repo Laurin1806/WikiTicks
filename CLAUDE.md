@@ -13,3 +13,7 @@ Jede Änderung an der Website wird im selben Commit im Changelog eingetragen.
 - Artikel des Tages und Uhr des Tages nie von derselben Marke.
 - Datenblatt-Daten (`datenblatt.json`) nur im Uhrenvergleich und im Aufklapper der Referenztabelle verwenden.
 - Bei jeder Änderung an Bildern oder Daten `IMGV` in `index.html` hochzählen (Cache).
+
+## Deployment (Hostinger)
+- Automatische Bereitstellung über GitHub-Push auf `claude/vigilant-darwin-l5t91c`.
+- »Erneut bereitstellen« im hPanel spielt nur den zuletzt bereitgestellten Commit erneut auf, nicht den neuesten Stand. Welcher Commit live ist, steht unter »Letzte Bereitstellung → Begehen«.
