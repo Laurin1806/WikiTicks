@@ -35933,6 +35933,107 @@
      "c": "Vacheron Constantins Traditionnelle zeigt die klassische Eleganz der Haute Horlogerie."
     }
    ]
+  },
+  {
+   "id": "oysterquartz-17000",
+   "model": "oysterquartz",
+   "ref": "17000",
+   "alias": [
+    "17013",
+    "17014",
+    "19018"
+   ],
+   "var": null,
+   "t": "Rolex Oysterquartz Datejust Ref. 17000",
+   "bau": "1977–2001",
+   "cap": "in Edelstahl mit integriertem Band",
+   "s": "Rolex' Antwort auf die Quarzkrise: ein eigenes, thermokompensiertes Quarzwerk im kantigen Gehäuse mit integriertem Band – heute ein Geheimtipp unter Sammlern.",
+   "bh": [
+    "Quarz aus Genf",
+    "Ein Werk wie ein mechanisches",
+    "Kantiges Gehäuse, integriertes Band",
+    "Vom Ladenhüter zum Kultobjekt"
+   ],
+   "b": [
+    "Als in den 1970er-Jahren Quarzuhren aus Japan den Markt überrollten, mussten auch die Schweizer Hersteller reagieren. Rolex hatte sich schon am Beta-21-Konsortium beteiligt, das 1970 das erste Schweizer Quarzwerk für Armbanduhren auf den Markt brachte, entschied sich dann aber für eine eigene Lösung. 1977 stellte Rolex die Oysterquartz vor, als Datejust mit der Referenz 17000 in Edelstahl.",
+    "Das Kaliber 5035 ist für eine Quarzuhr ungewöhnlich aufwendig gebaut. Es ist thermokompensiert, gleicht also die Temperaturabhängigkeit des Quarzes aus, und trägt ein Chronometerzertifikat. Die Bauteile sind fein bearbeitet und dekoriert wie bei einem mechanischen Werk, mit zahlreichen Lagersteinen. Wer den Boden öffnet, findet eher eine kleine Manufakturarbeit als ein gewöhnliches Quarzmodul.",
+    "Auch äußerlich unterscheidet sich die Oysterquartz vom übrigen Programm: Das 36-Millimeter-Gehäuse ist kantig, mit flachen, polierten Flanken, und geht nahtlos in ein Gliederband über, das fest mit dem Gehäuse verbunden ist. Der Stil erinnert an die integrierten Sportuhren dieser Jahre, etwa die Royal Oak. Das Datum sitzt wie bei jeder Datejust unter der Zykloplupe bei 3 Uhr.",
+    "Rolex baute die Oysterquartz bis 2001, ungewöhnlich lange für ein Quarzmodell, aber in vergleichsweise kleinen Stückzahlen. Lange galt sie als Kuriosität, heute ist sie ein gesuchter Geheimtipp. 2025 griff Rolex mit der Land-Dweller ihren Stil wieder auf."
+   ],
+   "vh": [
+    [
+     "Rolesor und Gold: 17013 und 17014",
+     "Neben der Stahluhr gab es die Oysterquartz Datejust in Rolesor mit Gelbgold (17013) und mit geriffelter Weißgoldlünette (17014)."
+    ],
+    [
+     "Day-Date: Ref. 19018",
+     "Als Day-Date mit Wochentag und Datum trug die Oysterquartz die Referenz 19018, in 18 Karat Gelbgold, mit dem Kaliber 5055."
+    ]
+   ],
+   "m": [
+    "36 mm, kantiges Gehäuse mit flachen Flanken",
+    "Integriertes Gliederband",
+    "Schriftzug »Oysterquartz« auf dem Zifferblatt",
+    "Datum mit Zykloplupe"
+   ],
+   "ev": [
+    [
+     "1970",
+     "Beta 21, an dem Rolex beteiligt war"
+    ],
+    [
+     "1977",
+     "Vorstellung der Oysterquartz (Ref. 17000)"
+    ],
+    [
+     "2001",
+     "Ende der Produktion"
+    ],
+    [
+     "2025",
+     "Die Land-Dweller greift den Stil wieder auf"
+    ]
+   ],
+   "x": [
+    "Service und Ersatzteile sind aufwendig, weil das Werk seit Jahrzehnten nicht mehr gebaut wird; man sollte einen Uhrmacher wählen, der das Kaliber 5035 kennt.",
+    "Die Oysterquartz liegt preislich deutlich unter vergleichbaren mechanischen Rolex dieser Jahre."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1977–2001"
+    ],
+    [
+     "Gehäuse",
+     "36 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "5035, Quarz, thermokompensiert, Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Band",
+     "integriertes Gliederband"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak von 1972 prägte den Stil der kantigen Stahluhr mit integriertem Band, den auch die Oysterquartz aufnimmt."
+    },
+    {
+     "m": "astron",
+     "c": "Seikos Astron von 1969 war die erste Quarzarmbanduhr und löste die Quarzkrise aus."
+    },
+    {
+     "m": "nautilus",
+     "c": "Patek Philippes Nautilus von 1976 war die zweite große Stahluhr mit integriertem Band dieser Jahre."
+    }
+   ]
   }
  ]
 }
