@@ -33055,6 +33055,118 @@
      "c": "Im selben Jahr wie die 1680 kam die Heuer Monaco mit eckigem Gehäuse und einem der ersten Automatik-Chronographen."
     }
    ]
+  },
+  {
+   "id": "submariner-116610",
+   "model": "submariner",
+   "ref": "116610LN",
+   "alias": [
+    "116610",
+    "116610LV",
+    "116619LB",
+    "116618",
+    "116613"
+   ],
+   "var": 1,
+   "t": "Rolex Submariner Date Ref. 116610",
+   "bau": "2010–2020",
+   "cap": "abgebildet: die grüne Variante 116610LV »Hulk«",
+   "s": "Die Submariner mit Keramiklünette und kräftigem »Super Case«: ein Jahrzehnt lang die Submariner Date, aus der Rolex auch die grüne »Hulk« und die blaue »Smurf« ableitete.",
+   "bh": [
+    "Die Submariner wird kräftiger",
+    "Keramik statt Aluminium",
+    "Das Werk",
+    "Kritik und Wirkung"
+   ],
+   "b": [
+    "2010 löste die Referenz 116610LN die langjährige 16610 ab, und auf den ersten Blick sah sie fast gleich aus. Bei genauerem Hinsehen hatte sich viel verändert: Das 40-Millimeter-Gehäuse aus Edelstahl bekam breitere, kantigere Bandanstöße und einen stärkeren Kronenschutz, von Sammlern »Super Case« genannt, und das Zifferblatt größere Leuchtindizes und breitere Zeiger, die »Maxi Dial«. Die Submariner wirkte damit am Handgelenk deutlich präsenter als ihre schlanken Vorgängerinnen.",
+    "Die wichtigste Neuerung war die Lünette. Statt der bisherigen Aluminiumeinlage, die mit den Jahren ausbleichen und verkratzen konnte, trägt die 116610 eine Einlage aus Cerachrom, Rolex' eigener Hochleistungskeramik. Sie ist nahezu kratzfest und farbbeständig; die Zahlen der Minutenskala sind eingraviert und mit Platin ausgelegt. Dazu kamen die blau leuchtende Chromalight-Leuchtmasse und die Oysterlock-Faltschließe mit Glidelock, mit der sich das Band ohne Werkzeug in kleinen Schritten verlängern lässt, etwa über einen Taucheranzug.",
+    "Im Inneren arbeitet das bewährte Automatikkaliber 3135 mit Datum und Schnellschaltung, das Rolex schon in der 16610 verwendet hatte, nun mit der blauen Parachrom-Spirale. Die Uhr ist bis 300 Meter wasserdicht, Krone und Boden sind verschraubt, die Triplock-Krone dichtet mit drei Dichtzonen.",
+    "Unter Sammlern war das »Super Case« umstritten: Manche fanden die breiten Bandanstöße zu wuchtig, andere schätzten gerade die robuste Ausstrahlung. Rolex reagierte 2020 mit der Nachfolgerin 126610LN, die bei 41 Millimetern wieder schlankere Bandanstöße hat. Die 116610 bleibt damit eine eigene Generation: die erste Submariner mit Keramiklünette und die letzte mit dem Kaliber 3135."
+   ],
+   "vh": [
+    [
+     "»Hulk«: Ref. 116610LV",
+     "Von 2010 bis 2020 gab es die Submariner Date in Stahl auch mit grünem Sonnenschliff-Zifferblatt und grüner Keramiklünette. Wegen der durchgehend grünen Erscheinung nennen Sammler sie »Hulk«. Sie folgte der 16610LV »Kermit« von 2003, die nur eine grüne Lünette hatte, und ist heute deutlich teurer als die schwarze Ausführung."
+    ],
+    [
+     "»Smurf«: Ref. 116619LB in Weißgold",
+     "Schon 2008, zwei Jahre vor der Stahluhr, stellte Rolex eine Submariner Date aus 18 Karat Weißgold mit blauem Zifferblatt und blauer Cerachrom-Lünette vor, unter Sammlern »Smurf«. Sie trug als erste Submariner die Keramiklünette und das neue Gehäuse; ihre Nachfolgerin 126619LB hat ein schwarzes Zifferblatt."
+    ],
+    [
+     "Gold und Rolesor",
+     "Daneben gab es die Generation in 18 Karat Gelbgold (116618) und in Rolesor, der Verbindung von Stahl und Gelbgold (116613), jeweils mit blauem oder schwarzem Zifferblatt."
+    ]
+   ],
+   "m": [
+    "40 mm mit breiten Bandanstößen und kräftigem Kronenschutz (»Super Case«)",
+    "Keramiklünette (Cerachrom) mit platinierten Zahlen",
+    "Große Leuchtindizes, blaue Chromalight-Leuchtmasse",
+    "Datum mit Zykloplupe, Saphirglas",
+    "Oysterlock-Schließe mit Glidelock"
+   ],
+   "ev": [
+    [
+     "2008",
+     "116619LB »Smurf« in Weißgold mit erster Keramiklünette"
+    ],
+    [
+     "2010",
+     "116610LN in Stahl und 116610LV »Hulk«"
+    ],
+    [
+     "2020",
+     "Ablösung durch die 126610LN mit 41 mm"
+    ]
+   ],
+   "x": [
+    "Beim »Hulk« schwankt das Grün des Zifferblatts je nach Licht und Produktionsjahr leicht; Sammler achten darauf, dass Zifferblatt und Lünette zusammenpassen.",
+    "Wer die schlankere Linie der älteren Submariner mag, findet sie bei der 16610 und wieder bei der 126610LN."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2010–2020"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl (904L)"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "3135, Automatik, Parachrom-Spirale"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Lünette",
+     "einseitig drehbar, Cerachrom"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "16610 / 126610LN"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "planet-ocean",
+     "c": "Omegas großer Taucher dieser Jahre, mit Keramiklünette und Co-Axial-Werk ein direkter Konkurrent der Keramik-Submariner."
+    },
+    {
+     "m": "black-bay",
+     "c": "2012 brachte Tudor die Black Bay im Stil der alten Tudor-Taucher und traf den Vintage-Geschmack, den die 116610 nicht bediente."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Blancpain belebte die Fifty Fathoms mit Saphirlünette und fünf Tagen Gangreserve neu – die andere Taucheruhr von 1953."
+    }
+   ]
   }
  ]
 }
