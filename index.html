@@ -455,8 +455,7 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage body { background-image: radial-gradient(circle at 50% 18%, rgba(255,255,255,.55), transparent 55%), repeating-conic-gradient(from 0deg at 50% 18%, rgba(0,0,0,.011) 0deg .5deg, rgba(255,255,255,.025) .5deg 1deg); background-attachment: fixed; }
 :root.vintage.night body { background-image: none; } /* weicher Mondschein von oben rechts als feste Ebene */
 :root.vintage.night body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(ellipse 55% 45% at 82% -6%, rgba(205,222,235,.13), rgba(205,222,235,.04) 45%, transparent 75%), conic-gradient(from 200deg at 82% -6%, transparent 0deg, rgba(200,220,235,.035) 14deg, transparent 30deg, rgba(200,220,235,.025) 46deg, transparent 64deg, rgba(200,220,235,.03) 82deg, transparent 100deg, transparent 360deg), radial-gradient(ellipse 80% 60% at 50% 120%, rgba(0,0,0,.35), transparent 70%); }
-:root.vintage.night body::before { background: radial-gradient(ellipse 55% 45% at 82% -6%, color-mix(in srgb, var(--accent) 14%, transparent), color-mix(in srgb, var(--accent) 4%, transparent) 45%, transparent 75%), radial-gradient(ellipse 55% 45% at 82% -6%, rgba(205,222,235,.06), transparent 70%), radial-gradient(ellipse 80% 60% at 50% 120%, rgba(0,0,0,.35), transparent 70%); }
-@media (max-width: 760px) { :root.vintage.night body::before { background: radial-gradient(ellipse 140% 38% at 96% -4%, rgba(205,222,235,.15), rgba(205,222,235,.045) 45%, transparent 78%), conic-gradient(from 205deg at 96% -4%, transparent 0deg, rgba(200,220,235,.04) 10deg, transparent 22deg, rgba(200,220,235,.028) 34deg, transparent 48deg, transparent 360deg), radial-gradient(ellipse 120% 40% at 50% 112%, rgba(0,0,0,.4), transparent 70%); } :root.vintage.night[data-accent="green"] body::before { background: radial-gradient(ellipse 140% 38% at 96% -4%, rgba(190,235,212,.15), rgba(190,235,212,.045) 45%, transparent 78%), conic-gradient(from 205deg at 96% -4%, transparent 0deg, rgba(180,235,205,.04) 10deg, transparent 22deg, rgba(180,235,205,.028) 34deg, transparent 48deg, transparent 360deg), radial-gradient(ellipse 120% 40% at 50% 112%, rgba(0,0,0,.4), transparent 70%); } }
+:root.vintage.night body::before { background: radial-gradient(ellipse 140% 38% at 96% -4%, rgba(205,222,235,.15), rgba(205,222,235,.045) 45%, transparent 78%), conic-gradient(from 205deg at 96% -4%, transparent 0deg, rgba(200,220,235,.04) 10deg, transparent 22deg, rgba(200,220,235,.028) 34deg, transparent 48deg, transparent 360deg), radial-gradient(ellipse 120% 40% at 50% 112%, rgba(0,0,0,.4), transparent 70%); } /* Mondschein wie auf dem Smartphone: breiter, flacher Lichtkegel aus der oberen rechten Ecke */
 :root.vintage .head h1 { font-weight: 600; letter-spacing: -.01em; }
 /* Akzentfarben der Vintage-Ansicht (Farbwechsler bleibt nutzbar): tagsüber Petrol, Avocado, Burgund, Graphit; nachts Leuchtgrün u. a. */
 :root.vintage:not(.night):not([data-accent]) { --accent: #26746d; --accent-soft: #dcebe6; }
@@ -1207,7 +1206,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112654";
+const IMGV = "2026112655";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
