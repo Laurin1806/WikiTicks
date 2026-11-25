@@ -569,6 +569,18 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 @media (prefers-reduced-motion: reduce) { :root.theme-fade, :root.theme-fade * { transition: none !important; } }
 .moon .mp-moons { transform-box: view-box; transform-origin: 30px 27px; }
 .night-box + .accent-box { margin-top: 16px; }
+.clbtn { display: inline-flex; align-items: center; gap: 8px; margin: 2px 0 14px; padding: 7px 14px 7px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--fg); text-decoration: none; font-size: 13px; font-weight: 600; transition: border-color .2s, box-shadow .25s; }
+.clbtn svg { width: 16px; height: 16px; fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+.clbtn span { font: 500 10.5px/1 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--accent); }
+.clbtn:hover { border-color: var(--accent); box-shadow: 0 0 12px color-mix(in srgb, var(--accent) calc(var(--gl) * 40%), transparent); }
+.changelog .cl { list-style: none; margin: 18px 0 10px; padding: 0 0 0 18px; border-left: 2px solid var(--line); display: grid; gap: 22px; }
+.changelog .cl > li { position: relative; }
+.changelog .cl > li::before { content: ""; position: absolute; left: -25px; top: 5px; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); box-shadow: 0 0 8px color-mix(in srgb, var(--accent) calc(var(--gl) * 60%), transparent); }
+.changelog .cld { font: 500 12px/1.2 var(--font-mono); color: var(--muted); letter-spacing: .02em; }
+.changelog .cl h3 { margin: 3px 0 6px; }
+.changelog .cl ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.changelog .cl ul li::marker { color: var(--accent); }
+
 .nightbtn { display: inline-flex; align-items: center; gap: 11px; font: 600 13px/1.15 var(--font-body); padding: 7px 16px 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-align: left; transition: border-color .2s, box-shadow .3s, background .3s; }
 .nightbtn:hover { border-color: var(--accent); }
 .vintbtn { display: inline-flex; align-items: center; gap: 11px; margin-top: 8px; font: 600 13px/1.15 var(--font-body); padding: 7px 16px 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-align: left; transition: border-color .2s, box-shadow .3s, background .3s; }
@@ -1143,7 +1155,7 @@ function renderNav(h) {
     <div class="navgroup"><h2><a href="#a-z" aria-current="${key === "a-z"}">Lexikon</a></h2><ul>
       ${CAT_ORDER.filter(c => LEX.some(e => e.c === c)).map(c => link("rubrik-" + slug(c), c, "sub")).join("")}
     </ul></div>
-    <div class="navgroup navinfo"><a href="#info" aria-current="${h === "info"}">Über WikiTicks</a></div>`;
+    <div class="navgroup navinfo"><a href="#info" aria-current="${h === "info" || h === "changelog"}">Über WikiTicks</a></div>`;
   const cur = $("#nav a[aria-current='true']");
   $("#menu-cur").textContent = cur ? cur.textContent : "";
 }
@@ -1206,7 +1218,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112656";
+const IMGV = "2026112657";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2345,12 +2357,24 @@ function viewCategory(c) {
     <div class="grid">${list.map(e => card(e, c)).join("")}</div>`;
 }
 
+// Changelog: Entwicklung von WikiTicks seit dem ersten Entwurf (Änderungen und Ideen des Erstellers)
+const CHANGELOG = [["22. November 2026", "Der erste Entwurf", ["Start: Aus einer einzelnen HTML-Datei entsteht die Website WikiTicks, veröffentlicht über GitHub und Hostinger.", "Mehr Uhrenmodelle; das Layout nutzt breite Bildschirme besser aus.", "Höchstens drei Bilder pro Beitrag: eines oben, weitere dort, wo der Text über Varianten spricht."]], ["22. November 2026", "Gezeichnete Uhren im Detail", ["Armbänder wie im Original: Oyster-Band mit schmaleren Außengliedern, eigenes Band für die Speedmaster, breitere Bänder in Gehäusefarbe.", "Bandanstöße (Flanken) je Modell: kantig bei neuen Rolex, rund bei der Speedmaster, Unterschied zwischen alten und neuen Rolex-Gehäusen.", "Kronen weiter ins Gehäuse, Kronenschutz bei neuen und kleiner bei alten Rolex, angewinkelte Drücker bei Chronographen.", "Lünettenzahlen laufen im Kreis mit; Royal Oak mit verschraubter Lünette, Schlitze im Kreis, weichen Kanten und fließendem Band; Sky-Dweller mit großem Ring.", "Explorer II: 1655, 16570 »Polar« und 226570 mit korrekten Indizes, Zeigern, Lünette und Schriftzügen."]], ["22. November 2026", "Wissen und Preise", ["Deutlich tiefere Texte, mehr Expertenwissen, ausgebaute Markenartikel.", "Preisentwicklung erst testweise bei der Explorer II, dann bei allen Modellen: Listen- und Gebrauchtpreise, auch Vintage-Listenpreise, immer in Euro.", "Artikel und Uhr des Tages mit kurzer Zusammenfassung, mobil mit Bild unter der Überschrift und kürzerer Vorschau.", "Wissenswertes mit täglich neuer Auswahl; neue Lexikonartikel und Persönlichkeiten.", "Kachel- oder Listenansicht per Symbol."]], ["23. November 2026", "Prüfen, ordnen, Fotos", ["Doppelt so viele Modelle, Texte auf einheitliches Niveau, Doppelungen und Fehler korrigiert.", "Knopf auf den Markenseiten springt direkt zu den Modellen.", "Zwischenpreise erscheinen beim Überfahren der Preislinie; historische Preislisten (1985, 1990, 2004) eingearbeitet.", "Statt Zeichnungen: echte Uhrenbilder aus dem Ordner assets/watches, nach und nach für fast alle Modelle, mit Korrekturen wie der 16570 »Polar« oder der »Starbucks«.", "Zurück-Navigation landet an derselben Stelle der Seite.", "Artikel des Tages öfter ein Lexikonartikel, Uhr des Tages öfter eine Luxusuhr."]], ["23.–24. November 2026", "Nachtmodus mit Leuchtmasse", ["Idee: Im Nachtmodus werden die Uhren abgedunkelt und leuchten wie im Dunkeln.", "Leuchtmasse für jede Uhr einzeln vermessen: nur Indizes und Leuchtfüllung der Zeiger, eingefasste Indizes, runde Punkte rund, gealterte Vintage-Leuchtmasse schwächer.", "Leichter Glow an der Leuchtmasse; Uhren ohne Leuchtmasse werden sanft von oben angestrahlt.", "Nachtmodus-Knopf als moderne Mondphase, die beim Umschalten einmal herumwandert; weiche Übergänge für Seite, Schrift und Uhren.", "Kleine Uhr im Kopf läuft genau, leuchtet nachts und schlägt groß mit 4 Hz; daneben ein ewiger Kalender im gleichen Stil.", "»Ticks« im Logo leuchtet in der Farbe des gewählten Menüpunkts."]], ["24. November 2026", "Navigation, Favoriten, Lexikon", ["Markenlogos auf den Markenseiten; Bildvergrößerung per Klick bei hoher Auflösung.", "Neue Artikel, etwa über James Bond, Leuchtmasse und Uhrenpreise; Zwischenüberschriften in den Modellartikeln, Bilder unter den passenden Absätzen.", "Mondphasen-Artikel mit Illustration wie im Nachtmodus-Knopf, aktueller Mondphase und Regler zum Einstellen.", "Mobiles Menü: fährt weich auf, läuft beim Scrollen als Leiste mit, Farbwahl und Suche darin.", "Favoriten für alle Beiträge; »heiße« Marken mit Flamme im Menü.", "»Über dieses Bild«: Aufklapper mit genauer Bildbeschreibung, wie eine Datumslupe über dem Text."]], ["24. November 2026", "Artikel zusammenführen und vertiefen", ["Varianten in den Grundartikel: Royal Oak Chronograph und Ewiger Kalender in die Royal Oak, Black Bay 58 und 54 in die Black Bay u. a.", "Lexikon-Knöpfe unter passenden Absätzen statt vieler Links im Text.", "Mehr Geschichten und tiefere Informationen, etwa welches Gold eine Day-Date hat; Komplikationen mit Abschnitt »So funktioniert es« und neuen Schemazeichnungen.", "Infoseite »Über WikiTicks« am Ende der Seite und im Menü."]], ["24. November 2026", "Uhrenvergleich und Datenblätter", ["Seite Uhrenvergleich: bis zu drei Uhren nebeneinander, Ausführung per Dropdown wählbar.", "Eigene Datenblätter für alle Uhren und Referenzen, nur im Vergleich und im Aufklapper der Referenztabelle; »keine Angabe« in Grau statt Strich.", "Referenznummern zu allen Bildern, gezeigt unter dem Bild und im Text; erfundene Modelle entfernt.", "Artikel und Uhr des Tages wechseln um Mitternacht, Wissenswertes alle drei Stunden; Kacheln für Lexikon, Marken, Vergleich und Favoriten."]], ["24. November 2026", "Neue Bilder", ["Reverso halb gewendet, Longines Kalender-Chronograph Ref. 6817 (um 1960, Schätzwert 3.500–5.000 €), Vacheron im Stil der 1950er, neue GMT-Master 1675.", "Artikel »GMT-Master II« wird zu »Rolex GMT-Master«; »Sprite« in Weißgold ergänzt.", "Die Seite folgt dem Dunkelmodus von Smartphone oder PC."]], ["24.–25. November 2026", "Der Vintage-Modus", ["Idee: ein Knopf, der alle Hauptbilder durch die früheste Vintage-Ausführung ersetzt, auch bei originalgetreuen Neuauflagen.", "Vintage-Bilder ergänzt: Submariner 5513, Nautilus 3700/1A, Air-King 5500, »Bubbleback«, Visodate, Datejust 1601 in Creme.", "Look im Stil einer Uhr der 1960er: Sonnenschliff, Kacheln wie Zifferblätter unter Glas, Stabindizes, Tritiumpunkte, Tageskacheln wie altes Zeitungspapier.", "Nachts das Grün der Leuchtmasse für Schrift, Kachelränder und Leuchten, Farbwechsler weiter nutzbar.", "Markenseiten zeigen nur Uhren mit Vintage-Bild; Uhr des Tages nur aus dieser Auswahl.", "Knopf mit Zifferblatt, das beim Umschalten zurückdreht und vom hellblauen modernen Blatt auf das Vintage-Blatt wechselt."]], ["25. November 2026", "Fließende Übergänge", ["Kacheln leuchten beim Überfahren oder Antippen, nachts auch im Heute-Modus.", "Farbwechsel fließend: nachts erlischt die Farbe und leuchtet in der neuen wieder auf.", "Wechsel Heute ⇄ Vintage: die Uhr versinkt in der Dunkelheit und taucht in der anderen Ausführung wieder auf, Leuchtmasse und Kachelleuchten im selben Takt.", "Tag ⇄ Nacht als weiche Überblendung der ganzen Seite, Uhren gleichzeitig mit der Seite dunkel und hell, in beiden Modi gleich lang.", "Viele Feinheiten für das iPhone: kein Verrutschen, kein Aufploppen, kein Kasten um die Uhr.", "Mondschein im Nachtmodus, auf Smartphone und PC gleich.", "Dieses Changelog."]]];
+function viewChangelog() {
+  return crumbs([["Startseite", ""], ["Über WikiTicks", "info"], ["Changelog"]]) + `
+    <article class="infopage changelog">
+      <h2 class="page-title">Changelog</h2>
+      <p class="lead">Wie WikiTicks entstanden ist: die wichtigsten Änderungen und Ideen seit dem ersten Entwurf, in zeitlicher Reihenfolge.</p>
+      <ol class="cl">${CHANGELOG.map(([d, t, items]) => `<li><span class="cld">${esc(d)}</span><h3>${esc(t)}</h3><ul>${items.map(x => `<li>${esc(x)}</li>`).join("")}</ul></li>`).join("")}</ol>
+      <p class="count">${plural(CHANGELOG.reduce((n, x) => n + x[2].length, 0), "Eintrag", "Einträge")} · Stand ${esc(CHANGELOG[CHANGELOG.length - 1][0])}</p>
+    </article>`;
+}
 // Infoseite: Hinweise zu Inhalten, Bildern, Preisen und Urheberschaft
 function viewInfo() {
   const S = (t, ps) => `<h3>${esc(t)}</h3>` + ps.map(p => Array.isArray(p) ? `<ul>${p.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : `<p>${esc(p)}</p>`).join("");
   return crumbs([["Startseite", ""], ["Über WikiTicks"]]) + `
     <article class="infopage">
       <h2 class="page-title">Über WikiTicks</h2>
+      <a class="clbtn" href="#changelog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11l3 3v13H5z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg><span>Changelog</span>Wie WikiTicks entstanden ist</a>
       <p class="lead">WikiTicks ist ein privates Uhrenlexikon: eine Sammlung von Wissen über Uhrwerke, Komplikationen, Marken, Modelle und die Geschichte der Zeitmessung, geschrieben aus Freude an mechanischen und modernen Uhren.</p>
       ${S("Idee und Gestaltung", [
         "Idee, Konzept, Aufbau und Gestaltung von WikiTicks stammen vom Ersteller der Website. Dazu gehören die Auswahl der Marken, Modelle und Themen, die Gliederung der Beiträge, die Funktionen wie Nachtmodus mit Leuchtmasse, ewiger Kalender, Favoriten und Mondphasen-Regler sowie das gesamte Erscheinungsbild.",
@@ -3097,6 +3121,7 @@ function route() {
   else if (h === "favoriten") html = viewFav();
   else if (h === "vergleich" || h.startsWith("vergleich=")) html = viewCompare(h);
   else if (h === "info") html = viewInfo();
+  else if (h === "changelog") html = viewChangelog();
   else if (brand) html = viewBrand(brand);
   else if (cat) html = viewCategory(cat);
   else if (byId[h]) html = viewEntry(byId[h]);
