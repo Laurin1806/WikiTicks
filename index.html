@@ -541,7 +541,7 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 :root.theme-fade { transition: --gl 1.1s ease-in-out, --bg 1.1s ease-in-out, --surface 1.1s ease-in-out, --fg 1.1s ease-in-out, --muted 1.1s ease-in-out, --line 1.1s ease-in-out, --accent 1.1s ease-in-out, --accent-soft 1.1s ease-in-out, --gold 1.1s ease-in-out; }
 /* Farbwechsel: tagsüber weich überblenden, nachts erlischt die Farbe und leuchtet in der neuen wieder auf (Phasen per JS) */
 /* Vintage-Wechsel: Überblendung der ganzen Seite (View Transitions); der Knopf bleibt live */
-::view-transition-old(root), ::view-transition-new(root) { animation-duration: .85s; animation-timing-function: ease-in-out; }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 1s; animation-timing-function: ease-in-out; }
 ::view-transition-group(nightbtn) { animation: none; } ::view-transition-old(nightbtn) { display: none; } ::view-transition-new(nightbtn) { animation: none; }
 :root.vt-night::view-transition-old(root), :root.vt-night::view-transition-new(root) { animation-duration: .55s; }
 ::view-transition-group(vintbtn) { animation: none; } ::view-transition-old(vintbtn) { display: none; } ::view-transition-new(vintbtn) { animation: none; }
@@ -1192,7 +1192,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112629";
+const IMGV = "2026112630";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2934,7 +2934,14 @@ function setVintage(on, src) {
   if (useVT) {
     if (live) live.style.viewTransitionName = "vintbtn";
     const night = root.classList.contains("night"); if (night) root.classList.add("vt-night");
-    const vt = document.startViewTransition(update);
+    // neue Uhrenbilder erst laden, dann überblenden (sonst erscheinen sie leer und ploppen danach auf)
+    const vt = document.startViewTransition(async () => {
+      update();
+      const vis = [...document.querySelectorAll("#view img.wimg")].filter(im => { const r = im.getBoundingClientRect(); return r.bottom > -200 && r.top < innerHeight + 200; });
+      vis.forEach(im => { im.loading = "eager"; });
+      await Promise.race([Promise.all(vis.map(im => im.decode().catch(() => {}))), new Promise(r => setTimeout(r, 700))]);
+      vis.forEach(im => { if (typeof nightPrep === "function" && root.classList.contains("night")) nightPrep(im); });
+    });
     vt.finished.finally(() => {
       if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
       if (night) { requestAnimationFrame(() => root.classList.remove("wdim")); root.classList.add("accent-fade", "accent-slow"); requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); }); }
