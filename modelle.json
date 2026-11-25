@@ -33365,6 +33365,97 @@
      "c": "Heuers Autavia von 1962 war der Chronograph für Rennfahrer und Piloten mit drehbarer Lünette."
     }
    ]
+  },
+  {
+   "id": "daytona-116520",
+   "model": "daytona",
+   "ref": "116520",
+   "alias": [
+    "116523",
+    "116528",
+    "116518"
+   ],
+   "var": 1,
+   "t": "Rolex Cosmograph Daytona Ref. 116520",
+   "bau": "2000–2016",
+   "cap": "in Edelstahl mit Stahllünette",
+   "s": "Die erste Daytona mit einem Chronographenwerk aus Rolex' eigener Fertigung, dem Kaliber 4130 – und die Uhr, mit der die Wartelisten für die Stahl-Daytona begannen.",
+   "bh": [
+    "Das eigene Werk",
+    "Gehäuse und Zifferblatt",
+    "Die begehrteste Stahluhr ihrer Zeit"
+   ],
+   "b": [
+    "Bis 2000 hatte Rolex für die Daytona fremde Chronographenwerke verwendet: zuerst Handaufzugswerke auf Basis des Valjoux 72, ab 1988 in der Referenz 16520 ein stark überarbeitetes Zenith El Primero. Mit der 116520 stellte Rolex im Jahr 2000 erstmals ein selbst entwickeltes Automatik-Chronographenwerk vor, das Kaliber 4130. Es hat ein Schaltrad und eine vertikale Kupplung, die den Chronographen ohne Ruck starten lässt, und kommt mit deutlich weniger Teilen aus als vergleichbare Werke, was es robust und servicefreundlich macht. Die Gangreserve stieg auf etwa 72 Stunden; einige Jahre später erhielt das Werk die blaue Parachrom-Spirale.",
+    "Äußerlich blieb die Daytona ihrer Linie treu: 40 Millimeter Edelstahl, verschraubte Drücker, 100 Meter Wasserdichtigkeit und eine Tachymeterlünette aus Stahl. Das neue Werk verschob die kleine Sekunde von 9 auf 6 Uhr, sodass die drei Hilfszifferblätter jetzt anders verteilt sind als bei der 16520. Das schwarze oder weiße Zifferblatt hat schmale, polierte Ringe um die Hilfszifferblätter.",
+    "In den 2000er-Jahren wurde die Stahl-Daytona zur Uhr, auf die man beim Konzessionär jahrelang warten musste. Auf dem Zweitmarkt lag ihr Preis lange über dem Listenpreis. 2016 löste Rolex die 116520 durch die 116500LN mit schwarzer Keramiklünette ab."
+   ],
+   "vh": [
+    [
+     "Gold und Rolesor",
+     "Neben der Stahluhr gab es die Generation in Rolesor aus Stahl und Gelbgold (116523), ganz in Gold am Band (116528 in Gelbgold, 116509 in Weißgold) und am Lederband (116518 und verwandte Referenzen). Die Goldausführungen bot Rolex mit einer großen Auswahl an Zifferblättern an, bis hin zu Perlmutt und Diamantindizes."
+    ]
+   ],
+   "m": [
+    "40 mm Edelstahl, verschraubte Drücker",
+    "Kleine Sekunde bei 6 Uhr",
+    "Tachymeterlünette aus Stahl",
+    "Zifferblattaufschrift »Cosmograph Daytona« über der 6-Uhr-Anzeige"
+   ],
+   "ev": [
+    [
+     "2000",
+     "Vorstellung mit dem eigenen Kaliber 4130"
+    ],
+    [
+     "2016",
+     "Ablösung durch die 116500LN mit Keramiklünette"
+    ]
+   ],
+   "x": [
+    "Die Generation mit 4130 ist ein guter Einstieg in die moderne Daytona: robustes Werk, klassische Stahllünette.",
+    "Frühe Exemplare haben Zifferblätter mit kleinen Unterschieden in der Schrift, die Sammler genau beobachten, etwa die Ausrichtung des Schriftzugs »Cosmograph«."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2000–2016"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "4130, Automatik, Schaltrad, vertikale Kupplung, ca. 72 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Tachymeter"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "16520 / 116500LN"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak-offshore",
+     "c": "Die Royal Oak Offshore war in diesen Jahren der große, sportliche Chronograph der Luxusklasse."
+    },
+    {
+     "m": "chronomaster",
+     "c": "Zeniths El Primero, das bis 2000 in der Daytona 16520 steckte, lief in der eigenen Chronomaster weiter."
+    },
+    {
+     "m": "speedmaster",
+     "c": "Die Speedmaster Professional blieb mit Handaufzug der klassische Gegenentwurf zur Automatik-Daytona."
+    }
+   ]
   }
  ]
 }
