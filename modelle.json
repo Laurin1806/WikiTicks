@@ -35344,8 +35344,7 @@
     "124300-0006",
     "124300-0007",
     "124300-0004",
-    "126000",
-    "114300"
+    "126000"
    ],
    "var": null,
    "t": "Rolex Oyster Perpetual 41 Ref. 124300",
@@ -35438,6 +35437,103 @@
     {
      "m": "tudor-1926",
      "c": "Tudors 1926 ist die schlichte Uhr ohne Schnörkel aus dem Schwesterhaus von Rolex."
+    }
+   ]
+  },
+  {
+   "id": "sky-dweller-336934",
+   "model": "sky-dweller",
+   "ref": "336934",
+   "alias": [
+    "3369xx",
+    "326934",
+    "336933",
+    "336935",
+    "336938"
+   ],
+   "var": null,
+   "t": "Rolex Sky-Dweller Ref. 336934",
+   "bau": "seit 2023",
+   "cap": "in Rolesor aus Stahl und Weißgold mit blauem Zifferblatt",
+   "s": "Rolex' kompliziertestes Serienmodell: Jahreskalender und zweite Zeitzone, bedient über die drehbare Ring-Command-Lünette.",
+   "bh": [
+    "Eine Uhr für Vielreisende",
+    "Ring Command und Saros",
+    "Das Werk"
+   ],
+   "b": [
+    "2012 stellte Rolex mit der Sky-Dweller das kompliziertste Modell seiner Geschichte vor. Sie richtet sich an Vielreisende und vereint zwei Funktionen: eine zweite Zeitzone auf einer exzentrischen 24-Stunden-Scheibe in der Mitte des Zifferblatts und einen Jahreskalender, der die unterschiedlich langen Monate kennt und nur einmal im Jahr, Ende Februar, korrigiert werden muss. Anfangs gab es die Sky-Dweller nur in Gold, seit 2017 auch in Stahl mit Weißgoldlünette.",
+    "Bedient wird die Uhr über die geriffelte Lünette, die Rolex »Ring Command« nennt. Dreht man sie in eine von drei Stellungen, wählt die Krone die Funktion: Datum, Ortszeit oder Referenzzeit. So lassen sich alle Anzeigen mit einer Krone einstellen. Den Monat zeigen zwölf kleine Fenster am Rand des Zifferblatts, bei jeder Stunde eines: Das jeweils aktuelle ist farbig hinterlegt. Den Mechanismus des Jahreskalenders nennt Rolex »Saros«, nach dem astronomischen Zyklus.",
+    "Seit 2023 arbeitet in der Sky-Dweller das Kaliber 9002 mit Chronergy-Hemmung und etwa 72 Stunden Gangreserve; das Gehäuse misst 42 Millimeter. Die Referenz 336934 trägt zum Gehäuse aus Oystersteel die geriffelte Lünette aus 18 Karat Weißgold, eine Kombination, die die Sky-Dweller deutlich zugänglicher gemacht hat."
+   ],
+   "vh": [
+    [
+     "Gold und Rolesor",
+     "Neben der Stahl-Weißgold-Ausführung gibt es die Sky-Dweller in Rolesor mit Gelbgold (336933) und ganz in 18 Karat Gelb-, Weiß- oder Everose-Gold, teils am Oysterflex-Kautschukband. Die Vorgängergeneration bis 2023 trug Referenzen mit 326, etwa die 326934, und das Kaliber 9001."
+    ]
+   ],
+   "m": [
+    "42 mm, geriffelte Ring-Command-Lünette",
+    "Exzentrische 24-Stunden-Scheibe für die zweite Zeitzone",
+    "Zwölf Monatsfenster am Zifferblattrand",
+    "Datum mit Zykloplupe"
+   ],
+   "ev": [
+    [
+     "2012",
+     "Erste Sky-Dweller in Gold"
+    ],
+    [
+     "2017",
+     "Sky-Dweller in Stahl mit Weißgoldlünette"
+    ],
+    [
+     "2023",
+     "Neue Generation mit Kaliber 9002"
+    ]
+   ],
+   "x": [
+    "Der Jahreskalender muss nur einmal im Jahr korrigiert werden, am 1. März.",
+    "Die Bedienung über die Lünette ist einfacher, als sie klingt: Lünette auf die gewünschte Funktion drehen, dann mit der Krone einstellen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023 (Modell seit 2012)"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Oystersteel, Lünette 18 Karat Weißgold"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "9002, Automatik, ca. 72 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, zweite Zeitzone (24 h), Jahreskalender"
+    ],
+    [
+     "Vorgänger",
+     "326934"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "annual-calendar",
+     "c": "Patek Philippe führte den Jahreskalender 1996 ein; die Sky-Dweller setzt ihn auf Rolex-Art um."
+    },
+    {
+     "m": "world-time",
+     "c": "Patek Philippes Weltzeituhr zeigt alle Zeitzonen auf einmal – die klassische Uhr des Reisenden."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas gibt es auch als Dualtime und mit ewigem Kalender."
     }
    ]
   }
