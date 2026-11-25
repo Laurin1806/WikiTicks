@@ -1202,7 +1202,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112640";
+const IMGV = "2026112641";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2979,7 +2979,7 @@ function setVintage(on, src) {
     const pre = [...new Set(urls)].slice(0, 24).map(u => { const im = new Image(); im.src = `${u}?v=${IMGV}`; return im.decode().catch(() => {}); });
     const swap = root.classList.contains("night");
     if (swap) { root.classList.add("wswap"); requestAnimationFrame(() => root.classList.add("whide")); } // alte Uhren ausblenden
-    Promise.all([Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 900))]), new Promise(r => setTimeout(r, swap ? 560 : 0))]).then(go);
+    Promise.all([Promise.race([Promise.all(pre), new Promise(r => setTimeout(r, 900))]), new Promise(r => setTimeout(r, swap ? 830 : 0))]).then(go);
   } else go();
   btns.forEach(b => { const sv = b.querySelector(".vdial"); if (sv) vdialAnim(sv, on); });
 }
