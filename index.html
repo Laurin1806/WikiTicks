@@ -448,7 +448,7 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 /* ---------- Vintage-Ansicht (Test): Patina – vergilbtes Papier, Sepia, Messing ---------- */
 /* Stil der 1960er: Creme, Petrol und Senfgelb, geometrische Grotesk (Jost); nachts Akzent im Grün der Leuchtmasse */
 :root.vintage:not(.night) { --bg: #ebe8e0; --surface: #f8f6f1; --fg: #23272a; --muted: #6f6b62; --line: #e0d9c8; --gold: #b3841d; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
-:root.vintage.night { --bg: #0b0a08; --surface: #13120f; --fg: #e9e1cd; --muted: #8a9a90; --line: #1a2620; --gold: #9fe3bb; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
+:root.vintage.night { --bg: #0b0a08; --surface: #13120f; --fg: #e9e1cd; --muted: #8a9a90; --line: #22262b; --gold: #d4a856; --font-logo: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; --font-display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif; }
 :root.vintage body { background-image: radial-gradient(circle at 50% 18%, rgba(255,255,255,.55), transparent 55%), repeating-conic-gradient(from 0deg at 50% 18%, rgba(0,0,0,.011) 0deg .5deg, rgba(255,255,255,.025) .5deg 1deg); background-attachment: fixed; }
 :root.vintage.night body { background-image: radial-gradient(circle at 50% 18%, rgba(255,240,200,.05), transparent 55%), repeating-conic-gradient(from 0deg at 50% 18%, rgba(255,255,255,.008) 0deg .5deg, rgba(0,0,0,.02) .5deg 1deg); }
 :root.vintage .head h1 { font-weight: 600; letter-spacing: -.01em; }
@@ -457,18 +457,16 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage:not(.night)[data-accent="green"] { --accent: #5a6e28; --accent-soft: #e7ecd7; }
 :root.vintage:not(.night)[data-accent="bordeaux"] { --accent: #8e3140; --accent-soft: #f2e0e2; }
 :root.vintage:not(.night)[data-accent="anthrazit"] { --accent: #41474c; --accent-soft: #e5e6e3; }
-:root.vintage.night:not([data-accent]) { --accent: #93b8e8; --accent-soft: #121c2a; }
-:root.vintage.night[data-accent="green"] { --accent: #8fe8b4; --accent-soft: #10251b; }
-:root.vintage.night[data-accent="bordeaux"] { --accent: #e89dab; --accent-soft: #2a161b; }
-:root.vintage.night[data-accent="anthrazit"] { --accent: #c4cbd2; --accent-soft: #1c2227; }
+:root.vintage.night[data-accent="green"] { --accent: #8fe8b4; --accent-soft: #10251b; --gold: #9fe3bb; --line: #1a2620; } /* Grün der Leuchtmasse; andere Farben wie im normalen Nachtmodus */
 :root.vintage .accent-switch .sw-blue { background: #26746d; } :root.vintage .accent-switch .sw-green { background: #5a6e28; } :root.vintage .accent-switch .sw-bordeaux { background: #8e3140; }
-:root.vintage.night .accent-switch .sw-blue { background: #93b8e8; } :root.vintage.night .accent-switch .sw-green { background: #8fe8b4; box-shadow: 0 0 6px rgba(143,232,180,.6); } :root.vintage.night .accent-switch .sw-bordeaux { background: #e89dab; } :root.vintage.night .accent-switch .sw-anthrazit { background: #c4cbd2; }
+:root.vintage.night .accent-switch .sw-blue { background: #7da6ec; } :root.vintage.night .accent-switch .sw-green { background: #8fe8b4; box-shadow: 0 0 6px rgba(143,232,180,.6); } :root.vintage.night .accent-switch .sw-bordeaux { background: #e58fa1; } :root.vintage.night .accent-switch .sw-anthrazit { background: #bcc4ce; }
 :root.vintage h2, :root.vintage .daily h2 { font-weight: 500; letter-spacing: -.015em; }
 :root.vintage .section-title { font-weight: 500; letter-spacing: .01em; }
 :root.vintage .daily .kicker, :root.vintage .fcard .kicker { font-weight: 500; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; }
 /* Kacheln wie ein Zifferblatt der 60er: polierte Lünette (heller und dunkler Ring), gewölbtes Glas mit Lichtreflex */
 :root.vintage .card, :root.vintage .watchfig, :root.vintage .fcard, :root.vintage .pagetile, :root.vintage .brandinfo, :root.vintage .refs-wrap, :root.vintage .daily { background: radial-gradient(130% 90% at 25% -10%, rgba(255,255,255,.75), transparent 50%), var(--surface); border-color: #cdc7b9; box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 rgba(0,0,0,.05), 0 0 0 3px #f4f2ec, 0 0 0 4px #d2ccbf, 0 6px 16px rgba(60,50,30,.06); }
-:root.vintage.night .card, :root.vintage.night .watchfig, :root.vintage.night .fcard, :root.vintage.night .pagetile, :root.vintage.night .brandinfo, :root.vintage.night .refs-wrap, :root.vintage.night .daily { background: radial-gradient(130% 90% at 25% -10%, rgba(255,240,200,.05), transparent 50%), var(--surface); border-color: #2c2820; box-shadow: inset 0 1px 0 rgba(255,255,255,.05), 0 0 0 3px #0e0d0b, 0 0 0 4px #3a3428; }
+:root.vintage.night .card, :root.vintage.night .watchfig, :root.vintage.night .fcard, :root.vintage.night .pagetile, :root.vintage.night .brandinfo, :root.vintage.night .refs-wrap, :root.vintage.night .daily { background: radial-gradient(130% 90% at 25% -10%, rgba(255,255,255,.04), transparent 50%), var(--surface); border-color: #262a30; box-shadow: inset 0 1px 0 rgba(255,255,255,.05), 0 0 0 3px #0d0f12, 0 0 0 4px #2c3138; }
+:root.vintage.night[data-accent="green"] .card, :root.vintage.night[data-accent="green"] .watchfig, :root.vintage.night[data-accent="green"] .fcard, :root.vintage.night[data-accent="green"] .pagetile, :root.vintage.night[data-accent="green"] .brandinfo, :root.vintage.night[data-accent="green"] .refs-wrap, :root.vintage.night[data-accent="green"] .daily { background: radial-gradient(130% 90% at 25% -10%, rgba(143,232,180,.07), transparent 50%), var(--surface); border-color: #1d3a2b; box-shadow: inset 0 1px 0 rgba(160,255,200,.06), 0 0 0 3px #0b110d, 0 0 0 4px #2a5a40, 0 0 14px rgba(80,220,140,.06); }
 /* aufgesetzter goldener Stabindex vor Zwischenüberschriften, Minuterie als Trennlinie darunter */
 :root.vintage .art-h::before { content: ""; display: inline-block; width: 4px; height: .82em; margin-right: 11px; vertical-align: -1px; border-radius: 1px; background: linear-gradient(90deg, #f3e2b0, #b98f3a 55%, #8a6a26); box-shadow: 0 0 0 .5px rgba(0,0,0,.18), 1px 1px 1px rgba(0,0,0,.12); }
 :root.vintage .art-h::after { content: ""; display: block; height: 6px; margin-top: 7px; opacity: .55; background: repeating-linear-gradient(90deg, var(--muted) 0 1px, transparent 1px 7px) left bottom / 100% 5px no-repeat, linear-gradient(var(--muted), var(--muted)) left bottom / 100% 1px no-repeat; -webkit-mask: linear-gradient(90deg, #000 30%, transparent); mask: linear-gradient(90deg, #000 30%, transparent); }
@@ -477,14 +475,14 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage .art-list li { position: relative; padding-left: 20px; }
 :root.vintage .art-list li::before { content: ""; position: absolute; left: 2px; top: .55em; width: 8px; height: 8px; border-radius: 50%; background: #efe2b8; box-shadow: 0 0 0 1px #9c8a5c; }
 :root.vintage .timeline li::before { background: #efe2b8; border-color: var(--surface); box-shadow: 0 0 0 1px #9c8a5c; }
-:root.vintage.night .art-list li::before, :root.vintage.night .timeline li::before { background: #bfe9cc; box-shadow: 0 0 0 1px #5d7a66, 0 0 6px rgba(143,232,180,.45); }
+:root.vintage.night .art-list li::before, :root.vintage.night .timeline li::before { background: var(--accent); box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 45%, #000), 0 0 6px color-mix(in srgb, var(--accent) 45%, transparent); }
 /* Aufdrucke: rote Zeile wie »Chronometer« (tagsüber), Gold-Druck wie auf Gilt-Zifferblättern (nachts) */
 :root.vintage:not(.night) .daily .kicker, :root.vintage:not(.night) .fcard .kicker { color: #b0281f; }
-:root.vintage.night h2, :root.vintage.night .page-title, :root.vintage.night .art-h, :root.vintage.night .section-title { color: #bdeccf; text-shadow: 0 0 10px rgba(120,235,165,.18); }
+:root.vintage.night[data-accent="green"] h2, :root.vintage.night[data-accent="green"] .page-title, :root.vintage.night[data-accent="green"] .art-h, :root.vintage.night[data-accent="green"] .section-title { color: #bdeccf; text-shadow: 0 0 10px rgba(120,235,165,.18); }
 /* nachts: Indizes leuchten im Grün der Leuchtmasse statt Gold */
-:root.vintage.night a.hot .flame, :root.vintage.night a.hot[aria-current="true"] .flame { fill: #8fe8b4; filter: drop-shadow(0 0 3px rgba(143,232,180,.6)); }
-:root.vintage.night .art-h::before { background: linear-gradient(90deg, #d8ffe6, #8fe8b4 55%, #5fbf8a); box-shadow: 0 0 6px rgba(143,232,180,.55); }
-:root.vintage.night .vintbtn[aria-pressed="true"] { background: #0c1a14; color: #9dffc4; border-color: #2c6b4a; box-shadow: 0 0 14px rgba(80,255,150,.25); }
+:root.vintage.night[data-accent="green"] a.hot .flame, :root.vintage.night[data-accent="green"] a.hot[aria-current="true"] .flame { fill: #8fe8b4; filter: drop-shadow(0 0 3px rgba(143,232,180,.6)); }
+:root.vintage.night[data-accent="green"] .art-h::before { background: linear-gradient(90deg, #d8ffe6, #8fe8b4 55%, #5fbf8a); box-shadow: 0 0 6px rgba(143,232,180,.55); }
+:root.vintage.night[data-accent="green"] .vintbtn[aria-pressed="true"] { background: #0c1a14; color: #9dffc4; border-color: #2c6b4a; box-shadow: 0 0 14px rgba(80,255,150,.25); }
 :root.vintage:not(.night) .vintbtn[aria-pressed="true"] { background: #dcebe6; color: #1f5f5a; border-color: #8fbcb5; }
 .wimg-wrap { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
 .thumb .wimg-wrap, .daily-fig .wimg-wrap { height: 100%; }
@@ -1150,7 +1148,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112604";
+const IMGV = "2026112605";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2834,6 +2832,7 @@ function setNight(on, save = true, anim = false) {
   const b = document.getElementById("nightbtn");
   if (b) { b.setAttribute("aria-pressed", on); b.querySelector(".nl").textContent = on ? "Tagmodus" : "Nachtmodus"; }
   if (save) try { localStorage.setItem("wikiticks-night", on ? "1" : "0"); } catch (e) {}
+  if (on && anim && root.classList.contains("vintage")) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {} // Vintage + Nacht startet immer mit dem Grün der Leuchtmasse
   if (window.applyAccent) window.applyAccent();
   nightApply();
 }
@@ -2841,6 +2840,7 @@ function setVintage(on) {
   VINTAGE = on; try { localStorage.setItem("wikiticks-vintage", on ? "1" : "0"); } catch (e) {}
   const root = document.documentElement; if (!matchMedia("(prefers-reduced-motion: reduce)").matches) { root.classList.add("theme-fade"); clearTimeout(fadeT); fadeT = setTimeout(() => root.classList.remove("theme-fade"), 1300); }
   root.classList.toggle("vintage", on);
+  if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
   if (window.applyAccent) window.applyAccent();
   document.querySelectorAll("#vintbtn, .vintbtn").forEach(b => b.setAttribute("aria-pressed", on));
   const y = window.scrollY; route(); requestAnimationFrame(() => window.scrollTo({ top: y }));
