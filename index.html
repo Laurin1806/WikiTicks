@@ -500,6 +500,8 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage.night .vintbtn[aria-pressed="true"] { background: color-mix(in srgb, var(--accent) 10%, #0b0d0c); color: color-mix(in srgb, var(--accent) 70%, #fff); border-color: color-mix(in srgb, var(--accent) 45%, #0b0d0c); box-shadow: 0 0 14px color-mix(in srgb, var(--accent) 25%, transparent); }
 :root.vintage:not(.night) .vintbtn[aria-pressed="true"] { background: #dcebe6; color: #1f5f5a; border-color: #8fbcb5; }
 .wimg-wrap { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
+.wimg-wrap[data-fit] > * { transform: translateX(var(--fx)) scale(var(--fs)); transform-origin: 50% 50%; } /* Uhr mittig, Größe nach Gehäusedurchmesser */
+#zoom .wimg-wrap[data-fit] > * { transform: none; }
 .thumb .wimg-wrap, .daily-fig .wimg-wrap { height: 100%; }
 .daily-fig .wimg-wrap { height: auto; }
 canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; transition: opacity 1.1s ease-in-out; will-change: opacity; }
@@ -889,6 +891,7 @@ const CAT_INTRO = {
   "Persönlichkeiten": "Uhrmacher, Gründer, Manager und Designer, die die Uhrenwelt geprägt haben."
 };
 
+let IMGFIT = new Map(); // Bilddatei -> [Skalierung, Versatz]: Uhr mittig und im richtigen Größenverhältnis (tools/imgfit.py)
 let IMGRES = new Map(); // Bilddatei -> kürzere Seite in Pixeln (tools/imgres.py)
 let LUMEMASK = new Map(); // Bilddatei -> Leuchtfarbe der fertigen Leuchtebene ("g" grün, "b" blau, "v" Vintage-grün gedämpft)
 let E = [], byId = {}, MODELS = [], LEX = [], BRANDS = [], BRAND_INFO = {}, TERM_RE = null, TERMS = {};
@@ -1236,16 +1239,17 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112659";
+const IMGV = "2026112661";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
   if (v.img) {
     const base = `<img class="watch wimg" src="${v.img}?v=${IMGV}" alt="${esc(((e && (e.brand + " " + e.t)) || "Uhr"))}" loading="lazy">`;
     const bn = v.img.split("/").pop(), noL = LUMEMASK.get(bn) === "n", lmk = LUMEMASK.has(bn) && !noL, lc = lmk ? LUMEMASK.get(bn) : e && e.lume ? e.lume.c : "g";
-    const nd = NIGHT_DIM[bn], lo = LUME_OP[bn], lm = (nd ? ` data-dim="${nd.join(",")}"` : "") + (lo ? ` data-lo style="--lo:${lo}"` : "") + (e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "");
+    const nd = NIGHT_DIM[bn], lo = LUME_OP[bn], lm = (nd ? ` data-dim="${nd.join(",")}"` : "") + (lo ? " data-lo" : "") + (e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "");
     const ovl = lmk ? `<img class="wlume-img" src="assets/watches/lume/${bn.replace(/\.[a-z]+$/i, ".png")}?v=${IMGV}" alt="" aria-hidden="true" loading="lazy">` : "";
-    return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}${noL ? ' data-nol="1"' : ""}>${base}${ovl}</span>`;
+    const ft = IMGFIT.get(bn), stl = [lo ? `--lo:${lo}` : "", ft ? `--fs:${ft[0]};--fx:${(ft[1] * 100).toFixed(2)}%` : ""].filter(Boolean).join(";"), fst = (ft ? " data-fit" : "") + (stl ? ` style="${stl}"` : "");
+    return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}${noL ? ' data-nol="1"' : ""}${fst}>${base}${ovl}</span>`;
   }
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
   const id = "w" + (++SVGID), S = [], cx = 100, cy = 130;
@@ -3399,6 +3403,7 @@ let SPECS = {}; (DATA && DATA.datenblatt ? Promise.resolve(DATA.datenblatt) : lo
   const lmRaw = (mod && mod.lumeMasks) || {};
   LUMEMASK = new Map(Array.isArray(lmRaw) ? lmRaw.map(f => [f, "b"]) : Object.entries(lmRaw));
   IMGRES = new Map(Object.entries((mod && mod.imgRes) || {}));
+  IMGFIT = new Map(Object.entries((mod && mod.imgFit) || {}));
   rebuild(); route();
   if (POS[location.hash]) requestAnimationFrame(() => window.scrollTo({ top: POS[location.hash] }));
 });

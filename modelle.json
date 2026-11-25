@@ -31915,5 +31915,27 @@
   "rolex-air-king-5500.jpg": 768,
   "rolex-oyster-perpetual-bubbleback.jpg": 1103,
   "audemars-piguet-royal-oak-5402-blue.jpg": 1024
+ },
+ "imgFit": {
+  "rolex-submariner-126610ln.jpg": [
+   1.0,
+   0.0277
+  ],
+  "rolex-submariner-1680-red.jpg": [
+   1.052,
+   0.0398
+  ],
+  "rolex-submariner-116610lv-hulk.jpg": [
+   0.962,
+   0.0278
+  ],
+  "rolex-submariner-116619lb-smurf.jpg": [
+   0.952,
+   0.0394
+  ],
+  "rolex-submariner-5513.jpg": [
+   0.841,
+   -0.0151
+  ]
  }
 }
