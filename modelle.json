@@ -34692,6 +34692,94 @@
      "c": "Tudors Pelagos aus Titan ist die moderne Werkzeuguhr, die den Expeditionsgedanken weiterträgt."
     }
    ]
+  },
+  {
+   "id": "sea-dweller-1665",
+   "model": "sea-dweller",
+   "ref": "1665",
+   "var": 0,
+   "t": "Rolex Sea-Dweller Ref. 1665",
+   "bau": "1967–1983",
+   "cap": "mit zwei roten Schriftzeilen, genannt »Double Red«",
+   "s": "Die erste Sea-Dweller: eine Taucheruhr für Sättigungstaucher mit Heliumventil, 610 Metern Wasserdichtigkeit und zwei roten Zeilen auf dem Zifferblatt.",
+   "bh": [
+    "Eine Uhr für die Druckkammer",
+    "Gehäuse und Werk",
+    "Double Red und Great White"
+   ],
+   "b": [
+    "In den 1960er-Jahren begannen Berufstaucher, tagelang in Druckkammern unter einem Gasgemisch mit Helium zu leben, um in großen Tiefen arbeiten zu können. Dabei zeigte sich ein unerwartetes Problem: Die winzigen Heliumatome drangen in die Uhren ein, und beim Aufstieg sprengte der Überdruck im Gehäuse das Glas ab. Rolex entwickelte mit der Taucherfirma COMEX ein Heliumventil, das sich bei Überdruck selbsttätig öffnet und das Gas entweichen lässt. Die Sea-Dweller Referenz 1665 war 1967 die erste Rolex mit dieser Lösung.",
+    "Das Gehäuse aus Edelstahl misst 40 Millimeter, ist aber höher als das der Submariner, mit dickem, gewölbtem Acrylglas und verstärktem Boden; die Uhr ist bis 610 Meter, 2000 Fuß, wasserdicht. Das Heliumventil sitzt seitlich bei 9 Uhr. Im Inneren arbeitet das Kaliber 1575 mit Datum. Eine Zykloplupe hat die Sea-Dweller nicht, weil sie bei dem hohen Druck das Glas schwächen würde.",
+    "Die frühen Exemplare tragen zwei Zeilen in roter Schrift, »Sea-Dweller« und »Submariner 2000«, unter Sammlern »Double Red«. Ab etwa Mitte der 1970er-Jahre wurde die Schrift weiß; diese Ausführung nennen Sammler »Great White«. 1978 folgte die Referenz 16660 mit Saphirglas und 1220 Metern Wasserdichtigkeit."
+   ],
+   "m": [
+    "40 mm, hohes Gehäuse, Heliumventil bei 9 Uhr",
+    "Kein Zykloplupe über dem Datum",
+    "Früh: zwei rote Zeilen »Sea-Dweller« und »Submariner 2000«",
+    "Tiefenangabe 610 m = 2000 ft"
+   ],
+   "ev": [
+    [
+     "1967",
+     "Vorstellung als erste Rolex mit Heliumventil"
+    ],
+    [
+     "Mitte 1970er",
+     "Weiße Schrift (»Great White«)"
+    ],
+    [
+     "1978",
+     "Ref. 16660 mit Saphirglas und 1220 m"
+    ]
+   ],
+   "x": [
+    "COMEX-Ausführungen der 1665 mit Firmenlogo gehören zu den gesuchtesten Taucher-Rolex und werden häufig gefälscht.",
+    "Bei der »Double Red« unterscheiden Sammler mehrere Zifferblatt-Generationen, ähnlich wie bei der »Red Sub«."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1967–1983"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl, Heliumventil"
+    ],
+    [
+     "Wasserdicht",
+     "610 m"
+    ],
+    [
+     "Kaliber",
+     "1575, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Glas",
+     "dickes, gewölbtes Acrylglas ohne Lupe"
+    ],
+    [
+     "Nachfolger",
+     "16660"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "ploprof",
+     "c": "Omegas Ploprof von 1970 löste dasselbe Problem anders: mit einem einteiligen Gehäuse, in das kein Helium eindringt."
+    },
+    {
+     "m": "doxa-sharkhunter",
+     "c": "Doxa baute ab 1967 Taucheruhren mit Dekompressionsskala für Sporttaucher."
+    },
+    {
+     "m": "sub-300",
+     "c": "Die Doxa SUB 300 mit orangefarbenem Zifferblatt erschien im selben Jahr wie die Sea-Dweller."
+    }
+   ]
   }
  ]
 }
