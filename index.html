@@ -1207,7 +1207,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112651";
+const IMGV = "2026112652";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2917,24 +2917,22 @@ function setNight(on, save = true, anim = false) {
     const live = b && b.offsetParent && b.getBoundingClientRect().bottom > 0 && b.getBoundingClientRect().top < innerHeight ? b : null;
     if (live) live.style.viewTransitionName = "nightbtn";
     root.classList.add("vt-night");
-    // Während der Überblendung bleibt die Akzentfarbe dunkel (manche Browser frieren das neue Bild ein); erst danach leuchtet sie langsam auf – kein Aufploppen am Ende
+    // Wie im Heute-Modus: alles steht im neuen Bild direkt im Endzustand (Uhren dunkel, Leuchtmasse und Akzentfarbe an),
+    // die 1,1 s lange Überblendung dunkelt bzw. hellt alles gleichmäßig ab – kein Nachziehen, kein Sprung am Ende
     const vt = document.startViewTransition(() => {
-      root.classList.add("wjump"); requestAnimationFrame(() => requestAnimationFrame(() => root.classList.remove("wjump"))); // Bildfelder/Kacheln direkt im neuen Zustand
+      root.classList.add("wjump", "wnow");
       root.classList.toggle("night", on);
-      root.classList.toggle("wdim", on); root.classList.toggle("wnow", !on);
       if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
       clearTimeout(accFadeT); clearTimeout(accPhaseT);
+      root.classList.remove("accent-fade", "accent-slow", "accent-out", "theme-fade", "wdim");
+      ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v));
       if (window.applyAccent) window.applyAccent();
-      const cs = getComputedStyle(root);
-      root.classList.remove("accent-fade", "accent-slow", "theme-fade"); // sofort dunkel, ohne Übergang (die Seite wird ohnehin überblendet)
-      root.style.setProperty("--accent", darkOf(cs.getPropertyValue("--accent"))); root.style.setProperty("--gold", darkOf(cs.getPropertyValue("--gold"))); root.style.setProperty("--gl", "0");
+      if (on) document.querySelectorAll("#view img.wimg").forEach(im => { const r = im.getBoundingClientRect(); if (r.bottom > -200 && r.top < innerHeight + 200 && im.complete) nightPrep(im); });
       nightApply();
     });
     vt.finished.finally(() => {
       if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
-      requestAnimationFrame(() => root.classList.remove("wdim", "wnow"));
-      root.classList.add("accent-fade", "accent-slow");
-      requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); });
+      requestAnimationFrame(() => root.classList.remove("wjump", "wnow"));
     });
   } else update();
     return;
