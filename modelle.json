@@ -34515,6 +34515,94 @@
      "c": "1972 erfand Audemars Piguet mit der Royal Oak die Luxus-Sportuhr aus Stahl."
     }
    ]
+  },
+  {
+   "id": "explorer-2-16570",
+   "model": "explorer-2",
+   "ref": "16570",
+   "var": null,
+   "t": "Rolex Explorer II Ref. 16570",
+   "bau": "1989–2011",
+   "cap": "mit weißem Zifferblatt, genannt »Polar«",
+   "s": "Der Explorer II mit unabhängig verstellbarem Stundenzeiger und dem berühmten weißen »Polar«-Zifferblatt – mehr als zwei Jahrzehnte im Programm.",
+   "bh": [
+    "Vom Höhlenforscher zum Reisenden",
+    "Gehäuse und Werk",
+    "»Polar« oder schwarz"
+   ],
+   "b": [
+    "Mit der Nachfolgerin der 1655 wandelte sich der Explorer II von einer Spezialuhr für Höhlenforscher zu einer Uhr für Reisende. Seit der 16550 von 1985 lässt sich der normale Stundenzeiger unabhängig vom 24-Stunden-Zeiger verstellen. Damit zeigt der Explorer II wie die GMT-Master II zwei Zeitzonen an, aber mit fester Lünette. Die Referenz 16570 von 1989 übernahm dieses Prinzip mit einem überarbeiteten Werk und blieb bis 2011 im Programm.",
+    "Das Gehäuse aus Edelstahl misst 40 Millimeter, mit Kronenschutz und fester Stahllünette mit 24-Stunden-Skala. Unter dem Saphirglas mit Zykloplupe arbeitet das Kaliber 3185, ab 2007 das Kaliber 3187 mit Parachrom-Spirale und überarbeiteter Stoßsicherung. Der 24-Stunden-Zeiger ist rot und schmal, nicht mehr der große orangefarbene Pfeil der 1655.",
+    "Die 16570 gab es mit schwarzem und mit weißem Zifferblatt. Das weiße, unter Sammlern »Polar« genannt, mit schwarz umrandeten Indizes, wurde zum Markenzeichen des Explorer II. Frühe weiße Zifferblätter der Vorgängerin 16550 verfärbten sich mit der Zeit cremefarben, was Sammler »Cream Dial« nennen; bei der 16570 tritt das nicht auf."
+   ],
+   "m": [
+    "40 mm, Kronenschutz, feste Stahllünette mit 24-Stunden-Skala",
+    "Schmaler roter 24-Stunden-Zeiger",
+    "Weißes »Polar«- oder schwarzes Zifferblatt",
+    "Datum mit Zykloplupe auf Saphirglas"
+   ],
+   "ev": [
+    [
+     "1985",
+     "Ref. 16550: unabhängig verstellbarer Stundenzeiger"
+    ],
+    [
+     "1989",
+     "Vorstellung der Ref. 16570"
+    ],
+    [
+     "2007",
+     "Kaliber 3187 mit Parachrom-Spirale"
+    ],
+    [
+     "2011",
+     "Ablösung durch die Ref. 216570 mit 42 mm"
+    ]
+   ],
+   "x": [
+    "Späte 16570 mit dem Kaliber 3187 erkennt man an der Seriennummer und am Werk; für Sammler sind sie wegen der Parachrom-Spirale interessant.",
+    "Wer einen Explorer II im klassischen 40-Millimeter-Format sucht, findet ihn bei der 16570; die Nachfolgerinnen haben 42 Millimeter."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1989–2011"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3185, ab 2007 3187, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone (24 h)"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "16550 / 216570"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M von 1993 wurde durch James Bond zur Sportuhr der 1990er-Jahre."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas von 1996 war die neue Luxus-Sportuhr der Haute Horlogerie."
+    },
+    {
+     "m": "sinn-556",
+     "c": "Sinn stand mit der 556 für die schlichte, robuste Werkzeuguhr aus Deutschland."
+    }
+   ]
   }
  ]
 }
