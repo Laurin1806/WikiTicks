@@ -509,9 +509,10 @@ canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; he
 @keyframes wshow { to { opacity: 1; } }
 .wimg-wrap canvas.nfresh { opacity: 0 !important; transition: none !important; }
 /* Nachts Heute ⇄ Vintage: alte Uhren blenden aus, die andere Ausführung danach ein */
-:root.wswap #view .wimg-wrap { transition: opacity 1s cubic-bezier(.3,0,.2,1), filter 1s cubic-bezier(.3,0,.2,1); } /* taucht aus der Dunkelheit auf */
-:root.wswap.whide #view .wimg-wrap { opacity: 0; filter: brightness(.45) blur(1px); transition: opacity .8s cubic-bezier(.45,0,.55,1), filter .8s cubic-bezier(.45,0,.55,1); }
-:root:not(.night).wswap.whide #view .wimg-wrap { filter: blur(1px); } /* tagsüber: ausblenden ohne Abdunkeln */
+:root.night.wswap #view .wimg-wrap { transition: opacity 1s cubic-bezier(.3,0,.2,1), filter 1s cubic-bezier(.3,0,.2,1); } /* taucht aus der Dunkelheit auf */
+:root.night.wswap.whide #view .wimg-wrap { opacity: 0; filter: brightness(.45) blur(1px); transition: opacity .8s cubic-bezier(.45,0,.55,1), filter .8s cubic-bezier(.45,0,.55,1); }
+:root:not(.night).wswap #view .wimg-wrap > img.wimg { transition: opacity 1s cubic-bezier(.3,0,.2,1), filter 1.1s ease-in-out; } /* tagsüber das Bild selbst ausblenden: der Rahmen bliebe sonst als weißer Kasten sichtbar (Multiplizieren) */
+:root:not(.night).wswap.whide #view .wimg-wrap > img.wimg { opacity: 0; transition: opacity .8s cubic-bezier(.45,0,.55,1), filter 1.1s ease-in-out; }
 :root.wswap #view .wimg-wrap canvas.wcut { transition: none !important; }
 :root.wswap #view .wimg-wrap canvas.wlume, :root.wswap #view .wimg-wrap img.wlume-img { transition: opacity 1s cubic-bezier(.3,0,.2,1) !important; } /* Leuchtmasse geht und kommt im selben Takt wie die Uhr (Safari blendet sie sonst getrennt) */
 :root.wswap.whide #view .wimg-wrap canvas.wlume, :root.wswap.whide #view .wimg-wrap img.wlume-img { opacity: 0 !important; transition: opacity .8s cubic-bezier(.45,0,.55,1) !important; } /* versinkt in der Dunkelheit: erst dunkler, dann weg */
@@ -1206,7 +1207,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112644";
+const IMGV = "2026112645";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
