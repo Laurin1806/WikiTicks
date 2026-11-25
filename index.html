@@ -1177,7 +1177,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112619";
+const IMGV = "2026112620";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2202,10 +2202,11 @@ function viewHome() {
   const man = manuell();
   const M = (man && byId[man.artikel]) || (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || pickNoRepeat(today(), 21, LEX, hiRes(MODELS), ARTIKEL_ANTEIL_LEXIKON), F = featured(M.id);
   // Uhr des Tages: nie dasselbe Modell und nie dieselbe Marke wie der Artikel des Tages
-  const pool = MODELS.filter(e => e.id !== M.id && (!M.brand || e.brand !== M.brand));
+  // Vintage-Ansicht: nur Uhren, die dort auch in den Markenvorschauen erscheinen
+  const pool = vintFilter(MODELS).filter(e => e.id !== M.id && (!M.brand || e.brand !== M.brand));
   const hp = hiRes(pool), luxus = hp.filter(e => LUXUS.has(e.brand)), rest = hp.filter(e => !LUXUS.has(e.brand));
-  const W = (man && byId[man.uhr]) || (pool.length ? pickDay(today(), 33, luxus, rest, UHR_ANTEIL_LUXUS) : null);
-  return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES && ARTIKEL_DES_TAGES_VARIANTE ? ARTIKEL_DES_TAGES_VARIANTE : M.brand ? bestImg(M).n : "") + (W ? dailyCard(W, "Uhr des Tages", bestImg(W).n, "dh2") : "") + `
+  const W = (man && byId[man.uhr] && (!VINTAGE || hasOldImg(byId[man.uhr])) && byId[man.uhr]) || (pool.length ? pickDay(today(), 33, luxus, rest, UHR_ANTEIL_LUXUS) : null);
+  return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES && ARTIKEL_DES_TAGES_VARIANTE ? ARTIKEL_DES_TAGES_VARIANTE : M.brand ? bestImg(M).n : "") + (W ? dailyCard(W, "Uhr des Tages", VINTAGE ? "" : bestImg(W).n, "dh2") : "") + `
     <section class="feature" aria-labelledby="fh">
       <div class="feature-head">
         <h2 class="section-title" id="fh">Wissenswertes</h2>
