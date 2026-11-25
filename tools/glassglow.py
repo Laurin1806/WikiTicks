@@ -5,7 +5,7 @@ import json,sys,os,subprocess
 import numpy as np
 from PIL import Image,ImageDraw
 os.chdir(os.path.join(os.path.dirname(__file__),'..'))
-RATIO={"submariner":.755,"sea-dweller":.755,"deepsea":.735,"gmt-master":.76,"explorer-2":.80,"daytona":.78,"yacht-master":.78,
+RATIO={"submariner":.755,"sea-dweller":.755,"deepsea":.735,"gmt-master":.76,"explorer-2":.80,"daytona":.78,"yacht-master":.725,
  "yacht-master-ii":.74,"sky-dweller":.80,"datejust":.80,"day-date":.80,"land-dweller":.80,"explorer":.86,"air-king":.86,
  "milgauss":.87,"oyster-perpetual":.87,"perpetual-1908":.87,"oysterquartz":.80}
 STRENGTH,WIDTH=38,.10
