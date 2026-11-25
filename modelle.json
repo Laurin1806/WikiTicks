@@ -34341,6 +34341,100 @@
      "c": "Junghans' Uhren nach Max Bill zeigten 1961, wie klar und reduziert ein Zifferblatt sein kann."
     }
    ]
+  },
+  {
+   "id": "explorer-124270",
+   "model": "explorer",
+   "ref": "124270",
+   "alias": [
+    "124273",
+    "224270"
+   ],
+   "var": null,
+   "t": "Rolex Explorer Ref. 124270",
+   "bau": "seit 2021",
+   "cap": "in Oystersteel mit 36 Millimetern",
+   "s": "Der heutige Explorer: zurück bei 36 Millimetern wie die klassische 1016, mit dem Kaliber 3230 und erstmals auch in Stahl und Gold.",
+   "bh": [
+    "Zurück zu 36 Millimetern",
+    "Das Werk",
+    "Ein Explorer in Gold?"
+   ],
+   "b": [
+    "2010 war der Explorer mit der Referenz 214270 auf 39 Millimeter gewachsen. 2021 kehrte Rolex mit der 124270 überraschend zum klassischen Maß von 36 Millimetern zurück, dem Format der 1016 und 14270. Das Zifferblatt behielt die vertrauten Ziffern 3, 6 und 9 mit Chromalight-Leuchtmasse, das Gehäuse aus Oystersteel ist bis 100 Meter wasserdicht. Für viele Liebhaber war das die Rückkehr des »richtigen« Explorers.",
+    "Im Inneren arbeitet das Kaliber 3230 ohne Datum, mit Chronergy-Hemmung, Parachrom-Spirale und etwa 70 Stunden Gangreserve. Es ist dasselbe Werk wie in der Submariner ohne Datum. Wie alle aktuellen Rolex ist der Explorer als Superlative Chronometer auf zwei Sekunden Abweichung pro Tag geprüft.",
+    "Gleichzeitig mit der Stahluhr stellte Rolex zum ersten Mal einen Explorer in Rolesor vor, aus Oystersteel und Gelbgold. Für eine Uhr mit Expeditionsgeschichte war das ungewöhnlich, zeigt aber, wie sehr der Explorer zur Alltagsuhr geworden ist."
+   ],
+   "vh": [
+    [
+     "Rolesor: Ref. 124273",
+     "Mit Lünette, Krone und Bandmittelgliedern aus 18 Karat Gelbgold trägt der Explorer die Referenz 124273; die Ziffern und Indizes sind goldfarben gefasst."
+    ],
+    [
+     "40 Millimeter: Ref. 224270",
+     "2023 ergänzte Rolex den Explorer 40 mit der Referenz 224270, für alle, denen 36 Millimeter zu klein sind. Werk und Zifferblatt entsprechen der 124270."
+    ]
+   ],
+   "m": [
+    "36 mm Oystersteel, kein Datum",
+    "Ziffern 3, 6 und 9 mit Chromalight-Leuchtmasse",
+    "Polierte Lünette, Oyster-Band mit Oysterlock-Schließe",
+    "Kleine Rolex-Krone zwischen »Swiss« und »Made«"
+   ],
+   "ev": [
+    [
+     "2021",
+     "Rückkehr zu 36 mm; erstmals Rolesor"
+    ],
+    [
+     "2023",
+     "Explorer 40 (Ref. 224270)"
+    ]
+   ],
+   "x": [
+    "Mit 36 Millimetern und schlanker Lünette trägt sich der Explorer kleiner als die meisten Sportuhren, was ihn auch für schmale Handgelenke beliebt macht.",
+    "Die 39-Millimeter-Vorgängerin 214270 gab es in zwei Zifferblatt-Generationen; ab 2016 waren Ziffern und Zeiger mit Leuchtmasse gefüllt."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "36 mm, Oystersteel"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3230, Automatik, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorgänger",
+     "214270 (39 mm)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "tudor-1926",
+     "c": "Tudor bietet mit der Ranger und der 1926 die schlichte Alltagsuhr aus dem Schwesterhaus."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Hamiltons Khaki Field ist die günstige Feld- und Militäruhr mit ähnlich klarer Ablesbarkeit."
+    },
+    {
+     "m": "ranger",
+     "c": "Tudors Ranger nimmt bewusst die Expeditionsgeschichte des Explorer auf."
+    }
+   ]
   }
  ]
 }
