@@ -508,6 +508,7 @@ canvas.wlayer { position: absolute; left: 0; right: 0; top: 4px; width: 100%; he
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wimg { opacity: 0; animation: wshow .6s ease 1.4s forwards; } /* Sicherheitsnetz: klappt die Nachtebene nicht rasch, erscheint das Bild trotzdem */
 @keyframes wshow { to { opacity: 1; } }
 .wimg-wrap canvas.nfresh { opacity: 0 !important; transition: none !important; }
+:root.wkeep canvas.wcut { filter: none !important; } /* Vintage-Wechsel: Uhr direkt in Endhelligkeit */
 :root.wdim .wimg-wrap canvas.nfresh { opacity: 1 !important; } /* in der Überblendung sofort da */
 :root.night .wimg-wrap:not([data-nt="1"]):not([data-nt="x"]) > img.wlume-img { opacity: 0; } /* keine Leuchtmasse ohne Uhr: erst mit der Nachtebene einblenden */ /* bis die Nachtebene berechnet ist: kein heller Kasten, die Uhr blendet danach ein */
 :root.night canvas.wcut { opacity: 1; }
@@ -1196,7 +1197,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112634";
+const IMGV = "2026112635";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2566,9 +2567,14 @@ const goldDesat = (o, j, r, g, b) => { if (!(r > g && g > b && r - b > 45)) retu
 const tcK = (r, g, b) => { const y = .299 * r + .587 * g + .114 * b; let k = y > .5 ? TC[1][Math.min(255, Math.round(y))] / y : NTOP * .5;
   // Gold (warm, gesättigt): etwas heller, damit es nachts nicht bräunlich wirkt
   if (r > g && g > b && r - b > 45 && y > 60) k *= 1 + Math.min(1, (r - b - 45) / 80) * .15; return k; };
+const NCACHE = new Map(); // fertige Nachtebenen je Bild und Einstellung: beim Neuaufbau der Seite sofort wieder da (kein Aufploppen)
+const nKey = (img, wrap) => img.getAttribute("src") + "|" + ["lc", "lz", "rm", "sub", "date", "mk", "sh", "dim", "lmk", "nol"].map(k => wrap.dataset[k] || "").join(",");
+const cloneCv = c => { const n = document.createElement("canvas"); n.width = c.width; n.height = c.height; n.getContext("2d").drawImage(c, 0, 0); n.className = c.className; n.setAttribute("aria-hidden", "true"); return n; };
 function nightPrep(img) {
   const wrap = img.parentElement;
   if (!wrap || !wrap.classList.contains("wimg-wrap") || wrap.dataset.nt) return;
+  const hit = NCACHE.get(nKey(img, wrap));
+  if (hit) { const c = cloneCv(hit[0]), l = cloneCv(hit[1]); c.classList.add("nfresh"); l.classList.add("nfresh"); wrap.append(c, l); wrap.dataset.nt = "1"; requestAnimationFrame(() => requestAnimationFrame(() => { c.classList.remove("nfresh"); l.classList.remove("nfresh"); })); return; }
   if (!img.complete || !img.naturalWidth) { img.addEventListener("load", () => nightPrep(img), { once: true }); return; }
   wrap.dataset.nt = "0";
   try {
@@ -2831,6 +2837,7 @@ function nightPrep(img) {
     for (let i = 0; i < N; i++) if (keep[i]) { lo[i * 4] = col[0]; lo[i * 4 + 1] = col[1]; lo[i * 4 + 2] = col[2]; lo[i * 4 + 3] = lz === "L" ? 215 : 255; }
     lx.putImageData(ld, 0, 0);
     cut.className = "wlayer wcut"; lu.className = "wlayer wlume"; cut.setAttribute("aria-hidden", "true"); lu.setAttribute("aria-hidden", "true");
+    NCACHE.set(nKey(img, wrap), [cut, lu]); // Vorlage (die eingefügten Ebenen werden beim nächsten Mal kopiert)
     cut.classList.add("nfresh"); lu.classList.add("nfresh"); wrap.append(cut, lu); wrap.dataset.nt = "1";
     requestAnimationFrame(() => requestAnimationFrame(() => { cut.classList.remove("nfresh"); lu.classList.remove("nfresh"); })); // weich einblenden (auch ohne @starting-style)
   } catch (e) { wrap.dataset.nt = "x"; } // z. B. beim Öffnen als Datei: dann nur abdunkeln
@@ -2927,7 +2934,7 @@ function setVintage(on, src) {
     root.classList.toggle("vintage", on);
     if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
     const vtNight = useVT && root.classList.contains("night");
-    if (vtNight) { root.classList.add("wdim"); // nachts: Farbe während der Überblendung dunkel, danach langsam aufleuchten (wie beim Nachtwechsel)
+    if (vtNight) { root.classList.add("wdim", "wkeep"); // nachts: Farbe während der Überblendung dunkel, danach langsam aufleuchten (wie beim Nachtwechsel)
       clearTimeout(accFadeT); clearTimeout(accPhaseT); root.classList.remove("accent-fade", "accent-slow", "theme-fade");
       ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v));
       if (window.applyAccent) window.applyAccent();
@@ -2948,7 +2955,7 @@ function setVintage(on, src) {
     vt.finished.finally(() => {
       if (live) live.style.viewTransitionName = ""; root.classList.remove("vt-night");
       if (root.classList.contains("night")) nightApply(); // Nachtebenen der neuen Bilder erst nach der Überblendung berechnen (Safari)
-      if (night) { requestAnimationFrame(() => root.classList.remove("wdim")); root.classList.add("accent-fade", "accent-slow"); requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); }); }
+      if (night) { requestAnimationFrame(() => root.classList.remove("wdim", "wkeep")); root.classList.add("accent-fade", "accent-slow"); requestAnimationFrame(() => { ["--accent", "--gold", "--gl"].forEach(v => root.style.removeProperty(v)); accFadeT = setTimeout(() => root.classList.remove("accent-fade", "accent-slow"), 750); }); }
     });
   } else update();
   };
