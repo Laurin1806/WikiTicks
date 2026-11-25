@@ -979,7 +979,8 @@ function refLink(html, mid, used, selfId) {
   return html.split(/(<[^>]+>)/).map(seg => {
     if (seg.startsWith("<")) { if (/^<a\b/i.test(seg)) inA++; else if (/^<\/a>/i.test(seg)) inA--; return seg; }
     if (inA) return seg;
-    for (const k of keys) { const id = REF_BY[k]; if (used.has(id)) continue; const re = new RegExp(`(^|[^\\w/])(${k.split("|")[1].replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})(?![\\w])`);
+    for (const k of keys) { const id = REF_BY[k]; if (used.has(id)) continue; const rf = k.split("|")[1], yearish = /^1\d{3}$/.test(rf) && !k.startsWith(selfId + "|"); // 1803, 1601 …: in fremden Texten nur nach »Ref.«
+      const re = new RegExp(`(^|[^\\w/])(${yearish ? "(?:Ref\\.|Referenz)\\s*" : ""}${rf.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})(?![\\w])`);
       if (re.test(seg)) { seg = seg.replace(re, (m, a, r) => `${a}<a class="refbtn" href="#${id}">${r}</a>`); used.add(id); } }
     return seg;
   }).join("");
@@ -2335,7 +2336,9 @@ function viewHome() {
   const M = (man && byId[man.artikel]) || (ARTIKEL_DES_TAGES && byId[ARTIKEL_DES_TAGES]) || pickNoRepeat(today(), 21, LEX, hiRes(MODELS), ARTIKEL_ANTEIL_LEXIKON), F = featured(M.id);
   // Uhr des Tages: nie dasselbe Modell und nie dieselbe Marke wie der Artikel des Tages
   // Vintage-Ansicht: nur Uhren, die dort auch in den Markenvorschauen erscheinen
-  const pool = vintFilter([...MODELS, ...Object.values(REFART).filter(a => byId[a.model]).map(refEntry)]).filter(e => e.id !== M.id && (!M.brand || e.brand !== M.brand)); // Referenzartikel können ebenfalls Uhr des Tages sein
+  // Referenzartikel können ebenfalls Uhr des Tages sein: an etwa jedem vierten Tag kommt die Uhr aus den Referenzen (sonst wären es wegen ihrer Zahl fast immer Rolex-Referenzen)
+  const refDay = rndFor(today() * 7907 + 3)() < .25, refPool = vintFilter(Object.values(REFART).filter(a => byId[a.model]).map(refEntry)).filter(e => e.refOf !== M.id && (!M.brand || e.brand !== M.brand));
+  const pool = refDay && refPool.length ? refPool : vintFilter(MODELS).filter(e => e.id !== M.id && (!M.brand || e.brand !== M.brand));
   const hp = hiRes(pool), luxus = hp.filter(e => LUXUS.has(e.brand)), rest = hp.filter(e => !LUXUS.has(e.brand));
   const W = (man && byId[man.uhr] && (!VINTAGE || hasOldImg(byId[man.uhr])) && byId[man.uhr]) || (pool.length ? pickDay(today(), 33, luxus, rest, UHR_ANTEIL_LUXUS) : null);
   return dailyCard(M, "Artikel des Tages", M.id === ARTIKEL_DES_TAGES && ARTIKEL_DES_TAGES_VARIANTE ? ARTIKEL_DES_TAGES_VARIANTE : M.brand ? bestImg(M).n : "") + (W ? dailyCard(W, "Uhr des Tages", VINTAGE ? "" : bestImg(W).n, "dh2") : "") + `
@@ -2400,7 +2403,7 @@ function viewRefArt(a) {
   const row = e.preis && (e.preis.rows || []).find(r => r[0] === a.ref), pr = e.preis;
   const price = row ? (() => { const c = row[5] || pr.u, [cn, cu] = Array.isArray(c) ? c : [c, c], f = n => n.toLocaleString("de-DE") + " EUR";
     return [row[2] != null ? [`Listenpreis (${row[1] || "Liste"})`, f(toEUR(row[2], cn))] : null, row[4] != null ? [`Gebraucht (${row[3] === "heute" ? "Herbst 2026" : row[3] || ""})`, f(toEUR(row[4], cu))] : null].filter(Boolean); })() : [];
-  const parts = [["geschichte", "Geschichte und Technik"], ...(a.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ...(a.ev ? [["zeitleiste", "Zeitleiste"]] : []), ...(a.x ? [["experte", "Wissenswert für Sammler"]] : [])];
+  const parts = [["geschichte", "Geschichte und Technik"], ...(a.vh ? [["varianten", "Varianten"]] : []), ...(a.m ? [["merkmale", "Erkennungsmerkmale"]] : []), ...(a.ev ? [["zeitleiste", "Zeitleiste"]] : []), ...(a.x ? [["experte", "Wissenswert für Sammler"]] : [])];
   return crumbs([["Alle Marken", "uhrenmodelle"], [e.brand, "marke-" + slug(e.brand)], [shortName(e), e.id], ["Ref. " + a.ref]]) + `
     <article class="refpage">
       <figure class="watchfig topfig">${drawWatch(v, e)}<figcaption><b>${esc(x ? x.n : "Ref. " + a.ref)}</b>${esc(a.cap || (x && x.y) || "")}</figcaption>${imgNote(x && x.bd)}</figure>
@@ -2410,6 +2413,7 @@ function viewRefArt(a) {
       <p class="lead">${esc(a.s)}</p>
       <nav class="toc" aria-label="Inhalt">${parts.map(([k, t]) => `<button type="button" data-sec="${k}">${t}</button>`).join("")}</nav>
       ${H("geschichte", "Geschichte und Technik")}${a.b.map((p, k) => (a.bh && a.bh[k] ? `<h4 class="art-sh">${esc(a.bh[k])}</h4>` : "") + P([p])).join("")}
+      ${a.vh ? H("varianten", "Varianten") + a.vh.map(([h, t]) => `<h4 class="art-sh">${esc(h)}</h4>` + P([t])).join("") : ""}
       ${a.m ? H("merkmale", "Erkennungsmerkmale") + `<ul class="art-list">${a.m.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
       ${a.ev ? H("zeitleiste", "Zeitleiste") + `<ol class="timeline">${a.ev.map(([y, t]) => `<li><span class="ty">${esc(y)}</span><span class="tt">${esc(t)}</span></li>`).join("")}</ol>` : ""}
       ${a.x ? H("experte", "Wissenswert für Sammler") + `<ul class="art-list">${a.x.map(t => `<li>${linkify(esc(t), a.id, used)}</li>`).join("")}</ul>` : ""}
@@ -2682,7 +2686,7 @@ function viewEntry(e) {
   const lxBtns = k => lxAt[k] ? `<div class="lexlinks">${lxAt[k].map(id => `<a class="lexbtn" href="#${id}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 016.5 3H20v15H6.5A2.5 2.5 0 004 20.5v-15zM4 20.5A2.5 2.5 0 016.5 23H20v-5"/></svg><span>Lexikon</span>${esc(byId[id].t.split(": ").pop())}</a>`).join("")}</div>` : "";
   return crumbs(trail) + `
     <article>
-      ${e.brand ? VV ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...VV.v, era: "vintage" }), e)}<figcaption>${capName(VV)}${esc(VV.y || "")}${refLine(VV, VV.n)}</figcaption>${imgNote(VV.bd)}</figure>` : (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption><b>${esc(e.topv.n)}</b>${esc(e.topv.y || "")}${refLine(e.topv, e.topv.n)}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}` : ""}${refLine(e, e.cur)}</figcaption>${imgNote(e.bd)}</figure>`) : (LF.dg ? "" : LF.top)}
+      ${e.brand ? VV ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...VV.v, era: "vintage" }), e)}<figcaption>${capName(VV)}${esc(VV.y || "")}${refLine(VV, VV.n)}</figcaption>${imgNote(VV.bd)}</figure>` : (e.topv ? `<figure class="watchfig topfig">${drawWatch(withVariant(e.v, { ...e.topv.v, ...(+((e.topv.y || "").match(/\d{4}/) || [9999])[0] < 2005 ? { era: "vintage" } : {}) }), e)}<figcaption>${capName(e.topv)}${esc(e.topv.y || "")}${refLine(e.topv, e.topv.n)}</figcaption>${imgNote(e.topv.bd)}</figure>` : `<figure class="watchfig topfig">${drawWatch(e.v, e)}<figcaption>${REF_BY[e.id + "|" + e.iref] ? `<a class="refbtn big" href="#${REF_BY[e.id + "|" + e.iref]}">Aktuelle Ausführung</a>${esc(e.cur || "")}` : e.cur ? `<b>Aktuelle Ausführung</b>${esc(e.cur)}` : ""}${refLine(e, e.cur)}</figcaption>${imgNote(e.bd)}</figure>`) : (LF.dg ? "" : LF.top)}
       <div class="cat">${esc(e.brand ? e.brand + " · Uhrenmodell" : e.c)}${favBtn(e.id)}${e.brand ? cmpBtn(e.id) : ""}</div>
       <h2>${esc(e.t)}</h2>
       ${meta}
@@ -3559,7 +3563,7 @@ let SPECS = {}; (DATA && DATA.datenblatt ? Promise.resolve(DATA.datenblatt) : lo
   LUMEMASK = new Map(Array.isArray(lmRaw) ? lmRaw.map(f => [f, "b"]) : Object.entries(lmRaw));
   IMGRES = new Map(Object.entries((mod && mod.imgRes) || {}));
   IMGFIT = new Map(Object.entries((mod && mod.imgFit) || {}));
-  ((mod && mod.referenzen) || []).forEach(a => { REFART[a.id] = a; REF_BY[a.model + "|" + a.ref] = a.id; });
+  ((mod && mod.referenzen) || []).forEach(a => { REFART[a.id] = a; [a.ref, ...(a.alias || [])].forEach(r => { REF_BY[a.model + "|" + r] = a.id; }); }); // alias: weitere Schreibweisen und Varianten derselben Grundreferenz
   rebuild(); route();
   if (POS[location.hash]) requestAnimationFrame(() => window.scrollTo({ top: POS[location.hash] }));
 });
