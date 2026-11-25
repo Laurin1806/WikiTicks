@@ -33860,6 +33860,108 @@
      "c": "1968 brachte Patek Philippe die Golden Ellipse, eine flache Dresswatch nach dem Goldenen Schnitt."
     }
    ]
+  },
+  {
+   "id": "datejust-126234",
+   "model": "datejust",
+   "ref": "126234",
+   "alias": [
+    "126200",
+    "126233",
+    "126200 / 126234",
+    "126300",
+    "126334",
+    "126300 / 126334"
+   ],
+   "var": null,
+   "t": "Rolex Datejust 36 Ref. 126234",
+   "bau": "seit 2018",
+   "cap": "in Rolesor aus Stahl und Weißgold mit blauem Zifferblatt",
+   "s": "Die heutige Datejust 36: das klassische Format von 1945 mit dem Kaliber 3235, rund 70 Stunden Gangreserve und unzähligen Kombinationen aus Lünette, Band und Zifferblatt.",
+   "bh": [
+    "Das klassische Maß",
+    "Das Werk",
+    "Eine Uhr, viele Gesichter"
+   ],
+   "b": [
+    "36 Millimeter waren lange das Standardmaß einer Herrenuhr, und die Datejust ist bei diesem Maß geblieben. 2018 erneuerte Rolex die Datejust 36 mit den Referenzen 126200 und 126234: äußerlich behutsam, mit etwas feiner gezeichneten Bandanstößen und einem neuen Werk. Die Referenz 126234 trägt zum Gehäuse aus Oystersteel die geriffelte Lünette aus 18 Karat Weißgold, eine Kombination, die Rolex »Rolesor« nennt und die direkt auf die 1601 der 1960er-Jahre zurückgeht.",
+    "Im Inneren arbeitet das Kaliber 3235, dasselbe Werk wie in der Submariner Date, mit Chronergy-Hemmung, Parachrom-Spirale und etwa 70 Stunden Gangreserve. Das Datum unter der Zykloplupe springt um Mitternacht schlagartig um und lässt sich über die Krone schnell verstellen. Die Uhr ist bis 100 Meter wasserdicht und als Superlative Chronometer geprüft.",
+    "Kaum ein Modell gibt es in so vielen Ausführungen: glatte oder geriffelte Lünette, Oyster- oder Jubilee-Band, Zifferblätter in Blau, Silber, Schwarz, Grün oder mit Motiven wie dem »Palm«- oder »Wimbledon«-Zifferblatt, mit Stab- oder römischen Indizes. So bleibt die Datejust eine Uhr, die man nach eigenem Geschmack zusammenstellt."
+   ],
+   "vh": [
+    [
+     "Stahl: Ref. 126200",
+     "Mit glatter Lünette aus Stahl heißt die Datejust 36 Referenz 126200; sie ist die schlichteste Ausführung."
+    ],
+    [
+     "Rolesor mit Gelbgold: Ref. 126233",
+     "Mit Lünette, Krone und Bandmittelgliedern aus Gelbgold trägt sie die Referenz 126233, häufig mit champagnerfarbenem Zifferblatt – die klassische Stahl-Gold-Datejust."
+    ],
+    [
+     "Datejust 41: Refs. 126300 und 126334",
+     "Seit Mitte der 2010er-Jahre gibt es die Datejust auch mit 41 Millimetern, in Stahl mit glatter Lünette (126300) oder mit geriffelter Weißgoldlünette (126334). Sie hat dasselbe Werk und richtet sich an alle, denen 36 Millimeter zu klein sind."
+    ]
+   ],
+   "m": [
+    "36 mm, geriffelte Weißgoldlünette",
+    "Datum mit Zykloplupe bei 3 Uhr",
+    "Kleine Rolex-Krone zwischen »Swiss« und »Made« bei 6 Uhr",
+    "Oyster- oder Jubilee-Band"
+   ],
+   "ev": [
+    [
+     "1945",
+     "Erste Datejust"
+    ],
+    [
+     "2018",
+     "Neue Generation der Datejust 36 mit Kaliber 3235"
+    ]
+   ],
+   "x": [
+    "Die 36 Millimeter wirken mit geriffelter Lünette größer, als die Zahl vermuten lässt.",
+    "Gebrauchte Datejust halten ihren Wert gut, liegen aber anders als Daytona oder GMT-Master meist nicht über dem Listenpreis."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "36 mm, Oystersteel, Lünette 18 Karat Weißgold"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3235, Automatik, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum mit Schnellschaltung"
+    ],
+    [
+     "Vorgänger",
+     "116234"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra ist die sportlich-elegante Alltagsuhr mit Datum, die direkt mit der Datejust konkurriert."
+    },
+    {
+     "m": "globemaster",
+     "c": "Die Omega Globemaster nimmt mit geriffelter Lünette und Pie-Pan-Zifferblatt bewusst die Constellation der 1950er-Jahre auf."
+    },
+    {
+     "m": "tudor-1926",
+     "c": "Tudors 1926 ist die schlichte Uhr mit Datum aus dem Schwesterhaus von Rolex."
+    }
+   ]
   }
  ]
 }
