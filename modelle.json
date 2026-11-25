@@ -35335,6 +35335,111 @@
      "c": "Sinn bietet bei vielen Modellen erhöhten Magnetfeldschutz für den Alltag."
     }
    ]
+  },
+  {
+   "id": "oyster-perpetual-124300",
+   "model": "oyster-perpetual",
+   "ref": "124300",
+   "alias": [
+    "124300-0006",
+    "124300-0007",
+    "124300-0004",
+    "126000",
+    "114300"
+   ],
+   "var": null,
+   "t": "Rolex Oyster Perpetual 41 Ref. 124300",
+   "bau": "seit 2020",
+   "cap": "mit türkisfarbenem Zifferblatt",
+   "s": "Die Grundform der Rolex: Oyster-Gehäuse, Automatikwerk, kein Datum – seit 2020 mit 41 Millimetern und Zifferblättern in kräftigen Farben.",
+   "bh": [
+    "Die reinste Rolex",
+    "Farbe als Programm",
+    "Das Werk"
+   ],
+   "b": [
+    "Die Oyster Perpetual vereint die beiden Erfindungen, auf denen Rolex aufbaut: das wasserdichte Oyster-Gehäuse von 1926 und den Perpetual-Rotor für den automatischen Aufzug von 1931. Sie hat keine Lünette mit Skala, kein Datum, keine Komplikation, nur Stunden, Minuten und Sekunden. Gerade deshalb gilt sie vielen als die reinste Rolex. 2020 erneuerte Rolex die Linie und brachte mit der Referenz 124300 erstmals eine Oyster Perpetual mit 41 Millimetern.",
+    "Für Aufsehen sorgten die Zifferblätter. Neben Silber, Schwarz und Blau gab es nun kräftige Lackfarben: Türkis, Korallenrot, Gelb, Grün und Rosa. Besonders das türkisfarbene Zifferblatt, wegen seiner Farbe oft mit dem Juwelier Tiffany verbunden, wurde über Nacht zur gesuchtesten Ausführung, und die Gebrauchtpreise stiegen weit über den Listenpreis. 2023 folgte das »Celebration«-Zifferblatt mit bunten Blasen in allen Farben der Serie.",
+    "Im Inneren arbeitet das Kaliber 3230 mit Chronergy-Hemmung, Parachrom-Spirale und etwa 70 Stunden Gangreserve, dasselbe Werk wie in Submariner und Explorer ohne Datum. Das Gehäuse aus Oystersteel ist bis 100 Meter wasserdicht, die Lünette glatt und poliert."
+   ],
+   "vh": [
+    [
+     "Farben",
+     "Die 124300 gibt es mit Zifferblättern in Silber, Schwarz, Hellblau, Grün und den Lackfarben Türkis, Korallenrot, Gelb und Rosa sowie mit dem »Celebration«-Zifferblatt. Die einzelnen Farben unterscheiden sich nur im Zusatz der Referenznummer."
+    ],
+    [
+     "Andere Größen",
+     "Dieselbe Uhr gibt es mit 36 Millimetern (126000), 34 und 31 Millimetern sowie als Oyster Perpetual 28. Die Vorgängerin mit 39 Millimetern war die 114300."
+    ]
+   ],
+   "m": [
+    "41 mm Oystersteel, glatte polierte Lünette",
+    "Kein Datum, keine Zykloplupe",
+    "Zifferblätter in Lackfarben wie Türkis, Korallenrot oder Gelb",
+    "Oyster-Band mit Oysterclasp-Faltschließe"
+   ],
+   "ev": [
+    [
+     "1926",
+     "Oyster-Gehäuse"
+    ],
+    [
+     "1931",
+     "Perpetual-Rotor"
+    ],
+    [
+     "2020",
+     "Oyster Perpetual 41 mit farbigen Lackzifferblättern"
+    ],
+    [
+     "2023",
+     "»Celebration«-Zifferblatt"
+    ]
+   ],
+   "x": [
+    "Die farbigen Zifferblätter sind deutlich gefragter als Silber oder Schwarz; Türkis ist die begehrteste Farbe.",
+    "Die Oyster Perpetual ist die günstigste aktuelle Rolex und ein beliebter Einstieg in die Marke."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Oystersteel"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3230, Automatik, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorgänger",
+     "114300 (39 mm)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "prx",
+     "c": "Tissots PRX war in denselben Jahren der Überraschungserfolg mit integriertem Band und bunten Zifferblättern."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra bot ebenfalls kräftige Zifferblattfarben in einer klassischen Stahluhr."
+    },
+    {
+     "m": "tudor-1926",
+     "c": "Tudors 1926 ist die schlichte Uhr ohne Schnörkel aus dem Schwesterhaus von Rolex."
+    }
+   ]
   }
  ]
 }
