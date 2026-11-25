@@ -9,6 +9,8 @@ RATIO={"submariner":.755,"sea-dweller":.755,"deepsea":.735,"gmt-master":.76,"exp
  "yacht-master-ii":.74,"sky-dweller":.80,"datejust":.80,"day-date":.80,"land-dweller":.80,"explorer":.86,"air-king":.86,
  "milgauss":.87,"oyster-perpetual":.87,"perpetual-1908":.87,"oysterquartz":.80}
 STRENGTH,WIDTH=38,.10
+# einzeln vermessene Glasränder (Mitte x, Mitte y, Radius in Pixeln des Originalbilds)
+GLASS={"rolex-yacht-master-126622-slate.jpg":(489.5,694,304)}
 def circle(path):
   """Mitte: Achse des Bandes (Mitte oben/unten) und Höhe der breitesten Stelle des Gehäuses; Radius bis zur linken Gehäusekante."""
   A=np.asarray(Image.open(path).convert('RGB')).astype(int);H,W,_=A.shape
@@ -43,6 +45,7 @@ for mid,img,f in jobs:
   orig=subprocess.run(['git','show','HEAD~1:'+p] if f=='rolex-submariner-126610ln.jpg' else ['git','show','HEAD:'+p],capture_output=True).stdout
   import io;m_=Image.open(io.BytesIO(orig)).convert('RGBA');mw,mh=m_.size
   cx,cy,r,W,H=circle(img);s=mw/W;R=r*RATIO[mid]*s;c=(cx*s,cy*s)
+  if f in GLASS: gx,gy,gr=GLASS[f];R=gr*s;c=(gx*s,gy*s)
   yy,xx=np.mgrid[0:mh,0:mw];d=np.hypot(xx-c[0],yy-c[1]);t=np.clip((R-d)/(R*WIDTH),0,None)
   g=np.where(d<=R,np.clip(1-t,0,1)**2,0.0)
   A=np.asarray(m_).copy()
