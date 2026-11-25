@@ -33962,6 +33962,100 @@
      "c": "Tudors 1926 ist die schlichte Uhr mit Datum aus dem Schwesterhaus von Rolex."
     }
    ]
+  },
+  {
+   "id": "datejust-116264",
+   "model": "datejust",
+   "ref": "116264",
+   "alias": [
+    "116263",
+    "116261"
+   ],
+   "var": 2,
+   "t": "Rolex Datejust Turn-O-Graph Ref. 116264",
+   "bau": "2004–2011",
+   "cap": "in Stahl mit drehbarer Weißgoldlünette",
+   "s": "Die Datejust mit drehbarer Lünette: Nachfahrin der Turn-O-Graph von 1953 und, mit roten Akzenten, die sportlichste Datejust ihrer Zeit.",
+   "bh": [
+    "Eine Lünette, die sich dreht",
+    "Die Generation 116264",
+    "Das Ende einer Linie"
+   ],
+   "b": [
+    "Die Turn-O-Graph gehört zu den unbekannteren Kapiteln der Rolex-Geschichte, obwohl sie früh dran war: 1953 stellte Rolex mit der Referenz 6202 eine Uhr mit drehbarer, gravierter Lünette vor, mit der man verstrichene Minuten ablesen konnte – im selben Jahr wie die Submariner. In den USA wurde die Turn-O-Graph später mit der Kunstflugstaffel »Thunderbirds« der US Air Force verbunden und trug dort zeitweise diesen Namen.",
+    "2004 brachte Rolex die Turn-O-Graph als Teil der Datejust-Familie neu heraus, mit der Referenz 116264. Das 36-Millimeter-Gehäuse aus Edelstahl trägt eine Lünette aus 18 Karat Weißgold mit geriffeltem Rand und gravierter 60-Minuten-Skala, die sich drehen lässt. Rote Akzente setzen die sportliche Note: Sekundenzeiger, Datumsziffern und der Schriftzug »Turn-O-Graph« sind rot. Im Inneren arbeitet das Kaliber 3135 mit Datum, das Glas ist aus Saphir, die Uhr bis 100 Meter wasserdicht.",
+    "Die Turn-O-Graph blieb ein Nischenmodell zwischen eleganter Datejust und Werkzeuguhr. Um 2011 nahm Rolex sie aus dem Programm, und bis heute hat sie keine Nachfolgerin. Gerade das macht sie für Sammler interessant, die eine ungewöhnliche Datejust suchen."
+   ],
+   "vh": [
+    [
+     "Rolesor: 116263 und 116261",
+     "Neben der Stahluhr gab es die Turn-O-Graph in Rolesor mit Gelbgold (116263) und mit Everose-Gold (116261), jeweils mit Lünette und Bandmittelgliedern aus Gold und farblich passenden Zifferblättern."
+    ]
+   ],
+   "m": [
+    "36 mm, drehbare Weißgoldlünette mit gravierter 60-Minuten-Skala",
+    "Roter Sekundenzeiger und rote Datumsziffern",
+    "Schriftzug »Turn-O-Graph« auf dem Zifferblatt",
+    "Datum mit Zykloplupe"
+   ],
+   "ev": [
+    [
+     "1953",
+     "Erste Turn-O-Graph (Ref. 6202)"
+    ],
+    [
+     "2004",
+     "Neuauflage als Datejust Turn-O-Graph Ref. 116264"
+    ],
+    [
+     "um 2011",
+     "Ende der Produktion"
+    ]
+   ],
+   "x": [
+    "Die Turn-O-Graph wird gebraucht oft günstiger gehandelt als eine vergleichbare Datejust mit geriffelter Lünette, obwohl sie seltener ist.",
+    "Die rote Datumsschrift ist bei Rolex selten und ein schnelles Erkennungszeichen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2004–2011"
+    ],
+    [
+     "Gehäuse",
+     "36 mm, Edelstahl, drehbare Lünette aus 18 Karat Weißgold"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3135, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Minutenskala auf der Lünette"
+    ],
+    [
+     "Nachfolger",
+     "keine"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "aquaracer",
+     "c": "TAG Heuers Aquaracer von 2004 verband ebenfalls Drehlünette und Alltagstauglichkeit, als Taucheruhr."
+    },
+    {
+     "m": "de-ville-tresor",
+     "c": "Omegas De Ville stand in diesen Jahren für die elegante Seite der Marke."
+    },
+    {
+     "m": "jazzmaster",
+     "c": "Hamiltons Jazzmaster war die erschwingliche, klassische Alltagsuhr dieser Jahre."
+    }
+   ]
   }
  ]
 }
