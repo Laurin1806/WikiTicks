@@ -35778,7 +35778,7 @@
     "40 mm, flaches Gehäuse, fein geriffelte Lünette",
     "Integriertes Flat-Jubilee-Band",
     "Wabenmuster auf dem Zifferblatt",
-    "Saphirglasboden, Datum mit Zykloplupe bei 3 Uhr"
+    "Saphirglasboden, Datumsfenster bei 3 Uhr"
    ],
    "ev": [
     [
@@ -35823,7 +35823,114 @@
     },
     {
      "m": "alpine-eagle",
-     "c": "Chopards Alpine Eagle ist eine der neueren Uhren mit integriertem Band, ebenfalls mit 5 Hertz."
+     "c": "Chopards Alpine Eagle ist eine der neueren Stahluhren mit integriertem Band aus der Haute Horlogerie."
+    }
+   ]
+  },
+  {
+   "id": "cellini-50505",
+   "model": "cellini",
+   "ref": "50505",
+   "alias": [
+    "Cellini Time / Date",
+    "50509",
+    "50515",
+    "50519",
+    "50525",
+    "50535",
+    "Cellini Moonphase"
+   ],
+   "var": null,
+   "t": "Rolex Cellini Time Ref. 50505",
+   "bau": "2014–2023",
+   "cap": "in Everose-Gold mit cremeweißem Zifferblatt",
+   "s": "Die Cellini der letzten Generation: eine runde Golduhr mit doppelter Lünette, Blattzeigern und Lederband – Rolex' Dresswatch vor der Perpetual 1908.",
+   "bh": [
+    "Die klassische Seite von Rolex",
+    "Gehäuse und Werk",
+    "Ein Abschied"
+   ],
+   "b": [
+    "Neben den Oyster-Sportuhren pflegte Rolex seit den 1970er-Jahren eine Linie klassischer Golduhren, benannt nach dem Florentiner Renaissance-Goldschmied Benvenuto Cellini. 2014 erneuerte Rolex die Linie grundlegend und brachte vier Uhren mit einheitlichem Gesicht heraus: Cellini Time, Date, Dual Time und später Moonphase. Die Referenz 50505 ist die Cellini Time in Everose-Gold, Rolex' eigener farbbeständiger Roségold-Legierung.",
+    "Das runde Gehäuse misst 39 Millimeter und trägt eine doppelte Lünette: innen gewölbt und poliert, außen fein geriffelt, eine Verbindung aus klassischer Eleganz und Rolex-Tradition. Die Bandanstöße sind hoch und schmal geschwungen. Im Inneren arbeitet das Automatikkaliber 3132 mit Parachrom-Spirale, ein Chronometerwerk ohne Datum. Anders als die Oyster-Modelle ist die Cellini nur bis 50 Meter wasserdicht und wird am Krokodillederband getragen.",
+    "Unter Sammlern blieb die Cellini eine Nischenuhr, und auf dem Zweitmarkt lag sie meist deutlich unter dem Neupreis. Für Liebhaber, die eine Rolex in Gold ohne Wartezeit suchten, war das ein Vorteil. 2023 ersetzte Rolex die Cellini durch die Perpetual 1908."
+   ],
+   "vh": [
+    [
+     "Weißgold: Ref. 50509",
+     "In 18 Karat Weißgold trug die Cellini Time die Referenz 50509, meist mit schwarzem oder silbernem Zifferblatt."
+    ],
+    [
+     "Date, Dual Time und Moonphase",
+     "Die Cellini Date (50515 und 50519) zeigt das Datum mit einem Zeiger auf einem Hilfszifferblatt, die Dual Time (50525 und verwandte Referenzen) eine zweite Zeitzone mit Tag-Nacht-Anzeige, und die Cellini Moonphase (50535) von 2017 eine Mondphase mit Vollmond aus Meteorit."
+    ]
+   ],
+   "m": [
+    "39 mm, Everose-Gold, doppelte Lünette (gewölbt und geriffelt)",
+    "Schlanke Zeiger in Blattform",
+    "Schriftzug »Cellini« in Schreibschrift",
+    "Lederband, kein Datum"
+   ],
+   "ev": [
+    [
+     "1970er",
+     "Erste Cellini-Uhren"
+    ],
+    [
+     "2014",
+     "Neue Cellini-Generation mit 39 mm"
+    ],
+    [
+     "2017",
+     "Cellini Moonphase"
+    ],
+    [
+     "2023",
+     "Ablösung durch die Perpetual 1908"
+    ]
+   ],
+   "x": [
+    "Gebrauchte Cellini sind eine vergleichsweise günstige Möglichkeit, eine Rolex in Massivgold zu tragen.",
+    "Beim Kauf auf den Zustand des Lederbands und der Faltschließe achten; Originalbänder von Rolex sind teuer."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2014–2023"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, 18 Karat Everose-Gold"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "3132, Automatik, Parachrom-Spirale"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Nachfolger",
+     "Perpetual 1908"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "calatrava",
+     "c": "Patek Philippes Calatrava war die klassische Golduhr, an der sich jede Dresswatch messen lassen musste."
+    },
+    {
+     "m": "master-control",
+     "c": "Jaeger-LeCoultres Master Control steht für die schlichte runde Uhr mit Manufakturwerk."
+    },
+    {
+     "m": "traditionnelle",
+     "c": "Vacheron Constantins Traditionnelle zeigt die klassische Eleganz der Haute Horlogerie."
     }
    ]
   }
