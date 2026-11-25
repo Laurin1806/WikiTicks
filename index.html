@@ -533,14 +533,12 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 .nightbtn:hover { border-color: var(--accent); }
 .vintbtn { display: inline-flex; align-items: center; gap: 11px; margin-top: 8px; font: 600 13px/1.15 var(--font-body); padding: 7px 16px 7px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; text-align: left; transition: border-color .2s, box-shadow .3s, background .3s; }
 .vintbtn:hover { border-color: var(--accent); }
-.vintbtn .vwatch { width: 48px; height: 26px; flex: none; overflow: visible; }
-.vintbtn .vw-hands { transform-origin: 30px 15px; transform-box: view-box; }
-.vintbtn .vw-strap { fill: #2b2f35; } .vintbtn .vw-stitch line { stroke: rgba(255,255,255,.25); stroke-width: .35; stroke-dasharray: 1 .8; } .vintbtn[aria-pressed="true"] .vw-stitch line { stroke: rgba(240,215,170,.6); } .vintbtn .vw-idx line { stroke: #6b7480; } .vintbtn .vw-h { stroke: #3b4350; stroke-linecap: round; } .vintbtn .vw-lume circle { fill: #ffffff; opacity: .9; }
-.vintbtn .vw-d1 { stop-color: #fbfcfd; } .vintbtn .vw-d2 { stop-color: #cfd5dc; } /* aus: modernes Silberblatt */
-.vintbtn[aria-pressed="true"] { background: #f4ead6; color: #6b4a14; border-color: #c9a25a; }
-.vintbtn[aria-pressed="true"] .vw-strap { fill: #6b3f22; } .vintbtn[aria-pressed="true"] .vw-idx line { stroke: #b38b3c; } .vintbtn[aria-pressed="true"] .vw-h { stroke: #8a6a2a; } .vintbtn[aria-pressed="true"] .vw-lume circle { fill: #e9d6a0; }
-.vintbtn[aria-pressed="true"] .vw-d1 { stop-color: #f6ead0; } .vintbtn[aria-pressed="true"] .vw-d2 { stop-color: #dcc79c; } /* an: Patina */
-:root.night .vintbtn[aria-pressed="true"] .vw-lume circle { fill: #9dffc4; filter: drop-shadow(0 0 1.2px rgba(120,255,175,.9)); } :root.night .vintbtn[aria-pressed="true"] .vw-d1 { stop-color: #4a4637; } :root.night .vintbtn[aria-pressed="true"] .vw-d2 { stop-color: #23211a; }
+.vintbtn .vdial { width: 32px; height: 31px; margin: -3px 8px; flex: none; overflow: visible; filter: drop-shadow(0 1px 1px rgba(0,0,0,.18)); }
+.vintbtn .vd-hands { transform-origin: 30px 15px; transform-box: view-box; }
+.vintbtn .vd-h { stroke-linecap: round; transition: stroke .8s ease; stroke: #eef3f8; } .vintbtn[aria-pressed="true"] .vd-h { stroke: #b08a3e; }
+.vintbtn .vd-hl { stroke-linecap: round; transition: stroke .8s ease, opacity .8s ease; stroke: #bfe9d0; } .vintbtn[aria-pressed="true"] .vd-hl { stroke: #e9d8a8; opacity: .8; }
+.vintbtn .vd-cap { transition: fill .8s ease; fill: #dfe6ee; } .vintbtn[aria-pressed="true"] .vd-cap { fill: #c9a24a; }
+:root.night .vintbtn .vd-lume circle, :root.night .vintbtn .vd-hl { filter: drop-shadow(0 0 1.1px rgba(120,255,175,.95)); } :root.night .vintbtn .vd-lume circle { fill: #b6ffd4; } :root.night .vintbtn .vd-hl { stroke: #b6ffd4; }
 :root.night .vintbtn[aria-pressed="true"] { background: #1f1809; color: #e8c27a; border-color: #6b5320; box-shadow: 0 0 12px rgba(232,194,122,.2); }
 .nightbtn .moon { width: 48px; height: 26px; flex: none; overflow: visible; }
 .nightbtn .nt { display: grid; gap: 2px; }
@@ -1166,7 +1164,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026112609";
+const IMGV = "2026112610";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = { "rolex-gmt-master-1675-pepsi.jpg": .34, "rolex-submariner-5513.jpg": .34, "patek-philippe-nautilus-3700-1a.jpg": .34, "rolex-air-king-5500.jpg": .34 }; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -2860,11 +2858,45 @@ function setVintage(on) {
   root.classList.toggle("vintage", on);
   if (on) try { localStorage.removeItem("wikiticks-accent-vn"); } catch (e) {}
   if (window.applyAccent) window.applyAccent();
-  document.querySelectorAll("#vintbtn, .vintbtn").forEach(b => { b.setAttribute("aria-pressed", on); const l = b.querySelector(".nl"); if (l) l.textContent = on ? "Heute-Modus" : "Vintage-Modus"; const h = b.querySelector(".vw-hands"); if (h && h.animate && !matchMedia("(prefers-reduced-motion: reduce)").matches) h.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 850, easing: "cubic-bezier(.7,0,.25,1)" }); });
+  document.querySelectorAll("#vintbtn, .vintbtn").forEach(b => { b.setAttribute("aria-pressed", on); const l = b.querySelector(".nl"); if (l) l.textContent = on ? "Heute-Modus" : "Vintage-Modus"; const sv = b.querySelector(".vdial"); if (sv) vdialAnim(sv, on); });
   const y = window.scrollY; route(); requestAnimationFrame(() => window.scrollTo({ top: y }));
 }
 document.addEventListener("touchstart", () => {}, { passive: true }); // damit :active (Leuchten beim Antippen) auch auf iOS greift
-document.querySelectorAll("#vintbtn .vwbox").forEach(x => { x.outerHTML = `<svg class="vwatch" viewBox="4 1 52 28" aria-hidden="true"><defs><radialGradient id="vwDial" cx="40%" cy="35%" r="70%"><stop offset="0" class="vw-d1"/><stop offset="1" class="vw-d2"/></radialGradient><linearGradient id="vwCase" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f6f8"/><stop offset=".5" stop-color="#a9b0b8"/><stop offset="1" stop-color="#e3e6ea"/></linearGradient></defs><g transform="rotate(-90 30 15)"><rect class="vw-strap" x="23.8" y="-9.5" width="12.4" height="14.5" rx="2"/><rect class="vw-strap" x="23.8" y="25" width="12.4" height="14.5" rx="2"/><g class="vw-stitch"><line x1="25" y1="-8" x2="25" y2="4"/><line x1="35" y1="-8" x2="35" y2="4"/><line x1="25" y1="26" x2="25" y2="38"/><line x1="35" y1="26" x2="35" y2="38"/></g><rect x="41" y="13.4" width="2.6" height="3.2" rx=".6" fill="#b8bec5"/><circle cx="30" cy="15" r="11.2" fill="url(#vwCase)"/><circle cx="30" cy="15" r="9.4" fill="url(#vwDial)"/><g class="vw-idx">${[0,1,2,3,4,5,6,7,8,9,10,11].map(h => { const a = h * 30 * Math.PI / 180, r1 = h % 3 ? 7.4 : 6.6, r2 = 8.6; return `<line x1="${(30 + Math.sin(a) * r1).toFixed(2)}" y1="${(15 - Math.cos(a) * r1).toFixed(2)}" x2="${(30 + Math.sin(a) * r2).toFixed(2)}" y2="${(15 - Math.cos(a) * r2).toFixed(2)}" stroke-width="${h % 3 ? .7 : 1.2}"/>`; }).join("")}</g><g class="vw-lume">${[1,2,4,5,7,8,10,11].map(h => { const a = h * 30 * Math.PI / 180; return `<circle cx="${(30 + Math.sin(a) * 8.9).toFixed(2)}" cy="${(15 - Math.cos(a) * 8.9).toFixed(2)}" r=".45"/>`; }).join("")}</g><g class="vw-hands"><line x1="30" y1="15" x2="25.6" y2="11.6" class="vw-h" stroke-width="1.3"/><line x1="30" y1="15" x2="34.6" y2="8.4" class="vw-h" stroke-width="1"/><line x1="30" y1="17.2" x2="30" y2="7.2" stroke="#c0392b" stroke-width=".45"/><circle cx="30" cy="15" r=".9" fill="#c9a24a"/></g><ellipse cx="26.5" cy="10.5" rx="5.5" ry="3" fill="#fff" opacity=".28"/></g></svg>`; });
+// Zifferblatt im Vintage-Knopf: modernes Blatt (aus) und Vintage-Blatt (an); beim Umschalten deckt der Sekundenzeiger das neue Blatt im Kreis auf
+let VDID = 0;
+function vdialSVG(on) {
+  const id = "vd" + (++VDID), P = (a, r) => [(30 + Math.sin(a * Math.PI / 180) * r).toFixed(2), (15 - Math.cos(a * Math.PI / 180) * r).toFixed(2)];
+  const ln = (a, r1, r2, w, c) => { const [x1, y1] = P(a, r1), [x2, y2] = P(a, r2); return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c}" stroke-width="${w}"/>`; };
+  const H = [...Array(12).keys()];
+  const modern = H.map(h => h === 0 ? ln(-6, 8, 11, 1.3, "#f2f5f8") + ln(6, 8, 11, 1.3, "#f2f5f8") : ln(h * 30, h % 3 ? 8.6 : 7.8, 11, h % 3 ? 1.1 : 1.6, "#f2f5f8")).join("");
+  const mlume = `<g class="vd-lume">${H.map(h => { const [x, y] = P(h * 30, 11.7); return `<circle cx="${x}" cy="${y}" r=".55" fill="#e8fff2"/>`; }).join("")}</g>`;
+  const track = [...Array(60).keys()].map(m => m % 5 ? ln(m * 6, 11.6, 12.3, .25, "#7d6a45") : "").join("");
+  const vint = H.map(h => ln(h * 30, h % 3 ? 8.8 : 8, 11, h % 3 ? .9 : 1.4, "url(#" + id + "g)")).join("");
+  return `<svg class="vdial" viewBox="15.5 0.5 29 29" aria-hidden="true"><defs>
+    <radialGradient id="${id}m" cx="45%" cy="35%" r="75%"><stop offset="0" stop-color="#2f4f86"/><stop offset=".6" stop-color="#17294a"/><stop offset="1" stop-color="#0a1428"/></radialGradient>
+    <radialGradient id="${id}v" cx="42%" cy="35%" r="75%"><stop offset="0" stop-color="#fbf1d8"/><stop offset=".7" stop-color="#ecdcb4"/><stop offset="1" stop-color="#d2bb88"/></radialGradient>
+    <linearGradient id="${id}g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4e2a8"/><stop offset="1" stop-color="#a47c2c"/></linearGradient>
+    <linearGradient id="${id}b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f8fa"/><stop offset=".5" stop-color="#9aa3ad"/><stop offset="1" stop-color="#e4e8ec"/></linearGradient>
+    <mask id="${id}k"><path class="vd-mask" fill="#fff" d="${on ? "M30 15m-14 0a14 14 0 1 0 28 0a14 14 0 1 0 -28 0" : ""}"/></mask></defs>
+    <circle cx="30" cy="15" r="13.9" fill="url(#${id}b)"/>
+    <g><circle cx="30" cy="15" r="12.8" fill="url(#${id}m)"/>${modern}${mlume}${[...Array(36).keys()].map(k => ln(k * 10, 2, 12.6, .12, "rgba(255,255,255,.08)")).join("")}</g>
+    <g mask="url(#${id}k)"><circle cx="30" cy="15" r="12.8" fill="url(#${id}v)"/>${track}${vint}<text x="30" y="10.6" text-anchor="middle" font-size="2.1" font-family="Jost, sans-serif" font-weight="600" fill="#3a3024" letter-spacing=".15">1962</text><circle cx="30" cy="15" r="12.8" fill="none" stroke="rgba(120,90,40,.25)" stroke-width=".6"/></g>
+    <g class="vd-hands"><line class="vd-h" x1="30" y1="15" x2="${P(300, 6.6).join('" y2="')}" stroke-width="1.6"/><line class="vd-hl" x1="${P(300, 2.2).join('" y1="')}" x2="${P(300, 5.8).join('" y2="')}" stroke-width=".6"/><line class="vd-h" x1="30" y1="15" x2="${P(60, 10).join('" y2="')}" stroke-width="1.2"/><line class="vd-hl" x1="${P(60, 2.4).join('" y1="')}" x2="${P(60, 9).join('" y2="')}" stroke-width=".45"/></g>
+    <g class="vd-sec" style="transform-origin:30px 15px;transform-box:view-box"><line x1="30" y1="18" x2="30" y2="3" stroke="#d43a2c" stroke-width=".45"/><circle cx="30" cy="15" r=".95" class="vd-cap"/></g>
+    <ellipse cx="25.5" cy="9.5" rx="6.5" ry="3.2" fill="#fff" opacity=".16"/></svg>`;
+}
+// Kreissektor 0..a (Grad, im Uhrzeigersinn ab 12 Uhr) als Maske des Vintage-Blatts
+const vdPie = a => { if (a <= 0) return ""; if (a >= 360) return "M30 15m-14 0a14 14 0 1 0 28 0a14 14 0 1 0 -28 0"; const r = 14, x = 30 + Math.sin(a * Math.PI / 180) * r, y = 15 - Math.cos(a * Math.PI / 180) * r; return `M30 15L30 1A${r} ${r} 0 ${a > 180 ? 1 : 0} 1 ${x.toFixed(2)} ${y.toFixed(2)}Z`; };
+function vdialAnim(svg, on) {
+  const mask = svg.querySelector(".vd-mask"), sec = svg.querySelector(".vd-sec"), hands = svg.querySelector(".vd-hands");
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) { mask.setAttribute("d", vdPie(on ? 360 : 0)); return; }
+  const t0 = performance.now(), D = 950, ease = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+  const step = now => { const t = Math.min(1, (now - t0) / D), e = ease(t), a = on ? e * 360 : 360 - e * 360;
+    mask.setAttribute("d", vdPie(a)); sec.style.transform = `rotate(${on ? a : a - 360}deg)`; hands.style.transform = `rotate(${(on ? e : -e) * 360}deg)`;
+    if (t < 1) requestAnimationFrame(step); else { sec.style.transform = ""; hands.style.transform = ""; } };
+  requestAnimationFrame(step);
+}
+document.querySelectorAll("#vintbtn .vwbox").forEach(x => { x.outerHTML = vdialSVG(VINTAGE); });
 document.getElementById("vintbtn").setAttribute("aria-pressed", VINTAGE);
 document.querySelector("#vintbtn .nl").textContent = VINTAGE ? "Heute-Modus" : "Vintage-Modus";
 document.getElementById("vintbtn").addEventListener("click", () => setVintage(!VINTAGE));
@@ -3087,7 +3119,7 @@ function mpInfo(f, p) { const n = ["Neumond", "Zunehmende Sichel", "Erstes Viert
     inp.addEventListener("keydown", ev => { if (ev.key !== "Enter") return; ev.preventDefault(); const id = bestMatch(inp.value); close(); if (id) { freshNav = true; location.hash = id; } else { const first = document.querySelector("#view .card"); if (first) { freshNav = true; location.href = first.getAttribute("href"); } } inp.blur(); });
     if (inp.value) { g.classList.add("msopen"); b.setAttribute("aria-expanded", "true"); }
   }
-  function fill() { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; addSearch(); const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; }, 0); const mg = nb.querySelector(".mp-moons"); if (mg && mg.animate && !matchMedia("(prefers-reduced-motion: reduce)").matches) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 850, easing: "cubic-bezier(.7,0,.25,1)" }); }); panel.querySelector(".mininight").append(nb); const vb = $("#vintbtn").cloneNode(true); vb.id = ""; vb.addEventListener("click", ev => { ev.stopPropagation(); setVintage(!VINTAGE); }); panel.querySelector(".mininight").append(vb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); }
+  function fill() { panel.innerHTML = $("#nav").innerHTML + `<div class="mininight"></div>`; addSearch(); const nb = $("#nightbtn").cloneNode(true); nb.id = ""; nb.addEventListener("click", ev => { ev.stopPropagation(); $("#nightbtn").click(); setTimeout(() => { const m = $("#nightbtn"); nb.setAttribute("aria-pressed", m.getAttribute("aria-pressed")); nb.querySelector(".nl").textContent = m.querySelector(".nl").textContent; }, 0); const mg = nb.querySelector(".mp-moons"); if (mg && mg.animate && !matchMedia("(prefers-reduced-motion: reduce)").matches) mg.animate([{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }], { duration: 850, easing: "cubic-bezier(.7,0,.25,1)" }); }); panel.querySelector(".mininight").append(nb); const vb = $("#vintbtn").cloneNode(true); vb.id = ""; const vs = vb.querySelector(".vdial"); if (vs) vs.outerHTML = vdialSVG(VINTAGE); vb.addEventListener("click", ev => { ev.stopPropagation(); setVintage(!VINTAGE); }); panel.querySelector(".mininight").append(vb); const ac = document.querySelector(".accent-switch").cloneNode(true); ac.removeAttribute("id"); panel.querySelector(".mininight").append(ac); }
   // Link im Menü: sofort öffnen (nicht erst nur das Menü schließen)
   panel.addEventListener("click", ev => { const a = ev.target.closest("a[href^='#']"); if (!a) return; ev.preventDefault(); close(); freshNav = true; location.hash = a.getAttribute("href").slice(1); });
   // Tipp neben das offene Menü: auf dem Smartphone nur Menü schließen, am PC zusätzlich den Klick ausführen
