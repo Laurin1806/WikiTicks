@@ -32835,5 +32835,107 @@
    0.872,
    0.0187
   ]
- }
+ },
+ "referenzen": [
+  {
+   "id": "submariner-5513",
+   "model": "submariner",
+   "ref": "5513",
+   "var": 3,
+   "t": "Rolex Submariner Ref. 5513",
+   "bau": "1962–1989",
+   "cap": "mit mattem Zifferblatt und gealterter Tritium-Leuchtmasse",
+   "s": "Die Submariner ohne Datum und ohne Chronometerzertifikat, fast drei Jahrzehnte lang kaum verändert gebaut: für viele Sammler die reinste Form der Taucheruhr.",
+   "bh": [
+    "Die Submariner für den Alltag",
+    "Gehäuse, Lünette und Glas",
+    "Das Werk",
+    "Zifferblätter: ein Lehrstück für Sammler",
+    "Im Dienst: Marine, COMEX und James Bond",
+    "Das Ende einer Ära"
+   ],
+   "b": [
+    "Als Rolex 1962 die Referenz 5513 vorstellte, gab es die Submariner bereits in ihrer reifen Form: Die 5512 von 1959 hatte das 40-Millimeter-Gehäuse mit Kronenschutz eingeführt und trug als erste Submariner ein Chronometerzertifikat. Die 5513 übernahm Gehäuse, Lünette und Zifferblattbild, verzichtete aber auf das Zertifikat und bekam ein etwas einfacheres Werk. Damit war sie günstiger und wurde zur Submariner, die man tatsächlich tauchen ging: bei Marinen, Berufstauchern und Sportlern, denen ein amtliches Gangzeugnis weniger wichtig war als eine robuste Uhr am Handgelenk.",
+    "Das Edelstahlgehäuse misst 40 Millimeter und folgt dem Oyster-Prinzip: Boden und Krone werden verschraubt, die Krone sitzt zwischen zwei Schutzflanken. Anfangs dichtete eine Twinlock-Krone mit zwei Dichtzonen, ab den 1970er-Jahren die Triplock-Krone mit drei. Die Uhr war bis 200 Meter wasserdicht, auf dem Zifferblatt als 660 ft = 200 m angegeben. Über dem Zifferblatt wölbt sich ein hohes Acrylglas, das Licht weich bricht und der 5513 ihren warmen, etwas altmodischen Blick gibt. Die schwarze Aluminiumeinlage der Lünette lässt sich in beide Richtungen drehen; die einseitig rastende Lünette kam erst bei späteren Submariner-Generationen.",
+    "Im Inneren arbeitete zunächst das Automatikkaliber 1530, später das Kaliber 1520. Beide gehören zur Werkfamilie, die Rolex in den späten 1950er-Jahren einführte, und unterscheiden sich von den Chronometerwerken der 5512 vor allem in der Feinregulierung und Zertifizierung, nicht im Grundaufbau. Eine Datumsanzeige hat die 5513 nie gehabt, und gerade das macht für viele ihren Reiz aus: ein symmetrisches Zifferblatt ohne Fenster und ohne Lupe, nur Stunden, Minuten und Sekunden.",
+    "Weil die 5513 so lange gebaut wurde, zeigt sie wie kaum eine andere Uhr, wie sich ein Zifferblatt über die Jahrzehnte verändert. Die frühen Exemplare tragen glänzende »Gilt«-Zifferblätter mit goldfarbener Schrift und Radium-, ab etwa 1963 Tritium-Leuchtmasse. Ab etwa 1967 folgten matte Zifferblätter mit weißer Schrift, zuerst mit der Tiefenangabe in Metern vorn (»Meters First«), später mit den Fuß vorn (»Feet First«), wie bei dem abgebildeten Exemplar. Gegen Ende der 1970er-Jahre gab es Zifferblätter mit besonders großen Leuchtpunkten, unter Sammlern »Maxi« genannt, und ab Mitte der 1980er-Jahre glänzende Lackzifferblätter, deren Indizes in Weißgold gefasst sind. Die cremefarbene bis bräunliche Patina gealterter Tritium-Leuchtmasse macht heute jedes Exemplar ein wenig einzigartig.",
+    "Die 5513 war eine Arbeitsuhr. Für die britische Royal Navy entstanden ab Anfang der 1970er-Jahre Sonderausführungen mit Schwertzeigern, einer bis 60 durchgehend geteilten Lünette und fest verlöteten Bandstegen, die auch an einem Nylonband nicht verloren gehen konnten; später erhielten diese Militär-Submariner die eigene Referenz 5517. Die französische Taucherfirma COMEX ließ sich ebenfalls Submariner mit ihrem Firmenzeichen auf dem Zifferblatt liefern. Ins Kino kam die 5513 1973 mit Roger Moore in »Leben und sterben lassen«: Als James Bond trug er eine umgebaute 5513, deren Lünette als Kreissäge diente und die einen starken Magneten enthielt.",
+    "Nach rund 27 Jahren endete die Produktion Ende der 1980er-Jahre. Ihre Nachfolgerin, die Referenz 14060 von 1990, brachte Saphirglas und 300 Meter Wasserdichtigkeit, sah aber auf den ersten Blick fast genauso aus. Gerade deshalb gilt die 5513 vielen Sammlern als Maßstab: Sie verbindet das klassische Bild der Submariner mit dem Charme von Acrylglas, Aluminiumlünette und gealterter Leuchtmasse, und sie ist dabei noch eine Uhr, die man ohne schlechtes Gewissen tragen kann."
+   ],
+   "m": [
+    "40 mm Edelstahlgehäuse mit Kronenschutz",
+    "Kein Datum, keine Zykloplupe",
+    "Zifferblatt ohne Chronometer-Aufschrift: nur »Oyster Perpetual«, »Submariner« und die Tiefenangabe 660 ft = 200 m",
+    "Hoch gewölbtes Acrylglas",
+    "Beidseitig drehbare Lünette mit Aluminiumeinlage und Leuchtpunkt im Dreieck",
+    "Mercedes-Stundenzeiger"
+   ],
+   "ev": [
+    [
+     "1962",
+     "Vorstellung als Submariner ohne Datum und ohne Chronometerzertifikat"
+    ],
+    [
+     "um 1967",
+     "Matte Zifferblätter lösen die glänzenden »Gilt«-Zifferblätter ab"
+    ],
+    [
+     "1970er",
+     "Triplock-Krone; Sonderausführungen für die Royal Navy"
+    ],
+    [
+     "1973",
+     "Roger Moore trägt eine umgebaute 5513 in »Leben und sterben lassen«"
+    ],
+    [
+     "Mitte 1980er",
+     "Glänzende Lackzifferblätter mit in Weißgold gefassten Indizes"
+    ],
+    [
+     "1989",
+     "Ende der Produktion; 1990 folgt die Ref. 14060 mit Saphirglas"
+    ]
+   ],
+   "x": [
+    "Entscheidend für den Wert sind originale Teile: Zifferblatt, Zeiger und Lünetteneinlage sollten zueinander und zum Baujahr passen. Bei Revisionen eingesetzte Servicezifferblätter und -zeiger mit frischer Leuchtmasse senken den Wert deutlich.",
+    "Zeiger und Indizes sollten eine ähnlich gealterte Leuchtmasse haben. Ein auffälliger Farbunterschied deutet auf ausgetauschte Teile hin.",
+    "Verblasste Lünetteneinlagen, die sich von Schwarz zu Grau oder Blau verfärbt haben, heißen unter Sammlern »Ghost« und sind bei manchen Käufern ausdrücklich gesucht.",
+    "Militär-Submariner und COMEX-Ausführungen werden häufig gefälscht. Hier sind Herkunftsnachweise und eine Prüfung durch Fachleute unerlässlich."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1962–1989"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl, Kronenschutz"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "1530, später 1520, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Glas",
+     "gewölbtes Acrylglas"
+    ],
+    [
+     "Lünette",
+     "beidseitig drehbar, Aluminiumeinlage"
+    ],
+    [
+     "Nachfolger",
+     "Ref. 14060 (1990)"
+    ]
+   ]
+  }
+ ]
 }
