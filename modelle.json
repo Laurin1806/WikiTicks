@@ -37373,6 +37373,99 @@
      "c": "Zeniths Pilot Type 20 griff in den 2010er-Jahren ebenfalls die Gestaltung historischer Fliegeruhren auf."
     }
    ]
+  },
+  {
+   "id": "calatrava-6119",
+   "model": "calatrava",
+   "ref": "6119",
+   "alias": [
+    "6119G-001",
+    "6119G",
+    "6119R"
+   ],
+   "var": null,
+   "t": "Patek Philippe Calatrava Ref. 6119",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Fast neunzig Jahre nach der Referenz 96 bekam die Calatrava eine neue Hauptfigur: drei Millimeter größer als die Vorgängerin, mit neuem Handaufzugswerk und der Clous-de-Paris-Lünette, die seit 1985 zur Linie gehört.",
+   "bh": [
+    "Nachfolgerin der 5119",
+    "Gehäuse und Lünette",
+    "Ein neues Werk mit zwei Federhäusern",
+    "Die Calatrava von heute"
+   ],
+   "b": [
+    "2021 löste Patek Philippe die Referenz 5119 ab, die seit 2006 mit 36 Millimetern das klassische Gesicht der Calatrava gewesen war. Die neue Referenz 6119 wuchs auf 39 Millimeter und kam damit dem heutigen Geschmack entgegen, ohne den Charakter der schlichten Dresswatch aufzugeben. Es gibt sie in Weißgold (6119G) und Roségold (6119R).",
+    "Wie schon die 3919 und die 5119 trägt die 6119 eine Lünette mit Clous-de-Paris-Muster, einem feinen Pyramidenmuster, das bei der 6119 schmaler ausfällt als bei den Vorgängerinnen. Das Zifferblatt bleibt aufgeräumt: aufgesetzte Stabindizes mit doppeltem Index bei 12 Uhr, schlanke Zeiger und eine kleine Sekunde bei 6 Uhr, aber kein Datum.",
+    "Im Inneren arbeitet das neu entwickelte Handaufzugskaliber 30-255 PS. Es hat zwei parallel arbeitende Federhäuser und kommt so auf rund 65 Stunden Gangreserve – deutlich mehr als das Kaliber 215 PS der 5119. Durch den Saphirglasboden ist das Werk zu sehen.",
+    "Die 6119 ist die Referenz, die Patek Philippe heute als Inbegriff der Calatrava anbietet: eine runde Golduhr mit Handaufzug, wenigen Anzeigen und sorgfältiger Verarbeitung. Damit steht sie in der direkten Linie der Referenz 96 von 1932, auch wenn sie größer und technisch moderner ist."
+   ],
+   "vh": [
+    [
+     "Weißgold: Ref. 6119G",
+     "Die abgebildete Ausführung 6119G-001 kombiniert das Weißgoldgehäuse mit einem hellen, grauen Zifferblatt und schwarzem Lederband."
+    ],
+    [
+     "Roségold: Ref. 6119R",
+     "Die Roségoldversion erschien gleichzeitig und hat ein helles Zifferblatt mit goldfarbenen Indizes und Zeigern."
+    ]
+   ],
+   "m": [
+    "39 mm, Weiß- oder Roségold",
+    "Lünette mit Clous-de-Paris-Muster",
+    "Kleine Sekunde bei 6 Uhr, kein Datum",
+    "Doppelter Index bei 12 Uhr"
+   ],
+   "ev": [
+    [
+     "2021",
+     "Vorstellung der Ref. 6119 als Nachfolgerin der 5119"
+    ]
+   ],
+   "x": [
+    "Die 6119 ist eine aktuelle Referenz; wer eine gebrauchte kauft, sollte auf vollständige Papiere und die Originalschließe achten.",
+    "Wer eine kleinere Calatrava mit Clous-de-Paris-Lünette sucht, findet sie in den Vorgängerinnen 5119 (36 mm) und 3919 (33 mm)."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Weiß- oder Roségold, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "30-255 PS, Handaufzug, ≈ 65 Stunden Gangreserve"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ],
+    [
+     "Vorgänger",
+     "5119"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "perpetual-1908",
+     "c": "Mit der Perpetual 1908 stellte auch Rolex wenig später eine schlanke Golduhr im klassischen Dresswatch-Stil vor."
+    },
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony ist die naheliegende Konkurrentin: rund, flach, in Gold und bewusst schlicht."
+    },
+    {
+     "m": "saxonia",
+     "c": "Die Saxonia von A. Lange & Söhne vertritt dieselbe Idee der reduzierten Golduhr aus deutscher Sicht."
+    }
+   ]
   }
  ]
 }
