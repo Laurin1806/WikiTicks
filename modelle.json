@@ -50292,6 +50292,87 @@
      "c": "Die Piaget Polo steht wie die Pasha für die glänzende Luxusuhr der 1980er-Jahre."
     }
    ]
+  },
+  {
+   "id": "polaris-q9008170",
+   "model": "polaris",
+   "ref": "Q9008170",
+   "alias": [
+    "Q9008170"
+   ],
+   "var": null,
+   "t": "Jaeger-LeCoultre Polaris Ref. Q9008170",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Die Polaris von 2018 als einfacher Dreizeiger: eine Sportuhr mit Innendrehring, zweiter Krone und einem Zifferblatt in Zonen, das an die Memovox Polaris der 1960er-Jahre erinnert.",
+   "bh": [
+    "Vom Taucherwecker zur Sportlinie",
+    "Gehäuse und Zifferblatt",
+    "Innendrehring und Werk",
+    "Stellung im Programm"
+   ],
+   "b": [
+    "Die erste Polaris war die Memovox Polaris (Ref. E859), eine Taucheruhr mit Wecker, von der bis 1971 nur 1.714 Exemplare entstanden. 2018 machte Jaeger-LeCoultre den Namen zu einer eigenen Sportuhren-Linie. Die Referenz Q9008170 ist die Polaris Automatic aus Edelstahl mit schwarzem Zifferblatt und Gliederband.",
+    "Das runde Stahlgehäuse misst 41 Millimeter. Das schwarze Zifferblatt ist in Zonen mit unterschiedlicher Oberfläche gegliedert; die arabischen Ziffern 12, 3, 6 und 9 und die trapezförmigen Indizes tragen helle Leuchtmasse, die Zeiger sind schwertförmig.",
+    "Wie beim Vorbild liegt der Drehring mit den Zahlen 15, 30 und 45 unter dem Glas und wird über die obere der beiden Kronen verstellt. Im Inneren arbeitet ein Automatikkaliber auf Basis des Jaeger-LeCoultre-Kalibers 898. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Die Polaris Automatic ist der Einstieg in die Linie, zu der auch Chronographen und eine neue Memovox mit Wecker gehören. Sie ist die sportliche Uhr im Programm von Jaeger-LeCoultre, neben der klassischen Master Control und der Reverso."
+   ],
+   "m": [
+    "41-mm-Stahlgehäuse mit zwei Kronen",
+    "Innen liegender Drehring",
+    "Zifferblatt in Zonen, Ziffern 12, 3, 6 und 9",
+    "Trapezförmige Indizes mit Leuchtmasse"
+   ],
+   "ev": [
+    [
+     "1965",
+     "Memovox Polaris (E859) als Vorbild"
+    ],
+    [
+     "2018",
+     "Neue Polaris-Linie mit Ref. Q9008170"
+    ]
+   ],
+   "x": [
+    "Der Innendrehring lässt sich nur über die Krone verstellen und dadurch kaum versehentlich verdrehen.",
+    "Die moderne Polaris ist eine gut erhältliche Alltagsuhr; die Wertentwicklung der seltenen Memovox Polaris lässt sich nicht auf sie übertragen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "Automatik, Basis 898"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Innendrehring"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay-gmt",
+     "c": "Tudor brachte 2018 mit der Black Bay GMT eine andere Sportuhr mit Bezug zur eigenen Geschichte."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle von 2019 gehört zu den neuen Stahl-Sportuhren derselben Jahre."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Omegas Seamaster 300 greift wie die Polaris eine Taucheruhr der 1950er- und 1960er-Jahre auf."
+    }
+   ]
   }
  ]
 }
