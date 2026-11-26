@@ -12092,7 +12092,23 @@
    ],
    "dial": "Schwarz",
    "iref": "234.30.41.21.01.001",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "var": [
+    {
+     "n": "Ref. CK2913",
+     "y": "1957–1960er",
+     "v": {
+      "img": "assets/watches/omega-seamaster-300-ck2913.jpg"
+     },
+     "dial": "Schwarz",
+     "iref": "CK2913",
+     "irefs": "mittel",
+     "bd": [
+      "Die Abbildung zeigt eine frühe Omega Seamaster 300 aus Edelstahl mit drehbarer Lünette und schwarzer Einlage, wie sie Omega ab 1957 als Teil der Profi-Trilogie baute. Gehäuse und Band tragen deutliche Gebrauchsspuren.",
+      "Zu erkennen sind das schwarze Zifferblatt mit dreieckigen Leuchtindizes, die Ziffern 12, 3, 6 und 9, die breiten Pfeilzeiger (»Broad Arrow«), der Sekundenzeiger mit Leuchtpunkt und die Aufschriften »OMEGA AUTOMATIC« und »Seamaster 300«. Die Leuchtmasse ist zu einem warmen Beige bis Orange gealtert; auf der Lünette sitzt bei 12 Uhr ein Leuchtpunkt in einer Fassung."
+     ]
+    }
+   ]
   },
   {
    "id": "ballon-bleu",
@@ -31650,7 +31666,8 @@
   "rolex-datejust-1601-cream.jpg": "n",
   "tissot-visodate-1953.jpg": "n",
   "rolex-air-king-5500.jpg": "v",
-  "rolex-oyster-perpetual-bubbleback.jpg": "n"
+  "rolex-oyster-perpetual-bubbleback.jpg": "n",
+  "omega-seamaster-300-ck2913.jpg": "v"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -31666,6 +31683,7 @@
   "audemars-piguet-code-11-59-15210.jpg": 1050,
   "audemars-piguet-millenary-open-balance.jpg": 1152,
   "audemars-piguet-royal-oak-15510st-blue.jpg": 1036,
+  "audemars-piguet-royal-oak-5402-blue.jpg": 1024,
   "audemars-piguet-royal-oak-chronograph-26240st-blue.jpg": 1083,
   "audemars-piguet-royal-oak-concept.jpg": 1032,
   "audemars-piguet-royal-oak-offshore-26420-chronograph.jpg": 1072,
@@ -31758,6 +31776,7 @@
   "jaeger-lecoultre-master-control-calendar.jpg": 352,
   "jaeger-lecoultre-polaris-date.jpg": 247,
   "jaeger-lecoultre-reverso-classic.jpg": 181,
+  "jaeger-lecoultre-reverso-turned.jpg": 543,
   "junghans-max-bill.jpg": 374,
   "junghans-mega.jpg": 374,
   "junghans-meister.jpg": 374,
@@ -31767,6 +31786,7 @@
   "longines-flagship-heritage.jpg": 756,
   "longines-hydroconquest-blue.jpg": 907,
   "longines-legend-diver.jpg": 374,
+  "longines-master-collection-moonphase.jpg": 1139,
   "longines-master-collection.jpg": 756,
   "longines-spirit.jpg": 374,
   "nomos-ludwig.jpg": 756,
@@ -31779,6 +31799,7 @@
   "omega-flightmaster-vintage.jpg": 373,
   "omega-railmaster-220-10-40-20.jpg": 1017,
   "omega-seamaster-300-234-30-41-21.jpg": 1036,
+  "omega-seamaster-300-ck2913.jpg": 768,
   "omega-seamaster-aqua-terra-220-10-41-21.jpg": 1037,
   "omega-seamaster-diver-300m-210-30-42-20.jpg": 1068,
   "omega-seamaster-planet-ocean-215-30-44-21.jpg": 1107,
@@ -31804,6 +31825,7 @@
   "patek-philippe-calatrava-96.jpg": 953,
   "patek-philippe-calatrava-yellow-gold.jpg": 389,
   "patek-philippe-golden-ellipse.jpg": 889,
+  "patek-philippe-nautilus-3700-1a.jpg": 543,
   "patek-philippe-nautilus-3800-1a-blue.jpg": 1016,
   "patek-philippe-nautilus-5711-1a-tiffany-blue.jpg": 1068,
   "patek-philippe-nautilus-5711-1a-white.jpg": 1012,
@@ -31820,10 +31842,12 @@
   "rado-diastar.jpg": 374,
   "rado-true.jpg": 374,
   "rolex-air-king-126900-black.jpg": 1016,
+  "rolex-air-king-5500.jpg": 768,
   "rolex-cellini-time-cream-dial.jpg": 468,
   "rolex-datejust-126233-steel-gold-champagne.jpg": 990,
   "rolex-datejust-126234-blue.jpg": 1000,
   "rolex-datejust-1601-black.jpg": 677,
+  "rolex-datejust-1601-cream.jpg": 543,
   "rolex-day-date-1803-yellow-gold.jpg": 680,
   "rolex-day-date-228238-champagne.jpg": 998,
   "rolex-day-date-platinum-ice-blue.jpg": 1007,
@@ -31847,6 +31871,7 @@
   "rolex-oyster-perpetual-124300-coral-red.jpg": 1020,
   "rolex-oyster-perpetual-124300-turquoise.jpg": 983,
   "rolex-oyster-perpetual-124300-yellow.jpg": 1020,
+  "rolex-oyster-perpetual-bubbleback.jpg": 1103,
   "rolex-oysterquartz-datejust-17000.jpg": 294,
   "rolex-perpetual-1908-52508.jpg": 1032,
   "rolex-perpetual-1908-52509.jpg": 1034,
@@ -31858,6 +31883,7 @@
   "rolex-submariner-116619lb-smurf.jpg": 736,
   "rolex-submariner-126610ln.jpg": 1080,
   "rolex-submariner-1680-red.jpg": 679,
+  "rolex-submariner-5513.jpg": 548,
   "rolex-turn-o-graph-116264-black.jpg": 484,
   "rolex-yacht-master-126622-slate.jpg": 1057,
   "rolex-yacht-master-ii-116680.jpg": 1081,
@@ -31893,6 +31919,7 @@
   "tissot-prx.jpg": 336,
   "tissot-seastar.jpg": 374,
   "tissot-t-touch.jpg": 374,
+  "tissot-visodate-1953.jpg": 543,
   "tissot-visodate.jpg": 502,
   "tudor-1926.jpg": 756,
   "tudor-black-bay-54-m79000n.jpg": 452,
@@ -31912,22 +31939,13 @@
   "vacheron-constantin-overseas.jpg": 238,
   "vacheron-constantin-patrimony-81180.jpg": 341,
   "vacheron-constantin-traditionnelle-chronograph.jpg": 366,
+  "vacheron-constantin-vintage-small-seconds.jpg": 543,
   "vacheron-historiques-222.jpg": 332,
   "zenith-chronomaster.jpg": 244,
   "zenith-defy.jpg": 341,
   "zenith-elite.jpg": 374,
   "zenith-pilot-type-20.jpg": 756,
-  "zodiac-sea-wolf.jpg": 502,
-  "jaeger-lecoultre-reverso-turned.jpg": 543,
-  "vacheron-constantin-vintage-small-seconds.jpg": 543,
-  "longines-master-collection-moonphase.jpg": 1139,
-  "rolex-submariner-5513.jpg": 543,
-  "patek-philippe-nautilus-3700-1a.jpg": 543,
-  "rolex-datejust-1601-cream.jpg": 543,
-  "tissot-visodate-1953.jpg": 543,
-  "rolex-air-king-5500.jpg": 768,
-  "rolex-oyster-perpetual-bubbleback.jpg": 1103,
-  "audemars-piguet-royal-oak-5402-blue.jpg": 1024
+  "zodiac-sea-wolf.jpg": 502
  },
  "imgFit": {
   "rolex-submariner-126610ln.jpg": [
@@ -32845,6 +32863,10 @@
   "tissot-visodate.jpg": [
    0.872,
    0.0187
+  ],
+  "omega-seamaster-300-ck2913.jpg": [
+   0.814,
+   -0.01
   ]
  },
  "referenzen": [
@@ -51443,7 +51465,7 @@
    "alias": [
     "CK 2913"
    ],
-   "var": null,
+   "var": 0,
    "t": "Omega Seamaster 300 Ref. CK2913",
    "bau": "1957–1960er",
    "cap": "",
@@ -51458,7 +51480,7 @@
     "1957 stellte Omega drei Uhren für Profis vor, die heute als »Trilogie« gelten: die Speedmaster für Rennfahrer, die Railmaster für Techniker in starken Magnetfeldern und die Seamaster 300 für Taucher. Die Referenz CK2913 ist die erste Seamaster 300 und die Antwort auf die Taucheruhren, die Rolex und Blancpain wenige Jahre zuvor vorgestellt hatten.",
     "Das Edelstahlgehäuse misst rund 39 Millimeter, die drehbare Lünette trägt eine Minutenskala für die Tauchzeit. Kennzeichen sind die breiten Pfeilzeiger (»Broad Arrow«), die auch Speedmaster und Railmaster dieser Jahre trugen, und große Leuchtindizes auf dem schwarzen Zifferblatt.",
     "Im Inneren arbeitete ein Automatikwerk aus der Familie der Omega-Kaliber 500, zunächst das Kaliber 501, später das 552. Damit war die Seamaster 300 eine robuste, alltagstaugliche Taucheruhr mit einem bewährten Werk.",
-    "In den 1960er-Jahren folgten Nachfolger mit größerem Gehäuse, etwa die Referenz 165.024, die auch Taucher der britischen Marine trugen. Seit 2014 gibt es die Seamaster 300 wieder als Neuauflage im Stil der frühen Modelle; die hier gezeigte Abbildung ist die heutige Ausführung von 2021, denn ein Bild der CK2913 haben wir noch nicht."
+    "In den 1960er-Jahren folgten Nachfolger mit größerem Gehäuse, etwa die Referenz 165.024, die auch Taucher der britischen Marine trugen. Seit 2014 gibt es die Seamaster 300 wieder als Neuauflage im Stil der frühen Modelle."
    ],
    "vh": [
     [

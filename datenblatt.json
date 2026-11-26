@@ -6119,6 +6119,19 @@
    "luenette": "achteckig, mit acht sechseckigen Schrauben",
    "band": "integriertes Edelstahlband",
    "zifferblatt_optionen": "Blau (»Petite Tapisserie«)"
+  },
+  "seamaster-300|0": {
+   "ref": "CK2913",
+   "produktion": "1957–1960er",
+   "durchmesser": "39 mm",
+   "gehaeuse": "Edelstahl",
+   "werk": "Kaliber 501, später 552",
+   "werktyp": "Automatik",
+   "manufaktur": "Manufakturwerk",
+   "funktionen": "Stunden, Minuten, Sekunden",
+   "luenette": "drehbar, 60 Minuten",
+   "band": "Edelstahlband",
+   "zifferblatt_optionen": "Schwarz, gealterte Leuchtmasse"
   }
  },
  "_refs": {
