@@ -43637,6 +43637,87 @@
      "c": "Die Citizen Promaster Diver ist eine robuste, preiswerte Taucheruhr derselben Zeit."
     }
    ]
+  },
+  {
+   "id": "tissot-visodate-t019-430",
+   "model": "tissot-visodate",
+   "ref": "T019.430.16.031.01",
+   "alias": [
+    "T019.430"
+   ],
+   "var": null,
+   "t": "Tissot Visodate Ref. T019.430.16.031.01",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Die Heritage Visodate holt die Datumsuhr von 1953 in die Gegenwart: silbernes Zifferblatt, »Visodate« in Schreibschrift und ein Lederband wie aus den 1950er-Jahren.",
+   "bh": [
+    "Das Vorbild von 1953",
+    "Gestaltung",
+    "Werk und Ausstattung",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "1953 stellte Tissot die Visodate vor, eine Automatikuhr mit Datumsanzeige, die zu den bekanntesten Uhren der Marke wurde. Mit der Heritage Visodate legte Tissot sie in den 2010er-Jahren neu auf. Die Referenz T019.430.16.031.01 ist die Ausführung mit silberfarbenem Zifferblatt und braunem Lederband.",
+    "Die Gestaltung folgt den 1950er-Jahren: rundes Edelstahlgehäuse mit schmaler Lünette, aufgesetzte Stabindizes, schlanke Stabzeiger und ein doppelter Index bei 12 Uhr. Unter »TISSOT 1853« steht »Visodate« in Schreibschrift, darunter »AUTOMATIC«. Das Datum erscheint in einem gerahmten Fenster bei 3 Uhr.",
+    "Im Inneren arbeitet ein Automatikwerk. Der schlanke Sekundenzeiger reicht bis zum fein unterteilten Minutenkreis, das braune Lederband mit Krokodilprägung und heller Naht unterstreicht den klassischen Charakter.",
+    "Die Heritage Visodate ist eine günstige Möglichkeit, eine Uhr im Stil der 1950er-Jahre zu tragen, ohne sich um ein altes Werk kümmern zu müssen. Sie zeigt, wie Tissot seine Geschichte für heutige Käufer aufbereitet."
+   ],
+   "m": [
+    "Silbernes Zifferblatt mit aufgesetzten Stabindizes",
+    "»Visodate« in Schreibschrift, darunter »AUTOMATIC«",
+    "Doppelter Index bei 12 Uhr",
+    "Gerahmtes Datumsfenster bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1953",
+     "Erste Visodate"
+    ],
+    [
+     "2010er",
+     "Heritage Visodate als Neuauflage"
+    ]
+   ],
+   "x": [
+    "Wer das Original möchte, sucht eine Visodate aus den 1950er- oder 1960er-Jahren; die Heritage-Version ist die alltagstaugliche Alternative.",
+    "Ein Lederband im Stil der Zeit passt besser zur Uhr als ein modernes Stahlband."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "Edelstahl, rund"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorbild",
+     "Visodate von 1953"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "flagship-heritage",
+     "c": "Die Longines Flagship Heritage greift ebenfalls eine Uhr der 1950er-Jahre auf."
+    },
+    {
+     "m": "presage-cocktail",
+     "c": "Die Seiko Presage Cocktail Time ist eine ähnlich bezahlbare, elegante Automatikuhr."
+    },
+    {
+     "m": "master-collection",
+     "c": "Die Longines Master Collection bedient die klassische Automatikuhr mit Datum eine Preisstufe höher."
+    }
+   ]
   }
  ]
 }
