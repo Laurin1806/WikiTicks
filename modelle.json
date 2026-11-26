@@ -49491,6 +49491,110 @@
      "c": "Die IWC Ingenieur entstand in den 1950er-Jahren aus demselben Bedarf nach antimagnetischen Uhren."
     }
    ]
+  },
+  {
+   "id": "ingenieur-iw3289",
+   "model": "ingenieur",
+   "ref": "IW3289",
+   "alias": [
+    "IW328902",
+    "IW3289"
+   ],
+   "var": null,
+   "t": "IWC Ingenieur Automatic 40 Ref. IW3289",
+   "bau": "seit 2023",
+   "cap": "",
+   "s": "Mit der Ingenieur Automatic 40 kehrte IWC 2023 zu Gérald Gentas Entwurf von 1976 zurück: fünf Schrauben auf der Lünette, Gitterzifferblatt, integriertes Band und Weicheisenschutz.",
+   "bh": [
+    "Gentas Ingenieur, neu gedacht",
+    "Gehäuse und Zifferblatt",
+    "Werk und Magnetfeldschutz",
+    "Stellung im Programm"
+   ],
+   "b": [
+    "1976 hatte Gérald Genta die Ingenieur SL (Ref. 1832) als Stahlsportuhr mit integriertem Band und einer Lünette mit fünf Vertiefungen gestaltet. 2023 griff IWC diesen Entwurf mit der Ingenieur Automatic 40 (Ref. IW3289) wieder auf. Die Referenz IW328902 ist die Stahlausführung mit silberweißem Zifferblatt.",
+    "Das 40-Millimeter-Gehäuse trägt eine flache Lünette mit fünf Schrauben und geht in ein integriertes Gliederband über, die Krone wird von Gehäuseflanken eingefasst. Das Zifferblatt hat ein Gittermuster mit feiner Würfelstruktur, aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse, das Datum sitzt bei 3 Uhr.",
+    "Im Inneren arbeitet das IWC-Kaliber 32111 mit automatischem Aufzug und rund 120 Stunden Gangreserve. Ein Weicheisen-Innengehäuse schützt es vor Magnetfeldern – die Eigenschaft, mit der die Ingenieur 1955 begonnen hatte. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Die IW3289 machte die Ingenieur wieder zur Luxus-Sportuhr mit integriertem Band, in einer Reihe mit Royal Oak, Nautilus und Overseas."
+   ],
+   "vh": [
+    [
+     "Weitere Zifferblätter",
+     "Neben Silber gibt es die Stahlausführung mit schwarzem und mit aquafarbenem Zifferblatt."
+    ],
+    [
+     "Titan",
+     "Eine Ausführung mit Gehäuse und Band aus Titan ist leichter und hat ein graues Zifferblatt."
+    ]
+   ],
+   "m": [
+    "Fünf Schrauben auf der flachen Lünette",
+    "Gitterzifferblatt",
+    "Integriertes Gliederband",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1955",
+     "Erste Ingenieur (Ref. 666)"
+    ],
+    [
+     "1976",
+     "Ingenieur SL von Gérald Genta"
+    ],
+    [
+     "2023",
+     "Ingenieur Automatic 40, Ref. IW3289"
+    ]
+   ],
+   "x": [
+    "Die Schrauben der Lünette sollten unbeschädigt sein; Spuren von Werkzeug deuten auf unsachgemäße Eingriffe hin.",
+    "Das integrierte Band lässt sich nur mit passenden Originalteilen verlängern; bei Gebrauchtuhren nach den übrigen Gliedern fragen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "32111, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Magnetfeldschutz",
+     "Weicheisen-Innengehäuse"
+    ],
+    [
+     "Vorbild",
+     "Ingenieur SL (Ref. 1832)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle ist eine andere neue Stahl-Sportuhr mit integriertem Band aus diesen Jahren."
+    },
+    {
+     "m": "overseas",
+     "c": "Die Overseas von Vacheron Constantin gehört zu den Luxus-Sportuhren, mit denen sich die neue Ingenieur messen muss."
+    },
+    {
+     "m": "laureato",
+     "c": "Die Girard-Perregaux Laureato greift wie die Ingenieur eine integrierte Sportuhr der 1970er-Jahre wieder auf."
+    }
+   ]
   }
  ]
 }
