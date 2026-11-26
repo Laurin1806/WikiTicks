@@ -40896,6 +40896,111 @@
      "c": "Die G-Shock DW-5600 ist die robuste große Schwester aus dem gleichen Haus."
     }
    ]
+  },
+  {
+   "id": "g-shock-dw-5600",
+   "model": "g-shock",
+   "ref": "DW-5600",
+   "alias": [
+    "DW-5600E-1V",
+    "DW-5600E",
+    "DW-5600C"
+   ],
+   "var": null,
+   "t": "Casio G-Shock DW-5600 Ref. DW-5600",
+   "bau": "seit 1987",
+   "cap": "",
+   "s": "Quadratisch, unverwüstlich, ein Filmstar: Die DW-5600 ist die G-Shock, die fast jeder vor Augen hat.",
+   "bh": [
+    "Erbin der ersten G-Shock",
+    "Schutz durch Konstruktion",
+    "Berühmt durch »Speed«",
+    "Die Form, die bleibt"
+   ],
+   "b": [
+    "1983 brachte Casio mit der DW-5000C die erste G-Shock heraus, entwickelt vom Ingenieur Kikuo Ibe mit dem Ziel einer Uhr, die nicht kaputtgeht. 1987 folgte die DW-5600 mit derselben quadratischen Form. Sie wurde zum Dauerbrenner und ist in weiterentwickelter Form bis heute im Programm.",
+    "Das Uhrwerk ist wie schwebend in einem Gehäuse aus Kunststoff gelagert, dessen Struktur Stöße absorbiert. Die Uhr übersteht einen Fall aus zehn Metern Höhe und ist bis 200 Meter wasserdicht. Das Digitalmodul bietet Stoppuhr, Countdown-Timer, Alarm und Beleuchtung.",
+    "Weltberühmt wurde die DW-5600, als Keanu Reeves sie 1994 im Actionfilm »Speed« trug. Auch in der Raumfahrt und bei Militär und Polizei ist die quadratische G-Shock wegen ihrer Robustheit verbreitet.",
+    "Die quadratische Form der DW-5600 prägt das Bild der G-Shock bis heute. Die aktuelle Ausführung trägt die Bezeichnung DW-5600E; daneben gibt es zahlreiche Farben, Sondereditionen und technisch aufgerüstete Versionen."
+   ],
+   "vh": [
+    [
+     "Heutige Ausführung: Ref. DW-5600E",
+     "Die DW-5600E ist die moderne Standardversion mit schwarzem Gehäuse und Kunststoffband."
+    ],
+    [
+     "Mit Solar und Funk: Ref. GW-M5610",
+     "Diese Version behält die Form, lädt sich aber über eine Solarzelle und stellt sich per Funksignal."
+    ],
+    [
+     "Ganz aus Metall: Ref. GMW-B5000",
+     "Seit 2018 gibt es die quadratische G-Shock auch mit Gehäuse und Band aus Metall."
+    ]
+   ],
+   "m": [
+    "Quadratisches Kunststoffgehäuse",
+    "Digitalanzeige mit »G-SHOCK«-Schriftzug",
+    "Vier Drücker an den Seiten",
+    "Kunststoffband"
+   ],
+   "ev": [
+    [
+     "1983",
+     "Erste G-Shock DW-5000C"
+    ],
+    [
+     "1987",
+     "Vorstellung der DW-5600"
+    ],
+    [
+     "1994",
+     "Keanu Reeves trägt sie im Film »Speed«"
+    ]
+   ],
+   "x": [
+    "Die DW-5600E ist eine der günstigsten und robustesten Uhren überhaupt – ideal als Uhr für Sport und Arbeit.",
+    "Wer keine Batterie wechseln möchte, greift zur GW-M5610 mit Solarzelle und Funk."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 1987"
+    ],
+    [
+     "Gehäuse",
+     "Kunststoff, quadratisch"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "Quarz, digital"
+    ],
+    [
+     "Funktionen",
+     "Stoppuhr, Timer, Alarm, Licht, Datum"
+    ],
+    [
+     "Vorgänger",
+     "DW-5000C"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "swatch-original",
+     "c": "Die Swatch kam wie die G-Shock 1983 auf den Markt und machte die günstige Kunststoffuhr zum Kultobjekt."
+    },
+    {
+     "m": "formula-1",
+     "c": "Die TAG Heuer Formula 1 von 1986 war eine sportliche Uhr mit Kunststoffgehäuse aus der gleichen Zeit."
+    },
+    {
+     "m": "f-91w",
+     "c": "Casios F-91W erschien kurz darauf und wurde zur zweiten großen Digitaluhren-Ikone der Marke."
+    }
+   ]
   }
  ]
 }
