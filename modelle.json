@@ -46190,6 +46190,101 @@
      "c": "Die Laureato von Girard-Perregaux kehrte 2017 als eigene Kollektion zurück und steht im selben Segment."
     }
    ]
+  },
+  {
+   "id": "patrimony-81180",
+   "model": "patrimony",
+   "ref": "81180",
+   "alias": [
+    "81180/000R-9159"
+   ],
+   "var": null,
+   "t": "Vacheron Constantin Patrimony Ref. 81180",
+   "bau": "seit 2004",
+   "cap": "",
+   "s": "Zwei Zeiger, ein gewölbtes Zifferblatt, ein Gehäuse von wenigen Millimetern: Die Patrimony 81180 ist eine der reinsten Formen der klassischen Golduhr.",
+   "bh": [
+    "Vorbild aus den 1950er-Jahren",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber 1400",
+    "Bedeutung"
+   ],
+   "b": [
+    "Die Patrimony greift die eleganten Uhren auf, die Vacheron Constantin in den 1950er-Jahren baute. Die Referenz 81180 ist ihre reinste Form: eine Uhr mit nur zwei Zeigern für Stunden und Minuten, ohne Sekundenzeiger und ohne Datum.",
+    "Das runde Gehäuse misst 40 Millimeter, ist sehr flach und hat eine schmale Lünette, sodass das leicht gewölbte Zifferblatt besonders groß wirkt. Darauf stehen schmale, aufgesetzte Stabindizes und am Rand eine Minuteneinteilung aus feinen Punkten. Auch das Glas ist gewölbt und folgt der Form des Zifferblatts.",
+    "Im Inneren arbeitet das Handaufzugskaliber 1400 mit rund 40 Stunden Gangreserve. Es ist klein und flach, trägt das Genfer Siegel und ist durch einen Saphirglasboden zu sehen.",
+    "Die 81180 ist das Aushängeschild der Patrimony und eine der bekanntesten Dresswatches überhaupt. Wer eine Uhr sucht, die unter der Manschette verschwindet und doch die Handschrift einer großen Manufaktur trägt, landet oft bei ihr."
+   ],
+   "vh": [
+    [
+     "Roségold: Ref. 81180/000R-9159",
+     "Die Ausführung in Roségold mit hell opalfarbenem Zifferblatt und braunem Lederband."
+    ],
+    [
+     "Weißgold und Platin",
+     "Die 81180 gab es auch in Weißgold sowie in Platin als Teil der »Collection Excellence Platine«."
+    ],
+    [
+     "Mit Automatik und Datum: Ref. 85180",
+     "Die Patrimony mit Automatikwerk und Datum trägt eine eigene Referenz."
+    ]
+   ],
+   "m": [
+    "Nur zwei Zeiger, kein Sekundenzeiger",
+    "Leicht gewölbtes Zifferblatt mit Punkt-Minuterie",
+    "Schmale Lünette, 40 mm",
+    "Flaches Goldgehäuse mit Glasboden"
+   ],
+   "ev": [
+    [
+     "2004",
+     "Patrimony-Linie mit Handaufzugskaliber 1400"
+    ]
+   ],
+   "x": [
+    "Das gewölbte Glas und die polierten Goldflächen sind empfindlich – auf Kratzer und Spuren von Nachpolitur achten.",
+    "Ohne Sekundenzeiger ist auf den ersten Blick nicht zu sehen, ob die Uhr läuft; beim Kauf ausreichend lange beobachten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2004"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Gold, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "1400, Handaufzug, Genfer Siegel"
+    ],
+    [
+     "Gangreserve",
+     "≈ 40 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "calatrava",
+     "c": "Die Calatrava ist die direkte Genfer Konkurrentin unter den klassischen Golduhren."
+    },
+    {
+     "m": "saxonia",
+     "c": "Die Lange Saxonia ist die sächsische Antwort auf die schlichte Dresswatch."
+    },
+    {
+     "m": "altiplano",
+     "c": "Die Piaget Altiplano treibt die Idee der flachen Zweizeigeruhr noch weiter."
+    }
+   ]
   }
  ]
 }
