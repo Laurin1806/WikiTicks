@@ -37564,6 +37564,90 @@
      "c": "Breguets Classique steht wie die 5270 für die traditionelle Komplikationsuhr im klassischen Goldgehäuse."
     }
    ]
+  },
+  {
+   "id": "golden-ellipse-3738",
+   "model": "golden-ellipse",
+   "ref": "3738",
+   "alias": [
+    "3738/100J",
+    "3738/100"
+   ],
+   "var": null,
+   "t": "Patek Philippe Golden Ellipse Ref. 3738",
+   "bau": "1980er–2000er",
+   "cap": "",
+   "s": "Ein Oval nach dem Goldenen Schnitt, ein blaues Zifferblatt mit Sonnenschliff und goldene Stabindizes: Die 3738 brachte die Golden Ellipse über Jahrzehnte an die Handgelenke derer, die keine runde Uhr wollten.",
+   "bh": [
+    "Die Form der Golden Ellipse",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Bedeutung"
+   ],
+   "b": [
+    "Die Golden Ellipse erschien 1968 mit der Referenz 3548 und war mit ihrer ovalen Form eine Ausnahme im Programm von Patek Philippe. Die Referenz 3738 führte diese Form in den folgenden Jahrzehnten weiter und gehört zu den bekanntesten Ausführungen der Linie.",
+    "Das Achsenverhältnis des Gehäuses folgt dem Goldenen Schnitt, dem klassischen Proportionsideal. Die abgebildete Ausführung 3738/100J hat ein Gelbgoldgehäuse, ein blaues Zifferblatt mit Sonnenschliff, aufgesetzte goldene Stabindizes und schlanke Stabzeiger. Sekundenzeiger und Datum fehlen, was die Form noch reiner wirken lässt.",
+    "Die Golden Ellipse wurde im Laufe ihrer Geschichte mit Handaufzug, Automatik- und Quarzwerken angeboten. Für die flache Bauweise der Automatikversionen sorgte das Kaliber 240 mit Mikrorotor, das nur wenig Bauhöhe benötigt.",
+    "Die 3738 wird am Zweitmarkt seltener gehandelt als Calatrava oder Nautilus und gilt deshalb als Geheimtipp unter den klassischen Patek-Philippe-Uhren. Später griff die größere Referenz 5738 die Form wieder auf."
+   ],
+   "vh": [
+    [
+     "Gelbgold mit blauem Zifferblatt: Ref. 3738/100J",
+     "Die abgebildete Ausführung verbindet Gelbgold mit dem für die Golden Ellipse typischen blauen Zifferblatt."
+    ]
+   ],
+   "m": [
+    "Ovales Gehäuse nach dem Goldenen Schnitt",
+    "Blaues Zifferblatt mit Sonnenschliff",
+    "Aufgesetzte goldene Stabindizes, schlanke Stabzeiger",
+    "Kein Sekundenzeiger, kein Datum"
+   ],
+   "ev": [
+    [
+     "1968",
+     "Erste Golden Ellipse (Ref. 3548)"
+    ]
+   ],
+   "x": [
+    "Vor dem Kauf klären, welches Werk eingebaut ist; die Golden Ellipse gab es mit Handaufzug, Automatik und Quarz.",
+    "Ein unversehrtes blaues Zifferblatt ist wichtig für den Wert; Restaurierungen sind schwer zu verbergen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1980er–2000er"
+    ],
+    [
+     "Gehäuse",
+     "oval, Gold"
+    ],
+    [
+     "Kaliber",
+     "je nach Ausführung Automatik (240) oder Quarz"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "3548 / 5738"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "tank",
+     "c": "Die Cartier Tank ist die bekannteste Formuhr und wie die Golden Ellipse ein Klassiker abseits runder Gehäuse."
+    },
+    {
+     "m": "altiplano",
+     "c": "Piagets Altiplano steht in derselben Zeit für flache, elegante Golduhren."
+    },
+    {
+     "m": "reverso",
+     "c": "Die Jaeger-LeCoultre Reverso zeigt wie die Golden Ellipse, wie eine ungewöhnliche Gehäuseform zur Ikone werden kann."
+    }
+   ]
   }
  ]
 }
