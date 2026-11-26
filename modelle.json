@@ -52021,6 +52021,115 @@
      "c": "Tudors Black Bay knüpfte später an die klassische Taucheruhr-Form an."
     }
    ]
+  },
+  {
+   "id": "submariner-6538",
+   "model": "submariner",
+   "ref": "6538",
+   "alias": [
+    "6538A",
+    "6536",
+    "6200"
+   ],
+   "var": 6,
+   "t": "Rolex Submariner Ref. 6538",
+   "bau": "1955–1959",
+   "cap": "",
+   "s": "Die »Big Crown«: eine frühe Submariner mit acht Millimeter großer Krone und ohne Kronenschutz – berühmt geworden am Handgelenk von Sean Connery im ersten James-Bond-Film.",
+   "bh": [
+    "Die große Krone",
+    "Gehäuse, Lünette und Werk",
+    "Am Handgelenk von James Bond",
+    "Tropische Zifferblätter"
+   ],
+   "b": [
+    "Wenige Jahre nach der ersten Submariner von 1953 verbesserte Rolex die Wasserdichtigkeit deutlich. Die Referenz 6538 aus der Mitte der 1950er-Jahre war bis 200 Meter wasserdicht und trug dafür eine besonders große, verschraubte Krone mit rund acht Millimetern Durchmesser. Sammler nennen sie deshalb »Big Crown«. Einen Kronenschutz hatte die Submariner damals noch nicht, die große Krone steht frei aus dem Gehäuse.",
+    "Das Edelstahlgehäuse misst 38 Millimeter, darüber sitzt ein hoch gewölbtes Acrylglas. Die schwarze Drehlünette mit 60-Minuten-Skala ließ sich in beide Richtungen drehen, manche Lünetten trugen bei 12 Uhr ein rotes Dreieck. Im Inneren arbeitete das Automatikkaliber 1030. Die Zifferblätter sind glänzend schwarz mit goldfarbener Schrift (»Gilt«), die Leuchtmasse bestand aus Radium.",
+    "1962 trug Sean Connery in »James Bond jagt Dr. No« eine Submariner 6538, und mit ihr wurde die Submariner zur Uhr eines Lebensgefühls. Bis heute gehört die »Big Crown« zu den begehrtesten und teuersten Vintage-Rolex.",
+    "Bei manchen Exemplaren hat sich das ursprünglich schwarze Zifferblatt unter Sonnenlicht braun verfärbt. Sammler nennen solche Zifferblätter »tropical«; weil jedes anders gealtert ist, gilt jedes als Unikat, und gut erhaltene tropische Zifferblätter erzielen hohe Aufschläge."
+   ],
+   "vh": [
+    [
+     "Tropisches Zifferblatt",
+     "Durch Sonnenlicht braun verfärbte Zifferblätter, wie bei der zweiten hier gezeigten Uhr; besonders gefragt, wenn die Verfärbung gleichmäßig ist."
+    ],
+    [
+     "Kleinere Krone: Ref. 6536",
+     "Die Schwesterreferenz mit kleinerer Krone und 100 Metern Wasserdichtigkeit."
+    ],
+    [
+     "»Big Crown« mit Explorer-Zifferblatt: Ref. 6200",
+     "Eine weitere frühe Big Crown, teils mit den Ziffern 3, 6 und 9 wie beim Explorer."
+    ]
+   ],
+   "m": [
+    "38 mm, kein Kronenschutz",
+    "Große Krone mit rund 8 mm Durchmesser",
+    "Glänzendes »Gilt«-Zifferblatt, Radium-Leuchtmasse",
+    "Hoch gewölbtes Acrylglas"
+   ],
+   "ev": [
+    [
+     "um 1955",
+     "Vorstellung der 6538 mit großer Krone"
+    ],
+    [
+     "1959",
+     "Ablösung durch die 5512 mit Kronenschutz"
+    ],
+    [
+     "1962",
+     "Sean Connery trägt eine 6538 in »James Bond jagt Dr. No«"
+    ]
+   ],
+   "x": [
+    "Originale Gilt-Zifferblätter, Zeiger und Lünetten sind entscheidend; viele 6538 wurden im Lauf der Jahrzehnte mit Serviceteilen versehen.",
+    "Radium-Leuchtmasse strahlt noch heute schwach; alte Zifferblätter sollte man nicht öffnen oder bearbeiten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1955–1959"
+    ],
+    [
+     "Gehäuse",
+     "38 mm, Edelstahl, ohne Kronenschutz"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "1030, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Glas",
+     "gewölbtes Acrylglas"
+    ],
+    [
+     "Nachfolger",
+     "5512"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "fifty-fathoms",
+     "c": "Blancpains Fifty Fathoms war die andere große Taucheruhr dieser frühen Jahre."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Omega stellte 1957 die Seamaster 300 als Antwort auf die Submariner vor."
+    },
+    {
+     "m": "explorer",
+     "c": "Der Explorer teilte mit der frühen Submariner Gehäuse- und Werktechnik."
+    }
+   ]
   }
  ]
 }
