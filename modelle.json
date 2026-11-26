@@ -43266,6 +43266,90 @@
      "c": "Breitling, der dritte Partner beim Kaliber 11, baute es in den Navitimer ein."
     }
    ]
+  },
+  {
+   "id": "propilot-01-751-7761-4164",
+   "model": "propilot",
+   "ref": "01 751 7761 4164",
+   "var": null,
+   "t": "Oris ProPilot Ref. 01 751 7761 4164",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Gerillte Lünette, große weiße Ziffern und eine große Krone: Die 01 751 7761 4164 ist die ProPilot als klassische Fliegeruhr mit Automatik und Datum.",
+   "bh": [
+    "In der Tradition der Big Crown",
+    "Gehäuse und Zifferblatt",
+    "Das Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Oris baut Fliegeruhren seit den 1930er-Jahren; die Big Crown mit ihrer übergroßen Krone von 1938 ist der Klassiker der Marke. Die ProPilot führt diese Tradition fort. Die Referenz 01 751 7761 4164 ist eine Ausführung aus Edelstahl mit schwarzem Zifferblatt und Textilband.",
+    "Typisch ist die gerillte Lünette, die zusammen mit der großen Krone an die Fliegeruhren der Marke erinnert. Das schwarze Zifferblatt trägt große weiße arabische Ziffern, kleine Stabindizes und breite Zeiger mit Leuchtmasse; der Sekundenzeiger hat eine rote Spitze, das Datum steht bei 3 Uhr. Aufgedruckt sind »ORIS«, »PROPILOT« und »AUTOMATIC«.",
+    "Im Inneren arbeitet ein Automatikwerk; bei Oris nennt die zweite Zahlengruppe der Referenz das Kaliber, hier das Oris-Kaliber 751.",
+    "Die ProPilot ist eine preiswerte Alternative zu den Fliegeruhren großer Marken. Mit Textilband wirkt sie sportlich und betont ihren Werkzeugcharakter."
+   ],
+   "vh": [
+    [
+     "ProPilot X Calibre 400",
+     "Seit 2020 gibt es die ProPilot X mit Titangehäuse, skelettiertem Zifferblatt und dem eigenen Kaliber 400 mit fünf Tagen Gangreserve."
+    ],
+    [
+     "Chronograph und GMT",
+     "Die ProPilot gibt es außerdem als Chronograph und mit zweiter Zeitzone."
+    ]
+   ],
+   "m": [
+    "Gerillte Lünette, große Krone",
+    "Schwarzes Zifferblatt mit großen weißen arabischen Ziffern",
+    "Sekundenzeiger mit roter Spitze",
+    "Datum bei 3 Uhr, »PROPILOT« auf dem Zifferblatt"
+   ],
+   "ev": [
+    [
+     "1938",
+     "Big Crown als Vorbild"
+    ],
+    [
+     "2020",
+     "ProPilot X mit Kaliber 400"
+    ]
+   ],
+   "x": [
+    "Die Referenz verrät das Werk: Auf die zweite Zahlengruppe achten, wenn verschiedene ProPilot-Ausführungen verglichen werden.",
+    "Das Textilband lässt sich leicht gegen Leder oder Stahl tauschen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "Edelstahl, gerillte Lünette"
+    ],
+    [
+     "Kaliber",
+     "Oris 751, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "mark-xx",
+     "c": "Die IWC Mark XX ist die klassische Fliegeruhr derselben Zeit eine Klasse höher."
+    },
+    {
+     "m": "laco-aachen",
+     "c": "Die Laco Aachen steht für die Fliegeruhr in ihrer traditionellen Form."
+    },
+    {
+     "m": "spirit",
+     "c": "Die Longines Spirit ist eine moderne Fliegeruhr in ähnlicher Preisklasse."
+    }
+   ]
   }
  ]
 }
