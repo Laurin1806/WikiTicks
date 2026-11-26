@@ -3831,7 +3831,7 @@
    "b": [
     "Die GMT-Master ist eine Auftragsarbeit des Luftverkehrs; seit 1983 heißt ihre Weiterentwicklung GMT-Master II, die bis heute gebaut wird. Mitte der 1950er-Jahre begannen die ersten Langstrecken-Linienflüge mit Düsenflugzeugen, die Piloten und Navigatoren mehrere Zeitzonen in einem Dienst durchqueren ließen. Die Fluggesellschaft Pan American World Airways, damals das Gesicht der internationalen Zivilluftfahrt, suchte eine Armbanduhr, die Ortszeit und die Zeit am Heimatflughafen (Greenwich Mean Time, GMT) gleichzeitig anzeigt. Rolex antwortete 1954 mit der Referenz 6542, die ein Jahr später lieferbar war: ein vierter, zentral montierter Zeiger, der das Zifferblatt in 24 Stunden einmal umrundet, und eine drehbare 24-Stunden-Lünette.",
     "Die zweifarbige Lünette sollte die Orientierung erleichtern: Die eine Hälfte steht für den Tag (rot), die andere für die Nacht (blau). Die Einlage der 6542 bestand aus Bakelit, einem frühen Kunststoff, in den die Ziffern mit radiumhaltiger Leuchtmasse eingelegt waren. Das Material brach leicht und Rolex ersetzte es bald durch Aluminium. Intakte Bakelit-Einlagen gehören heute zu den gesuchtesten Details der Marke.",
-    "1959 löste die 1675 die 6542 ab, mit Kronenschutz. Sie wurde über zwei Jahrzehnte, bis 1980, gebaut. Ihr 24-Stunden-Zeiger war mit dem Stundenzeiger gekoppelt und lief als Tag-Nacht-Anzeige mit der Ortszeit; die zweite Zeitzone las man über die drehbare Lünette ab, die man um den Zeitunterschied verdrehte. 1981 folgte die 16750 mit Saphirglas, dem Kaliber 3075 und schnell schaltendem Datum; ihr 24-Stunden-Zeiger blieb aber gekoppelt. Beide Uhren waren zuverlässige Zeitzonenhilfen, aber noch keine »echte« GMT-Funktion im Sinne der Uhrmacher.",
+    "1959 löste die 1675 die 6542 ab, mit Kronenschutz. Sie wurde über zwei Jahrzehnte, bis 1980, gebaut. Ihr 24-Stunden-Zeiger war mit dem Stundenzeiger gekoppelt und lief als Tag-Nacht-Anzeige mit der Ortszeit; die zweite Zeitzone las man über die drehbare Lünette ab, die man um den Zeitunterschied verdrehte. 1981 folgte die 16750 mit Saphirglas, dem Kaliber 3075 und schnell schaltendem Datum; ihr 24-Stunden-Zeiger blieb aber gekoppelt. 1988 folgte die 16700 mit dem Kaliber 3175, die bis 1999 als günstigere GMT-Master neben der GMT-Master II angeboten wurde. Beide Uhren waren zuverlässige Zeitzonenhilfen, aber noch keine »echte« GMT-Funktion im Sinne der Uhrmacher.",
     "Diese entstand 1983 mit der GMT-Master II, der Referenz 16760, die Sammler wegen ihres breiten Gehäuses »Fat Lady« nennen. Bei ihr lässt sich der Stundenzeiger unabhängig von allen anderen Zeigern in ganzen Stunden verstellen, ohne dass die Uhr anhält. Auf Reisen springt die Ortszeit weiter, während der 24-Stunden-Zeiger unverändert die Heimatzeit anzeigt. Das Datum folgt dem Stundenzeiger, auch rückwärts. 1989 folgte mit der 16710 die Version mit Kaliber 3185, die in den 1990er-Jahren als Pepsi, Coke und Schwarz erhältlich war.",
     "Die erste Cerachrom-Lünette trug 2005 die GMT-Master II 116718LN in Gelbgold zum 50-jährigen Jubiläum der Linie; 2007 ersetzte auch die Stahlausführung 116710LN die Aluminiumlünette durch eine Einlage aus schwarzer Cerachrom-Keramik. 2013 gelang Rolex mit der Lünette der »Batman« (116710BLNR) erstmals eine zweifarbige Keramiklünette aus einem einzigen Stück, in Blau und Schwarz; die rot-blaue »Pepsi« folgte 2014 in Weißgold (116719BLRO), 2018 dann in Stahl (126710BLRO) mit dem Kaliber 3285. Neu war 2018 auch, dass die Stahlausführung der GMT-Master II mit dem fünfreihigen Jubilé-Band angeboten wurde; 2019 folgte die blau-schwarze 126710BLNR am Jubilé-Band, die Sammler »Batgirl« nennen. 2022 kam mit der 126720VTNR eine Version für Linkshänder, bei der die Krone bei 9 Uhr sitzt und die Lünette grün-schwarz ist; Sammler nennen sie »Sprite«. 2025 folgte die »Sprite« in 18 Karat Weißgold (126729VTNR), erstmals bei der GMT-Master mit einem Zifferblatt aus Keramik, in glänzendem Grün."
    ],
@@ -3898,6 +3898,13 @@
      "40 mm",
      "3085",
      "Erste GMT-Master II, »Fat Lady«, Stundenzeiger einzeln stellbar"
+    ],
+    [
+     "16700",
+     "1988–1999",
+     "40 mm",
+     "3175",
+     "Letzte GMT-Master ohne »II«, 24-Stunden-Zeiger gekoppelt"
     ],
     [
      "16710",
@@ -4100,19 +4107,18 @@
      "irefs": "hoch"
     },
     {
-     "n": "Ref. 16710 »Pepsi« mit Tritium",
-     "y": "1989–1998",
+     "n": "Ref. 16700 »Pepsi«",
+     "y": "1988–1999",
      "v": {
-      "img": "assets/watches/rolex-gmt-master-2-16710-pepsi-tritium.jpg"
+      "img": "assets/watches/rolex-gmt-master-16700.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine frühe Rolex GMT-Master II Referenz 16710 mit rot-blauer Aluminiumlünette (»Pepsi«) am Oyster-Band.",
-      "Zu erkennen sind die cremefarben gealterte Tritium-Leuchtmasse an Indizes und Zeigern, der rote 24-Stunden-Zeiger mit Dreieckspitze und die mit den Jahren verblasste Lünetteneinlage."
+      "Die Abbildung zeigt eine Rolex GMT-Master Referenz 16700 mit rot-blauer Aluminiumlünette (»Pepsi«) am Oyster-Band.",
+      "Zu erkennen sind die cremefarben gealterte Tritium-Leuchtmasse an Indizes und Zeigern, der rote 24-Stunden-Zeiger mit Dreieckspitze, das Datum mit Zykloplupe und die mit den Jahren verblasste Lünetteneinlage."
      ],
      "dial": "Schwarz",
-     "iref": "16710",
-     "irefs": "hoch",
-     "dup": true
+     "iref": "16700",
+     "irefs": "hoch"
     }
    ],
    "m": [
@@ -31995,8 +32001,8 @@
   "rolex-gmt-master-2-16710-coke.jpg": "v",
   "rolex-gmt-master-6542.jpg": "v",
   "rolex-submariner-16800.jpg": "v",
-  "rolex-gmt-master-2-16710-pepsi-tritium.jpg": "v",
-  "rolex-gmt-master-2-116710-batman.jpg": "b"
+  "rolex-gmt-master-2-116710-batman.jpg": "b",
+  "rolex-gmt-master-16700.jpg": "v"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -32194,7 +32200,6 @@
   "rolex-gmt-master-2-126710-pepsi.jpg": 960,
   "rolex-gmt-master-2-16710-black.jpg": 768,
   "rolex-gmt-master-2-16710-coke.jpg": 768,
-  "rolex-gmt-master-2-16710-pepsi-tritium.jpg": 768,
   "rolex-gmt-master-2-16710-pepsi.jpg": 768,
   "rolex-gmt-master-6542.jpg": 768,
   "rolex-land-dweller-127234-blue.jpg": 1032,
@@ -32285,7 +32290,8 @@
   "zenith-elite.jpg": 374,
   "zenith-pilot-type-20.jpg": 756,
   "zodiac-sea-wolf.jpg": 502,
-  "rolex-gmt-master-2-116710-batman.jpg": 768
+  "rolex-gmt-master-2-116710-batman.jpg": 768,
+  "rolex-gmt-master-16700.jpg": 768
  },
  "imgFit": {
   "rolex-submariner-126610ln.jpg": [
@@ -33244,13 +33250,13 @@
    1.066,
    0.0014
   ],
-  "rolex-gmt-master-2-16710-pepsi-tritium.jpg": [
-   1.08,
-   0.0031
-  ],
   "rolex-gmt-master-2-116710-batman.jpg": [
    0.961,
    0.0039
+  ],
+  "rolex-gmt-master-16700.jpg": [
+   1.08,
+   0.0031
   ]
  },
  "referenzen": [
@@ -52328,10 +52334,6 @@
     [
      "»Pepsi«: Ref. 16710BLRO",
      "Mit rot-blauer Lünette, der klassischen GMT-Farbe seit 1955."
-    ],
-    [
-     "Frühe Ausführung mit Tritium",
-     "Bis Ende der 1990er-Jahre leuchteten Indizes und Zeiger mit Tritium, das heute meist cremefarben gealtert ist; spätere Zifferblätter tragen weiße Luminova bzw. Super-LumiNova."
     ],
     [
      "»Coke«",
