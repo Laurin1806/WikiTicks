@@ -44076,6 +44076,95 @@
      "c": "Die Junghans Mega machte die Marke in den 1990er-Jahren mit der ersten Funkarmbanduhr bekannt."
     }
    ]
+  },
+  {
+   "id": "orion-301",
+   "model": "orion",
+   "ref": "301",
+   "alias": [
+    "301",
+    "Orion 35"
+   ],
+   "var": null,
+   "t": "Nomos Orion Ref. 301",
+   "bau": "seit 1992",
+   "cap": "",
+   "s": "Die Orion ist die eleganteste der ersten Nomos-Uhren: aufgesetzte Stabindizes, spitze gebläute Zeiger und eine gewölbte Lünette, die das helle Zifferblatt rahmt.",
+   "bh": [
+    "Teil der ersten Kollektion",
+    "Gehäuse und Werk",
+    "Die Dresswatch von Nomos",
+    "Viele Größen, eine Form"
+   ],
+   "b": [
+    "Die Orion gehörte 1992 zu den vier Modellen, mit denen Nomos Glashütte an den Start ging, neben Tangente, Ludwig und Tetra. Während die Tangente mit ihren Ziffern an die Zwischenkriegszeit erinnert, setzt die Orion ganz auf Striche: schlanke, aufgesetzte Stabindizes auf einem weiß versilberten Zifferblatt.",
+    "Das 35 Millimeter große Edelstahlgehäuse hat eine leicht gewölbte Lünette und lange, gebogene Bandanstöße. Wie die Tangente zeigt die Orion Stunden, Minuten und eine kleine Sekunde bei 6 Uhr, ein Datum gibt es nicht. Angetrieben wird sie vom Handaufzugskaliber Alpha, das Nomos selbst baut.",
+    "Durch die aufgesetzten Indizes und die runden Formen wirkt die Orion etwas klassischer und festlicher als die strengen Schwestermodelle. Sie wird gern zum Anzug getragen und gilt vielen als die Dresswatch der Marke.",
+    "Die Grundform ist seit über 30 Jahren nahezu unverändert. 2008 kam die größere Orion 38 hinzu, später auch Ausführungen mit Automatikwerk und Datum. Die 35-Millimeter-Orion mit Handaufzug ist das Original geblieben."
+   ],
+   "vh": [
+    [
+     "Orion 38",
+     "Seit 2008 gibt es die Orion auch mit 38-Millimeter-Gehäuse, ebenfalls mit Handaufzugskaliber Alpha."
+    ],
+    [
+     "Automatik und Datum",
+     "Später kamen Orion-Ausführungen mit Automatikwerk und Datum hinzu, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "35 mm, Edelstahl, leicht gewölbte Lünette",
+    "Aufgesetzte, schlanke Stabindizes ohne Ziffern",
+    "Spitze, gebläute Zeiger",
+    "Kleine Sekunde bei 6 Uhr, kein Datum"
+   ],
+   "ev": [
+    [
+     "1992",
+     "Vorstellung mit den ersten Nomos-Modellen"
+    ],
+    [
+     "2008",
+     "Orion 38 ergänzt die Linie"
+    ]
+   ],
+   "x": [
+    "Die Orion mit Handaufzug wird seit Jahrzehnten fast unverändert gebaut; der Unterschied zwischen älteren und neueren Exemplaren liegt vor allem in Details.",
+    "Wer eine größere Uhr sucht, greift zur Orion 38 – die 35-Millimeter-Ausführung trägt sich sehr zierlich.",
+    "Die polierten, gewölbten Flächen zeigen Kratzer eher als gebürstete Gehäuse; beim Gebrauchtkauf auf den Zustand der Lünette achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 1992"
+    ],
+    [
+     "Gehäuse",
+     "35 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Alpha, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "saxonia",
+     "c": "Die Saxonia von A. Lange & Söhne ist seit 1994 die schlichte, elegante Dreizeigeruhr aus demselben Ort."
+    },
+    {
+     "m": "calatrava",
+     "c": "Die Calatrava ist das klassische Vorbild für runde, schmucklose Dresswatches mit Stabindizes."
+    },
+    {
+     "m": "master-control",
+     "c": "Jaeger-LeCoultres Master Control kam 1992 im selben Jahr heraus und folgt einem ähnlich klassischen Ansatz."
+    }
+   ]
   }
  ]
 }
