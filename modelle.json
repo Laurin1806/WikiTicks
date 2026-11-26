@@ -43542,6 +43542,101 @@
      "c": "Die Rado Captain Cook ist eine weitere Neuauflage einer Taucheruhr aus den 1960er-Jahren."
     }
    ]
+  },
+  {
+   "id": "tissot-seastar-t120-410",
+   "model": "tissot-seastar",
+   "ref": "T120.410.11.041.00",
+   "alias": [
+    "T120.410"
+   ],
+   "var": null,
+   "t": "Tissot Seastar 1000 Ref. T120.410.11.041.00",
+   "bau": "seit Ende der 2010er-Jahre",
+   "cap": "",
+   "s": "Die Seastar 1000 in ihrer handlichsten Form: blaue Lünette, blaues Zifferblatt, 300 Meter Wasserdichtigkeit – eine Taucheruhr für jeden Tag mit Quarzwerk.",
+   "bh": [
+    "Ein alter Name für Taucheruhren",
+    "Gehäuse und Lünette",
+    "Quarz statt Automatik",
+    "Einordnung"
+   ],
+   "b": [
+    "Den Namen Seastar verwendet Tissot seit 1953, zunächst für wasserdichte Sportuhren, später für Taucheruhren. Die Seastar 1000 ist die heutige Taucheruhr der Familie; die Referenz T120.410.11.041.00 ist die Ausführung mit 40 Millimetern, Quarzwerk, blauem Zifferblatt und Stahlband.",
+    "Gehäuse und Gliederband sind aus Edelstahl, die verschraubte Krone sitzt zwischen zwei Kronenschutzflanken. Die einseitig drehbare Lünette trägt eine Minutenskala mit Leuchtdreieck bei 12 Uhr. Das Zifferblatt hat runde und rechteckige Indizes mit Leuchtmasse, breite Zeiger und ein Datumsfenster bei 6 Uhr; aufgedruckt sind »SEASTAR« und »300 m / 1000 ft«.",
+    "Anders als die größeren Seastar-1000-Modelle mit dem Automatikwerk Powermatic 80 hat diese Referenz ein Quarzwerk. Das macht sie genauer, pflegeleichter und etwas flacher – sie ist eine Uhr, die man ins Wasser mitnimmt und nicht aufziehen muss.",
+    "Die Seastar 1000 gilt als preiswerte Alternative zu den Taucheruhren großer Marken. Die 40-Millimeter-Quarzversion spricht vor allem Käufer an, denen die größeren Automatikmodelle zu wuchtig sind."
+   ],
+   "vh": [
+    [
+     "Powermatic 80: Ref. T120.407",
+     "Die Seastar 1000 Powermatic 80 hat ein größeres Gehäuse von 43 Millimetern und das Automatikwerk mit rund 80 Stunden Gangreserve."
+    ],
+    [
+     "Quarz-Chronograph",
+     "Die Seastar 1000 gibt es auch als Chronograph mit Quarzwerk."
+    ],
+    [
+     "Andere Farben",
+     "Neben Blau gibt es die Seastar 1000 unter anderem mit schwarzem und grünem Zifferblatt und mit Kautschukband."
+    ]
+   ],
+   "m": [
+    "Blaue einseitig drehbare Lünette mit Leuchtdreieck",
+    "Datumsfenster bei 6 Uhr",
+    "»SEASTAR« und »300 m / 1000 ft« auf dem Zifferblatt",
+    "Kronenschutzflanken"
+   ],
+   "ev": [
+    [
+     "1953",
+     "Erste Seastar"
+    ],
+    [
+     "2010er",
+     "Seastar 1000 als moderne Taucheruhr"
+    ]
+   ],
+   "x": [
+    "Wer ein Automatikwerk möchte, muss zur größeren Powermatic-80-Ausführung greifen; die Referenz mit .410 hat Quarz.",
+    "Bei gebrauchten Exemplaren die Rastung der Lünette und die verschraubte Krone prüfen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit Ende der 2010er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl, Saphirglas"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "Quarz"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "hydroconquest",
+     "c": "Die Longines HydroConquest ist eine Taucheruhr aus derselben Konzernfamilie, eine Preisstufe höher."
+    },
+    {
+     "m": "aquaracer",
+     "c": "Die TAG Heuer Aquaracer spricht als Alltagstaucheruhr ein ähnliches Publikum an."
+    },
+    {
+     "m": "promaster-diver",
+     "c": "Die Citizen Promaster Diver ist eine robuste, preiswerte Taucheruhr derselben Zeit."
+    }
+   ]
   }
  ]
 }
