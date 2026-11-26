@@ -38225,6 +38225,101 @@
      "c": "Zenith erneuerte 2021 mit der Chronomaster Sport ebenfalls seinen sportlichen Chronographen."
     }
    ]
+  },
+  {
+   "id": "royal-oak-26574",
+   "model": "royal-oak",
+   "ref": "26574",
+   "alias": [
+    "26574ST.OO.1220ST",
+    "26574ST",
+    "26574 ST",
+    "26574OR"
+   ],
+   "var": 1,
+   "t": "Audemars Piguet Royal Oak Ref. 26574",
+   "bau": "seit 2015",
+   "cap": "",
+   "s": "Ein Kalender bis ins Jahr 2100: Die 26574 bringt Wochentag, Monat, Schaltjahr, Kalenderwoche und Mondphase auf das Tapisserie-Zifferblatt – und knüpft an die Pionierrolle der Royal Oak bei den ewigen Kalendern an.",
+   "bh": [
+    "Erbe von 1984",
+    "Gehäuse und Werk",
+    "Ein dicht gefülltes Zifferblatt",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "Schon 1984 zeigte Audemars Piguet mit der Referenz 5554 eine Royal Oak mit ewigem Kalender, eine der ersten Sportuhren mit dieser Komplikation. Die 2015 vorgestellte Referenz 26574 ist die heutige Fassung dieser Idee: größer, mit zusätzlicher Wochenanzeige, aber im Kern nach demselben Prinzip gebaut.",
+    "Das Gehäuse misst 41 Millimeter und trägt die achteckige Lünette mit acht Sechskantschrauben sowie das integrierte Band. Im Inneren arbeitet das Automatikkaliber 5134, das durch den Saphirglasboden zu sehen ist. Es berücksichtigt die unterschiedlichen Monatslängen und Schaltjahre selbst und muss laut Hersteller erst im Jahr 2100 korrigiert werden.",
+    "Das Zifferblatt ist dicht gefüllt, wirkt aber geordnet: Wochentag bei 9 Uhr, Monat mit Schaltjahresanzeige bei 12 Uhr, Datum bei 3 Uhr und die Mondphase bei 6 Uhr. Auf dem äußeren Ring laufen die Kalenderwochen, angezeigt von einem eigenen Zeiger aus der Mitte.",
+    "Die 26574 verbindet die sportliche Royal Oak mit einer der klassischen Komplikationen der Uhrmacherei. Innerhalb der Linie gilt sie als Höhepunkt der Serienmodelle unterhalb der seltenen Grandes Complications und ist auch in Edelmetall gebaut worden."
+   ],
+   "vh": [
+    [
+     "Roségold: Ref. 26574OR",
+     "Neben der Stahlausführung erschien die 26574 auch in 18 Karat Roségold."
+    ],
+    [
+     "Schwarze Keramik: Ref. 26579CE",
+     "Auf der 26574 aufgebaut ist die Ausführung mit Gehäuse und Band aus schwarzer Keramik, die eine eigene Referenz trägt."
+    ]
+   ],
+   "m": [
+    "41 mm, achteckige Lünette mit Sechskantschrauben",
+    "Wochentag bei 9, Monat und Schaltjahr bei 12, Datum bei 3 Uhr",
+    "Mondphase bei 6 Uhr",
+    "Kalenderwochen auf dem Außenring",
+    "Tapisserie-Zifferblatt"
+   ],
+   "ev": [
+    [
+     "1984",
+     "Erste Royal Oak mit ewigem Kalender, Ref. 5554"
+    ],
+    [
+     "2015",
+     "Vorstellung der Ref. 26574 mit Kaliber 5134"
+    ]
+   ],
+   "x": [
+    "Ewige Kalender sollten möglichst nicht ganz stehen bleiben; nach längerer Pause ist das Einstellen aufwendig und sollte über die Korrekturdrücker in der richtigen Reihenfolge erfolgen.",
+    "Vollständige Papiere und Serviceunterlagen sind bei Kalenderuhren besonders wichtig, weil eine Revision teuer ist."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2015"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl oder Edelmetall, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "5134, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, ewiger Kalender mit Wochentag, Datum, Monat, Schaltjahr, Kalenderwoche und Mondphase"
+    ],
+    [
+     "Vorgänger",
+     "5554 / 25554 (erste Generation)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "chrono-ewiger-kalender",
+     "c": "Patek Philippes ewiger Kalender mit Chronograph ist das klassische Gegenstück aus Genf."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantin bietet die Overseas ebenfalls mit ewigem Kalender und integriertem Band an."
+    },
+    {
+     "m": "datograph",
+     "c": "Den Datograph von A. Lange & Söhne gibt es als »Perpetual« mit ewigem Kalender und Mondphase."
+    }
+   ]
   }
  ]
 }
