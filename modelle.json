@@ -44165,6 +44165,82 @@
      "c": "Jaeger-LeCoultres Master Control kam 1992 im selben Jahr heraus und folgt einem ähnlich klassischen Ansatz."
     }
    ]
+  },
+  {
+   "id": "sinn-104-010",
+   "model": "sinn-104",
+   "ref": "104.010",
+   "alias": [
+    "104.010",
+    "104"
+   ],
+   "var": null,
+   "t": "Sinn 104 Ref. 104.010",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Große Ziffern, Drehlünette und Wochentag mit Datum: Die 104 ist die Dreizeiger-Fliegeruhr von Sinn – ohne Chronograph, aber mit allem, was man im Alltag braucht.",
+   "bh": [
+    "Fliegeruhr aus Frankfurt",
+    "Gehäuse und Werk",
+    "Zifferblatt und Lünette",
+    "Eine Alternative zu den großen Namen"
+   ],
+   "b": [
+    "Sinn wurde 1961 von dem Piloten Helmut Sinn in Frankfurt gegründet und ist bis heute für Fliegeruhren bekannt. Seit 1994 gehört die Marke Lothar Schmidt, der technische Lösungen wie die Tegiment-Härtung vorantrieb. Die 104 übernimmt die Formensprache der Sinn-Fliegerchronographen und überträgt sie auf eine einfachere Dreizeigeruhr.",
+    "Das Edelstahlgehäuse misst 41 Millimeter, als Werk dient ein Sellita-Automatikkaliber aus der SW200-Familie. Durch das Saphirglas fällt der Blick auf ein mattschwarzes Zifferblatt mit großen arabischen Ziffern und Leuchtmasse.",
+    "Bei 3 Uhr zeigt die abgebildete Ausführung Wochentag und Datum in einem gemeinsamen Fenster. Die drehbare Lünette trägt eine Minutenskala mit Dreieck bei 12 Uhr; mit ihr lassen sich kurze Zeitspannen messen. Zusammen mit den großen Ziffern ergibt das den typischen Look einer Pilotenuhr.",
+    "In der Fliegeruhren-Szene gilt die 104 als ehrliche Alternative zu deutlich teureren Marken: robust, ordentlich verarbeitet und ohne Schnickschnack. Für viele ist sie der Einstieg in die Fliegeruhren von Sinn."
+   ],
+   "vh": [
+    [
+     "Weißes Zifferblatt",
+     "Neben dem schwarzen gibt es die 104 auch mit weißem Zifferblatt, die eine eigene Artikelnummer trägt."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl",
+    "Drehlünette mit Minutenskala und Dreieck bei 12 Uhr",
+    "Große arabische Ziffern auf Schwarz",
+    "Wochentag und Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2010er",
+     "Vorstellung der 104"
+    ]
+   ],
+   "x": [
+    "Die 104 bekommt man am Stahlband, Leder- oder Textilband; das Stahlband macht die Uhr deutlich schwerer.",
+    "Das Sellita-Werk ist weit verbreitet, Service und Ersatzteile sind unkompliziert."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl, Saphirglas"
+    ],
+    [
+     "Kaliber",
+     "Sellita SW200-Familie, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Wochentag, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "mark-xx",
+     "c": "IWCs Fliegeruhr Mark XX steht für dieselbe Idee einer klar ablesbaren Dreizeiger-Pilotenuhr."
+    },
+    {
+     "m": "laco-aachen",
+     "c": "Die Laco Aachen ist eine andere deutsche Fliegeruhr mit Automatikwerk in ähnlicher Größe."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Die Hamilton Khaki Field Mechanical ist eine ebenso nüchterne Werkzeuguhr mit großen Ziffern."
+    }
+   ]
   }
  ]
 }
