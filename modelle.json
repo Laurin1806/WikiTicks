@@ -50630,6 +50630,94 @@
      "c": "Die Grand Seiko SBGW231 ist eine schlichte, klassische Dreizeigeruhr derselben Zeit."
     }
    ]
+  },
+  {
+   "id": "portugieser-iw3716",
+   "model": "portugieser",
+   "ref": "IW3716",
+   "alias": [
+    "IW371605",
+    "3716"
+   ],
+   "var": 0,
+   "t": "IWC Portugieser Chronograph Ref. IW3716",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Der Portugieser Chronograph mit eigenem Werk: das bekannte Zifferblatt mit senkrecht übereinanderliegenden Zählern, seit 2020 mit IWC-Manufakturkaliber.",
+   "bh": [
+    "Ein Klassiker seit 1998",
+    "Gehäuse und Zifferblatt",
+    "Kaliber 69355",
+    "Ablösung der 3714"
+   ],
+   "b": [
+    "1998 stellte IWC den Portugieser Chronograph vor (Ref. 3714), dessen klares Zifferblatt mit aufgesetzten arabischen Ziffern die Linie bekannt machte. 2020 folgte die Referenz IW3716, die das Erscheinungsbild weitgehend übernimmt, aber ein eigenes Werk bekommt. Die Referenz IW371605 ist die Stahlausführung mit silberweißem Zifferblatt, blauen Ziffern und Zeigern und dunkelblauem Lederband.",
+    "Das Gehäuse misst 41 Millimeter und hat die dünne Lünette der Portugieser. Typisch ist die Anordnung der beiden Hilfszifferblätter senkrecht übereinander: oben der Minutenzähler, unten die kleine Sekunde. Am Rand verläuft die Minuterie im Eisenbahnstil, ein Datum gibt es nicht.",
+    "Im Inneren arbeitet das IWC-Kaliber 69355 aus der Familie 69000, ein Chronographenwerk mit Säulenrad und automatischem Aufzug. Durch den Saphirglasboden ist das Werk zu sehen.",
+    "Die 3714 mit ihrem Werk auf Basis des Valjoux 7750 wurde mehr als zwei Jahrzehnte gebaut. Äußerlich unterscheiden sich beide Generationen nur in Details; der wichtigste Unterschied ist das Werk, das bei der 3716 aus IWCs eigener Fertigung stammt und durch den Glasboden sichtbar ist."
+   ],
+   "vh": [
+    [
+     "Weitere Zifferblätter",
+     "Die 3716 gibt es mit verschiedenen Zifferblatt-Kombinationen, darunter Blau und Schwarz, sowie mit Goldgehäuse."
+    ]
+   ],
+   "m": [
+    "41 mm, dünne Lünette",
+    "Zähler senkrecht übereinander bei 12 und 6 Uhr",
+    "Aufgesetzte arabische Ziffern, Eisenbahn-Minuterie",
+    "Kein Datum, Saphirglasboden"
+   ],
+   "ev": [
+    [
+     "1998",
+     "Portugieser Chronograph Ref. 3714"
+    ],
+    [
+     "2020",
+     "Ref. IW3716 mit Kaliber 69355"
+    ]
+   ],
+   "x": [
+    "Die Vorgängerin 3714 ist gebraucht oft günstiger; wer ein Säulenradwerk und einen Glasboden möchte, wählt die 3716.",
+    "Bei Gebrauchtuhren die Chronographenfunktion prüfen: Start, Stopp und Nullstellung sollten sauber funktionieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "69355, Automatik, Säulenrad"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph"
+    ],
+    [
+     "Vorgänger",
+     "3714"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "chronomaster",
+     "c": "Zeniths Chronomaster Original von 2021 ist ein anderer klassischer Chronograph mit eigenem Werk aus diesen Jahren."
+    },
+    {
+     "m": "navitimer",
+     "c": "Breitling erneuerte 2022 die Navitimer, ebenfalls einen Chronographen mit langer Geschichte und Manufakturwerk."
+    },
+    {
+     "m": "black-bay-chrono",
+     "c": "Tudors Black Bay Chrono ist ein weiterer Automatikchronograph mit Säulenradwerk auf Basis des Breitling-Kalibers B01."
+    }
+   ]
   }
  ]
 }
