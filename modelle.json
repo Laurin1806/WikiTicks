@@ -48711,6 +48711,90 @@
      "c": "Breitlings Avenger ist eine robuste Fliegeruhr derselben Jahre."
     }
    ]
+  },
+  {
+   "id": "spirit-of-big-bang-601",
+   "model": "spirit-of-big-bang",
+   "ref": "601",
+   "alias": [
+    "601.CI.0173.RX",
+    "Spirit of Big Bang"
+   ],
+   "var": null,
+   "t": "Hublot Spirit of Big Bang Ref. 601",
+   "bau": "seit 2014",
+   "cap": "",
+   "s": "Die Big Bang in Tonneauform: Mit der Referenzfamilie 601 brachte Hublot 2014 eine zweite Formensprache in seine Kollektion – mit skelettiertem Zifferblatt und einem Hochfrequenz-Chronographen im Inneren.",
+   "bh": [
+    "Eine neue Form",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "2014 stellte Hublot die Spirit of Big Bang vor. Statt des runden Gehäuses der Big Bang von 2005 hat sie eine Tonneauform, die weicher wirkt; Elemente wie die H-förmigen Schrauben auf der Lünette und den Schichtbau übernahm sie von der Big Bang. Die Chronographen der ersten Serie tragen Referenzen, die mit 601 beginnen.",
+    "Das Gehäuse misst in der Ausführung der ersten Serie 45 Millimeter in der Breite. Die abgebildete Uhr hat Gehäuse und Lünette in Schwarz, vermutlich aus Keramik, dazu ein schwarzes Kautschukband. Das skelettierte Zifferblatt gibt den Blick auf das Chronographenwerk frei; drei Hilfszifferblätter, Leuchtindizes und ein rot lackierter Chronographenzeiger vervollständigen das Bild.",
+    "Im Inneren arbeitet das Kaliber HUB4700, ein skelettierter Automatik-Chronograph, der auf dem El Primero von Zenith basiert und wie dieses mit 36.000 Halbschwingungen pro Stunde schwingt.",
+    "Die Spirit of Big Bang ergänzt die runde Big Bang um eine eigenständige Form. Spätere Ausführungen, etwa mit kleinerem Gehäuse oder dem Hublot-eigenen Unico-Werk, tragen eigene Referenzen."
+   ],
+   "vh": [
+    [
+     "Materialien",
+     "Die 601-Familie gibt es unter anderem in Titan, schwarzer Keramik und King Gold; die Buchstaben nach der 601 bezeichnen das Material."
+    ],
+    [
+     "Spätere Spirit-Modelle",
+     "Später kamen kleinere Spirit-of-Big-Bang-Modelle und Ausführungen mit Unico-Werk hinzu, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "Tonneauförmiges Gehäuse mit H-Schrauben auf der Lünette",
+    "Skelettiertes Zifferblatt",
+    "Drei Hilfszifferblätter",
+    "Rot lackierter Chronographenzeiger"
+   ],
+   "ev": [
+    [
+     "2014",
+     "Vorstellung der Spirit of Big Bang"
+    ]
+   ],
+   "x": [
+    "Das Material steckt in den Buchstaben der Referenz; Keramik ist kratzfest, aber schlagempfindlich.",
+    "Die Preise schwanken je nach Material stark; gebraucht ist die Uhr oft deutlich günstiger als neu."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2014"
+    ],
+    [
+     "Gehäuse",
+     "45 mm, Tonneau, hier schwarze Keramik"
+    ],
+    [
+     "Kaliber",
+     "HUB4700, Automatik-Chronograph, skelettiert"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "big-bang",
+     "c": "Die runde Big Bang ist die Schwester, von der die Spirit ihre Bauweise übernahm."
+    },
+    {
+     "m": "royal-oak-concept",
+     "c": "Die Royal Oak Concept steht ebenfalls für skelettierte Chronographen in markanten Gehäusen."
+    },
+    {
+     "m": "octo-finissimo",
+     "c": "Bulgaris Octo Finissimo erschien im selben Jahr als ebenfalls ungewöhnlich geformte Luxusuhr."
+    }
+   ]
   }
  ]
 }
