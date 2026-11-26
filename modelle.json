@@ -5604,6 +5604,13 @@
      "Begehrteste Sportuhr ihrer Zeit, 2021 eingestellt"
     ],
     [
+     "5740/1G",
+     "seit 2018",
+     "40 mm",
+     "240 Q",
+     "Erste Nautilus mit ewigem Kalender"
+    ],
+    [
      "5811/1G",
      "seit 2022",
      "41 mm",
@@ -5724,23 +5731,35 @@
    "ev": [
     [
      "1976",
-     "Vorstellung der Nautilus 3700/1A"
+     "Vorstellung der Nautilus (Ref. 3700/1A)"
     ],
     [
      "1981",
-     "Mittelgroße 3800/1A"
+     "Mittelgroße Nautilus (Ref. 3800/1A)"
     ],
     [
      "2006",
-     "Referenz 5711/1A mit Kaliber 324 S C"
+     "Neue Generation mit Kaliber 324 S C (Ref. 5711/1A)"
+    ],
+    [
+     "2006",
+     "Mit Gangreserve, Mondphase und kleiner Sekunde (Ref. 5712/1A)"
+    ],
+    [
+     "2018",
+     "Erste Nautilus mit ewigem Kalender (Ref. 5740/1G)"
     ],
     [
      "2021",
-     "Einstellung der 5711/1A"
+     "Abschied mit olivgrünem Zifferblatt (Ref. 5711/1A-014)"
+    ],
+    [
+     "2021",
+     "Tiffany-Edition, 170 Stück (Ref. 5711/1A-018)"
     ],
     [
      "2022",
-     "5811/1G in Weißgold"
+     "Nachfolgerin in Weißgold (Ref. 5811/1G)"
     ]
    ],
    "x": [
@@ -5889,6 +5908,13 @@
      "33 mm",
      "215",
      "Erste mit Clous-de-Paris-Lünette"
+    ],
+    [
+     "5196",
+     "ab 2005",
+     "37 mm",
+     "215 PS",
+     "Kleine Sekunde, klassische Dresswatch"
     ],
     [
      "5119",
@@ -6270,6 +6296,10 @@
     [
      "2017",
      "»Jumbo« 5168G in Weißgold"
+    ],
+    [
+     "2019",
+     "»Jumbo« mit khakigrünem Zifferblatt (Ref. 5168G-010)"
     ]
    ],
    "w": "Das Kautschukband mit Würfelmuster macht die Aquanaut lässiger als die Nautilus.",
@@ -37448,14 +37478,14 @@
   {
    "id": "aquanaut-5164",
    "model": "aquanaut",
-   "ref": "5164A",
+   "ref": "5164",
    "alias": [
-    "5164",
+    "5164A",
     "5164A-001",
     "5164R"
    ],
    "var": 1,
-   "t": "Patek Philippe Aquanaut Ref. 5164A",
+   "t": "Patek Philippe Aquanaut Ref. 5164",
    "bau": "seit 2011",
    "cap": "",
    "s": "Zwei Zeitzonen, zwei Drücker an der linken Flanke und das bekannte Würfelmuster: Die Travel Time machte die Aquanaut zur Reiseuhr, ohne ihr den sportlichen Charakter zu nehmen.",
@@ -37529,15 +37559,15 @@
   {
    "id": "aquanaut-5167",
    "model": "aquanaut",
-   "ref": "5167A",
+   "ref": "5167",
    "alias": [
-    "5167",
+    "5167A",
     "5167A-001",
     "5167/1A",
     "5167R"
    ],
    "var": null,
-   "t": "Patek Philippe Aquanaut Ref. 5167A",
+   "t": "Patek Philippe Aquanaut Ref. 5167",
    "bau": "seit 2007",
    "cap": "",
    "s": "Würfelmuster auf Zifferblatt und Band, ein Stahlgehäuse mit Nautilus-Genen und 40 Millimeter Durchmesser: Die 5167A machte die Aquanaut zur zweiten Kultuhr aus Stahl im Hause Patek Philippe.",
@@ -37619,14 +37649,14 @@
   {
    "id": "aquanaut-5168",
    "model": "aquanaut",
-   "ref": "5168G",
+   "ref": "5168",
    "alias": [
-    "5168",
+    "5168G",
     "5168G-010",
     "5168G-001"
    ],
    "var": 0,
-   "t": "Patek Philippe Aquanaut Ref. 5168G",
+   "t": "Patek Philippe Aquanaut Ref. 5168",
    "bau": "seit 2017",
    "cap": "»Jumbo«",
    "s": "Mehr Gehäuse, mehr Gold und ein Zifferblatt in Khaki: Die »Jumbo« ist die größte Aquanaut mit Dreizeigerwerk und verwandelt die sportliche Uhr in eine Weißgold-Ikone.",
