@@ -36418,6 +36418,82 @@
      "c": "Vacheron Constantins Overseas wurde für viele zur Alternative, als die Nautilus kaum zu bekommen war."
     }
    ]
+  },
+  {
+   "id": "nautilus-5740",
+   "model": "nautilus",
+   "ref": "5740",
+   "alias": [
+    "5740/1G",
+    "5740/1G-001"
+   ],
+   "var": 3,
+   "t": "Patek Philippe Nautilus Ref. 5740",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Die erste Nautilus mit ewigem Kalender: ein ultraflaches Werk mit Mikrorotor in der Sportuhr, ganz aus Weißgold.",
+   "bh": [
+    "Grande Complication in der Sportuhr",
+    "Ein flaches Werk",
+    "Gehäuse und Band"
+   ],
+   "b": [
+    "Lange war die Nautilus eine schlichte Uhr mit Datum. Mit der Zeit kamen Komplikationen hinzu – Jahreskalender, Chronograph, eine zweite Zeitzone –, doch einen ewigen Kalender, eine der klassischen großen Komplikationen von Patek Philippe, hatte es in der Nautilus nicht gegeben. 2018 stellte Patek mit der Referenz 5740/1G die erste Nautilus mit ewigem Kalender vor.",
+    "Ein ewiger Kalender kennt die unterschiedlich langen Monate und die Schaltjahre und muss bis zum Jahr 2100 nicht korrigiert werden. Die 5740 zeigt Wochentag, Monat und Datum in drei Hilfszifferblättern, dazu die Mondphase, eine Schaltjahresanzeige und eine 24-Stunden-Anzeige, die hilft, den Kalender nicht versehentlich tagsüber zu verstellen. Im Inneren arbeitet das Kaliber 240 Q, ein ultraflaches Automatikwerk, dessen Aufzug ein kleiner, ins Werk eingelassener Rotor aus Gold übernimmt, ein sogenannter Mikrorotor. So bleibt die Uhr trotz der aufwendigen Mechanik erstaunlich flach.",
+    "Das Gehäuse misst 40 Millimeter und ist wie das Band aus 18 Karat Weißgold. Das blaue Zifferblatt trägt die typischen waagerechten Rillen der Nautilus, und die Hilfszifferblätter fügen sich ohne Unruhe in das Bild der Sportuhr ein. Durch den Saphirglasboden ist das Werk mit dem Mikrorotor zu sehen."
+   ],
+   "m": [
+    "40 mm, 18 Karat Weißgold, Bullaugen-Ohren",
+    "Drei Hilfszifferblätter für Wochentag, Monat und Datum",
+    "Mondphase, Schaltjahres- und 24-Stunden-Anzeige",
+    "Blaues Zifferblatt mit waagerechten Rillen"
+   ],
+   "ev": [
+    [
+     "2018",
+     "Vorstellung der ersten Nautilus mit ewigem Kalender"
+    ]
+   ],
+   "x": [
+    "Die 24-Stunden-Anzeige ist bei einem ewigen Kalender wichtig: Man sollte den Kalender nicht in den Stunden um Mitternacht verstellen, wenn die Schaltung gerade arbeitet.",
+    "Der Mikrorotor zieht etwas weniger kräftig auf als ein großer Rotor; wer die Uhr selten trägt, legt sie am besten auf einen Uhrenbeweger."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, 18 Karat Weißgold, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "240 Q, Automatik mit Mikrorotor, ultraflach"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, ewiger Kalender mit Wochentag, Monat, Datum, Schaltjahr, Mondphase, 24-Stunden-Anzeige"
+    ],
+    [
+     "Band",
+     "integriertes Weißgoldband"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Audemars Piguet bietet die Royal Oak ebenfalls mit ewigem Kalender an, seit 2015 als Referenz 26574."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas gibt es mit ultraflachem ewigem Kalender, ebenfalls mit integriertem Band."
+    },
+    {
+     "m": "chrono-ewiger-kalender",
+     "c": "Patek Philippes klassischer Chronograph mit ewigem Kalender zeigt die Komplikation in ihrer traditionellen Form."
+    }
+   ]
   }
  ]
 }
