@@ -44574,6 +44574,104 @@
      "c": "Die Tudor Pelagos setzt wie die U1 auf ein besonderes Gehäusematerial und klare Werkzeugoptik."
     }
    ]
+  },
+  {
+   "id": "tangente-139",
+   "model": "tangente",
+   "ref": "139",
+   "alias": [
+    "139",
+    "Tangente",
+    "101"
+   ],
+   "var": null,
+   "t": "Nomos Tangente Ref. 139",
+   "bau": "seit 1992",
+   "cap": "",
+   "s": "Schlanke Ziffern, blau gebläute Zeiger, viel Weiß und ein Gehäuse von nur 35 Millimetern: Die Tangente ist die Uhr, mit der Nomos aus Glashütte bekannt wurde – und bis heute ihr Gesicht.",
+   "bh": [
+    "Ein Zifferblatt aus den 1930er-Jahren",
+    "Gehäuse und Werk",
+    "Die Bauhaus-Uhr aus Glashütte",
+    "Ein Klassiker mit vielen Ablegern"
+   ],
+   "b": [
+    "Als Nomos 1992 seine ersten Uhren vorstellte, war die Tangente das Modell, das am meisten auffiel. Ihr Zifferblatt greift Entwürfe aus den 1930er-Jahren auf: schmale arabische Ziffern an den geraden Stunden, feine Striche dazwischen, eine kleine Sekunde bei 6 Uhr und sonst viel freie Fläche. Die gebläuten Zeiger sind lang und dünn, das Schriftbild ist zurückhaltend.",
+    "Das runde Edelstahlgehäuse misst 35 Millimeter und ist sehr flach, die langen, geraden Bandanstöße lassen die Uhr am Handgelenk größer wirken. Im Inneren arbeitet das Handaufzugskaliber Alpha mit rund 43 Stunden Gangreserve. Datum oder Automatik gibt es bei dieser Grundausführung nicht, die Uhr zeigt Stunden, Minuten und Sekunden – mehr nicht.",
+    "Die Tangente wurde schnell zum Sinnbild einer modernen, schlichten Uhr im Geist des Bauhauses und gewann zahlreiche Designpreise. Für viele Käufer war sie der Einstieg in die Glashütter Uhrmacherei, und sie trug wesentlich dazu bei, dass Nomos nach der Wiedervereinigung in kurzer Zeit eine bekannte Marke wurde.",
+    "Die Grundform ist seit über 30 Jahren nahezu unverändert. Um sie herum ist eine ganze Familie entstanden: größere Gehäuse, Ausführungen mit Datum und Gangreserveanzeige und seit 2015 die Tangente neomatik mit einem besonders flachen Automatikwerk. Die 35-Millimeter-Tangente mit Handaufzug bleibt aber das Original."
+   ],
+   "vh": [
+    [
+     "Geschlossener Boden: Ref. 101",
+     "Neben der Ausführung 139 gibt es die Tangente auch mit geschlossenem Stahlboden unter der Referenz 101; Zifferblatt und Werk entsprechen sich."
+    ],
+    [
+     "Tangente neomatik",
+     "Seit 2015 gibt es die Tangente mit dem flachen Automatikkaliber DUW 3001 und der von Nomos selbst entwickelten Swing-Hemmung, in 35 und 39 Millimetern."
+    ],
+    [
+     "Größere Gehäuse und Komplikationen",
+     "Auf der Tangente bauen größere Ausführungen sowie Varianten mit Datum und Gangreserveanzeige auf, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "35 mm, flaches Edelstahlgehäuse mit langen, geraden Anstößen",
+    "Schlanke arabische Ziffern an den geraden Stunden",
+    "Gebläute Zeiger",
+    "Kleine Sekunde bei 6 Uhr, kein Datum"
+   ],
+   "ev": [
+    [
+     "1992",
+     "Vorstellung mit den ersten Nomos-Modellen"
+    ],
+    [
+     "2015",
+     "Tangente neomatik mit Automatikwerk ergänzt die Linie"
+    ]
+   ],
+   "x": [
+    "Die Tangente mit Handaufzug wird seit Jahrzehnten nahezu unverändert gebaut; ältere Exemplare unterscheiden sich vor allem in Details der Beschriftung.",
+    "Wer die Uhr täglich tragen will, sollte das Aufziehen mögen: Das Alpha-Werk hat keinen automatischen Aufzug.",
+    "35 Millimeter wirken durch die langen Anstöße größer, als die Zahl vermuten lässt – am besten anprobieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 1992"
+    ],
+    [
+     "Gehäuse",
+     "35 mm, Edelstahl, flach"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "Alpha, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "max-bill",
+     "c": "Die Junghans max bill ist die andere große deutsche Uhr im Bauhaus-Stil und wurde 1997 neu aufgelegt."
+    },
+    {
+     "m": "lange-1",
+     "c": "Mit der Lange 1 kehrte 1994 auch A. Lange & Söhne nach Glashütte zurück – zwei Jahre nach den ersten Nomos-Uhren."
+    },
+    {
+     "m": "master-control",
+     "c": "Jaeger-LeCoultres Master Control erschien 1992 ebenfalls als schlichte, klassische Dreizeigeruhr."
+    }
+   ]
   }
  ]
 }
