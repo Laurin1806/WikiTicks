@@ -50205,6 +50205,93 @@
      "c": "Die Royal Oak, besonders als extraflache Ausführung, ist der Klassiker der flachen Uhr mit integriertem Band."
     }
    ]
+  },
+  {
+   "id": "pasha-w31074m7",
+   "model": "pasha",
+   "ref": "W31074M7",
+   "alias": [
+    "W31074M7"
+   ],
+   "var": null,
+   "t": "Cartier Pasha de Cartier Ref. W31074M7",
+   "bau": "bis 2019",
+   "cap": "",
+   "s": "Die Pasha in der Form, die Gérald Genta ihr gab: rund, kräftig, mit vier großen Ziffern und einer an einer Kette gesicherten Kronenkappe – hier als Automatikuhr aus Stahl mit Gliederband.",
+   "bh": [
+    "Gentas runde Cartier",
+    "Gehäuse und Zifferblatt",
+    "Die erste Generation",
+    "Abgelöst durch die neue Pasha"
+   ],
+   "b": [
+    "Cartier stellte die Pasha 1985 vor; entworfen hatte sie Gérald Genta, der zuvor Royal Oak und Nautilus gezeichnet hatte. Der Name geht auf eine Legende zurück: Der Pascha von Marrakesch soll in den 1930er-Jahren bei Cartier eine wasserdichte Uhr bestellt haben, die er beim Schwimmen tragen konnte. Die Referenz W31074M7 ist eine Automatikausführung der ersten Generation aus Edelstahl mit cremeweißem Zifferblatt und Gliederband.",
+    "Typisch sind die vier großen arabischen Ziffern 12, 3, 6 und 9, die gebläuten Schwertzeiger und die Kronenkappe mit blauem Cabochon, die mit einer kleinen Kette am Gehäuse hängt. Die Lünette trägt eine Minutenskala mit einem Dreieck bei 12 Uhr, das kleine Datumsfenster sitzt zwischen 4 und 5 Uhr, über der Mitte steht »Automatic«.",
+    "Die erste Pasha-Generation wurde über mehr als drei Jahrzehnte in vielen Größen, Metallen und Ausführungen gebaut, mit Quarz- und Automatikwerken. In den 1990er-Jahren kamen die Pasha C, die Pasha Seatimer und die Pasha Grille hinzu. Sie war das runde Gegenstück zu den Formuhren Tank und Santos.",
+    "2020 ersetzte Cartier die erste Generation durch eine grundlegend überarbeitete Pasha mit 41 Millimetern, Manufakturkaliber 1847 MC, Glasboden und QuickSwitch-Bändern (Ref. WSPA0009). Die ältere Pasha ist seitdem nur noch gebraucht erhältlich."
+   ],
+   "vh": [
+    [
+     "Pasha C",
+     "Die kleinere Pasha C aus den 1990er-Jahren hatte ein Edelstahlgehäuse mit Schraubboden und war die zugängliche Version der Linie."
+    ]
+   ],
+   "m": [
+    "Rundes Gehäuse mit vier großen arabischen Ziffern",
+    "Kronenkappe mit blauem Cabochon an einer Kette",
+    "Gebläute Schwertzeiger",
+    "Datum zwischen 4 und 5 Uhr"
+   ],
+   "ev": [
+    [
+     "1985",
+     "Vorstellung der Pasha, Entwurf von Gérald Genta"
+    ],
+    [
+     "2020",
+     "Ablösung durch die neue Pasha mit 41 mm und Kaliber 1847 MC"
+    ]
+   ],
+   "x": [
+    "Die Kette der Kronenkappe kann reißen oder verloren gehen; fehlt sie oder ist sie ersetzt, sollte man das wissen.",
+    "Die erste Generation gibt es in sehr vielen Referenzen; Werk, Größe und Material vor dem Kauf anhand der Referenznummer prüfen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "erste Generation 1985–2019"
+    ],
+    [
+     "Gehäuse",
+     "rund, Edelstahl, Kronenkappe mit Kette"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Datum"
+    ],
+    [
+     "Nachfolger",
+     "Pasha (2020), z. B. WSPA0009"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak stammt ebenfalls von Gérald Genta und prägte dessen Stil der Luxus-Sportuhr."
+    },
+    {
+     "m": "nautilus",
+     "c": "Gentas Nautilus für Patek Philippe ist die andere große Stahlsportuhr aus seiner Feder."
+    },
+    {
+     "m": "piaget-polo",
+     "c": "Die Piaget Polo steht wie die Pasha für die glänzende Luxusuhr der 1980er-Jahre."
+    }
+   ]
   }
  ]
 }
