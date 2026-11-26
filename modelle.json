@@ -43350,6 +43350,110 @@
      "c": "Die Longines Spirit ist eine moderne Fliegeruhr in ähnlicher Preisklasse."
     }
    ]
+  },
+  {
+   "id": "prx-t137-407",
+   "model": "prx",
+   "ref": "T137.407.11.041.00",
+   "alias": [
+    "T137.407",
+    "T137.407.11.091.00"
+   ],
+   "var": null,
+   "t": "Tissot PRX Ref. T137.407.11.041.00",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Die PRX mit Automatikwerk: flaches Tonneau-Gehäuse, integriertes Band, blaues Waffelzifferblatt – und für viele der günstigste Weg zum Stil der großen Luxus-Sportuhren der 1970er-Jahre.",
+   "bh": [
+    "Rückkehr eines Namens von 1978",
+    "Gehäuse und Band",
+    "Powermatic 80 im Inneren",
+    "Ein Bestseller seiner Zeit"
+   ],
+   "b": [
+    "Die erste PRX brachte Tissot 1978; der Name steht für »Precise, Robust, X«, wobei das X die römische Zehn für 10 bar Wasserdichtigkeit meint. 2021 kehrte die Uhr zurück, zunächst mit Quarzwerk und noch im selben Jahr als PRX Powermatic 80 mit Automatikwerk. Die Referenz T137.407.11.041.00 ist die Ausführung mit 40 Millimetern, blauem Zifferblatt und Stahlband.",
+    "Das flache Tonneau-Gehäuse geht ohne sichtbare Stege in das Gliederband über, wie bei den Sportuhren mit integriertem Band aus den 1970er-Jahren. Lünette und Gehäuse wechseln zwischen satinierten und polierten Flächen. Das Zifferblatt hat ein feines Waffelmuster, aufgesetzte Stabindizes mit Leuchtmasse und ein Datumsfenster bei 3 Uhr; die Uhr ist bis 100 Meter wasserdicht.",
+    "Angetrieben wird die Uhr vom Powermatic 80, einem Automatikwerk der Swatch Group mit rund 80 Stunden Gangreserve. Damit kann die Uhr ein Wochenende lang abgelegt werden und läuft am Montag noch. Auf dem Zifferblatt weist der Schriftzug »POWERMATIC 80« unter »PRX« auf das Werk hin.",
+    "Die Neuauflage traf genau den Trend zu Uhren mit integriertem Band und war schnell sehr gefragt, in den ersten Monaten war die Automatikversion vielerorts vergriffen. Tissot baute die Linie danach stark aus, mit weiteren Zifferblattfarben, kleineren Gehäusen und einem Chronographen. Die blaue 40-Millimeter-Ausführung gilt bis heute als die klassische PRX."
+   ],
+   "vh": [
+    [
+     "Grünes Zifferblatt: Ref. T137.407.11.091.00",
+     "Die grüne Ausführung mit demselben Waffelmuster gehört zu den beliebtesten Farben der PRX Powermatic 80."
+    ],
+    [
+     "Weitere Farben",
+     "Neben Blau und Grün gibt es die PRX Powermatic 80 unter anderem mit schwarzem, silbernem und eisblauem Zifferblatt sowie in Ausführungen mit goldfarbener Beschichtung."
+    ],
+    [
+     "Quarzversion: Ref. T137.410",
+     "Die PRX mit 40 Millimetern gibt es auch mit Quarzwerk; ihr Zifferblatt ist glatt statt gemustert."
+    ],
+    [
+     "Kleinere Größe und Chronograph",
+     "Später kamen eine PRX Powermatic 80 mit 35 Millimetern und ein Automatik-Chronograph im selben Stil hinzu."
+    ]
+   ],
+   "m": [
+    "Flaches Tonneau-Gehäuse mit integriertem Gliederband",
+    "Zifferblatt mit Waffelmuster",
+    "»PRX POWERMATIC 80« auf dem Zifferblatt",
+    "Datumsfenster bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1978",
+     "Erste PRX"
+    ],
+    [
+     "2021",
+     "Neuauflage, im selben Jahr als Powermatic 80"
+    ]
+   ],
+   "x": [
+    "Beim Kauf auf die vollständige Länge des Bandes achten: Fehlende Glieder sind bei integrierten Bändern nicht beliebig ersetzbar.",
+    "Auf Zifferblatt und Datumsfenster lässt sich die Automatikversion gut von der Quarzversion mit glattem Zifferblatt unterscheiden."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl, integriertes Band"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "Powermatic 80, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle brachte ab 2019 ebenfalls eine Sportuhr mit integriertem Band zurück – auf deutlich höherem Preisniveau."
+    },
+    {
+     "m": "laureato",
+     "c": "Die Laureato von Girard-Perregaux gehört zu den Uhren mit integriertem Band, die im selben Trend wieder gefragt waren."
+    },
+    {
+     "m": "moonswatch",
+     "c": "Die MoonSwatch löste ein Jahr nach der PRX einen ähnlichen Ansturm auf eine bezahlbare Uhr aus der Swatch Group aus."
+    }
+   ]
   }
  ]
 }
