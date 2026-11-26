@@ -42898,6 +42898,93 @@
      "c": "Die Seiko 5 Sports ist in denselben Jahren eine der beliebtesten mechanischen Einsteigeruhren."
     }
    ]
+  },
+  {
+   "id": "le-locle-t006-407",
+   "model": "le-locle",
+   "ref": "T006.407.11.033.00",
+   "alias": [
+    "T006.407"
+   ],
+   "var": null,
+   "t": "Tissot Le Locle Ref. T006.407.11.033.00",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Römische Ziffern, guillochiertes Zifferblatt, gebläute Zeiger: Die Le Locle Powermatic 80 ist die klassische Dresswatch von Tissot, benannt nach dem Ort, an dem alles begann.",
+   "bh": [
+    "Ein Name aus dem Jura",
+    "Zifferblatt und Gehäuse",
+    "Das Werk",
+    "Eine Uhr für den Einstieg"
+   ],
+   "b": [
+    "Tissot wurde 1853 in Le Locle im Neuenburger Jura gegründet, und die Le Locle trägt den Namen dieses Ortes. Sie ist die klassische Dresswatch der Marke. Die Referenz T006.407.11.033.00 ist die Ausführung aus Edelstahl mit silberweißem Zifferblatt und Gliederband.",
+    "Das Zifferblatt hat ein guillochiertes Muster, schwarze römische Ziffern und gebläute Zeiger, das Datum erscheint bei 3 Uhr. Unter der 12 stehen »TISSOT« und »1853«, über der 6 der Schriftzug »Le Locle Powermatic 80«. Das polierte Gehäuse von rund 39 Millimetern hat eine schmale Lünette und eine Krone mit Tissot-Logo.",
+    "Im Inneren arbeitet das Automatikwerk Powermatic 80 mit rund 80 Stunden Gangreserve. Für eine Uhr dieser Preisklasse ist diese Laufzeit ungewöhnlich lang; die Uhr bleibt über ein Wochenende in Gang.",
+    "Die Le Locle gilt als gute erste mechanische Uhr: zurückhaltend, ordentlich verarbeitet und günstig. Wer eine klassische Uhr mit römischen Ziffern sucht, findet hier eine der preiswertesten Möglichkeiten aus der Schweiz."
+   ],
+   "vh": [
+    [
+     "Lederband und andere Zifferblätter",
+     "Die Le Locle gibt es auch mit Lederband und mit anderen Zifferblättern, etwa in Schwarz oder mit Stabindizes statt römischer Ziffern."
+    ]
+   ],
+   "m": [
+    "Guillochiertes silberweißes Zifferblatt",
+    "Schwarze römische Ziffern, gebläute Zeiger",
+    "»Le Locle Powermatic 80« über 6 Uhr",
+    "Datumsfenster bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1853",
+     "Tissot wird in Le Locle gegründet"
+    ],
+    [
+     "2009",
+     "Le Locle wird UNESCO-Welterbe"
+    ]
+   ],
+   "x": [
+    "Die Le Locle ist neu und gebraucht leicht zu finden; gut erhaltene Exemplare mit Box und Papieren kosten kaum mehr.",
+    "Das Gliederband macht die Uhr sportlicher, ein Lederband betont den klassischen Charakter."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "≈ 39 mm, Edelstahl, poliert"
+    ],
+    [
+     "Kaliber",
+     "Powermatic 80, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "master-collection",
+     "c": "Die Longines Master Collection ist die klassische Automatikuhr einer Preisstufe darüber."
+    },
+    {
+     "m": "presage-cocktail",
+     "c": "Die Seiko Presage Cocktail Time spricht Einsteiger an, die eine elegante mechanische Uhr suchen."
+    },
+    {
+     "m": "junghans-meister",
+     "c": "Die Junghans Meister ist eine deutsche Dresswatch mit ähnlich klassischem Auftritt."
+    }
+   ]
   }
  ]
 }
