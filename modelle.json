@@ -50795,6 +50795,87 @@
      "c": "Die Grand Seiko SBGW231 ist eine schlichte Handaufzugsuhr in klassischer Form."
     }
    ]
+  },
+  {
+   "id": "reverso-q3858520",
+   "model": "reverso",
+   "ref": "Q3858520",
+   "alias": [
+    "Q3858520"
+   ],
+   "var": 0,
+   "t": "Jaeger-LeCoultre Reverso Classic Large Small Seconds Ref. Q3858520",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Die Reverso für jeden Tag: ein großes Wendegehäuse aus Stahl, arabische Ziffern, kleine Sekunde – und eine leere Rückseite für eine Gravur.",
+   "bh": [
+    "Ein Gehäuse zum Wenden",
+    "Gehäuse und Zifferblatt",
+    "Das Werk",
+    "Stellung in der Familie"
+   ],
+   "b": [
+    "Die Reverso entstand 1931 für Polospieler in Britisch-Indien, deren Uhrengläser beim Spiel zerbrachen: Das rechteckige Gehäuse lässt sich in seinem Rahmen seitlich verschieben und umdrehen, sodass nur der massive Boden nach außen zeigt. Die Referenz Q3858520 führt dieses Prinzip in der Linie Reverso Classic fort, als große Ausführung mit kleiner Sekunde, der Reverso Classic Large Small Seconds.",
+    "Das Stahlgehäuse misst 45,6 × 27,4 Millimeter und trägt oben und unten die drei waagerechten Zierrillen im Art-déco-Stil. Das silberfarbene Zifferblatt hat schwarze arabische Ziffern, gebläute Zeiger für Stunden und Minuten und eine kleine Sekunde bei 6 Uhr. Die Rückseite ist glatt und bietet Platz für eine Gravur.",
+    "Im Inneren arbeitet das Handaufzugskaliber 822/2. Der Rahmen mit der Schiene, auf der das Gehäuse gleitet und wieder einrastet, folgt im Prinzip noch dem Patent von 1931.",
+    "Die Classic Large Small Seconds ist die schlichte Reverso mit Handaufzug neben der Tribute-Linie, die sich enger an die Optik der 1930er-Jahre hält. Viele Besitzer nutzen die Rückseite für Initialen oder ein Wappen; Jaeger-LeCoultre bietet Gravuren nach Kundenwunsch an."
+   ],
+   "m": [
+    "Rechteckiges Wendegehäuse, 45,6 × 27,4 mm",
+    "Drei Zierrillen oben und unten",
+    "Schwarze arabische Ziffern, gebläute Zeiger",
+    "Kleine Sekunde bei 6 Uhr"
+   ],
+   "ev": [
+    [
+     "1931",
+     "Patent und erste Reverso"
+    ],
+    [
+     "2017",
+     "Reverso Classic Large Small Seconds, Ref. Q3858520"
+    ]
+   ],
+   "x": [
+    "Eine Gravur auf der Rückseite macht die Uhr persönlich, schmälert aber meist den Wiederverkaufswert.",
+    "Der Wendemechanismus sollte ohne Spiel gleiten und satt einrasten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "45,6 × 27,4 mm, Edelstahl, wendbar"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "822/2, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "tank",
+     "c": "Die Cartier Tank ist der andere große Klassiker unter den rechteckigen Uhren."
+    },
+    {
+     "m": "tetra",
+     "c": "Die Nomos Tetra zeigt, wie zeitgemäß eine eckige Handaufzugsuhr aussehen kann."
+    },
+    {
+     "m": "fiftysix",
+     "c": "Vacheron Constantins Fiftysix von 2018 ist eine andere klassische Uhr zum Anzug aus diesen Jahren."
+    }
+   ]
   }
  ]
 }
