@@ -40821,6 +40821,81 @@
      "c": "Die F-91W ist die andere Casio-Digitaluhr, die seit Jahrzehnten unverändert weitergebaut wird."
     }
    ]
+  },
+  {
+   "id": "f-91w-f-91w",
+   "model": "f-91w",
+   "ref": "F-91W",
+   "alias": [
+    "F-91W-1"
+   ],
+   "var": null,
+   "t": "Casio F-91W Ref. F-91W",
+   "bau": "seit 1989",
+   "cap": "",
+   "s": "Leicht, billig, unverwüstlich: Die F-91W ist seit 1989 im Programm und vielleicht die meistgetragene Uhr der Welt.",
+   "bh": [
+    "Eine Uhr für alle",
+    "Das Modul 593",
+    "Von der Wühlkiste zur Ikone"
+   ],
+   "b": [
+    "Die F-91W erschien 1989 und wird bis heute fast unverändert gebaut. Sie hat ein Kunststoffgehäuse von rund 35 Millimetern, eine LCD-Anzeige und ein Kunststoffband. Weil sie extrem günstig ist, wird sie jedes Jahr in Millionenstückzahl verkauft.",
+    "Im Inneren arbeitet das Modul 593, technisch einfach: LCD, Quarzwerk und Knopfzelle, die etwa sieben Jahre hält. Geboten werden Datum, Wochentag, Stoppuhr, täglicher Alarm, Stundensignal und eine kleine Beleuchtung. Die Uhr ist nur gegen Spritzwasser geschützt und nicht zum Schwimmen oder Tauchen gedacht.",
+    "Gerade die Einfachheit machte die F-91W zur Designikone. Sie taucht in Film und Mode auf und steht in Museen; im Netz gibt es eine Szene für Umbauten mit Metallgehäusen, farbigen Displays und anderen Bändern."
+   ],
+   "m": [
+    "Rund 35 mm, schwarzes Kunststoffgehäuse",
+    "LCD-Anzeige mit Datum und Wochentag",
+    "Schriftzüge »ALARM CHRONOGRAPH« und »WATER RESIST«",
+    "Drei Drücker"
+   ],
+   "ev": [
+    [
+     "1989",
+     "Vorstellung der F-91W"
+    ],
+    [
+     "heute",
+     "Weiterhin fast unverändert im Programm"
+    ]
+   ],
+   "x": [
+    "Die F-91W ist nur spritzwassergeschützt – zum Schwimmen ist sie nicht geeignet.",
+    "Wegen ihrer Verbreitung gibt es viele Fälschungen; echte Exemplare kauft man am besten im Fachhandel."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 1989"
+    ],
+    [
+     "Gehäuse",
+     "≈ 35 mm, Kunststoff"
+    ],
+    [
+     "Kaliber",
+     "Modul 593, Quarz, digital"
+    ],
+    [
+     "Funktionen",
+     "Datum, Wochentag, Stoppuhr, Alarm, Stundensignal, Licht"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "swatch-original",
+     "c": "Die Swatch war in denselben Jahren die andere günstige Kunststoffuhr, die zum Massenphänomen wurde."
+    },
+    {
+     "m": "junghans-mega",
+     "c": "Die Junghans Mega kam 1990 als Funkuhr heraus – ebenfalls digital, aber technisch ehrgeiziger."
+    },
+    {
+     "m": "g-shock",
+     "c": "Die G-Shock DW-5600 ist die robuste große Schwester aus dem gleichen Haus."
+    }
+   ]
   }
  ]
 }
