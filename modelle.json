@@ -42356,6 +42356,97 @@
      "c": "Die Oris Divers Sixty-Five ist eine weitere Neuauflage im Stil der 1960er-Jahre."
     }
    ]
+  },
+  {
+   "id": "divers-sixty-five-01-733-7707-4064",
+   "model": "divers-sixty-five",
+   "ref": "01 733 7707 4064",
+   "alias": [
+    "01 733 7707 4064-07 8 20 18"
+   ],
+   "var": null,
+   "t": "Oris Divers Sixty-Five Ref. 01 733 7707 4064",
+   "bau": "seit Mitte der 2010er-Jahre",
+   "cap": "",
+   "s": "Schwarzes Zifferblatt, cremefarbene Leuchtmasse und 40 Millimeter: Die Divers Sixty-Five erinnert an die erste Oris-Taucheruhr von 1965, hier am Stahlband.",
+   "bh": [
+    "Das Vorbild von 1965",
+    "Gehäuse und Zifferblatt",
+    "Das Werk",
+    "Eine Retro-Taucheruhr für jeden Tag"
+   ],
+   "b": [
+    "Oris baute 1965 seine erste Taucheruhr. Zum 50. Jubiläum erschien die Divers Sixty-Five, die diese Uhr neu interpretiert. Die Referenz 01 733 7707 4064 ist die Ausführung mit 40 Millimetern, schwarzem Zifferblatt und Stahlband.",
+    "Gehäuse und Gliederband sind aus Edelstahl, die Drehlünette ist schwarz mit Minutenskala und Leuchtpunkt im Dreieck bei 12 Uhr. Das Zifferblatt trägt runde und stabförmige Indizes mit cremefarben getönter Leuchtmasse, Zeiger im Vintage-Stil und ein Datum bei 6 Uhr; aufgedruckt ist »DIVERS SIXTY-FIVE 100m/330ft«.",
+    "Im Inneren arbeitet das Oris-Kaliber 733, ein Automatikwerk auf Sellita-Basis, wie die 733 in der Referenz anzeigt. Es ist robust und von vielen Uhrmachern leicht zu warten.",
+    "Die Divers Sixty-Five ist eine der beliebtesten Retro-Taucheruhren im mittleren Preissegment. Ihre Gestaltung bleibt nah an den 1960er-Jahren, die Technik ist modern."
+   ],
+   "vh": [
+    [
+     "Bronze",
+     "Die Divers Sixty-Five gibt es auch mit Gehäuse aus Bronze, das mit der Zeit eine Patina bekommt."
+    ],
+    [
+     "Andere Farben und Größen",
+     "Neben Schwarz gibt es Zifferblätter in Blau, Grün und weiteren Farben sowie kleinere Gehäuse."
+    ]
+   ],
+   "m": [
+    "40 mm, Edelstahl, schwarze Drehlünette",
+    "Cremefarbene Leuchtmasse, Zeiger im Vintage-Stil",
+    "Datum bei 6 Uhr",
+    "»DIVERS SIXTY-FIVE 100m/330ft« auf dem Zifferblatt"
+   ],
+   "ev": [
+    [
+     "1965",
+     "Erste Oris-Taucheruhr"
+    ],
+    [
+     "2015",
+     "Divers Sixty-Five zum 50. Jubiläum"
+    ]
+   ],
+   "x": [
+    "Das Stahlband hat einen klassischen Charakter, die Uhr wirkt aber auch am Leder- oder Textilband.",
+    "Mit 100 Metern Wasserdichtigkeit ist die Uhr eher für Schwimmen und Schnorcheln als für tiefe Tauchgänge gedacht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit Mitte der 2010er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "Oris 733, Automatik (Sellita-Basis)"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay",
+     "c": "Die Tudor Black Bay steht ebenfalls für eine Taucheruhr im Stil der 1950er- und 1960er-Jahre."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Die Omega Seamaster 300 wurde in denselben Jahren als Retro-Taucheruhr neu aufgelegt."
+    },
+    {
+     "m": "legend-diver",
+     "c": "Die Longines Legend Diver greift eine Taucheruhr der 1960er-Jahre auf."
+    }
+   ]
   }
  ]
 }
