@@ -38980,6 +38980,104 @@
      "c": "Jaeger-LeCoultres Master Control ist eine klassische Dreizeigeruhr für denselben Käuferkreis."
     }
    ]
+  },
+  {
+   "id": "planet-ocean-215",
+   "model": "planet-ocean",
+   "ref": "215.30.44.21",
+   "alias": [
+    "215.30.44.21",
+    "Planet Ocean 600M Master Chronometer"
+   ],
+   "var": null,
+   "t": "Omega Seamaster Planet Ocean Ref. 215.30.44.21",
+   "bau": "seit 2016",
+   "cap": "",
+   "s": "Die große Taucheruhr der Seamaster-Familie in ihrer dritten Generation: 43,5 Millimeter, 600 Meter, orangefarbene Akzente und ein Werk, das Magnetfeldern trotzt.",
+   "bh": [
+    "Die dritte Generation",
+    "Gehäuse und Lünette",
+    "Master Chronometer",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "2016 stellte Omega die dritte Generation der Planet Ocean vor, die Referenz 215.30.44.21. Sie folgte auf die Generation 232.30.42.21 mit dem Kaliber 8500, die seit 2011 gebaut worden war, und auf die erste Planet Ocean 2200.50 von 2005. Das Konzept blieb gleich: eine kräftige Taucheruhr, die neben der eleganteren Diver 300M steht.",
+    "Das Stahlgehäuse misst 43,5 Millimeter, ist bis 600 Meter wasserdicht und hat bei 10 Uhr ein Heliumventil für Sättigungstaucher. Die einseitig drehbare Lünette trägt einen Einsatz aus Keramik mit Taucherskala. Typisch für die Planet Ocean sind die orangefarbenen Akzente – je nach Ausführung auf Lünette, Zeigern oder Schriftzügen –, die unter Wasser gut zu erkennen sind.",
+    "Im Inneren arbeitet das Automatikkaliber 8900 mit Co-Axial-Hemmung und zwei Federhäusern, das rund 60 Stunden Gangreserve bietet. Es ist als Master Chronometer vom Institut METAS geprüft und widersteht Magnetfeldern bis 15.000 Gauß; durch den Glasboden ist es zu sehen.",
+    "Die Referenz 215.30.44.21 ist die heutige große Taucheruhr von Omega. Neben ihr gibt es eine kleinere Planet Ocean mit 39,5 Millimetern sowie Chronographen, GMT-Modelle und die Tieftauchuhren der »Ultra Deep«-Reihe, die eigene Referenzen tragen."
+   ],
+   "vh": [
+    [
+     "Kleinere Größe: 39,5 mm",
+     "Für schmalere Handgelenke gibt es die Planet Ocean seit 2016 auch mit 39,5 Millimetern; sie trägt eine eigene Referenz."
+    ],
+    [
+     "Farben und Bänder",
+     "Die 43,5-Millimeter-Version gibt es mit schwarzer, blauer oder orangefarbener Lünette und an Gliederband, Kautschuk- oder Lederband."
+    ]
+   ],
+   "m": [
+    "43,5 mm, Edelstahl, Heliumventil bei 10 Uhr",
+    "Keramiklünette, einseitig drehbar",
+    "Orangefarbene Akzente",
+    "Bis 600 m wasserdicht",
+    "Glasboden mit Kaliber 8900"
+   ],
+   "ev": [
+    [
+     "2016",
+     "Vorstellung der Ref. 215.30.44.21 mit Kaliber 8900"
+    ],
+    [
+     "2019",
+     "Ein Prototyp der Ultra Deep erreicht fast 11.000 m im Marianengraben"
+    ]
+   ],
+   "x": [
+    "Die Planet Ocean trägt dicker und schwerer als die Diver 300M; wer eine schlankere Uhr sucht, sollte beide vergleichen.",
+    "Die Referenz unterscheidet sich je nach Lünettenfarbe und Band in den letzten Stellen.",
+    "Die Gangreserve von rund 60 Stunden überbrückt ein Wochenende ohne Tragen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2016"
+    ],
+    [
+     "Gehäuse",
+     "43,5 mm, Edelstahl, Glasboden"
+    ],
+    [
+     "Wasserdicht",
+     "600 m, Heliumventil"
+    ],
+    [
+     "Kaliber",
+     "8900, Automatik, Co-Axial, Master Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ],
+    [
+     "Vorgänger",
+     "232.30.42.21"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "sea-dweller",
+     "c": "Die Rolex Sea-Dweller ist wie die Planet Ocean eine große Taucheruhr mit Heliumventil für extreme Tiefen."
+    },
+    {
+     "m": "superocean",
+     "c": "Breitlings Superocean spricht Käufer an, die eine kräftige, farbige Taucheruhr suchen."
+    },
+    {
+     "m": "pelagos",
+     "c": "Tudors Pelagos ist eine moderne Profi-Taucheruhr mit Heliumventil aus denselben Jahren."
+    }
+   ]
   }
  ]
 }
