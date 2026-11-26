@@ -37007,6 +37007,96 @@
      "c": "Vacheron Constantins Overseas gibt es ebenfalls als Reiseuhr mit zweiter Zeitzone."
     }
    ]
+  },
+  {
+   "id": "aquanaut-5167",
+   "model": "aquanaut",
+   "ref": "5167A",
+   "alias": [
+    "5167",
+    "5167A-001",
+    "5167/1A",
+    "5167R"
+   ],
+   "var": null,
+   "t": "Patek Philippe Aquanaut Ref. 5167A",
+   "bau": "seit 2007",
+   "cap": "",
+   "s": "Würfelmuster auf Zifferblatt und Band, ein Stahlgehäuse mit Nautilus-Genen und 40 Millimeter Durchmesser: Die 5167A machte die Aquanaut zur zweiten Kultuhr aus Stahl im Hause Patek Philippe.",
+   "bh": [
+    "Die Aquanaut wird erwachsen",
+    "Gehäuse, Zifferblatt und Band",
+    "Werk und Alltagstauglichkeit",
+    "Schwer zu bekommen"
+   ],
+   "b": [
+    "2007, zehn Jahre nach der ersten Aquanaut, stellte Patek Philippe die Referenz 5167A vor. Sie war mit 40 Millimetern größer als die bisherigen Aquanaut-Modelle und entsprach damit dem Trend zu kräftigeren Sportuhren. Rasch wurde sie zur bekanntesten Referenz der Linie.",
+    "Das abgerundet achteckige Gehäuse aus Edelstahl knüpft an die Nautilus an, verzichtet aber auf deren seitliche Ohren. Lünette und Flanken sind satiniert, die Kanten poliert. Das schwarze Zifferblatt trägt das erhabene Würfelmuster, das sich auf dem Band aus Verbundmaterial wiederholt, dazu große aufgesetzte arabische Ziffern mit Leuchtmasse und ein Datum bei 3 Uhr.",
+    "Im Inneren arbeitet das Automatikkaliber 324 S C mit Zentralsekunde und Datum, sichtbar durch einen Saphirglasboden. Mit 120 Metern Wasserdichtheit und dem robusten Band ist die 5167A eine echte Alltagsuhr – genau so, wie Patek Philippe die Aquanaut 1997 gedacht hatte.",
+    "Wie die Nautilus 5711 war auch die 5167A in den 2010er-Jahren über Jahre kaum beim Konzessionär zu bekommen. Auf dem Zweitmarkt wird sie meist deutlich über ihrem Listenpreis gehandelt, was sie zu einer der begehrtesten modernen Stahluhren macht."
+   ],
+   "vh": [
+    [
+     "Stahlband: Ref. 5167/1A",
+     "Statt des Verbundbands trägt diese Ausführung ein Stahlband mit der Faltschließe der Aquanaut; Gehäuse und Zifferblatt entsprechen der 5167A."
+    ],
+    [
+     "Roségold: Ref. 5167R",
+     "Die Roségoldversion mit braunem Zifferblatt und passendem braunem Band ist die luxuriöse Schwester der Stahluhr."
+    ]
+   ],
+   "m": [
+    "40 mm, Edelstahl, abgerundet achteckiges Gehäuse",
+    "Schwarzes Zifferblatt mit erhabenem Würfelmuster",
+    "Große arabische Ziffern mit Leuchtmasse",
+    "Band aus Verbundmaterial mit gleichem Muster"
+   ],
+   "ev": [
+    [
+     "2007",
+     "Vorstellung der Ref. 5167A"
+    ]
+   ],
+   "x": [
+    "Das Verbundband ist ein Verschleißteil; ein Ersatzband vom Hersteller ist beim Kauf ein Pluspunkt.",
+    "Die Ausführung mit Stahlband (5167/1A) wirkt deutlich formeller und wird oft gesondert bewertet."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2007"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "120 m"
+    ],
+    [
+     "Kaliber",
+     "324 S C, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunde, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak-offshore",
+     "c": "Die Royal Oak Offshore war in diesen Jahren die sportliche Konkurrentin aus dem Hause Audemars Piguet."
+    },
+    {
+     "m": "big-bang",
+     "c": "Auch Hublots Big Bang setzte Mitte der 2000er-Jahre auf Kautschukbänder bei einer Luxus-Sportuhr."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas verfolgt dieselbe Idee einer eleganten Sportuhr aus Stahl."
+    }
+   ]
   }
  ]
 }
