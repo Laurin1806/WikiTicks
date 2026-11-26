@@ -32950,6 +32950,16 @@
      "var": 2,
      "c": "1972, mitten in der Bauzeit der 5513, erfand Gérald Genta mit der Royal Oak 5402ST die Luxus-Sportuhr aus Stahl. Die Submariner blieb das Werkzeug, die Royal Oak wurde das Statussymbol."
     }
+   ],
+   "vh": [
+    [
+     "Militär-Submariner: Ref. 5517",
+     "Für die britische Royal Navy entstand aus der 5513 die Militär-Submariner, zunächst als umgebaute 5513, später mit der eigenen Referenz 5517: mit Schwertzeigern, durchgehend geteilter Lünette, fest verlöteten Bandstegen und einem »T« im Kreis für die Tritium-Leuchtmasse."
+    ],
+    [
+     "COMEX: Ref. 5514",
+     "Für die französische Taucherfirma COMEX baute Rolex auf Basis der 5513 die Referenz 5514 mit Heliumventil und dem COMEX-Logo auf dem Zifferblatt. Sie wurde nicht frei verkauft und gehört heute zu den seltensten Submariner."
+    ]
    ]
   },
   {
@@ -33364,6 +33374,16 @@
      "m": "autavia",
      "c": "Heuers Autavia von 1962 war der Chronograph für Rennfahrer und Piloten mit drehbarer Lünette."
     }
+   ],
+   "vh": [
+    [
+     "Schwarze Lünette: Ref. 6241",
+     "Die eng verwandte 6241 trug statt der Metalllünette eine schwarze Lünette aus Kunststoff mit Tachymeterskala; auch sie gab es mit »Paul Newman«-Zifferblatt."
+    ],
+    [
+     "Gold",
+     "Die 6239 gab es neben Stahl auch in Gelbgold, in deutlich kleineren Stückzahlen."
+    ]
    ]
   },
   {
@@ -33465,7 +33485,12 @@
     "116500LN",
     "126503",
     "126508",
-    "126506"
+    "126506",
+    "126505",
+    "126509",
+    "126515LN",
+    "126518LN",
+    "126519LN"
    ],
    "var": null,
    "t": "Rolex Cosmograph Daytona Ref. 126500LN",
@@ -33489,7 +33514,7 @@
     ],
     [
      "Gold, Rolesor und Platin",
-     "Daneben gibt es die Generation in Rolesor (126503), in 18 Karat Gelb-, Weiß- und Everose-Gold, teils mit Keramiklünette am Oysterflex-Kautschukband, und in Platin (126506) mit eisblauem Zifferblatt. Die Platin-Daytona zeigt ihr Werk als erste Daytona durch einen Saphirglasboden."
+     "Daneben gibt es die Generation in Rolesor (126503), in 18 Karat Everose- (126505), Gelb- (126508) und Weißgold (126509), mit schwarzer Keramiklünette am Oysterflex-Kautschukband (126515LN, 126518LN, 126519LN) und in Platin (126506) mit eisblauem Zifferblatt. Die Platin-Daytona zeigt ihr Werk als erste Daytona durch einen Saphirglasboden."
     ]
    ],
    "m": [
@@ -33870,7 +33895,8 @@
     "126200 / 126234",
     "126300",
     "126334",
-    "126300 / 126334"
+    "126300 / 126334",
+    "126231"
    ],
    "var": null,
    "t": "Rolex Datejust 36 Ref. 126234",
@@ -33894,7 +33920,7 @@
     ],
     [
      "Rolesor mit Gelbgold: Ref. 126233",
-     "Mit Lünette, Krone und Bandmittelgliedern aus Gelbgold trägt sie die Referenz 126233, häufig mit champagnerfarbenem Zifferblatt – die klassische Stahl-Gold-Datejust."
+     "Mit Lünette, Krone und Bandmittelgliedern aus Gelbgold trägt sie die Referenz 126233, häufig mit champagnerfarbenem Zifferblatt – die klassische Stahl-Gold-Datejust. In Everose-Rolesor heißt sie 126231."
     ],
     [
      "Datejust 41: Refs. 126300 und 126334",
@@ -35343,7 +35369,10 @@
     "124300-0006",
     "124300-0007",
     "124300-0004",
-    "126000"
+    "126000",
+    "124200",
+    "277200",
+    "276200"
    ],
    "var": null,
    "t": "Rolex Oyster Perpetual 41 Ref. 124300",
@@ -35367,7 +35396,7 @@
     ],
     [
      "Andere Größen",
-     "Dieselbe Uhr gibt es mit 36 Millimetern (126000), 34 und 31 Millimetern sowie als Oyster Perpetual 28. Die Vorgängerin mit 39 Millimetern war die 114300."
+     "Dieselbe Uhr gibt es mit 36 Millimetern (126000), 34 Millimetern (124200), 31 Millimetern (277200) und 28 Millimetern (276200). Die Vorgängerin mit 39 Millimetern war die 114300."
     ]
    ],
    "m": [
@@ -35468,7 +35497,7 @@
    "vh": [
     [
      "Gold und Rolesor",
-     "Neben der Stahl-Weißgold-Ausführung gibt es die Sky-Dweller in Rolesor mit Gelbgold (336933) und ganz in 18 Karat Gelb-, Weiß- oder Everose-Gold, teils am Oysterflex-Kautschukband. Die Vorgängergeneration bis 2023 trug Referenzen mit 326, etwa die 326934, und das Kaliber 9001."
+     "Neben der Stahl-Weißgold-Ausführung gibt es die Sky-Dweller in Rolesor mit Gelbgold (336933) und ganz in 18 Karat Gold, etwa in Everose (336935) oder Gelbgold (336938), teils am Oysterflex-Kautschukband. Die Vorgängergeneration bis 2023 trug Referenzen mit 326, etwa die 326934, und das Kaliber 9001."
     ]
    ],
    "m": [
@@ -35543,7 +35572,8 @@
    "alias": [
     "136660-0003",
     "116660 D-Blue",
-    "126067"
+    "126067",
+    "136668LB"
    ],
    "var": null,
    "t": "Rolex Deepsea Ref. 136660",
@@ -35570,6 +35600,10 @@
     [
      "Deepsea Challenge: Ref. 126067",
      "2022 stellte Rolex die Deepsea Challenge vor, 50 Millimeter groß, aus Titan und bis 11.000 Meter wasserdicht – die Serienfassung der Uhr, die 2012 mit Cameron in den Marianengraben fuhr."
+    ],
+    [
+     "Gelbgold: Ref. 136668LB",
+     "2024 stellte Rolex die Deepsea erstmals in 18 Karat Gelbgold vor, mit blauem Zifferblatt und blauer Keramiklünette, und mit Titanboden wie die Stahlausführung."
     ]
    ],
    "m": [
@@ -36321,7 +36355,8 @@
     "5711/1A-014",
     "5711/1A-018",
     "5711/1R",
-    "5711/1P"
+    "5711/1P",
+    "5711/1300A"
    ],
    "var": 1,
    "t": "Patek Philippe Nautilus Ref. 5711",
@@ -36352,6 +36387,14 @@
     [
      "Rotgold und Platin",
      "Die 5711 gab es auch in Roségold (5711/1R) und zum 40. Geburtstag der Nautilus 2016 als limitierte Platinausführung mit Diamant-Indizes (5711/1P)."
+    ],
+    [
+     "Diamantlünette: Ref. 5711/1300A",
+     "2021 erschien zum Abschied auch eine Stahlausführung mit Diamanten auf der Lünette und olivgrünem Zifferblatt, die Referenz 5711/1300A."
+    ],
+    [
+     "Auf der 5711 aufgebaut: 5712, 5726, 5980",
+     "Das Gehäuse der 5711 diente als Grundlage für Nautilus-Modelle mit Komplikationen, die eigene Referenzen tragen: die 5712/1A mit Gangreserve, Mondphase und kleiner Sekunde (seit 2006), der Chronograph 5980/1A (2006) und der Jahreskalender 5726/1A (2010)."
     ]
    ],
    "m": [

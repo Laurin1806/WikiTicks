@@ -14,6 +14,13 @@ Jede Änderung an der Website wird im selben Commit im Changelog eingetragen.
 - Datenblatt-Daten (`datenblatt.json`) nur im Uhrenvergleich und im Aufklapper der Referenztabelle verwenden.
 - Bei jeder Änderung an Bildern oder Daten `IMGV` in `index.html` hochzählen (Cache).
 
+## Referenzartikel
+- Ort: `modelle.json` → `referenzen` (Felder: id, model, ref, alias, var, t, bau, s, bh/b, vh, m, ev, x, f, zeit).
+- Nur für Grundreferenzen, nicht für jede Material-, Zifferblatt- oder Farbvariante. Bei Rolex ist die Datumsausführung die Grundreferenz (z. B. 126610LN, nicht 124060).
+- Varianten (Edelmetall, Platin, Zifferblätter, Größen) kommen als Absatz unter »Varianten« (`vh`) in den Artikel der Grundreferenz; ihre Referenzen als `alias`, damit Bilder und Tabellen dorthin verlinken.
+- Unter »Varianten« auch wichtige Ausführungen nennen, die noch nicht auf der Seite sind, mit ihrer Referenznummer, wenn sie auf der Grundreferenz basieren – nicht alle Blattfarben, nur die wichtigen.
+- Jeder neue Artikel wird einzeln committet und gepusht.
+
 ## Deployment (Hostinger)
 - Automatische Bereitstellung über GitHub-Push auf `claude/vigilant-darwin-l5t91c`.
 - »Erneut bereitstellen« im hPanel spielt nur den zuletzt bereitgestellten Commit erneut auf, nicht den neuesten Stand. Welcher Commit live ist, steht unter »Letzte Bereitstellung → Begehen«.
