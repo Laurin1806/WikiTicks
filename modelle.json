@@ -41431,6 +41431,96 @@
      "c": "Die Oris Aquis kam 2011 heraus und spricht ebenfalls Käufer einer robusten Alltagstaucheruhr an."
     }
    ]
+  },
+  {
+   "id": "seiko-5-srpd55",
+   "model": "seiko-5",
+   "ref": "SRPD55",
+   "alias": [
+    "SRPD55K1",
+    "SRPD-Serie"
+   ],
+   "var": null,
+   "t": "Seiko 5 Sports Ref. SRPD55",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Mit der SRPD-Serie gab Seiko 2019 der traditionsreichen Seiko-5-Linie ein neues Gesicht – und der eingestellten SKX007 eine erschwingliche Erbin.",
+   "bh": [
+    "Neustart einer Legende",
+    "Gehäuse und Werk",
+    "Eine Familie in vielen Farben"
+   ],
+   "b": [
+    "Die Seiko-5-Linie stand seit den 1960er-Jahren für einfache, robuste Automatikuhren. 2019 baute Seiko sie grundlegend um: Unter dem Namen Seiko 5 Sports erschien eine ganze Serie neuer Modelle mit Referenzen, die mit SRPD beginnen. Die SRPD55 gehört zu dieser ersten Serie und zeigt die neue Linie in ihrer klassischen Form.",
+    "Das 42,5-Millimeter-Gehäuse aus Edelstahl übernimmt die Form der SKX007 mit der Krone bei 4 Uhr und der drehbaren Lünette, ist aber nur bis 100 Meter wasserdicht und keine Taucheruhr nach ISO-Norm. Im Inneren arbeitet das Automatikwerk 4R36 mit rund 41 Stunden Gangreserve, das sich anders als das alte 7S26 auch von Hand aufziehen lässt und einen Sekundenstopp besitzt. Wochentag und Datum stehen bei 3 Uhr, und auf dem Zifferblatt prangt das neue »5«-Logo.",
+    "Die SRPD-Serie erschien gleich zum Start in zahlreichen Farben und mit verschiedenen Bändern, später kamen viele Sondereditionen und Kooperationen hinzu. Dadurch wurde sie schnell zur meistgesehenen Einsteigeruhr der Marke und zur neuen Basis für die Bastlerszene, die zuvor die SKX007 umgebaut hatte."
+   ],
+   "vh": [
+    [
+     "Die SRPD-Familie",
+     "Die SRPD55 hat zahlreiche Schwestermodelle mit gleichem Gehäuse und Werk, die sich in Zifferblatt-, Lünetten- und Bandfarbe unterscheiden."
+    ]
+   ],
+   "m": [
+    "42,5 mm, Edelstahl, Krone bei 4 Uhr",
+    "Drehbare Lünette im Stil der SKX007",
+    "»5«-Logo auf dem Zifferblatt",
+    "Wochentag und Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1963",
+     "Sportsmatic 5 als Ursprung der Linie"
+    ],
+    [
+     "2019",
+     "Neustart als Seiko 5 Sports mit der SRPD-Serie"
+    ]
+   ],
+   "x": [
+    "Das Werk 4R36 lässt sich von Hand aufziehen und anhalten – ein spürbarer Fortschritt gegenüber älteren Seiko-5-Modellen.",
+    "Die SRPD ist nur bis 100 Meter wasserdicht; wer eine echte Taucheruhr sucht, greift zu einem Prospex-Modell."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "42,5 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "4R36, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Wochentag, Datum"
+    ],
+    [
+     "Vorgänger",
+     "SKX007 (gestalterisch)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "ga-2100",
+     "c": "Die G-Shock GA-2100 erschien im selben Jahr und wurde ebenso zur günstigen Kultuhr einer neuen Generation."
+    },
+    {
+     "m": "prx",
+     "c": "Die Tissot PRX brachte kurz darauf ein weiteres Retro-Design zu einem zugänglichen Preis zurück."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Die Hamilton Khaki Field Mechanical ist eine ähnlich ehrliche, robuste Einstiegsuhr aus denselben Jahren."
+    }
+   ]
   }
  ]
 }
