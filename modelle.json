@@ -46899,6 +46899,91 @@
      "c": "Die Longines HydroConquest ist eine Taucheruhr derselben Klasse für den Alltag."
     }
    ]
+  },
+  {
+   "id": "autavia-cbe2110",
+   "model": "autavia",
+   "ref": "CBE2110",
+   "alias": [
+    "CBE2110.BA0687",
+    "CBE2110"
+   ],
+   "var": null,
+   "t": "TAG Heuer Autavia Ref. CBE2110",
+   "bau": "ab 2017",
+   "cap": "",
+   "s": "Von Fans gewählt, vom Manufakturwerk angetrieben: Die CBE2110 holte den Autavia-Chronographen der 1960er-Jahre mit drehbarer Lünette und hellen Zählern in die Gegenwart.",
+   "bh": [
+    "Rückkehr der Autavia",
+    "Gehäuse und Zifferblatt",
+    "Das Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Autavia erschien 1962 als Chronograph für Rennfahrer und Piloten. Für die Rückkehr des Namens ließ TAG Heuer Liebhaber in einem Wettbewerb über historische Autavia-Modelle abstimmen; Vorbild der Neuauflage wurde eine Autavia der 1960er-Jahre, wie sie auch der Rennfahrer Jochen Rindt trug. Die Referenz CBE2110 ist diese Chronographen-Neuauflage.",
+    "Das Edelstahlgehäuse misst 42 Millimeter und trägt eine drehbare Lünette mit 60-Minuten-Skala und Leuchtpunkt bei 12 Uhr. Das schwarze Zifferblatt mit drei weißen Hilfszifferblättern und cremefarbener Leuchtmasse folgt der Gestaltung der Originale; unter dem Logo steht »Autavia«. Das Datum ist im unteren Hilfszifferblatt untergebracht.",
+    "Angetrieben wird die Uhr vom Kaliber Heuer 02, einem Automatik-Chronographen aus eigener Entwicklung mit Schaltrad, vertikaler Kupplung und rund 80 Stunden Gangreserve.",
+    "Die CBE2110 verbindet die Optik der frühen Autavia mit moderner Technik. Später erweiterte TAG Heuer die Autavia-Linie um Modelle wie die Autavia Isograph, die eigene Referenzen tragen."
+   ],
+   "vh": [
+    [
+     "Autavia Isograph",
+     "Zur späteren Autavia-Linie gehört die Autavia Isograph mit 42 Millimetern; sie ist eine eigene Modellreihe mit eigenen Referenzen."
+    ]
+   ],
+   "m": [
+    "42 mm, Edelstahl",
+    "Drehlünette mit 60-Minuten-Skala",
+    "Schwarzes Zifferblatt mit drei weißen Hilfszifferblättern",
+    "Datum im unteren Hilfszifferblatt",
+    "Cremefarbene Leuchtmasse"
+   ],
+   "ev": [
+    [
+     "1962",
+     "Erste Autavia"
+    ],
+    [
+     "2017",
+     "Chronographen-Neuauflage CBE2110 mit Heuer 02"
+    ]
+   ],
+   "x": [
+    "Die CBE2110 wurde am Stahlband und am Lederband angeboten; die Endung der Referenz verrät die Ausführung.",
+    "Wer die Optik der Originale ohne deren Pflegeaufwand sucht, ist mit der Neuauflage gut bedient."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "ab 2017"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Heuer 02, Automatik-Chronograph"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunde, Chronograph, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "heritage-chrono",
+     "c": "Tudors Heritage Chrono greift ebenfalls einen Chronographen mit drehbarer Lünette aus der Vergangenheit auf."
+    },
+    {
+     "m": "black-bay-chrono",
+     "c": "Die Black Bay Chrono erschien im selben Jahr als sportlicher Chronograph mit Vintage-Bezug."
+    },
+    {
+     "m": "top-time",
+     "c": "Breitlings Top Time ist eine weitere Neuauflage eines Chronographen der 1960er-Jahre."
+    }
+   ]
   }
  ]
 }
