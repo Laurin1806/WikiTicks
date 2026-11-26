@@ -39372,6 +39372,105 @@
      "c": "Die Rolex Submariner 126610 von 2020 ist die bekannteste Stahl-Taucheruhr dieser Jahre."
     }
    ]
+  },
+  {
+   "id": "seamaster-300m-210",
+   "model": "seamaster-300m",
+   "ref": "210.30.42.20.03.001",
+   "alias": [
+    "210.30.42.20",
+    "210.30.42.20.03.001",
+    "210.30.42.20.01.001"
+   ],
+   "var": null,
+   "t": "Omega Seamaster Diver 300M Ref. 210.30.42.20.03.001",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Zum 25. Geburtstag der Diver 300M gründlich erneuert: Keramik statt Lack, ein Master-Chronometer-Werk und die bekannten Wellen jetzt mit dem Laser graviert.",
+   "bh": [
+    "Die Überarbeitung von 2018",
+    "Keramik und Wellen",
+    "Werk und Gehäuse",
+    "Bond und heutige Bedeutung"
+   ],
+   "b": [
+    "2018, ein Vierteljahrhundert nach der ersten Diver 300M, stellte Omega die Referenz 210.30.42.20 vor. Sie löste die Generation 212.30.41.20 ab, die seit 2011 gebaut worden war. Die Grundzüge der Linie blieben erhalten – gezackte Drehlünette, skelettierte Schwertzeiger, Heliumventil bei 10 Uhr –, doch nahezu jedes Detail wurde neu gezeichnet.",
+    "Die auffälligste Neuerung ist das Zifferblatt aus polierter Keramik. Das Wellenmuster, seit 1993 das Erkennungszeichen der Diver 300M, ist nicht mehr eingeprägt, sondern mit dem Laser eingraviert; das Datumsfenster wanderte von 3 auf 6 Uhr. Auch die einseitig drehbare Lünette trägt einen Einsatz aus Keramik mit Taucherskala.",
+    "Das Stahlgehäuse wuchs leicht auf 42 Millimeter und erhielt einen Saphirglasboden. Im Inneren arbeitet das Automatikkaliber 8800 mit Co-Axial-Hemmung, das als Master Chronometer vom Institut METAS geprüft wird und Magnetfeldern bis 15.000 Gauß widersteht. Die Uhr ist bis 300 Meter wasserdicht; das Heliumventil hat eine neue, kegelförmige Krone.",
+    "Wie ihre Vorgängerinnen ist auch diese Diver 300M eng mit James Bond verbunden: Zum Film »Keine Zeit zu sterben« erschien eine Ausführung aus Titan. Die Referenz 210.30.42.20 ist die heutige Standard-Taucheruhr von Omega und das Gegenstück zur größeren Planet Ocean."
+   ],
+   "vh": [
+    [
+     "Schwarzes Zifferblatt: Ref. 210.30.42.20.01.001",
+     "Neben dem gezeigten Blau (.03.001) ist Schwarz die zweite klassische Farbe der Stahlausführung am Gliederband."
+    ],
+    [
+     "Bond-Edition: Ref. 210.90.42.20.01.001",
+     "Die Ausführung zu »Keine Zeit zu sterben« hat ein Gehäuse und Band aus Titan, ein Zifferblatt in Braun und eine Lünette aus Aluminium statt Keramik."
+    ],
+    [
+     "Weitere Metalle",
+     "Die 42-Millimeter-Diver gibt es auch in Bicolor, Gold und Titan sowie an Kautschukband; der Chronograph trägt eine eigene Referenz."
+    ]
+   ],
+   "m": [
+    "42 mm, Edelstahl, Saphirglasboden",
+    "Keramikzifferblatt mit lasergravierten Wellen",
+    "Gezackte Keramiklünette, einseitig drehbar",
+    "Skelettierte Schwertzeiger, Datum bei 6 Uhr",
+    "Heliumventil bei 10 Uhr"
+   ],
+   "ev": [
+    [
+     "2018",
+     "Vorstellung der Ref. 210.30.42.20 mit Kaliber 8800"
+    ]
+   ],
+   "x": [
+    "Gegenüber den Vorgängern ist das Keramikzifferblatt unempfindlicher und behält seine Farbe; die Wellen sind feiner als bei den geprägten Zifferblättern.",
+    "Die letzten Stellen der Referenz verraten Zifferblattfarbe und Band – beim Gebrauchtkauf mit den Papieren abgleichen.",
+    "Das Heliumventil muss für den Alltag nicht bedient werden; es ist für Sättigungstaucher gedacht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "8800, Automatik, Co-Axial, Master Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ],
+    [
+     "Vorgänger",
+     "212.30.41.20"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die Rolex Submariner 126610 von 2020 ist die direkte Konkurrentin unter den Stahl-Taucheruhren."
+    },
+    {
+     "m": "black-bay",
+     "c": "Die Tudor Black Bay sprach in denselben Jahren Käufer einer robusten Taucheruhr unterhalb der großen Marken an."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Blancpains Fifty Fathoms gehört wie die Seamaster zu den traditionsreichsten Taucheruhren der Schweiz."
+    }
+   ]
   }
  ]
 }
