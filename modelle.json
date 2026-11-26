@@ -4079,6 +4079,39 @@
       "Die Abbildung zeigt eine frühe Rolex GMT-Master ohne Kronenschutz, wie sie als Referenz 6542 ab 1954 gebaut wurde, mit rot-blauer Lünette und Oyster-Band. Die Lünette ist stark gealtert.",
       "Zu erkennen sind das glänzende schwarze »Gilt«-Zifferblatt mit goldfarbener Schrift, gealterte Leuchtpunkte, der schmale rote 24-Stunden-Zeiger mit kleiner Pfeilspitze, das Datum mit roter Ziffer unter der Zykloplupe und die Aufschriften »GMT-MASTER« und »OFFICIALLY CERTIFIED CHRONOMETER«."
      ]
+    },
+    {
+     "n": "Ref. 116710BLNR »Batman«",
+     "y": "2013–2019",
+     "v": {
+      "bezelColors": [
+       "#1d2b44",
+       "#1e3f8a"
+      ],
+      "gmt": "#1e5fc8",
+      "img": "assets/watches/rolex-gmt-master-2-116710-batman.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt die Rolex GMT-Master II Referenz 116710BLNR »Batman« am dreireihigen Oyster-Band aus Edelstahl. Ihre Lünette war 2013 die erste zweifarbige Cerachrom-Einlage aus einem Stück: oben schwarz, unten blau.",
+      "Zu erkennen sind der Mercedes-Stundenzeiger, der blaue 24-Stunden-Zeiger mit Dreieckspitze, runde Leuchtindizes mit Balken bei 6 und 9 Uhr und einem Dreieck bei 12 Uhr sowie das Datum mit Zykloplupe bei 3 Uhr."
+     ],
+     "dial": "Schwarz",
+     "iref": "116710BLNR",
+     "irefs": "hoch"
+    },
+    {
+     "n": "Ref. 16710BLRO »Pepsi« mit Tritium",
+     "y": "1989–1998",
+     "v": {
+      "img": "assets/watches/rolex-gmt-master-2-16710-pepsi-tritium.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine frühe Rolex GMT-Master II Referenz 16710 mit rot-blauer Aluminiumlünette (»Pepsi«) am Oyster-Band.",
+      "Zu erkennen sind die cremefarben gealterte Tritium-Leuchtmasse an Indizes und Zeigern, der rote 24-Stunden-Zeiger mit Dreieckspitze und die mit den Jahren verblasste Lünetteneinlage."
+     ],
+     "dial": "Schwarz",
+     "iref": "16710",
+     "irefs": "hoch"
     }
    ],
    "m": [
@@ -4115,7 +4148,7 @@
     ],
     [
      "2018",
-     "Stahl-»Pepsi« mit Kaliber 3285 und Jubilé-Band"
+     "Neue Generation mit Kaliber 3285 und Jubilé-Band"
     ],
     [
      "2022",
@@ -31960,7 +31993,9 @@
   "rolex-gmt-master-2-16710-pepsi.jpg": "g",
   "rolex-gmt-master-2-16710-coke.jpg": "v",
   "rolex-gmt-master-6542.jpg": "v",
-  "rolex-submariner-16800.jpg": "v"
+  "rolex-submariner-16800.jpg": "v",
+  "rolex-gmt-master-2-16710-pepsi-tritium.jpg": "v",
+  "rolex-gmt-master-2-116710-batman.jpg": "b"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -32158,6 +32193,7 @@
   "rolex-gmt-master-2-126710-pepsi.jpg": 960,
   "rolex-gmt-master-2-16710-black.jpg": 768,
   "rolex-gmt-master-2-16710-coke.jpg": 768,
+  "rolex-gmt-master-2-16710-pepsi-tritium.jpg": 768,
   "rolex-gmt-master-2-16710-pepsi.jpg": 768,
   "rolex-gmt-master-6542.jpg": 768,
   "rolex-land-dweller-127234-blue.jpg": 1032,
@@ -32247,7 +32283,8 @@
   "zenith-defy.jpg": 341,
   "zenith-elite.jpg": 374,
   "zenith-pilot-type-20.jpg": 756,
-  "zodiac-sea-wolf.jpg": 502
+  "zodiac-sea-wolf.jpg": 502,
+  "rolex-gmt-master-2-116710-batman.jpg": 768
  },
  "imgFit": {
   "rolex-submariner-126610ln.jpg": [
@@ -33205,6 +33242,14 @@
   "rolex-submariner-16800.jpg": [
    1.066,
    0.0014
+  ],
+  "rolex-gmt-master-2-16710-pepsi-tritium.jpg": [
+   1.08,
+   0.0031
+  ],
+  "rolex-gmt-master-2-116710-batman.jpg": [
+   0.961,
+   0.0039
   ]
  },
  "referenzen": [
@@ -52282,6 +52327,10 @@
     [
      "»Pepsi«: Ref. 16710BLRO",
      "Mit rot-blauer Lünette, der klassischen GMT-Farbe seit 1955."
+    ],
+    [
+     "Frühe Ausführung mit Tritium",
+     "Bis Ende der 1990er-Jahre leuchteten Indizes und Zeiger mit Tritium, das heute meist cremefarben gealtert ist; spätere Zifferblätter tragen weiße Luminova bzw. Super-LumiNova."
     ],
     [
      "»Coke«",
