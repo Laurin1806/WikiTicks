@@ -40747,6 +40747,80 @@
      "c": "Die Hamilton Murph gehört zu den Feld- und Abenteueruhren derselben Jahre."
     }
    ]
+  },
+  {
+   "id": "casio-ca53w-ca-53w",
+   "model": "casio-ca53w",
+   "ref": "CA-53W",
+   "alias": [
+    "CA-53W-1"
+   ],
+   "var": null,
+   "t": "Casio CA-53W Ref. CA-53W",
+   "bau": "seit den 1980er-Jahren",
+   "cap": "",
+   "s": "Ein Taschenrechner am Handgelenk: Die CA-53W ist ein Stück 1980er-Jahre, das Casio einfach weiterbaut.",
+   "bh": [
+    "Rechnen am Handgelenk",
+    "Ausstattung und Bedienung",
+    "Retro-Liebling"
+   ],
+   "b": [
+    "In den 1980er-Jahren baute Casio mit der Databank-Reihe Digitaluhren, die mehr konnten als die Zeit anzeigen. Die CA-53W gehört zu dieser Welt: Sie hat einen eingebauten Taschenrechner, dessen kleine Tasten direkt auf dem Gehäuse unter dem Display sitzen.",
+    "Die Uhr läuft mit Quarzwerk und bietet neben dem Rechner Datum, Wecker und Stoppuhr. Die Tasten sind sehr klein; zum Rechnen braucht man eine Fingerspitze oder einen Stift. Das Gehäuse ist aus Kunststoff, das Band ebenfalls.",
+    "Casio baut die CA-53W bis heute nahezu unverändert. Mit der Retro-Welle ist sie wieder sehr beliebt geworden – als günstiges, ein wenig nerdiges Accessoire mit echtem 1980er-Charme."
+   ],
+   "m": [
+    "Rechnertastatur unter dem Display",
+    "Kunststoffgehäuse mit Digitalanzeige",
+    "Schriftzug »CALCULATOR«"
+   ],
+   "ev": [
+    [
+     "1980er",
+     "Vorstellung der CA-53W"
+    ],
+    [
+     "heute",
+     "Weiterhin im Programm"
+    ]
+   ],
+   "x": [
+    "Die Tasten sind winzig – vor dem Kauf überlegen, ob man den Rechner wirklich nutzen will.",
+    "Als Neuware ist die Uhr günstig; gebrauchte Exemplare lohnen sich kaum."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 1980er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "Kunststoff"
+    ],
+    [
+     "Kaliber",
+     "Quarz, digital"
+    ],
+    [
+     "Funktionen",
+     "Rechner, Datum, Wecker, Stoppuhr"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "swatch-original",
+     "c": "Die Swatch prägte in den 1980er-Jahren wie die Casio-Digitaluhren das Bild der günstigen Kunststoffuhr."
+    },
+    {
+     "m": "g-shock",
+     "c": "Die G-Shock DW-5600 entstand in denselben Jahren im gleichen Haus – robust statt rechnend."
+    },
+    {
+     "m": "f-91w",
+     "c": "Die F-91W ist die andere Casio-Digitaluhr, die seit Jahrzehnten unverändert weitergebaut wird."
+    }
+   ]
   }
  ]
 }
