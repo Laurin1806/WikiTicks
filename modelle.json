@@ -50373,6 +50373,98 @@
      "c": "Omegas Seamaster 300 greift wie die Polaris eine Taucheruhr der 1950er- und 1960er-Jahre auf."
     }
    ]
+  },
+  {
+   "id": "portofino-iw3565",
+   "model": "portofino",
+   "ref": "IW3565",
+   "alias": [
+    "IW356501",
+    "Portofino Automatic"
+   ],
+   "var": null,
+   "t": "IWC Portofino Automatic Ref. IW3565",
+   "bau": "seit 2011",
+   "cap": "",
+   "s": "Die Portofino Automatic ist IWCs schlichteste Dresswatch: 40 Millimeter, ein poliertes Gehäuse, römische Ziffern bei 12 und 6 und ein Datum bei 3 Uhr.",
+   "bh": [
+    "Ein Name von der Riviera",
+    "Gehäuse und Zifferblatt",
+    "Das Werk",
+    "Einstieg in die Marke"
+   ],
+   "b": [
+    "IWC stellte die erste Portofino 1984 vor, damals mit einem Taschenuhrwerk und Mondphase; der Name verweist auf den Hafenort an der italienischen Riviera. 2011 erneuerte die Marke die Linie, und die Portofino Automatic (Ref. IW3565) wurde ihr Kernmodell. Die Referenz IW356501 ist die Stahlausführung mit silberfarbenem Zifferblatt und schwarzem Lederband.",
+    "Das runde Gehäuse misst 40 Millimeter und hat eine schmale, polierte Lünette. Auf dem Zifferblatt sitzen römische Ziffern bei 12 und 6 Uhr, schlanke aufgesetzte Stabindizes, Blattzeiger und ein sehr schlanker Zentralsekundenzeiger; das Datumsfenster liegt bei 3 Uhr.",
+    "Im Inneren arbeitet das Automatikkaliber 35111 mit rund 42 Stunden Gangreserve. Die Uhr ist bis 30 Meter wasserdicht und als elegante Alltagsuhr gedacht, nicht als Sportuhr.",
+    "Die Portofino Automatic gilt als einer der zugänglichsten Einstiege in die Marke IWC. Zur Linie gehören außerdem Modelle mit Chronograph, Mondphase und die Portofino Hand-Wound Eight Days mit acht Tagen Gangreserve."
+   ],
+   "vh": [
+    [
+     "Blaues und schwarzes Zifferblatt",
+     "Neben Silber gibt es die Portofino Automatic auch mit blauem oder schwarzem Zifferblatt."
+    ],
+    [
+     "Milanaiseband",
+     "Statt des Lederbands gibt es die Uhr auch an einem Milanaiseband aus Stahl."
+    ]
+   ],
+   "m": [
+    "40-mm-Gehäuse mit schmaler polierter Lünette",
+    "Römische Ziffern bei 12 und 6 Uhr",
+    "Schlanke Stabindizes und Blattzeiger",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1984",
+     "Erste Portofino"
+    ],
+    [
+     "2011",
+     "Portofino Automatic, Ref. IW3565"
+    ]
+   ],
+   "x": [
+    "Das Automatikwerk ist robust und vergleichsweise unkompliziert zu warten.",
+    "Mit 30 Metern Wasserdichtigkeit ist die Uhr nicht zum Schwimmen gedacht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2011"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "35111, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony ist eine andere schlichte, runde Dresswatch dieser Jahre."
+    },
+    {
+     "m": "master-control",
+     "c": "Die Master Control von Jaeger-LeCoultre ist die klassische Herrenuhr eines anderen Richemont-Hauses."
+    },
+    {
+     "m": "classique",
+     "c": "Die Breguet Classique steht für die elegante Uhr zum Anzug in ihrer traditionellsten Form."
+    }
+   ]
   }
  ]
 }
