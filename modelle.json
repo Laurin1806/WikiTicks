@@ -45416,6 +45416,94 @@
      "c": "Die Jaeger-LeCoultre Master Control ist eine ähnlich klassische, runde Automatikuhr für jeden Tag."
     }
    ]
+  },
+  {
+   "id": "freak-2303-270",
+   "model": "freak",
+   "ref": "2303-270",
+   "alias": [
+    "2303-270.1/03",
+    "Freak X"
+   ],
+   "var": null,
+   "t": "Ulysse Nardin Freak X Ref. 2303-270",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Die Freak X brachte das radikale Konzept der Freak in ein kleineres, alltagstauglicheres Gehäuse – mit einer Krone, die es bei der ersten Freak gar nicht gab.",
+   "bh": [
+    "Die Freak für jeden Tag",
+    "Das Werk als Zeiger",
+    "Krone statt Lünette",
+    "Bedeutung"
+   ],
+   "b": [
+    "Die erste Freak von 2001 verzichtete auf Zeiger und Krone; das Werk selbst drehte sich als Minutenzeiger über dem Zifferblatt. Mit der Freak X stellte Ulysse Nardin eine zugänglichere Version dieses Konzepts vor. Sie ist mit 43 Millimetern kleiner als die ursprüngliche Freak und wurde zum Einstieg in die Linie.",
+    "Auch bei der Freak X dreht sich das Werk sichtbar über dem Zifferblatt und zeigt dabei die Minuten an. Die Stunden liest man an einer darunterliegenden Scheibe ab. Hemmung und Unruhspirale bestehen aus Silizium, einem Material, das Ulysse Nardin bei der Freak früh in der Uhrmacherei einsetzte.",
+    "Anders als bei der ersten Freak wird die Uhrzeit über eine Krone eingestellt, nicht über die Lünette. Das Automatikkaliber UN-230 sorgt dafür, dass die Uhr beim Tragen aufgezogen wird.",
+    "Die Freak X machte das Freak-Prinzip für viel mehr Käufer zugänglich. Sie gilt als ungewöhnliche Alternative zu klassischen Luxus-Sportuhren."
+   ],
+   "vh": [
+    [
+     "Blau: Ref. 2303-270.1/03",
+     "Gehäuse aus hellem Metall mit dunkelblauem Zifferblatt und dunkelblauem Kautschukband."
+    ]
+   ],
+   "m": [
+    "43 mm, keine herkömmlichen Zeiger",
+    "Sich drehendes Werk als Minutenzeiger",
+    "Krone zum Einstellen der Zeit",
+    "Kautschukband"
+   ],
+   "ev": [
+    [
+     "2001",
+     "Erste Freak"
+    ],
+    [
+     "2019",
+     "Vorstellung der Freak X"
+    ]
+   ],
+   "x": [
+    "Die Freak X ist der günstigste Weg zur Freak – ihr Werk unterscheidet sich aber deutlich von den aufwendigeren Freak-Modellen.",
+    "Weil das Werk offen über dem Zifferblatt liegt, auf Kratzer am Glas und einen dokumentierten Service achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "43 mm"
+    ],
+    [
+     "Kaliber",
+     "UN-230, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten (Werk als Minutenzeiger)"
+    ],
+    [
+     "Vorgänger",
+     "Freak (2001)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "big-bang",
+     "c": "Hublots Big Bang steht wie die Freak X für die moderne, auffällige Sportuhr mit technischem Anspruch."
+    },
+    {
+     "m": "octo-finissimo",
+     "c": "Bulgaris Octo Finissimo zeigt, wie unkonventionelle Konzepte in dieser Zeit Erfolg hatten."
+    },
+    {
+     "m": "code-11-59",
+     "c": "Audemars Piguets Code 11.59 erschien im selben Jahr als neue Linie einer großen Marke."
+    }
+   ]
   }
  ]
 }
