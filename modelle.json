@@ -49400,6 +49400,97 @@
      "c": "Die Master Control von Jaeger-LeCoultre ist eine schlichte Herrenuhr aus demselben Konzern."
     }
    ]
+  },
+  {
+   "id": "geophysic-q8018420",
+   "model": "geophysic",
+   "ref": "Q8018420",
+   "alias": [
+    "Q8018420"
+   ],
+   "var": null,
+   "t": "Jaeger-LeCoultre Geophysic True Second Ref. Q8018420",
+   "bau": "seit Mitte der 2010er-Jahre",
+   "cap": "",
+   "s": "Die Geophysic der Neuauflage mit Datum: ein schlichtes Stahlgehäuse, Dauphine-Zeiger mit Leuchtmasse und ein Sekundenzeiger, der wie bei einer Quarzuhr in ganzen Schritten springt.",
+   "bh": [
+    "Eine Uhr für Wissenschaftler",
+    "Die Neuauflage",
+    "Die springende Sekunde",
+    "Gehäuse und Ablesbarkeit"
+   ],
+   "b": [
+    "Die erste Geophysic erschien 1958 im Umfeld des Internationalen Geophysikalischen Jahrs. Sie wurde für Wissenschaftler und Expeditionen gebaut: antimagnetisch, wasserdicht und sehr genau. Eine Geophysic begleitete 1958 die Fahrt des Atom-U-Boots USS Nautilus unter dem Nordpol.",
+    "Nach der Neuauflage der Geophysic 1958 brachte Jaeger-LeCoultre die Linie als Geophysic True Second und Universal Time zurück. Die Referenz Q8018420 ist die Geophysic True Second aus Edelstahl mit silberweißem Zifferblatt, Datum bei 3 Uhr und schwarzem Lederband.",
+    "Ihr Name beschreibt die Besonderheit des Automatikkalibers 770: Der Sekundenzeiger springt einmal pro Sekunde, statt gleitend zu laufen – eine »echte Sekunde«, wie man sie von Quarzuhren kennt, hier mechanisch erzeugt.",
+    "Optisch knüpft die Uhr an das Original an: aufgesetzte facettierte Stabindizes mit kleinen Leuchtpunkten, eine doppelte Markierung bei 12 Uhr und Dauphine-Zeiger mit Leuchtmasse. Mit knapp 40 Millimetern ist das Gehäuse etwas größer als das der Geophysic 1958."
+   ],
+   "vh": [
+    [
+     "Geophysic Universal Time",
+     "Die Schwesterversion mit Weltzeitanzeige erschien zur selben Zeit."
+    ],
+    [
+     "Roségold",
+     "Die True Second gab es auch mit Gehäuse aus Roségold."
+    ]
+   ],
+   "m": [
+    "Rundes Stahlgehäuse mit knapp 40 mm",
+    "Springende Sekunde",
+    "Facettierte Stabindizes mit Leuchtpunkten, doppelte Markierung bei 12 Uhr",
+    "Dauphine-Zeiger mit Leuchtmasse, Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1958",
+     "Erste Geophysic"
+    ],
+    [
+     "2014",
+     "Geophysic 1958 als Neuauflage"
+    ],
+    [
+     "Mitte der 2010er-Jahre",
+     "Geophysic True Second mit springender Sekunde"
+    ]
+   ],
+   "x": [
+    "Die springende Sekunde unterscheidet die True Second von der Geophysic 1958; sie lässt sich beim Ansehen der laufenden Uhr leicht prüfen.",
+    "Die Geophysic ist weniger bekannt als Reverso oder Master Control und gebraucht oft günstig."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit Mitte der 2010er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "knapp 40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "770, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, springende Sekunde, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "globemaster",
+     "c": "Omegas Globemaster von 2015 war die erste Uhr mit dem Master-Chronometer-Prüfsiegel und ebenfalls auf Präzision und Magnetfeldschutz ausgelegt."
+    },
+    {
+     "m": "milgauss",
+     "c": "Die Rolex Milgauss ist die andere Uhr, die für Wissenschaftler in starken Magnetfeldern gebaut wurde."
+    },
+    {
+     "m": "ingenieur",
+     "c": "Die IWC Ingenieur entstand in den 1950er-Jahren aus demselben Bedarf nach antimagnetischen Uhren."
+    }
+   ]
   }
  ]
 }
