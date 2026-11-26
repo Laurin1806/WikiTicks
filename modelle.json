@@ -36926,6 +36926,87 @@
      "c": "Jaeger-LeCoultres Master Control bietet Kalenderkomplikationen in einer ähnlich klassischen Gestaltung."
     }
    ]
+  },
+  {
+   "id": "aquanaut-5164",
+   "model": "aquanaut",
+   "ref": "5164A",
+   "alias": [
+    "5164",
+    "5164A-001",
+    "5164R"
+   ],
+   "var": 1,
+   "t": "Patek Philippe Aquanaut Ref. 5164A",
+   "bau": "seit 2011",
+   "cap": "",
+   "s": "Zwei Zeitzonen, zwei Drücker an der linken Flanke und das bekannte Würfelmuster: Die Travel Time machte die Aquanaut zur Reiseuhr, ohne ihr den sportlichen Charakter zu nehmen.",
+   "bh": [
+    "Die Aquanaut für Reisende",
+    "So funktioniert die Travel Time",
+    "Gehäuse und Werk",
+    "Bedeutung"
+   ],
+   "b": [
+    "2011 stellte Patek Philippe die Aquanaut Travel Time 5164A vor. Sie übertrug die Zweizeitzonen-Funktion, die das Haus seit Jahrzehnten pflegt, auf die sportliche Aquanaut und wurde schnell zu einer der beliebtesten Komplikationen der Linie.",
+    "Die Uhr zeigt Orts- und Heimatzeit gleichzeitig. Mit zwei Drückern an der linken Gehäuseseite lässt sich der Stundenzeiger der Ortszeit stundenweise vor- oder zurückstellen, während ein skelettierter Zeiger die Heimatzeit weiter anzeigt. Zwei Fenster mit den Aufschriften »LOCAL« und »HOME« zeigen jeweils Tag oder Nacht an, das Datum steht in einem Hilfszifferblatt bei 6 Uhr.",
+    "Das Stahlgehäuse misst 40,8 Millimeter und hat die abgerundet achteckige Form der Aquanaut. Im Inneren arbeitet das Automatikkaliber 324 S C FUS, eine Variante des Basiswerks der 5167A mit dem Travel-Time-Mechanismus. Zifferblatt und Band tragen das erhabene Würfelmuster.",
+    "Die 5164A gilt als eine der praktischsten modernen Patek-Philippe-Uhren: robust genug für den Alltag und mit einer Funktion, die auf Reisen tatsächlich hilft. Entsprechend gesucht ist sie auf dem Zweitmarkt."
+   ],
+   "vh": [
+    [
+     "Roségold: Ref. 5164R",
+     "Neben der Stahluhr gab es die Travel Time auch in Roségold mit braunem Zifferblatt und Band."
+    ]
+   ],
+   "m": [
+    "40,8 mm, Edelstahl",
+    "Zwei Drücker an der linken Gehäuseseite",
+    "Tag-Nacht-Fenster »LOCAL« und »HOME«",
+    "Datum im Hilfszifferblatt bei 6 Uhr, skelettierter Heimatzeitzeiger"
+   ],
+   "ev": [
+    [
+     "2011",
+     "Vorstellung der Ref. 5164A"
+    ]
+   ],
+   "x": [
+    "Vor dem Kauf sollte man prüfen, ob beide Drücker die Ortszeit sauber vor- und zurückstellen und das Datum mitspringt.",
+    "Die Ortszeit sollte man nicht unter Wasser verstellen; die Drücker sind für die Bedienung an Land gedacht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2011"
+    ],
+    [
+     "Gehäuse",
+     "40,8 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "324 S C FUS, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunde, zweite Zeitzone, Tag-Nacht-Anzeige, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "gmt-master",
+     "c": "Die Rolex GMT-Master II ist die bekannteste Reiseuhr mit zweiter Zeitzone in Stahl."
+    },
+    {
+     "m": "black-bay-gmt",
+     "c": "Die Tudor Black Bay GMT bringt die Zweizeitzonen-Funktion in eine sportliche Uhr aus denselben Jahren."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas gibt es ebenfalls als Reiseuhr mit zweiter Zeitzone."
+    }
+   ]
   }
  ]
 }
