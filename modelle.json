@@ -48526,6 +48526,95 @@
      "c": "IWCs Big Pilot steht wie der Navitimer für die Tradition der Fliegeruhr und wurde in denselben Jahren neu aufgelegt."
     }
    ]
+  },
+  {
+   "id": "premier-ab0118",
+   "model": "premier",
+   "ref": "AB0118",
+   "alias": [
+    "AB0118221G1P1",
+    "AB0118",
+    "Premier B01"
+   ],
+   "var": null,
+   "t": "Breitling Premier Ref. AB0118",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Ein Chronograph für den Anzug: Mit der AB0118 holte Breitling 2018 den Namen Premier aus den 1940er-Jahren zurück und steckte das eigene Werk B01 in ein schlankes, klassisch gezeichnetes Gehäuse.",
+   "bh": [
+    "Wiederbelebung eines Namens",
+    "Gestaltung",
+    "Das Werk",
+    "Stellung in der Kollektion"
+   ],
+   "b": [
+    "Die Premier war in den 1940er-Jahren Breitlings Linie ziviler Chronographen und Kalenderuhren. 2018 belebte die Marke den Namen wieder; die Premier B01 Chronograph 42 mit der Referenz AB0118 war das Spitzenmodell der neuen Kollektion und orientiert sich an den Chronographen jener Zeit.",
+    "Das 42-Millimeter-Gehäuse aus Edelstahl ist schlank und poliert, die Drücker sind rechteckig statt rund. Das Zifferblatt trägt aufgesetzte arabische Ziffern und Stabindizes, zwei Hilfszifferblätter und eine Tachymeterskala am Rand; der Schriftzug »Premier« steht über 6 Uhr. Getragen wird die Uhr meist am Lederband.",
+    "Im Inneren arbeitet das Manufakturkaliber B01, das Breitling 2009 vorstellte: ein Automatik-Chronograph mit Schaltrad, vertikaler Kupplung und rund 70 Stunden Gangreserve, als Chronometer zertifiziert. Weil die Premier nur zwei Hilfszifferblätter zeigt, wirkt sie aufgeräumter als Navitimer und Chronomat mit demselben Werk.",
+    "Die AB0118 ist Breitlings klassischer Chronograph neben dem sportlichen Navitimer und der Chronomat. Sie spricht Träger an, die ein Manufakturwerk in zurückhaltender Form suchen."
+   ],
+   "vh": [
+    [
+     "Zifferblattfarben",
+     "Die AB0118 gab es mit cremefarbenem, silbernem, grünem und weiteren Zifferblättern, oft mit kontrastierenden Hilfszifferblättern."
+    ],
+    [
+     "Andere Premier-Modelle",
+     "Neben dem Chronographen umfasste die Premier-Kollektion von 2018 auch Dreizeiger und Modelle mit Kalender und zweiter Zeitzone, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "42 mm, schlankes poliertes Edelstahlgehäuse",
+    "Rechteckige Drücker",
+    "Zwei Hilfszifferblätter, Tachymeterskala am Rand",
+    "Schriftzug »Premier« über 6 Uhr"
+   ],
+   "ev": [
+    [
+     "1940er",
+     "Premier als zivile Chronographenlinie"
+    ],
+    [
+     "2018",
+     "Neuauflage, Premier B01 Chronograph 42 (AB0118)"
+    ]
+   ],
+   "x": [
+    "Die Premier ist auf dem Gebrauchtmarkt oft günstiger als Navitimer und Chronomat mit demselben Werk.",
+    "Auf Originalband und -schließe achten, da die Uhr meist am Leder getragen wird."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "B01, Automatik-Chronograph, Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Tachymeter"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "heritage-chrono",
+     "c": "Tudors Heritage Chrono ist ebenfalls ein Chronograph, der bewusst an die Vorbilder vergangener Jahrzehnte anknüpft."
+    },
+    {
+     "m": "portugieser",
+     "c": "Der Portugieser Chronograph ist das klassische Gegenstück für Träger, die einen Chronographen zum Anzug suchen."
+    },
+    {
+     "m": "code-11-59",
+     "c": "Audemars Piguets Code 11.59 kam fast zeitgleich als neue, klassisch gezeichnete Linie."
+    }
+   ]
   }
  ]
 }
