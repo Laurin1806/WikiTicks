@@ -41979,6 +41979,109 @@
      "c": "Die Vacheron Constantin Overseas erschien 2016 in neuer Generation und gehört zu den edlen Alltagsuhren dieser Zeit."
     }
    ]
+  },
+  {
+   "id": "turtle-srp777",
+   "model": "turtle",
+   "ref": "SRP777",
+   "alias": [
+    "SRPE93K1",
+    "SRPE93",
+    "SRP777K1"
+   ],
+   "var": null,
+   "t": "Seiko Prospex Turtle Ref. SRP777",
+   "bau": "seit 2016",
+   "cap": "",
+   "s": "Die Schildkröte kehrt zurück: 2016 legte Seiko die kissenförmige Taucheruhr der 1970er-Jahre neu auf – größer, dichter und mit einem moderneren Werk.",
+   "bh": [
+    "Die Rückkehr der »Turtle«",
+    "Gehäuse und Werk",
+    "Eine Linie mit vielen Gesichtern"
+   ],
+   "b": [
+    "Die Taucheruhr 6309 von 1976 bekam wegen ihres breiten, kissenförmigen Gehäuses den Spitznamen »Turtle« und war bis in die späten 1980er-Jahre bei Tauchern weit verbreitet. 2016 brachte Seiko die Form in der Prospex-Linie zurück; die SRP777 mit schwarzem Zifferblatt eröffnete die neue Serie.",
+    "Das Edelstahlgehäuse misst rund 45 Millimeter und folgt eng dem Vorbild, mit geschwungenen Flanken, die die Krone schützen. Die Uhr ist bis 200 Meter wasserdicht, die einseitig drehbare Lünette hat eine 60-Minuten-Skala. Im Inneren arbeitet das Automatikwerk 4R36, das sich auch von Hand aufziehen lässt und einen Sekundenstopp besitzt; bei der SRP777 stehen Wochentag und Datum bei 3 Uhr.",
+    "Aus der SRP777 wurde rasch eine ganze Familie mit vielen Farben und Sondereditionen. Spätere Ausführungen wie die abgebildete SRPE93 zeigen nur das Datum ohne Wochentag. Die Turtle gilt als eine der besten Taucheruhren im unteren Preisbereich."
+   ],
+   "vh": [
+    [
+     "Nur mit Datum: Ref. SRPE93",
+     "Die abgebildete SRPE93 hat ein schwarzes Zifferblatt, ein Kautschukband und zeigt nur das Datum ohne Wochentag."
+    ],
+    [
+     "Sondereditionen",
+     "Die Turtle erschien in zahlreichen Farben und limitierten Ausgaben mit eigenen Zifferblättern und Lünetten."
+    ],
+    [
+     "Vorbild: Ref. 6309-7040",
+     "Die erste Turtle von 1976 war bis 150 Meter wasserdicht und etwas kleiner; sie ist heute ein gesuchtes Vintage-Stück."
+    ]
+   ],
+   "m": [
+    "Kissenförmiges Gehäuse, rund 45 mm",
+    "Einseitig drehbare Taucherlünette",
+    "Große runde Leuchtindizes",
+    "Aufdruck »DIVER'S 200m«"
+   ],
+   "ev": [
+    [
+     "1976",
+     "Erste Turtle (6309)"
+    ],
+    [
+     "2016",
+     "Neuauflage als Prospex SRP777"
+    ],
+    [
+     "2020er",
+     "Ausführungen nur mit Datum, z. B. SRPE93"
+    ]
+   ],
+   "x": [
+    "Wer die Gehäusegröße scheut: Die Turtle trägt sich dank der kurzen Bandanstöße kleiner, als die 45 Millimeter vermuten lassen.",
+    "Auf die Kalenderanzeige achten – manche Ausführungen zeigen Wochentag und Datum, andere nur das Datum."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2016"
+    ],
+    [
+     "Gehäuse",
+     "≈ 45 mm, Edelstahl, Kissenform"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "4R36, Automatik (SRP777)"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, bei der SRP777 auch Wochentag"
+    ],
+    [
+     "Vorbild",
+     "6309-7040"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "divers-sixty-five",
+     "c": "Die Oris Divers Sixty-Five belebte zur selben Zeit ebenfalls eine Taucheruhr der 1960er-Jahre neu."
+    },
+    {
+     "m": "black-bay",
+     "c": "Die Tudor Black Bay steht für dieselbe Welle von Taucheruhren im Stil der Vergangenheit."
+    },
+    {
+     "m": "promaster-diver",
+     "c": "Citizens Promaster Diver ist die japanische Alternative im gleichen Preisbereich, angetrieben von Licht."
+    }
+   ]
   }
  ]
 }
