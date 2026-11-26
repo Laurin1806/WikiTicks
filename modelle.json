@@ -36120,6 +36120,104 @@
      "c": "Die Royal Oak Offshore ist der wuchtige Luxus-Chronograph mit sportlichem Anspruch."
     }
    ]
+  },
+  {
+   "id": "nautilus-3700",
+   "model": "nautilus",
+   "ref": "3700",
+   "alias": [
+    "3700/1A",
+    "3700/1A »Jumbo«",
+    "3700/11",
+    "3700/1J"
+   ],
+   "var": 4,
+   "t": "Patek Philippe Nautilus Ref. 3700",
+   "bau": "1976–1990",
+   "cap": "»Jumbo«",
+   "s": "Die erste Nautilus: eine Luxusuhr aus Stahl, entworfen von Gérald Genta, mit Bullaugen-Gehäuse und einem der flachsten Automatikwerke ihrer Zeit.",
+   "bh": [
+    "Eine der teuersten Uhren der Welt – aus Stahl",
+    "Das Bullauge",
+    "Ein flaches Werk",
+    "Vom Wagnis zur Ikone"
+   ],
+   "b": [
+    "1976, vier Jahre nach der Royal Oak, stellte Patek Philippe mit der Referenz 3700/1A seine eigene Luxus-Sportuhr aus Edelstahl vor. Entworfen hatte sie Gérald Genta, der auch die Royal Oak gestaltet hatte; die Legende erzählt, er habe die Nautilus bei einem Essen in Basel in wenigen Minuten auf eine Serviette gezeichnet. Dass die wohl renommierteste Uhrenmanufaktur eine Stahluhr zum Preis einer Golduhr anbot, war ein Wagnis. Patek warb sinngemäß mit dem Satz, eine der teuersten Uhren der Welt sei aus Stahl.",
+    "Die Form des Gehäuses erinnert an das Bullauge eines Schiffes: Die achteckige Lünette mit gerundeten Ecken sitzt zwischen zwei seitlichen »Ohren«, die an Scharniere einer Bullaugenklappe denken lassen. Das Zifferblatt in einem dunklen, nach außen dunkler werdenden Blau trägt waagerechte Rillen wie Schiffsplanken. Das Stahlband ist fest in das Gehäuse integriert. Mit 42 Millimetern einschließlich der Ohren war die Uhr für ihre Zeit groß, daher der Beiname »Jumbo«. Das Gehäuse ist zweiteilig und wird von oben über die Lünette geöffnet.",
+    "Im Inneren arbeitet das Kaliber 28-255 C, ein besonders flaches Automatikwerk auf Basis des Jaeger-LeCoultre-Kalibers 920. Dasselbe Grundwerk steckte auch in der Royal Oak 5402 und in der Vacheron Constantin 222, den beiden anderen großen Stahl-Luxusuhren dieser Jahre. Die 3700 zeigt Stunden, Minuten und das Datum bei 3 Uhr; einen Sekundenzeiger hat sie nicht, was zur ruhigen Erscheinung beiträgt.",
+    "Zu ihrer Zeit verkaufte sich die Nautilus langsam, und bis zum Ende der Produktion um 1990 blieben die Stückzahlen überschaubar. Heute gilt die 3700/1A als Grundstein einer der begehrtesten Uhrenlinien überhaupt, und gut erhaltene Exemplare werden auf Auktionen hoch gehandelt."
+   ],
+   "vh": [
+    [
+     "Gold und Stahl-Gold",
+     "Neben der Stahluhr gab es die 3700 in kleinen Stückzahlen auch in Gelbgold und in Stahl mit Gold. Sie sind heute seltener als die Stahlausführung, aber weniger ikonisch."
+    ]
+   ],
+   "m": [
+    "42 mm einschließlich der seitlichen »Ohren«, Edelstahl",
+    "Achteckige Lünette mit gerundeten Ecken, integriertes Band",
+    "Blaues Zifferblatt mit waagerechten Rillen",
+    "Datum bei 3 Uhr, kein Sekundenzeiger"
+   ],
+   "ev": [
+    [
+     "1976",
+     "Vorstellung der Nautilus Ref. 3700/1A"
+    ],
+    [
+     "1981",
+     "Ergänzung durch die kleinere Ref. 3800/1A"
+    ],
+    [
+     "um 1990",
+     "Ende der Produktion"
+    ]
+   ],
+   "x": [
+    "Originale Zifferblätter mit gleichmäßigem Farbverlauf und intakten Leuchtpunkten sind entscheidend; viele Uhren haben im Service ein Ersatzzifferblatt erhalten.",
+    "Das Band verschleißt an den Gelenken; ein strammes Originalband steigert den Wert deutlich."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1976–1990"
+    ],
+    [
+     "Gehäuse",
+     "42 mm (mit »Ohren«), Edelstahl, zweiteilig"
+    ],
+    [
+     "Kaliber",
+     "28-255 C, Automatik, Basis Jaeger-LeCoultre 920"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Datum"
+    ],
+    [
+     "Band",
+     "integriertes Stahlband"
+    ],
+    [
+     "Entwurf",
+     "Gérald Genta"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak von 1972, ebenfalls von Gérald Genta, war das Vorbild und die große Rivalin."
+    },
+    {
+     "m": "historiques-222",
+     "c": "Vacheron Constantins 222 von 1977 war die dritte große Stahl-Luxusuhr dieser Jahre, mit demselben Grundwerk."
+    },
+    {
+     "m": "laureato",
+     "c": "Girard-Perregaux' Laureato von 1975 gehört ebenfalls zu den frühen Luxusuhren mit integriertem Band."
+    }
+   ]
   }
  ]
 }
