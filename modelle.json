@@ -45798,6 +45798,96 @@
      "c": "Die PanoMaticLunar aus derselben Stadt setzt ebenfalls auf ein außermittiges Zifferblatt mit Großdatum."
     }
    ]
+  },
+  {
+   "id": "lange-1-mondphase-192",
+   "model": "lange-1",
+   "ref": "192",
+   "alias": [
+    "192.032",
+    "192.025"
+   ],
+   "var": 1,
+   "t": "A. Lange & Söhne Lange 1 Mondphase Ref. 192",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Die Lange 1 Mondphase der neuen Generation verbindet das asymmetrische Zifferblatt mit einer Mondscheibe, die sich über einen Tag- und Nachthimmel bewegt.",
+   "bh": [
+    "Eine Mondphase für die Lange 1",
+    "Werk und Anzeigen",
+    "Tag und Nacht"
+   ],
+   "b": [
+    "Eine Mondphasenversion der Lange 1 gibt es bereits seit 2002. Nachdem die Grundform 2015 ein neues Werk erhalten hatte, folgte 2017 auch die Mondphase in neuer Form mit der Referenz 192. Die Gestaltung blieb vertraut: Die Mondphase sitzt im Hilfszifferblatt der kleinen Sekunde unten rechts.",
+    "Im Inneren arbeitet das Handaufzugskaliber L121.3, eine Weiterentwicklung des Werks der Lange 1 Ref. 191. Es bietet wie dieses rund 72 Stunden Gangreserve. Großdatum und Gangreserveanzeige bleiben an ihren gewohnten Plätzen, das Gehäuse misst 38,5 Millimeter.",
+    "Neu war eine Tag-Nacht-Anzeige: Hinter der Mondscheibe dreht sich ein Himmel, der im Laufe von 24 Stunden von Hell zu Dunkel wechselt. Die Mondphase ist so genau ausgelegt, dass sie erst nach vielen Jahrzehnten um einen Tag korrigiert werden muss."
+   ],
+   "vh": [
+    [
+     "Rotgold: Ref. 192.032",
+     "Die Ausführung in Rotgold mit silberfarbenem Zifferblatt und braunem Lederband."
+    ],
+    [
+     "Weißgold: Ref. 192.025",
+     "Die Ausführung in Weißgold bildet den kühleren Gegenpol zur Rotgoldversion."
+    ]
+   ],
+   "m": [
+    "Mondphase im Hilfszifferblatt der kleinen Sekunde",
+    "Tag-Nacht-Anzeige hinter dem Mond",
+    "Großdatum und Gangreserve wie bei der Lange 1",
+    "38,5 mm, Gold"
+   ],
+   "ev": [
+    [
+     "2002",
+     "Erste Lange 1 Mondphase"
+    ],
+    [
+     "2017",
+     "Neue Mondphase Ref. 192 mit Kaliber L121.3"
+    ]
+   ],
+   "x": [
+    "Die neue Generation erkennt man an der Tag-Nacht-Anzeige und am Kaliber L121.3; ältere Mondphasen haben das Werk der ersten Lange 1.",
+    "Bei Gebrauchtuhren prüfen, ob Großdatum, Mondphase und Tag-Nacht-Anzeige sauber schalten, und auf Servicebelege von Lange achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "38,5 mm, Gold"
+    ],
+    [
+     "Kaliber",
+     "L121.3, Handaufzug"
+    ],
+    [
+     "Gangreserve",
+     "≈ 72 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Großdatum, Gangreserve, Mondphase, Tag-Nacht-Anzeige"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "annual-calendar",
+     "c": "Patek Philippes Jahreskalender verbindet ebenfalls Kalenderanzeigen mit einer Mondphase in klassischer Form."
+    },
+    {
+     "m": "glashuette-pano",
+     "c": "Die PanoMaticLunar aus Glashütte kombiniert Großdatum und Mondphase auf einem außermittigen Zifferblatt."
+    },
+    {
+     "m": "traditionnelle",
+     "c": "Vacheron Constantins Traditionnelle gibt es ebenfalls mit Mondphase in Gold."
+    }
+   ]
   }
  ]
 }
