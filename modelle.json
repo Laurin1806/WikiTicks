@@ -36834,6 +36834,98 @@
      "c": "2025 stieg auch Rolex mit der Land-Dweller in die Klasse der Uhren mit integriertem Band ein."
     }
    ]
+  },
+  {
+   "id": "annual-calendar-5396",
+   "model": "annual-calendar",
+   "ref": "5396",
+   "alias": [
+    "5396G",
+    "5396R"
+   ],
+   "var": null,
+   "t": "Patek Philippe Annual Calendar Ref. 5396",
+   "bau": "seit 2006",
+   "cap": "",
+   "s": "Wochentag und Monat in zwei Fenstern unter der Zwölf, das Datum bei sechs, dazwischen die Mondphase: Die 5396 ist der Jahreskalender von Patek Philippe in seiner klassischsten Form.",
+   "bh": [
+    "Ein Klassiker des Jahreskalenders",
+    "Anzeigen und Ablesbarkeit",
+    "Das Werk",
+    "Bedeutung"
+   ],
+   "b": [
+    "2006, zehn Jahre nach dem ersten Jahreskalender 5035, stellte Patek Philippe die Referenz 5396 vor. Während andere Jahreskalender des Hauses mit Zeigern oder Gangreserveanzeige arbeiteten, setzte die 5396 auf eine besonders aufgeräumte Anordnung der Kalenderanzeigen in Fenstern.",
+    "Unter dem Markenschriftzug stehen nebeneinander die Fenster für Wochentag und Monat, darunter liegt ein Hilfszifferblatt mit Mondphase und 24-Stunden-Skala, bei 6 Uhr das Datum in einem eigenen Fenster. Aufgesetzte Stabindizes mit doppeltem Index bei 12 Uhr und schlanke Stabzeiger halten das Zifferblatt ruhig.",
+    "Im Inneren arbeitet das Automatikkaliber 324 S QA LU 24H/303. Es unterscheidet selbstständig zwischen Monaten mit 30 und 31 Tagen; nur einmal im Jahr, am 1. März, muss das Datum von Hand korrigiert werden. Das runde Goldgehäuse misst 38,5 Millimeter und ist bis 30 Meter wasserdicht.",
+    "Die 5396 zeigt, wie Patek Philippe den einst neuen Jahreskalender zu einem festen Bestandteil des Programms gemacht hat. Sie ist eine der langlebigsten Referenzen der Linie und wurde über die Jahre mit verschiedenen Zifferblättern angeboten."
+   ],
+   "vh": [
+    [
+     "Weißgold: Ref. 5396G",
+     "Die abgebildete Ausführung kombiniert ein Weißgoldgehäuse mit einem dunkelblauen Zifferblatt mit Sonnenschliff und dunkelblauem Lederband."
+    ],
+    [
+     "Roségold: Ref. 5396R",
+     "Die Roségoldversion gibt es mit hellen und dunklen Zifferblättern und braunem Lederband."
+    ]
+   ],
+   "m": [
+    "38,5 mm, Gold, glatte Lünette",
+    "Fenster für Wochentag und Monat unter der 12",
+    "Mondphase mit 24-Stunden-Skala",
+    "Datumsfenster bei 6 Uhr"
+   ],
+   "ev": [
+    [
+     "1996",
+     "Erster Jahreskalender von Patek Philippe (Ref. 5035)"
+    ],
+    [
+     "2006",
+     "Vorstellung der Ref. 5396"
+    ]
+   ],
+   "x": [
+    "Vor dem Kauf prüfen, ob alle Kalenderanzeigen zueinander passen und korrekt weiterschalten.",
+    "Kalenderanzeigen sollte man nicht in den Abend- und Nachtstunden verstellen, wenn das Werk gerade umschaltet."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2006"
+    ],
+    [
+     "Gehäuse",
+     "38,5 mm, Weiß- oder Roségold"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "324 S QA LU 24H/303, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunde, Wochentag, Datum, Monat, Mondphase, 24-Stunden-Anzeige"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "portugieser",
+     "c": "IWC brachte die Portugieser ebenfalls als Jahreskalender heraus, mit Automatikwerk und klassischem Gehäuse."
+    },
+    {
+     "m": "lange-1",
+     "c": "Die Lange 1 von A. Lange & Söhne gehört zu den großen Komplikationsuhren in Gold aus denselben Jahren."
+    },
+    {
+     "m": "master-control",
+     "c": "Jaeger-LeCoultres Master Control bietet Kalenderkomplikationen in einer ähnlich klassischen Gestaltung."
+    }
+   ]
   }
  ]
 }
