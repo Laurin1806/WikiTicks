@@ -52813,6 +52813,77 @@
      "c": "Breitlings Navitimer blieb die andere große Pilotenuhr dieser Zeit."
     }
    ]
+  },
+  {
+   "id": "happy-diamonds-278582",
+   "model": "happy-diamonds",
+   "ref": "278582",
+   "alias": [
+    "278582-3001"
+   ],
+   "var": null,
+   "t": "Chopard Happy Sport Ref. 278582",
+   "bau": "aktuelle Kollektion",
+   "cap": "",
+   "s": "Die sportliche Schwester der Happy Diamonds: frei bewegliche Diamanten zwischen zwei Gläsern, kombiniert mit einem Stahlgehäuse für jeden Tag.",
+   "bh": [
+    "Diamanten in Bewegung",
+    "Die Happy Sport",
+    "Gehäuse und Zifferblatt"
+   ],
+   "b": [
+    "1976 ließ Chopard mit der Happy Diamonds erstmals Diamanten frei zwischen zwei Saphirgläsern über das Zifferblatt rollen. Was als Schmuckuhr begann, wurde zum Markenzeichen des Hauses.",
+    "Mit der Happy Sport übertrug Chopard das Prinzip in den 1990er-Jahren auf eine sportlichere Uhr aus Edelstahl, die man im Alltag tragen kann. Sie wurde zu einer der erfolgreichsten Damenuhren der Marke und blieb bis heute im Programm.",
+    "Die Referenz 278582 trägt ein rundes Stahlgehäuse mit runden Endstücken, ein weißsilbernes Zifferblatt mit schlanken Stabzeigern und den Schriftzug »Chopard« in Schreibschrift. Im unteren Teil des Zifferblatts liegen fünf frei bewegliche Diamanten in runden Fassungen, die Krone ziert ein blauer Cabochon."
+   ],
+   "m": [
+    "Fünf frei bewegliche Diamanten zwischen zwei Gläsern",
+    "Rundes Stahlgehäuse mit runden Endstücken",
+    "Krone mit blauem Cabochon",
+    "Schriftzug »Chopard« in Schreibschrift"
+   ],
+   "ev": [
+    [
+     "1976",
+     "Erste Happy Diamonds"
+    ],
+    [
+     "1990er",
+     "Happy Sport in Edelstahl"
+    ]
+   ],
+   "x": [
+    "Die beweglichen Diamanten sollten frei laufen; hängende Steine deuten auf Schmutz oder einen Schaden zwischen den Gläsern hin.",
+    "Am Zweitmarkt hängt der Preis stark von Material und Steinbesatz ab."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "Edelstahl, rund"
+    ],
+    [
+     "Besonderheit",
+     "frei bewegliche Diamanten zwischen zwei Gläsern"
+    ],
+    [
+     "Band",
+     "Lederband"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "panthere",
+     "c": "Cartiers Panthère ist die andere große Schmuck- und Damenuhr aus Stahl."
+    },
+    {
+     "m": "serpenti",
+     "c": "Bulgaris Serpenti verbindet Uhr und Schmuck auf eigene Weise."
+    },
+    {
+     "m": "ballon-bleu",
+     "c": "Cartiers Ballon Bleu mit blauem Cabochon in der Krone ist ebenfalls eine beliebte Damenuhr."
+    }
+   ]
   }
  ]
 }
