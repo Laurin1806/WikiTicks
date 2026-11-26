@@ -19,6 +19,7 @@ Jede Änderung an der Website wird im selben Commit im Changelog eingetragen.
 - Nur für Grundreferenzen, nicht für jede Material-, Zifferblatt- oder Farbvariante. Bei Rolex ist die Datumsausführung die Grundreferenz (z. B. 126610LN, nicht 124060).
 - Varianten (Edelmetall, Platin, Zifferblätter, Größen) kommen als Absatz unter »Varianten« (`vh`) in den Artikel der Grundreferenz; ihre Referenzen als `alias`, damit Bilder und Tabellen dorthin verlinken.
 - Unter »Varianten« auch wichtige Ausführungen nennen, die noch nicht auf der Seite sind, mit ihrer Referenznummer, wenn sie auf der Grundreferenz basieren – nicht alle Blattfarben, nur die wichtigen.
+- Form der »Varianten« wie bei der Nautilus 5711: je wichtige Variante eine kurze Zwischenüberschrift (»Bezeichnung: Ref. …«, wenn es eine Referenz gibt) und ein bis zwei Sätze.
 - Jeder neue Artikel wird einzeln committet und gepusht.
 
 ## Deployment (Hostinger)
