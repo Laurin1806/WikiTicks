@@ -48888,6 +48888,95 @@
      "c": "Tudors Black Bay steht für den gleichzeitigen Trend zu Taucheruhren mit Vintage-Anklängen."
     }
    ]
+  },
+  {
+   "id": "top-time-a23311",
+   "model": "top-time",
+   "ref": "A23311",
+   "alias": [
+    "A23311121G1X1",
+    "A23311"
+   ],
+   "var": null,
+   "t": "Breitling Top Time Ref. A23311",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Zurück in die 1960er: Die A23311 führte 2020 die Top Time wieder ein – mit hellem Zifferblatt, schwarzen Zählern und dem Rallye-Charme jener Jahre, in denen Sean Connery als James Bond eine Top Time trug.",
+   "bh": [
+    "Rückkehr der Top Time",
+    "Zifferblatt und Gehäuse",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Top Time war ab 1964 Breitlings Chronograph für ein jüngeres Publikum. 2020 belebte die Marke den Namen neu; die Referenz A23311 gehörte zu den ersten Modellen der Neuauflage und griff die Gestaltung der Originale sehr direkt auf.",
+    "Typisch ist die Kombination aus hellem Zifferblatt und zwei dunklen Hilfszifferblättern bei 3 und 9 Uhr, die Sammler wegen ihrer Form an eine Maske erinnert. Eine schwarze Tachymeterskala läuft am Rand, der Chronographenzeiger ist rot. Das Edelstahlgehäuse misst 41 Millimeter und ist damit größer als die Originale.",
+    "Anders als die Handaufzugswerke der 1960er-Jahre arbeitet in der A23311 ein Automatikwerk mit Chronograph, bei Breitling als Kaliber 23 bezeichnet; es basiert auf einem zugekauften Werk.",
+    "Mit der A23311 begann die neue Top-Time-Familie, zu der später die Top Time Classic Cars mit Bezug auf Autos der 1960er-Jahre kam. Die Uhr ist ein vergleichsweise zugänglicher Breitling-Chronograph mit deutlichem Vintage-Bezug."
+   ],
+   "vh": [
+    [
+     "Top Time Classic Cars",
+     "Die Sonderlinie Top Time Classic Cars widmet Zifferblattfarben und Gestaltung bekannten Sportwagen der 1960er-Jahre; diese Modelle tragen eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl",
+    "Helles Zifferblatt mit zwei dunklen Hilfszifferblättern",
+    "Schwarze Tachymeterskala am Rand",
+    "Roter Chronographenzeiger, Schriftzug »TOP TIME«",
+    "Gelochtes Rallye-Lederband"
+   ],
+   "ev": [
+    [
+     "1964",
+     "Erste Top Time"
+    ],
+    [
+     "1965",
+     "Sean Connery trägt eine Top Time in »Thunderball«"
+    ],
+    [
+     "2020",
+     "Neuauflage mit der A23311"
+    ]
+   ],
+   "x": [
+    "Das Automatikwerk auf Fremdbasis ist einfach zu warten – ein Vorteil gegenüber den Vintage-Originalen.",
+    "Wer den Originalcharakter sucht, sollte auf das passende Rallye-Lederband achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Breitling 23, Automatik-Chronograph"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Tachymeter"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "carrera",
+     "c": "Die Carrera Glassbox zeigt ebenfalls, wie stark der Chronograph der 1960er-Jahre in diesen Jahren zurückkehrte."
+    },
+    {
+     "m": "heritage-chrono",
+     "c": "Tudors Heritage Chrono greift wie die Top Time einen Chronographen der 1970er-Jahre auf."
+    },
+    {
+     "m": "chronomaster",
+     "c": "Der Chronomaster Original ist die gleichzeitige Neuauflage eines Chronographen-Klassikers von Zenith."
+    }
+   ]
   }
  ]
 }
