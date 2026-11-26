@@ -43180,6 +43180,92 @@
      "c": "Die Sinn 556 ist eine ähnlich schlichte Automatikuhr mit schwarzem Zifferblatt."
     }
    ]
+  },
+  {
+   "id": "pan-europ-h35756140",
+   "model": "pan-europ",
+   "ref": "H35756140",
+   "var": null,
+   "t": "Hamilton Pan Europ Ref. H35756140",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Blaues Zifferblatt, rote Zeiger, Tachymeterlünette und Kissengehäuse: Der Pan Europ Auto Chrono holt Hamiltons Chronographen von 1971 mit modernem Werk zurück.",
+   "bh": [
+    "Das Vorbild von 1971",
+    "Gehäuse und Zifferblatt",
+    "Das Werk H-31",
+    "Die Neuauflage heute"
+   ],
+   "b": [
+    "1971 stellte Hamilton die Pan Europ vor, einen Chronographen mit dem Automatikwerk Chrono-Matic Kaliber 11, das Hamilton 1969 gemeinsam mit Breitling und Heuer entwickelt hatte. 2011 kehrte der Name als Pan Europ Auto Chrono zurück, zunächst limitiert auf 1.971 Stück. Die Referenz H35756140 ist die Ausführung mit blauem Zifferblatt und Stahlband.",
+    "Das kissenförmige Edelstahlgehäuse misst 45 Millimeter und ist bis 100 Meter wasserdicht. Auf dem blauen Zifferblatt liegen zwei silberne Hilfszifferblätter bei 3 und 9 Uhr mit roten Zeigern, der Chronographenzeiger ist ebenfalls rot. Das Datum steht über 6 Uhr unter dem Schriftzug »PAN-EUROP«, die blaue Lünette trägt eine Tachymeterskala.",
+    "Im Inneren arbeitet das Automatik-Chronographenkaliber H-31. Die Krone und die beiden Drücker sitzen rechts – anders als beim Original mit Kaliber 11, dessen Krone links lag.",
+    "Der Pan Europ Auto Chrono ist eine günstige Alternative zu den Retro-Chronographen großer Schweizer Marken. Die Farben Blau und Rot erinnern an die kräftige Gestaltung der 1970er-Jahre."
+   ],
+   "m": [
+    "45 mm, kissenförmiges Edelstahlgehäuse",
+    "Blaues Zifferblatt mit silbernen Hilfszifferblättern bei 3 und 9 Uhr",
+    "Rote Chronographenzeiger",
+    "Blaue Lünette mit Tachymeterskala"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Chrono-Matic Kaliber 11"
+    ],
+    [
+     "1971",
+     "Erste Pan Europ"
+    ],
+    [
+     "2011",
+     "Pan Europ Auto Chrono mit Kaliber H-31"
+    ]
+   ],
+   "x": [
+    "Wer ein Original mit Kaliber 11 sucht, braucht eine Uhr aus den 1970er-Jahren mit gut erhaltenem Zifferblatt.",
+    "Mit 45 Millimetern trägt die Neuauflage groß – vorher anprobieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "45 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "H-31, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Chronograph, Datum, Tachymeterskala"
+    ],
+    [
+     "Vorbild",
+     "Pan Europ von 1971"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "monaco",
+     "c": "Der TAG Heuer Monaco erschien 1969 mit demselben Chrono-Matic Kaliber 11 wie die erste Pan Europ."
+    },
+    {
+     "m": "autavia",
+     "c": "Auch der Heuer Autavia bekam Ende der 1960er-Jahre das Kaliber 11."
+    },
+    {
+     "m": "navitimer",
+     "c": "Breitling, der dritte Partner beim Kaliber 11, baute es in den Navitimer ein."
+    }
+   ]
   }
  ]
 }
