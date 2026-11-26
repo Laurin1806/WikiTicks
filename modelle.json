@@ -48153,6 +48153,94 @@
      "c": "Omegas Constellation war um 1960 eine der bekanntesten goldenen Automatikuhren."
     }
    ]
+  },
+  {
+   "id": "master-collection-l2-793",
+   "model": "master-collection",
+   "ref": "L2.793.4",
+   "alias": [
+    "L2.793.4.78.3",
+    "L2.793.4"
+   ],
+   "var": null,
+   "t": "Longines Master Collection Ref. L2.793.4",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Gerstenkorn, gebläute Zeiger, große arabische Ziffern: Die L2.793.4 ist die Master Collection in ihrer klassischsten Form – ein Automatik-Dreizeiger mit Datum und 40 Millimetern.",
+   "bh": [
+    "Die klassische Linie",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Master Collection ist seit 2005 die klassische Linie von Longines. Neben den bekannten Modellen mit Mondphase, Vollkalender und Chronograph gibt es schlichte Dreizeiger; die Ausführung mit 40 Millimetern und Datum trägt die Grundreferenz L2.793.4.",
+    "Das runde Edelstahlgehäuse ist klassisch gezeichnet. Das silberne Zifferblatt trägt das für die Linie typische Gerstenkornmuster, große schwarze arabische Ziffern, eine Minuterie am Rand und gebläute Zeiger. Das Datum erscheint bei 3 Uhr, über der 6 steht »Automatic«. Eine Mondphase hat diese Ausführung nicht.",
+    "Im Inneren arbeitet ein Automatikwerk, das Longines auf Basis von ETA bezieht. In neueren Ausführungen bieten die Werke der Master Collection deutlich längere Gangreserven als früher.",
+    "Die L2.793.4 ist eine zeitlose Alltagsuhr zum Anzug und einer der zugänglichsten Wege zu einer klassischen Schweizer Automatikuhr mit Gerstenkornzifferblatt."
+   ],
+   "vh": [
+    [
+     "Zifferblätter",
+     "Neben Silber mit arabischen Ziffern gibt es die L2.793.4 mit anderen Zifferblattfarben und mit Stabindizes; die Endung der Referenz unterscheidet die Ausführungen."
+    ],
+    [
+     "Andere Master-Collection-Modelle",
+     "Mondphasen-, Vollkalender- und Chronographenmodelle der Master Collection tragen eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "40 mm, Edelstahl",
+    "Silbernes Zifferblatt mit Gerstenkornmuster",
+    "Große arabische Ziffern, gebläute Zeiger",
+    "Datum bei 3 Uhr, keine Mondphase"
+   ],
+   "ev": [
+    [
+     "2005",
+     "Einführung der Master Collection"
+    ],
+    [
+     "2022",
+     "Überarbeitung der Linie mit neuen Werken"
+    ]
+   ],
+   "x": [
+    "Auf die Referenz und das Werk achten: Neuere Ausführungen haben eine deutlich längere Gangreserve.",
+    "Das Lederband ist ein Verschleißteil; die Originalschließe trägt das Longines-Logo."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony ist die klassische Dresswatch derselben Jahre auf höherer Ebene."
+    },
+    {
+     "m": "le-locle",
+     "c": "Die Tissot Le Locle ist eine klassische Automatikuhr mit verziertem Zifferblatt aus demselben Konzern."
+    },
+    {
+     "m": "jazzmaster",
+     "c": "Hamiltons Jazzmaster ist eine weitere zugängliche, klassische Automatikuhr dieser Zeit."
+    }
+   ]
   }
  ]
 }
