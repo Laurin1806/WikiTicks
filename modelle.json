@@ -4038,13 +4038,13 @@
      "at": "1675: Kronenschutz und Tag-Nacht-Anzeige"
     },
     {
-     "n": "Ref. 16710BLRO »Pepsi«",
+     "n": "Ref. 16710 »Pepsi«",
      "y": "1989–2007",
      "v": {
       "img": "assets/watches/rolex-gmt-master-2-16710-pepsi.jpg"
      },
      "dial": "Schwarz",
-     "iref": "16710BLRO",
+     "iref": "16710",
      "irefs": "hoch",
      "bd": [
       "Die Abbildung zeigt eine Rolex GMT-Master II Referenz 16710 mit rot-blauer Aluminiumlünette (»Pepsi«) und Oyster-Band.",
@@ -4100,7 +4100,7 @@
      "irefs": "hoch"
     },
     {
-     "n": "Ref. 16710BLRO »Pepsi« mit Tritium",
+     "n": "Ref. 16710 »Pepsi« mit Tritium",
      "y": "1989–1998",
      "v": {
       "img": "assets/watches/rolex-gmt-master-2-16710-pepsi-tritium.jpg"
@@ -4111,7 +4111,8 @@
      ],
      "dial": "Schwarz",
      "iref": "16710",
-     "irefs": "hoch"
+     "irefs": "hoch",
+     "dup": true
     }
    ],
    "m": [
@@ -52359,7 +52360,7 @@
    "ev": [
     [
      "1983",
-     "Ref. 16760 »Fat Lady«: erste GMT-Master II"
+     "Ref. 16760 »Fat Lady« als erste GMT-Master II"
     ],
     [
      "1989",
@@ -53086,6 +53087,125 @@
     {
      "m": "seamaster-300",
      "c": "Omegas Seamaster 300 steht für die klassische Militär-Taucheruhr."
+    }
+   ]
+  },
+  {
+   "id": "gmt-master-116710",
+   "model": "gmt-master",
+   "ref": "116710LN",
+   "alias": [
+    "116710",
+    "116710BLNR",
+    "116713LN",
+    "116718LN",
+    "116719BLRO"
+   ],
+   "var": 6,
+   "t": "Rolex GMT-Master II Ref. 116710LN",
+   "bau": "2007–2019",
+   "cap": "",
+   "s": "Mit der 116710LN bekam die GMT-Master II in Stahl ihre Keramiklünette – und 2013 mit der »Batman« die erste zweifarbige Lünette aus Keramik.",
+   "bh": [
+    "Keramik statt Aluminium",
+    "Gehäuse und Werk",
+    "Die »Batman«",
+    "Ablösung"
+   ],
+   "b": [
+    "Nach fast zwei Jahrzehnten löste Rolex 2007 die 16710 mit ihrer Aluminiumlünette ab. Die neue 116710LN trug eine Lünetteneinlage aus schwarzer Cerachrom-Keramik, die kratzfest ist und nicht verblasst. Vorgemacht hatte es 2005 die GMT-Master II 116718LN in Gelbgold zum 50-jährigen Jubiläum der Linie.",
+    "Das Gehäuse aus Edelstahl misst weiterhin 40 Millimeter, wirkt durch breitere Bandanstöße und den kräftigeren Kronenschutz aber massiver als bei der Vorgängerin. Das Zifferblatt hat größere Leuchtindizes, die blau leuchtende Chromalight-Masse und einen grünen 24-Stunden-Zeiger. Im Inneren arbeitet das Kaliber 3186 mit Parachrom-Spirale, das Oyster-Band hat massive Endstücke und eine Oysterlock-Faltschließe.",
+    "2013 stellte Rolex die 116710BLNR vor, deren Lünette in einem Stück halb schwarz und halb blau gefärbt ist – technisch bis dahin nicht möglich. Sammler nennen sie wegen der Farben »Batman«. Passend zur Lünette ist ihr 24-Stunden-Zeiger blau; sie kam ausschließlich am Oyster-Band.",
+    "2018 und 2019 folgte die Generation 126710 mit dem Kaliber 3285 und Jubilé-Band. Eine Stahlausführung mit ganz schwarzer Lünette gibt es seither nicht mehr – 2023 kam stattdessen die grau-schwarze 126710GRNR; die »Batman« lebt als 126710BLNR weiter."
+   ],
+   "vh": [
+    [
+     "»Batman«: Ref. 116710BLNR",
+     "Blau-schwarze Keramiklünette aus einem Stück und blauer 24-Stunden-Zeiger, 2013 bis 2019 am Oyster-Band."
+    ],
+    [
+     "Gelbgold: Ref. 116718LN",
+     "Die erste GMT-Master II mit Cerachrom-Lünette, 2005 zum 50-jährigen Jubiläum, mit grünem 24-Stunden-Zeiger."
+    ],
+    [
+     "Rolesor: Ref. 116713LN",
+     "Edelstahl und Gelbgold mit schwarzer Keramiklünette."
+    ],
+    [
+     "Weißgold »Pepsi«: Ref. 116719BLRO",
+     "2014 die erste rot-blaue Keramiklünette, zunächst nur in Weißgold."
+    ]
+   ],
+   "m": [
+    "40 mm, Keramiklünette mit 24-Stunden-Skala",
+    "Grüner (LN) bzw. blauer (BLNR) 24-Stunden-Zeiger",
+    "Breite Bandanstöße, Leuchtmasse leuchtet blau",
+    "Oyster-Band mit Oysterlock-Schließe"
+   ],
+   "ev": [
+    [
+     "2005",
+     "Ref. 116718LN in Gelbgold mit erster Cerachrom-Lünette"
+    ],
+    [
+     "2007",
+     "Stahlausführung mit schwarzer Keramiklünette"
+    ],
+    [
+     "2013",
+     "Ref. 116710BLNR »Batman« mit blau-schwarzer Lünette"
+    ],
+    [
+     "2019",
+     "Ablösung durch die 126710"
+    ]
+   ],
+   "x": [
+    "Die »Batman« der ersten Generation kam nur am Oyster-Band; ein Jubilé-Band deutet auf die spätere 126710BLNR.",
+    "Grüner 24-Stunden-Zeiger und grüne »GMT-Master II«-Schrift sind Kennzeichen der 116710LN."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2007–2019"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3186, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden (einzeln verstellbar), Minuten, Sekunden, Datum, zweite Zeitzone (24 h)"
+    ],
+    [
+     "Lünette",
+     "beidseitig drehbar, Cerachrom-Keramik"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "16710 / 126710"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die Submariner Date 116610 bekam in denselben Jahren ebenfalls eine Keramiklünette und das breitere Gehäuse."
+    },
+    {
+     "m": "explorer-2",
+     "c": "Der Explorer II 216570 zeigt seit 2011 die zweite Zeitzone mit fester Lünette."
+    },
+    {
+     "m": "planet-ocean",
+     "c": "Omegas Planet Ocean war in denselben Jahren eine Sportuhr mit Keramiklünette."
     }
    ]
   }
