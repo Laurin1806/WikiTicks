@@ -43894,6 +43894,95 @@
      "c": "Die Hamilton Khaki Field Mechanical ist eine ebenso schnörkellose Uhr mit militärischen Wurzeln."
     }
    ]
+  },
+  {
+   "id": "ludwig-201",
+   "model": "ludwig",
+   "ref": "201",
+   "alias": [
+    "201",
+    "Ludwig"
+   ],
+   "var": null,
+   "t": "Nomos Ludwig Ref. 201",
+   "bau": "seit 1992",
+   "cap": "",
+   "s": "Römische Ziffern, gebläute Zeiger und ein schmaler Rand: Die Ludwig ist die klassischste der ersten Nomos-Uhren und verbindet Glashütter Handaufzug mit einem Zifferblatt alter Schule.",
+   "bh": [
+    "Eine der ersten vier",
+    "Gehäuse und Werk",
+    "Klassik statt Strenge",
+    "Heute"
+   ],
+   "b": [
+    "Die Ludwig erschien 1992 mit den ersten Modellen von Nomos Glashütte, zusammen mit Tangente, Orion und Tetra. Die junge Firma wollte Uhren im Sinne des Bauhauses bauen: klare Formen, reduzierte Gestaltung und gute Lesbarkeit. Die ersten Uhren wurden 1992 auf der Basler Uhrenmesse gezeigt und waren ein Überraschungserfolg.",
+    "Die Ludwig hat ein rundes Edelstahlgehäuse mit schlankem Rand und eine kleine Sekunde bei 6 Uhr. Im Inneren arbeitet ein Nomos-Handaufzugswerk aus der Alpha-Familie. Ein Datum hat die Grundausführung nicht, sie zeigt Stunden, Minuten und Sekunden.",
+    "Was die Ludwig von ihren Schwestern unterscheidet, ist das Zifferblatt: Römische Ziffern bei 12, 3, 6 und 9 Uhr, dazwischen feine Striche, dazu eine Minuterie am Rand. Damit wirkt sie traditioneller als die Tangente, bleibt aber in der Gestaltung ebenso zurückhaltend.",
+    "Die Ludwig gehört bis heute zu den günstigsten Uhren aus Glashütte. Neben der Handaufzugsversion gibt es inzwischen eine Ludwig neomatik mit Automatikwerk; die Grundform der Ludwig mit kleiner Sekunde ist aber seit über 30 Jahren dieselbe."
+   ],
+   "vh": [
+    [
+     "Ludwig neomatik",
+     "Die Ludwig gibt es auch mit dem flachen Automatikkaliber DUW 3001 von Nomos, unter eigenen Referenzen."
+    ],
+    [
+     "Größere Gehäuse und Datum",
+     "Auf der Ludwig bauen weitere Größen und Ausführungen mit Datum auf, die jeweils eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "Rundes Edelstahlgehäuse mit schmalem Rand",
+    "Römische Ziffern bei 12, 3, 6 und 9 Uhr",
+    "Gebläute Zeiger",
+    "Kleine Sekunde bei 6 Uhr, kein Datum"
+   ],
+   "ev": [
+    [
+     "1992",
+     "Vorstellung mit den ersten Nomos-Modellen"
+    ],
+    [
+     "2010er",
+     "Ludwig neomatik mit Automatikwerk ergänzt die Linie"
+    ]
+   ],
+   "x": [
+    "Die Ludwig ist einer der günstigsten Wege zu einer Uhr aus Glashütte; gebraucht liegt sie meist unter dem Neupreis.",
+    "Wer keine Lust aufs tägliche Aufziehen hat, sollte zur neomatik-Ausführung greifen.",
+    "Auf ein sauberes Zifferblatt achten: Bei so viel freier Fläche fallen Flecken und Kratzer sofort auf."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 1992"
+    ],
+    [
+     "Gehäuse",
+     "Edelstahl, rund"
+    ],
+    [
+     "Kaliber",
+     "Alpha, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "saxonia",
+     "c": "Die Saxonia von A. Lange & Söhne steht seit 1994 für die klassische Dreizeigeruhr aus Glashütte."
+    },
+    {
+     "m": "classique",
+     "c": "Breguets Classique zeigt, wie zeitlos ein schlichtes Zifferblatt mit Ziffern alter Schule wirken kann."
+    },
+    {
+     "m": "junghans-meister",
+     "c": "Die Junghans Meister ist eine andere klassische deutsche Uhr, die Tradition und Zurückhaltung verbindet."
+    }
+   ]
   }
  ]
 }
