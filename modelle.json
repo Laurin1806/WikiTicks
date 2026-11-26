@@ -41785,6 +41785,108 @@
      "c": "Die Longines HydroConquest ist eine weitere Alternative im mittleren Preisbereich."
     }
    ]
+  },
+  {
+   "id": "skx007-skx007",
+   "model": "skx007",
+   "ref": "SKX007",
+   "alias": [
+    "SKX007K2",
+    "SKX007K",
+    "SKX007K1",
+    "SKX007J"
+   ],
+   "var": null,
+   "t": "Seiko SKX007 Ref. SKX007",
+   "bau": "1996–2019",
+   "cap": "",
+   "s": "Die ehrliche Taucheruhr für alle: ISO-geprüft, 200 Meter dicht, unverwüstlich – und über zwei Jahrzehnte der Beweis, dass eine ernsthafte mechanische Taucheruhr nicht viel kosten muss.",
+   "bh": [
+    "Ein Taucher für jedermann",
+    "Gehäuse und Werk",
+    "Liebling der Bastler",
+    "Abschied nach 23 Jahren"
+   ],
+   "b": [
+    "1996 brachte Seiko die SKX007 als Nachfolgerin der Taucheruhren der 6309-Generation heraus. Sie erfüllt die Taucheruhren-Norm ISO 6425, ist bis 200 Meter wasserdicht und war von Anfang an für den echten Einsatz unter Wasser gedacht – zu einem Preis, der nur einen Bruchteil vergleichbarer Schweizer Uhren ausmachte.",
+    "Das 42-Millimeter-Gehäuse aus Edelstahl trägt die Krone bei 4 Uhr, damit sie nicht in den Handrücken drückt. Die einseitig drehbare Lünette, die großen runden Leuchtindizes und das schwarze Zifferblatt mit Wochentag und Datum bei 3 Uhr sind typisch. Im Inneren arbeitet das Automatikwerk 7S26 mit 21.600 Halbschwingungen pro Stunde und rund 41 Stunden Gangreserve; es ist einfach und sehr robust, lässt sich aber weder von Hand aufziehen noch beim Stellen anhalten.",
+    "Weil die SKX007 günstig, solide und weit verbreitet war, wurde sie zur beliebtesten Basisuhr für »Mods«: Bastler tauschen Zifferblätter, Zeiger, Lünetten und Gläser und bauen daraus ganz eigene Uhren. Ein großer Markt für Ersatzteile von Drittanbietern ist um sie herum entstanden.",
+    "2019 stellte Seiko die SKX007 ein. Ihre Rolle übernahm die neue Seiko 5 Sports, die das Gehäusedesign weitgehend aufgreift, aber mit dem Werk 4R36 Handaufzug und Sekundenstopp bietet. Gute Exemplare der SKX007 sind seitdem gesucht."
+   ],
+   "vh": [
+    [
+     "Band und Herkunft: SKX007K1, SKX007K2, SKX007J",
+     "Die Endung K1 stand für die Ausführung mit Stahlband, K2 für die mit Kautschukband; die J-Modelle wurden für den japanischen Markt in Japan gefertigt."
+    ],
+    [
+     "»Pepsi«-Lünette: Ref. SKX009",
+     "Die Schwester SKX009 hat dasselbe Gehäuse, aber ein blaues Zifferblatt und eine blau-rote Lünette."
+    ],
+    [
+     "Kleinere Schwester: Ref. SKX013",
+     "Die SKX013 überträgt die Gestaltung auf ein Gehäuse mit 36 Millimetern und passt damit auch an schmale Handgelenke."
+    ]
+   ],
+   "m": [
+    "42 mm, Edelstahl, Krone bei 4 Uhr",
+    "Schwarzes Zifferblatt mit runden Leuchtindizes",
+    "Wochentag und Datum bei 3 Uhr",
+    "Aufdruck »DIVER'S 200m«"
+   ],
+   "ev": [
+    [
+     "1996",
+     "Vorstellung der SKX007"
+    ],
+    [
+     "2019",
+     "Einstellung; Nachfolge durch die Seiko 5 Sports"
+    ]
+   ],
+   "x": [
+    "Viele Exemplare wurden umgebaut – wer eine originale SKX007 sucht, sollte Zifferblatt, Zeiger, Lünette und Glas genau prüfen.",
+    "Das Werk 7S26 ist robust und lässt sich günstig warten; dass es keinen Handaufzug und keinen Sekundenstopp hat, ist normal und kein Defekt."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1996–2019"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl, Krone bei 4 Uhr"
+    ],
+    [
+     "Wasserdicht",
+     "200 m (ISO 6425)"
+    ],
+    [
+     "Kaliber",
+     "7S26, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Wochentag, Datum"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "6309-Taucher / Seiko 5 Sports (SRPD)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M war in denselben Jahren die bekannte Schweizer Taucheruhr – deutlich teurer, aber ähnlich zweckmäßig."
+    },
+    {
+     "m": "promaster-diver",
+     "c": "Citizens Promaster Diver war die japanische Konkurrenz in der gleichen Preisklasse, nur mit Solarantrieb statt Automatik."
+    },
+    {
+     "m": "hydroconquest",
+     "c": "Die Longines HydroConquest wurde für viele der nächste Schritt nach einer günstigen Seiko-Taucheruhr."
+    }
+   ]
   }
  ]
 }
