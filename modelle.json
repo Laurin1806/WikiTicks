@@ -49679,6 +49679,93 @@
      "c": "Die Bell & Ross BR 01 von 2005 stand wie die PAM 111 für die betont große Uhr mit Instrumentencharakter."
     }
    ]
+  },
+  {
+   "id": "luminor-pam01312",
+   "model": "luminor",
+   "ref": "PAM01312",
+   "alias": [
+    "PAM01312",
+    "PAM 1312",
+    "PAM 01312"
+   ],
+   "var": null,
+   "t": "Panerai Luminor Marina Ref. PAM01312",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Die Luminor Marina mit Manufakturwerk: 44 Millimeter Stahl, Kronenschutzbügel, Sandwich-Zifferblatt und drei Tage Gangreserve.",
+   "bh": [
+    "Ein Gehäuse aus der Marinezeit",
+    "Kronenschutz und Sandwich-Zifferblatt",
+    "Kaliber P.9010",
+    "Stellung im Programm"
+   ],
+   "b": [
+    "Die Luminor entstand in den 1950er-Jahren als Weiterentwicklung der Radiomir für die Kampftaucher der italienischen Marine; ihren Namen hat sie von einer Leuchtmasse auf Tritiumbasis. 2017 erschien die Luminor Marina mit der Referenz PAM01312, eine Ausführung aus Edelstahl mit schwarzem Zifferblatt, kleiner Sekunde und Datum.",
+    "Das kissenförmige Gehäuse misst 44 Millimeter. Erkennungszeichen ist der Kronenschutzbügel, ein Hebel, der die Krone gegen die Dichtung drückt und sie vor Stößen schützt. Das Sandwich-Zifferblatt besteht aus zwei Platten: Die obere hat ausgeschnittene Ziffern und Indizes, darunter liegt die Leuchtschicht.",
+    "Im Inneren arbeitet das Panerai-Kaliber P.9010 mit automatischem Aufzug, 28.800 Halbschwingungen pro Stunde und rund drei Tagen Gangreserve. Die kleine Sekunde mit blauem Zeiger sitzt bei 9 Uhr, das Datum bei 3 Uhr. Die Uhr ist bis 300 Meter wasserdicht.",
+    "Die PAM01312 ist die Grundform der heutigen Luminor Marina mit Manufakturwerk und damit eines der bekanntesten Panerai-Modelle, neben der schlichteren Luminor Base und der Luminor 1950."
+   ],
+   "m": [
+    "44-mm-Kissengehäuse mit Kronenschutzbügel",
+    "Sandwich-Zifferblatt mit Ziffern bei 12, 6 und 9",
+    "Kleine Sekunde bei 9 Uhr mit blauem Zeiger",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1950er-Jahre",
+     "Luminor für die italienische Marine"
+    ],
+    [
+     "2005",
+     "Erstes Panerai-Manufakturwerk P.2002"
+    ],
+    [
+     "2017",
+     "Luminor Marina PAM01312 mit Kaliber P.9010"
+    ]
+   ],
+   "x": [
+    "Der Kronenschutzbügel sollte fest schließen; ein lockerer Bügel kann die Wasserdichtigkeit beeinträchtigen.",
+    "Panerai-Bänder lassen sich leicht wechseln; viele Besitzer tragen die Uhr an verschiedenen Bändern."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "44 mm, Edelstahl, Kronenschutzbügel"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "P.9010, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay",
+     "c": "Tudors Black Bay ist eine andere moderne Taucheruhr mit starkem Bezug zur eigenen Militärgeschichte."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M ist eine weitere Stahltaucheruhr mit 300 Metern aus diesen Jahren."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Die Blancpain Fifty Fathoms wurde wie die Luminor für Kampftaucher einer Marine entwickelt."
+    }
+   ]
   }
  ]
 }
