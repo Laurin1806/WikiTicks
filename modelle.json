@@ -47454,6 +47454,97 @@
      "c": "Zeniths Chronomaster Sport kam fast gleichzeitig als moderner Sportchronograph mit eigenem Werk."
     }
    ]
+  },
+  {
+   "id": "classic-fusion-542",
+   "model": "classic-fusion",
+   "ref": "542",
+   "alias": [
+    "542.NX.7170.NX"
+   ],
+   "var": null,
+   "t": "Hublot Classic Fusion Ref. 542",
+   "bau": "seit 2008",
+   "cap": "",
+   "s": "Das Bullauge in seiner ruhigsten Form: Die Classic Fusion mit 42 Millimetern, Referenzfamilie 542, ist der schlichte Dreizeiger von Hublot – flach, klar und mit den sechs H-Schrauben, die jeder erkennt.",
+   "bh": [
+    "Rückbesinnung auf 1980",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Classic Fusion kam 2008 und knüpft an die erste Hublot von 1980 an, deren rundes Gehäuse mit verschraubter Lünette an ein Bullauge erinnerte. Die Dreizeiger mit 42 Millimetern tragen Referenzen, die mit 542 beginnen; die Buchstaben danach bezeichnen das Gehäusematerial, die Ziffern Zifferblatt und Band.",
+    "Das Gehäuse ist flacher und ruhiger gezeichnet als das der Big Bang. Sechs H-förmige Schrauben halten die Lünette, eine dunkle Zwischenlage trennt sie vom Gehäuse. Das Zifferblatt trägt schlanke aufgesetzte Indizes, Stabzeiger und ein kleines Datum bei 3 Uhr. Die abgebildete Ausführung hat ein Gehäuse aus Titan, ein blaues Zifferblatt und ein Metallgliederband statt des sonst üblichen Kautschukbands.",
+    "Im Inneren arbeitet das Automatikkaliber HUB1110, ein zugekauftes Werk mit 28.800 Halbschwingungen pro Stunde und rund 42 Stunden Gangreserve. Die Uhr ist bis 50 Meter wasserdicht.",
+    "Die 542 ist der Einstieg in die Welt von Hublot und die elegante Alternative zur Big Bang. Die Linie umfasst daneben kleinere und größere Durchmesser, Chronographen und Tourbillons mit eigenen Referenzen."
+   ],
+   "vh": [
+    [
+     "Materialien und Bänder",
+     "Die 542 gibt es in Titan, Keramik und King Gold, mit verschiedenen Zifferblattfarben und an Kautschuk-, Leder- oder Metallband; die Endung der Referenz unterscheidet die Ausführungen."
+    ],
+    [
+     "Andere Größen",
+     "Classic-Fusion-Dreizeiger gibt es auch mit 38 und 45 Millimetern; sie tragen eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "42 mm, rundes Gehäuse mit sechs H-Schrauben",
+    "Dunkle Zwischenlage zwischen Lünette und Gehäuse",
+    "Schlichtes Zifferblatt mit Stabindizes",
+    "Kleines Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1980",
+     "Erste Hublot mit Kautschukband"
+    ],
+    [
+     "2008",
+     "Einführung der Classic Fusion"
+    ]
+   ],
+   "x": [
+    "Titanausführungen sind leicht und unempfindlicher als polierter Stahl, zeigen aber Kratzer auf satinierten Flächen.",
+    "Die Classic Fusion ist gebraucht oft deutlich günstiger als neu."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2008"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Titan (auch Keramik oder King Gold)"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "HUB1110, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra ist ebenfalls eine sportlich-elegante Dreizeigeruhr für jeden Tag."
+    },
+    {
+     "m": "ballon-bleu",
+     "c": "Cartiers Ballon Bleu kam fast zeitgleich als runde Luxusuhr mit markantem Gesicht."
+    },
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak ist das Vorbild aller Luxusuhren mit verschraubter Lünette."
+    }
+   ]
   }
  ]
 }
