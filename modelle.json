@@ -46285,6 +46285,95 @@
      "c": "Die Piaget Altiplano treibt die Idee der flachen Zweizeigeruhr noch weiter."
     }
    ]
+  },
+  {
+   "id": "piaget-polo-g0a41001",
+   "model": "piaget-polo",
+   "ref": "G0A41001",
+   "alias": [
+    "Polo S"
+   ],
+   "var": null,
+   "t": "Piaget Polo Ref. G0A41001",
+   "bau": "seit 2016",
+   "cap": "",
+   "s": "Die Polo S holte Piagets Jetset-Uhr von 1979 in die Gegenwart – als Stahl-Sportuhr mit Automatikwerk, einem kissenförmigen Zifferblatt im runden Gehäuse und waagerechten Streifen.",
+   "bh": [
+    "Die Polo kehrt zurück",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber 1110P"
+   ],
+   "b": [
+    "Die Polo erschien 1979 als Gold-Sportuhr mit integriertem Armband und wurde in den 1980er-Jahren zum Symbol des Jetsets. 2016 brachte Piaget sie als Polo S zurück, diesmal aus Edelstahl und mit Automatikwerk. Die Referenz G0A41001 ist die 42-Millimeter-Ausführung mit blauem Zifferblatt.",
+    "Typisch ist das kissenförmige Zifferblatt in einem runden Gehäuse. Die waagerechten Streifen auf dem Zifferblatt greifen die abwechselnd polierten und satinierten Glieder des Bandes auf, das in das Gehäuse übergeht. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Im Inneren arbeitet das Automatikkaliber 1110P aus der eigenen Manufaktur mit Datum, das durch einen Saphirglasboden zu sehen ist."
+   ],
+   "vh": [
+    [
+     "Polo S Chronograph",
+     "Neben dem Dreizeiger erschien 2016 ein Chronograph mit dem Automatikkaliber 1160P und eigener Referenz."
+    ],
+    [
+     "Weitere Zifferblätter",
+     "Die Polo S gab es auch mit silberfarbenem und grauem Zifferblatt."
+    ]
+   ],
+   "m": [
+    "Kissenförmiges Zifferblatt im runden Gehäuse",
+    "Waagerechte Streifen auf dem Zifferblatt",
+    "42 mm, Edelstahl, integriertes Gliederband",
+    "Datumsanzeige"
+   ],
+   "ev": [
+    [
+     "1979",
+     "Erste Polo in Gold"
+    ],
+    [
+     "2016",
+     "Polo S aus Edelstahl"
+    ]
+   ],
+   "x": [
+    "Auf dem Zweitmarkt ist die Polo S im Vergleich zum Neupreis günstig – eine Alternative zu Nautilus oder Royal Oak.",
+    "Das Band ist Teil des Designs; beim Kauf auf vollständige Glieder achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2016"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "1110P, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "overseas",
+     "c": "Die Overseas der dritten Generation erschien im selben Jahr als Luxus-Sportuhr mit integriertem Band."
+    },
+    {
+     "m": "laureato",
+     "c": "Die Laureato kehrte ein Jahr später ebenfalls als Stahl-Sportuhr zurück."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Die Omega Aqua Terra ist eine elegante Stahl-Sportuhr mit Streifenzifferblatt aus dieser Zeit."
+    }
+   ]
   }
  ]
 }
