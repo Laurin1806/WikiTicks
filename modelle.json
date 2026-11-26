@@ -52546,6 +52546,114 @@
      "c": "Omegas Taucheruhren standen in diesen Jahren für die Alternative aus Biel."
     }
    ]
+  },
+  {
+   "id": "gmt-master-16750",
+   "model": "gmt-master",
+   "ref": "16750",
+   "alias": [
+    "16753",
+    "16758"
+   ],
+   "var": 2,
+   "t": "Rolex GMT-Master Ref. 16750",
+   "bau": "1981–1988",
+   "cap": "",
+   "s": "Die GMT-Master zwischen Vintage und Moderne: Saphirglas, schnell schaltendes Datum und noch der klassische, mit dem Stundenzeiger gekoppelte 24-Stunden-Zeiger.",
+   "bh": [
+    "Nachfolgerin der 1675",
+    "Gehäuse und Werk",
+    "Matt und glänzend",
+    "Neben der GMT-Master II"
+   ],
+   "b": [
+    "1981 löste die Referenz 16750 die langjährige 1675 ab. Äußerlich blieb vieles gleich – 40 Millimeter Edelstahl, Kronenschutz, drehbare 24-Stunden-Lünette mit Aluminiumeinlage –, doch technisch machte die GMT-Master einen großen Schritt in die Moderne.",
+    "Über dem Zifferblatt sitzt nun Saphirglas mit Zykloplupe, die Wasserdichtigkeit stieg auf 100 Meter. Im Inneren arbeitet das Kaliber 3075 mit 28.800 Halbschwingungen pro Stunde und Datums-Schnellschaltung. Der 24-Stunden-Zeiger ist wie bei der 1675 fest mit dem Stundenzeiger gekoppelt; eine zweite Zeitzone stellt man über die drehbare Lünette ein.",
+    "Die frühen 16750 tragen matte Zifferblätter mit aufgedruckten Tritium-Leuchtpunkten, die heute oft cremefarben gealtert sind. Etwa ab Mitte der 1980er-Jahre folgten glänzende Zifferblätter mit Indizes in Weißgoldfassungen.",
+    "1983 stellte Rolex daneben die GMT-Master II 16760 mit unabhängig verstellbarem Stundenzeiger vor. Die 16750 blieb als günstigere GMT-Master bis 1988 im Programm; ihre Nachfolgerin war die 16700, bevor die einfache GMT-Master 1999 ganz verschwand."
+   ],
+   "vh": [
+    [
+     "Lünetten: »Pepsi« und Schwarz",
+     "Die 16750 gab es mit rot-blauer und mit schwarzer Lünette."
+    ],
+    [
+     "Mattes und glänzendes Zifferblatt",
+     "Frühe Exemplare mit matten Zifferblättern und aufgedruckten Leuchtpunkten, späte mit glänzenden Zifferblättern und Weißgoldfassungen."
+    ],
+    [
+     "Rolesor und Gold: Refs. 16753 und 16758",
+     "In Stahl-Gelbgold und ganz in Gelbgold, oft mit braunem »Nipple«-Zifferblatt und brauner Lünette (»Root Beer«)."
+    ],
+    [
+     "Nachfolgerin: Ref. 16700",
+     "Die letzte einfache GMT-Master mit Kaliber 3175, gebaut bis 1999."
+    ]
+   ],
+   "m": [
+    "40 mm, Kronenschutz, Aluminiumlünette mit 24-Stunden-Skala",
+    "Saphirglas mit Zykloplupe",
+    "24-Stunden-Zeiger mit Dreieckspitze, fest mit dem Stundenzeiger gekoppelt",
+    "Früh mattes Zifferblatt mit Tritium"
+   ],
+   "ev": [
+    [
+     "1981",
+     "Ablösung der 1675 durch die 16750"
+    ],
+    [
+     "1983",
+     "Daneben erscheint die GMT-Master II 16760"
+    ],
+    [
+     "1988",
+     "Ablösung durch die 16700"
+    ]
+   ],
+   "x": [
+    "Matte Zifferblätter (»Matte Dial«) erzielen deutlich höhere Preise als glänzende.",
+    "Aluminiumeinlagen wurden oft getauscht; eine zum Zifferblatt passend gealterte Lünette spricht für Originalität."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1981–1988"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3075, Automatik, Datums-Schnellschaltung"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, 24-Stunden-Anzeige"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "1675 / 16700"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die Submariner 16800 brachte in denselben Jahren Saphirglas und Schnellschaltung."
+    },
+    {
+     "m": "explorer-2",
+     "c": "Der Explorer II 1655 zeigte die 24-Stunden-Anzeige mit fester Lünette."
+    },
+    {
+     "m": "navitimer",
+     "c": "Breitlings Navitimer blieb die andere klassische Pilotenuhr."
+    }
+   ]
   }
  ]
 }
