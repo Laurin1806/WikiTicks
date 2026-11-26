@@ -39765,6 +39765,111 @@
      "c": "Die TAG Heuer Carrera steht wie die Speedmaster für den klassischen Rennsport-Chronographen der 1960er-Jahre."
     }
    ]
+  },
+  {
+   "id": "black-bay-7941a1a0ru",
+   "model": "black-bay",
+   "ref": "7941A1A0RU",
+   "alias": [
+    "M7941A1A0RU",
+    "M7941A1A0RU-0001"
+   ],
+   "var": null,
+   "t": "Tudor Black Bay Ref. 7941A1A0RU",
+   "bau": "seit 2023",
+   "cap": "",
+   "s": "Bordeauxrote Lünette, Schneeflocken-Zeiger, große Krone – die klassische 41-Millimeter-Black-Bay in ihrer jüngsten Fassung, nun als Master Chronometer gegen starke Magnetfelder gewappnet.",
+   "bh": [
+    "Die dritte Generation der Ur-Black-Bay",
+    "Gehäuse und Kaliber MT5602-U",
+    "Gestaltung im Geist der 1950er-Jahre",
+    "Das Herzstück der Familie"
+   ],
+   "b": [
+    "2012 begann Tudor die Geschichte der Black Bay mit der Referenz 79220R, einer 41-Millimeter-Taucheruhr mit bordeauxroter Lünette und zugekauftem Werk. 2016 folgte die 79230R mit dem Manufakturkaliber MT5602. 2023 überarbeitete Tudor das Grundmodell erneut und gab ihm die neue, längere Referenznummer 7941A1A0RU – die Farbe der Lünette und die Grundform blieben, die Technik wurde moderner.",
+    "Das Edelstahlgehäuse misst weiterhin 41 Millimeter und ist bis 200 Meter wasserdicht. Im Inneren arbeitet das Kaliber MT5602-U, eine weiterentwickelte Fassung des Manufakturwerks mit rund 70 Stunden Gangreserve und Silizium-Spirale. Die Uhr ist nach den Normen des Schweizer Bundesinstituts für Metrologie (METAS) als Master Chronometer zertifiziert und damit gegen Magnetfelder bis 15.000 Gauß geschützt; auf dem Zifferblatt steht entsprechend »MASTER CHRONOMETER«.",
+    "Die einseitig drehbare Lünette mit bordeauxrotem Aluminiumeinsatz, das leicht gewölbte schwarze Zifferblatt mit runden Leuchtindizes und der kantige Snowflake-Stundenzeiger gehen auf Tudor-Taucheruhren der 1950er- und 1960er-Jahre zurück. Die große Krone ohne Kronenschutz erinnert an die »Big Crown« Ref. 7924. Goldfarbene Zeiger und Beschriftung geben der Uhr einen warmen, leicht historischen Ton; das Stahlband hat die für die Black Bay typische Nietenoptik.",
+    "Auch wenn kleinere Ausführungen wie die Fifty-Eight und die 54 inzwischen viel Aufmerksamkeit bekommen, bleibt die 41-Millimeter-Black-Bay mit roter Lünette das Grundmodell der Linie. Wer sie mit der ersten 79220R vergleicht, sieht, wie konsequent Tudor ein Design über mehr als ein Jahrzehnt gepflegt und technisch weiterentwickelt hat."
+   ],
+   "vh": [
+    [
+     "Die Vorgängerinnen: Ref. 79220R und 79230R",
+     "Die erste Black Bay von 2012 (79220R) hatte ein zugekauftes Werk auf ETA-Basis, die 79230R von 2016 bis 2023 bereits das Manufakturkaliber MT5602 mit COSC-Zertifikat."
+    ],
+    [
+     "Andere Lünettenfarben",
+     "Neben der roten Lünette gab und gibt es die Black Bay in weiteren Farben, etwa mit blauer oder schwarzer Lünette."
+    ],
+    [
+     "Kleiner: Fifty-Eight und 54",
+     "Aus der Black Bay sind die kleineren Linien Fifty-Eight (39 mm, seit 2018, Ref. M79030N) und 54 (37 mm, seit 2023, Ref. M79000N) hervorgegangen, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl, große Krone ohne Kronenschutz",
+    "Bordeauxrote Aluminiumlünette mit Leuchtpunkt",
+    "Snowflake-Stundenzeiger, goldfarbene Zeiger und Schrift",
+    "»MASTER CHRONOMETER« auf dem Zifferblatt"
+   ],
+   "ev": [
+    [
+     "2012",
+     "Erste Black Bay, Ref. 79220R"
+    ],
+    [
+     "2016",
+     "Ref. 79230R mit Manufakturkaliber MT5602"
+    ],
+    [
+     "2023",
+     "Ref. 7941A1A0RU als Master Chronometer"
+    ]
+   ],
+   "x": [
+    "Am Zifferblatt-Schriftzug »MASTER CHRONOMETER« lässt sich die aktuelle Generation leicht von der Vorgängerin 79230R unterscheiden.",
+    "Die Black Bay gibt es am Stahlband und an Leder- oder Textilbändern; ein Stahlband lässt sich später oft nur teuer nachkaufen.",
+    "Wer eine flachere Uhr sucht, sollte die Fifty-Eight oder die 54 zum Vergleich anprobieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "MT5602-U, Automatik, Master Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorgänger",
+     "79230R"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die Rolex Submariner ist das große Vorbild, an dem sich jede Black Bay messen lassen muss."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M ist ebenfalls Master Chronometer und die direkte Konkurrentin im Alltagstaucher-Segment."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Blancpains Fifty-Fathoms steht wie die Black Bay für die Rückbesinnung auf die Taucheruhren der 1950er-Jahre."
+    }
+   ]
   }
  ]
 }
