@@ -6132,6 +6132,21 @@
    "luenette": "drehbar, 60 Minuten",
    "band": "Edelstahlband",
    "zifferblatt_optionen": "Schwarz, gealterte Leuchtmasse"
+  },
+  "tudor-submariner|main": {
+   "ref": "9411/0",
+   "produktion": "1975–1980er",
+   "durchmesser": "40 mm",
+   "gehaeuse": "Edelstahl",
+   "glas": "Acrylglas mit Zykloplupe",
+   "werktyp": "Automatik",
+   "manufaktur": "zugekauftes Werk",
+   "funktionen": "Stunden, Minuten, Sekunden, Datum",
+   "luenette": "drehbar, 60 Minuten",
+   "wasserdicht": "200 m",
+   "leuchtmasse": "Tritium",
+   "band": "Oyster-Band, Edelstahl",
+   "zifferblatt_optionen": "Schwarz, gealterte Leuchtmasse"
   }
  },
  "_refs": {
@@ -14338,5 +14353,14 @@
    "schliesse": "Oysterlock-Faltschließe mit Easylink-Verlängerung",
    "zifferblatt_optionen": "Grün, Keramik (lackglänzend)"
   }
+ },
+ "tudor-submariner": {
+  "gehaeuse": "Edelstahl (Oyster-Gehäuse von Rolex)",
+  "durchmesser": "40 mm",
+  "werktyp": "Automatik",
+  "manufaktur": "zugekauftes Werk",
+  "luenette": "drehbar, 60 Minuten",
+  "krone": "verschraubt (Rolex)",
+  "produktion": "1954–1999"
  }
 }

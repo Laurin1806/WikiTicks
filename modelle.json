@@ -8514,6 +8514,169 @@
    "irefs": "hoch"
   },
   {
+   "id": "tudor-submariner",
+   "t": "Tudor Submariner",
+   "brand": "Tudor",
+   "since": "1954",
+   "s": "Die Taucheruhr aus dem Schwesterhaus von Rolex: Oyster-Gehäuse und Krone von Rolex, zugekauftes Werk – und ab 1969 die »Snowflake«-Zeiger, die Tudor bis heute prägen.",
+   "b": [
+    "Hans Wilsdorf gründete Tudor, um Uhren in Rolex-Qualität zu einem günstigeren Preis anzubieten. 1954, ein Jahr nach der Rolex Submariner, stellte Tudor mit der Referenz 7922 eine eigene Submariner vor. Gehäuse, Krone und Band kamen von Rolex, im Inneren arbeitete ein zugekauftes Automatikwerk. So entstand eine robuste Taucheruhr, die viele Marinen und Berufstaucher in großen Stückzahlen kauften.",
+    "Ende der 1950er-Jahre folgten Referenzen mit größerer Krone und Kronenschutz, etwa die 7928. Eng war die Verbindung zur französischen Marine (Marine Nationale), die Tudor Submariner jahrzehntelang an ihre Taucher ausgab. Auf ihren Wunsch hin entwickelte Tudor 1969 die eckigen, besonders gut ablesbaren »Snowflake«-Zeiger, die zuerst in den Referenzen 7016 und 7021 auftauchten, oft mit blauem Zifferblatt.",
+    "Mitte der 1970er-Jahre kamen die Referenzen 9401 ohne und 9411 mit Datum, in den 1980er-Jahren die 94010 und 94110. Die letzte Generation, die 79090 und 79190 mit Saphirglas, lief bis 1999. Danach verschwand die Tudor Submariner aus dem Programm.",
+    "Ihr Erbe lebt in der Black Bay weiter, mit der Tudor 2012 die Gestaltung der alten Taucheruhren mit Snowflake-Zeigern und großer Krone wieder aufnahm. Vintage-Tudor-Submariner sind heute gesuchte Sammleruhren, besonders die Marine-Ausführungen und die blauen Snowflake-Zifferblätter."
+   ],
+   "bh": [
+    "1954: die günstigere Schwester der Rolex Submariner",
+    "Marine Nationale und »Snowflake«",
+    "Die späten Generationen",
+    "Erbe: die Black Bay"
+   ],
+   "cur": "nicht mehr gebaut (1954–1999); Nachfolge im Geiste: Black Bay",
+   "f": [
+    [
+     "Gehäuse",
+     "Oyster-Gehäuse von Rolex, meist 40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "zugekaufte Automatikwerke"
+    ],
+    [
+     "Wasserdicht",
+     "200 m (spätere Referenzen)"
+    ],
+    [
+     "Zeiger",
+     "ab 1969 »Snowflake«"
+    ],
+    [
+     "Bauzeit",
+     "1954–1999"
+    ]
+   ],
+   "refs": [
+    [
+     "7922",
+     "1954–1950er",
+     "–",
+     "Automatik",
+     "Erste Tudor Submariner"
+    ],
+    [
+     "7928",
+     "1959–1960er",
+     "40 mm",
+     "Automatik",
+     "Kronenschutz"
+    ],
+    [
+     "7016 / 7021",
+     "1969–1970er",
+     "40 mm",
+     "Automatik",
+     "Erste »Snowflake«-Zeiger, 7021 mit Datum"
+    ],
+    [
+     "9401 / 9411",
+     "1975–1980er",
+     "40 mm",
+     "Automatik",
+     "9411 mit Datum (»Prince Oysterdate«)"
+    ],
+    [
+     "94010 / 94110",
+     "1980er",
+     "40 mm",
+     "Automatik",
+     "Nachfolger der 9401 und 9411"
+    ],
+    [
+     "79090 / 79190",
+     "1989–1999",
+     "40 mm",
+     "Automatik",
+     "Saphirglas, letzte Generation"
+    ]
+   ],
+   "r": [
+    "black-bay",
+    "pelagos",
+    "submariner",
+    "taucheruhr"
+   ],
+   "k": "Die Tudor Submariner nutzte Gehäuse und Kronen von Rolex, aber zugekaufte Werke.",
+   "a": [
+    "Tudor Oyster Prince Submariner",
+    "Tudor Sub"
+   ],
+   "v": {
+    "dial": "#141414",
+    "bezel": "dive",
+    "bezelColor": "#1a1a1a",
+    "markers": "dots",
+    "hands": "snowflake",
+    "sec": "#e8e3d6",
+    "bottom": [
+     "200 m = 660 ft",
+     "SUBMARINER"
+    ],
+    "img": "assets/watches/tudor-submariner-9411-0.jpg"
+   },
+   "topv": {
+    "n": "Ref. 9411/0",
+    "y": "1975–1980er",
+    "v": {
+     "img": "assets/watches/tudor-submariner-9411-0.jpg"
+    },
+    "iref": "9411/0",
+    "irefs": "mittel",
+    "bd": [
+     "Die Abbildung zeigt eine Tudor Submariner »Prince Oysterdate« aus Edelstahl mit schwarzer Drehlünette und Oyster-Band, wie sie Tudor ab Mitte der 1970er-Jahre baute; nach Datum, Zeigern und Zifferblatt ist es eine Referenz 9411/0. Gehäuse und Band tragen deutliche Gebrauchsspuren.",
+     "Zu erkennen sind die runden Leuchtpunkte, die Balken bei 6 und 9 Uhr, das Dreieck bei 12 Uhr, die eckigen »Snowflake«-Zeiger, das Datumsfenster bei 3 Uhr und die Aufschriften »TUDOR PRINCE OYSTERDATE«, »200m = 660ft« und »SUBMARINER«. Die Leuchtmasse ist zu einem warmen Beige gealtert; »T SWISS T« am unteren Rand verweist auf Tritium."
+    ]
+   },
+   "m": [
+    "Oyster-Gehäuse und Krone von Rolex, Tudor-Rose oder -Schild auf dem Zifferblatt",
+    "Ab 1969 eckige »Snowflake«-Zeiger",
+    "Drehlünette mit 60-Minuten-Skala",
+    "Bei Datumsmodellen »Prince Oysterdate« auf dem Zifferblatt"
+   ],
+   "ev": [
+    [
+     "1954",
+     "Erste Tudor Submariner (Ref. 7922)"
+    ],
+    [
+     "1969",
+     "»Snowflake«-Zeiger für die französische Marine"
+    ],
+    [
+     "1999",
+     "Ende der Produktion"
+    ],
+    [
+     "2012",
+     "Die Black Bay nimmt die Gestaltung wieder auf"
+    ]
+   ],
+   "x": [
+    "Viele Tudor Submariner tragen Rolex-signierte Kronen und Gehäuseböden; das ist original und kein Zeichen eines Umbaus.",
+    "Marine-Ausführungen sind an Gravuren auf dem Boden erkennbar und werden häufig gefälscht."
+   ],
+   "w": "Die Taucheruhr aus dem Hause Tudor, mit Rolex-Gehäuse und den berühmten Snowflake-Zeigern.",
+   "lume": {
+    "z": "IHP",
+    "c": "g"
+   },
+   "bd": [
+    "Die Abbildung zeigt eine Tudor Submariner »Prince Oysterdate« aus Edelstahl mit schwarzer Drehlünette und Oyster-Band, wie sie Tudor ab Mitte der 1970er-Jahre baute; nach Datum, Zeigern und Zifferblatt ist es eine Referenz 9411/0. Gehäuse und Band tragen deutliche Gebrauchsspuren.",
+    "Zu erkennen sind die runden Leuchtpunkte, die Balken bei 6 und 9 Uhr, das Dreieck bei 12 Uhr, die eckigen »Snowflake«-Zeiger, das Datumsfenster bei 3 Uhr und die Aufschriften »TUDOR PRINCE OYSTERDATE«, »200m = 660ft« und »SUBMARINER«. Die Leuchtmasse ist zu einem warmen Beige gealtert; »T SWISS T« am unteren Rand verweist auf Tritium."
+   ],
+   "dial": "Schwarz",
+   "iref": "9411/0",
+   "irefs": "mittel"
+  },
+  {
    "id": "pelagos",
    "t": "Tudor Pelagos",
    "brand": "Tudor",
@@ -31667,7 +31830,8 @@
   "tissot-visodate-1953.jpg": "n",
   "rolex-air-king-5500.jpg": "v",
   "rolex-oyster-perpetual-bubbleback.jpg": "n",
-  "omega-seamaster-300-ck2913.jpg": "v"
+  "omega-seamaster-300-ck2913.jpg": "v",
+  "tudor-submariner-9411-0.jpg": "v"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -31932,6 +32096,7 @@
   "tudor-pelagos-blue.jpg": 383,
   "tudor-pelagos.jpg": 827,
   "tudor-ranger.jpg": 374,
+  "tudor-submariner-9411-0.jpg": 768,
   "ulysse-nardin-freak.jpg": 502,
   "ulysse-nardin-marine-chronometer.jpg": 374,
   "vacheron-constantin-fiftysix.jpg": 368,
@@ -32867,6 +33032,10 @@
   "omega-seamaster-300-ck2913.jpg": [
    0.814,
    -0.01
+  ],
+  "tudor-submariner-9411-0.jpg": [
+   1.08,
+   0.013
   ]
  },
  "referenzen": [
