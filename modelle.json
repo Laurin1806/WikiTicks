@@ -41258,6 +41258,100 @@
      "c": "Die Tissot Gentleman ist eine ähnlich zugängliche klassische Automatikuhr aus denselben Jahren."
     }
    ]
+  },
+  {
+   "id": "presage-cocktail-srpb41",
+   "model": "presage-cocktail",
+   "ref": "SRPB41",
+   "alias": [
+    "SRPB41J1",
+    "SRPB43"
+   ],
+   "var": null,
+   "t": "Seiko Presage Cocktail Time Ref. SRPB41",
+   "bau": "seit 2016",
+   "cap": "",
+   "s": "Ein Zifferblatt wie ein Drink im Barlicht: Mit der SRPB41 kam die Cocktail Time aus Japan in die ganze Welt.",
+   "bh": [
+    "Vom Geheimtipp zur Weltversion",
+    "Zifferblatt und Gehäuse",
+    "Werk und Alltag"
+   ],
+   "b": [
+    "Die erste Cocktail Time, die SARB065, war ab 2010 nur in Japan erhältlich und wurde unter Sammlern im Ausland schnell zum Geheimtipp. 2016 brachte Seiko die Idee in der Presage-Linie international heraus. Zu den ersten Referenzen dieser Serie gehört die SRPB41 mit blauem Zifferblatt.",
+    "Wie bei allen Cocktail-Time-Modellen ist das Zifferblatt geprägt und bricht das Licht wie Eis oder geschliffenes Glas; je nach Blickwinkel wechselt es zwischen hell und dunkel. Inspiriert sind die Farben von den Cocktails des Tokioter Barkeepers Shinobu Ishigaki. Das Edelstahlgehäuse misst rund 40,5 Millimeter, die schlanken Zeiger und Indizes sind poliert, das Datum steht bei 3 Uhr.",
+    "Im Inneren arbeitet das Automatikwerk 4R35 mit rund 41 Stunden Gangreserve, Handaufzug und Sekundenstopp. Die Uhr ist bis 50 Meter wasserdicht – genug für den Alltag, aber nicht zum Schwimmen gedacht. Als preiswerte, auffallend schöne Kleiduhr ist sie bis heute einer der beliebtesten Einstiege in die mechanische Uhr."
+   ],
+   "vh": [
+    [
+     "Schwesterreferenz: SRPB43",
+     "Die SRPB43 gehört zur selben Serie und unterscheidet sich vor allem in der Farbe des Zifferblatts."
+    ],
+    [
+     "Vorgängerin: Ref. SARB065",
+     "Die japanische Erstausführung von 2010 hatte das höherwertige Werk 6R15 und ein etwas kleineres Gehäuse von 40 Millimetern."
+    ]
+   ],
+   "m": [
+    "Geprägtes, lichtbrechendes Zifferblatt in Blau",
+    "Rund 40,5 mm, Edelstahl",
+    "Schlanke, polierte Zeiger",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2010",
+     "Erste Cocktail Time (SARB065) in Japan"
+    ],
+    [
+     "2016",
+     "Internationale Presage-Serie mit SRPB41"
+    ]
+   ],
+   "x": [
+    "Das Zifferblatt wirkt auf Fotos oft anders als in echt – die Uhr am besten im Tageslicht ansehen.",
+    "Mit 50 Metern Wasserdichtigkeit ist sie keine Uhr zum Schwimmen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2016"
+    ],
+    [
+     "Gehäuse",
+     "40,5 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "4R35, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "SARB065"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "gentleman",
+     "c": "Die Tissot Gentleman ist eine ähnlich zugängliche mechanische Alltags- und Kleiduhr aus denselben Jahren."
+    },
+    {
+     "m": "le-locle",
+     "c": "Die Tissot Le Locle steht für die gleiche Idee: klassische Eleganz mit Automatikwerk zu einem moderaten Preis."
+    },
+    {
+     "m": "fc-slimline",
+     "c": "Die Frédérique Constant Slimline gehört zu den schlichten Kleiduhren, mit denen die Cocktail Time oft verglichen wird."
+    }
+   ]
   }
  ]
 }
