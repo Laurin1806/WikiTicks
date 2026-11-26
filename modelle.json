@@ -45114,6 +45114,109 @@
      "c": "Die Lange Saxonia ist das sächsische Gegenstück mit kleiner Sekunde."
     }
    ]
+  },
+  {
+   "id": "datograph-405",
+   "model": "datograph",
+   "ref": "405",
+   "alias": [
+    "405.035",
+    "405.031",
+    "405.xxx",
+    "405.034"
+   ],
+   "var": null,
+   "t": "A. Lange & Söhne Datograph Ref. 405",
+   "bau": "seit 2012",
+   "cap": "",
+   "s": "Mit der Datograph Auf/Ab erhielt Langes berühmter Chronograph 2012 ein größeres Gehäuse, ein überarbeitetes Werk und eine Gangreserveanzeige – der Blick durch den Glasboden blieb so faszinierend wie zuvor.",
+   "bh": [
+    "Die zweite Datograph",
+    "Ein Werk mit über 400 Teilen",
+    "Klar gegliedertes Zifferblatt",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "1999 hatte A. Lange & Söhne mit der Datograph Ref. 403 seinen ersten Chronographen vorgestellt. 2012 folgte die Datograph Auf/Ab mit den Referenzen 405. Das Gehäuse wuchs von 39 auf 41 Millimeter, und eine kleine Gangreserveanzeige bei 6 Uhr kam hinzu – daher der Name »Auf/Ab«.",
+    "Das Handaufzugskaliber L951.6 ist eine Weiterentwicklung des L951.1. Es hat eine von Lange gefertigte Unruhspirale und rund 60 Stunden Gangreserve. Geblieben sind Schaltrad, Flyback-Funktion und der springende Minutenzähler, der die gestoppten Minuten genau ablesbar macht. Durch den Glasboden sieht man die fein bearbeiteten Hebel, Federn und Brücken, die die Datograph unter Uhrmachern berühmt gemacht haben.",
+    "Das Zifferblatt ist symmetrisch aufgebaut: zwei Hilfszifferblätter für die kleine Sekunde und den 30-Minuten-Zähler, darüber das Großdatum unter der Zwölf. Die kleine Gangreserveanzeige fügt sich unauffällig am unteren Rand ein.",
+    "Die Datograph Auf/Ab ist bis heute die Grundform von Langes Chronographen. Aus derselben Familie stammen ein Ewiger Kalender und eine Tourbillon-Version mit eigenen Referenzen."
+   ],
+   "vh": [
+    [
+     "Platin: Ref. 405.035",
+     "Die Ausführung in Platin mit schwarzem Zifferblatt knüpft an die erste Datograph an."
+    ],
+    [
+     "Rotgold: Ref. 405.031",
+     "Rotgoldgehäuse und schwarzes Zifferblatt mit silbernen Hilfszifferblättern."
+    ],
+    [
+     "Lumen: Ref. 405.034",
+     "Eine limitierte Ausführung mit halbtransparentem Zifferblatt, durch das die Leuchtmasse von Großdatum und Anzeigen im Dunkeln sichtbar wird."
+    ]
+   ],
+   "m": [
+    "Großdatum unter der Zwölf",
+    "Zwei symmetrische Hilfszifferblätter",
+    "Kleine Gangreserveanzeige bei 6 Uhr",
+    "41 mm, Gold oder Platin",
+    "Glasboden mit Schaltrad-Chronographenwerk"
+   ],
+   "ev": [
+    [
+     "1999",
+     "Erste Datograph (Ref. 403)"
+    ],
+    [
+     "2012",
+     "Datograph Auf/Ab Ref. 405 mit Kaliber L951.6"
+    ]
+   ],
+   "x": [
+    "Die Ref. 405 erkennt man an der Gangreserveanzeige bei 6 Uhr und am 41-Millimeter-Gehäuse; die ältere Ref. 403 hat 39 Millimeter und keine Gangreserve.",
+    "Ein Chronographenwerk dieser Komplexität braucht einen Service bei Lange – Servicebelege sind beim Kauf wichtig."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2012"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Gold oder Platin, Glasboden"
+    ],
+    [
+     "Kaliber",
+     "L951.6, Handaufzug-Chronograph"
+    ],
+    [
+     "Gangreserve",
+     "≈ 60 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Flyback-Chronograph, springender Minutenzähler, Großdatum, Gangreserve"
+    ],
+    [
+     "Vorgänger",
+     "403"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "chrono-ewiger-kalender",
+     "c": "Patek Philippes Chronographen mit Ewigem Kalender sind die klassische Genfer Gegenposition zum sächsischen Handaufzugschronographen."
+    },
+    {
+     "m": "chronomaster",
+     "c": "Der Zenith Chronomaster steht für die andere große Chronographen-Tradition mit Schaltrad."
+    },
+    {
+     "m": "traditionnelle",
+     "c": "Auch Vacheron Constantin baute in der Traditionnelle-Linie Handaufzugschronographen in Gold."
+    }
+   ]
   }
  ]
 }
