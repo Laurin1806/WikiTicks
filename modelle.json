@@ -49058,6 +49058,94 @@
      "c": "Omegas Planet Ocean ist eine weitere kräftige Taucheruhr mit großer Wasserdichtigkeit."
     }
    ]
+  },
+  {
+   "id": "ballon-bleu-wsbb0040",
+   "model": "ballon-bleu",
+   "ref": "WSBB0040",
+   "alias": [
+    "WSBB0040",
+    "Ballon Bleu 40"
+   ],
+   "var": null,
+   "t": "Cartier Ballon Bleu Ref. WSBB0040",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Die Ballon Bleu in ihrer Hauptgröße: 40 Millimeter Stahl, eine im Bogen geschützte blaue Krone und das Manufakturwerk 1847 MC.",
+   "bh": [
+    "Die Krone im Bogen",
+    "Gehäuse und Zifferblatt",
+    "Mit Manufakturwerk",
+    "Stellung im Programm"
+   ],
+   "b": [
+    "Cartier stellte die Ballon Bleu 2007 vor. Ihr Name kommt von der Krone mit blauem Cabochon, die nicht seitlich absteht, sondern in einer Vertiefung sitzt und von einem Metallbogen am Gehäuserand eingefasst wird – wie ein kleiner blauer Ballon. Die Referenz WSBB0040 ist die Ausführung mit 40 Millimetern aus Edelstahl mit silberfarbenem, guillochiertem Zifferblatt und Stahlband.",
+    "Das Gehäuse ist kieselförmig gewölbt, die Lünette glatt und poliert. Das guillochierte Zifferblatt trägt schwarze römische Ziffern, einen inneren Minutenkreis und gebläute Schwertzeiger. Weil die Krone geschützt im Bogen liegt, drückt sie nicht ins Handgelenk.",
+    "Im Inneren arbeitet das Manufakturkaliber 1847 MC mit automatischem Aufzug, 28.800 Halbschwingungen pro Stunde und rund 42 Stunden Gangreserve. Mit diesem Werk wurde die 40-Millimeter-Version in den 2010er-Jahren zur Hauptausführung der Linie, während kleinere Größen meist bei Quarz oder zugekauften Werken blieben. Die Uhr ist bis 30 Meter wasserdicht.",
+    "Die Ballon Bleu ist die bekannteste runde Cartier neben den eckigen Klassikern Tank und Santos. Mit ihrer weichen Form wird sie von Frauen wie Männern getragen, die 40-Millimeter-Version vor allem als elegante Herrenuhr."
+   ],
+   "vh": [
+    [
+     "Weitere Größen",
+     "Die Ballon Bleu gibt es in Größen von 28 bis 42 Millimetern, die kleinen meist mit Quarzwerk."
+    ],
+    [
+     "Gold und Bicolor",
+     "Neben Stahl gibt es Ausführungen in Stahl mit Gold und ganz in 18-karätigem Gold."
+    ]
+   ],
+   "m": [
+    "Krone mit blauem Cabochon im Metallbogen",
+    "Kieselförmig gewölbtes Gehäuse, 40 mm",
+    "Guillochiertes Zifferblatt mit römischen Ziffern",
+    "Gebläute Schwertzeiger"
+   ],
+   "ev": [
+    [
+     "2007",
+     "Vorstellung der Ballon Bleu"
+    ],
+    [
+     "2010er-Jahre",
+     "Die 40-mm-Version mit Kaliber 1847 MC wird Hauptausführung"
+    ]
+   ],
+   "x": [
+    "Der Kronenbogen ist anfällig für Kratzer und Dellen und sollte bei gebrauchten Uhren genau angesehen werden.",
+    "Auf die Referenz achten: Ältere Ballon-Bleu-Referenzen haben zugekaufte Werke statt des 1847 MC."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "1847 MC, Automatik"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "classic-fusion",
+     "c": "Hublots Classic Fusion von 2008 ist eine andere runde, elegante Uhr dieser Jahre."
+    },
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony steht für die schlichte, runde Dresswatch derselben Zeit."
+    },
+    {
+     "m": "master-control",
+     "c": "Die Master Control von Jaeger-LeCoultre ist die klassische runde Herrenuhr eines anderen Richemont-Hauses."
+    }
+   ]
   }
  ]
 }
