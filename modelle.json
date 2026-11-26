@@ -42256,6 +42256,106 @@
      "c": "Die Longines HydroConquest ist eine Taucheruhr in ähnlicher Preisklasse."
     }
    ]
+  },
+  {
+   "id": "captain-cook-r32505315",
+   "model": "captain-cook",
+   "ref": "R32505315",
+   "var": null,
+   "t": "Rado Captain Cook Ref. R32505315",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Grünes Verlaufszifferblatt, Keramiklünette und der bewegliche Anker: Die R32505315 ist die Captain Cook in ihrer heutigen Form mit 42 Millimetern und 80 Stunden Gangreserve.",
+   "bh": [
+    "Eine Taucheruhr von 1962",
+    "Gehäuse und Lünette",
+    "Das Werk",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "Rado stellte die Captain Cook 1962 als Taucheruhr vor und legte sie 2017 zunächst in 37 Millimetern neu auf. Daraus wurde eine ganze Kollektion; die Referenz R32505315 ist die Captain Cook Automatic mit 42 Millimetern, grünem Zifferblatt und braunem Lederband.",
+    "Das Edelstahlgehäuse ist bis 300 Meter wasserdicht. Die einseitig drehbare Lünette hat eine Einlage aus kratzfester Keramik, einem Material, für das Rado bekannt ist; sie trägt eine Taucherskala mit Ziffern bei 15, 30 und 45. Das Zifferblatt hat einen Sonnenschliff mit Verlauf zum Rand, keilförmige Leuchtindizes, einen breiten pfeilförmigen Stundenzeiger und ein Datum bei 3 Uhr.",
+    "Im Inneren arbeitet das Automatikkaliber R763 mit rund 80 Stunden Gangreserve. Damit überbrückt die Uhr problemlos ein Wochenende.",
+    "Unter dem beweglichen Anker-Logo, dem Markenzeichen von Rado, steht der geschwungene Schriftzug »Captain Cook« wie beim Original. Die Neuauflage gilt als eine der gelungenen Retro-Taucheruhren der letzten Jahre."
+   ],
+   "vh": [
+    [
+     "Andere Farben und Bänder",
+     "Die Captain Cook Automatic gibt es auch mit blauem, schwarzem und braunem Zifferblatt sowie mit Stahl- oder Kautschukband."
+    ],
+    [
+     "37 Millimeter",
+     "Die erste Neuauflage von 2017 hatte ein Gehäuse mit 37 Millimetern und blieb als kleinere Ausführung im Programm."
+    ],
+    [
+     "High-Tech Ceramic",
+     "Rado baut die Captain Cook auch mit Gehäuse aus Hightech-Keramik."
+    ]
+   ],
+   "m": [
+    "42 mm, Edelstahl, Keramiklünette",
+    "Grünes Zifferblatt mit Sonnenschliff und Verlauf",
+    "Beweglicher Anker über »RADO«, Schriftzug »Captain Cook«",
+    "Breiter pfeilförmiger Stundenzeiger"
+   ],
+   "ev": [
+    [
+     "1962",
+     "Erste Captain Cook"
+    ],
+    [
+     "2017",
+     "Neuauflage in 37 mm"
+    ],
+    [
+     "2021",
+     "Captain Cook Automatic mit 42 mm und Kaliber R763"
+    ]
+   ],
+   "x": [
+    "Das Lederband passt eher an Land; wer tauchen will, wählt Stahl- oder Kautschukband.",
+    "Die Keramiklünette ist sehr kratzfest, kann aber bei einem harten Schlag brechen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "R763, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay",
+     "c": "Die Tudor Black Bay ist die bekannteste Retro-Taucheruhr derselben Jahre."
+    },
+    {
+     "m": "legend-diver",
+     "c": "Die Longines Legend Diver greift ebenfalls eine Taucheruhr der 1960er-Jahre auf."
+    },
+    {
+     "m": "divers-sixty-five",
+     "c": "Die Oris Divers Sixty-Five ist eine weitere Neuauflage im Stil der 1960er-Jahre."
+    }
+   ]
   }
  ]
 }
