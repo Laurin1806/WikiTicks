@@ -38118,6 +38118,113 @@
      "c": "Chopards Alpine Eagle zeigt, wie viele Marken in diesen Jahren dem Erfolg der Royal Oak mit eigenen Stahluhren nachgingen."
     }
    ]
+  },
+  {
+   "id": "royal-oak-26240st",
+   "model": "royal-oak",
+   "ref": "26240ST",
+   "alias": [
+    "26240ST.OO.1320ST",
+    "26240",
+    "26240 ST",
+    "26240OR"
+   ],
+   "var": 0,
+   "t": "Audemars Piguet Royal Oak Ref. 26240ST",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Der Royal Oak Chronograph mit eigenem Herz: Seit 2021 schlägt im 41-Millimeter-Gehäuse das hauseigene Flyback-Kaliber 4401 – das Ende der langen Ära zugekaufter Chronographenwerke.",
+   "bh": [
+    "2021: der Chronograph wird neu",
+    "Gehäuse und Werk",
+    "Flyback und Panda",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "Der Royal Oak Chronograph gehört seit 1997 zur Linie. Über zwei Jahrzehnte arbeitete darin ein Werk auf Basis des Frédéric-Piguet-Kalibers 1185 mit aufgesetzter Modulbauweise. 2021 stellte Audemars Piguet mit der Referenz 26240ST die erste Generation mit einem vollständig hauseigenen Chronographenwerk vor.",
+    "Das Stahlgehäuse misst 41 Millimeter wie bei der Vorgängerin 26320ST, wirkt durch neu gezeichnete Details aber ausgewogener. Drei Hilfszifferblätter bei 3, 6 und 9 Uhr, die Tapisserie und das kleine Datumsfenster zwischen 4 und 5 Uhr bestimmen das Zifferblatt; verschraubte Krone und zwei Drücker sitzen rechts am Gehäuse. Durch den Saphirglasboden ist das Automatikkaliber 4401 zu sehen.",
+    "Das Kaliber 4401 hat ein Schaltrad, eine vertikale Kupplung und eine Flyback-Funktion: Ein Druck auf den unteren Drücker setzt die laufende Messung zurück und startet sofort eine neue. Die Gangreserve liegt bei rund 70 Stunden. Besonders begehrt sind Ausführungen mit hellem Zifferblatt und dunklen Hilfszifferblättern, nach dem Daytona-Vorbild »Panda« genannt.",
+    "Mit der 26240ST schloss Audemars Piguet technisch zur Konkurrenz auf, die längst eigene Chronographenwerke verbaute. Der Chronograph ist flacher und eleganter als die Royal Oak Offshore und gilt heute als die klassische Wahl für alle, die eine Royal Oak mit Stoppfunktion suchen."
+   ],
+   "vh": [
+    [
+     "Zifferblattfarben und »Panda«",
+     "Neben dem blauen Zifferblatt gibt es die 26240ST unter anderem in Schwarz und in hellen Ausführungen mit kontrastierenden Hilfszifferblättern."
+    ],
+    [
+     "Roségold: Ref. 26240OR",
+     "Den Chronographen mit Kaliber 4401 gibt es auch vollständig aus 18 Karat Roségold mit passendem Band."
+    ],
+    [
+     "Vorgängerin: Ref. 26320ST",
+     "Die 26320ST (2008–2019) hatte ebenfalls 41 Millimeter, aber noch das Modulwerk 2385."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl, achteckige Lünette",
+    "Drei Hilfszifferblätter bei 3, 6 und 9 Uhr",
+    "Datumsfenster zwischen 4 und 5 Uhr",
+    "Tapisserie-Zifferblatt",
+    "Saphirglasboden mit Blick auf das Kaliber 4401"
+   ],
+   "ev": [
+    [
+     "1997",
+     "Erster Royal Oak Chronograph, Ref. 25860ST"
+    ],
+    [
+     "2008",
+     "Vorgängerin 26320ST mit 41 mm"
+    ],
+    [
+     "2021",
+     "Ref. 26240ST mit hauseigenem Kaliber 4401"
+    ]
+   ],
+   "x": [
+    "Das Kaliber 4401 mit Flyback und rund 70 Stunden Gangreserve ist der wichtigste Unterschied zu den älteren Chronographen mit Modulwerk.",
+    "Ältere Referenzen wie die 26320ST sind gebraucht günstiger und optisch ähnlich, technisch aber eine andere Generation."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "4401, Automatik-Chronograph mit Schaltrad"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Datum, Chronograph mit Flyback"
+    ],
+    [
+     "Vorgänger",
+     "26320ST"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "daytona",
+     "c": "Die Rolex Daytona ist der Maßstab unter den Stahl-Chronographen und das Vorbild für den Begriff »Panda«."
+    },
+    {
+     "m": "overseas",
+     "c": "Auch die Overseas von Vacheron Constantin gibt es als Chronograph mit integriertem Band und hauseigenem Werk."
+    },
+    {
+     "m": "chronomaster",
+     "c": "Zenith erneuerte 2021 mit der Chronomaster Sport ebenfalls seinen sportlichen Chronographen."
+    }
+   ]
   }
  ]
 }
