@@ -38418,6 +38418,86 @@
      "c": "Die Laureato von Girard-Perregaux war 1975 eine weitere frühe Antwort auf die Royal Oak."
     }
    ]
+  },
+  {
+   "id": "royal-oak-concept-26630",
+   "model": "royal-oak-concept",
+   "ref": "26630",
+   "alias": [
+    "26630TI.OO.D002CA.01",
+    "26630TI",
+    "Royal Oak Concept Flying Tourbillon"
+   ],
+   "var": null,
+   "t": "Audemars Piguet Royal Oak Concept Ref. 26630",
+   "bau": "seit den späten 2010er-Jahren",
+   "cap": "",
+   "s": "Ein Tourbillon, das scheinbar frei schwebt, und ein Werk aus Brücken in X-Form: Die Royal Oak Concept Flying Tourbillon zeigt, wie weit sich die Royal Oak von ihrem Stahlvorbild entfernen kann.",
+   "bh": [
+    "Das Labor der Royal Oak",
+    "Gehäuse aus Titan",
+    "Fliegendes Tourbillon und offenes Werk",
+    "Für wen sie gedacht ist"
+   ],
+   "b": [
+    "Die Royal Oak Concept erschien 2002 zum 30. Geburtstag der Royal Oak als Konzeptuhr, die die Linie neu dachte. Seitdem dient sie Audemars Piguet als Labor für neue Formen, Materialien und Komplikationen. Die Referenz 26630 gehört zu den Flying-Tourbillon-Modellen der Concept-Linie.",
+    "Das 44-Millimeter-Gehäuse aus Titan übersetzt die achteckige Lünette mit sechseckigen Schrauben in eine kantigere, dreidimensionale Form. Die Krone liegt in einem schwarzen Kronenschutz, und das schwarze Kautschukband mit markantem Profil geht direkt aus dem Gehäuse hervor. Titan macht die große Uhr deutlich leichter, als sie aussieht.",
+    "Ein klassisches Zifferblatt gibt es nicht: Der Blick fällt auf das skelettierte Werk mit schwarzen Brücken in X-Form und auf das fliegende Tourbillon bei 6 Uhr. Anders als bei einem gewöhnlichen Tourbillon wird dessen Käfig nur von unten gehalten, sodass keine Brücke darüber den Blick verstellt. Skelettierte Zeiger mit Leuchtmasse und ein Ring mit Stabindizes machen die Zeit ablesbar.",
+    "Wie die meisten Concept-Modelle richtet sich die 26630 an Sammler, die das Experimentelle der Marke schätzen. Sie wurde in kleinen Stückzahlen gebaut und ist eher ein Statement als eine Alltagsuhr."
+   ],
+   "m": [
+    "44 mm, Titan, kantige Lünette mit sechseckigen Schrauben",
+    "Skelettiertes Werk mit Brücken in X-Form",
+    "Fliegendes Tourbillon bei 6 Uhr",
+    "Krone im schwarzen Kronenschutz",
+    "Schwarzes Kautschukband"
+   ],
+   "ev": [
+    [
+     "2002",
+     "Erste Royal Oak Concept zum 30. Jubiläum der Royal Oak"
+    ],
+    [
+     "2010er",
+     "Concept-Modelle mit fliegendem Tourbillon"
+    ]
+   ],
+   "x": [
+    "Concept-Modelle sind meist limitiert; Herkunftsnachweis und vollständige Papiere sind beim Kauf entscheidend.",
+    "Ein Tourbillon braucht einen spezialisierten Service – Kosten und Wartezeit vorab beim Hersteller erfragen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den späten 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "44 mm, Titan"
+    ],
+    [
+     "Kaliber",
+     "skelettiert, mit fliegendem Tourbillon"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, fliegendes Tourbillon"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "freak",
+     "c": "Die Ulysse Nardin Freak ist ein weiteres Beispiel für eine Uhr, die ihr Werk zur Hauptsache macht."
+    },
+    {
+     "m": "mp-05-laferrari",
+     "c": "Hublots MP-05 LaFerrari steht ebenfalls für ein großes, technisch betontes Konzeptmodell."
+    },
+    {
+     "m": "gp-three-bridges",
+     "c": "Girard-Perregaux zeigt beim Tourbillon mit drei Brücken, wie Brücken selbst zum Gestaltungselement werden."
+    }
+   ]
   }
  ]
 }
