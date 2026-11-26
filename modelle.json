@@ -50465,6 +50465,83 @@
      "c": "Die Breguet Classique steht für die elegante Uhr zum Anzug in ihrer traditionellsten Form."
     }
    ]
+  },
+  {
+   "id": "portugieser-iw3442",
+   "model": "portugieser",
+   "ref": "IW3442",
+   "alias": [
+    "IW344205"
+   ],
+   "var": 1,
+   "t": "IWC Portugieser Ewiger Kalender Ref. IW3442",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Der ewige Kalender nach Kurt Klaus im kompakteren Portugieser-Gehäuse: Mondphase, Wochentag, Datum, Monat und vierstelliges Jahr, alles über die Krone einstellbar.",
+   "bh": [
+    "Kurt Klaus’ Kalender",
+    "Zifferblatt und Anzeigen",
+    "Konstruktion und Werk",
+    "Stellung in der Familie"
+   ],
+   "b": [
+    "Seit 2003 gehört ein ewiger Kalender nach dem Prinzip von Kurt Klaus zur Portugieser-Familie, zunächst in einem großen Gehäuse mit sieben Tagen Gangreserve. 2020 ergänzte IWC die Linie um eine kompaktere Ausführung mit rund 42 Millimetern (Ref. IW3442). Die Referenz IW344205 hat ein silberfarbenes Gehäuse, ein dunkelblaues Zifferblatt und ein dunkelblaues Lederband.",
+    "Bei 12 Uhr sitzt die Mondphase, darunter steht »IWC Schaffhausen«; drei Hilfszifferblätter zeigen Wochentag, Datum und Monat. Zwischen 7 und 8 Uhr liegt die vierstellige Jahresanzeige. Aufgesetzte arabische Ziffern und schlanke Blattzeiger verbinden die Uhr mit den einfacheren Portugieser-Modellen.",
+    "Der Kalender berücksichtigt die unterschiedlichen Monatslängen und die Schaltjahre. Typisch für die Konstruktion von Kurt Klaus ist, dass sich alle Anzeigen über die Krone stellen lassen, ohne versteckte Korrekturdrücker. Angetrieben wird die Uhr von einem IWC-Automatikwerk mit Pellaton-Aufzug.",
+    "Mit dem kleineren Gehäuse bringt die IW3442 die große Komplikation der Portugieser in ein Format, das auch an schmaleren Handgelenken passt. Daneben baut IWC weiterhin die größere Ausführung mit sieben Tagen Gangreserve."
+   ],
+   "m": [
+    "Mondphase bei 12 Uhr",
+    "Drei Hilfszifferblätter für Wochentag, Datum und Monat",
+    "Vierstellige Jahresanzeige zwischen 7 und 8 Uhr",
+    "Aufgesetzte arabische Ziffern"
+   ],
+   "ev": [
+    [
+     "2003",
+     "Erster Portugieser Ewiger Kalender"
+    ],
+    [
+     "2020",
+     "Kompaktere Ausführung, Ref. IW3442"
+    ]
+   ],
+   "x": [
+    "Stand die Uhr länger still, muss der Kalender vorwärts nachgestellt werden; das dauert, ist aber über die Krone ohne Werkzeug möglich.",
+    "Ein ewiger Kalender ist in der Wartung aufwendiger als ein Dreizeiger; bei Gebrauchtuhren auf eine belegte Revision achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "rund 42 mm"
+    ],
+    [
+     "Kaliber",
+     "IWC-Automatikwerk mit Pellaton-Aufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, ewiger Kalender mit Wochentag, Datum, Monat, Jahr, Mondphase"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "chrono-ewiger-kalender",
+     "c": "Patek Philippes ewiger Kalender mit Chronograph ist der klassische Maßstab für diese Komplikation."
+    },
+    {
+     "m": "annual-calendar",
+     "c": "Der Jahreskalender von Patek Philippe ist die vereinfachte Schwester des ewigen Kalenders."
+    },
+    {
+     "m": "datograph",
+     "c": "Der Datograph von A. Lange & Söhne gibt es ebenfalls mit ewigem Kalender und steht für große Komplikationen deutscher Herkunft."
+    }
+   ]
   }
  ]
 }
