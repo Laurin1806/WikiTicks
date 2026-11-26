@@ -52190,6 +52190,126 @@
      "c": "Der Explorer teilte mit der frühen Submariner Gehäuse- und Werktechnik."
     }
    ]
+  },
+  {
+   "id": "gmt-master-16710",
+   "model": "gmt-master",
+   "ref": "16710",
+   "alias": [
+    "16710BLRO",
+    "16710LN",
+    "16710 »Coke«",
+    "16760",
+    "16713",
+    "16718"
+   ],
+   "var": 2,
+   "t": "Rolex GMT-Master II Ref. 16710",
+   "bau": "1989–2007",
+   "cap": "",
+   "s": "Die GMT-Master II mit Aluminiumlünette: drei Farbkombinationen, unabhängig verstellbarer Stundenzeiger und fast zwei Jahrzehnte im Programm – die letzte klassische GMT vor der Keramik.",
+   "bh": [
+    "Zwei Zeitzonen, drei Lünetten",
+    "Gehäuse und Werk",
+    "Pepsi, Coke und Schwarz",
+    "Das Ende der Aluminium-Ära"
+   ],
+   "b": [
+    "1983 hatte Rolex mit der Referenz 16760 die GMT-Master II eingeführt, deren Stundenzeiger sich unabhängig vom 24-Stunden-Zeiger verstellen lässt. Wegen ihres dickeren Gehäuses nennen Sammler sie »Fat Lady«. 1989 folgte die schlankere Referenz 16710, die bis 2007 gebaut wurde und die GMT-Master II für eine ganze Generation prägte.",
+    "Das Gehäuse aus Edelstahl misst 40 Millimeter, Krone und Boden sind verschraubt, die Uhr ist bis 100 Meter wasserdicht. Über dem Zifferblatt sitzt Saphirglas mit Zykloplupe über dem Datum. Im Inneren arbeitet das Kaliber 3185, in den letzten Jahren das Kaliber 3186 mit Parachrom-Spirale. Mit dem roten 24-Stunden-Zeiger und der drehbaren Lünette lassen sich zwei, mit Verdrehen der Lünette sogar drei Zeitzonen ablesen.",
+    "Die Besonderheit der 16710 ist, dass Rolex sie mit drei Lünetten anbot: rot-blau (»Pepsi«), schwarz-rot (»Coke«) und ganz schwarz. Die Einlagen aus Aluminium ließen sich beim Service tauschen, sodass manche Uhren heute eine andere Lünette tragen als bei der Auslieferung. Frühe Exemplare haben Tritium-Leuchtmasse und die Aufschrift »SWISS – T < 25«, spätere Luminova bzw. Super-LumiNova.",
+    "2007 löste die 116710LN mit schwarzer Keramiklünette die 16710 ab; die zweifarbigen Lünetten kehrten erst Jahre später in Keramik zurück. Damit ist die 16710 die letzte GMT-Master II mit den klassischen, leicht verblassenden Aluminiumlünetten – ein Grund, warum Sammler sie heute besonders schätzen."
+   ],
+   "vh": [
+    [
+     "»Pepsi«: Ref. 16710BLRO",
+     "Mit rot-blauer Lünette, der klassischen GMT-Farbe seit 1955."
+    ],
+    [
+     "»Coke«",
+     "Mit schwarz-roter Lünette, die es seit der »Fat Lady« 16760 gab."
+    ],
+    [
+     "Schwarz: Ref. 16710LN",
+     "Mit ganz schwarzer Lünette, die zurückhaltendste Ausführung."
+    ],
+    [
+     "Vorgängerin »Fat Lady«: Ref. 16760",
+     "Die erste GMT-Master II von 1983 mit dickerem Gehäuse und Coke-Lünette."
+    ],
+    [
+     "Rolesor und Gold: Refs. 16713 und 16718",
+     "Die GMT-Master II in Stahl-Gelbgold und ganz in Gelbgold, meist mit brauner oder schwarzer Lünette."
+    ]
+   ],
+   "m": [
+    "40 mm, Aluminiumlünette mit 24-Stunden-Skala",
+    "Roter 24-Stunden-Zeiger mit Dreieckspitze",
+    "Datum mit Zykloplupe auf Saphirglas",
+    "Früh: »SWISS – T < 25« am unteren Zifferblattrand"
+   ],
+   "ev": [
+    [
+     "1983",
+     "Ref. 16760 »Fat Lady«: erste GMT-Master II"
+    ],
+    [
+     "1989",
+     "Vorstellung der Ref. 16710"
+    ],
+    [
+     "2007",
+     "Kaliber 3186; Ablösung durch die 116710LN"
+    ]
+   ],
+   "x": [
+    "Weil die Lünetteneinlagen tauschbar sind, sagt die Farbe allein wenig über die Auslieferung; Garantiepapiere geben Auskunft.",
+    "Gealterte, verblasste Original-Einlagen sind gefragter als kräftige Servicelünetten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1989–2007"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3185, ab 2007 3186, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone (24 h)"
+    ],
+    [
+     "Lünette",
+     "beidseitig drehbar, Aluminium"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "16760 / 116710LN"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "explorer-2",
+     "c": "Der Explorer II 16570 zeigte in denselben Jahren ebenfalls eine zweite Zeitzone, mit fester Lünette."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M war in den 1990er-Jahren die große Sportuhr-Konkurrenz."
+    },
+    {
+     "m": "submariner",
+     "c": "Die Submariner 16610 war die Schwester mit Taucherlünette und demselben Gehäusestil."
+    }
+   ]
   }
  ]
 }
