@@ -50117,6 +50117,94 @@
      "c": "Die PanoMaticLunar von Glashütte Original verbindet ebenfalls Mondphase und Datum in einem eleganten Gehäuse."
     }
    ]
+  },
+  {
+   "id": "octo-finissimo-102713",
+   "model": "octo-finissimo",
+   "ref": "102713",
+   "alias": [
+    "102713",
+    "Octo Finissimo Automatic"
+   ],
+   "var": null,
+   "t": "Bulgari Octo Finissimo Automatic Ref. 102713",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Ein facettiertes Titangehäuse von gut 5 Millimetern Höhe und ein Werk mit Mikrorotor aus Platin: Die Octo Finissimo Automatic war bei ihrer Vorstellung 2017 die flachste Automatikuhr der Welt.",
+   "bh": [
+    "Rekord mit Automatik",
+    "Gehäuse aus Titan",
+    "Kaliber BVL 138",
+    "Bedeutung für Bulgari"
+   ],
+   "b": [
+    "Bulgari stellte 2012 die Octo mit ihrem facettierten Gehäuse vor, das ein Achteck mit einem runden Zifferblatt verbindet; 2014 folgte die extraflache Octo Finissimo. 2017 erschien die Octo Finissimo Automatic, die mit etwa 5,15 Millimetern Gesamthöhe bei ihrer Vorstellung die flachste Uhr mit Automatikaufzug war. Die Referenz 102713 ist die Ausführung aus sandgestrahltem Titan mit Titanband.",
+    "Gehäuse und Gliederband sind aus mattem, sandgestrahltem Titan und gehen nahtlos ineinander über. Das Zifferblatt hat die graue Farbe des Gehäuses und trägt schwarze Stabindizes, die Ziffern 12 und 6 und eine kleine Sekunde zwischen 7 und 8 Uhr. Die kleine Krone liegt flach an der Gehäuseflanke.",
+    "Im Inneren arbeitet das Kaliber BVL 138, das nur gut 2 Millimeter hoch ist. Statt eines großen Rotors zieht ein Mikrorotor aus Platin das Werk auf, der in die Werkebene eingelassen ist. Die Gangreserve beträgt rund 60 Stunden.",
+    "Mit der Octo Finissimo wurde Bulgari, lange vor allem als Juwelier bekannt, unter Uhrenkennern als Uhrenhersteller ernst genommen. Die Linie stellte weitere Rekorde auf, bis zur Octo Finissimo Ultra von 2022 mit rund 1,8 Millimetern."
+   ],
+   "vh": [
+    [
+     "Weitere Materialien",
+     "Die Octo Finissimo Automatic gibt es auch in Roségold, Stahl und schwarzer Keramik."
+    ]
+   ],
+   "m": [
+    "Facettiertes Achteckgehäuse, gut 5 mm hoch",
+    "Sandgestrahltes Titan, integriertes Band",
+    "Graues Zifferblatt in Gehäusefarbe",
+    "Kleine Sekunde zwischen 7 und 8 Uhr"
+   ],
+   "ev": [
+    [
+     "2014",
+     "Erste Octo Finissimo mit Tourbillon"
+    ],
+    [
+     "2017",
+     "Octo Finissimo Automatic, Ref. 102713"
+    ],
+    [
+     "2022",
+     "Octo Finissimo Ultra mit rund 1,8 mm"
+    ]
+   ],
+   "x": [
+    "Die sandgestrahlte Titanoberfläche lässt sich nicht einfach aufpolieren; Kratzer bleiben sichtbar.",
+    "Wegen der flachen Bauweise sollte eine Revision bei Bulgari oder einem darauf spezialisierten Uhrmacher erfolgen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Titan, sandgestrahlt, Höhe ≈ 5,15 mm"
+    ],
+    [
+     "Kaliber",
+     "BVL 138, Automatik mit Mikrorotor aus Platin"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "altiplano",
+     "c": "Die Piaget Altiplano ist die große Konkurrentin im Wettlauf um die flachsten Uhren."
+    },
+    {
+     "m": "overseas",
+     "c": "Die Overseas von Vacheron Constantin ist eine andere Luxus-Sportuhr mit integriertem Band aus diesen Jahren."
+    },
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak, besonders als extraflache Ausführung, ist der Klassiker der flachen Uhr mit integriertem Band."
+    }
+   ]
   }
  ]
 }
