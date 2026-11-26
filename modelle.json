@@ -46984,6 +46984,94 @@
      "c": "Breitlings Top Time ist eine weitere Neuauflage eines Chronographen der 1960er-Jahre."
     }
    ]
+  },
+  {
+   "id": "avenger-a17318",
+   "model": "avenger",
+   "ref": "A17318",
+   "alias": [
+    "A17318101B1A1",
+    "A17318"
+   ],
+   "var": null,
+   "t": "Breitling Avenger Ref. A17318",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Große Ziffern, Reiter auf der Lünette, 300 Meter Wasserdichtigkeit: Die Avenger Automatic 43 mit der Referenz A17318 ist Breitlings Fliegeruhr für den Alltag in ihrer schlichtesten Form.",
+   "bh": [
+    "Die neue Avenger",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "2019 überarbeitete Breitling die Avenger-Linie und stellte sie als klar gegliederte Kollektion aus Dreizeigern, Chronographen und Modellen mit zweiter Zeitzone auf. Der einfache Automatik-Dreizeiger mit 43 Millimetern trägt die Referenz A17318.",
+    "Das Gehäuse ist kräftig gebaut und bis 300 Meter wasserdicht. Die einseitig drehbare Lünette trägt Reiter bei 0, 15, 30 und 45 Minuten, die sich auch mit Handschuhen greifen lassen. Auf dem Zifferblatt stehen große arabische Ziffern, darüber der Schriftzug »Avenger Chronometer«; das Datum sitzt bei 3 Uhr.",
+    "Im Inneren arbeitet das Breitling-Kaliber 17, ein zugekauftes Automatikwerk mit 28.800 Halbschwingungen pro Stunde, das als Chronometer zertifiziert ist.",
+    "Die A17318 ist die sachlichste Avenger und ein Einstieg in Breitlings Fliegeruhren. Wer die Optik der Marke ohne Rechenschieber und Chronograph sucht, findet hier eine robuste Uhr für jeden Tag."
+   ],
+   "vh": [
+    [
+     "Avenger Chronograph und GMT",
+     "Zur Avenger-Linie von 2019 gehören auch Chronographen und Modelle mit zweiter Zeitzone, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "43 mm, kräftiges Gehäuse",
+    "Drehlünette mit Reitern bei 0, 15, 30 und 45",
+    "Große arabische Ziffern",
+    "Datum bei 3 Uhr, »Avenger Chronometer«"
+   ],
+   "ev": [
+    [
+     "1990er",
+     "Erste Avenger"
+    ],
+    [
+     "2019",
+     "Neue Avenger-Kollektion mit der A17318"
+    ]
+   ],
+   "x": [
+    "Die Avenger ist gebraucht vergleichsweise günstig zu bekommen.",
+    "Lünettenreiter und Band auf Gebrauchsspuren prüfen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "43 mm"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "Breitling 17, Automatik, Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "mark-xx",
+     "c": "IWCs Pilot’s Watch Mark XX ist eine sachliche Fliegeruhr derselben Jahre."
+    },
+    {
+     "m": "spirit",
+     "c": "Longines’ Spirit kam fast gleichzeitig als Fliegeruhr mit Chronometerwerk auf den Markt."
+    },
+    {
+     "m": "br-03",
+     "c": "Die Bell & Ross BR 03 ist eine weitere robuste Fliegeruhr mit großen Ziffern."
+    }
+   ]
   }
  ]
 }
