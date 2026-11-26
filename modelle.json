@@ -42627,6 +42627,101 @@
      "c": "Die Nomos Tangente steht für reduzierte Eleganz aus Glashütte."
     }
    ]
+  },
+  {
+   "id": "gentleman-t127-407",
+   "model": "gentleman",
+   "ref": "T127.407.11.041.00",
+   "alias": [
+    "T127.407"
+   ],
+   "var": null,
+   "t": "Tissot Gentleman Ref. T127.407.11.041.00",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Eine Uhr für alle Tage: 40 Millimeter, blaues Sonnenschliff-Zifferblatt, Stahlband – und im Inneren ein Automatikwerk mit Siliziumspirale und rund 80 Stunden Gangreserve.",
+   "bh": [
+    "Die Alltagsuhr von Tissot",
+    "Gehäuse und Zifferblatt",
+    "Powermatic 80 Silicium",
+    "Stellung im Programm"
+   ],
+   "b": [
+    "Tissot stellte die Gentleman 2019 als vielseitige Uhr vor, die zum Anzug ebenso passt wie zur Freizeitkleidung. Die Referenz T127.407.11.041.00 ist die Ausführung aus Edelstahl mit blauem Zifferblatt und Gliederband, die zum bekanntesten Gesicht der Linie wurde.",
+    "Das runde 40-Millimeter-Gehäuse hat eine glatte, polierte Lünette und Saphirglas; die Uhr ist bis 100 Meter wasserdicht. Das Zifferblatt mit Sonnenschliff trägt aufgesetzte Stabindizes und Stabzeiger mit Leuchtfüllung, das Datum steht bei 3 Uhr. Das Band verbindet satinierte Glieder mit polierten Zwischenstücken.",
+    "Im Inneren arbeitet das Powermatic 80 mit rund 80 Stunden Gangreserve. Erreicht wird sie durch eine längere Zugfeder, eine geringere Frequenz und eine überarbeitete Hemmung. Bei dieser Ausführung ist die Spiralfeder aus Silizium, das ist auf dem Zifferblatt mit »SILICIUM« vermerkt; Silizium ist unmagnetisch und macht das Werk unempfindlicher gegen Magnetfelder.",
+    "Die Gentleman schließt im Programm von Tissot die Lücke zwischen der klassischen Le Locle und den Sportuhren. Sie gilt als solide Wahl für alle, die eine einzige mechanische Uhr für jeden Anlass suchen."
+   ],
+   "vh": [
+    [
+     "Andere Zifferblätter und Lederband",
+     "Die Gentleman gibt es außerdem mit silbernem, schwarzem und grünem Zifferblatt sowie mit Lederband statt Stahlband."
+    ],
+    [
+     "Bicolor mit Gold",
+     "Eine Ausführung kombiniert das Stahlgehäuse mit Gold, sie ist die edelste Variante der Linie."
+    ],
+    [
+     "Quarzversion",
+     "Neben dem Powermatic 80 bietet Tissot die Gentleman auch mit Quarzwerk an."
+    ]
+   ],
+   "m": [
+    "40 mm, Edelstahl, glatte polierte Lünette",
+    "Blaues Zifferblatt mit Sonnenschliff",
+    "»POWERMATIC 80« und »SILICIUM« auf dem Zifferblatt",
+    "Datumsfenster bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2019",
+     "Vorstellung der Gentleman Powermatic 80"
+    ]
+   ],
+   "x": [
+    "Auf den Schriftzug »SILICIUM« achten, wenn die Version mit Siliziumspirale gewünscht ist.",
+    "Das Stahlband lässt sich gut mit einem Lederband tauschen, was die Uhr eleganter macht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl, Saphirglas"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "Powermatic 80 Silicium, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "spirit",
+     "c": "Die Longines Spirit kam ein Jahr später als robuste Alltagsuhr aus derselben Konzernfamilie."
+    },
+    {
+     "m": "murph",
+     "c": "Hamiltons Khaki Field Murph erschien im selben Jahr, ebenfalls mit Automatikwerk und rund 80 Stunden Gangreserve."
+    },
+    {
+     "m": "presage-cocktail",
+     "c": "Die Seiko Presage Cocktail Time ist eine beliebte Alternative für eine elegante Automatikuhr in ähnlicher Preisklasse."
+    }
+   ]
   }
  ]
 }
