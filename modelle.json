@@ -37929,6 +37929,96 @@
      "c": "Vacheron Constantin brachte kurz zuvor mit der Fiftysix eine neue, klassisch-runde Linie heraus."
     }
    ]
+  },
+  {
+   "id": "millenary-15350",
+   "model": "millenary",
+   "ref": "15350",
+   "alias": [
+    "15350ST.OO.D002CR.01",
+    "15350ST",
+    "15350OR",
+    "Millenary 4101"
+   ],
+   "var": null,
+   "t": "Audemars Piguet Millenary Ref. 15350",
+   "bau": "ab 2011",
+   "cap": "",
+   "s": "Die Unruh als Bühne: In der Millenary 4101 ist das Werk umgedreht eingebaut, sodass die große Unruh neben dem außermittigen Zifferblatt schwingt.",
+   "bh": [
+    "Die Millenary neu gedacht",
+    "Ein umgedrehtes Werk",
+    "Zifferblatt und Gehäuse",
+    "Bedeutung heute"
+   ],
+   "b": [
+    "Die Millenary gibt es seit 1995 als ovale Uhr mit außermittigem Zifferblatt, bewusst als Gegenstück zur kantigen Royal Oak. 2011 stellte Audemars Piguet mit der Millenary 4101, Referenz 15350, eine Ausführung vor, die das Werk selbst in den Mittelpunkt rückt.",
+    "Das Kaliber 4101 ist verkehrt herum eingebaut: Unruh und Hemmung liegen auf der Zifferblattseite und sind offen zu sehen. Die große Unruh schwingt links unter einer bogenförmigen Brücke, umgeben von Rädern und Brücken des Werks. Die Gangreserve beträgt rund 60 Stunden.",
+    "Das schwarze Zifferblatt für Stunden und Minuten ist nach rechts aus der Mitte verschoben und trägt große römische Ziffern; die kleine Sekunde sitzt links unten in einem eigenen Hilfszifferblatt. Das ovale Gehäuse mit gerändelter Krone wird an einem Lederband getragen.",
+    "Die 15350 ist eine der ungewöhnlichsten Uhren von Audemars Piguet und zeigt die klassische, verspielte Seite der Marke. Ihr Design polarisiert, und auf dem Zweitmarkt ist sie deutlich günstiger als die Royal Oak."
+   ],
+   "vh": [
+    [
+     "Stahl: Ref. 15350ST",
+     "Die abgebildete Ausführung hat ein Stahlgehäuse, ein schwarzes Zifferblatt mit roségoldfarbenen Ziffern und eine roségoldfarbene Unruhbrücke."
+    ],
+    [
+     "Roségold: Ref. 15350OR",
+     "Die Millenary 4101 gab es auch mit Gehäuse aus 18 Karat Roségold."
+    ]
+   ],
+   "m": [
+    "Ovales Gehäuse",
+    "Außermittiges Zifferblatt mit römischen Ziffern",
+    "Offen sichtbare Unruh unter bogenförmiger Brücke",
+    "Kleine Sekunde links unten"
+   ],
+   "ev": [
+    [
+     "1995",
+     "Erste Millenary"
+    ],
+    [
+     "2011",
+     "Millenary 4101, Ref. 15350, mit umgedreht eingebautem Werk"
+    ]
+   ],
+   "x": [
+    "Die offen liegende Unruh ist der Reiz der Uhr – beim Kauf auf einen sauberen Gang und unbeschädigte Brücken achten.",
+    "Gebraucht ist die Millenary eine vergleichsweise günstige Möglichkeit, eine aufwendige Audemars Piguet abseits der Royal Oak zu besitzen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "ab 2011"
+    ],
+    [
+     "Gehäuse",
+     "oval, Edelstahl oder Roségold"
+    ],
+    [
+     "Kaliber",
+     "4101, Gangreserve rund 60 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "golden-ellipse",
+     "c": "Patek Philippes Golden Ellipse ist ein weiterer Klassiker der ungewöhnlichen, ovalen Gehäuseform."
+    },
+    {
+     "m": "zeitwerk",
+     "c": "Die Zeitwerk von A. Lange & Söhne zeigte wenige Jahre zuvor ebenfalls eine eigenwillige Art, die Zeit darzustellen."
+    },
+    {
+     "m": "duometre",
+     "c": "Jaeger-LeCoultres Duomètre gehört zu den aufwendigen Uhren dieser Jahre, die ihr Werk gestalterisch betonen."
+    }
+   ]
   }
  ]
 }
