@@ -42161,6 +42161,101 @@
      "c": "Die Chopard Alpine Eagle verbindet wie die White Birch ein von der Natur inspiriertes Zifferblatt mit einem modernen Stahlgehäuse."
     }
    ]
+  },
+  {
+   "id": "aquis-01-400-7769-4135",
+   "model": "aquis",
+   "ref": "01 400 7769 4135",
+   "alias": [
+    "01 400 7769 4135-07 8 22 09PEB"
+   ],
+   "var": null,
+   "t": "Oris Aquis Ref. 01 400 7769 4135",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Blaues Zifferblatt, Keramiklünette und das erste eigene Oris-Werk seit Jahrzehnten: Die Aquis Date Calibre 400 läuft fünf Tage und hat zehn Jahre Garantie.",
+   "bh": [
+    "Die Taucheruhr von Oris",
+    "Gehäuse und Lünette",
+    "Das Kaliber 400",
+    "Was die Referenz verrät"
+   ],
+   "b": [
+    "Oris stellte die Aquis 2011 als moderne Taucheruhr vor. 2020 folgte das Kaliber 400, das erste eigene Werk der Marke seit Jahrzehnten, und mit ihm die Aquis Date Calibre 400. Die Referenz 01 400 7769 4135 ist die Ausführung mit 41,5 Millimetern, blauem Zifferblatt und Stahlband.",
+    "Gehäuse und Gliederband sind aus Edelstahl, die kurzen, kräftigen Bandanstöße lassen das Band fast integriert wirken. Die einseitig drehbare Lünette aus Keramik trägt eine Minutenskala mit Zahlen im Zehnerabstand und einem Leuchtpunkt bei 12 Uhr. Das Zifferblatt mit Sonnenschliff hat breite Stabindizes, Stabzeiger mit Leuchtfüllung und ein Datum bei 6 Uhr; die Uhr ist bis 300 Meter wasserdicht.",
+    "Das Kaliber 400 läuft rund fünf Tage und ist durch viele nichtmagnetische Bauteile gut gegen Magnetfelder geschützt. Oris gibt darauf zehn Jahre Garantie und empfiehlt Wartungsintervalle von zehn Jahren.",
+    "Bei Oris nennt die zweite Zahlengruppe der Referenz das Kaliber: 400 steht für das eigene Werk, während Aquis-Modelle mit 733 ein Sellita-Basiswerk haben. Der Zusatz nach dem Bindestrich beschreibt das Band."
+   ],
+   "vh": [
+    [
+     "Aquis Date mit Kaliber 733",
+     "Die Aquis Date gibt es auch mit dem Oris-Kaliber 733 auf Sellita-Basis, zu erkennen an der 733 in der Referenz."
+    ],
+    [
+     "Andere Größen und Farben",
+     "Die Aquis gibt es außerdem in 36,5 und 43,5 Millimetern und mit Zifferblättern unter anderem in Grün und Schwarz."
+    ]
+   ],
+   "m": [
+    "41,5 mm, Edelstahl, kurze kräftige Bandanstöße",
+    "Blaue Keramiklünette",
+    "Datum bei 6 Uhr",
+    "»400« als zweite Zahlengruppe der Referenz"
+   ],
+   "ev": [
+    [
+     "2011",
+     "Oris Aquis"
+    ],
+    [
+     "2020",
+     "Kaliber 400 und Aquis Date Calibre 400"
+    ]
+   ],
+   "x": [
+    "Auf die 400 in der Referenz achten, wenn die Version mit eigenem Werk gewünscht ist.",
+    "Die zehnjährige Garantie gilt für das Kaliber 400 – Unterlagen beim Kauf mitgeben lassen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "41,5 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "Oris 400, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 120 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "seamaster-300m",
+     "c": "Die Omega Seamaster Diver 300M ist die moderne Taucheruhr derselben Jahre eine Klasse höher."
+    },
+    {
+     "m": "pelagos",
+     "c": "Die Tudor Pelagos verbindet ebenfalls ein eigenes Werk mit einer modernen Taucheruhr."
+    },
+    {
+     "m": "hydroconquest",
+     "c": "Die Longines HydroConquest ist eine Taucheruhr in ähnlicher Preisklasse."
+    }
+   ]
   }
  ]
 }
