@@ -42082,6 +42082,85 @@
      "c": "Citizens Promaster Diver ist die japanische Alternative im gleichen Preisbereich, angetrieben von Licht."
     }
    ]
+  },
+  {
+   "id": "white-birch-slgh005",
+   "model": "white-birch",
+   "ref": "SLGH005",
+   "alias": [
+    "SLGH005"
+   ],
+   "var": null,
+   "t": "Grand Seiko White Birch Ref. SLGH005",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Birkenrinde als Zifferblatt und ein Hochfrequenzwerk mit 80 Stunden Gangreserve: Die SLGH005 holte 2021 den wichtigsten Preis der Uhrenwelt nach Japan.",
+   "bh": [
+    "Ein Wald als Vorbild",
+    "Das Kaliber 9SA5",
+    "Ausgezeichnet in Genf"
+   ],
+   "b": [
+    "Das Zifferblatt der SLGH005 zeigt ein tief geprägtes Muster aus senkrechten Linien. Es bildet die Rinde der weißen Birken nach, die rund um das Grand Seiko Studio Shizukuishi wachsen, die Werkstatt, in der die mechanischen Uhren der Marke entstehen. Das 40-Millimeter-Gehäuse aus Edelstahl folgt dem neuen, kantigen Gestaltungsstil der Evolution-9-Kollektion und ist bis 100 Meter wasserdicht.",
+    "Im Inneren arbeitet das Automatikkaliber 9SA5 mit 36.000 Halbschwingungen pro Stunde. Seine eigens entwickelte »Dual Impulse«-Hemmung überträgt die Energie in zwei Richtungen und damit direkter; so erreicht das Werk trotz der hohen Frequenz rund 80 Stunden Gangreserve. Zudem ist es flacher als frühere Grand-Seiko-Werke, was ein schlankeres Gehäuse erlaubt.",
+    "2021 gewann die SLGH005 beim Grand Prix d'Horlogerie de Genève den Preis in der Kategorie Herrenuhren. Seitdem gilt sie als eines der wichtigsten modernen Modelle von Grand Seiko und als Gegenstück zur Spring-Drive-Snowflake."
+   ],
+   "m": [
+    "Weißes Zifferblatt mit senkrechtem Birkenrinden-Muster",
+    "40 mm, Edelstahl, kantige Evolution-9-Form",
+    "Aufdruck »Hi-Beat 36000«",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2020",
+     "Vorstellung des Kalibers 9SA5"
+    ],
+    [
+     "2021",
+     "Vorstellung der SLGH005; Preis beim GPHG"
+    ]
+   ],
+   "x": [
+    "Das 9SA5 lässt sich durch den Glasboden beobachten und gehört zu den modernsten Werken der Marke.",
+    "Das geprägte Zifferblatt wirkt je nach Licht sehr unterschiedlich – die Uhr am besten im Tageslicht ansehen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "9SA5, Automatik, 36.000 A/h, ≈ 80 h Gangreserve"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "code-11-59",
+     "c": "Audemars Piguets Code 11.59 war in denselben Jahren der Versuch einer großen Marke, eine neue Formensprache zu finden."
+    },
+    {
+     "m": "odysseus",
+     "c": "Die A. Lange & Söhne Odysseus ist eine weitere Edelstahluhr einer Manufaktur, die neue Wege geht."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Die Chopard Alpine Eagle verbindet wie die White Birch ein von der Natur inspiriertes Zifferblatt mit einem modernen Stahlgehäuse."
+    }
+   ]
   }
  ]
 }
