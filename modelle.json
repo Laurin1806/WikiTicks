@@ -39972,6 +39972,95 @@
      "c": "Die Omega Speedmaster ist die klassische Alternative unter den Sportchronographen dieser Jahre."
     }
    ]
+  },
+  {
+   "id": "black-bay-gmt-m79830rb",
+   "model": "black-bay-gmt",
+   "ref": "M79830RB",
+   "alias": [
+    "M79830RB-0001",
+    "79830RB"
+   ],
+   "var": null,
+   "t": "Tudor Black Bay GMT Ref. M79830RB",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Burgunderrot und Blau auf der Lünette, ein roter Pfeil für die Heimatzeit: Mit der M79830RB brachte Tudor 2018 eine echte Reise-GMT mit Manufakturwerk in die Black-Bay-Familie.",
+   "bh": [
+    "2018: Die Black Bay geht auf Reisen",
+    "Kaliber MT5652",
+    "Lünette in mattem Burgunder und Blau",
+    "Bedeutung"
+   ],
+   "b": [
+    "Tudor stellte die Black Bay GMT 2018 vor. Sie verbindet das 41-Millimeter-Gehäuse, die große Krone und die Snowflake-Zeiger der Black Bay mit einem zusätzlichen 24-Stunden-Zeiger und einer drehbaren Lünette mit 24-Stunden-Skala. Die zweifarbige Lünette erinnert an die »Pepsi«-Farben der Rolex GMT-Master, ist aber in eigenen, gedeckten Tönen gehalten.",
+    "Im Inneren arbeitet das Manufakturkaliber MT5652 mit rund 70 Stunden Gangreserve und COSC-Zertifikat. Der Stundenzeiger lässt sich einzeln in Stundenschritten verstellen, ohne dass die Uhr anhält; das Datum folgt ihm vor- und rückwärts. Der rote 24-Stunden-Zeiger bleibt dabei auf der Heimatzeit – so wird die Uhr nach der Landung mit wenigen Handgriffen auf die Ortszeit gestellt.",
+    "Die Lünette ist beidseitig drehbar und hat einen eloxierten Aluminiumeinsatz, oben blau für die Nacht, unten burgunderrot für den Tag. Ihre matte Oberfläche unterscheidet sie deutlich von glänzenden Keramiklünetten. Das schwarze Zifferblatt trägt runde Leuchtindizes und ein Datumsfenster bei 3 Uhr ohne Lupe; das Gehäuse ist bis 200 Meter wasserdicht. Es gibt die Uhr am Stahlband mit Nietoptik, am Leder- und am Textilband.",
+    "Bei ihrer Vorstellung war die Black Bay GMT eine der günstigsten mechanischen Uhren mit einzeln verstellbarem Stundenzeiger. Sie machte die Funktion der »echten« Reise-GMT einem breiteren Publikum zugänglich."
+   ],
+   "vh": [
+    [
+     "Stahl und Gold: Ref. M79833MN",
+     "Eine Ausführung aus Edelstahl und Gelbgold mit schwarz-brauner Lünette und goldfarbenen Akzenten."
+    ],
+    [
+     "Opalin-Zifferblatt",
+     "2023 erschien eine weitere Black Bay GMT mit hellem Opalin-Zifferblatt und Master-Chronometer-Werk, die eine eigene Referenz trägt."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl, große Krone ohne Kronenschutz",
+    "Lünette in mattem Burgunder und Blau mit 24-Stunden-Skala",
+    "Roter 24-Stunden-Zeiger mit Dreiecksspitze",
+    "Datum bei 3 Uhr ohne Lupe"
+   ],
+   "ev": [
+    [
+     "2018",
+     "Vorstellung der Black Bay GMT M79830RB mit Kaliber MT5652"
+    ]
+   ],
+   "x": [
+    "Die Funktion des einzeln stellbaren Stundenzeigers beim Kauf ausprobieren: Er sollte sauber in vollen Stunden springen und das Datum mitnehmen.",
+    "Das Stahlband mit Nietoptik ist beliebter als die Leder- und Textilvarianten.",
+    "Mit rund 15 Millimetern Höhe ist die GMT deutlich dicker als die Fifty-Eight; vorher anprobieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "MT5652, Automatik, COSC-Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone (24 Stunden)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "gmt-master",
+     "c": "Die Rolex GMT-Master II »Pepsi« 126710BLRO kam fast zur selben Zeit und ist das bekannte Vorbild der Farbkombination."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Omega bot zur gleichen Zeit Seamaster-Taucheruhren mit zweiter Zeitzone an."
+    },
+    {
+     "m": "aquis",
+     "c": "Die Oris Aquis gab es ebenfalls mit GMT-Funktion als sportliche Alltagsuhr dieser Jahre."
+    }
+   ]
   }
  ]
 }
