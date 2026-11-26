@@ -48422,6 +48422,110 @@
      "c": "Das Zeitwerk zeigt zur gleichen Zeit, wie ungewöhnlich eine mechanische Zeitanzeige sein kann."
     }
    ]
+  },
+  {
+   "id": "navitimer-ab0138",
+   "model": "navitimer",
+   "ref": "AB0138",
+   "alias": [
+    "AB0138211B1P1",
+    "AB0138241L1A1",
+    "AB0138211B1A1",
+    "AB0138"
+   ],
+   "var": null,
+   "t": "Breitling Navitimer Ref. AB0138",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Zum 70. Geburtstag poliert und aufgeräumt: Die AB0138 ist der Navitimer B01 Chronograph 43 der Gegenwart – mit Rechenschieber, Manufakturwerk und dem AOPA-Flügel, der nach Jahrzehnten aufs Zifferblatt zurückkehrte.",
+   "bh": [
+    "Überarbeitung zum Jubiläum",
+    "Gehäuse und Werk",
+    "Rechenschieber und Zifferblatt",
+    "Stellung in der Kollektion"
+   ],
+   "b": [
+    "2022 feierte Breitling 70 Jahre Navitimer und stellte eine überarbeitete Generation vor. Die 43-Millimeter-Ausführung trägt die Referenz AB0138 und löste die AB0121 ab, den Navitimer B01 Chronograph 43 aus den Jahren ab 2012. Die Grundform blieb unangetastet, doch viele Details wurden feiner: Die Lünette ist nun poliert statt matt, das Zifferblatt wirkt durch weniger Beschriftung ruhiger, und das Flügellogo der Pilotenvereinigung AOPA steht wieder unter der Zwölf.",
+    "Das Edelstahlgehäuse misst 43 Millimeter, durch den Saphirglasboden ist das Manufakturkaliber B01 zu sehen. Das Automatikwerk mit Schaltrad und vertikaler Kupplung schwingt mit 28.800 Halbschwingungen pro Stunde, hat rund 70 Stunden Gangreserve und ist als Chronometer zertifiziert. Für einen Fliegerchronographen ungewöhnlich gering ist die Wasserdichtigkeit von 30 Metern – der Navitimer ist ein Instrument für das Cockpit, nicht für das Wasser.",
+    "Herz der Uhr bleibt der runde Rechenschieber: Mit der gerändelten Lünette dreht man die äußere Skala gegen die feste auf dem Zifferblattrand und rechnet so Geschwindigkeiten, Strecken, Treibstoffverbrauch oder Umrechnungen von Maßeinheiten. Drei Hilfszifferblätter für laufende Sekunde, 30 Minuten und 12 Stunden sowie ein Datum zwischen 4 und 5 Uhr ergänzen die Anzeige.",
+    "Mit der AB0138 verbreiterte Breitling das Angebot an Zifferblattfarben deutlich: Neben dem klassischen Schwarz gibt es Grün, Blau, Silber und weitere Töne, an Lederband oder Stahlband. Schwestermodelle mit 41 und 46 Millimetern tragen eigene Referenzen. Damit ist die 43-Millimeter-Version die Mitte der heutigen Navitimer-Familie und die naheliegende Wahl für alle, die den klassischen Navitimer in moderner Ausführung suchen."
+   ],
+   "vh": [
+    [
+     "Schwarzes Zifferblatt: Ref. AB0138211B1P1 und AB0138211B1A1",
+     "Die klassische Ausführung mit schwarzem Zifferblatt und hellen Hilfszifferblättern gibt es am Lederband (AB0138211B1P1) und am Stahlgliederband (AB0138211B1A1)."
+    ],
+    [
+     "Grünes Zifferblatt: Ref. AB0138241L1A1",
+     "Zu den neuen Farben von 2022 gehört ein grünes Zifferblatt mit silbernen Hilfszifferblättern, hier am Stahlband."
+    ],
+    [
+     "41 und 46 Millimeter",
+     "Die Navitimer-Generation von 2022 gibt es auch mit 41 und mit 46 Millimetern; diese Größen tragen eigene Referenzen und wirken entsprechend zierlicher bzw. markanter."
+    ]
+   ],
+   "m": [
+    "43 mm, Edelstahl, polierte gerändelte Lünette",
+    "Runder Rechenschieber mit roten Markierungen",
+    "Drei Hilfszifferblätter, Datum zwischen 4 und 5 Uhr",
+    "AOPA-Flügellogo unter der Zwölf",
+    "Saphirglasboden mit Kaliber B01"
+   ],
+   "ev": [
+    [
+     "2012",
+     "Vorgänger AB0121 mit Kaliber B01 und 43 mm"
+    ],
+    [
+     "2022",
+     "Vorstellung der AB0138 zum 70-jährigen Jubiläum"
+    ]
+   ],
+   "x": [
+    "Die Bezeichnungen sind ähnlich: Die AB0121 (bis 2022) hat eine matte Lünette und ein dichter beschriftetes Zifferblatt, die AB0138 die polierte Lünette und das AOPA-Logo.",
+    "Die Endung der Referenz verrät Zifferblatt und Band; beim Kauf prüfen, ob Lederband und Stahlband zur Lieferung gehören.",
+    "Mit 30 Metern Wasserdichtigkeit ist der Navitimer nicht zum Schwimmen gedacht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "43 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "B01, Automatik-Chronograph, Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Datum, Rechenschieber"
+    ],
+    [
+     "Vorgänger",
+     "AB0121"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "speedmaster",
+     "c": "Auch Omegas Moonwatch bekam in den frühen 2020er-Jahren eine gründliche Überarbeitung bei unveränderter Grundform."
+    },
+    {
+     "m": "daytona",
+     "c": "Die Daytona ist der andere große Chronographen-Klassiker, der in dieser Zeit sorgfältig modernisiert wurde."
+    },
+    {
+     "m": "big-pilot",
+     "c": "IWCs Big Pilot steht wie der Navitimer für die Tradition der Fliegeruhr und wurde in denselben Jahren neu aufgelegt."
+    }
+   ]
   }
  ]
 }
