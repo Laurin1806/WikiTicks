@@ -37835,6 +37835,100 @@
      "c": "Die Rolex Sky-Dweller richtet sich mit zweiter Zeitzone ebenfalls an Vielreisende im Luxussegment."
     }
    ]
+  },
+  {
+   "id": "code-11-59-15210",
+   "model": "code-11-59",
+   "ref": "15210",
+   "alias": [
+    "15210ST",
+    "15210OR",
+    "15210BC"
+   ],
+   "var": null,
+   "t": "Audemars Piguet Code 11.59 Ref. 15210",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Rund von vorn, achteckig von der Seite: Der Dreizeiger 15210 ist die Grundform der Code 11.59, mit der Audemars Piguet 2019 neben der Royal Oak ein zweites Standbein aufbauen wollte.",
+   "bh": [
+    "2019: die Basis einer neuen Kollektion",
+    "Gehäuse und Glas",
+    "Werk und Zifferblätter",
+    "Von der Kritik zur Anerkennung"
+   ],
+   "b": [
+    "Mit der Code 11.59 stellte Audemars Piguet 2019 die erste völlig neue Kollektion seit Jahrzehnten vor. Die Referenz 15210 ist ihr einfachstes Modell: ein Dreizeiger mit Datum, auf dem die Chronographen, Kalender und Komplikationen der Linie aufbauen.",
+    "Das 41-Millimeter-Gehäuse wirkt von vorn klassisch rund. Von der Seite zeigt sich ein achteckiges Mittelteil zwischen runder Lünette und rundem Boden, eine Anspielung auf die Royal Oak. Die Bandanstöße sind filigran durchbrochen und nur an Lünette und Boden befestigt. Das Saphirglas ist ungewöhnlich geformt: innen gewölbt, außen in einer Richtung gebogen, sodass sich die Spiegelungen je nach Blickwinkel verändern.",
+    "Im Inneren arbeitet das hauseigene Automatikkaliber 4302 mit rund 70 Stunden Gangreserve, das auch in der Royal Oak Selfwinding steckt. Das Zifferblatt zeigt aufgesetzte Indizes, einen Doppelindex bei 12 Uhr, das Datum bei 3 Uhr und einen Innenring mit Minutenteilung. Seit der Vorstellung hat Audemars Piguet zahlreiche neue Zifferblätter ergänzt, etwa aus geräucherter Emaille oder mit Strukturen.",
+    "Zum Start wurde die Code 11.59 von Teilen der Fachpresse und der Sammler heftig kritisiert. Inzwischen wird sie deutlich wohlwollender gesehen, und die 15210 ist die zugänglichste Art, die Kollektion zu tragen. Gebraucht ist sie oft deutlich günstiger als eine Royal Oak."
+   ],
+   "vh": [
+    [
+     "Roségold und Weißgold: Ref. 15210OR und 15210BC",
+     "Zur Vorstellung 2019 erschien der Dreizeiger in 18 Karat Roségold und Weißgold."
+    ],
+    [
+     "Zweifarbige Gehäuse",
+     "Später kamen Ausführungen mit einem Mittelteil aus Keramik hinzu, das sich farblich von Lünette und Boden absetzt."
+    ]
+   ],
+   "m": [
+    "41 mm, rundes Gehäuse mit achteckigem Mittelteil",
+    "Doppelt gewölbtes Saphirglas",
+    "Durchbrochene Bandanstöße",
+    "Doppelindex bei 12 Uhr, Datum bei 3 Uhr",
+    "Innenring mit Minutenteilung"
+   ],
+   "ev": [
+    [
+     "2019",
+     "Vorstellung der Code 11.59 mit Ref. 15210"
+    ],
+    [
+     "2020er",
+     "Neue Zifferblätter und Gehäuse mit Keramik-Mittelteil"
+    ]
+   ],
+   "x": [
+    "Neuere Ausführungen mit strukturierten oder Emaille-Zifferblättern sind oft gefragter als die ersten Modelle von 2019.",
+    "Gebraucht ist die 15210 meist deutlich unter dem Listenpreis zu finden, was sie zu einem vergleichsweise günstigen Einstieg in Edelmetall-AP macht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, achteckiges Mittelteil, doppelt gewölbtes Saphirglas"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "4302, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "alpine-eagle",
+     "c": "Chopard stellte 2019 mit der Alpine Eagle ebenfalls eine neue Kollektion vor."
+    },
+    {
+     "m": "odysseus",
+     "c": "A. Lange & Söhne wagte 2019 mit der Odysseus einen ähnlich ungewohnten Schritt."
+    },
+    {
+     "m": "fiftysix",
+     "c": "Vacheron Constantin brachte kurz zuvor mit der Fiftysix eine neue, klassisch-runde Linie heraus."
+    }
+   ]
   }
  ]
 }
