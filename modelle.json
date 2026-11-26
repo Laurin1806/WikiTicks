@@ -51435,6 +51435,101 @@
      "c": "Die Rolex Perpetual 1908 von 2023 ist eine weitere klassische Uhr zum Anzug aus diesen Jahren."
     }
    ]
+  },
+  {
+   "id": "seamaster-300-ck2913",
+   "model": "seamaster-300",
+   "ref": "CK2913",
+   "alias": [
+    "CK 2913"
+   ],
+   "var": null,
+   "t": "Omega Seamaster 300 Ref. CK2913",
+   "bau": "1957–1960er",
+   "cap": "",
+   "s": "Die erste Seamaster 300 aus Omegas Profi-Trilogie von 1957: eine Taucheruhr mit breiten Pfeilzeigern und Drehlünette, mit der Omega ernsthaft ins Geschäft der Berufstaucher einstieg.",
+   "bh": [
+    "Die Trilogie von 1957",
+    "Gehäuse, Lünette und Zeiger",
+    "Das Werk",
+    "Nachfolger und Neuauflagen"
+   ],
+   "b": [
+    "1957 stellte Omega drei Uhren für Profis vor, die heute als »Trilogie« gelten: die Speedmaster für Rennfahrer, die Railmaster für Techniker in starken Magnetfeldern und die Seamaster 300 für Taucher. Die Referenz CK2913 ist die erste Seamaster 300 und die Antwort auf die Taucheruhren, die Rolex und Blancpain wenige Jahre zuvor vorgestellt hatten.",
+    "Das Edelstahlgehäuse misst rund 39 Millimeter, die drehbare Lünette trägt eine Minutenskala für die Tauchzeit. Kennzeichen sind die breiten Pfeilzeiger (»Broad Arrow«), die auch Speedmaster und Railmaster dieser Jahre trugen, und große Leuchtindizes auf dem schwarzen Zifferblatt.",
+    "Im Inneren arbeitete ein Automatikwerk aus der Familie der Omega-Kaliber 500, zunächst das Kaliber 501, später das 552. Damit war die Seamaster 300 eine robuste, alltagstaugliche Taucheruhr mit einem bewährten Werk.",
+    "In den 1960er-Jahren folgten Nachfolger mit größerem Gehäuse, etwa die Referenz 165.024, die auch Taucher der britischen Marine trugen. Seit 2014 gibt es die Seamaster 300 wieder als Neuauflage im Stil der frühen Modelle; die hier gezeigte Abbildung ist die heutige Ausführung von 2021, denn ein Bild der CK2913 haben wir noch nicht."
+   ],
+   "vh": [
+    [
+     "Nachfolger: Ref. 165.024",
+     "Die Seamaster 300 der späten 1960er-Jahre mit größerem Gehäuse; Ausführungen für das britische Verteidigungsministerium hatten feste Bandstege."
+    ],
+    [
+     "Neuauflage: Ref. 234.30.41.21",
+     "Die heutige Seamaster 300 im Stil der frühen Modelle, mit Master-Chronometer-Kaliber 8912."
+    ]
+   ],
+   "m": [
+    "Rund 39 mm, Edelstahl",
+    "Breite Pfeilzeiger (»Broad Arrow«)",
+    "Drehbare Lünette mit Minutenskala",
+    "Schwarzes Zifferblatt mit großen Leuchtindizes"
+   ],
+   "ev": [
+    [
+     "1957",
+     "Vorstellung als Teil der Profi-Trilogie mit Speedmaster und Railmaster"
+    ],
+    [
+     "1960er",
+     "Nachfolger wie die 165.024"
+    ],
+    [
+     "2014",
+     "Neuauflage im Stil der frühen Modelle"
+    ]
+   ],
+   "x": [
+    "Originale CK2913 sind selten und werden oft mit Teilen späterer Referenzen ergänzt; Zeiger, Lünette und Zifferblatt sollten zueinander passen.",
+    "Wer den Stil sucht, findet ihn in der heutigen Neuauflage."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1957–1960er"
+    ],
+    [
+     "Gehäuse",
+     "rund 39 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "501, später 552, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Nachfolger",
+     "165.024 u. a."
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "speedmaster",
+     "c": "Die Speedmaster kam im selben Jahr 1957 als Teil der Trilogie, für Rennfahrer statt für Taucher."
+    },
+    {
+     "m": "railmaster",
+     "c": "Die Railmaster war das dritte Mitglied der Trilogie, eine antimagnetische Uhr für Techniker."
+    },
+    {
+     "m": "submariner",
+     "c": "Die Rolex Submariner war die große Konkurrentin unter den Taucheruhren dieser Jahre."
+    }
+   ]
   }
  ]
 }
