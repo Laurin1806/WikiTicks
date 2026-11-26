@@ -40653,6 +40653,100 @@
      "c": "Omegas Aqua Terra ist eine andere elegante Alltagsuhr aus derselben Zeit."
     }
    ]
+  },
+  {
+   "id": "alpinist-spb121",
+   "model": "alpinist",
+   "ref": "SPB121",
+   "alias": [
+    "SPB121J1"
+   ],
+   "var": null,
+   "t": "Seiko Alpinist Ref. SPB121",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Grünes Zifferblatt, goldene Ziffern, Kompassring: Die SPB121 führt die Alpinist in die Prospex-Linie und bleibt dem berühmten Gesicht ihrer Vorgängerin treu.",
+   "bh": [
+    "Erbin der SARB017",
+    "Gehäuse und Werk",
+    "Der Kompass am Handgelenk"
+   ],
+   "b": [
+    "Die SARB017 von 2006 hatte die Alpinist mit grünem Zifferblatt und goldenen arabischen Ziffern zur Kultuhr gemacht. Nach ihrem Ende 2019 brachte Seiko 2020 die Nachfolgerin SPB121 in der Prospex-Linie heraus, optisch sehr nah am Vorbild.",
+    "Das Edelstahlgehäuse wuchs leicht auf 39,5 Millimeter und ist bis 200 Meter wasserdicht. Im Inneren arbeitet das Automatikkaliber 6R35 mit rund 70 Stunden Gangreserve, Handaufzug und Sekundenstopp – deutlich mehr Ausdauer als beim alten 6R15. Das grüne Zifferblatt mit Sonnenschliff, die kathedralenförmigen Zeiger und das Datum bei 3 Uhr blieben erhalten.",
+    "Typisch für die Alpinist ist der innenliegende Drehring mit Himmelsrichtungen, der über eine zweite Krone bei 4 Uhr verstellt wird. Richtet man den Stundenzeiger auf die Sonne aus, lässt sich damit grob die Nordrichtung bestimmen – eine Erinnerung an die Herkunft der Alpinist als Uhr für Bergsteiger."
+   ],
+   "vh": [
+    [
+     "Weitere Zifferblätter",
+     "Neben dem grünen Zifferblatt erschien die Prospex Alpinist mit gleichem Gehäuse und Werk auch in anderen Farben sowie mit Leder- oder Stahlband."
+    ]
+   ],
+   "m": [
+    "Grünes Zifferblatt mit Sonnenschliff und goldenen Ziffern",
+    "Innenliegender Kompassring",
+    "Zweite Krone bei 4 Uhr",
+    "Kathedralenzeiger",
+    "39,5 mm, Edelstahl"
+   ],
+   "ev": [
+    [
+     "1959",
+     "Laurel Alpinist als Ursprung"
+    ],
+    [
+     "2006",
+     "SARB017"
+    ],
+    [
+     "2020",
+     "Prospex Alpinist SPB121"
+    ]
+   ],
+   "x": [
+    "Die SPB121 hat mit rund 70 Stunden fast doppelt so viel Gangreserve wie die SARB017.",
+    "Wer die Optik der SARB017 liebt, findet hier fast dasselbe Gesicht mit modernerem Werk."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "39,5 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "6R35, Automatik, ≈ 70 h Gangreserve"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Kompassring"
+    ],
+    [
+     "Vorgänger",
+     "SARB017"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "khaki-field",
+     "c": "Die Hamilton Khaki Field Mechanical ist ebenfalls eine robuste Uhr für draußen zu einem ähnlich zugänglichen Preis."
+    },
+    {
+     "m": "ranger",
+     "c": "Die Tudor Ranger erschien kurz darauf als weitere Uhr mit Wurzeln in der Bergsteiger- und Expeditionswelt."
+    },
+    {
+     "m": "murph",
+     "c": "Die Hamilton Murph gehört zu den Feld- und Abenteueruhren derselben Jahre."
+    }
+   ]
   }
  ]
 }
