@@ -3261,8 +3261,8 @@
      "iref": "5513",
      "irefs": "hoch",
      "bd": [
-      "Die Abbildung zeigt eine Rolex Submariner Referenz 5513 aus Edelstahl, die Variante ohne Datum und ohne Chronometerzertifikat, die von 1962 bis 1989 gebaut wurde. Das schwarze Zifferblatt hat matte Oberfläche, die Leuchtmasse ist zu einem Cremeton gealtert.",
-      "Zu erkennen sind runde Leuchtindizes, Balken bei 3, 6 und 9 Uhr und das Dreieck bei 12 Uhr, dazu der Mercedes-Stundenzeiger und ein Sekundenzeiger mit Leuchtpunkt. Unter der Mitte stehen »SUBMARINER« und »660ft = 200m«; die schwarze Lünette trägt eine 60-Minuten-Skala mit Leuchtpunkt im Dreieck. Rechts sitzt die verschraubte Krone zwischen dem Kronenschutz, das Band ist ein Oyster-Band."
+      "Die Abbildung zeigt eine Rolex Submariner Referenz 5513 aus Edelstahl, die Variante ohne Datum und ohne Chronometerzertifikat, gebaut von 1962 bis 1989; nach Zifferblatt und Tiefenangabe »200m = 660ft« (»Meters First«) eine Ausführung der späten 1960er- oder frühen 1970er-Jahre. Gehäuse und Band zeigen Gebrauchsspuren.",
+      "Zu erkennen sind das matte schwarze Zifferblatt mit runden Leuchtpunkten, Balken bei 3, 6 und 9 Uhr, Dreieck bei 12 Uhr, der Mercedes-Stundenzeiger, der Sekundenzeiger mit Leuchtpunkt, »SWISS – T < 25« am unteren Rand und die zu Creme gealterte Tritium-Leuchtmasse; die Lünette trägt bei 12 Uhr einen Leuchtpunkt."
      ]
     },
     {
@@ -3305,6 +3305,20 @@
      "bd": [
       "Die Abbildung zeigt eine frühe Rolex Submariner ohne Kronenschutz mit großer Krone im Stil der Referenz 6538 »Big Crown«, deren ursprünglich schwarzes Zifferblatt durch Sonnenlicht braun geworden ist (»tropical«).",
       "Zu erkennen sind goldfarbene Aufschriften »200m = 660ft« und »SUBMARINER«, gealterte Leuchtpunkte und -balken, ein Mercedes-Stundenzeiger und eine Lünette mit rotem Dreieck bei 12 Uhr."
+     ]
+    },
+    {
+     "n": "Ref. 16800, COMEX",
+     "y": "1979–1988",
+     "v": {
+      "img": "assets/watches/rolex-submariner-16800.jpg"
+     },
+     "dial": "Schwarz, matt",
+     "iref": "16800",
+     "irefs": "mittel",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex Submariner Date Referenz 16800 aus Edelstahl mit mattem Zifferblatt, Oyster-Band und verblasster Lünette; auf dem Zifferblatt steht über der Tiefenangabe ein Firmenschriftzug in einem Feld, wie ihn Rolex für Firmenkunden wie die Taucherfirma COMEX aufbrachte.",
+      "Zu erkennen sind die Tiefenangabe »1000ft = 300m«, das Datum mit Zykloplupe, die runden Leuchtpunkte, Balken bei 6 und 9 Uhr, der Mercedes-Stundenzeiger und »SWISS – T < 25« am unteren Rand; die Tritium-Leuchtmasse ist cremefarben gealtert."
      ]
     }
    ],
@@ -31934,7 +31948,8 @@
   "rolex-gmt-master-2-16710-black.jpg": "v",
   "rolex-gmt-master-2-16710-pepsi.jpg": "g",
   "rolex-gmt-master-2-16710-coke.jpg": "v",
-  "rolex-gmt-master-6542.jpg": "v"
+  "rolex-gmt-master-6542.jpg": "v",
+  "rolex-submariner-16800.jpg": "v"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -32156,7 +32171,8 @@
   "rolex-submariner-126610ln.jpg": 1080,
   "rolex-submariner-16610.jpg": 768,
   "rolex-submariner-1680-red.jpg": 679,
-  "rolex-submariner-5513.jpg": 548,
+  "rolex-submariner-16800.jpg": 768,
+  "rolex-submariner-5513.jpg": 768,
   "rolex-submariner-6538-tropical.jpg": 768,
   "rolex-turn-o-graph-116264-black.jpg": 484,
   "rolex-yacht-master-126622-slate.jpg": 1057,
@@ -32240,8 +32256,8 @@
    0.0394
   ],
   "rolex-submariner-5513.jpg": [
-   0.851,
-   -0.0049
+   1.08,
+   0.0066
   ],
   "rolex-explorer-ii-16570-polar.jpg": [
    1.08,
@@ -33148,8 +33164,8 @@
    -0.0015
   ],
   "rolex-submariner-16610.jpg": [
-   1.037,
-   0.0148
+   1.044,
+   0.015
   ],
   "rolex-submariner-126610ln-2.jpg": [
    1.012,
@@ -33174,6 +33190,10 @@
   "rolex-gmt-master-6542.jpg": [
    1.033,
    0.0143
+  ],
+  "rolex-submariner-16800.jpg": [
+   1.066,
+   0.0014
   ]
  },
  "referenzen": [

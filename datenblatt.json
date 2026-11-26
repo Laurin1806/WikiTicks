@@ -6253,6 +6253,21 @@
    "luenette": "drehbar, 24 Stunden",
    "band": "Oyster-Band",
    "zifferblatt_optionen": "Schwarz, Gilt"
+  },
+  "submariner|7": {
+   "ref": "16800",
+   "produktion": "1979–1988",
+   "durchmesser": "40 mm",
+   "gehaeuse": "Edelstahl",
+   "glas": "Saphir mit Zykloplupe",
+   "werk": "Kaliber 3035",
+   "werktyp": "Automatik",
+   "manufaktur": "Manufakturwerk",
+   "funktionen": "Stunden, Minuten, Sekunden, Datum",
+   "luenette": "drehbar, Aluminiumeinlage, 60 Minuten",
+   "wasserdicht": "300 m",
+   "band": "Oyster-Band",
+   "zifferblatt_optionen": "Schwarz, matt, Tritium"
   }
  },
  "_refs": {
