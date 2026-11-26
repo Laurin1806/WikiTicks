@@ -41887,6 +41887,98 @@
      "c": "Die Longines HydroConquest wurde für viele der nächste Schritt nach einer günstigen Seiko-Taucheruhr."
     }
    ]
+  },
+  {
+   "id": "snowflake-sbga211",
+   "model": "snowflake",
+   "ref": "SBGA211",
+   "alias": [
+    "SBGA211",
+    "SBGA011"
+   ],
+   "var": null,
+   "t": "Grand Seiko Snowflake Ref. SBGA211",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Ein Zifferblatt wie frisch gefallener Schnee, ein gleitender blauer Sekundenzeiger und ein Gehäuse aus Titan: Die SBGA211 ist das bekannteste Gesicht von Grand Seiko.",
+   "bh": [
+    "Die Snowflake mit neuem Namen",
+    "Gehäuse aus Titan",
+    "Spring Drive",
+    "Das Gesicht der Marke"
+   ],
+   "b": [
+    "Die erste Snowflake, die SBGA011, erschien 2010. Als Grand Seiko 2017 zur eigenständigen Marke wurde, lief die Uhr als SBGA211 weiter. Sie trägt nur noch den Grand-Seiko-Schriftzug, ist aber in Gehäuse und Werk ihrer Vorgängerin gleich. Das weiße Zifferblatt hat eine feine, unregelmäßige Struktur, die an die verschneite Landschaft rund um das Studio Shinshu in den japanischen Alpen erinnern soll.",
+    "Das 41-Millimeter-Gehäuse besteht aus einer hellen Titanlegierung, die Grand Seiko »High-Intensity Titanium« nennt und die härter als Edelstahl ist. Dadurch ist die Uhr deutlich leichter als ein vergleichbares Stahlmodell. Die Flächen sind mit der Zaratsu-Technik spiegelnd poliert, die Uhr ist bis 100 Meter wasserdicht.",
+    "Im Inneren arbeitet das Kaliber 9R65 mit Spring Drive: Eine Zugfeder treibt das Werk an, eine Quarzsteuerung regelt den Gang. Das Ergebnis ist eine Genauigkeit von etwa einer Sekunde pro Tag und ein gebläuter Sekundenzeiger, der völlig gleichmäßig über das Zifferblatt gleitet. Die Gangreserve von rund 72 Stunden zeigt eine eigene Anzeige auf dem Zifferblatt.",
+    "Die Snowflake wurde zum Aushängeschild von Grand Seiko außerhalb Japans. Für viele ist sie die Uhr, mit der sie die Marke kennengelernt haben."
+   ],
+   "vh": [
+    [
+     "Erste Ausführung: Ref. SBGA011",
+     "Die Snowflake von 2010 trug zusätzlich den Seiko-Schriftzug auf dem Zifferblatt; Gehäuse und Werk entsprechen der SBGA211."
+    ]
+   ],
+   "m": [
+    "Weißes, schneeartig strukturiertes Zifferblatt",
+    "Gleitender, gebläuter Sekundenzeiger",
+    "41 mm, Titan",
+    "Gangreserveanzeige und Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2010",
+     "Erste Snowflake SBGA011"
+    ],
+    [
+     "2017",
+     "Grand Seiko wird eigenständig; die Uhr heißt nun SBGA211"
+    ]
+   ],
+   "x": [
+    "Das Titangehäuse ist leicht, zeigt aber feine Kratzer schneller als man denkt – die Zaratsu-Flächen lassen sich nur von Fachleuten wieder aufarbeiten.",
+    "Wer den Seiko-Schriftzug auf dem Zifferblatt mag, sucht gezielt nach der älteren SBGA011."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Titan"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "9R65 Spring Drive, ≈ 72 h Gangreserve"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Gangreserveanzeige"
+    ],
+    [
+     "Vorgänger",
+     "SBGA011"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "aqua-terra",
+     "c": "Die Omega Aqua Terra ist eine ähnlich vielseitige Luxusuhr für jeden Tag aus denselben Jahren."
+    },
+    {
+     "m": "pelagos",
+     "c": "Die Tudor Pelagos setzt wie die Snowflake auf ein leichtes Titangehäuse."
+    },
+    {
+     "m": "overseas",
+     "c": "Die Vacheron Constantin Overseas erschien 2016 in neuer Generation und gehört zu den edlen Alltagsuhren dieser Zeit."
+    }
+   ]
   }
  ]
 }
