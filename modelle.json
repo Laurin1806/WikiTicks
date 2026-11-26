@@ -4119,6 +4119,25 @@
      "dial": "Schwarz",
      "iref": "16700",
      "irefs": "hoch"
+    },
+    {
+     "n": "Ref. 116710LN",
+     "y": "2007–2019",
+     "v": {
+      "bezelColors": [
+       "#151515",
+       "#151515"
+      ],
+      "gmt": "#1f9a4a",
+      "img": "assets/watches/rolex-gmt-master-2-116710ln.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt die Rolex GMT-Master II Referenz 116710LN aus Edelstahl am Oyster-Band, mit schwarzer Cerachrom-Lünette und 24-Stunden-Skala.",
+      "Zu erkennen sind der grüne 24-Stunden-Zeiger mit Dreieckspitze und der grüne Schriftzug »GMT-Master II«, die großen runden Leuchtindizes mit Balken bei 6 und 9 Uhr und einem Dreieck bei 12 Uhr sowie das Datum mit Zykloplupe."
+     ],
+     "dial": "Schwarz",
+     "iref": "116710LN",
+     "irefs": "hoch"
     }
    ],
    "m": [
@@ -32002,7 +32021,8 @@
   "rolex-gmt-master-6542.jpg": "v",
   "rolex-submariner-16800.jpg": "v",
   "rolex-gmt-master-2-116710-batman.jpg": "b",
-  "rolex-gmt-master-16700.jpg": "v"
+  "rolex-gmt-master-16700.jpg": "v",
+  "rolex-gmt-master-2-116710ln.jpg": "b"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -32195,7 +32215,10 @@
   "rolex-explorer-2-1655-freccione.jpg": 1020,
   "rolex-explorer-ii-16570-polar.jpg": 897,
   "rolex-explorer-ii-226570-polar.jpg": 911,
+  "rolex-gmt-master-16700.jpg": 768,
   "rolex-gmt-master-1675-pepsi.jpg": 543,
+  "rolex-gmt-master-2-116710-batman.jpg": 768,
+  "rolex-gmt-master-2-116710ln.jpg": 768,
   "rolex-gmt-master-2-126710-batman.jpg": 970,
   "rolex-gmt-master-2-126710-pepsi.jpg": 960,
   "rolex-gmt-master-2-16710-black.jpg": 768,
@@ -32289,9 +32312,7 @@
   "zenith-defy.jpg": 341,
   "zenith-elite.jpg": 374,
   "zenith-pilot-type-20.jpg": 756,
-  "zodiac-sea-wolf.jpg": 502,
-  "rolex-gmt-master-2-116710-batman.jpg": 768,
-  "rolex-gmt-master-16700.jpg": 768
+  "zodiac-sea-wolf.jpg": 502
  },
  "imgFit": {
   "rolex-submariner-126610ln.jpg": [
@@ -33257,6 +33278,10 @@
   "rolex-gmt-master-16700.jpg": [
    1.08,
    0.0031
+  ],
+  "rolex-gmt-master-2-116710ln.jpg": [
+   0.973,
+   0.002
   ]
  },
  "referenzen": [
@@ -53103,7 +53128,7 @@
     "116718LN",
     "116719BLRO"
    ],
-   "var": 6,
+   "var": 8,
    "t": "Rolex GMT-Master II Ref. 116710LN",
    "bau": "2007–2019",
    "cap": "",
