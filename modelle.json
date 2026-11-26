@@ -49949,6 +49949,87 @@
      "c": "Die Laco Flieger Aachen ist eine klassische Fliegeruhr mit ähnlich klarem Zifferblatt."
     }
    ]
+  },
+  {
+   "id": "mark-xx-iw3777",
+   "model": "mark-xx",
+   "ref": "IW3777",
+   "alias": [
+    "IW377709"
+   ],
+   "var": 0,
+   "t": "IWC Pilot’s Watch Chronograph Ref. IW3777",
+   "bau": "2010er-Jahre",
+   "cap": "",
+   "s": "Der Fliegerchronograph von IWC in seiner großen Ausführung der 2010er-Jahre: schwarzes Zifferblatt, Dreieck bei 12 Uhr, Wochentag und Datum – und ein bewährtes Werk aus der Valjoux-Familie.",
+   "bh": [
+    "Der Chronograph der Fliegerlinie",
+    "Gehäuse und Zifferblatt",
+    "Das Werk",
+    "Ablösung"
+   ],
+   "b": [
+    "Seit 1994 ergänzt IWC seine Fliegeruhren um den Pilot’s Watch Chronograph, der das Zifferblatt der Mark-Reihe mit einem Chronographenwerk verbindet. Die Referenz IW3777 ist die Ausführung der 2010er-Jahre mit 43 Millimetern. Die Referenz IW377709 hat ein Edelstahlgehäuse, ein schwarzes Zifferblatt und ein schwarzes Lederband.",
+    "Das Zifferblatt zeigt große weiße arabische Ziffern, das Dreieck bei 12 Uhr und breite Schwertzeiger mit Leuchtfüllung. Die drei Hilfszifferblätter sind klassisch angeordnet: oben der Minutenzähler, links die kleine Sekunde, unten der Stundenzähler. Bei 3 Uhr liegt ein Fenster für Wochentag und Datum. Ein Weicheisen-Innengehäuse schützt das Werk vor Magnetfeldern.",
+    "Im Inneren arbeitet das IWC-Kaliber 79320, ein Automatik-Chronographenwerk auf Basis des Valjoux 7750.",
+    "Ende der 2010er-Jahre ersetzte IWC die 43-Millimeter-Ausführung durch einen kompakteren Pilot’s Watch Chronograph mit 41 Millimetern und einem Werk aus der IWC-eigenen Familie 69000. Aus dem Fliegerchronographen gingen auch die Spitfire- und Top-Gun-Modelle hervor."
+   ],
+   "m": [
+    "43-mm-Stahlgehäuse",
+    "Schwarzes Fliegerzifferblatt mit Dreieck bei 12 Uhr",
+    "Drei Hilfszifferblätter",
+    "Wochentag und Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1994",
+     "Erster Pilot’s Watch Chronograph"
+    ],
+    [
+     "2010er-Jahre",
+     "Ausführung IW3777 mit 43 mm"
+    ]
+   ],
+   "x": [
+    "Das Werk auf Basis des Valjoux 7750 ist weit verbreitet und kann von vielen Uhrmachern gewartet werden.",
+    "Mit 43 Millimetern trägt die Uhr groß; wer es kompakter mag, sucht die spätere 41-Millimeter-Version."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2010er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "43 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "79320, Automatik (Basis Valjoux 7750)"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Wochentag, Datum"
+    ],
+    [
+     "Magnetfeldschutz",
+     "Weicheisen-Innengehäuse"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "navitimer",
+     "c": "Die Breitling Navitimer ist der andere große Fliegerchronograph mit langer Geschichte."
+    },
+    {
+     "m": "heritage-chrono",
+     "c": "Tudors Heritage Chrono von 2010 ist ein weiterer Automatikchronograph mit Werk auf bewährter Basis."
+    },
+    {
+     "m": "carrera",
+     "c": "Der TAG Heuer Carrera war in diesen Jahren einer der meistgekauften Chronographen seiner Klasse."
+    }
+   ]
   }
  ]
 }
