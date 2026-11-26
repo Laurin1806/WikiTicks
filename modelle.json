@@ -39078,6 +39078,109 @@
      "c": "Tudors Pelagos ist eine moderne Profi-Taucheruhr mit Heliumventil aus denselben Jahren."
     }
    ]
+  },
+  {
+   "id": "ploprof-224",
+   "model": "ploprof",
+   "ref": "224.30.55.21.01.001",
+   "alias": [
+    "224.30.55.21",
+    "224.30.55.21.01.001",
+    "Ploprof 1200 M"
+   ],
+   "var": null,
+   "t": "Omega Seamaster Ploprof Ref. 224.30.55.21.01.001",
+   "bau": "ab 2009",
+   "cap": "",
+   "s": "Die Rückkehr der eigenwilligsten Omega: 2009 legte die Marke die Ploprof von 1970 neu auf – mit monolithischem Gehäuse, Krone links, orangefarbenem Lünettenknopf und doppelter Tiefe.",
+   "bh": [
+    "Neuauflage nach fast 40 Jahren",
+    "Das Gehäuse",
+    "Werk und Ausstattung",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "2009 brachte Omega die Ploprof zurück, fast vier Jahrzehnte nach der Seamaster 600 von 1970, die mit dem Tauchunternehmen COMEX für Berufstaucher entwickelt worden war. Die Neuauflage trägt den Zusatz »1200 M«: Sie ist doppelt so tief wasserdicht wie das Original und übernimmt dessen unverwechselbare Form.",
+    "Das Stahlgehäuse misst rund 55 Millimeter und ist monolithisch gebaut, also aus einem Block statt aus mehreren verschraubten Teilen. Die Krone sitzt bei 9 Uhr unter einem Schutz, damit sie nicht am Handgelenk drückt und gegen Stöße gesichert ist. Die Lünette lässt sich nur drehen, wenn man den orangefarbenen Knopf oben rechts drückt – eine Sicherung gegen versehentliches Verstellen unter Wasser.",
+    "Im Inneren arbeitete bei dieser Neuauflage das Automatikkaliber 8500 mit Co-Axial-Hemmung und zwei Federhäusern. Breite Leuchtindizes, ein weißer Stundenzeiger und ein orangefarbener Minutenzeiger sorgen für gute Ablesbarkeit in der Tiefe. Getragen wird die Uhr typischerweise an einem Band aus vielen ineinandergreifenden Stahlgliedern, das an ein Kettenhemd erinnert.",
+    "Mit der Ploprof 1200 M kehrte eine der markantesten Taucheruhren überhaupt zurück. 2016 folgte eine Fassung mit dem Master-Chronometer-Kaliber 8912; später kamen Ausführungen in Titan und mit farbigen Lünetten hinzu."
+   ],
+   "vh": [
+    [
+     "Master Chronometer (ab 2016)",
+     "Die überarbeitete Ploprof 1200 M mit dem Master-Chronometer-Kaliber 8912 widersteht Magnetfeldern bis 15.000 Gauß; sie trägt eine eigene Referenz."
+    ],
+    [
+     "Original: Ref. 166.077",
+     "Die Seamaster 600 »Ploprof« der 1970er-Jahre mit Kaliber 1002 ist das Vorbild der Neuauflage und heute eine gesuchte Sammleruhr."
+    ]
+   ],
+   "m": [
+    "Rund 55 mm, monolithisches Stahlgehäuse",
+    "Krone bei 9 Uhr unter einem Schutz",
+    "Orangefarbener Entriegelungsknopf für die Lünette",
+    "Orangefarbener Minutenzeiger",
+    "Kettenhemdartiges Stahlband"
+   ],
+   "ev": [
+    [
+     "1970",
+     "Vorbild: Seamaster 600 »Ploprof« mit COMEX"
+    ],
+    [
+     "2009",
+     "Neuauflage Ploprof 1200 M mit Kaliber 8500"
+    ],
+    [
+     "2016",
+     "Master-Chronometer-Version mit Kaliber 8912"
+    ]
+   ],
+   "x": [
+    "Die Ploprof trägt sehr groß und schwer; unbedingt vorher anprobieren.",
+    "Das Gliederband ist typisch für die Uhr – beim Gebrauchtkauf auf Vollständigkeit der Glieder achten.",
+    "Bei der Neuauflage ab 2009 und der Master-Chronometer-Version unterscheiden sich Werk und Referenz; die Papiere geben Auskunft."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "ab 2009"
+    ],
+    [
+     "Gehäuse",
+     "rund 55 mm, Edelstahl, monolithisch"
+    ],
+    [
+     "Wasserdicht",
+     "1.200 m"
+    ],
+    [
+     "Kaliber",
+     "8500, Automatik, Co-Axial"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Drehlünette mit Sicherung"
+    ],
+    [
+     "Vorbild / Nachfolger",
+     "166.077 / Master-Chronometer-Version mit Kaliber 8912"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "deepsea",
+     "c": "Die Rolex Deepsea von 2008 ist wie die Ploprof 1200 M eine extreme Taucheruhr dieser Jahre."
+    },
+    {
+     "m": "sinn-u1",
+     "c": "Die Sinn U1 ist eine kompromisslose Profi-Taucheruhr aus derselben Zeit."
+    },
+    {
+     "m": "sub-300",
+     "c": "Die Doxa SUB 300 stammt wie die Ploprof aus der großen Zeit der Berufstaucheruhren um 1970 und wurde ebenfalls neu aufgelegt."
+    }
+   ]
   }
  ]
 }
