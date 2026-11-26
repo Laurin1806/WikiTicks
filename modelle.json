@@ -38881,6 +38881,105 @@
      "c": "Der Breitling Navitimer war der bekannteste Pilotenchronograph, als die Flightmaster erschien."
     }
    ]
+  },
+  {
+   "id": "globemaster-130",
+   "model": "globemaster",
+   "ref": "130.30.39.21.02.001",
+   "alias": [
+    "130.30.39.21",
+    "130.30.39.21.02.001",
+    "Globemaster 39"
+   ],
+   "var": null,
+   "t": "Omega Constellation Globemaster Ref. 130.30.39.21.02.001",
+   "bau": "seit 2015",
+   "cap": "",
+   "s": "Die erste Uhr mit Master-Chronometer-Zertifikat – verpackt in eine Gestaltung, die direkt aus den Constellation-Jahren der 1950er stammt.",
+   "bh": [
+    "Premiere eines neuen Standards",
+    "Pie-Pan und Riffellünette",
+    "Werk und Prüfung",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "2015 stellte Omega die Globemaster vor. Sie war die erste Uhr, die nach dem neuen Standard »Master Chronometer« geprüft wurde, den Omega gemeinsam mit dem Eidgenössischen Institut für Metrologie METAS entwickelt hatte. Den Namen trug bereits ein Omega-Modell der 1950er-Jahre.",
+    "Gestalterisch greift die Globemaster auf die Constellation der 1950er- und 1960er-Jahre zurück. Das Zifferblatt im »Pie-Pan«-Stil hat einen facettierten Rand wie eine umgedrehte Kuchenform, darauf sitzen aufgesetzte, facettierte Stabindizes. Die geriffelte Lünette und der Stern der Constellation über dem Datumsfenster bei 6 Uhr vervollständigen das Bild.",
+    "Im Stahlgehäuse mit 39 Millimetern arbeitet das Automatikkaliber 8900 mit Co-Axial-Hemmung und rund 60 Stunden Gangreserve, sichtbar durch den Glasboden. Für die Master-Chronometer-Prüfung testet METAS die fertige Uhr in mehreren Lagen und Temperaturen auf Ganggenauigkeit und setzt sie Magnetfeldern von 15.000 Gauß aus.",
+    "Die Globemaster ist das Bindeglied zwischen der Constellation-Tradition und der modernen Technik der Marke. Sie bleibt eine der schlichtesten Master-Chronometer-Uhren von Omega und richtet sich an Träger, die eine klassische Uhr mit zeitgemäßem Werk suchen."
+   ],
+   "vh": [
+    [
+     "Globemaster 41",
+     "Seit 2016 gibt es die Globemaster auch mit 41 Millimetern; sie trägt eine eigene Referenz."
+    ],
+    [
+     "Jahreskalender",
+     "Die Globemaster Annual Calendar mit dem Kaliber 8922 zeigt Monat und Datum und muss nur einmal im Jahr korrigiert werden."
+    ],
+    [
+     "Gold und Bicolor",
+     "Neben Edelstahl gibt es die Globemaster in Gold und in Bicolor-Ausführungen, mit verschiedenen Zifferblattfarben."
+    ]
+   ],
+   "m": [
+    "39 mm, Edelstahl",
+    "»Pie-Pan«-Zifferblatt mit facettiertem Rand",
+    "Geriffelte Lünette",
+    "Stern der Constellation über dem Datum bei 6 Uhr",
+    "Glasboden"
+   ],
+   "ev": [
+    [
+     "2015",
+     "Vorstellung als erste Uhr mit Master-Chronometer-Zertifikat"
+    ],
+    [
+     "2016",
+     "Versionen mit 41 Millimetern und Jahreskalender"
+    ]
+   ],
+   "x": [
+    "Wer die Constellation der 1950er-Jahre mag, aber ein modernes Werk wünscht, findet in der Globemaster die naheliegende Wahl.",
+    "Mit 39 Millimetern ist sie auch für schmalere Handgelenke gut geeignet.",
+    "Die geriffelte Lünette fängt Licht, kann aber Gebrauchsspuren zeigen; beim Gebrauchtkauf genau ansehen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2015"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl, Glasboden"
+    ],
+    [
+     "Kaliber",
+     "8900, Automatik, Co-Axial, Master Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorbild",
+     "Constellation mit »Pie-Pan«-Zifferblatt (1950er-Jahre)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "datejust",
+     "c": "Die Rolex Datejust mit geriffelter Lünette ist die bekannteste klassische Uhr dieser Art."
+    },
+    {
+     "m": "snowflake",
+     "c": "Die Grand Seiko Snowflake steht wie die Globemaster für eine schlichte Uhr mit besonders genauem Werk."
+    },
+    {
+     "m": "master-control",
+     "c": "Jaeger-LeCoultres Master Control ist eine klassische Dreizeigeruhr für denselben Käuferkreis."
+    }
+   ]
   }
  ]
 }
