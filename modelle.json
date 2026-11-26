@@ -41169,6 +41169,95 @@
      "c": "Die A. Lange & Söhne Saxonia gehört zu den reduzierten Kleiduhren, mit denen die SBGW231 oft verglichen wird."
     }
    ]
+  },
+  {
+   "id": "king-seiko-sje083",
+   "model": "king-seiko",
+   "ref": "SJE083",
+   "alias": [
+    "King Seiko (Neuauflage)"
+   ],
+   "var": null,
+   "t": "King Seiko Ref. SJE083",
+   "bau": "seit Anfang der 2020er-Jahre",
+   "cap": "",
+   "s": "Scharfe Kanten, flache Facetten, ein Name mit Geschichte: Mit der SJE083 kehrte King Seiko nach Jahrzehnten der Stille zurück.",
+   "bh": [
+    "Eine Marke kehrt zurück",
+    "Gehäuse im Stil der 1960er",
+    "Zwischen Seiko und Grand Seiko"
+   ],
+   "b": [
+    "King Seiko entstand 1961 bei Daini Seikosha in Tokio und lieferte sich in den 1960er-Jahren einen Wettstreit mit Grand Seiko aus Suwa. Nach dem Ende der Linie in den 1970er-Jahren gab es lange keine neuen Modelle. Zu Beginn der 2020er-Jahre belebte Seiko den Namen wieder; die SJE083 gehört zu den Uhren dieses Neubeginns.",
+    "Die SJE083 greift die King Seiko der 1960er-Jahre auf: ein Edelstahlgehäuse von rund 38 Millimetern mit flachen, polierten Flächen und scharfen Kanten, breite facettierte Indizes und Dauphine-Zeiger. Der »KS«-Schriftzug mit Wappen sitzt wie beim Original auf dem Zifferblatt. Angetrieben wird sie von einem Automatikwerk aus Seikos eigener Fertigung.",
+    "Preislich und in der Verarbeitung liegt die neue King Seiko zwischen den gewöhnlichen Seiko-Modellen und der Grand-Seiko-Heritage-Linie. Für viele Sammler ist sie ein Weg, den klassischen japanischen Gehäusestil der 1960er-Jahre zu tragen."
+   ],
+   "vh": [
+    [
+     "Die neue Kollektion",
+     "Auf die Wiederbelebung folgte 2022 eine reguläre King-Seiko-Kollektion mit dem Automatikwerk 6R31, Gehäusen von 37 bis 38 Millimetern und Zifferblättern in Schwarz, Weiß und Blau."
+    ]
+   ],
+   "m": [
+    "Rund 38 mm, Edelstahl, scharfkantige Facetten",
+    "Breite, facettierte Indizes",
+    "Dauphine-Zeiger",
+    "»KS«-Wappen auf dem Zifferblatt"
+   ],
+   "ev": [
+    [
+     "1961",
+     "Erste King Seiko"
+    ],
+    [
+     "1970er",
+     "Ende der ursprünglichen Linie"
+    ],
+    [
+     "2020er",
+     "Rückkehr mit der SJE083"
+    ]
+   ],
+   "x": [
+    "Die Gehäusepolitur ist ein wichtiges Merkmal – Kratzer auf den Spiegelflächen fallen stark auf.",
+    "Wer den Stil der 1960er-Jahre mag, aber kein Vintage-Risiko eingehen möchte, findet hier eine gute Alternative zur alten King Seiko."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit Anfang der 2020er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "≈ 38 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorbild",
+     "King Seiko der 1960er-Jahre"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "gs-sbgw231",
+     "c": "Die Grand Seiko SBGW231 greift ebenfalls ein Modell der 1960er-Jahre auf – passend zur alten Rivalität beider Linien."
+    },
+    {
+     "m": "ranger",
+     "c": "Die Tudor Ranger erschien 2022 als weitere Neuauflage eines klassischen Modells aus der Mitte des 20. Jahrhunderts."
+    },
+    {
+     "m": "gentleman",
+     "c": "Die Tissot Gentleman ist eine ähnlich zugängliche klassische Automatikuhr aus denselben Jahren."
+    }
+   ]
   }
  ]
 }
