@@ -36309,6 +36309,115 @@
      "c": "Vacheron Constantins Overseas von 1996 war die nächste Luxus-Sportuhr mit integriertem Band."
     }
    ]
+  },
+  {
+   "id": "nautilus-5711",
+   "model": "nautilus",
+   "ref": "5711",
+   "alias": [
+    "5711/1A",
+    "5711/1A-010",
+    "5711/1A-011",
+    "5711/1A-014",
+    "5711/1A-018",
+    "5711/1R",
+    "5711/1P"
+   ],
+   "var": 1,
+   "t": "Patek Philippe Nautilus Ref. 5711",
+   "bau": "2006–2021",
+   "cap": "",
+   "s": "Die Nautilus der Wartelisten: 40 Millimeter, Glasboden, ein Zifferblatt von Blau bis Schwarz – und am Ende die begehrteste Stahluhr ihrer Zeit, die Patek Philippe auf dem Höhepunkt einstellte.",
+   "bh": [
+    "Zum 30. Geburtstag erneuert",
+    "Gehäuse und Werk",
+    "Die Uhr, die niemand bekam",
+    "Abschied in Grün und Tiffany-Blau"
+   ],
+   "b": [
+    "2006, dreißig Jahre nach der ersten Nautilus, ersetzte Patek Philippe die 3800 durch die Referenz 5711/1A. Mit 40 Millimetern lag sie zwischen der zierlichen 3800 und der »Jumbo«, und Patek überarbeitete viele Details: Die seitlichen Ohren wurden flacher gezeichnet, das Band feiner, die Schließe neu konstruiert. Das Zifferblatt mit den waagerechten Rillen verläuft von Blau in der Mitte zu fast Schwarz am Rand.",
+    "Ein wichtiger Unterschied zu den Vorgängerinnen ist das Gehäuse: Es ist dreiteilig und hat einen Saphirglasboden, durch den das Werk zu sehen ist. Im Inneren arbeitet das Automatikkaliber 324 S C mit Zentralsekunde und Datum, ab 2019 das neu konstruierte 26-330 S C. Die Uhr ist bis 120 Meter wasserdicht.",
+    "In den 2010er-Jahren wurde die 5711 zum Symbol eines Uhrenmarkts im Ausnahmezustand. Die Wartelisten bei den Konzessionären waren jahrelang, oft nur für ausgewählte Kunden zugänglich, und auf dem Zweitmarkt kostete die Stahluhr ein Mehrfaches ihres Listenpreises. Gerade auf dem Höhepunkt kündigte Patek Philippe Anfang 2021 an, die Produktion einzustellen, damit die Nautilus nicht die ganze Marke überstrahlt.",
+    "Zum Abschied erschien 2021 eine Ausführung mit olivgrünem Zifferblatt, die nur kurz gebaut wurde, und eine auf 170 Stück limitierte Edition mit Tiffany-blauem Zifferblatt zum 170-jährigen Bestehen der Partnerschaft mit dem New Yorker Juwelier Tiffany & Co. Ein Exemplar davon wurde bei einer Wohltätigkeitsauktion für umgerechnet rund 5,8 Millionen Euro verkauft."
+   ],
+   "vh": [
+    [
+     "Weißes und grünes Zifferblatt",
+     "Neben dem klassischen Blau gab es die 5711/1A mit weißem Zifferblatt (5711/1A-011) und 2021 mit olivgrünem Zifferblatt (5711/1A-014)."
+    ],
+    [
+     "Tiffany-Blau: Ref. 5711/1A-018",
+     "Die Abschiedsedition mit Tiffany-blauem Zifferblatt und dem Schriftzug »Tiffany & Co.« war auf 170 Stück limitiert und gehört heute zu den teuersten modernen Stahluhren."
+    ],
+    [
+     "Rotgold und Platin",
+     "Die 5711 gab es auch in Roségold (5711/1R) und zum 40. Geburtstag der Nautilus 2016 als limitierte Platinausführung mit Diamant-Indizes (5711/1P)."
+    ]
+   ],
+   "m": [
+    "40 mm, Edelstahl, Bullaugen-Ohren",
+    "Zifferblatt mit waagerechten Rillen, Verlauf von Blau zu Schwarz",
+    "Saphirglasboden",
+    "Zentralsekunde und Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2006",
+     "Vorstellung der Ref. 5711/1A"
+    ],
+    [
+     "2019",
+     "Neues Kaliber 26-330 S C"
+    ],
+    [
+     "2021",
+     "Einstellung; Abschied mit grünem und Tiffany-blauem Zifferblatt"
+    ]
+   ],
+   "x": [
+    "Seit der Einstellung ist die 5711 nur noch gebraucht erhältlich; die Preise schwanken stark mit dem Gesamtmarkt.",
+    "Uhren mit dem Kaliber 26-330 S C (ab 2019) haben eine Sekundenstopp-Funktion, die dem 324 S C fehlte."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2006–2021"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "120 m"
+    ],
+    [
+     "Kaliber",
+     "324 S C, ab 2019 26-330 S C, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "3800 / 5811"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak 15400 und 15500 waren in diesen Jahren die direkten Konkurrentinnen mit ähnlich langen Wartelisten."
+    },
+    {
+     "m": "daytona",
+     "c": "Die Rolex Daytona aus Stahl war die andere Uhr, auf die man in den 2010er-Jahren jahrelang wartete."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas wurde für viele zur Alternative, als die Nautilus kaum zu bekommen war."
+    }
+   ]
   }
  ]
 }
