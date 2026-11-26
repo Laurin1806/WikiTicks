@@ -44857,6 +44857,99 @@
      "c": "Die Overseas ist die Genfer Referenz in dieser Klasse."
     }
    ]
+  },
+  {
+   "id": "breguet-marine-5517",
+   "model": "breguet-marine",
+   "ref": "5517",
+   "alias": [
+    "5517BB/Y2/BZ0"
+   ],
+   "var": null,
+   "t": "Breguet Marine Ref. 5517",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Mit der Marine 5517 erneuerte Breguet 2017 seine sportliche Linie: ein Zifferblatt mit Wellenguilloché, Kronenschutz am Gehäuse und ein Werk mit Bauteilen aus Silizium.",
+   "bh": [
+    "Die Erneuerung der Marine",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber 777A"
+   ],
+   "b": [
+    "Die Marine trägt den Namen der Marinechronometer, die Abraham-Louis Breguet baute; 1815 wurde er Chronometermacher der französischen Marine. 2017 stellte Breguet die Linie neu auf, und die Referenz 5517 wurde zum Dreizeiger der neuen Generation. Sie löste die Marine 5817 ab.",
+    "Das Gehäuse misst 40 Millimeter und hat die für Breguet typische geriffelte Flanke. Die Krone wird von seitlichen Schützern eingefasst. Das Zifferblatt ist guillochiert und zeigt ein Wellenmuster, das an das Meer erinnert. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Im Inneren arbeitet das Automatikkaliber 777A mit Bauteilen aus Silizium. Es bietet rund 55 Stunden Gangreserve und ist durch einen Saphirglasboden zu sehen."
+   ],
+   "vh": [
+    [
+     "Weißgold mit Gliederband: Ref. 5517BB/Y2/BZ0",
+     "Gehäuse und Band aus Weißgold, dazu ein blaues Zifferblatt mit Wellenguilloché."
+    ],
+    [
+     "Roségold und Titan",
+     "Die 5517 gibt es auch in Roségold und in Titan, an Kautschuk-, Leder- oder Metallband."
+    ]
+   ],
+   "m": [
+    "40 mm, geriffelte Gehäuseflanke",
+    "Kronenschutz an der rechten Seite",
+    "Guillochiertes Zifferblatt mit Wellenmuster",
+    "Breguet-typische Zeiger"
+   ],
+   "ev": [
+    [
+     "2017",
+     "Neue Marine-Generation mit Ref. 5517"
+    ]
+   ],
+   "x": [
+    "Die Marine gilt als elegante Sportuhr und ist auf dem Zweitmarkt vergleichsweise günstig.",
+    "Bei Goldausführungen mit Gliederband auf Abnutzung der Bandglieder und eine vollständige Gliederzahl achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Gold oder Titan, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "777A, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 55 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "5817"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "overseas",
+     "c": "Die Overseas der dritten Generation erschien kurz zuvor als Genfer Luxus-Sportuhr."
+    },
+    {
+     "m": "laureato",
+     "c": "Die Laureato kehrte im selben Jahr als eigene Kollektion zurück."
+    },
+    {
+     "m": "un-marine-chronometer",
+     "c": "Ulysse Nardins Marine Chronometer beruft sich auf dasselbe Erbe der Marinechronometer."
+    }
+   ]
   }
  ]
 }
