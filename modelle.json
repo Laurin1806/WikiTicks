@@ -41521,6 +41521,94 @@
      "c": "Die Hamilton Khaki Field Mechanical ist eine ähnlich ehrliche, robuste Einstiegsuhr aus denselben Jahren."
     }
    ]
+  },
+  {
+   "id": "seiko-6139-6002",
+   "model": "seiko-6139",
+   "ref": "6139-6002",
+   "alias": [
+    "6139-6002 »Pogue«"
+   ],
+   "var": null,
+   "t": "Seiko 6139 Ref. 6139-6002",
+   "bau": "1970er-Jahre",
+   "cap": "»Pogue«",
+   "s": "Gelbes Zifferblatt, blau-rote Lünette und ein Flug ins All: Die 6139-6002 ist die berühmteste Ausführung eines der ersten Automatik-Chronographen der Welt.",
+   "bh": [
+    "Ein Pionier von 1969",
+    "Gehäuse und Werk",
+    "Mit William Pogue im All",
+    "Sammlerstück mit kleinem Budget"
+   ],
+   "b": [
+    "1969 stellte Seiko das Kaliber 6139 vor – im selben Jahr, in dem Zenith den El Primero und Heuer die Chrono-Matic präsentierten. Damit gehört Seiko zu den Pionieren des Automatik-Chronographen. Die 6139 wurde in vielen Gehäuse- und Zifferblattausführungen gebaut; die 6139-6002 mit gelbem Zifferblatt ist die bekannteste.",
+    "Das Edelstahlgehäuse misst rund 41 Millimeter. Das Werk arbeitet mit einem Schaltrad und einer vertikalen Kupplung, die den Chronographen ruhig anlaufen lässt; es besitzt einen einzigen Zähler für 30 Minuten und zeigt Wochentag und Datum bei 3 Uhr. Die drehbare Lünette in Blau und Rot gibt der Uhr zusammen mit dem gelben Zifferblatt ihr unverwechselbares Aussehen.",
+    "Ihren Spitznamen verdankt die Uhr dem NASA-Astronauten William Pogue, der eine solche Seiko 1973 auf der Skylab-Mission trug. Damit gilt sie als einer der ersten Automatik-Chronographen im Weltall.",
+    "Weil Seiko die 6139 in großen Stückzahlen baute, sind gebrauchte Exemplare vergleichsweise günstig zu bekommen; die Preise für gut erhaltene »Pogues« sind in den letzten Jahren jedoch gestiegen. Entscheidend ist der Originalzustand von Zifferblatt, Zeigern und Lünette."
+   ],
+   "vh": [
+    [
+     "Andere Zifferblätter",
+     "Die 6139-6002 gab es außer in Gelb auch mit anderen Zifferblattfarben; das Gelb mit blau-roter Lünette ist aber die gesuchteste Kombination."
+    ],
+    [
+     "Schwesterreferenz: 6139-6005",
+     "Die 6139-6005 nutzt dasselbe Werk in einer anderen Gehäuseausführung."
+    ]
+   ],
+   "m": [
+    "Gelbes Zifferblatt",
+    "Blau-rote Drehlünette",
+    "Ein 30-Minuten-Zähler bei 6 Uhr",
+    "Wochentag und Datum bei 3 Uhr",
+    "Rund 41 mm, Edelstahl"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Vorstellung des Automatik-Chronographen-Kalibers 6139"
+    ],
+    [
+     "1973",
+     "William Pogue trägt eine 6139 auf der Skylab-Mission"
+    ]
+   ],
+   "x": [
+    "Viele Zifferblätter und Lünetten wurden ersetzt oder nachgedruckt – Originalteile sind entscheidend für den Wert.",
+    "Ein Service bei einem Uhrmacher, der Vintage-Seiko kennt, ist ratsam, denn manche Ersatzteile sind schwer zu bekommen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1970er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "≈ 41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "6139, Automatik-Chronograph mit Schaltrad und vertikaler Kupplung"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Chronograph mit 30-Minuten-Zähler, Wochentag, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "monaco",
+     "c": "Die TAG Heuer Monaco trug ab 1969 die Chrono-Matic, das Schweizer Gegenstück im Rennen um den ersten Automatik-Chronographen."
+    },
+    {
+     "m": "chronomaster",
+     "c": "Zeniths El Primero erschien 1969 und war der dritte Pionier unter den Automatik-Chronographen."
+    },
+    {
+     "m": "daytona",
+     "c": "Die Rolex Daytona war in den 1970er-Jahren der bekannteste Sportchronograph – damals noch mit Handaufzug."
+    }
+   ]
   }
  ]
 }
