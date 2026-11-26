@@ -51907,6 +51907,120 @@
      "c": "Die Black Bay nimmt seit 2012 die Gestaltung der alten Tudor Submariner wieder auf."
     }
    ]
+  },
+  {
+   "id": "submariner-16610",
+   "model": "submariner",
+   "ref": "16610",
+   "alias": [
+    "16613",
+    "16618",
+    "16610LV",
+    "16610T"
+   ],
+   "var": 4,
+   "t": "Rolex Submariner Date Ref. 16610",
+   "bau": "1988–2010",
+   "cap": "",
+   "s": "Die Submariner Date mit Aluminiumlünette und Kaliber 3135: mehr als zwei Jahrzehnte gebaut und für viele das klassische Bild der modernen Submariner.",
+   "bh": [
+    "Zwei Jahrzehnte Submariner",
+    "Gehäuse und Lünette",
+    "Das Kaliber 3135",
+    "Kleine Veränderungen über die Jahre"
+   ],
+   "b": [
+    "1988 löste die Referenz 16610 die 16800 ab und blieb bis 2010 im Programm – länger als fast jede andere moderne Submariner. Sie verband das schlanke 40-Millimeter-Gehäuse der klassischen Submariner mit Saphirglas, 300 Metern Wasserdichtigkeit und einem modernen Datumswerk, und sie prägte das Bild der Submariner für eine ganze Generation.",
+    "Das Gehäuse aus Edelstahl hat schlanke, schräg zulaufende Bandanstöße und einen dezenten Kronenschutz. Die verschraubte Triplock-Krone dichtet mit drei Dichtzonen. Die einseitig drehbare Lünette rastet in 120 Schritten und trägt noch eine Einlage aus Aluminium, die mit den Jahren verblassen und verkratzen kann – manche Sammler schätzen gerade diese Spuren. Über dem Zifferblatt sitzt Saphirglas mit Zykloplupe.",
+    "Im Inneren arbeitet das Kaliber 3135, ein robustes Automatikwerk mit Datumsschnellschaltung, Sekundenstopp und Chronometerzertifikat. Es gilt als eines der zuverlässigsten Werke von Rolex und lief später auch in der Nachfolgerin 116610 weiter.",
+    "Über die lange Bauzeit änderte sich die 16610 in Details: Die Leuchtmasse wechselte Ende der 1990er-Jahre von Tritium zu Luminova und später zu Super-LumiNova, die Bohrungen für die Federstege in den Bandanstößen entfielen in den 2000er-Jahren, und gegen Ende trug der Innenring des Zifferblatts eine Gravur mit dem Schriftzug Rolex. 2010 folgte die 116610LN mit Keramiklünette."
+   ],
+   "vh": [
+    [
+     "»Kermit«: Ref. 16610LV",
+     "Zum 50. Jubiläum der Submariner erschien 2003 die Ausführung mit grüner Aluminiumlünette, unter Sammlern »Kermit«."
+    ],
+    [
+     "Rolesor: Ref. 16613",
+     "Stahl und Gelbgold, mit blauem oder schwarzem Zifferblatt."
+    ],
+    [
+     "Gelbgold: Ref. 16618",
+     "Ganz in Gold, ebenfalls blau oder schwarz."
+    ],
+    [
+     "Ohne Datum: Ref. 14060",
+     "Die Schwester ohne Datum und ohne Zykloplupe, die Nachfahrin der 5513."
+    ]
+   ],
+   "m": [
+    "40 mm, schlanke Bandanstöße",
+    "Einseitig drehbare Aluminiumlünette",
+    "Datum mit Zykloplupe auf Saphirglas",
+    "Tiefenangabe 1000 ft = 300 m"
+   ],
+   "ev": [
+    [
+     "1988",
+     "Ablösung der 16800 durch die 16610"
+    ],
+    [
+     "2003",
+     "16610LV »Kermit« zum 50. Jubiläum"
+    ],
+    [
+     "2010",
+     "Ablösung durch die 116610LN mit Keramiklünette"
+    ]
+   ],
+   "x": [
+    "Frühe 16610 mit Tritium-Leuchtmasse tragen »SWISS – T < 25« am unteren Zifferblattrand; gealterte Tritium-Zifferblätter sind gesucht.",
+    "Die Aluminiumeinlage der Lünette lässt sich tauschen; eine originale, gealterte Einlage passt besser zu einer frühen Uhr."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1988–2010"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "3135, Automatik, Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Lünette",
+     "einseitig drehbar, Aluminium"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "16800 / 116610LN"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M wurde in den 1990er-Jahren durch James Bond zur großen Konkurrentin."
+    },
+    {
+     "m": "sea-dweller",
+     "c": "Die Sea-Dweller 16600 war in denselben Jahren die Profi-Schwester mit Heliumventil."
+    },
+    {
+     "m": "black-bay",
+     "c": "Tudors Black Bay knüpfte später an die klassische Taucheruhr-Form an."
+    }
+   ]
   }
  ]
 }
