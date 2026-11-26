@@ -37186,6 +37186,96 @@
      "c": "Die Royal Oak Offshore steht wie die »Jumbo« für die große, kräftige Luxus-Sportuhr."
     }
    ]
+  },
+  {
+   "id": "calatrava-5196",
+   "model": "calatrava",
+   "ref": "5196",
+   "alias": [
+    "5196J",
+    "5196G",
+    "5196R",
+    "5196P"
+   ],
+   "var": 1,
+   "t": "Patek Philippe Calatrava Ref. 5196",
+   "bau": "ab 2005",
+   "cap": "",
+   "s": "Glatte Lünette, kleine Sekunde, 37 Millimeter: Die 5196 ist die Calatrava, die der Referenz 96 von 1932 am nächsten kommt – eine Dresswatch ohne jedes überflüssige Detail.",
+   "bh": [
+    "Rückkehr zur reinen Form",
+    "Gehäuse und Werk",
+    "Neben der Clous-de-Paris-Linie",
+    "Bedeutung heute"
+   ],
+   "b": [
+    "Mitte der 2000er-Jahre ergänzte Patek Philippe die Calatrava um die Referenz 5196. Sie greift die Grundidee der ersten Calatrava auf: ein rundes Gehäuse mit glatter Lünette, ein schlichtes Zifferblatt und die kleine Sekunde bei 6 Uhr. Mit 37 Millimetern war sie größer als die historischen Vorbilder, blieb aber klar eine klassische Dresswatch.",
+    "Das Gehäuse hat schlanke, geschwungene Bandanstöße und eine schmale, polierte Lünette. Im Inneren arbeitet das flache Handaufzugskaliber 215 PS, das Patek Philippe seit Jahrzehnten in seinen schlichten Calatrava-Modellen einsetzt. Ein Datum gibt es nicht; das Zifferblatt trägt aufgesetzte goldene Stabindizes und Dauphine-Zeiger.",
+    "Während die 5119 mit ihrer Clous-de-Paris-Lünette die ornamentale Seite der Calatrava vertrat, stand die 5196 für die puristische. Beide teilten sich das Kaliber 215 PS, wirkten am Handgelenk aber sehr unterschiedlich: die 5119 kleiner und verzierter, die 5196 etwas größer und vollkommen glatt.",
+    "Die 5196 gilt vielen als Musterbeispiel einer zurückhaltenden Golduhr und wurde in allen klassischen Edelmetallen angeboten. Für Sammler ist sie oft der Einstieg in die Calatrava-Familie, weil sie den Bauhaus-Gedanken der Linie besonders deutlich zeigt."
+   ],
+   "vh": [
+    [
+     "Gelbgold: Ref. 5196J",
+     "Die abgebildete Ausführung in Gelbgold mit cremefarbenem Zifferblatt ist die klassischste Form der 5196."
+    ],
+    [
+     "Weiß- und Roségold: Ref. 5196G und 5196R",
+     "Daneben gab es die 5196 in Weißgold und Roségold, jeweils mit hellem Zifferblatt und farblich passenden Indizes."
+    ],
+    [
+     "Platin: Ref. 5196P",
+     "Die Platinversion hebt sich durch ein eigenes, zweifarbiges Zifferblatt von den Goldausführungen ab."
+    ]
+   ],
+   "m": [
+    "37 mm, glatte, polierte Lünette",
+    "Kleine Sekunde bei 6 Uhr, kein Datum",
+    "Aufgesetzte Stabindizes und Dauphine-Zeiger",
+    "Handaufzug"
+   ],
+   "ev": [
+    [
+     "2005",
+     "Vorstellung der Ref. 5196"
+    ]
+   ],
+   "x": [
+    "Bei Golduhren lohnt ein Blick auf die Bandanstöße: Zu stark aufpolierte Gehäuse verlieren ihre feinen Kanten.",
+    "Die Ausführungen in Weißgold, Roségold und Platin sind seltener zu finden als die klassische Gelbgoldversion; ein Vergleich lohnt sich."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "ab 2005"
+    ],
+    [
+     "Gehäuse",
+     "37 mm, Gelb-, Weiß- oder Roségold, Platin"
+    ],
+    [
+     "Kaliber",
+     "215 PS, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Die Patrimony von Vacheron Constantin erschien in denselben Jahren als ebenso puristische runde Golduhr."
+    },
+    {
+     "m": "saxonia",
+     "c": "A. Lange & Söhnes Saxonia ist die deutsche Antwort auf die schlichte Dresswatch mit kleiner Sekunde."
+    },
+    {
+     "m": "altiplano",
+     "c": "Piagets Altiplano setzt die gleiche Zurückhaltung mit noch flacheren Gehäusen um."
+    }
+   ]
   }
  ]
 }
