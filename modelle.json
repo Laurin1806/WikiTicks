@@ -38786,6 +38786,101 @@
      "c": "Die A. Lange & Söhne Saxonia steht für schlichte Eleganz mit hochwertigem Werk."
     }
    ]
+  },
+  {
+   "id": "flightmaster-145-026",
+   "model": "flightmaster",
+   "ref": "145.026",
+   "alias": [
+    "145.026",
+    "ST145.026",
+    "ST 145.026"
+   ],
+   "var": null,
+   "t": "Omega Flightmaster Ref. 145.026",
+   "bau": "1970er",
+   "cap": "",
+   "s": "Der bunteste Chronograph der Omega-Geschichte: ein wuchtiges Pilotengehäuse mit drei Kronen, farbig kodierten Zeigern und einer zweiten Zeitzone für Langstreckenflieger.",
+   "bh": [
+    "Ein Chronograph für Piloten",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber 911",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "Die Flightmaster kam 1969 als Pilotenchronograph auf den Markt, in einer Zeit, in der Langstreckenflüge über mehrere Zeitzonen alltäglich wurden. Nach der ersten Serie, der Referenz 145.013 mit dem Kaliber 910, folgte in den 1970er-Jahren die Referenz 145.026 als zweite Serie.",
+    "Das Gehäuse aus Edelstahl ist mit rund 43 Millimetern groß und auffällig geformt, deutlich wuchtiger als das der Speedmaster. Links sitzen zwei zusätzliche Kronen, rechts die Aufzugskrone zwischen den beiden Chronographendrückern. Die Zeiger sind farbig unterschieden: blau für die zweite Zeitzone, orange für den Chronographen. Um das Zifferblatt läuft ein Ring mit Minutenskala.",
+    "Angetrieben wird die 145.026 vom Handaufzugskaliber 911, das wie das 910 der ersten Serie auf das Chronographenwerk 861 der Speedmaster zurückgeht. Gegenüber der ersten Serie zeigt das Hilfszifferblatt bei 9 Uhr die kleine Sekunde statt eines 24-Stunden-Zählers; bei 3 Uhr liegt der Minutenzähler des Chronographen.",
+    "Nach den 1970er-Jahren geriet die Flightmaster in Vergessenheit. Heute gilt sie unter Sammlern als eigenständige und vergleichsweise seltene Alternative zur Speedmaster, deren Werktechnik sie teilt."
+   ],
+   "vh": [
+    [
+     "Erste Serie: Ref. 145.013",
+     "Die erste Flightmaster von 1969 mit dem Kaliber 910 und einem 24-Stunden-Zähler statt der kleinen Sekunde."
+    ],
+    [
+     "Spätere Serie: Ref. 145.036",
+     "Eine spätere Serie der 1970er-Jahre, ebenfalls mit dem Kaliber 911."
+    ]
+   ],
+   "m": [
+    "Großes, eigenwillig geformtes Stahlgehäuse, rund 43 mm",
+    "Zwei Kronen links, Krone und zwei Drücker rechts",
+    "Blauer Zeiger für die zweite Zeitzone, orange Chronographenzeiger",
+    "Minutenring um das Zifferblatt",
+    "Handaufzug"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Erste Flightmaster, Ref. 145.013 mit Kaliber 910"
+    ],
+    [
+     "1970er",
+     "Zweite Serie, Ref. 145.026 mit Kaliber 911"
+    ]
+   ],
+   "x": [
+    "Viele Flightmaster wurden intensiv getragen; gealterte Zifferblätter und ersetzte Teile sind häufig.",
+    "Gesucht sind Exemplare mit originalen, farbigen Zeigern und gut erhaltener Leuchtmasse.",
+    "Ersatzteile des Kalibers 911 sind spezieller als die der Speedmaster – eine fachkundige Revision lohnt sich."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1970er"
+    ],
+    [
+     "Gehäuse",
+     "rund 43 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "911, Handaufzug, Chronograph"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, zweite Zeitzone"
+    ],
+    [
+     "Vorgänger",
+     "145.013 (Kaliber 910)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "monaco",
+     "c": "Der TAG Heuer Monaco von 1969 ist ein weiterer Chronograph dieser Jahre mit ungewöhnlicher Gehäuseform."
+    },
+    {
+     "m": "seiko-6139",
+     "c": "Der Seiko 6139 von 1969 gehört zu den farbenfrohen Chronographen derselben Zeit."
+    },
+    {
+     "m": "navitimer",
+     "c": "Der Breitling Navitimer war der bekannteste Pilotenchronograph, als die Flightmaster erschien."
+    }
+   ]
   }
  ]
 }
