@@ -32287,7 +32287,7 @@
   "patek-philippe-golden-ellipse.jpg": 889,
   "patek-philippe-nautilus-3700-1a.jpg": 543,
   "patek-philippe-nautilus-3800-1a-blue.jpg": 1016,
-  "patek-philippe-nautilus-5711-1a-tiffany-blue.jpg": 1068,
+  "patek-philippe-nautilus-5711-1a-tiffany-blue.jpg": 768,
   "patek-philippe-nautilus-5711-1a-white.jpg": 1012,
   "patek-philippe-nautilus-5740-1g-perpetual.jpg": 957,
   "patek-philippe-nautilus-5811-blue.jpg": 1020,
@@ -32539,8 +32539,8 @@
    0.0138
   ],
   "patek-philippe-nautilus-5711-1a-tiffany-blue.jpg": [
-   0.861,
-   0.0147
+   0.948,
+   0.0013
   ],
   "patek-philippe-nautilus-5740-1g-perpetual.jpg": [
    0.817,
