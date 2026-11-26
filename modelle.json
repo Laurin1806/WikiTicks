@@ -33324,7 +33324,8 @@
     ],
     [
      "COMEX: Ref. 5514",
-     "Auf Basis der 5513 für die Taucherfirma COMEX gebaut, mit Heliumventil und COMEX-Logo; nicht frei verkauft und heute sehr selten."
+     "Auf Basis der 5513 für die Taucherfirma COMEX gebaut, mit Heliumventil und COMEX-Logo; nicht frei verkauft und heute sehr selten.",
+     "submariner-16800"
     ]
    ]
   },
@@ -33362,7 +33363,8 @@
     ],
     [
      "COMEX",
-     "Für die Taucherfirma COMEX gab es die 1680 mit Firmenlogo auf dem Zifferblatt."
+     "Für die Taucherfirma COMEX gab es die 1680 mit Firmenlogo auf dem Zifferblatt.",
+     "submariner-16800"
     ]
    ],
    "m": [
@@ -33488,6 +33490,11 @@
     [
      "Rolesor: Ref. 116613",
      "Stahl und Gelbgold, ebenfalls blau (116613LB) oder schwarz (116613LN)."
+    ],
+    [
+     "Vorgängerin: Ref. 16610",
+     "Die schlanke Submariner Date mit Aluminiumlünette, gebaut von 1988 bis 2010.",
+     "submariner-16610"
     ]
    ],
    "m": [
@@ -34033,6 +34040,16 @@
     [
      "Gelbgold: Ref. 1675/8",
      "Ganz in Gold, ebenfalls oft in Braun."
+    ],
+    [
+     "Vorgängerin: Ref. 6542",
+     "Die erste GMT-Master ohne Kronenschutz, mit Gilt-Zifferblatt.",
+     "gmt-master-6542"
+    ],
+    [
+     "Nachfolgerin: Ref. 16750",
+     "Mit Saphirglas und schnell schaltendem Datum, ab 1981.",
+     "gmt-master-16750"
     ]
    ],
    "m": [
@@ -35295,7 +35312,8 @@
     ],
     [
      "COMEX",
-     "Für die Taucherfirma COMEX gab es die 1665 mit Firmenlogo auf dem Zifferblatt."
+     "Für die Taucherfirma COMEX gab es die 1665 mit Firmenlogo auf dem Zifferblatt.",
+     "submariner-16800"
     ]
    ]
   },
@@ -39670,6 +39688,11 @@
     [
      "Bronze Gold",
      "Eine Ausführung aus Omegas Legierung »Bronze Gold« mit braunem Zifferblatt ergänzt die Stahlmodelle."
+    ],
+    [
+     "Das Original: Ref. CK2913",
+     "Die erste Seamaster 300 von 1957 aus Omegas Profi-Trilogie.",
+     "seamaster-300-ck2913"
     ]
    ],
    "m": [
@@ -40165,6 +40188,11 @@
     [
      "Kleiner: Fifty-Eight und 54",
      "Aus der Black Bay sind die kleineren Linien Fifty-Eight (39 mm, seit 2018, Ref. M79030N) und 54 (37 mm, seit 2023, Ref. M79000N) hervorgegangen, die eigene Referenzen tragen."
+    ],
+    [
+     "Vorbild: Tudor Submariner",
+     "Die Tudor Submariner der 1970er-Jahre mit Snowflake-Zeigern, hier die 9411/0, ist das Vorbild der Black Bay.",
+     "tudor-submariner-9411"
     ]
    ],
    "m": [
@@ -52033,6 +52061,11 @@
     [
      "Ohne Datum: Ref. 14060",
      "Die Schwester ohne Datum und ohne Zykloplupe, die Nachfahrin der 5513."
+    ],
+    [
+     "Vorgängerin: Ref. 16800",
+     "Die erste Submariner mit Saphirglas und 300 Metern, mit dem Kaliber 3035.",
+     "submariner-16800"
     ]
    ],
    "m": [
@@ -52255,7 +52288,8 @@
     ],
     [
      "Vorgängerin »Fat Lady«: Ref. 16760",
-     "Die erste GMT-Master II von 1983 mit dickerem Gehäuse und Coke-Lünette."
+     "Die erste GMT-Master II von 1983 mit dickerem Gehäuse und Coke-Lünette.",
+     "gmt-master-16760"
     ],
     [
      "Rolesor und Gold: Refs. 16713 und 16718",
@@ -52361,6 +52395,11 @@
     [
      "Gelbgold: Ref. 6542/8",
      "Die GMT-Master gab es auch in 18 Karat Gelbgold, meist mit braunem Zifferblatt und brauner Lünette."
+    ],
+    [
+     "Nachfolgerin: Ref. 1675",
+     "Mit Kronenschutz und größerem Gehäuse, gebaut ab 1959.",
+     "gmt-master-1675"
     ]
    ],
    "m": [
@@ -52476,6 +52515,16 @@
     [
      "COMEX",
      "Ausführungen für die Taucherfirma COMEX mit Firmenlogo und teils mit Heliumventil."
+    ],
+    [
+     "Vorgängerin: Ref. 1680",
+     "Die erste Submariner mit Datum, noch mit Acrylglas und 200 Metern.",
+     "submariner-1680"
+    ],
+    [
+     "Nachfolgerin: Ref. 16610",
+     "Äußerlich fast gleich, mit dem Kaliber 3135; gebaut bis 2010.",
+     "submariner-16610"
     ]
    ],
    "m": [
@@ -52588,6 +52637,16 @@
     [
      "Nachfolgerin: Ref. 16700",
      "Die letzte einfache GMT-Master mit Kaliber 3175, gebaut bis 1999."
+    ],
+    [
+     "Vorgängerin: Ref. 1675",
+     "Die klassische GMT-Master mit Acrylglas, gebaut von 1959 bis 1980.",
+     "gmt-master-1675"
+    ],
+    [
+     "Daneben: GMT-Master II Ref. 16760",
+     "Die erste GMT-Master II mit unabhängig verstellbarem Stundenzeiger, ab 1983.",
+     "gmt-master-16760"
     ]
    ],
    "m": [
@@ -52684,11 +52743,13 @@
     ],
     [
      "Daneben: GMT-Master Ref. 16750",
-     "Die gleichzeitig gebaute einfache GMT-Master mit gekoppeltem 24-Stunden-Zeiger und flacherem Gehäuse."
+     "Die gleichzeitig gebaute einfache GMT-Master mit gekoppeltem 24-Stunden-Zeiger und flacherem Gehäuse.",
+     "gmt-master-16750"
     ],
     [
      "Nachfolgerin: Ref. 16710",
-     "Schlanker, mit Kaliber 3185 und drei Lünetten zur Wahl."
+     "Schlanker, mit Kaliber 3185 und drei Lünetten zur Wahl.",
+     "gmt-master-16710"
     ]
    ],
    "m": [
