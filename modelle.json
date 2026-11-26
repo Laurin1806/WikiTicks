@@ -37466,6 +37466,104 @@
      "c": "Die Saxonia von A. Lange & Söhne vertritt dieselbe Idee der reduzierten Golduhr aus deutscher Sicht."
     }
    ]
+  },
+  {
+   "id": "chrono-ewiger-kalender-5270",
+   "model": "chrono-ewiger-kalender",
+   "ref": "5270",
+   "alias": [
+    "5270G",
+    "5270R",
+    "5270R-001",
+    "5270P"
+   ],
+   "var": null,
+   "t": "Patek Philippe Ewiger Kalender Chronograph Ref. 5270",
+   "bau": "seit 2011",
+   "cap": "",
+   "s": "Ein Chronograph mit eigenem Handaufzugswerk, ein ewiger Kalender bis 2100 und 41 Millimeter Gold: Die 5270 setzt die Linie fort, die 1941 mit der legendären 1518 begann.",
+   "bh": [
+    "Das erste eigene Chronographenwerk",
+    "Die Anzeigen",
+    "Gehäuse",
+    "Bedeutung"
+   ],
+   "b": [
+    "2011 löste Patek Philippe die Referenz 5970 durch die 5270 ab. Der wichtigste Unterschied steckt im Inneren: Statt eines zugekauften Basiswerks arbeitet nun das hauseigene Handaufzugskaliber CH 29-535 PS Q, ein Chronographenwerk mit ewigem Kalender, das Patek Philippe vollständig selbst entwickelt hat.",
+    "Das Zifferblatt folgt der klassischen Anordnung der Patek-Philippe-Kalenderchronographen: Wochentag und Monat in zwei Fenstern unter der 12, bei 6 Uhr die Mondphase mit Zeigerdatum, bei 3 und 9 Uhr die Hilfszifferblätter des Chronographen. Zwei kleine runde Fenster zeigen Tag und Nacht sowie das Schaltjahr. Am Rand verläuft eine Tachymeterskala.",
+    "Das Gehäuse misst 41 Millimeter und ist damit größer als bei der 1518 und der 5970. Es wird in Gold und Platin gebaut; die Platinausführungen tragen wie bei Patek Philippe üblich einen kleinen Diamanten in der Gehäuseflanke bei 6 Uhr. Über die Bauzeit hat Patek Philippe das Zifferblatt mehrfach in Details überarbeitet.",
+    "Die 5270 ist die aktuelle Vertreterin der Königsklasse im Programm von Patek Philippe. Sie wird nur in kleinen Stückzahlen gefertigt und gilt unter Sammlern als feste Größe, weil sie Tradition und eigenes Werk verbindet."
+   ],
+   "vh": [
+    [
+     "Weißgold: Ref. 5270G",
+     "Die abgebildete Ausführung in Weißgold hat ein helles, silbrig-weißes Zifferblatt und ein dunkelblaues Lederband."
+    ],
+    [
+     "Rotgold: Ref. 5270R",
+     "Die Rotgoldversion 5270R-001 trägt ein silbrig-opalines Zifferblatt mit Indizes und Zeigern aus Rotgold."
+    ],
+    [
+     "Platin: Ref. 5270P",
+     "Die Platinausführung ist an dem kleinen Diamanten in der Gehäuseflanke zu erkennen und wurde unter anderem mit lachsfarbenem Zifferblatt angeboten."
+    ]
+   ],
+   "m": [
+    "41 mm, Gold oder Platin",
+    "Fenster für Wochentag und Monat unter der 12",
+    "Mondphase mit Zeigerdatum bei 6 Uhr",
+    "Chronographen-Hilfszifferblätter bei 3 und 9 Uhr, Tachymeterskala"
+   ],
+   "ev": [
+    [
+     "1941",
+     "Ref. 1518, erster Serienchronograph mit ewigem Kalender"
+    ],
+    [
+     "2011",
+     "Vorstellung der Ref. 5270 mit eigenem Kaliber CH 29-535 PS Q"
+    ]
+   ],
+   "x": [
+    "Die Zifferblattgenerationen unterscheiden sich in Details; Sammler achten genau darauf, welche Version sie kaufen.",
+    "Ein ewiger Kalender sollte regelmäßig getragen oder auf einem passenden Uhrenbeweger gehalten werden, damit das Nachstellen aller Anzeigen entfällt."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2011"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Gold oder Platin"
+    ],
+    [
+     "Kaliber",
+     "CH 29-535 PS Q, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Chronograph, ewiger Kalender, Mondphase, Tag-Nacht- und Schaltjahranzeige"
+    ],
+    [
+     "Vorgänger",
+     "5970"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "datograph",
+     "c": "Den Datograph von A. Lange & Söhne gibt es ebenfalls als Chronograph mit ewigem Kalender und Handaufzug."
+    },
+    {
+     "m": "traditionnelle",
+     "c": "Vacheron Constantins Traditionnelle bietet in denselben Jahren große Komplikationen im klassischen Goldgehäuse."
+    },
+    {
+     "m": "classique",
+     "c": "Breguets Classique steht wie die 5270 für die traditionelle Komplikationsuhr im klassischen Goldgehäuse."
+    }
+   ]
   }
  ]
 }
