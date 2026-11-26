@@ -40061,6 +40061,102 @@
      "c": "Die Oris Aquis gab es ebenfalls mit GMT-Funktion als sportliche Alltagsuhr dieser Jahre."
     }
    ]
+  },
+  {
+   "id": "black-bay-m79000n",
+   "model": "black-bay",
+   "ref": "M79000N",
+   "alias": [
+    "M79000N-0001",
+    "79000N"
+   ],
+   "var": 2,
+   "t": "Tudor Black Bay 54 Ref. M79000N",
+   "bau": "seit 2023",
+   "cap": "",
+   "s": "Die kleinste Black Bay: 37 Millimeter, kein Datum und eine Lünette ganz ohne Ziffern – eine Verbeugung vor der ersten Tudor-Taucheruhr von 1954.",
+   "bh": [
+    "2023: Zurück zur Ref. 7922",
+    "Gehäuse und Kaliber MT5400",
+    "Lünette ohne Ziffern",
+    "Ein Taucher für schmale Handgelenke"
+   ],
+   "b": [
+    "Tudor stellte die Black Bay 54 im Jahr 2023 vor. Ihr Name erinnert an die Oyster Prince Submariner Ref. 7922 von 1954, die erste Taucheruhr der Marke. Wie diese hat sie ein kompaktes Gehäuse, kein Datum und eine schlanke Krone – sie ist damit noch näher am Original als die Fifty-Eight.",
+    "Das Edelstahlgehäuse misst 37 Millimeter und ist mit rund 11,2 Millimetern die flachste Black Bay; wasserdicht ist es bis 200 Meter. Im Inneren arbeitet das Manufakturkaliber MT5400 mit rund 70 Stunden Gangreserve, ein enger Verwandter des MT5402 der Fifty-Eight. Die Faltschließe des Stahlbands lässt sich mit dem T-fit-System ohne Werkzeug um bis zu 8 Millimeter verlängern.",
+    "Auffälligstes Merkmal ist die einseitig drehbare Lünette: Sie trägt eine durchgehende Minutenskala ohne Ziffernring, wie die ersten Taucheruhren der 1950er-Jahre, mit einem Leuchtpunkt im Dreieck bei 12 Uhr. Das schwarze Zifferblatt hat runde Leuchtindizes, Balken bei 3, 6 und 9 und ein Dreieck bei 12 Uhr, dazu den Snowflake-Stundenzeiger; die Leuchtmasse ist cremefarben.",
+    "Mit der 54 reagierte Tudor auf die anhaltende Nachfrage nach kleinen, flachen Uhren. Sie spricht vor allem Träger mit schmalen Handgelenken an und alle, die eine Taucheruhr mit möglichst ursprünglichen Proportionen suchen."
+   ],
+   "vh": [
+    [
+     "Vorbild: Ref. 7922",
+     "Die Oyster Prince Submariner von 1954 war die erste Tudor-Taucheruhr; ihr Lünettenbild ohne Ziffern übernimmt die Black Bay 54."
+    ],
+    [
+     "Größere Schwestern: M79030 und 7941A1A0RU",
+     "Die Fifty-Eight mit 39 Millimetern und die Black Bay mit 41 Millimetern tragen eigene Referenzen und haben eine Lünette mit Zahlenskala."
+    ]
+   ],
+   "m": [
+    "37 mm, Edelstahl, rund 11,2 mm hoch",
+    "Lünette mit durchgehender Minutenskala ohne Ziffern",
+    "Kein Datum",
+    "Schriftzug »BLACK BAY 54« auf dem Zifferblatt"
+   ],
+   "ev": [
+    [
+     "1954",
+     "Vorbild: Oyster Prince Submariner Ref. 7922"
+    ],
+    [
+     "2023",
+     "Vorstellung der Black Bay 54"
+    ]
+   ],
+   "x": [
+    "Die 54 trägt sich deutlich kleiner als die Fifty-Eight; wer zwischen beiden schwankt, sollte unbedingt anprobieren.",
+    "Die T-fit-Schließe ist praktisch, wenn das Handgelenk im Sommer anschwillt."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023"
+    ],
+    [
+     "Gehäuse",
+     "37 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "MT5400, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorbild",
+     "7922 (1954)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die ersten Rolex Submariner der 1950er-Jahre teilen mit der Black Bay 54 dasselbe Grundbild der Lünette ohne Ziffern."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Auch Blancpain brachte in diesen Jahren kleinere Fifty-Fathoms-Modelle im Stil der 1950er-Jahre."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Omegas Seamaster 300 ist eine weitere Neuauflage einer klassischen Taucheruhr der 1950er-Jahre."
+    }
+   ]
   }
  ]
 }
