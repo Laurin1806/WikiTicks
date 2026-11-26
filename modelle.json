@@ -49853,6 +49853,102 @@
      "c": "Tudors Heritage Chrono griff wie die Mare Nostrum einen historischen Chronographen wieder auf."
     }
    ]
+  },
+  {
+   "id": "mark-xx-iw3282",
+   "model": "mark-xx",
+   "ref": "IW3282",
+   "alias": [
+    "IW3282",
+    "Mark XX"
+   ],
+   "var": null,
+   "t": "IWC Pilot's Watch Mark XX Ref. IW3282",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Die jüngste Generation der Mark-Reihe: 40 Millimeter, fünf Tage Gangreserve, 100 Meter Wasserdichtigkeit – und das Zifferblatt der RAF-Navigationsuhr von 1948.",
+   "bh": [
+    "Erbe der Mark 11",
+    "Gehäuse und Zifferblatt",
+    "Kaliber 32111",
+    "Stellung im Programm"
+   ],
+   "b": [
+    "1948 lieferte IWC die Mark 11 als Navigationsuhr an die britische Royal Air Force. Seit 1994 legt IWC die Mark-Reihe in Generationen neu auf; 2022 löste die Mark XX (Ref. IW3282) die Mark XVIII ab.",
+    "Das Stahlgehäuse misst 40 Millimeter. Das Zifferblatt folgt der festen Formel der Reihe: Dreieck mit zwei Punkten bei 12 Uhr, große weiße arabische Ziffern mit Leuchtmasse, Schwertzeiger und ein schlichtes Datumsfenster bei 3 Uhr. Ein Weicheisen-Innengehäuse schützt das Werk vor Magnetfeldern.",
+    "Wichtigste Neuerung gegenüber der Mark XVIII mit ihrem Kaliber 35111 ist das Werk: Das IWC-Kaliber 32111 hat einen automatischen Aufzug und rund 120 Stunden, also fünf Tage, Gangreserve. Dazu ist die Mark XX bis 100 Meter wasserdicht, für eine Fliegeruhr ungewöhnlich viel.",
+    "Die Mark XX ist die klassische Fliegeruhr im Programm von IWC, zwischen der großen Big Pilot und den Fliegerchronographen."
+   ],
+   "vh": [
+    [
+     "Weitere Zifferblätter",
+     "Neben Schwarz gibt es die Mark XX unter anderem mit blauem und grünem Zifferblatt."
+    ]
+   ],
+   "m": [
+    "40-mm-Stahlgehäuse",
+    "Dreieck mit zwei Punkten bei 12 Uhr",
+    "Große weiße Ziffern mit Leuchtmasse",
+    "Datum bei 3 Uhr, Aufschrift »MARK XX«"
+   ],
+   "ev": [
+    [
+     "1948",
+     "Mark 11 für die Royal Air Force"
+    ],
+    [
+     "2016",
+     "Mark XVIII"
+    ],
+    [
+     "2022",
+     "Mark XX, Ref. IW3282"
+    ]
+   ],
+   "x": [
+    "Gegenüber der Mark XVIII lohnt die Mark XX vor allem wegen der fünf Tage Gangreserve und der höheren Wasserdichtigkeit.",
+    "Wegen des Weicheisen-Innengehäuses hat die Uhr keinen Glasboden; das Werk ist nicht zu sehen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "32111, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "Mark XVIII"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "ranger",
+     "c": "Tudors Ranger von 2022 ist eine andere schlichte Werkzeuguhr mit militärischen Wurzeln."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Die Hamilton Khaki Field steht für die Militäruhr als Alltagsuhr."
+    },
+    {
+     "m": "laco-aachen",
+     "c": "Die Laco Flieger Aachen ist eine klassische Fliegeruhr mit ähnlich klarem Zifferblatt."
+    }
+   ]
   }
  ]
 }
