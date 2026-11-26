@@ -50030,6 +50030,93 @@
      "c": "Der TAG Heuer Carrera war in diesen Jahren einer der meistgekauften Chronographen seiner Klasse."
     }
    ]
+  },
+  {
+   "id": "master-control-q1368420",
+   "model": "master-control",
+   "ref": "Q1368420",
+   "alias": [
+    "Q1368420"
+   ],
+   "var": null,
+   "t": "Jaeger-LeCoultre Master Ultra Thin Moon Ref. Q1368420",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Ein flaches Stahlgehäuse, ein silbernes Zifferblatt und bei 6 Uhr Mondphase und Zeigerdatum in einem Hilfszifferblatt: die Master Ultra Thin Moon als zurückhaltende Komplikation der Master-Familie.",
+   "bh": [
+    "Aus der Master-Familie",
+    "Gehäuse und Zifferblatt",
+    "Mondphase und Datum",
+    "1000 Hours Control"
+   ],
+   "b": [
+    "Die Master-Linie erschien 1992 als Kern der klassischen Herrenuhren von Jaeger-LeCoultre. Zu ihr gehört die besonders flache Master Ultra Thin. Die Referenz Q1368420 ist die Master Ultra Thin Moon mit 39 Millimetern aus Edelstahl, mit silberfarbenem Zifferblatt und Lederband.",
+    "Das runde Gehäuse ist flach und schlicht, die Lünette glatt. Auf dem Zifferblatt sitzen schlanke aufgesetzte Stabindizes, ein V-förmiger Index bei 12 Uhr und schlanke Zeiger. Unter der Mitte steht »Automatique«.",
+    "Bei 6 Uhr liegt ein Hilfszifferblatt, das zwei Anzeigen verbindet: in der Mitte die Mondphase, außen eine umlaufende Datumsskala mit eigenem Zeiger. Angetrieben wird die Uhr von einem flachen Automatikkaliber aus der eigenen Manufaktur.",
+    "Wie alle Uhren der Master-Linie durchläuft auch die Ultra Thin Moon den »1000 Hours Control«: Die fertige Uhr wird rund sechs Wochen lang auf Gang, Funktion und Wasserdichtigkeit geprüft. Gebraucht ist sie vergleichsweise günstig und ein Einstieg in klassische Uhren mit Mondphase."
+   ],
+   "vh": [
+    [
+     "Roségold",
+     "Die Master Ultra Thin Moon gibt es auch mit Gehäuse aus Roségold."
+    ]
+   ],
+   "m": [
+    "Flaches 39-mm-Stahlgehäuse",
+    "Mondphase mit umlaufendem Zeigerdatum bei 6 Uhr",
+    "Stabindizes, V-förmiger Index bei 12 Uhr",
+    "Schriftzug »Automatique«"
+   ],
+   "ev": [
+    [
+     "1992",
+     "Start der Master-Linie"
+    ],
+    [
+     "2010er-Jahre",
+     "Master Ultra Thin Moon, Ref. Q1368420"
+    ]
+   ],
+   "x": [
+    "Datum und Mondphase nicht in den Stunden um Mitternacht korrigieren, während der Kalender umschaltet.",
+    "Bei gebrauchten Uhren auf eine belegte Revision achten; die flache Bauweise verlangt einen erfahrenen Uhrmacher."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik, Manufakturkaliber"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Zeigerdatum, Mondphase"
+    ],
+    [
+     "Test",
+     "1000 Hours Control"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony ist eine andere flache, schlichte Dresswatch dieser Jahre."
+    },
+    {
+     "m": "saxonia",
+     "c": "Die Saxonia von A. Lange & Söhne steht für die klassische Herrenuhr aus Glashütte, auch mit Mondphase."
+    },
+    {
+     "m": "glashuette-pano",
+     "c": "Die PanoMaticLunar von Glashütte Original verbindet ebenfalls Mondphase und Datum in einem eleganten Gehäuse."
+    }
+   ]
   }
  ]
 }
