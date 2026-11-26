@@ -51721,6 +51721,114 @@
      "c": "Die Rolex Submariner war die große Konkurrentin unter den Taucheruhren dieser Jahre."
     }
    ]
+  },
+  {
+   "id": "tudor-submariner-9411",
+   "model": "tudor-submariner",
+   "ref": "9411/0",
+   "alias": [
+    "9411",
+    "9401 / 9411"
+   ],
+   "var": null,
+   "t": "Tudor Submariner Ref. 9411/0",
+   "bau": "1975–1980er",
+   "cap": "",
+   "s": "Die Tudor Submariner mit Datum und »Snowflake«-Zeigern: Rolex-Gehäuse, zugekauftes Werk und die Aufschrift »Prince Oysterdate« – eine der typischen Taucheruhren der späten 1970er-Jahre.",
+   "bh": [
+    "Die Submariner mit Datum",
+    "Gehäuse und Werk",
+    "Die Snowflake-Zeiger",
+    "Abgelöst in den 1980er-Jahren"
+   ],
+   "b": [
+    "Mitte der 1970er-Jahre stellte Tudor seine Submariner auf eine neue Werkgeneration um. Die Referenz 9401/0 zeigte nur die Zeit, ihre Schwester 9411/0 zusätzlich das Datum bei 3 Uhr unter einer Zykloplupe. Auf dem Zifferblatt steht deshalb »Prince Oysterdate«, darunter die Tiefenangabe »200m = 660ft« und »Submariner«.",
+    "Das Gehäuse mit rund 40 Millimetern, Kronenschutz und verschraubter Krone stammte wie bei allen Tudor Submariner aus der Rolex-Fertigung; Krone und Gehäuseboden tragen oft Rolex-Signaturen. Im Inneren arbeitete ein zugekauftes Automatikwerk mit Datum, das Tudor anpassen ließ. Über dem Zifferblatt sitzt ein gewölbtes Acrylglas, die Drehlünette hat eine Aluminiumeinlage mit 60-Minuten-Skala.",
+    "Prägend sind die eckigen »Snowflake«-Zeiger, die Tudor 1969 auf Wunsch der französischen Marine eingeführt hatte, weil sie unter Wasser besser zu erkennen waren als die Mercedes-Zeiger der Rolex. Zusammen mit den runden Leuchtpunkten und den Balken bei 6 und 9 Uhr ergeben sie das typische Gesicht der Tudor-Taucher dieser Jahre. Die Tritium-Leuchtmasse ist bei vielen Exemplaren zu einem warmen Beige gealtert.",
+    "In den 1980er-Jahren folgten die Referenzen 94010 und 94110, später die 79090 und 79190 mit Saphirglas. Heute ist die 9411/0 eine gesuchte, aber noch vergleichsweise zugängliche Vintage-Taucheruhr – und das direkte Vorbild der Black Bay."
+   ],
+   "vh": [
+    [
+     "Ohne Datum: Ref. 9401/0",
+     "Die Schwesterreferenz ohne Datum und ohne Zykloplupe, mit »Prince Oyster« statt »Prince Oysterdate«."
+    ],
+    [
+     "Blaues Zifferblatt",
+     "Wie die frühen Snowflake-Modelle gab es auch die 9411/0 mit blauem Zifferblatt und blauer Lünette, die heute besonders gefragt ist."
+    ],
+    [
+     "Marine Nationale",
+     "Ausführungen für die französische Marine tragen eine Gravur »M.N.« mit Jahreszahl auf dem Gehäuseboden."
+    ],
+    [
+     "Nachfolger: Ref. 94110",
+     "Die Datumsreferenz der 1980er-Jahre mit weiterentwickeltem Werk."
+    ]
+   ],
+   "m": [
+    "Rund 40 mm, Rolex-Gehäuse mit Kronenschutz",
+    "»Snowflake«-Zeiger",
+    "Datum bei 3 Uhr mit Zykloplupe",
+    "Aufschrift »Prince Oysterdate« und »Submariner«"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Snowflake-Zeiger für die französische Marine"
+    ],
+    [
+     "Mitte 1970er",
+     "Refs. 9401/0 und 9411/0"
+    ],
+    [
+     "1980er",
+     "Ablösung durch die Refs. 94010 und 94110"
+    ]
+   ],
+   "x": [
+    "Originale Snowflake-Zeiger mit gleich gealterter Leuchtmasse wie das Zifferblatt sind wichtig; Servicezeiger sind häufig.",
+    "Rolex-signierte Krone und Boden sind bei der Tudor Submariner original."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1975–1980er"
+    ],
+    [
+     "Gehäuse",
+     "rund 40 mm, Edelstahl (Rolex)"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "zugekauftes Automatikwerk mit Datum"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Glas",
+     "gewölbtes Acrylglas mit Zykloplupe"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die Rolex Submariner Date 1680 war die teurere Schwester mit Manufakturwerk."
+    },
+    {
+     "m": "doxa-sharkhunter",
+     "c": "Die Doxa SUB 300T war in diesen Jahren die andere Taucheruhr für Profis."
+    },
+    {
+     "m": "black-bay",
+     "c": "Die Black Bay nimmt seit 2012 die Gestaltung der alten Tudor Submariner wieder auf."
+    }
+   ]
   }
  ]
 }
