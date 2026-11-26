@@ -41692,6 +41692,99 @@
      "c": "Die Longines HydroConquest gilt als nächste Stufe für viele, die mit einer Seiko-Taucheruhr angefangen haben."
     }
    ]
+  },
+  {
+   "id": "seiko-sumo-spb101",
+   "model": "seiko-sumo",
+   "ref": "SPB101",
+   "alias": [
+    "SPB101J1"
+   ],
+   "var": null,
+   "t": "Seiko Sumo Ref. SPB101",
+   "bau": "seit etwa 2020",
+   "cap": "",
+   "s": "Die kräftige Sumo in neuer Form: Mit der SPB101 bekam die beliebte Taucheruhr ein moderneres Werk mit fast drei Tagen Gangreserve.",
+   "bh": [
+    "Vom Importgeheimtipp zur Prospex",
+    "Gehäuse und Werk",
+    "Zwischen Seiko und der Schweiz"
+   ],
+   "b": [
+    "Die erste Sumo, die SBDC001, erschien 2006 für den japanischen Markt und war im Ausland zunächst nur über Importe erhältlich. Ihr breites, kräftiges Gehäuse brachte ihr den Spitznamen ein. Zu Beginn der 2020er-Jahre legte Seiko die Sumo als Prospex-Modell neu auf; die SPB101 mit blauem Zifferblatt gehört zu dieser Generation.",
+    "Das Edelstahlgehäuse misst 45 Millimeter, ist bis 200 Meter wasserdicht und hat ein Saphirglas. Im Inneren arbeitet das Automatikkaliber 6R35 mit rund 70 Stunden Gangreserve, Handaufzug und Sekundenstopp. Das Zifferblatt ist schlicht, die Zeiger sind groß, die Lünette griffig.",
+    "Die Sumo ist schwerer und sorgfältiger verarbeitet als die einfachen Seiko-Taucheruhren und gilt als beliebte Alternative zu Schweizer Modellen – gute Verarbeitung ohne den Aufpreis großer Schweizer Namen."
+   ],
+   "vh": [
+    [
+     "Weitere Farben",
+     "Die Prospex Sumo gibt es mit gleichem Gehäuse und Werk auch mit schwarzem und grünem Zifferblatt."
+    ],
+    [
+     "Vorgängerin: Ref. SBDC001",
+     "Die erste Sumo von 2006 hatte das Werk 6R15 mit rund 50 Stunden Gangreserve."
+    ]
+   ],
+   "m": [
+    "45 mm, Edelstahl, breite Lünette",
+    "Blaues Zifferblatt",
+    "Große Zeiger und Leuchtindizes",
+    "Saphirglas"
+   ],
+   "ev": [
+    [
+     "2006",
+     "Erste Sumo SBDC001"
+    ],
+    [
+     "um 2020",
+     "Prospex Sumo SPB101 mit Werk 6R35"
+    ]
+   ],
+   "x": [
+    "Das Werk 6R35 bietet rund 70 Stunden Gangreserve – deutlich mehr als bei der ersten Sumo.",
+    "Das Gehäuse ist groß und schwer; vor dem Kauf am Handgelenk ausprobieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit etwa 2020"
+    ],
+    [
+     "Gehäuse",
+     "45 mm, Edelstahl, Saphirglas"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "6R35, Automatik, ≈ 70 h Gangreserve"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "SBDC001"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay",
+     "c": "Die Tudor Black Bay ist die Schweizer Taucheruhr, mit der die Sumo am häufigsten verglichen wird."
+    },
+    {
+     "m": "aquis",
+     "c": "Die Oris Aquis spielt in derselben Liga solider, kräftig gebauter Taucheruhren."
+    },
+    {
+     "m": "hydroconquest",
+     "c": "Die Longines HydroConquest ist eine weitere Alternative im mittleren Preisbereich."
+    }
+   ]
   }
  ]
 }
