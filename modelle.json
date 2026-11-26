@@ -37739,6 +37739,102 @@
      "c": "Die Cartier Tank ist wie die Twenty~4 eine rechteckige Uhr, die zum Alltag wie zum Abend passt."
     }
    ]
+  },
+  {
+   "id": "world-time-5230",
+   "model": "world-time",
+   "ref": "5230",
+   "alias": [
+    "5230G",
+    "5230R"
+   ],
+   "var": null,
+   "t": "Patek Philippe World Time Ref. 5230",
+   "bau": "seit 2016",
+   "cap": "",
+   "s": "Vierundzwanzig Städte, ein Drücker und eine Uhr, die überall auf der Welt die richtige Zeit kennt: Die 5230 ist die aktuelle Fassung von Louis Cottiers Weltzeit-Idee.",
+   "bh": [
+    "Nachfolgerin der 5130",
+    "Das Weltzeitsystem",
+    "Werk und Bedienung",
+    "Neues Gesicht"
+   ],
+   "b": [
+    "2016 ersetzte Patek Philippe die World Time 5130 durch die Referenz 5230. Das Gehäuse wurde mit 38,5 Millimetern etwas kleiner und feiner gezeichnet, das Zifferblatt neu gestaltet. Die Uhr gibt es in Weißgold (5230G) und Roségold (5230R).",
+    "Das Prinzip geht auf den Genfer Uhrmacher Louis Cottier zurück: Ein äußerer Ring trägt die Namen von 24 Städten, je eine für jede Zeitzone, ein innerer 24-Stunden-Ring dreht sich einmal am Tag. So lässt sich neben jeder Stadt die dortige Uhrzeit ablesen; die helle und die dunkle Hälfte des Rings zeigen Tag und Nacht.",
+    "Ein Drücker bei 10 Uhr stellt die Ortszeit in einem Schritt um: Stundenzeiger, Städte- und 24-Stunden-Ring springen gemeinsam weiter, die Minuten bleiben unverändert. Im Inneren arbeitet das Automatikkaliber 240 HU mit Mikrorotor und rund 48 Stunden Gangreserve, das schon in den Vorgängerinnen 5110 und 5130 eingesetzt wurde.",
+    "Auffällig an der 5230 ist das Zifferblattzentrum mit einer handguillochierten Struktur und die neu gezeichneten Zeiger. Damit verbindet die Referenz die bewährte Technik der Vorgängerinnen mit einem klareren, moderneren Auftritt."
+   ],
+   "vh": [
+    [
+     "Weißgold: Ref. 5230G",
+     "Die abgebildete Ausführung in Weißgold trägt ein blaues, guillochiertes Zifferblattzentrum und ein dunkelblaues Lederband."
+    ],
+    [
+     "Roségold: Ref. 5230R",
+     "Die Roségoldversion hat ein Zifferblattzentrum in warmem Farbton und ein braunes Lederband."
+    ],
+    [
+     "Mit Cloisonné-Emaille: Ref. 5231",
+     "Ausführungen mit einer Landkarte aus Cloisonné-Emaille in der Zifferblattmitte tragen die eigene Referenz 5231."
+    ]
+   ],
+   "m": [
+    "38,5 mm, Weiß- oder Roségold",
+    "Städtering mit 24 Städten und drehender 24-Stunden-Ring",
+    "Guillochiertes Zifferblattzentrum",
+    "Drücker bei 10 Uhr"
+   ],
+   "ev": [
+    [
+     "2016",
+     "Vorstellung der Ref. 5230 als Nachfolgerin der 5130"
+    ]
+   ],
+   "x": [
+    "Die Städtenamen auf dem Ring verraten die Generation; die Ringe wurden im Laufe der Zeit an veränderte Zeitzonen angepasst.",
+    "Der Drücker bei 10 Uhr sollte die Anzeigen sauber und ohne Hängenbleiben weiterschalten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2016"
+    ],
+    [
+     "Gehäuse",
+     "38,5 mm, Weiß- oder Roségold"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "240 HU, Automatik mit Mikrorotor, ≈ 48 Stunden Gangreserve"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Weltzeit mit 24 Städten, Tag-Nacht-Anzeige"
+    ],
+    [
+     "Vorgänger",
+     "5130"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "lange-1",
+     "c": "Die Lange 1 von A. Lange & Söhne gibt es ebenfalls als Reiseuhr mit Städtering für eine zweite Zeitzone."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas ist auch als Weltzeituhr erhältlich und eine direkte Konkurrentin."
+    },
+    {
+     "m": "sky-dweller",
+     "c": "Die Rolex Sky-Dweller richtet sich mit zweiter Zeitzone ebenfalls an Vielreisende im Luxussegment."
+    }
+   ]
   }
  ]
 }
