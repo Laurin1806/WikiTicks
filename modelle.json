@@ -46522,6 +46522,91 @@
      "c": "Die Breguet Classique ist die elegante Linie eines anderen großen Hauses mit ähnlicher Zielgruppe."
     }
    ]
+  },
+  {
+   "id": "type-xx-2067",
+   "model": "type-xx",
+   "ref": "2067",
+   "alias": [
+    "2067ST/92/3WU"
+   ],
+   "var": null,
+   "t": "Breguet Type XX Ref. 2067",
+   "bau": "seit 2023",
+   "cap": "",
+   "s": "Siebzig Jahre nach den ersten Fliegerchronographen für die französische Luftwaffe brachte Breguet 2023 die Type XX zurück – mit Vintage-Optik, Flyback und einem schnell schwingenden Manufakturwerk.",
+   "bh": [
+    "Erbe der Fliegerchronographen",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber 7281",
+    "Eine neue Generation"
+   ],
+   "b": [
+    "In den 1950er-Jahren legte das französische Verteidigungsministerium Anforderungen für einen Fliegerchronographen fest, den Typ 20. Breguet war einer der Lieferanten und verkaufte daneben zivile Versionen unter dem Namen Type XX. 2023 stellte die Marke mit der Referenz 2067 eine neue Type XX vor, die sich eng an diese frühen Uhren anlehnt.",
+    "Das Edelstahlgehäuse misst 42 Millimeter. Die beidseitig drehbare, geriffelte Lünette trägt eine Minutenskala mit einem Dreieck bei 12 Uhr. Das schwarze Zifferblatt hat große arabische Ziffern und Leuchtmasse in einem warmen Farbton, der an gealterte Originale erinnert.",
+    "Im Inneren arbeitet das Automatikkaliber 7281 mit Schaltrad und Flyback-Funktion. Es schwingt mit 36.000 Halbschwingungen pro Stunde und bietet dennoch rund 60 Stunden Gangreserve. Die Flyback-Funktion, mit der sich eine laufende Messung auf Knopfdruck neu starten lässt, war schon bei den Militäruhren Pflicht.",
+    "Die 2067 löste die Type XX-Generationen ab, die Breguet seit den 1990er-Jahren gebaut hatte, und rückt die Linie optisch wieder näher an die Fliegeruhren der 1950er-Jahre."
+   ],
+   "m": [
+    "42 mm, Edelstahl",
+    "Beidseitig drehbare, geriffelte Lünette mit Minutenskala",
+    "Schwarzes Zifferblatt mit großen arabischen Ziffern",
+    "Leuchtmasse im Vintage-Farbton"
+   ],
+   "ev": [
+    [
+     "1950er",
+     "Typ-20-Chronographen für die französische Luftwaffe"
+    ],
+    [
+     "2023",
+     "Vorstellung der Type XX Ref. 2067"
+    ]
+   ],
+   "x": [
+    "Die Flyback-Funktion ist der Kern dieser Uhr – beim Kauf testen, ob Start, Stopp, Nullstellung und Neustart sauber funktionieren.",
+    "Originale Type XX aus den 1950er- und 1960er-Jahren sind eine eigene Sammlerwelt; die 2067 bietet die Optik mit modernem Werk."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "7281, Automatik-Chronograph, 36.000 A/h"
+    ],
+    [
+     "Gangreserve",
+     "≈ 60 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Flyback-Chronograph"
+    ],
+    [
+     "Lünette",
+     "beidseitig drehbar"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "pilot-type-20",
+     "c": "Zeniths Pilot Type 20 greift ebenfalls die Tradition französischer Fliegeruhren auf."
+    },
+    {
+     "m": "black-bay-chrono",
+     "c": "Der Tudor Black Bay Chrono ist ein Stahlchronograph mit Vintage-Optik aus dem gleichen Umfeld."
+    },
+    {
+     "m": "navitimer",
+     "c": "Der Breitling Navitimer ist der klassische Fliegerchronograph einer anderen Marke."
+    }
+   ]
   }
  ]
 }
