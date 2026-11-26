@@ -42722,6 +42722,90 @@
      "c": "Die Seiko Presage Cocktail Time ist eine beliebte Alternative für eine elegante Automatikuhr in ähnlicher Preisklasse."
     }
    ]
+  },
+  {
+   "id": "jazzmaster-h32451141",
+   "model": "jazzmaster",
+   "ref": "H32451141",
+   "var": null,
+   "t": "Hamilton Jazzmaster Ref. H32451141",
+   "bau": "aktuelle Kollektion",
+   "cap": "",
+   "s": "Blaues Sonnenschliff-Zifferblatt, Datum und Stahlband: Die H32451141 zeigt die Jazzmaster als das, was sie sein will – eine elegante Automatikuhr für jeden Tag.",
+   "bh": [
+    "Die Dresswatch von Hamilton",
+    "Gehäuse und Zifferblatt",
+    "Das Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Jazzmaster erschien in den 2000er-Jahren als Dresswatch von Hamilton und wurde seitdem zu einer großen Familie ausgebaut. Die Referenz H32451141 ist eine Automatikausführung aus Edelstahl mit blauem Zifferblatt und Gliederband.",
+    "Das runde Gehäuse hat einen schlanken, polierten Rand. Das Zifferblatt mit Sonnenschliff trägt aufgesetzte keilförmige Stabindizes, Stabzeiger und einen dünnen Sekundenzeiger; das Datum erscheint bei 3 Uhr. Oben stehen Logo und Markenname, unten der Schriftzug »JAZZMASTER«. Das Band hat satinierte Glieder mit polierten Mittelteilen.",
+    "Als Werk dient in dieser Linie das Automatikkaliber H-10 mit rund 80 Stunden Gangreserve, eine Weiterentwicklung eines ETA-Werks. Die lange Gangreserve ist für Uhren dieser Preisklasse ein Vorteil.",
+    "Die Jazzmaster ist eine Alternative zu teureren Schweizer Dresswatches. Mit Stahlband und blauem Zifferblatt wirkt diese Ausführung weniger streng als die Varianten mit Lederband."
+   ],
+   "vh": [
+    [
+     "Weitere Jazzmaster-Linien",
+     "Neben der Dreizeigeruhr gibt es die Jazzmaster als schlanke Thinline, mit Mondphase und als Chronograph."
+    ]
+   ],
+   "m": [
+    "Rundes Edelstahlgehäuse mit schlankem, poliertem Rand",
+    "Blaues Zifferblatt mit Sonnenschliff",
+    "Keilförmige Stabindizes",
+    "Datum bei 3 Uhr, »JAZZMASTER« über 6 Uhr"
+   ],
+   "ev": [
+    [
+     "1892",
+     "Gründung von Hamilton"
+    ],
+    [
+     "2000er",
+     "Jazzmaster als Dresswatch-Linie"
+    ]
+   ],
+   "x": [
+    "Die Jazzmaster gibt es in vielen Größen und Ausführungen – auf die genaue Referenz achten.",
+    "Ein Lederband macht aus der sportlichen Ausführung schnell eine klassische Anzuguhr."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "aktuelle Kollektion"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "H-10, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "master-collection",
+     "c": "Die Longines Master Collection ist die klassische Automatikuhr derselben Zeit eine Preisstufe höher."
+    },
+    {
+     "m": "junghans-meister",
+     "c": "Die Junghans Meister verbindet ebenfalls klassisches Design mit erschwinglichem Preis."
+    },
+    {
+     "m": "presage-cocktail",
+     "c": "Die Seiko Presage Cocktail Time ist eine beliebte Alternative mit auffälligem Zifferblatt."
+    }
+   ]
   }
  ]
 }
