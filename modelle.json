@@ -43085,6 +43085,101 @@
      "c": "Die Casio GA-2100 wurde in denselben Jahren zur bezahlbaren Kultuhr mit Bezug zu einem Luxusvorbild."
     }
    ]
+  },
+  {
+   "id": "murph-h70605731",
+   "model": "murph",
+   "ref": "H70605731",
+   "alias": [
+    "H70405730"
+   ],
+   "var": null,
+   "t": "Hamilton Khaki Field Murph Ref. H70605731",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Die Uhr aus »Interstellar«, die Fans so lange forderten, bis Hamilton sie baute: 42 Millimeter, schwarzes Zifferblatt, beige Leuchtmasse – und eine versteckte Botschaft auf dem Sekundenzeiger.",
+   "bh": [
+    "Aus dem Film in den Handel",
+    "Gehäuse und Zifferblatt",
+    "Werk und Morsecode",
+    "Ein Film-Klassiker am Handgelenk"
+   ],
+   "b": [
+    "Für Christopher Nolans Film »Interstellar« von 2014 entwickelte Hamilton eine eigene Uhr, die Cooper seiner Tochter Murph schenkt und die später eine Schlüsselrolle in der Handlung spielt. Nach großer Nachfrage brachte Hamilton 2019 die Khaki Field Murph in den Handel. Die Referenz H70605731 ist diese erste Serienversion mit 42 Millimetern.",
+    "Das polierte Edelstahlgehäuse trägt ein schwarzes Zifferblatt mit großen arabischen Ziffern und beigefarbener Leuchtmasse, schlanken Schwertzeigern und einem dünnen Sekundenzeiger. Am Rand liegt eine feine Minuterie mit Leuchtdreiecken; ein Datum gibt es nicht. Die Uhr ist bis 100 Meter wasserdicht und wird an einem schwarzen Lederband getragen.",
+    "Im Inneren arbeitet das Automatikkaliber H-10 mit rund 80 Stunden Gangreserve. Auf dem Sekundenzeiger ist das Wort »Eureka« in Morsezeichen versteckt – eine Anspielung auf den Film, in dem der zuckende Sekundenzeiger von Murphs Uhr eine Nachricht im Morsecode übermittelt.",
+    "Die Murph gehört zu den bekanntesten Filmuhren der letzten Jahre. Sie zeigt, wie eine Uhr allein durch eine Geschichte zum Erfolg werden kann – ganz ohne Werbekampagne."
+   ],
+   "vh": [
+    [
+     "38 Millimeter: Ref. H70405730",
+     "2020 folgte eine kleinere Ausführung mit 38 Millimetern, die an schmaleren Handgelenken besser sitzt."
+    ]
+   ],
+   "m": [
+    "42 mm, polierter Edelstahl",
+    "Schwarzes Zifferblatt, große arabische Ziffern mit beiger Leuchtmasse",
+    "»KHAKI AUTOMATIC« über 6 Uhr",
+    "Kein Datum, »Eureka« im Morsecode auf dem Sekundenzeiger"
+   ],
+   "ev": [
+    [
+     "2014",
+     "Film »Interstellar«"
+    ],
+    [
+     "2019",
+     "Khaki Field Murph mit 42 mm"
+    ],
+    [
+     "2020",
+     "Ausführung mit 38 mm"
+    ]
+   ],
+   "x": [
+    "Die Morsezeichen auf dem Sekundenzeiger sind ein Merkmal der Serienversion – genau hinschauen lohnt sich.",
+    "Wer schmale Handgelenke hat, sollte die 38-Millimeter-Ausführung probieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "H-10, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "spirit",
+     "c": "Die Longines Spirit kam 2020 als Fliegeruhr mit klarem, militärisch geprägtem Zifferblatt."
+    },
+    {
+     "m": "ranger",
+     "c": "Die Tudor Ranger setzt ebenfalls auf große arabische Ziffern und beige Leuchtmasse."
+    },
+    {
+     "m": "sinn-556",
+     "c": "Die Sinn 556 ist eine ähnlich schlichte Automatikuhr mit schwarzem Zifferblatt."
+    }
+   ]
   }
  ]
 }
