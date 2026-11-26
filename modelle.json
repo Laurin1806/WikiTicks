@@ -45596,6 +45596,106 @@
      "c": "Die Lange Datograph kombiniert Großdatum und feine Glashütter Werkveredelung."
     }
    ]
+  },
+  {
+   "id": "historiques-222-4200h",
+   "model": "historiques-222",
+   "ref": "4200H",
+   "alias": [
+    "4200H/222A-B934",
+    "4200H/222J"
+   ],
+   "var": null,
+   "t": "Vacheron Constantin Historiques 222 Ref. 4200H",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "45 Jahre nach der Premiere holte Vacheron Constantin die 222 zurück – in den Maßen des Originals, mit gekerbter Lünette, Malteserkreuz am Gehäuse und einem modernen Automatikwerk.",
+   "bh": [
+    "Die Rückkehr der 222",
+    "Treu zum Original",
+    "Werk und Technik",
+    "Von Gold zu Stahl"
+   ],
+   "b": [
+    "Die 222 erschien 1977 zum 222-jährigen Bestehen von Vacheron Constantin und wurde von Jorg Hysek entworfen. Sie gehört wie Royal Oak und Nautilus zu den Sportuhren mit integriertem Band, die in den 1970er-Jahren das Luxussegment veränderten, wurde aber schon Mitte der 1980er-Jahre eingestellt. 2022 legte die Manufaktur sie in der Historiques-Reihe als Referenz 4200H neu auf.",
+    "Die Neuauflage hält sich eng an die große Ausführung des Originals: 37 Millimeter, die gekerbte Lünette, das kissenförmig auslaufende Gehäuse mit integriertem Gliederband und das kleine Malteserkreuz, das seitlich unten in das Gehäuse eingesetzt ist. Die Uhr ist bis 50 Meter wasserdicht.",
+    "Im Inneren arbeitet das Automatikkaliber 2455/2 mit rund 40 Stunden Gangreserve, das durch einen Saphirglasboden zu sehen ist.",
+    "Die erste Neuauflage von 2022 bestand ganz aus Gelbgold, Gehäuse und Band ebenso wie das goldfarbene Zifferblatt. Später folgten weitere Ausführungen, darunter eine in Edelstahl mit dunkelblauem Zifferblatt, die dem Stahloriginal von 1977 besonders nahekommt."
+   ],
+   "vh": [
+    [
+     "Gelbgold: Ref. 4200H/222J",
+     "Die erste Neuauflage von 2022 in massivem Gelbgold mit goldfarbenem Zifferblatt."
+    ],
+    [
+     "Edelstahl: Ref. 4200H/222A-B934",
+     "Die spätere Stahlausführung mit dunkelblauem Zifferblatt und integriertem Gliederband."
+    ]
+   ],
+   "m": [
+    "37 mm, gekerbte Lünette",
+    "Kissenförmiges Gehäuse mit integriertem Gliederband",
+    "Kleines Malteserkreuz unten rechts am Gehäuse",
+    "Datum bei 3 Uhr, Saphirglasboden"
+   ],
+   "ev": [
+    [
+     "1977",
+     "Original-222 (Ref. 44018)"
+    ],
+    [
+     "2022",
+     "Neuauflage Ref. 4200H in Gelbgold"
+    ]
+   ],
+   "x": [
+    "Originale 222 aus den 1970er- und 1980er-Jahren sind eine eigene Sammlerwelt; die Neuauflage bietet dieselbe Form mit modernem Werk und aktueller Garantie.",
+    "Die Gelbgoldausführung wiegt deutlich mehr als die Stahlversion; vor dem Kauf am Handgelenk probieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "37 mm, Gelbgold oder Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "2455/2, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 40 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorbild",
+     "44018"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak war 1972 die erste dieser Luxus-Sportuhren mit integriertem Band, an die auch die 222 anknüpft."
+    },
+    {
+     "m": "nautilus",
+     "c": "Die Nautilus von 1976 ist die Schwester aus derselben Epoche, die heute ebenso gefragt ist."
+    },
+    {
+     "m": "piaget-polo",
+     "c": "Die Piaget Polo erschien 1979 als weitere Golduhr mit integriertem Band aus dieser Zeit."
+    }
+   ]
   }
  ]
 }
