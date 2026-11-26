@@ -45217,6 +45217,105 @@
      "c": "Auch Vacheron Constantin baute in der Traditionnelle-Linie Handaufzugschronographen in Gold."
     }
    ]
+  },
+  {
+   "id": "fifty-fathoms-5015",
+   "model": "fifty-fathoms",
+   "ref": "5015",
+   "alias": [
+    "5015-1130-52A"
+   ],
+   "var": null,
+   "t": "Blancpain Fifty Fathoms Ref. 5015",
+   "bau": "seit 2007",
+   "cap": "",
+   "s": "Die moderne Fifty Fathoms holte 2007 Blancpains Taucheruhr von 1953 zurück – groß, mit gewölbter Saphirlünette und einem Werk, das fünf Tage ohne Aufzug läuft.",
+   "bh": [
+    "Rückkehr einer Taucherlegende",
+    "Gehäuse und Lünette",
+    "Das Kaliber 1315",
+    "Bedeutung heute"
+   ],
+   "b": [
+    "Die Fifty Fathoms entstand 1953 für die Kampfschwimmer der französischen Marine und gehört zu den ersten modernen Taucheruhren. Nach der Quarzkrise verschwand die Linie; 2007 stellte Blancpain mit der Referenz 5015 eine neue Fifty Fathoms Automatique vor, die das Erbe in ein großes, modernes Gehäuse übertrug.",
+    "Das Gehäuse misst 45 Millimeter. Die einseitig drehbare Lünette hat eine gewölbte Einlage aus Saphirglas mit großen Ziffern bei 15, 30 und 45 und einer Raute bei 12 Uhr. Das schwarze Zifferblatt trägt große Leuchtindizes. Die Uhr ist bis 300 Meter wasserdicht.",
+    "Im Inneren arbeitet das Automatikkaliber 1315 mit drei Federhäusern und rund fünf Tagen Gangreserve. Es ist durch einen Saphirglasboden zu sehen.",
+    "Die 5015 ist bis heute die Grundform der modernen Fifty Fathoms und Basis für Ausführungen aus Titan und Gold. Zum 70. Jubiläum erschien 2023 eine kleinere Ausführung mit 42 Millimetern."
+   ],
+   "vh": [
+    [
+     "Edelstahl: Ref. 5015-1130-52A",
+     "Die klassische Ausführung in Edelstahl mit schwarzem Zifferblatt und schwarzer Lünette."
+    ],
+    [
+     "Titan und Rotgold",
+     "Die 5015 gibt es auch in Titan und in Rotgold, teils mit blauem Zifferblatt."
+    ]
+   ],
+   "m": [
+    "45 mm, einseitig drehbare Lünette",
+    "Gewölbte Lüneteneinlage aus Saphirglas",
+    "Große Leuchtindizes",
+    "Saphirglasboden"
+   ],
+   "ev": [
+    [
+     "1953",
+     "Erste Fifty Fathoms für die französische Marine"
+    ],
+    [
+     "2007",
+     "Moderne Fifty Fathoms Ref. 5015"
+    ],
+    [
+     "2023",
+     "70. Jubiläum"
+    ]
+   ],
+   "x": [
+    "Mit 45 Millimetern trägt die 5015 groß – vor dem Kauf am Handgelenk probieren.",
+    "Die Saphirlünette ist sehr kratzfest, aber nicht unzerbrechlich; auf Absplitterungen am Rand achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2007"
+    ],
+    [
+     "Gehäuse",
+     "45 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "1315, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 120 Stunden"
+    ],
+    [
+     "Lünette",
+     "einseitig drehbar, Saphir"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "planet-ocean",
+     "c": "Die Omega Planet Ocean ist eine große, moderne Taucheruhr aus denselben Jahren."
+    },
+    {
+     "m": "submariner",
+     "c": "Die Rolex Submariner ist die Taucheruhr, die zeitgleich mit der Fifty Fathoms entstand."
+    },
+    {
+     "m": "luminor-marina",
+     "c": "Die Panerai Luminor Marina teilt das militärische Taucher-Erbe und das große Format."
+    }
+   ]
   }
  ]
 }
