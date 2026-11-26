@@ -8928,16 +8928,18 @@
    "w": "Eine selbstverstellende Faltschließe passt das Band dem Neoprenanzug an, Gehäuse und Band bestehen aus Titan.",
    "var": [
     {
-     "n": "Pelagos in Blau (Titan, 200 m)",
-     "y": "",
+     "n": "Ref. 25707B Pelagos FXD",
+     "y": "seit 2021",
      "v": {
       "img": "assets/watches/tudor-pelagos-blue.jpg"
      },
      "bd": [
-      "Die Abbildung zeigt eine Ausführung der Tudor Pelagos in Blau. Gehäuse und Band sind aus mattgrauem Titan, die einseitig drehbare Lünette trägt eine blaue Einlage mit Minutenskala, deren erste 15 Minuten fein unterteilt sind. Das Zifferblatt ist ebenfalls blau.",
+      "Die Abbildung zeigt eine Tudor Pelagos FXD (Ref. 25707B) in Blau, entwickelt mit den Kampfschwimmern der französischen Marine. Gehäuse und Band sind aus mattgrauem Titan, die einseitig drehbare Lünette trägt eine blaue Einlage mit Minutenskala, deren erste 15 Minuten fein unterteilt sind. Das Zifferblatt ist ebenfalls blau.",
       "Zu erkennen sind der Stundenzeiger mit großer eckiger Leuchtfläche, rechteckige Leuchtindizes, ein Dreieck bei 12 Uhr, der Leuchtpunkt auf der Lünette und die Aufschriften »PELAGOS«, »CHRONOMETER OFFICIALLY CERTIFIED« und die Tiefenangabe »200m-660ft«. Ein Datum fehlt. Rechts sitzt die verschraubte Krone mit Kronenschutzflanken, das Titanband hat gebürstete Glieder."
      ],
-     "dial": "Blau"
+     "dial": "Blau",
+     "iref": "25707B",
+     "irefs": "mittel"
     }
    ],
    "lume": {
@@ -40790,7 +40792,7 @@
     ],
     [
      "Pelagos FXD: Ref. 25707B",
-     "Ohne Datum, mit festen Bandstegen, entstanden mit den Kampfschwimmern der französischen Marine."
+     "Ohne Datum, mit festen Bandstegen und blauem Titan, entstanden mit den Kampfschwimmern der französischen Marine."
     ]
    ],
    "m": [
@@ -52945,6 +52947,89 @@
     {
      "m": "fifty-fathoms",
      "c": "Blancpains Fifty Fathoms ist eine weitere Taucheruhr mit militärischer Herkunft."
+    }
+   ]
+  },
+  {
+   "id": "pelagos-fxd-25707b",
+   "model": "pelagos",
+   "ref": "25707B",
+   "alias": [
+    "M25707B",
+    "M25707B/21",
+    "M25707B-0001"
+   ],
+   "var": 0,
+   "t": "Tudor Pelagos FXD Ref. 25707B",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Die Pelagos für die französischen Kampfschwimmer: blaues Titan, feste Bandstege und eine Lünette für die Navigation unter Wasser.",
+   "bh": [
+    "Entwickelt mit der Marine Nationale",
+    "Feste Stege und Titan",
+    "Das Werk"
+   ],
+   "b": [
+    "Tudor und die französische Marine verbindet eine lange Geschichte: Schon ab den 1950er-Jahren gab die Marine Nationale Tudor Submariner an ihre Taucher aus. 2021 stellte Tudor mit der Pelagos FXD eine Uhr vor, die gemeinsam mit den Kampfschwimmern des Commando Hubert entwickelt wurde.",
+    "»FXD« steht für »fixed«, also feste Bandstege: Statt Federstegen sind die Stege fest mit dem Gehäuse verbunden, und das Band wird durch sie hindurchgezogen. So kann sich die Uhr auch bei einem Steg- oder Bandschaden nicht lösen. Gehäuse und Band sind aus mattem Titan, die blaue Lünette ist einseitig drehbar; sie dient bei der Navigation unter Wasser zum Ablesen der Zeit zwischen Wegpunkten. Die Uhr ist bis 200 Meter wasserdicht und hat kein Datum.",
+    "Im Inneren arbeitet ein Manufakturkaliber von Tudor mit Silizium-Spirale, Chronometerzertifikat und rund 70 Stunden Gangreserve."
+   ],
+   "vh": [
+    [
+     "Schwarze Ausführungen",
+     "Später folgten Pelagos-FXD-Ausführungen in Schwarz, etwa mit Chronograph oder als »Alinghi Red Bull Racing«-Edition."
+    ]
+   ],
+   "m": [
+    "Blaues Titan, feste Bandstege",
+    "Kein Datum, Tiefenangabe 200 m",
+    "Einseitig drehbare Lünette mit blauer Einlage",
+    "Textilband, das durch die Stege gezogen wird"
+   ],
+   "ev": [
+    [
+     "2021",
+     "Vorstellung, entwickelt mit der Marine Nationale"
+    ]
+   ],
+   "x": [
+    "Die festen Stege erlauben nur Durchzugsbänder; ein Wechsel auf Gliederband ist nicht möglich.",
+    "Titan zeigt Kratzer, ist aber sehr leicht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "Titan, feste Bandstege"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "Manufakturwerk, Chronometer, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "tudor-submariner",
+     "c": "Die Tudor Submariner war jahrzehntelang die Uhr der französischen Marinetaucher."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Blancpains Fifty Fathoms entstand 1953 ebenfalls mit französischen Kampfschwimmern."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Omegas Seamaster 300 steht für die klassische Militär-Taucheruhr."
     }
    ]
   }
