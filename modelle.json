@@ -45031,6 +45031,89 @@
      "c": "Jaeger-LeCoultres Duomètre gehört zu den Uhren, die feine Mechanik offen zeigen."
     }
    ]
+  },
+  {
+   "id": "classique-7147",
+   "model": "classique",
+   "ref": "7147",
+   "alias": [
+    "7147BB/12/9WU"
+   ],
+   "var": null,
+   "t": "Breguet Classique Ref. 7147",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Eine kleine Sekunde bei 5 Uhr, Breguet-Zeiger aus gebläutem Stahl und ein flaches Gehäuse mit geriffeltem Rand: Die Classique 7147 fasst die Formensprache Abraham-Louis Breguets in eine moderne Dreizeigeruhr.",
+   "bh": [
+    "Ein Dreizeiger in alter Tradition",
+    "Gehäuse und Zifferblatt",
+    "Das Werk 502.3SD",
+    "Email und Guilloché"
+   ],
+   "b": [
+    "2018 stellte Breguet die Classique 7147 vor, einen schlichten Dreizeiger aus der eleganten Linie des Hauses. Sie greift Gestaltungsmerkmale auf, die Abraham-Louis Breguet um 1800 für seine Taschenuhren entwickelte, und verbindet sie mit einem flachen Automatikwerk.",
+    "Das runde Gehäuse misst 40 Millimeter und ist sehr flach. Der Gehäuserand ist fein geriffelt, die Bandanstöße sind angeschweißt und mit Schrauben befestigt. Auf dem Zifferblatt stehen arabische Breguet-Ziffern, die Zeiger aus gebläutem Stahl haben an der Spitze den typischen hohlen Ring. Die kleine Sekunde sitzt außermittig bei 5 Uhr. Wie bei allen Breguet-Uhren trägt jede 7147 eine individuelle Nummer und eine fast unsichtbare Signatur auf dem Zifferblatt.",
+    "Im Inneren arbeitet das flache Automatikkaliber 502.3SD mit Bauteilen aus Silizium. Es ist durch einen Saphirglasboden zu sehen.",
+    "Bekannt wurde die 7147 zunächst mit einem Zifferblatt aus Grand-Feu-Email. Daneben gibt es Ausführungen mit handguillochiertem, silberfarbenem Zifferblatt, wie die abgebildete Referenz 7147BB/12/9WU in Weißgold."
+   ],
+   "vh": [
+    [
+     "Guilloché: Ref. 7147BB/12/9WU",
+     "Weißgoldgehäuse und silberfarbenes, von Hand guillochiertes Zifferblatt."
+    ],
+    [
+     "Grand-Feu-Email",
+     "Die Ausführungen mit weißem Emailzifferblatt gibt es in Weiß- und Roségold; das Email wird in mehreren Bränden aufgetragen."
+    ]
+   ],
+   "m": [
+    "40 mm, flaches Gehäuse mit geriffeltem Rand",
+    "Kleine Sekunde außermittig bei 5 Uhr",
+    "Breguet-Ziffern und gebläute Breguet-Zeiger",
+    "Angeschweißte Bandanstöße mit Schrauben"
+   ],
+   "ev": [
+    [
+     "2018",
+     "Vorstellung der Classique 7147"
+    ]
+   ],
+   "x": [
+    "Guilloché- und Emailzifferblatt wirken sehr unterschiedlich – beide Ausführungen im Original ansehen.",
+    "Die geheime Signatur auf dem Zifferblatt ist ein Echtheitsmerkmal, das man unter schrägem Licht erkennen kann."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Gold, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "502.3SD, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "fiftysix",
+     "c": "Vacheron Constantins Fiftysix erschien im selben Jahr als runde, klassische Dreizeigeruhr."
+    },
+    {
+     "m": "patrimony",
+     "c": "Die Patrimony steht für dieselbe Idee der flachen, zurückhaltenden Golduhr."
+    },
+    {
+     "m": "saxonia",
+     "c": "Die Lange Saxonia ist das sächsische Gegenstück mit kleiner Sekunde."
+    }
+   ]
   }
  ]
 }
