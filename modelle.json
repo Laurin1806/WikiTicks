@@ -5543,7 +5543,7 @@
     "Die erste Referenz 3700/1A war für ihre Zeit groß und wird deshalb »Jumbo« genannt. Dass eine Uhr dieser Preisklasse aus Edelstahl gefertigt war, galt damals als gewagt. Patek Philippe warb sinngemäß damit, dass eine der teuersten Uhren der Welt aus Stahl sei. Das Gehäuse war zweiteilig und wurde von oben geöffnet, das Werk (Kaliber 28-255 C auf Basis des ultraflachen Jaeger-LeCoultre 920) war besonders flach.",
     "1981 folgte die kleinere Referenz 3800/1A mit 37,5 Millimetern, die bis 2006 gebaut wurde. Die Referenz 5711/1A von 2006 (Kaliber 324 S C) wurde zur begehrtesten Sportuhr ihrer Zeit, mit langen Wartelisten und Gebrauchtpreisen weit über dem Neupreis.",
     "Auf der 5711 bauten Nautilus-Modelle mit Komplikationen auf, etwa mit Chronograph (5980), Jahreskalender (5726), Travel Time (5990) oder ewigem Kalender (5740). Die 5740/1G aus Weißgold zeigt Wochentag, Monat und Datum in drei Hilfszifferblättern, dazu die Mondphase und eine 24-Stunden-Anzeige; ihr ultraflaches Automatikwerk 240 Q mit Mikrorotor hält die Uhr trotz ewigem Kalender schlank.",
-    "2021 stellte Patek Philippe die 5711 ein. Zum Abschied erschienen eine Version mit olivgrünem Zifferblatt und eine auf 170 Stück limitierte Edition mit Tiffany-blauem Zifferblatt (5711/1A-018), die bei einer Auktion für umgerechnet rund 5,8 Millionen Euro verkauft wurde.",
+    "2021 stellte Patek Philippe die 5711 ein. Zum Abschied erschienen eine Version mit olivgrünem Zifferblatt (5711/1A-014) und eine auf 170 Stück limitierte Edition mit Tiffany-blauem Zifferblatt (5711/1A-018), die bei einer Auktion für umgerechnet rund 5,8 Millionen Euro verkauft wurde.",
     "Nachfolger der Stahlversion ist seit 2022 die Referenz 5811/1G aus Weißgold mit 41 Millimetern."
    ],
    "cur": "Ref. 5811/1G · seit 2022",
@@ -5717,6 +5717,22 @@
       "Die Abbildung zeigt die erste Patek Philippe Nautilus, Referenz 3700/1A aus Edelstahl, die Sammler wegen ihrer 42 Millimeter »Jumbo« nennen. Gebaut wurde sie von 1976 bis 1990.",
       "Zu erkennen sind das waagerecht gerillte, dunkelblaue Zifferblatt, die aufgesetzten Stabindizes mit Leuchtmasse, der Doppelindex bei 12 Uhr und das Datum bei 3 Uhr. Einen Sekundenzeiger hat die 3700 nicht, es gibt nur Stunden- und Minutenzeiger. Die achteckige Lünette mit den seitlichen »Ohren« und das integrierte Gliederband prägen das Bild."
      ]
+    },
+    {
+     "n": "Ref. 5711/1A-014 (Olivgrün)",
+     "y": "2021",
+     "v": {
+      "dial": "#3d4a2a",
+      "img": "assets/watches/patek-philippe-nautilus-5711-olive.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt eine Patek Philippe Nautilus Ref. 5711/1A in Edelstahl mit olivgrünem Zifferblatt, wie es die 2021 vorgestellte Abschiedsausführung 5711/1A-014 trägt.",
+      "Zu erkennen sind das waagerecht gerillte Zifferblatt mit Farbverlauf, die aufgesetzten Leuchtindizes, das Datum bei 3 Uhr und das integrierte Stahlband."
+     ],
+     "dial": "Olivgrün",
+     "iref": "5711/1A-014",
+     "irefs": "hoch",
+     "at": "2021: Abschied der 5711"
     }
    ],
    "m": [
@@ -32127,7 +32143,8 @@
   "rolex-gmt-master-16700.jpg": "v",
   "rolex-gmt-master-2-116710ln.jpg": "b",
   "rolex-gmt-master-2-116719blro.jpg": "b",
-  "rolex-submariner-116610ln.jpg": "b"
+  "rolex-submariner-116610ln.jpg": "b",
+  "patek-philippe-nautilus-5711-olive.jpg": "g"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -32289,6 +32306,7 @@
   "patek-philippe-nautilus-3800-1a-blue.jpg": 1016,
   "patek-philippe-nautilus-5711-1a-tiffany-blue.jpg": 768,
   "patek-philippe-nautilus-5711-1a-white.jpg": 1012,
+  "patek-philippe-nautilus-5711-olive.jpg": 768,
   "patek-philippe-nautilus-5740-1g-perpetual.jpg": 957,
   "patek-philippe-nautilus-5811-blue.jpg": 1020,
   "patek-philippe-perpetual-calendar-chronograph-5270-rose-gold.jpg": 350,
@@ -33393,6 +33411,10 @@
   "rolex-submariner-116610ln.jpg": [
    1.05,
    -0.0039
+  ],
+  "patek-philippe-nautilus-5711-olive.jpg": [
+   0.799,
+   0.0163
   ]
  },
  "referenzen": [
@@ -37138,12 +37160,12 @@
     "2006, dreißig Jahre nach der ersten Nautilus, ersetzte Patek Philippe die 3800 durch die Referenz 5711/1A. Mit 40 Millimetern lag sie zwischen der zierlichen 3800 und der »Jumbo«, und Patek überarbeitete viele Details: Die seitlichen Ohren wurden flacher gezeichnet, das Band feiner, die Schließe neu konstruiert. Das Zifferblatt mit den waagerechten Rillen verläuft von Blau in der Mitte zu fast Schwarz am Rand.",
     "Ein wichtiger Unterschied zu den Vorgängerinnen ist das Gehäuse: Es ist dreiteilig und hat einen Saphirglasboden, durch den das Werk zu sehen ist. Im Inneren arbeitet das Automatikkaliber 324 S C mit Zentralsekunde und Datum, ab 2019 das neu konstruierte 26-330 S C. Die Uhr ist bis 120 Meter wasserdicht.",
     "In den 2010er-Jahren wurde die 5711 zum Symbol eines Uhrenmarkts im Ausnahmezustand. Die Wartelisten bei den Konzessionären waren jahrelang, oft nur für ausgewählte Kunden zugänglich, und auf dem Zweitmarkt kostete die Stahluhr ein Mehrfaches ihres Listenpreises. Gerade auf dem Höhepunkt kündigte Patek Philippe Anfang 2021 an, die Produktion einzustellen, damit die Nautilus nicht die ganze Marke überstrahlt.",
-    "Zum Abschied erschien 2021 eine Ausführung mit olivgrünem Zifferblatt, die nur kurz gebaut wurde, und eine auf 170 Stück limitierte Edition mit Tiffany-blauem Zifferblatt (5711/1A-018) zum 170-jährigen Bestehen der Partnerschaft mit dem New Yorker Juwelier Tiffany & Co. Ein Exemplar davon wurde bei einer Wohltätigkeitsauktion für umgerechnet rund 5,8 Millionen Euro verkauft."
+    "Zum Abschied erschien 2021 eine Ausführung mit olivgrünem Zifferblatt (5711/1A-014), die nur kurz gebaut wurde, und eine auf 170 Stück limitierte Edition mit Tiffany-blauem Zifferblatt (5711/1A-018) zum 170-jährigen Bestehen der Partnerschaft mit dem New Yorker Juwelier Tiffany & Co. Ein Exemplar davon wurde bei einer Wohltätigkeitsauktion für umgerechnet rund 5,8 Millionen Euro verkauft."
    ],
    "vh": [
     [
-     "Weißes und grünes Zifferblatt",
-     "Neben dem klassischen Blau gab es die 5711/1A mit weißem Zifferblatt (5711/1A-011) und 2021 mit olivgrünem Zifferblatt (5711/1A-014)."
+     "Weißes Zifferblatt: Ref. 5711/1A-011",
+     "Neben dem klassischen Blau gab es die 5711/1A von Anfang an auch mit weißem Zifferblatt."
     ],
     [
      "Rotgold und Platin",

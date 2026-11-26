@@ -6376,6 +6376,30 @@
    "luenette": "einseitig drehbar, Keramik (Cerachrom) schwarz, 60 Minuten",
    "band": "Oyster-Band, Oystersteel",
    "zifferblatt_optionen": "Schwarz"
+  },
+  "nautilus|5": {
+   "ref": "5711/1A-014",
+   "produktion": "2021",
+   "durchmesser": "40 mm",
+   "hoehe": "8,3 mm",
+   "gehaeuse": "Edelstahl",
+   "glas": "Saphir",
+   "boden": "Saphirglasboden",
+   "werktyp": "Automatik",
+   "manufaktur": "Manufakturwerk",
+   "frequenz": "28.800 A/h (4 Hz)",
+   "gangreserve": "35–45 Stunden",
+   "funktionen": "Stunden, Minuten, Sekunden, Datum",
+   "krone": "verschraubt",
+   "wasserdicht": "120 m",
+   "band": "integriertes Gliederband, Edelstahl",
+   "schliesse": "Nautilus-Faltschließe",
+   "werk": "Kaliber 26-330 S C",
+   "steine": "30",
+   "spirale": "Spiromax (Silinvar)",
+   "zertifizierung": "Patek Philippe Siegel",
+   "genauigkeit": "−3/+2 s/Tag (Patek Philippe Siegel)",
+   "zifferblatt_optionen": "Olivgrün"
   }
  },
  "_refs": {
