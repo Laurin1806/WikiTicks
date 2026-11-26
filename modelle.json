@@ -45987,6 +45987,101 @@
      "c": "Die Piaget Polo S kam kurz zuvor als weitere Stahl-Sportuhr mit integriertem Band."
     }
    ]
+  },
+  {
+   "id": "odysseus-363",
+   "model": "odysseus",
+   "ref": "363.179",
+   "alias": [
+    "363.179"
+   ],
+   "var": null,
+   "t": "A. Lange & Söhne Odysseus Ref. 363.179",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Stahl, ein integriertes Band und Drücker für Tag und Datum: Mit der Odysseus wagte sich A. Lange & Söhne 2019 erstmals an eine Sportuhr – und blieb dabei unverkennbar sächsisch.",
+   "bh": [
+    "Langes erste Stahl-Sportuhr",
+    "Gehäuse und Band",
+    "Das Werk L155.1",
+    "Eine Insider-Wahl"
+   ],
+   "b": [
+    "2019 stellte A. Lange & Söhne die Odysseus vor, die erste Serienuhr der Manufaktur mit Gehäuse aus Edelstahl. Lange baute sie bewusst als Alltagsuhr für jemanden, der eine Uhr seiner Lieblingsmarke auch beim Sport tragen möchte. Die Referenz 363.179 hat ein blaues Zifferblatt.",
+    "Das 40,5 Millimeter große Gehäuse hat eine gerillte Lünette und geht in ein integriertes Gliederband über. Neben der Krone sitzen zwei Drücker, mit denen sich Wochentag und Datum schnell einstellen lassen. Die Uhr ist bis 120 Meter wasserdicht, die Schließe lässt sich ohne Werkzeug fein verstellen.",
+    "Im Inneren arbeitet das Automatikkaliber L155.1 Datomatic, das Lange eigens für die Odysseus entwickelte. Es treibt das Großdatum rechts und die Wochentagsanzeige links an und bietet rund 50 Stunden Gangreserve. Durch den Glasboden sieht man Neusilber und die für Lange typischen Veredelungen.",
+    "Weil Lange die Stückzahlen klein hält, waren Wartelisten von Anfang an die Regel. Neben Nautilus und Royal Oak gilt die Odysseus als Wahl für Kenner, die eine Stahl-Sportuhr mit deutscher Uhrmacherei suchen."
+   ],
+   "vh": [
+    [
+     "Odysseus Chronograph",
+     "2020 erschien ein auf 100 Stück limitierter Odysseus Chronograph mit dem Automatikkaliber L156.1 und eigener Referenz."
+    ],
+    [
+     "Weitere Ausführungen",
+     "Später kamen weitere Ausführungen hinzu, darunter limitierte Versionen mit Titangehäuse."
+    ]
+   ],
+   "m": [
+    "40,5 mm, Edelstahl, integriertes Band",
+    "Großdatum rechts, Wochentag links",
+    "Zwei Drücker neben der Krone für Tag und Datum",
+    "Gerillte Lünette"
+   ],
+   "ev": [
+    [
+     "2019",
+     "Vorstellung der Odysseus Ref. 363.179"
+    ],
+    [
+     "2020",
+     "Limitierter Odysseus Chronograph"
+    ]
+   ],
+   "x": [
+    "Das Band mit werkzeugloser Feinverstellung ist ein Teil des Konzepts – beim Gebrauchtkauf auf vollständige Glieder achten.",
+    "Die Zweitmarktpreise lagen lange über dem Neupreis, sind aber zuletzt gesunken; Vergleichen lohnt sich."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "40,5 mm, Edelstahl, Glasboden"
+    ],
+    [
+     "Wasserdicht",
+     "120 m"
+    ],
+    [
+     "Kaliber",
+     "L155.1 Datomatic, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Großdatum, Wochentag"
+    ],
+    [
+     "Band",
+     "integriertes Gliederband"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas ist eine der klassischen Stahl-Sportuhren mit integriertem Band aus einer Traditionsmanufaktur."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Die Chopard Alpine Eagle erschien im selben Jahr und zielt auf dieselbe Käufergruppe."
+    },
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak ist das Vorbild aller Luxus-Sportuhren mit integriertem Band."
+    }
+   ]
   }
  ]
 }
