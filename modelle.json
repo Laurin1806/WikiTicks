@@ -39471,6 +39471,98 @@
      "c": "Blancpains Fifty Fathoms gehört wie die Seamaster zu den traditionsreichsten Taucheruhren der Schweiz."
     }
    ]
+  },
+  {
+   "id": "speedmaster-57",
+   "model": "speedmaster",
+   "ref": "331.10.42.51",
+   "alias": [
+    "331.10.42.51",
+    "Speedmaster ’57",
+    "Speedmaster '57",
+    "Speedmaster 57"
+   ],
+   "var": 0,
+   "t": "Omega Speedmaster Ref. 331.10.42.51",
+   "bau": "2012–2020",
+   "cap": "",
+   "s": "Die Speedmaster für Liebhaber der allerersten Stunde: die Gestaltung der CK2915 von 1957 mit breitem Pfeilzeiger und Stahllünette, aber mit modernem Automatikwerk.",
+   "bh": [
+    "Rückgriff auf 1957",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber 9300",
+    "Ablösung"
+   ],
+   "b": [
+    "2012 stellte Omega die Speedmaster ’57 vor. Ihr Vorbild ist die erste Speedmaster, die Referenz CK2915, mit der 1957 alles begann – also eine Speedmaster aus der Zeit vor der Raumfahrt. Sie richtete sich an Käufer, die den Vintage-Charakter der Linie schätzen, aber nicht die Moonwatch mit ihrem Bezug zur Mondlandung tragen wollten.",
+    "Das Gehäuse misst 41,5 Millimeter und ist symmetrisch, ohne den Kronenschutz der Moonwatch, mit schlanken, geschwungenen Ohren. Die Lünette ist aus Stahl und trägt die eingravierte Tachymeterskala »TACHYMETRE BASE 1000«. Auf dem Zifferblatt fallen der breite Pfeil-Stundenzeiger (»Broad Arrow«), die Leuchtmasse im cremefarbenen Vintage-Ton und der Schriftzug »Speedmaster ’57« auf.",
+    "Anders als die Moonwatch hat die ’57 ein Automatikwerk, das Co-Axial-Kaliber 9300 aus Omegas eigener Fertigung. Es fasst Stunden- und Minutenzähler in einem Hilfszifferblatt bei 3 Uhr zusammen, sodass die gestoppte Zeit wie auf einer kleinen Uhr abgelesen wird; bei 9 Uhr läuft die kleine Sekunde. Deshalb zeigt die Uhr nur zwei statt drei Hilfszifferblätter.",
+    "Die Referenz 331.10.42.51 wurde bis etwa 2020 gebaut. Anfang der 2020er-Jahre folgte eine neue Generation der Speedmaster ’57 mit kleinerem Gehäuse und Master-Chronometer-Werk mit Handaufzug, die wieder enger an der Vorlage von 1957 liegt."
+   ],
+   "vh": [
+    [
+     "Lederband und Edelmetall",
+     "Neben der Stahlversion am Gliederband gab es die ’57 am Lederband, als Bicolor-Ausführung und in Gold, mit Zifferblättern unter anderem in Schwarz, Blau und Braun."
+    ]
+   ],
+   "m": [
+    "41,5 mm, symmetrisches Gehäuse ohne Kronenschutz",
+    "Stahllünette mit eingravierter Tachymeterskala",
+    "Breiter Pfeil-Stundenzeiger (»Broad Arrow«)",
+    "Zwei Hilfszifferblätter bei 3 und 9 Uhr",
+    "Schriftzug »Speedmaster ’57«"
+   ],
+   "ev": [
+    [
+     "2012",
+     "Vorstellung der Speedmaster ’57 mit Kaliber 9300"
+    ],
+    [
+     "2020",
+     "Ende der Bauzeit der Ref. 331.10.42.51"
+    ]
+   ],
+   "x": [
+    "Die ’57 ist eine gute Wahl für alle, die eine Speedmaster mit Automatikaufzug und Vintage-Optik suchen.",
+    "Das Kaliber 9300 hat einen Glasboden; die zusammengefassten Zähler bei 3 Uhr sind ungewohnt, aber gut ablesbar.",
+    "Die Uhr ist mit 41,5 Millimetern und dem dickeren Automatikwerk höher als die Moonwatch – vorher anprobieren lohnt sich."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2012–2020"
+    ],
+    [
+     "Gehäuse",
+     "41,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "9300, Automatik, Co-Axial"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph mit Tachymeter"
+    ],
+    [
+     "Vorbild",
+     "Speedmaster CK2915 (1957)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "heritage-chrono",
+     "c": "Tudors Heritage Chrono von 2010 griff wie die ’57 einen Chronographen der Vergangenheit auf."
+    },
+    {
+     "m": "black-bay-chrono",
+     "c": "Der Black Bay Chrono stand in diesen Jahren für den Vintage-Look mit modernem Automatikwerk."
+    },
+    {
+     "m": "carrera",
+     "c": "Auch die TAG Heuer Carrera wurde in den 2010er-Jahren mit Anklängen an die Originale der 1960er-Jahre neu aufgelegt."
+    }
+   ]
   }
  ]
 }
