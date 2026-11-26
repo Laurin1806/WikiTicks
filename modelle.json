@@ -46082,6 +46082,114 @@
      "c": "Die Royal Oak ist das Vorbild aller Luxus-Sportuhren mit integriertem Band."
     }
    ]
+  },
+  {
+   "id": "overseas-4500v",
+   "model": "overseas",
+   "ref": "4500V",
+   "alias": [
+    "4500V/110A-B128",
+    "4500V/110R-B705"
+   ],
+   "var": null,
+   "t": "Vacheron Constantin Overseas Ref. 4500V",
+   "bau": "seit 2016",
+   "cap": "",
+   "s": "Die dritte Overseas brachte 2016 ein neues Manufakturwerk mit Genfer Siegel und ein System, mit dem man in Sekunden vom Stahlband zum Lederband wechselt – und wurde damit zur Overseas schlechthin.",
+   "bh": [
+    "Die dritte Generation",
+    "Gehäuse und Bandwechsel",
+    "Das Kaliber 5100",
+    "Neben Royal Oak und Nautilus"
+   ],
+   "b": [
+    "2016 stellte Vacheron Constantin die dritte Generation der Overseas vor. Die Overseas Automatic mit der Referenz 4500V löste die 47040 ab, die mit 42 Millimetern recht groß ausgefallen war. Die neue Uhr wurde mit 41 Millimetern etwas kompakter und in vielen Details überarbeitet.",
+    "Erkennungszeichen bleibt die Lünette mit sechs Einkerbungen, die an eine Hälfte des Malteserkreuzes erinnert, des Wappens der Marke. Neu war ein System zum Bandwechsel ohne Werkzeug: Jede Overseas wird mit einem Metallband, einem Lederband und einem Kautschukband geliefert, die sich über einen Mechanismus an der Bandaufnahme austauschen lassen. Die Glieder des Metallbands haben die Form halber Malteserkreuze. Die Uhr ist bis 150 Meter wasserdicht.",
+    "Im Inneren arbeitet das Automatikkaliber 5100 aus der eigenen Manufaktur mit rund 60 Stunden Gangreserve. Es trägt das Genfer Siegel, ein Qualitätszeichen mit strengen Regeln für Fertigung und Veredelung, und ist durch einen Saphirglasboden zu sehen.",
+    "Mit der 4500V wurde die Overseas zur gefragtesten Uhr von Vacheron Constantin. Als Nautilus und Royal Oak kaum zu bekommen waren, rückte sie für viele Käufer zur dritten großen Genfer Sportuhr auf."
+   ],
+   "vh": [
+    [
+     "Roségold: Ref. 4500V/110R-B705",
+     "Gehäuse, Lünette und Band sind aus Roségold, das Zifferblatt ist blau."
+    ],
+    [
+     "Weitere Zifferblätter",
+     "Neben dem charakteristischen Blau (4500V/110A-B128) gab es die Stahlausführung unter anderem mit silberfarbenem Zifferblatt."
+    ],
+    [
+     "Auf der 4500V aufgebaut: 5500V, 7900V, 4300V",
+     "Zur selben Generation gehören Komplikationen mit eigenen Referenzen: der Chronograph 5500V, die Dual Time 7900V und der ultraflache Ewige Kalender 4300V."
+    ]
+   ],
+   "m": [
+    "41 mm, Lünette mit sechs Einkerbungen",
+    "Integriertes Band mit Gliedern in Form halber Malteserkreuze",
+    "Werkzeugloses Wechselsystem für drei Bänder",
+    "Datum bei 3 Uhr, Saphirglasboden"
+   ],
+   "ev": [
+    [
+     "1996",
+     "Erste Overseas (Ref. 42040)"
+    ],
+    [
+     "2004",
+     "Zweite Generation (Ref. 47040)"
+    ],
+    [
+     "2016",
+     "Dritte Generation mit Ref. 4500V und Kaliber 5100"
+    ]
+   ],
+   "x": [
+    "Zur vollständigen Uhr gehören alle drei Bänder – beim Gebrauchtkauf prüfen, ob Leder- und Kautschukband dabei sind.",
+    "Die blaue Stahlausführung ist die gefragteste; andere Zifferblätter sind oft leichter zu finden."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2016"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl oder Roségold, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "150 m"
+    ],
+    [
+     "Kaliber",
+     "5100, Automatik, Genfer Siegel"
+    ],
+    [
+     "Gangreserve",
+     "≈ 60 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "47040"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "odysseus",
+     "c": "Die Lange Odysseus kam wenige Jahre später als Stahl-Sportuhr einer klassischen Manufaktur hinzu."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle ist eine weitere Luxus-Sportuhr mit integriertem Band aus dieser Zeit."
+    },
+    {
+     "m": "laureato",
+     "c": "Die Laureato von Girard-Perregaux kehrte 2017 als eigene Kollektion zurück und steht im selben Segment."
+    }
+   ]
   }
  ]
 }
