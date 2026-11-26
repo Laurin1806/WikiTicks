@@ -41001,6 +41001,91 @@
      "c": "Casios F-91W erschien kurz darauf und wurde zur zweiten großen Digitaluhren-Ikone der Marke."
     }
    ]
+  },
+  {
+   "id": "ga-2100-ga-2100",
+   "model": "ga-2100",
+   "ref": "GA-2100",
+   "alias": [
+    "GA-2100-1A1"
+   ],
+   "var": null,
+   "t": "Casio G-Shock GA-2100 Ref. GA-2100",
+   "bau": "seit 2019",
+   "cap": "»CasiOak«",
+   "s": "Achteckig, flach und robust: Die GA-2100 brachte der G-Shock 2019 eine neue Schlankheit – und bekam wegen ihrer Form einen berühmten Spitznamen.",
+   "bh": [
+    "Die schlanke G-Shock",
+    "Carbon Core Guard",
+    "Von der Kultuhr zur Familie"
+   ],
+   "b": [
+    "Die GA-2100 erschien 2019 als dünnere G-Shock mit analog-digitaler Anzeige. Ihr achteckiges Gehäuse erinnert an die Royal Oak von Audemars Piguet, deshalb gaben ihr Uhrenfans schnell den Spitznamen »CasiOak«. Die Uhr wurde in kurzer Zeit zu einer der meistgesuchten G-Shocks.",
+    "Möglich wurde die flache Bauweise durch die »Carbon Core Guard«-Struktur: Ein Kern aus kohlefaserverstärktem Kunststoff schützt das Modul und fängt Stöße ab. Mit rund 45 Millimetern ist die Uhr nicht klein, aber deutlich schlanker als klassische G-Shocks. Sie ist stoßfest und bis 200 Meter wasserdicht.",
+    "Die GA-2100 erschien in vielen Farben und Kooperationen. Auf ihr bauen spätere Ausführungen mit Solarantrieb und Bluetooth sowie Versionen mit Metallgehäuse auf."
+   ],
+   "vh": [
+    [
+     "Mit Solar und Bluetooth: Ref. GA-B2100",
+     "Diese Ausführung behält die achteckige Form, lädt sich über eine Solarzelle und verbindet sich mit dem Smartphone."
+    ],
+    [
+     "Mit Metall: Ref. GM-2100",
+     "Hier ist die Lünette aus Metall, was der Uhr einen edleren Auftritt gibt."
+    ]
+   ],
+   "m": [
+    "Achteckige Lünette",
+    "Analog-digitale Anzeige",
+    "Flaches Kunststoffgehäuse, rund 45 mm",
+    "Integriert wirkendes Kunststoffband"
+   ],
+   "ev": [
+    [
+     "2019",
+     "Vorstellung der GA-2100"
+    ]
+   ],
+   "x": [
+    "Die GA-2100 ist sehr leicht und flach – ideal für alle, denen klassische G-Shocks zu klobig sind.",
+    "Wer keine Batterie wechseln möchte, wählt die Solarversion GA-B2100."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "≈ 45 mm, Kunststoff mit Carbon Core Guard"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "Quarz, analog-digital"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Weltzeit, Stoppuhr, Timer, Alarm, Licht"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "prx",
+     "c": "Die Tissot PRX griff kurz darauf ebenfalls den Stil der Uhren mit integriertem Band zu einem zugänglichen Preis auf."
+    },
+    {
+     "m": "moonswatch",
+     "c": "Die MoonSwatch wurde wenig später ebenso zur günstigen Kultuhr, die an eine teure Ikone erinnert."
+    },
+    {
+     "m": "seiko-5",
+     "c": "Die Seiko 5 Sports startete im selben Jahr neu und wurde zur populären Einsteigeruhr aus Japan."
+    }
+   ]
   }
  ]
 }
