@@ -48615,6 +48615,102 @@
      "c": "Audemars Piguets Code 11.59 kam fast zeitgleich als neue, klassisch gezeichnete Linie."
     }
    ]
+  },
+  {
+   "id": "spirit-l3-810",
+   "model": "spirit",
+   "ref": "L3.810.4",
+   "alias": [
+    "L3.810.4.93.6",
+    "L3.810.4"
+   ],
+   "var": null,
+   "t": "Longines Spirit Ref. L3.810.4",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Lindbergh, Earhart und ein Chronometer mit Siliziumspirale: Die Spirit mit 40 Millimetern, Referenz L3.810.4, ist Longines’ Fliegeruhr für die Gegenwart.",
+   "bh": [
+    "Fliegerisches Erbe",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Longines war in den 1920er- und 1930er-Jahren eng mit der Luftfahrt verbunden, stattete Rekordflüge aus und entwickelte mit Charles Lindbergh eine Navigationsuhr. 2020 knüpfte die Marke mit der Spirit-Kollektion an dieses Erbe an. Die Dreizeigeruhr mit 40 Millimetern trägt die Grundreferenz L3.810.4.",
+    "Das Edelstahlgehäuse ist bis 100 Meter wasserdicht und hat eine verschraubte Krone. Das Zifferblatt mit großen arabischen Ziffern, schwertförmigen Zeigern und viel Leuchtmasse ist auf Ablesbarkeit ausgelegt; das Datum sitzt bei 3 Uhr.",
+    "Im Inneren arbeitet das Kaliber L888.4, ein Automatikwerk mit Siliziumspirale, rund 72 Stunden Gangreserve und COSC-Zertifikat. Damit gehörte die Spirit bei ihrer Vorstellung zu den wenigen Chronometern ihrer Preisklasse.",
+    "Die L3.810.4 ist das Kernmodell der Spirit-Linie. Um sie herum entstanden eine größere Ausführung, Chronographen und die Spirit Zulu Time mit zweiter Zeitzone."
+   ],
+   "vh": [
+    [
+     "Zifferblattfarben",
+     "Die L3.810.4 gibt es mit schwarzem, blauem oder silbernem Zifferblatt, an Stahl-, Leder- oder Textilband."
+    ],
+    [
+     "Größere Ausführung: Ref. L3.811.4",
+     "Mit 42 Millimetern und demselben Werk trägt die größere Spirit die Grundreferenz L3.811.4."
+    ],
+    [
+     "Spirit Zulu Time",
+     "2022 kam die Spirit Zulu Time mit zusätzlicher Zeitzone hinzu; sie trägt eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "40 mm, Edelstahl",
+    "Große arabische Ziffern, Schwertzeiger",
+    "Datum bei 3 Uhr",
+    "COSC-Chronometer mit Siliziumspirale"
+   ],
+   "ev": [
+    [
+     "2020",
+     "Vorstellung der Spirit-Kollektion"
+    ],
+    [
+     "2022",
+     "Spirit Zulu Time mit zweiter Zeitzone"
+    ]
+   ],
+   "x": [
+    "Die Spirit wird oft mit mehreren Bändern verkauft; Lieferumfang prüfen.",
+    "Die Siliziumspirale macht das Werk unempfindlich gegen Magnetfelder."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "L888.4, Automatik, COSC-Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "mark-xx",
+     "c": "IWCs Pilot’s Watch Mark XX ist eine Fliegeruhr aus denselben Jahren mit ähnlich klarem Zifferblatt."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Hamiltons Khaki Field ist eine weitere zugängliche Uhr mit militärischem Erbe."
+    },
+    {
+     "m": "avenger",
+     "c": "Breitlings Avenger ist eine robuste Fliegeruhr derselben Jahre."
+    }
+   ]
   }
  ]
 }
