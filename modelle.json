@@ -3230,7 +3230,8 @@
      ],
      "dial": "Grün, Sonnenschliff",
      "iref": "116610LV",
-     "irefs": "hoch"
+     "irefs": "hoch",
+     "tlink": true
     },
     {
      "n": "Ref. 116619LB »Smurf«, 18 Karat Weißgold",
@@ -3248,7 +3249,8 @@
      ],
      "dial": "Tiefblau",
      "iref": "116619LB",
-     "irefs": "hoch"
+     "irefs": "hoch",
+     "tlink": true
     },
     {
      "n": "Ref. 5513",
@@ -3358,8 +3360,16 @@
      "16610LV »Kermit« zum 50. Jubiläum"
     ],
     [
+     "2008",
+     "»Smurf« in Weißgold mit blauer Keramiklünette (Ref. 116619LB)"
+    ],
+    [
      "2010",
      "Cerachrom-Lünette, »Super Case«"
+    ],
+    [
+     "2010",
+     "»Hulk« mit grünem Zifferblatt und grüner Lünette (Ref. 116610LV)"
     ],
     [
      "2020",
