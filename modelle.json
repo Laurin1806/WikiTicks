@@ -45316,6 +45316,106 @@
      "c": "Die Panerai Luminor Marina teilt das militärische Taucher-Erbe und das große Format."
     }
    ]
+  },
+  {
+   "id": "fiftysix-4600e",
+   "model": "fiftysix",
+   "ref": "4600E",
+   "alias": [
+    "4600E/000R-B441",
+    "Fiftysix Self-Winding"
+   ],
+   "var": null,
+   "t": "Vacheron Constantin Fiftysix Ref. 4600E",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Die Fiftysix Self-Winding ist der Dreizeiger, mit dem Vacheron Constantin 2018 ein jüngeres Publikum gewinnen wollte – rund, schlicht und mit geschwungenen Bandanstößen aus den 1950er-Jahren.",
+   "bh": [
+    "Ein Vorbild von 1956",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber 1326",
+    "Einstieg in die Marke"
+   ],
+   "b": [
+    "2018 stellte Vacheron Constantin die Fiftysix vor. Vorbild war die Referenz 6073 von 1956. Die Referenz 4600E ist der Dreizeiger mit Datum und die Grundform der Kollektion.",
+    "Das runde Gehäuse misst 40 Millimeter. Typisch sind die geschwungenen Bandanstöße, deren Form an einen Arm des Malteserkreuzes erinnert, des Wappens der Marke. Das Zifferblatt kombiniert arabische Ziffern mit Stabindizes und hat ein Datumsfenster bei 3 Uhr.",
+    "Im Inneren arbeitet das Automatikkaliber 1326 mit rund 48 Stunden Gangreserve, das durch einen Glasboden zu sehen ist.",
+    "Die Fiftysix gilt als Einstieg in das Programm von Vacheron Constantin. Sie richtet sich an Käufer, die eine Alltagsuhr in Stahl oder Gold mit klassischer Gestaltung suchen."
+   ],
+   "vh": [
+    [
+     "Roségold: Ref. 4600E/000R-B441",
+     "Die Ausführung mit roségoldenem Gehäuse, silberfarbenem Zifferblatt und braunem Lederband."
+    ],
+    [
+     "Edelstahl",
+     "Die 4600E gibt es auch in Edelstahl, mit Zifferblättern in Silber, Blau oder Grau."
+    ],
+    [
+     "Komplikationen: Ref. 4400E und 4000E",
+     "Auf demselben Gehäuse aufgebaut sind die Fiftysix Day-Date mit Gangreserveanzeige (4400E) und der Vollkalender mit Mondphase (4000E)."
+    ]
+   ],
+   "m": [
+    "40 mm, rundes Gehäuse",
+    "Geschwungene Bandanstöße nach Art des Malteserkreuzes",
+    "Arabische Ziffern und Stabindizes",
+    "Datum bei 3 Uhr, Glasboden"
+   ],
+   "ev": [
+    [
+     "1956",
+     "Vorbild Ref. 6073"
+    ],
+    [
+     "2018",
+     "Vorstellung der Fiftysix Ref. 4600E"
+    ]
+   ],
+   "x": [
+    "Die Stahlausführung ist der günstigste Weg zu einer neuen Vacheron Constantin.",
+    "Die Roségoldausführung mit Lederband wirkt deutlich klassischer als die Stahlversionen – bei der Wahl auf den gewünschten Einsatz achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl oder Roségold, Glasboden"
+    ],
+    [
+     "Kaliber",
+     "1326, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 48 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorbild",
+     "6073 (1956)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "odysseus",
+     "c": "Auch A. Lange & Söhne suchte mit der Odysseus wenig später neue Käufer jenseits der klassischen Golduhr."
+    },
+    {
+     "m": "code-11-59",
+     "c": "Audemars Piguets Code 11.59 kam 2019 als runde Alltagsuhr einer großen Manufaktur."
+    },
+    {
+     "m": "master-control",
+     "c": "Die Jaeger-LeCoultre Master Control ist eine ähnlich klassische, runde Automatikuhr für jeden Tag."
+    }
+   ]
   }
  ]
 }
