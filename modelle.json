@@ -47987,6 +47987,94 @@
      "c": "Tudors Pelagos ist die professionellere Taucheruhr derselben Jahre."
     }
    ]
+  },
+  {
+   "id": "legend-diver-l3-774",
+   "model": "legend-diver",
+   "ref": "L3.774.4",
+   "alias": [
+    "L3.774.4.50.0",
+    "L3.774.4"
+   ],
+   "var": null,
+   "t": "Longines Legend Diver Ref. L3.774.4",
+   "bau": "seit Ende der 2010er-Jahre",
+   "cap": "",
+   "s": "Zwei Kronen, ein Drehring unter dem Glas und ein Werk mit drei Tagen Gangreserve: Die L3.774.4 ist die Legend Diver mit 42 Millimetern in ihrer modernen technischen Fassung.",
+   "bh": [
+    "Eine frühe Erfolgs-Neuauflage",
+    "Gehäuse und Innenring",
+    "Das Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Longines legte 2007 eine eigene Taucheruhr von 1960 als Legend Diver neu auf und traf damit den beginnenden Trend zu Vintage-Neuauflagen. Die Ausführungen mit 42 Millimetern und dem Kaliber L888 tragen die Grundreferenz L3.774.4; sie lösten die ersten Modelle mit älterem Werk ab.",
+    "Wie beim Vorbild hat die Uhr keine äußere Drehlünette, sondern einen innen liegenden Ring unter dem Glas, der über die obere der beiden Kronen gedreht wird. So kann er nicht versehentlich verstellt werden. Das Zifferblatt trägt arabische Ziffern bei 6, 9 und 12, Schwertzeiger mit cremefarbener Leuchtmasse und ein Datum bei 3 Uhr. Das Edelstahlgehäuse ist bis 300 Meter wasserdicht.",
+    "Im Inneren arbeitet das Automatikkaliber L888, das Longines auf Basis eines ETA-Werks exklusiv bekommt. Es schwingt mit 25.200 Halbschwingungen pro Stunde und erreicht damit rund 72 Stunden Gangreserve.",
+    "Die L3.774.4 ist die bekannteste Form der Legend Diver und eine der zugänglichsten Taucheruhren mit echtem Vintage-Bezug. Daneben gibt es Ausführungen mit kleinerem Gehäuse, ohne Datum oder in Bronze, die eigene Referenzen tragen."
+   ],
+   "vh": [
+    [
+     "Band und Zifferblatt",
+     "Die L3.774.4 gibt es mit schwarzem und anderen Zifferblättern, an Leder-, Kautschuk-, Textil- oder Milanaiseband; die Endung der Referenz unterscheidet die Ausführungen."
+    ],
+    [
+     "Andere Legend-Diver-Modelle",
+     "Kleinere Legend Diver, Varianten ohne Datum und Bronzeausführungen tragen eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "42 mm, Edelstahl, zwei Kronen",
+    "Innen liegender Drehring unter dem Glas",
+    "Arabische Ziffern bei 6, 9 und 12, Schwertzeiger",
+    "Datum bei 3 Uhr, »Automatic« in Schreibschrift"
+   ],
+   "ev": [
+    [
+     "1960",
+     "Vorbild: Longines-Taucheruhr mit Innenring"
+    ],
+    [
+     "2007",
+     "Erste Legend Diver"
+    ]
+   ],
+   "x": [
+    "Ältere Legend Diver mit Vorgängerwerk haben deutlich weniger Gangreserve; auf die Referenz achten.",
+    "Der Innenring sollte sich mit der oberen Krone sauber und ohne Spiel drehen lassen."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl, zwei Kronen"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "L888, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Innendrehring"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "fifty-fathoms",
+     "c": "Die Fifty Fathoms ist die andere große Taucheruhr der 1950er-Jahre, die heute als Neuauflage gebaut wird."
+    },
+    {
+     "m": "divers-sixty-five",
+     "c": "Oris’ Divers Sixty-Five greift ebenfalls eine Taucheruhr der 1960er-Jahre auf."
+    },
+    {
+     "m": "black-bay",
+     "c": "Tudors Black Bay steht für denselben Erfolg von Taucheruhren mit Vintage-Anklängen."
+    }
+   ]
   }
  ]
 }
