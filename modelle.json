@@ -49146,6 +49146,92 @@
      "c": "Die Master Control von Jaeger-LeCoultre ist die klassische runde Herrenuhr eines anderen Richemont-Hauses."
     }
    ]
+  },
+  {
+   "id": "big-pilot-iw3293",
+   "model": "big-pilot",
+   "ref": "IW3293",
+   "alias": [
+    "IW329301",
+    "3293"
+   ],
+   "var": null,
+   "t": "IWC Big Pilot's Watch 43 Ref. IW3293",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Die Big Pilot in tragbarer Größe: 43 Millimeter, Zwiebelkrone, Dreieck mit zwei Punkten und ein Bandwechselsystem ohne Werkzeug.",
+   "bh": [
+    "Die große Fliegeruhr, kleiner gemacht",
+    "Gehäuse und Zifferblatt",
+    "Kaliber 82100",
+    "Stellung im Programm"
+   ],
+   "b": [
+    "Die erste Big Pilot von 1940 hatte 55 Millimeter und wurde über der Fliegerjacke getragen, die Neuauflage von 2002 (Ref. 5002) brachte es auf 46 Millimeter. 2021 stellte IWC mit der Big Pilot's Watch 43 (Ref. IW3293) eine kompaktere Version vor. Die Referenz IW329301 hat ein Edelstahlgehäuse, ein mattschwarzes Zifferblatt und ein braunes Lederband mit Nieten an den Anstößen.",
+    "Das Zifferblatt folgt dem Original: große weiße arabische Ziffern, eine Minuterie mit Strichindizes, das Dreieck mit zwei Punkten bei 12 Uhr und Schwertzeiger mit Leuchtmasse. Die große kannelierte Zwiebelkrone ist geblieben. Anders als die große Big Pilot hat die 43 weder Datum noch Gangreserveanzeige.",
+    "Im Inneren arbeitet das IWC-Kaliber 82100 mit Pellaton-Aufzug, 28.800 Halbschwingungen pro Stunde und rund 60 Stunden Gangreserve. Die Uhr ist bis 100 Meter wasserdicht. Mit dem EasX-Change-System lassen sich die Bänder ohne Werkzeug wechseln.",
+    "Mit der 43 wurde die Big Pilot für viele Handgelenke erst tragbar. Sie steht neben der großen Big Pilot mit sieben Tagen Gangreserve und der Mark XX im Fliegeruhrenprogramm von IWC."
+   ],
+   "m": [
+    "43-mm-Stahlgehäuse",
+    "Große kannelierte Zwiebelkrone",
+    "Dreieck mit zwei Punkten bei 12 Uhr",
+    "Kein Datum, keine Gangreserveanzeige"
+   ],
+   "ev": [
+    [
+     "1940",
+     "Erste Big Pilot mit 55 mm"
+    ],
+    [
+     "2002",
+     "Big Pilot Ref. 5002 mit 46 mm"
+    ],
+    [
+     "2021",
+     "Big Pilot's Watch 43, Ref. IW3293"
+    ]
+   ],
+   "x": [
+    "Wer die Optik der großen Big Pilot mag, aber ein schmales Handgelenk hat, ist mit der 43 besser bedient.",
+    "Zusätzliche Bänder mit EasX-Change passen ohne Werkzeug; beim Kauf nach mitgelieferten Originalbändern fragen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "43 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "82100, Automatik mit Pellaton-Aufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "pilot-type-20",
+     "c": "Zeniths Pilot Type 20 greift ebenfalls die großen Fliegeruhren der frühen Luftfahrt auf."
+    },
+    {
+     "m": "br-03",
+     "c": "Die Bell & Ross BR 03 ist eine andere Fliegeruhr, die Cockpit-Instrumente ans Handgelenk bringt."
+    },
+    {
+     "m": "laco-aachen",
+     "c": "Die Laco Flieger Aachen folgt wie die Big Pilot dem Vorbild der Beobachtungsuhren der 1940er-Jahre."
+    }
+   ]
   }
  ]
 }
