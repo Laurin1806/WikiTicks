@@ -53210,6 +53210,99 @@
      "c": "Omegas Planet Ocean war in denselben Jahren eine Sportuhr mit Keramiklünette."
     }
    ]
+  },
+  {
+   "id": "gmt-master-16700",
+   "model": "gmt-master",
+   "ref": "16700",
+   "alias": [],
+   "var": 7,
+   "t": "Rolex GMT-Master Ref. 16700",
+   "bau": "1988–1999",
+   "cap": "",
+   "s": "Die letzte GMT-Master ohne »II«: ein Jahrzehnt lang die schlichtere Schwester der GMT-Master II, mit gekoppeltem 24-Stunden-Zeiger und klassischer Aluminiumlünette.",
+   "bh": [
+    "Zwei GMT-Master nebeneinander",
+    "Gehäuse und Werk",
+    "Pepsi und Schwarz",
+    "Das Ende der ersten Linie"
+   ],
+   "b": [
+    "Seit 1983 gab es mit der 16760 die GMT-Master II, deren Stundenzeiger sich einzeln verstellen lässt. Rolex führte die ursprüngliche GMT-Master trotzdem weiter: 1988 löste die 16700 die 16750 ab und wurde bis 1999 neben der GMT-Master II 16710 angeboten – als einfachere und günstigere Ausführung.",
+    "Das Gehäuse aus Edelstahl misst 40 Millimeter, Krone und Boden sind verschraubt, über dem Zifferblatt sitzt Saphirglas mit Zykloplupe über dem Datum. Im Inneren arbeitet das Kaliber 3175 mit Datumsschnellschaltung. Sein 24-Stunden-Zeiger ist wie bei allen GMT-Master ohne »II« fest mit dem Stundenzeiger gekoppelt; eine zweite Zeitzone stellt man über die drehbare Lünette ein.",
+    "Die 16700 kam mit rot-blauer »Pepsi«- oder ganz schwarzer Lünette. Die Einlagen aus Aluminium verblassen mit der Zeit, besonders das Rot. Die meisten Exemplare haben Tritium-Leuchtmasse, die heute cremefarben gealtert ist; ganz späte Zifferblätter tragen Luminova.",
+    "1999 stellte Rolex die 16700 ein; seitdem gibt es nur noch die GMT-Master II. Weil sie äußerlich der 16710 fast gleicht, aber ein schlichteres Werk hat, ist die 16700 heute ein vergleichsweise zugänglicher Einstieg in die klassische GMT-Master."
+   ],
+   "vh": [
+    [
+     "»Pepsi«",
+     "Mit rot-blauer Aluminiumlünette, der klassischen GMT-Farbkombination."
+    ],
+    [
+     "Schwarz",
+     "Mit ganz schwarzer Lünette, die zurückhaltendere Ausführung."
+    ]
+   ],
+   "m": [
+    "40 mm, Aluminiumlünette mit 24-Stunden-Skala",
+    "Schriftzug »GMT-Master« ohne »II«",
+    "Roter 24-Stunden-Zeiger, mit dem Stundenzeiger gekoppelt",
+    "Kaliber 3175"
+   ],
+   "ev": [
+    [
+     "1988",
+     "Vorstellung als Nachfolgerin der Ref. 16750"
+    ],
+    [
+     "1999",
+     "Einstellung; danach nur noch die GMT-Master II"
+    ]
+   ],
+   "x": [
+    "Am Werk und am Zifferblattschriftzug erkennt man die 16700 sicher; die Lünette allein unterscheidet sie nicht von der 16710.",
+    "Gleichmäßig gealterte Tritium-Leuchtmasse an Zeigern und Indizes ist ein Zeichen für Originalität."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1988–1999"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "3175, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, 24-Stunden-Zeiger (gekoppelt)"
+    ],
+    [
+     "Lünette",
+     "beidseitig drehbar, Aluminium"
+    ],
+    [
+     "Vorgänger",
+     "16750"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die Submariner Date 16610 kam im selben Jahr und teilt Gehäusestil und Aluminiumlünette."
+    },
+    {
+     "m": "explorer-2",
+     "c": "Der Explorer II 16570 bot in denselben Jahren eine zweite Zeitzone mit fester Lünette."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M war in den 1990er-Jahren die große Sportuhr-Konkurrenz."
+    }
+   ]
   }
  ]
 }
