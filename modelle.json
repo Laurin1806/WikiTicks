@@ -3264,6 +3264,62 @@
       "Die Abbildung zeigt eine Rolex Submariner Referenz 5513 aus Edelstahl, die Variante ohne Datum und ohne Chronometerzertifikat, die von 1962 bis 1989 gebaut wurde. Das schwarze Zifferblatt hat matte Oberfläche, die Leuchtmasse ist zu einem Cremeton gealtert.",
       "Zu erkennen sind runde Leuchtindizes, Balken bei 3, 6 und 9 Uhr und das Dreieck bei 12 Uhr, dazu der Mercedes-Stundenzeiger und ein Sekundenzeiger mit Leuchtpunkt. Unter der Mitte stehen »SUBMARINER« und »660ft = 200m«; die schwarze Lünette trägt eine 60-Minuten-Skala mit Leuchtpunkt im Dreieck. Rechts sitzt die verschraubte Krone zwischen dem Kronenschutz, das Band ist ein Oyster-Band."
      ]
+    },
+    {
+     "n": "Ref. 16610",
+     "y": "1988–2010",
+     "v": {
+      "img": "assets/watches/rolex-submariner-16610.jpg"
+     },
+     "dial": "Schwarz",
+     "iref": "16610",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex Submariner Date Referenz 16610 aus Edelstahl mit schwarzer Aluminiumlünette und Oyster-Band, gebaut von 1988 bis 2010.",
+      "Zu erkennen sind die runden Leuchtindizes in Weißgoldfassungen, die Balken bei 6 und 9 Uhr, das Dreieck bei 12 Uhr, der Mercedes-Stundenzeiger, das Datum mit Zykloplupe bei 3 Uhr und die Aufschriften »SUBMARINER«, »1000ft = 300m« und »SUPERLATIVE CHRONOMETER OFFICIALLY CERTIFIED«."
+     ]
+    },
+    {
+     "n": "Ref. 126610LN",
+     "y": "seit 2020",
+     "v": {
+      "img": "assets/watches/rolex-submariner-126610ln-2.jpg"
+     },
+     "dial": "Schwarz",
+     "iref": "126610LN",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt die aktuelle Rolex Submariner Date Referenz 126610LN aus Oystersteel mit schwarzer Cerachrom-Lünette und Oyster-Band.",
+      "Zu erkennen sind die großen Leuchtindizes, das Datum mit Zykloplupe und die kleine Rolex-Krone zwischen »SWISS« und »MADE« bei 6 Uhr, das Erkennungszeichen der Generation seit 2020."
+     ]
+    },
+    {
+     "n": "Ref. 6538 »Big Crown«",
+     "y": "1955–1959",
+     "v": {
+      "img": "assets/watches/rolex-submariner-6538.jpg"
+     },
+     "dial": "Schwarz",
+     "iref": "6538",
+     "irefs": "mittel",
+     "bd": [
+      "Die Abbildung zeigt eine frühe Rolex Submariner ohne Kronenschutz mit großer Krone, wie sie als Referenz 6538 »Big Crown« in den späten 1950er-Jahren gebaut wurde. Gehäuse und Band tragen deutliche Gebrauchsspuren.",
+      "Zu erkennen sind die runden Leuchtpunkte, Balken bei 3, 6 und 9 Uhr, das Dreieck bei 12 Uhr, der Mercedes-Stundenzeiger, die Aufschriften »OYSTER PERPETUAL«, »SUBMARINER« und »660ft = 200m« sowie die zu einem warmen Beige gealterte Leuchtmasse."
+     ]
+    },
+    {
+     "n": "Ref. 6538 »Big Crown«, tropisches Zifferblatt",
+     "y": "1955–1959",
+     "v": {
+      "img": "assets/watches/rolex-submariner-6538-tropical.jpg"
+     },
+     "dial": "Braun (tropisch)",
+     "iref": "6538",
+     "irefs": "mittel",
+     "bd": [
+      "Die Abbildung zeigt eine frühe Rolex Submariner ohne Kronenschutz mit großer Krone im Stil der Referenz 6538 »Big Crown«, deren ursprünglich schwarzes Zifferblatt durch Sonnenlicht braun geworden ist (»tropical«).",
+      "Zu erkennen sind goldfarbene Aufschriften »200m = 660ft« und »SUBMARINER«, gealterte Leuchtpunkte und -balken, ein Mercedes-Stundenzeiger und eine Lünette mit rotem Dreieck bei 12 Uhr."
+     ]
     }
    ],
    "m": [
@@ -31829,7 +31885,11 @@
   "rolex-oyster-perpetual-bubbleback.jpg": "n",
   "omega-seamaster-300-ck2913.jpg": "v",
   "tudor-submariner-9411-0.jpg": "v",
-  "audemars-piguet-royal-oak-5402-blue-2.jpg": "v"
+  "audemars-piguet-royal-oak-5402-blue-2.jpg": "v",
+  "rolex-submariner-16610.jpg": "g",
+  "rolex-submariner-126610ln-2.jpg": "b",
+  "rolex-submariner-6538.jpg": "v",
+  "rolex-submariner-6538-tropical.jpg": "v"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -32043,9 +32103,13 @@
   "rolex-sky-dweller-336934-blue.jpg": 996,
   "rolex-submariner-116610lv-hulk.jpg": 1080,
   "rolex-submariner-116619lb-smurf.jpg": 736,
+  "rolex-submariner-126610ln-2.jpg": 768,
   "rolex-submariner-126610ln.jpg": 1080,
+  "rolex-submariner-16610.jpg": 768,
   "rolex-submariner-1680-red.jpg": 679,
   "rolex-submariner-5513.jpg": 548,
+  "rolex-submariner-6538-tropical.jpg": 768,
+  "rolex-submariner-6538.jpg": 768,
   "rolex-turn-o-graph-116264-black.jpg": 484,
   "rolex-yacht-master-126622-slate.jpg": 1057,
   "rolex-yacht-master-ii-116680.jpg": 1081,
@@ -33034,6 +33098,22 @@
   "audemars-piguet-royal-oak-5402-blue-2.jpg": [
    0.987,
    -0.0015
+  ],
+  "rolex-submariner-16610.jpg": [
+   1.037,
+   0.0148
+  ],
+  "rolex-submariner-126610ln-2.jpg": [
+   1.012,
+   0.0052
+  ],
+  "rolex-submariner-6538.jpg": [
+   0.936,
+   -0.0105
+  ],
+  "rolex-submariner-6538-tropical.jpg": [
+   1.08,
+   0.0039
   ]
  },
  "referenzen": [
