@@ -40462,6 +40462,107 @@
      "c": "Die Oris Aquis ist eine weitere moderne Taucheruhr für jeden Tag."
     }
    ]
+  },
+  {
+   "id": "ranger-m79950",
+   "model": "ranger",
+   "ref": "M79950",
+   "alias": [
+    "M79950-0001",
+    "79950"
+   ],
+   "var": null,
+   "t": "Tudor Ranger Ref. M79950",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Ziffern 3, 6 und 9, matter Stahl und ein Pfeil als Stundenzeiger: Die Ranger von 2022 ist Tudors schnörkellose Werkzeuguhr – kleiner und besser als ihre Vorgängerin.",
+   "bh": [
+    "2022: Neuauflage mit 39 Millimetern",
+    "Gehäuse und Kaliber MT5402",
+    "Das Zifferblatt",
+    "Die Erinnerung an Grönland"
+   ],
+   "b": [
+    "Den Namen Ranger trug bei Tudor schon Ende der 1960er-Jahre eine einfache Oyster-Uhr mit großen Ziffern. 2014 brachte Tudor die Heritage Ranger (Ref. 79910) mit 41 Millimetern und zugekauftem Werk zurück. 2022 ersetzte die Ranger M79950 diese Uhr: kleiner, flacher und mit Manufakturwerk.",
+    "Das Edelstahlgehäuse misst 39 Millimeter, ist rund 12 Millimeter hoch und bis 100 Meter wasserdicht. Es ist vollständig satiniert, was Kratzer weniger sichtbar macht und zum Werkzeugcharakter passt. Im Inneren arbeitet das Manufakturkaliber MT5402 mit rund 70 Stunden Gangreserve und COSC-Zertifikat – dasselbe Werk wie in der Black Bay Fifty-Eight.",
+    "Das matte schwarze Zifferblatt trägt die arabischen Ziffern 12, 3, 6 und 9 und Stabindizes mit beigefarbener Leuchtmasse. Der Stundenzeiger hat eine Pfeilspitze, der Sekundenzeiger eine rote Spitze. Ein Datum gibt es nicht, die Lünette ist glatt. Angeboten wird die Uhr am Stahlband, an einem Textilband oder an einem Band aus Kautschuk und Leder.",
+    "Tudor stellt die Ranger bewusst in die Tradition der British North Greenland Expedition von 1952 bis 1954, bei der Tudor-Uhren rund zwei Jahre lang unter extremen Bedingungen getragen wurden. Heute gehört sie zu den günstigsten Tudor-Modellen mit Manufakturwerk und Chronometer-Zertifikat."
+   ],
+   "vh": [
+    [
+     "Vorgängerin: Ref. 79910",
+     "Die Heritage Ranger von 2014 bis 2022 mit 41 Millimetern, Vintage-Optik und zugekauftem Werk."
+    ],
+    [
+     "Bänder",
+     "Die M79950 gibt es am satinierten Stahlband, am Textilband mit Naht und an einem Hybridband aus Kautschuk und Leder."
+    ]
+   ],
+   "m": [
+    "39 mm, Edelstahl, vollständig satiniert",
+    "Arabische Ziffern 12, 3, 6 und 9",
+    "Pfeilförmiger Stundenzeiger, Sekundenzeiger mit roter Spitze",
+    "Glatte Lünette, kein Datum"
+   ],
+   "ev": [
+    [
+     "1952",
+     "British North Greenland Expedition mit Tudor-Uhren"
+    ],
+    [
+     "2014",
+     "Heritage Ranger, Ref. 79910"
+    ],
+    [
+     "2022",
+     "Ranger M79950 mit Kaliber MT5402"
+    ]
+   ],
+   "x": [
+    "Mit rund 12 Millimetern Höhe passt die Ranger gut unter Hemdmanschetten.",
+    "Die satinierten Flächen lassen sich bei Bedarf in der Werkstatt gut auffrischen.",
+    "Wer mehr Wasserdichtigkeit und eine Lünette möchte, findet dasselbe Werk in der Black Bay Fifty-Eight."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl, satiniert"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "MT5402, Automatik, COSC-Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorgänger",
+     "79910 (Heritage Ranger)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "explorer",
+     "c": "Die Rolex Explorer 124270 mit ihren Ziffern 3, 6 und 9 ist das große Vorbild der Ranger."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Hamiltons Khaki Field ist eine weitere schlichte Feld- und Werkzeuguhr dieser Jahre."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Seamaster Aqua Terra ist eine andere vielseitige Alltagsuhr ohne Taucherlünette aus derselben Zeit."
+    }
+   ]
   }
  ]
 }
