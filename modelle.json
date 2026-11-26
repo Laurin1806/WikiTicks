@@ -4160,7 +4160,8 @@
      ],
      "dial": "Schwarz",
      "iref": "116719BLRO",
-     "irefs": "hoch"
+     "irefs": "hoch",
+     "tlink": true
     }
    ],
    "m": [
@@ -4194,6 +4195,10 @@
     [
      "2013",
      "Erste zweifarbige Keramiklünette, »Batman« (Ref. 116710BLNR)"
+    ],
+    [
+     "2014",
+     "Erste rot-blaue Keramiklünette, in Weißgold (Ref. 116719BLRO)"
     ],
     [
      "2018",
