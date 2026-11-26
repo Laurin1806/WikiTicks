@@ -41609,6 +41609,89 @@
      "c": "Die Rolex Daytona war in den 1970er-Jahren der bekannteste Sportchronograph – damals noch mit Handaufzug."
     }
    ]
+  },
+  {
+   "id": "seiko-monster-srpd27",
+   "model": "seiko-monster",
+   "ref": "SRPD27",
+   "alias": [
+    "SRPD / SRP Monster"
+   ],
+   "var": null,
+   "t": "Seiko Monster Ref. SRPD27",
+   "bau": "seit Ende der 2010er-Jahre",
+   "cap": "",
+   "s": "Breite Schultern, gezahnte Lünette, Zeiger wie Klingen: Die SRPD27 bringt die Monster in einer neueren Generation zurück, ohne ihren Charakter zu zähmen.",
+   "bh": [
+    "Ein Monster der neuen Generation",
+    "Gehäuse und Werk",
+    "Die Szene um die Monster"
+   ],
+   "b": [
+    "Die erste Monster, die SKX779 mit dem Werk 7S26, hatte in den 2000er-Jahren mit ihrem wuchtigen Auftritt eine eigene Fangemeinde gewonnen; den Spitznamen gab ihr die Sammlergemeinde. Seiko entwickelte die Uhr in mehreren Generationen weiter. Die SRPD27 gehört zur neueren Monster-Generation mit dem Werk 4R36.",
+    "Das Edelstahlgehäuse misst rund 42 Millimeter, ist bis 200 Meter wasserdicht und trägt die Krone bei 4 Uhr. Auffällig sind die einseitig drehbare Lünette mit grob gezahntem Rand, die großen, unregelmäßig geformten Leuchtindizes und die kräftigen Zeiger. Das Werk 4R36 lässt sich anders als das alte 7S26 von Hand aufziehen und hat einen Sekundenstopp.",
+    "Um die Monster gibt es eine große Szene für Anpassungen: Zifferblätter, Zeiger und Lünetten werden getauscht, daraus entstehen ganz individuelle Uhren. Gleichzeitig ist sie eine vollwertige Taucheruhr für den Alltag."
+   ],
+   "m": [
+    "42 mm, Edelstahl, Krone bei 4 Uhr",
+    "Lünette mit grob gezahntem Rand",
+    "Große, kräftige Leuchtindizes",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Erste Monster SKX779 mit Werk 7S26"
+    ],
+    [
+     "Ende 2010er",
+     "Neuere Generation mit SRPD27 und Werk 4R36"
+    ]
+   ],
+   "x": [
+    "Die Monster trägt sich wuchtiger, als der Durchmesser vermuten lässt – vor dem Kauf am Handgelenk ausprobieren.",
+    "Bei gebrauchten Uhren prüfen, ob Zifferblatt und Zeiger original sind, denn viele Monster wurden umgebaut."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit Ende der 2010er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "4R36, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "SKX779"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "promaster-diver",
+     "c": "Citizens Promaster Diver ist die direkte japanische Konkurrenz unter den günstigen Taucheruhren."
+    },
+    {
+     "m": "aquis",
+     "c": "Die Oris Aquis ist eine ähnlich kräftig gebaute Taucheruhr aus der Schweiz."
+    },
+    {
+     "m": "hydroconquest",
+     "c": "Die Longines HydroConquest gilt als nächste Stufe für viele, die mit einer Seiko-Taucheruhr angefangen haben."
+    }
+   ]
   }
  ]
 }
