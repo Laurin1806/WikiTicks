@@ -37648,6 +37648,97 @@
      "c": "Die Jaeger-LeCoultre Reverso zeigt wie die Golden Ellipse, wie eine ungewöhnliche Gehäuseform zur Ikone werden kann."
     }
    ]
+  },
+  {
+   "id": "twenty4-4910",
+   "model": "twenty4",
+   "ref": "4910",
+   "alias": [
+    "4910/10A"
+   ],
+   "var": null,
+   "t": "Patek Philippe Twenty~4 Ref. 4910",
+   "bau": "seit 1999",
+   "cap": "",
+   "s": "Ein rechteckiges Stahlgehäuse, zwei Reihen Diamanten und ein Gliederband: Mit der Twenty~4 wagte Patek Philippe 1999 eine Damenuhr, die vom Büro bis zum Abendessen passen sollte.",
+   "bh": [
+    "Eine Uhr für 24 Stunden",
+    "Gehäuse und Gestaltung",
+    "Quarz statt Mechanik",
+    "Bedeutung"
+   ],
+   "b": [
+    "1999 stellte Patek Philippe die Twenty~4 mit der Referenz 4910 vor. Sie war gezielt für Frauen gedacht, die eine Uhr für den ganzen Tag wollten, und sprach ein jüngeres Publikum an, als es Patek Philippe bis dahin erreichte. Der Name verweist auf die 24 Stunden eines Tages.",
+    "Das rechteckige Gehäuse geht in ein Gliederband aus Edelstahl über. An den Seiten sitzen zwei Reihen Diamanten, die abgebildete Ausführung 4910/10A trägt dazu ein blaues Zifferblatt mit Sonnenschliff, römische Ziffern bei 12 und 6 Uhr und Diamanten als Stundenindizes. Die Krone ist mit einem blauen Cabochon besetzt.",
+    "Im Inneren arbeitet ein Quarzwerk. Für eine Marke, die vor allem für mechanische Komplikationen bekannt ist, war das ein bewusster Schritt: Die Twenty~4 sollte unkompliziert sein und jederzeit die richtige Zeit zeigen.",
+    "Die 4910 wurde zu einem der wichtigsten Modelle für Patek Philippe und öffnete der Marke einen neuen Kundenkreis. Bis heute baut Patek Philippe die rechteckige Twenty~4 in vielen Varianten; seit 2018 gibt es daneben die runde Automatikversion 7300."
+   ],
+   "vh": [
+    [
+     "Edelstahl mit Diamanten: Ref. 4910/10A",
+     "Die abgebildete Ausführung ist die bekannteste Form: Stahlgehäuse mit zwei Diamantreihen und Stahlband."
+    ],
+    [
+     "Rund und mit Automatik: Ref. 7300",
+     "Seit 2018 ergänzt die runde Twenty~4 mit 36 Millimetern und Automatikkaliber 324 S C die rechteckige Form."
+    ]
+   ],
+   "m": [
+    "Rechteckiges Gehäuse aus Edelstahl",
+    "Zwei Diamantreihen an den Gehäuseseiten",
+    "Römische Ziffern bei 12 und 6 Uhr",
+    "Krone mit Cabochon, Gliederband"
+   ],
+   "ev": [
+    [
+     "1999",
+     "Vorstellung der Ref. 4910"
+    ],
+    [
+     "2018",
+     "Runde Twenty~4 mit Automatik (Ref. 7300)"
+    ]
+   ],
+   "x": [
+    "Bei gebrauchten Uhren das Band auf Längung und fehlende Glieder prüfen.",
+    "Die Diamanten sollten vollzählig und fest gefasst sein; Ersatz ist beim Hersteller aufwendig."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 1999"
+    ],
+    [
+     "Gehäuse",
+     "rechteckig, Edelstahl, mit Diamanten"
+    ],
+    [
+     "Kaliber",
+     "Quarz"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ],
+    [
+     "Verwandt",
+     "seit 2018: 7300 (rund, Automatik)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "panthere",
+     "c": "Cartiers Panthère ist die bekannteste Damenuhr mit Gliederband und eine direkte Konkurrentin."
+    },
+    {
+     "m": "happy-diamonds",
+     "c": "Chopards Happy Diamonds zeigt, wie Diamanten eine Damenuhr verspielt statt streng wirken lassen."
+    },
+    {
+     "m": "tank",
+     "c": "Die Cartier Tank ist wie die Twenty~4 eine rechteckige Uhr, die zum Alltag wie zum Abend passt."
+    }
+   ]
   }
  ]
 }
