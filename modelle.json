@@ -44672,6 +44672,86 @@
      "c": "Jaeger-LeCoultres Master Control erschien 1992 ebenfalls als schlichte, klassische Dreizeigeruhr."
     }
    ]
+  },
+  {
+   "id": "tetra-401",
+   "model": "tetra",
+   "ref": "401",
+   "alias": [
+    "401",
+    "Tetra"
+   ],
+   "var": null,
+   "t": "Nomos Tetra Ref. 401",
+   "bau": "seit 1992",
+   "cap": "",
+   "s": "Ein Quadrat von 29,5 Millimetern, schlanke Ziffern und eine kleine Sekunde: Mit der Tetra wagte Nomos schon 1992 eine eckige Uhr in einer Welt runder Gehäuse.",
+   "bh": [
+    "Die eckige Schwester",
+    "Gehäuse und Werk",
+    "Klein, aber präsent",
+    "Heute"
+   ],
+   "b": [
+    "Die Tetra erschien 1992 als quadratisches Modell der ersten Nomos-Kollektion, neben Tangente, Orion und Ludwig. Ihr Zifferblatt ist mit den schmalen arabischen Ziffern und der kleinen Sekunde eng mit der Tangente verwandt, das Gehäuse aber ist ein Quadrat mit schmalem Rand.",
+    "Das Edelstahlgehäuse misst 29,5 Millimeter und hat kurze, gerade Bandanstöße. Im Inneren arbeitet das Handaufzugskaliber Alpha, die kleine Sekunde sitzt bei 6 Uhr. Wie bei den anderen Uhren der ersten Kollektion gibt es kein Datum.",
+    "In einer Branche, in der fast alles rund ist, fällt die Tetra auf. Sie ist klein, wirkt durch die Ecken aber präsenter, als ihre Größe vermuten lässt. Sie wird oft als Damenuhr gekauft, aber auch von Männern getragen, die eine zierliche, ungewöhnliche Uhr suchen.",
+    "Die Grundform ist seit über 30 Jahren erhalten geblieben. Neuere Ausführungen bringen farbige Zifferblätter wie Blau oder Grün; die weiße Tetra mit Handaufzug ist aber das Original und für viele der Einstieg in die Marke."
+   ],
+   "vh": [
+    [
+     "Farbige Zifferblätter",
+     "Neben dem klassischen hellen Zifferblatt gibt es neuere Tetra-Ausführungen in Blau oder Grün, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "Quadratisches Edelstahlgehäuse, 29,5 mm",
+    "Schmale arabische Ziffern wie bei der Tangente",
+    "Gebläute Zeiger",
+    "Kleine Sekunde bei 6 Uhr, kein Datum"
+   ],
+   "ev": [
+    [
+     "1992",
+     "Vorstellung mit den ersten Nomos-Modellen"
+    ]
+   ],
+   "x": [
+    "Die Tetra trägt sich sehr klein; wer große Uhren gewohnt ist, sollte sie vor dem Kauf anprobieren.",
+    "Bei quadratischen Gehäusen zeigen sich Stöße an den Ecken besonders deutlich – beim Gebrauchtkauf genau hinsehen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 1992"
+    ],
+    [
+     "Gehäuse",
+     "quadratisch, 29,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Alpha, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "tank",
+     "c": "Die Cartier Tank ist das große Vorbild für eckige Uhren und zeigt, wie zeitlos eine kantige Form sein kann."
+    },
+    {
+     "m": "reverso",
+     "c": "Die Reverso ist eine andere rechteckige Klassikerin, die sich gegen die runde Mehrheit behauptet."
+    },
+    {
+     "m": "max-bill",
+     "c": "Die Junghans max bill folgt wie die Tetra dem Bauhaus-Gedanken der klaren, reduzierten Form."
+    }
+   ]
   }
  ]
 }
