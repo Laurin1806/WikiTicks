@@ -41086,6 +41086,89 @@
      "c": "Die Seiko 5 Sports startete im selben Jahr neu und wurde zur populären Einsteigeruhr aus Japan."
     }
    ]
+  },
+  {
+   "id": "gs-sbgw231-sbgw231",
+   "model": "gs-sbgw231",
+   "ref": "SBGW231",
+   "alias": [
+    "SBGW231"
+   ],
+   "var": null,
+   "t": "Grand Seiko SBGW231 Ref. SBGW231",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Keine Leuchtmasse, kein Datum, nur das Wesentliche: Die SBGW231 ist Grand Seiko in seiner stillsten und vielleicht reinsten Form.",
+   "bh": [
+    "Erbin der ersten Grand Seiko",
+    "Gehäuse und Zifferblatt",
+    "Das Handaufzugswerk 9S64"
+   ],
+   "b": [
+    "Die erste Grand Seiko von 1960 sollte zeigen, dass eine japanische Uhr mit den besten Schweizer Uhren mithalten kann. Die SBGW231 aus der Elegance-Kollektion, erhältlich seit 2017, nimmt dieses Erbe auf und übersetzt es in eine zurückhaltende Dresswatch.",
+    "Das Edelstahlgehäuse misst 37,3 Millimeter und ist bis 30 Meter wasserdicht. Das elfenbeinfarbene Zifferblatt trägt polierte Stabindizes und Dauphine-Zeiger mit dem für Grand Seiko typischen Zaratsu-Spiegelschliff. Auf Datum und Leuchtmasse wird bewusst verzichtet.",
+    "Im Inneren arbeitet das Handaufzugskaliber 9S64 mit 28.800 Halbschwingungen pro Stunde und rund 72 Stunden Gangreserve. Durch den Glasboden lässt es sich beobachten. Für viele gilt die SBGW231 als eine der klassischsten Dresswatches ihrer Preisklasse."
+   ],
+   "m": [
+    "37,3 mm, Edelstahl",
+    "Elfenbeinfarbenes Zifferblatt ohne Datum",
+    "Polierte Stabindizes und Dauphine-Zeiger",
+    "Glasboden mit Handaufzugswerk"
+   ],
+   "ev": [
+    [
+     "1960",
+     "Erste Grand Seiko"
+    ],
+    [
+     "2017",
+     "Vorstellung der SBGW231"
+    ]
+   ],
+   "x": [
+    "Die Uhr hat keine Leuchtmasse – im Dunkeln ist sie nicht ablesbar.",
+    "Mit 30 Metern Wasserdichtigkeit ist sie eine reine Kleiduhr und nichts zum Schwimmen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "37,3 mm, Edelstahl, Glasboden"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "9S64, Handaufzug, ≈ 72 h Gangreserve"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorbild",
+     "Erste Grand Seiko (1960)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Die Vacheron Constantin Patrimony ist eine ebenso schlichte, klassische Dresswatch – in einer anderen Preisklasse."
+    },
+    {
+     "m": "tangente",
+     "c": "Die Nomos Tangente steht für dieselbe Idee: Handaufzug, wenig Zierrat, viel Klarheit."
+    },
+    {
+     "m": "saxonia",
+     "c": "Die A. Lange & Söhne Saxonia gehört zu den reduzierten Kleiduhren, mit denen die SBGW231 oft verglichen wird."
+    }
+   ]
   }
  ]
 }
