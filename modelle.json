@@ -46607,6 +46607,91 @@
      "c": "Der Breitling Navitimer ist der klassische Fliegerchronograph einer anderen Marke."
     }
    ]
+  },
+  {
+   "id": "villeret-6651",
+   "model": "villeret",
+   "ref": "6651",
+   "alias": [
+    "6651-1127-55B"
+   ],
+   "var": null,
+   "t": "Blancpain Villeret Ref. 6651",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Flach, rund und ohne jede Spielerei: Die Villeret 6651 ist der klassische Dreizeiger mit Datum aus der ältesten Uhrenmarke der Welt.",
+   "bh": [
+    "Die klassische Blancpain",
+    "Gehäuse und Zifferblatt",
+    "Das Werk"
+   ],
+   "b": [
+    "Die Villeret ist die klassische Kollektion von Blancpain und trägt den Namen des Ortes im Berner Jura, in dem das Haus 1735 gegründet wurde. Die Referenz 6651 ist ihr einfacher Dreizeiger mit Datum.",
+    "Das runde Gehäuse misst 40 Millimeter, ist flach und an den Flanken gestuft. Das weiße Zifferblatt trägt schlanke Zeiger, ein Datumsfenster bei 3 Uhr und eine feine Minuteneinteilung. Eine Zwiebelkrone gibt der Uhr den Charakter einer klassischen Taschenuhr.",
+    "Im Inneren arbeitet das Automatikkaliber 1151 mit zwei Federhäusern und einer Gangreserve von rund vier Tagen, das durch einen Saphirglasboden zu sehen ist."
+   ],
+   "vh": [
+    [
+     "Edelstahl: Ref. 6651-1127-55B",
+     "Die Ausführung in Edelstahl mit weißem Zifferblatt und schwarzem Lederband."
+    ],
+    [
+     "Rotgold",
+     "Die 6651 gibt es auch in Rotgold."
+    ]
+   ],
+   "m": [
+    "40 mm, flaches, gestuftes Gehäuse",
+    "Weißes Zifferblatt mit schlanken Zeigern",
+    "Datum bei 3 Uhr",
+    "Zwiebelkrone"
+   ],
+   "ev": [
+    [
+     "1735",
+     "Gründung von Blancpain in Villeret"
+    ]
+   ],
+   "x": [
+    "Gebraucht ist die Villeret meist günstiger als vergleichbare Modelle anderer großer Marken.",
+    "Die Stahlausführung ist die alltagstauglichste Wahl; die Goldversion wirkt deutlich formeller."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl oder Rotgold, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "1151, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 4 Tage"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Die Patrimony von Vacheron Constantin ist die Genfer Dresswatch aus denselben Jahren."
+    },
+    {
+     "m": "master-control",
+     "c": "Jaeger-LeCoultres Master Control ist ein ähnlich klassischer Dreizeiger mit Datum."
+    },
+    {
+     "m": "fiftysix",
+     "c": "Die Fiftysix steht für dieselbe klassische Rundform im Programm einer traditionsreichen Marke."
+    }
+   ]
   }
  ]
 }
