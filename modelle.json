@@ -37276,6 +37276,103 @@
      "c": "Piagets Altiplano setzt die gleiche Zurückhaltung mit noch flacheren Gehäusen um."
     }
    ]
+  },
+  {
+   "id": "calatrava-5524",
+   "model": "calatrava",
+   "ref": "5524",
+   "alias": [
+    "5524G",
+    "5524G-001",
+    "5524R"
+   ],
+   "var": 2,
+   "t": "Patek Philippe Calatrava Ref. 5524",
+   "bau": "seit 2015",
+   "cap": "",
+   "s": "Große arabische Ziffern, breite Leuchtzeiger und zwei Drücker an der linken Flanke: Mit der Pilot Travel Time überraschte Patek Philippe 2015 alle, die von der Calatrava nur schlichte Dresswatches erwarteten.",
+   "bh": [
+    "Eine Fliegeruhr von Patek",
+    "Zwei Zeitzonen mit einer Hand",
+    "Gehäuse und Werk",
+    "Umstritten und erfolgreich"
+   ],
+   "b": [
+    "2015 stellte Patek Philippe die Calatrava Pilot Travel Time 5524G vor. Sie erinnert an die Fliegeruhren, die das Haus in den 1930er-Jahren baute, und brachte einen Stil ins Programm, den man von der Marke kaum kannte: großes Gehäuse, arabische Ziffern, mit Leuchtmasse belegte Zeiger und ein dunkelblaues Zifferblatt.",
+    "Die Uhr zeigt zwei Zeitzonen. Der Stundenzeiger für die Ortszeit lässt sich mit den Drückern bei 8 und 10 Uhr stundenweise vor- oder zurückstellen, während die Heimatzeit auf einem zweiten, skelettierten Zeiger weiterläuft. Zwei kleine Fenster mit den Aufschriften »LOCAL« und »HOME« zeigen für beide Zeiten Tag oder Nacht an, das Datum bei 6 Uhr folgt der Ortszeit.",
+    "Das Gehäuse misst 42 Millimeter und war zunächst nur in Weißgold erhältlich, 2018 kam Roségold (5524R) hinzu. Im Inneren arbeitet das Automatikkaliber 324 S C FUS mit rund 45 Stunden Gangreserve, das Patek Philippe auch in anderen Travel-Time-Modellen verwendet.",
+    "Bei ihrer Vorstellung wurde die 5524 kontrovers aufgenommen, weil sie so wenig nach klassischer Calatrava aussah. Inzwischen gilt sie als eigenständige Linie innerhalb der Familie, die Patek Philippe später um weitere Pilot-Travel-Time-Modelle erweiterte."
+   ],
+   "vh": [
+    [
+     "Weißgold: Ref. 5524G",
+     "Die erste und abgebildete Ausführung 5524G-001 hat ein dunkelblaues Zifferblatt und ein braunes Lederband."
+    ],
+    [
+     "Roségold: Ref. 5524R",
+     "Seit 2018 gibt es die Pilot Travel Time auch in Roségold mit braunem Zifferblatt."
+    ],
+    [
+     "Kleiner: Ref. 7234",
+     "Mit 37,5 Millimetern ist die 7234 eine kleinere Version der Pilot Travel Time mit derselben Funktion."
+    ],
+    [
+     "Mit Chronograph: Ref. 5924",
+     "Die 5924 ergänzt das Konzept der Pilot Travel Time um einen Flyback-Chronographen."
+    ]
+   ],
+   "m": [
+    "42 mm, große arabische Ziffern, Leuchtzeiger",
+    "Zwei Drücker an der linken Gehäuseseite",
+    "Tag-Nacht-Fenster »LOCAL« und »HOME«",
+    "Datum im Hilfszifferblatt bei 6 Uhr"
+   ],
+   "ev": [
+    [
+     "2015",
+     "Vorstellung der Ref. 5524G in Weißgold"
+    ],
+    [
+     "2018",
+     "Ausführung in Roségold (5524R)"
+    ]
+   ],
+   "x": [
+    "Vor dem Kauf sollte man prüfen, ob beide Drücker die Ortszeit sauber in beide Richtungen verstellen.",
+    "Wer die Funktion in kleinerem Format sucht, sollte sich die 7234 mit 37,5 Millimetern ansehen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2015"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Weiß- oder Roségold"
+    ],
+    [
+     "Kaliber",
+     "324 S C FUS, Automatik, ≈ 45 Stunden Gangreserve"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunde, zweite Zeitzone, Tag-Nacht-Anzeige, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "big-pilot",
+     "c": "IWCs Big Pilot's Watch steht für dieselbe Rückbesinnung auf die großen Fliegeruhren der 1930er- und 1940er-Jahre."
+    },
+    {
+     "m": "black-bay-gmt",
+     "c": "Die Tudor Black Bay GMT erschien in denselben Jahren und spricht Reisende mit zweiter Zeitzone an."
+    },
+    {
+     "m": "pilot-type-20",
+     "c": "Zeniths Pilot Type 20 griff in den 2010er-Jahren ebenfalls die Gestaltung historischer Fliegeruhren auf."
+    }
+   ]
   }
  ]
 }
