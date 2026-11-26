@@ -38605,6 +38605,100 @@
      "c": "Der Breitling Chronomat ist ein weiterer kräftiger Sportchronograph mit hauseigenem Werk aus diesen Jahren."
     }
    ]
+  },
+  {
+   "id": "aqua-terra-220",
+   "model": "aqua-terra",
+   "ref": "220.10.41.21.03.001",
+   "alias": [
+    "220.10.41.21",
+    "220.10.41.21.03.001"
+   ],
+   "var": null,
+   "t": "Omega Seamaster Aqua Terra Ref. 220.10.41.21.03.001",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Die Aqua Terra in ihrer heutigen Form: Seit 2017 laufen die Teakstreifen waagerecht, das Datum sitzt bei 6 Uhr, und im Inneren arbeitet ein Master-Chronometer-Werk.",
+   "bh": [
+    "Neu gezeichnet 2017",
+    "Das Teakzifferblatt",
+    "Werk und Gehäuse",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "2017 überarbeitete Omega die Aqua Terra grundlegend. Die neue Referenz 220.10.41.21 löste die Generation 231.10.42.21 ab, die seit 2008 gebaut worden war. Das Gehäuse wurde mit 41 Millimetern etwas kleiner, Ohren und Proportionen wurden neu gezeichnet.",
+    "Wichtigstes Erkennungszeichen bleibt das Zifferblatt mit Streifen, die an die Planken eines Teakdecks auf einer Segelyacht erinnern. Seit dieser Generation laufen sie waagerecht statt senkrecht. Das Datumsfenster wanderte von 3 auf 6 Uhr, wodurch das Zifferblatt symmetrischer wirkt.",
+    "Im Inneren arbeitet das Automatikkaliber 8900 mit Co-Axial-Hemmung, zwei Federhäusern und rund 60 Stunden Gangreserve. Als Master Chronometer ist es vom Institut METAS geprüft und widersteht Magnetfeldern bis 15.000 Gauß – eine Fähigkeit, die Omega 2013 ausgerechnet in einer Aqua Terra erstmals vorgestellt hatte. Die Uhr hat einen Glasboden und ist bis 150 Meter wasserdicht.",
+    "Die 220.10.41.21 ist heute die Allround-Uhr unter den Seamaster-Modellen: sportlich genug für den Urlaub, elegant genug für den Anzug. Auf ihrem Gehäuse bauen auch GMT- und Worldtimer-Modelle mit eigenen Referenzen auf."
+   ],
+   "vh": [
+    [
+     "Kleinere Größe: 38 mm",
+     "Parallel gibt es die Aqua Terra mit 38 Millimetern, die eine eigene Referenz trägt."
+    ],
+    [
+     "Farben und Bänder",
+     "Die 41-Millimeter-Version gibt es mit blauem, schwarzem, silbernem und weiteren Zifferblättern, an Stahl- oder Lederband und auch in Gold."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl, Glasboden",
+    "Waagerechtes Teakmuster auf dem Zifferblatt",
+    "Datum bei 6 Uhr",
+    "Facettierte Stabindizes und Zeiger",
+    "Bis 150 m wasserdicht"
+   ],
+   "ev": [
+    [
+     "2017",
+     "Vorstellung der Ref. 220.10.41.21 mit waagerechtem Teakmuster und Kaliber 8900"
+    ]
+   ],
+   "x": [
+    "Wer das senkrechte Teakmuster bevorzugt, findet es nur bei den älteren Generationen bis 2017.",
+    "Die Gangreserve von rund 60 Stunden reicht über ein Wochenende.",
+    "Die letzten Stellen der Referenz bezeichnen Zifferblattfarbe und Band."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl, Glasboden"
+    ],
+    [
+     "Wasserdicht",
+     "150 m"
+    ],
+    [
+     "Kaliber",
+     "8900, Automatik, Co-Axial, Master Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "231.10.42.21"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "explorer",
+     "c": "Die Rolex Explorer ist wie die Aqua Terra eine schlichte Alltagsuhr mit sportlichem Hintergrund."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas wurde 2016 erneuert und verbindet ebenfalls Sportlichkeit mit Eleganz."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle von 2019 zielt auf dieselben Käufer einer eleganten Stahluhr für jeden Tag."
+    }
+   ]
   }
  ]
 }
