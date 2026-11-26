@@ -43806,6 +43806,94 @@
      "c": "Die Cartier Crash ist wie die Ventura eine Uhr, die vor allem durch ihre ungewöhnliche Form berühmt wurde."
     }
    ]
+  },
+  {
+   "id": "laco-aachen-861990",
+   "model": "laco-aachen",
+   "ref": "861990",
+   "alias": [
+    "861990",
+    "Aachen 39"
+   ],
+   "var": null,
+   "t": "Laco Flieger Aachen Ref. 861990",
+   "bau": "seit 2014",
+   "cap": "",
+   "s": "Dreieck mit zwei Punkten bei 12 Uhr, große Ziffern, Zwiebelkrone: Die Aachen trägt die Gestaltung der historischen Beobachtungsuhren in ein alltagstaugliches Gehäuse von 39 Millimetern.",
+   "bh": [
+    "Erbe der B-Uhr",
+    "Muster A",
+    "Gehäuse und Werk",
+    "Die Basic-Linie"
+   ],
+   "b": [
+    "In den 1940er-Jahren bauten fünf Hersteller, darunter Laco aus Pforzheim, große Beobachtungsuhren für Navigatoren der Luftwaffe. Diese B-Uhren hatten 55 Millimeter, ein Taschenuhrwerk, ein schwarzes Zifferblatt mit großen Ziffern und eine übergroße Krone, die sich mit Handschuhen bedienen ließ.",
+    "Die Aachen folgt der Zifferblattgestaltung »Muster A«: große arabische Stundenziffern von 1 bis 11, eine Minuterie am Rand und bei 12 Uhr das Dreieck mit zwei Punkten, das die Orientierung im Dunkeln erleichtert. Die Zeiger sind schwertförmig und mit Leuchtmasse belegt.",
+    "Das Edelstahlgehäuse misst 39 Millimeter und ist bis 50 Meter wasserdicht, die große Zwiebelkrone erinnert an die historischen Vorbilder. Im Inneren arbeitet das Automatikkaliber Laco 21 mit rund 42 Stunden Gangreserve. Getragen wird die Uhr klassisch an einem Lederband mit Nieten.",
+    "Die Aachen gehört zur Basic-Linie von Laco, die die Fliegeruhr in heute gängigen Größen und mit Automatikwerk anbietet. Die Modelle sind nach Städten benannt; die Aachen steht dabei für die klassische Ausführung mit Stundenziffern."
+   ],
+   "vh": [
+    [
+     "Muster B",
+     "Neben der Aachen mit Stundenziffern (Muster A) bietet Laco in der Basic-Linie auch Modelle mit großem Minutenring und kleinem Stundenring innen an (Muster B), die andere Städtenamen tragen."
+    ]
+   ],
+   "m": [
+    "39 mm, Edelstahl, große Zwiebelkrone",
+    "Schwarzes Zifferblatt »Muster A« mit Stundenziffern",
+    "Dreieck mit zwei Punkten bei 12 Uhr",
+    "Schwertzeiger mit Leuchtmasse, Lederband mit Nieten"
+   ],
+   "ev": [
+    [
+     "1940er",
+     "Laco baut Beobachtungsuhren für die Luftwaffe"
+    ],
+    [
+     "2014",
+     "Aachen 39 in der Basic-Linie"
+    ]
+   ],
+   "x": [
+    "Die Aachen ist ein günstiger Einstieg in die klassische Fliegeruhr; wer mehr Präsenz möchte, findet bei Laco auch größere Gehäuse.",
+    "50 Meter Wasserdichtigkeit reichen für den Alltag, zum Schwimmen eignet sich die Uhr am Lederband nicht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2014"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "Laco 21, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "big-pilot",
+     "c": "Die IWC Big Pilot geht auf dieselben Beobachtungsuhren zurück – IWC war einer der fünf Hersteller."
+    },
+    {
+     "m": "sinn-104",
+     "c": "Die Sinn 104 ist eine andere deutsche Fliegeruhr mit Automatikwerk in ähnlicher Größe."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Die Hamilton Khaki Field Mechanical ist eine ebenso schnörkellose Uhr mit militärischen Wurzeln."
+    }
+   ]
   }
  ]
 }
