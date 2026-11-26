@@ -43454,6 +43454,94 @@
      "c": "Die MoonSwatch löste ein Jahr nach der PRX einen ähnlichen Ansturm auf eine bezahlbare Uhr aus der Swatch Group aus."
     }
    ]
+  },
+  {
+   "id": "sub-300-840-10-351-10",
+   "model": "sub-300",
+   "ref": "840.10.351.10",
+   "var": null,
+   "t": "Doxa SUB 300T Ref. 840.10.351.10",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Orange Zifferblatt, Dekompressionstabelle auf der Lünette, Beads-of-Rice-Band: Die SUB 300T Professional holt das Erkennungszeichen von Doxa in die Gegenwart.",
+   "bh": [
+    "Orange seit 1967",
+    "Gehäuse und Lünette",
+    "Die Neuauflage",
+    "Was die Referenz verrät"
+   ],
+   "b": [
+    "Doxa stellte die SUB 300 1967 vor, entwickelt zusammen mit erfahrenen Tauchern; das orange Zifferblatt war unter Wasser besonders gut ablesbar. Auf die SUB 300 folgte die SUB 300T. Die Referenz 840.10.351.10 ist die Neuauflage der SUB 300T mit orangem Zifferblatt, das bei Doxa »Professional« heißt.",
+    "Das kissenförmige Edelstahlgehäuse trägt eine drehbare Lünette, die neben der Minutenskala eine Tabelle für Tauchzeiten ohne Dekompressionspause zeigt, mit Tiefenangaben in Orange. Das Zifferblatt hat breite Leuchtindizes, einen kurzen, breiten Stundenzeiger und ein Datum bei 3 Uhr; die Krone ist verschraubt.",
+    "Getragen wird die Uhr an einem Stahlband mit vielen kleinen, gerundeten Gliedern im Stil der historischen Beads-of-Rice-Bänder. Auf dem Zifferblatt stehen »DOXA automatic« und »SUB 300T professional«.",
+    "Doxa bietet die Neuauflage in mehreren Farben an, die jeweils eigene Namen tragen. Orange bleibt dabei das bekannteste Gesicht der Marke – auch durch die Romanfigur Dirk Pitt von Clive Cussler, die eine Doxa trägt."
+   ],
+   "vh": [
+    [
+     "Andere Farben",
+     "Neben »Professional« in Orange gibt es die SUB 300T unter anderem als »Sharkhunter« mit schwarzem, »Searambler« mit silbernem und »Caribbean« mit blauem Zifferblatt."
+    ],
+    [
+     "Kautschukband",
+     "Statt des Stahlbands gibt es die Uhr auch an einem Kautschukband."
+    ]
+   ],
+   "m": [
+    "Kissenförmiges Edelstahlgehäuse",
+    "Oranges Zifferblatt (»Professional«)",
+    "Lünette mit Dekompressionstabelle",
+    "»SUB 300T professional« auf dem Zifferblatt, Beads-of-Rice-Band"
+   ],
+   "ev": [
+    [
+     "1967",
+     "Erste SUB 300"
+    ],
+    [
+     "2019",
+     "Neuauflage der SUB 300T"
+    ]
+   ],
+   "x": [
+    "Die Dekompressionstabelle ist historisch – für echte Tauchgänge nutzt man heute Tauchcomputer.",
+    "SUB 300 und SUB 300T sehen sich ähnlich; auf die Aufschrift und die Referenz (840 für die 300T) achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "42,5 mm, Edelstahl, kissenförmig"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette mit Dekompressionstabelle"
+    ],
+    [
+     "Vorbild",
+     "SUB 300 von 1967"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay",
+     "c": "Die Tudor Black Bay ist die bekannteste Retro-Taucheruhr derselben Jahre."
+    },
+    {
+     "m": "divers-sixty-five",
+     "c": "Die Oris Divers Sixty-Five greift ebenfalls eine Taucheruhr der 1960er-Jahre auf."
+    },
+    {
+     "m": "captain-cook",
+     "c": "Die Rado Captain Cook ist eine weitere Neuauflage einer Taucheruhr aus den 1960er-Jahren."
+    }
+   ]
   }
  ]
 }
