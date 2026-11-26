@@ -49232,6 +49232,87 @@
      "c": "Die Laco Flieger Aachen folgt wie die Big Pilot dem Vorbild der Beobachtungsuhren der 1940er-Jahre."
     }
    ]
+  },
+  {
+   "id": "da-vinci-iw3931",
+   "model": "da-vinci",
+   "ref": "IW3931",
+   "alias": [
+    "IW393101"
+   ],
+   "var": null,
+   "t": "IWC Da Vinci Chronograph Ref. IW3931",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Der Da Vinci Chronograph der Generation von 2017: rundes Gehäuse mit beweglichen Bandanstößen, weißes Zifferblatt und ein Manufakturwerk, das die gestoppten Stunden und Minuten in einem Zähler zeigt.",
+   "bh": [
+    "Ein Name mit Geschichte",
+    "Gehäuse mit beweglichen Anstößen",
+    "Das Werk",
+    "Stellung in der Familie"
+   ],
+   "b": [
+    "Den Namen Da Vinci trug bei IWC 1969 zunächst eine Quarzuhr mit Beta-21-Werk, ab 1985 der ewige Kalender mit Chronograph von Kurt Klaus. 2017 legte IWC die Linie mit runden Gehäusen neu auf. Die Referenz IW393101 ist der Da Vinci Chronograph aus Edelstahl mit weißem Zifferblatt und schwarzem Lederband.",
+    "Typisch für diese Generation sind die Bandanstöße, die beweglich am runden Gehäuse angesetzt sind und sich dem Handgelenk anpassen. Das Zifferblatt zeigt schwarze arabische Ziffern und gebläute Blattzeiger; zwei Hilfszifferblätter liegen bei 12 und 6 Uhr, im unteren sitzt das Datum.",
+    "Im Inneren arbeitet ein Automatik-Chronographenwerk aus IWCs eigener Kaliberfamilie 89000. Es zeigt die gestoppten Stunden und Minuten gemeinsam im oberen Hilfszifferblatt, sodass man die Stoppzeit wie eine zweite Uhrzeit ablesen kann.",
+    "Neben dem Chronographen umfasst die Linie Automatikmodelle, Mondphasen und Ausführungen mit ewigem Kalender. Gebraucht liegt der Chronograph deutlich unter dem Neupreis."
+   ],
+   "m": [
+    "Rundes Stahlgehäuse mit beweglichen Bandanstößen",
+    "Weißes Zifferblatt mit arabischen Ziffern",
+    "Zwei Hilfszifferblätter bei 12 und 6 Uhr",
+    "Gebläute Blattzeiger"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Erste Da Vinci mit Quarzwerk"
+    ],
+    [
+     "1985",
+     "Da Vinci mit ewigem Kalender und Chronograph"
+    ],
+    [
+     "2017",
+     "Neue Generation mit dem Da Vinci Chronograph, Ref. IW3931"
+    ]
+   ],
+   "x": [
+    "Die beweglichen Anstöße auf Spiel und Beschädigungen prüfen.",
+    "Da die Linie weniger gefragt ist als Portugieser oder Fliegeruhren, sind gebrauchte Exemplare oft günstig."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "rund, Edelstahl, bewegliche Bandanstöße"
+    ],
+    [
+     "Kaliber",
+     "Automatik, IWC-Kaliberfamilie 89000"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay-chrono",
+     "c": "Tudors Black Bay Chrono von 2017 ist ein anderer Automatikchronograph aus demselben Jahr, mit einem Werk auf Basis des Breitling-Kalibers B01."
+    },
+    {
+     "m": "chronomaster",
+     "c": "Der Zenith Chronomaster steht für den klassischen Manufakturchronographen."
+    },
+    {
+     "m": "datograph",
+     "c": "Der Datograph von A. Lange & Söhne ist das Maß für elegante Chronographen mit Manufakturwerk."
+    }
+   ]
   }
  ]
 }
