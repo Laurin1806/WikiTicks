@@ -38320,6 +38320,104 @@
      "c": "Den Datograph von A. Lange & Söhne gibt es als »Perpetual« mit ewigem Kalender und Mondphase."
     }
    ]
+  },
+  {
+   "id": "royal-oak-5402st",
+   "model": "royal-oak",
+   "ref": "5402ST",
+   "alias": [
+    "5402",
+    "5402 ST"
+   ],
+   "var": 2,
+   "t": "Audemars Piguet Royal Oak Ref. 5402ST",
+   "bau": "1972–1980er",
+   "cap": "»Jumbo«",
+   "s": "Die Uhr, mit der alles begann: 1972 in Basel vorgestellt, aus Stahl und teurer als manche Golduhr – die erste Royal Oak, die Sammler bis heute schlicht »Jumbo« nennen.",
+   "bh": [
+    "Gentas Entwurf in der Quarzkrise",
+    "Gehäuse und Werk",
+    "Schwieriger Start, großer Einfluss",
+    "Serien und Nachfolgerinnen"
+   ],
+   "b": [
+    "Anfang der 1970er-Jahre bat Audemars Piguet den Designer Gérald Genta um eine völlig neue Sportuhr aus Stahl. Genta soll den Entwurf in einer einzigen Nacht gezeichnet haben, inspiriert vom Helm eines klassischen Taucheranzugs. 1972 wurde das Ergebnis als Referenz 5402ST auf der Basler Messe vorgestellt.",
+    "Das Stahlgehäuse misst 39 Millimeter bei nur rund 7 Millimetern Höhe – für damalige Verhältnisse riesig, daher der Spitzname »Jumbo«. Die achteckige Lünette wird von acht sechseckigen Schrauben aus Weißgold gehalten, das Band geht nahtlos aus dem Gehäuse hervor. Das blaue Zifferblatt trägt die feine »Petite Tapisserie«. Im Inneren arbeitet das ultraflache Automatikkaliber 2121 auf Basis des Jaeger-LeCoultre 920, mit Datum bei 3 Uhr, ohne Sekundenzeiger.",
+    "Weil die vielen polierten und satinierten Flächen in aufwendiger Handarbeit veredelt wurden, kostete die Stahluhr mehr als viele Golduhren. Der Verkauf lief zunächst schleppend, doch die 5402ST wurde zum Vorbild einer ganzen Gattung: der Luxus-Sportuhr aus Stahl mit integriertem Band. Bis 1976 war sie die einzige Royal Oak im Programm.",
+    "Sammler unterscheiden die Serien nach den Buchstaben vor der Seriennummer (A, B, C, D); die frühe A-Serie mit dem AP-Logo bei 6 Uhr ist am gesuchtesten. Die 5402ST blieb rund 15 Jahre im Katalog. Ihre Linie lebt in den extraflachen Nachfolgerinnen fort, zuletzt der 15202ST und seit 2022 der 16202ST mit dem neuen Kaliber 7121."
+   ],
+   "vh": [
+    [
+     "A-Serie",
+     "Die frühesten Exemplare tragen das AP-Logo bei 6 Uhr statt bei 12 Uhr und gelten als die begehrtesten 5402."
+    ],
+    [
+     "Gold: Ref. 5402BA",
+     "Später wurde die 5402 auch in Gelbgold gebaut; die Stahlausführung blieb aber die prägende."
+    ]
+   ],
+   "m": [
+    "39 mm, rund 7 mm hoch, Edelstahl",
+    "Achteckige Lünette mit acht Sechskantschrauben aus Weißgold",
+    "Blaues Zifferblatt mit »Petite Tapisserie«",
+    "Kein Sekundenzeiger, Datum bei 3 Uhr",
+    "Integriertes, sich verjüngendes Gliederband"
+   ],
+   "ev": [
+    [
+     "1971",
+     "Gérald Genta entwirft die Royal Oak"
+    ],
+    [
+     "1972",
+     "Vorstellung der 5402ST in Basel"
+    ],
+    [
+     "1976",
+     "Erste weitere Royal-Oak-Modelle neben der 5402ST"
+    ]
+   ],
+   "x": [
+    "Frühe 5402 haben Tritium-Leuchtmasse, die mit den Jahren cremefarben nachdunkelt; ein einheitliches Altern von Indizes und Zeigern spricht für Originalität.",
+    "Ausgetauschte Servicezifferblätter und stark nachpolierte Gehäuse mindern den Wert deutlich – ein Gutachten durch Spezialisten lohnt sich.",
+    "Wer das Original nicht sucht, findet den Charakter der 5402 in der 15202ST oder 16202ST wieder."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1972–1980er"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl, rund 7 mm hoch"
+    ],
+    [
+     "Kaliber",
+     "2121, Automatik, extraflach"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Datum"
+    ],
+    [
+     "Nachfolger",
+     "extraflache »Jumbo«-Referenzen bis 15202ST und 16202ST"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "nautilus",
+     "c": "Gérald Genta entwarf 1976 auch die Patek Philippe Nautilus, die zweite große Stahl-Sportuhr dieser Gattung."
+    },
+    {
+     "m": "historiques-222",
+     "c": "Vacheron Constantins 222 von 1977 nutzte ein verwandtes extraflaches Werk auf Basis des Jaeger-LeCoultre 920."
+    },
+    {
+     "m": "laureato",
+     "c": "Die Laureato von Girard-Perregaux war 1975 eine weitere frühe Antwort auf die Royal Oak."
+    }
+   ]
   }
  ]
 }
