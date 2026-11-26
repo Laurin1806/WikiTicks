@@ -6350,6 +6350,32 @@
    "zifferblatt_optionen": "Schwarz",
    "produktion": "2014–2018",
    "zertifizierung": "Superlative Chronometer (COSC + Rolex)"
+  },
+  "submariner|8": {
+   "ref": "116610LN",
+   "produktion": "2010–2020",
+   "durchmesser": "40 mm",
+   "anstoss": "20 mm",
+   "glas": "Saphir, mit Zykloplupe über dem Datum",
+   "boden": "verschraubt, geschlossen",
+   "krone": "verschraubt, Triplock",
+   "wasserdicht": "300 m",
+   "werk": "Kaliber 3135",
+   "werktyp": "Automatik",
+   "manufaktur": "Manufakturwerk",
+   "frequenz": "28.800 A/h (4 Hz)",
+   "gangreserve": "ca. 48 Stunden",
+   "steine": "31",
+   "spirale": "Parachrom (blau)",
+   "zertifizierung": "Superlative Chronometer (COSC; ab 2015 zusätzlich Rolex −2/+2 s/Tag)",
+   "funktionen": "Stunden, Minuten, Sekunden, Datum mit Schnellschaltung",
+   "leuchtmasse": "Chromalight (blau)",
+   "schliesse": "Oysterlock-Faltschließe mit Glidelock",
+   "groessen": "40 mm",
+   "gehaeuse": "Oystersteel (904L)",
+   "luenette": "einseitig drehbar, Keramik (Cerachrom) schwarz, 60 Minuten",
+   "band": "Oyster-Band, Oystersteel",
+   "zifferblatt_optionen": "Schwarz"
   }
  },
  "_refs": {

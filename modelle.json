@@ -3031,7 +3031,8 @@
     "Das Zifferblatt der 5512 und 5513 durchlief mehrere Generationen, die Sammler genau unterscheiden: »Gilt«-Zifferblätter mit goldfarbenen Aufdrucken bis etwa 1967, danach matte Zifferblätter, bei den frühen Exemplaren mit der Tiefenangabe »Meters First« vor »Feet«, später »Feet First«. Die Leuchtmasse wechselte von Radium (bis etwa 1963) zu Tritium (bis etwa 1998), was den Farbton gealterter Zifferblätter prägt. 1967 stellte Rolex mit der Sea-Dweller eine Taucheruhr für Sättigungstaucher vor; die Submariner blieb die Uhr für den Sporttaucher.",
     "1969 erschien die 1680, die erste Submariner mit Datum und Zykloplupe (Kaliber 1575). Die frühen Exemplare tragen den Schriftzug »Submariner« in Rot, bei Sammlern »Red Sub«, und liegen preislich weit über den späteren Serien. Sammler unterscheiden bei der roten Schrift mehrere Zifferblatt-Generationen (»Mark I« bis »Mark VI«) und auch hier die Reihenfolge der Tiefenangabe (»Meters First«: 200 m = 660 ft, »Feet First«: 660 ft = 200 m). Die Tritium-Leuchtmasse hat bei vielen Stücken eine cremefarbene Patina angenommen. Anfang der 1970er-Jahre folgte die Triplock-Krone mit drei Dichtungen. Die Marine belieferte Rolex mit eigenen Ausführungen, etwa der britischen Royal Navy mit festen Stegen, und die französische Taucherfirma COMEX ließ Submariner und Sea-Dweller mit eigenem Aufdruck liefern.",
     "Der technische Sprung kam 1979 mit der 16800: erstmals Saphirglas, Kaliber 3035 mit Schnellschaltung für das Datum und 300 Meter Wasserdichtigkeit. 1988 folgte die 16610 mit dem Kaliber 3135, gebaut bis 2010 und die Referenz, die das heutige Bild der Submariner vielleicht am stärksten geprägt hat. Parallel erschien 1990 die 14060 ohne Datum. 2003 brachte Rolex zum 50. Jubiläum die 16610LV mit grüner Aluminiumlünette heraus, die Sammler »Kermit« nennen.",
-    "2010 kam die 116610 mit Cerachrom-Lünette, deren Zahlen mit Platin ausgelegt sind, einem kräftigeren Gehäuse mit breiteren Flanken (»Super Case«) und größerem Zifferblattausschnitt (»Maxi Dial«). Die grüne Version 116610LV, »Hulk« genannt, war ab 2010 mit grünem Zifferblatt und grüner Lünette ein frühes Beispiel für eine Rolex, die bewusst Farbe zeigte. Seit 2020 hat die Submariner 41 Millimeter und schlankere Bandanstöße; die Kaliber 3230 (ohne Datum) und 3235 (mit Datum) bringen rund 70 Stunden Gangreserve. Die grüne Lünette der Referenz 126610LV trägt unter Sammlern den Namen »Starbucks«. Neben den Stahlmodellen gibt es die Submariner Date auch in Edelmetall: Die Referenz 116619LB aus 18 Karat Weißgold (2008–2020) kombiniert ein blaues Zifferblatt mit einer blauen Cerachrom-Lünette und heißt unter Sammlern »Smurf«. Ihre Nachfolgerin 126619LB (seit 2020) trägt zur blauen Lünette ein schwarzes Zifferblatt, Spitzname »Cookie Monster«."
+    "2010 kam die 116610LN mit Cerachrom-Lünette, deren Zahlen mit Platin ausgelegt sind, einem kräftigeren Gehäuse mit breiteren Flanken (»Super Case«) und größerem Zifferblattausschnitt (»Maxi Dial«). Die grüne Version 116610LV, »Hulk« genannt, war ab 2010 mit grünem Zifferblatt und grüner Lünette ein frühes Beispiel für eine Rolex, die bewusst Farbe zeigte.",
+    "Seit 2020 hat die Submariner 41 Millimeter und schlankere Bandanstöße; die Kaliber 3230 (ohne Datum) und 3235 (mit Datum) bringen rund 70 Stunden Gangreserve. Die grüne Lünette der Referenz 126610LV trägt unter Sammlern den Namen »Starbucks«. Neben den Stahlmodellen gibt es die Submariner Date auch in Edelmetall: Die Referenz 116619LB aus 18 Karat Weißgold (2008–2020) kombiniert ein blaues Zifferblatt mit einer blauen Cerachrom-Lünette und heißt unter Sammlern »Smurf«. Ihre Nachfolgerin 126619LB (seit 2020) trägt zur blauen Lünette ein schwarzes Zifferblatt, Spitzname »Cookie Monster«."
    ],
    "cur": "Ref. 124060 (ohne Datum) und 126610LN (Datum) · seit 2020",
    "f": [
@@ -3322,6 +3323,22 @@
       "Die Abbildung zeigt eine Rolex Submariner Date Referenz 16800 aus Edelstahl mit mattem Zifferblatt, Oyster-Band und verblasster Lünette; über der Tiefenangabe steht in einem Feld der Schriftzug »comex«, wie ihn Rolex für die Taucherfirma COMEX auf die Zifferblätter brachte.",
       "Zu erkennen sind die Tiefenangabe »1000ft = 300m«, das Datum mit Zykloplupe, die runden Leuchtpunkte, Balken bei 6 und 9 Uhr, der Mercedes-Stundenzeiger und »SWISS – T < 25« am unteren Rand; die Tritium-Leuchtmasse ist cremefarben gealtert."
      ]
+    },
+    {
+     "n": "Ref. 116610LN",
+     "y": "2010–2020",
+     "v": {
+      "dial": "#111111",
+      "bezelColor": "#151515",
+      "img": "assets/watches/rolex-submariner-116610ln.jpg"
+     },
+     "bd": [
+      "Die Abbildung zeigt die Rolex Submariner Date Referenz 116610LN aus Edelstahl mit 40 Millimetern Durchmesser, gebaut von 2010 bis 2020. Zifferblatt und Cerachrom-Keramiklünette sind schwarz.",
+      "Zu sehen sind die kräftigen Gehäuseflanken der damaligen Generation, die großen Leuchtindizes (»Maxi Dial«), die Leuchtpille im Dreieck der Lünette, das Datum mit Zykloplupe und das Oyster-Band mit massiven Gliedern."
+     ],
+     "dial": "Schwarz",
+     "iref": "116610LN",
+     "irefs": "hoch"
     }
    ],
    "m": [
@@ -3504,7 +3521,8 @@
     "Gilt-Zifferblätter, Radium und Tritium",
     "1680: Datum und »Red Sub«",
     "Saphirglas und neue Werke",
-    "Cerachrom, 41 Millimeter und Edelmetall"
+    "Cerachrom und »Super Case«",
+    "41 Millimeter und Edelmetall"
    ],
    "bd": [
     "Die Abbildung zeigt die aktuelle Rolex Submariner Date Referenz 126610LN aus Edelstahl mit 41 Millimetern Durchmesser. Typisch sind die schwarze Cerachrom-Keramiklünette mit Minutenskala über die ersten 15 Minuten und einem Leuchtpunkt im Dreieck bei 12 Uhr sowie das schwarze Zifferblatt mit runden Leuchtindizes, Balken bei 6 und 9 und einem Dreieck bei 12 Uhr.",
@@ -32063,7 +32081,8 @@
   "rolex-gmt-master-2-116710-batman.jpg": "b",
   "rolex-gmt-master-16700.jpg": "v",
   "rolex-gmt-master-2-116710ln.jpg": "b",
-  "rolex-gmt-master-2-116719blro.jpg": "b"
+  "rolex-gmt-master-2-116719blro.jpg": "b",
+  "rolex-submariner-116610ln.jpg": "b"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -32260,6 +32279,7 @@
   "rolex-gmt-master-1675-pepsi.jpg": 543,
   "rolex-gmt-master-2-116710-batman.jpg": 768,
   "rolex-gmt-master-2-116710ln.jpg": 768,
+  "rolex-gmt-master-2-116719blro.jpg": 768,
   "rolex-gmt-master-2-126710-batman.jpg": 970,
   "rolex-gmt-master-2-126710-pepsi.jpg": 960,
   "rolex-gmt-master-2-16710-black.jpg": 768,
@@ -32282,6 +32302,7 @@
   "rolex-sea-dweller-126600.jpg": 1035,
   "rolex-sea-dweller-1665-double-red.jpg": 1020,
   "rolex-sky-dweller-336934-blue.jpg": 996,
+  "rolex-submariner-116610ln.jpg": 768,
   "rolex-submariner-116610lv-hulk.jpg": 1080,
   "rolex-submariner-116619lb-smurf.jpg": 736,
   "rolex-submariner-126610ln-2.jpg": 768,
@@ -33323,6 +33344,10 @@
   "rolex-gmt-master-2-116710ln.jpg": [
    0.973,
    0.002
+  ],
+  "rolex-submariner-116610ln.jpg": [
+   1.05,
+   -0.0039
   ]
  },
  "referenzen": [
@@ -33582,7 +33607,7 @@
     "116613LB",
     "116613LN"
    ],
-   "var": 1,
+   "var": 8,
    "t": "Rolex Submariner Date Ref. 116610",
    "bau": "2010–2020",
    "cap": "abgebildet: die grüne Variante 116610LV »Hulk«",
