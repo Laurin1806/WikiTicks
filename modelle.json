@@ -48075,6 +48075,84 @@
      "c": "Tudors Black Bay steht für denselben Erfolg von Taucheruhren mit Vintage-Anklängen."
     }
    ]
+  },
+  {
+   "id": "master-collection-6817",
+   "model": "master-collection",
+   "ref": "6817",
+   "alias": [
+    "6817"
+   ],
+   "var": 0,
+   "t": "Longines Master Collection Ref. 6817",
+   "bau": "um 1960",
+   "cap": "",
+   "s": "Wochentag, Monat, Datum, Mondphase und Chronograph in 37 Millimetern Gold: Die Referenz 6817 zeigt, dass die Kalender-Komplikationen der heutigen Master Collection bei Longines eine lange Vorgeschichte haben.",
+   "bh": [
+    "Ein Vorfahre der Master Collection",
+    "Zifferblatt und Anzeigen",
+    "Gehäuse und Werk",
+    "Bedeutung heute"
+   ],
+   "b": [
+    "Lange bevor Longines 2005 die Master Collection einführte, baute die Marke Kalender-Chronographen mit Mondphase. Die Referenz 6817 stammt aus der Zeit um 1960 und gehört zu diesen Uhren; sie steht hier als historisches Vorbild der heutigen Kalendermodelle.",
+    "Wochentag und Monat erscheinen in zwei Fenstern unter der 12, das Datum zeigt ein Zeiger mit Halbmondspitze auf einer Skala von 1 bis 31 am Rand. Links liegt die kleine Sekunde, rechts der 30-Minuten-Zähler, unten der 12-Stunden-Zähler mit der Mondphase. Weil das Werk die Monatslängen nicht kennt, muss das Datum nach kürzeren Monaten von Hand weitergestellt werden.",
+    "Das Gehäuse aus 18 Karat Gelbgold misst 37 Millimeter. Im Inneren arbeitet ein Chronographenwerk mit Handaufzug, die Drücker sitzen rechts neben der Krone. Aufgesetzte goldene Stabindizes und schlanke Dauphine-Zeiger geben der Uhr ein elegantes Bild.",
+    "Vintage-Kalender-Chronographen wie die 6817 sind heute gesuchte Sammlerstücke. Sie verbinden drei Komplikationen in einem Format, das nach heutigen Maßstäben zierlich wirkt."
+   ],
+   "m": [
+    "37 mm, 18 Karat Gelbgold",
+    "Fenster für Wochentag und Monat unter der 12",
+    "Datumszeiger mit Halbmondspitze",
+    "Mondphase im 12-Stunden-Zähler bei 6 Uhr",
+    "Handaufzug"
+   ],
+   "ev": [
+    [
+     "um 1960",
+     "Kalender-Chronograph Ref. 6817 in Gold"
+    ],
+    [
+     "2005",
+     "Einführung der Master Collection"
+    ]
+   ],
+   "x": [
+    "Bei Vintage-Kalendern auf ein originales, unrestauriertes Zifferblatt und intakte Kalenderfunktionen achten.",
+    "Kalender nicht in den Stunden um Mitternacht verstellen, wenn der Schaltvorgang läuft."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "um 1960"
+    ],
+    [
+     "Gehäuse",
+     "37 mm, 18 Karat Gelbgold"
+    ],
+    [
+     "Kaliber",
+     "Handaufzug, Chronograph"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Vollkalender, Mondphase"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "chrono-ewiger-kalender",
+     "c": "Patek Philippes Ewiger Kalender Chronograph ist das höchste Beispiel derselben Kombination aus Kalender und Chronograph."
+    },
+    {
+     "m": "calatrava",
+     "c": "Die Calatrava steht für die eleganten Golduhren dieser Jahrzehnte."
+    },
+    {
+     "m": "constellation",
+     "c": "Omegas Constellation war um 1960 eine der bekanntesten goldenen Automatikuhren."
+    }
+   ]
   }
  ]
 }
