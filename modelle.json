@@ -6537,21 +6537,6 @@
      "irefs": "mittel"
     },
     {
-     "n": "Ref. 5402ST »Jumbo«",
-     "y": "1972–1980er",
-     "v": {
-      "img": "assets/watches/audemars-piguet-royal-oak-5402-blue.jpg"
-     },
-     "at": "1972: Ref. 5402ST, die »Jumbo«",
-     "dial": "Blau",
-     "iref": "5402ST",
-     "irefs": "hoch",
-     "bd": [
-      "Die Abbildung zeigt die erste Audemars Piguet Royal Oak, Referenz 5402ST von 1972, aus Edelstahl mit 39 Millimetern; Sammler nennen sie wegen ihrer für die Zeit großen Abmessungen »Jumbo«.",
-      "Zu erkennen sind die achteckige Lünette mit acht sichtbaren Sechskantschrauben, das blaue Zifferblatt mit »Petite Tapisserie«-Muster, aufgesetzte Stabindizes und Stabzeiger mit Leuchtmasse sowie das Datum bei 3 Uhr. Das AP-Logo sitzt bei 6 Uhr, wie bei der ersten Serie; das integrierte Gliederband verjüngt sich zur Schließe hin."
-     ]
-    },
-    {
      "n": "Ref. 5402ST »Jumbo«, blaues Zifferblatt",
      "y": "1972–1980er",
      "v": {
@@ -31659,7 +31644,6 @@
   "a-lange-soehne-odysseus-blue.jpg": "g",
   "audemars-piguet-code-11-59-15210.jpg": "g",
   "audemars-piguet-royal-oak-15510st-blue.jpg": "g",
-  "audemars-piguet-royal-oak-5402-blue.jpg": "v",
   "audemars-piguet-royal-oak-chronograph-26240st-blue.jpg": "g",
   "audemars-piguet-royal-oak-concept.jpg": "g",
   "audemars-piguet-royal-oak-offshore-26420-chronograph.jpg": "g",
@@ -31862,7 +31846,6 @@
   "audemars-piguet-millenary-open-balance.jpg": 1152,
   "audemars-piguet-royal-oak-15510st-blue.jpg": 1036,
   "audemars-piguet-royal-oak-5402-blue-2.jpg": 768,
-  "audemars-piguet-royal-oak-5402-blue.jpg": 1024,
   "audemars-piguet-royal-oak-chronograph-26240st-blue.jpg": 1083,
   "audemars-piguet-royal-oak-concept.jpg": 1032,
   "audemars-piguet-royal-oak-offshore-26420-chronograph.jpg": 1072,
@@ -32303,10 +32286,6 @@
   "audemars-piguet-royal-oak-perpetual-calendar-26574.jpg": [
    0.902,
    0.0298
-  ],
-  "audemars-piguet-royal-oak-5402-blue.jpg": [
-   0.836,
-   0.0083
   ],
   "audemars-piguet-royal-oak-offshore-26420-chronograph.jpg": [
    0.971,
@@ -33168,7 +33147,7 @@
     },
     {
      "m": "royal-oak",
-     "var": 2,
+     "var": null,
      "c": "1972, mitten in der Bauzeit der 5513, erfand Gérald Genta mit der Royal Oak 5402ST die Luxus-Sportuhr aus Stahl. Die Submariner blieb das Werkzeug, die Royal Oak wurde das Statussymbol."
     }
    ],
@@ -38550,7 +38529,7 @@
     "5402",
     "5402 ST"
    ],
-   "var": 3,
+   "var": 2,
    "t": "Audemars Piguet Royal Oak Ref. 5402ST",
    "bau": "1972–1980er",
    "cap": "»Jumbo«",
