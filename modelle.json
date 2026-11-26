@@ -39274,6 +39274,104 @@
      "c": "Die Tudor Ranger ist wie die Railmaster eine schlichte Werkzeuguhr mit großen Leuchtziffern."
     }
    ]
+  },
+  {
+   "id": "seamaster-300-234",
+   "model": "seamaster-300",
+   "ref": "234.30.41.21.01.001",
+   "alias": [
+    "234.30.41.21",
+    "234.30.41.21.01.001"
+   ],
+   "var": null,
+   "t": "Omega Seamaster 300 Ref. 234.30.41.21.01.001",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Die Taucheruhr von 1957 in ihrer jüngsten Fassung: breite Pfeilzeiger, Leuchtmasse im Vintage-Ton und ein Master-Chronometer-Werk ohne Datum.",
+   "bh": [
+    "Die zweite Neuauflage",
+    "Gestaltung",
+    "Werk und Gehäuse",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "2021 stellte Omega die neue Seamaster 300 vor, die Referenz 234.30.41.21. Sie folgte auf die Neuauflage 233.30.41.21, mit der die Seamaster 300 2014 zurückgekehrt war, und berief sich wie diese auf die Taucheruhr CK2913 aus der »Professional«-Trilogie von 1957.",
+    "Die Gestaltung bleibt nahe an den Seamaster-300-Modellen der 1950er- und 1960er-Jahre: Der Stundenzeiger hat die Form eines breiten Pfeils (»Broad Arrow«), Indizes und Ziffern leuchten in einem gealtert wirkenden Farbton, und die einseitig drehbare Lünette trägt eine Taucherskala. Ein Datum gibt es nicht, was den Werkzeugcharakter betont.",
+    "Das Stahlgehäuse misst 41 Millimeter und ist bis 300 Meter wasserdicht. Im Inneren arbeitet das Automatikkaliber 8912 mit Co-Axial-Hemmung; es ist als Master Chronometer vom Institut METAS geprüft, widersteht Magnetfeldern bis 15.000 Gauß und bietet rund 60 Stunden Gangreserve.",
+    "Die 234.30.41.21 ist bei Omega die klassische Alternative zur moderneren Diver 300M: wer eine Taucheruhr mit Vintage-Gestaltung sucht, landet hier. Die Seamaster 300 bleibt durch »Spectre« auch mit James Bond verbunden, auch wenn der Film noch die Vorgängerin zeigte."
+   ],
+   "vh": [
+    [
+     "Blaues Zifferblatt",
+     "Neben Schwarz gibt es die Stahlausführung mit blauem Zifferblatt und blauer Lünette."
+    ],
+    [
+     "Bronze Gold",
+     "Eine Ausführung aus Omegas Legierung »Bronze Gold« mit braunem Zifferblatt ergänzt die Stahlmodelle."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl",
+    "Breiter Pfeil-Stundenzeiger (»Broad Arrow«)",
+    "Leuchtmasse im Vintage-Farbton",
+    "Drehlünette mit Taucherskala",
+    "Kein Datum"
+   ],
+   "ev": [
+    [
+     "2014",
+     "Rückkehr der Seamaster 300 mit Ref. 233.30.41.21"
+    ],
+    [
+     "2021",
+     "Neue Ref. 234.30.41.21 mit Kaliber 8912"
+    ]
+   ],
+   "x": [
+    "Die Uhr aus »Spectre« ist die Vorgängerin 233.30.41.21; wer genau dieses Modell sucht, muss auf die Referenz achten.",
+    "Ohne Datum wirkt das Zifferblatt besonders aufgeräumt und vintage-nah.",
+    "Die Vintage-Leuchtmasse ist bewusst so gefärbt; ein Hinweis auf Alterung ist sie bei dieser Referenz nicht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "8912, Automatik, Co-Axial, Master Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Drehlünette"
+    ],
+    [
+     "Vorgänger",
+     "233.30.41.21"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay",
+     "c": "Die Tudor Black Bay verbindet wie die Seamaster 300 Vintage-Gestaltung mit modernem Werk."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Blancpains Fifty Fathoms ist eine weitere Taucheruhr aus den 1950er-Jahren, die heute neu interpretiert wird."
+    },
+    {
+     "m": "submariner",
+     "c": "Die Rolex Submariner 126610 von 2020 ist die bekannteste Stahl-Taucheruhr dieser Jahre."
+    }
+   ]
   }
  ]
 }
