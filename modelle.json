@@ -47895,6 +47895,98 @@
      "c": "Citizens Promaster Diver ist die japanische Alternative für eine unkomplizierte Sportuhr."
     }
    ]
+  },
+  {
+   "id": "hydroconquest-l3-781",
+   "model": "hydroconquest",
+   "ref": "L3.781.4",
+   "alias": [
+    "L3.781.4.96.6",
+    "L3.781.4"
+   ],
+   "var": null,
+   "t": "Longines HydroConquest Ref. L3.781.4",
+   "bau": "2010er–2020er-Jahre",
+   "cap": "",
+   "s": "Keramiklünette, große Ziffern bei 12, 6 und 9, 300 Meter Wasserdichtigkeit: Die HydroConquest mit 41 Millimetern, Referenz L3.781.4, war für viele die vernünftige Taucheruhr für jeden Tag.",
+   "bh": [
+    "Taucheruhr der Conquest-Familie",
+    "Gehäuse und Lünette",
+    "Werk",
+    "Ablösung"
+   ],
+   "b": [
+    "Die HydroConquest erschien 2007 als Taucheruhr der Conquest-Familie. Die Generation mit Keramiklünette übernahm vom Conquest-Erbe die großen Ziffern bei 12, 6 und 9 Uhr; die Ausführung mit 41 Millimetern und Automatikwerk trägt die Grundreferenz L3.781.4.",
+    "Das Edelstahlgehäuse ist bis 300 Meter wasserdicht, die verschraubte Krone wird von einem Kronenschutz eingefasst. Die einseitig drehbare Lünette trägt einen Keramikeinsatz mit Minutenskala und Leuchtpunkt im Dreieck bei 12 Uhr. Das Zifferblatt mit Sonnenschliff hat runde Leuchtindizes, aufgesetzte Ziffern und ein Datum bei 3 Uhr.",
+    "Im Inneren arbeitet ein Automatikwerk auf ETA-Basis; in neueren Ausführungen bieten die Werke der HydroConquest eine deutlich längere Gangreserve als frühere Generationen.",
+    "2023 ersetzte Longines diese Generation durch eine neue HydroConquest mit 39 und 42 Millimetern und durchgehenden applizierten Indizes. Die L3.781.4 bleibt als gebrauchte Taucheruhr mit gutem Preis-Leistungs-Verhältnis interessant."
+   ],
+   "vh": [
+    [
+     "Zifferblattfarben",
+     "Die L3.781.4 gab es mit blauem, schwarzem, grünem und grauem Zifferblatt, jeweils mit passender Lünette, an Stahl- oder Kautschukband."
+    ],
+    [
+     "Andere Größen",
+     "Dieselbe Generation gab es mit 39 und 43 Millimetern; sie tragen eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl, Kronenschutz",
+    "Keramiklünette mit Leuchtpunkt bei 12",
+    "Große aufgesetzte Ziffern bei 12, 6 und 9",
+    "Datum bei 3 Uhr, »300meter«"
+   ],
+   "ev": [
+    [
+     "2007",
+     "Erste HydroConquest"
+    ],
+    [
+     "2023",
+     "Ablösung durch die neue Generation mit durchgehenden Indizes"
+    ]
+   ],
+   "x": [
+    "Die Ziffern bei 12, 6 und 9 unterscheiden diese Generation sofort von der neuen ab 2023.",
+    "Bei gebrauchten Uhren die Keramiklünette auf Risse und die Rastung auf sauberes Einrasten prüfen."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ],
+    [
+     "Nachfolger",
+     "HydroConquest-Generation von 2023"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "aquaracer",
+     "c": "Die TAG Heuer Aquaracer ist in dieser Klasse die direkte Konkurrentin."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Diver 300M ist die etwas teurere Taucheruhr mit gleicher Wasserdichtigkeit."
+    },
+    {
+     "m": "pelagos",
+     "c": "Tudors Pelagos ist die professionellere Taucheruhr derselben Jahre."
+    }
+   ]
   }
  ]
 }
