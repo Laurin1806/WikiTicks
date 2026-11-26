@@ -36494,6 +36494,90 @@
      "c": "Patek Philippes klassischer Chronograph mit ewigem Kalender zeigt die Komplikation in ihrer traditionellen Form."
     }
    ]
+  },
+  {
+   "id": "nautilus-5811",
+   "model": "nautilus",
+   "ref": "5811",
+   "alias": [
+    "5811/1G",
+    "5811/1G-001"
+   ],
+   "var": null,
+   "t": "Patek Philippe Nautilus Ref. 5811",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Die Nachfolgerin der 5711: die klassische Dreizeiger-Nautilus, nun mit 41 Millimetern und ganz aus Weißgold.",
+   "bh": [
+    "Nach der 5711",
+    "Weißgold statt Stahl",
+    "Das Werk"
+   ],
+   "b": [
+    "Nach dem Ende der 5711 im Jahr 2021 fragten sich viele, ob und wie Patek Philippe die klassische Nautilus fortsetzen würde. 2022 kam die Antwort: die Referenz 5811/1G. Sie behält das Gesicht der Dreizeiger-Nautilus mit Datum, das blaue, von der Mitte zum Rand dunkler werdende Zifferblatt mit waagerechten Rillen und die achteckige Lünette mit den seitlichen Ohren.",
+    "Der große Unterschied liegt im Material: Die 5811 besteht nicht mehr aus Stahl, sondern aus 18 Karat Weißgold. Damit ist sie deutlich schwerer und teurer, und Patek Philippe machte klar, dass die klassische Nautilus nicht mehr die Stahluhr für den Einstieg sein soll. Das Gehäuse wuchs leicht auf 41 Millimeter, und das Band bekam eine neu konstruierte Faltschließe mit Feinverstellung.",
+    "Im Inneren arbeitet das Automatikkaliber 26-330 S C mit Zentralsekunde, Datum und Sekundenstopp, das schon in den letzten 5711 steckte. Durch den Saphirglasboden ist das Werk zu sehen."
+   ],
+   "m": [
+    "41 mm, 18 Karat Weißgold, Bullaugen-Ohren",
+    "Blaues Zifferblatt mit waagerechten Rillen",
+    "Zentralsekunde und Datum bei 3 Uhr",
+    "Integriertes Weißgoldband mit neuer Faltschließe"
+   ],
+   "ev": [
+    [
+     "2021",
+     "Einstellung der 5711/1A"
+    ],
+    [
+     "2022",
+     "Vorstellung der 5811/1G in Weißgold"
+    ]
+   ],
+   "x": [
+    "Weißgold sieht Stahl zum Verwechseln ähnlich; am Gewicht und an der Punze auf Gehäuse und Band erkennt man den Unterschied.",
+    "Wer die Nautilus in Stahl sucht, findet sie heute nur noch gebraucht, als 3700, 3800 oder 5711."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, 18 Karat Weißgold, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "26-330 S C, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Band",
+     "integriertes Weißgoldband"
+    ],
+    [
+     "Vorgänger",
+     "5711/1A"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak 15510ST ist die aktuelle Rivalin – im Gegensatz zur 5811 weiterhin aus Stahl."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas bleibt die dritte große Luxus-Sportuhr mit integriertem Band."
+    },
+    {
+     "m": "land-dweller",
+     "c": "2025 stieg auch Rolex mit der Land-Dweller in die Klasse der Uhren mit integriertem Band ein."
+    }
+   ]
   }
  ]
 }
