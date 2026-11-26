@@ -47265,6 +47265,99 @@
      "c": "Breitlings Avenger ist eine robuste Fliegeruhr mit großen Ziffern für den Alltag."
     }
    ]
+  },
+  {
+   "id": "chronomaster-original-3100",
+   "model": "chronomaster",
+   "ref": "03.3100.3600",
+   "alias": [
+    "03.3100.3600/69.M3100",
+    "03.3100.3600",
+    "Chronomaster Original"
+   ],
+   "var": null,
+   "t": "Zenith Chronomaster Ref. 03.3100.3600",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Die A386 von 1969, Millimeter für Millimeter neu gedacht: Der Chronomaster Original übernimmt die drei farbigen Zähler und die 38 Millimeter des Urmodells und misst mit dem El Primero 3600 Zehntelsekunden.",
+   "bh": [
+    "Neuauflage der A386",
+    "Gehäuse und Zifferblatt",
+    "El Primero 3600",
+    "Bedeutung"
+   ],
+   "b": [
+    "2021 stellte Zenith den Chronomaster Original vor, eine enge Neuauflage der Referenz A386, mit der das El Primero 1969 seinen Auftritt hatte. Die Edelstahlausführung trägt die Grundreferenz 03.3100.3600.",
+    "Das Gehäuse misst wie das Original 38 Millimeter, mit facettierten Bandanstößen und Pumpdrückern. Auf dem weißen Zifferblatt sitzen die drei überlappenden Zähler in Grau, Dunkelblau und Hellgrau, die die A386 berühmt machten, am Rand eine Tachymeterskala. Ein Saphirglasboden gibt den Blick auf das Werk frei.",
+    "Das El Primero 3600 schwingt wie seine Vorgänger mit 36.000 Halbschwingungen pro Stunde, hat aber eine neue Architektur: Der Chronographenzeiger umrundet das Zifferblatt in zehn Sekunden und zeigt so Zehntelsekunden direkt an. Die Gangreserve liegt bei rund 60 Stunden. Der Zähler bei 9 Uhr zeigt die laufende Sekunde, die beiden anderen die gestoppten Minuten bzw. die gestoppten Sekunden des Zehn-Sekunden-Zeigers.",
+    "Der Chronomaster Original gilt als eine der gelungensten Neuauflagen ihrer Zeit, weil sie die Proportionen des Originals bewahrt. Neben ihr steht der größere, sportlichere Chronomaster Sport mit demselben Werk."
+   ],
+   "vh": [
+    [
+     "Andere Ausführungen",
+     "Neben dem weißen Zifferblatt gibt es den Chronomaster Original mit schwarzem Zifferblatt sowie in Roségold; die Endung der Referenz unterscheidet Ausführung und Band."
+    ],
+    [
+     "Vorbild: Ref. A386",
+     "Die A386 von 1969 war einer der ersten automatischen Chronographen und das Vorbild für den Chronomaster Original."
+    ]
+   ],
+   "m": [
+    "38 mm, Edelstahl, Pumpdrücker",
+    "Drei überlappende Zähler in Grau, Dunkelblau und Hellgrau",
+    "Tachymeterskala am Rand",
+    "Saphirglasboden mit El Primero 3600"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Vorstellung des El Primero in der A386"
+    ],
+    [
+     "2021",
+     "Chronomaster Original mit El Primero 3600"
+    ]
+   ],
+   "x": [
+    "Der Chronomaster Original ist nah am Original, aber wesentlich alltagstauglicher als eine Vintage-A386.",
+    "Die Zehntelsekunden-Anzeige ist gewöhnungsbedürftig: Der große Zeiger dreht sich alle zehn Sekunden einmal."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "38 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "El Primero 3600, Automatik-Chronograph"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph mit Zehntelsekunde, Tachymeter"
+    ],
+    [
+     "Vorbild",
+     "A386"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "monaco",
+     "c": "Die Monaco ist ebenfalls ein Chronograph aus dem Jahr 1969, der in diesen Jahren ein eigenes Werk bekam."
+    },
+    {
+     "m": "heritage-chrono",
+     "c": "Tudors Heritage Chrono greift auch einen Chronographen der 1970er-Jahre auf."
+    },
+    {
+     "m": "top-time",
+     "c": "Breitlings Top Time kehrte fast gleichzeitig als Neuauflage eines Chronographen der 1960er-Jahre zurück."
+    }
+   ]
   }
  ]
 }
