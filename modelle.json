@@ -46802,6 +46802,103 @@
      "c": "Jaeger-LeCoultres Duomètre löst wie die Zeitwerk ein Kraftproblem mit einer eigenen Konstruktion."
     }
    ]
+  },
+  {
+   "id": "aquaracer-wbp201",
+   "model": "aquaracer",
+   "ref": "WBP201",
+   "alias": [
+    "WBP201B.BA0632",
+    "WBP201A",
+    "WBP201B"
+   ],
+   "var": null,
+   "t": "TAG Heuer Aquaracer Ref. WBP201",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Schärfer, klarer, praktischer: Mit der WBP201 stellte TAG Heuer 2021 die Aquaracer Professional 300 neu auf – mit zwölfeckiger Keramiklünette, Bootsdeck-Zifferblatt und einem Band, das sich ohne Werkzeug verstellen lässt.",
+   "bh": [
+    "Neugestaltung 2021",
+    "Gehäuse und Zifferblatt",
+    "Werk und Band",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Aquaracer trägt ihren Namen seit 2004 und geht auf die Taucheruhren der Heuer-1000-Serie zurück. 2021 gestaltete TAG Heuer die Aquaracer Professional 300 neu; die 43-Millimeter-Ausführung mit Automatikwerk erhielt die Grundreferenz WBP201.",
+    "Das Edelstahlgehäuse wurde kantiger gezeichnet, die Bandanstöße kürzer. Die einseitig drehbare Lünette mit zwölf Facetten, das Erkennungszeichen der Linie, bekam einen Keramikeinsatz. Das Zifferblatt trägt waagerechte Rillen, die an die Planken eines Bootsdecks erinnern, dazu große, facettierte Leuchtindizes und ein Datum bei 3 Uhr. Die Uhr ist bis 300 Meter wasserdicht.",
+    "Im Inneren arbeitet das Calibre 5, ein zugekauftes Automatikwerk mit 28.800 Halbschwingungen pro Stunde und rund 38 Stunden Gangreserve. Das Stahlband hat eine Schließe mit Feinverstellung, mit der sich die Länge ohne Werkzeug anpassen lässt.",
+    "Die WBP201 ist die Taucheruhr im Kern des TAG-Heuer-Programms, zwischen der günstigeren Formula 1 und den Chronographen. Rund um sie entstanden weitere Größen, Solar- und GMT-Modelle mit eigenen Referenzen."
+   ],
+   "vh": [
+    [
+     "Schwarz: Ref. WBP201A",
+     "Die Ausführung mit schwarzem Zifferblatt und schwarzer Lünette trägt die Referenz WBP201A."
+    ],
+    [
+     "Blau: Ref. WBP201B",
+     "Die abgebildete Ausführung mit blauem Zifferblatt und blauer Lünette trägt die Referenz WBP201B, am Stahlband WBP201B.BA0632."
+    ],
+    [
+     "Weitere Größen",
+     "Die Aquaracer Professional 300 von 2021 gibt es auch mit 36 Millimetern und als GMT; diese Modelle tragen eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "43 mm, Edelstahl, kantiges Gehäuse",
+    "Zwölfeckige Keramiklünette",
+    "Zifferblatt mit waagerechten Rillen",
+    "Datum bei 3 Uhr, »Professional 300«"
+   ],
+   "ev": [
+    [
+     "2004",
+     "Einführung des Namens Aquaracer"
+    ],
+    [
+     "2021",
+     "Neugestaltung der Professional 300 mit der WBP201"
+    ]
+   ],
+   "x": [
+    "Die Buchstaben am Ende der Grundreferenz (A, B …) unterscheiden die Zifferblattfarben.",
+    "Die Feinverstellung der Schließe ist ein echter Alltagsvorteil; auf Vollständigkeit der Bandglieder achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "43 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "Calibre 5, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "seamaster-300m",
+     "c": "Die Omega Diver 300M ist in diesen Jahren eine naheliegende Alternative mit gleicher Wasserdichtigkeit."
+    },
+    {
+     "m": "superocean",
+     "c": "Breitlings Superocean wurde fast gleichzeitig zur farbigeren Taucheruhr umgestaltet."
+    },
+    {
+     "m": "hydroconquest",
+     "c": "Die Longines HydroConquest ist eine Taucheruhr derselben Klasse für den Alltag."
+    }
+   ]
   }
  ]
 }
