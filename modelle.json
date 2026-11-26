@@ -45696,6 +45696,108 @@
      "c": "Die Piaget Polo erschien 1979 als weitere Golduhr mit integriertem Band aus dieser Zeit."
     }
    ]
+  },
+  {
+   "id": "lange-1-191",
+   "model": "lange-1",
+   "ref": "191",
+   "alias": [
+    "191.039",
+    "191.032",
+    "191.xxx",
+    "191.021"
+   ],
+   "var": null,
+   "t": "A. Lange & Söhne Lange 1 Ref. 191",
+   "bau": "seit 2015",
+   "cap": "",
+   "s": "Von außen kaum von der Urfassung zu unterscheiden, im Inneren völlig neu: Mit der Referenz 191 bekam die Lange 1 zwanzig Jahre nach ihrer Premiere ein eigens konstruiertes Werk mit drei Tagen Gangreserve.",
+   "bh": [
+    "Zwanzig Jahre nach der Premiere",
+    "Ein neues Werk für eine Ikone",
+    "Feinheiten auf dem Zifferblatt",
+    "Das Gesicht der Manufaktur"
+   ],
+   "b": [
+    "Die Lange 1 erschien 1994 zur Wiedergründung von A. Lange & Söhne und wurde unter der Referenzfamilie 101 gut zwanzig Jahre lang gebaut. 2015 stellte die Manufaktur die überarbeitete Lange 1 mit den Referenzen 191 vor. Die Gestaltung von Reinhard Meis blieb bewusst erhalten: das außermittige Zifferblatt für Stunden und Minuten, das Großdatum oben rechts, die kleine Sekunde unten rechts und die Gangreserveanzeige mit »AUF« und »AB«.",
+    "Die eigentliche Neuerung steckt im Gehäuse: Statt des Kalibers L901.0 arbeitet das neu konstruierte Handaufzugskaliber L121.1. Es bietet rund 72 Stunden Gangreserve, eine von Lange selbst gefertigte Unruhspirale und eine Datumsschaltung, die das Großdatum genau um Mitternacht springen lässt. Typisch für Lange bleiben die Dreiviertelplatine aus Neusilber, die verschraubten Goldchatons und der von Hand gravierte Unruhkloben.",
+    "Wer genau hinsieht, erkennt die neue Generation an Details: Das Zifferblatt wurde behutsam neu proportioniert, die Anzeigen stehen weiterhin im Verhältnis des Goldenen Schnitts zueinander, ohne sich zu überschneiden. Das Gehäuse misst wie zuvor 38,5 Millimeter und besteht aus Gold oder Platin.",
+    "Die Referenz 191 ist die aktuelle Grundform der Lange 1 und die Basis für eine ganze Familie mit Mondphase, Zeitzone, Tourbillon oder Automatikwerk. Für viele Sammler bleibt sie die Uhr, an der man A. Lange & Söhne auf den ersten Blick erkennt."
+   ],
+   "vh": [
+    [
+     "Rotgold: Ref. 191.032",
+     "Die Ausführung in Rotgold mit silberfarbenem Zifferblatt gehört zu den klassischen Kombinationen der Lange 1."
+    ],
+    [
+     "Weißgold und Gelbgold",
+     "Neben Rotgold gibt es die Referenz 191 unter anderem in Weißgold (191.039) und in Gelbgold (191.021)."
+    ],
+    [
+     "Lange 1 Mondphase: Ref. 192",
+     "Die Mondphasenversion mit eigener Referenz baut auf der Lange 1 auf und hat einen eigenen Artikel."
+    ]
+   ],
+   "m": [
+    "Asymmetrisches Zifferblatt mit Großdatum oben rechts",
+    "Gangreserveanzeige »AUF/AB« am rechten Rand",
+    "38,5 mm, Gold oder Platin",
+    "Glasboden mit handgraviertem Unruhkloben"
+   ],
+   "ev": [
+    [
+     "1994",
+     "Erste Lange 1 (Ref. 101)"
+    ],
+    [
+     "2015",
+     "Vorstellung der Ref. 191 mit Kaliber L121.1"
+    ]
+   ],
+   "x": [
+    "Die Referenz 191 erkennt man am sichersten am Kaliber L121.1 im Glasboden; das ältere L901.0 gehört zur Ref. 101.",
+    "Bei Gebrauchtuhren auf Box, Papiere und einen dokumentierten Service bei Lange achten – Revisionen sind bei diesen Werken aufwendig."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2015"
+    ],
+    [
+     "Gehäuse",
+     "38,5 mm, Gold oder Platin, Glasboden"
+    ],
+    [
+     "Kaliber",
+     "L121.1, Handaufzug"
+    ],
+    [
+     "Gangreserve",
+     "≈ 72 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Großdatum, Gangreserve"
+    ],
+    [
+     "Vorgänger",
+     "101"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "datograph",
+     "c": "Die Datograph teilt das Großdatum der Lange 1 und gilt als Chronographenwerk von höchstem Rang."
+    },
+    {
+     "m": "patrimony",
+     "c": "Die Patrimony von Vacheron Constantin ist die zurückhaltende Genfer Antwort auf die klassische Handaufzugsuhr aus Gold."
+    },
+    {
+     "m": "glashuette-pano",
+     "c": "Die PanoMaticLunar aus derselben Stadt setzt ebenfalls auf ein außermittiges Zifferblatt mit Großdatum."
+    }
+   ]
   }
  ]
 }
