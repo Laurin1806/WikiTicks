@@ -51147,6 +51147,85 @@
      "c": "Rolex brachte 2023 mit der Perpetual 1908 ebenfalls eine flache, klassische Golduhr für den Anzug."
     }
    ]
+  },
+  {
+   "id": "santos-whsa0015",
+   "model": "santos",
+   "ref": "WHSA0015",
+   "alias": [
+    "WHSA0015"
+   ],
+   "var": 4,
+   "t": "Cartier Santos de Cartier Skelett Ref. WHSA0015",
+   "bau": "seit Ende der 2010er-Jahre",
+   "cap": "",
+   "s": "Bei dieser Santos ist das Werk das Zifferblatt: Die Brücken bilden die römischen Ziffern, und zwischen ihnen sieht man die Räder arbeiten.",
+   "bh": [
+    "Skelett im Santos-Gehäuse",
+    "Ziffern aus Werkbrücken",
+    "Gehäuse und Band",
+    "Stellung in der Familie"
+   ],
+   "b": [
+    "Nach der Neuauflage der Santos de Cartier 2018 ergänzte Cartier die Linie um skelettierte Ausführungen. Die Referenz WHSA0015 ist die große Skelettversion aus Edelstahl mit Stahlband. Sie hat das Gehäuse der aktuellen Santos de Cartier, aber kein geschlossenes Zifferblatt mehr.",
+    "Cartier gestaltet seine Skelettwerke so, dass die Brücken selbst die Form der römischen Ziffern annehmen. Zwischen ihnen liegen Räderwerk und rote Lagersteine offen, die gebläuten Schwertzeiger laufen darüber. Angetrieben wird die Uhr vom skelettierten Manufakturkaliber 9611 MC mit Handaufzug. Sekunde und Datum gibt es nicht.",
+    "Lünette mit acht Schrauben, gestreckte Bandanstöße, facettierte Krone mit blauem Cabochon und das Gliederband mit sichtbaren Schrauben entsprechen der Santos de Cartier. Auch hier lässt sich das Band mit QuickSwitch ohne Werkzeug wechseln.",
+    "Die Skelett-Santos ist die technisch aufwendigste Ausführung der Linie unterhalb der großen Komplikationen. Sie zeigt eine Tradition, die Cartier seit Ende der 2000er-Jahre pflegt: Skelettwerke, deren Brücken zugleich die Ziffern sind."
+   ],
+   "vh": [
+    [
+     "Rotgold",
+     "Die Skelett-Santos gibt es auch mit Gehäuse aus Rotgold und Lederband; das Prinzip der Ziffern aus Werkbrücken ist dasselbe."
+    ]
+   ],
+   "m": [
+    "Römische Ziffern als Werkbrücken",
+    "Kein geschlossenes Zifferblatt, sichtbare Räder und rote Lagersteine",
+    "Lünette mit acht Schrauben",
+    "Keine Sekunde, kein Datum"
+   ],
+   "ev": [
+    [
+     "2018",
+     "Neuauflage der Santos de Cartier, Grundlage der Skelettversion"
+    ]
+   ],
+   "x": [
+    "Das Handaufzugswerk muss regelmäßig aufgezogen werden.",
+    "Ein offenes Werk zeigt jede Verschmutzung; eine Revision sollte ein Fachbetrieb mit Erfahrung in Cartier-Werken übernehmen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit Ende der 2010er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "Santos-de-Cartier-Gehäuse, große Ausführung, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "9611 MC, Handaufzug, skelettiert"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak-concept",
+     "c": "Audemars Piguet zeigt mit der Royal Oak Concept ebenfalls offen gearbeitete Werke in einer Luxus-Sportuhr."
+    },
+    {
+     "m": "spirit-of-big-bang",
+     "c": "Hublots Spirit of Big Bang gibt es oft mit skelettiertem Werk in einer kräftigen Tonneau-Form."
+    },
+    {
+     "m": "freak",
+     "c": "Die Ulysse Nardin Freak macht wie die Skelett-Santos das Werk selbst zur Anzeige."
+    }
+   ]
   }
  ]
 }
