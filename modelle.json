@@ -40157,6 +40157,119 @@
      "c": "Omegas Seamaster 300 ist eine weitere Neuauflage einer klassischen Taucheruhr der 1950er-Jahre."
     }
    ]
+  },
+  {
+   "id": "black-bay-m79030",
+   "model": "black-bay",
+   "ref": "M79030",
+   "alias": [
+    "M79030N",
+    "M79030N-0001",
+    "79030N",
+    "M79030B",
+    "M79030B-0001",
+    "79030B"
+   ],
+   "var": 1,
+   "t": "Tudor Black Bay Fifty-Eight Ref. M79030",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "39 Millimeter, goldfarbene Zeiger und kein Datum: Mit der Fifty-Eight bewies Tudor 2018, dass eine Taucheruhr nicht groß sein muss – und löste eine ganze Welle kleinerer Modelle aus.",
+   "bh": [
+    "2018: Erinnerung an die »Big Crown«",
+    "Gehäuse und Kaliber MT5402",
+    "Schwarz-Gold und Navy-Blau",
+    "Vorreiterin der kleinen Taucheruhren"
+   ],
+   "b": [
+    "Tudor stellte die Black Bay Fifty-Eight 2018 vor. Ihr Name verweist auf das Jahr 1958, in dem die Referenz 7924 erschien – die erste Tudor-Taucheruhr mit 200 Metern Wasserdichtigkeit, die Sammler wegen ihrer großen Krone »Big Crown« nennen. Anders als die 41 Millimeter große Black Bay orientiert sich die Fifty-Eight auch in den Proportionen an diesem Vorbild.",
+    "Das Edelstahlgehäuse misst 39 Millimeter und ist mit rund 11,9 Millimetern deutlich flacher als die normale Black Bay; wasserdicht ist es bis 200 Meter. Im Inneren arbeitet das Manufakturkaliber MT5402, ein kleineres Automatikwerk mit rund 70 Stunden Gangreserve und COSC-Chronometerzertifikat. Ein Datum gibt es nicht, was die Symmetrie des Zifferblatts bewahrt.",
+    "Die erste Ausführung von 2018, die M79030N, hat ein schwarzes Zifferblatt mit goldfarbenen Zeigern, Indexrahmen und Beschriftung, dazu eine schwarze Lünette mit goldfarbener Skala und leicht vergilbt eingefärbter Leuchtmasse – eine Anspielung auf die »gilt«-Zifferblätter der späten 1950er-Jahre. 2020 folgte die M79030B in Navy-Blau mit blauer Lünette, silberfarbenen Details und weißer Leuchtmasse, die kühler und sportlicher wirkt.",
+    "Die Fifty-Eight traf einen Nerv: Sie passt an viele Handgelenke, die mit 40 und mehr Millimetern überfordert sind, und sitzt dank der geringen Höhe gut unter der Manschette. Nach ihrem Erfolg brachten viele Hersteller kleinere Taucheruhren heraus. Für Tudor ist sie eines der wichtigsten Modelle überhaupt."
+   ],
+   "vh": [
+    [
+     "Schwarz-Gold: Ref. M79030N",
+     "Die Ausgangsversion von 2018 mit schwarzem Zifferblatt, goldfarbenen Akzenten und roter Dreiecksmarke auf der Lünette."
+    ],
+    [
+     "Navy Blue: Ref. M79030B",
+     "Seit 2020 mit blauem Zifferblatt und blauer Lünette, silberfarbenen Zeigern und weißer Leuchtmasse."
+    ],
+    [
+     "Bronze, Silber und Gold",
+     "Auf derselben Grundform entstanden Ausführungen mit eigenen Referenzen: in Bronze (M79012M, 2021), in 925er-Silber (M79010SG, 2021) und in Gelbgold mit grünem Zifferblatt (M79018V)."
+    ]
+   ],
+   "m": [
+    "39 mm, Edelstahl, rund 11,9 mm hoch",
+    "Kein Datum",
+    "Snowflake-Stundenzeiger",
+    "Schwarz mit goldfarbenen Akzenten oder Navy-Blau mit Silber"
+   ],
+   "ev": [
+    [
+     "1958",
+     "Vorbild: »Big Crown« Ref. 7924"
+    ],
+    [
+     "2018",
+     "Vorstellung der Fifty-Eight M79030N"
+    ],
+    [
+     "2020",
+     "Navy Blue M79030B"
+    ],
+    [
+     "2021",
+     "Ausführungen in Bronze und Silber"
+    ]
+   ],
+   "x": [
+    "Die schwarze Version mit goldfarbenen Akzenten wirkt historischer, die blaue moderner – am besten beide anprobieren.",
+    "Die Fifty-Eight gibt es am Stahlband, an Textil- und Lederbändern; das Stahlband der frühen Jahre hat noch keine werkzeuglose Feinverstellung.",
+    "Bei gebrauchten Uhren auf Box und Papiere achten, da die Fifty-Eight sehr gefragt und entsprechend oft kopiert wird."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018 (Navy Blue seit 2020)"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "MT5402, Automatik, COSC-Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorbild",
+     "7924 »Big Crown« (1958)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die Rolex Submariner 124060 ist die bekannteste Taucheruhr ohne Datum aus diesen Jahren, allerdings deutlich größer und teurer."
+    },
+    {
+     "m": "explorer",
+     "c": "Auch Rolex kehrte mit der Explorer 124270 im Jahr 2021 zu 36 Millimetern zurück – ein weiteres Zeichen der Rückkehr kleinerer Uhren."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Omegas Seamaster 300 greift wie die Fifty-Eight eine Taucheruhr der späten 1950er-Jahre auf."
+    }
+   ]
   }
  ]
 }
