@@ -37097,6 +37097,95 @@
      "c": "Vacheron Constantins Overseas verfolgt dieselbe Idee einer eleganten Sportuhr aus Stahl."
     }
    ]
+  },
+  {
+   "id": "aquanaut-5168",
+   "model": "aquanaut",
+   "ref": "5168G",
+   "alias": [
+    "5168",
+    "5168G-010",
+    "5168G-001"
+   ],
+   "var": 0,
+   "t": "Patek Philippe Aquanaut Ref. 5168G",
+   "bau": "seit 2017",
+   "cap": "»Jumbo«",
+   "s": "Mehr Gehäuse, mehr Gold und ein Zifferblatt in Khaki: Die »Jumbo« ist die größte Aquanaut mit Dreizeigerwerk und verwandelt die sportliche Uhr in eine Weißgold-Ikone.",
+   "bh": [
+    "Zum 20. Geburtstag",
+    "Gehäuse und Werk",
+    "Die Khaki-Version",
+    "Bedeutung"
+   ],
+   "b": [
+    "2017, zum 20-jährigen Bestehen der Aquanaut, stellte Patek Philippe die Referenz 5168G vor. Mit 42,2 Millimetern ist sie spürbar größer als die 5167A und erhielt deshalb schnell den Spitznamen »Jumbo«, den Sammler auch von der Nautilus kennen.",
+    "Das Gehäuse ist aus Weißgold, bewahrt aber die Form der Stahl-Aquanaut mit satinierter Lünette und polierten Kanten. Im Inneren arbeitet wie bei der 5167A das Automatikkaliber 324 S C mit Zentralsekunde und Datum. Die Uhr wirkt dadurch auf den ersten Blick wie eine größere Stahl-Aquanaut, ist aber deutlich schwerer.",
+    "Zunächst erschien die 5168G mit blauem Zifferblatt und passendem Band. 2019 kam die Ausführung mit khakigrünem Zifferblatt und gleichfarbigem Band hinzu, die zu den markantesten Aquanaut-Varianten gehört.",
+    "Die 5168G ist die Aquanaut für alle, denen die 5167A zu klein ist oder die das Understatement von Weißgold im Look einer Sportuhr schätzen. Sie zeigt, wie weit sich die einst als Einstiegsmodell gedachte Linie inzwischen vom Ursprung entfernt hat."
+   ],
+   "vh": [
+    [
+     "Blau: Ref. 5168G-001",
+     "Die erste Ausführung von 2017 hat ein blaues Zifferblatt mit dem typischen Würfelmuster und ein blaues Band."
+    ],
+    [
+     "Khaki: Ref. 5168G-010",
+     "Die abgebildete Version mit khakigrünem Zifferblatt und Band erschien 2019."
+    ]
+   ],
+   "m": [
+    "42,2 mm, Weißgold",
+    "Zifferblatt mit erhabenem Würfelmuster, blau oder khakigrün",
+    "Band in Zifferblattfarbe",
+    "Große arabische Ziffern mit Leuchtmasse, Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2017",
+     "Vorstellung zum 20-jährigen Bestehen der Aquanaut, blaues Zifferblatt"
+    ],
+    [
+     "2019",
+     "Ausführung mit khakigrünem Zifferblatt"
+    ]
+   ],
+   "x": [
+    "Wegen des Weißgoldgehäuses lohnt es sich, Kratzer und Dellen genau zu prüfen; das weiche Edelmetall zeigt Spuren schneller als Stahl.",
+    "Ein originales Band in Zifferblattfarbe gehört zum Gesamtbild und sollte vorhanden sein."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "42,2 mm, Weißgold"
+    ],
+    [
+     "Kaliber",
+     "324 S C, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunde, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "laureato",
+     "c": "Girard-Perregaux brachte den Laureato in denselben Jahren als Luxus-Sportuhr zurück."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle erschien 2019 als neue Sportuhr mit eigener Zifferblattstruktur."
+    },
+    {
+     "m": "royal-oak-offshore",
+     "c": "Die Royal Oak Offshore steht wie die »Jumbo« für die große, kräftige Luxus-Sportuhr."
+    }
+   ]
   }
  ]
 }
