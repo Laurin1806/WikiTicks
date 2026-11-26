@@ -3148,11 +3148,18 @@
      "Ohne Datum, Cerachrom-Lünette"
     ],
     [
-     "124060 / 126610LN",
+     "126610LN",
      "seit 2020",
      "41 mm",
-     "3230 / 3235",
-     "Neues Gehäuse, ≈ 70 h Gangreserve"
+     "3235",
+     "Neues Gehäuse, Datum, ≈ 70 h Gangreserve"
+    ],
+    [
+     "124060",
+     "seit 2020",
+     "41 mm",
+     "3230",
+     "Ohne Datum, neues 41-mm-Gehäuse"
     ]
    ],
    "r": [
@@ -3390,7 +3397,7 @@
     ],
     [
      "2020",
-     "Neues 41-mm-Gehäuse"
+     "Neues 41-mm-Gehäuse mit Kaliber 3235 (Ref. 126610LN)"
     ]
    ],
    "x": [
