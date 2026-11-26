@@ -49595,6 +49595,90 @@
      "c": "Die Girard-Perregaux Laureato greift wie die Ingenieur eine integrierte Sportuhr der 1970er-Jahre wieder auf."
     }
    ]
+  },
+  {
+   "id": "luminor-marina-pam00111",
+   "model": "luminor-marina",
+   "ref": "PAM00111",
+   "alias": [
+    "PAM00111",
+    "PAM 111",
+    "PAM 00111",
+    "Luminor Marina (PAM 111)"
+   ],
+   "var": null,
+   "t": "Panerai Luminor Marina Ref. PAM00111",
+   "bau": "2002–2015",
+   "cap": "",
+   "s": "Für viele die Panerai schlechthin: 44 Millimeter Stahl, Kronenschutzbügel, Sandwich-Zifferblatt und kleine Sekunde bei 9 Uhr – ohne Datum, mit Handaufzug.",
+   "bh": [
+    "Der Klassiker der zivilen Panerai",
+    "Gehäuse und Zifferblatt",
+    "Das Werk OP XI",
+    "Bedeutung und Ablösung"
+   ],
+   "b": [
+    "1993 stellte Panerai erstmals Uhren für den freien Verkauf vor, 1997 übernahm Richemont die Marke. Aus dem Gehäuse mit Hebelbügel über der Krone entstand die Luminor Marina mit Handaufzug und kleiner Sekunde. Die PAM 111 (PAM00111) ist ihre bekannteste Ausführung, gebaut von 2002 bis 2015, mit Edelstahlgehäuse, schwarzem Zifferblatt und schwarzem Lederband.",
+    "Das kissenförmige Gehäuse misst 44 Millimeter. Der patentierte Kronenschutz mit Hebelbügel trägt die Aufschriften »REG.« und »T.M.«. Das Sandwich-Zifferblatt zeigt die Ziffern 12 und 6 und Strichindizes mit Leuchtmasse, die kleine Sekunde sitzt bei 9 Uhr. Ein Datum gibt es nicht.",
+    "Im Inneren arbeitet das Handaufzugskaliber OP XI, das auf dem Unitas-Taschenuhrwerk 6497 basiert. Das große, robuste Werk passt zum Charakter der Uhr.",
+    "Die PAM 111 gehörte über Jahre zu den meistverkauften Panerai-Modellen und prägte das Bild der Marke in der Zeit der großen Uhren. Mit dem Wechsel zu eigenen Panerai-Werken wurde sie Mitte der 2010er-Jahre abgelöst; gebraucht gilt sie heute als Einstieg in die Marke."
+   ],
+   "m": [
+    "44-mm-Kissengehäuse mit Kronenschutzbügel",
+    "Sandwich-Zifferblatt ohne Datum",
+    "Kleine Sekunde bei 9 Uhr",
+    "Handaufzug"
+   ],
+   "ev": [
+    [
+     "1993",
+     "Erste Panerai für den freien Verkauf"
+    ],
+    [
+     "2002",
+     "Luminor Marina PAM 111"
+    ],
+    [
+     "2015",
+     "Ende der Produktion"
+    ]
+   ],
+   "x": [
+    "Zum Aufziehen muss der Kronenschutzbügel geöffnet werden; er sollte danach wieder fest schließen.",
+    "Viele Exemplare sind im Umlauf; auf originale Zifferblätter und Zeiger achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2002–2015"
+    ],
+    [
+     "Gehäuse",
+     "44 mm, Edelstahl, Kronenschutzbügel"
+    ],
+    [
+     "Kaliber",
+     "OP XI, Handaufzug (Basis Unitas 6497)"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "big-pilot",
+     "c": "IWC brachte 2002 die Big Pilot zurück – eine andere große Uhr mit militärischen Wurzeln aus demselben Jahr."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra erschien ebenfalls 2002 und war eine der meistgekauften Sportuhren dieser Jahre."
+    },
+    {
+     "m": "br-01",
+     "c": "Die Bell & Ross BR 01 von 2005 stand wie die PAM 111 für die betont große Uhr mit Instrumentencharakter."
+    }
+   ]
   }
  ]
 }
