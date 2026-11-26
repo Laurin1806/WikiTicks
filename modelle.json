@@ -47545,6 +47545,98 @@
      "c": "Die Royal Oak ist das Vorbild aller Luxusuhren mit verschraubter Lünette."
     }
    ]
+  },
+  {
+   "id": "conquest-l3-830",
+   "model": "conquest",
+   "ref": "L3.830.4",
+   "alias": [
+    "L3.830.4.92.6",
+    "L3.830.4"
+   ],
+   "var": null,
+   "t": "Longines Conquest Ref. L3.830.4",
+   "bau": "seit 2023",
+   "cap": "",
+   "s": "Sonnenschliff, facettierte Indizes, ein kräftiges Stahlband: Die Conquest mit der Referenz L3.830.4 ist Longines’ sportliche Alltagsuhr in ihrer jüngsten, deutlich aufgewerteten Form.",
+   "bh": [
+    "Eine Linie seit 1954",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Conquest erschien 1954 als erste sportliche Linie von Longines. Ihre jüngste Generation hat ein schärfer gezeichnetes Gehäuse und ein hochwertiger wirkendes Zifferblatt; die Ausführung mit 41 Millimetern trägt die Grundreferenz L3.830.4.",
+    "Das Edelstahlgehäuse hat eine glatte, polierte Lünette und kräftige Bandanstöße. Das blaue Zifferblatt mit Sonnenschliff trägt aufgesetzte, facettierte Stabindizes, Stabzeiger mit Leuchtmasse und ein Datum bei 3 Uhr, dazu die Aufschriften »Conquest« und »Automatic«. Getragen wird die Uhr an einem dreireihigen Stahlband mit polierten Mittelgliedern.",
+    "Im Inneren arbeitet ein Automatikwerk aus der L888-Familie mit Siliziumspirale und rund 72 Stunden Gangreserve. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Die L3.830.4 steht im Katalog zwischen der klassischen Master Collection und der HydroConquest. Sie ist eine vielseitige Alltagsuhr und für viele ein vernünftiger Einstieg in die Welt der Schweizer Automatikuhren."
+   ],
+   "vh": [
+    [
+     "Zifferblattfarben",
+     "Die L3.830.4 gibt es mit blauem, schwarzem, silbernem und weiteren Zifferblättern; die Endung der Referenz unterscheidet die Ausführungen."
+    ],
+    [
+     "Andere Größen",
+     "Die Conquest dieser Generation gibt es auch mit kleineren Durchmessern; sie tragen eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl, polierte glatte Lünette",
+    "Sonnenschliff-Zifferblatt mit facettierten Indizes",
+    "Datum bei 3 Uhr",
+    "Dreireihiges Stahlband mit polierten Mittelgliedern"
+   ],
+   "ev": [
+    [
+     "1954",
+     "Erste Conquest"
+    ],
+    [
+     "2023",
+     "Neue Conquest-Generation, darunter die L3.830.4"
+    ]
+   ],
+   "x": [
+    "Ältere Conquest-Modelle mit ähnlichem Namen haben andere Gehäuse und Werke; auf die Referenz achten.",
+    "Die polierten Mittelglieder des Bands zeigen Kratzer schnell."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "L888-Familie, Automatik, Siliziumspirale"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "prx",
+     "c": "Die Tissot PRX ist im selben Konzern die sportlich-elegante Alltagsuhr mit Stahlband."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra ist eine sportlich-elegante Alternative eine Preisklasse höher."
+    },
+    {
+     "m": "ranger",
+     "c": "Tudors Ranger ist eine weitere sachliche Alltagsuhr aus diesen Jahren."
+    }
+   ]
   }
  ]
 }
