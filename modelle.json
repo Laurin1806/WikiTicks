@@ -46445,6 +46445,83 @@
      "c": "Die Blancpain Villeret ist die klassische, flache Golduhr eines anderen traditionsreichen Hauses."
     }
    ]
+  },
+  {
+   "id": "traditionnelle-47192",
+   "model": "traditionnelle",
+   "ref": "47192",
+   "alias": [
+    "47192/000R-9352"
+   ],
+   "var": null,
+   "t": "Vacheron Constantin Traditionnelle Ref. 47192",
+   "bau": "ab Ende der 2000er-Jahre",
+   "cap": "",
+   "s": "Ein Handaufzugschronograph in Gold, zwei Hilfszifferblätter und ein Werk mit Genfer Siegel: Der Traditionnelle Chronograph 47192 ist Vacheron Constantins klassische Antwort auf die Frage nach dem eleganten Stoppuhrwerk.",
+   "bh": [
+    "Ein klassischer Chronograph",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber 1141"
+   ],
+   "b": [
+    "Die Referenz 47192 ist ein Chronograph aus der klassischen Linie von Vacheron Constantin. Er erschien zunächst unter dem Namen Patrimony Traditionnelle und wurde später der Traditionnelle zugeordnet. Anders als die sportlichen Chronographen der Overseas ist er eine Dresswatch: rundes Goldgehäuse, schlanke Lünette, Lederband.",
+    "Das silberfarbene Zifferblatt trägt zwei Hilfszifferblätter – links die kleine Sekunde, rechts den 30-Minuten-Zähler. Dazu kommen aufgesetzte Indizes und schlanke Zeiger. Die Drücker bei 2 und 4 Uhr fügen sich zurückhaltend in das klassische Gehäuse ein.",
+    "Im Inneren arbeitet das Handaufzugskaliber 1141 mit Schaltrad, ein klassisches Chronographenwerk, das Vacheron Constantin fein veredelt hat. Es trägt das Genfer Siegel und ist durch einen Saphirglasboden zu sehen."
+   ],
+   "vh": [
+    [
+     "Roségold: Ref. 47192/000R-9352",
+     "Die Ausführung in Roségold mit silberfarbenem Zifferblatt und dunkelbraunem Lederband."
+    ]
+   ],
+   "m": [
+    "Rundes Goldgehäuse mit schlanker Lünette",
+    "Zwei Hilfszifferblätter bei 3 und 9 Uhr",
+    "Chronographendrücker bei 2 und 4 Uhr",
+    "Glasboden mit Handaufzugswerk"
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Chronograph der klassischen Linie mit Kaliber 1141"
+    ]
+   ],
+   "x": [
+    "Ein Service eines Handaufzugschronographen mit Genfer Siegel ist aufwendig – auf Belege von Vacheron Constantin achten.",
+    "Gebraucht liegen solche klassischen Goldchronographen oft deutlich unter dem Neupreis vergleichbarer aktueller Modelle."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "ab Ende der 2000er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "rund, Roségold, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "1141, Handaufzug-Chronograph, Schaltrad, Genfer Siegel"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph mit 30-Minuten-Zähler"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "datograph",
+     "c": "Die Lange Datograph ist der sächsische Gegenpol unter den Handaufzugschronographen in Gold."
+    },
+    {
+     "m": "chrono-ewiger-kalender",
+     "c": "Patek Philippes Chronographen stehen für dieselbe Genfer Tradition klassischer Stoppuhrwerke."
+    },
+    {
+     "m": "classique",
+     "c": "Die Breguet Classique ist die elegante Linie eines anderen großen Hauses mit ähnlicher Zielgruppe."
+    }
+   ]
   }
  ]
 }
