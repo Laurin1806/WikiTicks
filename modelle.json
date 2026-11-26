@@ -51059,6 +51059,94 @@
      "c": "Omegas Planet Ocean von 2005 ist eine andere große Sportuhr derselben Jahre."
     }
    ]
+  },
+  {
+   "id": "santos-wgsa0021",
+   "model": "santos",
+   "ref": "WGSA0021",
+   "alias": [
+    "WGSA0021",
+    "Santos-Dumont Large"
+   ],
+   "var": 1,
+   "t": "Cartier Santos-Dumont Ref. WGSA0021",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Die elegante Schwester der Santos: ein flaches Roségoldgehäuse, ein Handaufzugswerk und die Linien der Uhr, die Louis Cartier 1904 für einen Flugpionier entwarf.",
+   "bh": [
+    "Zurück zum Original von 1904",
+    "Flaches Gehäuse, flaches Werk",
+    "Unterschiede zur Santos de Cartier",
+    "Ausführungen"
+   ],
+   "b": [
+    "Die Santos-Dumont geht unmittelbar auf die Uhr zurück, die Louis Cartier 1904 für den brasilianischen Flugpionier Alberto Santos-Dumont baute, damit er beim Fliegen die Zeit ablesen konnte, ohne die Hände vom Steuer zu nehmen. 2019 legte Cartier sie in zwei Größen neu auf. Die Referenz WGSA0021 ist die große Ausführung mit Gehäuse aus 18-karätigem Roségold, silberweißem Zifferblatt und braunem Lederband.",
+    "Das quadratische Gehäuse mit abgerundeten Ecken misst 43,5 × 31,4 Millimeter und ist deutlich flacher als das der Santos de Cartier. Möglich macht das das Handaufzugskaliber 430 MC, das auf dem extraflachen Piaget-Kaliber 430P basiert. Die Uhr zeigt nur Stunden und Minuten, eine Sekunde und ein Datum gibt es nicht.",
+    "Mit der sportlichen Santos de Cartier teilt die Santos-Dumont die Lünette mit acht Schrauben, die römischen Ziffern, die Minuterie im »Chemin de fer«-Stil und die gebläuten Schwertzeiger. Sie hat aber kein Metallband mit Schrauben, sondern ein Lederband, und eine schlankere Silhouette – sie ist als Uhr zum Anzug gedacht.",
+    "Neben Roségold gibt es die große Santos-Dumont mit demselben Handaufzugswerk auch in Gelbgold und Edelstahl; die kleineren Größen haben auch Quarzwerke. Damit ist sie der klassische, elegante Teil der Santos-Familie."
+   ],
+   "vh": [
+    [
+     "Edelstahl und Gelbgold",
+     "Die große Santos-Dumont gibt es mit demselben Handaufzugswerk auch in Edelstahl und in Gelbgold."
+    ],
+    [
+     "Kleinere Größen",
+     "Die kleineren Ausführungen der Santos-Dumont gibt es auch mit Quarzwerk."
+    ]
+   ],
+   "m": [
+    "Flaches quadratisches Gehäuse mit acht Schrauben auf der Lünette",
+    "Römische Ziffern, »Chemin de fer«-Minuterie, gebläute Schwertzeiger",
+    "Achteckige Krone mit blauem Cabochon",
+    "Nur Stunden und Minuten, Lederband"
+   ],
+   "ev": [
+    [
+     "1904",
+     "Louis Cartier entwirft die Uhr für Alberto Santos-Dumont"
+    ],
+    [
+     "2019",
+     "Neuauflage in zwei Größen, die große mit Kaliber 430 MC"
+    ]
+   ],
+   "x": [
+    "Das Handaufzugswerk muss regelmäßig aufgezogen werden; wer eine Uhr ohne diese Pflege sucht, greift eher zur Santos de Cartier mit Automatik.",
+    "Bei Goldgehäusen kann Nachpolieren die feinen Kanten der Lünette verrunden; unpolierte Exemplare sind vorzuziehen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "43,5 × 31,4 mm, 18 Karat Roségold"
+    ],
+    [
+     "Kaliber",
+     "430 MC, Handaufzug (Basis Piaget 430P)"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "altiplano",
+     "c": "Die Piaget Altiplano steht für extraflache Werke – aus Piagets Werkfamilie stammt auch die Basis des 430 MC."
+    },
+    {
+     "m": "reverso",
+     "c": "Die Reverso ist der andere große Klassiker unter den eckigen Uhren mit langer Geschichte."
+    },
+    {
+     "m": "perpetual-1908",
+     "c": "Rolex brachte 2023 mit der Perpetual 1908 ebenfalls eine flache, klassische Golduhr für den Anzug."
+    }
+   ]
   }
  ]
 }
