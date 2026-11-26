@@ -45504,6 +45504,98 @@
      "c": "Audemars Piguets Code 11.59 erschien im selben Jahr als neue Linie einer großen Marke."
     }
    ]
+  },
+  {
+   "id": "glashuette-pano-1-90-02",
+   "model": "glashuette-pano",
+   "ref": "1-90-02",
+   "alias": [
+    "1-90-02-46-32-61",
+    "PanoMaticLunar"
+   ],
+   "var": null,
+   "t": "Glashütte Original PanoMaticLunar Ref. 1-90-02",
+   "bau": "seit 2003",
+   "cap": "",
+   "s": "Außermittige Zeit, Panoramadatum und Mondphase: Die PanoMaticLunar ist die Uhr, an der man Glashütte Original auf den ersten Blick erkennt.",
+   "bh": [
+    "Ein asymmetrisches Zifferblatt",
+    "Das Panoramadatum",
+    "Das Kaliber 90-02",
+    "Überarbeitung und Bedeutung"
+   ],
+   "b": [
+    "Glashütte Original stellte die PanoMaticLunar 2003 als Automatikuhr der Pano-Familie vor. Ihr Zifferblatt ist asymmetrisch aufgebaut: Die Anzeige für Stunden und Minuten sitzt links aus der Mitte gerückt, rechts oben liegt die Mondphase, darunter die kleine Sekunde und dazwischen das Panoramadatum.",
+    "Das Panoramadatum besteht aus zwei Scheiben auf gleicher Höhe, eine für die Zehner und eine für die Einer. Dadurch stehen die beiden großen Ziffern ohne trennenden Steg dicht nebeneinander und sind besonders gut lesbar.",
+    "Im Inneren arbeitet das Automatikkaliber 90-02 mit außermittig gelagertem Rotor, rund 42 Stunden Gangreserve und Glashütter Merkmalen wie Dreiviertelplatine, Schwanenhals-Feinregulierung und Glashütter Streifenschliff. Durch den Saphirglasboden ist es gut zu sehen.",
+    "Das Gehäuse misst 40 Millimeter und ist bis 50 Meter wasserdicht. Die PanoMaticLunar gilt bis heute als bekanntestes Modell der Marke."
+   ],
+   "vh": [
+    [
+     "Blaues Zifferblatt: Ref. 1-90-02-46-32-61",
+     "Edelstahlgehäuse mit dunkelblauem Zifferblatt, auf dem die silbernen Hilfsanzeigen deutlich hervortreten."
+    ],
+    [
+     "Gold und weitere Zifferblätter",
+     "Die PanoMaticLunar gibt es auch in Roségold sowie mit silberfarbenem oder grauem Zifferblatt."
+    ]
+   ],
+   "m": [
+    "Stunden und Minuten links aus der Mitte gerückt",
+    "Mondphase rechts oben",
+    "Panoramadatum mit zwei Scheiben auf gleicher Höhe",
+    "Kleine Sekunde rechts unten"
+   ],
+   "ev": [
+    [
+     "2003",
+     "Vorstellung der PanoMaticLunar"
+    ]
+   ],
+   "x": [
+    "Die PanoMaticLunar ist gebraucht oft deutlich günstiger als neu und eine der bekanntesten deutschen Komplikationsuhren.",
+    "Beim Kauf prüfen, ob Panoramadatum und Mondphase sauber schalten, und auf Servicebelege achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2003"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl oder Gold, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "90-02, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 42 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Panoramadatum, Mondphase"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "lange-1",
+     "c": "Die Lange 1 aus derselben Stadt setzt ebenfalls auf ein asymmetrisches Zifferblatt mit Großdatum."
+    },
+    {
+     "m": "tangente",
+     "c": "Nomos' Tangente ist die schlichte Glashütter Nachbarin aus denselben Jahren."
+    },
+    {
+     "m": "datograph",
+     "c": "Die Lange Datograph kombiniert Großdatum und feine Glashütter Werkveredelung."
+    }
+   ]
   }
  ]
 }
