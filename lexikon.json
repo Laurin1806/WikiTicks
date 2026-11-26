@@ -1108,7 +1108,8 @@
    "Aufgesetzte Indizes sind einzeln angebracht, gedruckte werden aufgestempelt. Emaille- und Steinzifferblätter gelten als besonders aufwendig.",
    "Seltener bestehen Zifferblätter aus Silber, Gold oder Perlmutt. Nach dem Stanzen werden Füße zur Befestigung angelötet.",
    "Besondere Techniken sind Grand-Feu-Emaille, das bei über 800 Grad gebrannt wird und sich nie verfärbt, Cloisonné mit Metallstegen, Aventurin und Meteorit.",
-   "Sammler kennen Bezeichnungen wie »Pie-Pan« (wie ein Kuchenblech abgeschrägt), »Gilt« (goldene Schrift) oder »Tropical« (durch UV-Licht von Schwarz zu Braun verfärbt und gefragt). Nachträglich neu lackierte Zifferblätter (Redials) mindern den Wert stark. Bekanntes Beispiel für ein Pie-Pan-Zifferblatt ist die Omega Constellation der 1950er-Jahre."
+   "Sammler kennen Bezeichnungen wie »Pie-Pan« (wie ein Kuchenblech abgeschrägt), »Gilt« (goldene Schrift) oder »Tropical« (durch UV-Licht von Schwarz zu Braun verfärbt und gefragt). Nachträglich neu lackierte Zifferblätter (Redials) mindern den Wert stark. Bekanntes Beispiel für ein Pie-Pan-Zifferblatt ist die Omega Constellation der 1950er-Jahre.",
+   "Eine eigene Gruppe bilden Firmenzifferblätter: Für Großkunden wie die Taucherfirma COMEX, Fluggesellschaften, Armeen oder Unternehmen druckte Rolex deren Schriftzug oder Logo auf das Zifferblatt. Solche Uhren wurden oft nicht frei verkauft, sind heute selten und gehören zu den am häufigsten gefälschten Zifferblättern."
   ],
   "f": [
    [
@@ -1132,12 +1133,26 @@
    "m": [
     "classique",
     "datejust",
-    "white-birch"
+    "white-birch",
+    "submariner"
    ],
    "mc": [
     "Guilloché von Hand",
     "Sonnenschliff",
-    "Struktur einer Birkenrinde"
+    "Struktur einer Birkenrinde",
+    "Firmenzifferblatt mit »comex«-Schriftzug (Ref. 16800)"
+   ],
+   "img": [
+    null,
+    null,
+    null,
+    "assets/watches/rolex-submariner-16800.jpg"
+   ],
+   "at": [
+    null,
+    null,
+    null,
+    "b5"
    ]
   },
   "g": [

@@ -33324,8 +33324,7 @@
     ],
     [
      "COMEX: Ref. 5514",
-     "Auf Basis der 5513 für die Taucherfirma COMEX gebaut, mit Heliumventil und COMEX-Logo; nicht frei verkauft und heute sehr selten.",
-     "submariner-16800"
+     "Auf Basis der 5513 für die Taucherfirma COMEX gebaut, mit Heliumventil und COMEX-Logo; nicht frei verkauft und heute sehr selten."
     ]
    ]
   },
@@ -33363,8 +33362,7 @@
     ],
     [
      "COMEX",
-     "Für die Taucherfirma COMEX gab es die 1680 mit Firmenlogo auf dem Zifferblatt.",
-     "submariner-16800"
+     "Für die Taucherfirma COMEX gab es die 1680 mit Firmenlogo auf dem Zifferblatt."
     ]
    ],
    "m": [
@@ -35312,8 +35310,7 @@
     ],
     [
      "COMEX",
-     "Für die Taucherfirma COMEX gab es die 1665 mit Firmenlogo auf dem Zifferblatt.",
-     "submariner-16800"
+     "Für die Taucherfirma COMEX gab es die 1665 mit Firmenlogo auf dem Zifferblatt."
     ]
    ]
   },
@@ -52064,8 +52061,7 @@
     ],
     [
      "Vorgängerin: Ref. 16800",
-     "Die erste Submariner mit Saphirglas und 300 Metern, mit dem Kaliber 3035.",
-     "submariner-16800"
+     "Die erste Submariner mit Saphirglas und 300 Metern, mit dem Kaliber 3035."
     ]
    ],
    "m": [
@@ -52594,7 +52590,8 @@
      "m": "seamaster-300",
      "c": "Omegas Taucheruhren standen in diesen Jahren für die Alternative aus Biel."
     }
-   ]
+   ],
+   "noRec": true
   },
   {
    "id": "gmt-master-16750",
