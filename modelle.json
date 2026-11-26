@@ -4016,17 +4016,17 @@
      "irefs": "hoch"
     },
     {
-     "n": "Ref. 16710, schwarze Lünette",
-     "y": "1989–2007",
+     "n": "Ref. 16750",
+     "y": "1981–1988",
      "v": {
       "img": "assets/watches/rolex-gmt-master-2-16710-black.jpg"
      },
      "dial": "Schwarz",
-     "iref": "16710",
-     "irefs": "hoch",
+     "iref": "16750",
+     "irefs": "mittel",
      "bd": [
-      "Die Abbildung zeigt eine Rolex GMT-Master II Referenz 16710 aus Edelstahl mit schwarzer Aluminiumlünette und Jubilee-Band, wie sie von 1989 bis 2007 gebaut wurde.",
-      "Zu erkennen sind die zu Creme gealterte Tritium-Leuchtmasse, die Aufschrift »SWISS – T < 25« am unteren Rand, der rote 24-Stunden-Zeiger mit Dreieckspitze, das Datum mit Zykloplupe und der Schriftzug »GMT-MASTER II«."
+      "Die Abbildung zeigt eine Rolex GMT-Master Referenz 16750 aus Edelstahl mit schwarzer Aluminiumlünette und Jubilee-Band, gebaut von 1981 bis 1988, die erste GMT-Master mit Saphirglas und Datums-Schnellschaltung.",
+      "Zu erkennen sind die zu Creme gealterte Tritium-Leuchtmasse, »SWISS – T < 25« am unteren Rand, der rote 24-Stunden-Zeiger mit Dreieckspitze und das Datum mit Zykloplupe."
      ]
     },
     {
@@ -52223,7 +52223,7 @@
     "16713",
     "16718"
    ],
-   "var": 2,
+   "var": 3,
    "t": "Rolex GMT-Master II Ref. 16710",
    "bau": "1989–2007",
    "cap": "",

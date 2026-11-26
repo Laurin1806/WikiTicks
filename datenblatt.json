@@ -6196,19 +6196,19 @@
    "zifferblatt_optionen": "Braun (tropisch), gealterte Leuchtmasse"
   },
   "gmt-master|2": {
-   "ref": "16710",
-   "produktion": "1989–2007",
+   "ref": "16750",
+   "produktion": "1981–1988",
    "durchmesser": "40 mm",
    "gehaeuse": "Edelstahl",
    "glas": "Saphir mit Zykloplupe",
-   "werk": "Kaliber 3185, ab 2007 3186",
+   "werk": "Kaliber 3075",
    "werktyp": "Automatik",
    "manufaktur": "Manufakturwerk",
    "funktionen": "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone (24 h)",
    "luenette": "beidseitig drehbar, Aluminium, 24 Stunden",
    "wasserdicht": "100 m",
    "band": "Jubilee-Band",
-   "zifferblatt_optionen": "Schwarz, Tritium"
+   "zifferblatt_optionen": "Schwarz, matt, Tritium"
   },
   "gmt-master|3": {
    "ref": "16710",
