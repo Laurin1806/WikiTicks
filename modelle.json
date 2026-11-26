@@ -44241,6 +44241,86 @@
      "c": "Die Hamilton Khaki Field Mechanical ist eine ebenso nüchterne Werkzeuguhr mit großen Ziffern."
     }
    ]
+  },
+  {
+   "id": "sinn-356-020",
+   "model": "sinn-356",
+   "ref": "356.020",
+   "alias": [
+    "356.020",
+    "356 Flieger"
+   ],
+   "var": null,
+   "t": "Sinn 356 Flieger Ref. 356.020",
+   "bau": "seit den 1990er-Jahren",
+   "cap": "",
+   "s": "Drei Hilfszifferblätter, große Leuchtziffern, 38,5 Millimeter Stahl: Die 356 Flieger ist der klassische Pilotenchronograph von Sinn und seit Jahrzehnten ein fester Teil der Kollektion.",
+   "bh": [
+    "Chronograph im Fliegerstil",
+    "Gehäuse und Werk",
+    "Das Zifferblatt",
+    "Heute"
+   ],
+   "b": [
+    "Sinn hat seit der Gründung 1961 durch den Piloten Helmut Sinn einen engen Bezug zur Fliegerei. Die 356 Flieger übersetzt diesen Hintergrund in einen kompakten Chronographen, der seit den 1990er-Jahren im Programm ist und in Frankfurt montiert wird.",
+    "Das Edelstahlgehäuse misst 38,5 Millimeter und ist damit für einen Automatikchronographen vergleichsweise klein. Als Werk dient das Valjoux 7750 bzw. ein Sellita-Äquivalent mit automatischem Aufzug. In einigen Ausführungen ist das Gehäuse mit Tegiment gehärtet.",
+    "Das schwarze Zifferblatt trägt große arabische Leuchtziffern im Stil klassischer Fliegeruhren. Oben sitzt der 30-Minuten-Zähler, links die kleine Sekunde, unten der 12-Stunden-Zähler – die typische Anordnung des 7750. Der Schriftzug »356 Flieger« steht rechts neben der Mitte.",
+    "Die 356 gilt als solide, alltagstaugliche Uhr und im Vergleich zu den Fliegerchronographen von IWC oder Breitling als günstige Wahl. Neben Schwarz gibt es weitere Zifferblattfarben."
+   ],
+   "vh": [
+    [
+     "Weitere Zifferblätter",
+     "Neben dem schwarzen Zifferblatt gibt es die 356 Flieger in Weiß und Anthrazit, unter eigenen Artikelnummern."
+    ]
+   ],
+   "m": [
+    "38,5 mm, Edelstahl",
+    "Drei Hilfszifferblätter: Minuten oben, Sekunde links, Stunden unten",
+    "Große arabische Leuchtziffern auf Schwarz",
+    "Schriftzug »356 Flieger«"
+   ],
+   "ev": [
+    [
+     "1990er",
+     "Die 356 Flieger kommt ins Programm"
+    ]
+   ],
+   "x": [
+    "Das 7750 bzw. sein Sellita-Gegenstück ist robust und weit verbreitet; ein Service ist bei jedem guten Uhrmacher möglich.",
+    "Mit 38,5 Millimetern trägt sich die 356 kompakter als viele Fliegerchronographen – gut für schmalere Handgelenke."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 1990er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "38,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Valjoux 7750 / Sellita SW500, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "navitimer",
+     "c": "Der Breitling Navitimer ist der bekannteste Fliegerchronograph überhaupt."
+    },
+    {
+     "m": "avenger",
+     "c": "Breitlings Avenger kam in den 1990er-Jahren ebenfalls als robuster Chronograph mit Fliegerbezug heraus."
+    },
+    {
+     "m": "mark-xx",
+     "c": "Die IWC-Fliegeruhren der Mark-Reihe stehen für dieselbe klare Pilotenoptik."
+    }
+   ]
   }
  ]
 }
