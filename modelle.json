@@ -44950,6 +44950,87 @@
      "c": "Ulysse Nardins Marine Chronometer beruft sich auf dasselbe Erbe der Marinechronometer."
     }
    ]
+  },
+  {
+   "id": "breguet-tradition-7057",
+   "model": "breguet-tradition",
+   "ref": "7057",
+   "alias": [
+    "7057BB/11/9W6"
+   ],
+   "var": null,
+   "t": "Breguet Tradition Ref. 7057",
+   "bau": "seit den 2000er-Jahren",
+   "cap": "",
+   "s": "Bei der Tradition 7057 liegt das Werk offen auf der Zifferblattseite – Federhaus, Räder und Unruh werden selbst zum Zifferblatt, so wie bei den Taschenuhren Abraham-Louis Breguets.",
+   "bh": [
+    "Das Werk als Gestaltung",
+    "Ein Blick in das Werk",
+    "Gehäuse und Bedeutung"
+   ],
+   "b": [
+    "Die Tradition-Linie entstand 2005 und greift die Souscription-Taschenuhren auf, die Abraham-Louis Breguet um 1800 baute. Bei ihnen war das Werk nicht versteckt, sondern Teil der Gestaltung. Die Referenz 7057 ist die Handaufzugsversion der Tradition mit 40 Millimetern.",
+    "Das Zifferblatt für Stunden und Minuten ist nach oben versetzt und nimmt nur einen Teil der Fläche ein. Darunter liegen Federhaus, Räderwerk, Hemmung und die außermittig sitzende Unruh offen. Zu sehen ist auch der Pare-chute, ein von Breguet erfundener Stoßschutz für die Unruhwelle. Die Brücken sind fein bearbeitet, die Zeiger sind gebläute Breguet-Zeiger.",
+    "Das runde Goldgehäuse hat den geriffelten Rand der Marke. Im Inneren arbeitet das Handaufzugskaliber 507DR. Auf dem Zweitmarkt liegt die Tradition oft deutlich unter dem Neupreis – für Kenner viel sichtbare Mechanik."
+   ],
+   "vh": [
+    [
+     "Weißgold: Ref. 7057BB/11/9W6",
+     "Weißgoldgehäuse an schwarzem Lederband."
+    ],
+    [
+     "Gelb- und Roségold",
+     "Die 7057 gibt es auch in Gelbgold und Roségold."
+    ]
+   ],
+   "m": [
+    "Nach oben versetztes Zifferblatt",
+    "Offen liegendes Werk mit außermittiger Unruh",
+    "Sichtbarer Pare-chute-Stoßschutz",
+    "40 mm, Gold, geriffelter Gehäuserand"
+   ],
+   "ev": [
+    [
+     "2005",
+     "Einführung der Tradition-Linie"
+    ]
+   ],
+   "x": [
+    "Weil das Werk offen liegt, sieht man Staub oder Kratzer an den Brücken sofort – beim Kauf genau hinsehen.",
+    "Gebraucht ist die Tradition oft ein günstiger Weg zu einer aufwendig gearbeiteten Breguet."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2000er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Gold"
+    ],
+    [
+     "Kaliber",
+     "507DR, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "gp-three-bridges",
+     "c": "Auch bei Girard-Perregaux' Tourbillon mit drei Brücken ist das Werk selbst die Gestaltung."
+    },
+    {
+     "m": "zeitwerk",
+     "c": "Die Lange Zeitwerk zeigt ebenfalls ihre Technik auf dem Zifferblatt."
+    },
+    {
+     "m": "duometre",
+     "c": "Jaeger-LeCoultres Duomètre gehört zu den Uhren, die feine Mechanik offen zeigen."
+    }
+   ]
   }
  ]
 }
