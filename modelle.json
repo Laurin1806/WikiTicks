@@ -41352,6 +41352,85 @@
      "c": "Die Frédérique Constant Slimline gehört zu den schlichten Kleiduhren, mit denen die Cocktail Time oft verglichen wird."
     }
    ]
+  },
+  {
+   "id": "promaster-diver-bn0150",
+   "model": "promaster-diver",
+   "ref": "BN0150",
+   "alias": [
+    "BN0150-50E"
+   ],
+   "var": null,
+   "t": "Citizen Promaster Diver Ref. BN0150",
+   "bau": "seit 2009",
+   "cap": "",
+   "s": "Eine Taucheruhr, die nie eine Batterie braucht: Die BN0150 lädt sich mit Licht und gehört zu den beliebtesten Einsteiger-Taucheruhren überhaupt.",
+   "bh": [
+    "Die Taucheruhr von Citizen",
+    "Eco-Drive",
+    "Gehäuse und Ausstattung"
+   ],
+   "b": [
+    "Citizen baut unter dem Namen Promaster seit den 1980er-Jahren Uhren für Taucher, Piloten und Bergsteiger. Die BN0150 erschien 2009 und wurde zur meistverbreiteten Taucheruhr der Marke – robust, preiswert und nach der Norm ISO 6425 für den echten Einsatz unter Wasser ausgelegt.",
+    "Angetrieben wird sie vom Solar-Quarzwerk Eco-Drive E168: Eine Solarzelle unter dem Zifferblatt lädt einen Akku, der die Uhr voll geladen rund sechs Monate lang im Dunkeln laufen lässt. Ein Batteriewechsel entfällt, und die Uhr läuft genau wie jede Quarzuhr.",
+    "Das Edelstahlgehäuse misst 44 Millimeter und ist bis 200 Meter wasserdicht. Die einseitig drehbare Lünette, die großen Leuchtindizes und das Datum bei 3 Uhr machen sie zu einem klassischen Werkzeug. Für viele ist sie die sorgenfreie Alternative zu einer mechanischen Taucheruhr."
+   ],
+   "m": [
+    "44 mm, Edelstahl",
+    "Einseitig drehbare Taucherlünette",
+    "Aufdruck »Eco-Drive« und »WR 200«",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1980er",
+     "Start der Promaster-Linie"
+    ],
+    [
+     "2009",
+     "Vorstellung der BN0150"
+    ]
+   ],
+   "x": [
+    "Die Uhr regelmäßig ans Licht legen – ein vollständig entladener Akku braucht viel Licht, bis die Uhr wieder läuft.",
+    "Als Quarzuhr ist die BN0150 genauer und wartungsärmer als eine mechanische Taucheruhr im gleichen Preisbereich."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2009"
+    ],
+    [
+     "Gehäuse",
+     "44 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m (ISO 6425)"
+    ],
+    [
+     "Kaliber",
+     "Eco-Drive E168, Solar-Quarz"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "skx007",
+     "c": "Die Seiko SKX007 war in diesen Jahren die direkte Konkurrentin – mit Automatik statt Solarzelle."
+    },
+    {
+     "m": "hydroconquest",
+     "c": "Die Longines HydroConquest erschien kurz zuvor und ist eine Schweizer Taucheruhr im mittleren Preisbereich."
+    },
+    {
+     "m": "aquis",
+     "c": "Die Oris Aquis kam 2011 heraus und spricht ebenfalls Käufer einer robusten Alltagstaucheruhr an."
+    }
+   ]
   }
  ]
 }
