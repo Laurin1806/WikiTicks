@@ -44411,6 +44411,80 @@
      "c": "Die Laco Aachen ist eine andere deutsche Uhr mit Fliegerwurzeln in ähnlicher Größe."
     }
    ]
+  },
+  {
+   "id": "sinn-ezm-3-603-010",
+   "model": "sinn-ezm-3",
+   "ref": "603.010",
+   "alias": [
+    "603.010",
+    "EZM 3"
+   ],
+   "var": null,
+   "t": "Sinn EZM 3 Ref. 603.010",
+   "bau": "seit den 2000er-Jahren",
+   "cap": "",
+   "s": "Ein rotes »Ar« auf schwarzem Grund verrät das Prinzip: Die EZM 3 ist ein Einsatzzeitmesser, gebaut für Situationen, in denen eine Uhr einfach funktionieren muss.",
+   "bh": [
+    "Einsatzzeitmesser",
+    "Trocken gehalten mit Argon",
+    "Gehäuse und Lünette",
+    "Technik vor Marke"
+   ],
+   "b": [
+    "EZM steht bei Sinn für Einsatzzeitmesser – Uhren, die für Spezialkräfte, Taucher und Rettungsteams entwickelt wurden. Die EZM 3 gehört zu dieser Familie und ist von Beginn an auf Zuverlässigkeit und gute Ablesbarkeit ausgelegt.",
+    "Ein wichtiges Merkmal ist die Ar-Trockenhaltetechnik: Das Gehäuse ist mit dem Schutzgas Argon gefüllt, und eine Trockenkapsel bindet eindringende Feuchtigkeit. So beschlägt das Glas auch bei starken Temperaturwechseln nicht, und das Öl im Werk altert langsamer. Das rote »Ar«-Symbol auf dem Zifferblatt weist darauf hin.",
+    "Das Edelstahlgehäuse misst 41 Millimeter und ist druckfest, die Krone verschraubt. Die einseitig drehbare Lünette trägt eine Minutenskala für die Tauchzeit. Das schwarze Zifferblatt hat breite Leuchtindizes, ein Datum bei 3 Uhr und den Schriftzug »EZM 3« in Rot.",
+    "Die EZM 3 ist teurer als die einfachen Sinn-Fliegeruhren, aber deutlich günstiger als vergleichbare Profiuhren großer Marken. Sie richtet sich an Käufer, die Technik vor Marke stellen."
+   ],
+   "m": [
+    "41 mm, Edelstahl, verschraubte Krone",
+    "Einseitig drehbare Lünette mit Minutenskala",
+    "Rotes »Ar«-Symbol und roter Schriftzug »EZM 3«",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "2000er",
+     "EZM 3 im Programm von Sinn"
+    ]
+   ],
+   "x": [
+    "Die Trockenkapsel verfärbt sich, wenn sie Feuchtigkeit aufgenommen hat, und wird bei der Revision getauscht – beim Gebrauchtkauf nach dem letzten Service fragen.",
+    "Wer eine Sinn-Taucheruhr mit noch mehr Reserve sucht, schaut sich auch die U1 an."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Technik",
+     "Ar-Trockenhaltetechnik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "sinn-u1",
+     "c": "Die Sinn U1 ist die große Schwester aus U-Boot-Stahl für noch größere Tiefen."
+    },
+    {
+     "m": "pelagos",
+     "c": "Die Tudor Pelagos ist eine andere Taucheruhr, die konsequent als Werkzeug gestaltet ist."
+    },
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Seamaster Diver 300M ist der bekannte Maßstab für Profi-Taucheruhren dieser Zeit."
+    }
+   ]
   }
  ]
 }
