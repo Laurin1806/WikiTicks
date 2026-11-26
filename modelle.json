@@ -47730,6 +47730,87 @@
      "c": "Vacheron Constantins Overseas bietet ebenfalls Schnellwechselbänder an einer integrierten Sportuhr."
     }
    ]
+  },
+  {
+   "id": "flagship-heritage-l4-795",
+   "model": "flagship-heritage",
+   "ref": "L4.795.4",
+   "alias": [
+    "L4.795.4.78.2",
+    "L4.795.4",
+    "Flagship Heritage"
+   ],
+   "var": null,
+   "t": "Longines Flagship Heritage Ref. L4.795.4",
+   "bau": "2010er-Jahre",
+   "cap": "",
+   "s": "Goldene Indizes, cremefarbenes Zifferblatt, ein kleines Schiff unter dem Schriftzug: Die Flagship Heritage L4.795.4 holt die Dresswatch von 1957 mit 38,5 Millimetern in die Gegenwart.",
+   "bh": [
+    "Vorbild von 1957",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Flagship erschien 1957 als eine der ersten benannten Kollektionen von Longines, eine schlichte Dresswatch mit schlankem Gehäuse und Stabindizes. Die Flagship Heritage greift diese Gestaltung auf; die abgebildete Ausführung trägt die Grundreferenz L4.795.4.",
+    "Das runde Edelstahlgehäuse misst 38,5 Millimeter und ist schlank gehalten. Das cremefarbene Zifferblatt trägt aufgesetzte goldfarbene Stabindizes und Zeiger, das Flügelsanduhr-Logo, den Schriftzug »Flagship« in Schreibschrift über einem kleinen Schiffssymbol und die Aufschrift »Automatic«. Ein Datum hat diese Ausführung nicht.",
+    "Im Inneren arbeitet ein Automatikwerk, das durch den Glasboden zu sehen ist.",
+    "Die L4.795.4 ist eine der reinsten Vintage-Neuauflagen von Longines und eine zurückhaltende Uhr zum Anzug, die in ihren Proportionen nah am Original bleibt."
+   ],
+   "vh": [
+    [
+     "Mondphase",
+     "Die Flagship Heritage gibt es auch mit Mondphase; diese Ausführung trägt eine eigene Referenz."
+    ]
+   ],
+   "m": [
+    "38,5 mm, schlankes Edelstahlgehäuse",
+    "Cremefarbenes Zifferblatt, goldfarbene Stabindizes",
+    "Schriftzug »Flagship« über einem Schiffssymbol",
+    "Kein Datum, Glasboden"
+   ],
+   "ev": [
+    [
+     "1957",
+     "Erste Flagship"
+    ]
+   ],
+   "x": [
+    "Das Schiffssymbol auf dem Zifferblatt ist ein typisches Detail; bei der Mondphasen-Ausführung ist das Zifferblatt anders aufgeteilt.",
+    "Als Dresswatch ist sie nicht für Wasser gedacht; Dichtigkeit prüfen lassen."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "38,5 mm, Edelstahl, Glasboden"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Datum",
+     "keines"
+    ],
+    [
+     "Vorbild",
+     "Flagship (1957)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony ist eine ebenso schlichte runde Dresswatch dieser Jahre."
+    },
+    {
+     "m": "gp-vintage-1945",
+     "c": "Girard-Perregaux’ Vintage 1945 zeigt ebenfalls die Rückschau auf die Uhren der Nachkriegszeit."
+    },
+    {
+     "m": "le-locle",
+     "c": "Die Tissot Le Locle ist eine klassische Automatikuhr zum Anzug aus demselben Konzern."
+    }
+   ]
   }
  ]
 }
