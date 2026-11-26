@@ -46692,6 +46692,116 @@
      "c": "Die Fiftysix steht für dieselbe klassische Rundform im Programm einer traditionsreichen Marke."
     }
    ]
+  },
+  {
+   "id": "zeitwerk-140",
+   "model": "zeitwerk",
+   "ref": "140",
+   "alias": [
+    "140.029",
+    "140.xxx",
+    "140.032",
+    "140.021"
+   ],
+   "var": 0,
+   "t": "A. Lange & Söhne Zeitwerk Ref. 140",
+   "bau": "2009–2022",
+   "cap": "",
+   "s": "Die erste Zeitwerk zeigte 2009 die Uhrzeit in großen springenden Ziffern – eine mechanische Digitalanzeige, für die Lange eigens einen Konstantkraftmechanismus konstruierte.",
+   "bh": [
+    "Ziffern statt Zeiger",
+    "Kraft im richtigen Moment",
+    "Die Brücke als Gesicht",
+    "Ablösung nach 13 Jahren"
+   ],
+   "b": [
+    "2009 stellte A. Lange & Söhne die Zeitwerk vor. Statt Zeigern zeigen drei Ziffernscheiben die Stunden und Minuten in zwei Fenstern an; die Minuten springen jede Minute, zur vollen Stunde springen alle drei Scheiben gleichzeitig. Wie das Großdatum der Lange 1 ist auch diese Anzeige von der Fünf-Minuten-Uhr in der Dresdner Semperoper inspiriert.",
+    "Das gleichzeitige Weiterschalten mehrerer Scheiben braucht viel Kraft auf einmal. Damit die Genauigkeit darunter nicht leidet, hat das Handaufzugskaliber L043.1 einen Konstantkraftmechanismus: Ein Remontoir speichert Energie und gibt sie jede Minute gleichmäßig ab. Die Gangreserve beträgt rund 36 Stunden.",
+    "Prägend ist die Brücke aus Neusilber, die quer über das Zifferblatt läuft und die Fenster für Stunden und Minuten trägt. Darunter sitzt die kleine Sekunde, oben eine Gangreserveanzeige. Das Gehäuse misst 41,9 Millimeter.",
+    "2022 löste die Zeitwerk Ref. 142 mit dem neuen Kaliber L043.6 und rund 72 Stunden Gangreserve die erste Generation ab. Die Referenz 140 bleibt die Urform einer Uhr, die zeigte, dass eine mechanische Digitalanzeige zuverlässig funktionieren kann."
+   ],
+   "vh": [
+    [
+     "Schwarzes Zifferblatt: Ref. 140.029",
+     "Die Ausführung mit schwarzem Zifferblatt und hellem Gehäuse betont den Kontrast zur Neusilberbrücke."
+    ],
+    [
+     "Gold und Platin",
+     "Die Zeitwerk gab es in verschiedenen Edelmetallen, etwa in Rotgold (140.032) und Gelbgold (140.021)."
+    ],
+    [
+     "Mit Schlagwerk",
+     "Auf der Zeitwerk aufgebaut sind die Zeitwerk Minutenrepetition von 2015 und weitere Varianten mit Schlagwerk, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "Springende Ziffern für Stunden und Minuten",
+    "Brücke aus Neusilber quer über das Zifferblatt",
+    "Kleine Sekunde unten, Gangreserve oben",
+    "41,9 mm, Gold oder Platin"
+   ],
+   "ev": [
+    [
+     "2009",
+     "Vorstellung der Zeitwerk Ref. 140"
+    ],
+    [
+     "2015",
+     "Zeitwerk Minutenrepetition"
+    ],
+    [
+     "2022",
+     "Ablösung durch die Ref. 142"
+    ]
+   ],
+   "x": [
+    "Die Ref. 140 hat nur rund 36 Stunden Gangreserve; wer die Uhr nicht täglich trägt, muss sie häufiger aufziehen als die Nachfolgerin.",
+    "Wegen des Remontoirs ist ein Service bei Lange aufwendig – dokumentierte Revisionen sind bei Gebrauchtuhren wichtig."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2009–2022"
+    ],
+    [
+     "Gehäuse",
+     "41,9 mm, Gold oder Platin"
+    ],
+    [
+     "Kaliber",
+     "L043.1, Handaufzug"
+    ],
+    [
+     "Gangreserve",
+     "≈ 36 Stunden"
+    ],
+    [
+     "Funktionen",
+     "springende Stunden und Minuten, kleine Sekunde, Gangreserve"
+    ],
+    [
+     "Besonderheit",
+     "Konstantkraftmechanismus"
+    ],
+    [
+     "Nachfolger",
+     "142"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "freak",
+     "c": "Auch die Ulysse Nardin Freak zeigt die Zeit ohne herkömmliche Zeiger und gehört zu den mutigsten Konstruktionen dieser Jahre."
+    },
+    {
+     "m": "octo-finissimo",
+     "c": "Bulgaris Octo Finissimo steht wie die Zeitwerk für ein technisches Konzept, das zur Gestaltung wird."
+    },
+    {
+     "m": "duometre",
+     "c": "Jaeger-LeCoultres Duomètre löst wie die Zeitwerk ein Kraftproblem mit einer eigenen Konstruktion."
+    }
+   ]
   }
  ]
 }
