@@ -50542,6 +50542,94 @@
      "c": "Der Datograph von A. Lange & Söhne gibt es ebenfalls mit ewigem Kalender und steht für große Komplikationen deutscher Herkunft."
     }
    ]
+  },
+  {
+   "id": "portugieser-iw3583",
+   "model": "portugieser",
+   "ref": "IW3583",
+   "alias": [
+    "IW358304",
+    "Automatic 40"
+   ],
+   "var": null,
+   "t": "IWC Portugieser Automatic 40 Ref. IW3583",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Die schlichteste Portugieser: 40 Millimeter, kleine Sekunde, kein Datum – und ein Pellaton-Automatikwerk, das das klassische Zifferblatt in ein alltagstaugliches Format bringt.",
+   "bh": [
+    "Die Portugieser in neuem Format",
+    "Gehäuse und Zifferblatt",
+    "Kaliber 82200",
+    "Stellung in der Familie"
+   ],
+   "b": [
+    "2020 erneuerte IWC die Portugieser-Familie und stellte die Portugieser Automatic 40 vor (Ref. IW3583). Sie ist die schlichteste Ausführung der Linie und kleiner als die Portugieser Automatic mit sieben Tagen Gangreserve. Die Referenz IW358304 ist die Stahlausführung mit silberweißem Zifferblatt, blauen Zeigern und dunkelblauem Lederband.",
+    "Das Gehäuse misst 40,4 Millimeter und hat die für die Portugieser typische dünne, polierte Lünette. Auf dem Zifferblatt sitzen aufgesetzte arabische Ziffern, eine feine Minuterie im Eisenbahnstil und schlanke Blattzeiger; die kleine Sekunde liegt bei 6 Uhr. Ein Datum und eine Gangreserveanzeige gibt es nicht.",
+    "Im Inneren arbeitet das IWC-Kaliber 82200 mit Pellaton-Aufzug, 28.800 Halbschwingungen pro Stunde und rund 60 Stunden Gangreserve. Der Pellaton-Aufzug zieht in beide Drehrichtungen des Rotors auf. Die Uhr ist bis 50 Meter wasserdicht.",
+    "Die Automatic 40 bringt das Zifferblatt, das die Portugieser seit Jahrzehnten kaum verändert hat, in ein Format, das auch an schmaleren Handgelenken passt. Über ihr stehen die Portugieser Automatic 42 mit sieben Tagen Gangreserve und der Portugieser Chronograph."
+   ],
+   "vh": [
+    [
+     "Weitere Ausführungen",
+     "Die IW3583 gibt es auch mit blauem Zifferblatt sowie mit Goldgehäuse."
+    ]
+   ],
+   "m": [
+    "40,4 mm, dünne polierte Lünette",
+    "Aufgesetzte arabische Ziffern, Eisenbahn-Minuterie",
+    "Kleine Sekunde bei 6 Uhr",
+    "Kein Datum"
+   ],
+   "ev": [
+    [
+     "1939",
+     "Erste Portugieser (Ref. 325)"
+    ],
+    [
+     "2020",
+     "Portugieser Automatic 40, Ref. IW3583"
+    ]
+   ],
+   "x": [
+    "Wer ein Datum möchte, muss zu einer anderen Portugieser greifen – die Automatic 40 hat bewusst keines.",
+    "Durch den beidseitig aufziehenden Pellaton-Aufzug bleibt die Uhr beim normalen Tragen gut aufgezogen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "40,4 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "82200, Automatik mit Pellaton-Aufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "perpetual-1908",
+     "c": "Die Rolex Perpetual 1908 von 2023 ist eine andere klassische Uhr mit kleiner Sekunde aus diesen Jahren."
+    },
+    {
+     "m": "tangente",
+     "c": "Die Nomos Tangente steht ebenfalls für ein klares Zifferblatt mit kleiner Sekunde."
+    },
+    {
+     "m": "gs-sbgw231",
+     "c": "Die Grand Seiko SBGW231 ist eine schlichte, klassische Dreizeigeruhr derselben Zeit."
+    }
+   ]
   }
  ]
 }
