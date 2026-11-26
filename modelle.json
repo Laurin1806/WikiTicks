@@ -46374,6 +46374,77 @@
      "c": "Die Omega Aqua Terra ist eine elegante Stahl-Sportuhr mit Streifenzifferblatt aus dieser Zeit."
     }
    ]
+  },
+  {
+   "id": "saxonia-219",
+   "model": "saxonia",
+   "ref": "219",
+   "alias": [
+    "219.032"
+   ],
+   "var": null,
+   "t": "A. Lange & Söhne Saxonia Ref. 219",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Die Saxonia mit kleiner Sekunde ist A. Lange & Söhne in seiner ruhigsten Form: ein rundes Goldgehäuse, ein silbernes Zifferblatt und ein Handaufzugswerk, das erst auf der Rückseite seine ganze Pracht zeigt.",
+   "bh": [
+    "Die schlichteste Lange",
+    "Das Werk hinter dem Glasboden",
+    "Zurückhaltung als Prinzip"
+   ],
+   "b": [
+    "Die Saxonia gehört seit der Wiedergründung 1994 zum Programm von A. Lange & Söhne. Die Referenz 219 ist eine Ausführung mit kleiner Sekunde bei 6 Uhr: Das silberfarbene Zifferblatt trägt aufgesetzte Stabindizes aus Gold, schlanke Zeiger und die Signatur der Manufaktur. Ein Datum oder weitere Anzeigen gibt es nicht.",
+    "Im Inneren arbeitet ein Handaufzugswerk mit den typischen Lange-Merkmalen: Dreiviertelplatine aus unbehandeltem Neusilber, verschraubte Goldchatons und ein von Hand gravierter Unruhkloben. Durch den Glasboden ist das Werk vollständig zu sehen.",
+    "Unter Sammlern gilt die Saxonia als zurückhaltender Einstieg in die Marke. Sie spielt im Lange-Programm eine ähnliche Rolle wie die Calatrava bei Patek Philippe und ist das schlichte Gegenstück zur asymmetrischen Lange 1."
+   ],
+   "m": [
+    "Rundes, poliertes Goldgehäuse",
+    "Silberfarbenes Zifferblatt mit Stabindizes",
+    "Kleine Sekunde bei 6 Uhr",
+    "Glasboden mit Neusilber-Werk"
+   ],
+   "ev": [
+    [
+     "1994",
+     "Erste Saxonia zur Wiedergründung"
+    ]
+   ],
+   "x": [
+    "Die Saxonia ist der günstigste Weg zu einem Lange-Handaufzugswerk mit allen typischen Veredelungen.",
+    "Gehäuse aus Gold sind weich – auf Kratzer und nachpolierte Kanten achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2010er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "rund, Rotgold, Glasboden"
+    ],
+    [
+     "Kaliber",
+     "Handaufzug, Dreiviertelplatine aus Neusilber"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "calatrava",
+     "c": "Die Calatrava ist das Genfer Vorbild der schlichten Golduhr mit kleiner Sekunde."
+    },
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony verfolgt dieselbe Idee der zurückhaltenden Dresswatch."
+    },
+    {
+     "m": "villeret",
+     "c": "Die Blancpain Villeret ist die klassische, flache Golduhr eines anderen traditionsreichen Hauses."
+    }
+   ]
   }
  ]
 }
