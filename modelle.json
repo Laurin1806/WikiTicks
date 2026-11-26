@@ -36218,6 +36218,97 @@
      "c": "Girard-Perregaux' Laureato von 1975 gehört ebenfalls zu den frühen Luxusuhren mit integriertem Band."
     }
    ]
+  },
+  {
+   "id": "nautilus-3800",
+   "model": "nautilus",
+   "ref": "3800",
+   "alias": [
+    "3800/1A",
+    "3800/1J",
+    "3800/1"
+   ],
+   "var": 0,
+   "t": "Patek Philippe Nautilus Ref. 3800",
+   "bau": "1981–2006",
+   "cap": "",
+   "s": "Die mittelgroße Nautilus mit Sekundenzeiger: 37,5 Millimeter, ein Vierteljahrhundert gebaut und die Nautilus, die die Linie durch die 1980er- und 1990er-Jahre trug.",
+   "bh": [
+    "Kleiner und vielseitiger",
+    "Ein Sekundenzeiger kommt hinzu",
+    "Die lange Brücke zur 5711"
+   ],
+   "b": [
+    "Die »Jumbo« war vielen Kunden zu groß. 1981 ergänzte Patek Philippe die Nautilus deshalb um die Referenz 3800/1A mit 37,5 Millimetern. Gehäuseform, Bullaugen-Ohren, gerilltes Zifferblatt und integriertes Band blieben, die Uhr wirkte aber zierlicher und passte besser zur Mode der 1980er-Jahre, in der kleinere Uhren gefragt waren.",
+    "Anders als die 3700 hat die 3800 einen Sekundenzeiger aus der Mitte. Im Inneren arbeitete zunächst das Automatikkaliber 335 SC, später das 330 SC, beide mit Zentralsekunde und Datum. Wie bei der Jumbo ist das Gehäuse aus Edelstahl, die Uhr wasserdicht und an einem fein gearbeiteten, integrierten Stahlband.",
+    "Die 3800 blieb bis 2006 im Programm, ein Vierteljahrhundert lang, und war damit die Nautilus, die die Linie durch die Jahre trug, in denen Luxus-Sportuhren aus Stahl noch kein Massenphänomen waren. Unter Sammlern galt sie lange als die »vernünftige« Nautilus und war entsprechend günstiger als die 3700; mit dem Nautilus-Boom der 2010er-Jahre stiegen auch ihre Preise deutlich. 2006 folgte die 5711/1A."
+   ],
+   "vh": [
+    [
+     "Gold und Stahl-Gold",
+     "Die 3800 gab es auch in Gelbgold (3800/1J) und in Stahl mit Gold, teils mit weißem oder braunem Zifferblatt. Daneben bot Patek kleinere Damen- und Mittelgrößen der Nautilus unter eigenen Referenzen an."
+    ]
+   ],
+   "m": [
+    "37,5 mm, Edelstahl, Bullaugen-Ohren",
+    "Blaues Zifferblatt mit waagerechten Rillen",
+    "Zentralsekunde und Datum bei 3 Uhr",
+    "Integriertes Stahlband"
+   ],
+   "ev": [
+    [
+     "1981",
+     "Vorstellung der Ref. 3800/1A"
+    ],
+    [
+     "2006",
+     "Ablösung durch die Ref. 5711/1A"
+    ]
+   ],
+   "x": [
+    "Die 3800 ist für schmalere Handgelenke oft die angenehmere Nautilus; die 40 Millimeter der 5711 tragen deutlich größer.",
+    "Frühe und späte 3800 unterscheiden sich im Werk; die Gravur auf dem Werk zeigt, welches Kaliber verbaut ist."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1981–2006"
+    ],
+    [
+     "Gehäuse",
+     "37,5 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "335 SC, später 330 SC, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Band",
+     "integriertes Stahlband"
+    ],
+    [
+     "Vorgänger / Nachfolger",
+     "3700 / 5711"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak",
+     "c": "Die Royal Oak blieb in diesen Jahren die große Rivalin, ebenfalls in kleineren Größen angeboten."
+    },
+    {
+     "m": "aquanaut",
+     "c": "1997 brachte Patek Philippe mit der Aquanaut eine jüngere, sportlichere Schwester der Nautilus."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas von 1996 war die nächste Luxus-Sportuhr mit integriertem Band."
+    }
+   ]
   }
  ]
 }
