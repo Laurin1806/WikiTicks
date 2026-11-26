@@ -51324,6 +51324,106 @@
      "c": "Jaeger-LeCoultre machte die Polaris 2018 zur eigenen Sportlinie – im selben Jahr, in dem Cartier die Santos erneuerte."
     }
    ]
+  },
+  {
+   "id": "tank-wsta0041",
+   "model": "tank",
+   "ref": "WSTA0041",
+   "alias": [
+    "WSTA0041",
+    "Tank Must"
+   ],
+   "var": 4,
+   "t": "Cartier Tank Must Ref. WSTA0041",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Die Tank Must von 2021 brachte die klassische Tank-Form als Einstieg zurück – in Stahl, mit Brancards, römischen Ziffern und blauem Spinell in der Krone.",
+   "bh": [
+    "Ein alter Name, neu belegt",
+    "Gehäuse und Zifferblatt",
+    "Quarz, Solar oder Automatik",
+    "Stellung in der Familie"
+   ],
+   "b": [
+    "In den 1970er-Jahren hieß »Tank Must« eine günstigere Tank aus vergoldetem Silber, mit der Cartier neue Kunden gewann. 2021 griff die Marke den Namen wieder auf und ersetzte mit der neuen Tank Must die Tank Solo als Einstieg in die Tank-Familie. Die Referenz WSTA0041 ist die große Ausführung aus Edelstahl mit cremeweißem Zifferblatt und schwarzem Lederband.",
+    "Das rechteckige Gehäuse misst 33,7 × 25,5 Millimeter und folgt der klassischen Tank-Form mit den seitlichen Stegen, den Brancards. Das Zifferblatt zeigt römische Ziffern, eine Minuterie im »Chemin de fer«-Stil und gebläute Schwertzeiger, die achteckige Krone trägt einen synthetischen Spinell. Die Uhr ist bis 30 Meter wasserdicht.",
+    "Die meisten Tank Must haben ein Quarzwerk. Als Besonderheit bietet Cartier eine Version mit SolarBeat-Werk an, bei der Solarzellen unter den durchbrochenen römischen Ziffern Licht in Strom umwandeln; die größte Ausführung gibt es außerdem mit Automatikwerk.",
+    "Mit der Tank Must kehrte die Einstiegs-Tank zur Form der Tank Louis Cartier und der Tank Normale zurück. Über ihr stehen die Tank Louis Cartier in Gold und die Tank Française mit integriertem Gliederband."
+   ],
+   "vh": [
+    [
+     "Farbige Zifferblätter",
+     "In Anlehnung an die »Les Must«-Modelle der 1970er-Jahre gibt es die Tank Must auch mit einfarbig lackierten Zifferblättern in Rot, Blau oder Grün."
+    ],
+    [
+     "SolarBeat",
+     "Bei der SolarBeat-Version wandeln Solarzellen unter den durchbrochenen römischen Ziffern Licht in Strom um."
+    ],
+    [
+     "Stahlband",
+     "Neben dem Lederband gibt es die Tank Must auch mit Stahlband."
+    ]
+   ],
+   "m": [
+    "Rechteckiges Stahlgehäuse mit Brancards",
+    "Römische Ziffern, »Chemin de fer«-Minuterie",
+    "Gebläute Schwertzeiger",
+    "Achteckige Krone mit blauem Spinell"
+   ],
+   "ev": [
+    [
+     "1970er-Jahre",
+     "Erste »Tank Must« aus vergoldetem Silber"
+    ],
+    [
+     "2021",
+     "Neuauflage der Tank Must als Nachfolgerin der Tank Solo"
+    ]
+   ],
+   "x": [
+    "Vor dem Kauf klären, welches Werk eingebaut ist: Quarz, SolarBeat und Automatik unterscheiden sich im Alltag deutlich.",
+    "Wer die Tank als Schmuckstück sieht, findet in der Tank Louis Cartier in Gold die klassischere, aber deutlich aufwendigere Variante."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "33,7 × 25,5 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "Quarz; als Variante auch SolarBeat oder Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ],
+    [
+     "Vorgänger",
+     "Tank Solo"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "reverso",
+     "c": "Die Reverso ist der andere große Klassiker unter den rechteckigen Uhren."
+    },
+    {
+     "m": "white-birch",
+     "c": "Grand Seiko brachte 2021 mit der White Birch ebenfalls eine schlichte Uhr, die ganz von ihrem Zifferblatt lebt."
+    },
+    {
+     "m": "perpetual-1908",
+     "c": "Die Rolex Perpetual 1908 von 2023 ist eine weitere klassische Uhr zum Anzug aus diesen Jahren."
+    }
+   ]
   }
  ]
 }
