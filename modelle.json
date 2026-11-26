@@ -47811,6 +47811,90 @@
      "c": "Die Tissot Le Locle ist eine klassische Automatikuhr zum Anzug aus demselben Konzern."
     }
    ]
+  },
+  {
+   "id": "formula-1-waz1010",
+   "model": "formula-1",
+   "ref": "WAZ1010",
+   "alias": [
+    "WAZ1010.FT8024",
+    "WAZ1010"
+   ],
+   "var": null,
+   "t": "TAG Heuer Formula 1 Ref. WAZ1010",
+   "bau": "2010er-Jahre",
+   "cap": "",
+   "s": "Die Formula 1 als Einstieg in die Marke: Die WAZ1010 verbindet blaues Zifferblatt, schwarze Drehlünette und Quarzwerk zu einer robusten Sportuhr im Geist der Linie von 1986.",
+   "bh": [
+    "Herkunft",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Formula 1 erschien 1986 als preiswerte, farbenfrohe Sportuhr und sollte junge Käufer an TAG Heuer binden. Die Referenz WAZ1010 gehört zu den späteren Quarzmodellen der Linie in Edelstahl.",
+    "Das Stahlgehäuse trägt eine schwarze Drehlünette mit Taucherskala und rotem Dreieck bei 12 Uhr. Auf dem blauen Zifferblatt stehen große Leuchtziffern bei 12 und 6 Uhr, dazu Stabindizes und ein roter Sekundenzeiger; das Datum sitzt bei 3 Uhr. Die verschraubte Krone wird von Gehäuseschultern geschützt, getragen wird die Uhr an einem Kautschukband.",
+    "Im Inneren arbeitet ein Quarzwerk. Es macht die Uhr genau, pflegeleicht und günstig – ganz im Sinne der ursprünglichen Formula 1.",
+    "Die WAZ1010 ist eine unkomplizierte Alltags- und Sportuhr und der günstigste Weg zu einer TAG Heuer. Daneben gibt es die Formula 1 mit Automatikwerk und als Chronograph, die eigene Referenzen tragen."
+   ],
+   "vh": [
+    [
+     "Andere Zifferblätter und Bänder",
+     "Die Formula-1-Quarzmodelle gab es mit schwarzen, blauen und farbig akzentuierten Zifferblättern, an Kautschuk- oder Stahlband; die Endung der Referenz unterscheidet Band und Ausführung."
+    ]
+   ],
+   "m": [
+    "Edelstahlgehäuse, schwarze Drehlünette",
+    "Blaues Zifferblatt mit großen Ziffern bei 12 und 6",
+    "Roter Sekundenzeiger",
+    "Datum bei 3 Uhr, Kautschukband"
+   ],
+   "ev": [
+    [
+     "1986",
+     "Erste Formula 1"
+    ],
+    [
+     "2010er",
+     "Quarzmodell WAZ1010 in Edelstahl"
+    ]
+   ],
+   "x": [
+    "Quarzwerke sind günstig im Unterhalt; bei gebrauchten Uhren auf Batteriewechsel und Dichtungen achten.",
+    "Das Kautschukband ist ein Verschleißteil."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2010er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "Quarz"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "aquis",
+     "c": "Die Oris Aquis ist eine robuste Sportuhr mit Drehlünette aus denselben Jahren."
+    },
+    {
+     "m": "tissot-seastar",
+     "c": "Tissots Seastar 1000 ist eine weitere günstige Taucheruhr einer Schweizer Traditionsmarke."
+    },
+    {
+     "m": "promaster-diver",
+     "c": "Citizens Promaster Diver ist die japanische Alternative für eine unkomplizierte Sportuhr."
+    }
+   ]
   }
  ]
 }
