@@ -39181,6 +39181,99 @@
      "c": "Die Doxa SUB 300 stammt wie die Ploprof aus der großen Zeit der Berufstaucheruhren um 1970 und wurde ebenfalls neu aufgelegt."
     }
    ]
+  },
+  {
+   "id": "railmaster-220",
+   "model": "railmaster",
+   "ref": "220.10.40.20.01.001",
+   "alias": [
+    "220.10.40.20",
+    "220.10.40.20.01.001"
+   ],
+   "var": null,
+   "t": "Omega Railmaster Ref. 220.10.40.20.01.001",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Die Railmaster zum 60. Geburtstag: schlicht wie die Uhr der Eisenbahner von 1957, aber mit einem Werk, das ganz ohne Weicheisenkäfig 15.000 Gauß verkraftet.",
+   "bh": [
+    "Rückkehr zum Jubiläum",
+    "Gehäuse und Zifferblatt",
+    "Magnetschutz ohne Käfig",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "2017 feierte Omega das 60-jährige Bestehen der »Professional«-Trilogie aus Speedmaster, Seamaster 300 und Railmaster. Neben einer limitierten Jubiläumsedition brachte die Marke eine neue Railmaster für die reguläre Kollektion heraus, die Referenz 220.10.40.20. Sie folgte auf die Neuauflage 2504.52, die von 2003 bis 2012 gebaut worden war.",
+    "Das Stahlgehäuse misst 40 Millimeter und ist bis 150 Meter wasserdicht. Das Zifferblatt ist bewusst schlicht gehalten, wie es die Railmaster von Anfang an war: Es ist gebürstet und trägt große Leuchtziffern und Indizes, die an die erste Railmaster CK2914 erinnern. Ein Datum gibt es nicht, was die klare Ablesbarkeit unterstreicht.",
+    "Die erste Railmaster schützte ihr Werk mit einem Innengehäuse und einem doppelten Zifferblatt aus Weicheisen vor Magnetfeldern von etwa 1.000 Gauß. Die neue Railmaster kommt ohne diesen Käfig aus: Ihr Automatikkaliber 8806 besteht an den entscheidenden Stellen aus nichtmagnetischen Werkstoffen und widersteht 15.000 Gauß. Als Master Chronometer wird die ganze Uhr vom Institut METAS geprüft; die Gangreserve liegt bei rund 55 Stunden.",
+    "Die 220.10.40.20 ist die schlichteste Uhr unter Omegas Profimodellen und für viele ein Einstieg in die Marke. Sie zeigt, wie weit sich der Magnetschutz in 60 Jahren entwickelt hat: von einem schweren Eisenkäfig zu einem Werk, das selbst unempfindlich ist."
+   ],
+   "vh": [
+    [
+     "Jubiläumsedition »Trilogy« (2017)",
+     "Zum 60. Geburtstag erschien eine limitierte Railmaster, die sich mit 38 Millimetern und Details wie der Leuchtmasse eng an das Original von 1957 anlehnt; sie trägt eine eigene Referenz."
+    ],
+    [
+     "Zifferblätter und Bänder",
+     "Die reguläre Railmaster gibt es mit verschiedenen gebürsteten Zifferblättern und an Stahl-, Leder- oder Textilband."
+    ]
+   ],
+   "m": [
+    "40 mm, Edelstahl",
+    "Gebürstetes Zifferblatt mit großen Leuchtziffern",
+    "Kein Datum",
+    "Schriftzug »Railmaster« unter dem Omega-Logo"
+   ],
+   "ev": [
+    [
+     "2017",
+     "Vorstellung zum 60. Jubiläum der Trilogie mit Kaliber 8806"
+    ]
+   ],
+   "x": [
+    "Wer beruflich mit Magnetfeldern zu tun hat, findet hier einen Schutz von 15.000 Gauß, den das Original von 1957 bei Weitem nicht erreichte.",
+    "Die limitierte Trilogy-Railmaster von 2017 ist eine eigene Referenz und nicht mit der Serienuhr zu verwechseln.",
+    "Ohne Datum und mit schlichtem Zifferblatt ist die Railmaster eine der zurückhaltendsten Omega-Uhren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "150 m"
+    ],
+    [
+     "Kaliber",
+     "8806, Automatik, Co-Axial, Master Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ],
+    [
+     "Vorgänger",
+     "2504.52"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "milgauss",
+     "c": "Die Rolex Milgauss war bis zu ihrer Einstellung 2023 die bekannteste antimagnetische Konkurrentin."
+    },
+    {
+     "m": "ingenieur",
+     "c": "IWCs Ingenieur steht seit 1955 für Magnetschutz und wurde in denselben Jahren neu aufgelegt."
+    },
+    {
+     "m": "ranger",
+     "c": "Die Tudor Ranger ist wie die Railmaster eine schlichte Werkzeuguhr mit großen Leuchtziffern."
+    }
+   ]
   }
  ]
 }
