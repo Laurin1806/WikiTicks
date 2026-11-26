@@ -40563,6 +40563,96 @@
      "c": "Omegas Seamaster Aqua Terra ist eine andere vielseitige Alltagsuhr ohne Taucherlünette aus derselben Zeit."
     }
    ]
+  },
+  {
+   "id": "tudor-1926-91651",
+   "model": "tudor-1926",
+   "ref": "91651",
+   "alias": [
+    "M91651",
+    "91650",
+    "M91650"
+   ],
+   "var": null,
+   "t": "Tudor 1926 Ref. 91651",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Waffelmuster auf dem Zifferblatt, Breguet-Zeiger und ein Hauch Roségold: Die 1926 in 41 Millimetern ist Tudors klassische Uhr zu Hemd und Anzug.",
+   "bh": [
+    "Eine Dresswatch mit Jahreszahl",
+    "Gehäuse und Werk",
+    "Das Zifferblatt",
+    "Die stille Tudor"
+   ],
+   "b": [
+    "Tudor stellte die Linie 1926 im Jahr 2018 vor. Der Name erinnert an das Jahr, in dem Hans Wilsdorf die Marke Tudor eintragen ließ. Anders als die Taucher- und Sportmodelle ist die 1926 bewusst klassisch gehalten: rundes Gehäuse, Datum, ein fein gemustertes Zifferblatt.",
+    "Die 91651 ist die 41-Millimeter-Ausführung in Bicolor: Das Gehäuse ist aus Edelstahl, Lünette und Krone sind roségoldfarben, das Gliederband kombiniert Stahl mit roségoldfarbenen Mittelgliedern. Im Inneren arbeitet ein Automatikwerk; die Rotor-Signatur steht als »ROTOR SELF-WINDING« auf dem Zifferblatt, wie bei historischen Tudor-Uhren.",
+    "Typisch ist das silberweiße Zifferblatt mit Waffelstruktur. Darauf sitzen aufgesetzte arabische Ziffern bei den geraden Stunden und dazwischen Dreiecksindizes, dazu Zeiger im Breguet-Stil und ein Datumsfenster bei 3 Uhr. Über der 6 steht der Schriftzug »1926«.",
+    "Die 1926 ist kein Sammlerstück und keine Ikone, sondern eine unaufdringliche Alltagsuhr. Sie zeigt Tudor von seiner klassischen Seite und ergänzt die Black-Bay- und Pelagos-Familien um eine Uhr für formellere Anlässe."
+   ],
+   "vh": [
+    [
+     "Edelstahl: Ref. 91650",
+     "Dieselbe 41-Millimeter-Uhr ganz aus Edelstahl, ohne roségoldfarbene Teile."
+    ],
+    [
+     "Kleinere Größen",
+     "Die Linie 1926 gibt es auch in kleineren Größen bis hinunter zu 28 Millimetern, etwa die 39-Millimeter-Ausführung 91550; sie tragen eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl mit roségoldfarbener Lünette und Krone",
+    "Silberweißes Zifferblatt mit Waffelstruktur",
+    "Arabische Ziffern und Dreiecksindizes, Breguet-Zeiger",
+    "Datum bei 3 Uhr, Schriftzug »1926«"
+   ],
+   "ev": [
+    [
+     "1926",
+     "Hans Wilsdorf lässt die Marke Tudor eintragen"
+    ],
+    [
+     "2018",
+     "Vorstellung der Linie 1926"
+    ]
+   ],
+   "x": [
+    "Bei Bicolor-Uhren die roségoldfarbenen Teile auf Abnutzung prüfen.",
+    "Wer eine zierlichere Uhr sucht, sollte die kleineren Größen der Linie zum Vergleich anprobieren.",
+    "Auf dem Zweitmarkt ist die 1926 meist deutlich günstiger als die Sportmodelle der Marke."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl, Lünette roségoldfarben"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "datejust",
+     "c": "Die Rolex Datejust ist das klassische Vorbild der Bicolor-Uhr mit Datum."
+    },
+    {
+     "m": "le-locle",
+     "c": "Die Tissot Le Locle ist eine weitere schlichte Automatik-Dresswatch mit gemustertem Zifferblatt."
+    },
+    {
+     "m": "aqua-terra",
+     "c": "Omegas Aqua Terra ist eine andere elegante Alltagsuhr aus derselben Zeit."
+    }
+   ]
   }
  ]
 }
