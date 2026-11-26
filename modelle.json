@@ -47358,6 +47358,102 @@
      "c": "Breitlings Top Time kehrte fast gleichzeitig als Neuauflage eines Chronographen der 1960er-Jahre zurück."
     }
    ]
+  },
+  {
+   "id": "chronomat-ab0134",
+   "model": "chronomat",
+   "ref": "AB0134",
+   "alias": [
+    "AB0134101C1A1",
+    "AB0134"
+   ],
+   "var": null,
+   "t": "Breitling Chronomat Ref. AB0134",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Die Chronomat der 2020er-Jahre holt das Rouleaux-Band der 1980er zurück und verbindet es mit dem Manufakturwerk B01 – eine Sportuhr, die bewusst an die Zeit der Frecce Tricolori erinnert.",
+   "bh": [
+    "Rückkehr zu den Wurzeln",
+    "Gehäuse, Lünette und Band",
+    "Das Werk",
+    "Heutige Stellung"
+   ],
+   "b": [
+    "2020 stellte Breitling die Chronomat neu auf. Die vorherige Generation war groß und kantig geworden; die neue Chronomat B01 42 mit der Referenz AB0134 orientiert sich dagegen deutlich an der Chronomat von 1984, die für die italienische Kunstflugstaffel Frecce Tricolori entstanden war. Das zeigt sich vor allem am Band und an der Lünette.",
+    "Das Edelstahlgehäuse misst 42 Millimeter und ist bis 200 Meter wasserdicht. Auf der einseitig drehbaren Lünette sitzen die typischen Reiter an den Positionen 15, 30, 45 und 60 Minuten, die das Greifen erleichtern und das Glas schützen. Getragen wird die Uhr am Rouleaux-Band, dessen gerundete, röhrenförmige Glieder in den 1980er-Jahren das Markenzeichen der Chronomat waren.",
+    "Im Inneren arbeitet das Manufakturkaliber B01, ein Automatik-Chronograph mit Schaltrad und vertikaler Kupplung, rund 70 Stunden Gangreserve und Chronometerzertifikat. Die Uhr zeigt kleine Sekunde, 30-Minuten- und 12-Stunden-Zähler sowie ein Datum.",
+    "Mit der AB0134 ist die Chronomat wieder die sportliche Allround-Uhr neben dem Navitimer. Breitling baute um sie herum eine ganze Familie mit anderen Größen, Dreizeigern und Edelmetallausführungen, die eigene Referenzen tragen."
+   ],
+   "vh": [
+    [
+     "Bicolor und Gold",
+     "Neben der Stahlausführung gibt es die Chronomat B01 42 in Stahl mit Rotgold und ganz in Rotgold; diese Ausführungen haben eigene Präfixe in der Referenz."
+    ],
+    [
+     "Andere Zifferblätter",
+     "Neben Schwarz bot Breitling die AB0134 unter anderem mit blauem, silbernem und weiteren farbigen Zifferblättern an, meist mit abgesetzten Hilfszifferblättern."
+    ]
+   ],
+   "m": [
+    "42 mm, Edelstahl",
+    "Lünettenreiter bei 15, 30, 45 und 60 Minuten",
+    "Rouleaux-Band mit röhrenförmigen Gliedern",
+    "Drei Hilfszifferblätter und Datum"
+   ],
+   "ev": [
+    [
+     "1984",
+     "Chronomat für die Frecce Tricolori"
+    ],
+    [
+     "2009",
+     "Chronomat 44 mit Kaliber B01"
+    ],
+    [
+     "2020",
+     "Neuauflage AB0134 mit Rouleaux-Band"
+    ]
+   ],
+   "x": [
+    "Das Rouleaux-Band trägt sich weich, sollte aber vollständig mit allen Gliedern vorliegen.",
+    "Die Reiter der Lünette sind exponiert; auf Kratzer und Dellen achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "B01, Automatik-Chronograph, Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak-offshore",
+     "c": "Auch die Offshore ist ein sportlicher Chronograph mit markantem, integriertem Auftritt."
+    },
+    {
+     "m": "black-bay-chrono",
+     "c": "Tudors Black Bay Chrono ist in diesen Jahren eine sportliche Chronographen-Alternative mit Vintage-Bezug."
+    },
+    {
+     "m": "chronomaster",
+     "c": "Zeniths Chronomaster Sport kam fast gleichzeitig als moderner Sportchronograph mit eigenem Werk."
+    }
+   ]
   }
  ]
 }
