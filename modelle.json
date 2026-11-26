@@ -39870,6 +39870,108 @@
      "c": "Blancpains Fifty-Fathoms steht wie die Black Bay für die Rückbesinnung auf die Taucheruhren der 1950er-Jahre."
     }
    ]
+  },
+  {
+   "id": "black-bay-chrono-79360n",
+   "model": "black-bay-chrono",
+   "ref": "79360N",
+   "alias": [
+    "M79360N",
+    "M79360N-0001",
+    "79360"
+   ],
+   "var": null,
+   "t": "Tudor Black Bay Chrono Ref. 79360N",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Helle Hilfszifferblätter auf Schwarz, eine Tachymeterlünette und ein Werk aus der Zusammenarbeit mit Breitling: Die 79360N machte den Black-Bay-Chronographen sportlicher und klarer.",
+   "bh": [
+    "Die zweite Generation des Black-Bay-Chronographen",
+    "Kaliber MT5813",
+    "Zifferblatt und Lünette",
+    "Bedeutung"
+   ],
+   "b": [
+    "Den ersten Chronographen der Black-Bay-Familie stellte Tudor 2017 mit der Referenz 79350 vor. Anfang der 2020er-Jahre folgte die überarbeitete Referenz 79360N. Sie ist im Stil klassischer Renn-Chronographen gestaltet und wirkt durch die kontrastierenden Hilfszifferblätter deutlich sportlicher als die Vorgängerin.",
+    "Im Inneren arbeitet das Kaliber MT5813. Es entstand aus einer Zusammenarbeit von Tudor und Breitling: Grundlage ist das Breitling-Manufakturwerk B01, das Tudor angepasst hat. Das Automatikwerk mit Säulenrad und vertikaler Kupplung hat rund 70 Stunden Gangreserve, eine Silizium-Spirale und ein COSC-Zertifikat.",
+    "Das 41 Millimeter große Edelstahlgehäuse trägt eine schwarze Lünette mit Tachymeterskala. Auf dem schwarzen Zifferblatt sitzen zwei cremeweiße Hilfszifferblätter bei 3 und 9 Uhr, runde Leuchtindizes und der Snowflake-Stundenzeiger; das Datumsfenster liegt bei 6 Uhr. Die Tiefenangabe »200 m / 660 ft« steht in Rot über der Chronometerangabe.",
+    "Die 79360N bietet ein Manufaktur-Chronographenwerk mit langer Gangreserve zu einem Bruchteil des Preises einer Daytona und ist im Alltag robust und wasserdicht. Damit gehört sie zu den beliebtesten Sportchronographen ihrer Preisklasse."
+   ],
+   "vh": [
+    [
+     "Vorgängerin: Ref. 79350",
+     "Die erste Black Bay Chrono von 2017 mit demselben Kaliber, aber ruhigerer Zifferblattgestaltung."
+    ],
+    [
+     "Weißes Zifferblatt",
+     "Neben der schwarzen Version mit hellen Hilfszifferblättern gibt es die 79360N auch als »Panda« mit weißem Zifferblatt und schwarzen Hilfszifferblättern."
+    ],
+    [
+     "Stahl und Gold",
+     "Tudor bietet den Black-Bay-Chronographen auch in einer Stahl-Gold-Ausführung an, die eine eigene Referenz trägt."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl",
+    "Schwarzes Zifferblatt mit cremeweißen Hilfszifferblättern",
+    "Schwarze Tachymeterlünette",
+    "Snowflake-Stundenzeiger, Datum bei 6 Uhr"
+   ],
+   "ev": [
+    [
+     "2017",
+     "Erste Black Bay Chrono, Ref. 79350"
+    ],
+    [
+     "2021",
+     "Überarbeitete Ref. 79360N"
+    ]
+   ],
+   "x": [
+    "Alle Chronographenfunktionen – Start, Stopp und Nullstellung – beim Kauf prüfen.",
+    "Das Gehäuse ist recht hoch; die Uhr trägt sich kräftiger als eine Black Bay ohne Chronograph.",
+    "Uhren mit vollständigen Papieren und Zusatzband sind leichter wieder zu verkaufen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "MT5813 (Basis Breitling B01), Automatik, COSC-Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Datum, Chronograph"
+    ],
+    [
+     "Vorgänger",
+     "79350"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "daytona",
+     "c": "Die Rolex Daytona 126500 ist das große Vorbild unter den Stahl-Chronographen mit hellem oder dunklem Panda-Zifferblatt."
+    },
+    {
+     "m": "navitimer",
+     "c": "Breitlings Navitimer nutzt dasselbe Grundwerk B01, auf dem das Tudor-Kaliber MT5813 beruht."
+    },
+    {
+     "m": "speedmaster",
+     "c": "Die Omega Speedmaster ist die klassische Alternative unter den Sportchronographen dieser Jahre."
+    }
+   ]
   }
  ]
 }
