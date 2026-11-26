@@ -43718,6 +43718,94 @@
      "c": "Die Longines Master Collection bedient die klassische Automatikuhr mit Datum eine Preisstufe höher."
     }
    ]
+  },
+  {
+   "id": "ventura-h24411732",
+   "model": "ventura",
+   "ref": "H24411732",
+   "var": null,
+   "t": "Hamilton Ventura Ref. H24411732",
+   "bau": "aktuelle Kollektion",
+   "cap": "",
+   "s": "Das dreieckige Gehäuse von 1957, schwarzes Zifferblatt mit Zickzackmotiv und ein Quarzwerk: Die H24411732 ist die Ventura, wie sie heute an das Raumfahrtzeitalter erinnert.",
+   "bh": [
+    "Die Form von Richard Arbib",
+    "Gehäuse und Zifferblatt",
+    "Vom Kaliber 500 zum Quarz",
+    "Eine Uhr mit Filmgeschichte"
+   ],
+   "b": [
+    "1957 stellte Hamilton die Ventura als erste Armbanduhr mit Batterie vor. Ihr Gehäuse entwarf der Designer Richard Arbib, der auch Autos gestaltete: asymmetrisch, fast dreieckig, ganz im Stil des Raumfahrtzeitalters. Die Referenz H24411732 ist die heutige Ausführung mit Quarzwerk, schwarzem Zifferblatt und Lederband.",
+    "Das Edelstahlgehäuse misst rund 32,3 × 50,3 Millimeter, die Bandanstöße sind stufig geschwungen, die Krone sitzt rechts an der Gehäusespitze. Auf dem schwarzen Zifferblatt laufen feine Linien strahlenförmig zur Mitte, runde Punkte markieren die Stunden, und ein Zickzackmotiv zieht sich quer hindurch. Die Zeiger sind goldfarben.",
+    "Das Original trieb das Kaliber 500, ein elektrisches Werk, bei dem ein kleiner Elektromotor die Unruh antrieb. Die heutige Ausführung arbeitet mit einem Quarzwerk und ist bis 50 Meter wasserdicht. Damit verbindet sie die Idee der batteriebetriebenen Uhr mit heutiger Technik.",
+    "Elvis Presley trug eine Ventura 1961 im Film »Blue Hawaii«, später war sie in der Filmreihe »Men in Black« zu sehen. Diese Auftritte machten die Form weit über Uhrenkreise hinaus bekannt."
+   ],
+   "vh": [
+    [
+     "Elvis80",
+     "Zum 80. Geburtstag von Elvis Presley brachte Hamilton 2015 eine Ventura mit Automatikwerk und abgewandeltem Gehäuse heraus."
+    ],
+    [
+     "Andere Ausführungen",
+     "Die Ventura gibt es außerdem mit Stahlband, anderen Zifferblättern und in größeren Ausführungen."
+    ]
+   ],
+   "m": [
+    "Asymmetrisches, fast dreieckiges Edelstahlgehäuse",
+    "Schwarzes Zifferblatt mit Strahlenlinien und Zickzackmotiv",
+    "Runde Punkte als Stundenmarken, goldfarbene Zeiger",
+    "Krone an der rechten Gehäusespitze"
+   ],
+   "ev": [
+    [
+     "1957",
+     "Ventura mit elektrischem Kaliber 500"
+    ],
+    [
+     "1961",
+     "Elvis Presley im Film »Blue Hawaii«"
+    ]
+   ],
+   "x": [
+    "Die Quarzversion ist die preiswerteste Art, die Form von 1957 zu tragen; Originale mit Kaliber 500 brauchen einen erfahrenen Uhrmacher.",
+    "Wegen des ungewöhnlichen Gehäuses lohnt es sich, die Uhr vor dem Kauf anzuprobieren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "aktuelle Kollektion"
+    ],
+    [
+     "Gehäuse",
+     "32,3 × 50,3 mm, Edelstahl, asymmetrisch"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "Quarz"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "speedmaster",
+     "c": "Die Omega Speedmaster erschien im selben Jahr 1957 – die andere Uhr, die mit dem Raumfahrtzeitalter verbunden wird."
+    },
+    {
+     "m": "astron",
+     "c": "Die Seiko Astron machte 1969 den nächsten Schritt nach der Ventura: die erste Quarz-Armbanduhr."
+    },
+    {
+     "m": "crash",
+     "c": "Die Cartier Crash ist wie die Ventura eine Uhr, die vor allem durch ihre ungewöhnliche Form berühmt wurde."
+    }
+   ]
   }
  ]
 }
