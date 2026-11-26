@@ -48977,6 +48977,87 @@
      "c": "Der Chronomaster Original ist die gleichzeitige Neuauflage eines Chronographen-Klassikers von Zenith."
     }
    ]
+  },
+  {
+   "id": "aquatimer-iw3580",
+   "model": "aquatimer",
+   "ref": "IW3580",
+   "alias": [
+    "IW358002"
+   ],
+   "var": null,
+   "t": "IWC Aquatimer Automatic 2000 Ref. IW3580",
+   "bau": "seit 2014",
+   "cap": "",
+   "s": "Die Aquatimer für die Tiefe: 46 Millimeter Stahl, 2.000 Meter Wasserdichtigkeit und eine Lünette, die sich innen und außen drehen lässt.",
+   "bh": [
+    "Eine Taucheruhr für 2.000 Meter",
+    "Gehäuse und Lünette",
+    "Werk und Zifferblatt",
+    "Stellung in der Linie"
+   ],
+   "b": [
+    "IWC baut Taucheruhren seit 1967, als die Ref. 812 AD als erste Aquatimer erschien. Die Aquatimer Automatic 2000 (Ref. IW3580) gehört zu der Generation, die IWC 2014 vorstellte, und ist ihr Modell für große Tiefen. Die Referenz IW358002 hat ein Edelstahlgehäuse mit Gliederband und ein schwarzes Zifferblatt.",
+    "Das Gehäuse misst 46 Millimeter und ist bis 2.000 Meter wasserdicht. Die Lünette ist innen und außen drehbar: Der äußere Ring dient der Bedienung, der innere trägt die Minutenskala mit den großen Zahlen 15, 30 und 45 und einem Dreieck bei 12 Uhr.",
+    "Im Inneren arbeitet das IWC-Automatikkaliber 80110 mit Pellaton-Aufzug. Zeiger und Indizes tragen großflächige Leuchtmasse, der Sekundenzeiger hat eine gelbe Spitze, und die Tiefenangabe ist gelb gedruckt. Das Datum sitzt bei 3 Uhr.",
+    "Mit 2.000 Metern geht die Aquatimer Automatic 2000 weit über die 300 Meter der übrigen Modelle der Linie hinaus. Im Alltag bleibt sie eine kräftige, aber zurückhaltend gestaltete Sportuhr."
+   ],
+   "m": [
+    "46-mm-Stahlgehäuse",
+    "Aufschrift »2000 Meters« in Gelb",
+    "Innen und außen drehbare Lünette",
+    "Gelbe Spitze am Sekundenzeiger, Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1967",
+     "Erste Aquatimer, Ref. 812 AD"
+    ],
+    [
+     "2014",
+     "Neue Aquatimer-Generation mit der Automatic 2000, Ref. IW3580"
+    ]
+   ],
+   "x": [
+    "Mit 46 Millimetern und Stahlband ist die Uhr groß und schwer; vor dem Kauf anprobieren.",
+    "Nach dem Tauchen in Salzwasser mit Süßwasser abspülen und die Wasserdichtigkeit regelmäßig prüfen lassen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2014"
+    ],
+    [
+     "Gehäuse",
+     "46 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "2.000 m"
+    ],
+    [
+     "Kaliber",
+     "80110, Automatik mit Pellaton-Aufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Tauchzeitlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "deepsea",
+     "c": "Die Rolex Deepsea ist die andere große Stahltaucheruhr für extreme Tiefen aus diesen Jahren."
+    },
+    {
+     "m": "sea-dweller",
+     "c": "Die Sea-Dweller steht wie die Aquatimer 2000 für die professionelle Tieftaucheruhr."
+    },
+    {
+     "m": "planet-ocean",
+     "c": "Omegas Planet Ocean ist eine weitere kräftige Taucheruhr mit großer Wasserdichtigkeit."
+    }
+   ]
   }
  ]
 }
