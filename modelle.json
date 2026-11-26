@@ -44321,6 +44321,96 @@
      "c": "Die IWC-Fliegeruhren der Mark-Reihe stehen für dieselbe klare Pilotenoptik."
     }
    ]
+  },
+  {
+   "id": "sinn-556-010",
+   "model": "sinn-556",
+   "ref": "556.010",
+   "alias": [
+    "556.0104",
+    "556 I",
+    "556 A"
+   ],
+   "var": null,
+   "t": "Sinn 556 Ref. 556.010",
+   "bau": "seit den 2000er-Jahren",
+   "cap": "",
+   "s": "Schwarzes Zifferblatt, weiße Balkenindizes, 38,5 Millimeter gebürsteter Stahl: Die 556 ist die schnörkellose Alltagsuhr von Sinn und für viele die vernünftigste mechanische Uhr ihrer Klasse.",
+   "bh": [
+    "Aus der Fliegeruhr abgeleitet",
+    "Gehäuse und Werk",
+    "Mit und ohne Datum",
+    "Ein moderner Klassiker"
+   ],
+   "b": [
+    "Sinn ist vor allem für Flieger- und Einsatzuhren bekannt. Die 556 übernimmt deren Gestaltung, verzichtet aber auf Drehlünette und Chronograph: ein mattschwarzes Zifferblatt, weiße Balkenindizes, breite Zeiger mit Leuchtmasse und eine dünne Zentralsekunde. Das Ergebnis ist eine Uhr, die sich gut ablesen lässt und zu fast allem passt.",
+    "Das Edelstahlgehäuse misst 38,5 Millimeter und ist gebürstet, die Uhr ist bis 200 Meter wasserdicht. Im Inneren arbeitet das Schweizer Automatikkaliber SW200-1 mit 28.800 Halbschwingungen pro Stunde und rund 38 Stunden Gangreserve.",
+    "Die Grundausführung 556 I hat ein Datum bei 3 Uhr. Daneben gibt es die 556 A ohne Datum, deren Zifferblatt dadurch noch ruhiger wirkt. Das Bild zeigt eine Ausführung ohne Datum am Stahlband.",
+    "Die 556 wird seit vielen Jahren nahezu unverändert gebaut und gilt als eine der vernünftigsten mechanischen Uhren in ihrer Preisklasse: robust, gut verarbeitet, unauffällig. Sie ist für viele der Einstieg in die Marke Sinn."
+   ],
+   "vh": [
+    [
+     "Ohne Datum: 556 A",
+     "Die 556 A verzichtet auf das Datumsfenster und hat sonst dasselbe Gehäuse und Werk."
+    ],
+    [
+     "Weitere Zifferblätter",
+     "Neben Schwarz gibt es die 556 in weiteren Zifferblattfarben, die jeweils eigene Artikelnummern tragen."
+    ]
+   ],
+   "m": [
+    "38,5 mm, gebürsteter Edelstahl",
+    "Mattschwarzes Zifferblatt mit weißen Balkenindizes",
+    "Breite Zeiger mit Leuchtmasse",
+    "556 I mit Datum bei 3 Uhr, 556 A ohne Datum"
+   ],
+   "ev": [
+    [
+     "2000er",
+     "Vorstellung der 556"
+    ]
+   ],
+   "x": [
+    "Die Wahl zwischen 556 I und 556 A ist Geschmackssache: Mit Datum praktischer, ohne Datum symmetrischer.",
+    "Das Stahlband ist bequem, die Uhr wirkt aber auch am Leder- oder Textilband gut – das Gehäuse ist dafür vielseitig genug.",
+    "Das SW200-1 ist weit verbreitet; Service und Ersatzteile sind unkompliziert."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit den 2000er-Jahren"
+    ],
+    [
+     "Gehäuse",
+     "38,5 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "SW200-1, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum (556 I)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "explorer",
+     "c": "Die Rolex Explorer ist das klassische Vorbild für eine schlichte, robuste Dreizeigeruhr mit schwarzem Zifferblatt."
+    },
+    {
+     "m": "khaki-field",
+     "c": "Die Hamilton Khaki Field Mechanical steht für denselben Gedanken einer einfachen, ehrlichen Werkzeuguhr."
+    },
+    {
+     "m": "laco-aachen",
+     "c": "Die Laco Aachen ist eine andere deutsche Uhr mit Fliegerwurzeln in ähnlicher Größe."
+    }
+   ]
   }
  ]
 }
