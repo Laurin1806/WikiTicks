@@ -49313,6 +49313,93 @@
      "c": "Der Datograph von A. Lange & Söhne ist das Maß für elegante Chronographen mit Manufakturwerk."
     }
    ]
+  },
+  {
+   "id": "drive-de-cartier-wsnm0004",
+   "model": "drive-de-cartier",
+   "ref": "WSNM0004",
+   "alias": [
+    "WSNM0004"
+   ],
+   "var": null,
+   "t": "Cartier Drive de Cartier Ref. WSNM0004",
+   "bau": "seit 2016",
+   "cap": "",
+   "s": "Die Drive de Cartier in ihrer Grundform: ein kissenförmiges 40-Millimeter-Stahlgehäuse, ein guillochiertes Zifferblatt mit kleiner Sekunde und ein Manufakturwerk.",
+   "bh": [
+    "Eine neue Herrenlinie",
+    "Kissengehäuse und Zifferblatt",
+    "Das Werk",
+    "Weitere Ausführungen"
+   ],
+   "b": [
+    "Cartier stellte die Drive de Cartier 2016 als Herrenuhr vor – als Alternative zu Santos und Tank für Männer, die eine weichere, rundere Form bevorzugen. Die Referenz WSNM0004 ist die Grundausführung aus Edelstahl mit silberfarbenem Zifferblatt und schwarzem Lederband.",
+    "Das kissenförmige Gehäuse misst 40 Millimeter und erinnert an klassische Taschenuhren, die geschwungene Lünette folgt seiner Form. Das Zifferblatt hat ein guillochiertes Zentrum, große schwarze römische Ziffern und gebläute Schwertzeiger, bei 6 Uhr sitzt eine kleine Sekunde. Die Krone trägt einen Saphir-Cabochon.",
+    "Im Inneren arbeitet das Manufakturkaliber 1904-PS MC mit automatischem Aufzug, die Ausführung des Cartier-Werks 1904 MC mit kleiner Sekunde.",
+    "Später kamen eine extraflache Variante mit Handaufzug, eine Version mit Mondphase und ein Tourbillon hinzu. Im Alltag ist die Drive bequem zu tragen; auf dem Zweitmarkt ist sie günstiger als Santos oder Tank und seltener zu sehen."
+   ],
+   "vh": [
+    [
+     "Drive de Cartier Mondphase",
+     "Die Version mit Mondphase nutzt das Kaliber 1904-LU MC."
+    ],
+    [
+     "Extraflach",
+     "Die extraflache Drive mit Handaufzug hat ein deutlich schlankeres Gehäuse und zeigt nur Stunden und Minuten."
+    ],
+    [
+     "Roségold",
+     "Neben Stahl gibt es die Drive in 18-karätigem Roségold."
+    ]
+   ],
+   "m": [
+    "Kissenförmiges 40-mm-Gehäuse",
+    "Guillochiertes Zentrum mit römischen Ziffern",
+    "Kleine Sekunde bei 6 Uhr",
+    "Krone mit Saphir-Cabochon"
+   ],
+   "ev": [
+    [
+     "2016",
+     "Vorstellung der Drive de Cartier"
+    ]
+   ],
+   "x": [
+    "Wer eine weniger verbreitete Cartier sucht, findet in der Drive eine Alternative zu Santos und Tank.",
+    "Bei gebrauchten Uhren auf Kratzer an der geschwungenen, polierten Lünette achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2016"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, kissenförmig, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "1904-PS MC, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "fiftysix",
+     "c": "Vacheron Constantins Fiftysix von 2018 ist eine andere neue klassische Herrenlinie dieser Jahre."
+    },
+    {
+     "m": "code-11-59",
+     "c": "Audemars Piguet versuchte 2019 mit der Code 11.59 ebenfalls eine neue elegante Form neben den bekannten Klassikern."
+    },
+    {
+     "m": "master-control",
+     "c": "Die Master Control von Jaeger-LeCoultre ist eine schlichte Herrenuhr aus demselben Konzern."
+    }
+   ]
   }
  ]
 }
