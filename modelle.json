@@ -40270,6 +40270,105 @@
      "c": "Omegas Seamaster 300 greift wie die Fifty-Eight eine Taucheruhr der späten 1950er-Jahre auf."
     }
    ]
+  },
+  {
+   "id": "heritage-chrono-70330",
+   "model": "heritage-chrono",
+   "ref": "70330",
+   "alias": [
+    "70330B",
+    "70330N",
+    "Heritage Chrono"
+   ],
+   "var": null,
+   "t": "Tudor Heritage Chrono Ref. 70330",
+   "bau": "ab 2010",
+   "cap": "",
+   "s": "Eckige Hilfszifferblätter, Orange als Akzentfarbe und eine Lünette mit Zahlen: Mit der Heritage Chrono holte Tudor 2010 seine Chronographen der 1970er-Jahre zurück – und begann damit die eigene Retro-Welle.",
+   "bh": [
+    "2010: Auftakt der Heritage-Linie",
+    "Gehäuse und Werk",
+    "Das Zifferblatt",
+    "Wegbereiterin der Black Bay"
+   ],
+   "b": [
+    "Die Heritage Chrono erschien 2010 als erstes Modell der Heritage-Linie, mit der Tudor gezielt auf Uhren aus der eigenen Geschichte zurückgriff. Vorbild war der Oysterdate-Chronograph der frühen 1970er-Jahre mit Valjoux-Handaufzugswerk, dessen Zifferblattgestaltung Sammler »Montecarlo« nennen. Für Tudor, das lange im Schatten von Rolex stand, war das ein wichtiger Schritt zu einem eigenen Profil.",
+    "Das Edelstahlgehäuse misst 42 Millimeter, Krone und Drücker sind verschraubt. Als Antrieb dient ein ETA-Automatikwerk vom Typ 2892 mit Chronographenmodul. Die drehbare Lünette trägt eine Zahlenskala, wie sie schon die Vorbilder der 1970er-Jahre hatten. Angeboten wurde die Uhr am Stahlband und an Leder- oder Textilbändern.",
+    "Typisch sind die eckig wirkenden Hilfszifferblätter bei 3 und 9 Uhr, der orangefarbene Chronographenzeiger, die pfeilförmigen aufgesetzten Indizes und das Datumsfenster bei 6 Uhr. Die erste Ausführung (70330N) hat ein graues Zifferblatt mit schwarzen und orangefarbenen Details; die spätere Heritage Chrono Blue (70330B) ein cremefarbenes Zifferblatt mit blauen Hilfszifferblättern und blauer Lünette.",
+    "Mit der Black Bay folgte 2012 das nächste Heritage-Modell, das deutlich erfolgreicher wurde. Die Heritage Chrono bleibt aber die Uhr, mit der Tudors Rückbesinnung auf die eigene Geschichte begann. Heute ist sie nur noch gebraucht erhältlich und gilt als vergleichsweise günstiger Einstieg in vintage-inspirierte Chronographen."
+   ],
+   "vh": [
+    [
+     "Grau und Orange: Ref. 70330N",
+     "Die erste Ausführung von 2010 mit grauem Zifferblatt, schwarzen und orangefarbenen Akzenten und schwarzer Lünette."
+    ],
+    [
+     "Heritage Chrono Blue: Ref. 70330B",
+     "Die spätere Ausführung mit cremefarbenem Zifferblatt, blauen Hilfszifferblättern, orangefarbenen Akzenten und blauer Lünette; sie ist heute besonders gefragt."
+    ]
+   ],
+   "m": [
+    "42 mm, Edelstahl, verschraubte Drücker",
+    "Eckige Hilfszifferblätter bei 3 und 9 Uhr",
+    "Orangefarbener Chronographenzeiger",
+    "Drehlünette mit Zahlenskala",
+    "Datum bei 6 Uhr"
+   ],
+   "ev": [
+    [
+     "frühe 1970er",
+     "Vorbild: Oysterdate-Chronograph »Montecarlo«"
+    ],
+    [
+     "2010",
+     "Vorstellung der Heritage Chrono 70330N"
+    ],
+    [
+     "2012",
+     "Black Bay als nächstes Heritage-Modell"
+    ]
+   ],
+   "x": [
+    "Die blaue Ausführung 70330B ist gefragter als die graue 70330N.",
+    "Das ETA-Werk mit Chronographenmodul ist weit verbreitet; der Service ist bei vielen Uhrmachern möglich.",
+    "Die Heritage Chrono wurde mit mehreren Bändern ausgeliefert; ein vollständiges Set steigert den Wert."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "ab 2010"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "ETA 2892 mit Chronographenmodul, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Chronograph"
+    ],
+    [
+     "Vorbild",
+     "Oysterdate-Chronograph (frühe 1970er-Jahre)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "carrera",
+     "c": "TAG Heuer setzte in diesen Jahren mit Neuauflagen der Carrera ebenfalls auf Chronographen im Stil der 1960er- und 1970er-Jahre."
+    },
+    {
+     "m": "autavia",
+     "c": "Die Heuer Autavia ist ein weiterer Rennsport-Chronograph mit Wurzeln in derselben Epoche."
+    },
+    {
+     "m": "daytona",
+     "c": "Die Rolex Daytona ist die große Schwester der Tudor-Chronographen der 1970er-Jahre."
+    }
+   ]
   }
  ]
 }
