@@ -50718,6 +50718,83 @@
      "c": "Tudors Black Bay Chrono ist ein weiterer Automatikchronograph mit Säulenradwerk auf Basis des Breitling-Kalibers B01."
     }
    ]
+  },
+  {
+   "id": "portugieser-iw5454",
+   "model": "portugieser",
+   "ref": "IW5454",
+   "alias": [
+    "IW545408"
+   ],
+   "var": 2,
+   "t": "IWC Portugieser Handaufzug Ref. IW5454",
+   "bau": "2010er-Jahre",
+   "cap": "",
+   "s": "Die Portugieser, wie sie 1939 gedacht war: ein großes Gehäuse, ein Handaufzugswerk aus der Taschenuhrtradition und ein Zifferblatt mit kleiner Sekunde und sonst nichts.",
+   "bh": [
+    "Zurück zum Ursprung",
+    "Gehäuse und Zifferblatt",
+    "Ein Werk aus der Taschenuhr",
+    "Stellung in der Familie"
+   ],
+   "b": [
+    "Die erste Portugieser von 1939 war eine Armbanduhr mit einem Handaufzugswerk für Taschenuhren, gebaut für zwei portugiesische Uhrenhändler. Die Portugieser mit Handaufzug (Ref. IW5454) greift dieses Konzept wieder auf. Die Referenz IW545408 ist eine Ausführung mit poliertem Gehäuse aus hellem Metall, weißem Zifferblatt und blauen Ziffern und Zeigern.",
+    "Das große runde Gehäuse hat die dünne Lünette der Portugieser. Das Zifferblatt zeigt schlanke aufgesetzte arabische Ziffern, blaue Blattzeiger und eine feine Minuterie; die kleine Sekunde bei 6 Uhr hat eine eigene Skala von 10 bis 60. Ein Datum gibt es nicht.",
+    "Im Inneren arbeitet ein großes Handaufzugswerk aus IWCs Kaliberfamilie 98, die auf ein Taschenuhrwerk zurückgeht – wie schon bei der Portugieser Jubilee von 1993.",
+    "Die Portugieser mit Handaufzug ist die puristische Ausführung der Linie neben Automatik, Chronograph und Kalendermodellen. Später folgte die Portugieser Hand-Wound Eight Days mit acht Tagen Gangreserve."
+   ],
+   "m": [
+    "Großes rundes Gehäuse, dünne Lünette",
+    "Aufgesetzte arabische Ziffern",
+    "Kleine Sekunde bei 6 Uhr mit Skala von 10 bis 60",
+    "Kein Datum, Handaufzug"
+   ],
+   "ev": [
+    [
+     "1939",
+     "Erste Portugieser mit Taschenuhrwerk"
+    ],
+    [
+     "1993",
+     "Portugieser Jubilee mit Handaufzug"
+    ]
+   ],
+   "x": [
+    "Handaufzug heißt regelmäßiges Aufziehen; wer das nicht möchte, ist mit der Automatic 40 besser bedient.",
+    "Beim Aufziehen sollte sich die Krone gleichmäßig und ohne Rucken drehen lassen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2010er-Jahre"
+    ],
+    [
+     "Gehäuse",
+     "rund, groß, dünne Lünette"
+    ],
+    [
+     "Kaliber",
+     "Handaufzug, IWC-Kaliberfamilie 98"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "saxonia",
+     "c": "Die Saxonia von A. Lange & Söhne ist eine andere klassische Handaufzugsuhr mit kleiner Sekunde."
+    },
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony steht für die schlichte Dresswatch dieser Jahre."
+    },
+    {
+     "m": "gs-sbgw231",
+     "c": "Die Grand Seiko SBGW231 ist eine schlichte Handaufzugsuhr in klassischer Form."
+    }
+   ]
   }
  ]
 }
