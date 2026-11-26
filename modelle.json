@@ -44752,6 +44752,111 @@
      "c": "Die Junghans max bill folgt wie die Tetra dem Bauhaus-Gedanken der klaren, reduzierten Form."
     }
    ]
+  },
+  {
+   "id": "alpine-eagle-298600",
+   "model": "alpine-eagle",
+   "ref": "298600",
+   "alias": [
+    "298600-3001",
+    "Alpine Eagle 41"
+   ],
+   "var": null,
+   "t": "Chopard Alpine Eagle Ref. 298600",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Ein Vater, ein Sohn und eine Uhr von 1980: Die Alpine Eagle 41 ist die Neuauflage der St. Moritz – mit acht Schrauben in der Lünette, einem Zifferblatt wie eine Adler-Iris und einem eigenen Chronometerwerk.",
+   "bh": [
+    "Von der St. Moritz zur Alpine Eagle",
+    "Gehäuse und Zifferblatt",
+    "Lucent Steel",
+    "Das Kaliber 01.01-C"
+   ],
+   "b": [
+    "Die Alpine Eagle kam 2019 auf den Markt. Sie geht auf die St. Moritz zurück, die Karl-Friedrich Scheufele, heute Co-Präsident von Chopard, 1980 als junger Mann entworfen hatte. Sein Sohn Karl-Fritz überzeugte ihn, die Uhr neu aufzulegen. Die Referenz 298600 ist die Ausführung mit 41 Millimetern.",
+    "Typisch sind die runde Lünette mit acht Schrauben in vier Paaren, das integrierte Band mit gewölbten Mittelgliedern und die großen römischen Ziffern bei 12, 3, 6 und 9. Das Zifferblatt hat eine radiale Struktur, die an die Iris eines Adlerauges erinnern soll, der Sekundenzeiger ein Gegengewicht in Form einer Adlerfeder. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Gehäuse und Band bestehen aus Lucent Steel, einem Stahl, den Chopard zu großen Teilen aus recyceltem Material herstellt. Er ist härter als üblicher Edelstahl und soll besonders hautverträglich sein.",
+    "Im Inneren arbeitet das Automatikkaliber 01.01-C mit rund 60 Stunden Gangreserve. Es ist als Chronometer zertifiziert und durch einen Saphirglasboden zu sehen."
+   ],
+   "vh": [
+    [
+     "Blau: Ref. 298600-3001",
+     "Das blaue Zifferblatt, das an das Eis der Alpen erinnern soll, ist die bekannteste Ausführung."
+    ],
+    [
+     "Alpine Eagle 36",
+     "Neben den 41 Millimetern gibt es eine kleinere Ausführung mit 36 Millimetern und eigener Referenz."
+    ],
+    [
+     "Chronograph und Cadence 8HF",
+     "2020 folgte der Chronograph Alpine Eagle XL Chrono mit 44 Millimetern, 2021 die Alpine Eagle Cadence 8HF aus Titan mit einem hochfrequenten Werk."
+    ]
+   ],
+   "m": [
+    "Runde Lünette mit acht Schrauben in Paaren",
+    "Römische Ziffern bei 12, 3, 6 und 9",
+    "Zifferblatt mit radialer Struktur",
+    "Sekundenzeiger mit Gegengewicht in Federform",
+    "41 mm, integriertes Band"
+   ],
+   "ev": [
+    [
+     "1980",
+     "St. Moritz als Vorläufer"
+    ],
+    [
+     "2019",
+     "Vorstellung der Alpine Eagle"
+    ]
+   ],
+   "x": [
+    "Die Alpine Eagle ist eine der günstigeren Uhren mit Manufakturwerk im Segment der Luxus-Sportuhren mit integriertem Band.",
+    "Auf eine vollständige Ausstattung mit allen Bandgliedern und dem Chronometerzertifikat achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Lucent Steel, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "01.01-C, Automatik, Chronometer"
+    ],
+    [
+     "Gangreserve",
+     "≈ 60 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "St. Moritz"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "odysseus",
+     "c": "Die Lange Odysseus erschien im selben Jahr als Stahl-Sportuhr einer Traditionsmanufaktur."
+    },
+    {
+     "m": "laureato",
+     "c": "Die Laureato steht im selben Segment der Luxus-Sportuhren mit integriertem Band."
+    },
+    {
+     "m": "overseas",
+     "c": "Die Overseas ist die Genfer Referenz in dieser Klasse."
+    }
+   ]
   }
  ]
 }
