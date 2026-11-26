@@ -49766,6 +49766,93 @@
      "c": "Die Blancpain Fifty Fathoms wurde wie die Luminor für Kampftaucher einer Marine entwickelt."
     }
    ]
+  },
+  {
+   "id": "mare-nostrum-pam00716",
+   "model": "mare-nostrum",
+   "ref": "PAM00716",
+   "alias": [
+    "PAM00716",
+    "PAM 716",
+    "Mare Nostrum Acciaio"
+   ],
+   "var": null,
+   "t": "Panerai Mare Nostrum Ref. PAM00716",
+   "bau": "2017",
+   "cap": "",
+   "s": "Die Mare Nostrum von 2017: ein Chronograph in 42 Millimetern Stahl mit breiter Tachymeterlünette, limitiert auf 1.000 Stück – die alltagstaugliche Rückkehr eines Marineentwurfs aus den 1940er-Jahren.",
+   "bh": [
+    "Vorbild aus der Marine",
+    "Die Neuauflage",
+    "Gehäuse und Werk",
+    "Bedeutung"
+   ],
+   "b": [
+    "Um 1943 entwickelte Panerai für Deckoffiziere der italienischen Marine einen Chronographen, der über wenige Prototypen nicht hinauskam. 1993 erschien die Mare Nostrum (Ref. 5218-301/A) mit 52 Millimetern als eine der ersten Panerai, die Zivilisten kaufen konnten.",
+    "2017 legte Panerai die Mare Nostrum als PAM00716 neu auf, mit dem Zusatz »Acciaio« für das Stahlgehäuse und auf 1.000 Stück limitiert. Mit 42 Millimetern ist sie deutlich alltagstauglicher als das Original.",
+    "Die breite, satinierte Lünette trägt eine Tachymeterskala, das schwarze Zifferblatt zwei Hilfszifferblätter bei 3 und 9 Uhr sowie Stabindizes und Zeiger mit cremefarbener Leuchtmasse. Rechts sitzen Krone und zwei Drücker. Im Inneren arbeitet das Panerai-Chronographenkaliber OP XXXIII.",
+    "Neben Luminor und Radiomir ist die Mare Nostrum die seltenste Linie von Panerai. Die Neuauflage machte ihr Design wieder zugänglich, das zuvor fast nur über das seltene Original von 1993 zu haben war."
+   ],
+   "m": [
+    "42-mm-Stahlgehäuse",
+    "Breite Lünette mit Tachymeterskala",
+    "Zwei Hilfszifferblätter bei 3 und 9 Uhr",
+    "Schriftzug »PANERAI MARE NOSTRUM«"
+   ],
+   "ev": [
+    [
+     "um 1943",
+     "Chronograph-Prototypen für Deckoffiziere"
+    ],
+    [
+     "1993",
+     "Mare Nostrum 5218-301/A"
+    ],
+    [
+     "2017",
+     "Neuauflage PAM00716, 1.000 Stück"
+    ]
+   ],
+   "x": [
+    "Bei der limitierten Auflage auf vollständige Box und Papiere achten.",
+    "Ein Chronograph braucht regelmäßige Revisionen; ihre Belege sind beim Kauf wertvoll."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2017"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "OP XXXIII"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph, Tachymeter"
+    ],
+    [
+     "Auflage",
+     "1.000 Stück"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "black-bay-chrono",
+     "c": "Tudors Black Bay Chrono erschien 2017 – ein anderer Chronograph mit Bezug zur eigenen Geschichte."
+    },
+    {
+     "m": "speedmaster",
+     "c": "Die Omega Speedmaster ist der bekannteste Chronograph, der wie die Mare Nostrum seine Wurzeln in einer Dienstuhr hat."
+    },
+    {
+     "m": "heritage-chrono",
+     "c": "Tudors Heritage Chrono griff wie die Mare Nostrum einen historischen Chronographen wieder auf."
+    }
+   ]
   }
  ]
 }
