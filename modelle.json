@@ -44485,6 +44485,95 @@
      "c": "Omegas Seamaster Diver 300M ist der bekannte Maßstab für Profi-Taucheruhren dieser Zeit."
     }
    ]
+  },
+  {
+   "id": "sinn-u1-1010-010",
+   "model": "sinn-u1",
+   "ref": "1010.010",
+   "alias": [
+    "1010.010",
+    "U1"
+   ],
+   "var": null,
+   "t": "Sinn U1 Ref. 1010.010",
+   "bau": "seit 2005",
+   "cap": "",
+   "s": "Ein Gehäuse aus U-Boot-Stahl, 1.000 Meter Wasserdichtigkeit und rote Akzente auf schwarzem Grund: Die U1 ist Sinns kompromisslose Taucheruhr und sieht genau so aus.",
+   "bh": [
+    "Stahl aus dem U-Boot-Bau",
+    "Gehärtete Oberfläche",
+    "Gehäuse und Werk",
+    "Werkzeug für Taucher"
+   ],
+   "b": [
+    "2005 stellte Sinn die U1 vor. Ihr Gehäuse besteht aus demselben Stahl, der im Bau deutscher U-Boote verwendet wird. Er ist besonders widerstandsfähig gegen Salzwasser und nicht magnetisch – Eigenschaften, die einer Taucheruhr zugutekommen.",
+    "Zusätzlich härtet Sinn die Oberfläche mit der eigenen Tegiment-Technologie. Dabei entsteht eine harte Schutzschicht, die das Gehäuse und die Lünette deutlich kratzfester macht als normalen Stahl. Die Lünette ist mattschwarz, das Gehäuse sandgestrahlt grau.",
+    "Das Gehäuse misst 44 Millimeter und ist bis 1.000 Meter wasserdicht; die Uhr ist nach den deutschen Normen für Taucheruhren geprüft. Die einseitig drehbare Lünette trägt eine Minutenskala mit roten Markierungen. Als Werk dient das Automatikkaliber SW200-1 mit rund 38 Stunden Gangreserve.",
+    "Mit dem großen Gehäuse, den kantigen Leuchtindizes und dem roten Sekundenzeiger wirkt die U1 wie ein Werkzeug, und so wird sie auch genutzt: Sie ist bei Berufstauchern verbreitet. Aus ihr ist eine ganze Familie von U-Modellen entstanden; die U1 ist das Original geblieben."
+   ],
+   "vh": [
+    [
+     "Geschwärztes Gehäuse: U1 S",
+     "Die U1 S hat ein komplett geschwärztes Gehäuse und wirkt dadurch noch dunkler als die Grundausführung."
+    ],
+    [
+     "Weitere U-Modelle",
+     "Auf der U1 bauen weitere U-Boot-Stahl-Modelle von Sinn auf, etwa größere Ausführungen und Chronographen, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "44 mm, U-Boot-Stahl, sandgestrahlt, Tegiment-gehärtet",
+    "Mattschwarze Drehlünette mit roten Minutenmarkierungen",
+    "Kantige, große Leuchtindizes",
+    "Roter Sekundenzeiger, Schriftzug »U1« in Rot"
+   ],
+   "ev": [
+    [
+     "2005",
+     "Vorstellung der U1"
+    ]
+   ],
+   "x": [
+    "Die Tegiment-Oberfläche ist sehr kratzfest, kann aber bei harten Schlägen eindrücken; Beschädigungen lassen sich nicht wie bei normalem Stahl einfach auspolieren.",
+    "Mit 44 Millimetern ist die U1 groß – vor dem Kauf am eigenen Handgelenk probieren.",
+    "Das Stahlband ist ebenfalls gehärtet und passt am besten zum Werkzeugcharakter der Uhr."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2005"
+    ],
+    [
+     "Gehäuse",
+     "44 mm, U-Boot-Stahl, Tegiment"
+    ],
+    [
+     "Wasserdicht",
+     "1.000 m"
+    ],
+    [
+     "Kaliber",
+     "SW200-1, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "planet-ocean",
+     "c": "Omegas Planet Ocean kam ebenfalls 2005 als große, sehr wasserdichte Taucheruhr heraus."
+    },
+    {
+     "m": "deepsea",
+     "c": "Die Rolex Deepsea folgte 2008 als weitere Taucheruhr, die weit über die üblichen Tiefen hinausgeht."
+    },
+    {
+     "m": "pelagos",
+     "c": "Die Tudor Pelagos setzt wie die U1 auf ein besonderes Gehäusematerial und klare Werkzeugoptik."
+    }
+   ]
   }
  ]
 }
