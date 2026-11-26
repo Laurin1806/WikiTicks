@@ -4035,7 +4035,8 @@
      ],
      "dial": "Schwarz",
      "iref": "126710BLNR",
-     "irefs": "hoch"
+     "irefs": "hoch",
+     "nonick": true
     },
     {
      "n": "Ref. 1675 »Pepsi«",
