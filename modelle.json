@@ -43983,6 +43983,99 @@
      "c": "Die Junghans Meister ist eine andere klassische deutsche Uhr, die Tradition und Zurückhaltung verbindet."
     }
    ]
+  },
+  {
+   "id": "max-bill-027-3700",
+   "model": "max-bill",
+   "ref": "027/3700",
+   "alias": [
+    "027/3700",
+    "max bill"
+   ],
+   "var": null,
+   "t": "Junghans max bill Ref. 027/3700",
+   "bau": "seit 1997",
+   "cap": "",
+   "s": "Zwölf schlanke Ziffern, feine Zeiger und ein gewölbtes Glas: Die max bill mit Handaufzug ist die Neuauflage der Bauhaus-Armbanduhr, die Max Bill um 1961 für Junghans entwarf.",
+   "bh": [
+    "Ein Gestalter vom Bauhaus",
+    "Die Neuauflage",
+    "Gehäuse und Werk",
+    "Ein deutscher Designklassiker"
+   ],
+   "b": [
+    "Max Bill studierte am Bauhaus in Dessau und wurde einer der einflussreichsten Gestalter des 20. Jahrhunderts. Für Junghans entwarf er 1956 eine Küchenuhr, um 1961 folgten Armbanduhren. Sie sind auf das Wesentliche reduziert: feine Zeiger, schmale Indizes, viel freier Raum und eine zurückhaltende Schrift.",
+    "1997 legte Junghans die Linie max bill wieder auf. Die Ausführung mit Handaufzug steht den Originalen am nächsten: ein schlankes Gehäuse, ein hohes, gewölbtes Glas und ein helles Zifferblatt mit arabischen Ziffern und feinen Minutenstrichen.",
+    "Das Edelstahlgehäuse misst 34 Millimeter. Darin arbeitet das Handaufzugskaliber J805.1 mit rund 42 Stunden Gangreserve. Das gewölbte Glas ist aus Kunststoff – wie bei vielen Uhren der 1960er-Jahre –, was dem Zifferblatt die typische, leicht verzerrte Tiefe gibt. Die Uhr ist bis 30 Meter wasserdicht.",
+    "Die max bill gilt heute als eine der bekanntesten deutschen Designuhren. Rund um die Handaufzugsversion ist eine ganze Familie entstanden: mit Automatik, Quarzwerk, als Chronoscope und als Funkuhr. Der Entwurf selbst ist über sechzig Jahre alt und wirkt trotzdem nicht altmodisch."
+   ],
+   "vh": [
+    [
+     "Automatik: Ref. 027/4700",
+     "Die max bill Automatic hat ein größeres Gehäuse von 38 Millimetern und ein Automatikwerk, das Zifferblatt folgt demselben Entwurf."
+    ],
+    [
+     "Chronoscope und Quarz",
+     "Auf dem Design der Handaufzugsversion bauen auch der Chronograph max bill Chronoscope und Ausführungen mit Quarzwerk auf, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "34 mm, schlankes Edelstahlgehäuse",
+    "Hoch gewölbtes Kunststoffglas",
+    "Zwölf schlanke arabische Ziffern mit feinen Minutenstrichen",
+    "Dünne Stabzeiger, kein Datum"
+   ],
+   "ev": [
+    [
+     "um 1961",
+     "Max Bill entwirft Armbanduhren für Junghans"
+    ],
+    [
+     "1997",
+     "Neuauflage der Linie max bill"
+    ]
+   ],
+   "x": [
+    "Das Kunststoffglas verkratzt leichter als Saphir, lässt sich aber vom Uhrmacher polieren oder günstig ersetzen.",
+    "Mit 34 Millimetern ist die Handaufzugsversion klein; wer mehr Präsenz möchte, greift zur 38-Millimeter-Automatik.",
+    "30 Meter Wasserdichtigkeit reichen für den Alltag, nicht zum Schwimmen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 1997 (Neuauflage)"
+    ],
+    [
+     "Gehäuse",
+     "34 mm, Edelstahl, gewölbtes Kunststoffglas"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "J805.1, Handaufzug"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "tangente",
+     "c": "Die Nomos Tangente ist seit 1992 die andere große deutsche Bauhaus-Uhr."
+    },
+    {
+     "m": "tetra",
+     "c": "Die Nomos Tetra verfolgt mit ihrem quadratischen Gehäuse denselben reduzierten Ansatz."
+    },
+    {
+     "m": "junghans-mega",
+     "c": "Die Junghans Mega machte die Marke in den 1990er-Jahren mit der ersten Funkarmbanduhr bekannt."
+    }
+   ]
   }
  ]
 }
