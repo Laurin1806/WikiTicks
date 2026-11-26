@@ -45888,6 +45888,105 @@
      "c": "Vacheron Constantins Traditionnelle gibt es ebenfalls mit Mondphase in Gold."
     }
    ]
+  },
+  {
+   "id": "laureato-81010",
+   "model": "laureato",
+   "ref": "81010",
+   "alias": [
+    "81010-11-431-11A"
+   ],
+   "var": null,
+   "t": "Girard-Perregaux Laureato Ref. 81010",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Achteckige Lünette, Clous-de-Paris-Zifferblatt und ein integriertes Band: Mit der Laureato 81010 kehrte Girard-Perregaux 2017 in die erste Reihe der Luxus-Sportuhren zurück.",
+   "bh": [
+    "Ein Erbe von 1975",
+    "Gehäuse und Zifferblatt",
+    "Das Werk GP01800",
+    "Die Kollektion"
+   ],
+   "b": [
+    "Girard-Perregaux stellte die Laureato 1975 vor, in der Zeit der ersten Luxus-Sportuhren aus Stahl; die erste Laureato hatte ein eigenes Quarzwerk. 2017 brachte die Marke sie als eigene Kollektion zurück, und die Referenz 81010 wurde zu ihrem Herzstück: die Laureato mit 42 Millimetern und Automatikwerk.",
+    "Erkennungszeichen ist die achteckige Lünette, die auf einem runden Sockel sitzt. Das Gehäuse geht in ein integriertes Gliederband über, dessen polierte und satinierte Flächen sich abwechseln. Das Zifferblatt trägt ein Clous-de-Paris-Muster aus feinen Pyramiden. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Im Inneren arbeitet das Automatikkaliber GP01800 aus der eigenen Manufaktur mit rund 54 Stunden Gangreserve. Es ist durch einen Saphirglasboden zu sehen.",
+    "Rund um die 81010 entstand eine Kollektion mit Chronographen, Skelettversionen und Modellen aus Keramik und Titan. Die 42-Millimeter-Stahluhr mit blauem Zifferblatt blieb ihre bekannteste Form."
+   ],
+   "vh": [
+    [
+     "Blau: Ref. 81010-11-431-11A",
+     "Edelstahlgehäuse und -band mit blauem Clous-de-Paris-Zifferblatt."
+    ],
+    [
+     "Laureato 38 mm: Ref. 81005",
+     "Eine kleinere Ausführung mit 38 Millimetern."
+    ],
+    [
+     "Laureato Chronograph: Ref. 81020",
+     "Der Chronograph mit 42 Millimetern trägt eine eigene Referenz."
+    ]
+   ],
+   "m": [
+    "Achteckige Lünette auf rundem Sockel",
+    "Clous-de-Paris-Zifferblatt",
+    "Integriertes Gliederband",
+    "42 mm, Edelstahl, Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1975",
+     "Erste Laureato mit Quarzwerk"
+    ],
+    [
+     "2017",
+     "Neue Kollektion mit Ref. 81010"
+    ]
+   ],
+   "x": [
+    "Die Laureato ist eine der günstigeren Uhren im Segment der Luxus-Sportuhren mit integriertem Band.",
+    "Das Band ist fester Bestandteil des Designs – beim Gebrauchtkauf auf alle Glieder und Kratzer an den polierten Flächen achten."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "GP01800, Automatik"
+    ],
+    [
+     "Gangreserve",
+     "≈ 54 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "overseas",
+     "c": "Die Overseas der dritten Generation ist die direkte Genfer Konkurrentin aus denselben Jahren."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle folgte 2019 mit einem ähnlichen Konzept."
+    },
+    {
+     "m": "piaget-polo",
+     "c": "Die Piaget Polo S kam kurz zuvor als weitere Stahl-Sportuhr mit integriertem Band."
+    }
+   ]
   }
  ]
 }
