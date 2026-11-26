@@ -38498,6 +38498,113 @@
      "c": "Girard-Perregaux zeigt beim Tourbillon mit drei Brücken, wie Brücken selbst zum Gestaltungselement werden."
     }
    ]
+  },
+  {
+   "id": "royal-oak-offshore-26420",
+   "model": "royal-oak-offshore",
+   "ref": "26420",
+   "alias": [
+    "26420SO.OO.A002CA.01",
+    "26420SO",
+    "26420ST"
+   ],
+   "var": null,
+   "t": "Audemars Piguet Royal Oak Offshore Ref. 26420",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "»The Beast« im neuen Gewand: 43 Millimeter, Wechselbänder per Knopfdruck und erstmals ein hauseigenes Flyback-Werk – die Offshore-Generation, mit der Audemars Piguet 2021 seinen kräftigsten Chronographen neu aufstellte.",
+   "bh": [
+    "2021: die Offshore wird erneuert",
+    "Gehäuse und Werk",
+    "Wechselbänder und Méga Tapisserie",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "Seit 1993 ist die Royal Oak Offshore die große, kraftvolle Schwester der Royal Oak. 2021 stellte Audemars Piguet mit der Referenz 26420 eine grundlegend überarbeitete Generation vor, die die lange gebaute 26470ST ablöste.",
+    "Das Gehäuse wuchs von 42 auf 43 Millimeter. Die achteckige, verschraubte Lünette, Kronenschutz und gummierte Drücker blieben die typischen Merkmale. Im Inneren arbeitet das hauseigene Automatikkaliber 4404 mit Schaltrad, Flyback-Funktion und rund 70 Stunden Gangreserve. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Neu ist ein System für austauschbare Bänder, mit dem sich Kautschuk- und Lederbänder ohne Werkzeug wechseln lassen. Das Zifferblatt zeigt das grobe »Méga Tapisserie«-Muster, drei Hilfszifferblätter und ein Datumsfenster zwischen 4 und 5 Uhr; das AP-Logo sitzt unter 12 Uhr.",
+    "Mit der 26420 kam die Offshore technisch auf den Stand des Royal Oak Chronographen 26240, der im selben Jahr sein Kaliber 4401 erhielt. Sie ist in verschiedenen Materialien gebaut worden und bleibt die auffälligste Uhr der Royal-Oak-Familie."
+   ],
+   "vh": [
+    [
+     "Stahl mit Keramik: Ref. 26420SO",
+     "Die abgebildete Ausführung kombiniert ein Stahlgehäuse mit schwarzen Keramikelementen und schwarzem Kautschukband."
+    ],
+    [
+     "Titan und Keramik",
+     "Wie bei der Offshore üblich gibt es die 26420 auch mit Gehäusen aus Titan oder schwarzer Keramik."
+    ],
+    [
+     "Vorgängerin: Ref. 26470ST",
+     "Die 26470ST (2014–2021) hatte 42 Millimeter und das Modulwerk 3126/3840."
+    ]
+   ],
+   "m": [
+    "43 mm, achteckige verschraubte Lünette",
+    "Kronenschutz und gummierte Drücker",
+    "Zifferblatt mit »Méga Tapisserie«",
+    "Datumsfenster zwischen 4 und 5 Uhr",
+    "Werkzeuglos wechselbares Band"
+   ],
+   "ev": [
+    [
+     "1993",
+     "Erste Royal Oak Offshore, Ref. 25721ST"
+    ],
+    [
+     "2014",
+     "Vorgängerin 26470ST"
+    ],
+    [
+     "2021",
+     "Ref. 26420 mit Kaliber 4404 und Wechselbändern"
+    ]
+   ],
+   "x": [
+    "Das Kaliber 4404 mit Flyback ist der wichtigste technische Unterschied zur 26470ST; optisch sind sich die Generationen ähnlich.",
+    "Beim Gebrauchtkauf darauf achten, dass die zusätzlichen Bänder und das Zubehör vollständig sind.",
+    "Kautschukummantelungen an Krone und Drückern altern und lassen sich beim Service ersetzen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "43 mm, Stahl, Titan oder Keramik"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "4404, Automatik-Chronograph mit Schaltrad"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Datum, Chronograph mit Flyback"
+    ],
+    [
+     "Vorgänger",
+     "26470ST"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "big-bang",
+     "c": "Hublots Big Bang setzt wie die Offshore auf große Gehäuse, Kautschuk und Materialmix."
+    },
+    {
+     "m": "defy",
+     "c": "Zenith zeigt mit der Defy Extreme einen ähnlich wuchtigen, technisch betonten Luxus-Chronographen."
+    },
+    {
+     "m": "chronomat",
+     "c": "Der Breitling Chronomat ist ein weiterer kräftiger Sportchronograph mit hauseigenem Werk aus diesen Jahren."
+    }
+   ]
   }
  ]
 }
