@@ -48795,6 +48795,99 @@
      "c": "Bulgaris Octo Finissimo erschien im selben Jahr als ebenfalls ungewöhnlich geformte Luxusuhr."
     }
    ]
+  },
+  {
+   "id": "superocean-a17375",
+   "model": "superocean",
+   "ref": "A17375",
+   "alias": [
+    "A17375E71C1A1",
+    "A17375"
+   ],
+   "var": null,
+   "t": "Breitling Superocean Ref. A17375",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Strand statt Tiefsee: Die Superocean Automatic 42 der Referenz A17375 ist Breitlings farbenfrohe Taucheruhr im Geist der 1960er-Surfkultur – bis 300 Meter dicht und bewusst unbeschwert.",
+   "bh": [
+    "Neuausrichtung 2022",
+    "Gehäuse und Lünette",
+    "Werk",
+    "Bedeutung"
+   ],
+   "b": [
+    "2022 überarbeitete Breitling die Superocean grundlegend. Statt der martialischen Profi-Taucheruhren der Jahre zuvor setzte die Marke auf eine leichtere, farbige Gestaltung, die an die Surf- und Strandkultur der 1960er-Jahre erinnert. Die 42-Millimeter-Ausführung mit der Referenz A17375 ist die mittlere Größe der neuen Linie.",
+    "Das Edelstahlgehäuse ist bis 300 Meter wasserdicht und hat eine verschraubte Krone. Die einseitig drehbare Lünette trägt einen Keramikeinsatz mit Taucherskala, großen Ziffern bei 15, 30 und 45 und einem Leuchtpunkt bei 12 Uhr. Auf dem Zifferblatt sitzen breite, abgeschrägte Leuchtindizes; der Schriftzug »SuperOcean« ist geschwungen geschrieben.",
+    "Angetrieben wird die Uhr vom Breitling-Kaliber 17, einem zugekauften Automatikwerk mit 28.800 Halbschwingungen pro Stunde und rund 38 Stunden Gangreserve. Es zeigt Stunden, Minuten, Sekunden und ein Datum bei 3 Uhr.",
+    "Die A17375 macht die Superocean zur zugänglichen Sportuhr der Marke. Mit Zifferblättern in Orange, Gelb, Blau oder Schwarz, an Kautschuk- oder Stahlband, spricht sie Käufer an, die eine Taucheruhr mit Farbe statt einer Werkzeuguhr suchen."
+   ],
+   "vh": [
+    [
+     "Andere Größen",
+     "Die Superocean von 2022 gibt es auch mit 36, 44 und 46 Millimetern; diese Größen tragen eigene Referenzen."
+    ],
+    [
+     "Farben und Bänder",
+     "Die A17375 ist mit blauem, schwarzem, orangem und weiteren Zifferblättern erhältlich, jeweils an Kautschukband oder Stahlgliederband."
+    ]
+   ],
+   "m": [
+    "42 mm, Edelstahl",
+    "Keramiklünette mit großen Ziffern bei 15, 30 und 45",
+    "Breite, abgeschrägte Leuchtindizes",
+    "Geschwungener Schriftzug »SuperOcean«, »300M / 1000FT«",
+    "Datum bei 3 Uhr"
+   ],
+   "ev": [
+    [
+     "1957",
+     "Erste Superocean für Berufstaucher"
+    ],
+    [
+     "2022",
+     "Neue Superocean-Generation, darunter die A17375"
+    ]
+   ],
+   "x": [
+    "Die farbigen Zifferblätter sind der Reiz dieser Generation; das Stahlband steigert den Gebrauchswert.",
+    "Das Kaliber 17 ist ein bewährtes Standardwerk und günstig im Service."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "300 m"
+    ],
+    [
+     "Kaliber",
+     "Breitling 17, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "seamaster-300m",
+     "c": "Omegas Diver 300M ist die etablierte Taucheruhr derselben Preisklasse und ebenfalls bis 300 Meter dicht."
+    },
+    {
+     "m": "aquis",
+     "c": "Die Oris Aquis zeigt in diesen Jahren ebenfalls, wie farbig eine moderne Taucheruhr sein kann."
+    },
+    {
+     "m": "black-bay",
+     "c": "Tudors Black Bay steht für den gleichzeitigen Trend zu Taucheruhren mit Vintage-Anklängen."
+    }
+   ]
   }
  ]
 }
