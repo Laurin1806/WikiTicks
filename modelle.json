@@ -4000,6 +4000,62 @@
      "dial": "Schwarz",
      "iref": "1675",
      "irefs": "hoch"
+    },
+    {
+     "n": "Ref. 16710, schwarze Lünette",
+     "y": "1989–2007",
+     "v": {
+      "img": "assets/watches/rolex-gmt-master-2-16710-black.jpg"
+     },
+     "dial": "Schwarz",
+     "iref": "16710",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex GMT-Master II Referenz 16710 aus Edelstahl mit schwarzer Aluminiumlünette und Jubilee-Band, wie sie von 1989 bis 2007 gebaut wurde.",
+      "Zu erkennen sind die zu Creme gealterte Tritium-Leuchtmasse, die Aufschrift »SWISS – T < 25« am unteren Rand, der rote 24-Stunden-Zeiger mit Dreieckspitze, das Datum mit Zykloplupe und der Schriftzug »GMT-MASTER II«."
+     ]
+    },
+    {
+     "n": "Ref. 16710BLRO »Pepsi«",
+     "y": "1989–2007",
+     "v": {
+      "img": "assets/watches/rolex-gmt-master-2-16710-pepsi.jpg"
+     },
+     "dial": "Schwarz",
+     "iref": "16710BLRO",
+     "irefs": "hoch",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex GMT-Master II Referenz 16710 mit rot-blauer Aluminiumlünette (»Pepsi«) und Oyster-Band.",
+      "Zu erkennen sind die weiße Leuchtmasse einer späten Ausführung, die kleine Krone zwischen »SWISS« und »MADE«, der rote 24-Stunden-Zeiger und das Datum mit Zykloplupe."
+     ]
+    },
+    {
+     "n": "Ref. 16710 »Coke«",
+     "y": "1989–2007",
+     "v": {
+      "img": "assets/watches/rolex-gmt-master-2-16710-coke.jpg"
+     },
+     "dial": "Schwarz",
+     "iref": "16710",
+     "irefs": "mittel",
+     "bd": [
+      "Die Abbildung zeigt eine Rolex GMT-Master II Referenz 16710 mit schwarz-roter Aluminiumlünette, unter Sammlern »Coke«, am Jubilee-Band.",
+      "Zu erkennen sind die gealterte Tritium-Leuchtmasse, »SWISS – T < 25« am unteren Rand, der rote 24-Stunden-Zeiger und das Datum mit Zykloplupe."
+     ]
+    },
+    {
+     "n": "Ref. 6542",
+     "y": "1954–1959",
+     "v": {
+      "img": "assets/watches/rolex-gmt-master-6542.jpg"
+     },
+     "dial": "Schwarz (Gilt)",
+     "iref": "6542",
+     "irefs": "mittel",
+     "bd": [
+      "Die Abbildung zeigt eine frühe Rolex GMT-Master ohne Kronenschutz, wie sie als Referenz 6542 ab 1954 gebaut wurde, mit rot-blauer Lünette und Oyster-Band. Die Lünette ist stark gealtert.",
+      "Zu erkennen sind das glänzende schwarze »Gilt«-Zifferblatt mit goldfarbener Schrift, gealterte Leuchtpunkte, der schmale rote 24-Stunden-Zeiger mit kleiner Pfeilspitze, das Datum mit roter Ziffer unter der Zykloplupe und die Aufschriften »GMT-MASTER« und »OFFICIALLY CERTIFIED CHRONOMETER«."
+     ]
     }
    ],
    "m": [
@@ -31874,7 +31930,11 @@
   "audemars-piguet-royal-oak-5402-blue-2.jpg": "v",
   "rolex-submariner-16610.jpg": "g",
   "rolex-submariner-126610ln-2.jpg": "b",
-  "rolex-submariner-6538-tropical.jpg": "v"
+  "rolex-submariner-6538-tropical.jpg": "v",
+  "rolex-gmt-master-2-16710-black.jpg": "v",
+  "rolex-gmt-master-2-16710-pepsi.jpg": "g",
+  "rolex-gmt-master-2-16710-coke.jpg": "v",
+  "rolex-gmt-master-6542.jpg": "v"
  },
  "imgRes": {
   "a-lange-soehne-datograph-rose-gold.jpg": 365,
@@ -32070,6 +32130,10 @@
   "rolex-gmt-master-1675-pepsi.jpg": 543,
   "rolex-gmt-master-2-126710-batman.jpg": 970,
   "rolex-gmt-master-2-126710-pepsi.jpg": 960,
+  "rolex-gmt-master-2-16710-black.jpg": 768,
+  "rolex-gmt-master-2-16710-coke.jpg": 768,
+  "rolex-gmt-master-2-16710-pepsi.jpg": 768,
+  "rolex-gmt-master-6542.jpg": 768,
   "rolex-land-dweller-127234-blue.jpg": 1032,
   "rolex-land-dweller-127334-white.jpg": 1021,
   "rolex-milgauss-1019-black.jpg": 301,
@@ -33094,6 +33158,22 @@
   "rolex-submariner-6538-tropical.jpg": [
    1.08,
    0.0039
+  ],
+  "rolex-gmt-master-2-16710-black.jpg": [
+   1.044,
+   0.0168
+  ],
+  "rolex-gmt-master-2-16710-pepsi.jpg": [
+   1.034,
+   0.0302
+  ],
+  "rolex-gmt-master-2-16710-coke.jpg": [
+   0.906,
+   -0.0134
+  ],
+  "rolex-gmt-master-6542.jpg": [
+   1.033,
+   0.0143
   ]
  },
  "referenzen": [
