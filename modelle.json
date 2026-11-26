@@ -47160,6 +47160,111 @@
      "c": "Zeniths Defy ist innerhalb desselben Konzerns die technikbetonte Alternative."
     }
    ]
+  },
+  {
+   "id": "br-03-br03a",
+   "model": "br-03",
+   "ref": "BR03A",
+   "alias": [
+    "BR03A-BL-CE/SRB",
+    "BR 03",
+    "BR 03-A"
+   ],
+   "var": null,
+   "t": "Bell & Ross BR 03 Ref. BR03A",
+   "bau": "seit 2023",
+   "cap": "",
+   "s": "Das Cockpitinstrument fürs Handgelenk, nachgeschärft: 2023 gab Bell & Ross der BR 03 ein etwas kleineres Gehäuse, ein besseres Werk und den Namen ohne Zusatz zurück.",
+   "bh": [
+    "Von der BR 03-92 zur BR 03",
+    "Gehäuse und Zifferblatt",
+    "Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die BR 03 ist die kleinere Schwester der BR 01 von 2005. Von 2006 bis 2023 hieß sie BR 03-92 und hatte 42 Millimeter. 2023 überarbeitete Bell & Ross die Linie: Das Gehäuse schrumpfte auf 41 Millimeter, die Uhr heißt seitdem nur noch BR 03. Die abgebildete Ausführung aus schwarzer Keramik trägt die Referenz BR03A-BL-CE/SRB.",
+    "Typisch ist der runde Zifferblattausschnitt im quadratischen Gehäuse mit vier Schrauben in den Ecken, angelehnt an die Instrumente im Cockpit. Große weiße Ziffern bei 12, 3, 6 und 9, breite Indizes und Zeiger mit viel Leuchtmasse sorgen für Ablesbarkeit; das Datum sitzt zwischen 4 und 5 Uhr. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Im Inneren arbeitet eine weiterentwickelte Fassung des Automatikkalibers BR-CAL.302 mit 28.800 Halbschwingungen pro Stunde und rund 54 Stunden Gangreserve – mehr als bei der Vorgängerin.",
+    "Die BR 03 ist das Kernmodell von Bell & Ross und die alltagstaugliche Form des quadratischen Designs. Neben Keramik gibt es Gehäuse aus Edelstahl sowie Chronographen und Sondermodelle mit eigenen Referenzen."
+   ],
+   "vh": [
+    [
+     "Black Ceramic: Ref. BR03A-BL-CE/SRB",
+     "Die abgebildete Ausführung mit mattschwarzem Keramikgehäuse und Kautschukband ist der Klassiker der Linie."
+    ],
+    [
+     "Stahl und andere Zifferblätter",
+     "Die BR 03 gibt es auch in Edelstahl und mit anderen Zifferblattfarben; diese Ausführungen tragen eigene Referenzen."
+    ],
+    [
+     "Vorgängerin: BR 03-92",
+     "Die BR 03-92 mit 42 Millimetern wurde von 2006 bis 2023 gebaut."
+    ]
+   ],
+   "m": [
+    "Quadratisches Gehäuse, 41 mm, vier Schrauben in den Ecken",
+    "Große Ziffern bei 12, 3, 6 und 9",
+    "Datum zwischen 4 und 5 Uhr",
+    "Aufschrift »BR 03-A«"
+   ],
+   "ev": [
+    [
+     "2005",
+     "BR 01 als erstes quadratisches Instrumentenmodell"
+    ],
+    [
+     "2006",
+     "BR 03-92 mit 42 mm"
+    ],
+    [
+     "2023",
+     "Neue BR 03 mit 41 mm und BR-CAL.302"
+    ]
+   ],
+   "x": [
+    "Die BR 03-92 und die BR 03 von 2023 sehen ähnlich aus; Größe, Werk und Beschriftung unterscheiden sie.",
+    "Mattschwarze Keramik ist kratzfest, aber Kanten können bei harten Stößen absplittern."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2023"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, quadratisch, hier schwarze Keramik"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "BR-CAL.302, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "BR 03-92"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "mark-xx",
+     "c": "IWCs Pilot’s Watch Mark XX ist eine sachliche Fliegeruhr aus denselben Jahren."
+    },
+    {
+     "m": "ranger",
+     "c": "Tudors Ranger ist eine weitere sachliche Werkzeuguhr mit großen Ziffern aus diesen Jahren."
+    },
+    {
+     "m": "avenger",
+     "c": "Breitlings Avenger ist eine robuste Fliegeruhr mit großen Ziffern für den Alltag."
+    }
+   ]
   }
  ]
 }
