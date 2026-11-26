@@ -52884,6 +52884,69 @@
      "c": "Cartiers Ballon Bleu mit blauem Cabochon in der Krone ist ebenfalls eine beliebte Damenuhr."
     }
    ]
+  },
+  {
+   "id": "radiomir-pam00753",
+   "model": "radiomir",
+   "ref": "PAM00753",
+   "alias": [
+    "PAM753"
+   ],
+   "var": null,
+   "t": "Panerai Radiomir Ref. PAM00753",
+   "bau": "aktuelle Kollektion",
+   "cap": "",
+   "s": "Eine Radiomir im Stil der Marineuhren der 1930er-Jahre: Kissengehäuse, Drahtbügel und große Leuchtziffern auf dunklem Zifferblatt.",
+   "bh": [
+    "Erbe der Kampftaucheruhr",
+    "Gehäuse und Zifferblatt",
+    "Die heutige Radiomir"
+   ],
+   "b": [
+    "Die Radiomir geht auf die Uhren zurück, die Panerai ab 1936 für die Kampftaucher der italienischen Marine baute. Ihr Name stammt von der radiumhaltigen Leuchtmasse, die Panerai 1916 patentiert hatte.",
+    "Die Referenz PAM00753 nimmt die Form der frühen Marineuhren auf: ein kissenförmiges Edelstahlgehäuse mit angesetzten Drahtbügeln, eine einfache, gerändelte Krone ohne Schutzbügel und ein schwarz bis dunkelbraun wirkendes Zifferblatt mit großen arabischen Ziffern bei 12, 3, 6 und 9, Stabindizes und beigefarbener Leuchtmasse.",
+    "Panerai bietet die Radiomir heute in verschiedenen Größen und Ausführungen an; sie ist die klassischere Schwester der Luminor mit ihrem Kronenschutzbügel."
+   ],
+   "m": [
+    "Kissenförmiges Edelstahlgehäuse",
+    "Angesetzte Drahtbügel",
+    "Große Ziffern 12, 3, 6 und 9 mit beigefarbener Leuchtmasse",
+    "Krone ohne Schutzbügel"
+   ],
+   "ev": [
+    [
+     "1936",
+     "Erste Radiomir für die italienische Marine"
+    ]
+   ],
+   "x": [
+    "Die Drahtbügel sind typisch für die Radiomir; die Luminor erkennt man dagegen am Kronenschutzbügel.",
+    "Panerai-Referenzen beginnen mit »PAM«; die Nummer bezeichnet Gehäuse, Zifferblatt und Band."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "Edelstahl, kissenförmig, Drahtbügel"
+    ],
+    [
+     "Band",
+     "Lederband"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "luminor",
+     "c": "Die Luminor mit Kronenschutzbügel ist die bekanntere Schwester der Radiomir."
+    },
+    {
+     "m": "big-pilot",
+     "c": "IWCs Große Fliegeruhr steht ebenfalls für große, gut ablesbare Werkzeuguhren mit historischem Vorbild."
+    },
+    {
+     "m": "fifty-fathoms",
+     "c": "Blancpains Fifty Fathoms ist eine weitere Taucheruhr mit militärischer Herkunft."
+    }
+   ]
   }
  ]
 }
