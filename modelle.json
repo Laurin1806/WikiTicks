@@ -42539,6 +42539,94 @@
      "c": "Die Tudor Black Bay steht für den Erfolg der Retro-Taucheruhren in denselben Jahren."
     }
    ]
+  },
+  {
+   "id": "fc-slimline-fc-200s5s36",
+   "model": "fc-slimline",
+   "ref": "FC-200S5S36",
+   "var": null,
+   "t": "Frédérique Constant Slimline Ref. FC-200S5S36",
+   "bau": "aktuelle Kollektion",
+   "cap": "",
+   "s": "Nur zwei Zeiger, ein silbernes Zifferblatt und ein flaches Gehäuse: Die FC-200S5S36 zeigt die Slimline in ihrer schlichtesten Form.",
+   "bh": [
+    "Die Dresswatch von Frédérique Constant",
+    "Gehäuse und Zifferblatt",
+    "Was die Referenz verrät",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Slimline ist die klassische Dresswatch von Frédérique Constant, der Marke, die Peter Stas und Aletta Bax-Stas 1988 gründeten. Die Referenz FC-200S5S36 ist eine besonders schlichte Ausführung aus Edelstahl mit silbernem Zifferblatt und schwarzem Lederband.",
+    "Das runde, flache Gehäuse hat eine schmale Lünette, die das Zifferblatt groß wirken lässt. Darauf sitzen schlanke aufgesetzte Stabindizes, ein Doppelindex bei 12 Uhr und zwei schmale Stabzeiger für Stunden und Minuten. Eine Sekundenanzeige oder ein Datum gibt es nicht. Unter 12 Uhr steht »FREDERIQUE CONSTANT GENEVE«, über 6 Uhr der geschwungene Schriftzug »Slimline«.",
+    "Bei Frédérique Constant beginnt die Referenz mit der Bezeichnung des Kalibers, hier FC-200. Die übrigen Zeichen beschreiben Zifferblatt und Gehäuse.",
+    "Die Slimline steht für schlichte, preiswerte Eleganz. Die Ausführung ohne Sekunde und Datum ist ihr puristischstes Gesicht und eignet sich vor allem als Uhr zum Anzug."
+   ],
+   "vh": [
+    [
+     "Slimline Moonphase Manufacture",
+     "Die Slimline mit Mondphase und dem Manufakturkaliber FC-705 gehört zu den bekanntesten Uhren der Marke."
+    ],
+    [
+     "Slimline Perpetual Calendar Manufacture",
+     "Mit dem Manufakturkaliber FC-775 bot Frédérique Constant einen ewigen Kalender zu einem für diese Komplikation ungewöhnlich niedrigen Preis an."
+    ]
+   ],
+   "m": [
+    "Flaches, rundes Edelstahlgehäuse mit schmaler Lünette",
+    "Silbernes Zifferblatt mit schlanken Stabindizes",
+    "Nur Stunden- und Minutenzeiger",
+    "Schriftzug »Slimline« über 6 Uhr"
+   ],
+   "ev": [
+    [
+     "1988",
+     "Gründung von Frédérique Constant"
+    ],
+    [
+     "2004",
+     "Erstes Manufakturwerk"
+    ],
+    [
+     "2016",
+     "Citizen übernimmt die Marke"
+    ]
+   ],
+   "x": [
+    "Die Kaliberbezeichnung am Anfang der Referenz zeigt, welches Werk in der Uhr steckt – vor dem Kauf vergleichen.",
+    "Ein gepflegtes Lederband ist bei dieser Uhr Teil des Gesamtbilds; ein Ersatzband ist leicht zu bekommen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "aktuelle Kollektion"
+    ],
+    [
+     "Gehäuse",
+     "Edelstahl, flach"
+    ],
+    [
+     "Kaliber",
+     "FC-200"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "junghans-meister",
+     "c": "Die Junghans Meister ist eine ähnlich schlichte, erschwingliche Dresswatch."
+    },
+    {
+     "m": "master-collection",
+     "c": "Die Longines Master Collection ist die klassische Anzuguhr derselben Zeit."
+    },
+    {
+     "m": "tangente",
+     "c": "Die Nomos Tangente steht für reduzierte Eleganz aus Glashütte."
+    }
+   ]
   }
  ]
 }
