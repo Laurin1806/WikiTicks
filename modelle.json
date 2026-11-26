@@ -48337,6 +48337,91 @@
      "c": "Die Speedmaster ist der andere Chronograph mit großer Geschichte, der in diesen Jahren gründlich modernisiert wurde."
     }
    ]
+  },
+  {
+   "id": "mp-05-laferrari-905",
+   "model": "mp-05-laferrari",
+   "ref": "905.ND.0001.RX",
+   "alias": [
+    "905.ND.0001.RX",
+    "MP-05 LaFerrari"
+   ],
+   "var": null,
+   "t": "Hublot MP-05 LaFerrari Ref. 905.ND.0001.RX",
+   "bau": "2013",
+   "cap": "",
+   "s": "Elf Federhäuser in einer Reihe, ein senkrecht stehendes Tourbillon und 50 Tage Gangreserve: Die MP-05 LaFerrari ist weniger Uhr als Motor – gebaut in 50 Exemplaren, geformt nach Ferraris Supersportwagen.",
+   "bh": [
+    "Ein Technikprojekt mit Ferrari",
+    "Das Kaliber HUB9005",
+    "Gehäuse und Bedienung",
+    "Sammlerstück"
+   ],
+   "b": [
+    "Hublot und Ferrari arbeiteten seit 2011 zusammen. 2013, im Jahr des Hybrid-Supersportwagens LaFerrari, stellte Hublot die MP-05 LaFerrari vor, deren Form an Karosserie und Motor des Autos erinnert. Die Uhr wurde in 50 nummerierten Exemplaren gebaut.",
+    "Das Handaufzugskaliber HUB9005 besteht aus 637 Teilen. Elf Federhäuser liegen hintereinander in einer Achse in der Mitte des Werks und liefern Energie für rund 50 Tage – nach Angaben von Hublot ein Rekord für eine Armbanduhr mit Handaufzug und Tourbillon. Das Tourbillon steht senkrecht im Werk. Die Zeit wird auf Walzen an der Seite der Federhausreihe abgelesen, die Gangreserve auf einer weiteren Walze.",
+    "Das Gehäuse aus schwarz beschichtetem Titan ist mit Saphirglas verkleidet, sodass die Mechanik von oben und von der Seite sichtbar ist. Wegen der enormen Federkraft wird die Uhr nicht über eine normale Krone aufgezogen, sondern mit einem Werkzeug; die Zeit stellt man über den Gehäuseboden ein.",
+    "Die MP-05 LaFerrari ist ein Schaustück der Uhrmacherei, keine Alltagsuhr. Sie zeigt, wie Hublot seine Rolle als Technik- und Materialmarke verstand, und ist nur noch auf dem Zweitmarkt oder bei Auktionen zu finden."
+   ],
+   "vh": [
+    [
+     "MP-05 LaFerrari Sapphire",
+     "Später baute Hublot die MP-05 LaFerrari auch mit einem Gehäuse ganz aus Saphir, ebenfalls in sehr kleiner Stückzahl."
+    ]
+   ],
+   "m": [
+    "Gehäuse in Form eines Motors, schwarzes Titan und Saphir",
+    "Elf Federhäuser in einer Reihe",
+    "Senkrechtes Tourbillon",
+    "Zeitanzeige auf Walzen",
+    "50 nummerierte Exemplare"
+   ],
+   "ev": [
+    [
+     "2013",
+     "Vorstellung der MP-05 LaFerrari in 50 Exemplaren"
+    ]
+   ],
+   "x": [
+    "Bei so kleinen Stückzahlen zählen Herkunft, Papiere und das mitgelieferte Aufzugswerkzeug.",
+    "Service ist nur bei Hublot selbst möglich und entsprechend aufwendig."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "2013"
+    ],
+    [
+     "Gehäuse",
+     "Titan, schwarz beschichtet, mit Saphirglas"
+    ],
+    [
+     "Kaliber",
+     "HUB9005, Handaufzug, Tourbillon"
+    ],
+    [
+     "Gangreserve",
+     "rund 50 Tage"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Gangreserveanzeige, Tourbillon"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "freak",
+     "c": "Ulysse Nardins Freak ist ebenfalls eine Uhr, die als technisches Experiment Grenzen der Uhrmacherei verschiebt."
+    },
+    {
+     "m": "royal-oak-concept",
+     "c": "Audemars Piguets Royal Oak Concept steht für dieselbe Lust an Hightech-Gehäusen und Tourbillons."
+    },
+    {
+     "m": "zeitwerk",
+     "c": "Das Zeitwerk zeigt zur gleichen Zeit, wie ungewöhnlich eine mechanische Zeitanzeige sein kann."
+    }
+   ]
   }
  ]
 }
