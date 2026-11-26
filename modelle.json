@@ -38699,6 +38699,93 @@
      "c": "Chopards Alpine Eagle von 2019 zielt auf dieselben Käufer einer eleganten Stahluhr für jeden Tag."
     }
    ]
+  },
+  {
+   "id": "de-ville-tresor-435",
+   "model": "de-ville-tresor",
+   "ref": "435.13.40.21.02.001",
+   "alias": [
+    "435.13.40.21",
+    "435.13.40.21.02.001",
+    "Trésor Master Chronometer"
+   ],
+   "var": null,
+   "t": "Omega De Ville Trésor Ref. 435.13.40.21.02.001",
+   "bau": "seit 2017",
+   "cap": "",
+   "s": "Omegas leiseste Uhr: ein flaches Stahlgehäuse, ein gewölbtes Zifferblatt ohne Sekunde und Datum – und dahinter ein Master-Chronometer-Werk mit Handaufzug.",
+   "bh": [
+    "Eine Dresswatch mit Master Chronometer",
+    "Gehäuse und Zifferblatt",
+    "Handaufzug",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "Mit der Trésor bietet Omega in der De-Ville-Familie eine klassische Anzuguhr an. Die Referenz 435.13.40.21 gehört zur Generation mit Master-Chronometer-Werk, die 2017 auf die erste Trésor-Generation folgte. Sie übertrug die Technik der Sportmodelle in eine bewusst zurückhaltende Uhr.",
+    "Das polierte Stahlgehäuse misst 40 Millimeter, ist flach und hat eine schmale Lünette. Das leicht gewölbte Zifferblatt ist cremefarben, mit feinen aufgesetzten Stabindizes und schlanken Zeigern für Stunden und Minuten. Über der 6 stehen »De Ville« und »Trésor«; einen Sekundenzeiger und ein Datum gibt es nicht.",
+    "Die Trésor wird von Hand aufgezogen. Das Werk mit Co-Axial-Hemmung bietet rund 72 Stunden Gangreserve, also drei Tage, und ist als Master Chronometer vom Institut METAS geprüft. Der Verzicht auf einen Automatikrotor trägt zur schlanken Bauweise bei.",
+    "Die Trésor zeigt, dass Omega nicht nur Sport- und Taucheruhren baut. Unter den Master-Chronometer-Modellen der Marke ist sie die puristischste und eine Alternative zu den klassischen Dresswatches anderer Häuser."
+   ],
+   "vh": [
+    [
+     "Zifferblätter und Gold",
+     "Neben Cremeweiß gibt es die Trésor mit silbernem, blauem oder schwarzem Zifferblatt sowie in Gold."
+    ]
+   ],
+   "m": [
+    "40 mm, flaches, poliertes Gehäuse",
+    "Leicht gewölbtes Zifferblatt ohne Sekunde und Datum",
+    "Feine aufgesetzte Stabindizes",
+    "Schriftzug »De Ville Trésor« über der 6",
+    "Lederband"
+   ],
+   "ev": [
+    [
+     "2017",
+     "Trésor mit Master-Chronometer-Werk und Handaufzug"
+    ]
+   ],
+   "x": [
+    "Die Uhr muss von Hand aufgezogen werden; dank rund 72 Stunden Gangreserve reicht das alle paar Tage.",
+    "Ohne Sekundenzeiger und Datum ist die Trésor eine reine Zeitanzeige – ideal für Liebhaber schlichter Uhren.",
+    "Das polierte Gehäuse zeigt Kratzer schneller als satinierte Sportuhren."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2017"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Kaliber",
+     "8910 / 8926, Handaufzug, Co-Axial, Master Chronometer"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten"
+    ],
+    [
+     "Vorgänger",
+     "Erste De Ville Trésor (2000er-Jahre)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "patrimony",
+     "c": "Vacheron Constantins Patrimony ist eine ebenso puristische, flache Dresswatch."
+    },
+    {
+     "m": "calatrava",
+     "c": "Die Patek Philippe Calatrava gilt als Inbegriff der klassischen Anzuguhr."
+    },
+    {
+     "m": "saxonia",
+     "c": "Die A. Lange & Söhne Saxonia steht für schlichte Eleganz mit hochwertigem Werk."
+    }
+   ]
   }
  ]
 }
