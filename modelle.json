@@ -47072,6 +47072,94 @@
      "c": "Die Bell & Ross BR 03 ist eine weitere robuste Fliegeruhr mit großen Ziffern."
     }
    ]
+  },
+  {
+   "id": "big-bang-unico-441",
+   "model": "big-bang",
+   "ref": "441",
+   "alias": [
+    "441.NM.1171.RX"
+   ],
+   "var": null,
+   "t": "Hublot Big Bang Ref. 441",
+   "bau": "seit den 2010er-Jahren",
+   "cap": "",
+   "s": "Schichtbau, sechs H-Schrauben, ein Werk zum Hineinschauen: Die Big Bang Unico mit 42 Millimetern, Referenzfamilie 441, bringt das Konzept »Art of Fusion« in ein tragbareres Format.",
+   "bh": [
+    "Die kleinere Unico",
+    "Gehäuse aus Schichten",
+    "Das Unico-Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die Big Bang erschien 2005 mit 44,5 Millimetern, seit 2010 mit dem eigenen Chronographenwerk Unico. Die Ausführungen mit 42 Millimetern tragen Referenzen, die mit 441 beginnen; die folgenden Buchstaben bezeichnen das Material, die Ziffern Zifferblatt und Band.",
+    "Das Gehäuse besteht aus mehreren Schichten, hier aus satiniertem Metall mit schwarzer Lünette und schwarzen Zwischenlagen. Sechs H-förmige Schrauben halten die Lünette, die Krone wird von kantigen Drückern flankiert. Getragen wird die Uhr an einem schwarzen Kautschukband.",
+    "Das Unico ist ein Automatik-Chronograph mit Schaltrad und Flyback-Funktion; das Schaltrad liegt auf der Zifferblattseite und ist durch das teilweise skelettierte Zifferblatt zu sehen. Die Hilfszifferblätter bei 3 und 9 Uhr zeigen gestoppte Minuten und laufende Sekunde, das Datum sitzt zwischen 4 und 5 Uhr. Die Gangreserve liegt bei rund 72 Stunden, die Uhr ist bis 100 Meter wasserdicht.",
+    "Die 42-Millimeter-Unico ist die alltagstauglichere Form der Big Bang. Hublot nutzt sie als Plattform für zahllose Material- und Farbvarianten, von Titan und Keramik bis zu King Gold und farbigem Saphir."
+   ],
+   "vh": [
+    [
+     "Materialien",
+     "Die 441-Familie gibt es in Titan, Keramik, King Gold und Kombinationen daraus; die beiden Buchstaben nach der 441 bezeichnen das Gehäusematerial."
+    ],
+    [
+     "Big Bang Unico 44 mm",
+     "Die größere Unico mit 44 bzw. 45 Millimetern trägt eigene Referenzen."
+    ]
+   ],
+   "m": [
+    "42 mm, Gehäuse in Schichtbauweise",
+    "Sechs H-förmige Schrauben auf der Lünette",
+    "Teilweise skelettiertes Zifferblatt mit sichtbarem Schaltrad",
+    "Zähler bei 3 und 9 Uhr, Datum zwischen 4 und 5 Uhr",
+    "Kautschukband"
+   ],
+   "ev": [
+    [
+     "2005",
+     "Erste Big Bang"
+    ],
+    [
+     "2010",
+     "Eigenes Chronographenwerk Unico"
+    ]
+   ],
+   "x": [
+    "Die Buchstaben hinter der 441 verraten das Material; beim Kauf mit der Gehäusegravur abgleichen.",
+    "Kautschukbänder von Hublot sind teure Verschleißteile."
+   ],
+   "f": [
+    [
+     "Gehäuse",
+     "42 mm, Schichtbauweise"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "HUB1280 Unico, Automatik-Chronograph"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph mit Flyback, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "royal-oak-offshore",
+     "c": "Die Offshore ist der große, sportliche Chronograph, an dem sich die Big Bang messen lassen muss."
+    },
+    {
+     "m": "luminor",
+     "c": "Panerais Luminor steht ebenfalls für große, markante Uhren mit eigenem Gesicht."
+    },
+    {
+     "m": "defy",
+     "c": "Zeniths Defy ist innerhalb desselben Konzerns die technikbetonte Alternative."
+    }
+   ]
   }
  ]
 }
