@@ -47637,6 +47637,99 @@
      "c": "Tudors Ranger ist eine weitere sachliche Alltagsuhr aus diesen Jahren."
     }
    ]
+  },
+  {
+   "id": "defy-skyline-9300",
+   "model": "defy",
+   "ref": "03.9300.3620",
+   "alias": [
+    "03.9300.3620/51.I001",
+    "03.9300.3620",
+    "Defy Skyline"
+   ],
+   "var": null,
+   "t": "Zenith Defy Ref. 03.9300.3620",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Achteck, Sternenhimmel, Zehntelsekunde: Die Defy Skyline von 2022 übersetzt den »Tresor« von 1969 in eine elegante Sportuhr mit integriertem Band.",
+   "bh": [
+    "Rückgriff auf 1969",
+    "Gehäuse und Zifferblatt",
+    "Das Werk",
+    "Einordnung"
+   ],
+   "b": [
+    "Die erste Defy von 1969 hatte ein achteckiges Gehäuse mit vierzehnseitiger Lünette und galt als besonders robust. 2022 griff Zenith diese Form mit der Defy Skyline wieder auf; die 41-Millimeter-Ausführung in Edelstahl trägt die Grundreferenz 03.9300.3620.",
+    "Das Gehäuse ist achteckig, die Lünette facettiert, das Band in das Gehäuse integriert. Das Zifferblatt trägt ein Muster aus vierzackigen Sternen, die an das Zenith-Logo erinnern. Die Uhr ist bis 100 Meter wasserdicht und wird mit einem Schnellwechselsystem für Stahl- und Kautschukband geliefert.",
+    "Im Inneren arbeitet das El Primero 3620, ein Automatikwerk mit 36.000 Halbschwingungen pro Stunde und rund 60 Stunden Gangreserve. Ungewöhnlich ist das Hilfszifferblatt bei 9 Uhr: Sein Zeiger dreht sich alle zehn Sekunden einmal und zeigt so die Zehntelsekunde der hohen Frequenz. Das Datum sitzt bei 3 Uhr.",
+    "Die Defy Skyline ist Zeniths Antwort auf die Nachfrage nach Stahluhren mit integriertem Band. Rund um sie entstanden weitere Ausführungen, darunter kleinere Größen, Skelett- und Chronographenmodelle mit eigenen Referenzen."
+   ],
+   "vh": [
+    [
+     "Zifferblattfarben",
+     "Die Defy Skyline 41 gibt es mit blauem, schwarzem und silbernem Zifferblatt, jeweils mit Sternenmuster."
+    ],
+    [
+     "Weitere Skyline-Modelle",
+     "Später kamen eine kleinere Skyline, eine Skelettversion und ein Chronograph hinzu, die eigene Referenzen tragen."
+    ]
+   ],
+   "m": [
+    "Achteckiges Gehäuse, 41 mm, facettierte Lünette",
+    "Zifferblatt mit Sternenmuster",
+    "Hilfszifferblatt bei 9 Uhr für die Zehntelsekunde",
+    "Integriertes Band mit Schnellwechsel"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Erste Defy »Coffre-fort«"
+    ],
+    [
+     "2022",
+     "Vorstellung der Defy Skyline"
+    ]
+   ],
+   "x": [
+    "Auf Vollständigkeit achten: Zur Lieferung gehören Stahlband und Kautschukband.",
+    "Die hohe Frequenz des El Primero bringt einen besonders ruhigen Sekundenlauf."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl, achteckig"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "El Primero 3620, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Zehntelsekunden-Anzeige, Datum"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle ist eine weitere Stahluhr mit integriertem Band aus denselben Jahren."
+    },
+    {
+     "m": "laureato",
+     "c": "Die Girard-Perregaux Laureato hat wie die Defy eine achteckige Lünette und ein integriertes Band."
+    },
+    {
+     "m": "overseas",
+     "c": "Vacheron Constantins Overseas bietet ebenfalls Schnellwechselbänder an einer integrierten Sportuhr."
+    }
+   ]
   }
  ]
 }
