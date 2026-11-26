@@ -52652,6 +52652,107 @@
      "c": "Breitlings Navitimer blieb die andere klassische Pilotenuhr."
     }
    ]
+  },
+  {
+   "id": "gmt-master-16760",
+   "model": "gmt-master",
+   "ref": "16760",
+   "alias": [],
+   "var": 4,
+   "t": "Rolex GMT-Master II Ref. 16760",
+   "bau": "1983–1988",
+   "cap": "»Fat Lady«",
+   "s": "Die erste GMT-Master II: unabhängig verstellbarer Stundenzeiger, schwarz-rote »Coke«-Lünette und ein dickeres Gehäuse, das ihr den Spitznamen »Fat Lady« eintrug.",
+   "bh": [
+    "Die GMT-Master wird zur GMT-Master II",
+    "Das dickere Gehäuse",
+    "Die »Coke«-Lünette",
+    "Abgelöst von der 16710"
+   ],
+   "b": [
+    "1983 stellte Rolex mit der Referenz 16760 die erste GMT-Master II vor. Ihr großer Unterschied zur gleichzeitig gebauten GMT-Master 16750: Der normale Stundenzeiger lässt sich unabhängig vom 24-Stunden-Zeiger in Stundenschritten verstellen. Reisende stellen so die Ortszeit ein, ohne die Uhr anzuhalten, während der 24-Stunden-Zeiger die Heimatzeit zeigt; mit der drehbaren Lünette lässt sich zusätzlich eine dritte Zeitzone ablesen.",
+    "Für diese Funktion entwickelte Rolex das Kaliber 3085, das mehr Bauhöhe brauchte als das Werk der 16750. Das Gehäuse fiel deshalb sichtbar dicker aus, besonders im Mittelteil – Sammler nennen die 16760 seitdem »Fat Lady«. Über dem Zifferblatt sitzt Saphirglas mit Zykloplupe, die Uhr ist bis 100 Meter wasserdicht.",
+    "Die 16760 gab es nur mit einer Lünette: schwarz-rot, unter Sammlern »Coke«. Diese Farbkombination wurde zum Erkennungszeichen der ersten GMT-Master II. Die Zifferblätter sind glänzend mit Indizes in Weißgoldfassungen, die Tritium-Leuchtmasse ist bei vielen Exemplaren cremefarben gealtert.",
+    "Schon 1988 folgte die schlankere 16710 mit dem Kaliber 3185, die neben »Coke« auch »Pepsi« und Schwarz anbot. Die 16760 blieb damit nur fünf Jahre im Programm und ist heute eine gesuchte Übergangsreferenz."
+   ],
+   "vh": [
+    [
+     "»Coke«-Lünette",
+     "Die einzige ab Werk gelieferte Lünette der 16760, schwarz-rot."
+    ],
+    [
+     "Daneben: GMT-Master Ref. 16750",
+     "Die gleichzeitig gebaute einfache GMT-Master mit gekoppeltem 24-Stunden-Zeiger und flacherem Gehäuse."
+    ],
+    [
+     "Nachfolgerin: Ref. 16710",
+     "Schlanker, mit Kaliber 3185 und drei Lünetten zur Wahl."
+    ]
+   ],
+   "m": [
+    "40 mm, sichtbar dickeres Gehäuse (»Fat Lady«)",
+    "Schwarz-rote »Coke«-Lünette",
+    "Schriftzug »GMT-MASTER II«",
+    "Unabhängig verstellbarer Stundenzeiger"
+   ],
+   "ev": [
+    [
+     "1983",
+     "Vorstellung der ersten GMT-Master II"
+    ],
+    [
+     "1988",
+     "Ablösung durch die 16710"
+    ]
+   ],
+   "x": [
+    "Die Fat Lady erkennt man am besten seitlich: Das Gehäuse ist höher als bei der 16710.",
+    "Originale Coke-Einlagen verblassen; eine zum Zifferblatt passend gealterte Lünette spricht für Originalität."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1983–1988"
+    ],
+    [
+     "Gehäuse",
+     "40 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "3085, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone (24 h)"
+    ],
+    [
+     "Lünette",
+     "beidseitig drehbar, Aluminium, »Coke«"
+    ],
+    [
+     "Nachfolgerin",
+     "16710"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "explorer-2",
+     "c": "Der Explorer II 16550 bekam 1985 dieselbe unabhängige Stundenverstellung."
+    },
+    {
+     "m": "submariner",
+     "c": "Die Submariner 16800 war in denselben Jahren die Schwester mit Taucherlünette."
+    },
+    {
+     "m": "navitimer",
+     "c": "Breitlings Navitimer blieb die andere große Pilotenuhr dieser Zeit."
+    }
+   ]
   }
  ]
 }
