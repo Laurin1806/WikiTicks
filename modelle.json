@@ -38019,6 +38019,105 @@
      "c": "Jaeger-LeCoultres Duomètre gehört zu den aufwendigen Uhren dieser Jahre, die ihr Werk gestalterisch betonen."
     }
    ]
+  },
+  {
+   "id": "royal-oak-15510st",
+   "model": "royal-oak",
+   "ref": "15510ST",
+   "alias": [
+    "15510ST.OO.1320ST",
+    "15510",
+    "15510 ST"
+   ],
+   "var": null,
+   "t": "Audemars Piguet Royal Oak Ref. 15510ST",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Die Royal Oak für jeden Tag: 41 Millimeter, Grande Tapisserie und ein Werk mit rund drei Tagen Gangreserve – zum 50. Geburtstag der Linie feingeschliffen und seither die meistgesehene Royal Oak im Katalog.",
+   "bh": [
+    "Zum Jubiläum erneuert",
+    "Gehäuse und Werk",
+    "Was sich gegenüber der 15500ST geändert hat",
+    "Die Selfwinding neben der »Jumbo«"
+   ],
+   "b": [
+    "2022 feierte Audemars Piguet 50 Jahre Royal Oak und ordnete die Linie neu. Neben der extraflachen »Jumbo« 16202ST mit 39 Millimetern steht seitdem die Royal Oak Selfwinding 15510ST mit 41 Millimetern. Sie löste die 15500ST ab, die erst 2019 erschienen war, und übernahm deren Grundkonstruktion fast unverändert.",
+    "Das Stahlgehäuse trägt die bekannte achteckige Lünette mit acht sechseckigen Schrauben, geht nahtlos in das integrierte Gliederband über und hat einen Saphirglasboden. Im Inneren arbeitet das hauseigene Automatikkaliber 4302 mit Zentralsekunde und Datum bei 3 Uhr und einer Gangreserve von rund 70 Stunden. Die Uhr ist bis 50 Meter wasserdicht.",
+    "Die Unterschiede zur Vorgängerin liegen in den Details: Bei 12 Uhr sitzt ein aufgesetztes AP-Monogramm, die Proportionen von Zifferblatt und Indizes wurden leicht angepasst, und die Uhren aus dem Jubiläumsjahr 2022 trugen einen eigens gestalteten Rotor mit dem Schriftzug zum 50. Geburtstag. Das Zifferblatt zeigt weiterhin das »Grande Tapisserie«-Muster aus kleinen Quadraten.",
+    "Während die 16202ST als direkte Nachfahrin der 5402ST für Puristen gedacht ist, ist die 15510ST die sportlichere, alltagstauglichere Royal Oak: etwas größer, mit Sekundenzeiger und robusterem Werk. Wie bei den meisten Stahl-Royal-Oaks ist die Nachfrage deutlich größer als das Angebot."
+   ],
+   "vh": [
+    [
+     "Weitere Zifferblattfarben",
+     "Neben dem klassischen Blau gibt es die 15510ST mit anderen Zifferblattfarben, darunter Schwarz und Grau."
+    ],
+    [
+     "Vorgängerin: Ref. 15500ST",
+     "Die 15500ST (2019–2022) führte das Kaliber 4302 und die 41 Millimeter in heutiger Form ein; sie unterscheidet sich vor allem in Zifferblattdetails."
+    ]
+   ],
+   "m": [
+    "41 mm, Edelstahl, achteckige Lünette mit acht Sechskantschrauben",
+    "Zifferblatt mit »Grande Tapisserie«",
+    "Aufgesetztes AP-Monogramm bei 12 Uhr",
+    "Zentralsekunde und Datum bei 3 Uhr",
+    "Saphirglasboden"
+   ],
+   "ev": [
+    [
+     "2019",
+     "Vorgängerin 15500ST mit Kaliber 4302"
+    ],
+    [
+     "2022",
+     "Vorstellung der 15510ST zum 50. Jubiläum der Royal Oak"
+    ]
+   ],
+   "x": [
+    "Exemplare aus dem Jubiläumsjahr 2022 erkennt man am Sonderrotor zum 50. Geburtstag; manche Sammler bevorzugen sie deshalb.",
+    "Die 15500ST ist technisch nahezu gleich und gebraucht eine naheliegende Alternative.",
+    "Auf scharfe, nicht verrundete Kanten an Gehäuse und Band achten – zu starkes Nachpolieren mindert den Wert."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "41 mm, Edelstahl, Saphirglasboden"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "4302, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum"
+    ],
+    [
+     "Vorgänger",
+     "15500ST"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "nautilus",
+     "c": "Patek Philippe stellte 2022 mit der Nautilus 5811 ebenfalls eine neue Generation der großen Luxus-Sportuhr vor."
+    },
+    {
+     "m": "overseas",
+     "c": "Die Overseas von Vacheron Constantin ist die dritte große Luxus-Sportuhr mit integriertem Band aus Genfer Tradition."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle zeigt, wie viele Marken in diesen Jahren dem Erfolg der Royal Oak mit eigenen Stahluhren nachgingen."
+    }
+   ]
   }
  ]
 }
