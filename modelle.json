@@ -3916,7 +3916,7 @@
      "Pepsi, Coke und Schwarz"
     ],
     [
-     "116710LN",
+     "116710",
      "2007–2019",
      "40 mm",
      "3186",
@@ -34333,7 +34333,7 @@
     ],
     [
      "Vorgänger",
-     "116710LN / 116710BLNR"
+     "116710"
     ]
    ],
    "zeit": [
@@ -52460,7 +52460,7 @@
     ],
     [
      "Vorgänger / Nachfolger",
-     "16760 / 116710LN"
+     "16760 / 116710"
     ]
    ],
    "zeit": [
@@ -53151,16 +53151,16 @@
   {
    "id": "gmt-master-116710",
    "model": "gmt-master",
-   "ref": "116710LN",
+   "ref": "116710",
    "alias": [
-    "116710",
+    "116710LN",
     "116710BLNR",
     "116713LN",
     "116718LN",
     "116719BLRO"
    ],
    "var": 8,
-   "t": "Rolex GMT-Master II Ref. 116710LN",
+   "t": "Rolex GMT-Master II Ref. 116710",
    "bau": "2007–2019",
    "cap": "",
    "s": "Mit der 116710LN bekam die GMT-Master II in Stahl ihre Keramiklünette – und 2013 mit der »Batman« die erste zweifarbige Lünette aus Keramik.",
