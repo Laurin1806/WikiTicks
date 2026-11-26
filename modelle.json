@@ -51226,6 +51226,104 @@
      "c": "Die Ulysse Nardin Freak macht wie die Skelett-Santos das Werk selbst zur Anzeige."
     }
    ]
+  },
+  {
+   "id": "santos-wssa0018",
+   "model": "santos",
+   "ref": "WSSA0018",
+   "alias": [
+    "WSSA0018",
+    "WSSA0030",
+    "WSSA0018 u. a."
+   ],
+   "var": null,
+   "t": "Cartier Santos de Cartier Ref. WSSA0018",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Ein quadratisches Stahlgehäuse mit acht Schrauben, ein Manufakturwerk und ein Band, das sich ohne Werkzeug wechseln lässt: Mit der Neuauflage von 2018 kehrte die Santos de Cartier ins Zentrum der Marke zurück.",
+   "bh": [
+    "Neustart nach der Santos 100",
+    "Gehäuse und Werk",
+    "QuickSwitch und SmartLink",
+    "Grundform der heutigen Santos"
+   ],
+   "b": [
+    "2018 stellte Cartier die Santos de Cartier grundlegend neu vor und löste damit die Santos 100 ab. Die Referenz WSSA0018 ist die große Ausführung aus Edelstahl mit silbrig-weißem Zifferblatt und Stahlband. Das Design knüpft an die Santos de Cartier von 1978 an: quadratisches Gehäuse mit gerundeten Ecken, eine Lünette mit acht sichtbaren Schrauben und Schrauben auch auf den Bandgliedern.",
+    "Das Gehäuse misst rund 39,8 × 47,5 Millimeter. Die Bandanstöße sind gestreckt und gehen fließend ins Band über, sodass die Uhr schlanker wirkt als die kantige Santos 100. Im Inneren arbeitet das Manufakturkaliber 1847 MC mit automatischem Aufzug, 28.800 Halbschwingungen pro Stunde und rund 42 Stunden Gangreserve. Die Uhr ist bis 100 Meter wasserdicht.",
+    "Neu war das Bandsystem: Mit QuickSwitch lässt sich das Stahlband per Druck auf einen Knopf ohne Werkzeug gegen ein Lederband tauschen, mit SmartLink kann der Träger die Bandlänge selbst anpassen, ebenfalls ohne Werkzeug. Das machte die Santos alltagstauglicher; 2020 übernahm Cartier das System auch für die neue Pasha.",
+    "Die WSSA0018 ist die Grundform der heutigen Santos-Familie. Auf ihrem Gehäuse bauen Ausführungen mit anderen Zifferblattfarben, in Gold und in Stahl mit Gold sowie Dual-Time-, Skelett- und Chronographenversionen auf. Neben der eleganten Tank und der flachen Santos-Dumont ist sie das sportliche Herrenmodell von Cartier."
+   ],
+   "vh": [
+    [
+     "Blaues Zifferblatt: Ref. WSSA0030",
+     "Die Stahlausführung mit blauem Zifferblatt hat dasselbe große Gehäuse, dasselbe Werk und dasselbe Band."
+    ],
+    [
+     "Mittlere Größe",
+     "Neben der großen Ausführung gibt es die Santos de Cartier seit 2018 in einer mittleren Größe, ebenfalls mit Automatikwerk."
+    ],
+    [
+     "Gold und Bicolor",
+     "Wie bei der Santos von 1978 gibt es die Neuauflage auch in Stahl mit Gold und ganz in 18-karätigem Gelb- oder Roségold."
+    ]
+   ],
+   "m": [
+    "Quadratisches Gehäuse mit acht Schrauben auf der Lünette",
+    "Schrauben auch auf den Bandgliedern",
+    "Römische Ziffern und »Chemin de fer«-Minuterie",
+    "Facettierte Krone mit blauem Cabochon",
+    "Gestreckte Bandanstöße, QuickSwitch-Band"
+   ],
+   "ev": [
+    [
+     "1978",
+     "Santos de Cartier aus Stahl und Gold als Vorbild"
+    ],
+    [
+     "2018",
+     "Neuauflage mit Ref. WSSA0018, Kaliber 1847 MC und QuickSwitch"
+    ]
+   ],
+   "x": [
+    "Viele Uhren wurden mit einem zusätzlichen Lederband ausgeliefert; bei gebrauchten Exemplaren lohnt die Frage, ob es noch dabei ist.",
+    "Die Schrauben auf Lünette und Band zeigen Kratzer und Polierspuren schnell; ein gleichmäßiges Bild spricht für sorgfältige Pflege."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "39,8 × 47,5 mm, Edelstahl"
+    ],
+    [
+     "Wasserdicht",
+     "100 m"
+    ],
+    [
+     "Kaliber",
+     "1847 MC, Automatik"
+    ],
+    [
+     "Vorgänger",
+     "Santos 100"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "overseas",
+     "c": "Die dritte Generation der Overseas brachte 2016 ebenfalls ein Bandwechselsystem ohne Werkzeug an eine Luxus-Sportuhr aus Stahl."
+    },
+    {
+     "m": "alpine-eagle",
+     "c": "Chopards Alpine Eagle von 2019 steht wie die neue Santos für die Stahl-Sportuhr mit Schmuck-Anspruch."
+    },
+    {
+     "m": "polaris",
+     "c": "Jaeger-LeCoultre machte die Polaris 2018 zur eigenen Sportlinie – im selben Jahr, in dem Cartier die Santos erneuerte."
+    }
+   ]
   }
  ]
 }
