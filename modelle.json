@@ -39659,6 +39659,112 @@
      "c": "Die Royal Oak Offshore gab es in den 2010er-Jahren in schwarzer Keramik – ein großer, dunkler Sportchronograph wie die Dark Side."
     }
    ]
+  },
+  {
+   "id": "speedmaster-moonwatch-310",
+   "model": "speedmaster",
+   "ref": "310.30.42.50.01.001",
+   "alias": [
+    "310.30.42.50",
+    "310.30.42.50.01",
+    "310.30.42.50.01.002",
+    "310.32.42.50.01.001",
+    "310.32.42.50.01.002",
+    "Moonwatch 3861"
+   ],
+   "var": null,
+   "t": "Omega Speedmaster Professional Ref. 310.30.42.50.01.001",
+   "bau": "seit 2021",
+   "cap": "",
+   "s": "Die Moonwatch im 21. Jahrhundert: äußerlich so nah an der Apollo-Uhr wie seit Jahrzehnten nicht mehr, im Inneren erstmals mit Co-Axial-Hemmung und Master-Chronometer-Zertifikat.",
+   "bh": [
+    "Die größte Überarbeitung seit Jahrzehnten",
+    "Gehäuse, Zifferblatt und Band",
+    "Das Kaliber 3861",
+    "Hesalit oder Saphir"
+   ],
+   "b": [
+    "Anfang 2021 stellte Omega die neue Speedmaster Professional vor. Sie löste die Moonwatch mit dem Handaufzugskaliber 1861 ab, das seit 1996 im Einsatz gewesen war, und war die umfassendste Erneuerung der Linie seit vielen Jahren. Ziel war es, die Uhr technisch auf den Stand der übrigen Kollektion zu bringen und sie zugleich optisch wieder näher an die Speedmaster der Apollo-Jahre heranzuführen.",
+    "Das asymmetrische Stahlgehäuse mit Kronenschutz misst weiterhin 42 Millimeter. Viele Details greifen die Referenz 105.012 und ihre Nachfolgerinnen der 1960er-Jahre auf: das gestufte Zifferblatt, die schwarze Aluminiumlünette mit der Tachymeterskala und dem Punkt über der 90 (»Dot over Ninety«) sowie ein neu gestaltetes Gliederband mit sich verjüngenden Gliedern, das an das Band der Mondlandungszeit erinnert.",
+    "Angetrieben wird die Uhr vom Handaufzugskaliber 3861. Es behält das Prinzip des klassischen Speedmaster-Chronographen bei, arbeitet aber mit der Co-Axial-Hemmung und nichtmagnetischen Bauteilen. Das Werk ist als Master Chronometer vom Schweizer Institut METAS geprüft und widersteht Magnetfeldern bis 15.000 Gauß; die Gangreserve liegt bei rund 50 Stunden.",
+    "Erstmals bietet Omega die Speedmaster Professional in zwei Grundausführungen an: mit gewölbtem Hesalitglas und geschlossenem Stahlboden wie bei den Raumfahrtuhren oder mit Saphirglas und Glasboden, durch den das Werk zu sehen ist. Beide tragen die Referenz 310.30.42.50 und unterscheiden sich in der letzten Ziffer. Die 310 ist damit die heutige Fassung der Uhr, die seit 1965 für bemannte Raumflüge zugelassen ist."
+   ],
+   "vh": [
+    [
+     "Saphirglas: Ref. 310.30.42.50.01.002",
+     "Die Ausführung mit Saphirglas vorn und Glasboden hinten; die Hesalit-Version mit geschlossenem Boden endet auf .001."
+    ],
+    [
+     "Lederband: Ref. 310.32.42.50",
+     "Mit Leder- oder Textilband statt Gliederband trägt die Uhr die Gruppe .32 in der Referenz, ebenfalls mit Hesalit- oder Saphirglas."
+    ],
+    [
+     "Gold und weißes Zifferblatt",
+     "Daneben gibt es die 3861-Moonwatch in Omegas Goldlegierungen Sedna und Canopus sowie seit 2024 mit weißem Zifferblatt."
+    ]
+   ],
+   "m": [
+    "42 mm, asymmetrisches Stahlgehäuse mit Kronenschutz",
+    "Gestuftes schwarzes Zifferblatt mit drei Hilfszifferblättern",
+    "Aluminiumlünette mit Tachymeterskala und Punkt über der 90",
+    "Gliederband mit sich verjüngenden Gliedern",
+    "Handaufzug, Aufschrift »Speedmaster Professional«"
+   ],
+   "ev": [
+    [
+     "2021",
+     "Vorstellung mit Kaliber 3861 als Master Chronometer"
+    ],
+    [
+     "2024",
+     "Ausführung mit weißem Zifferblatt"
+    ]
+   ],
+   "x": [
+    "Wer die Uhr möglichst nah an der Apollo-Moonwatch sucht, wählt die Hesalit-Version; die Saphirversion ist kratzfester und zeigt das Werk.",
+    "Die letzte Ziffer der Referenz (.001 oder .002) verrät die Glasart, die Gruppe .30 oder .32 das Band – beim Gebrauchtkauf lohnt der Abgleich mit den Papieren.",
+    "Das Kaliber 3861 wird weiterhin von Hand aufgezogen; einen Automatikaufzug hat die Moonwatch bewusst nicht."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2021"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Edelstahl, asymmetrisch"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "3861, Handaufzug, Co-Axial"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph mit Tachymeter"
+    ],
+    [
+     "Vorgänger",
+     "311.30.42.30 bzw. 3570.50 (Kaliber 1861)"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "moonswatch",
+     "c": "Die MoonSwatch von 2022 übertrug die Gestaltung der Moonwatch in Biokeramik und machte sie einem Massenpublikum bekannt."
+    },
+    {
+     "m": "daytona",
+     "c": "Die Rolex Daytona ist seit Jahrzehnten die große Gegenspielerin der Speedmaster unter den Stahlchronographen."
+    },
+    {
+     "m": "carrera",
+     "c": "Die TAG Heuer Carrera steht wie die Speedmaster für den klassischen Rennsport-Chronographen der 1960er-Jahre."
+    }
+   ]
   }
  ]
 }
