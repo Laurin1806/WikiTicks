@@ -52310,6 +52310,107 @@
      "c": "Die Submariner 16610 war die Schwester mit Taucherlünette und demselben Gehäusestil."
     }
    ]
+  },
+  {
+   "id": "gmt-master-6542",
+   "model": "gmt-master",
+   "ref": "6542",
+   "alias": [],
+   "var": 5,
+   "t": "Rolex GMT-Master Ref. 6542",
+   "bau": "1954–1959",
+   "cap": "",
+   "s": "Die erste GMT-Master: ohne Kronenschutz, mit glänzendem Gilt-Zifferblatt und einer Lünette aus leuchtendem Bakelit – entstanden für die Piloten der Langstreckenflüge.",
+   "bh": [
+    "Eine Uhr für Langstreckenpiloten",
+    "Gehäuse, Lünette und Werk",
+    "Die Bakelit-Lünette",
+    "Abgelöst von der 1675"
+   ],
+   "b": [
+    "Mitte der 1950er-Jahre wurden Transatlantikflüge zur Routine, und Piloten wie Navigatoren mussten mehrere Zeitzonen im Blick behalten. Rolex entwickelte dafür 1954 die GMT-Master mit der Referenz 6542, deren Name auf die Greenwich Mean Time verweist. Sie wird oft mit der Fluggesellschaft Pan Am in Verbindung gebracht, deren Besatzungen sie trugen.",
+    "Das Edelstahlgehäuse misst 38 Millimeter und hat noch keinen Kronenschutz. Über dem glänzenden schwarzen Zifferblatt mit goldfarbener Schrift (»Gilt«) sitzt ein Acrylglas mit Zykloplupe; die Datumsziffern sind bei vielen Exemplaren abwechselnd rot und schwarz gedruckt. Ein schmaler roter Zeiger mit kleiner Pfeilspitze umrundet das Zifferblatt in 24 Stunden. Im Inneren arbeitete das Automatikkaliber 1036, später das 1066.",
+    "Die drehbare Lünette der ersten 6542 bestand aus Bakelit, einem frühen Kunststoff, in dem die Ziffern mit Radium-Leuchtmasse eingelegt waren. Sie war empfindlich und bekam leicht Risse; zudem galt die Radium-Leuchtmasse als bedenklich. Rolex ersetzte sie deshalb bald durch Lünetten mit Aluminiumeinlage, und viele 6542 erhielten im Service eine neue Lünette. Originale Bakelit-Lünetten sind heute sehr selten.",
+    "1959 löste die Referenz 1675 mit größerem Gehäuse und Kronenschutz die 6542 ab. Die erste GMT-Master gilt heute als eine der begehrtesten Vintage-Rolex – nicht zuletzt, weil Pussy Galore sie 1964 im Bond-Film »Goldfinger« trug."
+   ],
+   "vh": [
+    [
+     "Bakelit- und Aluminiumlünette",
+     "Frühe Exemplare mit Bakelit-Lünette und leuchtenden Ziffern, später mit Aluminiumeinlage in Rot-Blau."
+    ],
+    [
+     "Gelbgold: Ref. 6542/8",
+     "Die GMT-Master gab es auch in 18 Karat Gelbgold, meist mit braunem Zifferblatt und brauner Lünette."
+    ]
+   ],
+   "m": [
+    "38 mm, kein Kronenschutz",
+    "Glänzendes »Gilt«-Zifferblatt",
+    "Schmaler roter 24-Stunden-Zeiger mit kleiner Pfeilspitze",
+    "Lünette aus Bakelit oder mit Aluminiumeinlage"
+   ],
+   "ev": [
+    [
+     "1954",
+     "Vorstellung der ersten GMT-Master"
+    ],
+    [
+     "um 1956",
+     "Aluminiumlünetten ersetzen das Bakelit"
+    ],
+    [
+     "1959",
+     "Ablösung durch die Ref. 1675"
+    ],
+    [
+     "1964",
+     "Pussy Galore trägt eine 6542 in »Goldfinger«"
+    ]
+   ],
+   "x": [
+    "Originale Bakelit-Lünetten sind selten und werden oft nachgemacht; Risse und Verfärbungen gehören bei echten Lünetten dazu.",
+    "Gilt-Zifferblätter vertragen kein Wasser; Feuchtigkeitsflecken senken den Wert."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "1954–1959"
+    ],
+    [
+     "Gehäuse",
+     "38 mm, Edelstahl, ohne Kronenschutz"
+    ],
+    [
+     "Kaliber",
+     "1036, später 1066, Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, zweite Zeitzone (24 h)"
+    ],
+    [
+     "Glas",
+     "Acrylglas mit Zykloplupe"
+    ],
+    [
+     "Nachfolger",
+     "1675"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "navitimer",
+     "c": "Breitlings Navitimer von 1952 war die andere große Uhr der Piloten dieser Jahre."
+    },
+    {
+     "m": "submariner",
+     "c": "Die Submariner 6538 teilte mit der ersten GMT-Master Gehäuse ohne Kronenschutz und Gilt-Zifferblatt."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Omegas Seamaster 300 von 1957 war die Werkzeuguhr fürs Wasser aus derselben Zeit."
+    }
+   ]
   }
  ]
 }
