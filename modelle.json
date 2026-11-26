@@ -42985,6 +42985,106 @@
      "c": "Die Junghans Meister ist eine deutsche Dresswatch mit ähnlich klassischem Auftritt."
     }
    ]
+  },
+  {
+   "id": "moonswatch-so33",
+   "model": "moonswatch",
+   "ref": "SO33",
+   "alias": [
+    "SO33R100",
+    "SO33N100"
+   ],
+   "var": 0,
+   "t": "Swatch MoonSwatch Ref. SO33",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Die Form der Speedmaster, Biokeramik in Planetenfarben und ein Quarzwerk: Mit der Serie SO33 lösten Swatch und Omega 2022 Schlangen vor den Geschäften aus.",
+   "bh": [
+    "Omega trifft Swatch",
+    "Biokeramik und Quarz",
+    "Elf Himmelskörper",
+    "Nach dem Ansturm"
+   ],
+   "b": [
+    "Im März 2022 stellten Swatch und Omega, die zum selben Konzern gehören, die MoonSwatch vor. Alle Modelle der ersten Serie tragen Referenzen, die mit SO33 beginnen; ein Buchstabe dahinter steht für den Himmelskörper, etwa SO33R100 für »Mission to Mars« und SO33N100 für »Mission to Neptune«.",
+    "Die Uhr übernimmt die Form der Omega Speedmaster Moonwatch mit Tachymeterlünette, drei Hilfszifferblättern und den Drückern zwischen asymmetrischen Ausformungen des Gehäuses. Das 42-Millimeter-Gehäuse besteht aber aus Biokeramik, einer Mischung aus Keramik und biologisch gewonnenem Kunststoff auf Basis von Rizinusöl. Im Inneren arbeitet ein Quarz-Chronographenwerk; die Uhr ist bis 30 Meter wasserdicht.",
+    "Die erste Serie bestand aus elf Modellen, benannt nach der Sonne, dem Mond, den acht Planeten und Pluto. Jede Farbe passt zu ihrem Himmelskörper: die »Mission to Mars« mit rotem Gehäuse und weißem Zifferblatt, die »Mission to Neptune« in Blau. Getragen wird die Uhr an einem Klettband mit Omega-Logo.",
+    "Weil die MoonSwatch nur in Swatch-Geschäften erhältlich war, bildeten sich weltweit lange Schlangen, und manche Geschäfte mussten schließen. Swatch ergänzte die Serie in den folgenden Jahren immer wieder um neue Sondermodelle."
+   ],
+   "vh": [
+    [
+     "Mission to Mars: Ref. SO33R100",
+     "Rotes Gehäuse, weißes Zifferblatt und hellgraue Hilfszifferblätter mit roten Zeigern."
+    ],
+    [
+     "Mission to Neptune: Ref. SO33N100",
+     "Gehäuse aus blauer Biokeramik mit dunkelblauem Zifferblatt."
+    ],
+    [
+     "Mission to the Moon: Ref. SO33M100",
+     "Die graue Ausführung mit schwarzem Zifferblatt kommt der originalen Speedmaster Moonwatch am nächsten."
+    ],
+    [
+     "Spätere Sondermodelle",
+     "Nach der ersten Serie folgten Sonderausführungen, etwa mit goldfarben beschichtetem Sekundenzeiger (»Moonshine Gold«) und eine Version mit Mondphase und Snoopy."
+    ]
+   ],
+   "m": [
+    "Form der Omega Speedmaster mit Tachymeterlünette",
+    "Gehäuse aus farbiger Biokeramik, 42 mm",
+    "»OMEGA x swatch« und »MOONSWATCH« auf dem Zifferblatt",
+    "Klettband mit Omega-Logo"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Die Speedmaster auf dem Mond (Vorbild)"
+    ],
+    [
+     "2022",
+     "Vorstellung der MoonSwatch mit elf Modellen"
+    ]
+   ],
+   "x": [
+    "Die MoonSwatch ist kein Ersatz für eine Speedmaster: Werk und Gehäuse sind auf Swatch-Niveau.",
+    "Biokeramik kann bei Stößen Spuren bekommen; das Klettband lässt sich leicht tauschen."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "42 mm, Biokeramik"
+    ],
+    [
+     "Wasserdicht",
+     "30 m"
+    ],
+    [
+     "Kaliber",
+     "Quarz-Chronograph"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Chronograph, Tachymeterskala"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "speedmaster",
+     "c": "Die Omega Speedmaster Moonwatch ist das direkte Vorbild der MoonSwatch."
+    },
+    {
+     "m": "prx",
+     "c": "Die Tissot PRX war ein Jahr zuvor der andere Überraschungserfolg der Swatch Group im günstigen Preisbereich."
+    },
+    {
+     "m": "ga-2100",
+     "c": "Die Casio GA-2100 wurde in denselben Jahren zur bezahlbaren Kultuhr mit Bezug zu einem Luxusvorbild."
+    }
+   ]
   }
  ]
 }
