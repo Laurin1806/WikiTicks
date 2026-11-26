@@ -48241,6 +48241,102 @@
      "c": "Hamiltons Jazzmaster ist eine weitere zugängliche, klassische Automatikuhr dieser Zeit."
     }
    ]
+  },
+  {
+   "id": "monaco-cbl2111",
+   "model": "monaco",
+   "ref": "CBL2111",
+   "alias": [
+    "CBL2111.FC6453",
+    "CBL2111"
+   ],
+   "var": null,
+   "t": "TAG Heuer Monaco Ref. CBL2111",
+   "bau": "seit 2019",
+   "cap": "",
+   "s": "Das quadratische Gehäuse von 1969, das Blau aus »Le Mans« – und darin zum ersten Mal ein Werk aus eigener Entwicklung: Die CBL2111 ist die Monaco mit dem Kaliber Heuer 02.",
+   "bh": [
+    "Ein eigenes Werk für die Monaco",
+    "Gehäuse und Zifferblatt",
+    "Das Kaliber Heuer 02",
+    "Stellung in der Kollektion"
+   ],
+   "b": [
+    "Zum 50. Geburtstag der Monaco 2019 brachte TAG Heuer die Uhr erstmals mit einem selbst entwickelten Chronographenwerk heraus. Die Referenz CBL2111 löste in dieser Rolle die Monaco mit zugekauftem Werk ab, die TAG Heuer seit 2009 als Neuauflage gebaut hatte.",
+    "Das quadratische Edelstahlgehäuse misst 39 Millimeter, das Glas ist leicht gewölbt. Das blaue Zifferblatt mit zwei hellen Hilfszifferblättern, roten Akzenten und waagerechten Indizes erinnert an die Monaco, die Steve McQueen 1971 im Film »Le Mans« trug. Bei der abgebildeten Ausführung sitzen Krone und Drücker rechts, das Datum bei 6 Uhr.",
+    "Das Heuer 02 ist ein Automatik-Chronograph mit Schaltrad, vertikaler Kupplung und rund 80 Stunden Gangreserve. Es ist durch den Saphirglasboden zu sehen und war eines der ersten Manufakturwerke von TAG Heuer, das in mehreren Linien zum Einsatz kam.",
+    "Die CBL2111 ist heute die zentrale Monaco im Programm. Daneben baut TAG Heuer Sonder- und Jubiläumseditionen mit anderen Zifferblättern und Gehäusematerialien sowie Ausführungen, die die Krone wie beim Original links tragen."
+   ],
+   "vh": [
+    [
+     "Krone links",
+     "Neben der abgebildeten Ausführung baut TAG Heuer die Monaco in Anlehnung an das Original von 1969 auch mit Krone links; diese Uhren tragen eigene Referenzen."
+    ],
+    [
+     "Sondereditionen",
+     "Zum Jubiläum 2019 und in den Folgejahren erschienen limitierte Monaco-Ausführungen mit Zifferblättern im Stil verschiedener Jahrzehnte."
+    ]
+   ],
+   "m": [
+    "Quadratisches Gehäuse, 39 mm",
+    "Blaues Zifferblatt mit zwei hellen Hilfszifferblättern",
+    "Rote Akzente, waagerechte Indizes",
+    "Saphirglasboden mit Kaliber Heuer 02"
+   ],
+   "ev": [
+    [
+     "1969",
+     "Vorstellung der Monaco mit Kaliber 11"
+    ],
+    [
+     "1971",
+     "Steve McQueen trägt die Monaco in »Le Mans«"
+    ],
+    [
+     "2019",
+     "Monaco mit Heuer 02 zum 50-jährigen Jubiläum"
+    ]
+   ],
+   "x": [
+    "Die Lage von Krone und Datum unterscheidet sich zwischen den Monaco-Ausführungen; beim Kauf auf die genaue Referenz achten.",
+    "Das Heuer 02 bietet mit rund 80 Stunden deutlich mehr Gangreserve als das Werk der älteren Neuauflage."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2019"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Edelstahl, quadratisch, Saphirglasboden"
+    ],
+    [
+     "Kaliber",
+     "Heuer 02, Automatik-Chronograph"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunde, Chronograph, Datum"
+    ],
+    [
+     "Vorgänger",
+     "CAW2111"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "carrera",
+     "c": "Die Carrera ist das zweite große Rennsport-Erbe von TAG Heuer und bekam in denselben Jahren ebenfalls Manufakturwerke."
+    },
+    {
+     "m": "chronomaster",
+     "c": "Zenith legte zur gleichen Zeit seinen Chronographen von 1969 neu auf."
+    },
+    {
+     "m": "speedmaster",
+     "c": "Die Speedmaster ist der andere Chronograph mit großer Geschichte, der in diesen Jahren gründlich modernisiert wurde."
+    }
+   ]
   }
  ]
 }
