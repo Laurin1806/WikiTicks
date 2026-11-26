@@ -40369,6 +40369,99 @@
      "c": "Die Rolex Daytona ist die große Schwester der Tudor-Chronographen der 1970er-Jahre."
     }
    ]
+  },
+  {
+   "id": "pelagos-25407",
+   "model": "pelagos",
+   "ref": "25407N",
+   "alias": [
+    "M25407N",
+    "M25407N-0001",
+    "25407N-0001"
+   ],
+   "var": null,
+   "t": "Tudor Pelagos 39 Ref. 25407N",
+   "bau": "seit 2022",
+   "cap": "",
+   "s": "Die kompakte Pelagos: 39 Millimeter, Titan, Keramiklünette und kein Datum – Tudors Profi-Taucheruhr im handlichen Format für jeden Tag.",
+   "bh": [
+    "Die Pelagos wird kleiner",
+    "Titan und Keramik",
+    "Das Werk",
+    "Werkzeug für den Alltag"
+   ],
+   "b": [
+    "Die Pelagos war seit 2012 Tudors kompromisslose Taucheruhr: 42 Millimeter, Titan, Heliumventil und 500 Meter Wasserdichtigkeit. Vielen war sie für den Alltag zu groß. 2022 stellte Tudor deshalb die Pelagos 39 vor, die das Werkzeug-Gesicht der Pelagos in ein kleineres, flacheres Gehäuse bringt.",
+    "Gehäuse und Band bestehen aus mattem Titan, die einseitig drehbare Lünette trägt eine schwarze Keramikeinlage mit leuchtender Skala, deren erste 15 Minuten fein unterteilt sind. Das schwarze Zifferblatt zeigt rechteckige Leuchtindizes, ein Dreieck bei 12 Uhr und den eckigen »Snowflake«-Stundenzeiger. Anders als die große Pelagos hat die 39 kein Datum und kein Heliumventil; sie ist bis 200 Meter wasserdicht.",
+    "Im Inneren arbeitet das Manufakturkaliber MT5400 mit Silizium-Spirale, Chronometerzertifikat und rund 70 Stunden Gangreserve. Die Faltschließe des Titanbands lässt sich ohne Werkzeug verstellen; zur Uhr gehört zusätzlich ein Textilband.",
+    "Mit ihrem matten Titan, der fehlenden Datumsanzeige und dem kompakten Format ist die Pelagos 39 eine Taucheruhr für jeden Tag geworden, ohne den technischen Charakter der großen Pelagos aufzugeben."
+   ],
+   "vh": [
+    [
+     "Die große Pelagos: Ref. 25600TN",
+     "42 Millimeter, 500 Meter, Heliumventil und Datum, mit dem Kaliber MT5612; als 25600TB mit blauem Zifferblatt."
+    ],
+    [
+     "Pelagos FXD: Ref. 25707B",
+     "Ohne Datum, mit festen Bandstegen, entstanden mit den Kampfschwimmern der französischen Marine."
+    ]
+   ],
+   "m": [
+    "39 mm, mattes Titan",
+    "Schwarze Keramiklünette mit leuchtender Skala",
+    "»Snowflake«-Stundenzeiger",
+    "Kein Datum, Tiefenangabe 200 m"
+   ],
+   "ev": [
+    [
+     "2012",
+     "Erste Pelagos"
+    ],
+    [
+     "2022",
+     "Pelagos 39 (Ref. 25407N)"
+    ]
+   ],
+   "x": [
+    "Titan ist leicht, zeigt aber Kratzer; viele Besitzer schätzen gerade die gebrauchte Optik.",
+    "Wer Heliumventil und Datum möchte, findet beides bei der großen Pelagos 25600TN."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2022"
+    ],
+    [
+     "Gehäuse",
+     "39 mm, Titan, Keramiklünette"
+    ],
+    [
+     "Wasserdicht",
+     "200 m"
+    ],
+    [
+     "Kaliber",
+     "MT5400, Automatik, Chronometer, ca. 70 h"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "submariner",
+     "c": "Die Rolex Submariner ohne Datum ist die große Schwester aus Stahl im ähnlichen Format."
+    },
+    {
+     "m": "seamaster-300",
+     "c": "Omegas Seamaster 300 verbindet ebenfalls Werkzeugcharakter mit kompaktem Alltagsformat."
+    },
+    {
+     "m": "aquis",
+     "c": "Die Oris Aquis ist eine weitere moderne Taucheruhr für jeden Tag."
+    }
+   ]
   }
  ]
 }
