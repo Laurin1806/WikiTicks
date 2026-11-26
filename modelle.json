@@ -39563,6 +39563,102 @@
      "c": "Auch die TAG Heuer Carrera wurde in den 2010er-Jahren mit Anklängen an die Originale der 1960er-Jahre neu aufgelegt."
     }
    ]
+  },
+  {
+   "id": "speedmaster-dark-side",
+   "model": "speedmaster",
+   "ref": "311.92.44.51",
+   "alias": [
+    "311.92.44.51",
+    "311.92.44.51.01.007",
+    "311.92.44.51.01.003",
+    "Dark Side of the Moon"
+   ],
+   "var": 1,
+   "t": "Omega Speedmaster Ref. 311.92.44.51",
+   "bau": "seit 2013",
+   "cap": "",
+   "s": "Ganz in Schwarz und ganz aus Keramik: Mit der Dark Side of the Moon machte Omega 2013 aus der Speedmaster eine moderne Designuhr – und begründete eine ganze Familie.",
+   "bh": [
+    "Die erste Omega aus Keramik",
+    "Gehäuse und Werk",
+    "Eine Familie entsteht",
+    "Heutige Bedeutung"
+   ],
+   "b": [
+    "2013 erschien die Speedmaster Dark Side of the Moon, die erste Omega mit Gehäuse und Zifferblatt aus schwarzer Zirkonoxid-Keramik. Der Name spielt auf die Rückseite des Mondes an, die von der Erde aus nie zu sehen ist und erst durch die Raumfahrt fotografiert werden konnte – eine Anspielung auf die Raumfahrtgeschichte der Speedmaster.",
+    "Das Gehäuse misst 44,25 Millimeter und ist damit deutlich größer als die Moonwatch. Keramik ist sehr hart und kratzfest, lässt sich aber nur aufwendig bearbeiten und kann bei einem harten Schlag brechen. Auch Lünette, Krone und Drücker sind schwarz; die matte Oberfläche des Zifferblatts setzt sich vom polierten Gehäuse ab. Im Inneren arbeitet das Automatik-Chronographenkaliber 9300 mit Co-Axial-Hemmung, das Stunden- und Minutenzähler bei 3 Uhr zusammenfasst.",
+    "Der Erfolg der Uhr führte zu einer ganzen Reihe von Keramik-Speedmasters: Es folgten Ausführungen mit grauer Keramik und Zifferblatt aus Platin (»Grey Side of the Moon«), komplett schwarze Varianten mit dunkler Leuchtmasse, Modelle mit farbigen Akzenten und 2018 die »Apollo 8« mit skelettiertem Handaufzugswerk, das die Mondoberfläche zeigt.",
+    "Die Dark Side of the Moon zeigte, dass sich die Speedmaster weit von der klassischen Moonwatch entfernen kann, ohne ihren Charakter zu verlieren. Sie gehört zu den Uhren, die Keramikgehäuse bei großen Schweizer Marken in den 2010er-Jahren populär machten."
+   ],
+   "vh": [
+    [
+     "Grey Side of the Moon",
+     "Eine Ausführung mit Gehäuse aus grauer Keramik und Zifferblatt aus Platin, die kurz nach der schwarzen Version erschien."
+    ],
+    [
+     "Apollo 8 (2018)",
+     "Die »Apollo 8« trägt ein skelettiertes Handaufzugskaliber (1869), dessen Oberfläche an den Mond erinnert; sie ist eine eigene Ausführung der Keramik-Speedmaster."
+    ],
+    [
+     "Ausführung mit Master-Chronometer-Werk",
+     "Neuere Ausführungen arbeiten mit einem Master-Chronometer-Kaliber und tragen die Aufschrift »Co-Axial Master Chronometer« auf dem Zifferblatt – so wie die hier abgebildete Uhr."
+    ]
+   ],
+   "m": [
+    "44,25 mm, Gehäuse aus schwarzer Zirkonoxid-Keramik",
+    "Schwarze Keramiklünette mit Tachymeterskala",
+    "Mattes schwarzes Zifferblatt mit zwei Hilfszifferblättern",
+    "Automatikwerk, Glasboden",
+    "Schwarze Krone und Drücker"
+   ],
+   "ev": [
+    [
+     "2013",
+     "Vorstellung der Dark Side of the Moon"
+    ],
+    [
+     "2018",
+     "Ausführung »Apollo 8« mit skelettiertem Handaufzugswerk"
+    ]
+   ],
+   "x": [
+    "Keramik verkratzt kaum, kann aber bei einem harten Stoß splittern – Kanten und Lünette beim Gebrauchtkauf genau ansehen.",
+    "Die Dark-Side-Familie umfasst viele Ausführungen mit verschiedenen Endziffern; die Referenz auf den Papieren zeigt, welche Version es genau ist.",
+    "Mit 44,25 Millimetern trägt die Uhr groß, ist aber durch die Keramik leichter als ein Stahlchronograph dieser Größe."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2013"
+    ],
+    [
+     "Gehäuse",
+     "44,25 mm, Zirkonoxid-Keramik"
+    ],
+    [
+     "Kaliber",
+     "9300, Automatik, Co-Axial"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, kleine Sekunde, Chronograph mit Tachymeter"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "big-bang",
+     "c": "Hublots Big Bang machte Keramik und große Gehäuse in denselben Jahren zum Markenzeichen."
+    },
+    {
+     "m": "br-03",
+     "c": "Bell & Ross setzte bei der BR 03 ebenfalls auf ganz schwarze Keramikversionen."
+    },
+    {
+     "m": "royal-oak-offshore",
+     "c": "Die Royal Oak Offshore gab es in den 2010er-Jahren in schwarzer Keramik – ein großer, dunkler Sportchronograph wie die Dark Side."
+    }
+   ]
   }
  ]
 }
