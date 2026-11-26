@@ -42447,6 +42447,98 @@
      "c": "Die Longines Legend Diver greift eine Taucheruhr der 1960er-Jahre auf."
     }
    ]
+  },
+  {
+   "id": "doxa-sharkhunter-821-10-101-10",
+   "model": "doxa-sharkhunter",
+   "ref": "821.10.101.10",
+   "var": null,
+   "t": "Doxa SUB 300 Sharkhunter Ref. 821.10.101.10",
+   "bau": "seit 2020",
+   "cap": "",
+   "s": "Schwarzes Zifferblatt, orange Minutenzeiger und die Tauchtabelle auf der Lünette: Die SUB 300 Sharkhunter ist die dunkle Seite der berühmten Doxa.",
+   "bh": [
+    "Der Name Sharkhunter",
+    "Gehäuse und Lünette",
+    "Die Neuauflage",
+    "Was die Referenz verrät"
+   ],
+   "b": [
+    "Die Doxa SUB 300 erschien 1967 mit orangem Zifferblatt. Der Name Sharkhunter bezeichnet die schwarze Variante, die mit Jacques Cousteaus Team und dem US-Vertrieb U.S. Divers verbunden wird. Die Referenz 821.10.101.10 ist die Neuauflage der SUB 300 als Sharkhunter am Stahlband.",
+    "Das kissenförmige Edelstahlgehäuse misst 42,5 Millimeter. Die drehbare Lünette mit schwarzem Ring trägt neben der Minutenskala eine Tabelle für Tauchzeiten ohne Dekompressionspause, mit Tiefenangaben in Orange. Das schwarze Zifferblatt hat breite Leuchtindizes, einen orangefarbenen Minutenzeiger, einen kurzen Stundenzeiger und ein Datum bei 3 Uhr; die Krone ist verschraubt.",
+    "Getragen wird die Uhr an einem Stahlband mit vielen kleinen, gerundeten Gliedern im Stil der historischen Beads-of-Rice-Bänder. Auf dem Zifferblatt stehen »DOXA automatic« und »SUB 300 sharkhunter«.",
+    "Die Referenz beginnt mit 821 für die SUB 300; die SUB 300T trägt dagegen Referenzen mit 840. Die Zahlengruppe 101 steht bei Doxa für das schwarze Sharkhunter-Zifferblatt."
+   ],
+   "vh": [
+    [
+     "Andere Farben",
+     "Die SUB 300 gibt es auch mit orangem (»Professional«), silbernem (»Searambler«) und weiteren Zifferblättern."
+    ],
+    [
+     "SUB 300 Carbon",
+     "Eine Ausführung mit Gehäuse aus Karbon ist besonders leicht."
+    ]
+   ],
+   "m": [
+    "Kissenförmiges Edelstahlgehäuse, 42,5 mm",
+    "Schwarzes Zifferblatt mit orangem Minutenzeiger",
+    "Lünette mit Dekompressionstabelle und schwarzem Ring",
+    "»SUB 300 sharkhunter« auf dem Zifferblatt"
+   ],
+   "ev": [
+    [
+     "1967",
+     "Erste SUB 300"
+    ],
+    [
+     "1969",
+     "Schwarze Sharkhunter-Variante"
+    ],
+    [
+     "2020",
+     "Neuauflage der SUB 300"
+    ]
+   ],
+   "x": [
+    "Originale aus den 1960er-Jahren sind gesucht; auf ein unrestauriertes Zifferblatt und eine originale Lünette achten.",
+    "SUB 300 und SUB 300T sehen sich ähnlich – Referenz und Aufschrift unterscheiden sie."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2020"
+    ],
+    [
+     "Gehäuse",
+     "42,5 mm, Edelstahl, kissenförmig"
+    ],
+    [
+     "Kaliber",
+     "Automatik"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden, Datum, Drehlünette mit Dekompressionstabelle"
+    ],
+    [
+     "Vorbild",
+     "SUB 300 von 1967"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "seamaster-300",
+     "c": "Die Omega Seamaster 300 ist eine weitere Taucheruhr der 1960er-Jahre mit moderner Neuauflage."
+    },
+    {
+     "m": "legend-diver",
+     "c": "Die Longines Legend Diver greift ebenfalls eine Taucheruhr aus den 1960er-Jahren auf."
+    },
+    {
+     "m": "black-bay",
+     "c": "Die Tudor Black Bay steht für den Erfolg der Retro-Taucheruhren in denselben Jahren."
+    }
+   ]
   }
  ]
 }
