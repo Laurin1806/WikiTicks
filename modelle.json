@@ -42806,6 +42806,98 @@
      "c": "Die Seiko Presage Cocktail Time ist eine beliebte Alternative mit auffälligem Zifferblatt."
     }
    ]
+  },
+  {
+   "id": "khaki-field-h69439931",
+   "model": "khaki-field",
+   "ref": "H69439931",
+   "var": null,
+   "t": "Hamilton Khaki Field Mechanical Ref. H69439931",
+   "bau": "seit 2018",
+   "cap": "",
+   "s": "Schwarzes Zifferblatt, große weiße Ziffern, olivgrünes Textilband und Handaufzug: Die H69439931 ist die Felduhr, wie sie Hamilton seit Jahrzehnten an Soldaten lieferte – nur mit einem modernen Werk.",
+   "bh": [
+    "Militärische Wurzeln",
+    "Gehäuse und Zifferblatt",
+    "Handaufzug mit 80 Stunden",
+    "Eine Einsteigeruhr mit Ruf"
+   ],
+   "b": [
+    "Hamilton lieferte im Zweiten Weltkrieg und danach zahlreiche Uhren an die US-Streitkräfte. Die Khaki Field Mechanical von 2018 greift die Militäruhren der 1960er- und 1970er-Jahre auf. Die Referenz H69439931 ist die Ausführung mit 38 Millimetern, schwarzem Zifferblatt und olivgrünem Textilband.",
+    "Das Edelstahlgehäuse ist matt gestrahlt, damit es nicht spiegelt. Das Zifferblatt trägt große weiße arabische Ziffern von 1 bis 12, innen eine 24-Stunden-Skala und am Rand Leuchtdreiecke; die Zeiger haben beigefarbene Leuchtmasse. Unter 12 Uhr stehen »HAMILTON« und »KHAKI MECHANICAL«. Die Uhr ist bis 50 Meter wasserdicht.",
+    "Im Inneren arbeitet das Handaufzugskaliber H-50 mit rund 80 Stunden Gangreserve. Wer die Uhr täglich aufzieht, kommt so problemlos über ein Wochenende. Ein Datum gibt es nicht – die Uhr ist auf das Nötigste reduziert.",
+    "Mit 38 Millimetern ist die Uhr kompakt und an fast jedem Handgelenk tragbar. Sie gilt als eine der besten Einsteigeruhren mit mechanischem Werk und wird oft als erste »richtige« Uhr empfohlen."
+   ],
+   "vh": [
+    [
+     "Andere Zifferblätter",
+     "Die Khaki Field Mechanical gibt es auch mit Zifferblättern in Grün, Beige oder Weiß."
+    ],
+    [
+     "Bronze",
+     "Eine Ausführung mit Bronzegehäuse entwickelt mit der Zeit eine eigene Patina."
+    ]
+   ],
+   "m": [
+    "38 mm, matt gestrahltes Edelstahlgehäuse",
+    "Große weiße arabische Ziffern, innen 24-Stunden-Skala",
+    "»KHAKI MECHANICAL« auf dem Zifferblatt",
+    "Kein Datum, Handaufzug"
+   ],
+   "ev": [
+    [
+     "1892",
+     "Gründung von Hamilton"
+    ],
+    [
+     "2018",
+     "Khaki Field Mechanical mit Kaliber H-50"
+    ]
+   ],
+   "x": [
+    "Das Textilband lässt sich leicht tauschen; ein Durchzugsband wie beim Militär passt besonders gut.",
+    "Die Uhr will regelmäßig aufgezogen werden – wer das nicht mag, greift zu einer Khaki Field mit Automatik."
+   ],
+   "f": [
+    [
+     "Bauzeit",
+     "seit 2018"
+    ],
+    [
+     "Gehäuse",
+     "38 mm, Edelstahl, gestrahlt"
+    ],
+    [
+     "Wasserdicht",
+     "50 m"
+    ],
+    [
+     "Kaliber",
+     "H-50, Handaufzug"
+    ],
+    [
+     "Gangreserve",
+     "≈ 80 Stunden"
+    ],
+    [
+     "Funktionen",
+     "Stunden, Minuten, Sekunden"
+    ]
+   ],
+   "zeit": [
+    {
+     "m": "ranger",
+     "c": "Die Tudor Ranger ist eine ähnlich schlichte Uhr mit großen arabischen Ziffern, eine Preisstufe höher."
+    },
+    {
+     "m": "laco-aachen",
+     "c": "Die Laco Aachen steht für die klassische Fliegeruhr, die ebenfalls auf militärische Vorbilder zurückgeht."
+    },
+    {
+     "m": "seiko-5",
+     "c": "Die Seiko 5 Sports ist in denselben Jahren eine der beliebtesten mechanischen Einsteigeruhren."
+    }
+   ]
   }
  ]
 }
