@@ -2898,6 +2898,17 @@
     "max": 12000,
     "rows": [
      [
+      "1655",
+      "",
+      null,
+      "heute",
+      23336,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "16550",
       "Liste 1985",
       1830,
@@ -2943,10 +2954,21 @@
       "Liste 2026",
       10600,
       "heute",
-      10640
+      10640,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        8550,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, Originalwert, hier in Euro). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
+    "n": "Ungefähre US-Werte: Listenpreise nach Händlerangaben, Gebrauchtpreise als Marktschätzung von WatchCharts (Herbst 2026), nicht von Rolex bestätigt. Die 226570 erreichte ihren bisherigen Höchststand am Gebrauchtmarkt im Juli 2022 und liegt seitdem rund 20 % darunter (laut BQ Watches, Originalwert, hier in Euro). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert. 1655: Gebrauchtpreis: WatchCharts-Marktpreis vom 14. Oktober 2026 (Spanne etwa 19.900 bis 26.800 USD). Kein Listenpreis aus einer Preisliste gefunden; Kaufbelege nennen 495 USD (um 1973) und 258 GBP (1977), hier nicht verwendet. 226570: Listenpreis USA laut rolex.com, schwarzes und weißes Zifferblatt gleich teuer. 2021: Einführungspreis. Kein neuer Gebrauchtpreis."
    },
    "topv": {
     "n": "Ref. 16570 »Polar«",
@@ -3418,24 +3440,59 @@
       "Liste 1968",
       175,
       "heute",
-      12968
+      12968,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "1680",
       "",
       null,
       "heute",
-      15837
+      18001,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "16800",
       "Liste 1985",
       1910,
-      "",
-      null,
+      "heute",
+      10148,
       [
        "CHF",
        "USD"
+      ]
+     ],
+     [
+      "16610",
+      "Liste 1990",
+      2250,
+      "heute",
+      9249,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "1996",
+        3350,
+        "USD"
+       ],
+       [
+        "2004 (Belgien, inkl. MwSt.)",
+        3890,
+        "EUR"
+       ],
+       [
+        "2008",
+        6000
+       ]
       ]
      ],
      [
@@ -3473,48 +3530,105 @@
       ]
      ],
      [
-      "16610",
-      "Liste 1990",
-      2250,
+      "116610LN",
+      "letzte Liste 2021",
+      8950,
       "heute",
-      9254,
+      11127,
       [
        "USD",
        "USD"
       ],
       [
        [
-        "1996",
-        3350,
+        "2019",
+        8550,
         "USD"
-       ],
-       [
-        "2004 (Belgien, inkl. MwSt.)",
-        3890,
-        "EUR"
-       ],
-       [
-        "2008",
-        6000
        ]
       ]
-     ],
-     [
-      "116610LN",
-      "letzte Liste 2021",
-      8950,
-      "heute",
-      11127
      ],
      [
       "126610LN",
       "Liste 2026",
       11350,
       "heute",
-      13655
+      13655,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "116610LV",
+      "letzte Liste 2021",
+      9050,
+      "heute",
+      18642,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "116619LB",
+      "letzte Liste 2021",
+      39650,
+      "heute",
+      40627,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2008 (Einführung, UK)",
+        18560,
+        "GBP"
+       ]
+      ]
+     ],
+     [
+      "126610LV",
+      "Liste 2026",
+      11900,
+      "heute",
+      14259,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2020",
+        9950,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "126619LB",
+      "Liste 2026",
+      52100,
+      "heute",
+      40093,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "16610LV",
+      "",
+      null,
+      "heute",
+      13439,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 16610 laut WatchCharts (Oktober 2026), 14060M ungefähr nach den niedrigsten abgeschlossenen Verkäufen bei Bob's Watches (September 2026). Die Neupreise der älteren Referenzen sind die frühesten gefundenen Listenpreise (laut Crown & Caliber, Jahr jeweils angegeben), nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreise: WatchCharts (November bzw. Oktober 2026). 16610: Zwischenpreise 1996 (3.350 USD laut Crown & Caliber), 2004 und 2008 (6.000 USD). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 16610 laut WatchCharts (Oktober 2026), 14060M ungefähr nach den niedrigsten abgeschlossenen Verkäufen bei Bob's Watches (September 2026). Die Neupreise der älteren Referenzen sind die frühesten gefundenen Listenpreise (laut Crown & Caliber, Jahr jeweils angegeben), nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreise: WatchCharts (November bzw. Oktober 2026). 16610: Zwischenpreise 1996 (3.350 USD laut Crown & Caliber), 2004 und 2008 (6.000 USD). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert. 116610LV: Listenpreis (autorisierter Händler, Stand September 2021) und Marktwert (11. Oktober 2026) laut WatchCharts. BQ Watches nennt für Oktober 2026 17.860 GBP. 116619LB: Listenpreis (September 2021) und Marktwert (10. Oktober 2026) laut WatchCharts-Seite der Ref. 116619 (Weißgold, blaues Blatt). Einführungspreis 2008 in Großbritannien laut BQ Watches. 126610LV: Listenpreis (September 2026) und Marktwert (2. November 2026) laut WatchCharts; Einführungspreis 2020 laut Robb Report. 126619LB: US-Listenpreis (Januar 2026) laut La Cote des Montres. Gebrauchtpreis: Durchschnitt der Verkaufspreise eines Händlers (Watch My Diamonds) über elf Monate von Oktober 2025 bis Juli 2026, kein marktweiter Index. 16610LV: Marktwert laut WatchCharts (13. Oktober 2026). Ein belegter Listenpreis aus der Bauzeit wurde nicht gefunden. 16800: Marktwert laut WatchCharts (10. Oktober 2026). 1680: Marktwert laut WatchCharts (November 2026); gilt für die Referenz insgesamt, frühe »Red Sub«-Ausführungen liegen meist darüber. 5513: Marktwert laut WatchCharts (13. November 2026). Preis Anfang der 1970er laut Crown & Caliber (Zusammenstellung historischer Preise, nicht aus einem Originalkatalog geprüft). 116610LN: Listenpreis (September 2021) und Marktwert (13. Oktober 2026) laut WatchCharts; Listenpreis 2019 laut Bob's Watches. 126610LN: Listenpreis (September 2026) und Marktwert (25. Oktober 2026) laut WatchCharts. 16610: Marktwert laut WatchCharts (2. November 2026)."
    },
    "w": "Seit 1953 definiert die Submariner mit drehbarer Lünette, großen Leuchtindizes und verschraubter Krone, wie eine Taucheruhr aussieht.",
    "lume": {
@@ -3787,6 +3901,17 @@
     "u": "USD",
     "rows": [
      [
+      "6239",
+      "",
+      null,
+      "heute",
+      65000,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "6263",
       "Liste 1985",
       1670,
@@ -3795,8 +3920,7 @@
       [
        "CHF",
        "USD"
-      ],
-      []
+      ]
      ],
      [
       "116520",
@@ -3828,10 +3952,21 @@
       "Liste 2026",
       16900,
       "heute",
-      31000
+      32114,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2023 (Einführung)",
+        15200,
+        "EUR"
+       ]
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Schätzung des Händlers Luxury Bazaar für das schwarze Zifferblatt; das weiße »Panda«-Zifferblatt liegt eher bei rund 33.500 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Vintage-Referenzen: Gebrauchtpreis laut WatchCharts (Oktober 2026); ein Listenpreis aus der Bauzeit war nicht auffindbar. Exotische Zifferblätter (Paul Newman) liegen weit darüber. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Schätzung des Händlers Luxury Bazaar für das schwarze Zifferblatt; das weiße »Panda«-Zifferblatt liegt eher bei rund 33.500 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Vintage-Referenzen: Gebrauchtpreis laut WatchCharts (Oktober 2026); ein Listenpreis aus der Bauzeit war nicht auffindbar. Exotische Zifferblätter (Paul Newman) liegen weit darüber. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. 116520: Marktwert (19. Oktober 2026) und Listenpreis Dezember 2012 laut WatchCharts. BQ Watches nennt für Oktober 2026 19.240 GBP. 126500LN: Listenpreis (September 2026) und Marktwert (17. Oktober 2026) laut WatchCharts, Durchschnitt über beide Zifferblätter. Euro-Einführungspreis 2023 laut Time and Watches. 6239: Standard-Zifferblatt: Spanne 45.000 bis 85.000 USD laut Luxury Bazaar, hier der Mittelwert. »Paul Newman«-Zifferblätter beginnen laut derselben Quelle bei rund 150.000 USD."
    },
    "w": "Die Tachymeterskala auf der Lünette macht die Daytona zum Rennsport-Chronographen, der heute zu den begehrtesten Uhren von Rolex zählt.",
    "lume": {
@@ -4266,11 +4401,37 @@
     "u": "USD",
     "rows": [
      [
+      "6542",
+      "",
+      null,
+      "heute",
+      25940,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "1675 (GMT-Master)",
       "Liste 1968",
       245,
       "heute",
-      16921
+      15063,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "16750",
+      "",
+      null,
+      "heute",
+      14055,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "16760 (GMT-Master II)",
@@ -4287,19 +4448,8 @@
       "16700",
       "Liste 1990",
       2225,
-      "",
-      null,
-      [
-       "USD",
-       "USD"
-      ]
-     ],
-     [
-      "16713",
-      "Liste 1990",
-      4100,
-      "",
-      null,
+      "heute",
+      12190,
       [
        "USD",
        "USD"
@@ -4310,7 +4460,7 @@
       "Liste 1990",
       2250,
       "heute",
-      12100,
+      12125,
       [
        "USD",
        "USD"
@@ -4325,26 +4475,96 @@
         "2004 (Belgien, inkl. MwSt.)",
         3890,
         "EUR"
+       ],
+       [
+        "2008",
+        5750,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "16713",
+      "Liste 1990",
+      4100,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "116710BLNR",
+      "Liste 2013",
+      8500,
+      "heute",
+      14186,
+      [
+       "CHF",
+       "USD"
+      ],
+      [
+       [
+        "2020",
+        9800,
+        "USD"
        ]
       ]
      ],
      [
       "116710LN",
-      "",
-      null,
+      "letzte Liste 2021",
+      8450,
       "heute",
-      10370,
-      "GBP"
+      12027,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "116719BLRO",
+      "letzte Liste 2021",
+      36750,
+      "heute",
+      32026,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "126710BLRO",
       "Liste 2026",
       11800,
       "heute",
-      22053
+      22209,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "126710BLNR",
+      "Liste 2026",
+      11800,
+      "heute",
+      17366,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2025",
+        11100,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, Originalwert, hier in Euro). Ältere Referenzen: Spanne gängiger Händlerangebote von rund 9.400 bis 12.250 EUR (Luxury Bazaar, BQ Watches); der Wert ist deren Mitte. Neupreis 16710: Liste 2004 laut Crown & Caliber, nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: WatchCharts (Oktober 2026). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Stahlversion »Pepsi« wurde laut Bob's Watches im April 2026 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Gebrauchtpreis der 116710LN: Marktindex von BQ Watches (Oktober 2026, Originalwert, hier in Euro). Ältere Referenzen: Spanne gängiger Händlerangebote von rund 9.400 bis 12.250 EUR (Luxury Bazaar, BQ Watches); der Wert ist deren Mitte. Neupreis 16710: Liste 2004 laut Crown & Caliber, nicht der Verkaufsstart. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: WatchCharts (Oktober 2026). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert. 126710BLNR: Listenpreis (September 2026) und Marktwert (29. Oktober 2026) laut WatchCharts; Listenpreis 2025 laut Gear Patrol. 116710BLNR: Einführungspreis 2013 in Franken laut Watches by SJX; letzter Listenpreis (Januar 2020, ungefähr) und Marktwert (17. Oktober 2026) laut WatchCharts. 116719BLRO: Listenpreis (September 2021) und Marktwert (18. Oktober 2026) laut WatchCharts-Seite der Ref. 116719 (alle Zifferblätter). 16750: Marktwert laut WatchCharts (16. Oktober 2026). 6542: Geschätzter Privatverkaufspreis laut WatchCharts (10. November 2026); Stücke mit Bakelit-Lünette oder Goldgehäuse liegen weit darüber. 1675: Geschätzter Privatverkaufspreis laut WatchCharts (13. November 2026). Preis 1978 laut Crown & Caliber (Zusammenstellung historischer Preise, nicht aus einem Originalkatalog geprüft). 16700: Marktwert laut WatchCharts (10. Oktober 2026). 16710: Gebrauchtpreis: Spanne 10.550 bis 13.700 USD laut Luxury Bazaar, hier der Mittelwert (BQ Watches: 10.600 GBP, Oktober 2026). Listenpreis 2008 laut Crown & Caliber. 116710LN: Listenpreis (Stand September 2021) und Marktwert (20. Oktober 2026) laut WatchCharts-Seite der Ref. 116710. BQ Watches nennt für Oktober 2026 10.370 GBP. 126710BLRO: Letzter Listenpreis (März 2026, Stahlversion im April 2026 eingestellt) und geschätzter Privatverkaufspreis (2. November 2026) laut WatchCharts."
    },
    "w": "Die zweifarbige Lünette trennt Tag (Rot) und Nacht (Blau) und macht die GMT-Master zusammen mit dem vierten Zeiger zur Reiseuhr für bis zu drei Zeitzonen.",
    "lume": {
@@ -4653,25 +4873,7 @@
       "Liste 1968",
       1050,
       "heute",
-      5750
-     ],
-     [
-      "16200",
-      "Liste 1990",
-      2350,
-      "",
-      null,
-      [
-       "USD",
-       "USD"
-      ]
-     ],
-     [
-      "16233",
-      "Liste 1990",
-      3650,
-      "",
-      null,
+      4865,
       [
        "USD",
        "USD"
@@ -4704,11 +4906,51 @@
       ]
      ],
      [
+      "16200",
+      "Liste 1990",
+      2350,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "16233",
+      "Liste 1990",
+      3650,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "116234",
       "Liste 2021",
       7950,
       "heute",
       9087
+     ],
+     [
+      "116264 (Turn-O-Graph)",
+      "letzte Liste 2021",
+      7650,
+      "heute",
+      7973,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        7650,
+        "USD"
+       ]
+      ]
      ],
      [
       "126334",
@@ -4725,25 +4967,29 @@
       9854
      ],
      [
-      "116264 (Turn-O-Graph)",
-      "Liste 2004",
-      4890,
+      "126234",
+      "Liste 2026",
+      10100,
       "heute",
-      7973,
+      12407,
       [
-       "EUR",
+       "USD",
        "USD"
-      ],
+      ]
+     ],
+     [
+      "126233",
+      "Liste 2026",
+      15900,
+      "heute",
+      14887,
       [
-       [
-        "2021",
-        7650,
-        "USD"
-       ]
+       "USD",
+       "USD"
       ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16234: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: Mitte der Spanne von rund 3.150 bis 7.150 EUR für 1601/1603 der 1970er laut Händlerratgeber (grob). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert. Turn-O-Graph 116264: Marktschätzung von WatchCharts (Herbst 2026); Händlerpreise 7.950 bis 9.850 EUR, ein Exemplar von 2004 erzielte 2023 bei einer Auktion 8.400 EUR."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16234: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Gebrauchtpreis: Mitte der Spanne von rund 3.150 bis 7.150 EUR für 1601/1603 der 1970er laut Händlerratgeber (grob). Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert. Turn-O-Graph 116264: Marktschätzung von WatchCharts (Herbst 2026); Händlerpreise 7.950 bis 9.850 EUR, ein Exemplar von 2004 erzielte 2023 bei einer Auktion 8.400 EUR. 1601: Listenpreis 1968 laut Nachdruck eines Rolex-Preiskatalogs (Wind Vintage), vermutlich Stahlausführung; nur über Suchauszug geprüft. Gebrauchtpreis: WatchCharts-Marktpreis vom 13. November 2026 (ein Stand vom 14. Oktober nennt 4.773 USD). 126234: Listenpreis USA laut rolex.com für das Jubilé-Band (Oyster-Band 9.900 USD). Gebrauchtpreis: WatchCharts-Marktindex Datejust, Stand 21. November 2026. 126233: Listenpreis USA laut rolex.com für Champagner-Zifferblatt mit Jubilé-Band (mit Oyster-Band 15.150 USD). Gebrauchtpreis: WatchCharts-Marktpreis vom 28. Oktober 2026. 116264: Turn-O-Graph: letzter Listenpreis laut WatchCharts (September 2021), Marktpreis laut WatchCharts vom 15. Oktober 2026 (entspricht den vorhandenen Werten)."
    },
    "w": "1945 schaltete sie als erste Armbanduhr das Datum selbstständig um, seit den 1950er-Jahren sitzt die Cyclops-Lupe auf dem Glas.",
    "lume": {
@@ -4968,10 +5214,14 @@
     "rows": [
      [
       "1803",
-      "",
-      null,
+      "Liste 1968",
+      1200,
       "heute",
-      17500
+      17500,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "18038",
@@ -5012,10 +5262,37 @@
       "Liste 2026",
       50400,
       "heute",
-      49753
+      49753,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2015",
+        34850,
+        "USD"
+       ],
+       [
+        "Jan. 2026",
+        48000,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "228236",
+      "Liste 2026",
+      68800,
+      "heute",
+      74591,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Oktober 2026); die ältere 18238 schwankt je nach Zifferblatt zu stark für einen Richtwert. Vintage-Referenzen: Händlerangebote und Verkäufe für typische Gelbgold-Exemplare liegen bei etwa 13.400 bis 17.900 EUR (hier die Mitte); ein Listenpreis aus der Bauzeit war nicht auffindbar. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Oktober 2026); die ältere 18238 schwankt je nach Zifferblatt zu stark für einen Richtwert. Vintage-Referenzen: Händlerangebote und Verkäufe für typische Gelbgold-Exemplare liegen bei etwa 13.400 bis 17.900 EUR (hier die Mitte); ein Listenpreis aus der Bauzeit war nicht auffindbar. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert. 1803: Listenpreis 1968 laut Nachdruck eines Rolex-Preiskatalogs (Wind Vintage), Gelbgold am Armband; am Lederband 600 USD. Nur über Suchauszug geprüft. Kein neuer Gebrauchtpreis (WatchCharts-Wert nicht lesbar). 228238: Listenpreis USA laut rolex.com (Zifferblatt ohne Diamanten, nach der Erhöhung im Juni 2026). 2015: Einstiegspreis der neuen Day-Date 40 in Gelbgold zur Vorstellung (Professional Watches). Januar 2026: rund 48.000 USD nach der Jahreserhöhung laut Hypebeast. 228236: Platin mit eisblauem Zifferblatt: Listenpreis USA laut rolex.com. Gebrauchtpreis: WatchCharts-Marktpreis vom 10. Oktober 2026."
    },
    "w": "Als erste Armbanduhr mit ausgeschriebenem Wochentag erschien die Day-Date 1956, ausschließlich in Gold oder Platin und mit dem eigens entwickelten President-Band.",
    "lume": {
@@ -5207,9 +5484,12 @@
       "1016",
       "Liste 1968",
       205,
-      "",
-      null,
-      null,
+      "heute",
+      14743,
+      [
+       "USD",
+       "USD"
+      ],
       [
        [
         "1985",
@@ -5255,6 +5535,24 @@
       ]
      ],
      [
+      "124270",
+      "Liste 2026",
+      7900,
+      "heute",
+      8104,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        6450,
+        "USD"
+       ]
+      ]
+     ],
+     [
       "224270",
       "Liste 2026",
       8350,
@@ -5262,7 +5560,7 @@
       8634
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise: 114270 laut WatchCharts (September 2021); 14270 der letzte von WatchCharts geführte Listenpreis der Referenz (Jahr nicht angegeben). Bei bereits eingestellten Referenzen führt WatchCharts teils spätere oder rechnerische Listenpreise; sie sind daher nur als grober Anhaltspunkt zu verstehen. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Für ein Gebrauchtpreis-Äquivalent der 1016 fand sich kein belastbarer Wert. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise: 114270 laut WatchCharts (September 2021); 14270 der letzte von WatchCharts geführte Listenpreis der Referenz (Jahr nicht angegeben). Bei bereits eingestellten Referenzen führt WatchCharts teils spätere oder rechnerische Listenpreise; sie sind daher nur als grober Anhaltspunkt zu verstehen. Vintage-Referenzen: Listenpreise von 1968 laut einem Nachdruck des Rolex-Preiskatalogs (windvintage.com), nicht von uns verifiziert. Für ein Gebrauchtpreis-Äquivalent der 1016 fand sich kein belastbarer Wert. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. Listenpreise von 1990: US-Katalogpreise (Bailey, Banks & Biddle) aus einem Forenbeitrag, nicht von uns verifiziert. 1016: Listenpreis 1968 laut Nachdruck eines Rolex-Preiskatalogs (Wind Vintage). Gebrauchtpreis: WatchCharts-Marktpreis vom 30. Oktober 2026 (beim Händler rund 17.300 USD). 124270: Listenpreis USA laut rolex.com (WatchCharts bestätigt 7.900 USD, September 2026). 2021: Einführungspreis. Gebrauchtpreis: WatchCharts-Marktpreis vom 1. November 2026."
    },
    "w": "Die Ziffern 3, 6 und 9 und eine bewusst schlichte Form entstanden 1953, im Jahr der Erstbesteigung des Mount Everest.",
    "var": [
@@ -5475,6 +5773,17 @@
     "u": "USD",
     "rows": [
      [
+      "1665",
+      "",
+      null,
+      "heute",
+      42500,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "16660",
       "Liste 1985",
       2205,
@@ -5515,10 +5824,14 @@
       "Liste 2026",
       14550,
       "heute",
-      12896
+      12896,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16600: Listenpreis in Stahl bis 2008 laut WatchCharts. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 16600: Listenpreis in Stahl bis 2008 laut WatchCharts. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. 126600: Listenpreis (September 2026) und geschätzter Privatverkaufspreis (30. Oktober 2026) laut WatchCharts (126600-0002). 1665: Spanne 40.000 bis 45.000 USD und mehr laut Preisführer von Bob's Watches, hier der Mittelwert; stark abhängig von Zifferblatt-Ausführung (Mark I bis IV) und Zustand."
    },
    "w": "Mit dem Heliumventil, das sie 1967 einführte, wurde sie zur Uhr für Sättigungstaucher in großer Tiefe.",
    "lume": {
@@ -5797,17 +6110,6 @@
     "u": "USD",
     "rows": [
      [
-      "3800/1A",
-      "Liste 1982",
-      3835,
-      "heute",
-      50000,
-      [
-       "EUR",
-       "USD"
-      ]
-     ],
-     [
       "3700/1A »Jumbo«",
       "Liste 1976",
       3100,
@@ -5815,28 +6117,141 @@
       129500
      ],
      [
+      "3800/1A",
+      "Liste 1982",
+      3835,
+      "heute",
+      65313,
+      [
+       "EUR",
+       "USD"
+      ]
+     ],
+     [
       "5711/1A",
       "letzte Liste 2021",
       34890,
       "heute",
-      114897,
-      null,
+      115010,
+      [
+       "USD",
+       "USD"
+      ],
       [
        [
         "2006 (ca.)",
         25000
+       ],
+       [
+        "2015",
+        26700,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "5711/1P",
+      "Liste 2016",
+      115600,
+      "heute",
+      394856,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "5740/1G",
+      "Liste 2026",
+      178045,
+      "Auktion 2025",
+      270200,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2018",
+        119070,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "5711/1A-014",
+      "Liste 2021",
+      30400,
+      "Auktion 2024",
+      279400,
+      [
+       "EUR",
+       "CHF"
+      ],
+      [
+       [
+        "2021 (Auktion)",
+        320000,
+        "EUR"
+       ]
+      ]
+     ],
+     [
+      "5711/1A-018",
+      "Liste 2021",
+      52635,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2022 (Auktion)",
+        3220000,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "5711/1R",
+      "letzte Liste 2021",
+      59140,
+      "heute",
+      195237,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2015",
+        51000,
+        "USD"
        ]
       ]
      ],
      [
       "5811/1G",
-      "",
-      null,
+      "Liste 2026",
+      82021,
       "heute",
-      195000
+      195000,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2022",
+        69785,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Patek Philippe veröffentlicht keinen offiziellen Listenpreis. Gebrauchtpreis: typische Angebote laut WatchProSite rund 169.850 bis 181.500 EUR (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händler- und Ratgeberangaben aus 2025 (Luxury Bazaar, WatchProSite); Einzelstücke schwanken stark. Neupreis 3700: Listenpreis zum Verkaufsstart 1976 laut Händlerangabe (A Collected Man). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. 5711/1A: Startpreis 2006 laut einer Quelle rund 25.000 USD (Angaben schwanken bis 30.000)."
+    "n": "Patek Philippe veröffentlicht keinen offiziellen Listenpreis. Gebrauchtpreis: typische Angebote laut WatchProSite rund 169.850 bis 181.500 EUR (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händler- und Ratgeberangaben aus 2025 (Luxury Bazaar, WatchProSite); Einzelstücke schwanken stark. Neupreis 3700: Listenpreis zum Verkaufsstart 1976 laut Händlerangabe (A Collected Man). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. 5711/1A: Startpreis 2006 laut einer Quelle rund 25.000 USD (Angaben schwanken bis 30.000). 5711/1A: Letzter Listenpreis (Dez. 2021) und Marktpreis (27.10.2026) laut WatchCharts. 2015: Listenpreis laut Händlerangabe zu einem Exemplar mit Papieren von August 2015 (Quelle aus Suchergebnis, Zuordnung zur Händlerseite nicht vollständig geprüft). Einen belegten Startpreis 2006 fanden wir nicht. 5711/1A-014: Listenpreis zur Vorstellung 2021 laut Monochrome. Gebraucht: Zuschlag bei Phillips Genf, Mai 2024. 2021: Antiquorum-Zuschlag (ohne Aufgeld) für ein ungetragenes Exemplar. 5711/1A-018: Tiffany-Edition (170 Stück): Listenpreis 2021 laut Watchonista. 2022: Zuschlag bei Christie's Genf. Kein aktueller Marktwert belegbar (Einzelstücke, nur Händlerforderungen ab ca. 1,5 Mio. USD). Charity-Exemplar Phillips 2021 (6,5 Mio. USD) bewusst nicht verwendet. 5711/1R: Roségold am Band. Liste Dez. 2021 und Marktpreis (31.10.2026) laut WatchCharts; eine zweite WatchCharts-Seite (5711R allgemein) nennt nur 87.258 USD, daher unsicher. 2015: Preis zur Vorstellung laut WatchesbySJX. 5711/1P: 40-Jahre-Jubiläum, Platin, 700 Stück. Liste 2016 und Marktpreis (7.11.2026) laut WatchCharts. Auktionen lagen zuletzt meist zwischen 350.000 und 480.000 USD. 5740/1G: Ewiger Kalender. Aktueller US-Listenpreis laut patek.com; Startpreis 2018 laut WatchesbySJX. Gebraucht: Sotheby's-Ergebnis 2025 für ein ungetragenes Exemplar. 5811/1G: US-Listenpreis laut patek.com (nach Preissenkung Feb. 2026); Startpreis 2022 laut aBlogtoWatch. Kein neuer belegter Gebrauchtwert, bestehender Wert bleibt. 3800/1A: Marktpreis (20.10.2026) laut WatchCharts; ersetzt den bisherigen Richtwert von 50.000 USD."
    },
    "w": "1976 setzte die Nautilus mit Bullaugen-Gehäuse und integriertem Band einen frühen Maßstab für Luxus-Uhren aus Stahl.",
    "lume": {
@@ -6012,25 +6427,11 @@
     "u": "USD",
     "rows": [
      [
-      "3919J",
-      "",
-      null,
-      "heute",
-      18350
-     ],
-     [
       "5196",
       "",
       null,
       "heute",
       15500
-     ],
-     [
-      "6119G",
-      "Liste 2026",
-      37510,
-      "heute",
-      27734
      ],
      [
       "5524G (Pilot Travel Time)",
@@ -6041,13 +6442,86 @@
      ],
      [
       "5524R (Pilot Travel Time)",
+      "Liste 2026",
+      67267,
+      "heute",
+      37006,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "5196G",
+      "letzte Liste 2022",
+      25550,
+      "heute",
+      21808,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "6119G",
+      "Liste 2026",
+      37510,
+      "heute",
+      27734,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        29570,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "6119R",
+      "Liste 2026",
+      37510,
+      "heute",
+      29241,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "3919J",
       "",
       null,
       "heute",
-      37006
+      18350
+     ],
+     [
+      "5196R",
+      "",
+      null,
+      "heute",
+      23229,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "5196J",
+      "",
+      null,
+      "heute",
+      22014,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebote und Verkäufe bei WatchProSite (3919/5J Gelbgold 33 mm; 5196 in Weißgold/Gelbgold). Pilot Travel Time: Marktschätzung von WatchCharts (Herbst 2026); Händler verlangen für die 5524G meist 37.550 bis 41.550 EUR."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebote und Verkäufe bei WatchProSite (3919/5J Gelbgold 33 mm; 5196 in Weißgold/Gelbgold). Pilot Travel Time: Marktschätzung von WatchCharts (Herbst 2026); Händler verlangen für die 5524G meist 37.550 bis 41.550 EUR. 5196G: Liste März 2022 und Marktpreis (22.10.2026) laut WatchCharts. 5196R: Marktpreis (30.10.2026) laut WatchCharts. 5196J: Marktpreis (10.10.2026) laut WatchCharts. 6119G: US-Listenpreis laut patek.com; Startpreis 2021 laut Watch Collecting Lifestyle (einzige Quelle). 6119R: Listenpreis laut patek.com, Marktpreis (30.10.2026) laut WatchCharts. 5524R (Pilot Travel Time): US-Listenpreis laut patek.com (Seitenstand nicht sicher aktuell)."
    },
    "ev": [
     [
@@ -6284,6 +6758,82 @@
     "u": "USD",
     "rows": [
      [
+      "5167A",
+      "Liste 2026",
+      27257,
+      "heute",
+      69056,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2025",
+        29875,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "5164A Travel Time",
+      "Liste 2024",
+      42580,
+      "heute",
+      90500,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2011",
+        30000,
+        "CHF"
+       ]
+      ]
+     ],
+     [
+      "5168G",
+      "Liste 2026",
+      57890,
+      "2025",
+      80000,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2025",
+        63306,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "5164R",
+      "Liste 2026",
+      71643,
+      "heute",
+      124884,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "5167R",
+      "Liste 2026",
+      53514,
+      "heute",
+      101147,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "5066A",
       "ursprüngliche Liste (ca.)",
       6900,
@@ -6293,23 +6843,9 @@
        "CHF",
        "USD"
       ]
-     ],
-     [
-      "5164A Travel Time",
-      "Liste 2024",
-      42580,
-      "heute",
-      90500
-     ],
-     [
-      "5167A",
-      "Liste 2026",
-      27257,
-      "heute",
-      69056
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Patek senkte die US-Preise im Februar 2026. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 5066A: Käuferratgeber (Richtwert, selten angeboten); 5164A: geschätzter Privatverkaufswert laut WatchCharts. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Patek senkte die US-Preise im Februar 2026. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 5066A: Käuferratgeber (Richtwert, selten angeboten); 5164A: geschätzter Privatverkaufswert laut WatchCharts. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. 5164A Travel Time: Startpreis 2011 (vor Steuern) laut Monochrome von der Baselworld 2011. 5164R: Roségold-Travel-Time. Listenpreis laut patek.com/WatchCharts (Sep. 2026), Marktpreis (12.11.2026) laut WatchCharts. 5167A: US-Listenpreis laut patek.com; 2025: Listenpreis vor der US-Preissenkung im Februar 2026 laut Luxury Bazaar. 5167R: Listenpreis laut patek.com, Marktpreis (10.10.2026) laut WatchCharts. 5168G: Aquanaut »Jumbo« Weißgold (-001 blau und -010 khaki gleich teuer). Liste 2026 laut patek.com, Liste 2025 vor der Preissenkung laut Luxury Bazaar. Gebraucht: Marktpreis laut Luxury Bazaar (Sep. 2025); aktuelle Händlerangebote liegen deutlich höher (ca. 100.000 bis 130.000 USD)."
    },
    "ev": [
     [
@@ -6489,7 +7025,31 @@
    ],
    "dial": "Blau, guillochiert",
    "iref": "5230G",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "5230G",
+      "Liste 2016",
+      47000,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ],
+      [
+       [
+        "2016",
+        42300,
+        "CHF"
+       ]
+      ]
+     ]
+    ],
+    "n": "5230G: Startpreis 2016: 47.000 USD laut Watch Collecting Lifestyle (andere Quelle: 47.600 USD), Schweizer Preis 42.300 CHF. Kein belegter aktueller Marktpreis (WatchCharts-Wert verdeckt)."
+   }
   },
   {
    "id": "annual-calendar",
@@ -6958,6 +7518,42 @@
       ]
      ],
      [
+      "26574OR",
+      "Liste 2015",
+      95700,
+      "heute",
+      144536,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2020",
+        111900,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "26240ST (Chronograph)",
+      "Liste",
+      44400,
+      "heute",
+      68950,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2025",
+        38500,
+        "USD"
+       ]
+      ]
+     ],
+     [
       "15510ST",
       "Liste 2026",
       31900,
@@ -6972,21 +7568,25 @@
       80386
      ],
      [
-      "26240ST (Chronograph)",
-      "Liste",
-      44400,
-      "heute",
-      68950
-     ],
-     [
       "26574ST (Ewiger Kalender)",
       "Liste (Händlerangabe)",
       129900,
       "heute",
-      113600
+      113600,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2015",
+        60900,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14790: laut Chronext inzwischen nahe 40.000 Euro (Richtwert). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Neupreis 5402: Listenpreis zum Verkaufsstart 1972; Gebrauchtpreis: Händlerangebote zwischen etwa 60.000 und 129.650 EUR, hier ein grober Mittelwert. Chronograph 26240ST: Gebrauchtpreis als Angebot eines Händlers (Herbst 2026), Listenpreis von einer Preisseite ohne Datum, unsicher. Ewiger Kalender 26574ST: Gebrauchtwert als Mitte der Händlerpreise zwischen 89.350 und 113.800 EUR; kein offizieller Listenpreis auffindbar."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14790: laut Chronext inzwischen nahe 40.000 Euro (Richtwert). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Neupreis 5402: Listenpreis zum Verkaufsstart 1972; Gebrauchtpreis: Händlerangebote zwischen etwa 60.000 und 129.650 EUR, hier ein grober Mittelwert. Chronograph 26240ST: Gebrauchtpreis als Angebot eines Händlers (Herbst 2026), Listenpreis von einer Preisseite ohne Datum, unsicher. Ewiger Kalender 26574ST: Gebrauchtwert als Mitte der Händlerpreise zwischen 89.350 und 113.800 EUR; kein offizieller Listenpreis auffindbar. 26574ST (Ewiger Kalender): Startpreis 2015 laut Hypebeast und Time+Watches (61.100 EUR). 26574OR: Roségold. Startpreis 2015 laut Hypebeast; Liste Juli 2020 und Marktpreis (13.11.2026) laut WatchCharts. 26240ST (Chronograph): Unverbindliche US-Preisempfehlung Januar 2025 laut La Côte des Montres. Widerspricht dem bestehenden Listenwert 44.400 USD (undatiert); andere Quellen nennen 40.500 USD."
    },
    "w": "Achteckige Lünette, sichtbare Schrauben und ein integriertes Band: 1972 kostete die Stahluhr mehr als manche Golduhr.",
    "lume": {
@@ -7151,6 +7751,17 @@
       20661
      ],
      [
+      "26420SO",
+      "Liste 2025",
+      45000,
+      "heute",
+      28515,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "26420ST",
       "Liste 2026",
       45900,
@@ -7158,7 +7769,7 @@
       36035
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. 26420SO: Ausführung 26420SO.OO.A002CA.01 (Stahl, Kautschukband). Liste Juni 2025 und Marktpreis (11.11.2026) laut WatchCharts."
    },
    "ev": [
     [
@@ -7301,10 +7912,25 @@
       "Liste 2026",
       28800,
       "heute",
-      18110
+      17899,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "15210OR",
+      "",
+      null,
+      "heute",
+      21377,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 15210ST: Listenpreis (Sep. 2026) laut WatchCharts; Marktpreis (30.10.2026) der grünen Ausführung laut WatchCharts, Modellseite nennt 18.110 USD. 15210OR: Roségold. Marktwert laut WatchCharts-Übersicht (ohne genaues Datum, Spanne 19.539 bis 23.215 USD)."
    },
    "ev": [
     [
@@ -7620,6 +8246,101 @@
       10600
      ],
      [
+      "3570.50",
+      "Liste 2009 (ca.)",
+      2500,
+      "heute",
+      4542,
+      null,
+      [
+       [
+        "2023",
+        4500
+       ]
+      ]
+     ],
+     [
+      "331.10.42.51",
+      "Liste (zuletzt)",
+      9000,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "311.92.44.51.01.003 (Dark Side)",
+      "letzte Liste 2023",
+      12000,
+      "heute",
+      7329,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2023",
+        12000,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "311.92.44.51.01.007",
+      "letzte Liste 2025",
+      14400,
+      "heute",
+      7337,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "310.30.42.50.01.001",
+      "Liste 2026",
+      7800,
+      "heute",
+      6000,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        6100,
+        "EUR"
+       ],
+       [
+        "2023",
+        7500,
+        "EUR"
+       ]
+      ]
+     ],
+     [
+      "310.30.42.50.01.002",
+      "Liste 2026",
+      9000,
+      "heute",
+      6489,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2024",
+        8000,
+        "USD"
+       ]
+      ]
+     ],
+     [
       "105.003 »Ed White«",
       "",
       null,
@@ -7641,20 +8362,6 @@
       4350
      ],
      [
-      "3570.50",
-      "Liste 2009 (ca.)",
-      2500,
-      "heute",
-      4542,
-      null,
-      [
-       [
-        "2023",
-        4500
-       ]
-      ]
-     ],
-     [
       "311.30.42.30.01.005",
       "",
       null,
@@ -7662,28 +8369,14 @@
       5330
      ],
      [
-      "310.30.42.50.01.001",
-      "Liste 2026",
-      7800,
-      "heute",
-      6000
-     ],
-     [
       "331.10.42.51.01.001 (’57)",
       "Liste (zuletzt)",
       9000,
       "heute",
       4668
-     ],
-     [
-      "311.92.44.51.01.003 (Dark Side)",
-      "letzte Liste 2023",
-      12000,
-      "heute",
-      7329
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenz 311.30.42.30.01.005 (bis 2021): Händlerangebot von SwissWatchExpo. Ältere Referenzen: 3570.50: WatchCharts (Oktober 2026); 3590.50: Händlerangebot eines Exemplars von 1991. Vintage-Referenzen: 105.012: Listenpreis laut einer einzelnen Quelle (ca. 160 EUR), Gebrauchtpreis aus Händlerangeboten von rund 8.600 bis 10.450 EUR; 105.003: WatchCharts (Oktober 2026); 145.012: Mitte einer Händlerspanne von rund 7.150 bis 13.400 EUR. Grobe Richtwerte, stark zustandsabhängig. 3570.50: Listenpreis um 2009 von rund 2.500 USD bei autorisierten Händlern (Hesalit-Version, laut Preisgeschichte), 2023 lag er bei 4.500 USD. Speedmaster ’57: Gebrauchtwert als Mitte zwischen einem verkauften Exemplar (3.800 EUR) und einem Händlerpreis (4.550 EUR). Dark Side of the Moon: Marktschätzung von WatchCharts (Herbst 2026)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: zertifiziertes Gebrauchtangebot von Bucherer (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenz 311.30.42.30.01.005 (bis 2021): Händlerangebot von SwissWatchExpo. Ältere Referenzen: 3570.50: WatchCharts (Oktober 2026); 3590.50: Händlerangebot eines Exemplars von 1991. Vintage-Referenzen: 105.012: Listenpreis laut einer einzelnen Quelle (ca. 160 EUR), Gebrauchtpreis aus Händlerangeboten von rund 8.600 bis 10.450 EUR; 105.003: WatchCharts (Oktober 2026); 145.012: Mitte einer Händlerspanne von rund 7.150 bis 13.400 EUR. Grobe Richtwerte, stark zustandsabhängig. 3570.50: Listenpreis um 2009 von rund 2.500 USD bei autorisierten Händlern (Hesalit-Version, laut Preisgeschichte), 2023 lag er bei 4.500 USD. Speedmaster ’57: Gebrauchtwert als Mitte zwischen einem verkauften Exemplar (3.800 EUR) und einem Händlerpreis (4.550 EUR). Dark Side of the Moon: Marktschätzung von WatchCharts (Herbst 2026). 310.30.42.50.01.001: Listenpreis USA laut Händler (auch Luxury Bazaar, Oktober 2025: 7.800 USD). Einführungspreis 2021 in Europa 6.100 EUR, Anfang 2023 nach Preiserhöhung 7.500 EUR (Atelier de Griff). Bestehender Gebrauchtwert (Bucherer) bleibt. 310.30.42.50.01.002: Saphirglas-Ausführung. Listenpreis (September 2026) und Marktpreis (Oktober 2026) laut WatchCharts; Listenpreis 2024 laut Händlerangabe (Bernard Watch, Exemplar mit Garantie Februar 2024). 331.10.42.51: Letzter Listenpreis laut Händler (Bernard Watch, auch Exquisite Timepieces). Kein aktueller WatchCharts-Wert lesbar; Händlerangebote 4.235 bis 5.250 USD, daher bestehender Gebrauchtwert beibehalten. 311.92.44.51.01.007: Ausführung mit Master-Chronometer-Aufschrift (wie abgebildet). Letzter Listenpreis (Oktober 2025) und Marktpreis (November 2026) laut WatchCharts; eingestellt. 311.92.44.51.01.003: Einführungspreis 12.000 USD laut Hodinkee »A Week on the Wrist« (Wiedergabe bei Hypebeast, Februar 2014); Listenpreis Februar 2023 unverändert 12.000 USD und Marktpreis November 2026 laut WatchCharts."
    },
    "w": "1969 war sie bei der ersten Mondlandung dabei und ist bis heute von der NASA für bemannte Missionen zugelassen.",
    "lume": {
@@ -7872,6 +8565,17 @@
       3630
      ],
      [
+      "210.30.42.20.01.001",
+      "Liste 2026",
+      6700,
+      "heute",
+      5090,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "210.30.42.20.03.001",
       "Liste",
       6700,
@@ -7879,7 +8583,7 @@
       5250
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 2254.50: WatchCharts (Oktober 2026); 2531.80: Mitte typischer Angebote von rund 1.950 bis 3.200 EUR. Neupreis 2531.80: Mitte der Spanne von 980 bis 1.250 EUR zum Verkaufsstart 1993 laut The Watchology."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 2254.50: WatchCharts (Oktober 2026); 2531.80: Mitte typischer Angebote von rund 1.950 bis 3.200 EUR. Neupreis 2531.80: Mitte der Spanne von 980 bis 1.250 EUR zum Verkaufsstart 1993 laut The Watchology. 210.30.42.20.01.001: Schwarzes Zifferblatt. Listenpreis USA laut Bucherer (auch The 1916 Company); Gebrauchtpreis: Watchfinder-Angebot eines Exemplars von 2024 in sehr gutem Zustand."
    },
    "w": "Wellenzifferblatt und Heliumventil prägen die Taucheruhr, die seit 1995 am Handgelenk von James Bond sitzt.",
    "lume": {
@@ -8034,10 +8738,21 @@
       "Liste 2025",
       8000,
       "heute",
-      4266
+      4266,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2023",
+        7100,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebote von rund 2.850 bis 4.450 EUR, hier ein Mittelwert. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebote von rund 2.850 bis 4.450 EUR, hier ein Mittelwert. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. 215.30.44.21.01.001: Letzter Listenpreis (Oktober 2025) und Marktpreis (Oktober 2026) laut WatchCharts, bestätigt bestehende Werte. Früherer Listenpreis 7.100 USD laut Händler Bernard Watch (Angabe um 2023, Jahr nicht exakt belegt)."
    },
    "ev": [
     [
@@ -8205,9 +8920,20 @@
       7400,
       "heute",
       5398
+     ],
+     [
+      "220.10.41.21.03.001",
+      "letzte Liste",
+      6300,
+      "heute",
+      4517,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 220.10.41.21.03.001: Blaues Zifferblatt, laut WatchCharts eingestellt. Listenpreis laut Händler (auch WatchMaxx). Gebrauchtpreis: Mittel aus drei Privatangeboten (4.150 bis 4.950 USD), keine Verkaufsstatistik."
    },
    "ev": [
     [
@@ -8500,10 +9226,14 @@
       "letzte Liste",
       5200,
       "heute",
-      4200
+      3584,
+      [
+       "USD",
+       "EUR"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Mittel aus Händlerangeboten (3.550 bis 4.000 EUR). Die Railmaster ist eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Mittel aus Händlerangeboten (3.550 bis 4.000 EUR). Die Railmaster ist eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 220.10.40.20.01.001: Listenpreis Schweiz laut Händler Junod (Lausanne); in Europa nannte ein Händler 5.500 EUR. Gebrauchtpreis: ein verkauftes Exemplar (3.584 EUR); eBay-Angebote 3.478 bis 4.553 USD."
    },
    "ev": [
     [
@@ -9098,18 +9828,18 @@
     "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Pelagos 42, USA 2026. Ältere Referenzen: Händlerangebote von rund 3.800 bis 4.400 EUR.",
     "rows": [
      [
-      "25600TN",
-      "",
-      null,
-      "heute",
-      4500
-     ],
-     [
       "Pelagos 42",
       "Liste 2026",
       6025,
       "",
       null
+     ],
+     [
+      "25600TN",
+      "",
+      null,
+      "heute",
+      4500
      ]
     ]
    },
@@ -9957,6 +10687,13 @@
     "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Portugieser Automatic 42, IW501701, USA 2026. Ältere Referenzen: Händlerangebot für ein aufgearbeitetes Exemplar (Watches of Switzerland). Yacht Club Chronograph: Händlerangebot für ein Exemplar mit geschätzter Liste.",
     "rows": [
      [
+      "Yacht Club Chronograph",
+      "Liste (geschätzt)",
+      15100,
+      "heute",
+      8950
+     ],
+     [
       "3714 Chronograph",
       "",
       null,
@@ -9969,13 +10706,6 @@
       13900,
       "",
       null
-     ],
-     [
-      "Yacht Club Chronograph",
-      "Liste (geschätzt)",
-      15100,
-      "heute",
-      8950
      ]
     ],
     "cmp": "IW501701"
@@ -10408,22 +11138,18 @@
       6500
      ],
      [
-      "A23322",
-      "ursprüngliche Liste (ca.)",
-      5200,
-      "heute",
-      3808,
-      [
-       "GBP",
-       "USD"
-      ]
-     ],
-     [
       "A13324",
       "letzte Liste 2019",
       6800,
       "heute",
       3744
+     ],
+     [
+      "AB0138 (B01, 43 mm)",
+      "Liste 2026",
+      10700,
+      "",
+      null
      ],
      [
       "AB0137 (B01, 46 mm)",
@@ -10433,11 +11159,15 @@
       6017
      ],
      [
-      "AB0138 (B01, 43 mm)",
-      "Liste 2026",
-      10700,
-      "",
-      null
+      "A23322",
+      "ursprüngliche Liste (ca.)",
+      5200,
+      "heute",
+      3808,
+      [
+       "GBP",
+       "USD"
+      ]
      ]
     ]
    },
@@ -11137,18 +11867,18 @@
       1637
      ],
      [
-      "CV2111",
-      "",
-      null,
-      "heute",
-      2128
-     ],
-     [
       "CBS2210 (Glassbox)",
       "Liste 2026",
       5750,
       "",
       null
+     ],
+     [
+      "CV2111",
+      "",
+      null,
+      "heute",
+      2128
      ]
     ]
    },
@@ -11343,6 +12073,17 @@
       ]
      ],
      [
+      "126622",
+      "Liste 2026",
+      13200,
+      "heute",
+      13988,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "116622",
       "ursprüngliche Liste (ca. 8.000 bis 9.000)",
       8500,
@@ -11352,16 +12093,9 @@
        "EUR",
        "USD"
       ]
-     ],
-     [
-      "126622",
-      "Liste 2026",
-      13200,
-      "heute",
-      13988
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die WatchCharts-Werte beziehen sich auf die Yacht-Master-Familie, nicht nur auf diese Referenz. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 16622 laut WatchCharts (Oktober 2026); 116622: typische Händlerangebote zwischen etwa 15.000 und 15.200 EUR. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die WatchCharts-Werte beziehen sich auf die Yacht-Master-Familie, nicht nur auf diese Referenz. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 16622 laut WatchCharts (Oktober 2026); 116622: typische Händlerangebote zwischen etwa 15.000 und 15.200 EUR. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. 126622: Listenpreis (September 2026) und Marktwert (11. Oktober 2026) laut WatchCharts; BQ Watches nennt für Oktober 2026 11.820 GBP."
    },
    "ev": [
     [
@@ -11526,8 +12260,8 @@
       "5500",
       "Liste 1985",
       1075,
-      "",
-      null,
+      "heute",
+      3640,
       [
        "CHF",
        "USD"
@@ -11567,10 +12301,21 @@
       "Liste 2026",
       8150,
       "heute",
-      8262
+      8262,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2022",
+        7400,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14000M laut WatchCharts (Oktober 2026); 114200: Händlerangebote von rund 5.800 bis 8.000 EUR, hier der untere Wert. Neupreis 14000M: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 14000M laut WatchCharts (Oktober 2026); 114200: Händlerangebote von rund 5.800 bis 8.000 EUR, hier der untere Wert. Neupreis 14000M: letzter von WatchCharts geführter Listenpreis (Jahr nicht angegeben). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. 5500: Gebrauchtpreis: WatchCharts-Marktpreis vom 10. Oktober 2026. 126900: Listenpreis USA laut rolex.com (WatchCharts bestätigt, September 2026). 2022: Einführungspreis laut Händlerblog. Kein neuer Gebrauchtpreis."
    },
    "ev": [
     [
@@ -11783,8 +12528,8 @@
       "1019",
       "Liste 1985",
       1490,
-      "",
-      null,
+      "heute",
+      26894,
       [
        "CHF",
        "USD"
@@ -11795,10 +12540,25 @@
       "letzte Liste 2023",
       9300,
       "heute",
-      10985
+      11060,
+      [
+       "USD",
+       "GBP"
+      ]
+     ],
+     [
+      "116400GV-0002",
+      "letzte Liste 2023",
+      9300,
+      "heute",
+      13000,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Milgauss wurde 2023 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Die Milgauss wurde 2023 eingestellt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. 1019: Gebrauchtpreis: WatchCharts-Marktpreis vom 2. November 2026 (beim Händler rund 31.000 USD). 116400GV: Letzter Listenpreis laut WatchCharts (Februar 2023). Gebrauchtpreis: BQ-Watches-Marktindex Oktober 2026 für ein Standardexemplar (Großbritannien). 116400GV-0002: »Z-Blue«: letzter Listenpreis laut WatchCharts (Februar 2023, wie schwarzes Zifferblatt). Gebrauchtpreis: Mitte der Spanne 12.000 bis 14.000 USD laut Bob's Watches (undatiert); aktuelle Händlerangebote 13.300 bis 16.500 USD."
    },
    "w": "Der blitzförmige Sekundenzeiger und der Schutz gegen Magnetfelder machen sie zur Uhr für Wissenschaftler.",
    "lume": {
@@ -12015,17 +12775,6 @@
       ]
      ],
      [
-      "116000",
-      "ursprüngliche Liste (ca. 3.000 bis 3.500)",
-      3250,
-      "heute",
-      5500,
-      [
-       "EUR",
-       "USD"
-      ]
-     ],
-     [
       "114300",
       "ursprüngliche Liste (ca.)",
       4600,
@@ -12041,10 +12790,25 @@
       "Liste",
       6500,
       "heute",
-      8890
+      8650,
+      [
+       "USD",
+       "GBP"
+      ]
+     ],
+     [
+      "116000",
+      "ursprüngliche Liste (ca. 3.000 bis 3.500)",
+      3250,
+      "heute",
+      5500,
+      [
+       "EUR",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Nur Händlerangebote und einzelne Verkäufe (114300 etwa 7.150 bis 11.550 EUR, 116000 etwa 4.100 bis 6.250 EUR); grobe Richtwerte. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Nur Händlerangebote und einzelne Verkäufe (114300 etwa 7.150 bis 11.550 EUR, 116000 etwa 4.100 bis 6.250 EUR); grobe Richtwerte. Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. 124300: Die 124300 ist nicht mehr im Katalog; Nachfolger 134300 kostet 7.050 USD (rolex.com). Letzter Listenpreis USA laut Händler (Stand Januar 2025). Gebrauchtpreis: BQ-Watches-Marktindex Oktober 2026 (Großbritannien); Bob's Watches nennt einen Median von 10.595 USD."
    },
    "w": "Ohne Datum und ohne Komplikation, dafür in vielen Zifferblattfarben: die schlichteste Rolex.",
    "lume": {
@@ -12189,14 +12953,40 @@
       40500
      ],
      [
+      "336933",
+      "Liste 2026",
+      24050,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "336938",
+      "Liste 2026",
+      60100,
+      "heute",
+      49396,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "336934",
       "Liste",
       17750,
       "heute",
-      23030
+      23030,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 326934: Marktindex BQ Watches (Oktober 2026, 20.400 EUR, umgerechnet); 326938 (Gelbgold): Händlerangebot bzw. eBay-Verkäufe von rund 34.600 bis 38.250 EUR. Neupreise der älteren Referenzen: Listenpreise laut Bob's Watches (undatiert, etwa vor den Erhöhungen ab 2021)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 326934: Marktindex BQ Watches (Oktober 2026, 20.400 EUR, umgerechnet); 326938 (Gelbgold): Händlerangebot bzw. eBay-Verkäufe von rund 34.600 bis 38.250 EUR. Neupreise der älteren Referenzen: Listenpreise laut Bob's Watches (undatiert, etwa vor den Erhöhungen ab 2021). 336934: Listenpreis USA laut rolex.com (je nach Zifferblatt 17.750 bis 17.950 USD). Kein neuer Gebrauchtpreis. 336933: Listenpreis USA laut rolex.com (Champagner-Zifferblatt). Kein Marktpreis gefunden; Händlerangebote 23.500 bis 25.000 USD. 336938: Listenpreis USA laut rolex.com (Champagner). Gebrauchtpreis: WatchCharts-Wert für 336938-0002 vom 5. November 2026; die Modellseite nannte am 11. Oktober 60.823 USD, daher unsicher."
    },
    "ev": [
     [
@@ -12373,17 +13163,43 @@
       "Liste 2016",
       11900,
       "heute",
-      9555
+      10948,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "136660",
       "Liste 2026",
       16500,
       "heute",
-      13583
+      13583,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2024",
+        14150,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "136660-0003",
+      "letzte Liste 2024",
+      14460,
+      "heute",
+      14593,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 116660: WatchCharts (Oktober 2016); andere Quelle nennt 10.750 EUR."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreis 116660: WatchCharts (Oktober 2016); andere Quelle nennt 10.750 EUR. 136660-0003: D-Blue: Listenpreis (März 2024) und geschätzter Privatverkaufspreis (13. November 2026) laut WatchCharts. 136660: Listenpreis der schwarzen Ausführung 136660-0004 im März 2024 laut WatchCharts. 116660 D-Blue: Listenpreis (Oktober 2016, ungefähr) und geschätzter Privatverkaufspreis (30. Oktober 2026) laut WatchCharts (116660-0003, D-Blue). Händler verlangen meist 11.000 bis 15.000 USD."
    },
    "w": "Bis 3.900 Meter wasserdicht, gehört sie zu den extremsten Taucheruhren von Rolex.",
    "lume": {
@@ -12519,6 +13335,47 @@
     "u": "USD",
     "rows": [
      [
+      "CK2913",
+      "",
+      null,
+      "heute",
+      18400,
+      [
+       "USD",
+       "EUR"
+      ],
+      [
+       [
+        "2022",
+        81900,
+        "USD"
+       ],
+       [
+        "2023",
+        6875,
+        "CHF"
+       ]
+      ]
+     ],
+     [
+      "234.30.41.21.01.001",
+      "Liste 2026",
+      8000,
+      "heute",
+      5495,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        6450,
+        "CHF"
+       ]
+      ]
+     ],
+     [
       "165.024",
       "",
       null,
@@ -12530,10 +13387,21 @@
       "Liste",
       8000,
       "heute",
-      4940
+      4940,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        6450,
+        "CHF"
+       ]
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Vintage-Referenzen: Händlerangebote von rund 5.800 bis 13.400 EUR, hier die Mitte; Zustand und Originalität bestimmen den Preis."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: WatchCharts-Angabe ohne genaues Datum. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Vintage-Referenzen: Händlerangebote von rund 5.800 bis 13.400 EUR, hier die Mitte; Zustand und Originalität bestimmen den Preis. 234.30.41.21.01.001: Listenpreis USA laut Tourneau (auch Feldmar). Gebrauchtpreis: Angebot von Bob's Watches (Exemplar 2022); weitere Händler 5.250 bis 5.450 USD. Einführungspreis 2021 am Stahlband 6.450 CHF (Monochrome). 234.30.41.21.03.001: Blaues Zifferblatt. Listenpreis laut Händler; Marktpreis laut WatchCharts (Angebotsseite 2026, ohne genaues Datum). Einführungspreis 2021 am Stahlband 6.450 CHF (Monochrome). CK2913: Gebrauchtpreis: einzelnes Händlerangebot auf Chrono24 (2913-3 von 1960 mit Broad-Arrow-Zeigern), keine Statistik. 2022: Phillips New York, 2913-3 mit Box und Papieren (Ausnahmeergebnis); 2023: Antiquorum Genf, 2913-8 SC. Preise hängen extrem von Unterreferenz, Zeigern und Originalität ab."
    },
    "ev": [
     [
@@ -14196,19 +15064,19 @@
     "u": "USD",
     "rows": [
      [
+      "405.035",
+      "Liste 2025",
+      126800,
+      "heute",
+      75206
+     ],
+     [
       "403.035 (Platin)",
       "",
       null,
       "heute",
       61000,
       "EUR"
-     ],
-     [
-      "405.035",
-      "Liste 2025",
-      126800,
-      "heute",
-      75206
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Durchschnittlicher Auktionspreis 2021 laut Time and Tide (Angebotspreise liegen deutlich höher)."
@@ -14359,18 +15227,18 @@
     "u": "USD",
     "rows": [
      [
-      "PAM00111 Marina",
-      "letzte Liste 2023",
-      6000,
-      "heute",
-      3993
-     ],
-     [
       "PAM01312",
       "Liste",
       8800,
       "heute",
       4800
+     ],
+     [
+      "PAM00111 Marina",
+      "letzte Liste 2023",
+      6000,
+      "heute",
+      3993
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung aus einem Kaufratgeber (2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026)."
@@ -15138,18 +16006,18 @@
     "u": "USD",
     "rows": [
      [
-      "301.SB.131.RX",
-      "Liste (UVP)",
-      15400,
-      "heute",
-      14600
-     ],
-     [
       "441.NX.1171.RX",
       "Liste 2026",
       22800,
       "heute",
       10538
+     ],
+     [
+      "301.SB.131.RX",
+      "Liste (UVP)",
+      15400,
+      "heute",
+      14600
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot für ein Exemplar in sehr gutem Zustand (kein Marktindex)."
@@ -15442,13 +16310,6 @@
     "u": "USD",
     "rows": [
      [
-      "03.2040.400/26",
-      "",
-      null,
-      "heute",
-      4923
-     ],
-     [
       "03.2040.400/69",
       "letzte Liste 2021",
       9400,
@@ -15461,6 +16322,13 @@
       12300,
       "heute",
       7273
+     ],
+     [
+      "03.2040.400/26",
+      "",
+      null,
+      "heute",
+      4923
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026)."
@@ -15727,18 +16595,18 @@
       11000
      ],
      [
-      "47040/000A-9008",
-      "",
-      null,
-      "heute",
-      18722
-     ],
-     [
       "4500V/110A-B126",
       "Liste 2023",
       25000,
       "heute",
       23260
+     ],
+     [
+      "47040/000A-9008",
+      "",
+      null,
+      "heute",
+      18722
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 47040: WatchCharts (November 2026); 42040: Median bei Watchpatrol (Spanne rund 8.200 bis 11.800 EUR)."
@@ -16558,19 +17426,19 @@
       ]
      ],
      [
+      "5015-1130-52A",
+      "Liste 2026",
+      16800,
+      "",
+      null
+     ],
+     [
       "5100B-1110-NABA Bathyscaphe",
       "",
       null,
       "heute",
       6344,
       "USD"
-     ],
-     [
-      "5015-1130-52A",
-      "Liste 2026",
-      16800,
-      "",
-      null
      ]
     ]
    },
@@ -18385,18 +19253,18 @@
     "u": "USD",
     "rows": [
      [
-      "298600-3002",
-      "",
-      null,
-      "heute",
-      12950
-     ],
-     [
       "298600-3001",
       "Liste 2026",
       17000,
       "heute",
       9909
+     ],
+     [
+      "298600-3002",
+      "",
+      null,
+      "heute",
+      12950
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot (The 1916 Company), kein Marktindex."
@@ -18516,6 +19384,13 @@
     "u": "USD",
     "rows": [
      [
+      "81010-11-131-11A",
+      "Liste 2026",
+      15000,
+      "heute",
+      8007
+     ],
+     [
       "81010-11-431-11A",
       "ursprüngliche Liste (ca.)",
       14700,
@@ -18525,13 +19400,6 @@
        "EUR",
        "USD"
       ]
-     ],
-     [
-      "81010-11-131-11A",
-      "Liste 2026",
-      15000,
-      "heute",
-      8007
      ]
     ],
     "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Die genaue Laureato-Referenz war in der Zusammenstellung nicht genannt; der Wert gilt als Richtwert für die 42-mm-Stahlversion."
@@ -18943,10 +19811,25 @@
       "Liste 2026",
       28850,
       "heute",
-      30119
+      30119,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "52509",
+      "Liste 2026",
+      30300,
+      "heute",
+      22699,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 52508: Listenpreis USA laut rolex.com (Lederband); mit Settimo-Armband 40.900 USD. Kein neuer Gebrauchtpreis. 52509: Weißgold: Listenpreis USA laut rolex.com. Gebrauchtpreis: WatchCharts-Marktpreis vom 13. Oktober 2026 (Variante -0002: 25.301 USD)."
    },
    "ev": [
     [
@@ -19106,10 +19989,25 @@
       "Liste 2026",
       16450,
       "heute",
-      23393
+      23393,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "127234",
+      "Liste 2026",
+      15350,
+      "heute",
+      18693,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 127334: Listenpreis USA laut rolex.com. Kein neuer Gebrauchtpreis. 127234: Land-Dweller 36: Listenpreis USA laut rolex.com (WatchCharts bestätigt, September 2026). Gebrauchtpreis: WatchCharts-Marktpreis vom 10. Oktober 2026."
    },
    "ev": [
     [
@@ -21198,9 +22096,31 @@
       15200,
       "heute",
       14450
+     ],
+     [
+      "50505",
+      "letzte Liste 2022",
+      15200,
+      "heute",
+      13186,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "50509",
+      "letzte Liste",
+      15200,
+      "heute",
+      10764,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Neupreis laut Händlerangabe; Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 10.700 und 16.750 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Neupreis laut Händlerangabe; Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 10.700 und 16.750 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 50505: Cellini Time in Everose-Gold: letzter Listenpreis laut WatchCharts (Februar 2022), Marktpreis vom 10. Oktober 2026. 50509: Cellini Time in Weißgold: letzter Listenpreis laut Bob's Watches (ohne Jahr). Gebrauchtpreis: WatchCharts-Marktpreis vom 10. Oktober 2026."
    },
    "lume": {
     "z": "",
@@ -21337,8 +22257,7 @@
       [
        "CHF",
        "USD"
-      ],
-      []
+      ]
      ],
      [
       "19018",
@@ -21350,9 +22269,20 @@
        "CHF",
        "USD"
       ]
+     ],
+     [
+      "17014",
+      "",
+      null,
+      "heute",
+      7756,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 5.350 und 8.050 EUR; ein Listenpreis aus der Bauzeit war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet."
+    "n": "Gebrauchtpreis: Mitte von Händlerangeboten zwischen etwa 5.350 und 8.050 EUR; ein Listenpreis aus der Bauzeit war nicht auffindbar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Listenpreise von 2004 aus einer belgischen Preisliste (Oktober 2004, Euro inklusive Mehrwertsteuer), Listenpreise von 1985 aus einer Schweizer Preisliste in Franken, jeweils zum heutigen Kurs umgerechnet. 17014: Gebrauchtpreis: WatchCharts-Marktpreis vom 14. Oktober 2026. Für 17000 und 17013 war der WatchCharts-Wert nicht lesbar."
    },
    "lume": {
     "z": "",
@@ -21488,10 +22418,14 @@
       "Liste (zuletzt)",
       18700,
       "heute",
-      16125
+      16125,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Gebrauchtwert: Marktangabe aus einem WatchCharts-Inserat; Händler fragen deutlich mehr (bis etwa 24.050 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Gebrauchtwert: Marktangabe aus einem WatchCharts-Inserat; Händler fragen deutlich mehr (bis etwa 24.050 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 116680: Listenpreis (März 2024) laut WatchGuys; ein belegter aktueller Marktwert wurde nicht gefunden."
    },
    "lume": {
     "z": "IH",
@@ -21741,6 +22675,17 @@
     "u": "USD",
     "rows": [
      [
+      "224.30.55.21.01.001",
+      "letzte Liste 2023",
+      9700,
+      "heute",
+      6943,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "227.90.55.21.04.001 (Titan)",
       "",
       null,
@@ -21755,7 +22700,7 @@
       10426
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 224.30.55.21.01.001: Ploprof 1200 M (2009) am Mesh-Band. Letzter Listenpreis (Februar 2023) und Marktpreis (November 2026) laut WatchCharts; eingestellt."
    },
    "lume": {
     "z": "IHP",
@@ -22021,7 +22966,24 @@
    ],
    "dial": "Weiß, »Pie-Pan«",
    "iref": "130.30.39.21.02.001",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "130.30.39.21.02.001",
+      "letzte Liste",
+      8900,
+      "heute",
+      5699,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "130.30.39.21.02.001: Silbernes Zifferblatt, eingestellt. Letzter Listenpreis laut Prestige Time und Exquisite Timepieces. Gebrauchtpreis: Händlerangebot (Topper Jewelers, Exemplar von 2024); The 1916 Company bot ein Exemplar von 2020 für 4.950 USD an."
+   }
   },
   {
    "id": "de-ville-tresor",
@@ -22131,7 +23093,24 @@
    ],
    "dial": "Creme",
    "iref": "435.13.40.21.02.001",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "435.13.40.21.02.001",
+      "Liste 2026",
+      8000,
+      "heute",
+      4602,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "435.13.40.21.02.001: Listenpreis (September 2026) und Marktpreis (November 2026) laut WatchCharts; in Europa 7.700 EUR bei Bucherer."
+   }
   },
   {
    "id": "golden-ellipse",
@@ -22240,6 +23219,17 @@
     "u": "USD",
     "rows": [
      [
+      "3738/100J",
+      "Liste 2010",
+      19500,
+      "heute",
+      22858,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "3738/1 (Gelbgold)",
       "",
       null,
@@ -22254,7 +23244,7 @@
       33923
      ]
     ],
-    "n": "5738R: WatchCharts-Durchschnitt; 3738/1: Händlerangebot für ein Exemplar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "5738R: WatchCharts-Durchschnitt; 3738/1: Händlerangebot für ein Exemplar. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 3738/100J: Liste April 2010 und Marktpreis (11.11.2026) laut WatchCharts; Bauzeit 2008–2018."
    },
    "lume": {
     "z": "",
@@ -22372,13 +23362,17 @@
     "rows": [
      [
       "4910/10A (Stahl)",
-      "",
-      null,
+      "Liste 2016",
+      13100,
       "heute",
-      10948
+      10905,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "WatchCharts-Durchschnitt für die Stahlversion. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "WatchCharts-Durchschnitt für die Stahlversion. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 4910/10A (Stahl): Quarz. Liste April 2016 und Marktpreis (24.10.2026) laut WatchCharts."
    },
    "lume": {
     "z": "",
@@ -22506,14 +23500,36 @@
     "u": "USD",
     "rows": [
      [
+      "5270R",
+      "Liste 2016",
+      176500,
+      "heute",
+      133766,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "5270P (Platin)",
       "Liste 2026",
       248813,
       "heute",
       151397
+     ],
+     [
+      "5270G",
+      "",
+      null,
+      "heute",
+      117341,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 5270G: Marktpreis (30.10.2026) laut WatchCharts; Bauzeit 2011–2019. 5270R: Liste April 2016 und Marktpreis (10.11.2026) laut WatchCharts (Lederband-Version, nicht 5270/1R)."
    },
    "var": [
     {
@@ -22761,18 +23777,18 @@
     "u": "USD",
     "rows": [
      [
-      "15350ST (Stahl)",
-      "",
-      null,
-      "heute",
-      13286
-     ],
-     [
       "15350OR (Roségold)",
       "Liste 2022",
       32800,
       "heute",
       18709
+     ],
+     [
+      "15350ST (Stahl)",
+      "",
+      null,
+      "heute",
+      13286
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
@@ -25150,18 +26166,18 @@
     "u": "USD",
     "rows": [
      [
-      "363.068",
-      "",
-      null,
-      "heute",
-      49700
-     ],
-     [
       "363.179 (Edelstahl)",
       "",
       null,
       "heute",
       61500
+     ],
+     [
+      "363.068",
+      "",
+      null,
+      "heute",
+      49700
      ]
     ],
     "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
@@ -27961,17 +28977,6 @@
     "u": "USD",
     "rows": [
      [
-      "603.010 (Silikonband)",
-      "Liste",
-      1790,
-      "heute",
-      1890,
-      [
-       "EUR",
-       "USD"
-      ]
-     ],
-     [
       "EZM 3 S 603.020",
       "Liste",
       2820,
@@ -27980,6 +28985,17 @@
       [
        "EUR",
        "EUR"
+      ]
+     ],
+     [
+      "603.010 (Silikonband)",
+      "Liste",
+      1790,
+      "heute",
+      1890,
+      [
+       "EUR",
+       "USD"
       ]
      ]
     ],
@@ -29059,20 +30075,20 @@
     "u": "CHF",
     "rows": [
      [
-      "T091.420.46.051.01 (2014)",
-      "Liste 2014 (ohne MwSt.)",
-      995,
-      "heute",
-      null,
-      "CHF"
-     ],
-     [
       "T-Touch Expert Solar (aktuell)",
       "Händler",
       1275,
       "heute",
       null,
       "EUR"
+     ],
+     [
+      "T091.420.46.051.01 (2014)",
+      "Liste 2014 (ohne MwSt.)",
+      995,
+      "heute",
+      null,
+      "CHF"
      ]
     ],
     "n": "Preise beziehungsweise Euro laut Händlern; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
