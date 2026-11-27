@@ -651,7 +651,7 @@ nav a[aria-current="true"] { box-shadow: 0 0 12px color-mix(in srgb, var(--accen
 .daily-fig { display: flex; flex-direction: column; align-items: center; justify-content: center; align-self: stretch; background: var(--bg); border-radius: 12px; padding: 18px; min-height: 260px; }
 .daily-fig .watch { max-height: 320px; width: auto; }
 .watchfig { margin: 6px 0 24px; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; display: grid; justify-items: center; gap: 10px; }
-.watchfig > .wimg-wrap { align-self: center; } /* Bildbereich nie mitstrecken (Nachbarkachel mit längerer Unterschrift): sonst wären Nachtebenen größer als das Tagbild */
+.watchfig { grid-template-rows: min-content; } .watchfig > .wimg-wrap { align-self: start; } /* Bildbereich nie mitstrecken (Nachbarkachel mit längerer Unterschrift): sonst wären Nachtebenen größer als das Tagbild */
 .watchfig .watch { height: 300px; width: auto; max-width: 100%; }
 .watchfig figcaption { font-size: 12px; color: var(--muted); text-align: center; }
 .thumb { height: 150px; margin: -6px -6px 6px; padding: 10px; background: transparent; border-radius: 8px; display: flex; justify-content: center; }
@@ -1374,7 +1374,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026113049";
+const IMGV = "2026113050";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = {}; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
