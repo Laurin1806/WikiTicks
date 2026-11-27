@@ -9564,20 +9564,57 @@
     "rows": [
      [
       "M79030N (Fifty-Eight)",
-      "Liste 2026",
-      5350,
+      "letzte Liste",
+      4000,
       "",
-      null
+      null,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2018",
+        3025,
+        "USD"
+       ]
+      ]
+     ],
+     [
+      "M79030B",
+      "Liste 2019",
+      3025,
+      "heute",
+      3190,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "M79000N (54)",
       "Liste 2026",
       4900,
-      "",
-      null
+      "heute",
+      4049,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "7941A1A0RU",
+      "Liste 2026",
+      5325,
+      "heute",
+      3424,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreise USA 2026 laut Hersteller- bzw. Händlerangaben (Fifty-Eight und 54 jeweils am Stahlband). Ungefähre Werte ohne Gewähr."
+    "n": "Listenpreise USA 2026 laut Hersteller- bzw. Händlerangaben (Fifty-Eight und 54 jeweils am Stahlband). Ungefähre Werte ohne Gewähr. 7941A1A0RU: Black Bay 41 mit burgunderroter Lünette. Listen- und Marktpreis laut WatchCharts (Angebotsseite, Herbst 2026); The 1916 Company führte die Uhr zeitweise für 4.975 USD. M79030N: Letzter Listenpreis laut Tudor (Stahlband, USA); Einführungspreis 2018 laut Thewatchology. Inzwischen eingestellt (WatchCharts). M79030B: Blaue Fifty-Eight; Einführungspreis wie die schwarze Ausführung (Thewatchology). Gebrauchtwert als Mitte von Angeboten zwischen rund 3.000 und 3.380 USD (Everywatch), keine Verkaufsstatistik. M79000N: Listenpreis laut Tudor (USA). Gebrauchtwert als Mittel von vier Händlerangeboten (Prestige Time 3.950, The 1916 Company 3.650, Bob's Watches 4.495, Exquisite Timepieces 4.100 USD), keine Verkaufsstatistik."
    },
    "dial": "Schwarz",
    "iref": "7941A1A0RU",
@@ -9744,7 +9781,24 @@
    ],
    "dial": "Schwarz",
    "iref": "9411/0",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "9411/0",
+      "",
+      null,
+      "Auktion 2021",
+      14600,
+      [
+       "EUR",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "9411/0: Zuschlag bei Uhren-Muser 2021 (Schätzung 10.000 bis 13.000 EUR). Aktuelle Angebote bei eBay liegen etwa zwischen 7.000 und 12.500 USD; Preise hängen stark von Zifferblatt (Snowflake, blau/schwarz) und Zustand ab."
+   }
   },
   {
    "id": "pelagos",
@@ -9847,8 +9901,30 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Pelagos 42, USA 2026. Ältere Referenzen: Händlerangebote von rund 3.800 bis 4.400 EUR.",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Pelagos 42, USA 2026. Ältere Referenzen: Händlerangebote von rund 3.800 bis 4.400 EUR. 25407N: Pelagos 39. Marktpreis laut WatchCharts (Spanne 3.660 bis 4.244 USD). 25707B: Gebrauchtwert als Mitte zweier Händlerangebote (Watches of Switzerland 3.995 USD, Bob's Watches 4.295 USD), keine Verkaufsstatistik.",
     "rows": [
+     [
+      "25707B",
+      "",
+      null,
+      "heute",
+      4145,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "25407N",
+      "",
+      null,
+      "heute",
+      3952,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
      [
       "Pelagos 42",
       "Liste 2026",
@@ -10182,11 +10258,62 @@
       "EUR"
      ],
      [
+      "W20073X8",
+      "Liste (Händler)",
+      7900,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "WSSA0018",
       "Liste 2026",
       9200,
       "heute",
       8495
+     ],
+     [
+      "WSSA0030",
+      "",
+      null,
+      "heute",
+      8195,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "WGSA0021",
+      "Liste 2022",
+      15200,
+      "heute",
+      12600,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "WHSA0015",
+      "Liste 2026",
+      33500,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        29900,
+        "USD"
+       ]
+      ]
      ],
      [
       "W20106X8 (Santos 100, Stahl)",
@@ -10196,7 +10323,7 @@
       4319
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot (CollectorSquare, Modell von etwa 2000). Santos 100: Marktschätzung von WatchCharts (Herbst 2026)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot (CollectorSquare, Modell von etwa 2000). Santos 100: Marktschätzung von WatchCharts (Herbst 2026). WSSA0030: Santos Large, blaues Zifferblatt, eingestellt. Gebrauchtpreis: Angebot von Bob's Watches (Exemplar 2020 mit Box und Papieren), keine Verkaufsstatistik. WHSA0015: Santos Skelett, Stahl. Aktueller Listenpreis laut Prestige Time; Listenpreis 2021 laut Angebot bei Everywatch. W20073X8: Santos 100 groß, Stahl. Preis laut US-Händler Albert's Jewelers (undatiert). WGSA0021: Santos-Dumont Large, Roségold. Listenpreis laut Händlerangabe (Bernard Watch, Exemplar mit Garantie Januar 2022; Watches of Switzerland nennt denselben Preis); Gebrauchtpreis: Angebot von Bernard Watch, keine Verkaufsstatistik."
    },
    "w": "Eine der ersten Herren-Armbanduhren der Welt, mit sichtbaren Schrauben auf Lünette und Band.",
    "lume": {
@@ -10706,7 +10833,7 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Portugieser Automatic 42, IW501701, USA 2026. Ältere Referenzen: Händlerangebot für ein aufgearbeitetes Exemplar (Watches of Switzerland). Yacht Club Chronograph: Händlerangebot für ein Exemplar mit geschätzter Liste.",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Portugieser Automatic 42, IW501701, USA 2026. Ältere Referenzen: Händlerangebot für ein aufgearbeitetes Exemplar (Watches of Switzerland). Yacht Club Chronograph: Händlerangebot für ein Exemplar mit geschätzter Liste. IW371605: Portugieser Chronograph, Stahl, silbernes Zifferblatt. Listenpreis laut Watches of Switzerland, Wempe und Tourneau (USA); Gebrauchtpreis: Angebot eines Händlers für ein neuwertiges Exemplar, keine Verkaufsstatistik. IW358304: Portugieser Automatic 40, eingestellt (WatchCharts). Letzter Listenpreis als Mitte zweier Händlerangaben (7.700 und 7.900 USD). IW545408: Portugieser Handaufzug, silbernes Zifferblatt, eingestellt. Letzter Listenpreis (rund 8.000 USD, Februar 2023) und Marktpreis (Oktober 2026) laut WatchCharts. IW344205: Portugieser Ewiger Kalender 42, blaues Zifferblatt. Listenpreis laut Fraser Hart (Großbritannien); Prestige Time nennt 43.100 USD.",
     "rows": [
      [
       "Yacht Club Chronograph",
@@ -10721,6 +10848,50 @@
       null,
       "heute",
       5900
+     ],
+     [
+      "IW545408",
+      "letzte Liste 2023",
+      8000,
+      "heute",
+      4641,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "IW358304",
+      "letzte Liste",
+      7800,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "IW371605",
+      "Liste 2026",
+      8900,
+      "heute",
+      7750,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "IW344205",
+      "Liste 2026",
+      28700,
+      "",
+      null,
+      [
+       "GBP",
+       "USD"
+      ]
      ],
      [
       "IW501701",
@@ -10934,7 +11105,7 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Big Pilot's Watch 43, IW329301, USA. Ältere Referenzen: Verkäufe bei WatchProSite von rund 8.200 bis 8.850 EUR (Datierungen bis etwa 2019, daher grob).",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Big Pilot's Watch 43, IW329301, USA. Ältere Referenzen: Verkäufe bei WatchProSite von rund 8.200 bis 8.850 EUR (Datierungen bis etwa 2019, daher grob). IW329301: Gebrauchtwert als Mitte der von SwissWatchExpo genannten Spanne (6.000 bis 7.000 USD mit Box und Papieren); Watchfinder bot ein Exemplar von 2021 für 6.245 USD an.",
     "rows": [
      [
       "5002",
@@ -10947,8 +11118,12 @@
       "IW329301",
       "Liste 2026",
       9700,
-      "",
-      null
+      "heute",
+      6500,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ]
    },
@@ -11150,7 +11325,7 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Navitimer B01 Chronograph 43, AB0138, USA. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Händlerangebote von rund 5.350 bis 7.050 EUR; Auktionsschätzungen lagen teils deutlich darunter.",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Navitimer B01 Chronograph 43, AB0138, USA. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Neupreise der ältesten Referenzen: ursprüngliche Listenpreise laut einer Zusammenstellung historischer Preislisten (Händlerkataloge, Preisempfehlungen); nicht von uns verifiziert, daher nur Richtwerte. Vintage-Referenzen: Händlerangebote von rund 5.350 bis 7.050 EUR; Auktionsschätzungen lagen teils deutlich darunter. AB0138211B1A1: Schwarzes Zifferblatt, Stahlband. Listenpreis laut Watches of Switzerland (USA). AB0138241L1A1: Mintgrünes Zifferblatt, Stahlband. Preis laut The 1916 Company (dort auf einer zweiten Seite auch 10.300 USD).",
     "rows": [
      [
       "806",
@@ -11172,6 +11347,28 @@
       10700,
       "",
       null
+     ],
+     [
+      "AB0138211B1A1",
+      "Liste 2026",
+      10700,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "AB0138241L1A1",
+      "Liste 2026",
+      10700,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "AB0137 (B01, 46 mm)",
@@ -11324,7 +11521,20 @@
      9400,
      "Chronomat B01 42, AB0134, unverbindliche Preisempfehlung Deutschland"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. AB0134101C1A1: Chronomat B01 42, blaues Zifferblatt. Listenpreis laut Händler (USA); Gebrauchtpreis: Angebot von The 1916 Company, keine Verkaufsstatistik.",
+    "rows": [
+     [
+      "AB0134101C1A1",
+      "Liste 2026",
+      9650,
+      "heute",
+      6450,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -13617,7 +13827,20 @@
      7950,
      "Ballon Bleu 40 mm, WSBB0040, Europa"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. WSBB0040: Ballon Bleu 40 mm, Stahl. Preis laut US-Händler Albert's Jewelers (undatiert).",
+    "rows": [
+     [
+      "WSBB0040",
+      "Liste",
+      7000,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -13885,7 +14108,20 @@
      13500,
      "Ingenieur Automatic 40, IW328901, USA"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. IW328902: Ingenieur Automatic 40, Stahl, grau. Listenpreis laut Händlerangabe (Bernard Watch, Exemplar von 2024); Gebrauchtwert als Mitte zweier Händlerangebote (Bernard Watch 10.295 USD, The 1916 Company 10.950 USD), keine Verkaufsstatistik.",
+    "rows": [
+     [
+      "IW328902",
+      "Liste 2024",
+      12900,
+      "heute",
+      10623,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -14295,7 +14531,24 @@
    ],
    "dial": "Blau",
    "iref": "A17375E71C1A1",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "A17375E71C1A1",
+      "Liste 2026",
+      5900,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "A17375E71C1A1: Superocean Automatic 42, schwarz, Stahlband. Listenpreis laut Watches of Switzerland und The 1916 Company (USA)."
+   }
   },
   {
    "id": "aquaracer",
@@ -14544,6 +14797,24 @@
     "u": "USD",
     "rows": [
      [
+      "Q3858520",
+      "Liste 2026",
+      11400,
+      "heute",
+      7036,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        7900,
+        "USD"
+       ]
+      ]
+     ],
+     [
       "Q2518540 Medium Thin",
       "letzte Liste 2022",
       4400,
@@ -14565,7 +14836,7 @@
       8474
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Marktschätzung von WatchCharts (Herbst 2026). Q3858520: Reverso Classic Large Small Seconds, Stahl. Aktueller Listenpreis laut Betteridge (USA; Bucherer Österreich 11.400 EUR); Listenpreis Januar 2021 und Marktpreis (November 2026) laut WatchCharts."
    },
    "w": "Das umdrehbare Gehäuse schützte das Glas beim Polospiel; heute trägt die Rückseite oft eine Gravur.",
    "lume": {
@@ -14844,9 +15115,20 @@
       49500,
       "heute",
       35569
+     ],
+     [
+      "192.032",
+      "Liste 2026",
+      60900,
+      "heute",
+      36273,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 192.032: Lange 1 Mondphase in Roségold. Listenpreis (Januar 2026) und Marktpreis (Oktober 2026) laut WatchCharts."
    },
    "w": "Ein asymmetrisches Zifferblatt mit Großdatum, bei dem keine Anzeige eine andere überlappt.",
    "var": [
@@ -14990,6 +15272,17 @@
     "u": "USD",
     "rows": [
      [
+      "140.029",
+      "letzte Liste 2022",
+      89200,
+      "heute",
+      62004,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "142.031",
       "",
       null,
@@ -14997,7 +15290,7 @@
       104950
      ]
     ],
-    "n": "Listenpreis nur auf Anfrage. Gebrauchtpreis: Angebot von The 1916 Company (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis nur auf Anfrage. Gebrauchtpreis: Angebot von The 1916 Company (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 140.029: Zeitwerk in Weißgold, eingestellt. Letzter Listenpreis (April 2022) und Marktpreis laut WatchCharts (Herbst 2026)."
    },
    "ev": [
     [
@@ -15453,6 +15746,24 @@
     "u": "USD",
     "rows": [
      [
+      "PAM00753",
+      "Liste 2026",
+      5200,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2018",
+        3900,
+        "EUR"
+       ]
+      ]
+     ],
+     [
       "PAM01293",
       "Liste",
       6300,
@@ -15460,7 +15771,7 @@
       4548
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. PAM00753: Radiomir Base Logo 45 mm. Aktueller Listenpreis laut Bucherer und The 1916 Company (USA); Einführungspreis 2018 laut Monochrome Watches (3.900 EUR bzw. 5.700 USD)."
    },
    "ev": [
     [
@@ -16113,6 +16424,17 @@
     "u": "USD",
     "rows": [
      [
+      "441.NM.1171.RX",
+      "Liste 2026",
+      24000,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "441.NX.1171.RX",
       "Liste 2026",
       22800,
@@ -16127,7 +16449,7 @@
       14600
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot für ein Exemplar in sehr gutem Zustand (kein Marktindex)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: Händlerangebot für ein Exemplar in sehr gutem Zustand (kein Marktindex). 441.NM.1171.RX: Big Bang Unico 42 in Titan mit Keramiklünette. Listenpreis laut Watches of Switzerland (USA)."
    },
    "ev": [
     [
@@ -16560,7 +16882,20 @@
      10000,
      "Defy Skyline 41 mm, USA"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. 03.9300.3620/51.I001: Defy Skyline 41 mm, blaues Zifferblatt, Stahlband. Listenpreis laut Watches of Switzerland (USA).",
+    "rows": [
+     [
+      "03.9300.3620/51.I001",
+      "Liste 2026",
+      10000,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -16702,11 +17037,33 @@
       11000
      ],
      [
+      "4500V/110R-B705",
+      "letzte Liste 2023",
+      60500,
+      "heute",
+      57854,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "4500V/110A-B126",
       "Liste 2023",
       25000,
       "heute",
       23260
+     ],
+     [
+      "4500V/110A-B128",
+      "",
+      null,
+      "Okt. 2024",
+      40750,
+      [
+       "USD",
+       "USD"
+      ]
      ],
      [
       "47040/000A-9008",
@@ -16716,7 +17073,7 @@
       18722
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 47040: WatchCharts (November 2026); 42040: Median bei Watchpatrol (Spanne rund 8.200 bis 11.800 EUR)."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Ältere Referenzen: 47040: WatchCharts (November 2026); 42040: Median bei Watchpatrol (Spanne rund 8.200 bis 11.800 EUR). 4500V/110R-B705: Roségold, blaues Zifferblatt, eingestellt. Letzter Listenpreis (September 2023) und Marktpreis (November 2026) laut WatchCharts. 4500V/110A-B128: Stahl, blaues Zifferblatt. Marktpreis Oktober 2024 laut Luxury Bazaar; die Angaben zum letzten Listenpreis widersprechen sich (22.500 bzw. 35.600 USD), daher nicht übernommen."
    },
    "ev": [
     [
@@ -16868,6 +17225,24 @@
     "u": "USD",
     "rows": [
      [
+      "81180/000R-9159",
+      "Liste 2026",
+      25400,
+      "heute",
+      11750,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2026",
+        23900,
+        "EUR"
+       ]
+      ]
+     ],
+     [
       "85180/000R",
       "Liste 2026",
       37800,
@@ -16875,7 +17250,7 @@
       14634
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 81180/000R-9159: Patrimony 40 mm Handaufzug, Roségold. Listenpreis (September 2026) und Marktpreis (November 2026) laut WatchCharts; Listenpreis in Deutschland laut Bucherer 23.900 EUR."
    },
    "ev": [
     [
@@ -17002,9 +17377,20 @@
       10800,
       "heute",
       7940
+     ],
+     [
+      "1-90-02-46-32-61",
+      "Liste 2026",
+      12400,
+      "heute",
+      8508,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 1-90-02-46-32-61: PanoMaticLunar in Stahl, blaues Zifferblatt. Listenpreis laut Watches of Switzerland (USA; Bucherer Deutschland 11.800 EUR); Marktpreis laut WatchCharts (Oktober 2026)."
    },
    "ev": [
     [
@@ -18443,6 +18829,17 @@
     "u": "USD",
     "rows": [
      [
+      "7147BB/12/9WU",
+      "Liste 2021",
+      21500,
+      "heute",
+      13545,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "5177BB",
       "Liste 2023",
       28700,
@@ -18450,7 +18847,7 @@
       16829
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 7147BB/12/9WU: Classique 7147 in Weißgold. Listenpreis (September 2021) und Marktpreis (Oktober 2026) laut WatchCharts; Händler nennen heute höhere Listenpreise (bis rund 33.000 USD)."
    },
    "ev": [
     [
@@ -18581,10 +18978,21 @@
       "Liste",
       18000,
       "heute",
-      15124
+      15124,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2023",
+        19100,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 2067ST: Aktueller Listenpreis laut Bucherer (USA); Einführungspreis am Lederband laut Time+Tide (am Stahlband 22.300 USD)."
    },
    "ev": [
     [
@@ -19828,7 +20236,20 @@
      4025,
      "Ranger, Stahlband, USA 2026"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. M79950: Listen- und Marktpreis laut WatchCharts (Oktober 2026).",
+    "rows": [
+     [
+      "M79950",
+      "Liste 2026",
+      4025,
+      "heute",
+      2529,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -19956,7 +20377,20 @@
      5275,
      "Black Bay GMT, Nietenband, USA 2026"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. M79830RB: Gebrauchtwert als Mitte zweier Händlerangebote (The 1916 Company 4.950 USD, Exquisite Timepieces 4.200 USD, Herbst 2026), keine Verkaufsstatistik.",
+    "rows": [
+     [
+      "M79830RB",
+      "",
+      null,
+      "heute",
+      4575,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -21439,6 +21873,17 @@
     "u": "USD",
     "rows": [
      [
+      "W31074M7",
+      "letzte Liste",
+      6300,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "WSPA0009",
       "Liste",
       8100,
@@ -21446,7 +21891,7 @@
       4700
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Gebrauchtangebot von Watches of Switzerland. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Gebrauchtangebot von Watches of Switzerland. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. W31074M7: Pasha C 35 mm, Stahl, eingestellt. Letzter Preis laut Tourneau (USA, undatiert)."
    },
    "ev": [
     [
@@ -21594,9 +22039,20 @@
       62500,
       "heute",
       76500
+     ],
+     [
+      "4200H/222A-B934",
+      "Liste 2026",
+      60200,
+      "heute",
+      59225,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Angebot eines Händlers für ein gebrauchtes Exemplar (Herbst 2026), keine Verkaufsstatistik. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 4200H/222A-B934: Stahl, blaues Zifferblatt; beim Hersteller Preis auf Anfrage. Listenpreis laut Händler (Avi & Co.); Gebrauchtwert als Mitte zweier Händlerangebote (58.950 und 59.500 USD), keine Verkaufsstatistik."
    },
    "ev": [
     [
@@ -21731,6 +22187,24 @@
     "u": "USD",
     "rows": [
      [
+      "102713",
+      "Liste 2026",
+      16600,
+      "heute",
+      9656,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2024",
+        16100,
+        "USD"
+       ]
+      ]
+     ],
+     [
       "103011",
       "Liste 2019",
       14500,
@@ -21738,7 +22212,7 @@
       9484
      ]
     ],
-    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis USA laut Händler- bzw. Herstellerangaben. Gebrauchtpreis: Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 102713: Octo Finissimo Automatik, Titan. Aktueller Listenpreis USA (Bulgari, The 1916 Company; international 17.700 EUR); Listenpreis April 2024 und Marktpreis (Oktober 2026) laut WatchCharts."
    },
    "ev": [
     [
@@ -22409,7 +22883,24 @@
    ],
    "dial": "Silber",
    "iref": "IW356501",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "IW356501",
+      "Liste",
+      5200,
+      "heute",
+      3850,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "IW356501: Portofino Automatic. Listenpreis und Gebrauchtspanne (3.500 bis 4.200 USD, Mittelwert) laut SwissWatchExpo."
+   }
   },
   {
    "id": "cellini",
@@ -24827,6 +25318,17 @@
     "u": "USD",
     "rows": [
      [
+      "IW358002",
+      "",
+      null,
+      "heute",
+      5090,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "IW329001",
       "",
       null,
@@ -24834,7 +25336,7 @@
       5000
      ]
     ],
-    "n": "Mitte einer von den Quellen unterschiedlich angegebenen Spanne von rund 3.400 bis 5.700 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Mitte einer von den Quellen unterschiedlich angegebenen Spanne von rund 3.400 bis 5.700 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. IW358002: Aquatimer 2000. Gebrauchtpreis: Angebot von Watchfinder für ein Exemplar von 2016, keine Verkaufsstatistik; ein Kaufratgeber (Majestix) nennt 7.000 bis 9.000 USD."
    },
    "lume": {
     "z": "IHP",
@@ -25328,9 +25830,20 @@
       6750,
       "heute",
       null
+     ],
+     [
+      "A17318101B1A1",
+      "Liste",
+      5350,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Händler bieten die Uhr teils für rund 3.950 EUR an; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Händler bieten die Uhr teils für rund 3.950 EUR an; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. A17318101B1A1: Avenger Automatic 43, Stahlband. Unverbindliche Preisempfehlung laut Händler 5dwatches (undatiert)."
    },
    "lume": {
     "z": "IH",
@@ -25455,7 +25968,35 @@
    ],
    "dial": "Blau",
    "iref": "70330B",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "70330N",
+      "letzte Liste 2023",
+      4675,
+      "heute",
+      3090,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "70330B",
+      "letzte Liste 2023",
+      4675,
+      "heute",
+      3713,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "70330N: Grau-schwarzes Zifferblatt. Letzter Listenpreis und Marktpreis laut WatchCharts (Herbst 2026). 70330B: Blaue Ausführung, eingestellt. Letzter Listenpreis (Januar 2023) und Marktpreis (Oktober 2026) laut WatchCharts."
+   }
   },
   {
    "id": "black-bay-chrono",
@@ -25677,9 +26218,20 @@
       null,
       "heute",
       1655
+     ],
+     [
+      "91651",
+      "Liste 2026",
+      2625,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 91651: Listenpreis laut Händler Betteridge für die Ausführung M91651-0010 am Lederband; Ausführungen am Stahlband bzw. mit Diamanten liegen höher (bis rund 4.675 USD, The 1916 Company)."
    },
    "lume": {
     "z": "",
@@ -26165,9 +26717,20 @@
       8750,
       "heute",
       6900
+     ],
+     [
+      "Q1368420",
+      "",
+      null,
+      "heute",
+      6467,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Gebrauchtwert als Mitte der Händlerangebote zwischen 5.700 und 6.550 EUR für Exemplare der letzten Jahre; Neuware wird bei einem Händler mit 9.200 EUR geführt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Gebrauchtwert als Mitte der Händlerangebote zwischen 5.700 und 6.550 EUR für Exemplare der letzten Jahre; Neuware wird bei einem Händler mit 9.200 EUR geführt. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. Q1368420: Master Ultra Thin Moon, Stahl. Marktpreis laut WatchCharts (Herbst 2026)."
    },
    "lume": {
     "z": "",
@@ -26476,9 +27039,20 @@
       null,
       "heute",
       26000
+     ],
+     [
+      "219.032",
+      "letzte Liste 2023",
+      23000,
+      "heute",
+      15684,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Durchschnitt über alle Saxonia-Modelle laut WatchCharts (Spanne etwa 12.500 bis 76.000 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Durchschnitt über alle Saxonia-Modelle laut WatchCharts (Spanne etwa 12.500 bis 76.000 EUR). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 219.032: Saxonia 35 in Roségold, eingestellt. Letzter Listenpreis (März 2023) und Marktpreis (Oktober 2026) laut WatchCharts."
    },
    "var": [
     {
@@ -26604,10 +27178,21 @@
     "rows": [
      [
       "363.179 (Edelstahl)",
-      "",
-      null,
+      "Liste 2019",
+      28800,
       "heute",
-      61500
+      61500,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2023",
+        42000,
+        "USD"
+       ]
+      ]
      ],
      [
       "363.068",
@@ -26617,7 +27202,7 @@
       49700
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 363.179: Einführungspreis 2019 laut einem Testbericht (SF Watch Lover); Listenpreis 2023 laut Verkaufsanzeige bei WatchProSite (Oktober 2023). Bestehender Marktpreis bleibt (WatchCharts aktuell rund 61.500 USD)."
    },
    "lume": {
     "z": "IH",
@@ -26730,6 +27315,17 @@
     "u": "USD",
     "rows": [
      [
+      "PAM00111",
+      "letzte Liste 2023",
+      6000,
+      "heute",
+      3993,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "PAM01312",
       "",
       null,
@@ -26737,7 +27333,7 @@
       4663
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. PAM00111: Letzter Listenpreis (rund 6.000 USD, September 2023) und Marktpreis (Oktober 2026) laut WatchCharts."
    },
    "lume": {
     "z": "IH",
@@ -26949,13 +27545,17 @@
     "rows": [
      [
       "PAM00716",
-      "",
-      null,
+      "Liste 2017",
+      9900,
       "heute",
-      3808
+      6663,
+      [
+       "EUR",
+       "USD"
+      ]
      ]
     ],
-    "n": "Händlerangabe, undatiert. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Händlerangabe, undatiert. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. PAM00716: Einführungspreis 2017 laut Monochrome Watches (WatchCharts: rund 10.800 USD); Marktpreis laut WatchCharts (Oktober 2026), ersetzt die undatierte Händlerangabe."
    },
    "lume": {
     "z": "IH",
@@ -28029,9 +28629,27 @@
       null,
       "heute",
       15000
+     ],
+     [
+      "601.CI.0173.RX",
+      "Liste 2026",
+      27400,
+      "heute",
+      11982,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2019",
+        28900,
+        "USD"
+       ]
+      ]
      ]
     ],
-    "n": "Durchschnitt laut WatchCharts mit großer Spanne von etwa 8.050 bis 44.700 EUR je nach Ausführung. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Durchschnitt laut WatchCharts mit großer Spanne von etwa 8.050 bis 44.700 EUR je nach Ausführung. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 601.CI.0173.RX: Spirit of Big Bang 45 Black Magic. Aktueller Listenpreis laut Watches of Switzerland, Listenpreis November 2019 und Marktpreis (November 2026) laut WatchCharts."
    },
    "lume": {
     "z": "IH",
@@ -28473,7 +29091,24 @@
    ],
    "dial": "Silber",
    "iref": "47192/000R-9352",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "47192/000R-9352",
+      "Liste 2009",
+      54000,
+      "heute",
+      32225,
+      [
+       "EUR",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "47192/000R-9352: Traditionnelle Chronograph in Roségold, eingestellt. Einführungspreis 2009 in Frankreich laut My-Watchsite; Gebrauchtwert als Mitte zweier Händlerangebote (Shreve, Crump & Low 29.500 USD, The Watch Box 34.950 USD), keine Verkaufsstatistik."
+   }
   },
   {
    "id": "ludwig",
@@ -31165,6 +31800,23 @@
     ],
     "iref": "278582-3001",
     "irefs": "mittel"
+   },
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "278582-3001",
+      "Liste 2026",
+      5770,
+      "",
+      null,
+      [
+       "CHF",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "278582-3001: Happy Sport 36 mm, Stahl, Kautschukband. Listenpreis laut Bucherer (Schweiz); in den USA laut WatchMaxx 6.990 USD."
    }
   },
   {
@@ -32349,7 +33001,24 @@
    ],
    "dial": "Weiß",
    "iref": "6651-1127-55B",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "6651-1127-55B",
+      "Liste 2016",
+      9800,
+      "heute",
+      4693,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "6651-1127-55B: Villeret Ultraplate 40 mm in Stahl. Listenpreis (Dezember 2016) und Marktpreis (November 2026) laut WatchCharts; bei Gebrauchthändlern eher um 5.700 USD."
+   }
   },
   {
    "id": "leman",
@@ -32644,6 +33313,24 @@
     "u": "USD",
     "rows": [
      [
+      "7057BB/11/9W6",
+      "Liste 2010",
+      31900,
+      "",
+      null,
+      [
+       "EUR",
+       "USD"
+      ],
+      [
+       [
+        "2026",
+        43600,
+        "USD"
+       ]
+      ]
+     ],
+     [
       "7057BR/R9/9W6 (Roségold)",
       "Liste 2021",
       27600,
@@ -32658,7 +33345,7 @@
       17408
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 7057BB/11/9W6: Weißgold. Einführungspreis 2010 in Frankreich laut My-Watchsite; aktueller Listenpreis laut US-Händler (CD Peacock)."
    },
    "lume": {
     "z": "",
@@ -32898,9 +33585,27 @@
       15200,
       "heute",
       7320
+     ],
+     [
+      "G0A41001",
+      "letzte Liste",
+      13200,
+      "heute",
+      7065,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2016",
+        12000,
+        "EUR"
+       ]
+      ]
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. G0A41001: Polo S, silbernes Zifferblatt. Einführungspreis 2016 in Frankreich laut My-Watchsite, letzter bekannter Listenpreis laut Essential Watches; Marktpreis laut WatchCharts (Spanne 6.479 bis 7.651 USD)."
    },
    "lume": {
     "z": "IH",
@@ -33128,9 +33833,20 @@
       32100,
       "heute",
       16029
+     ],
+     [
+      "2303-270.1/03",
+      "Liste 2026",
+      32100,
+      "heute",
+      17454,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Die klassische Freak-Reihe ist mit bis zu 75.900 EUR für die Freak ONE deutlich teurer. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Die klassische Freak-Reihe ist mit bis zu 75.900 EUR für die Freak ONE deutlich teurer. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 2303-270.1/03: Freak X 43 mm Titan, blau. Listenpreis (September 2026) und Marktpreis (Oktober 2026) laut WatchCharts (dort als 2303-270/03 geführt); Wempe Deutschland 27.940 EUR."
    },
    "lume": {
     "z": "",
