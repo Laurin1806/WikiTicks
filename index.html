@@ -1369,7 +1369,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026113036";
+const IMGV = "2026113037";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = {}; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -3556,7 +3556,7 @@ const REF_HINTS = [
   { key: "wikiticks-hint-ref", sel: "#view a.refbtn:not(.var)", cls: "refbtn", txt: p => `Blaue Referenz-Knöpfe wie ${p} sind Links: Ein Klick öffnet den Artikel zu dieser Referenz.` },
   { key: "wikiticks-hint-var", sel: "#view a.refbtn.var", cls: "refbtn var", txt: p => `Helle Knöpfe mit blauem Rand wie ${p} stehen für Varianten: Ein Klick springt in den Referenzartikel, direkt zu dieser Variante.` },
   { key: "wikiticks-hint-pills", sel: "#view ol.timeline span.refpill, #view .refs span.refpill", raw: true, txt: () => { const ex = c => { const el = document.querySelector(`#view ol.timeline span.refpill${c}, #view .refs span.refpill${c}`); return el ? el.textContent : ""; }, d = ex(".nopage") || "6204", g = ex(":not(.nopage)") || "16610LV";
-      return `In Zeitleiste und Referenztabelle gibt es noch zwei Pillen ohne Link: <span class="refpill nopage">${esc(d)}</span> blau gestrichelt ist eine Hauptreferenz, zu der es noch keinen eigenen Artikel gibt; <span class="refpill">${esc(g)}</span> grau ist eine Variante ohne eigenes Bild.`; } }];
+      return `In Zeitleiste und Referenztabelle gibt es noch zwei Pillen ohne Link: <span class="refpill nopage">${esc(d)}</span> ist eine Hauptreferenz, zu der es noch keinen eigenen Artikel gibt; <span class="refpill">${esc(g)}</span> ist eine Variante ohne eigenes Bild.`; } }];
 let refHintIO = null;
 function refHint() {
   if (document.querySelector(".refhint")) return;
