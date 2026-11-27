@@ -6400,6 +6400,39 @@
    "zertifizierung": "Patek Philippe Siegel",
    "genauigkeit": "−3/+2 s/Tag (Patek Philippe Siegel)",
    "zifferblatt_optionen": "Olivgrün"
+  },
+  "submariner|9": {
+   "ref": "6204",
+   "produktion": "1953–1954",
+   "durchmesser": "37 mm",
+   "gehaeuse": "Edelstahl",
+   "glas": "Acrylglas",
+   "boden": "verschraubt, geschlossen",
+   "luenette": "beidseitig drehbar, 60 Minuten",
+   "krone": "verschraubt, ohne Kronenschutz",
+   "wasserdicht": "100 m",
+   "werk": "Kaliber A260",
+   "werktyp": "Automatik",
+   "manufaktur": "Manufakturwerk",
+   "funktionen": "Stunden, Minuten, Sekunden",
+   "leuchtmasse": "Radium",
+   "band": "Oyster-Band, Edelstahl",
+   "zifferblatt_optionen": "Schwarz, glänzend (Gilt), Radium"
+  },
+  "submariner|10": {
+   "ref": "16800",
+   "produktion": "1979–1988",
+   "durchmesser": "40 mm",
+   "gehaeuse": "Edelstahl",
+   "glas": "Saphir mit Zykloplupe",
+   "werk": "Kaliber 3035",
+   "werktyp": "Automatik",
+   "manufaktur": "Manufakturwerk",
+   "funktionen": "Stunden, Minuten, Sekunden, Datum",
+   "luenette": "drehbar, Aluminiumeinlage, 60 Minuten",
+   "wasserdicht": "300 m",
+   "band": "Oyster-Band",
+   "zifferblatt_optionen": "Schwarz, matt, Tritium"
   }
  },
  "_refs": {
@@ -6527,7 +6560,7 @@
    "gehaeuse": "Edelstahl",
    "glas": "Acrylglas",
    "boden": "verschraubt, geschlossen",
-   "luenette": "einseitig drehbar, 60 Minuten",
+   "luenette": "beidseitig drehbar, 60 Minuten",
    "krone": "verschraubt, ohne Kronenschutz",
    "wasserdicht": "100 m",
    "werk": "Kaliber A260",

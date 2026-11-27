@@ -3987,15 +3987,15 @@
    ],
    "mc": [
     "Fifty Fathoms Automatique von heute",
-    "Submariner Ref. 6538 »Big Crown«, gebaut 1955 bis 1959"
+    "Submariner Ref. 6204, die erste Submariner von 1953"
    ],
    "img": [
     null,
-    "assets/watches/rolex-submariner-6538-tropical.jpg"
+    "assets/watches/rolex-submariner-6204.jpg"
    ],
    "at": [
     null,
-    "g2"
+    "g1"
    ]
   }
  },
@@ -5208,16 +5208,25 @@
   "fig": {
    "m": [
     "submariner",
+    "submariner",
     "seamaster-300m",
     "planet-ocean"
    ],
    "mc": [
+    "Ref. 6538 »Big Crown«, getragen von Sean Connery ab »Dr. No« (1962)",
     "Ref. 5513, getragen von George Lazenby (1969) und Roger Moore (1973)",
     "Seit »GoldenEye« (1995) die Bond-Uhr",
     "Linie aus »Casino Royale« (2006)"
    ],
    "img": [
+    "assets/watches/rolex-submariner-6538-tropical.jpg",
     "assets/watches/rolex-submariner-5513.jpg"
+   ],
+   "at": [
+    "g1",
+    null,
+    null,
+    null
    ]
   },
   "x": [
