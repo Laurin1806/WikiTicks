@@ -1369,7 +1369,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026113034";
+const IMGV = "2026113035";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = {}; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -3554,7 +3554,7 @@ document.addEventListener("click", ev => { if (ev.target.closest && ev.target.cl
 // Erster Besuch: einmalige Hinweise an der ersten sichtbaren Referenz-Pille – zuerst an einer blauen (Link zum Artikel), danach an einer hellen Varianten-Pille (Sprung zum Bild der Variante)
 const REF_HINTS = [
   { key: "wikiticks-hint-ref", sel: "#view a.refbtn:not(.var)", cls: "refbtn", txt: p => `Blaue Referenz-Knöpfe wie ${p} sind Links: Ein Klick öffnet den Artikel zu dieser Referenz.` },
-  { key: "wikiticks-hint-var", sel: "#view a.refbtn.var", cls: "refbtn var", txt: p => `Helle Knöpfe mit blauem Rand wie ${p} stehen für Varianten: Ein Klick springt im Referenzartikel direkt zum Bild und Absatz dieser Variante.` }];
+  { key: "wikiticks-hint-var", sel: "#view a.refbtn.var", cls: "refbtn var", txt: p => `Helle Knöpfe mit blauem Rand wie ${p} stehen für Varianten: Ein Klick springt in den Referenzartikel, direkt zu dieser Variante.` }];
 let refHintIO = null;
 function refHint() {
   if (document.querySelector(".refhint")) return;
