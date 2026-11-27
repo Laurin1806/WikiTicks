@@ -11580,7 +11580,20 @@
      9800,
      "SLGH005, USA"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. SLGH005: Listenpreis USA laut Watches of Switzerland; Gebrauchtpreis: einzelnes Händlerangebot (gebraucht, mit Box und Papieren), daher unsicher.",
+    "rows": [
+     [
+      "SLGH005",
+      "Liste 2026",
+      9800,
+      "heute",
+      6400,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -11717,7 +11730,7 @@
    ],
    "preis": {
     "u": "USD",
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Monaco CBL2111, USA 2026. Ältere Referenzen: Händlerangebot (Precision Watches) für ein Exemplar in sehr gutem Zustand. Vintage-Referenzen: Verkaufspreis eines Exemplars mit mattblauem Zifferblatt; die berühmte McQueen-Uhr erzielte 2020 rund 2 Millionen Euro.",
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. Aktuelle Referenz: Monaco CBL2111, USA 2026. Ältere Referenzen: Händlerangebot (Precision Watches) für ein Exemplar in sehr gutem Zustand. Vintage-Referenzen: Verkaufspreis eines Exemplars mit mattblauem Zifferblatt; die berühmte McQueen-Uhr erzielte 2020 rund 2 Millionen Euro. CBL2111: Listenpreis USA (September 2026) und Gebrauchtpreis (WatchCharts-Marktpreis Oktober 2026) laut WatchCharts; Händler verlangen gebraucht rund 5.760 USD.",
     "rows": [
      [
       "1133B (1970er)",
@@ -11738,8 +11751,12 @@
       "CBL2111",
       "Liste 2026",
       8300,
-      "",
-      null
+      "heute",
+      4569,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ]
    },
@@ -14377,7 +14394,20 @@
      3050,
      "Aquaracer Professional 300, WBP201A, USA"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. WBP201: Ausführung WBP201A.FT6197 (Stahl, Kautschukband): letzter Listenpreis laut Tourneau (USA), laut TAG Heuer UK inzwischen eingestellt (2.850 GBP). Schwarze DLC-Version WBP201D: 4.100 USD bzw. 4.650 EUR laut TAG Heuer.",
+    "rows": [
+     [
+      "WBP201",
+      "Liste 2025",
+      3300,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -15697,7 +15727,27 @@
      350,
      "Seiko 5 Sports SRPD55, USA (Seiko)"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. SRPD55: Listenpreise USA laut Seiko-Lineup und Seiko-5-Katalog 2023.",
+    "rows": [
+     [
+      "SRPD55",
+      "Liste 2026",
+      350,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ],
+      [
+       [
+        "2023",
+        325,
+        "USD"
+       ]
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -15821,7 +15871,20 @@
      450,
      "Presage Cocktail Time SRPB43, USA (Seiko)"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. SRPB41: Listenpreis USA laut Seiko-Lineup (UK: 349 GBP). Gebrauchtpreis: WatchCharts-Marktpreis (Spanne 284–364 USD).",
+    "rows": [
+     [
+      "SRPB41",
+      "Liste 2026",
+      475,
+      "heute",
+      324,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -17058,7 +17121,20 @@
      1780,
      "Tangente 35, Deutschland"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. 139: Listenpreis laut Nomos-Kaliberseite (»ab 1.780 EUR« für Tangente 101/139); Stand der Seite unsicher, ggf. Einstiegspreis der Modellgruppe.",
+    "rows": [
+     [
+      "139",
+      "Liste 2026",
+      1780,
+      "",
+      null,
+      [
+       "EUR",
+       "EUR"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -17300,7 +17376,20 @@
      3100,
      "Master Collection Moonphase 42 mm, USA (Ausführung 40 mm ähnlich)"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. L2.793.4: Listenpreis USA laut Longines-Website (Ausführung L2.793.4.78.3; L2.793.4.73.2: 2.700 USD).",
+    "rows": [
+     [
+      "L2.793.4",
+      "Liste 2026",
+      2550,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -17731,7 +17820,24 @@
    "dial": "Schwarz",
    "iref": "H24411732",
    "irefs": "mittel",
-   "vy": "1957"
+   "vy": "1957",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "H24411732",
+      "Liste 2026",
+      1075,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "H24411732: Listenpreis USA laut Hamilton-Website (2026)."
+   }
   },
   {
    "id": "sinn-556",
@@ -17813,7 +17919,20 @@
      1500,
      "556 I mit Stahlband, Deutschland (Sinn)"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. 556.010: Listenpreis laut Sinn (556 I).",
+    "rows": [
+     [
+      "556.010",
+      "Liste 2026",
+      1500,
+      "",
+      null,
+      [
+       "EUR",
+       "EUR"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -17939,7 +18058,24 @@
    ],
    "dial": "Schwarz",
    "iref": "1010.010",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "1010.010",
+      "Liste 2026",
+      2700,
+      "heute",
+      2050,
+      [
+       "EUR",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "1010.010: Listenpreis laut Sinn; Gebrauchtpreis: einzelnes Händlerangebot (sehr guter Zustand), weitere Angebote ab etwa 1.800 EUR."
+   }
   },
   {
    "id": "max-bill",
@@ -18064,7 +18200,24 @@
    "dial": "Weiß",
    "iref": "027/3700",
    "irefs": "mittel",
-   "vy": "1961"
+   "vy": "1961",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "027/3700",
+      "Liste",
+      620,
+      "",
+      null,
+      [
+       "GBP",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "027/3700: Listenpreis der 027/3700.00 laut Watches of Switzerland UK (Datum der Listung unklar, möglicherweise älter); US-Listung der 027/3700.02: 1.670 USD."
+   }
   },
   {
    "id": "g-shock",
@@ -18190,7 +18343,24 @@
    "dial": "Digitalanzeige",
    "iref": "DW-5600E-1V",
    "irefs": "hoch",
-   "vy": "1987"
+   "vy": "1987",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "DW-5600",
+      "Liste 2026",
+      99.95,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "DW-5600: Listenpreis USA laut Casio-Website (2026). Kein Gebrauchtmarkt im eigentlichen Sinn, da Neuware günstig erhältlich. Ausführung DW5600E-1V."
+   }
   },
   {
    "id": "classique",
@@ -18663,6 +18833,39 @@
     "u": "USD",
     "rows": [
      [
+      "SO33R100",
+      "Liste 2022",
+      260,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "SO33N100",
+      "Liste 2022",
+      260,
+      "heute",
+      288,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "SO33",
+      "Liste 2022",
+      260,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "SO33M100 »Mission to the Moon«",
       "Liste 2022",
       260,
@@ -18670,7 +18873,7 @@
       253
      ]
     ],
-    "n": "Listenpreis zur Einführung 2022, Gebrauchtpreis: Marktschätzung von WatchCharts (November 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis zur Einführung 2022, Gebrauchtpreis: Marktschätzung von WatchCharts (November 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. SO33: Einheitlicher Einführungspreis der MoonSwatch-Kollektion (März 2022) laut StockX. SO33R100: Einheitlicher Einführungspreis 2022 laut StockX; kein verlässlicher aktueller Marktpreis gefunden (Händlerangebot Stadium Goods 443 USD). SO33N100: Einführungspreis 2022 laut StockX; Gebrauchtpreis: WatchCharts-Marktpreis (kurz nach Einführung zeitweise über 1.000 USD gehandelt)."
    },
    "ev": [
     [
@@ -18806,7 +19009,38 @@
      850,
      "PRX Powermatic 80, 40 mm, USA"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. T137.407.11.041.00: Listenpreis Deutschland laut Tissot (2026); Einführungspreis 2021 laut Tissot-Factsheet (UVP). T137.407.11.091.00: Listenpreis USA laut Tissot-Website (2026).",
+    "rows": [
+     [
+      "T137.407.11.091.00",
+      "Liste 2026",
+      850,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
+      "T137.407.11.041.00",
+      "Liste 2026",
+      775,
+      "",
+      null,
+      [
+       "EUR",
+       "USD"
+      ],
+      [
+       [
+        "2021",
+        660,
+        "EUR"
+       ]
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -18925,7 +19159,20 @@
      3700,
      "Aquis Date Calibre 400, 41,5 mm, USA (Oris)"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. 01 400 7769 4135: Listenpreis Euroraum laut Oris (Slowakei) und Bucherer, Ausführung mit Stahlband (-07 8 22 09PEB); USA: 3.700 USD.",
+    "rows": [
+     [
+      "01 400 7769 4135",
+      "Liste 2026",
+      3500,
+      "",
+      null,
+      [
+       "EUR",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -20357,7 +20604,20 @@
      720,
      "Prospex Alpinist SPB121 (Seiko, Nahost-Seite)"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. SPB121: Listenpreis USA laut Seiko/Händlern, Gebrauchtpreis: Marktschätzung WatchCharts (November 2026).",
+    "rows": [
+     [
+      "SPB121",
+      "Liste 2026",
+      725,
+      "heute",
+      665,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -20511,7 +20771,24 @@
    ],
    "dial": "Elfenbein",
    "iref": "SBGW231",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "SBGW231",
+      "Liste 2025",
+      4300,
+      "heute",
+      3014,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "SBGW231: Letzter Listenpreis USA (Watches of Switzerland/WatchCharts, April 2025, inzwischen eingestellt); Gebrauchtpreis: WatchCharts-Marktpreis Oktober 2026."
+   }
   },
   {
    "id": "spirit",
@@ -20637,7 +20914,24 @@
    ],
    "dial": "Blau",
    "iref": "L3.810.4.93.6",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "L3.810.4",
+      "Liste 2026",
+      2850,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "L3.810.4: Listenpreis USA laut Longines-Website (Ausführung L3.810.4.03.6; andere Ausführungen ab 2.550 USD)."
+   }
   },
   {
    "id": "gentleman",
@@ -20721,6 +21015,17 @@
     "u": "EUR",
     "rows": [
      [
+      "T127.407.11.041.00",
+      "Liste 2026",
+      950,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ]
+     ],
+     [
       "T127.407.11.351.00",
       "Liste",
       930,
@@ -20732,7 +21037,7 @@
       ]
      ]
     ],
-    "n": "Listenpreis laut europäischem Händler, Gebrauchtpreis: Marktschätzung von WatchCharts (November 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis laut europäischem Händler, Gebrauchtpreis: Marktschätzung von WatchCharts (November 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. T127.407.11.041.00: Listenpreis USA laut Tissot-Website (2026)."
    },
    "ev": [
     [
@@ -20862,7 +21167,20 @@
      1095,
      "Khaki Field Murph 42 mm, H70605731, USA (Händler)"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. H70605731: Listenpreis USA laut Hamilton-Website (2026). International: 950 CHF.",
+    "rows": [
+     [
+      "H70605731",
+      "Liste 2026",
+      1095,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -21004,7 +21322,24 @@
    ],
    "dial": "Silber",
    "iref": "301",
-   "irefs": "mittel"
+   "irefs": "mittel",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "301",
+      "Liste 2026",
+      1900,
+      "",
+      null,
+      [
+       "EUR",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "301: Listenpreis laut Nomos-Kaliberseite (»ab 1.900 EUR« für Orion 301/309); Stand der Seite unsicher, ggf. Einstiegspreis der Modellgruppe."
+   }
   },
   {
    "id": "pasha",
@@ -21542,7 +21877,20 @@
      2650,
      "Captain Cook Automatic 42 mm, R32137153, Europa (Händler)"
     ],
-    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr."
+    "n": "Listenpreis laut Hersteller- bzw. Händlerangaben, ohne Gewähr. R32505315: Listenpreis USA (Februar 2020) und Gebrauchtpreis (Marktpreis Oktober 2026) laut WatchCharts; Referenz inzwischen eingestellt.",
+    "rows": [
+     [
+      "R32505315",
+      "Liste 2020",
+      2300,
+      "heute",
+      1374,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ]
    },
    "ev": [
     [
@@ -21677,7 +22025,24 @@
    ],
    "dial": "Schwarz",
    "iref": "BN0150-50E",
-   "irefs": "hoch"
+   "irefs": "hoch",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "BN0150",
+      "Liste 2026",
+      395,
+      "heute",
+      189,
+      [
+       "USD",
+       "USD"
+      ]
+     ]
+    ],
+    "n": "BN0150: Ausführung BN0150-28E: Listenpreis laut Händler Feldmar (USA), Gebrauchtpreis: WatchCharts-Marktpreis Oktober 2026 (BN0150-61E am Stahlband: rund 203 USD)."
+   }
   },
   {
    "id": "sub-300",
@@ -21796,7 +22161,24 @@
    "dial": "Orange",
    "iref": "840.10.351.10",
    "irefs": "mittel",
-   "vy": "1967"
+   "vy": "1967",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "840.10.351.10",
+      "Liste",
+      2190,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "840.10.351.10: Listenpreis der Sub 300T Professional laut The Watch Pages (Datum unklar)."
+   }
   },
   {
    "id": "laco-aachen",
@@ -26685,6 +27067,17 @@
     "u": "USD",
     "rows": [
      [
+      "SRPD27",
+      "Liste 2020",
+      495,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "SRPD25",
       "Liste 2023",
       525,
@@ -26692,7 +27085,7 @@
       289
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. SRPD27: Listenpreis USA laut Seiko-Katalog 2020 (ein Katalog von 2019 nennt abweichend 625 USD; unsicher)."
    },
    "lume": {
     "z": "IHP",
@@ -26798,6 +27191,17 @@
     "u": "USD",
     "rows": [
      [
+      "SPB101",
+      "Liste 2026",
+      810,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "SPB103",
       "Liste 2023",
       850,
@@ -26805,7 +27209,7 @@
       423
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. SPB101: Listenpreis laut Seiko-Lineup (Region Naher Osten, in USD)."
    },
    "lume": {
     "z": "IHP",
@@ -27055,6 +27459,17 @@
     "u": "USD",
     "rows": [
      [
+      "SJE083",
+      "Liste 2020",
+      3300,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "SPB279",
       "Liste (Frankreich)",
       1800,
@@ -27066,7 +27481,7 @@
       ]
      ]
     ],
-    "n": "Listenpreis in Euro laut Seiko Frankreich; Gebrauchtwert als WatchCharts-Schätzung (Nov. 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis in Euro laut Seiko Frankreich; Gebrauchtwert als WatchCharts-Schätzung (Nov. 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. SJE083: Listenpreis der limitierten Neuauflage (2020) laut US-Händler Manfredi Jewels; Seiko Singapur: 5.082,50 SGD."
    },
    "lume": {
     "z": "IH",
@@ -28157,9 +28572,20 @@
       null,
       "heute",
       1499
+     ],
+     [
+      "201",
+      "Liste 2026",
+      1740,
+      "",
+      null,
+      [
+       "EUR",
+       "EUR"
+      ]
      ]
     ],
-    "n": "Ein einzelnes Gebrauchtangebot auf eBay; ein aktueller Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Ein einzelnes Gebrauchtangebot auf eBay; ein aktueller Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 201: Listenpreis laut Nomos-Kaliberseite (»ab 1.740 EUR« für Ludwig 201/205); Stand der Seite unsicher, ggf. Einstiegspreis der Modellgruppe."
    },
    "lume": {
     "z": "",
@@ -28264,9 +28690,20 @@
       1870,
       "heute",
       725
+     ],
+     [
+      "401",
+      "Liste 2026",
+      1820,
+      "",
+      null,
+      [
+       "EUR",
+       "EUR"
+      ]
      ]
     ],
-    "n": "Neupreis laut Händler (Spanne 1.660 bis 2.300 EUR); der Gebrauchtpreis ist ein einzelner eBay-Verkauf einer älteren Tetra. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Neupreis laut Händler (Spanne 1.660 bis 2.300 EUR); der Gebrauchtpreis ist ein einzelner eBay-Verkauf einer älteren Tetra. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 401: Listenpreis laut Nomos-Kaliberseite (1.820 EUR für Tetra 27, Ref. 401); Stand der Seite unsicher, ggf. Einstiegspreis der Modellgruppe."
    },
    "lume": {
     "z": "",
@@ -28377,14 +28814,18 @@
     "u": "USD",
     "rows": [
      [
-      "Conquest",
-      "Händler",
-      3030,
-      "heute",
-      null
+      "L3.830.4",
+      "Liste 2026",
+      2200,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Preisangabe von der Longines-Website (Singapur); je nach Referenz unterschiedlich. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Preisangabe von der Longines-Website (Singapur); je nach Referenz unterschiedlich. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. L3.830.4: Listenpreis USA laut Longines-Website (Ausführung L3.830.4.92.9 (blau); andere Blattfarben bis 2.400 USD)."
    },
    "lume": {
     "z": "IH",
@@ -28501,9 +28942,20 @@
       "heute",
       null,
       "CHF"
+     ],
+     [
+      "L3.781.4",
+      "Liste 2026",
+      2000,
+      "",
+      null,
+      [
+       "USD",
+       "CHF"
+      ]
      ]
     ],
-    "n": "Listenpreis laut Händlerangabe; je nach Referenz bis rund 3.000 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis laut Händlerangabe; je nach Referenz bis rund 3.000 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. L3.781.4: Listenpreis USA laut Longines-Website (Ausführungen L3.781.4.05.6 und L3.781.4.56.6)."
    },
    "lume": {
     "z": "IHP",
@@ -28623,7 +29075,24 @@
    "dial": "Creme",
    "iref": "L4.795.4.78.2",
    "irefs": "mittel",
-   "vy": "1957"
+   "vy": "1957",
+   "preis": {
+    "u": "EUR",
+    "rows": [
+     [
+      "L4.795.4",
+      "Liste 2026",
+      2150,
+      "",
+      null,
+      [
+       "USD",
+       "EUR"
+      ]
+     ]
+    ],
+    "n": "L4.795.4: Listenpreis USA laut Longines-Website (Ausführung L4.795.4.58.0)."
+   }
   },
   {
    "id": "jazzmaster",
@@ -28710,9 +29179,20 @@
       1095,
       "heute",
       null
+     ],
+     [
+      "H32451141",
+      "Liste 2026",
+      745,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis laut Hamilton USA (je nach Ausführung bis 1.050 EUR); gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis laut Hamilton USA (je nach Ausführung bis 1.050 EUR); gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. H32451141: Listenpreis USA laut Hamilton-Website (2026). International: 595 CHF."
    },
    "lume": {
     "z": "",
@@ -28934,9 +29414,20 @@
       1400,
       "heute",
       1365
+     ],
+     [
+      "104.010",
+      "Liste 2026",
+      1530,
+      "",
+      null,
+      [
+       "EUR",
+       "USD"
+      ]
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 104.010: Listenpreis laut Sinn (104 St Sa I, Lederband)."
    },
    "lume": {
     "z": "IH",
@@ -29160,9 +29651,20 @@
       null,
       "heute",
       2326
+     ],
+     [
+      "356.020",
+      "Liste 2026",
+      2150,
+      "",
+      null,
+      [
+       "EUR",
+       "USD"
+      ]
      ]
     ],
-    "n": "Gebrauchtangebote bei etwa 1.350 bis 1.950 EUR für die Sa; für die 356.072 liegt die Spanne bei 1.800 bis 2.350 EUR, hier die Mitte. Ein Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Gebrauchtangebote bei etwa 1.350 bis 1.950 EUR für die Sa; für die 356.072 liegt die Spanne bei 1.800 bis 2.350 EUR, hier die Mitte. Ein Listenpreis lag nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 356.020: Listenpreis laut Sinn (356 Pilot); ältere Listung nannte 2.100 EUR."
    },
    "lume": {
     "z": "IHS",
@@ -29483,14 +29985,18 @@
     "u": "USD",
     "rows": [
      [
-      "F-91W-1",
-      "Händler",
-      23,
-      "heute",
-      null
+      "F-91W",
+      "Liste 2026",
+      29.95,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Neupreis im US-Handel, meist 18 bis 22 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Neupreis im US-Handel, meist 18 bis 22 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. F-91W: Listenpreis USA laut Casio-Website (2026). Kein Gebrauchtmarkt im eigentlichen Sinn, da Neuware günstig erhältlich."
    },
    "lume": {
     "z": "L",
@@ -29589,6 +30095,17 @@
     "u": "USD",
     "rows": [
      [
+      "GA-2100",
+      "Liste 2026",
+      110,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "GA-2100-1A3",
       "Liste",
       130,
@@ -29596,7 +30113,7 @@
       137
      ]
     ],
-    "n": "Gebrauchtwert als Mitte der Handelsspanne von 96 bis 150 EUR der letzten zwölf Monate. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Gebrauchtwert als Mitte der Handelsspanne von 96 bis 150 EUR der letzten zwölf Monate. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. GA-2100: Listenpreis USA laut Casio-Website (2026). Kein Gebrauchtmarkt im eigentlichen Sinn, da Neuware günstig erhältlich. Ausführung GA2100-1A1."
    },
    "lume": {
     "z": "IH",
@@ -29915,6 +30432,17 @@
     "u": "USD",
     "rows": [
      [
+      "T120.410.11.041.00",
+      "Liste 2026",
+      515,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "T120.407.11.051.00",
       "Liste",
       925,
@@ -29922,7 +30450,7 @@
       445
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. T120.410.11.041.00: Listenpreis USA laut Tissot-Website (2026)."
    },
    "lume": {
     "z": "IHP",
@@ -30022,6 +30550,17 @@
     "u": "USD",
     "rows": [
      [
+      "T006.407.11.033.00",
+      "Liste 2026",
+      795,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "T006.407.16.053.00",
       "Liste",
       715,
@@ -30029,7 +30568,7 @@
       357
      ]
     ],
-    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Marktschätzung von WatchCharts (Herbst 2026). Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. T006.407.11.033.00: Listenpreis USA laut Tissot-Website (2026)."
    },
    "lume": {
     "z": "",
@@ -30376,9 +30915,20 @@
        "CHF",
        "USD"
       ]
+     ],
+     [
+      "01 751 7761 4164",
+      "Liste 2026",
+      2250,
+      "",
+      null,
+      [
+       "EUR",
+       "USD"
+      ]
      ]
     ],
-    "n": "Listenpreis laut Oris; Gebrauchtwert als Mitte der Angebote zwischen 2.200 und 3.300 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Listenpreis laut Oris; Gebrauchtwert als Mitte der Angebote zwischen 2.200 und 3.300 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 01 751 7761 4164: Listenpreis Niederlande laut Oris (Ausführung -07 8 20 08)."
    },
    "lume": {
     "z": "IH",
@@ -31662,9 +32212,20 @@
       2890,
       "heute",
       null
+     ],
+     [
+      "821.10.101.10",
+      "Liste 2026",
+      2890,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
      ]
     ],
-    "n": "Händlerpreis in den USA; die Variante 300T liegt bei etwa 1.900 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Händlerpreis in den USA; die Variante 300T liegt bei etwa 1.900 EUR. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. 821.10.101.10: Listenpreis laut US-Händler Righttime; Watches of Switzerland UK: 2.590 GBP."
    },
    "lume": {
     "z": "IHP",
@@ -33006,6 +33567,17 @@
     "u": "USD",
     "rows": [
      [
+      "CA-53W",
+      "Liste 2026",
+      39.95,
+      "",
+      null,
+      [
+       "USD",
+       "USD"
+      ]
+     ],
+     [
       "CA-53WF-8B",
       "Händler",
       31.95,
@@ -33013,7 +33585,7 @@
       null
      ]
     ],
-    "n": "Neupreis bei einem US-Händler; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region."
+    "n": "Neupreis bei einem US-Händler; gebrauchte Preise lagen nicht vor. Ungefähre Werte ohne Gewähr; tatsächliche Preise schwanken je nach Zustand, Zifferblatt und Region. CA-53W: Listenpreis USA laut Casio-Website (2026). Kein Gebrauchtmarkt im eigentlichen Sinn, da Neuware günstig erhältlich."
    },
    "lume": {
     "z": "L",
