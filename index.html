@@ -1374,7 +1374,7 @@ const BRAND_STYLE = {
   "Laco": { s: 6, w: 700, ls: 1.6, o: "" }
 };
 
-const IMGV = "2026113053";
+const IMGV = "2026113054";
 // Leuchtstärke einzelner Bilder (Deckkraft der Leuchtebene nachts), z. B. sehr alte Tritium-Leuchtmasse
 const LUME_OP = {}; // bei neuen Bildern hochzählen (Cache)
 function drawWatch(v = {}, e = null) {
@@ -3619,7 +3619,7 @@ window.addEventListener("hashchange", () => {
 // Handy: Artikel (Modell, Referenz, Lexikon) beginnen so weit gescrollt, dass oben der Menü-Knopf über dem Artikel steht
 function articleStart() {
   const h = decodeURIComponent(location.hash.slice(1)); if (!h || !(REFART[h] || byId[h])) return;
-  if (innerWidth > 760) { const hd = document.querySelector("body > header"); if (hd) window.scrollTo({ top: Math.max(0, hd.getBoundingClientRect().bottom + scrollY - 1) }); return; } /* PC: bis zum Strich unter der Suchleiste */
+  if (innerWidth > 760) { const hd = document.querySelector("body > header"); if (hd) window.scrollTo({ top: Math.max(0, hd.getBoundingClientRect().bottom + scrollY + 6) }); return; } /* PC: bis zum Strich unter der Suchleiste */
   const menu = $("#menu"); if (!menu || !menu.offsetParent) return;
   window.scrollTo({ top: Math.max(0, menu.getBoundingClientRect().top + scrollY - 12) });
 }
