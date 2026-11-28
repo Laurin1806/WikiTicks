@@ -555,7 +555,7 @@ img.wimg { object-fit: contain; background: transparent; mix-blend-mode: multipl
 :root.vintage.night .vintbtn[aria-pressed="true"] { background: color-mix(in srgb, var(--accent) 10%, #0b0d0c); color: color-mix(in srgb, var(--accent) 70%, #fff); border-color: color-mix(in srgb, var(--accent) 45%, #0b0d0c); box-shadow: 0 0 14px color-mix(in srgb, var(--accent) 25%, transparent); }
 :root.vintage:not(.night) .vintbtn[aria-pressed="true"] { background: #dcebe6; color: #1f5f5a; border-color: #8fbcb5; }
 .wimg-wrap { position: relative; display: inline-block; line-height: 0; max-width: 100%; }
-.wimg-wrap[data-fit] > * { transform: translateX(var(--fx)) scale(var(--fs)); transform-origin: 50% 50%; } /* Uhr mittig, Größe nach Gehäusedurchmesser */
+.wimg-wrap[data-fit] > * { transform: translate(var(--fx), var(--fy, 0%)) scale(var(--fs)); transform-origin: 50% 50%; } /* Uhr mittig, Größe nach Gehäusedurchmesser */
 #zoom .wimg-wrap[data-fit] > * { transform: none; }
 #zoom img.wcut, #zoom img.wlume { position: absolute; left: 0; right: 0; top: 4px; width: 100%; height: calc(100% - 8px); object-fit: contain; pointer-events: none; opacity: 0; }
 :root.night #zoom img.wcut { opacity: 1; } :root.night #zoom img.wlume { opacity: 1; mix-blend-mode: screen; }
@@ -1400,7 +1400,7 @@ function drawWatch(v = {}, e = null) {
     const bn = v.img.split("/").pop(), noL = LUMEMASK.get(bn) === "n", lmk = LUMEMASK.has(bn) && !noL, lc = lmk ? LUMEMASK.get(bn) : e && e.lume ? e.lume.c : "g";
     const nd = NIGHT_DIM[bn], lo = LUME_OP[bn], lm = (nd ? ` data-dim="${nd.join(",")}"` : "") + (lo ? " data-lo" : "") + (e && e.lume ? ` data-id="${e.id}" data-lz="${e.lume.z}" data-lc="${lc}" data-rm="${e.lume.rmax || ""}" data-sub="${v.sub || ""}" data-date="${v.date || ""}" data-mk="${v.markers || "baton"}" data-sh="${v.shape || "round"}"` : "");
     const ovl = lmk ? `<img class="wlume-img" src="assets/watches/lume/${bn.replace(/\.[a-z]+$/i, ".png")}?v=${IMGV}" alt="" aria-hidden="true" loading="lazy">` : "";
-    const ft = IMGFIT.get(bn), stl = [lo ? `--lo:${lo}` : "", ft ? `--fs:${ft[0]};--fx:${(ft[1] * 100).toFixed(2)}%` : ""].filter(Boolean).join(";"), fst = (ft ? " data-fit" : "") + (stl ? ` style="${stl}"` : "");
+    const ft = IMGFIT.get(bn), stl = [lo ? `--lo:${lo}` : "", ft ? `--fs:${ft[0]};--fx:${(ft[1] * 100).toFixed(2)}%${ft[2] ? `;--fy:${(ft[2] * 100).toFixed(2)}%` : ""}` : ""].filter(Boolean).join(";"), fst = (ft ? " data-fit" : "") + (stl ? ` style="${stl}"` : "");
     return `<span class="wimg-wrap"${lm}${lmk ? ' data-lmk="1"' : ""}${noL ? ' data-nol="1"' : ""}${fst}>${base}${ovl}</span>`;
   }
   const brand = e ? e.brand : "", model = e ? shortName(e) : "";
