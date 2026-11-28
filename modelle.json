@@ -34840,9 +34840,9 @@
  },
  "imgFit": {
   "rolex-submariner-126610ln.jpg": [
-   0.941,
+   0.965,
    0.0312,
-   -0.0017
+   -0.001
   ],
   "rolex-submariner-1680-red.jpg": [
    1.02,
@@ -34870,14 +34870,14 @@
    0.0184
   ],
   "rolex-explorer-2-1655-freccione.jpg": [
-   0.919,
+   0.896,
    0.0643,
-   0.014
+   0.0132
   ],
   "rolex-explorer-ii-226570-polar.jpg": [
-   0.887,
+   0.931,
    0.0385,
-   -0.0071
+   -0.0056
   ],
   "rolex-daytona-126500ln.jpg": [
    0.837,
@@ -34885,9 +34885,9 @@
    -0.0292
   ],
   "rolex-daytona-6239-paul-newman.jpg": [
-   0.876,
+   0.81,
    0.0051,
-   -0.0236
+   -0.0258
   ],
   "rolex-daytona-116520.jpg": [
    0.839,
@@ -34960,24 +34960,24 @@
    0.0208
   ],
   "rolex-sea-dweller-126600.jpg": [
-   0.948,
+   0.982,
    0.044,
-   0.0219
+   0.023
   ],
   "rolex-sea-dweller-1665-double-red.jpg": [
-   1.058,
+   1.02,
    0.0253,
-   0.0524
+   0.0513
   ],
   "patek-philippe-nautilus-5811-blue.jpg": [
-   0.827,
+   0.848,
    -0.0007,
-   -0.0189
+   -0.0182
   ],
   "patek-philippe-nautilus-3800-1a-blue.jpg": [
-   0.911,
+   0.854,
    0.0145,
-   0.0057
+   0.0038
   ],
   "patek-philippe-nautilus-5711-1a-white.jpg": [
    0.904,
@@ -34995,8 +34995,9 @@
    -0.0149
   ],
   "patek-philippe-nautilus-3700-1a.jpg": [
-   0.869,
-   0.0152
+   0.912,
+   0.0152,
+   0.0015
   ],
   "patek-philippe-calatrava-6119g.jpg": [
    0.925,
@@ -35009,24 +35010,24 @@
    -0.0025
   ],
   "patek-philippe-calatrava-yellow-gold.jpg": [
-   0.779,
+   0.73,
    0.0405,
-   -0.0005
+   -0.0024
   ],
   "patek-philippe-pilot-travel-time.jpg": [
-   0.937,
+   0.996,
    0.0021,
-   0.0092
+   0.0111
   ],
   "patek-philippe-aquanaut-5167a-black.jpg": [
-   0.894,
+   0.876,
    0.0347,
-   -0.026
+   -0.0266
   ],
   "patek-philippe-aquanaut-5168g-khaki.jpg": [
-   0.939,
+   0.971,
    0.0298,
-   -0.0061
+   -0.0051
   ],
   "patek-philippe-aquanaut-5164a-travel-time.jpg": [
    0.885,
@@ -35072,14 +35073,14 @@
    -0.002
   ],
   "omega-speedmaster-57-black.jpg": [
-   0.993,
+   0.961,
    0.0422,
-   0.0022
+   0.0012
   ],
   "omega-speedmaster-dark-side-of-the-moon.jpg": [
-   1.0,
+   1.032,
    0.034,
-   0.0016
+   0.0026
   ],
   "omega-seamaster-diver-300m-210-30-42-20.jpg": [
    0.93,
@@ -35107,9 +35108,9 @@
    0.0049
   ],
   "tudor-black-bay.jpg": [
-   0.818,
+   0.86,
    0.0143,
-   -0.0198
+   -0.0183
   ],
   "tudor-black-bay-blue.jpg": [
    0.753,
@@ -35122,9 +35123,9 @@
    0.0082
   ],
   "tudor-black-bay-54-m79000n.jpg": [
-   0.989,
+   0.938,
    0.0332,
-   0.0136
+   0.0121
   ],
   "tudor-pelagos.jpg": [
    0.919,
@@ -35174,9 +35175,9 @@
    -0.0029
   ],
   "iwc-portugieser-chronograph-iw3716.jpg": [
-   0.888,
+   0.859,
    0.0469,
-   -0.0397
+   -0.0407
   ],
   "iwc-portugieser-perpetual-calendar.jpg": [
    0.907,
@@ -35184,9 +35185,9 @@
    -0.009
   ],
   "iwc-portugieser-hand-wound.jpg": [
-   0.954,
+   0.99,
    0.036,
-   -0.0344
+   -0.0333
   ],
   "iwc-big-pilots-watch.jpg": [
    0.93,
@@ -35233,14 +35234,14 @@
    0.0119
   ],
   "rolex-air-king-126900-black.jpg": [
-   0.893,
+   0.965,
    0.0391,
-   0.0118
+   0.0142
   ],
   "rolex-air-king-5500.jpg": [
-   0.783,
+   0.72,
    0.0277,
-   -0.0311
+   -0.0335
   ],
   "rolex-milgauss-116400gv-black.jpg": [
    0.972,
@@ -35248,9 +35249,9 @@
    0.0197
   ],
   "rolex-milgauss-1019-black.jpg": [
-   1.137,
+   1.08,
    0.0183,
-   0.0283
+   0.0268
   ],
   "rolex-milgauss-116400gv-z-blue.jpg": [
    0.975,
@@ -35569,14 +35570,14 @@
    -0.0045
   ],
   "rolex-land-dweller-127334-white.jpg": [
-   0.874,
+   0.92,
    0.0296,
-   0.0016
+   0.0032
   ],
   "rolex-land-dweller-127234-blue.jpg": [
-   0.865,
+   0.819,
    0.0121,
-   0.0054
+   0.0038
   ],
   "seiko-prospex-turtle.jpg": [
    0.916,
@@ -35967,9 +35968,9 @@
    0.006
   ],
   "audemars-piguet-royal-oak-5402-blue-2.jpg": [
-   1.068,
+   1.016,
    -0.0015,
-   0.0173
+   0.0158
   ],
   "rolex-submariner-16610.jpg": [
    1.014,
@@ -35977,14 +35978,14 @@
    0.011
   ],
   "rolex-submariner-126610ln-2.jpg": [
-   0.986,
+   1.011,
    0.0052,
-   0.0146
+   0.0153
   ],
   "rolex-submariner-6538-tropical.jpg": [
-   1.174,
+   1.115,
    0.0039,
-   0.0071
+   0.0056
   ],
   "rolex-gmt-master-2-16710-black.jpg": [
    0.989,
@@ -36002,9 +36003,9 @@
    0.029
   ],
   "rolex-gmt-master-6542.jpg": [
-   1.065,
+   1.012,
    0.0143,
-   -0.0064
+   -0.0079
   ],
   "rolex-submariner-16800.jpg": [
    1.042,
@@ -36037,9 +36038,9 @@
    -0.0124
   ],
   "rolex-submariner-6204.jpg": [
-   0.901,
+   0.833,
    0.0036,
-   -0.006
+   -0.0082
   ],
   "rolex-submariner-16800-matt.jpg": [
    0.944,
